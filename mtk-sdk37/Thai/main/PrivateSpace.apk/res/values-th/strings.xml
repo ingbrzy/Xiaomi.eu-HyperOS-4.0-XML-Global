@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_mode_done">เสร็จ</string>
+    <string name="abc_capital_off">ปิด</string>
+    <string name="abc_capital_on">เปิด</string>
+    <string name="abc_search_hint">ค้นหา…</string>
+    <string name="abc_searchview_description_clear">ล้างคำค้นหา</string>
+    <string name="abc_searchview_description_search">ค้นหา</string>
+    <string name="abc_searchview_description_submit">ส่งคำค้นหา</string>
+    <string name="abc_searchview_description_voice">ค้นหาด้วยเสียง</string>
+    <string name="abc_toolbar_collapse_description">ยุบ</string>
+    <string name="filetransfer_dialog_still_copying_error_title">กำลังคัดลอกไฟล์</string>
+    <string name="filetransfer_dialog_still_moving_error_title">กำลังย้ายไฟล์</string>
+    <string name="filetransfer_dialog_still_transferring_error_message">คุณคัดลอกหรือย้ายไฟล์เพิ่มเติมได้เมื่อการดำเนินการนี้เสร็จสิ้น</string>
+    <string name="filetransfer_error_dialog_button">ตกลง</string>
+    <string name="filetransfer_error_toast_cannot_transfer_from_same_user">คัดลอกหรือย้ายไฟล์จากพื้นที่ส่วนตัวไม่ได้</string>
+    <string name="filetransfer_generic_copy_error_message">คุณลองคัดลอกไฟล์อีกครั้งได้</string>
+    <string name="filetransfer_generic_move_error_message">คุณลองย้ายไฟล์อีกครั้งได้</string>
+    <string name="filetransfer_large_files_size_error_message">คุณคัดลอกหรือย้ายได้ครั้งละไม่เกิน 2 GB เท่านั้น</string>
+    <string name="filetransfer_large_files_size_error_title">ขนาดไฟล์รวมใหญ่เกินไป</string>
+    <string name="filetransfer_notification_action_label">{count,plural, =1{แสดงไฟล์}other{แสดงไฟล์}}</string>
+    <string name="filetransfer_notification_channel_description">เมื่อคัดลอกหรือย้ายไฟล์ไปยังพื้นที่ส่วนตัว คุณจะได้รับการแจ้งเตือนเพื่ออัปเดตความคืบหน้า</string>
+    <string name="filetransfer_notification_channel_name">การแจ้งเตือนการโอนไฟล์</string>
+    <string name="filetransfer_notification_copy_complete_text">{count,plural, =1{คัดลอกไฟล์ที่เลือกไปยังพื้นที่ส่วนตัวแล้ว}other{คัดลอกไฟล์ที่เลือกไปยังพื้นที่ส่วนตัวแล้ว}}</string>
+    <string name="filetransfer_notification_copy_complete_title">{count,plural, =1{คัดลอกแล้ว # ไฟล์}other{คัดลอกแล้ว # ไฟล์}}</string>
+    <string name="filetransfer_notification_copy_error_title">คัดลอกไฟล์ไม่ได้</string>
+    <string name="filetransfer_notification_copy_progress_text">{count,plural, =1{กำลังคัดลอกไฟล์ที่เลือกไปยังพื้นที่ส่วนตัว}other{กำลังคัดลอกไฟล์ที่เลือกไปยังพื้นที่ส่วนตัว}}</string>
+    <string name="filetransfer_notification_copy_progress_title">{count,plural, =1{กำลังคัดลอกไฟล์ # ไฟล์}other{กำลังคัดลอกไฟล์ # ไฟล์}}</string>
+    <string name="filetransfer_notification_incomplete_copy_transfer_message">พื้นที่ส่วนตัวของคุณจะปิดขณะที่คัดลอก</string>
+    <string name="filetransfer_notification_incomplete_copy_transfer_title">คัดลอกบางไฟล์ไม่ได้</string>
+    <string name="filetransfer_notification_incomplete_move_transfer_message">พื้นที่ส่วนตัวของคุณจะปิดขณะที่ย้าย</string>
+    <string name="filetransfer_notification_incomplete_move_transfer_title">ย้ายบางไฟล์ไม่ได้</string>
+    <string name="filetransfer_notification_insufficient_storage_error_message">คุณมีพื้นที่เก็บข้อมูลของอุปกรณ์ไม่เพียงพอ</string>
+    <string name="filetransfer_notification_move_complete_text">{count,plural, =1{ย้ายไฟล์ที่เลือกไปยังพื้นที่ส่วนตัวแล้ว}other{ย้ายไฟล์ที่เลือกไปยังพื้นที่ส่วนตัวแล้ว}}</string>
+    <string name="filetransfer_notification_move_complete_title">{count,plural, =1{ย้ายแล้ว # ไฟล์}other{ย้ายแล้ว # ไฟล์}}</string>
+    <string name="filetransfer_notification_move_error_title">ย้ายไฟล์ไม่ได้</string>
+    <string name="filetransfer_notification_move_progress_text">{count,plural, =1{กำลังย้ายไฟล์ที่เลือกไปยังพื้นที่ส่วนตัว}other{กำลังย้ายไฟล์ที่เลือกไปยังพื้นที่ส่วนตัว}}</string>
+    <string name="filetransfer_notification_move_progress_title">{count,plural, =1{กำลังย้าย # ไฟล์}other{กำลังย้าย # ไฟล์}}</string>
+    <string name="filetransfer_notification_not_enough_storage_error_action">เพิ่มพื้นที่ว่าง</string>
+    <string name="filetransfer_notification_partial_copy_error_title">คัดลอกบางไฟล์ไม่ได้</string>
+    <string name="filetransfer_notification_partial_move_error_title">ย้ายบางไฟล์ไม่ได้</string>
+    <string name="filetransfer_notification_transfer_error_title">เพิ่มไฟล์ไม่ได้</string>
+    <string name="filetransfer_too_many_files_error_message">คุณคัดลอกหรือย้ายได้ครั้งละไม่เกิน 100 ไฟล์</string>
+    <string name="filetransfer_too_many_files_error_title">เลือกไฟล์มากเกินไป</string>
+    <string name="in_progress">กำลังดำเนินการ</string>
+    <string name="indeterminate">เลือกบางส่วน</string>
+    <string name="m3c_dialog">กล่องโต้ตอบ</string>
+    <string name="move_files_dialog_button_label_cancel">ยกเลิก</string>
+    <string name="move_files_dialog_button_label_copy">คัดลอก</string>
+    <string name="move_files_dialog_button_label_move">ย้าย</string>
+    <string name="move_files_dialog_summary">หากคุณย้ายไฟล์เหล่านี้ไปยังพื้นที่ส่วนตัว ระบบจะนำไฟล์เหล่านี้ออกจากโฟลเดอร์เดิม</string>
+    <string name="move_files_dialog_title">ย้ายหรือคัดลอกไฟล์ไหม</string>
+    <string name="not_selected">ไม่ได้เลือก</string>
+    <string name="private_space_activity_label">เพิ่ม</string>
+    <string name="private_space_app_label">พื้นที่ส่วนตัว</string>
+    <string name="selected">เลือกไว้</string>
+    <string name="shortcut_label_add_files">เพิ่มไฟล์</string>
+    <string name="shortcut_label_open_market_app">ติดตั้งแอป</string>
+    <string name="state_empty">ว่าง</string>
+    <string name="template_percent">%1$d เปอร์เซ็นต์</string>
+</resources>
