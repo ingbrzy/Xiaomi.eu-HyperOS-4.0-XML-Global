@@ -49,11 +49,13 @@
     <string name="app_casting">Alkalmazás kivetítése</string>
     <string name="app_name">Kivetítés</string>
     <string name="app_name_call">Telefon</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Üzenet</string>
     <string name="app_name_vtcamera">Készülékek közötti kamera</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -97,6 +99,8 @@ a készülékeit?"</string>
     <string name="appcirculate_toast_success_1">Sikeresen átváltva</string>
     <string name="appcirculate_toast_success_2">Kivetítés privát módban…</string>
     <string name="appcirculate_toast_success_3">Kivetítés…</string>
+    <string name="apple_watch_cross_device_notification">Értesítések</string>
+    <string name="apple_watch_health_data">Egészségügyi adatok</string>
     <string name="application_extension">Alkalmazásbővítmény</string>
     <string name="application_extension_content_pad">Használja a következőt külső kijelzőként: \"%1$s\". Ebben a különálló ablakban megjeleníthet alkalmazásokat.</string>
     <string name="application_extension_content_phone">Ez az alkalmazás csak a következőn jelenik meg: \"%1$s\"</string>
@@ -115,6 +119,8 @@ a készülékeit?"</string>
     <string name="bottomsheet_drag_handle_content_description">Csúszka</string>
     <string name="button_cancel">Mégse</string>
     <string name="button_confirm">Kiválaszt</string>
+    <string name="calendar_date_picker_a11y_next_month">Váltás a következő hónapra</string>
+    <string name="calendar_date_picker_a11y_prev_month">Váltás az előző hónapra</string>
     <string name="call_notification_answer_action">Fogadás</string>
     <string name="call_notification_answer_video_action">Videó</string>
     <string name="call_notification_decline_action">Elutasítás</string>
@@ -122,14 +128,20 @@ a készülékeit?"</string>
     <string name="call_notification_incoming_text">Bejövő hívás</string>
     <string name="call_notification_ongoing_text">Hívás folyamatban</string>
     <string name="call_notification_screening_text">Bejövő hívás szűrése</string>
+    <string name="camera_a11y_action_enter">Enter camera</string>
+    <string name="camera_a11y_action_fullscreen">Full screen</string>
+    <string name="camera_a11y_action_play_pause">Pause or play</string>
+    <string name="camera_a11y_action_switch_lens">Switch lens</string>
     <string name="camera_associate_failed">Nem sikerült csatlakozni a kamerához</string>
     <string name="camera_associate_success">A kamera csatlakoztatva</string>
+    <string name="camera_category_name">Kamerák</string>
     <string name="camera_composed_button">Kombinált</string>
     <string name="camera_composed_button_description">Kombinálja. Koppintson, hogy egyszerre két készülék kamerájával készítsen felvételeket.</string>
     <string name="camera_composed_no_device">Úgy tűnik, a készülék nincs a közelben</string>
     <string name="camera_composed_title">A készülék kamerájával kombinálva</string>
     <string name="camera_composed_using_title">Kombinált kamerák</string>
     <string name="camera_connecting_description">Csatlakozás…</string>
+    <string name="camera_count_tip">Összes kamera</string>
     <string name="camera_disassociate">Lecsatlakozva a kameráról</string>
     <string name="camera_discompose_button_description">Koppintson a kombinált felvétel leállításához, és váltson vissza ennek a készüléknek a kamerájára.</string>
     <string name="camera_glasses_content_description">A szemüveg csatlakoztatva ehhez az eszközhöz. Az aktiváláshoz nyomja meg kétszer. Nyomja meg két ujjal, és húzza az átvitelhez.</string>
@@ -181,6 +193,7 @@ a készülékeit?"</string>
     <string name="car_card_seat_main_seat">Sofőr</string>
     <string name="car_card_seat_second_seat">Első utas</string>
     <string name="car_card_seat_warm">Ülésfűtés</string>
+    <string name="car_card_tv_control_text">A hátsó szórakoztató rendszer képernyőjének távirányítója</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">AC</string>
     <string name="car_device_camera_name">%1$s elülső kamera</string>
@@ -192,8 +205,6 @@ a készülékeit?"</string>
     <string name="cast_closed_captions">Feliratok</string>
     <string name="cast_closed_captions_unavailable">A feliratok nem érhetők el</string>
     <string name="cast_connecting_to_device">Csatlakozás a következőhöz: %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Eszközök keresése</string>
-    <string name="cast_device_chooser_title">Átküldés ide:</string>
     <string name="cast_disconnect">Szétválasztás</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Ez a kép látható, amíg a Cast-erősítő hirdetést jelenít meg</string>
@@ -234,12 +245,10 @@ a készülékeit?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Feliratok</string>
     <string name="cast_unmute">Némítás feloldása</string>
-    <string name="cast_zero_devices_found">"Nem találhatók eszközök.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">További információ</a> arról, hogy miként küldhet át tartalmakat más eszközökre.</string>
     <string name="casting_tips">Kivetítés…</string>
     <string name="character_counter_content_description">Begépelt karakterszám: %2$d/%1$d</string>
     <string name="character_counter_overflowed_content_description">Maximális karakterszám túllépve: %2$d/%1$d</string>
+    <string name="check_device_list">Támogatott készülékek megtekintése</string>
     <string name="circulate_add_another_device_control_app">Alkalmazás hozzáadása</string>
     <string name="circulate_audio_group_title">Lejátszás…</string>
     <string name="circulate_back_button_content_description">Vissza</string>
@@ -258,6 +267,7 @@ a készülékeit?"</string>
     <string name="circulate_camera_glasses_error_device_not_support">A Szemüveg tartalma nem vihető át erre az eszközre</string>
     <string name="circulate_car_card_use_camera">Az EV elülső kamerájának használata</string>
     <string name="circulate_car_card_using_camera">Az EV elülső kamerájának használata</string>
+    <string name="circulate_car_card_using_pad_camera">A tablet kamerájának használata járművön</string>
     <string name="circulate_card_audio_change_pad_title">Váltás tablet hangjára</string>
     <string name="circulate_card_audio_change_phone_title">Váltás telefon hangjára</string>
     <string name="circulate_card_audio_playing_pad_title">Tablet hangjának használata</string>
@@ -396,6 +406,7 @@ a tablet képernyőjének tükrözéséhez"</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_pad">A tablet már csatlakoztatva van egy fülhallgatóhoz. Ha csatlakozik ehhez a szemüveghez, a fülhallgató lecsatlakozik. Csatlakozik most?</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_phone">A telefon már csatlakoztatva van egy fülhallgatóhoz. Ha csatlakozik ehhez a szemüveghez, a fülhallgató lecsatlakozik. Csatlakozik most?</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_tv">A TV már csatlakoztatva van egy fülhallgatóhoz. Ha csatlakozik ehhez a szemüveghez, a fülhallgató lecsatlakozik. Csatlakozik most?</string>
+    <string name="circulate_header_mijia">Intelligens eszközök</string>
     <string name="circulate_headset_back_to_box_desc">"1. Helyezze be mindkét fülhallgatót a töltőtokba.
 2. Nyomja meg és tartsa lenyomva a tokon lévő gombot.
 3. Fejezze be a párosítást a célkészüléken."</string>
@@ -511,6 +522,7 @@ a készülékeit?"</string>
     <string name="circulate_pad_card_use_desktop">Ossza meg a Kezdőképernyő+ funkciót a tablettel</string>
     <string name="circulate_pad_card_using_camera">Tablet kamerájának használata</string>
     <string name="circulate_pad_card_using_desktop">Kezdőképernyő+ megosztása tablettel</string>
+    <string name="circulate_pad_synergy_subtitle">Csatlakozott</string>
     <string name="circulate_pc_card_use_desktop">Ossza meg a Kezdőképernyő+ funkciót a számtógéppel</string>
     <string name="circulate_pc_card_use_km">Egér megosztása a számítógéppel</string>
     <string name="circulate_pc_card_using_camera">A számítógép használja a kamerát</string>
@@ -544,6 +556,17 @@ a készülékeit?"</string>
     <string name="circulate_sport_device_find_stop">Leállítás</string>
     <string name="circulate_sport_device_find_stop_failed">Nem sikerült leállítani az eszköz keresését. Próbálkozzon újra.</string>
     <string name="circulate_sport_device_find_watch">Óra keresése</string>
+    <string name="circulate_synergy_camera_car">A jármű kameráját használja</string>
+    <string name="circulate_synergy_camera_pad">A tablet a telefon kameráját használja</string>
+    <string name="circulate_synergy_camera_pc">A számítógép a telefon kameráját használja</string>
+    <string name="circulate_synergy_camera_phone">A telefon kameráját használja</string>
+    <string name="circulate_synergy_cast_tv">Kivetítés</string>
+    <string name="circulate_synergy_cellular_car">A jármű hotspotját használja</string>
+    <string name="circulate_synergy_cellular_phone">A telefon mobiladat-kapcsolatát használja</string>
+    <string name="circulate_synergy_desktop">A Kezdőképernyő+ funkciót használja</string>
+    <string name="circulate_synergy_km_pc">Egér és billentyűzet megosztása számítógéppel</string>
+    <string name="circulate_synergy_music_playing">Lejátszás</string>
+    <string name="circulate_synergy_telephone">Telefonhívás fogadása</string>
     <string name="circulate_taking_photo">Telefon kamerájának használata…</string>
     <string name="circulate_title">Xiaomi Smart Hub</string>
     <string name="circulate_to_mijia">Intelligens otthoni eszközök</string>
@@ -611,10 +634,15 @@ a készülékeit?"</string>
     <string name="connect_settings_connection_service">Összekapcsolhatóság</string>
     <string name="connect_settings_corp_network">Hálózati segítség</string>
     <string name="connect_settings_corp_phone">Hívásszinkronizálás</string>
+    <string name="connect_settings_corp_phone_close_toast">Nem sikerült kikapcsolni. Próbálja újra a hívás befejezése után.</string>
+    <string name="connect_settings_corp_phone_device_category">Elérhető készülékek</string>
+    <string name="connect_settings_corp_phone_not_found_summary">Ellenőrizze, hogy a tablet vagy számítógép a közelben van, ugyanazon Xiaomi Fiókba van bejelentkezve, és ugyanahhoz a hálózathoz csatlakozik. Érintse meg a „Frissítés” gombot, hogy újra megpróbálja.</string>
+    <string name="connect_settings_corp_phone_searching_summary">Ellenőrizze, hogy a tablet vagy számítógép a közelben van, ugyanazon Xiaomi Fiókba van bejelentkezve, és ugyanahhoz a hálózathoz csatlakozik</string>
     <string name="connect_settings_general_category_share_camera">Készülékek közötti kamera engedélyezése ezeken a készülékeken</string>
     <string name="connect_settings_general_category_share_launcher">Kezdőképernyő+ engedélyezése ezeken a készülékeken</string>
     <string name="connect_settings_general_summary_corp_phone_pad">Hívások fogadása a Xiaomi Fiókjába bejelentkezett közeli telefonokon vagy számítógépeken</string>
     <string name="connect_settings_general_summary_corp_phone_phone">Hívások fogadása a Xiaomi Fiókjába bejelentkezett közeli tableteken vagy számítógépeken</string>
+    <string name="connect_settings_general_summary_corp_phone_phone_v2">Válaszoljon erre a készülékre érkező hívásokra a tabletjén vagy számítógépén, amely ugyanazon Xiaomi Fiókba van bejelentkezve</string>
     <string name="connect_settings_general_summary_relay_app">"Használja ugyanazt az alkalmazást az összes Xiaomi Fiókjával bejelentkezett eszközön.
 Telefonok, tabletek és számítógépek esetében támogatott."</string>
     <string name="connect_settings_general_summary_share_camera">Használja telefonja kameráját a felvételi szög beállításához videóhívások vagy élő közvetítések során a Xiaomi Fiókjába bejelentkezett közeli tableteken és számítógépeken</string>
@@ -623,12 +651,15 @@ Telefonok, tabletek és számítógépek esetében támogatott."</string>
     <string name="connect_settings_general_summary_share_launcher_phone">Tekintse meg és vezérelje telefonját, és érje el az azon található alkalmazásokat a közeli tabletekről, számítógépekről és járművekről, amelyek be vannak jelentkezve Xiaomi Fiókjába</string>
     <string name="connect_settings_general_summary_share_launcher_phone_v2">Tekintse meg és vezérelje ezt az eszközt, és használja annak alkalmazásait a közelben lévő, ugyanazon fiókkal bejelentkezett telefonokról, tabletekről, számítógépekről vagy járművekről</string>
     <string name="connect_settings_general_summary_share_notification_pad">A Xiaomi Fiókjába bejelentkezett közeli telefonok vagy tabletek alacsony akkumulátor töltöttségi szintjéről szóló figyelmeztetések megjelenítése</string>
+    <string name="connect_settings_general_summary_share_notification_pad_v2">Ha a tabletje és telefonja ugyanazon Xiaomi Fiókba van bejelentkezve és ugyanahhoz a hálózathoz csatlakozik, a közeli telefonjáról érkező értesítések megjelenhetnek a tableten</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Jelenítsen meg fontos telefonos értesítéseket a Xiaomi Fiókjához bejelentkezett közeli tévék, tabletek és számítógépek képernyőjén.
 A tévéken futó ételrendelő és fuvarozási alkalmazásokkal, valamint a tableteken és számítógépeken megjelenő alacsony akkumulátor töltöttségi szintről szóló figyelmeztetésekkel működik."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Jelenítse meg telefonja alacsony akkumulátor töltöttségi szintjének értesítéseit egy közeli tableten, amely ugyanarra a fiókra van bejelentkezve</string>
     <string name="connect_settings_known_button">Rendben</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
+    <string name="connect_settings_mi_share_tap_share">Koppintson a megosztáshoz</string>
     <string name="connect_settings_nfc_share">Elemek átvitele NFC-n keresztül</string>
+    <string name="connect_settings_not_found_device_title">Nem találhatók elérhető készülékek</string>
     <string name="connect_settings_not_opened">Ki</string>
     <string name="connect_settings_opened">Be</string>
     <string name="connect_settings_presentation_password_error">Hibás adminjelszó</string>
@@ -638,6 +669,7 @@ A tévéken futó ételrendelő és fuvarozási alkalmazásokkal, valamint a tab
     <string name="connect_settings_relay_app">Alkalmazások</string>
     <string name="connect_settings_same_account">Ebből a fiókból</string>
     <string name="connect_settings_screen_cast">Kivetítés</string>
+    <string name="connect_settings_searching_device_title">Készülékek felfedezése</string>
     <string name="connect_settings_share_camera">Készülékek közötti kamera</string>
     <string name="connect_settings_share_clipboard">Vágólap</string>
     <string name="connect_settings_share_file">Készülékek közötti fájlok</string>
@@ -649,6 +681,7 @@ A tévéken futó ételrendelő és fuvarozási alkalmazásokkal, valamint a tab
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">Arc vagy jelszó feloldása</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Használja a Macjén található ujjlenyomatát vagy jelszavát a telefonja és alkalmazásai feloldásához</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock">Oldja fel telefonja és alkalmazásai zárolását a Xiaomi EV kameráján keresztül arcfelismeréssel</string>
+    <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock_v2">Használja a Xiaomi EV kamerát az arcfelismeréshez és Xiaomi-telefonja feloldásához</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">Arcalapú feloldás</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">Gyors alkalmazásindítás a zárolás feloldása után</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Használja a Xiaomi tabletjén található ujjlenyomatot vagy jelszót a telefonja és alkalmazásai feloldásához</string>
@@ -656,20 +689,31 @@ A tévéken futó ételrendelő és fuvarozási alkalmazásokkal, valamint a tab
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">Adjon hozzá telefonalkalmazásokat a tablet kezdőképernyőjéhez. A telefon feloldása után közvetlenül a tabletről indíthatja őket.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">Feloldáshoz használja az ujjlenyomatát vagy írjon be jelszót</string>
     <string name="connect_settings_share_notification">Értesítések</string>
+    <string name="connect_settings_share_notification_apple_watch">Értesítések megjelenítése erről a készülékeről az Apple Watch-ra</string>
+    <string name="connect_settings_share_notification_apple_watch_category">Értesítések szinkronizálása az órára</string>
     <string name="connect_settings_share_notification_help">Súgó</string>
     <string name="connect_settings_share_notification_iphone_device">Értesítések megjelenítése erről a készülékről az iPhone-on</string>
     <string name="connect_settings_share_notification_local_device">iPhone-értesítések megjelenítése ezen a készüléken</string>
     <string name="connect_settings_share_notification_local_device_summary">Hívások és üzenetek fogadásához ezen a készüléken, engedélyezze az értesítések szinkronizálását Xiaomi telefonjával a Xiaomi Interconnectivity > Értesítések szinkronizálása > Szinkronizálás Xiaomival menüpontban az iPhone-ján.</string>
     <string name="connect_settings_share_notification_local_device_summary_v2">Annak érdekében, hogy hívásokat fogadhasson és üzeneteket, valamint alkalmazásértesítéseket kaphasson Xiaomi-készülékén, csatlakozzon hozzá iPhone-ján a Xiaomi Interconnectivity > Értesítések szinkronizálása > Szinkronizálás Xiaomira menüpontban.</string>
     <string name="connect_settings_share_notification_local_device_title">Értesítések fogadása %1$s készülékről</string>
+    <string name="connect_settings_share_notification_local_low_battery_summary">A Xiaomi telefon alacsony akkumulátor töltöttségi szintjéről szóló figyelmeztetések megjelenítése ezen a készüléken</string>
+    <string name="connect_settings_share_notification_local_low_battery_title">Alacsony akkumulátor töltöttség riasztások</string>
     <string name="connect_settings_share_notification_local_other_mi_device">Értesítések megtekintése más Xiaomi-készülékek ezen a készüléken</string>
     <string name="connect_settings_share_notification_mi_device">Értesítések megjelenítése erről a készülékről a Xiaomi-készülékeken</string>
     <string name="connect_settings_share_notification_mi_device_category">Szinkronizálás közeli készülékekre</string>
     <string name="connect_settings_share_notification_mi_device_category_v2">Közeli készülékek</string>
+    <string name="connect_settings_share_notification_mi_device_category_v3">Értesítések szinkronizálása a közeli készülékekre</string>
     <string name="connect_settings_share_notification_mi_device_v2">Xiaomi tabletek vagy TV-k</string>
     <string name="connect_settings_share_notification_mi_device_v3">Xiaomi tabletek, számítógépek és TV-k</string>
     <string name="connect_settings_share_notification_more_feature">További funkciók</string>
+    <string name="connect_settings_share_notification_other_important">További szinkronizálási lehetőségek</string>
+    <string name="connect_settings_share_notification_other_important_summary">A Xiaomi telefonján megjelenő alacsony akkumulátor-töltöttségről szóló riasztásokat a Xiaomi tableteken és számítógépeken, az ételkiszállítási és fuvarmegosztási figyelmeztetéseket pedig a Xiaomi TV-ken jelenítheti meg.</string>
+    <string name="connect_settings_share_notification_other_important_title">Szinkronizálás Xiaomi tabletekre, számítógépekre és TV-kre</string>
     <string name="connect_settings_share_notification_other_mi_local_device">Értesítések megtekintése erről a készülékről más Xiaomi-készülékeken</string>
+    <string name="connect_settings_share_notification_pad_local">Értesítések megjelenítése erről a készülékeről a Xiaomi tableten</string>
+    <string name="connect_settings_share_notification_pad_mi_device_summary">A Xiaomi telefon alkalmazásértesítéseinek megjelenítése ezen a készüléken. A Beállítások > Összekapcsolhatóság > Készülékek közötti értesítések menüpontban válassza ki, mely értesítéseket szeretné szinkronizálni a telefonján.</string>
+    <string name="connect_settings_share_notification_pad_mi_device_title">Alkalmazásértesítések</string>
     <string name="connect_settings_share_notification_receive_tab">Fogadás</string>
     <string name="connect_settings_share_notification_receive_tab_device_category">Elérhető készülékek</string>
     <string name="connect_settings_share_notification_receive_tab_device_category_v2">Elérhető készülékek</string>
@@ -693,10 +737,17 @@ A tévéken futó ételrendelő és fuvarozási alkalmazásokkal, valamint a tab
     <string name="connect_settings_share_notification_send_tab">Szinkronizálás</string>
     <string name="connect_settings_share_notification_send_tab_device_category">Szinkronizálás telefonra</string>
     <string name="connect_settings_share_notification_send_tab_device_category_v2">Telefonjaim</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v3">Elérhető készülékek</string>
+    <string name="connect_settings_share_notification_send_tab_not_found_device_summary">Ügyeljen arra, hogy a fenti utasításokat követi. Érintse meg a „Frissítés” gombot, hogy újra megpróbálja.</string>
     <string name="connect_settings_share_notification_send_tab_summary">"Jelenítse meg az erről a készülékről érkező értesítéseket ugyanazon fiókba bejelentkezett telefonokon, tableteken vagy TV-ken.
 *Támogatott funkciók: A telefonok hívásokat, üzeneteket és alkalmazásértesítéseket jeleníthetnek meg; a TV-k szállítási és fuvarozási értesítéseket jeleníthetnek meg; a tabletek és számítógépek a telefon alacsony akkumulátor töltöttségi szintjéről szóló értesítéseket jeleníthetnek meg."</string>
     <string name="connect_settings_share_notification_send_tab_summary_v2">"• Amikor ez a készülék zárolva van, a készülékről érkező értesítések megtekinthetők az ugyanazon fiókba bejelentkezett telefonokon, tableteken, számítógépeken vagy TV-ken.
 • A telefonokon megtekinthetők a hívások, üzenetek vagy alkalmazásértesítések, a TV-ken az étel- és fuvarkiszállítási értesítések, a tableteken és számítógépeken pedig az alacsony akkumulátor töltöttségi szintről szóló értesítések."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v3">"Az ezen a készüléken fogadott értesítések szinkronizálhatók és megjeleníthetők más, ugyanahhoz a Xiaomi Fiókhoz bejelentkezett eszközökön. 
+• Szinkronizálás telefonra: Mindkét készüléknek be kell jelentkeznie ugyanahhoz a Xiaomi Fiókhoz, és csatlakoznia kell a hálózathoz. 
+• Szinkronizálás tabletre: A tabletnek a közelben kell lennie, be kell jelentkeznie ugyanahhoz a Xiaomi Fiókhoz, és csatlakoznia kell ugyanahhoz a hálózathoz, vagy a Kezdőképernyő+ alkalmazást kell használnia."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v4">"• Ha ez a készülék zárolva van, a készülékről érkező értesítéseket megtekintheti azokon a telefonokon, tableteken, számítógépeken, TV-ken vagy órákon, amelyek ugyanahhoz a fiókhoz vannak bejelentkezve.
+• A telefonokon megtekintheti a hívásokat, üzeneteket és alkalmazásértesítéseket, a TV-ken az étel-házhozszállítási és fuvarfoglalási értesítéseket, a tableteken és számítógépeken pedig az alacsony akkumulátor-töltöttségre vonatkozó értesítéseket."</string>
     <string name="connect_settings_share_notification_send_tab_v2">Szinkronizálás</string>
     <string name="connect_settings_summary"><Data>Fedezze fel a Xiaomi Fiókjához bejelentkezett közeli készülékeket, és adja hozzá őket a Xiaomi Smart Hubhoz. &lt;a href=%1$s>További információ&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Engedélyezze eszközeinek, hogy vezeték nélkül kommunikáljanak egymással</string>
@@ -728,6 +779,7 @@ Kapcsolja be a Wi-Fi-t és a Bluetooth-t használat előtt."</string>
     <string name="console_guide_subtitle_small_window">Minimalizálja a kivetített ablakot, hogy a telefonján egyéb funkciók is használhatók legyenek</string>
     <string name="copy">Másolás</string>
     <string name="copy_toast_msg">Link vágólapra másolva</string>
+    <string name="copy_verification_code_tip">Ellenőrző kód másolva</string>
     <string name="current_wifi_tv">Jelenlegi hálózat</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -784,20 +836,18 @@ Kapcsolja be a Wi-Fi-t és a Bluetooth-t használat előtt."</string>
     <string name="dialog_nfc_cast_wifi_off">WLAN bekapcsolása kivetítéshez az NFC használatával. Bekapcsolja most?</string>
     <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Csatlakoztassa a mobilkészülékét és a tévét is ugyanahhoz a Wi-Fi hálózathoz.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Néhány TV-modellnél ez a funkció csak akkor elérhető, ha a képernyő tükrözése be van kapcsolva. További információkért tekintse meg a &lt;a href=milink://com.milink.service/specification>\"Súgó\"&lt;/a> menüpontot.</Data></string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Csatlakoztassa a mobilkészülékét és a tévét is ugyanahhoz a WLAN hálózathoz.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Néhány TV-modellnél ez a funkció csak akkor elérhető, ha a képernyő tükrözése be van kapcsolva. További információkért tekintse meg a &lt;a href=milink://com.milink.service/specification>\"Súgó\"&lt;/a> menüpontot.</Data></string>
+    <string name="dialog_no_device_message_new"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Csatlakoztassa a TV-t és a telefont ugyanahhoz a Wi-Fi-hálózathoz.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Néhány tévénél be kell kapcsolni a képernyőtükrözés funkciót ahhoz, hogy a készülék felfedezhető legyen. &lt;a href=milink://com.milink.service/specification>Súgó megtekintése&lt;/a> a részletekért.</Data></string>
+    <string name="dialog_no_device_message_new_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Csatlakoztassa a TV-t és a telefont ugyanahhoz a WLAN-hálózathoz.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Néhány tévénél be kell kapcsolni a képernyőtükrözés funkciót ahhoz, hogy a készülék felfedezhető legyen. &lt;a href=milink://com.milink.service/specification>Súgó megtekintése&lt;/a> a részletekért.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Képek, videók vagy zene streamelése</string>
     <string name="dialog_open_remote_switch_content">Nem sikerült alkalmazni a beállítást. Ellenőrizze, hogy a %1$s ugyanahhoz a fiókhoz van bejelentkezve és ugyanahhoz a hálózathoz csatlakozik, mint ez a készülék.</string>
+    <string name="dialog_open_remote_switch_content_corp_phone">Nem sikerült bekapcsolni. Ellenőrizze, hogy %1$s ugyanabba a Xiaomi Fiókba van bejelentkezve, és ugyanahhoz a hálózathoz csatlakozik, mint ez az eszköz.</string>
     <string name="dialog_open_wifi_bt">Bekapcsolás</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Gondoskodjon róla, hogy a vezeték nélküli felvétel funkció be van kapcsolva a céleszközön.
 Ha problémája akad a csatlakozással, tekintse meg a Súgót."</string>
     <string name="dialog_recent_connected">Legutóbbi</string>
-    <string name="dialog_remote_authorization">Engedélyek megadása a(z) %1$s számára</string>
-    <string name="dialog_remote_authorization_content">Értesítési engedélyek megadása az Összekapcsolhatóság funkcióhoz a(z) %1$s készüléken.</string>
-    <string name="dialog_reset_app_subscribe">Értesítések engedélyezése innen: %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">A(z) %2$s korábban eltávolításra került %1$s készülékéről. Ezen a készüléken nem lehet alkalmazásértesítéseket fogadni. Módosítsa a beállításokat, majd próbálja újra.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Néhány alkalmazás korábban eltávolításra került az ön %1$s készülékéről, ezért nem fogja megkapni az értesítéseiket ezen a készüléken. Állítsa be újra az értesítések szinkronizálását.</string>
     <string name="dialog_reset_app_subscribe_multi">Értesítési beállítások módosítása</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">A(z) %2$s és a(z) %3$s korábban eltávolításra került %1$s készülékéről. Ezen a készüléken nem lehet alkalmazásértesítéseket fogadni. Módosítsa a beállításokat, majd próbálja újra.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">A(z) %2$s, %3$s és %4$s korábban eltávolításra került %1$s készülékéről. Ezen a készüléken nem lehet alkalmazásértesítéseket fogadni. Módosítsa a beállításokat, majd próbálja újra.</string>
     <string name="dialog_retry">Próbálja újra</string>
     <string name="dialog_scan_message">"%1$d. Csatlakoztassa a mobilkészülékét és a tévét is ugyanahhoz a Wi-Fi hálózathoz.
 
@@ -805,17 +855,46 @@ Ha problémája akad a csatlakozással, tekintse meg a Súgót."</string>
     <string name="dialog_scan_message_china">"%1$d. Csatlakoztassa a mobilkészülékét és a tévét is ugyanahhoz a WLAN hálózathoz.
 
 %2$d. További információért tekintse meg a „Súgó” menüpontot."</string>
+    <string name="dialog_scan_message_new">"%1$d. Csatlakoztassa a TV-t és a telefont ugyanahhoz a Wi-Fi-hálózathoz.
+
+%2$d. Néhány tévénél be kell kapcsolni a képernyőtükrözés funkciót ahhoz, hogy a készülék felfedezhető legyen. A részletekért érintse meg a „Súgó megtekintése” gombot."</string>
+    <string name="dialog_scan_message_new_china">"%1$d. Csatlakoztassa a TV-t és a telefont ugyanahhoz a WLAN-hálózathoz.
+
+%2$d. Néhány tévénél be kell kapcsolni a képernyőtükrözés funkciót ahhoz, hogy a készülék felfedezhető legyen. A részletekért érintse meg a „Súgó megtekintése” gombot."</string>
     <string name="dialog_scanning_close_dual_wifi_china">A kivetítéshez kapcsolja ki a „Kétsávos WLAN sebességgyorsítás” funkciót. Kikapcsolja most ezt a funkciót?</string>
     <string name="dialog_scanning_close_dual_wifi_global">A kivetítéshez kapcsolja ki a „Kétsávos Wi-Fi sebességgyorsítás” funkciót. Kikapcsolja most ezt a funkciót?</string>
     <string name="dialog_scanning_close_tethering">A kivetítéshez kapcsolja ki a hotspotot. Kikapcsolja most a hotspotot?</string>
     <string name="dialog_scanning_device">Készülékek keresése a közelben…</string>
     <string name="dialog_scanning_precondition">A Vezeték nélküli megjelenítés használatához kapcsolja be a WIFI-t és a Bluetooth-t.</string>
+    <string name="dialog_scanning_precondition_new_1">A képernyő-kivetítéshez Wi-Fi-, Bluetooth- és helymeghatározó szolgáltatások szükségesek. Bekapcsolja őket?</string>
+    <string name="dialog_scanning_precondition_new_1_china">A képernyő-kivetítéshez WLAN-, Bluetooth- és helymeghatározó szolgáltatások szükségesek. Bekapcsolja őket?</string>
     <string name="dialog_scanning_precondition_new_china">A WLAN, a Bluetooth és a helymeghatározó szolgáltatások bekapcsolása a kivetítéshez. Bekapcsolja most?</string>
     <string name="dialog_scanning_precondition_new_global">A Wi-Fi és a helymeghatározási szolgáltatások bekapcsolása a kivetítés használatához. Bekapcsolja most?</string>
     <string name="dialog_select_tv">Eszköz kiválasztása (%1$d)</string>
     <string name="dialog_show_help">Segítség</string>
+    <string name="dialog_show_help_v1">Súgó megtekintése</string>
     <string name="disconnect">Kivetítése leállítása</string>
+    <string name="dist_camera_pad_switch_off_toast_button_text">Rendben</string>
+    <string name="dist_camera_pad_switch_off_toast_subtitle">Kapcsolja be a tableten a készülékek közötti kamerát a Beállítások > Összekapcsolhatóság menüpontban.</string>
+    <string name="dist_camera_pad_switch_off_toast_title">Készülékek közötti kamera bekapcsolása</string>
+    <string name="dist_camera_phone_switch_off_toast_button_text">Rendben</string>
+    <string name="dist_camera_phone_switch_off_toast_subtitle">Kapcsolja be a telefonon a készülékek közötti kamerát a Beállítások > Összekapcsolhatóság menüpontban.</string>
+    <string name="dist_camera_phone_switch_off_toast_title">Készülékek közötti kamera bekapcsolása</string>
     <string name="dp_casting_start_hint">Csatlakoztatva kábellel. A kivetítéséget ért.</string>
+    <string name="dp_in_dialog_cancel">Mégse</string>
+    <string name="dp_in_dialog_enter">Bekapcsolás</string>
+    <string name="dp_in_dialog_message">Ebben a módban a tablet kizárólag kijelzőként működik. A tablet hangjai elnémulnak, és csak a külső készülék hangja hallható. A rendszerértesítések nem jelennek meg. Az optimális élmény érdekében fekvő tájolást használjon.</string>
+    <string name="dp_in_dialog_title">Kapcsolja be a Képernyő-kiterjesztés Pro-t</string>
+    <string name="dp_in_exit_dialog_exit">Kikapcsolás</string>
+    <string name="dp_in_exit_dialog_message">A képernyő lecsatlakozik, és ön visszatér a tablet kezdőképernyőjére.</string>
+    <string name="dp_in_exit_dialog_title">Bekapcsolja a Képernyő-kiterjesztés Pro-t?</string>
+    <string name="dp_in_low_battery_confirm">Rendben</string>
+    <string name="dp_in_low_battery_message">Az akkumulátor %s alatt van. Töltse hamarosan.</string>
+    <string name="dp_in_no_signal_exit">Kapcsolja ki a Képernyő-kiterjesztés Pro-t</string>
+    <string name="dp_in_no_signal_subtitle">Ellenőrizze, hogy a készülék csatlakoztatva van-e</string>
+    <string name="dp_in_no_signal_title">A készülék jele nem észlelhető</string>
+    <string name="dp_in_notification_subtitle">A tablet csak kijelzőként működik ebben a módban</string>
+    <string name="dp_in_notification_title">Kapcsolja be a Képernyő-kiterjesztés Pro-t</string>
     <string name="dual_wifi_warning_china">Kapcsolja ki a kettős WLAN-t, és próbálkozzon újra</string>
     <string name="dual_wifi_warning_global">Kapcsolja ki a dupla Wi-Fi-t, és próbálkozzon újra</string>
     <string name="early_morning">Reggel</string>
@@ -835,6 +914,7 @@ Ha problémája akad a csatlakozással, tekintse meg a Súgót."</string>
     <string name="err_toast_msg_not_support_audio_protocol">Nem lehet erre a készülékre hanglejátszást átvinni</string>
     <string name="err_toast_msg_retry_later">Művelet végrehajtása sikertelen. Várjon egy-két percet, és próbálja újra.</string>
     <string name="err_toast_msg_state_not_support">Az áthúzás nem támogatott</string>
+    <string name="err_toast_msg_state_not_support_circulate">Jelenleg nem lehet váltani</string>
     <string name="err_toast_msg_try_switch_network">Mobilkészülékét és számítógépét is ugyanarra a WLAN-hálózatra csatlakoztassa</string>
     <string name="error_a11y_label">Hiba: érvénytelen</string>
     <string name="error_icon_content_description">Hiba</string>
@@ -915,6 +995,7 @@ Ha problémája akad a csatlakozással, tekintse meg a Súgót."</string>
     <string name="friday">Péntek</string>
     <string name="friday_short">Pén</string>
     <string name="friday_shortest">Pén</string>
+    <string name="fusion_device_nearby">Közeli</string>
     <string name="global_dialog_cancle">Mégse</string>
     <string name="global_dialog_miplay_permission_positive">Beállítások</string>
     <string name="global_dialog_nearbydevice_permission_message">Az Összekapcsolhatóság engedélyt igényel a közeli készülékekhez való csatlakozáshoz, hogy felfedezhesse azokat. Adja meg ezt az engedélyt a Beállításokban, hogy normál módon tudja használni a Összekapcsolhatóságot.</string>
@@ -928,6 +1009,9 @@ Ha problémája akad a csatlakozással, tekintse meg a Súgót."</string>
     <string name="global_privacy_positive">Elfogadom</string>
     <string name="global_privacy_screencast">Felvétel vagy kivetítés közben az ezt a funkciót biztosító szolgáltatás bármilyen érzékeny információt rögzíthet, amely a képernyőn jelenik meg vagy lejátszható a készülékről, beleértve az olyan érzékeny információkat, mint a hang, a jelszavak, a fizetési adatok, a fényképek és az üzenetek.</string>
     <string name="global_privacy_tip"><Data>Az alapvető szolgáltatások biztosításához és a kivetítési folyamat optimalizálásához be kell gyűjtenünk a szükséges személyes adatokat. Az &lt;a href=%1$s>Adatvédelmi irányelvekben&lt;/a> olvashat arról, hogy hogyan kezeljük a begyűjtött adatokat. Bármikor visszavonhatja az Adatvédelmi irányelvekhez adott hozzájárulását a Beállításokban.</Data></string>
+    <string name="guide_mask_btn">Kezdés</string>
+    <string name="guide_mask_desc">Nyomjon hosszan egy kártyát, majd rögzítse azt, hogy az Irányítóközpontban és a Xiaomi Smart Hubban is a tetején maradjon.</string>
+    <string name="guide_mask_title">A vadonatúj Xiaomi Smart Hub</string>
     <string name="hang_up">Kikapcsolt képernyős kivetítés</string>
     <string name="hang_up_alert_dialog_content">Folytassa a kivetítést akkor is, ha eszközének képernyője ki van kapcsolva. Ez a funkció csökkenti az energiafogyasztást. A képernyő újbóli bekapcsolásához nyomja meg a Bekapcsolás gombot.</string>
     <string name="hang_up_alert_dialog_neg">Mégse</string>
@@ -936,6 +1020,8 @@ Ha problémája akad a csatlakozással, tekintse meg a Súgót."</string>
     <string name="head_toast_connecting">Csatlakozás…</string>
     <string name="head_toast_fail">Kapcsolódás sikertelen</string>
     <string name="head_toast_success">Sikeresen csatlakozva</string>
+    <string name="headset_circulate_card_default_title">Fülhallgatók csatlakoztatva</string>
+    <string name="headset_circulate_card_glasses_title">Szemüveg csatlakoztatva</string>
     <string name="headset_content_description">Fülhallgató csatlakoztatva a készülékhez. Az aktiváláshoz érintse meg duplán. Nyomja meg két ujjal, és húzza a lejátszás átviteléhez.</string>
     <string name="headset_content_description_global">A készülékhez csatlakoztatott fülhallgatók. Az aktiváláshoz nyomja meg kétszer.</string>
     <string name="help_page_question_1st_01_international">"%1$d. Ha az eszköz, amelyre kivetít, egy Xiaomi TV-t, kapcsolja be rajta a Miracastot.
@@ -961,10 +1047,14 @@ Ha a két készülék nem csatlakoztatható ugyanarra a hálózatra, kapcsolja b
     <string name="help_page_text_06_new_1">Xiaomi tévék, set-top boxok és projektorok:</string>
     <string name="help_page_text_06_new_2">"%1$d. Győződjön meg róla, hogy mobileszköze és külső monitora ugyanahhoz a Wi-Fi-hálózathoz csatlakozik.
 %2$d. Egyes Xiaomi tévéken beállíthatja a kivetítést a tévéről, valamint személyre szabhatja az eszközkeresési és ellenőrzési módszereket."</string>
+    <string name="help_page_text_06_new_2_china">"%1$d. Győződjön meg arról, hogy a TV és a telefon ugyanahhoz a WLAN-hálózathoz csatlakozik.
+%2$d. Néhány Xiaomi TV-nél a vezeték nélküli kivetítési beállítások között testreszabhatja a készülék felfedezését és hitelesítését."</string>
     <string name="help_page_text_06_new_3">*A kivetítési beállításokban megadhatja a tévékészülék kivetítési beállításait.</string>
     <string name="help_page_text_06_new_4">Nem Xiaomi tévék, set-top boxok és projektorok:</string>
     <string name="help_page_text_06_new_5">"%1$d. Győződjön meg róla, hogy mobileszköze és külső monitora ugyanahhoz a Wi-Fi-hálózathoz csatlakozik.
 %2$d. Egyes tévémárkákon be kell kapcsolnia a Miracastot a kivetítéshez."</string>
+    <string name="help_page_text_06_new_5_china">"%1$d. Győződjön meg arról, hogy a TV és a telefon ugyanahhoz a WLAN-hálózathoz csatlakozik.
+%2$d. Egyes tévékészülék-márkáknál be kell kapcsolni a „Miracast” funkciót."</string>
     <string name="help_page_text_06_new_6">Bővebben</string>
     <string name="help_page_text_08">%1$d lépés: Kapcsolja be a kivetítést</string>
     <string name="help_page_text_08_new">%1$d lépés: Kapcsolja be a kivetítést</string>
@@ -982,6 +1072,12 @@ Ha a két készülék nem csatlakoztatható ugyanarra a hálózatra, kapcsolja b
 %2$d. Győződjön meg róla, hogy a hálózati környezet stabil. Ha nem, próbálja meg újraindítani a routert, vagy váltson %3$d GHz-es hálózati sávra.
 %4$d. Ha Xiaomi TV-re vetít ki tartalmat, kapcsolja be a vezeték nélküli kivetítés funkciót a tévén. Csatlakozás közben maradjon a kivetítés oldalon.
 %5$d. Egyes nagy nyilvános LAN-ok, például a vállalatok és iskolák hálózatai nem támogatják az ugyanazon a LAN-on lévő eszközök felfedezésének lehetőségét."</string>
+    <string name="help_page_text_13_desc_1_new">"%1$d. Ha Xiaomi TV-re szeretnél továbbítani, kapcsold be a „Miracast” funkciót a tévékészüléken.
+%2$d. Ha nem Xiaomi TV-re továbbít, ellenőrizze, hogy az támogatja-e a „Miracast” funkciót (amelyet egyes eszközökön „Vezeték nélküli kijelző”, „Képernyőtükrözés” vagy „Többképernyős interakció” néven is emlegetnek), és hogy be van-e kapcsolva."</string>
+    <string name="help_page_text_13_desc_1_new_china">"%1$d. Győződjön meg arról, hogy a telefon és a TV ugyanahhoz a WLAN-hálózathoz csatlakozik, vagy csatlakoztassa a TV-t ugyanahhoz a mobil hotspothoz.
+%2$d. Győződjön meg arról, hogy a hálózata stabil. Próbálja meg újraindítani a routert, vagy váltson át 5 GHz-es routerre.
+%4$d. Ha Xiaomi TV-re szeretne kivetíteni, próbálkozzon a „Vezeték nélküli kijelző” bekapcsolásával a TV-n, és maradjon a kezdőlapon.
+%5$d. A nagy nyilvános hálózatok (irodák, iskolák stb.) a multicast izoláció miatt blokkolhatják az eszközök felismerését."</string>
     <string name="help_page_text_13_desc_2">Egyes tévék nem LAN-kapcsolatot használnak a kivetítés során. Normális, ha ezek az eszközök le vannak választva a hálózatról. Általában %1$d–%2$d másodpercen belül újracsatlakoznak a kivetítés befejezése után.</string>
     <string name="help_page_text_13_summary_1">Nem tud csatlakozni egy külső eszközhöz</string>
     <string name="help_page_text_13_summary_2">Hálózati megszakítások kivetítés közben</string>
@@ -1042,13 +1138,19 @@ Ha be kell kapcsolnia a Miracastot, nyomja meg a [MENU] gombot és válassza az 
     <string name="help_page_text_55_global">"Ha nem tud csatlakozni a hálózathoz, ellenőrizze, hogy a külső monitor támogatja-e a Miracast-funkciót és hogy be van-e kapcsolva. Némelyik modell esetén ezt a funkciót Vezeték nélküli megjelenítésnek, Képernyőtükrözésnek, illetve Többképernyőnek hívják.
 %1$d. Ha problémába ütközik, a „Szolgáltatások és visszajelzés” alkalmazásban jelentheti."</string>
     <string name="help_page_text_end">Ha eszközének márkája nem látható itt, vegye fel a kapcsolatot a kivetítési funkcióval kapcsolatos további információkért.</string>
+    <string name="hint_deivce">Támogatott készülékek és funkciók megtekintése</string>
+    <string name="hint_text">Human × Car × Home készülékeit a Xiaomi Smart Hub segítségével kezelheti</string>
+    <string name="home_curtain_card_close_button">Behúzás</string>
+    <string name="home_curtain_card_open_button">Széthúzás</string>
+    <string name="home_curtain_card_pause_button">Szüneteltetés</string>
+    <string name="homemodule_camera__physical_mask">Kamera blokkolva</string>
+    <string name="homemodule_curtain_AllDevice_none">Nincs függöny</string>
+    <string name="homemodule_light_AllDevice_none">Nincs világítás</string>
     <string name="i_see">Rendben</string>
+    <string name="ic_media_route_learn_more_accessibility">A tartalomátküldés elsajátítása</string>
     <string name="icon_content_description">Párbeszédpanel ikonja</string>
     <string name="image_transfer_failed">Nem sikerült a kép átvitele</string>
     <string name="install">Telepítés</string>
-    <string name="inter_connect_setting_unavailable_dialog_message">Nyissa meg a Beállítások > Összekapcsolhatóság menüpontot, hogy bekapcsolja a készülékek közötti kamera funkciót.</string>
-    <string name="inter_connect_setting_unavailable_dialog_positive_button">Rendben</string>
-    <string name="inter_connect_setting_unavailable_dialog_title">Készülékek közötti kamera</string>
     <string name="introduction_to_accessibility_message">"Az Összekapcsolhatóság lehetővé teszi az adatok vezérlését és átvitelét eszközök között.
 
 Kapcsolja be a Kisegítő lehetőségek funkciókat, hogy megakadályozza, hogy a mikrofont más alkalmazások használják az Összekapcsolhatóság használatakor
@@ -1064,6 +1166,7 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="local_camera_device">Ez a készülék</string>
     <string name="local_device_camera">Ez a készülék</string>
     <string name="local_hotspot_opening">Kapcsolja ki ennek a készüléknek a hotspotját, és próbálja újra</string>
+    <string name="login_hint">Jelentkezzen be a Xiaomi Fiókjába</string>
     <string name="material_clock_toggle_content_description">Válassza ki, hogy délelőtt vagy délután</string>
     <string name="material_hour_24h_suffix">%1$s óra</string>
     <string name="material_hour_selection">Óra kiválasztása</string>
@@ -1082,7 +1185,7 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="message_install">Telepítse a Mi Canvas-t, hogy több készüléken is tudjon vázlatokat készíteni.</string>
     <string name="message_update">Frissítse a Mi Canvas-t, hogy több készüléken is tudjon vázlatokat készíteni.</string>
     <string name="midnight">Éjszakai</string>
-    <string name="mihome_camera_device_during_calll">A kamera már használatban van egy híváshoz</string>
+    <string name="mihome_camera_device_during_call_normal">A kamera használatban van. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="mihome_camera_device_not_available">Nem lehet több készüléket csatlakoztatni</string>
     <string name="mihome_camera_device_offline">Nem sikerült csatlakozni. A kamera offline módban van.</string>
     <string name="mihome_camera_device_sleep">Lépjen ki az Alvómódból, és próbálja újra</string>
@@ -1125,6 +1228,7 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="miuix_appcompat_action_mode_deselect_all">Kijelölések törlése</string>
     <string name="miuix_appcompat_action_mode_select_all">Összes kijelölése</string>
     <string name="miuix_appcompat_action_mode_title_empty">Kiválasztás</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Kiválasztás</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Továbbiak</string>
     <string name="miuix_appcompat_cancel_description">Mégse</string>
     <string name="miuix_appcompat_confirm_description">Megerősítés</string>
@@ -1138,6 +1242,19 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="miuix_appcompat_select_all_description">Összes kijelölése</string>
     <string name="miuix_appcompat_select_item">Elemek kiválasztása</string>
     <string name="miuix_appcompat_show_dialog_description">Felugró ablak</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Bezáráshoz csúsztasson lefelé</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Fél képernyőre váltáshoz csúsztasson lefelé</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Minimalizáláshoz csúsztasson lefelé</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Fél képernyőre váltáshoz csúsztasson felfelé</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Maximalizáláshoz csúsztasson felfelé</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Fél képernyő</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximális</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimális</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Váltás fél képernyőre</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizálás</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizálás</string>
+    <string name="miuix_popup_show_description">Felugró ablak</string>
+    <string name="miuix_popup_window_default_title">Felugró ablak</string>
     <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sikeresen frissítve</string>
@@ -1150,6 +1267,13 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="miuix_show_password">Jelszó megjelenítése</string>
     <string name="miuix_stretchablewidget_collapsed">Összecsukott</string>
     <string name="miuix_stretchablewidget_expanded">Kibontott</string>
+    <string name="mj_home_device_empty">Nincsenek készülékek</string>
+    <string name="mj_module_card_name_curtain">Függönyök</string>
+    <string name="mj_module_card_name_env">Környezet</string>
+    <string name="mj_module_card_name_light">Világítás</string>
+    <string name="mj_room_curtain_device_none">Minden függöny be van húzva</string>
+    <string name="mj_room_light_device_none">Minden lámpa ki van kapcsolva</string>
+    <string name="mj_talkback_device_main_need_psd">Jelszó szükséges</string>
     <string name="monday">Hétfő</string>
     <string name="monday_short">Hét</string>
     <string name="monday_shortest">Hét</string>
@@ -1196,8 +1320,17 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="mr_cast_button_connecting">Átküldés. Csatlakozás…</string>
     <string name="mr_cast_button_disconnected">Átküldés. Leválasztva.</string>
     <string name="mr_cast_dialog_title_view_placeholder">Nincs információ</string>
+    <string name="mr_chooser_looking_for_devices">Eszközök keresése…</string>
     <string name="mr_chooser_searching">Eszközök keresése</string>
     <string name="mr_chooser_title">Átküldés ide:</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">További információ</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez az autó.</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez a telefon.</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez a táblagép.</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez a tévé.</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez az eszköz.</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez az óra.</string>
+    <string name="mr_chooser_zero_routes_found_title">Nincs rendelkezésre álló eszköz</string>
     <string name="mr_controller_album_art">Lemezborító</string>
     <string name="mr_controller_casting_screen">Képernyőtartalom átküldése…</string>
     <string name="mr_controller_close_description">Bezárás</string>
@@ -1262,8 +1395,11 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="mtrl_picker_toggle_to_year_selection">Koppintson az éves nézetre való váltáshoz</string>
     <string name="mtrl_timepicker_cancel">Mégse</string>
     <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="nearby_device">Elérhető készülékek</string>
     <string name="nfc_connect_failed_toast">Nem sikerült kivetíteni. Próbálja újra!</string>
     <string name="night">Este</string>
+    <string name="no_device">Itt még nincs semmi</string>
+    <string name="no_device_enable_hint">A rendszer automatikusan felismeri a közeli készülékeket, és összekapcsolja őket, hogy több eszközön is elvégezhessen különféle feladatokat.</string>
     <string name="noon">Dél</string>
     <string name="normal_device_desc">Azok az eszközök, amelyekhez csatlakozott, de nincsenek megjelölve megbízhatóként</string>
     <string name="normal_device_desc_limit">Azok az eszközök, amelyekhez csatlakozott, de nincsenek megjelölve megbízhatóként</string>
@@ -1273,25 +1409,44 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="not_support_from_blacklist_toast">Az alkalmazás kivetítés nem támogatott ebben a módban</string>
     <string name="not_support_from_whitelist_toast">Nyissa meg az alkalmazást a kivetítéshez</string>
     <string name="not_support_toast">Az alkalmazás kivetítés nem támogatott ebben az alkalmazásban</string>
+    <string name="not_support_toast_split_screen">Az Alkalmazás kivetítése Osztott képernyőben nem támogatott</string>
     <string name="nothing_to_play">Nincs lejátszás</string>
+    <string name="noti_device_off">Kikapcsolva</string>
+    <string name="noti_device_on">Bekapcsolva</string>
     <string name="notification_cast_desc">Kivetítés…</string>
     <string name="notification_channel_description">Válassza ki egy másik készülékről a Xiaomi-készülékére szinkronizálandó értesítések típusait</string>
+    <string name="notification_channel_description_2">Értesítési preferenciák kezelése</string>
     <string name="notification_channel_subtitle_ref_call">Hívás iPhone-ról</string>
-    <string name="notification_channel_subtitle_ref_call_1">Hívás a következőtől: %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Lark üzenet %1$s-től</string>
+    <string name="notification_channel_subtitle_ref_call_2">Bejövő hívás ezen a készüléken: %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">DingTalk-értesítés ezen a készüléken: %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Lark-értesítés ezen a készüléken: %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">QQ-üzenet iPhone-ról</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">QQ-üzenet a következőtől: %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">QQ-értesítés ezen a készüléken: %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Üzenet iPhone-ról</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Üzenet a(z) %1$s készülékről</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS ezen a készüléken: %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">WeCom-értesítés ezen a készüléken: %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">WeChat-üzenet iPhone-ról</string>
-    <string name="notification_channel_subtitle_ref_xin_1">WeChat-üzenet a következőtől: %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">WeChat-értesítés ezen a készüléken: %1$s</string>
     <string name="notification_channel_title_name">Értesítések Xiaomi-készülékre szinkronizálva</string>
+    <string name="notification_channel_title_name_2">Értesítések más készülékekről</string>
+    <string name="notification_copy">Másolás</string>
     <string name="notification_desc_scanning">Készülékek keresése a közelben…</string>
     <string name="notification_incoming_call_to_reply">Bejövő hívás. Fogadás itt: %1$s.</string>
+    <string name="notification_permission_accept">Engedélyezem</string>
+    <string name="notification_permission_client_content">Adja meg e készülék értesítési engedélyeit az ön %1$s készülékén.</string>
+    <string name="notification_permission_client_title">Engedélyek megadása a %1$s számára</string>
     <string name="notification_permission_content">Engedélyezze ennek a készüléknek az értesítéseit minden olyan iPhone-on, amelyen az Összekapcsolhatóság telepítve van, és be van jelentkezve a fiókjába.</string>
+    <string name="notification_permission_content_v2">Engedélyezi, hogy ennek a készüléknek a hívásai, SMS-ei és alkalmazásértesítései megjelenjenek az ön %1$s készülékén?</string>
+    <string name="notification_permission_deny">Nem engedélyezem</string>
     <string name="notification_permission_new_content">Engedélyezze az erről a készülékről érkező hívások, üzenetek és alkalmazásértesítések megjelenítését egy iPhone-on, ha az Értesítések szinkronizálása be van kapcsolva, vagy egy Xiaomi-készüléken, ha a Készülékek közötti értesítések funkció be van kapcsolva.</string>
+    <string name="notification_permission_request_content">Feloldás a hozzáférés engedélyezéséhez</string>
+    <string name="notification_permission_request_title">Engedélyezze az értesítésekhez való hozzáférést a %1$s készülék számára</string>
+    <string name="notification_permission_title">Értesítési engedélyek megadása a %1$s számára</string>
     <string name="notification_rc_title">XiaoMi TV asszisztens</string>
     <string name="notification_revice_phone">Értesítések a következőtől: %1$s</string>
+    <string name="notification_send_page_pad_disabled">Engedélyezze az alkalmazásértesítéseket %1$s készülékén a Beállítások > Összekapcsolhatóság > Készülékek közötti értesítések menüpontban</string>
+    <string name="notification_send_page_pad_offline">Győződjön meg arról, hogy a %1$s készülék ugyanahhoz a Xiaomi Fiókhoz jelentkezett be, és ugyanahhoz a hálózathoz csatlakozik, mint ez a készülék, majd engedélyezze az alkalmazás értesítéseit a Beállítások > Összekapcsolhatóság > Készülékek közötti értesítések menüpontban.</string>
+    <string name="notification_send_page_title">E készülék értesítéseinek szinkronizálása erre a készülékre: %1$s</string>
     <string name="notification_show_more">Koppintson további funkciók megtekintéséhez</string>
     <string name="notification_support_applist">Támogatott alkalmazások</string>
     <string name="notify_wifiap_dialog_msg">A kód beolvasásához és a hálózat konfigurálásához először kapcsolja ki a hordozható hotspotot.</string>
@@ -1314,6 +1469,7 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="open_wlan_self_china">Kapcsolja be a WLAN-t, hogy használni tudja az összekapcsolhatósági funkciókat. Most bekapcsolja?</string>
     <string name="open_wlan_self_toast">Kapcsolja be a Wi-Fi-t, és próbálja újra</string>
     <string name="open_wlan_self_toast_china">Kapcsolja be a WLAN-t, és próbálja újra</string>
+    <string name="operation_open_close">Be/Ki</string>
     <string name="paipai_connect_btn_text">Kész</string>
     <string name="paipai_connect_tv1_text">Csatlakoztatva készülékhez</string>
     <string name="paipai_connect_tv2_text">Átvitt adatok</string>
@@ -1377,7 +1533,7 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="passport_error_length_limit">A megadott szöveg túl hosszú</string>
     <string name="passport_error_network">Nem sikerült csatlakozni a hálózathoz</string>
     <string name="passport_error_no_password_user">Önnek nincs beállított jelszava. Jelentkezzen be SMS segítségével.</string>
-    <string name="passport_error_phone">Érvénytelen telefonszám</string>
+    <string name="passport_error_phone">Adjon meg egy érvényes telefonszámot</string>
     <string name="passport_error_server">Szerverhiba</string>
     <string name="passport_error_sms_limit">Túl sok ellenőrző kód érkezett erre a számra. Próbálja újra később.</string>
     <string name="passport_error_ticket_invalid">A kód hibás</string>
@@ -1491,9 +1647,12 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="path_setting_cast_feature">További csatlakozási lehetőségek/Kivetítés/Különleges funkciók</string>
     <string name="path_setting_cast_help">További csatlakozási lehetőségek/Kivetítés/Súgó</string>
     <string name="permission_allowed">Engedély megadva</string>
+    <string name="permission_label_access_app_meta">Hozzáférés az alkalmazás információihoz, amikor alkalmazásokat használ</string>
     <string name="permission_uballowed">Az engedély nincs megadva</string>
     <string name="picker_view_description">Készülékek közötti kamera. A kártya belsejére koppintva kiválaszthatja a közeli készülékek kameráit.</string>
     <string name="picker_view_outside_description">Koppintson a kártya bezárásához.</string>
+    <string name="pin_device_header">Rögzített készülékek</string>
+    <string name="pin_hint">Rögzítés</string>
     <string name="pm">DU</string>
     <string name="pre_privacy_setting_title">Adatvédelem</string>
     <string name="preference_copied">„%1$s” a vágólapra lett másolva.</string>
@@ -1605,6 +1764,7 @@ A funkció használata előtt olvassa el és fogadja el &lt;a href=%1$s>Felhaszn
     <string name="screen_projection">Kivetítés</string>
     <string name="screen_projection_characteristics">Speciális funkciók</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">A Xiaomi HyperIsland alkalmazásban átválthat az Alkalmazás kivetítése funkcióra, hogy az aktuális alkalmazást külső monitorra továbbítsa, miközben más alkalmazásokat használ a telefonján</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">A Xiaomi HyperIsland alkalmazásban átválthat az Alkalmazás kivetítése funkcióra, hogy az aktuális alkalmazást külső monitorra továbbítsa, miközben más alkalmazásokat használ a tableten</string>
     <string name="screen_projection_characteristics_cast_summary">Képernyőtartalom kivetítése egy közelben található TV-re</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Az akkumulátor kímélése és a túlmelegedés elkerülése érdekében kivetítés közben kapcsolja ki a mobileszköz képernyőjét</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Kapcsolja ki a képernyőt kivetítés közben, hogy csökkentse az energiafogyasztást és a túlmelegedést</string>
@@ -1676,6 +1836,7 @@ A játékok kivetítése előtt ellenőrizze, hogy bekapcsolta-e a Játékgyors�
     <string name="small_window_not_supported">Kivetítés közben nem kicsinyíthető az alkalmazás</string>
     <string name="sound_card_circulatable_control_text">Lejátszás vezérlése</string>
     <string name="sound_card_circulatable_source_text">Hangforrás</string>
+    <string name="start_btn">Bekapcsolás</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">A szemüveg kamerája használatban van. Próbálja később.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">Hangrögzítés. A Kamera nem nyitható meg.</string>
     <string name="start_forbidden_by_glasses_in_translation">Fordítás. A Kamera nem nyitható meg.</string>
@@ -1782,21 +1943,25 @@ A játékok kivetítése előtt ellenőrizze, hogy bekapcsolta-e a Játékgyors�
     <string name="title_connection_interrupted">A csatlakozás megszakadt</string>
     <string name="title_install">A Mi Canvas telepítése</string>
     <string name="title_update">Mi Canvas frissítése</string>
+    <string name="to_login">Bejelentkezés</string>
     <string name="toast_confirm_network">Nem sikerült befejezni a telepítést. Ellenőrizze, hogy a készülék csatlakozik-e a hálózathoz.</string>
     <string name="toast_copy_auth_message_finish">Sikeresen másolva</string>
     <string name="toast_guide_show_more">Bõvebben</string>
     <string name="toast_guide_title">Fedezze fel új funkcióinkat itt</string>
     <string name="toast_invisible_mode">Inkognitóban van. Most nem használhatja a kivetítést.</string>
     <string name="toast_invisible_mode1">A kivetítés nem működik, amikor inkognitó üzemmódban van</string>
+    <string name="toast_local_not_install">Ez az alkalmazás nincs telepítve</string>
     <string name="toast_msg_for_multi_window">Ez a funkció nem használható Megosztott képernyővel</string>
     <string name="toast_msg_for_small_window">Annak érdekében, hogy telefonja más funkcióit is használhassa, minimalizálhatja a kivetített ablak méretét anélkül, hogy zavarná a kivetítést.</string>
     <string name="toast_nfc_dont_move">Ne tegye el a telefonját</string>
     <string name="toast_nfc_same_wifi">Csatlakoztassa a TV-t és ezt a készüléket ugyanahhoz a hálózathoz</string>
+    <string name="toast_notification_device_not_found">Győződjön meg róla, hogy a(z) %1$s ugyanahhoz a Xiaomi Fiókhoz van bejelentkezve, mint ez a készülék</string>
     <string name="toast_remote_not_install">Ez az alkalmazás nincs telepítve a(z) %1$s készüléken.</string>
     <string name="toast_retry">Várjon a beállítások alkalmazására, majd próbálja újra</string>
     <string name="toast_synchronization">Készülék állapotának ellenőrzése. Próbálja újra.</string>
     <string name="toast_title_for_small_window">Válassza az „Ablakminimalizálás” opciót az alkalmazásban</string>
     <string name="toast_turn_off_hotspot_before_cast">Kívetítés előtt kapcsolja ki a hordozható hotspotot</string>
+    <string name="toast_watch_app_not_install">Telepítse ezt az alkalmazást, és próbálja újra</string>
     <string name="today">Ma</string>
     <string name="tomorrow">Holnap</string>
     <string name="trust_device_desc">Ezek a készülékek akkor jelennek meg itt először, ha a közelben vannak</string>
@@ -1811,6 +1976,7 @@ A játékok kivetítése előtt ellenőrizze, hogy bekapcsolta-e a Játékgyors�
     <string name="tuesday_shortest">Kedd</string>
     <string name="unlock_screen_to_authorize_camera">%s szeretné használni a készülék kameráját</string>
     <string name="unlock_screen_to_authorize_camera_car">%s hozzáfér a készülék kamerájához</string>
+    <string name="unpin_hint">Rögzítés feloldása</string>
     <string name="update">Frissítés</string>
     <string name="upgrade_accessibility_cancel_download">Megszakított letöltés</string>
     <string name="upgrade_accessibility_finish_all_upgrade">Sikeres frissítés. A jelenlegi verzió naprakész.</string>
@@ -1861,12 +2027,43 @@ A játékok kivetítése előtt ellenőrizze, hogy bekapcsolta-e a Játékgyors�
     <string name="using_camera_of_device_description">A(z) %1$s kamerájának használata folyamatban.</string>
     <string name="v7_preference_off">KI</string>
     <string name="v7_preference_on">BE</string>
+    <string name="verification_code_flow_title">%1$s ellenőrző kódja</string>
+    <string name="verification_code_list_title">Kód</string>
+    <string name="watch_app_12306">Railway 12306</string>
+    <string name="watch_app_amap">Amap</string>
+    <string name="watch_app_baidu_map">Baidu Maps</string>
+    <string name="watch_app_category_title">Támogatott alkalmazások</string>
+    <string name="watch_app_didi">DiDi</string>
+    <string name="watch_app_hanglv">Umetrip</string>
+    <string name="watch_app_jd">JD</string>
+    <string name="watch_app_meituan">Meituan</string>
+    <string name="watch_app_meituan_waimai">Meituan Delivery</string>
+    <string name="watch_app_taobao">Taobao</string>
+    <string name="watch_app_taobao_flash">Taobao Shangou</string>
+    <string name="watch_call_sync_desc">Erről a készülékről átirányított hívások fogadása</string>
+    <string name="watch_call_sync_title">Hívások</string>
+    <string name="watch_dynamic_island_desc">Valós idejű információk szinkronizálása utazáshoz, navigációhoz, ételszállításhoz stb.</string>
+    <string name="watch_dynamic_island_page_title">Értesítések szinkronizálása a Xiaomi HyperIsland-ről az Apple Watch-ra</string>
+    <string name="watch_dynamic_island_title">Xiaomi HyperIsland</string>
+    <string name="watch_header_title">Apple Watch</string>
+    <string name="watch_health_data_desc">Fitnesz- és egészségügyi adatok szinkronizálása az Apple Watchról a Mi Fitness-re</string>
+    <string name="watch_health_data_title">Egészségügyi adatok</string>
     <string name="watch_more_setting">További lehetőségek</string>
+    <string name="watch_notification_sync_desc">Értesítések szinkronizálása erről a készülékekről</string>
+    <string name="watch_notification_sync_page_title">E készülék értesítéseinek szinkronizálása az Apple Watch-ra</string>
+    <string name="watch_notification_sync_title">Értesítések</string>
+    <string name="watch_page_description">"Hívások, üzenetek, értesítések és a Xiaomi HyperIsland valós idejű információinak fogadása erről a készülékről az Apple Watch-on. Az Apple Watch-ról származó fitnesz- és egészségügyi adatok szintén szinkronizálhatók a Mi Fitness alkalmazásba.
+* A teljes összekapcsolhatósági funkciók használatához kapcsolja be a szükséges engedélyeket."</string>
+    <string name="watch_page_description_global">"Hívások, üzenetek és értesítések fogadása erről a készülékről az Apple Watch-on.
+* Kapcsolja be a szükséges engedélyeket az összes összekapcsolhatósági funkció használatához."</string>
+    <string name="watch_status_enabled">Be</string>
+    <string name="watch_status_not_enabled">Ki</string>
     <string name="wednesday">Szerda</string>
     <string name="wednesday_short">Sze</string>
     <string name="wednesday_shortest">Sze</string>
     <string name="wifi_connect_btn_text">Konfigurálás</string>
-    <string name="wifi_disabled_dialog_message">Kapcsolja be a WLAN-t a készüléken, hogy a készülékek közötti kamerát használni tudja.</string>
+    <string name="wifi_disabled_dialog_message_china">Kapcsolja be a WLAN-t a készülékek közötti kamera használatához.</string>
+    <string name="wifi_disabled_dialog_message_gl">Kapcsolja be a Wi-Fi-t a készülékek közötti kamera használatához.</string>
     <string name="wifi_disabled_dialog_positive_button">Rendben</string>
     <string name="wifi_disabled_dialog_title">Készülékek közötti kamera</string>
     <string name="wifi_other">Egyéb hálózatok</string>
@@ -1876,5 +2073,23 @@ A játékok kivetítése előtt ellenőrizze, hogy bekapcsolta-e a Játékgyors�
     <string name="wifi_username_et_hint">Fiókazonosító</string>
     <string name="window_card_ml_find_null">Lehet, hogy ez az eszköz nincs a közelben</string>
     <string name="window_card_ml_find_null_camera">Nem található kamera vagy használható készülék a közelben</string>
+    <string name="window_card_pin_device_offline_group_cancel">Az egész házban való lejátszás törölve</string>
+    <string name="window_card_pin_device_offline_no_connection">Készülék lecsatlakozva</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_car">Győződjön meg arról, hogy a jármű Bluetooth-on keresztül csatlakozik ehhez a készülékhez, és aktív állapotban van</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_device">Győződjön meg arról, hogy a Bluetooth-eszköz csatlakozik ehhez a készülékhez, és aktív állapotban van</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_glasses">Győződjön meg róla, hogy a szemüveg Bluetooth-kapcsolaton keresztül csatlakozik ehhez a készülékhez, és használatban van</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_headset">Győződjön meg róla, hogy a fülhallgatója Bluetooth-kapcsolaton keresztül csatlakozik ehhez a készülékhez, és használatban van</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_sound">Győződjön meg róla, hogy a hangszóró Bluetooth-kapcsolaton keresztül csatlakozik ehhez a készülékhez, és használatban van</string>
+    <string name="window_card_pin_device_offline_subtitle_car">"1. Győződjön meg róla, hogy ez a készülék csatlakozik a jármű hotspotjához.
+2. Be is jelentkezhet ugyanahhoz a Xiaomi Fiókhoz mindkét készüléken. A jármű Beállítások > Kapcsolat > Összekapcsolhatóság menüpontjában összekapcsolhatja a két készüléket."</string>
+    <string name="window_card_pin_device_offline_subtitle_group">Győződjön meg róla, hogy a Xiaomi Smart Play-ben több készüléke van kiválasztva</string>
+    <string name="window_card_pin_device_offline_subtitle_pad">Győződjön meg róla, hogy mindkét készülék egymás közelében van, és be van kapcsolva a Bluetooth</string>
+    <string name="window_card_pin_device_offline_subtitle_pad_car">Győződjön meg róla, hogy ez a készülék csatlakozik a jármű hotspotjához</string>
+    <string name="window_card_pin_device_offline_subtitle_pc">Győződjön meg róla, hogy mindkét készülék egymás közelében van, és be van kapcsolva a Bluetooth</string>
+    <string name="window_card_pin_device_offline_subtitle_phone">Győződjön meg róla, hogy mindkét készülék egymás közelében van, ugyanahhoz a Xiaomi Fiókhoz van bejelentkezve, és be van kapcsolva a Bluetooth</string>
+    <string name="window_card_pin_device_offline_subtitle_sound">Győződjön meg róla, hogy mindkét készülék ugyanahhoz a LAN-hoz csatlakozik</string>
+    <string name="window_card_pin_device_offline_subtitle_third_tv">Győződjön meg róla, hogy ez a készülék a TV-hez csatlakozik</string>
+    <string name="window_card_pin_device_offline_subtitle_tv">Győződjön meg róla, hogy mindkét készülék egymás közelében van, és be van kapcsolva a Bluetooth</string>
+    <string name="window_card_pin_device_offline_subtitle_watch">Győződjön meg róla, hogy az okosóra vagy okoskarkötő a Mi Finess-hez csatlakozik</string>
     <string name="yesterday">Tegnap</string>
 </resources>

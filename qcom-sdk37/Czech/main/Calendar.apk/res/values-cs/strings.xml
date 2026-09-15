@@ -20,8 +20,6 @@
     <string name="abc_searchview_description_search">Hledat</string>
     <string name="abc_searchview_description_submit">Odeslat dotaz</string>
     <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
-    <string name="abc_shareactionprovider_share_with">Sdílet s</string>
-    <string name="abc_shareactionprovider_share_with_application">Sdílet s aplikací %s</string>
     <string name="abc_toolbar_collapse_description">Sbalit</string>
     <string name="accessbility_suggestion_dropdown_closed">Nejsou k dispozici žádné návrhy</string>
     <string name="accessbility_suggestion_dropdown_opened">Otevřené návrhy kontaktů</string>
@@ -76,7 +74,19 @@
     <string name="agenda_not_today_empty_hint">Zatím zde nejsou žádné události. Klepnutím ji vytvoříte.</string>
     <string name="agenda_tomorrow">ZÍTRA, %1$s</string>
     <string name="agenda_view">Události</string>
+    <string name="ai_card_amount">Částka platby</string>
+    <string name="ai_card_arrival_time">Čas příjezdu</string>
+    <string name="ai_card_card_no">Číslo karty</string>
+    <string name="ai_card_check_in_date">Datum přihlášení</string>
+    <string name="ai_card_check_out_date">Datum odhlášení</string>
+    <string name="ai_card_hall">Divadlo</string>
+    <string name="ai_card_room_type">Typ pokoje</string>
+    <string name="ai_card_seat">Sedadla</string>
+    <string name="ai_card_source">Od uživatele %s</string>
+    <string name="ai_card_table_info">Podrobnosti o stolu</string>
     <string name="ai_introduce_card_sub_title">Nechte si od AI automaticky přidávat do kalendáře cesty, vstupenky a další typy událostí.</string>
+    <string name="ai_location_navigate">Navigace</string>
+    <string name="ai_location_taxi">Taxi</string>
     <string name="alarm_close_reminder">Vypnutí připomenutí budíku</string>
     <string name="alarm_label">Rozumím</string>
     <string name="alarm_open_reminder">Nastavit upozornění</string>
@@ -121,6 +131,8 @@
     <string name="calendar_account_manager">Spravovat kalendáře účtů</string>
     <string name="calendar_account_settings">Nastavení účtu</string>
     <string name="calendar_data_sharing_instruction">Prohlášení o sdílení údajů s třetími stranami</string>
+    <string name="calendar_date_picker_a11y_next_month">Přejít na další měsíc</string>
+    <string name="calendar_date_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
     <string name="calendar_desc_withdraw_consent">Odebrat souhlas se Zásadami ochrany osobních údajů Kalendáře</string>
     <string name="calendar_import_source">Zdroj</string>
     <string name="calendar_privacy_policy">Zásady ochrany osobních údajů</string>
@@ -184,6 +196,7 @@
     <string name="date_interval_tab">Interval</string>
     <string name="date_interval_text_to">Do %1$s</string>
     <string name="date_jump_title">Přejít na datum</string>
+    <string name="date_of_birth">Narozeniny uživatele %s</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -193,6 +206,7 @@
     <string name="date_today">" (dnes)"</string>
     <string name="date_view">Datum</string>
     <string name="day_view_new_event_hint">Nová událost</string>
+    <string name="days_left">Zbývá</string>
     <string name="default_reminder_labels_day">%d den předem</string>
     <string name="default_reminder_labels_days">%d dny předem</string>
     <string name="default_reminder_labels_hour">%d hodina předem</string>
@@ -245,6 +259,8 @@
     <string name="edit_event_birthday_name_hint">Jméno</string>
     <string name="edit_event_calendar_label">Kalendář</string>
     <string name="edit_event_choose_date">Vyberte datum</string>
+    <string name="edit_event_confirm_continue">Pokračovat v úpravách</string>
+    <string name="edit_event_confirm_discard">Zahodit</string>
     <string name="edit_event_confirm_message">Zahodit změny?</string>
     <string name="edit_event_countdown_name_empty_hint">Zadejte název události</string>
     <string name="edit_event_countdown_name_hint">Událost</string>
@@ -277,6 +293,7 @@
     <string name="email_picker_label">E-mailová komunikace s</string>
     <string name="empty" />
     <string name="empty_event">Nelze vytvořit prázdnou událost</string>
+    <string name="end_at">Ukončit: %s</string>
     <string name="eras_ad">n.l.</string>
     <string name="eras_bc">př.n.l.</string>
     <string name="evening">Odpoledne</string>
@@ -302,6 +319,7 @@
     <string name="event_info_where">Kde</string>
     <string name="event_none_selected">Zrušen výběr všeho</string>
     <string name="event_reminder_allday_day_zero">V den události v %2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">Tento den</string>
     <string name="event_reminder_custom">Vlastní</string>
     <string name="event_reminder_value_zero">Kdy událost začíná</string>
     <string name="event_title">Název</string>
@@ -400,7 +418,6 @@
     <string name="hint_what_smart_input_12">h:mm, aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">Zadejte název události</string>
-    <string name="hint_where">Poloha</string>
     <string name="holiday_detail_read_more">Více</string>
     <string name="horoscope_select_activity_label">Vyberte znamení zvěrokruhu</string>
     <string name="hotel_detail_title">Detaily hotelu</string>
@@ -447,6 +464,7 @@
     <string name="login_caldav">Přidat</string>
     <string name="login_failed_toast">Přihlášení se nezdařilo, obnovte stránku a zkuste to znovu</string>
     <string name="logining_caldav_account">Přidávání…</string>
+    <string name="lunar_birthday_desc">Tradiční čínský kalendář</string>
     <string name="lunar_date">Lunární datum</string>
     <string name="lunar_date_content_desc">Datum podle tradičního čínského kalendáře</string>
     <string name="lunar_to_solar_chinese_calendar">Čínský na gregoriánský</string>
@@ -493,6 +511,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Přepnout na poloviční obrazovku</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizovat</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizovat</string>
+    <string name="miuix_popup_show_description">Vyskakovací okno</string>
     <string name="miuix_popup_window_default_title">Vyskakovací okno</string>
     <string name="miuix_progressbar_loading">Načítání</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potáhněte pro obnovení</string>
@@ -505,7 +524,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Načtení položek se nezdařilo</string>
     <string name="miuix_search_action_mode_cancel">Zrušit</string>
     <string name="miuix_search_back_button_description">Zpět</string>
-    <string name="miuix_search_end_view_text_search">Hledat</string>
+    <string name="miuix_search_end_view_text_search">Vyhledávání</string>
     <string name="miuix_search_history_clear">Vymazat historii vyhledávání</string>
     <string name="miuix_search_history_default_title">Historie vyhledávání</string>
     <string name="miuix_search_recommendation_default_title">Mohlo by se vám líbit</string>
@@ -586,6 +605,8 @@
     <string name="no_data">Zatím tady nic není</string>
     <string name="no_events_hint">Žádné události</string>
     <string name="no_locale_list_text">Seznam lokalit se nezdařilo načíst. Zkuste to znovu.</string>
+    <string name="no_location_hint">Výsledky se nepodařilo nalézt</string>
+    <string name="no_location_network">Připojení k síti se nezdařilo</string>
     <string name="no_more_events">Žádné další události</string>
     <string name="no_network">"Nelze se připojit k síti.
 Zkontrolujte nastavení sítě a zkuste to znovu."</string>
@@ -607,7 +628,10 @@ Zkontrolujte nastavení sítě a zkuste to znovu."</string>
     <string name="notification_open_setting_button_ok">Povolit</string>
     <string name="notification_open_setting_message">Pokud pro kalendář nepovolíte odesílání oznámení, nebudete moci dostávat oznámení o událostech.</string>
     <string name="notification_open_setting_title">Povolit oznámení Kalendáře?</string>
+    <string name="panel_title_end">Ukončit</string>
+    <string name="panel_title_start">Spustit</string>
     <string name="pasport_register_dialog_message">Vytvořit Xiaomi účet pomocí telefonního čísla %s nyní?</string>
+    <string name="pass_day">Splněno</string>
     <string name="passenger">Cestující</string>
     <string name="passport_access_denied">Přístup zamítnut</string>
     <string name="passport_account_crop_user_avatar">Oříznout fotografii</string>
@@ -827,6 +851,10 @@ Zkontrolujte nastavení sítě a zkuste to znovu."</string>
     <string name="premission_read_write_storage">Úložiště</string>
     <string name="premission_read_write_storage_new">Přístup k úložišti</string>
     <string name="privacy_and_permissions">Soukromí a oprávnění</string>
+    <string name="privacy_update_message">"Klepnutím na „Souhlasím“ vyjadřujete souhlas se (click)Zásadami ochrany osobních údajů Kalendáře(/click):
+
+Abyste získali lepší zážitek, nyní můžete při vytváření události vybrat místo. Vyhledávání míst a doporučení jsou poskytovány prostřednictvím mapových služeb třetích stran."</string>
+    <string name="privacy_update_title">Aktualizované Zásady ochrany osobních údajů</string>
     <string name="productivity_add_event">Vytvořit událost</string>
     <string name="productivity_no_event">Zatím žádné události</string>
     <string name="pull_refresh_events">Zobrazit událost roku %d</string>
@@ -894,7 +922,7 @@ Zkontrolujte nastavení sítě a zkuste to znovu."</string>
     <string name="search_calendar_settings">Kalendář;Denní program;Připomenutí</string>
     <string name="search_events">Hledat události</string>
     <string name="search_history">Historie vyhledávání</string>
-    <string name="search_location_hint">Zadejte adresu</string>
+    <string name="search_location_hint">Zadejte polohu</string>
     <string name="search_menu_title">Hledat</string>
     <string name="search_timezone">Vyhledat časová pásma</string>
     <string name="select_date">Přejít na datum</string>
@@ -942,11 +970,13 @@ Zkontrolujte nastavení sítě a zkuste to znovu."</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="solar_birthday_desc">Gregoriánský kalendář</string>
     <string name="solar_date_content_desc">Datum podle gregoriánského kalendáře</string>
     <string name="solar_lunar_convert_tab">Převést</string>
     <string name="solar_to_lunar_chinese_calendar">Gregoriánský na čínský</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Události</string>
+    <string name="start_at">Spustit: %s</string>
     <string name="start_date_calculate">Vypočítat</string>
     <string name="start_string">Začíná v(e) %s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1161,6 +1191,11 @@ Zkontrolujte nastavení sítě a zkuste to znovu."</string>
     <string name="widget_normal_weekN">%d. týden</string>
     <string name="widget_select_style">Vyberte styl</string>
     <string name="widget_spec_agenda_birth_today">Dnes</string>
+    <string name="withdraw_consent_button_withdraw">Odebrat</string>
+    <string name="withdraw_consent_message">"Pokud budete pokračovat, odeberete svůj souhlas se Zásadami ochrany osobních údajů Kalendáře. Přestaneme shromažďovat vaše osobní údaje. Osobní údaje, které již byly shromážděny a uchovávány, budou ve stanovené lhůtě v souladu s platnými zákony a předpisy odstraněny, pokud není požadováno jinak.
+Vzhledem k tomu, že Kalendář poskytuje své služby na základě shromažďování nezbytných osobních údajů, bude vaše odebrání souhlasu považováno za odmítnutí přijmout služby Kalendáře. Odebrat souhlas nyní?"</string>
+    <string name="withdraw_consent_preference_title">Odebrání souhlasu</string>
+    <string name="withdraw_consent_title">Odebrání souhlasu</string>
     <string name="work_day_default_banner_title">Mějte produktivní pracovní den!</string>
     <string name="xiaomi_account">Xiaomi účet</string>
     <string name="xiaomi_calendar_display_name">Kalendář Xiaomi účtu</string>

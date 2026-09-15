@@ -1,59 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Час назад</item>
-        <item quantity="few">Час назад</item>
-        <item quantity="many">Час назад</item>
-        <item quantity="other">Час назад</item>
-    </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">%d ч назад</item>
-        <item quantity="few">%d ч назад</item>
-        <item quantity="many">%d ч назад</item>
-        <item quantity="other">%d ч назад</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Полчаса назад</item>
-        <item quantity="few">Полчаса назад</item>
-        <item quantity="many">Полчаса назад</item>
-        <item quantity="other">Полчаса назад</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="one">Через %d ч</item>
-        <item quantity="few">Через %d ч</item>
-        <item quantity="many">Через %d ч</item>
-        <item quantity="other">Через %d ч</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="one">Через полчаса</item>
-        <item quantity="few">Через полчаса</item>
-        <item quantity="many">Через полчаса</item>
-        <item quantity="other">Через полчаса</item>
-    </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Немедленно</item>
-        <item quantity="few">Немедленно</item>
-        <item quantity="many">Немедленно</item>
-        <item quantity="other">Немедленно</item>
-    </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="one">Через %d мин</item>
-        <item quantity="few">Через %d мин</item>
-        <item quantity="many">Через %d мин</item>
-        <item quantity="other">Через %d мин</item>
-    </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Только что</item>
-        <item quantity="few">Только что</item>
-        <item quantity="many">Только что</item>
-        <item quantity="other">Только что</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="one">%d мин назад</item>
-        <item quantity="few">%d мин назад</item>
-        <item quantity="many">%d мин назад</item>
-        <item quantity="other">%d мин назад</item>
-    </plurals>
     <plurals name="cloud_storage_full_upgrade_text">
         <item quantity="one">Недостаточно места в хранилище. Не удалось синхронизировать %d фото.</item>
         <item quantity="few">Недостаточно места в хранилище. Не удалось синхронизировать %d фото.</item>
@@ -186,12 +132,6 @@
         <item quantity="many">Не удалось синхронизировать %s объектов</item>
         <item quantity="other">Не удалось синхронизировать %s объектов</item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Полчаса назад</item>
-        <item quantity="few">Полчаса назад</item>
-        <item quantity="many">Полчаса назад</item>
-        <item quantity="other">Полчаса назад</item>
-    </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">Через 1 час</item>
         <item quantity="few">Через 1 час</item>
@@ -233,12 +173,6 @@
         <item quantity="few">%s мин назад</item>
         <item quantity="many">%s мин назад</item>
         <item quantity="other">%s мин назад</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Только что</item>
-        <item quantity="few">Только что</item>
-        <item quantity="many">Только что</item>
-        <item quantity="other">Только что</item>
     </plurals>
     <plurals name="local_lockscreen_error_hint_retry">
         <item quantity="one">Слишком много попыток. Повторите через %s секунду.</item>
@@ -354,18 +288,6 @@
         <item quantity="many">Всего у вас %s ненадежных устройств.</item>
         <item quantity="other">Всего у вас %s ненадежных устройств.</item>
     </plurals>
-    <plurals name="noti_quota_full_title_with_icon_text">
-        <item quantity="one">Хранилище заполнено. Не удалось синхронизировать &lt;font color=#F22424>%d приложение&lt;/font>.</item>
-        <item quantity="few">Хранилище заполнено. Не удалось синхронизировать &lt;font color=#F22424>%d приложения&lt;/font>.</item>
-        <item quantity="many">Хранилище заполнено. Не удалось синхронизировать &lt;font color=#F22424>%d приложений&lt;/font>.</item>
-        <item quantity="other">Хранилище заполнено. Не удалось синхронизировать &lt;font color=#F22424>%d приложений&lt;/font>.</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">1 мин назад</item>
-        <item quantity="few">%d мин назад</item>
-        <item quantity="many">%d мин назад</item>
-        <item quantity="other">%d мин назад</item>
-    </plurals>
     <plurals name="other_lockscreen_error_hint_retry">
         <item quantity="one">Слишком много попыток. Повторите через %d день.</item>
         <item quantity="few">Слишком много попыток. Повторите через %d дня.</item>
@@ -413,6 +335,12 @@
         <item quantity="few">%1$s мин</item>
         <item quantity="many">%1$s мин</item>
         <item quantity="other">%1$s мин</item>
+    </plurals>
+    <plurals name="verify_code_send_desc_more">
+        <item quantity="one">Чтобы продолжить, введите проверочный код, отправленный на %6$d устройство, включая %1$s, %2$s, %3$s, %4$s и %5$s.</item>
+        <item quantity="few">Чтобы продолжить, введите проверочный код, отправленный на %6$d устройства, включая %1$s, %2$s, %3$s, %4$s и %5$s.</item>
+        <item quantity="many">Чтобы продолжить, введите проверочный код, отправленный на %6$d устройств, включая %1$s, %2$s, %3$s, %4$s и %5$s.</item>
+        <item quantity="other">Чтобы продолжить, введите проверочный код, отправленный на %6$d устройств, включая %1$s, %2$s, %3$s, %4$s и %5$s.</item>
     </plurals>
     <plurals name="verify_open_SMS_dialog_positive_btn_timer">
         <item quantity="one">Отправить новый код (%s c)</item>

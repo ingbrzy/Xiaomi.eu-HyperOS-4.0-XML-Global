@@ -372,7 +372,7 @@ A billentyűzeten és a navigációs sávon nem lehetséges a nagyítás."</stri
     <string name="accessibility_service_screen_control_description">Elolvashatja a képernyő tartalmát, és tartalmakat jeleníthet meg más alkalmazások felett.</string>
     <string name="accessibility_service_screen_control_title">Képernyő megtekintése és kezelése</string>
     <string name="accessibility_service_warning_description">A teljes vezérlés indokolt olyan alkalmazásoknál, amelyek kisegítő lehetőségeket nyújtanak, a legtöbb alkalmazásnál azonban nem.</string>
-    <string name="accessibility_setting_item_control_timeout_title">Művelet ideje (kisegítés időkorlátja)</string>
+    <string name="accessibility_setting_item_control_timeout_title">Ideje cselekedni</string>
     <string name="accessibility_settings">Kisegítő lehetőségek</string>
     <string name="accessibility_settings_summary">Megjelenítés, interakció, hang</string>
     <string name="accessibility_settings_tabs_general">Általános</string>
@@ -609,6 +609,7 @@ A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne 
     <string name="activity_title_root_note">A root jogosultságokról</string>
     <string name="ad_service">Hirdetési szolgáltatások</string>
     <string name="adapt_embedded">A párhuzamos ablakok elérhetők</string>
+    <string name="adapted_game_title">Támogatott játékok</string>
     <string name="adaptive_brightness_main_switch_title">Alkalmazkodó fényerő használata</string>
     <string name="adaptive_connectivity_main_switch_title">Adaptív csatlakozás használata</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">A legjobb hálózati kapcsolat automatikus kiválasztása az akkumulátor-üzemidő meghosszabbítása érdekében</string>
@@ -684,7 +685,7 @@ A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne 
     <string name="add_fingerprint_move_fast">Tartsa az ujját a képernyőn egy kicsit tovább</string>
     <string name="add_fingerprint_name_suggest_text">Az ujjlenyomat neve</string>
     <string name="add_fingerprint_put_finger_edge_msg">Óvatosan mozgassa arrébb az ujját, majd rakja vissza a szenzorra, hogy ujjlenyomatának minden apró részlete hozzáadódjon.</string>
-    <string name="add_fingerprint_put_finger_msg">Tegye az ujját az érzékelőre, majd emelje fel, ha rezgést érzett.</string>
+    <string name="add_fingerprint_put_finger_msg">Helyezze az ujját az érzékelőre, majd vegye le, és ismételje meg.</string>
     <string name="add_fingerprint_put_finger_title">Ujjlenyomat hozzáadása</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Enyhén mozgassa az ujját</string>
     <string name="add_fingerprint_success_msg">Sikeresen hozzáadva</string>
@@ -724,7 +725,10 @@ A rendszergazda képes a beállítások, hozzáférések, alkalmazások és a fe
     <string name="advanced_battery_title">Akkuhasználat</string>
     <string name="advanced_gesture">Egyedi gesztusok</string>
     <string name="advanced_screen_paper_mode_title">Olvasómód</string>
+    <string name="advanced_screen_paper_mode_title_eye_comfort">Szemkomfort</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Szemkomfort</string>
+    <string name="advanced_screen_paper_mode_title_vision_care">Xiaomi Vision Care</string>
     <string name="advanced_section_header">Általános</string>
     <string name="advanced_security_title">Speciális</string>
     <string name="advanced_settings">További beállítások</string>
@@ -901,8 +905,8 @@ Modul: %2$s
     <string name="aon_gesture_up_down_waving_summary">Függőleges tartalomfolyamokkal működik</string>
     <string name="aon_gesture_up_down_waving_switch">Függőlegesen integetve húzza felfelé és lefelé</string>
     <string name="aon_gesture_up_down_waving_title">Csúsztatás függőlegesen</string>
-    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Győződjön meg arról, hogy jól megvilágított helyen tartózkodik, majd tartsa a kezét %d–%d cm-re a kamera elé, tenyerével lefelé. Ha a felismerés sikeres, intsen a kezével felfelé. Ezt a kézmozdulatot használhatja a képernyőn felfelé csúsztatáshoz.</string>
-    <string name="aon_gesture_up_waving_diagram_title">Integessen felfelé a képernyő előtt</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Győződjön meg róla, hogy jól megvilágított helyen tartózkodik, majd tartsa a kezét %d–%d cm-re a kamera elé, tenyerét felfelé vagy lefelé tartva. Az azonosítást követően integetve csúsztasson. Folytassa az integetést a csúsztatás folytatásához. A csúsztatás irányának megváltoztatásához fordítsa a kezét a másik irányba, és tartsa egy pillanatig mozdulatlanul. Az azonosítás után integessen újra.</string>
+    <string name="aon_gesture_up_waving_diagram_title">Intsen a kezével a képernyő előtt a csúsztatáshoz</string>
     <string name="aon_scanner_default_payment_method_title">Alapértelmezett fizetési mód</string>
     <string name="aon_scanner_dialog_message">A Gyorsolvasó bekapcsolásakor a beolvasott QR-kódok meg lesznek osztva a Mi AI Scannerrel. A folytatás előtt feltétlenül értelmezze ezt, és fogadja el. A beolvasott QR-kódok nem tárolódnak helyben, és nem töltődnek fel a felhőbe. Ne feledje, hogy ennek a funkciónak a használata kissé megnövelheti az általános energiafogyasztást.</string>
     <string name="aon_scanner_dialog_message_new">Ha a Gyorsolvasót használja, a beolvasott QR- kódokat megosztjuk az AI Scannerrel. Ezt az információt nem tárolja az Ön készüléke, és nem is lesz feltöltve a felhőbe. A funkció bekapcsolása kissé növeli az energiafogyasztást.</string>
@@ -1406,6 +1410,7 @@ Utolsó futás időpontja: %2$s"</string>
     <string name="back_strap_status_close">Ki</string>
     <string name="back_strap_status_open">Be</string>
     <string name="back_strap_title">Hátsó fényhatások</string>
+    <string name="back_strap_title_tip">Kapcsolja be, ha személyre szabott riasztásokat szeretne kapni különböző helyzetekben</string>
     <string name="back_tap">Hátoldali érintés</string>
     <string name="back_triple_tap">Tripla hátoldali érintés</string>
     <string name="background_activity_disabled_dialog_text">"Az alkalmazás nem korlátozható, mert nincs beállítva az akkumulátor optimalizálására.
@@ -1417,6 +1422,7 @@ A korlátozáshoz kapcsolja be az akkumulátoroptimalizálást."</string>
     <string name="background_blur_enable">Haladó textúrák</string>
     <string name="background_blur_enable_summary">Renderelési effektusokkal, például elmosódással egészíti ki a rendszert a jobb vizuális élmény érdekében</string>
     <string name="background_blur_message">Ha bekapcsolja ezt a funkciót, a készülék több energiát használhat, és felmelegedhet. Mindenképpen bekapcsolja?</string>
+    <string name="background_blur_mode_title">Vizuális stílus</string>
     <string name="background_blur_title">Haladó textúrák bekapcsolása</string>
     <string name="background_check_pref">Háttérellenőrzés</string>
     <string name="background_data">Háttéradatok</string>
@@ -1983,7 +1989,8 @@ A Feloldás órával funkció a telefon zárolásának másik kényelmes módja,
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">Újraindítás</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">Bluetooth újraindítása</string>
     <string name="bluetooth_enable_opp_high_speed_summary">Nagy sebességű Bluetooth P2P protokollok használata az átvitelhez</string>
-    <string name="bluetooth_enable_page_scan_summary">Lapolvasás kikapcsolása/bekapcsolása Bluetooth-teszthez</string>
+    <string name="bluetooth_enable_page_scan">Bluetooth oldalkeresés</string>
+    <string name="bluetooth_enable_page_scan_summary">A Bluetooth oldalkeresés be- és kikapcsolása teszteléshez</string>
     <string name="bluetooth_enter_passkey_msg">Gépelje be a párosítókódot, majd nyomja meg az Enter vagy a Return gombot</string>
     <string name="bluetooth_enter_passkey_other_device">Előfordulhat, hogy az azonosító kulcsot a másik eszközön is be kell írnia.</string>
     <string name="bluetooth_enter_pin_other_device">Előfordulhat, hogy a PIN-kódot a másik készüléken is meg kell adnia.</string>
@@ -2291,9 +2298,11 @@ Amíg csatlakozik, a(z) %2$s eszköz fogadja majd a(z) %3$s telefonszámra érke
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Eszköz elfelejtése</string>
     <string name="bluetooth_unpair_dialog_title">Elfelejti az eszközt?</string>
     <string name="bluetooth_unpair_dialog_with_associations_body">Telefonja a továbbiakban nem lesz párosítva a következő eszközzel: %1$s. A(z) %2$s a továbbiakban nem fogja kezelni az eszközt.</string>
+    <string name="bluetooth_unpairing">Leválasztás…</string>
     <string name="bluetooth_version">Bluetooth-verzió</string>
     <string name="bluetooth_version_message">Frissítés</string>
     <string name="bluetooth_wake">Ébresztés Bluetooth-audióval</string>
+    <string name="bluetooth_watch_not_synced_unpair_manually">Az óra nincs szinkronizálva. Válassza le manuálisan.</string>
     <string name="blur_switch">Elhomályosítási effektusok csökkentése</string>
     <string name="blur_switch_disabled_summary">Átmenetileg kikapcsolva az Akkumulátorkímélő mód miatt</string>
     <string name="blur_switch_summary">Hátterek és panelek könnyebben láthatóvá tétele</string>
@@ -2617,6 +2626,7 @@ Ez hatással lehet a többi olyan alkalmazásra vagy beszélgetésre is, amelyek
     <string name="camera_key_action_title">Mi Gomb</string>
     <string name="camera_key_action_toggle_title">Exponálógomb váltása</string>
     <string name="camera_laser_sensor_switch">A kamera lézeres érzékelője</string>
+    <string name="camera_mr_settings">Kameragyűrű</string>
     <string name="camera_rear">Hátlapi %s</string>
     <string name="camera_toggle_label_qs">Kamera-hozzáférés</string>
     <string name="camera_toggle_title">Hozzáférés a kamerához</string>
@@ -2747,6 +2757,16 @@ Ha ez az engedély be van kapcsolva, az alkalmazást ki lehet választani címke
     <string name="checked_app_title">Fényhatások be</string>
     <string name="checking_find_device_status">Készülékkeresés állapotának ellenőrzése…</string>
     <string name="checking_for_updates">Frissítések keresése…</string>
+    <string name="child_face_number_reach_limit">Legfeljebb három személy arcadatait adhatja hozzá</string>
+    <string name="child_face_unlock_download_education_center_button">Telepítés</string>
+    <string name="child_face_unlock_download_education_center_content">Ahhoz, hogy ezt a funkciót használni tudja, először telepítse az Oktatóközpontot.</string>
+    <string name="child_face_unlock_download_education_center_title">Figyelmeztetés</string>
+    <string name="child_face_unlock_first_close_child_unlock">Először kapcsolja ki az „Oktatóközpont megnyitása a feloldást követően” opciót</string>
+    <string name="child_face_unlock_first_close_stay_keyguard">Először kapcsolja ki a „Maradjon a Képernyőzáron a feloldás után” opciót</string>
+    <string name="child_face_unlock_no_use">Ki</string>
+    <string name="child_face_unlock_open_education_center">Oktatóközpont megnyitása a feloldást követően</string>
+    <string name="child_face_unlock_open_education_center_summary">Válassza ki egy adott személy arcadatait, aki használni fogja ezt a funkciót</string>
+    <string name="child_face_unlock_use">Használat</string>
     <string name="chip_add_title">Frekvencia hozzáadása</string>
     <string name="chip_change_error_toast">A paraméterek beállítása sikertelen</string>
     <string name="chip_change_toast">A frekvencia megváltozott. A módosítások alkalmazásához indítsa újra a készüléket.</string>
@@ -3684,6 +3704,7 @@ Ez a beállítás a készülék összes felhasználójára hatással van."</stri
     <string name="device_screen_size">Képernyőméret</string>
     <string name="device_screen_usage">Képernyőhasználat teljes feltöltés óta</string>
     <string name="device_sd_memory">SD-kártya</string>
+    <string name="device_security_chip">Dedikált biztonsági chip</string>
     <string name="device_share_loading">Képkészítés</string>
     <string name="device_status">Állapot</string>
     <string name="device_status_activity_title">Állapot</string>
@@ -3740,6 +3761,7 @@ Ez a beállítás a készülék összes felhasználójára hatással van."</stri
     <string name="disable_overlays">HW fedvények letiltása</string>
     <string name="disable_overlays_summary">Mindig a GPU használata képernyő-feldolgozáshoz</string>
     <string name="disable_password_warning">Ha kikapcsolja a képernyőzárat, a tárolt ujjlenyomatok és arcadatok is törlődnek. Nem fogja tudni feloldani a készülékét arcalapú feloldással vagy ujjlenyomat használatával, vagy használni őket a Jegyzetekben vagy a Galériában.</string>
+    <string name="disable_permission_text_by_hyper">Ez az engedély nem ment át a felülvizsgálaton, és jelenleg korlátozott</string>
     <string name="disable_phantom_process_monitor_summary">A rendszererőforrások alárendelt alkalmazásfolyamatok általi használatát érintő korlátozások kikapcsolása.</string>
     <string name="disable_phantom_process_monitor_title">Alárendelt folyamatok korlátozásának kikapcsolása</string>
     <string name="disable_power_key_long_press_under_keyguard">A Bekapcsológomb menüjének kikapcsolása</string>
@@ -3991,6 +4013,7 @@ Ez a beállítás a készülék összes felhasználójára hatással van."</stri
     <string name="dump_log_summary">"Ez a szolgáltatás a(z) %s napló előállítására szolgál a rendszer Béta verziójában. Körültekintően használja.
  Az elkészült naplókat a Fájlkezelőben tekintheti meg."</string>
     <string name="dump_log_title">A szolgáltatásról</string>
+    <string name="dynamic_island_title">Xiaomi HyperIsland</string>
     <string name="early_morning">Reggel</string>
     <string name="easy_mode_font_settings_toast">A betűtípus Egyszerű módban nem igazítható</string>
     <string name="easymode_hint">Az Egyszerű mód kikapcsolásához koppintson</string>
@@ -4020,6 +4043,7 @@ Ez a beállítás a készülék összes felhasználójára hatással van."</stri
     <string name="eid_multi_sim">E​ID %1$d</string>
     <string name="eighthours">8 óra</string>
     <string name="elastic_text">A rákérdezések és legördülő menük egy elasztikus buborékkal jelennek meg, még inkább előtérbe hozva ezeket az objektumokat</string>
+    <string name="elder_care_ai_anti_fraud">Csalások észlelése beszélgetések során és figyelmeztetések fogadása</string>
     <string name="elder_care_block_advertising_promotions_calls_title">Marketinghívások letiltása</string>
     <string name="elder_care_block_estate_agency_calls_title">Ingatlanügynökségi hívások letiltása</string>
     <string name="elder_care_block_risky_app_title">Kockázatos alkalmazások letiltása</string>
@@ -4388,6 +4412,11 @@ A kezdéshez csatlakoztasson külső kijelzőt, vagy próbálkozzon másik kábe
     <string name="external_source_untrusted">Nem engedélyezett</string>
     <string name="extreme_threats_summary">Riasztások extrém károkkal járó veszélyekről</string>
     <string name="extreme_threats_title">Extrém veszélyek</string>
+    <string name="eye_care_adjust_mode">Beállítás stílusa</string>
+    <string name="eye_care_classic_mode">Klasszikus</string>
+    <string name="eye_care_learn_more">Tudjon meg többet a szem kényelméről</string>
+    <string name="eye_care_mode_description">A „Ritmus” automatikusan beállítja a színhőmérsékletet az idő és a használati körülmények alapján. Napközben természetesebb, éjszaka pedig melegebb marad. A „Klasszikus” fix színhőmérsékletet használ, és manuálisan kell beállítani.</string>
+    <string name="eye_care_rhythmic_mode">Ritmus</string>
     <string name="eye_gaze_dialog_message">Ha ez a funkció be van kapcsolva, a rendszer érzékeli, hogy a képernyőre néz-e, de az arcvonásait nem elemzi, és ezeket az adatokat nem tárolja a készülékén, illetve nem tölti fel a felhőbe. Bekapcsolja most?</string>
     <string name="eye_gaze_dialog_title">Biztonsági értesítés</string>
     <string name="eye_gaze_summary">A készülék nem zárolódik, ha észleli, hogy ön a képernyőt nézi</string>
@@ -4396,6 +4425,7 @@ A kezdéshez csatlakoztasson külső kijelzőt, vagy próbálkozzon másik kábe
     <string name="eye_habit_prompt_summary">Értesítések fogadása, ha a készülék szemterhelést okozó körülményeket észlel</string>
     <string name="eye_habit_prompt_title">Szemegészségi értesítések</string>
     <string name="eye_paper_protection">Olvasómód beállításai</string>
+    <string name="eye_protection_technology">Technológia</string>
     <string name="eyes_protect_certification">Technológia és tanúsítás</string>
     <string name="eyes_protect_certification_summary_1">Vizuális egészségbarát S++ tanúsítvány</string>
     <string name="eyes_protect_certification_summary_2">Alacsony kék fény (hardveres megoldás), cirkadián ritmusnak megfelelő és villódzásmentes tanúsítvánnyal rendelkező</string>
@@ -4407,6 +4437,7 @@ A kezdéshez csatlakoztasson külső kijelzőt, vagy próbálkozzon másik kábe
     <string name="eyes_protect_certification_title_3">Természetesebb körkörös polarizáció</string>
     <string name="eyes_protect_certification_title_4">Villódzásmentes DC-fényerőszabályozás</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM fényerőszabályozás</string>
+    <string name="eyes_protect_game_title">Gaming szemkomfort</string>
     <string name="face_data_apply_for_category_title">Feloldás arcadatokkal</string>
     <string name="face_data_apply_for_keyguard_title">Képernyőzár</string>
     <string name="face_data_input_camera_fail">Nem lehet elindítani a kamerát</string>
@@ -4437,6 +4468,7 @@ A kezdéshez csatlakoztasson külső kijelzőt, vagy próbálkozzon másik kábe
     <string name="face_data_suggesstion_first_cn_highlight">Az arcalapú feloldás kevésbé biztonságos, mint a PIN-kód, a jelszó, a feloldóminta vagy az ujjlenyomat. Telefonját akár egy Önről készült fényképpel, vagy egy Önre hasonlító személy arcával, vagy hasonló tárggyal is feloldhatják.</string>
     <string name="face_data_suggesstion_second">Biztosítsa, hogy az arcának egyetlen részét sem takarja el semmi, és minden tisztán látható. Az arca legyen jól megvilágított.</string>
     <string name="face_enroll_when_slt_on_toast">Nem lehet arcot hozzáadni az Arcalapú feloldáshoz a Tiantong Satellite kommunikációs szolgáltatás használatakor</string>
+    <string name="face_enrollment_fold_warning">A képernyő állapotának megváltoztatása megszakítja az arcadatok rögzítését</string>
     <string name="face_enrollment_tips">Ügyeljen arra, hogy arcának minden része jól látható legyen. Ne viseljen sapkát, maszkot, napszemüveget vagy egyéb kiegészítőket.</string>
     <string name="face_finger_add">Hozzáadás</string>
     <string name="face_finger_delete">Törlés</string>
@@ -4460,6 +4492,9 @@ A kezdéshez csatlakoztasson külső kijelzőt, vagy próbálkozzon másik kábe
     <string name="face_unlock_disable">Arcazonosítás kikapcsolva</string>
     <string name="face_unlock_down">Emelje feljebb a fejét</string>
     <string name="face_unlock_enable">Arcazonosítás bekapcsolva</string>
+    <string name="face_unlock_in_low_light_msg">Növelje a képernyő fényerejét gyenge fényviszonyok mellett, hogy javítsa az arcazonosítást</string>
+    <string name="face_unlock_in_low_light_tip">Ha az Éjszakai szemkomfort be van kapcsolva, az „Azonosítás optimalizálása gyenge fényviszonyok mellett” beállítás nem világítja ki a képernyőt</string>
+    <string name="face_unlock_in_low_light_title">Azonosítás optimalizálása gyenge fényviszonyok mellett</string>
     <string name="face_unlock_not_found">Nem sikerült Önt felismerni</string>
     <string name="face_unlock_offset_bottom">Engedje le egy kicsit a telefont</string>
     <string name="face_unlock_offset_left">Mozduljon jobbra</string>
@@ -4513,6 +4548,11 @@ a külső képernyővel szemben"</string>
     <string name="fan_mode_partial_scene_usage">Kiválasztva</string>
     <string name="fan_mode_range_title">Használati forgatókönyvek</string>
     <string name="fan_mode_usage_scenes">Használati forgatókönyvek</string>
+    <string name="fan_other_features">Egyéb funkciók</string>
+    <string name="fan_self_clean">Ventilátor öntisztítás</string>
+    <string name="fan_self_clean_summary">Ha a ventilátor több mint %d napja nem működött, akkor a képernyő kikapcsolt állapotában és a készülék töltése közben automatikusan tisztítja magát</string>
+    <string name="fan_smart_stop_on_recording">Szüneteltetés hangrögzítés közben</string>
+    <string name="fan_smart_stop_on_recording_summary">Csökkentse a ventilátor zaját hívások, hang- és videófelvételek készítése közben. Ez a játékokra nem vonatkozik.</string>
     <string name="fcc_equipment_id">Eszközazonosító</string>
     <string name="feature_flags_dashboard_title">Funkciókapcsolók</string>
     <string name="feedback">Visszajelzés</string>
@@ -4592,6 +4632,7 @@ További információért forduljon a hitelezőhöz."</string>
     <string name="fingerprint_enroll_button_add">Még egy hozzáadása</string>
     <string name="fingerprint_enroll_button_next">Következő</string>
     <string name="fingerprint_enrollment_desc">Az ujjlenyomat rögzítése után azt felhasználhatja a készülék feloldásához és személyazonosságának igazolásához.</string>
+    <string name="fingerprint_enrollment_fold_warning">A képernyő állapotának megváltoztatása megszakítja az ujjlenyomat rögzítését</string>
     <string name="fingerprint_enrollment_title">Ujjlenyomat rögzítése</string>
     <string name="fingerprint_face_password">Ujjlenyomat, arcadatok és képernyőzár</string>
     <string name="fingerprint_face_password_unlock">Ujjlenyomat, arcadatok és képernyőzár</string>
@@ -4619,6 +4660,7 @@ További információért forduljon a hitelezőhöz."</string>
     <string name="fingerprint_password_unlock">Ujjlenyomat és képernyőzár</string>
     <string name="fingerprint_payment">Fizetés ujjlenyomattal</string>
     <string name="fingerprint_privacy_desc">Ujjlenyomatával hozzáférhet privát albumokhoz, üzenetekhez, jegyzetekhez, fájlokhoz, a Xiaomi Hyper XiaoAi memóriához, az Alkalmazások zárolásához és a jelszókezelő eszközökhöz.</string>
+    <string name="fingerprint_privacy_policy"><Data>A folytatás előtt olvassa el és fogadja el az &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"Ujjlenyomat &amp;#038; képernyőzás\" Adatvédelmi nyilatkozat&lt;/a> dokumentumot.&lt;/font></Data></string>
     <string name="fingerprint_protection">Ujjlenyomat védelme</string>
     <string name="fingerprint_record_input">Rögzítés</string>
     <string name="fingerprint_removal_failed">Az ujjlenyomat eltávolítása sikertelen, próbálja meg később</string>
@@ -4690,21 +4732,6 @@ További információért forduljon a hitelezőhöz."</string>
     <string name="flash_notifications_summary_off">Ki / Kérheti a vaku- vagy a képernyő-villogtatást értesítések és riasztások esetén</string>
     <string name="flash_notifications_summary_on">Be/Kérheti a vaku- vagy a képernyő-villogtatást értesítések és riasztások esetén</string>
     <string name="flash_notifications_title">Beam az értesítésekhez</string>
-    <string name="flashback_background_start_switch_summary">Tanulókártyák automatikus generálása a legfontosabb információkkal, amikor az alkalmazások a háttérben futnak</string>
-    <string name="flashback_background_start_switch_title">Kártya automatikus létrehozása</string>
-    <string name="flashback_baidu_map_summary">Útvonal megjelenítése</string>
-    <string name="flashback_didi_summary">Utazási info megjelenítése</string>
-    <string name="flashback_meituan_summary">Szállítási info megjelenítése</string>
-    <string name="flashback_meituan_waimai_summary">Szállítási info megjelenítése</string>
-    <string name="flashback_open_switch_summary">A fontos információkat jelenítik meg, amikor az alkalmazások lebegő ablakként jelennek meg</string>
-    <string name="flashback_open_switch_title">Alkalmazás-kártyák</string>
-    <string name="flashback_shansong_summary">Szállítás folyamatának megjelenítése</string>
-    <string name="flashback_status_close">Ki</string>
-    <string name="flashback_status_open">Be</string>
-    <string name="flashback_summary">A fontos információkat jelenítik meg, amikor az alkalmazások lebegő ablakként jelennek meg</string>
-    <string name="flashback_support_apps_title">Elérhető alkalmazások</string>
-    <string name="flashback_title">Alkalmazás-kártyák</string>
-    <string name="flashback_wangzhe_summary">Mutassa a feltámadás visszaszámlálását</string>
     <string name="flip_aod_settings_title">Képernyőzár (külső)</string>
     <string name="flip_aod_settings_title_new">Képernyőzár (külső)</string>
     <string name="flip_application_settings_title">Külső képernyő alkalmazások</string>
@@ -4800,6 +4827,8 @@ További információért forduljon a hitelezőhöz."</string>
     <string name="font_preview_text_content">"Példaszöveg:
 
 A Xiaomi fáradhatatlanul dolgozik azon, hogy lenyűgöző termékei korrekt árakon világszerte mindenkinek jobb életet nyújtsanak az innovatív technológia segítségével."</string>
+    <string name="font_preview_text_content_new">"Példaszöveg:
+A Xiaomi fáradhatatlanul dolgozik azon, hogy lenyűgöző termékei korrekt árakon világszerte mindenkinek jobb életet nyújtsanak az innovatív technológia segítségével."</string>
     <string name="font_scale_percentage">%1$d%%</string>
     <string name="font_setting_weight_toast">Az aktuális betűtípus nem támogatja a betűvastagság beállítását</string>
     <string name="font_settings_jump">Kisegítő lehetőségek > A kijelző mérete</string>
@@ -4819,12 +4848,14 @@ A Xiaomi fáradhatatlanul dolgozik azon, hogy lenyűgöző termékei korrekt ár
 "</string>
     <string name="font_size_summary1">"Ha még mindig túl kis méretűek a betűk, próbálja ezt: "</string>
     <string name="font_size_summary2">Egyszerű mód</string>
+    <string name="fonts_management_installed_app">Betűtípusok telepítése és kezelése az alkalmazásokban való használatra</string>
+    <string name="fonts_manager">Betűtípusok kezelése</string>
     <string name="footer_description_full_screen_intent">Engedélyezze, hogy ez az alkalmazás a teljes képernyőt kitöltő értesítéseket jelenítsen meg, amikor a készülék le van zárva. Az alkalmazás a teljes képernyőre kiterjedő értesítéseket használhatja riasztások, bejövő hívások vagy más sürgős értesítések megjelenítésére. Ez a beállítás a háttérben futó új ablakok megnyitásának engedélyére támaszkodik, és csak akkor használható, ha ez az engedély meg van adva.</string>
     <string name="footer_learn_more_content_description">További információ erről: %1$s</string>
     <string name="footer_time_zone_offset_change_next_change">Következő módosítás</string>
     <string name="footer_time_zone_offset_change_no_next_change">Nincsenek ütemezett módosítások</string>
     <string name="forbidden_network">(tiltott)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">A Javítás mód be van kapcsolva. A jelszavak most nem állíthatók be és nem módosíthatók.</string>
     <string name="forbidden_switch_apn_string">A kiválasztott APN beállítások nem egyeznek a jelenlegi hálózattípussal</string>
     <string name="force_allow_on_external">Külső tárhely alkalmazásainak engedélyezése</string>
     <string name="force_allow_on_external_summary">Lehetővé teszi bármely alkalmazás külső tárhelyre való írását a jegyzékértékektől függetlenül.</string>
@@ -4944,6 +4975,7 @@ Ez a funkció csak akkor működik, ha a rendszervezérlés kézmozdulatokra van
     <string name="friday_first_day_of_week">Péntek</string>
     <string name="friday_short">Pén</string>
     <string name="friday_shortest">Pén</string>
+    <string name="frp_status_activated">A gyári adatok visszaállítása elleni védelem bekapcsolva</string>
     <string name="fsg_mistake_touch_summary">Bizonyos jelenetekben, például teljes képernyős játékokban és videókban, a kézmozdulatokat kétszer kell végighúzni a megfelelő működéshez</string>
     <string name="fsg_mistake_touch_title">Duplán elvégzendő kézmozdulatok</string>
     <string name="full_screen_display">Teljes képernyős mód</string>
@@ -4987,6 +5019,7 @@ Ha bekapcsolja az automatikus biztonsági mentést, akkor a rendszer szabályos 
     <string name="game_controller_stick_remapping_category">Irányok</string>
     <string name="game_controller_stick_right">Jobb oldali kar</string>
     <string name="game_delta_action_moments">Kincsek felhalmozása és sikeres evakuálás</string>
+    <string name="game_eyecare_empty_list_tip">Itt még nincs semmi</string>
     <string name="game_king_of_glory_moments">Ölések, győzelmek és egyéb fontos pillanatok</string>
     <string name="game_peacekeeper_elites_moments">Ejtőernyőzés és harc</string>
     <string name="game_storage_settings">Játékok</string>
@@ -5154,6 +5187,7 @@ Jobbra csúszik az a terület, ahol megerősítheti a képernyőzárat."</string
     <string name="gxzw_anim_rhythm">Ritmus</string>
     <string name="gxzw_anim_star">Csillagfény</string>
     <string name="gxzw_anim_switch">Ujjlenyomat-animáció</string>
+    <string name="gxzw_anim_switch_new">Ujjlenyomat-animáció</string>
     <string name="gxzw_anim_title">Ujjlenyomat-felismerés</string>
     <string name="gxzw_aod_show_summary">Emelje fel a készüléket, vagy érintse meg a képernyőt az ujjlenyomat-ikon megjelenítéséhez. Ez a funkció növeli a rendszer energiafogyasztását, de lehetővé teszi a készülék gyorsabb feloldását.</string>
     <string name="gxzw_aod_show_tittle">Ujjlenyomatolvasó-ikon a lezárt képernyőn</string>
@@ -5172,6 +5206,7 @@ Jobbra csúszik az a terület, ahol megerősítheti a képernyőzárat."</string
     <string name="gxzw_quick_open_show_summary">· A parancsikon menü megnyitásához hagyja ujját az ujjlenyomat ikonon, miután a készülék feloldásra került.</string>
     <string name="gxzw_quick_open_slow_summary">A parancsikon-menü megnyitásához tartsa lenyomva az ujjlenyomat-ikont. Csúsztasson rajta a parancsikon használatához.</string>
     <string name="gxzw_quick_open_slow_title">Nyomva tartás</string>
+    <string name="gxzw_quick_open_summary">A feloldás után nyomja hosszan az ujjlenyomat ikont a parancsikon menü megnyitásához, majd csúsztasson egy parancsikonra a kiválasztásához.</string>
     <string name="gxzw_quick_open_title">Parancsikonok</string>
     <string name="gxzw_recognizing_anim_a">Fodrozódás</string>
     <string name="gxzw_recognizing_anim_b">Spirál</string>
@@ -5462,6 +5497,7 @@ Nyissa meg a Xiaomi Cloudot, és állítsa vissza az elemeket onnan."</string>
     <string name="immediately_destroy_activities">Tevékenységek törlése</string>
     <string name="immediately_destroy_activities_summary">Tevékenységek törlése, amint elhagyják azokat</string>
     <string name="immersive_audio_sources">Immerzív hang</string>
+    <string name="import_manager_font_summary">Betűtípusok importálása és kezelése alkalmazások számára</string>
     <string name="importance_default">Alapértelmezett</string>
     <string name="importance_high">Magas</string>
     <string name="importance_low">Alacsony</string>
@@ -5961,6 +5997,69 @@ Fontos: A műholdas hívás nem áll rendelkezésre. A segélyhívások kapcsol�
     <string name="layout_size_normal_text">Kicsi</string>
     <string name="layout_size_small">Nagyon kicsi</string>
     <string name="layout_size_small_text">Nagyon kicsi</string>
+    <string name="ldp_checker_action">Beállítások</string>
+    <string name="ldp_checker_desc">Adjon hozzá ujjlenyomatot személyazonosságának megerősítéséhez a fontos biztonsági beállításokhoz, és kapcsolja be a Készülékkeresést. Ha bejelentkezett készülékét elveszíti vagy ellopják, a Készülékkeresés segítségével megtalálhatja azt, és megvédheti adatait.</string>
+    <string name="ldp_checker_find_device_desc">Ha még nem jelentkezett be Xiaomi Fiókjába, akkor először be kell jelentkeznie.</string>
+    <string name="ldp_checker_find_device_title">Készülékkeresés bekapcsolása</string>
+    <string name="ldp_checker_fingerprint_enroll_desc">Ha még nem állított be képernyőzárat, akkor először azt kell beállítania.</string>
+    <string name="ldp_checker_fingerprint_enroll_title">Adjon hozzá legalább egy ujjlenyomatot</string>
+    <string name="ldp_checker_title">Az Ujjlenyomat és a Készülékkeresés funkciókat be kell kapcsolni</string>
+    <string name="ldp_closed_dialog_button_know">Rendben</string>
+    <string name="ldp_closed_dialog_reason_by_xiaomi_account">A Xiaomi Fiókján keresztül kikapcsolta az Elvesztett készülék védelme funkciót. A készülék biztonsági funkciói már nem rendelkeznek további védelemmel.</string>
+    <string name="ldp_closed_dialog_reason_no_account">Az Elvesztett készülék védelme jelenleg ki van kapcsolva, mert nem jelentkezett be a Xiaomi Fiókjába.</string>
+    <string name="ldp_closed_dialog_reason_no_device_find">Távolról kikapcsolta a Készülékkeresés funkciót, így az Elvesztett készülék védelme is ki van kapcsolva.</string>
+    <string name="ldp_closed_dialog_reason_no_fingerprint">Az Elvesztett készülék védelme jelenleg ki van kapcsolva, mert nincs beállítva ujjlenyomat.</string>
+    <string name="ldp_closed_dialog_reason_no_lock_password">Az Elvesztett készülék védelme jelenleg ki van kapcsolva, mert nincs beállítva képernyőzár.</string>
+    <string name="ldp_closed_dialog_sync_title">Elvesztett készülék védelme funkció kikapcsolva</string>
+    <string name="ldp_closed_dialog_title">Az Elvesztett készülék védelme funkció kikapcsolva</string>
+    <string name="ldp_detail_introduction">Nézze meg, hogyan segítheti ez a funkció az ön védelmét, ha elveszíti készülékét.</string>
+    <string name="ldp_detail_title">Az Elvesztett készülék védelme funkcióról</string>
+    <string name="ldp_dual_auth">Kétlépcsős ellenőrzés</string>
+    <string name="ldp_dual_auth_desc">Akadályozza meg, hogy mások az elvesztett SIM-kártyáját felhasználva manipulálhassák a Xiaomi Fiókját</string>
+    <string name="ldp_extra_fingerprint_item1">•A képernyőzár kikapcsolása vagy módosítása</string>
+    <string name="ldp_extra_fingerprint_item2">•Ujjlenyomatok vagy arcadatok hozzáadása</string>
+    <string name="ldp_extra_fingerprint_item3">•Ujjlenyomatok vagy arcadatok törlése</string>
+    <string name="ldp_extra_fingerprint_item4">•Kijelentkezés a Xiaomi Fiókjából</string>
+    <string name="ldp_extra_fingerprint_title">A következő műveletekhez további ujjlenyomat-ellenőrzés szükséges</string>
+    <string name="ldp_fingerprint_fault_desc">"Ezt a funkciót ujjlenyomattal való hitelesítéssel kapcsolhatja ki. Ha ujjlenyomata nem hitelesíthető, az Elvesztett készülék védelme funkcióval a Xiaomi Fiókjának hitelesítésével kapcsolhatja ki a funkciót.
+Annak érdekében, hogy mások ne tudják ezt a módszert azonnal használni a védelem megkerülésére, az Elvesztett készülék védelme funkció %1$d órányi biztonsági késleltetést indít. Ez időt ad a valódi tulajdonosnak, hogy intézkedjen, például távolról törölje a készüléket vagy felfüggessze a SIM-kártyát. A késleltetés lejárta után a következő %2$d órán belül Xiaomi Fiókjának hitelesítésével kikapcsolhatja ezt a funkciót."</string>
+    <string name="ldp_fingerprint_fault_title">Ha az ujjlenyomattal való htelesítés nem érhető el</string>
+    <string name="ldp_forbidden_actions_item1">•Készülékkeresés kikapcsolása</string>
+    <string name="ldp_forbidden_actions_item2">•Offline helymeghatározás kikapcsolása</string>
+    <string name="ldp_forbidden_actions_item3">•„Utolsó tartózkodási hely elküldése” kikapcsolása</string>
+    <string name="ldp_forbidden_actions_title">A következő műveletek letiltásra kerülnek</string>
+    <string name="ldp_function_home_introduction_des">Ha elveszíti készülékét, és valaki rendelkezik a képernyőzárral, az arcadatokkal vagy egy párosított Bluetooth-eszközzel, ez a funkció képes megakadályozni, hogy az illető rosszindulatú változtatásokat hajtson végre a készüléken. &lt;a href=app://learn_more>További információk&lt;/a></string>
+    <string name="ldp_function_home_suggestion_title">Ajánlott funkciók</string>
+    <string name="ldp_guide_account_protection_desc">Az érzékeny Xiaomi Fiók műveletekhez először ujjlenyomattal való hitelesítés szükséges ezen a készüléken.</string>
+    <string name="ldp_guide_account_protection_title">Adjon extra védelmet Xiaomi Fiókjához</string>
+    <string name="ldp_guide_action">Következő</string>
+    <string name="ldp_guide_desc">Ha elveszíti készülékét, és valaki rendelkezik a képernyőzárral, az arcadatokkal vagy egy párosított Bluetooth-eszközzel, ez a funkció képes megakadályozni, hogy az illető rosszindulatú változtatásokat hajtson végre a készüléken.</string>
+    <string name="ldp_guide_identity_verification_desc">A biztonsági beállítások módosítása és egyes érzékeny funkciókhoz való hozzáférés ujjlenyomattal való hitelesítést igényel, így csak ön használhatja őket.</string>
+    <string name="ldp_guide_identity_verification_title">Ügyeljen arra, hogy az érzékeny műveleteket valóban ön hajtsa végre</string>
+    <string name="ldp_how_to_protect_desc">"Az Elvesztett készülék védelme egy további biztonsági réteget biztosít. Ha a készüléket alacsonyabb biztonsági szintű módszerrel oldják fel, a rendszer más hitelesítési módszert követel meg az érzékeny műveletekhez. Ez további személyazonosság-ellenőrzést jelent anélkül, hogy felesleges ismételt hitelesítésre lenne szükség.
+Ha elveszíti a készülékét, ez a további ellenőrzés még akkor is segíthet megakadályozni, hogy mások megváltoztathassák a fontos biztonsági beállításokat, még akkor is, ha a képernyőzár vagy a Xiaomi Fiók adatait csalások vagy adathalászat révén megszerezték."</string>
+    <string name="ldp_how_to_protect_title">Hogyan működik?</string>
+    <string name="ldp_recommend_action_button_text">Bekapcsolás</string>
+    <string name="ldp_recommend_desc">Ezzel megakadályozhatja, hogy mások a SIM-kártyáját felhasználva visszaállítsák a Xiaomi Fiókját, majd kikapcsolják az olyan biztonsági funkciókat, mint az Elvesztett készülék védelme és a Készülékkeresés.</string>
+    <string name="ldp_recommend_later_button_text">Nem most</string>
+    <string name="ldp_recommend_title">Kapcsolja be a kétlépcsős ellenőrzés a fiókjához</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item1">•A Bluetooth-eszközökkel történő feloldás kikapcsolása</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item2">•Az USIM-kártya beállításainak megtekintése vagy módosítása</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item3">•Jelszavak alkalmazás megnyitása</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item4">•Jelszavak használata a jelszavak automatikus kitöltéséhez</string>
+    <string name="ldp_replace_pwd_with_fingerprint_title">A következő műveleteknél a képernyőzár-hitelesítés helyébe az ujjlenyomattal való hitelesítés lép</string>
+    <string name="ldp_summary">Akadályozza meg, hogy mások fontos változtatásokat hajthassanak végre ezen a készüléken és a bejelentkezett Xiaomi Fiókjában</string>
+    <string name="ldp_title">Elvesztett készülék védelme</string>
+    <string name="ldp_trigger_occasion_desc">Ha a készüléket arcadatokkal, képernyőzárral vagy párosított Bluetooth-eszközzel oldották fel, egyes érzékeny műveletekhez ezen felül még ujjlenyomattal való hitelesítés vagy csak ujjlenyomat szükséges. Ugyanakkor a Készülékkeresés nem kapcsolható ki.</string>
+    <string name="ldp_trigger_occasion_title">Mikor aktiválódik a védelem?</string>
+    <string name="ldp_uni_auth_add_face_title">Hitelesítse ujjlenyomatát arcadatok hozzáadásához</string>
+    <string name="ldp_uni_auth_add_fingerprint_title">Hitelesítse ujjlenyomatát, hogy újat adhasson hozzá</string>
+    <string name="ldp_uni_auth_change_password_title">Hitelesítse ujjlenyomatát a képernyőzár módosításához</string>
+    <string name="ldp_uni_auth_disable_ldp_title">Hitelesítse ujjlenyomatát az Elvesztett készülék védelme kikapcsolásához</string>
+    <string name="ldp_uni_auth_enable_ldp_subtitle">Az Elvesztett készülék védelme funkció bekapcsolásához hitelesítse személyazonosságát, és ellenőrizze, hogy az ujjlenyomat-érzékelő megfelelően működik-e.</string>
+    <string name="ldp_uni_auth_remove_face_title">Hitelesítse ujjlenyomatát arcadatok törléséhez</string>
+    <string name="ldp_uni_auth_remove_fingerprint_title">Hitelesítse ujjlenyomatát, hogy törölhessen egyet</string>
+    <string name="ldp_uni_auth_remove_password_title">Hitelesítse ujjlenyomatát a képernyőzár kikapcsolásához</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_about_security_chip">Tudja meg, hogyan védi készülékét a dedikált biztonsági chip</string>
     <string name="learn_more">További információ</string>
@@ -5991,6 +6090,7 @@ Fontos: A műholdas hívás nem áll rendelkezésre. A segélyhívások kapcsol�
     <string name="license_title">Licenc</string>
     <string name="lift_to_wake_title">Felébresztéshez emelje meg</string>
     <string name="light_camera_state_summary">Kapcsolja be a háttérvilágítást, ha időzített vagy sorozatfelvételeket készít</string>
+    <string name="light_camera_state_summary_new">LED-világítás bekapcsolása időzített vagy sorozatfelvételek készítésekor</string>
     <string name="light_camera_state_title">Kamera állapotjelző</string>
     <string name="light_color_mode">Világos mód</string>
     <string name="lights_title">LED-fény</string>
@@ -6677,6 +6777,7 @@ A művelet nem visszavonható."</string>
 A műveletet nem tudja visszavonni."</string>
     <string name="master_clear_title">Összes adat törlése (gyári visszaállítás)</string>
     <string name="master_clear_title_new">Gyári adatok visszaállítása</string>
+    <string name="material_classic_title">Matt üveg</string>
     <string name="material_clock_toggle_content_description">Válassza ki, hogy délelőtt vagy délután</string>
     <string name="material_hour_24h_suffix">%1$s óra</string>
     <string name="material_hour_selection">Óra kiválasztása</string>
@@ -6693,6 +6794,7 @@ A műveletet nem tudja visszavonni."</string>
     <string name="material_timepicker_pm">du.</string>
     <string name="material_timepicker_select_time">Időpont kiválasztása</string>
     <string name="material_timepicker_text_input_mode_description">Időbevitelhez váltson szövegbeviteli módba.</string>
+    <string name="material_transparent_title">Lágy üveg</string>
     <string name="max_aspect_settings_all_app_display_loading">Egy pillanat…</string>
     <string name="max_cpu10_info">"Deca-core Max "</string>
     <string name="max_cpu2_info">"Dual-core Max "</string>
@@ -6834,6 +6936,8 @@ A műveletet nem tudja visszavonni."</string>
     <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
     <string name="mi_smart_play_entry_title">Mi Smart Play</string>
     <string name="mi_transfer">Mi Átköltözés</string>
+    <string name="mi_transfer_banner_summary">Több készülékmárka is támogatott</string>
+    <string name="mi_transfer_banner_title">Elemek átvitele a régi készülékéről</string>
     <string name="mi_upi_settings">Mi Pay Fiók</string>
     <string name="mi_wallet">Mi Pénztárca</string>
     <string name="mi_wallet_desc">Mi Pénztárca</string>
@@ -7080,30 +7184,11 @@ A műveletet nem tudja visszavonni."</string>
     <string name="miui_face_unlock_open_toast_for_sensor_light_virtual">A fényerő nem kerül automatikusan beállításra</string>
     <string name="miui_input_method_attention">Figyelem</string>
     <string name="miui_input_method_settings">A beviteli mód beállításai</string>
-    <string name="miui_lab_ai_cloud_closed">Az Intelligens előtöltés még nem érhető el.</string>
-    <string name="miui_lab_ai_preload_desc">Az Intelligens előtöltés gyorsítja az alkalmazások megnyitását</string>
-    <string name="miui_lab_ai_preload_title">Intelligens előtöltés</string>
-    <string name="miui_lab_aiasst_call_screen_desc">Hívásfogadás AI használatával</string>
-    <string name="miui_lab_aiasst_call_screen_title">AI-hívásasszisztens</string>
-    <string name="miui_lab_drive_mode_desc">Hangvezérlés használata és WeChat-üzenetek meghallgatása</string>
-    <string name="miui_lab_drive_mode_title">Autós mód</string>
-    <string name="miui_lab_feature_applied">Alkalmazva</string>
-    <string name="miui_lab_feature_off">Kikapcsolás</string>
-    <string name="miui_lab_feature_on">Be</string>
-    <string name="miui_lab_features">MIUI lab funkciók</string>
-    <string name="miui_lab_gallery_search_desc">Javított képkeresés</string>
-    <string name="miui_lab_gallery_search_title">Képkeresés a Galériában</string>
-    <string name="miui_lab_gesture_desc">Kézmozdulatokkal navigálhat a gombok helyett</string>
-    <string name="miui_lab_gesture_title">Kézmozdulatok</string>
-    <string name="miui_lab_install_drive_mode_error">Nem sikerült telepíteni. Próbálja újra.</string>
-    <string name="miui_lab_install_drive_mode_summary">Az Autós mód egy rendszeralkalmazás. Telepítéséhez nincs szükség internetkapcsolatra.</string>
-    <string name="miui_lab_install_drive_mode_title">Az Autós mód telepítése</string>
-    <string name="miui_lab_settings">Labor</string>
-    <string name="miui_lab_slogan">Tanul. Felfedez. Megtalál.</string>
     <string name="miui_master_clear_prompt_battery_low">Nem lehet gyári alaphelyzetbe állítani, ha az akkumulátor töltöttsége kevesebb mint %1$s. A folytatás előtt töltse fel készülékét.</string>
     <string name="miui_master_clear_summary">Minden adat törlése a készülékről</string>
     <string name="miui_more_special_feature">Fedezze fel az új funkciókat</string>
     <string name="miui_nfc_dialog_message">Ha kikapcsolja az NFC-t, nem fogja tudni használni az NFC funkciókat, például a Mi Payt, a közlekedési kártyákat, a kulcskártyákat és még sok mást. Biztosan kikapcsolja?</string>
+    <string name="miui_nfc_dialog_message_gl">Ha kikapcsolja az NFC-t, nem használhatja az NFC-funkciókat, például nem olvashatja és írhatja az NFC-címkéket, nem használhat többek között például belépőkártyákat. Mégis kikapcsolja?</string>
     <string name="miui_nfc_dialog_negative">Kikapcsolás</string>
     <string name="miui_nfc_dialog_positive">Mégse</string>
     <string name="miui_nfc_dialog_title">NFC kikapcsolása</string>
@@ -7230,6 +7315,7 @@ Minden felhasználó engedélyeket adhat az eszközön létező összes felhaszn
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Váltás fél képernyőre</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizálás</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizálás</string>
+    <string name="miuix_popup_show_description">Felugró ablak</string>
     <string name="miuix_popup_window_default_title">Felugró ablak</string>
     <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
@@ -7714,6 +7800,12 @@ Válassza ki a PC operációs rendszerét:"</string>
     <string name="next_button_label">Tovább</string>
     <string name="next_label">Tovább</string>
     <string name="next_page_content_description">Következő</string>
+    <string name="nfc_ac_btn_no">Mégse</string>
+    <string name="nfc_ac_btn_yes">Beállítás</string>
+    <string name="nfc_ac_confirm_ask">Beállítja a belépőkártyát alapértelmezett kártyaként?</string>
+    <string name="nfc_ac_confirm_desc">Az ajtók telefonnal történő kinyitásához állítsa be a belépőkártyát alapértelmezett érintéses kártyaként.</string>
+    <string name="nfc_ac_summary">Használja telefonját belépőkártyaként, és egy érintéssel nyissa ki a támogatott ajtókat</string>
+    <string name="nfc_ac_title">Belépőkártya</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">A használathoz előbb telepítsen egy fizetési alkalmazást</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Nem áll rendelkezésre, mert az NFC ki van kapcsolva</string>
     <string name="nfc_category_title">NFC</string>
@@ -7738,7 +7830,7 @@ Válassza ki a PC operációs rendszerét:"</string>
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Beállítás alapértelmezettként</string>
     <string name="nfc_payment_btn_text_update">Frissítés</string>
-    <string name="nfc_payment_default">Fizetéskor alapértelmezett</string>
+    <string name="nfc_payment_default">Alapértelmezett kártya kiválasztása</string>
     <string name="nfc_payment_default_not_set">Nincs megadva</string>
     <string name="nfc_payment_favor_default">Mindig használja az alapértelmezett alkalmazást</string>
     <string name="nfc_payment_favor_open">Alapértelmezett alkalmazás cseréje, ha nyitva van egy másik fizetési alkalmazás</string>
@@ -7807,7 +7899,10 @@ Alapértelmezett fizetési alkalmazásként ez lép a(z) %2$s alkalmazás helyé
     <string name="night_display_temperature_title">Intenzitás</string>
     <string name="night_display_text">Az Éjszakai fény borostyánsárga árnyalatúra színezi a képernyőt, hogy gyenge fény mellett se legyen kellemetlen a képernyőre nézni. Emellett az elalvást is megkönnyítheti.</string>
     <string name="night_display_title">Éjszakai fény</string>
+    <string name="night_eye_protection_summary">Ébredés után automatikusan csökkenti a fényerőt, hogy kényelmesebb legyen, amikor éjszaka felébred, és megnézi a készülékét</string>
+    <string name="night_eye_protection_title">Éjszakai szemkomfort</string>
     <string name="night_light_main_switch_title">Éjszakai fény használata</string>
+    <string name="night_vision_adapted_game_title">@string/adapted_game_title</string>
     <string name="nls_feature_modes_settings_summary">Kezelheti és aktiválhatja a módokat, és módosíthatja a kapcsolódó beállításokat.</string>
     <string name="nls_feature_read_summary">Elolvashatja az értesítéseket, beleértve a személyes adatokat, például az ismerősök neveit, az üzeneteket és a fotókat.</string>
     <string name="nls_feature_read_title">Az értesítések elolvasása</string>
@@ -8290,6 +8385,7 @@ Az OTG 10 perc inaktivitás után automatikusan kikapcsol."</string>
     <string name="paper_mode_customize_time_summary">Az Olvasómód bekapcsolása egyéni időszakban</string>
     <string name="paper_mode_customize_time_title">Egyéni időszak</string>
     <string name="paper_mode_enable_description">Csökkentse a kék fényt a képernyőn melegebb tónus hozzáadásával</string>
+    <string name="paper_mode_enable_title">@string/screen_paper_mode_title</string>
     <string name="paper_mode_end_time_title">Befejezés</string>
     <string name="paper_mode_get_location_dlg_msg">A napnyugta és a napkelte meghatározásához hozzáférést kell adni az Ön helyzetéhez</string>
     <string name="paper_mode_get_location_dlg_negative_btn_text">Mégse</string>
@@ -8323,6 +8419,7 @@ A szolgáltatás használata előtt olvassa el és fogadja el a következőt: %s
     <string name="password_save_success">Sikeresen mentve</string>
     <string name="password_saving">Jelszó mentése…</string>
     <string name="password_security_settings_title">Jelszavak és biztonság</string>
+    <string name="password_set_success_hint">Mostantól az új képernyőzárral is feloldhatja készülékét</string>
     <string name="password_setup_complete">Jelszó sikeresen beállítva</string>
     <string name="password_toggle_content_description">Jelszó megjelenítése</string>
     <string name="password_turned_off_text">A jelszó ki lett kapcsolva</string>
@@ -8489,6 +8586,13 @@ A szolgáltatás használata előtt olvassa el és fogadja el a következőt: %s
     <string name="please_stop_listen_broadcast_audio">Először ne figyeljen az adásra</string>
     <string name="please_type_passphrase">Jelszó</string>
     <string name="pm">DU</string>
+    <string name="pocket_musician">Xiaomi Zsebgitár</string>
+    <string name="pocket_musician_battery_toast_both">A firmware frissítése előtt töltse fel ezt a készüléket és a Xiaomi Zsebgitárt</string>
+    <string name="pocket_musician_battery_toast_device">A firmware frissítése előtt töltse fel a Xiaomi Zsebgitárt</string>
+    <string name="pocket_musician_battery_toast_phone">Csatlakoztassa a töltőt ehhez a készülékhez, majd próbálja újra frissíteni a firmware-t</string>
+    <string name="pocket_musician_ota_connect_first">Csatlakoztassa a Xiaomi Zsebgitárt a frissítési adatok megtekintéséhez</string>
+    <string name="pocket_musician_ota_dialog_text">Frissítés…</string>
+    <string name="pocket_musician_ota_summary">A frissítés után manuálisan indítsa újra ezt a kiegészítőt</string>
     <string name="poco_launcher_privacy_policy">POCO launcher Adatvédelmi szabályzat</string>
     <string name="poco_launcher_user_agreement">POCO Launcher Felhasználói megállapodás</string>
     <string name="pointer_fill_style">Kurzor színe</string>
@@ -8513,6 +8617,7 @@ A szolgáltatás használata előtt olvassa el és fogadja el a következőt: %s
     <string name="popup_window">A lebegő értesítések korlátozása</string>
     <string name="post_dsds_reboot_notification_text">Koppintson a SIM-beállítások frissítéséhez.</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">%1$s-SIM-je aktív</string>
+    <string name="post_reset_google_verification">A gyári adatok visszaállítása után a jelszó beállításához jelentkezzen be az eszközön korábban használt Google-fiókkal.</string>
     <string name="power_autorun_apps_empty">Itt nincsenek alkalmazások</string>
     <string name="power_autorun_empty">Nincs elérhető alkalmazás</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -9087,7 +9192,29 @@ Bárki, aki az Ön eszközét számítógéphez csatlakoztatja, vagy rosszindula
     <string name="proxy_url_title">"PAC URL: "</string>
     <string name="proxy_warning_limited_support">A HTTP proxyt a böngésző használja, de más alkalmazások nem használhatják.</string>
     <string name="pss_profiling_disabled">Memóriahasználati profil kikapcsolva</string>
+    <string name="qingcai_eye_care_summery">A képernyőn megjelenő tartalmak automatikus észlelése és a káros kék fény szűrése a játékszínek élénkségének megőrzése mellett</string>
+    <string name="qingcai_eye_care_title">Szemkímélő (élénk)</string>
     <string name="qr_code_content_description">QR-kód</string>
+    <string name="quick_button_check_app_activity_title">Válasszon alkalmazást a gyors indításhoz</string>
+    <string name="quick_button_check_app_not_found_txt">Nincsenek találatok</string>
+    <string name="quick_button_check_app_search_edit_hint">Alkalmazások keresése</string>
+    <string name="quick_button_check_app_search_text_cancel_txt">Mégse</string>
+    <string name="quick_button_check_app_search_text_submit_txt">Kész</string>
+    <string name="quick_button_eyecare_mode_summery">Kapcsolja be az Olvasómódot a kék fény csökkentéséhez</string>
+    <string name="quick_button_eyecare_mode_tile">Olvasómód</string>
+    <string name="quick_button_furious_mode_summery">Váltson Végleges módra, hogy a legtöbbet hozza ki tabletjéből</string>
+    <string name="quick_button_furious_mode_title">Végleges mód</string>
+    <string name="quick_button_inspiration_summery">Írjon a tollal, hogy rögzítse felmerülő ötleteit</string>
+    <string name="quick_button_inspiration_title">Írás</string>
+    <string name="quick_button_none_title">Nincs művelet</string>
+    <string name="quick_button_preference_title">Gyorsbillentyű</string>
+    <string name="quick_button_screenshot_summery">Készítsen képernyőképet, amikor csak szükséges</string>
+    <string name="quick_button_screenshot_title">Képernyőkép</string>
+    <string name="quick_button_start_button_txt">Alkalmazás kiválasztása</string>
+    <string name="quick_button_start_summery">Gyorsabban nyithatja meg a gyakran használt alkalmazásokat</string>
+    <string name="quick_button_start_title">Gyors indítás</string>
+    <string name="quick_button_super_ai_summery">Pillanatok alatt megjegyezheti a képernyőn látottakat</string>
+    <string name="quick_button_super_ai_title">Xiaomi Hyper XiaoAi memória</string>
     <string name="quick_function">Segédfunkciók</string>
     <string name="quick_reply_title">Gyorsválaszok</string>
     <string name="quick_settings_developer_tiles">Fejlesztői gyorsbeállítási csempék</string>
@@ -9331,6 +9458,10 @@ A területen lévő összes alkalmazás és azok adatai is véglegesen törlődn
     <string name="right_function_key">Jobb oldali parancsikon</string>
     <string name="right_hearing_aid">Jobb oldali hallókészülék</string>
     <string name="right_shoulder_key">Jobb</string>
+    <string name="ring_remote_battery_status_toast_one">Csatlakoztassa a töltőt ehhez a készülékhez, majd próbálja újra frissíteni a firmware-t</string>
+    <string name="ring_remote_battery_status_toast_three">A firmware frissítése előtt cserélje ki az akkumulátort a mágneses tartóban</string>
+    <string name="ring_remote_battery_status_toast_two">Csatlakoztassa a töltőt ehhez a készülékhez, cserélje ki a mágneses tartó akkumulátorát, majd próbálja meg újra frissíteni a firmware-t</string>
+    <string name="ring_remote_ota_summary">Frissítés van folyamatban. Ne kapcsolja szét.</string>
     <string name="ring_to_you">Egyéni csengőhang</string>
     <string name="ring_to_you_info">Állítsa be az egyéni hangjelzést, amelyet mások hallhatnak, mielőtt felveszi</string>
     <string name="ring_volume_option_title">Csengőhang</string>
@@ -9351,6 +9482,26 @@ A területen lévő összes alkalmazás és azok adatai is véglegesen törlődn
     <string name="roaming_warning">A szolgáltató roamingdíjat számíthat fel.</string>
     <string name="rom_total_size">Teljes ROM-méret</string>
     <string name="root">Root jogosultság</string>
+    <string name="rp_clone_space_password_same_tip">Az új képernyőzárnak eltérőnek kell lennie a Második asztal jelszavától</string>
+    <string name="rp_forget_password_dialog_button_know">Rendben</string>
+    <string name="rp_forget_password_dialog_desc">Ha nemrégiben módosította a képernyőzárat, és a készülék túl sok sikertelen feloldási kísérlet után lezáródik, akkor a jelenlegi képernyőzárat visszaállíthatja úgy, hogy az elmúlt %1$d órában módosított képernyőzárat az ujjlenyomatával együtt hitelesíti.</string>
+    <string name="rp_forget_password_dialog_note">Ha többször sikertelenül próbálta feloldani a Képernyőzárat, érintse meg az „Elfelejtett jelszó” gombot a képernyőzár visszaállításának megkezdéséhez.</string>
+    <string name="rp_forget_password_dialog_title">A képernyőzár visszaállítása, amikor a készülék zárolva van</string>
+    <string name="rp_old_password_retention_hint">A korábbi képernyőzár egy ideig még megmarad. Ha elfelejtené az új képernyőzárat, a korábbival visszaállíthatja azt.</string>
+    <string name="rp_password_no_match">A PIN-kódok nem egyeznek. Próbálja újra.</string>
+    <string name="rp_remove_old_password">Korábbi képernyőzár törlése</string>
+    <string name="rp_reset_dialog_button_cancel">Mégse</string>
+    <string name="rp_reset_dialog_button_confirm">Törlés</string>
+    <string name="rp_reset_dialog_message">Nemrégiben megváltoztatta a képernyőzárt. A korábbi képernyőzár és ujjlenyomat segítségével még mindig visszaállíthatja a jelenlegi képernyőzár beállításait. Ha nincs szüksége erre a biztonsági lehetőségre, most törölheti a korábbi képernyőzárat.</string>
+    <string name="rp_reset_dialog_title">Korábbi képernyőzár törlése</string>
+    <string name="rp_reset_old_password_now_desc">Miután rendszerünk hitelesítette a korábbi képernyőzárját és ujjlenyomatát, a rendszer végigvezeti önt az új képernyőzár beállításán.</string>
+    <string name="rp_reset_old_password_now_title">Képernyőzár visszaállítása…</string>
+    <string name="rp_reset_password_hint">A következő %1$s %2$s-ig a jelenlegi képernyőzár beállításait a korábbi képernyőzár és ujjlenyomat hitelesítésével állíthatja vissza.</string>
+    <string name="rp_set_new_password">Új képernyőzár beállítása</string>
+    <string name="rp_set_new_password_desc">Ha elfelejti az új képernyőzár kódját, a korábbi képernyőzár és az ujjlenyomata segítségével visszaállíthatja.</string>
+    <string name="rp_set_new_password_finish_desc">Az elfelejtett képernyőzár nem lesz mentve korábbi képernyőzárként. Az eredeti, korábbi képernyőzár áll vissza.</string>
+    <string name="rp_set_new_password_finish_title">Sikeresen beállítva</string>
+    <string name="rp_set_new_pattern">Rajzoljon új mintát</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
     <string name="rtt_settings_summary">Szöveges üzenetekkel kommunikálhat hívás közben</string>
@@ -9493,7 +9644,7 @@ A területen lévő összes alkalmazás és azok adatai is véglegesen törlődn
     <string name="scanning_status_text_wifi_off_ble_on">A Bluetooth-beolvasás be van kapcsolva, a Wi-Fi-beolvasás ki van kapcsolva</string>
     <string name="scanning_status_text_wifi_on_ble_off">A Wi-Fi-beolvasás be van kapcsolva, a Bluetooth-beolvasás ki van kapcsolva</string>
     <string name="scanning_status_text_wifi_on_ble_on">A Wi-Fi- és a Bluetooth-beolvasás is be van kapcsolva</string>
-    <string name="screen">Képernyő</string>
+    <string name="screen">Kijelző</string>
     <string name="screen_brightness">Fényerő</string>
     <string name="screen_cancel">Mégse</string>
     <string name="screen_color_and_optimize">Színek és kontraszt</string>
@@ -9514,6 +9665,7 @@ A területen lévő összes alkalmazás és azok adatai is véglegesen törlődn
     <string name="screen_effect_adapt_color_title">Élénk</string>
     <string name="screen_effect_origin_color_summary">Valósághű színek reprodukálása színkalibrációval</string>
     <string name="screen_effect_origin_color_title">Eredeti szín PRO</string>
+    <string name="screen_effect_tip">Automatikusan kiválasztja a tartalomhoz leginkább megfelelő színteret. Az sRGB, P3 és BT.2020 színtereket támogatja.</string>
     <string name="screen_enhance_engine_ai_note">%d. Ez a funkció kis mértékben növeli az energiafogyasztást.</string>
     <string name="screen_enhance_engine_ai_note_2">%d. Csak a Galéria alkalmazásban lévő képek minősége javítható.</string>
     <string name="screen_enhance_engine_ai_note_3">%d. Ez a funkció nem működik, ha az eredeti színek megjelenítését választja, vagy speciális módosításokat végzett.</string>
@@ -9751,6 +9903,7 @@ Az alkalmazásokat a következőképpen tűzheti ki: \t
     <string name="search_account_list">Egyéb fiókok;Fiók;Fiókok</string>
     <string name="search_add_facerecoginition_text">Arcalapú feloldás;Arcfeloldás;Arcfelismerés</string>
     <string name="search_advanced_settings">Haladó beállítások;Wifi;Wifi beállítások;WLAN beállítások</string>
+    <string name="search_ai_companion_title">Vágólap parancsikon;Másolás;Azonnali hozzáférés;Hozzáférés</string>
     <string name="search_airplane_mode">Repülési üzemmód;Repülőgépmód;Repülőgép-üzemmód;Repülőmód;Repülő;Repülés</string>
     <string name="search_alarm_sound_title">Ébresztési hang;ébresztési csengőhang;ébresztő</string>
     <string name="search_ambient_display_screen_title">Környezeti fény kijelző;Always-on display funkció;Always-on display funkció</string>
@@ -9762,6 +9915,7 @@ Az alkalmazásokat a következőképpen tűzheti ki: \t
     <string name="search_application_lock_name">Alkalmazások zárolása</string>
     <string name="search_applications_settings">Telepített alkalmazások</string>
     <string name="search_back_key">Vissza;Vissza gomb</string>
+    <string name="search_background_blur_mode">Matt üveg;Lágy üveg;Vizuális stílus</string>
     <string name="search_battery_indicator">Akkumulátorkijelzés</string>
     <string name="search_bluetooth_device_searchable">Felfedezhető;Látható;Bluetooth név</string>
     <string name="search_bluetooth_enable">Bluetooth;Bluetooth bekapcsolása;Bluetooth be</string>
@@ -9968,10 +10122,18 @@ Az alkalmazásokat a következőképpen tűzheti ki: \t
     <string name="security_advanced_settings_work_profile_settings_summary">Munkaprofil zárolása, titkosítás és egyebek</string>
     <string name="security_center_title">Biztonság</string>
     <string name="security_check_progress_dialog_message">Biztonsági problémák keresése…</string>
+    <string name="security_chip">Biztonsági chip</string>
     <string name="security_chip_active">Jelszavait és ujjlenyomat-adatait egy speciális biztonsági chip védi. <Data>&lt;br/>&lt;a href=security_chip_bottomsheet>További információ&lt;/a></Data></string>
+    <string name="security_chip_data_protection">Dedikált biztonsági chip segít megvédeni adatait</string>
     <string name="security_chip_description">A dedikált biztonsági chip egy hardveres biztonsági modul, amelyet a Xiaomi tervezett az érzékeny eszközadatok védelme érdekében.</string>
     <string name="security_chip_details">Az NFC biztonsági chipektől eltérően a dedikált biztonsági chip védi a képernyőzár, a titkosított érzékeny adatok és az ujjlenyomat-információk biztonságát. Fizikailag el van választva az NFC chipektől, így erősebb védelmet, jobb stabilitást és fokozott ellenálló képességet biztosít az interferenciákkal szemben.</string>
+    <string name="security_chip_dialog_confirm">Rendben</string>
+    <string name="security_chip_dual_certification">A Common Criteria (CC) és a kínai kereskedelmi kriptográfiai tanúsítási követelményeknek egyaránt megfelelő biztonsági chip védelmet nyújt a fizikai támadások és a nyers erőt hasnáló (brute force) támadások ellen</string>
+    <string name="security_chip_fingerprint_encrypt">Az ujjlenyomatai titkosítva vannak, és a biztonsági chip védi őket</string>
+    <string name="security_chip_hardware_encryption">Hardverszintű titkosítás</string>
+    <string name="security_chip_hardware_vault">Biztonsági hardvermodul</string>
     <string name="security_chip_password_protection">A chip Weaver mechanizmusával jelszavai hardveres szinten védettek:</string>
+    <string name="security_chip_root_key_protection">A gyökérkulcsot egy erre a célra szolgáló biztonsági chip védi, így sem a rendszer, sem harmadik féltől származó alkalmazások nem férhetnek hozzá</string>
     <string name="security_dashboard_summary">Képernyőzár, Készülékkereső, alkalmazásbiztonság</string>
     <string name="security_encryption_alert_dialog_info_first">Állítson be képernyőzárat a funkció használatához. Minden újraindítás után meg kell majd adnia a képernyőzárjelszót a titkosítás feloldásához, illetve a készülék normál használatához.</string>
     <string name="security_encryption_alert_dialog_title_first">Először állítson be képernyőzárat</string>
@@ -10389,6 +10551,8 @@ Egyszerre csak egy óra lehet beállítva. Ha másik órát szeretne hozzáadni,
     <string name="set_jeejen_prompt_message">Alapértelmezett launcherként az Egyszerü üzemmód kerül beállításra. Bármikor megváltoztathatja a Beállítások > Rendszerbeállítások > Kezdőképernyő és előzmények Alapértelmezett kezdőképernyő menüjében.</string>
     <string name="set_jeejen_prompt_title">A változtatás megerősítése</string>
     <string name="set_lock_screen_password">Képernyőzár beállítása</string>
+    <string name="set_new_password_hint">Adja meg az új képernyőzárat, és jegyezze meg</string>
+    <string name="set_new_password_hint_new">Adja meg az új képernyőzárat, és jegyezze meg</string>
     <string name="set_pad_clone_password">Állítsa be tabletjének második asztal jelszavát</string>
     <string name="set_password">Képernyőzár beállítása</string>
     <string name="set_password_before_face">Arcadat-hozzáadás előtt állítson be képernyőzárat</string>
@@ -11388,6 +11552,8 @@ Próbálkozzon gyorsabb ^3 vagy ezen ^4 használatával hordozható tárhelykén
     <string name="sunlight_mode">Napfény mód</string>
     <string name="sunlight_mode_boost_summary">Bővíti a fényerő tartományt, és világos körülmények között automatikusan beállítja a fényerőt. Ez a funkció nagyobb energiafogyasztást okoz, amely miatt a készülék felmelegedhet.</string>
     <string name="sunlight_mode_summary">A fényerő igazítása az erős környezeti fényhez, hogy a képernyő ne legyen túl sötét</string>
+    <string name="super_sensory_night_vision_summery">A kontraszt javítása gyenge fényviszonyok mellett, hogy a részletek tisztán láthatók legyenek, és így jobb éjszakai játékélményt nyújtson</string>
+    <string name="super_sensory_night_vision_title">Fokozott éjszakai látás</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Maximális hangerő %s</string>
     <string name="supervision_add_forgot_pin_preference_title">Elfelejtett PIN-kód</string>
@@ -11490,6 +11656,7 @@ A(z) %1$s kezelheti a szülői felügyeleti beállításokat, például az alkal
     <string name="swipe_add_fingerprint_dirty_title">Ügyeljen rá, hogy az ujja tiszta és száraz legyen</string>
     <string name="swipe_add_fingerprint_finish_text">Próbálja meg több szögből rögzíteni ujjlenyomatát a jobb feloldás érdekében</string>
     <string name="swipe_add_fingerprint_insufficient_title">Ujjlenyomat felismerése sikertelen. Próbálja újra.</string>
+    <string name="swipe_add_fingerprint_message">Lassan csúsztasson keresztül a Bekapcsológombon, és közben változtassa a szöget</string>
     <string name="swipe_add_fingerprint_move_text">Próbálkozzon különféle szögekkel és pozíciókkal</string>
     <string name="swipe_add_fingerprint_move_title">Állítsa be a markolatát</string>
     <string name="swipe_add_fingerprint_need_up_text">Probléma az ujjlenyomat rögzítésével</string>
@@ -11501,6 +11668,7 @@ A(z) %1$s kezelheti a szülői felügyeleti beállításokat, például az alkal
     <string name="swipe_add_fingerprint_swipe_fast_title">Mozgassa lassabban az ujját</string>
     <string name="swipe_add_fingerprint_swipe_slow_title">Mozgassa gyorsabban az ujját</string>
     <string name="swipe_add_fingerprint_text">Állítsa be a markolatát az ujjlenyomata széleinek rögzítéséhez</string>
+    <string name="swipe_add_fingerprint_title">Mozgassa az ujját balra és jobbra</string>
     <string name="swipe_add_fingerprint_up_text">Nyomja rá és forgassa ide-oda az ujját</string>
     <string name="swipe_add_fingerprint_up_title">Nyomja meg az ujjlenyomat területének közepét</string>
     <string name="swipe_direction_ltr">Csúsztasson jobbra az elvetéshez, balra a menü megnyitásához.</string>
@@ -13280,6 +13448,7 @@ Engedélyezi ezt az összes olyan alkalmazásnál, amely keresést akar végezni
     <string name="wifi_share_add">Nyílt Wi-Fi-hálózataim megosztása</string>
     <string name="wifi_share_add_summary">"Amikor Ön megosztja a nyílt hálózatait,
 Ön is használhatja mások hálózatát."</string>
+    <string name="wifi_share_close_button_description">Bezárás</string>
     <string name="wifi_share_conflict_dialog_message">Már létezik „%1$s” nevű megosztott hálózat. Ha átvált a megosztott hálózatra, elhagyja a privát hálózatot, és előfordulhat, hogy átmenetileg nem lesz internetkapcsolata.</string>
     <string name="wifi_share_conflict_dialog_title">Átvált megosztott hálózatra?</string>
     <string name="wifi_share_connect">Csatlakozás</string>
@@ -13294,6 +13463,7 @@ Engedélyezi ezt az összes olyan alkalmazásnál, amely keresést akar végezni
     <string name="wifi_share_plain_password_text">Jelszó: %s</string>
     <string name="wifi_share_preference_summary">Az eszköz többi felhasználója hozzáférhet ehhez a hálózathoz</string>
     <string name="wifi_share_preference_title">Hálózat megosztása</string>
+    <string name="wifi_share_qr_code_description">QR-kód</string>
     <string name="wifi_share_qrcode_finish">Kész</string>
     <string name="wifi_share_qrcode_summary">Megosztáshoz olvassa be a fenti QR-kódot.</string>
     <string name="wifi_share_qrcode_title">Wi-Fi-hálózat megosztása QR-kóddal</string>
@@ -13377,6 +13547,10 @@ Engedélyezi ezt az összes olyan alkalmazásnál, amely keresést akar végezni
     <string name="wifi_wakeup_location_summary">A funkció használatához kapcsolja be a tartózkodási hely beállítását</string>
     <string name="wifi_wakeup_negative_button">Mégse</string>
     <string name="wifi_wakeup_positive_button">Bekapcsolás</string>
+    <string name="wifi_wakeup_privacy_agree">Elfogadom</string>
+    <string name="wifi_wakeup_privacy_content">\"A Wi-Fi automatikus bekapcsolása\" (\"ez a szolgáltatás\") a Xiaomi Inc. által biztosított szolgáltatás (\"mi\" vagy \"Xiaomi\"). A szolgáltatás elmenti a kiváló minőségű Wi-Fi-hálózatokat – például az otthoni hálózatot –, és automatikusan bekapcsolja a Wi-Fi-t, amikor a felhasználó a hálózat közelében tartózkodik, ezzel segítve a mobiladat-forgalom csökkentését. Kiemelten fontosnak tartjuk az ön személyes adatainak és magánéletének védelmét. A vonatkozó jogi előírásoknak és iparági szabványoknak megfelelően gondoskodunk személyes adatai védelméről.&lt;br>Amikor bekapcsolja ezt a szolgáltatást, a mobiltorony-azonosítók alapján összegyűjtjük a hozzávetőleges helyadatait, hogy önt a közeli, kiváló minőségű Wi-Fi-hálózatokhoz irányítsuk.&lt;br>Ezek az információk csak a készüléken kerülnek feldolgozásra, és nem lesznek feltöltve a felhőbe.&lt;br>Ha nem adja meg ezeket az adatokat, nem fogja tudni használni ezt a szolgáltatást.&lt;br>Személyes adatait csak addig őrizzük meg, ameddig szükséges a jelen adatvédelmi nyilatkozatban leírt adatgyűjtési célok eléréséhez vagy a vonatkozó jogi követelményeknek való megfeleléshez.&lt;br>Létrehoztunk egy külön részleget a személyes adatok védelmére. Ha bármilyen megjegyzése vagy kérdése van ezzel az adatvédelmi nyilatkozattal kapcsolatban, vagy ha bármilyen kérdése van személyes adatainak gyűjtésével, felhasználásával vagy közzétételével kapcsolatban, lépjen kapcsolatba velünk a &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>címen. Általában tizenöt munkanapon belül válaszolunk.&lt;br>Az \"Elfogadom\" gomb érintésével jelezheti, hogy elolvasta és elfogadja ezt az adatvédelmi nyilatkozatot.</string>
+    <string name="wifi_wakeup_privacy_disagree">Mégse</string>
+    <string name="wifi_wakeup_privacy_title">Adatvédelmi nyilatkozat</string>
     <string name="wifi_wakeup_scan_summary">Megengedi, hogy alkalmazások és szolgáltatások Wi-Fi hálózatokat keressenek, hogy automatikusan bekapcsolhassák a Wi-Fi-t. Ennek a funkciónak a bekapcsolásával a készülék automatikusan csatlakozhat a közeli mentett hálózatokhoz.</string>
     <string name="wifi_wakeup_summary">A Wi‑Fi újra bekapcsol jó minőségű mentett hálózatok (például az otthoni hálózat) közelében</string>
     <string name="wifi_wakeup_summary_no_location">Nem áll rendelkezésre, mert a helyszolgáltatás ki van kapcsolva. <annotation id="link">Helyszolgáltatás</annotation> bekapcsolása.</string>
@@ -13567,10 +13741,21 @@ Engedélyezi ezt az összes olyan alkalmazásnál, amely keresést akar végezni
     <string name="xiaomi_cloud_service_description_without_contacts">A Xiaomi Cloud szinkronizálja a fényképeit, menti az alkalmazásait és beállításait, valamint segít a telefonja megtalálásában a Készülékkeresés segítségével.</string>
     <string name="xiaomi_cloud_service_disabled">Ki</string>
     <string name="xiaomi_cloud_service_unknown">Ismeretlen</string>
+    <string name="xiaomi_confirm_enable_16k_erase_checkbox_text">Megértem a kockázatokat, és elfogadom a lehetséges következményeket</string>
+    <string name="xiaomi_confirm_enable_16k_pages_text">Ebben a módban nem garantálható a szoftver integritása. Ez újraindítja a készülékét.</string>
+    <string name="xiaomi_confirm_enable_16k_pages_update_wipe">Az „Újraindítás 16 KB-os lapmérettel” rendkívül kényes funkció, amelyet kizárólag fejlesztői tesztelésre szántak. Bekapcsolása esetén a készüléken található összes adat – beleértve a fényképeket, videókat, dokumentumokat és az összes alkalmazásadatot – törlődik. A szoftver integritása nem garantálható. Ebben a módban egyes funkciók nem lesznek elérhetők, és előfordulhat, hogy egyes alkalmazások nem működnek megfelelően.</string>
+    <string name="xiaomi_confirm_enable_4k_pages_text">Ez újraindítja a készülékét.</string>
+    <string name="xiaomi_confirm_reboot_button_text">Újraindítás</string>
+    <string name="xiaomi_confirm_reboot_title_text">Kockázatot észleltünk</string>
     <string name="xiaomi_custom_input_method">Xiaomi-hoz személyre szabva</string>
+    <string name="xiaomi_erase_confirm_countdown_format">OK (%1$d)</string>
     <string name="xiaomi_hp_location">Precíz helymeghatározás</string>
     <string name="xiaomi_hp_location_description">A precíz helyinformációk lehetővé teszik a pontos navigációt</string>
     <string name="xiaomi_money_service">Mi Érmék</string>
+    <string name="xiaomi_page_agnostic_16k_pages_text">A készüléke 16 KB-os lapméretet használ az ext4 fájlrendszerrel. Az F2FS fájlrendszer visszaállításához vissza kell váltania 4 KB-os lapméretre, és el kell végeznie a gyári adatok visszaállítását.</string>
+    <string name="xiaomi_page_agnostic_16k_pages_title">16 KB-os lapméret használata</string>
+    <string name="xiaomi_page_agnostic_4k_pages_text">A készüléke 4 KB-os lapméretet használ az ext4 fájlrendszerrel. Az F2FS fájlrendszer visszaállításához el kell végeznie a gyári adatok visszaállítását.</string>
+    <string name="xiaomi_page_agnostic_4k_pages_title">4 KB-os lapméret használata</string>
     <string name="xiaomi_router_available_notif_summary">Érintse meg további információért.</string>
     <string name="xiaomi_router_available_notif_title">Mi Router elérhető</string>
     <string name="xiaomi_router_notif_summary">Értesítés elérhető Mi Router esetén</string>

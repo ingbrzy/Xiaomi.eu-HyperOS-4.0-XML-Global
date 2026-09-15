@@ -364,11 +364,17 @@
         <item>옵션 코덱 활성화</item>
         <item>옵션 코덱 비활성화</item>
     </string-array>
+    <string-array name="bluetooth_audio_active_device_array">
+        <item></item>
+        <item>사용 중(미디어 및 통화)</item>
+        <item>사용 중(미디어)</item>
+        <item>사용 중(통화)</item>
+    </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
         <item>" | 활성화"</item>
         <item>" | 활성화 (미디어)"</item>
-        <item>" | 활성화 (휴대전화)"</item>
+        <item>" | 활성화 (통화 오디오)"</item>
     </string-array>
     <string-array name="bluetooth_audio_routing_titles">
         <item>앱 기본값 사용</item>
@@ -423,12 +429,9 @@
         <item>half_close</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
-        <item>사용 중지됨</item>
-        <item>필터링 사용 설정됨</item>
-        <item>사용 설정됨</item>
-        <item>헤더 필터링 사용 설정됨</item>
-        <item>미디어 패킷 필터링 사용 설정됨</item>
-        <item>활성화됨(프로필 필터링됨)</item>
+        <item>비활성화됨</item>
+        <item>필터링된 항목 활성화됨</item>
+        <item>활성화됨</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_filters_entries">
         <item>ACL 헤더만 남김</item>
@@ -791,11 +794,11 @@
     </string-array>
     <string-array name="miui_entries_font_size">
         <item>특소</item>
-        <item>소</item>
-        <item>중</item>
-        <item>대</item>
-        <item>특대</item>
-        <item>특특대</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP 및 그 이전</item>
@@ -810,7 +813,7 @@
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_install_summary">
-        <item>2. 화면 상의 지시를 따르십시오</item>
+        <item>2. 화면 상의 지시를 따르세요</item>
         <item></item>
         <item></item>
         <item></item>

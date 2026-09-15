@@ -372,7 +372,7 @@ Det går inte att zooma in på tangentbordet eller navigeringsfältet."</string>
     <string name="accessibility_service_screen_control_description">Den kan läsa allt innehåll på skärmen och visa innehåll över andra appar.</string>
     <string name="accessibility_service_screen_control_title">Visa och styra skärmen</string>
     <string name="accessibility_service_warning_description">Fullständig kontroll lämpar sig för appar med tillgänglighetsfunktioner, men är inte lämplig för de flesta appar.</string>
-    <string name="accessibility_setting_item_control_timeout_title">Väntetid för åtgärd (tillgänglighet)</string>
+    <string name="accessibility_setting_item_control_timeout_title">Dags att agera</string>
     <string name="accessibility_settings">Tillgänglighet</string>
     <string name="accessibility_settings_summary">Skärm, interaktion och ljud</string>
     <string name="accessibility_settings_tabs_general">Allmän</string>
@@ -609,6 +609,7 @@ Byt funktion genom att svepa uppåt med tre fingrar och hålla kvar dem."</strin
     <string name="activity_title_root_note">Om root åtkomst</string>
     <string name="ad_service">Reklamtjänster</string>
     <string name="adapt_embedded">Parallella fönster är tillgängligt</string>
+    <string name="adapted_game_title">Spel som stöds</string>
     <string name="adaptive_brightness_main_switch_title">Använd anpassad ljusstyrka</string>
     <string name="adaptive_connectivity_main_switch_title">Använd adaptiv anslutning</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Väljer automatiskt den bästa nätverksanslutningen för att förlänga batteritiden</string>
@@ -684,7 +685,7 @@ Byt funktion genom att svepa uppåt med tre fingrar och hålla kvar dem."</strin
     <string name="add_fingerprint_move_fast">Håll ditt finger på skärmen lite längre</string>
     <string name="add_fingerprint_name_suggest_text">Namn på fingeravtryck</string>
     <string name="add_fingerprint_put_finger_edge_msg">Flytta ditt finger lite och lägg det på sensorn igen för att registrera alla delar av ditt fingeravtryck.</string>
-    <string name="add_fingerprint_put_finger_msg">Placera fingret på sensorn och lyft det när enheten vibrerar.</string>
+    <string name="add_fingerprint_put_finger_msg">Placera fingret på sensorn, lyft det sedan och upprepa.</string>
     <string name="add_fingerprint_put_finger_title">Lägg till fingeravtryck</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Flytta ditt finger lite</string>
     <string name="add_fingerprint_success_msg">Tillagd</string>
@@ -724,7 +725,10 @@ Administratören kan övervaka och hantera inställningar, åtkomst, appar och d
     <string name="advanced_battery_title">Batteriförbrukning</string>
     <string name="advanced_gesture">Anpassade gester</string>
     <string name="advanced_screen_paper_mode_title">Läsläge</string>
+    <string name="advanced_screen_paper_mode_title_eye_comfort">Ögonbekvämlighet</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Ögonbekvämlighet</string>
+    <string name="advanced_screen_paper_mode_title_vision_care">Xiaomi Vision Care</string>
     <string name="advanced_section_header">Allmänt</string>
     <string name="advanced_security_title">Avancerat</string>
     <string name="advanced_settings">Ytterligare inställningar</string>
@@ -901,8 +905,8 @@ Widget: %2$s
     <string name="aon_gesture_up_down_waving_summary">Fungerar med vertikala innehållsflöden</string>
     <string name="aon_gesture_up_down_waving_switch">Veva vertikalt för att svepa upp och ner</string>
     <string name="aon_gesture_up_down_waving_title">Svep vertikalt</string>
-    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Säkerställ att du är på en välbelyst plats, håll sedan handen %d–%d cm framför kameran med handflatan nedåt. När igenlänningen har gjorts vinkar du uppåt. Du kan sedan använda den här gesten för att svepa uppåt på skärmen.</string>
-    <string name="aon_gesture_up_waving_diagram_title">Veva uppåt framför skärmen</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Säkerställ att du är på en välbelyst plats, håll sedan handen %d–%d cm framför kameran, med handflatan uppåt eller neråt. När igenkänningen har gjorts vevar du handen för att svepa. För att byta riktning vänder du handen på andra hållet och håller den stilla ett ögonblick. När den kännsigen vevar du igen.</string>
+    <string name="aon_gesture_up_waving_diagram_title">Vifta framför skärmen för att svepa</string>
     <string name="aon_scanner_default_payment_method_title">Standardbetalmetod</string>
     <string name="aon_scanner_dialog_message">När du aktiverar Snabbskanner, kommer QR-koden som du skannar att delas med Mi AI Scanner. Var noga med att du förstår, och godkänner detta innan du fortsätter. QR-koderna du skannar kommer inte att sparas lokalt, eller laddas upp till molnet. Notera att användande av den här funktionen kan öka den övergripande strömkonsumtionen något.</string>
     <string name="aon_scanner_dialog_message_new">När du använder Snabbskanning kommer QR-koderna som du skannar att delas med AI Scanner. Den här informationen kommer inte att lagras på din enhet, eller laddas upp i molnet. Att aktivera den här funktionen kommer att öka din strömkonsumtion något.</string>
@@ -1406,6 +1410,7 @@ Kördes senast den %2$s"</string>
     <string name="back_strap_status_close">Av</string>
     <string name="back_strap_status_open">På</string>
     <string name="back_strap_title">Effekter av bakgrundsbelysning</string>
+    <string name="back_strap_title_tip">Aktivera om du vill få anpassade aviseringar i olika scenarier</string>
     <string name="back_tap">Tryck bakåt</string>
     <string name="back_triple_tap">Trippeltryck bakåt</string>
     <string name="background_activity_disabled_dialog_text">"Appen kan inte begränsas eftersom batterioptimering inte har angetts.
@@ -1417,6 +1422,7 @@ Aktivera batterioptimering för att begränsa appen."</string>
     <string name="background_blur_enable">Avancerade texturer</string>
     <string name="background_blur_enable_summary">Lägger till renderingseffekter så som oskärpa i systemet för att ge en förstärkt visuell upplevelse</string>
     <string name="background_blur_message">Att aktivera den här funktionen kan medföra högre strömförbrukning och göra att enheten värms upp. Aktivera ändå?</string>
+    <string name="background_blur_mode_title">Visuell stil</string>
     <string name="background_blur_title">Aktivera avancerade texturer</string>
     <string name="background_check_pref">Bakgrundskontroll</string>
     <string name="background_data">Bakgrundsdata</string>
@@ -1983,7 +1989,8 @@ Du har inte anslutit till %2$s tidigare."</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">Starta om</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">Återstarta Bluetooth</string>
     <string name="bluetooth_enable_opp_high_speed_summary">Använd höghastighets P2P-protokoll via Bluetooth för överföringar</string>
-    <string name="bluetooth_enable_page_scan_summary">Inaktivera/aktivera sidskanning för Bluetooth-test</string>
+    <string name="bluetooth_enable_page_scan">Bluetooth-sidskanning</string>
+    <string name="bluetooth_enable_page_scan_summary">Aktivera eller avaktivera Bluetooth-sidskanning för testning</string>
     <string name="bluetooth_enter_passkey_msg">Ange kopplingskoden och tryck på Retur</string>
     <string name="bluetooth_enter_passkey_other_device">Du kan också behöva ange lösenordet på den andra enheten.</string>
     <string name="bluetooth_enter_pin_other_device">Du kan också behöva ange PIN-koden på den andra enheten.</string>
@@ -2291,9 +2298,11 @@ När %2$s är ansluten tar den emot alla samtal till %3$s."</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Glöm enhet</string>
     <string name="bluetooth_unpair_dialog_title">Vill du glömma enheten?</string>
     <string name="bluetooth_unpair_dialog_with_associations_body">Telefonen kopplas bort från %1$s. %2$s hanterar inte längre enheten</string>
+    <string name="bluetooth_unpairing">Frånkopplar…</string>
     <string name="bluetooth_version">Bluetooth-version</string>
     <string name="bluetooth_version_message">Uppdatera</string>
     <string name="bluetooth_wake">Väck telefonen med Bluetoothljud</string>
+    <string name="bluetooth_watch_not_synced_unpair_manually">Klockan är inte synkroniserad. Ta bort parkopplingen manuellt.</string>
     <string name="blur_switch">Minska oskärpa</string>
     <string name="blur_switch_disabled_summary">Tillfälligt inaktiverat i batterisparläge</string>
     <string name="blur_switch_summary">Gör bakgrunder och paneler lättare att se</string>
@@ -2617,6 +2626,7 @@ Om du installerar ett CA-certifikat kan certifikatsägaren få åtkomst till din
     <string name="camera_key_action_title">Mi Knapp</string>
     <string name="camera_key_action_toggle_title">Aktivera växling</string>
     <string name="camera_laser_sensor_switch">Lasersensor för kamera</string>
+    <string name="camera_mr_settings">Kameraring</string>
     <string name="camera_rear">Bakre %s</string>
     <string name="camera_toggle_label_qs">Kameraåtkomst</string>
     <string name="camera_toggle_title">Kameraåtkomst</string>
@@ -2747,6 +2757,16 @@ Om den här behörigheten är aktiverad blir appen tillgänglig som alternativ n
     <string name="checked_app_title">Ljuseffekter på</string>
     <string name="checking_find_device_status">Kontrollerar status för Hitta enheten…</string>
     <string name="checking_for_updates">Söker efter uppdateringar…</string>
+    <string name="child_face_number_reach_limit">Du kan lägga till ansiktsdata för upp till tre personer</string>
+    <string name="child_face_unlock_download_education_center_button">Installera</string>
+    <string name="child_face_unlock_download_education_center_content">Installera Utbildningscenter först, för att kunna använda den här funktionen.</string>
+    <string name="child_face_unlock_download_education_center_title">Observera</string>
+    <string name="child_face_unlock_first_close_child_unlock">Avaktivera \"Öppna utbildningscenter efter upplåsning\" först</string>
+    <string name="child_face_unlock_first_close_stay_keyguard">Stäng av \"Stanna på låsskärmen efter upplåsning\" först</string>
+    <string name="child_face_unlock_no_use">Av</string>
+    <string name="child_face_unlock_open_education_center">Öppna Utbildningscenter efter upplåsning</string>
+    <string name="child_face_unlock_open_education_center_summary">Välj ansiktsdata för en specifik person som kommer att använda den här funktionen</string>
+    <string name="child_face_unlock_use">Använd</string>
     <string name="chip_add_title">Lägg till frekvens</string>
     <string name="chip_change_error_toast">Kunde inte justera parametrar</string>
     <string name="chip_change_toast">Frekvensen bytt. Starta om enhet för att applicera förändringar.</string>
@@ -3684,6 +3704,7 @@ Denna inställning påverkar alla användare av denna enhet."</string>
     <string name="device_screen_size">Skärmstorlek</string>
     <string name="device_screen_usage">Skärmanvändning sedan fulladdning</string>
     <string name="device_sd_memory">SD-kort</string>
+    <string name="device_security_chip">Dedikerat säkerhetschipp</string>
     <string name="device_share_loading">Skapar bild</string>
     <string name="device_status">Status</string>
     <string name="device_status_activity_title">Status</string>
@@ -3740,6 +3761,7 @@ Denna inställning påverkar alla användare av denna enhet."</string>
     <string name="disable_overlays">Inaktivera HW-överlagringar</string>
     <string name="disable_overlays_summary">Använd alltid GPU för skärmsammansättning</string>
     <string name="disable_password_warning">Efter att du stängt av ditt skärmlås kommer registrerade fingeravtryck och ansiktsdata att raderas. Du kommer inte att kunna låsa upp enheten med hjälp av ditt ansikte, eller fingeravtryck, eller använda dem i Anteckningar eller Galleri.</string>
+    <string name="disable_permission_text_by_hyper">Den här behörigheten har inte godkänts i granskningen och är begränsad nu</string>
     <string name="disable_phantom_process_monitor_summary">Inaktivera begränsningar på användningen av systemresurser för appens underordnade processer</string>
     <string name="disable_phantom_process_monitor_title">Inaktivera begränsningar på underordnade processer</string>
     <string name="disable_power_key_long_press_under_keyguard">Avaktivera avstängningsmenyn</string>
@@ -3991,6 +4013,7 @@ Denna inställning påverkar alla användare av denna enhet."</string>
     <string name="dump_log_summary">"Denna funktion är designad för att generera den %s:e loggen i systemets betaversion. Använd den med försiktighet.
 Du kan se genererade loggar i Utforskaren."</string>
     <string name="dump_log_title">Om denna funktion</string>
+    <string name="dynamic_island_title">Xiaomi HyperIsland</string>
     <string name="early_morning">Morgon</string>
     <string name="easy_mode_font_settings_toast">Kan inte justera teckensnittet i Enkelt läge</string>
     <string name="easymode_hint">Tryck för att stänga av Enkelt läge</string>
@@ -4020,6 +4043,7 @@ Du kan se genererade loggar i Utforskaren."</string>
     <string name="eid_multi_sim">EID %1$d</string>
     <string name="eighthours">8 timmar</string>
     <string name="elastic_text">Promptar och nedrullningsmenyer dyker upp med en elastisk pop som ger mer fokus på dessa objekt</string>
+    <string name="elder_care_ai_anti_fraud">Upptäck bedrägeri under konversationer och få varningar</string>
     <string name="elder_care_block_advertising_promotions_calls_title">Blockera marknadsföringssamtal</string>
     <string name="elder_care_block_estate_agency_calls_title">Blockera samtal från mäklare</string>
     <string name="elder_care_block_risky_app_title">Blockera riskabla appar</string>
@@ -4388,6 +4412,11 @@ Anslut en extern skärm för att komma igång eller testa med en annan kabel"</s
     <string name="external_source_untrusted">Tillåts inte</string>
     <string name="extreme_threats_summary">Ta emot varningar om extrema hot mot liv och egendom</string>
     <string name="extreme_threats_title">Extrema hot</string>
+    <string name="eye_care_adjust_mode">Justeringsformat</string>
+    <string name="eye_care_classic_mode">Klassisk</string>
+    <string name="eye_care_learn_more">Läs mer om ögonbekvämlighet</string>
+    <string name="eye_care_mode_description">”Rytm” justerar automatiskt färgtemperaturen baserat på tid och användningsscenario. Den håller sig mer naturlig på dagen och varmare på natten. ”Klassisk” använder en fast färgtemperatur och måste justeras manuellt.</string>
+    <string name="eye_care_rhythmic_mode">Rytm</string>
     <string name="eye_gaze_dialog_message">När den här funktionen är aktiverad kommer systemet läsa av om du tittar på skärmen, men ditt ansiktsuttryck kommer inte att analyseras, och den här datan kommer inte att lagras på din enhet, eller laddas upp till molnet. Aktivera nu?</string>
     <string name="eye_gaze_dialog_title">Säkerhetsunderrättelse</string>
     <string name="eye_gaze_summary">Enheten kommer inte att låsas när den upptäcker att du tittar på skärmen</string>
@@ -4396,6 +4425,7 @@ Anslut en extern skärm för att komma igång eller testa med en annan kabel"</s
     <string name="eye_habit_prompt_summary">Ta emot notifikationer när din enhet upptäcker tillstånd som kan orsaka spänningar för ögat</string>
     <string name="eye_habit_prompt_title">Notifikationer om ögonhälsa</string>
     <string name="eye_paper_protection">Inställningar för läsläge</string>
+    <string name="eye_protection_technology">Teknik</string>
     <string name="eyes_protect_certification">Teknik och certifieringar</string>
     <string name="eyes_protect_certification_summary_1">Cerfitieringen Visual health friendliness S++</string>
     <string name="eyes_protect_certification_summary_2">Certifierad för lågt blått ljus (hårdvarulösning), dygnsrytmvänlig och flimmerfri</string>
@@ -4407,6 +4437,7 @@ Anslut en extern skärm för att komma igång eller testa med en annan kabel"</s
     <string name="eyes_protect_certification_title_3">Naturligare cirkulär polarisering</string>
     <string name="eyes_protect_certification_title_4">Flimmerfri DC-dimning</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM-dimning</string>
+    <string name="eyes_protect_game_title">Ögonkomfort vid spelande</string>
     <string name="face_data_apply_for_category_title">Lås upp med ansiktsdata</string>
     <string name="face_data_apply_for_keyguard_title">Låsskärm</string>
     <string name="face_data_input_camera_fail">Det gick inte att starta kameran</string>
@@ -4437,6 +4468,7 @@ Anslut en extern skärm för att komma igång eller testa med en annan kabel"</s
     <string name="face_data_suggesstion_first_cn_highlight">Ansiktsupplåsning är osäkrare än en PIN-kod, ett lösenord, mönster eller fingeravtryck. Din enhet kan låsas upp med ditt foto, såväl som av personer eller objekt med liknande utseende.</string>
     <string name="face_data_suggesstion_second">Se till att alla delar av ditt ansikte är synliga och inte täckta. Ditt ansikte ska även vara belyst.</string>
     <string name="face_enroll_when_slt_on_toast">Kan inte lägga till ansiktsupplåsning när Tiantong Satellite-kommunikation används</string>
+    <string name="face_enrollment_fold_warning">Om du ändrar skärmens tillstånd avbryts registreringen av ansiktsdata</string>
     <string name="face_enrollment_tips">Säkerställ att alla delar av ditt ansikte är tydligt synligt. Använd inte mössor, masker, solglasögon eller andra accessoarer.</string>
     <string name="face_finger_add">Lägg till</string>
     <string name="face_finger_delete">Radera</string>
@@ -4460,6 +4492,9 @@ Anslut en extern skärm för att komma igång eller testa med en annan kabel"</s
     <string name="face_unlock_disable">Ansiktsupplåsning är avaktiverad</string>
     <string name="face_unlock_down">Höj huvudet</string>
     <string name="face_unlock_enable">Ansiktsupplåsning är aktiverad</string>
+    <string name="face_unlock_in_low_light_msg">Öka skärmens ljusstyrka i svagt ljus för att förbättra ansiktsigenkänningen</string>
+    <string name="face_unlock_in_low_light_tip">När ögonbekvämlighet för nattetid, är på lyser inte ”Optimera igenkänning i svagt ljus” upp skärmen</string>
+    <string name="face_unlock_in_low_light_title">Optimera igenkänning i svagt ljus</string>
     <string name="face_unlock_not_found">Kunde inte känna igen dig</string>
     <string name="face_unlock_offset_bottom">Sänk din telefon lite</string>
     <string name="face_unlock_offset_left">Flytta till höger</string>
@@ -4513,6 +4548,11 @@ med riktning av den yttre skärmen"</string>
     <string name="fan_mode_partial_scene_usage">Vald</string>
     <string name="fan_mode_range_title">Användarscenarion</string>
     <string name="fan_mode_usage_scenes">Användarscenarion</string>
+    <string name="fan_other_features">Andra funktioner</string>
+    <string name="fan_self_clean">Självrengörande fläkt</string>
+    <string name="fan_self_clean_summary">Om fläkten inte kört på %d dagar kommer den att rengöra sig själv automatiskt medan skärmen är avstängd och enheten laddas</string>
+    <string name="fan_smart_stop_on_recording">Pausa under ljudinspelning</string>
+    <string name="fan_smart_stop_on_recording_summary">Minska fläktljudet under samtal, ljudinspelning och videoinspelning. Gäller inte spel.</string>
     <string name="fcc_equipment_id">Utrustnings-ID</string>
     <string name="feature_flags_dashboard_title">Funktionsflaggor</string>
     <string name="feedback">Feedback</string>
@@ -4592,6 +4632,7 @@ Kontakta långivaren om du vill veta mer."</string>
     <string name="fingerprint_enroll_button_add">Lägg till ännu ett</string>
     <string name="fingerprint_enroll_button_next">Nästa</string>
     <string name="fingerprint_enrollment_desc">Efter att ha registrerat ett fingeravtryck kan du använda det för att låsa upp enheten och verifiera din identitet.</string>
+    <string name="fingerprint_enrollment_fold_warning">Om du ändrar skärmens läge avbryts fingeravtrycksregistrering</string>
     <string name="fingerprint_enrollment_title">Registrera fingeravtryck</string>
     <string name="fingerprint_face_password">Fingeravtryck, ansiktsinformation och skärmlås</string>
     <string name="fingerprint_face_password_unlock">Fingeravtryck, ansiktsinformation och skärmlås</string>
@@ -4619,6 +4660,7 @@ Kontakta långivaren om du vill veta mer."</string>
     <string name="fingerprint_password_unlock">Fingeravtryck och skärmlås</string>
     <string name="fingerprint_payment">Betalningar med fingeravtryck</string>
     <string name="fingerprint_privacy_desc">Du kan använda dina fingeravtryck för åtkomst till privata album, meddelanden, anteckningar, filer, Xiaomi Hyper XiaoAi-minne, applås, och hanteringsverktyg för lösenord.</string>
+    <string name="fingerprint_privacy_policy"><Data>Läs och godkänn &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"Fingeravtryck &amp;#038; Skärmlås\" Integritetsupplysning&lt;/a> innan du fortsätter.&lt;/font></Data></string>
     <string name="fingerprint_protection">Skydd av fingeravtryck</string>
     <string name="fingerprint_record_input">Registrera</string>
     <string name="fingerprint_removal_failed">Kunde inte ta bort fingeravtryck, försök igen senare</string>
@@ -4690,21 +4732,6 @@ Kontakta långivaren om du vill veta mer."</string>
     <string name="flash_notifications_summary_off">Av/Bli meddelad med en kamerablixt eller blinkande skärmavisering för aviseringar och alarm</string>
     <string name="flash_notifications_summary_on">På/Bli meddelad med en kamerablixt eller blinkande skärmavisering för aviseringar och alarm</string>
     <string name="flash_notifications_title">Blixtra vid notifikationer</string>
-    <string name="flashback_background_start_switch_summary">Generera flashcards med nyckelinfo automatiskt när appar körs i bakgrunden</string>
-    <string name="flashback_background_start_switch_title">Generera flashcards automatiskt</string>
-    <string name="flashback_baidu_map_summary">Visa rutt</string>
-    <string name="flashback_didi_summary">Visa körinfo</string>
-    <string name="flashback_meituan_summary">Visa leveransinfo</string>
-    <string name="flashback_meituan_waimai_summary">Visa leveransinfo</string>
-    <string name="flashback_open_switch_summary">Visa nyckelinfo när appar visas som flytande fönster</string>
-    <string name="flashback_open_switch_title">App-flashcards</string>
-    <string name="flashback_shansong_summary">Visa leveransframsteg</string>
-    <string name="flashback_status_close">Av</string>
-    <string name="flashback_status_open">På</string>
-    <string name="flashback_summary">Visa nyckelinfo när appar visas som flytande fönster</string>
-    <string name="flashback_support_apps_title">Tillgängliga appar</string>
-    <string name="flashback_title">App-flashcards</string>
-    <string name="flashback_wangzhe_summary">Visa nedräkning för återuppståndelse</string>
     <string name="flip_aod_settings_title">Låskärm (yttre)</string>
     <string name="flip_aod_settings_title_new">Låsskärm (yttre)</string>
     <string name="flip_application_settings_title">Appar på yttre skärmen</string>
@@ -4800,6 +4827,8 @@ Kontakta långivaren om du vill veta mer."</string>
     <string name="font_preview_text_content">"Exempeltext:
 
 Xiaomi bygger outtröttligen otroliga produkter, med ärliga priser för at låta alla världen ta del av ett bättre liv, genom innovativ teknik."</string>
+    <string name="font_preview_text_content_new">"Exempeltext:
+Xiaomi bygger outtröttligen otroliga produkter, med ärliga priser för att låta alla världen ta del av ett bättre liv, genom innovativ teknik."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Aktuell font stöder inte justering av font-tjocklek</string>
     <string name="font_settings_jump">Tillgänglighet > Skärmstorlek</string>
@@ -4819,12 +4848,14 @@ Xiaomi bygger outtröttligen otroliga produkter, med ärliga priser för at låt
 "</string>
     <string name="font_size_summary1">"Om textstorleken i systemet fortfarande är för liten, testa "</string>
     <string name="font_size_summary2">Lite läge</string>
+    <string name="fonts_management_installed_app">Installera och hantera teckensnitt som ska användas i appar</string>
+    <string name="fonts_manager">Hantera teckensnitt</string>
     <string name="footer_description_full_screen_intent">Tillåt den här appen att visa notifikationer som tar upp hela skärmen när enheten är låst. Appen kan använda helskärmsnotifikationer för att visa larm, inkommande samtal, eller andra brådskande notifikationer. Den här inställningen är beroende av behörigheten att köras i bakgrunden medan ett nytt fönster öppnas och kan endast användas när den här behörigheten är beviljad.</string>
     <string name="footer_learn_more_content_description">Läs mer om %1$s</string>
     <string name="footer_time_zone_offset_change_next_change">Nästa ändring</string>
     <string name="footer_time_zone_offset_change_no_next_change">Inga schemalagda ändringar</string>
     <string name="forbidden_network">(förbjudet)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Reparationsläget är aktiverat. Det går inte att ange eller ändra lösenord nu.</string>
     <string name="forbidden_switch_apn_string">Valda APN-inställningar matchar inte nuvarande nätverkstyp</string>
     <string name="force_allow_on_external">Tvinga att tillåta appar i externt lagringsutrymme</string>
     <string name="force_allow_on_external_summary">Allar appar kan skrivas till extern lagring, oavsett manifestvärden</string>
@@ -4944,6 +4975,7 @@ Den här funktionen fungerar bara när systemnavigeringen är inställd på gest
     <string name="friday_first_day_of_week">fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="frp_status_activated">Fabriksåterställningsskyddet är aktiverat</string>
     <string name="fsg_mistake_touch_summary">I vissa scener såsom spel och videor i helskärm, behöver dubbla svepgester användas</string>
     <string name="fsg_mistake_touch_title">Dubbelkontrollera gesterna</string>
     <string name="full_screen_display">Helskärmsläge</string>
@@ -4987,6 +5019,7 @@ När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdat
     <string name="game_controller_stick_remapping_category">Riktningar</string>
     <string name="game_controller_stick_right">Höger styrspak</string>
     <string name="game_delta_action_moments">Plundring av tillbehör och evakuering</string>
+    <string name="game_eyecare_empty_list_tip">Inget här än</string>
     <string name="game_king_of_glory_moments">Dödsfall, vinster och andra höjdpunkter</string>
     <string name="game_peacekeeper_elites_moments">Fallskärmshopp och strid</string>
     <string name="game_storage_settings">Spel</string>
@@ -5154,6 +5187,7 @@ Området där du kan bekräfta din skärmlåsning kommer att flyttas till höger
     <string name="gxzw_anim_rhythm">Rytm</string>
     <string name="gxzw_anim_star">Stjärnljus</string>
     <string name="gxzw_anim_switch">Animation för fingeravtryck</string>
+    <string name="gxzw_anim_switch_new">Animation för fingeravtryck</string>
     <string name="gxzw_anim_title">Fingeravtryck-igenkänning</string>
     <string name="gxzw_aod_show_summary">Lyft upp enheten eller tryck på skärmen för att visa fingeravtrycksikonen. Denna funktion ökar systemet batteriförbrukning men tillåter dig att låsa upp enheten snabbare.</string>
     <string name="gxzw_aod_show_tittle">Visa ikon för fingeravtryck när skärmen är avstängd</string>
@@ -5172,6 +5206,7 @@ Området där du kan bekräfta din skärmlåsning kommer att flyttas till höger
     <string name="gxzw_quick_open_show_summary">· Håll ditt finger på fingeravtrycksikonen efter att enheten låses upp, för att öppna genvägsmenyn.</string>
     <string name="gxzw_quick_open_slow_summary">Tryck och håll ned fingeravtrycksikonen för att öppna genvägsmenyn. Dra för att använda en genväg.</string>
     <string name="gxzw_quick_open_slow_title">Tryck och håll</string>
+    <string name="gxzw_quick_open_summary">När du har låst upp fortsätter du att trycka på fingeravtrycksikonen för att öppna snabbmenyn och drar sedan till en genväg för att välja den.</string>
     <string name="gxzw_quick_open_title">Genvägar</string>
     <string name="gxzw_recognizing_anim_a">Krusning</string>
     <string name="gxzw_recognizing_anim_b">Spiral</string>
@@ -5463,6 +5498,7 @@ Xiaomi Cloud
     <string name="immediately_destroy_activities">Behåll inte aktiviteter</string>
     <string name="immediately_destroy_activities_summary">Förstör aktiviteter så fort användaren lämnar dem</string>
     <string name="immersive_audio_sources">Uppslukande ljud</string>
+    <string name="import_manager_font_summary">Importera och hantera teckensnitt för appar</string>
     <string name="importance_default">Standard</string>
     <string name="importance_high">Hög</string>
     <string name="importance_low">Låg</string>
@@ -5962,6 +5998,69 @@ Viktigt! Det går inte att ringa samtal via satellit. Nödsamtal kan dock fortfa
     <string name="layout_size_normal_text">Liten</string>
     <string name="layout_size_small">XS</string>
     <string name="layout_size_small_text">Extra liten</string>
+    <string name="ldp_checker_action">Inställningar</string>
+    <string name="ldp_checker_desc">Lägg till ett fingeravtryck för att bekräfta din identitet för viktiga säkerhetsinställningar och aktivera Hitta enhet. Om din inloggade enhet försvinner eller blir stulen kan Hitta enhet hjälpa dig att hitta den och skydda dina data.</string>
+    <string name="ldp_checker_find_device_desc">Om du inte är inloggad på ditt Xiaomi-konto kommer du att bli vägledd att logga in först.</string>
+    <string name="ldp_checker_find_device_title">Aktivera Hitta enhet</string>
+    <string name="ldp_checker_fingerprint_enroll_desc">Om du inte har ställt in ett skärmlås ännu, kommer du att bli vägledd att ställa in ett först.</string>
+    <string name="ldp_checker_fingerprint_enroll_title">Lägg till minst ett fingeravtryck</string>
+    <string name="ldp_checker_title">Fingeravtryck och Hitta enhet måste vara aktiverade</string>
+    <string name="ldp_closed_dialog_button_know">Jag förstår</string>
+    <string name="ldp_closed_dialog_reason_by_xiaomi_account">Du stängde av skyddet för förlorade enheter via ditt Xiaomi-konto. Enhetens säkerhetsfunktioner har inte längre något extra skydd.</string>
+    <string name="ldp_closed_dialog_reason_no_account">Skyddet för förlorade enheter är nu av eftersom du inte är inloggad på Xiaomi-kontot.</string>
+    <string name="ldp_closed_dialog_reason_no_device_find">Du stängde av Hitta enhet via fjärråtkomst, så skyddet för förlorade enheter är inaktiverat.</string>
+    <string name="ldp_closed_dialog_reason_no_fingerprint">Skyddet för förlorade enheter är nu av eftersom inget fingeravtryck har ställts in.</string>
+    <string name="ldp_closed_dialog_reason_no_lock_password">Skyddet för förlorade enheter är nu av eftersom inget skärmlås är inställt.</string>
+    <string name="ldp_closed_dialog_sync_title">Skyddet mot förlorad enhet är inaktiverat</string>
+    <string name="ldp_closed_dialog_title">Skyddet mot förlorad enhet är inaktiverat</string>
+    <string name="ldp_detail_introduction">Se hur den här funktionen kan hjälpa till att skydda dig om din enhet försvinner.</string>
+    <string name="ldp_detail_title">Om skydd för Förlorad enhet</string>
+    <string name="ldp_dual_auth">Tvåstegsverifiering</string>
+    <string name="ldp_dual_auth_desc">Förhindra att andra använder ditt förlorade SIM-kort för att manipulera ditt Xiaomi-konto</string>
+    <string name="ldp_extra_fingerprint_item1">•Stänga av eller ändra skärmlås</string>
+    <string name="ldp_extra_fingerprint_item2">•Lägga till fingeravtryck eller ansiktsdata</string>
+    <string name="ldp_extra_fingerprint_item3">•Radering av fingeravtryck eller ansiktsdata</string>
+    <string name="ldp_extra_fingerprint_item4">•Logga ut från ditt Xiaomi-konto</string>
+    <string name="ldp_extra_fingerprint_title">Följande åtgärder kräver en extra fingeravtryckskontroll</string>
+    <string name="ldp_fingerprint_fault_desc">"Du kan stänga av den här funktionen med fingeravtrycksverifikation. Om ditt fingeravtryck inte kan verifieras kommer skyddet för förlorad enhet låta dig att stänga av det genom att verifiera ditt Xiaomi-konto istället.
+För att förhindra att andra använder den här metoden för att åsidosätta skydd direkt, kommer skyddet för förlorad enhet att starta en säkerhetsfördröjning på %1$d timmar. Det här ger den verkliga ägaren chansen att vidta åtgärder så som att radera enheten via fjärrstyrning, ellerspärra SIM-kortet. Efter att fördröjningen avslutas kan du stänga av den här funktionen genom att verifiera ditt Xiaomi-konto inom de kommande %2$d timmarna."</string>
+    <string name="ldp_fingerprint_fault_title">Om fingeravtrycksverifiering inte är tillgänglig</string>
+    <string name="ldp_forbidden_actions_item1">•Stänger av Hitta enhet</string>
+    <string name="ldp_forbidden_actions_item2">•Stänger av offlinelokalisering</string>
+    <string name="ldp_forbidden_actions_item3">•Stänger av ”Skicka senaste plats”</string>
+    <string name="ldp_forbidden_actions_title">Följande åtgärder kommer att blockeras</string>
+    <string name="ldp_function_home_introduction_des">Om enheten tappas bort och någon har ditt skärmlås, ansiktsdata eller en parkopplad Bluetooth-enhet kan den här funktionen hjälpa till att hindra dem från att göra viktiga skadliga ändringar i enheten. &lt;a href=app://learn_more>Läs mer&lt;/a></string>
+    <string name="ldp_function_home_suggestion_title">Rekommenderade funktioner</string>
+    <string name="ldp_guide_account_protection_desc">Känsliga Xiaomi-kontoåtgärder kräver fingeravtrycksverifiering på enheten först.</string>
+    <string name="ldp_guide_account_protection_title">Lägg till extra skydd till ditt Xiaomi-konto</string>
+    <string name="ldp_guide_action">Nästa</string>
+    <string name="ldp_guide_desc">Om enheten tappas bort och någon har ditt skärmlås, ansiktsdata eller en parkopplad Bluetooth-enhet kan den här funktionen hjälpa till att hindra dem från att göra viktiga skadliga ändringar i enheten.</string>
+    <string name="ldp_guide_identity_verification_desc">Ändringar av säkerhetsinställningar och åtkomst till vissa känsliga funktioner kräver fingeravtrycksverifiering, så endast du kan använda dem.</string>
+    <string name="ldp_guide_identity_verification_title">Se till att känsliga åtgärder verkligen utförs av dig</string>
+    <string name="ldp_how_to_protect_desc">"Skydd för förlorad enhet ger ett extra lager säkerhet. Om enheten är olåst med hjälp av en lägre säkerhetsmetod, kommer systemet att kräva en annan verifikationsmetod för känsliga åtgärder. Detta lägger till ytterligare en identitetskontroll utan onödiga upprepande verifikationer.
+Om dim enhet är borta kommer den här extrakontrollen fortfarande att hjälpa till att förhindra andra från att ändra viktiga säkerhetsinställningar, även om dit skärmlås eller Xiaomi-kontoinformation har läckts genom bedrägerier eller nätfiske."</string>
+    <string name="ldp_how_to_protect_title">Så fungerar det</string>
+    <string name="ldp_recommend_action_button_text">Aktivera</string>
+    <string name="ldp_recommend_desc">Detta hjälper till att förhindra att andra använder SIM-kortet för att återställa ditt Xiaomi-konto och sedan stänga av säkerhetsfunktioner som skydd mot förlorade enheter och Hitta enhet.</string>
+    <string name="ldp_recommend_later_button_text">Inte nu</string>
+    <string name="ldp_recommend_title">Aktivera tvåstegsverifiering för ditt konto</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item1">•Stänga av upplåsning med Bluetooth-enheter</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item2">•Visa eller ändra inställningar för USIM-kort</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item3">•Öppna appen Lösenord</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item4">•Använda lösenord för att fylla i lösenord automatiskt</string>
+    <string name="ldp_replace_pwd_with_fingerprint_title">För följande åtgärder ersätts skärmlåsverifiering med fingeravtrycksverifiering</string>
+    <string name="ldp_summary">Hindra andra från att göra viktiga ändringar på den här enheten och ditt inloggade Xiaomi-konto</string>
+    <string name="ldp_title">Förlorat enhetsskydd</string>
+    <string name="ldp_trigger_occasion_desc">Om enheten är olåst med ansiktsdata, skärmlås eller en parkopplad Bluetooth-enhet kräver vissa känsliga åtgärder, en extra fingeravtryckskontroll, eller endast fingeravtryck. Samtidigt går det inte att stänga av Hitta enhet.</string>
+    <string name="ldp_trigger_occasion_title">När skydd utlöses</string>
+    <string name="ldp_uni_auth_add_face_title">Verifiera ditt fingeravtryck för att lägga till ansiktsdata</string>
+    <string name="ldp_uni_auth_add_fingerprint_title">Verifiera ditt fingeravtryck för att lägga till ett nytt</string>
+    <string name="ldp_uni_auth_change_password_title">Verifiera fingeravtrycket för att ändra skärmlåset</string>
+    <string name="ldp_uni_auth_disable_ldp_title">Verifiera ditt fingeravtryck för att stänga av skyddet för förlorade enheter</string>
+    <string name="ldp_uni_auth_enable_ldp_subtitle">Aktivera skyddet för förlorade enheter genom att verifiera din identitet och se till att fingeravtryckssensorn fungerar som den ska.</string>
+    <string name="ldp_uni_auth_remove_face_title">Verifiera ditt fingeravtryck för att ta bort ansiktsdata</string>
+    <string name="ldp_uni_auth_remove_fingerprint_title">Verifiera ditt fingeravtryck för att ta bort ett</string>
+    <string name="ldp_uni_auth_remove_password_title">Verifiera fingeravtrycket för att stänga av skärmlåset</string>
     <string name="le_audio_title">LE-ljud</string>
     <string name="learn_about_security_chip">Läs om hur det dedikerade säkerhetschippet skyddar din enhet</string>
     <string name="learn_more">Läs mer</string>
@@ -5992,6 +6091,7 @@ Viktigt! Det går inte att ringa samtal via satellit. Nödsamtal kan dock fortfa
     <string name="license_title">Licens</string>
     <string name="lift_to_wake_title">Gå ur viloläget vid lyft</string>
     <string name="light_camera_state_summary">Aktivera bakljus när du tar tidsinställda foton eller fotoserie</string>
+    <string name="light_camera_state_summary_new">Slå på LED-lampan när du tar tidsinställda eller sprängningsbilder</string>
     <string name="light_camera_state_title">Indikator för kamerastatus</string>
     <string name="light_color_mode">Ljust läge</string>
     <string name="lights_title">LED-ljus</string>
@@ -6678,6 +6778,7 @@ Det går inte att ångra detta."</string>
 Du kommer inte kunna ångra denna åtgärd."</string>
     <string name="master_clear_title">Radera all data (fabriksåterställning)</string>
     <string name="master_clear_title_new">Fabriksåterställning</string>
+    <string name="material_classic_title">Frostat glas</string>
     <string name="material_clock_toggle_content_description">Välj mellan FM och EM</string>
     <string name="material_hour_24h_suffix">%1$s timmar</string>
     <string name="material_hour_selection">Ange timme</string>
@@ -6694,6 +6795,7 @@ Du kommer inte kunna ångra denna åtgärd."</string>
     <string name="material_timepicker_pm">EM</string>
     <string name="material_timepicker_select_time">Välj tid</string>
     <string name="material_timepicker_text_input_mode_description">Byt till textinmatningsläget och ange tid.</string>
+    <string name="material_transparent_title">Matt glas</string>
     <string name="max_aspect_settings_all_app_display_loading">Vänta en stund…</string>
     <string name="max_cpu10_info">"Deca-core Max "</string>
     <string name="max_cpu2_info">"Dual-core Max "</string>
@@ -6835,6 +6937,8 @@ Du kommer inte kunna ångra denna åtgärd."</string>
     <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
     <string name="mi_smart_play_entry_title">Mi Smart Play</string>
     <string name="mi_transfer">Mi Mover</string>
+    <string name="mi_transfer_banner_summary">Flera enhetsmärken stöds</string>
+    <string name="mi_transfer_banner_title">Överför objekt från din gamla enhet</string>
     <string name="mi_upi_settings">Mi Pay konto</string>
     <string name="mi_wallet">Mi Wallet</string>
     <string name="mi_wallet_desc">Mi Wallet</string>
@@ -7081,30 +7185,11 @@ Fortsätt för att tillträda ytterligare inställningar."</string>
     <string name="miui_face_unlock_open_toast_for_sensor_light_virtual">Bakgrundsbelysning kommer inte att justeras automatiskt</string>
     <string name="miui_input_method_attention">Uppmärksamhet</string>
     <string name="miui_input_method_settings">Inställningar för inmatning</string>
-    <string name="miui_lab_ai_cloud_closed">AI laddas i förväg är inte tillgängligt än.</string>
-    <string name="miui_lab_ai_preload_desc">Om AI laddas i förväg ökar hastigheten att starta appar</string>
-    <string name="miui_lab_ai_preload_title">AI laddas i förväg</string>
-    <string name="miui_lab_aiasst_call_screen_desc">Besvara samtal med AI</string>
-    <string name="miui_lab_aiasst_call_screen_title">AI-samtalsassistent</string>
-    <string name="miui_lab_drive_mode_desc">Använd röststyrning och lyssna på meddelanden från WeChat</string>
-    <string name="miui_lab_drive_mode_title">Billäge</string>
-    <string name="miui_lab_feature_applied">Tillämpad</string>
-    <string name="miui_lab_feature_off">Av</string>
-    <string name="miui_lab_feature_on">På</string>
-    <string name="miui_lab_features">MIUI labbfunktioner</string>
-    <string name="miui_lab_gallery_search_desc">Förbättrad bildsökning</string>
-    <string name="miui_lab_gallery_search_title">Hitta bilder i Galleri</string>
-    <string name="miui_lab_gesture_desc">Använd gester istället för knappar för navigering</string>
-    <string name="miui_lab_gesture_title">Helskärmsgester</string>
-    <string name="miui_lab_install_drive_mode_error">Det gick inte att installera. Försök igen.</string>
-    <string name="miui_lab_install_drive_mode_summary">Billäge är en systemapp. Installationen behöver inte internetanslutning.</string>
-    <string name="miui_lab_install_drive_mode_title">Installera Billäge</string>
-    <string name="miui_lab_settings">Labb</string>
-    <string name="miui_lab_slogan">Lära. Utforska. Upptäck.</string>
     <string name="miui_master_clear_prompt_battery_low">Kan inte utföra en fabriksåterställning när mindre än %1$s av batteriet kvarstår. Ladda din enhet innan du fortsätter.</string>
     <string name="miui_master_clear_summary">Rensar all data på enhet</string>
     <string name="miui_more_special_feature">Utforska nya funktioner</string>
     <string name="miui_nfc_dialog_message">Du kommer inte kunna använda NFC-funktionerna som inkluderar Mi Pay, transportkort, nyckelkort, med mera, om du avaktiverar NFC. Avaktivera ändå?</string>
+    <string name="miui_nfc_dialog_message_gl">Du kommer inte att kunna använda NFC-funktioner, till exempel läsa och skriva NFC-taggar, använda åtkomstkort och mycket mer om du stänger av NFC. Stäng av ändå?</string>
     <string name="miui_nfc_dialog_negative">Avaktivera</string>
     <string name="miui_nfc_dialog_positive">Avbryt</string>
     <string name="miui_nfc_dialog_title">Avaktiverar NFC</string>
@@ -7231,6 +7316,7 @@ Alla användare kan bevilja behörigheter till alla användare som finns på den
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Byt till halvskärm</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximera</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimera</string>
+    <string name="miuix_popup_show_description">Dialogruta</string>
     <string name="miuix_popup_window_default_title">Dialogruta</string>
     <string name="miuix_progressbar_loading">Laddar</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
@@ -7715,6 +7801,12 @@ Välj ditt operativsystem:"</string>
     <string name="next_button_label">Nästa</string>
     <string name="next_label">Nästa</string>
     <string name="next_page_content_description">Nästa</string>
+    <string name="nfc_ac_btn_no">Avbryt</string>
+    <string name="nfc_ac_btn_yes">Konfigurera</string>
+    <string name="nfc_ac_confirm_ask">Ange åtkomstkort som ditt standardkort?</string>
+    <string name="nfc_ac_confirm_desc">Om du vill låsa upp dörrar genom att trycka på telefonen ställer du in åtkomstkortet som standardkort.</string>
+    <string name="nfc_ac_summary">Använd telefonen som ett åtkomstkort och lås upp dörrar som stöds, med ett klick</string>
+    <string name="nfc_ac_title">Åtkomstkort</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Först behöver du installera en betalningsapp</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Inte tillgängligt eftersom NFC är inaktiverat</string>
     <string name="nfc_category_title">NFC</string>
@@ -7739,7 +7831,7 @@ Välj ditt operativsystem:"</string>
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Ange standard</string>
     <string name="nfc_payment_btn_text_update">Uppdatera</string>
-    <string name="nfc_payment_default">Standardapp för betalning</string>
+    <string name="nfc_payment_default">Välj standardkort</string>
     <string name="nfc_payment_default_not_set">Har inte angetts</string>
     <string name="nfc_payment_favor_default">Använd alltid standardapp</string>
     <string name="nfc_payment_favor_open">Ersätt standardapp när en annan betalningsapp är öppen</string>
@@ -7808,7 +7900,10 @@ Då ersätts %2$s som standardapp för betalning."</string>
     <string name="night_display_temperature_title">Intensitet</string>
     <string name="night_display_text">Med nattljus blir skärmen gultonad. Då ser du bättre i svagt ljus och det kan bli lite lättare att somna.</string>
     <string name="night_display_title">Nattljus</string>
+    <string name="night_eye_protection_summary">Minska automatiskt ljusstyrkan efter att du har somnat för din bekvämlighet när du vaknar för att titta på enheten på natten</string>
+    <string name="night_eye_protection_title">Ögonbekvämlighet nattetid</string>
     <string name="night_light_main_switch_title">Använd nattljus</string>
+    <string name="night_vision_adapted_game_title">@string/adapted_game_title</string>
     <string name="nls_feature_modes_settings_summary">Den kan hantera och aktivera lägen och ändra relaterade inställningar.</string>
     <string name="nls_feature_read_summary">Den kan läsa dina aviseringar, inklusive personliga uppgifter som kontakter, meddelanden och foton.</string>
     <string name="nls_feature_read_title">Läsa dina aviseringar</string>
@@ -8291,6 +8386,7 @@ OTG avaktiveras automatiskt efter 10 minuters inaktivitet."</string>
     <string name="paper_mode_customize_time_summary">Aktivera Läsläge för en anpassad period</string>
     <string name="paper_mode_customize_time_title">Anpassad period</string>
     <string name="paper_mode_enable_description">Minska blått ljus genom att lägga till en varmare ton på skärmen</string>
+    <string name="paper_mode_enable_title">@string/screen_paper_mode_title</string>
     <string name="paper_mode_end_time_title">Avaktivera</string>
     <string name="paper_mode_get_location_dlg_msg">För att kunna räkna tid för solnedgång och soluppgång behövs tillgång till din position</string>
     <string name="paper_mode_get_location_dlg_negative_btn_text">Avbryt</string>
@@ -8324,6 +8420,7 @@ Läs och acceptera %s innan du använder den här tjänsten."</string>
     <string name="password_save_success">Sparad</string>
     <string name="password_saving">Sparar lösenord…</string>
     <string name="password_security_settings_title">Lösenord och säkerhet</string>
+    <string name="password_set_success_hint">Du kan nu låsa upp din enhet med ditt nya skärmlås</string>
     <string name="password_setup_complete">Lösenord angivet</string>
     <string name="password_toggle_content_description">Visa lösenord</string>
     <string name="password_turned_off_text">Lösenord har avaktiverats</string>
@@ -8490,6 +8587,13 @@ Läs och acceptera %s innan du använder den här tjänsten."</string>
     <string name="please_stop_listen_broadcast_audio">Sluta att lyssna på sändningen först</string>
     <string name="please_type_passphrase">Lösenord</string>
     <string name="pm">E.m</string>
+    <string name="pocket_musician">Xiaomi Pocket Guitar</string>
+    <string name="pocket_musician_battery_toast_both">Ladda den här enheten och din Xiaomi Pocket Guitar innan du uppdaterar firmware</string>
+    <string name="pocket_musician_battery_toast_device">Ladda din Xiaomi Pocket Guitar innan du uppdaterar firmware</string>
+    <string name="pocket_musician_battery_toast_phone">Anslut laddaren till den här laddaren och försök att uppdatera firmware igen</string>
+    <string name="pocket_musician_ota_connect_first">Anslut Xiaomi Pocket Guitar för att få uppdateringsinfo</string>
+    <string name="pocket_musician_ota_dialog_text">Uppdaterar…</string>
+    <string name="pocket_musician_ota_summary">Starta om det här tillbehöret manuellt efter uppdateringen</string>
     <string name="poco_launcher_privacy_policy">Sekretesspolicy för POCO Launcher</string>
     <string name="poco_launcher_user_agreement">POCO Launcher användaravtal</string>
     <string name="pointer_fill_style">Markörfärg</string>
@@ -8514,6 +8618,7 @@ Läs och acceptera %s innan du använder den här tjänsten."</string>
     <string name="popup_window">Begränsa svävande notifikationer</string>
     <string name="post_dsds_reboot_notification_text">Tryck för att uppdatera SIM-inställningarna</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">SIM-kortet från %1$s är aktivt</string>
+    <string name="post_reset_google_verification">Efter en fabriksåterställning loggar du in med det Google-konto som tidigare använts på den här enheten, för att ange ett lösenord.</string>
     <string name="power_autorun_apps_empty">Inga appar här ännu</string>
     <string name="power_autorun_empty">Inga appar tillgängliga</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -9088,7 +9193,29 @@ Om någon ansluter din enhet till en dator eller installerar skadliga appar på 
     <string name="proxy_url_title">"PAC-webbadress: "</string>
     <string name="proxy_warning_limited_support">HTTP-proxyn används av webbläsaren men får inte användas av de andra apparna.</string>
     <string name="pss_profiling_disabled">Minnesprofilering är inaktiverat</string>
+    <string name="qingcai_eye_care_summery">Detektera innehåll på skärmen automatiskt och filtrera bort skadligt blått ljud medan spelfärgerna hålls livliga</string>
+    <string name="qingcai_eye_care_title">Ögonkomfort (livfull)</string>
     <string name="qr_code_content_description">QR-kod</string>
+    <string name="quick_button_check_app_activity_title">Välj app för snabbstart</string>
+    <string name="quick_button_check_app_not_found_txt">Kunde inte hitta några resultat</string>
+    <string name="quick_button_check_app_search_edit_hint">Sök efter appar</string>
+    <string name="quick_button_check_app_search_text_cancel_txt">Avbryt</string>
+    <string name="quick_button_check_app_search_text_submit_txt">Klar</string>
+    <string name="quick_button_eyecare_mode_summery">Aktivera läsläge för att minska blått ljus</string>
+    <string name="quick_button_eyecare_mode_tile">Läsläge</string>
+    <string name="quick_button_furious_mode_summery">Växla till Ultimat läge för att få ut det mesta av din surfplatta</string>
+    <string name="quick_button_furious_mode_title">Ultimat läge</string>
+    <string name="quick_button_inspiration_summery">Skriv med din pekpenna för att fånga idéer när de dyker upp</string>
+    <string name="quick_button_inspiration_title">Skriver</string>
+    <string name="quick_button_none_title">Ingen åtgärd</string>
+    <string name="quick_button_preference_title">Genvägsknapp</string>
+    <string name="quick_button_screenshot_summery">Ta en skärmdump när du behöver det</string>
+    <string name="quick_button_screenshot_title">Skärmbild</string>
+    <string name="quick_button_start_button_txt">Välj app</string>
+    <string name="quick_button_start_summery">Öppna dina ofta använda appar snabbare</string>
+    <string name="quick_button_start_title">Snabbstart</string>
+    <string name="quick_button_super_ai_summery">Memorera vad som visas på skärmen, på ett ögonblick</string>
+    <string name="quick_button_super_ai_title">Xiaomi Hyper XiaoAi-minne</string>
     <string name="quick_function">Bedömande funktioner</string>
     <string name="quick_reply_title">Snabbsvar</string>
     <string name="quick_settings_developer_tiles">Utvecklarrutor för snabbinställningar</string>
@@ -9332,6 +9459,10 @@ Alla appar i ditt utrymme och tillhörande data tas även bort från telefonens 
     <string name="right_function_key">Genväg till höger</string>
     <string name="right_hearing_aid">Höger hörapparat</string>
     <string name="right_shoulder_key">Höger</string>
+    <string name="ring_remote_battery_status_toast_one">Anslut laddaren till den här enheten och försök att uppdatera firmware igen</string>
+    <string name="ring_remote_battery_status_toast_three">Byt ut batteriet i magnethållaren innan du uppdaterar den inbyggda programvaran</string>
+    <string name="ring_remote_battery_status_toast_two">Anslut laddaren till den här enheten och byt ut batteriet till magnethållaren. Försök sedan uppdatera den inbyggda programvaran igen</string>
+    <string name="ring_remote_ota_summary">Uppdaterar. Koppla inte från.</string>
     <string name="ring_to_you">Anpassad rington</string>
     <string name="ring_to_you_info">Ställ in en anpassad ton som andra människor hör innan du svarar</string>
     <string name="ring_volume_option_title">Ringsignal</string>
@@ -9352,6 +9483,26 @@ Alla appar i ditt utrymme och tillhörande data tas även bort från telefonens 
     <string name="roaming_warning">Roamingavgifter kan tillkomma.</string>
     <string name="rom_total_size">Total ROM-storlek</string>
     <string name="root">Root-åtkomst</string>
+    <string name="rp_clone_space_password_same_tip">Det nya skärmlåset bör skilja sig från lösenordet för sekundära utrymmet</string>
+    <string name="rp_forget_password_dialog_button_know">Jag förstår</string>
+    <string name="rp_forget_password_dialog_desc">Om du nyligen bytte ditt skärmlås och din enhet låser sig efter för många misslyckade försök, kan du återställa ditt nuvarande skärmlås genom att verifiera ett skärmlås som ändrats inom de senaste %1$d tmmarna, tillsammans med ditt fingeravtryck.</string>
+    <string name="rp_forget_password_dialog_note">Efter flera misslyckade upplåsningsförsök på låsskärmen trycker du på ”Glömt lösenord” för att börja återställa skärmlåset.</string>
+    <string name="rp_forget_password_dialog_title">Återställ skärmlåset när enheten är låst</string>
+    <string name="rp_old_password_retention_hint">Ditt tidigare skärmlås kommer att behållas ett tag. Om du glömmer ditt nya skärmlås kan du använda det föregående för att återställa det.</string>
+    <string name="rp_password_no_match">PIN-koderna stämmer inte överens. Försök igen.</string>
+    <string name="rp_remove_old_password">Rensa föregående skärmlås</string>
+    <string name="rp_reset_dialog_button_cancel">Avbryt</string>
+    <string name="rp_reset_dialog_button_confirm">Rensa</string>
+    <string name="rp_reset_dialog_message">Du har nyligen ändrat skärmlåset. Du kan fortfarande återställa det aktuella skärmlåset med hjälp av ditt tidigare skärmlås och fingeravtryck. Om du inte behöver det här säkerhetskopieringsalternativet kan du rensa det tidigare skärmlåset nu.</string>
+    <string name="rp_reset_dialog_title">Rensa föregående skärmlås</string>
+    <string name="rp_reset_old_password_now_desc">När du har verifierat ditt tidigare skärmlås och fingeravtryck får du vägledning om hur du ställer in ett nytt skärmlås.</string>
+    <string name="rp_reset_old_password_now_title">Återställer skärmlås…</string>
+    <string name="rp_reset_password_hint">Under kommande %1$s %2$s kan du återställa ditt aktuella skärmlås genom att verifiera ditt tidigare skärmlås eller fingeravtryck.</string>
+    <string name="rp_set_new_password">Ange ett nytt skärmlås</string>
+    <string name="rp_set_new_password_desc">Om du glömmer ditt nya skärmlås kan du återställa det till ditt tidigare skärmlås och fingeravtryck.</string>
+    <string name="rp_set_new_password_finish_desc">Det glömda skärmlåset sparas inte som ditt tidigare skärmlås. Timern för ditt ursprungliga tidigare skärmlås återställs.</string>
+    <string name="rp_set_new_password_finish_title">Konfigurationen har slutförts</string>
+    <string name="rp_set_new_pattern">Rita nytt mönster</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
     <string name="rtt_settings_summary">Kommunicera med text under ett samtal</string>
@@ -9515,6 +9666,7 @@ Alla appar i ditt utrymme och tillhörande data tas även bort från telefonens 
     <string name="screen_effect_adapt_color_title">Levande</string>
     <string name="screen_effect_origin_color_summary">Återskapa realistiska färger genom färgkalibrering</string>
     <string name="screen_effect_origin_color_title">Originalfärg PRO</string>
+    <string name="screen_effect_tip">Den lämpligaste färgrymden matchas automatiskt till innehållet. Stöder sRGB, P3 och BT.2020.</string>
     <string name="screen_enhance_engine_ai_note">%d. Denna funktion ökar strömförbrukningen litegrann.</string>
     <string name="screen_enhance_engine_ai_note_2">%d. Endast bilder från Galleri-appen kan förbättras.</string>
     <string name="screen_enhance_engine_ai_note_3">%d. Denna funktion kommer inte fungera om du valde att visa originalfärger eller tillämpade avancerade justeringar.</string>
@@ -9752,6 +9904,7 @@ Så här fäster du appar: \t
     <string name="search_account_list">Andra konton;Konto;Konton</string>
     <string name="search_add_facerecoginition_text">Ansiktsupplåsning;Ansiktsigenkänning</string>
     <string name="search_advanced_settings">Avancerade inställningar, Wifi, Wifi inställningar, WLAN inställningar</string>
+    <string name="search_ai_companion_title">Genväg till urklipp;Kopiera;Direktåtkomst;Åtkomst</string>
     <string name="search_airplane_mode">Flygplansläge;Flygplansläge;Flygplansläge;Flygplan;Flygplan;Flyg</string>
     <string name="search_alarm_sound_title">Alarmljud;alarmsignal;alarm</string>
     <string name="search_ambient_display_screen_title">Omgivande display;Alltid-på-display;Alltid på display</string>
@@ -9763,6 +9916,7 @@ Så här fäster du appar: \t
     <string name="search_application_lock_name">Applås</string>
     <string name="search_applications_settings">Installerade appar</string>
     <string name="search_back_key">Tillbaka;Tillbakaknapp;Tillbakaknapp</string>
+    <string name="search_background_blur_mode">Frostat glas;Matt glas;Visuell stil</string>
     <string name="search_battery_indicator">Batteriindikator</string>
     <string name="search_bluetooth_device_searchable">Upptäckbar;Synlig;Bluetoothnamn</string>
     <string name="search_bluetooth_enable">Bluetooth;Aktivera Bluetooth;Bluetooth på</string>
@@ -9969,10 +10123,18 @@ Så här fäster du appar: \t
     <string name="security_advanced_settings_work_profile_settings_summary">Lås för jobbprofilen, kryptering med mera</string>
     <string name="security_center_title">Säkerhet</string>
     <string name="security_check_progress_dialog_message">Skannar efter säkerhetsproblem…</string>
+    <string name="security_chip">Säkerhetschip</string>
     <string name="security_chip_active">Dina lösenords- och fingeravtrycksdata är skyddade av dedikerat säkerhetschipp. <Data>&lt;br/>&lt;a href=security_chip_bottomsheet>Läs mer&lt;/a></Data></string>
+    <string name="security_chip_data_protection">Ett dedikerat säkerhetschip hjälper till att skydda dina data</string>
     <string name="security_chip_description">Det dedikerade säkerhetschippet är en hårdvarumodul som är framtagen av Xiaomi, för att skydda känslig enhetsdata.</string>
     <string name="security_chip_details">Till skillnad från NFC-säkerhetschippet skyddar det dedikerade säkerhetschippet ditt skärmlås, krypterad känslig data och fingeravtrycksinformation. Det är fysiskt isolerat från NFC-chippet och säkerställer starkare skydd, bättre stabilitet och förstärkt motstånd mot störningar.</string>
+    <string name="security_chip_dialog_confirm">Jag förstår</string>
+    <string name="security_chip_dual_certification">Säkerhetschippet som uppfyller både Common Criteria (CC) och kinesiska kommersiella kryptograficertifieringskrav hjälper till att skydda mot fysiska attacker och \"brute-force\"-attacker</string>
+    <string name="security_chip_fingerprint_encrypt">Dina fingeravtryck är krypterade och skyddade av säkerhetschipet</string>
+    <string name="security_chip_hardware_encryption">Kryptering på maskinvarunivå</string>
+    <string name="security_chip_hardware_vault">Säker maskinvarumodul</string>
     <string name="security_chip_password_protection">Med chippets Weaver-mekanism skyddas dina lösenord på hårdvarunivå:</string>
+    <string name="security_chip_root_key_protection">Rotnyckeln skyddas av ett dedikerat säkerhetschip, så den kan inte nås av systemet eller appar från tredje part</string>
     <string name="security_dashboard_summary">Skärmlås, Hitta min enhet, appsäkerhet</string>
     <string name="security_encryption_alert_dialog_info_first">Ställ in ett skärmlås för att slå på denna funktion. Du måste ange skärmlås efter varje omstart för att dekryptera och använda enheten normalt.</string>
     <string name="security_encryption_alert_dialog_title_first">Ange skärmlås först</string>
@@ -10390,6 +10552,8 @@ Flytta fingret en aning varje gång. På så sätt kan mer av ditt fingeravtryck
     <string name="set_jeejen_prompt_message">Lite läge kommer bli din standardlauncher. Du kan ändra standardlauncher i Inställningar > Systeminställningar > Hemskärm och Senast använda appar > Standardlauncher.</string>
     <string name="set_jeejen_prompt_title">Bekräfta ändringar</string>
     <string name="set_lock_screen_password">Ange skärmlås</string>
+    <string name="set_new_password_hint">Ange ditt nya skärmlås och kom ihåg det</string>
+    <string name="set_new_password_hint_new">Ange ditt nya skärmlås och kom ihåg det</string>
     <string name="set_pad_clone_password">Ange lösenordet för plattans sekundära utrymme</string>
     <string name="set_password">Ange skärmlås</string>
     <string name="set_password_before_face">Konfigurera skärmlås innan du lägger till ansiktsdata</string>
@@ -11387,6 +11551,8 @@ Testa att använda en snabbare version av ^3, eller använd ^4 för bärbar lagr
     <string name="sunlight_mode">Solljusläge</string>
     <string name="sunlight_mode_boost_summary">Utöka skärpans intervall och justera skärpan automatiskt efter ljusförhållanden. Den här funktionen kommer att göra att din enhet värms upp och konsumerar mer ström.</string>
     <string name="sunlight_mode_summary">Justera ljusstyrkan till stark bakgrundsbelysning för att förhindra att skärmen blir för mörk</string>
+    <string name="super_sensory_night_vision_summery">Förbättra kontrasten i svagt ljus så att detaljerna förblir tydliga för en bättre spelupplevelse på natten</string>
+    <string name="super_sensory_night_vision_title">Förbättrat mörkerseende</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Minsta volym: %s</string>
     <string name="supervision_add_forgot_pin_preference_title">Glömt pinkoden</string>
@@ -11489,6 +11655,7 @@ Du kan redigera eller radera pinkoden i Android-inställningarna > Föräldrakon
     <string name="swipe_add_fingerprint_dirty_title">Kontrollera att ditt finger är rent och torrt</string>
     <string name="swipe_add_fingerprint_finish_text">Försök att registrera ditt fingeravtryck från fler vinklar för bättre upplåsning</string>
     <string name="swipe_add_fingerprint_insufficient_title">Kunde inte känna igen ditt fingeravtryck. Försök igen.</string>
+    <string name="swipe_add_fingerprint_message">Svep långsamt över på-knappen, ändra vinkeln under tiden</string>
     <string name="swipe_add_fingerprint_move_text">Testa olika vinklar och positioner</string>
     <string name="swipe_add_fingerprint_move_title">Justera ditt finger</string>
     <string name="swipe_add_fingerprint_need_up_text">Har du problem med att läsa av ditt fingeravtryck</string>
@@ -11500,6 +11667,7 @@ Du kan redigera eller radera pinkoden i Android-inställningarna > Föräldrakon
     <string name="swipe_add_fingerprint_swipe_fast_title">Rör ditt finger långsammare</string>
     <string name="swipe_add_fingerprint_swipe_slow_title">Rör ditt finger snabbare</string>
     <string name="swipe_add_fingerprint_text">Justera ditt grepp för att fånga kanterna på ditt fingeravtryck</string>
+    <string name="swipe_add_fingerprint_title">Flytta ditt finger åt vänster och höger</string>
     <string name="swipe_add_fingerprint_up_text">Tryck och rotera fingret lite</string>
     <string name="swipe_add_fingerprint_up_title">Tryck på mitten av fingeravtrycksområdet</string>
     <string name="swipe_direction_ltr">Svep åt höger för att ignorera och åt vänster för att visa menyn</string>
@@ -13279,6 +13447,7 @@ Välj "<b>Tillbaka</b> för att ansluta till ett annat Wi-Fi nätverk.</string>
     <string name="wifi_share_add">Dela mina offentliga nätverk</string>
     <string name="wifi_share_add_summary">"När du delar dina offentliga nätverk,
 kan du använda andras nätverk också."</string>
+    <string name="wifi_share_close_button_description">Stäng</string>
     <string name="wifi_share_conflict_dialog_message">Det finns redan ett delat nätverk med namnet %1$s. Om du byter till det delade nätverket lämnar du det privata nätverket och kan tillfälligt förlora internetåtkomst.</string>
     <string name="wifi_share_conflict_dialog_title">Byt till delat nätverk?</string>
     <string name="wifi_share_connect">Anslut</string>
@@ -13293,6 +13462,7 @@ kan du använda andras nätverk också."</string>
     <string name="wifi_share_plain_password_text">Lösenord: %s</string>
     <string name="wifi_share_preference_summary">Andra användare på enheten kan komma åt det här nätverket</string>
     <string name="wifi_share_preference_title">Dela nätverk</string>
+    <string name="wifi_share_qr_code_description">QR-kod</string>
     <string name="wifi_share_qrcode_finish">Klart</string>
     <string name="wifi_share_qrcode_summary">För att dela, sök av QR-koden ovan.</string>
     <string name="wifi_share_qrcode_title">Dela Wi-Fi nätverk</string>
@@ -13376,6 +13546,10 @@ kan du använda andras nätverk också."</string>
     <string name="wifi_wakeup_location_summary">Slå på platstjänster för att kunna använda denna funktion.</string>
     <string name="wifi_wakeup_negative_button">Avbryt</string>
     <string name="wifi_wakeup_positive_button">Aktivera</string>
+    <string name="wifi_wakeup_privacy_agree">Godkänn</string>
+    <string name="wifi_wakeup_privacy_content">\"Aktivera wifi automatiskt\" (denna tjänst) är en funktion som tillhandahålls av Xiaomi Inc. (\"vi\" eller \"Xiaomi\"). Den sparar högkvalitativa wifi-nätverk, till exempel ditt hemnätverk, och aktiverar automatiskt wifi när du befinner dig i närheten för att bidra till att minska användningen av mobildata. Vi fäster stor vikt vid skyddet av dina personuppgifter och din integritet. Vi tillhandahåller säkerhetsåtgärder för dina personuppgifter i enlighet med relevanta lagkrav och branschstandarder.&lt;br> När du aktiverar denna tjänst samlar vi in information om din ungefärliga plats, baserad på mobilmast-id:n, för att matcha dig med högkvalitativa wifi-nätverk i närheten.&lt;br> Denna information behandlas endast på din enhet och kommer inte att laddas upp till molnet.&lt;br> Om du väljer att inte tillhandahålla denna information kommer du inte att kunna använda denna tjänst.&lt;br> Vi behåller din personliga information, endast under den period som krävs för att uppnå de insamlingsändamål som beskrivs i detta integritetsmeddelande eller för att uppfylla tillämpliga lagkrav.&lt;br> Vi har inrättat en särskild avdelning för skydd av personlig information. Om du har synpunkter eller frågor om detta integritetsmeddelande, eller om du har frågor om vår insamling, användning eller utlämning av din personliga information, kan du kontakta oss på &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>. I allmänhet svarar vi inom femton arbetsdagar.&lt;br> Tryck på \"Godkänn\" för att bekräfta att du har läst och godkänner detta integritetsmeddelande.</string>
+    <string name="wifi_wakeup_privacy_disagree">Avbryt</string>
+    <string name="wifi_wakeup_privacy_title">Integritetsmeddelande</string>
     <string name="wifi_wakeup_scan_summary">Tillåt appar och tjänster att söka efter Wi-Fi-nätverk för att kunna aktivera Wi-Fi automatiskt. Aktivering av denna funktion tillåter din enhet att automatiskt ansluta till sparade nätverk i närheten.</string>
     <string name="wifi_wakeup_summary">Wifi aktiveras i närheten av sparade nätverk av hög kvalitet, till exempel ditt hemnätverk</string>
     <string name="wifi_wakeup_summary_no_location">Ej tillgängligt eftersom platsåtkomst har inaktiverats. Aktivera <annotation id="link">plats</annotation>.</string>
@@ -13566,10 +13740,21 @@ kan du använda andras nätverk också."</string>
     <string name="xiaomi_cloud_service_description_without_contacts">Xiaomi Cloud synkroniserar dina bilder, säkerhetskopierar dina appar och inställningar, samt hjälper dig att hitta din telefon med Hitta enhet.</string>
     <string name="xiaomi_cloud_service_disabled">Av</string>
     <string name="xiaomi_cloud_service_unknown">Okänd</string>
+    <string name="xiaomi_confirm_enable_16k_erase_checkbox_text">Jag förstår riskerna och godkänner de potentiella konsekvenserna</string>
+    <string name="xiaomi_confirm_enable_16k_pages_text">Mjukvarans integritet kan inte garanteras i detta läge. Detta kommer att starta om din enhet.</string>
+    <string name="xiaomi_confirm_enable_16k_pages_update_wipe">”Starta med sidstorlek på 16 kB” är en mycket känslig funktion som endast är avsedd för utvecklares testning. När du slår på det raderas alla data på enheten, inklusive foton, videor, dokument och alla appdata. Programvaruintegriteten kan inte garanteras. I det här läget är vissa funktioner inte tillgängliga och vissa appar kanske inte fungerar som de ska.</string>
+    <string name="xiaomi_confirm_enable_4k_pages_text">Detta kommer att starta om din enhet.</string>
+    <string name="xiaomi_confirm_reboot_button_text">Starta om</string>
+    <string name="xiaomi_confirm_reboot_title_text">Risk upptäckt</string>
     <string name="xiaomi_custom_input_method">Anpassad för Xiaomi</string>
+    <string name="xiaomi_erase_confirm_countdown_format">OK (%1$d)</string>
     <string name="xiaomi_hp_location">Exakt platsåtkomst</string>
     <string name="xiaomi_hp_location_description">Exakt platsåtkomst tillåter noggrann navigering</string>
     <string name="xiaomi_money_service">Mi mynt</string>
+    <string name="xiaomi_page_agnostic_16k_pages_text">Din enhet använder en sidstorlek på 16 KB med filsystemet ext4. För att återställa F2FS-filsystemet måste du växla tillbaka till en sidstorlek på 4 KB och göra en fabriksåterställning.</string>
+    <string name="xiaomi_page_agnostic_16k_pages_title">Använda sidstorlek på 16 kB</string>
+    <string name="xiaomi_page_agnostic_4k_pages_text">Din enhet använder en sidstorlek på 4 KB med filsystemet ext4. För att återställa F2FS-filsystemet, utför en fabriksåterställning.</string>
+    <string name="xiaomi_page_agnostic_4k_pages_title">Använda sidstorlek på 4 kB</string>
     <string name="xiaomi_router_available_notif_summary">Tryck för att visa mer info.</string>
     <string name="xiaomi_router_available_notif_title">Mi Router tillgänglig</string>
     <string name="xiaomi_router_notif_summary">Meddela mig när en Mi Router är tillgänglig</string>

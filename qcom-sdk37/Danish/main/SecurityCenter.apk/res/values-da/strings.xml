@@ -163,7 +163,7 @@
     <string name="add_done">Tilføjet</string>
     <string name="add_game">Tilføj spil</string>
     <string name="add_game_notification_summary">Tryk for at starte og booste hastighed</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">\"%s\" er føjet til Game Space</string>
     <string name="add_miservice_dialog_content">%s kræver, at du tilføjer Xiaomi service framework til undtagelser. Du modtager muligvis notifikationer fra vores indbyggede apps og andre tredjepartsapps.</string>
     <string name="add_miservice_dialog_title">Xiaomi service framework</string>
     <string name="add_to_whitelist_button">Data-roaming undtagelser</string>
@@ -200,6 +200,48 @@
     <string name="anitispam_intercept_record">Blokeringshistorik</string>
     <string name="anti_disturb_msg_detail">Slå alle notifikationer fra med undtagelse af indgående opkald</string>
     <string name="anti_disturb_msg_title">DND</string>
+    <string name="anti_peeping">Registrer en anden persons blik</string>
+    <string name="anti_peeping_apps_disable_header_title">Ikke-valgte apps</string>
+    <string name="anti_peeping_apps_enable_header_title">Valgte apps</string>
+    <string name="anti_peeping_apps_notify_description">Når en valgt app vises i fuld skærm, vil denne funktion løbende kontrollere, om nogen kigger på din skærm, og give dig besked</string>
+    <string name="anti_peeping_apps_notify_title">Giv besked, når nogen ser med</string>
+    <string name="anti_peeping_apps_notify_type">Notifikationer</string>
+    <string name="anti_peeping_apps_privacy_tip">Denne funktion bruger ansigtsdata til at registrere blik. Alle data behandles på din enhed og deles ikke.</string>
+    <string name="anti_peeping_face_need_input">Ansigtsdata er påkrævet</string>
+    <string name="anti_peeping_face_need_input_confirm">Indstillinger</string>
+    <string name="anti_peeping_face_need_input_subtitle">Tilføj dine ansigtsdata for at kunne bruge denne funktion. Tilføj nu?</string>
+    <string name="anti_peeping_focus_not_enabled"><Data>Notifikations-spotlight er slået fra. Advarsler bruger vibration i stedet. &lt;font color=#3482FF>Slå til&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback"><Data>Notifikations-spotlight er slået fra. Advarsler er ikke tilgængelige. &lt;font color=#3482FF>Slå til&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback_v2"><Data>Xiaomi HyperIsland er slået fra. Alarmer er ikke tilgængelige. &lt;font color=#3482FF>Slå til&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_v2"><Data>Xiaomi HyperIsland er slået fra. Alarmer bruger vibration i stedet. &lt;font color=#3482FF>Slå til&lt;/font></Data></string>
+    <string name="anti_peeping_notification_channel_name">Registrer en anden persons blik</string>
+    <string name="anti_peeping_notification_got_it">Forstået</string>
+    <string name="anti_peeping_notification_protect_content">Vis ikke igen</string>
+    <string name="anti_peeping_notification_title">Beskyt dit privatliv</string>
+    <string name="anti_peeping_privacy_auto_close_des">Denne funktion kan øge strømforbruget en smule og slås fra, når Batterisparer er slået til.</string>
+    <string name="anti_peeping_privacy_auto_close_title">Slås automatisk fra, når Batterisparer er aktiv</string>
+    <string name="anti_peeping_privacy_statement_des">"Når du aktiverer denne funktion, vil enheden bruge frontkameraet til at kontrollere, om andre end dig kigger på din skærm, når dine valgte apps vises i fuld skærm. Hvis det registreres, får du en privatlivspåmindelse.
+Al behandling foregår på din enhed og uploades ikke til clouden."</string>
+    <string name="anti_peeping_privacy_statement_title">Privatlivsmeddelelse</string>
+    <string name="anti_peeping_privacy_understand_des">"Denne funktion bruger frontkameraet til at optage billeder og analysere, om andre end dig kigger på din skærm. Hvis det registreres, får du en påmindelse, der hjælper med at beskytte dit privatliv.
+Du kan vælge, hvilke apps der skal beskyttes. \"Registrer en anden persons blik\"\" slås automatisk til, når disse apps vises i fuld skærm."</string>
+    <string name="anti_peeping_privacy_understand_title">Om \"Registrer en anden persons blik\"</string>
+    <string name="anti_peeping_recommend_apps_button_open">Slå til</string>
+    <string name="anti_peeping_recommend_tips">%s af brugerne har valgt følgende apps</string>
+    <string name="anti_peeping_recommend_title">Anbefalede apps</string>
+    <string name="anti_peeping_search_key">Registrer en anden persons blik</string>
+    <string name="anti_peeping_search_keywords">Registrer andres blik;andres blik;privat visning;privatlivsvisning; Privatlivsvisning</string>
+    <string name="anti_peeping_splash_confirm">Næste</string>
+    <string name="anti_peeping_splash_custom_des">Denne funktion aktiveres, når dine valgte apps vises i fuld skærm</string>
+    <string name="anti_peeping_splash_custom_title">Vælg apps, der skal beskyttes</string>
+    <string name="anti_peeping_splash_dialog_des"><Data>Din enhed vil løbende kontrollere, om nogen kigger på din skærm, og give dig besked, hvis det registreres. &lt;font color=#3482FF>Få mere at vide&lt;/font></Data></string>
+    <string name="anti_peeping_splash_identify_des">Registrer, hvis andre ser med på din skærm</string>
+    <string name="anti_peeping_splash_identify_title">Registrer andre, der ser med</string>
+    <string name="anti_peeping_splash_notify_des">Understøtter Xiaomi HyperIsland og vibrationsadvarsler</string>
+    <string name="anti_peeping_splash_notify_title">Få påmindelser om privatliv</string>
+    <string name="anti_peeping_vibrate_demo_toast">Du får besked, når en anden persons blik registreres</string>
+    <string name="anti_peeping_vibration_not_enabled"><Data>Haptisk feedback er slået fra. Advarsler vises via Xiaomi HyperIsland. &lt;font color=#3482FF>Slå til&lt;/font></Data></string>
+    <string name="anti_peeping_vibration_not_enabled_no_fallback"><Data>Haptisk feedback er slået fra. Advarsler er ikke tilgængelige &lt;font color=#3482FF>Slå til&lt;/font></Data></string>
     <string name="antispam_add_black_number_message">Det indtastede nummer er for kort. Blokér alle numre, der begynder med disse cifre?</string>
     <string name="antispam_add_black_number_negative">Nej</string>
     <string name="antispam_add_black_number_positive">Ja</string>
@@ -288,7 +330,7 @@
     <string name="app_behavior_key_location">Placering</string>
     <string name="app_behavior_link_start">Kædestart</string>
     <string name="app_behavior_list_load_more">Loader…</string>
-    <string name="app_behavior_menu_about">Om optegnelser om app-egenskaber</string>
+    <string name="app_behavior_menu_about">Optegnelser om app-egenskaber</string>
     <string name="app_behavior_no_recorder">Intet her endnu</string>
     <string name="app_behavior_now_running">Kører</string>
     <string name="app_behavior_perm_allow_always_danger_tip">Apps kan udføre sensitive handlinger, når tilladelser er tildelt.</string>
@@ -623,6 +665,12 @@ Hvis du endnu ikke har angivet en skærmlås, skal du følge instruktionerne for
     <string name="apps_item_virus_ignore_text">Ignorer</string>
     <string name="apps_item_virus_summary_installed">Installeret app</string>
     <string name="apps_item_virus_summary_uninstalled">APK</string>
+    <string name="apps_layout_all_apps">Alle apps</string>
+    <string name="apps_layout_all_freeform_apps">Tilgængelige apps</string>
+    <string name="apps_layout_recommend_apps">Anbefalede apps</string>
+    <string name="apps_layout_search_app">Søg apps</string>
+    <string name="apps_layout_search_app_no_result">Kunne ikke finde resultater</string>
+    <string name="apps_layout_shortcut">Genveje</string>
     <string name="apps_list_header_title_sms">Kontrollér besked-app</string>
     <string name="apps_list_header_title_sms_access">Begræns adgang for verifikationskoder</string>
     <string name="ask_create_shortcut">Opret en genvej til startskærm?</string>
@@ -719,6 +767,9 @@ Hvis du endnu ikke har angivet en skærmlås, skal du følge instruktionerne for
     <string name="back_sound_support_china">Slå WLAN fra først</string>
     <string name="background_restrict_app_dialog_message">Begrænsning af netværksadgang i baggrunden for denne app kan gøre det umuligt for den at virke normalt, modtage beskeder, downloade indhold osv. Begræns alligevel?</string>
     <string name="background_traffic">Baggrunds %s</string>
+    <string name="background_virus_scan_notification_summary">Flere apps, herunder %s. Tryk for at se.</string>
+    <string name="background_virus_scan_notification_summary_one">Tryk for at se</string>
+    <string name="background_virus_scan_notification_title_one">Skadelig app \"%s\" registreret</string>
     <string name="backsound_set_hint">Sæt din Ikke til stede-besked til %s?</string>
     <string name="banner_optimizemanage_summary">Frigør hukommelse</string>
     <string name="banner_red_money_assist_button">Tænd</string>
@@ -979,7 +1030,9 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="bubble_notification_switch">Vis boblenotifikationer</string>
     <string name="bubble_notification_switch_desc">Når en messenger-app i et flydende vindue er skjult i kanten af skærmen, vises indgående beskeder i bobler</string>
     <string name="bubble_pickup_voice_print_auto">Optager stemmeprint…</string>
+    <string name="bubble_pickup_voice_print_auto_v2">Registrerer stemmeprint og ansigtsdata…</string>
     <string name="bubble_pickup_voice_print_success">Stemmeprint er optaget</string>
+    <string name="bubble_pickup_voice_print_success_v2">Stemmeprint og ansigtsdata er registreret</string>
     <string name="button_background_connection">Tillad</string>
     <string name="button_block_calls_from_cantacts">Fjern blokering</string>
     <string name="button_block_calls_from_strangers">Fjern blokering</string>
@@ -1025,6 +1078,13 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="call_delete_hint">Slet alle blokerede opkald fra dette nummer?</string>
     <string name="call_delete_title">Slet opkaldshistorik</string>
     <string name="call_empty_number">Skjulte numre</string>
+    <string name="call_filter_ad_promotion">Reklamer</string>
+    <string name="call_filter_education_training">Uddannelse</string>
+    <string name="call_filter_high_risk">Høj risiko</string>
+    <string name="call_filter_insurance_finance">Forsikring</string>
+    <string name="call_filter_loan_promotion">Lån</string>
+    <string name="call_filter_real_estate">Ejendom</string>
+    <string name="call_filter_renovation_repair">Reparationer i hjemmet</string>
     <string name="call_forwarding_block">Viderestillede opkald</string>
     <string name="call_intercept_settings">Indstillinger for opkaldsblokering</string>
     <string name="call_notification_answer_action">Besvar</string>
@@ -1038,6 +1098,19 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="call_overseas_block">Internationale opkald</string>
     <string name="call_prefix">Præfiksblokeringsliste</string>
     <string name="call_private">Blokér opkald fra skjulte numre</string>
+    <string name="call_reason_ad_promotion_mark">Reklamer</string>
+    <string name="call_reason_ad_promotion_mark_large">Reklamer</string>
+    <string name="call_reason_education_training_mark">Uddannelse</string>
+    <string name="call_reason_education_training_mark_large">Uddannelse</string>
+    <string name="call_reason_high_risk_mark">Høj risiko</string>
+    <string name="call_reason_insurance_finance_mark">Forsikring</string>
+    <string name="call_reason_insurance_finance_mark_large">Forsikring</string>
+    <string name="call_reason_loan_promotion_mark">Lån</string>
+    <string name="call_reason_loan_promotion_mark_large">Lån</string>
+    <string name="call_reason_real_estate_mark">Ejendom</string>
+    <string name="call_reason_real_estate_mark_large">Ejendom</string>
+    <string name="call_reason_renovation_repair_mark">Reparationer i hjemmet</string>
+    <string name="call_reason_renovation_repair_mark_large">Reparationer i hjemmet</string>
     <string name="call_stranger_block">Blokér opkald fra fremmede</string>
     <string name="call_transfer_block">Blokér viderestillede opkald</string>
     <string name="call_transfer_info">Blokér numre, der er viderestillet fra ukendte numre</string>
@@ -1110,6 +1183,10 @@ Du kan slå funktionen til og fra i Kontrolcenter."</string>
     <string name="cetus_invisible_mode">Inkognito</string>
     <string name="cetus_invisible_mode_description_card">Suspendér tilladelser</string>
     <string name="cetus_invisible_mode_description_switch">Aktivér for at suspendere mikrofon, kamera og placeringsrelaterede tilladelser for alle apps</string>
+    <string name="cetus_invisible_mode_notice_audio">Du er inkognito. Kan ikke bruge mikrofon nu.</string>
+    <string name="cetus_invisible_mode_notice_camera">Du er inkognito. Kan ikke bruge kamera nu.</string>
+    <string name="cetus_invisible_mode_notice_location">Du er inkognito. Kan ikke bruge placeringstjenester nu.</string>
+    <string name="cetus_invisible_mode_notice_tip">Tryk for at deaktivere inkognitotilstand i Indstillinger</string>
     <string name="cetus_invisible_mode_warn_all">Du er inkognito. Tilladelser til mikrofon, kamera og placeringstjenester er slået fra.</string>
     <string name="cetus_invisible_mode_warn_camera">Du er inkognito. Kameratilladelser er suspenderede.</string>
     <string name="cetus_invisible_mode_warn_location">Du er inkognito. Tilladelser til placeringstjenester er slået fra.</string>
@@ -1155,6 +1232,8 @@ Du kan slå funktionen til og fra i Kontrolcenter."</string>
     <string name="click_to_set_carrier">Tryk for at indstille</string>
     <string name="click_to_set_personalized_reminder">Indstil advarsler</string>
     <string name="click_to_set_traffic">Tryk for at indstille</string>
+    <string name="clip_notification_close_summary">Vil du stoppe påmindelserne, når en app får adgang til udklipsholder?</string>
+    <string name="clip_notification_close_title">Slå påmindelser om adgang til udklipsholder fra</string>
     <string name="clipboard_ai_allow">Smart styring</string>
     <string name="clipboard_ai_allow_summary">Lader systemet afgøre, om en app har adgang til udklipsholderens indhold, og minder dig om det, når den har.</string>
     <string name="close">Luk</string>
@@ -1241,17 +1320,18 @@ Du kan slå funktionen til og fra i Kontrolcenter."</string>
     <string name="connected_devices_notification">Notifikationer</string>
     <string name="connected_devices_notification_desc">Vis denne enheds notifikationer på enheder i nærheden, der er logget ind på den samme konto</string>
     <string name="connected_devices_notification_title">Tillad enheden ovenfor at vise denne enheds notifikationer?</string>
-    <string name="connected_devices_permission">Sammenkobling og tilladelser</string>
-    <string name="connected_devices_permission_settings">Sammenkobling og tilladelser</string>
+    <string name="connected_devices_permission">Interkonnektivitet og tilladelser</string>
+    <string name="connected_devices_permission_settings">Interkonnektivitet og tilladelser</string>
     <string name="connected_devices_permission_summary">Administrer adgang til denne enhed</string>
-    <string name="connected_devices_record">Optag</string>
+    <string name="connected_devices_record">Registrer</string>
     <string name="connected_devices_record_desc">Tillad enheder i nærheden, der er logget ind på den samme konto, at optage lyd på denne enhed</string>
     <string name="connected_devices_record_title">Tillad enheden ovenfor at optage lyd på denne enhed?</string>
     <string name="connected_devices_screen">Skærm</string>
     <string name="connected_devices_screen_desc">Tillad enheder i nærheden, der er logget ind på den samme konto, at se og interagere med denne enheds skærmindhold</string>
     <string name="connected_devices_screen_title">Tillad enheden ovenfor at se og interagere med denne enheds skærmindhold?</string>
-    <string name="connected_interconnection">Sammenkobling</string>
+    <string name="connected_interconnection">Interkonnektivitet</string>
     <string name="connecting">Opretter forbindelse…</string>
+    <string name="contacts_will_also_be_blocked">Inklusive kontakter</string>
     <string name="continue_install">Installer</string>
     <string name="continue_set">Fortsæt</string>
     <string name="convenient_mode">Lås alle apps op på en gang</string>
@@ -1302,32 +1382,40 @@ Du kan slå funktionen til og fra i Kontrolcenter."</string>
     <string name="cs_pickup_vioce_print_guide_dialog_desc">Afslut opkaldet, og følg instruktionerne for at begynde.</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">For at opfange lyd fra kun én person skal du først optage deres stemmeprint.</string>
     <string name="cs_pickup_vioce_print_in_private_tips">Optag dit stemmeprint for at kunne aktivere støjreduktion i Privat tilstand.</string>
+    <string name="cs_pickup_vioce_print_in_private_tips_v2">Registrer dit stemmeaftryk og dine ansigtsdata for at kunne indstille støjreduktion til Privat.</string>
     <string name="cs_pickup_vioce_print_private_dialog_title">Optag stemmeprint</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title_v2">Registrer stemmeprint og ansigtsdata</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Optag stemmeprint, før du vælger \"Enkelt deltager\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Frakobl eksterne enheder, og prøv igen</string>
     <string name="cs_pickup_voice_print_auto_dialog_tips">"Din stemme optages og behandles kun på denne enhed.
 For det bedste resultat skal du optage et sted, hvor du er alene, og der er stille."</string>
     <string name="cs_pickup_voice_print_auto_dialog_title">Stemmeprint er påkrævet til tilpasset støjreduktion</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title_v2">Stemmeprint og ansigtsdata kræves for Tilpasset støjreduktion</string>
     <string name="cs_pickup_voice_print_desc">Opfang lyd fra kun én person</string>
     <string name="cs_privacy_camera_global_settings_title">Privatliv for opkald</string>
     <string name="cs_record_voice_title">Optag</string>
     <string name="cs_screen_translation_title">Oversættelse af skærm</string>
     <string name="cs_simultaneous_interpretation_title">Tolk</string>
+    <string name="cs_simultaneous_interpretation_title_2">Oversæt</string>
     <string name="cs_title_pickup">Støjreduktion</string>
     <string name="cs_title_smart_subtitle">Transskription til undertekster</string>
     <string name="cs_title_ultraclear">Ultra HD-tilstand</string>
     <string name="cs_tool_box_max_screen_guide_case_1">Oplev simultantolkning og andre funktioner til konferenceopkald i den nye værktøjskasse for opkald</string>
     <string name="cs_tool_box_max_screen_guide_case_1_new">Oplev simultantolkning, Forskøn og andre funktioner til konferenceopkald i den nye værktøjskasse for opkald</string>
+    <string name="cs_tool_box_max_screen_guide_case_1_new_v2">Prøv Oversæt, Forskøn og meget mere i den nye værktøjskasse til opkald</string>
     <string name="cs_tool_box_max_screen_guide_case_2">Prøv flere forskellige funktioner til konferenceopkald i den nye værktøjskasse for opkald</string>
     <string name="cs_tool_box_max_screen_guide_case_2_new">Oplev Forskøn og andre funktioner til konferenceopkald i den nye værktøjskasse for opkald</string>
     <string name="cs_tool_box_max_screen_guide_case_3_new">Prøv flere forskellige funktioner til konferenceopkald i den nye værktøjskasse for opkald</string>
     <string name="cs_tool_box_max_screen_guide_case_4_new">Oplev simultantolkning og andre funktioner til konferenceopkald i den nye værktøjskasse for opkald</string>
+    <string name="cs_tool_box_max_screen_guide_case_4_new_v2">Prøv Oversæt og meget mere i den nye værktøjskasse til opkald</string>
     <string name="cs_tool_box_phone_guide_case_1">Prøv simultantolkning og andre smarte funktioner i den nye værktøjskasse for opkald</string>
     <string name="cs_tool_box_phone_guide_case_1_new">Prøv simultantolkning, Forskøn og mere i den nye værktøjskasse for opkald</string>
+    <string name="cs_tool_box_phone_guide_case_1_new_v2">Prøv Oversæt, Forskøn og meget mere i den nye værktøjskasse til opkald</string>
     <string name="cs_tool_box_phone_guide_case_2">Prøv flere forskellige funktioner i den nye værktøjskasse for opkald</string>
     <string name="cs_tool_box_phone_guide_case_2_new">Oplev Forskøn og andre funktioner i den nye værktøjskasse for opkald</string>
     <string name="cs_tool_box_phone_guide_case_3_new">Oplev en masse smarte funktioner i den nye værktøjskasse for opkald</string>
     <string name="cs_tool_box_phone_guide_case_4_new">Prøv simultantolkning og andre smarte funktioner i den nye værktøjskasse for opkald</string>
+    <string name="cs_tool_box_phone_guide_case_4_new_v2">Prøv Oversæt og meget mere i den nye værktøjskasse til opkald</string>
     <string name="cs_voice_print">Optag stemmeprint</string>
     <string name="cs_voice_search">Stemmeprint</string>
     <string name="cs_vt_camera_title">Kamera på tværs af enheder</string>
@@ -1906,6 +1994,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="gallery_confirm_start_activity">%s har ikke tilladelse til at få adgang til dit galleri og dine apps til sociale medier. Denne app ønsker at få adgang til billeder, der er lagret på denne enhed for at dele elementer. Tillad?</string>
     <string name="game_ad_recommendation">Alle spiller</string>
     <string name="game_anti_disturb_msg">Spil DND</string>
+    <string name="game_audio_label_international">Spillyd</string>
     <string name="game_balance_gpu_enhance_title">Forbedring af dedikeret GPU</string>
     <string name="game_balance_more_setting_title">Yderligere indstillinger</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Forbedret visuel præstation</string>
@@ -2023,7 +2112,7 @@ Når Smart billedhastighed er slået til, kan både spil og tredjepartsværktøj
     <string name="game_toolbox_slow_charge_negative_btn">Annuller</string>
     <string name="game_toolbox_slow_charge_notification_msg">Denne funktion forbedrer din spiloplevelse under opladning ved at sænke opladningshastigheden. Det kan forhindre, at enheden bliver overophedet.</string>
     <string name="game_toolbox_slow_charge_notification_title">Langsom opladning i gang</string>
-    <string name="game_toolbox_slow_charge_positive_btn">Slå til</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Tænd</string>
     <string name="game_toolbox_slow_charge_title">Langsom opladning</string>
     <string name="game_toolbox_slow_charge_toast">Langsom opladning er slået til</string>
     <string name="game_toolbox_smart_charge_title">Smartopladning</string>
@@ -2040,7 +2129,7 @@ Når Smart billedhastighed er slået til, kan både spil og tredjepartsværktøj
     <string name="game_toolbox_title_wild">Ultimativ tilstand</string>
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost er slået til</string>
     <string name="game_toolbox_wild_mode_toast_tip">Enhedens præstation er blevet markant forbedret</string>
-    <string name="game_toolbox_wild_mode_toast_title">Ultimativ tilstand er aktiveret</string>
+    <string name="game_toolbox_wild_mode_toast_title">Ultimativ tilstand er slået til</string>
     <string name="game_turbo_custom_subtitle">Du kan tilpasse superopløsning og smart billedhastighed for at styre billedhastighed og billedkvalitet</string>
     <string name="game_turbo_frame_rate_priority_subtitle">Forbedr billedhastighed intelligent</string>
     <string name="game_turbo_image_quality_priority_subtitle">\"Forøg billedkvalitet\" forbedrer billedkvaliteten via superopløsning og styrer billedhastigheden via smart billedhastighed</string>
@@ -2090,12 +2179,14 @@ Når Smart billedhastighed er slået til, kan både spil og tredjepartsværktøj
     <string name="gamebox_func_antimsg_open">Flydende notifikationer er begrænsede nu</string>
     <string name="gamebox_func_immersion_close">Immersiv tilstand er ikke aktiv nu</string>
     <string name="gamebox_func_immersion_open">Immersiv tilstand er aktiv nu</string>
+    <string name="gamebox_func_start_gyroscope_international">Slå gyroskopet til i spilindstillingerne for at bruge denne funktion</string>
     <string name="gamebox_func_switch_simcard">Skiftede til SIM-kort %1$d til data</string>
     <string name="gamebox_func_switch_simcard_immersion">Kan ikke skifte SIM-kort i immersiv tilstand</string>
     <string name="gamebox_func_wlan_close">Wi-Fi er slået fra nu</string>
     <string name="gamebox_func_wlan_open">Wi-Fi er slået til nu</string>
     <string name="gamebox_game_center_app_not_find">Installér Spil først</string>
     <string name="gamebox_gift_pack">Gaver</string>
+    <string name="gamebox_gyroscope_acceleration_international">Gyro-boost</string>
     <string name="gamebox_hangup">Slå skærm fra</string>
     <string name="gamebox_hangup_new">Slå skærm fra</string>
     <string name="gamebox_hangup_tips_content">Denne funktion slukker for skærmen, men holder gamet kørende i baggrunden. Funktionen deaktiveres automatisk, når du låser din enhed op.</string>
@@ -2276,6 +2367,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_game_macro_toast_tips">"Prøv kombinationer!
 Optag sekvenser, og brug dem når som helst!"</string>
     <string name="gb_game_mode_change_btn_right">Genstart</string>
+    <string name="gb_game_mode_change_failed_toast">Kunne ikke gemme</string>
     <string name="gb_game_mode_change_message">Genstart spillet for at bruge ændringerne nu?</string>
     <string name="gb_game_mode_change_new">Skift mellem layouts her</string>
     <string name="gb_game_mode_change_title">Genstart spillet</string>
@@ -2318,6 +2410,9 @@ Optag sekvenser, og brug dem når som helst!"</string>
     <string name="gb_gpu_driver_update_app_tips">Aktuel version er opdateret</string>
     <string name="gb_have_signed">Tjekkede ind i dag</string>
     <string name="gb_hot_area_seekbar">Hotzone-område</string>
+    <string name="gb_launch_mute_start">Lydløs</string>
+    <string name="gb_launch_mute_start_enbaled_toast">Lydløs tilstand er slået til. (click)Slå fra(/click)</string>
+    <string name="gb_launch_mute_start_unmuted_toast">Lyden er gendannet</string>
     <string name="gb_manual_record_dialog_del_video_message">Slet valgte videoer permanent?</string>
     <string name="gb_manual_video_record_title">Optagelser</string>
     <string name="gb_margin_restrain">Ignorér, at kanterne berøres ved et uheld</string>
@@ -2506,8 +2601,17 @@ af dine spillesessioner"</string>
     <string name="gd_app_edit_title_new">Redigér genveje til flydende vinduer</string>
     <string name="gd_beauty_manage_summary">Åbn fra værktøjskassen i siden under videoopkald for denne funktion</string>
     <string name="gd_beauty_manage_title">Forskøn til videoopkald</string>
+    <string name="gd_dock_preview_section_title">Sådan åbnes det</string>
+    <string name="gd_dock_preview_sidebar_title">Træk indikatoren indad</string>
+    <string name="gd_dock_preview_swipe_title">Træk og hold</string>
     <string name="gd_dock_shortcut_fullscreen">Fuld skærm</string>
+    <string name="gd_dock_shortcut_multisplitscreen">MultiSplit-skærm</string>
     <string name="gd_dock_shortcut_splitescreen">Opdel skærm</string>
+    <string name="gd_dock_swipe_launcher_upgrade_hint">Den aktuelle startversion understøtter ikke træk og hold</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_cancel">Annuller</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_confirm">Skift</string>
+    <string name="gd_dock_xiaoai_ball_dialog_content">Du kan trække og holde for at åbne Xiaomi Hyper XiaoAi-handlingsboblen. Hvis du skifter til sideværktøjskassen, slås Xiaomi Hyper XiaoAi-handlingsboblen fra. Skift nu?</string>
+    <string name="gd_dock_xiaoai_ball_dialog_title">Skift aktiveringsmetode?</string>
     <string name="gd_setting_conversation">Konferenceværktøjer</string>
     <string name="gd_setting_conversation_desc">Har en række funktioner til lyd- og videoopkald med fuld skærm</string>
     <string name="gd_setting_dock_activity_title">Panelværktøj</string>
@@ -2561,6 +2665,7 @@ af dine spillesessioner"</string>
 · Tryk og hold indikatoren for at flytte vinduet rundt."</string>
     <string name="global_dock_guide_desc_without_split_screen_new">"Stryg for at åbne sidebjælken og tryk på en app for at åbne den i et flydende vindue.
 Tryk og hold indikatoren for at flytte vinduet rundt."</string>
+    <string name="global_dock_recommend_switch_title">Vis anbefalede apps i sidebjælke</string>
     <string name="global_satisfaction_notification_button">Bedøm</string>
     <string name="global_satisfaction_notification_channel">Undersøgelse af brugertilfredshed</string>
     <string name="global_satisfaction_notification_subhead">Fortæl os om din oplevelse</string>
@@ -2802,6 +2907,9 @@ for at være med i æggejagten!"</string>
     <string name="install_title">Installer via USB</string>
     <string name="install_type_instant">Instant-app</string>
     <string name="installing">Installerer</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Flere apps, herunder %s, misbruger tilgængelighedstilladelser</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Denne app misbruger tilgængelighedstilladelser. Tryk for at se.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Blokerede den skadelige app \"%s\"</string>
     <string name="intercept_all_mark_calls">Bloker alle opkald med etiketten \"%s\"?</string>
     <string name="intercept_calls_nofify_hide_text">Hvis du vil oprette blokeringsregler for andre etiketter, skal du trykke her</string>
     <string name="intercept_calls_notify_title">Opkald med denne etiket bliver automatisk afbrudt. Bloker nu?</string>
@@ -2828,7 +2936,7 @@ for at være med i æggejagten!"</string>
     <string name="invalid_charger">Kan ikke oplade via USB. Brug laderen, der fulgte med din enhed.</string>
     <string name="invisible_mode_close_summary_compact">Den aktuelle systemversion understøtter kun samtidig aktivering af kamera-, placerings- og mikrofontilladelser for alle apps. Aktivering af en af disse tilladelser vil aktivere dem alle.</string>
     <string name="invisible_mode_close_title_compact">Påmindelse om tilladelser</string>
-    <string name="invisible_mode_open_summary_compact">Den aktuelle version af understøtter kun samtidig deaktivering af kamera-, placerings- og mikrofontilladelser for alle apps. Deaktivering af en af disse tilladelser vil deaktivere dem alle.</string>
+    <string name="invisible_mode_open_summary_compact">Den aktuelle systemversion understøtter kun samtidig deaktivering af kamera-, placerings- og mikrofontilladelser for alle apps. Deaktivering af en af disse tilladelser vil deaktivere dem alle.</string>
     <string name="invisible_mode_open_title_compact">Påmindelse om tilladelser</string>
     <string name="ip_address_exception_summary">Kunne ikke hente IP-adresse. Hvis problemet opstår igen, prøv at anvende en statisk IP-adresse.</string>
     <string name="item_app_permission">App-tilladelser</string>
@@ -3193,6 +3301,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Skift til halv skærm</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maksimer</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimer</string>
+    <string name="miuix_popup_show_description">Pop op-vindue</string>
     <string name="miuix_popup_window_default_title">Pop op-vindue</string>
     <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
@@ -3434,6 +3543,8 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="notification_abnormal_check_now_button">Se</string>
     <string name="notification_abnormal_consume_app_title">%s dræner batteriet</string>
     <string name="notification_abnormal_consume_cpu">CPU-ressourcer misbruges i baggrunden</string>
+    <string name="notification_abnormal_consume_high_drain_app_title">%s bruger meget batteri</string>
+    <string name="notification_abnormal_consume_high_drain_subtitle">Højt batteriforbrug i baggrunden</string>
     <string name="notification_abnormal_consume_wakelock">Systemet holdes vågent i baggrunden</string>
     <string name="notification_antivirus_button_text">Scan</string>
     <string name="notification_antivirus_message">Scan nu for at neutralisere risici</string>
@@ -3521,7 +3632,10 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s brugt %2$s denne uge</string>
     <string name="now_inquiry">Detaljer</string>
     <string name="number_address">Placering</string>
+    <string name="number_locked_v2">{count, plural, =0 {0 apps er låst} one {# app er låst} other {# apps er låst} }</string>
+    <string name="number_masked_v2">{count, plural, =0 {0 apps} one {# app} other {# apps} }</string>
     <string name="number_of_lucky_money">Røde konvolutter, du er fået påmindelser om</string>
+    <string name="number_to_lock_v2">{count, plural, =0 {0 apps er ikke låst} one {# app er ikke låst} other {# apps er ikke låst} }</string>
     <string name="numeric_need_to_confirm">Indtast igen for at bekræfte</string>
     <string name="numeric_password_confirmed_header_confirm">Indstillet korrekt. Tryk på for at bekræfte.</string>
     <string name="numeric_password_confirmed_header_continue">Indstillet korrekt. Tryk på \"Næste\".</string>
@@ -3570,7 +3684,15 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="open_activity_err">Programmet blev ikke fundet</string>
     <string name="open_app">Åbn</string>
     <string name="open_applock">Slå app-lås til</string>
+    <string name="open_applock_calling_tips">Lås apps, og verificer din identitet, når du åbner dem. App-lås har to adgangskodetyper og understøtter biometrisk godkendelse.</string>
+    <string name="open_applock_calling_title">App-lås</string>
     <string name="open_applock_password_type">Adgangskodetype</string>
+    <string name="open_applock_tip_item1_sub_title">Brug Adgangskode til privatlivsbeskyttelse eller Låseskærmsadgangskode</string>
+    <string name="open_applock_tip_item1_title">To adgangskodetyper</string>
+    <string name="open_applock_tip_item2_sub_title">Lås apps op med fingeraftryk eller ansigtsdata</string>
+    <string name="open_applock_tip_item2_title">Biometrisk verifikation</string>
+    <string name="open_applock_tip_item3_sub_title">Vælg at kræve verifikation efter låsning af skærmen, efter et bestemt tidsrum eller efter at have forladt appen</string>
+    <string name="open_applock_tip_item3_title">Tilpasset verifikationstidspunkt</string>
     <string name="open_applock_tips">Lås apps, og verificer din identitet, når du åbner dem. App-lås har to adgangskodetyper og understøtter biometrisk godkendelse.</string>
     <string name="open_callwait">Slået til</string>
     <string name="open_dnd_mode">Forstyr ikke-tilstand</string>
@@ -3598,8 +3720,6 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Brug af skadelige apps udgør en sikkerhedsrisiko</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s kan være en skadelig app</string>
     <string name="optimize_manage_title">Boost hastighed</string>
     <string name="optimize_result_available_memory_info">Tilgængelig hukommelse</string>
     <string name="optimize_result_button_cloudspace">Få mere lagerplads i skyen</string>
@@ -3652,6 +3772,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="overlay_permission_dialog_message_security_service">Sikkerhed skal bruge bestemte tilladelser for at fungere normalt.</string>
     <string name="overlay_permission_dialog_open">Indstillinger</string>
     <string name="overlay_permission_dialog_title">Tilladelser påkrævet</string>
+    <string name="overlay_read_clip_toast">\"%1$s\" har fået adgang til udklipsholder</string>
     <string name="package_change_notification_summary">Tryk for at lære mere.</string>
     <string name="package_change_notification_title">Juster datagrænse automatisk</string>
     <string name="package_setted_error_notification_summary">Tryk for at se oplysninger dataforbrug.</string>
@@ -3683,6 +3804,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="pb_abnormal_header_time">Tid</string>
     <string name="pb_abnormal_header_type">Type</string>
     <string name="pb_abnormal_header_value">Værdi</string>
+    <string name="pb_abnormal_idle_high_temp">Overophedning i inaktiv tilstand</string>
     <string name="pb_abnormal_loading">Lige et øjeblik…</string>
     <string name="pb_abnormal_record">Historik</string>
     <string name="pb_activity_title">Powerbank-oplysninger</string>
@@ -3694,6 +3816,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="pb_data_fetch_all_error">Kunne ikke læse data. Powerbanken er muligvis frakoblet eller ikke understøttet.</string>
     <string name="pb_data_fetch_all_error_new">Data kunne ikke læses. Powerbanken er muligvis frakoblet eller understøttes ikke. Hvis den blev frakoblet, skal du tilslutte opladerkablet igen og prøve igen.</string>
     <string name="pb_data_fetch_partial_error">Nogle elementer er ikke tilgængelige på grund af forsinkelse eller en powerbank, der ikke understøttes</string>
+    <string name="pb_data_fetch_partial_error_new">Nogle elementer er ikke tilgængelige på grund af forsinkelse eller en powerbank, der ikke understøttes</string>
     <string name="pb_manufacturer">Producent</string>
     <string name="pb_measure_point">Sensor %1$d</string>
     <string name="pb_production_date">Produktionsdato</string>
@@ -4011,6 +4134,210 @@ slås fra"</string>
     <string name="pc_work_in_super_save_mode">Ultra-batterisparer</string>
     <string name="pc_xiaoai_create_auto_task">Ny opgave fra Mi AI</string>
     <string name="pc_xiaoai_voice_control_close">"Deaktivér Mi AI's \"Væk med stemme\""</string>
+    <string name="peep_protection_ai_key_disabled">Privatlivsvisning er slået fra</string>
+    <string name="peep_protection_ai_key_enabled">Privatlivsvisning er slået til</string>
+    <string name="peep_protection_v2_app_notification_protection">Notifikationer</string>
+    <string name="peep_protection_v2_app_notification_protection_desc">Notifikationer fra valgte apps aktiverer privatlivsvisning</string>
+    <string name="peep_protection_v2_app_protection_desc">Slå privatlivsvisning til for udvalgte apps</string>
+    <string name="peep_protection_v2_banner_summary">Prøv funktioner til privatlivsvisning, der er eksklusive for denne enhedsmodel</string>
+    <string name="peep_protection_v2_banner_title">Xiaomi-privatlivsvisning</string>
+    <string name="peep_protection_v2_batch_disable">Slå fra</string>
+    <string name="peep_protection_v2_batch_enable">Slå til</string>
+    <string name="peep_protection_v2_category_capability">Funktionsmuligheder</string>
+    <string name="peep_protection_v2_category_capability_v2">Blikregistrering</string>
+    <string name="peep_protection_v2_category_finance">Finans</string>
+    <string name="peep_protection_v2_category_group_title_v2">%1$s (%2$d)</string>
+    <string name="peep_protection_v2_category_other">Andet</string>
+    <string name="peep_protection_v2_category_recommend">Anbefalet</string>
+    <string name="peep_protection_v2_category_scene">Scenarier</string>
+    <string name="peep_protection_v2_category_scene_v2">Skærm</string>
+    <string name="peep_protection_v2_category_smart">Smart</string>
+    <string name="peep_protection_v2_category_social">Sociale netværk</string>
+    <string name="peep_protection_v2_category_suggest">Anbefalet</string>
+    <string name="peep_protection_v2_category_tip_dismiss">Nej tak</string>
+    <string name="peep_protection_v2_category_tip_message">Lad Xiaomi Hyper XiaoAi hjælpe dig med at oprette personlige appgrupper. Du kan f.eks. føje Galleri, Adgangskoder og Noter til en privat skærmgruppe kaldet \"Metro\". Du kan også fortælle Xiaomi Hyper XiaoAi, hvordan du vil have dine apps grupperet, og tilføje andre smarte aktiveringsregler.</string>
+    <string name="peep_protection_v2_category_tip_prompt">Opret en appgruppe til privatlivsvisning. Føj %1$s til denne gruppe, kald den \"Privat\", og slå privatlivsvisning til for disse apps.</string>
+    <string name="peep_protection_v2_category_tip_title">Opret din egen gruppe</string>
+    <string name="peep_protection_v2_color_inversion_closed_msg">Denne funktion virker ikke med farveinversion. Xiaomi-privatlivsvisning er slået fra.</string>
+    <string name="peep_protection_v2_color_inversion_closed_reopen">Slå til</string>
+    <string name="peep_protection_v2_color_inversion_closed_title">Xiaomi-privatlivsvisning blev slået fra</string>
+    <string name="peep_protection_v2_color_inversion_conflict_msg">Denne funktion virker ikke med farveinversion. Sluk for farveinversionen først.</string>
+    <string name="peep_protection_v2_color_inversion_conflict_title">Slå farveinversion fra</string>
+    <string name="peep_protection_v2_cue_byapp_reason">Slå privatlivsvisning til for denne app</string>
+    <string name="peep_protection_v2_cue_byapp_title">Slå privatlivsvisning til for %s</string>
+    <string name="peep_protection_v2_cue_global_reason">Prøv privatlivsfunktioner, der er eksklusive for denne enhedsmodel</string>
+    <string name="peep_protection_v2_cue_global_title">Slå Xiaomi-privatlivsvisning til</string>
+    <string name="peep_protection_v2_cue_summary">Denne funktion er eksklusiv for denne enhedsmodel</string>
+    <string name="peep_protection_v2_deep_mode">Forbedret privatliv</string>
+    <string name="peep_protection_v2_deep_mode_desc">Gør skærmen sværere for andre at se</string>
+    <string name="peep_protection_v2_expert_mode_hint">*Kræver, at Xiaomi Hyper XiaoAi skiftes til Pro-tilstand</string>
+    <string name="peep_protection_v2_face_need_input_hint">Ansigtsdata er påkrævet</string>
+    <string name="peep_protection_v2_first_close_message">Føj Xiaomi-privatlivsvisning til i Kontrolcenter > Rediger > Systemomskiftere for hurtigt at slå funktionen til eller fra.</string>
+    <string name="peep_protection_v2_first_close_title">Slå hurtigt Xiaomi-privatlivsvisning til</string>
+    <string name="peep_protection_v2_first_close_title_v2">Omskifterknap</string>
+    <string name="peep_protection_v2_global_first_open_msg">Føj Privatliv på hele skærmen til i Kontrolcenter > Rediger > Systemomskiftere for hurtigt at slå funktionen til eller fra.</string>
+    <string name="peep_protection_v2_global_first_open_title">Slå hurtigt Privatliv på hele skærmen til</string>
+    <string name="peep_protection_v2_global_hint">Andre personers blik kan ikke registreres, når Privatliv på hele skærmen er slået til</string>
+    <string name="peep_protection_v2_global_no_aon_hint">For at spare på batteriet registreres andres blik ikke, mens Privatliv på hele skærmen er slået til</string>
+    <string name="peep_protection_v2_global_protection">Privatliv på hele skærmen</string>
+    <string name="peep_protection_v2_global_protection_desc">Brug privatlivsvisning i flere scenarier på din enhed</string>
+    <string name="peep_protection_v2_global_protection_desc_v2">Privatlivsvisning forbliver slået til på hele enheden</string>
+    <string name="peep_protection_v2_go_miclaw">Åbn Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_header_desc_v2">Skærmens synlighed fra siden reduceres. Din enhed advarer dig, når en anden persons blik registreres. (click)Få mere at vide(/click)</string>
+    <string name="peep_protection_v2_intro_detection_desc">Konfigurer smarte regler for denne funktion med Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_intro_enable">Slå til</string>
+    <string name="peep_protection_v2_intro_pixel_desc">Indsnævr skærmens synlige vinkel, og registrer, når en anden kigger med</string>
+    <string name="peep_protection_v2_intro_pixel_title">Privatlivsbeskyttelse på hardwareniveau</string>
+    <string name="peep_protection_v2_intro_privacy_tip">Gør skærmen sværere at se fra siden med løbende registrering og advarsler, når en anden kigger med</string>
+    <string name="peep_protection_v2_intro_scope_desc_global">Vælg bestemte apps og notifikationer, eller brug funktionen på hele enheden</string>
+    <string name="peep_protection_v2_intro_smart_page_desc">Vælg bestemte apps, sider og notifikationer, eller brug funktionen på hele enheden</string>
+    <string name="peep_protection_v2_intro_smart_page_title">Flere scenarier</string>
+    <string name="peep_protection_v2_learn_more">Få mere at vide</string>
+    <string name="peep_protection_v2_learn_more_limits_desc">"Denne funktion kan øge strømforbruget en smule. Den slås midlertidigt fra for at spare på batteriet, når Batterisparer er slået til.
+Ved visning af HDR-indhold sættes privatlivsvisning på pause for at sikre billedkvaliteten.
+Privatlivsvisning sættes på pause i liggende retning og genoptages automatisk, når du vender tilbage til stående retning.
+Nogle tredjepartstemaer understøtter endnu ikke privatlivsvisning for notifikationer på låseskærmen.
+Der kan være forsinkelser i registreringen af, hvornår du ankommer til eller forlader en placering."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global">"Denne funktion kan øge strømforbruget en smule. Den slås midlertidigt fra for at spare på batteriet, når Batterisparer er slået til.
+Ved visning af HDR-indhold sættes privatlivsvisning på pause for at sikre billedkvaliteten.
+Privatlivsvisning sættes på pause i liggende retning og genoptages automatisk, når du vender tilbage til stående retning.
+Nogle tredjepartstemaer understøtter endnu ikke privatlivsvisning for notifikationer på låseskærmen."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global_hdr">"Denne funktion kan øge strømforbruget en smule. Den slås midlertidigt fra for at spare batteri, når Batterisparer er slået til.
+Når HDR-indhold forhåndsvises, sættes privatlivsvisning på pause for at sikre skærmkvaliteten.
+Privatlivsvisning sættes på pause i liggende tilstand og genstartes automatisk, når du vender tilbage til stående tilstand.
+Nogle temaer fra tredjeparter understøtter endnu ikke privatlivsvisning for notifikationer på låseskærmen."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_hdr">"Denne funktion kan øge strømforbruget en smule. Den slås midlertidigt fra for at spare batteri, når Batterisparer er slået til.
+Når HDR-indhold forhåndsvises, sættes privatlivsvisning på pause for at sikre skærmkvaliteten.
+Privatlivsvisning sættes på pause i liggende tilstand og genstartes automatisk, når du vender tilbage til stående tilstand.
+Nogle tredjepartstemaer understøtter endnu ikke privatlivsvisning for notifikationer på låseskærmen.
+Der kan være forsinkelser i registreringen af ankomst til eller afgang fra lokationer."</string>
+    <string name="peep_protection_v2_learn_more_limits_title">Begrænsninger og særlige tilfælde</string>
+    <string name="peep_protection_v2_learn_more_privacy_desc">"Når denne funktion er slået til, kan enheden bruge frontkameraet til at tage billeder og registrere ansigter eller blikretning lokalt, når blikregistrering er aktiv. Dette bruges til at identificere, om en anden end dig kigger på skærmen, og advare dig.
+Alle data behandles på din enhed og uploades ikke til Xiaomi Cloud eller nogen cloudtjeneste fra tredjepart."</string>
+    <string name="peep_protection_v2_learn_more_privacy_title">Privatlivsmeddelelse</string>
+    <string name="peep_protection_v2_learn_more_scope_desc">"Du kan vælge, hvordan Xiaomi-privatlivsvisning skal fungere: på hele enheden, i valgte apps, på følsomme sider eller for notifikationer.
+
+Privatliv på hele skærmen:
+Privatlivsvisning forbliver slået til på hele enheden for at beskytte alt, hvad du ser. Andres blik registreres ikke, mens denne funktion er slået til.
+
+Valgte apps:
+Vælg de apps, du vil beskytte. Når disse apps vises på skærmen, reducerer Xiaomi-privatlivsvisning synligheden fra siden og registrerer, om andre kigger med.
+
+Følsomme sider:
+Selvom visse apps ikke er føjet til listen, kan Xiaomi-privatlivsvisning automatisk slås til på følsomme sider, f.eks. ved indtastning af adgangskoder, betalinger, overførsler og beskeder.
+
+Appnotifikationer:
+Notifikationer fra de valgte apps vises med delvis privatlivsbeskyttelse for at forhindre, at andre ser følsomme oplysninger."</string>
+    <string name="peep_protection_v2_learn_more_scope_desc_global">"Du kan vælge, hvordan Xiaomi-privatlivsvisning skal fungere: på hele enheden, i valgte apps eller for notifikationer.
+
+Privatliv på hele skærmen:
+Privatlivsvisning forbliver slået til på hele enheden for at beskytte alt, hvad du ser. Andres blik registreres ikke, mens denne funktion er slået til.
+
+Valgte apps:
+Vælg de apps, du vil beskytte. Når disse apps vises på skærmen, reducerer Xiaomi-privatlivsvisning synligheden fra siden og registrerer, om andre kigger med.
+
+Appnotifikationer:
+Notifikationer fra de valgte apps vises med delvis privatlivsbeskyttelse for at forhindre, at andre ser følsomme oplysninger."</string>
+    <string name="peep_protection_v2_learn_more_scope_title">Omfang for privatlivsvisning</string>
+    <string name="peep_protection_v2_learn_more_smart_desc">Du kan bruge din AI-assistent til at oprette og administrere appgrupper til privatlivsvisning, automatisk slå Privatliv på hele skærmen til på offentlige steder eller automatisk slå bestemte grupper til. Du kan også justere, hvor privatlivsvisning skal gælde, og reglerne for, hvornår den aktiveres, så funktionen passer bedre til dine vaner.</string>
+    <string name="peep_protection_v2_learn_more_smart_title">Brugertilpassede regler</string>
+    <string name="peep_protection_v2_learn_more_understand_desc">"Xiaomi-privatlivsvisning kombinerer begrænset synlighed fra siden med privatlivsmeddelelse for at beskytte mod både indsyn fra brede vinkler og kig på tæt hold fra smallere vinkler. Det giver dig en mere omfattende beskyttelse af dit privatliv.
+
+Begrænset synlighed fra siden:
+Ved at styre skærmens lys på pixelniveau bliver indholdet hurtigt sværere at se, efterhånden som betragtningsvinklen øges. Det mindsker risikoen for, at andre kan se dine personlige oplysninger.
+
+Privatlivsmeddelelse:
+Som et supplement til den begrænsede synlighed fra siden kan systemet advare dig, hvis det registrerer, at en anden end dig kigger på skærmen bagfra eller fra en anden smal vinkel."</string>
+    <string name="peep_protection_v2_learn_more_understand_title">Om Xiaomi-privatlivsvisning</string>
+    <string name="peep_protection_v2_main_body">Skærmens synlighed fra siderne reduceres. Din enhed tjekker også løbende, om nogen kigger på din skærm, og giver dig besked, når en anden persons blik registreres. (click)Få mere at vide(/click)</string>
+    <string name="peep_protection_v2_main_desc">Beskyt din skærm mod andres blikke</string>
+    <string name="peep_protection_v2_main_switch">Xiaomi-privatlivsvisning</string>
+    <string name="peep_protection_v2_main_switch_desc">Brug privatlivsvisning, og registrer en anden persons blik</string>
+    <string name="peep_protection_v2_main_switch_desc_v2">Tillad enheden at slå privatlivsvisning til ud fra det valgte scenarie</string>
+    <string name="peep_protection_v2_main_switch_title_v2">Xiaomi-privatlivsvisning</string>
+    <string name="peep_protection_v2_main_tile_label">Xiaomi-privatlivsvisning</string>
+    <string name="peep_protection_v2_move_app_title_v2">Flyt %s til</string>
+    <string name="peep_protection_v2_move_app_to_category">Flyt %s til gruppen</string>
+    <string name="peep_protection_v2_notification_protection">Privatlivsvisning for notifikationer</string>
+    <string name="peep_protection_v2_notification_protection_desc">Notifikationer fra valgte apps aktiverer privatlivsvisning</string>
+    <string name="peep_protection_v2_notification_protection_desc_v2">Notifikationer fra dine valgte apps vises med delvis privatlivsbeskyttelse</string>
+    <string name="peep_protection_v2_notify_type_desc">Du modtager en advarsel, når en anden persons blik registreres</string>
+    <string name="peep_protection_v2_notify_type_title">Privatlivsmeddelelse</string>
+    <string name="peep_protection_v2_page_detail_category_title">Følgende sider i denne app er beskyttet af privatlivsvisning</string>
+    <string name="peep_protection_v2_page_protection_desc">Slå privatlivsvisning til på bestemte sider</string>
+    <string name="peep_protection_v2_peep_detection_desc_v2">Registrer blik, og advar dig</string>
+    <string name="peep_protection_v2_peep_island_action_dismiss_v2">Ignorer</string>
+    <string name="peep_protection_v2_peep_island_subtitle_v2">Påminder ikke igen</string>
+    <string name="peep_protection_v2_privacy_statement">Denne funktion bruger ansigtsdata til at registrere blik. Alle data behandles på din enhed og deles ikke.</string>
+    <string name="peep_protection_v2_recommend_title">Anbefalede apps</string>
+    <string name="peep_protection_v2_search_app">Privatlivsvisning for apps;privatlivsvisning til apps;Valgte apps</string>
+    <string name="peep_protection_v2_search_empty_hint">Søgeresultater vises her</string>
+    <string name="peep_protection_v2_search_global">Privatliv på hele skærmen;Hele skærmen</string>
+    <string name="peep_protection_v2_search_hint">Søg apps</string>
+    <string name="peep_protection_v2_search_keywords_1">Privatlivsvisning</string>
+    <string name="peep_protection_v2_search_keywords_2">Pixel</string>
+    <string name="peep_protection_v2_search_keywords_3">Blik</string>
+    <string name="peep_protection_v2_search_no_result">Kunne ikke finde resultater</string>
+    <string name="peep_protection_v2_search_notification">Privatlivsvisning for notifikationer;privatlivsvisning til notifikationer;Appnotifikation</string>
+    <string name="peep_protection_v2_search_notify_type">Privatlivsmeddelelse;registrer blik;beskyt privatlivet;blikadvarsel</string>
+    <string name="peep_protection_v2_search_page">Privatlivsvisning på sider;privatlivsvisning for sider</string>
+    <string name="peep_protection_v2_search_smart_enable">Smart aktivering;automatisk privatlivsvisning</string>
+    <string name="peep_protection_v2_select_apps">Valgte apps</string>
+    <string name="peep_protection_v2_select_apps_category_tip">Du kan oprette, administrere, fjerne eller omdøbe appgrupper til privatlivsvisning i (click)Xiaomi Hyper XiaoAi(/click)</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">I Pro-tilstanden i Xiaomi Hyper XiaoAi kan du oprette, administrere, fjerne eller omdøbe appkategorier for privat visning</string>
+    <string name="peep_protection_v2_smart_enable">Smart aktivering</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_desc">I Xiaomi Hyper XiaoAi kan du oprette regler for privatlivsvisning ud fra steder, du ofte besøger. Når du ankommer til en angivet placering, slås privatlivsvisning automatisk til eller fra.</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_title">Opret smart regel</string>
+    <string name="peep_protection_v2_smart_enable_desc_v2">Opret placeringsbaserede regler for privatlivsvisning</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint">Ingen regler endnu. Opret lokationsbaserede regler for smart aktivering i Xiaomi Hyper XiaoAi.</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Ingen regler endnu. Du kan oprette placeringsbaserede regler til smart aktivering i (click)Xiaomi Hyper XiaoAi(click).</string>
+    <string name="peep_protection_v2_smart_enable_page_desc">I (click)Xiaomi Hyper XiaoAi(/click) kan du konfigurere placeringsbaserede smartregler, f.eks. så Privatliv på hele skærmen automatisk slås til, når du er i metroen. Når du ankommer til den angivne placering, slås privatlivsvisning til i henhold til din regel.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">I Pro-tilstanden i Xiaomi Hyper XiaoAi kan du angive placeringsbaserede regler for smart aktivering, f.eks. \"Slå automatisk Privatliv på hele skærmen til, når jeg er i metroen\". Når du ankommer til en angivet placering, slås privatlivsvisning automatisk til i henhold til dine regler.</string>
+    <string name="peep_protection_v2_smart_enable_prompt">Hjælp mig med at oprette en regel for privatlivsvisning: Jeg bruger ofte min telefon i metroen og på caféer. Opret regler for disse scenarier, og slå automatisk privatlivsvisning til for grupperne sociale netværk og økonomi, når jeg ankommer til disse placering.</string>
+    <string name="peep_protection_v2_smart_enable_prompt_copied">Kopieret</string>
+    <string name="peep_protection_v2_smart_enable_sio_unavailable">Tillad adgang for at kunne bruge denne funktion</string>
+    <string name="peep_protection_v2_smart_enable_switch_desc">Genkend scenarier, og slå privatlivsvisning til eller fra automatisk</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip">Hold wi-fi slået til for at gøre smartregler mere præcise. Nogle steder kan blive genkendt med forsinkelse eller slet ikke, når wi-fi er slået fra.</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip_china">Hold WLAN slået til for at gøre smartregler mere præcise. Nogle steder kan blive genkendt med forsinkelse eller slet ikke, når WLAN er slået fra.</string>
+    <string name="peep_protection_v2_smart_page_active_list">Bestemte sider i følgende apps er beskyttet</string>
+    <string name="peep_protection_v2_smart_page_header_title">Slås automatisk til for bestemte følsomme sider</string>
+    <string name="peep_protection_v2_smart_page_intro">Selv hvis du glemmer at tilføje nogle apps, slås privatlivsvisning automatisk til, når du åbner følsomme sider som indtastning af adgangskoder, betalinger, overførsler og beskeder.</string>
+    <string name="peep_protection_v2_smart_page_switch_title">Privatlivsvisning for sider</string>
+    <string name="peep_protection_v2_status_off">Deaktiveret</string>
+    <string name="peep_protection_v2_status_on">Til</string>
+    <string name="peep_protection_v2_strategy_action_disable_category">Slå privatlivsvisning fra for %s</string>
+    <string name="peep_protection_v2_strategy_action_disable_deep">Slå Forbedret privatliv fra</string>
+    <string name="peep_protection_v2_strategy_action_disable_default">Slå privatlivsvisning fra</string>
+    <string name="peep_protection_v2_strategy_action_disable_global">Slå Privatliv på hele skærmen fra</string>
+    <string name="peep_protection_v2_strategy_action_disable_target">Slå privatlivsvisning fra for %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_category">Slå privatlivsvisning til for %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_deep">Slå Forbedret privatliv til</string>
+    <string name="peep_protection_v2_strategy_action_enable_default">Slå privatlivsvisning til</string>
+    <string name="peep_protection_v2_strategy_action_enable_global">Slå Privatliv på hele skærmen til</string>
+    <string name="peep_protection_v2_strategy_action_enable_target">Slå privatlivsvisning til for %s</string>
+    <string name="peep_protection_v2_strategy_action_fallback">Peep protection</string>
+    <string name="peep_protection_v2_strategy_action_separator_leave">; on leave</string>
+    <string name="peep_protection_v2_strategy_arrive_condition">Når du ankommer til %1$s</string>
+    <string name="peep_protection_v2_strategy_auto_desc">Arrive at %1$s, auto %2$s</string>
+    <string name="peep_protection_v2_strategy_auto_title">%1$s: %2$s</string>
+    <string name="peep_protection_v2_strategy_delete">Slet</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_msg">Slet denne regel permanent?</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_title">Slet denne regel?</string>
+    <string name="peep_protection_v2_strategy_detail_title">Smarte regler</string>
+    <string name="peep_protection_v2_strategy_edit_desc_hint">Beskrivelse</string>
+    <string name="peep_protection_v2_strategy_edit_main_title_hint">Titel</string>
+    <string name="peep_protection_v2_strategy_edit_title">Redigér</string>
+    <string name="peep_protection_v2_strategy_edit_title_hint">Enter new strategy name</string>
+    <string name="peep_protection_v2_strategy_edit_title_v2">Rediger titel</string>
+    <string name="peep_protection_v2_strategy_go_miclaw">Juster regler</string>
+    <string name="peep_protection_v2_strategy_leave_condition">Når du forlader %1$s</string>
+    <string name="peep_protection_v2_strategy_notify_on_trigger">Giv besked, når privatlivsvisning er slået til</string>
+    <string name="peep_protection_v2_strategy_prompt_copied">Kopieret</string>
+    <string name="peep_protection_v2_strategy_prompt_template">Hjælp mig med at ændre reglen for privatlivsvisning \"%1$s\", og juster dets indstillinger.</string>
+    <string name="peep_protection_v2_strategy_unknown_location">Unknown location</string>
+    <string name="peep_protection_v2_thermal_paused_toast">Privatlivsmeddelelser genoptages, når enheden er kølet ned</string>
+    <string name="peep_protection_v2_tile_label">Privatliv på hele skærmen</string>
+    <string name="peep_protection_v2_title">Xiaomi-privatlivsvisning</string>
     <string name="per_month_pkg_traffic_settings">Sæt datagrænse</string>
     <string name="percent_formatted_text">%s%%</string>
     <string name="percent_text_formatted">%s%%</string>
@@ -4053,6 +4380,7 @@ slås fra"</string>
     <string name="permgroupdesc_storage">Få adgang til fotos eller filer på enheden</string>
     <string name="permission_action_accept">Accepter</string>
     <string name="permission_action_ai_prompt">Beslut for mig</string>
+    <string name="permission_action_allow_for_compatibility">Kun lokalt netværk</string>
     <string name="permission_action_always">Tillad altid</string>
     <string name="permission_action_desc">Giv tilladelse, men returnér blanke SMS-beskeder til appen for at beskytte privatlivet</string>
     <string name="permission_action_desc_always">Denne tilladelse kan bruges når som helst</string>
@@ -4066,8 +4394,14 @@ slås fra"</string>
     <string name="permission_action_virtual">Retunér blanke SMS-beskeder</string>
     <string name="permission_action_virtual_common_summary">Giv apps de nødvendige tilladelser, men returnér tomme beskeder for at beskytte dit privatliv</string>
     <string name="permission_action_virtual_phone_summary">Giv apps de relevante tilladelser, men lad dem ikke få adgang til SIM-kortets rigtige telefonnummer</string>
+    <string name="permission_allow_for_compatibility_note">Tillader kun appen at kommunikere med enheder på det samme lokale netværk. Bluetooth og andre forbindelsesmetoder understøttes ikke.</string>
+    <string name="permission_changed_retry">Tilladelser er ændret. Genstart apps.</string>
     <string name="permission_close_permission_control_dialog_msg">Når tilladelsesmanageren er slået fra, vil apps ikke bede om din tilladelse, før de læser dine kontakter, viser din opkaldshistorik, ændrer systemindstillinger eller får adgang til kamera og andre enhedsressourcer.</string>
     <string name="permission_close_permission_control_dialog_title">Slå fra?</string>
+    <string name="permission_compatibility_dialog_message">Denne app er udviklet til en ældre version af Android. Hvis du afviser tilladelser, fungerer den muligvis ikke længere som tilsigtet.</string>
+    <string name="permission_compatibility_dialog_negative_btn">Annuller</string>
+    <string name="permission_compatibility_dialog_positive_btn">Afvis</string>
+    <string name="permission_compatibility_dialog_title">Denne app fungerer muligvis ikke korrekt</string>
     <string name="permission_exception_title">Begrænset forbindelse for apps</string>
     <string name="permission_group_audio">Denne tilladelse giver apps adgang til musik og andre lydfiler, der er gemt på denne enhed.</string>
     <string name="permission_group_calendar">Denne tilladelse giver apps adgang til at tilføje, slette og redigere kalenderbegivenheder.</string>
@@ -4175,6 +4509,7 @@ slås fra"</string>
     <string name="permission_with_SMS_and_MMS">Tilladelser relateret til SMS og MMS</string>
     <string name="permission_with_call_and_contact">Tilladelser vedrørende telefonopkald, kontaktoplysninger og opkaldshistorik.</string>
     <string name="permission_with_read_write_clipboard">Tillad apps at få adgang til og gemme elementer i udklipsholderen</string>
+    <string name="permisson_reject_notice_toast_text2">har ikke tilladelse til %1$s.</string>
     <string name="permit_running_network">Baggrundsdata</string>
     <string name="person_have_hongbao">%1$s har sendt dig en rød konvolut!</string>
     <string name="person_hotpot">Mobile hotspots</string>
@@ -4243,6 +4578,7 @@ slås fra"</string>
     <string name="power_center_battery_detail">Oplysninger</string>
     <string name="power_center_battery_duration">Tilbageværende tid</string>
     <string name="power_center_battery_duration_format">%1$s %2$s</string>
+    <string name="power_center_battery_duration_new">Resterende skærmtid</string>
     <string name="power_center_battery_duration_screen_on">Resterende skærmtid</string>
     <string name="power_center_battery_hardware">Hardware %s</string>
     <string name="power_center_battery_health_poor_tip">Det ser ud til, at batteriet ikke fejler noget. Tjek dit batteri på et autoriseret servicecenter.</string>
@@ -4384,6 +4720,7 @@ slås fra"</string>
     <string name="power_idle">Telefon inaktiv</string>
     <string name="power_main_battery_last_day_hour">%1$s: %2$s timer tilbage</string>
     <string name="power_main_battery_last_hour_minute">%1$st %2$sm tilbage</string>
+    <string name="power_main_battery_last_hour_minute_new">Anslået skærmtid: %1$s %2$s</string>
     <string name="power_main_battery_last_hour_minute_screen_on">%1$s %2$s resterende skærmtid</string>
     <string name="power_main_open_last_hour_minute_screen_on">Aktivér for at tilføje %1$s %2$s skærmtid</string>
     <string name="power_ntc_dialog_btn_finish">Forstået</string>
@@ -4533,6 +4870,12 @@ slås fra"</string>
     <string name="pp_app_warning_permission_tips_detail">Vis en påmindelse, når en app anmoder om tilladelser til placering, kamera eller mikrofon</string>
     <string name="pp_clipboard">Udklipsholder</string>
     <string name="pp_none_read_clipboard_item">Giv ikke besked</string>
+    <string name="pp_privacy_call_entry">Private opkald</string>
+    <string name="pp_privacy_call_entry_demo_desc">Reducerer lydlækage fra øretelefonens højttaler for at beskytte privatliv under opkald</string>
+    <string name="pp_privacy_call_entry_switch_desc">Fungerer under opkald via øretelefonens højttaler. Denne funktion indsamler ikke indhold eller data fra dine opkald.</string>
+    <string name="pp_privacy_call_protect">Opkaldsbeskyttelse</string>
+    <string name="pp_privacy_call_switch_off">Private opkald er slået fra</string>
+    <string name="pp_privacy_call_switch_on">Privat opkald er aktiveret</string>
     <string name="pp_privacy_lab_clipboard_summary">Tillad din enhed at bestemme, om en app kan få adgang til udklipsholderen og modtage meddelelser, når den gør det</string>
     <string name="pp_privacy_lab_operator_get_number_summary">Kræv, at apps beder om din tilladelse, når de vil have adgang til dit telefonnummer for at logge ind.</string>
     <string name="pp_privacy_protection">Beskyttelse</string>
@@ -4667,6 +5010,7 @@ slås fra"</string>
     <string name="privacy_description_camera">%1s bruger kameraet i baggrunden. Du kan ændre denne aktivitet med knappen herunder.</string>
     <string name="privacy_description_camera_mic">%1s bruger kamera og mikrofon i baggrunden. Du kan ændre denne aktivitet med knappen herunder.</string>
     <string name="privacy_description_mic">%1s bruger mikrofonen i baggrunden. Du kan ændre denne aktivitet med knappen herunder.</string>
+    <string name="privacy_device_unique_feature">Enhedseksklusiv funktion</string>
     <string name="privacy_dialog_call_item_1">Få adgang til enhedsoplysninger</string>
     <string name="privacy_dialog_call_item_2">Foretag opkald</string>
     <string name="privacy_dialog_call_item_3">Få adgang til enhedens status</string>
@@ -4716,6 +5060,10 @@ slås fra"</string>
     <string name="privacy_flares_recent_detail_more">Denne app har brugt en følsom tilladelse</string>
     <string name="privacy_global_guide_permission_guide_text">Du vil modtage en advarsel i statuslinjen, når apps optager lyd eller bruger kamera. For at se, hvilke apps der gør det, skal du trykke på advarslen.</string>
     <string name="privacy_guide_permission_guide_text">Du kan modtage en alarm i statusbjælken, når apps får adgang til din placering, optager lyd eller tager fotos.</string>
+    <string name="privacy_hide_app_notify_auto_close_desc">Denne funktion forhindrer skjulte apps i at sende notifikationer. Slå \"Skjul notifikationer\" fra, eller gør appen synlig igen for at modtage notifikationer.</string>
+    <string name="privacy_hide_app_notify_auto_close_title">Slå notifikationer fra</string>
+    <string name="privacy_hide_app_notify_auto_revoke_summary">Slå automatisk notifikationer fra for skjulte apps</string>
+    <string name="privacy_hide_app_notify_dialog_confirm">Forstået</string>
     <string name="privacy_hide_other_permissions">Skjul andre tilladelser</string>
     <string name="privacy_hybrid_password_long">Indtast op til %d tegn</string>
     <string name="privacy_hybrid_password_too_short">Indtast mindst %d tegn</string>
@@ -4799,7 +5147,7 @@ slås fra"</string>
     <string name="privacy_recommend_category">Personliggørelse</string>
     <string name="privacy_recommend_summary">Modtag personlige indholdsanbefalinger</string>
     <string name="privacy_recommend_title">Personlige anbefalinger</string>
-    <string name="privacy_revoke_category_title">Tilbagetrækning af samtykke og annullering af tjenester</string>
+    <string name="privacy_revoke_category_title">Tilbagetrækning af samtykke og opsigelse af tjenesten</string>
     <string name="privacy_revoke_dialog_content">Slå denne knap fra for at tilbagetrække dit samtykke til fortrolighedspolitikken for Sikkerhed. Vi vil ophøre med at indsamle dine personlige oplysninger. De personlige oplysninger, som vi allerede har indsamlet og gemt, vil blive slettet inden for den specifikke periode, som loven foreskriver. Sikkerhed skal indsamle nødvendige personlige oplysninger for at kunne tilbyde dig grundlæggende tjenester. Din tilbagetrækning af samtykke til denne fortrolighedspolitik betragtes som en afvisning af deres tjenester baseret på indsamlede personlige oplysninger.</string>
     <string name="privacy_revoke_dialog_content_cn">"Hvis du fortsætter, trækker du dit samtykke til privatlivspolitikken for %1$s tilbage. Vi vil stoppe med at indsamle dine personlige oplysninger. De personlige oplysninger, som vi allerede har indsamlet og gemt, vil blive slettet inden for den specifikke periode i henhold til gældende love og bestemmelser, medmindre andet er påkrævet.
 Idet %2$s tilbyder sine tjenester baseret på indsamling af de nødvendige personlige oplysninger, vil din tilbagetrækning af samtykke blive anset som ikke-accept af %3$s-tjenester.
@@ -4880,6 +5228,10 @@ Tilbagetræk samtykke nu?"</string>
     <string name="privacy_screen_share_notification_title">Indhold på støbeskærm</string>
     <string name="privacy_screen_share_protect_tip">Beskyttet</string>
     <string name="privacy_screen_share_tip">Casting</string>
+    <string name="privacy_screen_share_v2_land_subtitle">“%s” har adgang til skærmindhold</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Skærmens indhold er beskyttet</string>
+    <string name="privacy_screen_share_v2_notification_title">Indhold på støbeskærm</string>
+    <string name="privacy_screen_share_v2_small_island_title">Deler skærm</string>
     <string name="privacy_search_key_1">Fortrolighed</string>
     <string name="privacy_search_key_10">Enheds-id</string>
     <string name="privacy_search_key_2">Netværksaflytning</string>
@@ -5005,6 +5357,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="repeat_type">Gentag</string>
     <string name="repeated_marked_number_summary">Bloker ikke et andet opkald fra det samme rapporterede nummer inden for %d minutter</string>
     <string name="repeated_marked_number_title">Blokér ikke gentagne opkald fra anmeldte numre</string>
+    <string name="repeated_stranger_number_summary">Bloker ikke et nyt opkald fra det samme ukendte nummer inden for %d min.</string>
     <string name="repeated_unknown_number_summary">Bloker ikke et nyt opkald fra det samme ukendte nummer inden for %d min.</string>
     <string name="replace_dns">Udskift automatisk DNS</string>
     <string name="report">Anmeld</string>
@@ -5090,10 +5443,12 @@ Tilbagetræk samtykke nu?"</string>
     <string name="safe_result_item_info_system_version">Systemet er opdateret</string>
     <string name="safepay_alert_dialog_button_continue">Fortsæt</string>
     <string name="safepay_alert_dialog_button_fix">Få mere at vide</string>
+    <string name="safety">Sikkerhed</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
     <string name="save_mode_btn_ok">Forstået</string>
+    <string name="save_privacy_pwd_fail_toast">Kunne ikke gemme. Prøv igen.</string>
     <string name="sc_allow_network_dialog_message">Du begrænsede netværksforbindelsen og adgangen til din placering i Sikkerhed. Giv Sikkerhed den krævede tilladelse til at bruge denne funktion.</string>
     <string name="sc_allow_network_dialog_tiltle">Kan ikke anvende denne funktion</string>
     <string name="sc_system_risk_fix_info_xspace">Kan ikke løse dette i Second space. Prøv i First space.</string>
@@ -5104,6 +5459,11 @@ Tilbagetræk samtykke nu?"</string>
     <string name="scan_status_risk">Risikabel</string>
     <string name="scan_status_safe">Sikker</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Beskyttelse mod svindel</string>
+    <string name="screen_share_search_keyword_1">Deler skærm</string>
+    <string name="screen_share_search_keyword_2">Del skærm</string>
+    <string name="screen_share_search_title">Beskyttelse ved skærmdeling</string>
+    <string name="screen_share_warning_positive_button">Stop</string>
     <string name="screenrecord_not_find">Installer den nyeste version af Screen Recorder og prøv igen.</string>
     <string name="sd_eject">Afmonter SD-kort</string>
     <string name="sd_eject_summary">Afmonter SD-kortet for at fjerne det sikkert</string>
@@ -5489,13 +5849,17 @@ Tilbagetræk samtykke nu?"</string>
     <string name="st_message_phone_AntiSpam">Blokér opkald</string>
     <string name="st_message_phonepass">Tillad opkald</string>
     <string name="st_msg_keyword_black">Nøgleord-blokeringsliste</string>
+    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
     <string name="st_msg_keyword_group">Nøgleord</string>
     <string name="st_msg_keyword_white">Nøgleord-undtagelser</string>
+    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
     <string name="st_msg_other_group">Andet</string>
     <string name="st_msg_settings">SMS-blokeringsliste</string>
     <string name="st_msg_stranger_group">Blokér beskeder fra fremmede</string>
     <string name="st_settings_name">Indstillinger for blokeringsliste</string>
     <string name="st_share_settings">Brug SIM %d indstillingerne</string>
+    <string name="st_show_num_keyword_v2">{count, plural, =0 {0 nøgleord } one {# nøgleord } other {# nøgleord } }</string>
+    <string name="st_show_num_number_v2">{count, plural, =0 {0 tal } one {# tal } other {# tal } }</string>
     <string name="st_smg_intercept_all">Bloker alle beskeder</string>
     <string name="st_smg_intercept_confirm_dialog_summary_all">SMS og MMS fra alle numre eller regioner, som ikke er på din undtagelsesliste, bliver blokeret. Bloker nu?</string>
     <string name="st_smg_intercept_confirm_dialog_summary_stranger">SMS og MMS fra alle numre eller regioner, som ikke er på din undtagelsesliste eller i dine kontakter, bliver blokeret. Bloker nu?</string>
@@ -5569,6 +5933,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="status_bar_network_flow_purchase">"   Køb >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Opsæt dataplan >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Bloker</string>
     <string name="still_retain_btn">Behold</string>
     <string name="stop_milink_connect">Holdt op med at caste</string>
     <string name="storage_activity_title">Lagerplads</string>
@@ -5679,7 +6044,7 @@ For at bruge dette ^1 med denne enhed skal du først konfigurere det."</string>
     <string name="storage_system_log_tip">Systemlogfiler ryddes automatisk efter behov</string>
     <string name="storage_system_memory_expansion">Hukommelsesudvidelse</string>
     <string name="storage_system_memory_expansion_tip">Udvid RAM ved at optage lager</string>
-    <string name="storage_system_other_tip">Nødvendige data for at systemer kan fungere normalt (filstørrelse kan ændre sig over tid)</string>
+    <string name="storage_system_other_tip">Data, der er nødvendige for, at systemet fungerer normalt (filstørrelsen kan ændre sig med tiden)</string>
     <string name="storage_system_other_tip_new">Omfatter den nødvendige lagerplads til systemdrift og opgraderinger. Størrelsen af denne partition vil svinge afhængig af systemstatus.</string>
     <string name="storage_ufs_msg">Du kan tilføje op til %1$s lagerplads til denne enhed ved hjælp af vores UFS-lagerpladsudvidelsesteknologi og lagerpladsoptimeringsalgoritmer.</string>
     <string name="storage_ufs_tip">Yderligere lagerplads</string>
@@ -5765,6 +6130,7 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="superpower_progress_low_temp_content">Slår tilstand for kuldebeskyttelse til…</string>
     <string name="superpower_progress_switch_home">Skifter til mørkt tema</string>
     <string name="superpower_progress_title">Tilbageværende tid</string>
+    <string name="superpower_progress_title_new">Resterende skærmtid</string>
     <string name="superpower_progress_turndown_brightness">Formindsk skærmens lysstyrke</string>
     <string name="superpower_progress_turnoff_fan">Slår køleblæseren fra</string>
     <string name="superpower_progress_turnoff_items">Begrænser strømforbrugende aktivitet</string>
@@ -5808,9 +6174,10 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Læs og acceptér vores &lt;a href=\"%1$s\">brugeraftale&lt;/a>, inden du fortsætter.</Data></string>
     <string name="system_permission_declare_no_say_no">Hvis du vælger ikke at give os de anmodede tilladelser eller ikke tillader os at indsamle og bruge dine data, vil denne app ikke kunne fungere normalt.</string>
     <string name="system_permission_declare_no_say_no_analytics">Hvis du ikke ønsker at give disse tilladelser, kan du afmelde dig under Indstillinger > Yderligere indstillinger > Fortrolighed > User Experience Program.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Hvis du vælger ikke at give os de anmodede tilladelser eller ikke tillader os at indsamle og bruge dine data, vil denne app ikke kunne fungere bare delvist.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Hvis du vælger ikke at give de nødvendige tilladelser eller ikke tillader os at indsamle og bruge dine data, kan du ikke benytte de tilknyttede funktioner.</string>
     <string name="system_permission_declare_optional">For at tilbyde dig yderligere tjenester, mens du bruger appen, vil vi muligvis have brug for følgende tilladelser: %s. Du kan altid ændre dine tilladelsespræferencer i Indstillinger.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>For at give dig en bedre og mere personlig oplevelse, har denne app brug for følgende ekstra tilladelser: %1s. Få flere oplysninger om, hvordan vi behandler dine data ved at trykke &lt;a href=\"test\">her&lt;/a>. Du kan til enhver tid justere dine tilladelser i Indstillinger.</Data></string>
+    <string name="system_permission_declare_perm_separator">", "</string>
     <string name="system_permission_declare_privacy_declare">Denne app skal tilslutte til internettet og kræver følgende tilladelser for at kunne fungere normalt:</string>
     <string name="system_permission_declare_privacy_no_network">Denne app kræver følgende tilladelser for at kunne fungere normalt:</string>
     <string name="system_permission_declare_privacy_no_permission">Denne app skal tilslutte til internettet og indsamle de påkrævede personlige oplysninger for at kunne fungere normalt.</string>
@@ -5971,8 +6338,8 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="title_auto_update">Opdater automatisk</string>
     <string name="title_background_connection">Kan ikke bruge %s i baggrunden</string>
     <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Mistede et opkald fra dine kontakter</string>
-    <string name="title_block_calls_from_strangers">Mister vigtige opkald</string>
+    <string name="title_block_calls_from_cantacts">Mistede et opkald fra dine kontakter?</string>
+    <string name="title_block_calls_from_strangers">Mister vigtige opkald?</string>
     <string name="title_chain_start">Begræns kædestart</string>
     <string name="title_cleaner_cloudscan">Scanning af cloud-papirkurv</string>
     <string name="title_cloud_account">Xiaomi-konto</string>
@@ -6026,6 +6393,8 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="title_realname_verify">ID-verifikation</string>
     <string name="title_reply">Kommentar</string>
     <string name="title_restrict_data_usage">%s kan ikke tilslutte til nettet</string>
+    <string name="title_risky_app_scan_no">Registrering af risikable apps er slået fra</string>
+    <string name="title_risky_app_scan_yes">Registrering af risikable apps er slået til</string>
     <string name="title_safe_mode">Aktivér sikker tilstand</string>
     <string name="title_show_notification">Notifikationsskygge-widget</string>
     <string name="title_system_auto_download">Opdateringer vil blive downloadet automatisk</string>
@@ -6066,6 +6435,14 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="toast_update_success">Opdateret med succes</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
+    <string name="toolbox_invocation_guide_cancel">Ikke nu</string>
+    <string name="toolbox_invocation_guide_caption">Stryg og hold for at åbne</string>
+    <string name="toolbox_invocation_guide_caption_upgrade">Åbn fra hvor som helst</string>
+    <string name="toolbox_invocation_guide_confirm">Brug</string>
+    <string name="toolbox_invocation_guide_confirm_upgrade">Prøv nu</string>
+    <string name="toolbox_invocation_guide_message">Stryg ind fra skærmens kant og hold, og slip derefter for at åbne</string>
+    <string name="toolbox_invocation_guide_title">Brug sidebjælke</string>
+    <string name="toolbox_invocation_guide_title_upgrade">Ny måde at åbne sidebjælke på</string>
     <string name="top_game">Bedste spil</string>
     <string name="top_load_fail_detail">Kunne ikke indlæse. Tryk for at prøve igen</string>
     <string name="top_no_network_detial">Kunne ikke indlæse. Kontroller netværksforbindelsen og prøv igen</string>
@@ -6159,6 +6536,45 @@ Tilbageværende data inkluderer data, der er overført fra den foregående måne
     <string name="txv_lucky_money_group_text">Kun gruppenotifikationer</string>
     <string name="ufs_size_suffix">%1$s+%2$s</string>
     <string name="unable_connect_internet">Ingen internetforbindelse</string>
+    <string name="uni_auth_security_delay_tips">En sikkerhedsforsinkelse er påkrævet</string>
+    <string name="uniauth_close_bt_text">Slå fra</string>
+    <string name="uniauth_close_lock_sim_bind_local_phone_fp_title">Verificer dit fingeraftryk for at låse USIM op og knytte det til denne enhed</string>
+    <string name="uniauth_close_lock_sim_fp_title">Verificer dit fingeraftryk for at låse op for USIM</string>
+    <string name="uniauth_close_lost_device_prot_bt">Slå Beskyttelse ved bortkommen enhed fra</string>
+    <string name="uniauth_close_lost_device_prot_tips_bt">Forstået</string>
+    <string name="uniauth_close_lost_device_prot_tips_message">Beskyttelse ved bortkommen enhed er blevet slået fra via din Xiaomi-konto. Funktionerne på denne enhed vil ikke længere have ekstra beskyttelse.</string>
+    <string name="uniauth_close_lost_device_prot_tips_title">Beskyttelse ved bortkommen enhed er slået fra</string>
+    <string name="uniauth_common_fp_title">Verificer dit fingeraftryk</string>
+    <string name="uniauth_common_tips">Kunne ikke verificere. Prøv igen.</string>
+    <string name="uniauth_fp_disabled_sub_title">For mange mislykkede forsøg</string>
+    <string name="uniauth_fp_disabled_title">Fingeraftryk er ikke tilgængelige lige nu</string>
+    <string name="uniauth_fp_enter_lockscreen_text">Brug skærmlås</string>
+    <string name="uniauth_fp_recover_by_lockscreen_bt_text">Gendan adgang til fingeraftryk</string>
+    <string name="uniauth_fp_temp_disabled_sub_title">Fingeraftryk er midlertidigt utilgængelige på grund af for mange mislykkede forsøg</string>
+    <string name="uniauth_lockscreen_default_title">Verificer din skærmlås</string>
+    <string name="uniauth_lockscreen_disabled_sub_title">Kan ikke bruge skærmlås på grund af for mange mislykkede forsøg</string>
+    <string name="uniauth_lockscreen_mix_do_next">Næste</string>
+    <string name="uniauth_lockscreen_mix_hint">Indtast her</string>
+    <string name="uniauth_lockscreen_sub_title">For at gendanne adgang til fingeraftryk</string>
+    <string name="uniauth_logout_xiaomi_acount_fp_title">Verificer dit fingeraftryk for at logge ud af din Xiaomi-konto</string>
+    <string name="uniauth_lp_fp_sub_title">Beskyttelse ved bortkommen enhed er slået til. Verificer dit fingeraftryk for at bekræfte, at denne handling udføres af enhedens ejer.</string>
+    <string name="uniauth_lp_lockscreen_and_fp_sub_title">Brug tofaktorgodkendelse til at verificere din identitet</string>
+    <string name="uniauth_no_acount_login_tips">Log først ind på din Xiaomi-konto</string>
+    <string name="uniauth_open_lock_sim_bind_local_phone_fp_title">Verificer dit fingeraftryk for at låse USIM og knytte det til denne enhed</string>
+    <string name="uniauth_open_lock_sim_fp_title">Verificer dit fingeraftryk for at låse USIM</string>
+    <string name="uniauth_reset_lockscreen_default_title">Verificer din tidligere skærmlås</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_sub_title">Brug tofaktorgodkendelse til at angive en ny skærmlås</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_title">Verificer dit fingeraftryk</string>
+    <string name="uniauth_reset_lockscreen_title">Verificer din tidligere skærmlås</string>
+    <string name="uniauth_resetlockscreen_error_sub_title">Kan ikke nulstille</string>
+    <string name="uniauth_resetlockscreen_error_title">For mange mislykkede forsøg på at bekræfte din skærmlås</string>
+    <string name="uniauth_security_delay_end_notification_msg">I de næste %1$d timer kan du bekræfte din Xiaomi-konto for at slå Beskyttelse ved bortkommen enhed fra</string>
+    <string name="uniauth_security_delay_end_notification_title">Sikkerhedsforsinkelse er udløbet</string>
+    <string name="uniauth_security_delay_msg">Efter %1$d timer kan du verificere din Xiaomi-konto for at slå Beskyttelse ved bortkommen enhed fra. Du får besked, når forsinkelsen er slut.</string>
+    <string name="uniauth_security_delay_next_more">Få mere at vide</string>
+    <string name="uniauth_temp_disabled_title">Prøv igen senere</string>
+    <string name="uniauth_uqery_pin_fp_title">Verificer dit fingeraftryk for at se PIN-kode</string>
+    <string name="uniauth_xiaomi_acount_title">Verificer din Xiaomi-konto</string>
     <string name="uninstall_app_dialog_msg">Afinstallation fjerner alle appdata.</string>
     <string name="uninstall_app_dialog_title">Afinstaller nu?</string>
     <string name="uninstall_app_done">Afinstallation fuldført</string>
@@ -6220,7 +6636,9 @@ Tilbageværende data inkluderer data, der er overført fra den foregående måne
     <string name="usbsharenet_pc_exception_summary">Kan ikke forbinde til internettet via delt USB-forbindelse. Kontroller din computers internetforbindelse.</string>
     <string name="use_for_open_applock">Til at slå app-lås til</string>
     <string name="use_immediately">Brug</string>
+    <string name="use_lock_screen_password_type">Låseskærmsadgangskode</string>
     <string name="use_other_ime_warn">Tredjepartstastaturer registrerer muligvis alt, hvad du skriver, herunder adgangskoder og andre følsomme oplysninger.</string>
+    <string name="use_private_password_type">Adgangskode til privatlivsbeskyttelse</string>
     <string name="user_define_title">Tilføj regler</string>
     <string name="user_guide">Stryg opad for at opdage flere nye spil</string>
     <string name="v7_preference_off">FRA</string>
@@ -6309,6 +6727,7 @@ Hvis du tænder for den ene, deaktiveres den anden."</string>
     <string name="vb_video_super_division_desc">"Brug af denne funktion øger strømforbruget.
 Denne funktion fungerer ikke med bevægelsesudjævning.
 Når der tændes for én funktion, slukkes den anden."</string>
+    <string name="vb_video_super_division_subdesc">Opskaler opløsningen automatisk, når den er ≤720p.</string>
     <string name="vb_video_super_division_tips">"Ikke tydelig nok?
 Prøv at øge opløsningen!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Forbedrede animationer er deaktiveret</string>
@@ -6338,6 +6757,12 @@ Funktionen deaktiveres, når Batterisparer eller Ultra-batterisparer er slået t
     <string name="view_package_info">Se abonnementsdetaljer</string>
     <string name="view_traffic_detail">Se oplysninger</string>
     <string name="view_traffic_details">Vis statistik over dataforbrug</string>
+    <string name="virtual_reject_notice_content">Et tomt svar blev sendt til appen for at beskytte dine personlige oplysninger</string>
+    <string name="virtual_reject_notice_title_calendar">Får adgang til kalender via %1$s</string>
+    <string name="virtual_reject_notice_title_calllog">Får adgang til opkaldshistorik via %1$s</string>
+    <string name="virtual_reject_notice_title_contacts">Får adgang til kontakter via %1$s</string>
+    <string name="virtual_reject_notice_title_phonestate">Får adgang til enhedsoplysninger via %1$s</string>
+    <string name="virtual_reject_notice_title_sms">Får adgang til SMS-beskeder via %1$s</string>
     <string name="virus_app_delete_installed">Afinstaller</string>
     <string name="virus_app_delete_uninstalled">Slet</string>
     <string name="virus_app_ignore">Ignorer</string>

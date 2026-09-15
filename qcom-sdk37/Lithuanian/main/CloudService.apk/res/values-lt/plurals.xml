@@ -1,59 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Prieš 1 valandą</item>
-        <item quantity="few">Prieš 1 valandą</item>
-        <item quantity="many">Prieš 1 valandą</item>
-        <item quantity="other">Prieš 1 valandą</item>
-    </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">Prieš %d valandą</item>
-        <item quantity="few">Prieš %d valandas</item>
-        <item quantity="many">Prieš %d valandų</item>
-        <item quantity="other">Prieš %d valandų</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Prieš pusvalandį</item>
-        <item quantity="few">Prieš pusvalandį</item>
-        <item quantity="many">Prieš pusvalandį</item>
-        <item quantity="other">Prieš pusvalandį</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="one">Po %d valandos</item>
-        <item quantity="few">Po %d valandų</item>
-        <item quantity="many">Po %d valandų</item>
-        <item quantity="other">Po %d valandų</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="one">Po pusvalandžio</item>
-        <item quantity="few">Po pusvalandžio</item>
-        <item quantity="many">Po pusvalandžio</item>
-        <item quantity="other">Po pusvalandžio</item>
-    </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Dabar</item>
-        <item quantity="few">Dabar</item>
-        <item quantity="many">Dabar</item>
-        <item quantity="other">Dabar</item>
-    </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="one">Po %d minutės</item>
-        <item quantity="few">Po %d minučių</item>
-        <item quantity="many">Po %d minučių</item>
-        <item quantity="other">Po %d minučių</item>
-    </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Ką tik</item>
-        <item quantity="few">Ką tik</item>
-        <item quantity="many">Ką tik</item>
-        <item quantity="other">Ką tik</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="one">Prieš %d minutę</item>
-        <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minučių</item>
-        <item quantity="other">Prieš %d minučių</item>
-    </plurals>
     <plurals name="cloud_storage_full_upgrade_text">
         <item quantity="one">Nepakanka saugyklos vietos. Nepavyko susinchronizuoti %d nuotraukos.</item>
         <item quantity="few">Nepakanka saugyklos vietos. Nepavyko susinchronizuoti %d nuotraukų.</item>
@@ -186,12 +132,6 @@
         <item quantity="many">Nepavyko sinchronizuoti %s elementų</item>
         <item quantity="other">Nepavyko sinchronizuoti %s elementų</item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Prieš pusvalandį</item>
-        <item quantity="few">Prieš pusvalandį</item>
-        <item quantity="many">Prieš pusvalandį</item>
-        <item quantity="other">Prieš pusvalandį</item>
-    </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">Po 1 valandos</item>
         <item quantity="few">Po 1 valandos</item>
@@ -233,12 +173,6 @@
         <item quantity="few">prieš %s min.</item>
         <item quantity="many">prieš %s min.</item>
         <item quantity="other">prieš %s min.</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Ką tik</item>
-        <item quantity="few">Ką tik</item>
-        <item quantity="many">Ką tik</item>
-        <item quantity="other">Ką tik</item>
     </plurals>
     <plurals name="local_lockscreen_error_hint_retry">
         <item quantity="one">Per daug bandymų. Bandykite vėl po %s sekundės.</item>
@@ -354,18 +288,6 @@
         <item quantity="many">Iš viso turite %s nepatikrintų įrenginių.</item>
         <item quantity="other">Iš viso turite %s nepatikrintus įrenginius.</item>
     </plurals>
-    <plurals name="noti_quota_full_title_with_icon_text">
-        <item quantity="one">Saugykla užpildyta. Nepavyko sinchronizuoti &lt;font color=#F22424>%d programos&lt;/font>.</item>
-        <item quantity="few">Saugykla užpildyta. Nepavyko sinchronizuoti &lt;font color=#F22424>%d programų&lt;/font>.</item>
-        <item quantity="many">Saugykla užpildyta. Nepavyko sinchronizuoti &lt;font color=#F22424>%d programų&lt;/font>.</item>
-        <item quantity="other">Saugykla užpildyta. Nepavyko sinchronizuoti &lt;font color=#F22424>%d programų&lt;/font>.</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">Prieš 1 minutę</item>
-        <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minutes</item>
-        <item quantity="other">Prieš %d minučių</item>
-    </plurals>
     <plurals name="other_lockscreen_error_hint_retry">
         <item quantity="one">Per daug bandymų. Bandykite vėl po %d dienos.</item>
         <item quantity="few">Per daug bandymų. Bandykite vėl po %d dienų.</item>
@@ -413,6 +335,12 @@
         <item quantity="few">%1$s min.</item>
         <item quantity="many">%1$s min.</item>
         <item quantity="other">%1$s min.</item>
+    </plurals>
+    <plurals name="verify_code_send_desc_more">
+        <item quantity="one">Norėdami tęsti, įveskite patvirtinimo kodą, kuris buvo išsiųstas į %6$d įrenginį, įskaitant %1$s, %2$s, %3$s, %4$s ir %5$s</item>
+        <item quantity="few">Norėdami tęsti, įveskite patvirtinimo kodą, kuris buvo išsiųstas į %6$d įrenginius, įskaitant %1$s, %2$s, %3$s, %4$s ir %5$s</item>
+        <item quantity="many">Norėdami tęsti, įveskite patvirtinimo kodą, kuris buvo išsiųstas į %6$d įrenginių, įskaitant %1$s, %2$s, %3$s, %4$s ir %5$s</item>
+        <item quantity="other">Norėdami tęsti, įveskite patvirtinimo kodą, kuris buvo išsiųstas į %6$d įrenginius, įskaitant %1$s, %2$s, %3$s, %4$s ir %5$s</item>
     </plurals>
     <plurals name="verify_open_SMS_dialog_positive_btn_timer">
         <item quantity="one">Siųsti naują kodą (%s s)</item>

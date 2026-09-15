@@ -20,8 +20,6 @@
     <string name="abc_searchview_description_search">Претражите</string>
     <string name="abc_searchview_description_submit">Пошаљите упит</string>
     <string name="abc_searchview_description_voice">Гласовна претрага</string>
-    <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
-    <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="accessbility_suggestion_dropdown_closed">Нема доступних предлога</string>
     <string name="accessbility_suggestion_dropdown_opened">Предлози за контакте су отворени</string>
@@ -76,7 +74,19 @@
     <string name="agenda_not_today_empty_hint">Овде још нема догађаја. Додирните да креирате.</string>
     <string name="agenda_tomorrow">СУТРА, %1$s</string>
     <string name="agenda_view">Догађаји</string>
+    <string name="ai_card_amount">Износ плаћања</string>
+    <string name="ai_card_arrival_time">Време доласка</string>
+    <string name="ai_card_card_no">Број картице</string>
+    <string name="ai_card_check_in_date">Датум пријављивања</string>
+    <string name="ai_card_check_out_date">Датум одјављивања</string>
+    <string name="ai_card_hall">Позориште</string>
+    <string name="ai_card_room_type">Врста собе</string>
+    <string name="ai_card_seat">Седишта</string>
+    <string name="ai_card_source">Од %s</string>
+    <string name="ai_card_table_info">Детаљи о столу</string>
     <string name="ai_introduce_card_sub_title">Допустите да AI аутоматски додаје путовања, карте и друге врсте догађаја у ваш календар</string>
+    <string name="ai_location_navigate">Навигација</string>
+    <string name="ai_location_taxi">Такси</string>
     <string name="alarm_close_reminder">Искључивање подсетника за аларм</string>
     <string name="alarm_label">Схватам</string>
     <string name="alarm_open_reminder">Подеси аларм</string>
@@ -121,6 +131,8 @@
     <string name="calendar_account_manager">Управљајте календарима налога</string>
     <string name="calendar_account_settings">Подешавања налога</string>
     <string name="calendar_data_sharing_instruction">Изјава о дељењу података са трећим странама</string>
+    <string name="calendar_date_picker_a11y_next_month">Пређите на следећи месец</string>
+    <string name="calendar_date_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="calendar_desc_withdraw_consent">Повуци пристанак на Правила о приватности Календара</string>
     <string name="calendar_import_source">Извор</string>
     <string name="calendar_privacy_policy">Правила о приватности</string>
@@ -184,6 +196,7 @@
     <string name="date_interval_tab">Интервал</string>
     <string name="date_interval_text_to">Дo %1$s</string>
     <string name="date_jump_title">Пређите на датум</string>
+    <string name="date_of_birth">%s рођендан</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -193,6 +206,7 @@
     <string name="date_today">" (данас)"</string>
     <string name="date_view">Датум</string>
     <string name="day_view_new_event_hint">Нови догађај</string>
+    <string name="days_left">Преостало</string>
     <string name="default_reminder_labels_day">%d дан раније</string>
     <string name="default_reminder_labels_days">%d дана раније</string>
     <string name="default_reminder_labels_hour">%d час раније</string>
@@ -245,6 +259,8 @@
     <string name="edit_event_birthday_name_hint">Име</string>
     <string name="edit_event_calendar_label">Календар</string>
     <string name="edit_event_choose_date">Изаберите датум</string>
+    <string name="edit_event_confirm_continue">Настави уређивање</string>
+    <string name="edit_event_confirm_discard">Одбаци</string>
     <string name="edit_event_confirm_message">Одбацити измене?</string>
     <string name="edit_event_countdown_name_empty_hint">Унесите назив догађаја</string>
     <string name="edit_event_countdown_name_hint">Догађај</string>
@@ -277,6 +293,7 @@
     <string name="email_picker_label">Имејл са</string>
     <string name="empty" />
     <string name="empty_event">Не могу се креирати празни догађаји</string>
+    <string name="end_at">Крај: %s</string>
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="evening">Поподне</string>
@@ -302,6 +319,7 @@
     <string name="event_info_where">Где</string>
     <string name="event_none_selected">Све је опозвано</string>
     <string name="event_reminder_allday_day_zero">Тог дана у %2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">На овај дан</string>
     <string name="event_reminder_custom">Прилагоди</string>
     <string name="event_reminder_value_zero">Када догађај почне</string>
     <string name="event_title">Наслов</string>
@@ -400,7 +418,6 @@
     <string name="hint_what_smart_input_12">h:mm aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">Унесите наслов догађаја</string>
-    <string name="hint_where">Локација</string>
     <string name="holiday_detail_read_more">Више</string>
     <string name="horoscope_select_activity_label">Изаберите хороскопски знак</string>
     <string name="hotel_detail_title">Детаљи о хотелу</string>
@@ -447,6 +464,7 @@
     <string name="login_caldav">Додај</string>
     <string name="login_failed_toast">Пријављивање није успело, освежите и покушајте опет</string>
     <string name="logining_caldav_account">Додавање…</string>
+    <string name="lunar_birthday_desc">Традиционални кинески календар</string>
     <string name="lunar_date">Лунарни датум</string>
     <string name="lunar_date_content_desc">Датум према традиционалном кинеском календару</string>
     <string name="lunar_to_solar_chinese_calendar">Из Кинеског у Грегоријански</string>
@@ -493,6 +511,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Пребаци на пола екрана</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Повећај</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Умањи</string>
+    <string name="miuix_popup_show_description">Искачући прозор</string>
     <string name="miuix_popup_window_default_title">Искачући прозор</string>
     <string name="miuix_progressbar_loading">Учитавање</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
@@ -505,10 +524,10 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
     <string name="miuix_search_action_mode_cancel">Откажи</string>
     <string name="miuix_search_back_button_description">Назад</string>
-    <string name="miuix_search_end_view_text_search">Тражи</string>
+    <string name="miuix_search_end_view_text_search">Претражи</string>
     <string name="miuix_search_history_clear">Обриши историју претраживања</string>
     <string name="miuix_search_history_default_title">Историја претраге</string>
-    <string name="miuix_search_recommendation_default_title">Ово Вас може занимати</string>
+    <string name="miuix_search_recommendation_default_title">Ово вас може занимати</string>
     <string name="miuix_search_recommendation_item_del_des">Обриши</string>
     <string name="miuix_show_password">Прикажи лозинку</string>
     <string name="miuix_stretchablewidget_collapsed">Скупљено</string>
@@ -586,6 +605,8 @@
     <string name="no_data">Овде још нема ничега</string>
     <string name="no_events_hint">Нема догађаја</string>
     <string name="no_locale_list_text">Добијање листе локација није успело. Покушајте опет.</string>
+    <string name="no_location_hint">Резултати нису пронађени</string>
+    <string name="no_location_network">Повезивање на мрежу није успело</string>
     <string name="no_more_events">Нема више догађаја за приказ</string>
     <string name="no_network">"Повезивање на мрежу није успело.
 Проверите подешавање мреже и покушајте опет."</string>
@@ -607,7 +628,10 @@
     <string name="notification_open_setting_button_ok">Дозволи</string>
     <string name="notification_open_setting_message">Нећете моћи да примате обавештења о догађајима осим ако не дозволите Календару да вам шаље обавештења.</string>
     <string name="notification_open_setting_title">Дозволити Календарска обавештења?</string>
+    <string name="panel_title_end">Заврши</string>
+    <string name="panel_title_start">Започни</string>
     <string name="pasport_register_dialog_message">Креирати Xiaomi Налог преко броја телефона %s?</string>
+    <string name="pass_day">Протекло</string>
     <string name="passenger">Путник</string>
     <string name="passport_access_denied">Приступ одбијен</string>
     <string name="passport_account_crop_user_avatar">Подрежи фотографију</string>
@@ -827,6 +851,10 @@
     <string name="premission_read_write_storage">Складиште</string>
     <string name="premission_read_write_storage_new">Приступи складишту</string>
     <string name="privacy_and_permissions">Приватност и дозволе</string>
+    <string name="privacy_update_message">"Додиром на „Прихватам“, прихватате (click)Правила о приватности Календара(/click):
+
+Да бисмо вам пружили боље искуство, сада можете да изаберете локацију приликом креирања догађаја. Претрага локације и препоруке се пружају путем услуга мапа трећих страна."</string>
+    <string name="privacy_update_title">Ажурирана Правила о приватности</string>
     <string name="productivity_add_event">Креирај догађај</string>
     <string name="productivity_no_event">Овде још нема догађаја</string>
     <string name="pull_refresh_events">Прикажи догађаје из %d</string>
@@ -894,7 +922,7 @@
     <string name="search_calendar_settings">Календар;Агенда;Подсетник</string>
     <string name="search_events">Претражи догађаје</string>
     <string name="search_history">Претрага историје</string>
-    <string name="search_location_hint">Унесите адресу</string>
+    <string name="search_location_hint">Унесите локацију</string>
     <string name="search_menu_title">Претражите</string>
     <string name="search_timezone">Претражите часовне зоне</string>
     <string name="select_date">Пређи на датум</string>
@@ -942,11 +970,13 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="solar_birthday_desc">Грегоријански календар</string>
     <string name="solar_date_content_desc">Датум прем Грегоријанском календару</string>
     <string name="solar_lunar_convert_tab">Претвори</string>
     <string name="solar_to_lunar_chinese_calendar">Из Грегоријанског у Кинески</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Догађаји</string>
+    <string name="start_at">Почетак: %s</string>
     <string name="start_date_calculate">Израчунај</string>
     <string name="start_string">Почиње у %s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1161,6 +1191,11 @@
     <string name="widget_normal_weekN">Седмица %d</string>
     <string name="widget_select_style">Изаберите стил</string>
     <string name="widget_spec_agenda_birth_today">Данас</string>
+    <string name="withdraw_consent_button_withdraw">Повуци</string>
+    <string name="withdraw_consent_message">"Ако наставите, повући ћете свој пристанак на Правила о приватности Календара. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани биће обрисани у одређеном периоду у складу са важећим законима и прописима осим ако се другачије не захтева.
+Пошто Календар пружаја услуге на основу прикупљања неопходних личних података, ваше повлачење пристанка ће се сматрати одбијањем да прихватите услуге Календара. Повући пристанак сада?"</string>
+    <string name="withdraw_consent_preference_title">Повлачење пристанка</string>
+    <string name="withdraw_consent_title">Повлачење пристанка</string>
     <string name="work_day_default_banner_title">Желимо вам продуктиван радни дан!</string>
     <string name="xiaomi_account">Xiaomi Налог</string>
     <string name="xiaomi_calendar_display_name">Календар Xiaomi Налога</string>

@@ -20,8 +20,6 @@
     <string name="abc_searchview_description_search">Search</string>
     <string name="abc_searchview_description_submit">Submit query</string>
     <string name="abc_searchview_description_voice">Voice search</string>
-    <string name="abc_shareactionprovider_share_with">Share with</string>
-    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accessbility_suggestion_dropdown_closed">No suggestions available</string>
     <string name="accessbility_suggestion_dropdown_opened">Contact suggestions opened</string>
@@ -74,7 +72,19 @@
     <string name="agenda_not_today_empty_hint">No events here yet. Tap to create one.</string>
     <string name="agenda_tomorrow">TOMORROW, %1$s</string>
     <string name="agenda_view">Events</string>
+    <string name="ai_card_amount">Payment amount</string>
+    <string name="ai_card_arrival_time">Arrival time</string>
+    <string name="ai_card_card_no">Card number</string>
+    <string name="ai_card_check_in_date">Check-in date</string>
+    <string name="ai_card_check_out_date">Check-out date</string>
+    <string name="ai_card_hall">Theatre</string>
+    <string name="ai_card_room_type">Room type</string>
+    <string name="ai_card_seat">Seats</string>
+    <string name="ai_card_source">From %s</string>
+    <string name="ai_card_table_info">Table details</string>
     <string name="ai_introduce_card_sub_title">Let AI automatically add trips, tickets, and other types of events to your calendar</string>
+    <string name="ai_location_navigate">Navigation</string>
+    <string name="ai_location_taxi">Cab</string>
     <string name="alarm_close_reminder">Turning off alarm reminder</string>
     <string name="alarm_label">Got it</string>
     <string name="alarm_open_reminder">Set alarm</string>
@@ -178,10 +188,12 @@
     <string name="date_interval_tab">Interval</string>
     <string name="date_interval_text_to">To %1$s</string>
     <string name="date_jump_title">Jump to date</string>
+    <string name="date_of_birth">"%s's birthday"</string>
     <string name="date_time_fmt">%1$s, %2$s</string>
     <string name="date_today">" (today)"</string>
     <string name="date_view">Date</string>
     <string name="day_view_new_event_hint">New event</string>
+    <string name="days_left">Remaining</string>
     <string name="default_reminder_labels_day">%d day before</string>
     <string name="default_reminder_labels_days">%d days before</string>
     <string name="default_reminder_labels_hour">%d hour before</string>
@@ -233,6 +245,8 @@
     <string name="edit_event_birthday_name_hint">Name</string>
     <string name="edit_event_calendar_label">Calendar</string>
     <string name="edit_event_choose_date">Choose date</string>
+    <string name="edit_event_confirm_continue">Keep editing</string>
+    <string name="edit_event_confirm_discard">Discard</string>
     <string name="edit_event_confirm_message">Discard changes?</string>
     <string name="edit_event_countdown_name_empty_hint">Enter event name</string>
     <string name="edit_event_countdown_name_hint">Event</string>
@@ -264,6 +278,7 @@
     <string name="email_guests_label">Email guests</string>
     <string name="email_picker_label">Email with</string>
     <string name="empty_event">"Can't create empty events"</string>
+    <string name="end_at">End: %s</string>
     <string name="event_account">Account</string>
     <string name="event_action_delete">Delete</string>
     <string name="event_action_edit">Edit</string>
@@ -286,6 +301,7 @@
     <string name="event_info_where">Where</string>
     <string name="event_none_selected">Deselected all</string>
     <string name="event_reminder_allday_day_zero">On that day at %2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">On the day</string>
     <string name="event_reminder_custom">Custom</string>
     <string name="event_reminder_value_zero">When event starts</string>
     <string name="event_title">Title</string>
@@ -381,7 +397,6 @@
     <string name="hint_what_smart_input_12">h:mm aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">Enter event title</string>
-    <string name="hint_where">Location</string>
     <string name="holiday_detail_read_more">More</string>
     <string name="horoscope_select_activity_label">Select zodiac sign</string>
     <string name="hotel_detail_title">Hotel details</string>
@@ -428,6 +443,7 @@
     <string name="login_caldav">Add</string>
     <string name="login_failed_toast">"Couldn't sign in, refresh and try again"</string>
     <string name="logining_caldav_account">Adding…</string>
+    <string name="lunar_birthday_desc">Traditional Chinese calendar</string>
     <string name="lunar_date">Lunar date</string>
     <string name="lunar_date_content_desc">Date according to Traditional Chinese calendar</string>
     <string name="lunar_to_solar_chinese_calendar">Chinese to Gregorian</string>
@@ -462,6 +478,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Switch to half screen</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximise</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimise</string>
+    <string name="miuix_popup_show_description">Pop-up window</string>
     <string name="miuix_popup_window_default_title">Pop-up window</string>
     <string name="miuix_progressbar_loading">Loading</string>
     <string name="miuix_show_password">Show password</string>
@@ -498,6 +515,8 @@
     <string name="no_data">Nothing here yet</string>
     <string name="no_events_hint">No events</string>
     <string name="no_locale_list_text">"Couldn't get the list of locations. Try again."</string>
+    <string name="no_location_hint">"Couldn't find results"</string>
+    <string name="no_location_network">"Couldn't connect to the network"</string>
     <string name="no_more_events">No more events to show</string>
     <string name="no_network">"Couldn't connect to the network.
 Check network settings and try again."</string>
@@ -518,7 +537,10 @@ Check network settings and try again."</string>
     <string name="notification_open_setting_button_ok">Allow</string>
     <string name="notification_open_setting_message">"You won't be able to receive notifications about events unless you allow Calendar to send you notifications."</string>
     <string name="notification_open_setting_title">Allow Calendar notifications?</string>
+    <string name="panel_title_end">End</string>
+    <string name="panel_title_start">Start</string>
     <string name="pasport_register_dialog_message">Create a Xiaomi Account via your phone number %s now?</string>
+    <string name="pass_day">Passed</string>
     <string name="passenger">Passenger</string>
     <string name="passport_access_denied">Access denied</string>
     <string name="passport_account_crop_user_avatar">Crop photo</string>
@@ -737,6 +759,10 @@ Check network settings and try again."</string>
     <string name="premission_read_write_storage">Storage</string>
     <string name="premission_read_write_storage_new">Access storage</string>
     <string name="privacy_and_permissions">Privacy &amp; permissions</string>
+    <string name="privacy_update_message">"By tapping \"Agree\", you're agreeing to the (click)Privacy Policy of Calendar(/click):
+
+To provide you with better experience, you can now select a location when creating an event. Location search and recommendations are provided via third party map services."</string>
+    <string name="privacy_update_title">Updated Privacy Policy</string>
     <string name="productivity_add_event">Create event</string>
     <string name="productivity_no_event">No events here yet</string>
     <string name="pull_refresh_events">View %d events</string>
@@ -801,7 +827,7 @@ Check network settings and try again."</string>
     <string name="search_calendar_settings">Calendar;Agenda;Reminder</string>
     <string name="search_events">Search for events</string>
     <string name="search_history">Search history</string>
-    <string name="search_location_hint">Enter address</string>
+    <string name="search_location_hint">Enter location</string>
     <string name="search_menu_title">Search</string>
     <string name="search_timezone">Search time zones</string>
     <string name="select_date">Jump to date</string>
@@ -840,11 +866,13 @@ Check network settings and try again."</string>
     <string name="shortcut_next_agenda">Next event</string>
     <string name="shortcut_settings">Settings</string>
     <string name="show_day_view">Show day</string>
+    <string name="solar_birthday_desc">Gregorian calendar</string>
     <string name="solar_date_content_desc">Date according to Gregorian calendar</string>
     <string name="solar_lunar_convert_tab">Convert</string>
     <string name="solar_to_lunar_chinese_calendar">Gregorian to Chinese</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Events</string>
+    <string name="start_at">Start: %s</string>
     <string name="start_date_calculate">Calculate</string>
     <string name="start_string">Starts at %s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -993,6 +1021,11 @@ Check network settings and try again."</string>
     <string name="widget_normal_weekN">Week %d</string>
     <string name="widget_select_style">Choose a style</string>
     <string name="widget_spec_agenda_birth_today">Today</string>
+    <string name="withdraw_consent_button_withdraw">Withdraw</string>
+    <string name="withdraw_consent_message">"If you continue, you'll withdraw your consent to the Privacy Policy of Calendar. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise.
+As Calendar provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept Calendar services. Withdraw consent now?"</string>
+    <string name="withdraw_consent_preference_title">Withdrawal of consent</string>
+    <string name="withdraw_consent_title">Withdrawal of consent</string>
     <string name="work_day_default_banner_title">Have a productive day at work!</string>
     <string name="xiaomi_account">Xiaomi Account</string>
     <string name="xiaomi_calendar_display_name">Xiaomi Account Calendar</string>

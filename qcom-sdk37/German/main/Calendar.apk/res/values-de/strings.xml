@@ -20,8 +20,6 @@
     <string name="abc_searchview_description_search">Suche</string>
     <string name="abc_searchview_description_submit">Anfrage senden</string>
     <string name="abc_searchview_description_voice">Sprachsuche</string>
-    <string name="abc_shareactionprovider_share_with">Teilen mit</string>
-    <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
     <string name="accessbility_suggestion_dropdown_closed">Keine Vorschläge verfügbar</string>
     <string name="accessbility_suggestion_dropdown_opened">Geöffnete Kontaktvorschläge</string>
@@ -76,7 +74,19 @@
     <string name="agenda_not_today_empty_hint">Hier gibt es noch keine Ereignisse. Tippen, um eines zu erstellen.</string>
     <string name="agenda_tomorrow">MORGEN, %1$s</string>
     <string name="agenda_view">Ereignisse</string>
+    <string name="ai_card_amount">Zahlungsbetrag</string>
+    <string name="ai_card_arrival_time">Ankunftszeit</string>
+    <string name="ai_card_card_no">Kartennummer</string>
+    <string name="ai_card_check_in_date">Check-in-Datum</string>
+    <string name="ai_card_check_out_date">Check-out-Datum</string>
+    <string name="ai_card_hall">Theater</string>
+    <string name="ai_card_room_type">Zimmertyp</string>
+    <string name="ai_card_seat">Sitze</string>
+    <string name="ai_card_source">Von %s</string>
+    <string name="ai_card_table_info">Tischdetails</string>
     <string name="ai_introduce_card_sub_title">KI kann automatisch Reisen, Tickets und andere Arten von Ereignissen zu deinem Kalender hinzufügen</string>
+    <string name="ai_location_navigate">Navigation</string>
+    <string name="ai_location_taxi">Taxi</string>
     <string name="alarm_close_reminder">Wecker-Erinnerung ausschalten</string>
     <string name="alarm_label">Verstanden</string>
     <string name="alarm_open_reminder">Wecker stellen</string>
@@ -121,6 +131,8 @@
     <string name="calendar_account_manager">Kontenkalender verwalten</string>
     <string name="calendar_account_settings">Kontoeinstellungen</string>
     <string name="calendar_data_sharing_instruction">Erklärung zum Teilen von Daten mit Dritten</string>
+    <string name="calendar_date_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+    <string name="calendar_date_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
     <string name="calendar_desc_withdraw_consent">Einwilligung zur Datenschutzerklärung des Kalenders widerrufen</string>
     <string name="calendar_import_source">Quelle</string>
     <string name="calendar_privacy_policy">Datenschutzerklärung</string>
@@ -184,15 +196,17 @@
     <string name="date_interval_tab">Intervall</string>
     <string name="date_interval_text_to">Bis %1$s</string>
     <string name="date_jump_title">Zu Datum springen</string>
+    <string name="date_of_birth">Geburtstag von %s</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
-    <string name="date_picker_lunar">Traditioneller chinesischer Kalender</string>
+    <string name="date_picker_lunar">Chinesischer Kalender (trad.)</string>
     <string name="date_time_fmt">%1$s, %2$s</string>
     <string name="date_time_picker_dialog_title">Datum und Uhrzeit festlegen</string>
     <string name="date_today">" (heute)"</string>
     <string name="date_view">Datum</string>
     <string name="day_view_new_event_hint">Neues Ereignis</string>
+    <string name="days_left">Verbleibend</string>
     <string name="default_reminder_labels_day">%d Tag vorher</string>
     <string name="default_reminder_labels_days">%d Tage vorher</string>
     <string name="default_reminder_labels_hour">%d Stunde vorher</string>
@@ -245,6 +259,8 @@
     <string name="edit_event_birthday_name_hint">Name</string>
     <string name="edit_event_calendar_label">Kalender</string>
     <string name="edit_event_choose_date">Datum auswählen</string>
+    <string name="edit_event_confirm_continue">Weiter bearbeiten</string>
+    <string name="edit_event_confirm_discard">Verwerfen</string>
     <string name="edit_event_confirm_message">Änderungen verwerfen?</string>
     <string name="edit_event_countdown_name_empty_hint">Ereignisnamen eingeben</string>
     <string name="edit_event_countdown_name_hint">Ereignis</string>
@@ -277,8 +293,9 @@
     <string name="email_picker_label">E-Mail an</string>
     <string name="empty" />
     <string name="empty_event">Leere Ereignisse können nicht erstellt werden</string>
-    <string name="eras_ad">n. Chr.</string>
-    <string name="eras_bc">v. Chr.</string>
+    <string name="end_at">Ende: %s</string>
+    <string name="eras_ad">u. Z.</string>
+    <string name="eras_bc">v. u. Z.</string>
     <string name="evening">Nachmittag</string>
     <string name="event_account">Konto</string>
     <string name="event_action_delete">Löschen</string>
@@ -302,6 +319,7 @@
     <string name="event_info_where">Wo</string>
     <string name="event_none_selected">Auswahl von allen augehoben</string>
     <string name="event_reminder_allday_day_zero">An diesem Tag um %2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">Am Tag</string>
     <string name="event_reminder_custom">Angepasst</string>
     <string name="event_reminder_value_zero">Wenn das Ereignis beginnt</string>
     <string name="event_title">Titel</string>
@@ -332,8 +350,8 @@
     <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d.M.</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">M-yyyy</string>
-    <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
+    <string name="fmt_date_numeric_year_month">M.yyyy</string>
+    <string name="fmt_date_numeric_year_month_day">d.M.yyyy</string>
     <string name="fmt_date_short_month">MMM</string>
     <string name="fmt_date_short_month_day">d. MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
@@ -343,7 +361,7 @@
     <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour">"h 'o''Uhr'"</string>
     <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="fmt_time_12hour_minute_pm">h:mm a</string>
     <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
@@ -351,7 +369,7 @@
     <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
     <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
     <string name="fmt_time_12hour_pm">ha</string>
-    <string name="fmt_time_24hour">"H 'o''clock'"</string>
+    <string name="fmt_time_24hour">"H 'o''Uhr'"</string>
     <string name="fmt_time_24hour_minute">H:mm</string>
     <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
     <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
@@ -400,7 +418,6 @@
     <string name="hint_what_smart_input_12">h:mm aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">Ereignistitel eingeben</string>
-    <string name="hint_where">Standort</string>
     <string name="holiday_detail_read_more">Mehr</string>
     <string name="horoscope_select_activity_label">Sternzeichen auswählen</string>
     <string name="hotel_detail_title">Hoteldetails</string>
@@ -447,6 +464,7 @@
     <string name="login_caldav">Hinzufügen</string>
     <string name="login_failed_toast">Anmeldung fehlgeschlagen, aktualisieren und erneut versuchen</string>
     <string name="logining_caldav_account">Hinzufügen…</string>
+    <string name="lunar_birthday_desc">Traditioneller chinesischer Kalender</string>
     <string name="lunar_date">Monddatum</string>
     <string name="lunar_date_content_desc">Datum nach traditionellem chinesischen Kalender</string>
     <string name="lunar_to_solar_chinese_calendar">Chinesisch auf Gregorianisch</string>
@@ -462,15 +480,15 @@
     <string name="miuix_accessibility_title">Titel</string>
     <string name="miuix_appcompat_accessibility_collapse_state">Eingeklappt</string>
     <string name="miuix_appcompat_accessibility_expand_state">Erweitert</string>
-    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus beenden</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus verlassen</string>
     <string name="miuix_appcompat_accessibility_new_message">Neue Benachrichtigung</string>
-    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus starten</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus aufrufen</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Auswahl aufheben</string>
-    <string name="miuix_appcompat_action_mode_select_all">Alles auswählen</string>
-    <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
+    <string name="miuix_appcompat_action_mode_select_all">Alle auswählen</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Gegenstände auswählen</string>
     <string name="miuix_appcompat_action_sheet_default_message">Auswählen</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mehr</string>
-    <string name="miuix_appcompat_cancel_description">Abbruch</string>
+    <string name="miuix_appcompat_cancel_description">Abbrechen</string>
     <string name="miuix_appcompat_confirm_description">Bestätigen</string>
     <string name="miuix_appcompat_delete_description">Löschen</string>
     <string name="miuix_appcompat_deselect_all">Auswahl aufheben</string>
@@ -478,8 +496,8 @@
     <string name="miuix_appcompat_edit">Bearbeiten</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
     <string name="miuix_appcompat_search_input_description">Suchen</string>
-    <string name="miuix_appcompat_select_all">Alles auswählen</string>
-    <string name="miuix_appcompat_select_all_description">Alles auswählen</string>
+    <string name="miuix_appcompat_select_all">Alle auswählen</string>
+    <string name="miuix_appcompat_select_all_description">Alle auswählen</string>
     <string name="miuix_appcompat_select_item">Elemente auswählen</string>
     <string name="miuix_appcompat_show_dialog_description">Pop-up-Fenster</string>
     <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Zum Schließen nach unten wischen</string>
@@ -493,6 +511,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Zum halben Bildschirm wechseln</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximieren</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimieren</string>
+    <string name="miuix_popup_show_description">Pop-up-Fenster</string>
     <string name="miuix_popup_window_default_title">Pop-up-Fenster</string>
     <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
@@ -505,7 +524,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Laden von Elementen fehlgeschlagen</string>
     <string name="miuix_search_action_mode_cancel">Abbrechen</string>
     <string name="miuix_search_back_button_description">Zurück</string>
-    <string name="miuix_search_end_view_text_search">Suchen</string>
+    <string name="miuix_search_end_view_text_search">Suche</string>
     <string name="miuix_search_history_clear">Suchverlauf löschen</string>
     <string name="miuix_search_history_default_title">Suchverlauf</string>
     <string name="miuix_search_recommendation_default_title">Diese könnten dich interessieren</string>
@@ -586,6 +605,8 @@
     <string name="no_data">Hier ist noch nichts</string>
     <string name="no_events_hint">Keine Ereignisse</string>
     <string name="no_locale_list_text">Liste der Standort konnte nicht abgerufen werden. Erneut versuchen.</string>
+    <string name="no_location_hint">Ergebnisse konnten nicht gefunden werden</string>
+    <string name="no_location_network">Netzwerkverbindung fehlgeschlagen</string>
     <string name="no_more_events">Keine Ereignisse mehr zum Anzeigen</string>
     <string name="no_network">"Netzwerkverbindung fehlgeschlagen.
 Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
@@ -607,7 +628,10 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="notification_open_setting_button_ok">Erlauben</string>
     <string name="notification_open_setting_message">Du kannst keine Benachrichtigungen über Ereignisse erhalten, es sei denn, du erlaubst dem Kalender, dir Benachrichtigungen zu senden.</string>
     <string name="notification_open_setting_title">Kalender-Benachrichtigungen erlauben?</string>
+    <string name="panel_title_end">Ende</string>
+    <string name="panel_title_start">Start</string>
     <string name="pasport_register_dialog_message">Jetzt ein Xiaomi-Konto mit deiner Telefonnummer %s erstellen?</string>
+    <string name="pass_day">Bereits vorbei</string>
     <string name="passenger">Passagier</string>
     <string name="passport_access_denied">Zugriff verweigert</string>
     <string name="passport_account_crop_user_avatar">Foto zuschneiden</string>
@@ -801,7 +825,7 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="preferences_popup_alert_smart_summary_new">Zeitkritische Ereignisse sind Ereignisse mit einem genauen Zeitpunkt</string>
     <string name="preferences_popup_alert_title">Pop-Up-Alarme</string>
     <string name="preferences_title">Kalender</string>
-    <string name="preferences_use_home_tz_descrip">Zeigt bei Reisen Kalendereinträge und Ereignisse in der Heimat-Zeitzone</string>
+    <string name="preferences_use_home_tz_descrip">Zeigt bei Reisen Kalendereinträge und Ereignisse in der Heimat-Zeitzone an</string>
     <string name="preferences_use_home_tz_title">Heimat-Zeitzone verwenden</string>
     <string name="preferences_week_start_day_default">-%d</string>
     <string name="preferences_week_start_day_dialog">Wochenbeginn</string>
@@ -827,6 +851,10 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="premission_read_write_storage">Speicher</string>
     <string name="premission_read_write_storage_new">Auf Speicher zugreifen</string>
     <string name="privacy_and_permissions">Datenschutz und Berechtigungen</string>
+    <string name="privacy_update_message">"Durch Tippen auf „Zustimmen“ akzeptierst du die (click)Datenschutzerklärung von Kalender(/click): 
+
+Um dir ein besseres Erlebnis zu bieten, kannst du beim Erstellen eines Termins nun einen Ort auswählen. Die Ortssuche und -empfehlungen werden über Kartendienste von Drittanbietern bereitgestellt."</string>
+    <string name="privacy_update_title">Aktualisierte Datenschutzerklärung</string>
     <string name="productivity_add_event">Ereignis erstellen</string>
     <string name="productivity_no_event">Hier gibt es noch keine Ereignisse</string>
     <string name="pull_refresh_events">%d Ereignisse anzeigen</string>
@@ -853,7 +881,7 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="repeat_count_down_close_title">Dies ist ein wiederkehrendes Ereignis. Countdown-Erinnerungen trotzdem ausschalten?</string>
     <string name="repeat_count_down_open_title">Dies ist ein wiederkehrendes Ereignis. Countdown-Erinnerungen trotzdem einschalten?</string>
     <string name="repeat_custom_activity_label">Benutzerdefiniert</string>
-    <string name="repeat_custom_prompt_daily">alle %1$s</string>
+    <string name="repeat_custom_prompt_daily">alle/jeden %1$s</string>
     <string name="repeat_custom_prompt_sentence">Ereignis wiederholt sich %1$s</string>
     <string name="repeat_custom_prompt_splitter">", "</string>
     <string name="repeat_custom_string_prefix">Benutzerdefiniert</string>
@@ -894,7 +922,7 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="search_calendar_settings">Kalender;Terminplanung;Erinnerung</string>
     <string name="search_events">Nach Ereignissen suchen</string>
     <string name="search_history">Suchverlauf</string>
-    <string name="search_location_hint">Adresse eingeben</string>
+    <string name="search_location_hint">Standort eingeben</string>
     <string name="search_menu_title">Suche</string>
     <string name="search_timezone">Zeitzonen suchen</string>
     <string name="select_date">Zu Datum springen</string>
@@ -942,11 +970,13 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="solar_birthday_desc">Gregorianischer Kalender</string>
     <string name="solar_date_content_desc">Datum nach gregorianischem Kalender</string>
     <string name="solar_lunar_convert_tab">Konvertieren</string>
     <string name="solar_to_lunar_chinese_calendar">Gregorianisch auf Chinesisch</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Ereignisse</string>
+    <string name="start_at">Start: %s</string>
     <string name="start_date_calculate">Berechnen</string>
     <string name="start_string">Beginnt um %s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1036,9 +1066,9 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="thursday">Donnerstag</string>
     <string name="thursday_short">Do</string>
     <string name="thursday_shortest">Do</string>
-    <string name="time_picker_dialog_title">Uhrzeit einstellen</string>
-    <string name="time_picker_label_hour">Std</string>
-    <string name="time_picker_label_minute">Min.</string>
+    <string name="time_picker_dialog_title">Zeit einstellen</string>
+    <string name="time_picker_label_hour">H</string>
+    <string name="time_picker_label_minute">M</string>
     <string name="time_until_start">Verbleibende Zeit</string>
     <string name="time_zone">Zeitzone</string>
     <string name="timezone_label">Zeitzone</string>
@@ -1161,6 +1191,11 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="widget_normal_weekN">Woche %d</string>
     <string name="widget_select_style">Stil wählen</string>
     <string name="widget_spec_agenda_birth_today">Heute</string>
+    <string name="withdraw_consent_button_withdraw">Widerrufen</string>
+    <string name="withdraw_consent_message">"Wenn du fortfährst, widerrufst du deine Einwilligung zur Datenschutzerklärung von Kalender. Wir werden aufhören, deine personenbezogenen Daten zu sammeln. Die bereits gesammelten und aufbewahrten personenbezogenen Daten werden innerhalb des bestimmten Zeitraums, in Übereinstimmung mit geltenden Gesetzen und Vorschriften, gelöscht, sofern nicht anders erforderlich.
+Da Kalender seine Dienste auf der Sammlung von notwendigen personenbezogenen Daten basiert, wird der Widerruf deiner Einwilligung als Ablehnung der Kalender-Dienste angesehen. Einwilligung jetzt widerrufen?"</string>
+    <string name="withdraw_consent_preference_title">Widerruf der Einwilligung</string>
+    <string name="withdraw_consent_title">Widerruf der Einwilligung</string>
     <string name="work_day_default_banner_title">Habe einen produktiven Arbeitstag!</string>
     <string name="xiaomi_account">Xiaomi-Konto</string>
     <string name="xiaomi_calendar_display_name">Xiaomi-Konto-Kalender</string>

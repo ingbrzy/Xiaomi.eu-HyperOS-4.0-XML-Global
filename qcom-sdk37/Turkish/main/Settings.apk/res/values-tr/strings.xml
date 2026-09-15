@@ -372,7 +372,7 @@ Klavyede veya gezinme çubuğundayken yakınlaştırma yapamazsınız."</string>
     <string name="accessibility_service_screen_control_description">Ekrandaki tüm içeriği okuyabilir ve içeriği diğer uygulamaların üzerinde gösterebilir.</string>
     <string name="accessibility_service_screen_control_title">Ekranı görüntüleme ve kontrol etme</string>
     <string name="accessibility_service_warning_description">Erişebilirlik ihtiyaçlarınıza yardımcı olan uygulamalara tam kontrol verilmesi uygundur ancak diğer pek çok uygulama için uygun değildir.</string>
-    <string name="accessibility_setting_item_control_timeout_title">İşlem yapma süresi (Erişilebilirlik zaman aşımı)</string>
+    <string name="accessibility_setting_item_control_timeout_title">Harekete geçme zamanı</string>
     <string name="accessibility_settings">Erişilebilirlik</string>
     <string name="accessibility_settings_summary">Ekran, etkileşim, ses</string>
     <string name="accessibility_settings_tabs_general">Genel</string>
@@ -609,6 +609,7 @@ Tasarımlar nasıl gidiyor diye sormak istedim. Yeni balonları üretmeye başla
     <string name="activity_title_root_note">Root erişimi hakkında</string>
     <string name="ad_service">Reklam hizmetleri</string>
     <string name="adapt_embedded">Paralel pencereler mevcut</string>
+    <string name="adapted_game_title">Desteklenen oyunlar</string>
     <string name="adaptive_brightness_main_switch_title">Otomatik parlaklık özelliğini kullan</string>
     <string name="adaptive_connectivity_main_switch_title">Uyarlanabilir bağlantıyı kullan</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Pil ömrünüzü uzatmak için en iyi ağ bağlantısını otomatik olarak seçer</string>
@@ -684,7 +685,7 @@ Tasarımlar nasıl gidiyor diye sormak istedim. Yeni balonları üretmeye başla
     <string name="add_fingerprint_move_fast">Parmağınızı ekranın üzerinde bir süre daha tutun</string>
     <string name="add_fingerprint_name_suggest_text">Parmak izi adı</string>
     <string name="add_fingerprint_put_finger_edge_msg">Parmak izinizin tüm farklı kısımlarını eklemek için parmağınızı hafifçe kaldırın ve tekrar sensör üzerine yerleştirin.</string>
-    <string name="add_fingerprint_put_finger_msg">Parmağınızı sensörün üzerine koyun ve bir titreşim hissettiğinizde kaldırın.</string>
+    <string name="add_fingerprint_put_finger_msg">Parmağınızı sensörün üzerine yerleştirin, ardından sensörü kaldırın ve tekrarlayın.</string>
     <string name="add_fingerprint_put_finger_title">Parmak izi ekle</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Parmağınızı hafifçe kaldırın</string>
     <string name="add_fingerprint_success_msg">Başarıyla eklendi</string>
@@ -724,7 +725,10 @@ Yöneticiniz, ağ etkinliği ve cihazınızın konum bilgileri de dahil olmak ü
     <string name="advanced_battery_title">Pil kullanımı</string>
     <string name="advanced_gesture">Özel hareketler</string>
     <string name="advanced_screen_paper_mode_title">Okuma modu</string>
+    <string name="advanced_screen_paper_mode_title_eye_comfort">Göz konforu</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Göz rahatlığı</string>
+    <string name="advanced_screen_paper_mode_title_vision_care">Xiaomi Vision Care</string>
     <string name="advanced_section_header">Genel</string>
     <string name="advanced_security_title">Gelişmiş</string>
     <string name="advanced_settings">Ek ayarlar</string>
@@ -901,8 +905,8 @@ Widget: %2$s
     <string name="aon_gesture_up_down_waving_summary">Dikey içerik akışı ile çalışır</string>
     <string name="aon_gesture_up_down_waving_switch">Yukarı ve aşağı kaydırmak için dikey olarak sallayın</string>
     <string name="aon_gesture_up_down_waving_title">Dikey kaydır</string>
-    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">İyi aydınlatılmış bir ortamda olduğunuzdan emin olun, ardından avucunuz aşağı bakacak şekilde elinizi kameranın önünde %d–%d cm mesafede tutun. Tanıma başarılı olduğunda elinizi yukarı doğru sallayın. Bu hareketi daha sonra ekranda yukarı kaydırmak için kullanabilirsiniz.</string>
-    <string name="aon_gesture_up_waving_diagram_title">Ekranın önünde el salla</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">İyi aydınlatılmış bir alanda olduğunuzdan emin olun ve elinizi avuç içiniz yukarı veya aşağı bakacak şekilde kameranın %d–%d cm önünde tutun. Tanıma başarılı olduğunda kaydırmak için elinizi sallayın. Kaydırmaya devam etmek için elinizi sallamaya devam edin. Kaydırma yönünü değiştirmek için elinizi diğer yöne çevirin ve bir anlığına sabit tutun. Tanındıktan sonra tekrar el sallayın.</string>
+    <string name="aon_gesture_up_waving_diagram_title">Kaydırmak için ekranın önünde elinizi sallayın</string>
     <string name="aon_scanner_default_payment_method_title">Varsayılan ödeme yöntemi</string>
     <string name="aon_scanner_dialog_message">"Hızlı tarayıcı'yı açtığınızda taradığınız QR kodları Mi AI Scanner ile paylaşılacaktır. Devam etmeden önce bunu anladığınızdan ve kabul ettiğinizden emin olun. Taradığınız QR kodları yerel olarak depolanmayacak veya Cloud'a yüklenmeyecek. Bu özelliğin kullanılmasının genel güç tüketimini biraz arttırabileceğini unutmayın."</string>
     <string name="aon_scanner_dialog_message_new">"Hızlı tarayıcı'yı kullandığınızda taradığınız QR kodları AI Tarayıcı ile paylaşılacaktır. Bu bilgiler cihazınızda depolanmayacak veya cloud'a yüklenmeyecektir. Bu özelliği açmak, güç tüketimini biraz arttıracaktır."</string>
@@ -1406,6 +1410,7 @@ En son %2$s tarihinde çalıştırıldı"</string>
     <string name="back_strap_status_close">Kapalı</string>
     <string name="back_strap_status_open">Açık</string>
     <string name="back_strap_title">Arka ışık efektleri</string>
+    <string name="back_strap_title_tip">Farklı senaryolarda kişiselleştirilmiş uyarılar almak için açın</string>
     <string name="back_tap">Geri dokunma</string>
     <string name="back_triple_tap">Üçlü geri dokunma</string>
     <string name="background_activity_disabled_dialog_text">"Uygulama, pili optimize etmek için ayarlanmadığından kısıtlanamaz.
@@ -1417,6 +1422,7 @@ Uygulamayı kısıtlamak için önce pil optimizasyonunu açın."</string>
     <string name="background_blur_enable">Gelişmiş dokular</string>
     <string name="background_blur_enable_summary">Gelişmiş bir görsel deneyim sağlamak için sistem genelinde bulanıklaştırma gibi görüntü oluşturma efektleri ekler</string>
     <string name="background_blur_message">Bu özelliği açmak daha fazla güç tüketebilir ve cihazınızın ısınmasına neden olabilir. Yine de açılsın mı?</string>
+    <string name="background_blur_mode_title">Görsel stil</string>
     <string name="background_blur_title">Gelişmiş dokuları aç</string>
     <string name="background_check_pref">Arka plan kontrolü</string>
     <string name="background_data">Arka plan verileri</string>
@@ -1983,7 +1989,8 @@ Saat ile Kilit Açma, bu telefonun kilidini açabileceğiniz pratik yöntemlerde
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">Yeniden başlat</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">"Bluetooth'u yeniden başlat"</string>
     <string name="bluetooth_enable_opp_high_speed_summary">Aktarımlar için Bluetooth P2P protokollerini kullanın</string>
-    <string name="bluetooth_enable_page_scan_summary">Bluetooth testi için sayfa taramasını devre dışı bırak/etkinleştir</string>
+    <string name="bluetooth_enable_page_scan">Bluetooth sayfa taraması</string>
+    <string name="bluetooth_enable_page_scan_summary">Test için Bluetooth sayfa taramasını açın veya kapatın</string>
     <string name="bluetooth_enter_passkey_msg">Eşleme kodunu yazın ve sonra Return veya Enter tuşuna basın</string>
     <string name="bluetooth_enter_passkey_other_device">Bu parolayı diğer cihazda da girmeniz gerekebilir.</string>
     <string name="bluetooth_enter_pin_other_device">"Bu PIN'i diğer cihazda da yazmanız gerekebilir."</string>
@@ -2291,9 +2298,11 @@ Bağlantı süresince %3$s numarasına gelen tüm aramaları %2$s adlı cihaz al
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Cihazı unut</string>
     <string name="bluetooth_unpair_dialog_title">Cihaz unutulsun mu?</string>
     <string name="bluetooth_unpair_dialog_with_associations_body">Telefonunuzun %1$s ile olan eşlemesi kaldırılacak. %2$s artık cihazı yönetmeyecek.</string>
+    <string name="bluetooth_unpairing">Eşleşme sonlandırılıyor…</string>
     <string name="bluetooth_version">Bluetooth sürümü</string>
     <string name="bluetooth_version_message">Güncelle</string>
     <string name="bluetooth_wake">Bluetooth ses cihazıyla uyandır</string>
+    <string name="bluetooth_watch_not_synced_unpair_manually">Saat senkronize değil. Eşleşmeyi manuel olarak sonlandırın.</string>
     <string name="blur_switch">Bulanıklaştırma efektlerini azalt</string>
     <string name="blur_switch_disabled_summary">Pil Tasarrufu nedeniyle geçici olarak devre dışı bırakıldı</string>
     <string name="blur_switch_summary">Arka planları ve panelleri daha kolay görünür hale getirin</string>
@@ -2617,6 +2626,7 @@ Bir CA sertifikası yüklerseniz sertifika sahibi; şifreler, veya kredi kartı 
     <string name="camera_key_action_title">Mi Tuşu</string>
     <string name="camera_key_action_toggle_title">Geçişi tetikle</string>
     <string name="camera_laser_sensor_switch">Kamera Lazer Sensörü</string>
+    <string name="camera_mr_settings">Kamera halkası</string>
     <string name="camera_rear">Arka %s</string>
     <string name="camera_toggle_label_qs">Kamera erişimi</string>
     <string name="camera_toggle_title">Kamera erişimi</string>
@@ -2747,6 +2757,16 @@ Bu izin verilirse uygulama, bir etiket algılandığında kullanılabilir seçen
     <string name="checked_app_title">Işık efektleri açık</string>
     <string name="checking_find_device_status">Cihazı bul durumu kontrol ediliyor…</string>
     <string name="checking_for_updates">Güncellemeler kontrol ediliyor…</string>
+    <string name="child_face_number_reach_limit">En fazla üç kişinin yüz verilerini ekleyebilirsiniz</string>
+    <string name="child_face_unlock_download_education_center_button">Yükle</string>
+    <string name="child_face_unlock_download_education_center_content">"Bu özelliği kullanabilmek için önce Eğitim Merkezi'ni yükleyin."</string>
+    <string name="child_face_unlock_download_education_center_title">Uyarı</string>
+    <string name="child_face_unlock_first_close_child_unlock">"Önce ''Kilit açıldıktan sonra Eğitim Merkezi'ni aç'' özelliğini kapatın"</string>
+    <string name="child_face_unlock_first_close_stay_keyguard">"Önce ''Kilit açıldıktan sonra Kilit ekranında kal'' özelliğini kapatın"</string>
+    <string name="child_face_unlock_no_use">Kapalı</string>
+    <string name="child_face_unlock_open_education_center">"Kilit açıldıktan sonra Eğitim Merkezi'ni aç"</string>
+    <string name="child_face_unlock_open_education_center_summary">Bu özelliği kullanacak belirli bir kişinin yüz verilerini seçin</string>
+    <string name="child_face_unlock_use">Kullan</string>
     <string name="chip_add_title">Frekans ekle</string>
     <string name="chip_change_error_toast">Parametreler ayarlanamadı</string>
     <string name="chip_change_toast">Frekans değiştirildi. Değişiklikleri uygulamak için cihazı yeniden başlatın.</string>
@@ -3684,6 +3704,7 @@ Bu ayar, bu cihazın tüm kullanıcılarını etkiler."</string>
     <string name="device_screen_size">Ekran boyutu</string>
     <string name="device_screen_usage">Tam şarj sonrası ekran kullanımı</string>
     <string name="device_sd_memory">SD kart</string>
+    <string name="device_security_chip">Özel güvenlik çipi</string>
     <string name="device_share_loading">Resim oluşturuluyor</string>
     <string name="device_status">Durum</string>
     <string name="device_status_activity_title">Durum</string>
@@ -3740,6 +3761,7 @@ Bu ayar, bu cihazın tüm kullanıcılarını etkiler."</string>
     <string name="disable_overlays">Donanım katmanlarını devre dışı bırak</string>
     <string name="disable_overlays_summary">"Ekran oluştururken her zaman GPU'yu kullan"</string>
     <string name="disable_password_warning">Ekran kilidini kapattıktan sonra kayıtlı parmak izleri ve yüz verileri silinecektir. Parmak izinizi veya yüz tanımayı kullanarak cihazın kilidini açamayacak veya notlarda veya galeride bunları kullanamayacaksınız.</string>
+    <string name="disable_permission_text_by_hyper">Bu uygulama değerlendirmeyi geçemedi ve şu an kısıtlı</string>
     <string name="disable_phantom_process_monitor_summary">Uygulamadaki alt işlemlerin sistem kaynağı kullanımıyla ilgili kısıtlamaları devre dışı bırakın</string>
     <string name="disable_phantom_process_monitor_title">Alt işlem kısıtlamalarını devre dışı bırak</string>
     <string name="disable_power_key_long_press_under_keyguard">Güç tuşu menüsünü kapat</string>
@@ -3991,6 +4013,7 @@ Bu ayar, bu cihazın tüm kullanıcılarını etkiler."</string>
     <string name="dump_log_summary">"Bu özellik sistemin Beta sürümünde %s kayıt oluşturmak üzere tasarlandı. Kullanırken dikkatli olunuz.
 Oluşturulan kayıtları Dosya Yöneticisi'nde görüntüleyebilirsiniz."</string>
     <string name="dump_log_title">Bu özellik hakkında</string>
+    <string name="dynamic_island_title">Xiaomi HyperIsland</string>
     <string name="early_morning">Sabah</string>
     <string name="easy_mode_font_settings_toast">Basit modda yazı tipi ayarlanamıyor</string>
     <string name="easymode_hint">Basit modu kapatmak için dokunun</string>
@@ -4020,6 +4043,7 @@ Oluşturulan kayıtları Dosya Yöneticisi'nde görüntüleyebilirsiniz."</strin
     <string name="eid_multi_sim">SIM kimliği %1$d</string>
     <string name="eighthours">8 saat</string>
     <string name="elastic_text">İstemciler ve açılır menüler, bu nesnelere daha fazla odaklanmayı sağlayan elastik bir pop ile görünür</string>
+    <string name="elder_care_ai_anti_fraud">Konuşmalar sırasında dolandırıcılığı tespit edin ve uyarı alın</string>
     <string name="elder_care_block_advertising_promotions_calls_title">Pazarlama aramalarını engelle</string>
     <string name="elder_care_block_estate_agency_calls_title">Emlak acentesi aramalarını engelle</string>
     <string name="elder_care_block_risky_app_title">Riskli uygulamaları engelle</string>
@@ -4388,6 +4412,11 @@ Başlamak için harici ekran bağlayın veya farklı bir kablo kullanmayı deney
     <string name="external_source_untrusted">İzin verilmiyor</string>
     <string name="extreme_threats_summary">Cana ve mala karşı olağanüstü tehdit uyarılarını alın</string>
     <string name="extreme_threats_title">Olağanüstü tehditler</string>
+    <string name="eye_care_adjust_mode">Ayarlama stili</string>
+    <string name="eye_care_classic_mode">Klasik</string>
+    <string name="eye_care_learn_more">Göz konforu hakkında bilgi edin</string>
+    <string name="eye_care_mode_description">"''Ritim'' saat ve kullanım senaryosuna göre renk sıcaklığını otomatik olarak ayarlar. Gündüz daha doğal ve gece daha sıcak kalır. ''Klasik'' sabit bir renk sıcaklığı kullanır ve manuel olarak ayarlanması gerekir."</string>
+    <string name="eye_care_rhythmic_mode">Ritim</string>
     <string name="eye_gaze_dialog_message">"Bu özellik açık olduğunda sistem ekrana bakıp bakmadığınızı algılayacak ancak yüz özellikleriniz analiz edilmeyecek ve bu veriler cihazınızda saklanmayacak veya cloud'a yüklenmeyecek. Şimdi açılsın mı?"</string>
     <string name="eye_gaze_dialog_title">Güvenlik uyarısı</string>
     <string name="eye_gaze_summary">Cihaz, ekrana baktığınızı algıladığında kilitlenmeyecektir</string>
@@ -4396,6 +4425,7 @@ Başlamak için harici ekran bağlayın veya farklı bir kablo kullanmayı deney
     <string name="eye_habit_prompt_summary">Cihazınız, göz yorgunluğuna sebep olabilecek durumlar saptadığında bildirim alın</string>
     <string name="eye_habit_prompt_title">Göz sağlığı bildirimleri</string>
     <string name="eye_paper_protection">Okuma modu ayarları</string>
+    <string name="eye_protection_technology">Teknoloji</string>
     <string name="eyes_protect_certification">Teknoloji ve sertifikasyon</string>
     <string name="eyes_protect_certification_summary_1">Görsel sağlık dostu S++ sertifikası</string>
     <string name="eyes_protect_certification_summary_2">Düşük Mavi Işık (Donanım Çözümü), Sirkadiyen Dostu ve Titreşimsiz sertifikalı</string>
@@ -4407,6 +4437,7 @@ Başlamak için harici ekran bağlayın veya farklı bir kablo kullanmayı deney
     <string name="eyes_protect_certification_title_3">Daha doğal dairesel polarizasyon</string>
     <string name="eyes_protect_certification_title_4">Titreşimsiz DC karartma</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM karartma</string>
+    <string name="eyes_protect_game_title">Oyun sırasında göz komforu</string>
     <string name="face_data_apply_for_category_title">Yüz verilerini kullanarak kilit aç</string>
     <string name="face_data_apply_for_keyguard_title">Kilit ekranı</string>
     <string name="face_data_input_camera_fail">Kamera yüklenemedi</string>
@@ -4437,6 +4468,7 @@ Yüz verinizi eklemeden önce, ekran kilidi ekleyin."</string>
     <string name="face_data_suggesstion_first_cn_highlight">Yüz tanıma ile kilit açma özelliği, PIN, şifre, desen veya parmak izi ile kilit açmadan daha güvensizdir. Cihazınızın kilidi bir fotoğrafınızla veya size benzeyen kişiler veya objeler tarafından açılabilir.</string>
     <string name="face_data_suggesstion_second">Yüzünüzün tüm kısımlarının herhangi bir obje tarafından kapatılmadığından ve açıkça görünebilir olduğundan emin olun. Yüzünüz aynı zamanda iyi aydınlatılmış olmalıdır.</string>
     <string name="face_enroll_when_slt_on_toast">Tiantong Uydu iletişimini kullanırken Yüz ile kilit açma için bir yüz eklenemiyor</string>
+    <string name="face_enrollment_fold_warning">Ekran durumunu değiştirmek yüz verisi kaydını kesintiye uğratacak</string>
     <string name="face_enrollment_tips">Yüzünüzün tüm kısımlarının açıkça görüldüğünden emin olun. Şapka, maske, gözlük ve başka bir aksesuar takmayın.</string>
     <string name="face_finger_add">Ekle</string>
     <string name="face_finger_delete">Sil</string>
@@ -4460,6 +4492,9 @@ Yüz verinizi eklemeden önce, ekran kilidi ekleyin."</string>
     <string name="face_unlock_disable">Yüz ile kilit açma özelliği kapalı</string>
     <string name="face_unlock_down">Kafanızı kaldırın</string>
     <string name="face_unlock_enable">Yüz ile kilit açma özelliği açık</string>
+    <string name="face_unlock_in_low_light_msg">Yüz tanımayı geliştirmek için düşük ışıkta ekran parlaklığını artırın</string>
+    <string name="face_unlock_in_low_light_tip">"Gece göz konforu açıkken ''Düşük ışıkta tanımayı optimize et'' özelliği ekranı aydınlatmayacak"</string>
+    <string name="face_unlock_in_low_light_title">Düşük ışıkta tanımayı optimize et</string>
     <string name="face_unlock_not_found">Sizi tanıyamadık</string>
     <string name="face_unlock_offset_bottom">Telefonunuzu biraz aşağı indirin</string>
     <string name="face_unlock_offset_left">Sağa hareket edin</string>
@@ -4513,6 +4548,11 @@ yüz verisi'ni kaydedin"</string>
     <string name="fan_mode_partial_scene_usage">Seçildi</string>
     <string name="fan_mode_range_title">Kullanım senaryoları</string>
     <string name="fan_mode_usage_scenes">Kullanım senaryoları</string>
+    <string name="fan_other_features">Diğer özellikler</string>
+    <string name="fan_self_clean">Fan kendi kendini temizleme</string>
+    <string name="fan_self_clean_summary">Fan %d günden daha uzun bir süre çalışmadıysa ekran kapandığında cihaz şarj olurken kendi kendini otomatik olarak temizleyecek</string>
+    <string name="fan_smart_stop_on_recording">Ses yakalama sırasında duraklat</string>
+    <string name="fan_smart_stop_on_recording_summary">Aramalar, ses kaydı ve video kaydı sırasında fan gürültüsünü azaltın. Oyunlara uygulanamaz.</string>
     <string name="fcc_equipment_id">Cihaz Kimliği</string>
     <string name="feature_flags_dashboard_title">Özellik bayrakları</string>
     <string name="feedback">Geri bildirim</string>
@@ -4592,6 +4632,7 @@ Daha fazla bilgi edinmek için sözleşmeli cihaz sağlayıcınızla iletişime 
     <string name="fingerprint_enroll_button_add">Başka ekle</string>
     <string name="fingerprint_enroll_button_next">İleri</string>
     <string name="fingerprint_enrollment_desc">Parmak izi kaydettikten sonra cihazın kilidini açmak ve kimliğinizi doğrulamak için bunu kullanabilirsiniz.</string>
+    <string name="fingerprint_enrollment_fold_warning">Ekran durumunu değiştirmek parmak izi kaydını kesintiye uğratacak</string>
     <string name="fingerprint_enrollment_title">Parmak izini kaydet</string>
     <string name="fingerprint_face_password">Parmak izi, yüz verisi ve ekran kilidi</string>
     <string name="fingerprint_face_password_unlock">Parmak izi, yüz verisi ve ekran kilidi</string>
@@ -4619,6 +4660,7 @@ Daha fazla bilgi edinmek için sözleşmeli cihaz sağlayıcınızla iletişime 
     <string name="fingerprint_password_unlock">Parmak izi &amp; ekran kilidi</string>
     <string name="fingerprint_payment">Parmak izi ödeme</string>
     <string name="fingerprint_privacy_desc">Gizli albümlere, mesajlara, notlara, dosyalara, Xiaomi Hyper XiaoAi belleğe, Uygulama kilidine ve şifre yönetici araçlarına erişmek için parmak izinizi kullanabilirsiniz.</string>
+    <string name="fingerprint_privacy_policy"><Data>"Devam etmeden önce &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"Parmak izi &amp;#038; ekran kilidi\" Gizlilik Bildirisi'ni&lt;/a> okuyun ve kabul edin.&lt;/font>"</Data></string>
     <string name="fingerprint_protection">Parmak izi koruması</string>
     <string name="fingerprint_record_input">Kaydet</string>
     <string name="fingerprint_removal_failed">Parmak izi kaldırılamadı, daha sonra tekrar deneyin</string>
@@ -4690,21 +4732,6 @@ Daha fazla bilgi edinmek için sözleşmeli cihaz sağlayıcınızla iletişime 
     <string name="flash_notifications_summary_off">Kapalı / Bildirimler ve alarmlar için kamera veya yanıp sönen ekran ışığıyla uyarı alın</string>
     <string name="flash_notifications_summary_on">Açık / Bildirimler ve alarmlar için kamera veya yanıp sönen ekran ışığıyla uyarı alın</string>
     <string name="flash_notifications_title">Bildirimler için ışık yak</string>
-    <string name="flashback_background_start_switch_summary">Uygulamalar arka planda çalışıyorken bilgi kartlarını anahtar bilgiler ile otomatik olarak oluşturun</string>
-    <string name="flashback_background_start_switch_title">Bilgi kartlarını otomatik olarak oluştur</string>
-    <string name="flashback_baidu_map_summary">Rotayı göster</string>
-    <string name="flashback_didi_summary">Sürüş bilgilerini göster</string>
-    <string name="flashback_meituan_summary">Teslimat bilgisini göster</string>
-    <string name="flashback_meituan_waimai_summary">Teslimat bilgisini göster</string>
-    <string name="flashback_open_switch_summary">Uygulamalar, kayan pencereler olarak gösterildiğinde anahtar bilgileri göster</string>
-    <string name="flashback_open_switch_title">Uygulama bilgi kartları</string>
-    <string name="flashback_shansong_summary">Teslimatın ilerleyişini göster</string>
-    <string name="flashback_status_close">Kapalı</string>
-    <string name="flashback_status_open">Açık</string>
-    <string name="flashback_summary">Uygulamalar, kayan pencereler olarak gösterildiğinde anahtar bilgileri göster</string>
-    <string name="flashback_support_apps_title">Kullanılabilir uygulamalar</string>
-    <string name="flashback_title">Uygulama bilgi kartları</string>
-    <string name="flashback_wangzhe_summary">Yeniden canlanma geri sayımını göster</string>
     <string name="flip_aod_settings_title">Kilit ekranı (dış)</string>
     <string name="flip_aod_settings_title_new">Kilit ekranı (dış)</string>
     <string name="flip_application_settings_title">Dış ekran uygulamaları</string>
@@ -4800,6 +4827,8 @@ Daha fazla bilgi edinmek için sözleşmeli cihaz sağlayıcınızla iletişime 
     <string name="font_preview_text_content">"Örnek metin:
 
 Xiaomi, yenilikçi teknoloji sayesinde dünyanın her yerindeki herkesin daha iyi bir hayatın tadını çıkarmasını sağlamak için her zaman dürüst fiyatlarla muhteşem ürünler üretmektedir."</string>
+    <string name="font_preview_text_content_new">"Örnek metin:
+Xiaomi, yenilikçi teknoloji sayesinde dünyanın her yerinden herkesin daha iyi bir hayatın tadını çıkarmasını sağlamak için her zaman dürüst fiyatlarla muhteşem ürünler üretmektedir."</string>
     <string name="font_scale_percentage">%%%1$d</string>
     <string name="font_setting_weight_toast">Mevcut yazı tipi, yazı tipi ağırlığının ayarlanmasını desteklemiyor</string>
     <string name="font_settings_jump">Erişilebilirlik > Ekran boyutu</string>
@@ -4819,12 +4848,14 @@ Xiaomi, yenilikçi teknoloji sayesinde dünyanın her yerindeki herkesin daha iy
 "</string>
     <string name="font_size_summary1">"Sistem yazı tipi boyutunun çok küçük olduğunu düşünüyorsanız bunu deneyin "</string>
     <string name="font_size_summary2">Basit mod</string>
+    <string name="fonts_management_installed_app">Uygulamalarda kullanılacak yazı tiplerini yükleyin ve yönetin</string>
+    <string name="fonts_manager">Yazı tiplerini yönet</string>
     <string name="footer_description_full_screen_intent">Bu uygulamanın, cihaz kilitlendiğinde ekranın tamamını kaplayan bildirimleri görüntülemesine izin verin. Uygulama, alarmları, gelen aramaları veya diğer acil bildirimleri görüntülemek için tam ekran bildirimlerini kullanabilir. Bu ayar, arka planda çalışıyorken yeni pencereleri açma iznine bağlıdır ve yalnızca bu izin verildiğinde kullanılabilir.</string>
     <string name="footer_learn_more_content_description">%1$s hakkında ek bilgi</string>
     <string name="footer_time_zone_offset_change_next_change">Sonraki değişiklik</string>
     <string name="footer_time_zone_offset_change_no_next_change">Programlanmış değişiklik yok</string>
     <string name="forbidden_network">(yasak)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Onarım modu açık. Şu anda şifre ayarlanmıyor veya değiştirilemiyor.</string>
     <string name="forbidden_switch_apn_string">Seçili APN ayarları mevcut ağ türü ile eşleşmiyor</string>
     <string name="force_allow_on_external">Harici birimdeki uygulamalara izin vermeye zorla</string>
     <string name="force_allow_on_external_summary">Manifest değerlerinden bağımsız olarak uygulamaları harici depolamaya yazmak için uygun hale getirir</string>
@@ -4944,6 +4975,7 @@ Bu özellik yalnızca sistem navigasyonu hareketlere ayarlı olduğunda çalış
     <string name="friday_first_day_of_week">Cuma</string>
     <string name="friday_short">Cum</string>
     <string name="friday_shortest">Cum</string>
+    <string name="frp_status_activated">Fabrika ayarlarına sıfırlama koruması açık</string>
     <string name="fsg_mistake_touch_summary">Hareketlerin, tam ekran oyunlar ve videolar gibi bazı sahnelerde etkinleştirilmesi için iki defa kaydırılması gereklidir</string>
     <string name="fsg_mistake_touch_title">Hareketler için iki kez kontrol et</string>
     <string name="full_screen_display">Tam ekran modu</string>
@@ -4987,6 +5019,7 @@ Otomatik yedeklemeyi açtığınızda, cihaz ve uygulama verileri periyodik olar
     <string name="game_controller_stick_remapping_category">Talimatlar</string>
     <string name="game_controller_stick_right">Sağ Çubuk</string>
     <string name="game_delta_action_moments">Malzemelerin yağmalanması ve başarılı tahliye</string>
+    <string name="game_eyecare_empty_list_tip">Burada henüz hiçbir şey yok</string>
     <string name="game_king_of_glory_moments">Öldürmeler, kazanmalar ve diğer önemli anlar</string>
     <string name="game_peacekeeper_elites_moments">Paraşütle atlama ve savaş</string>
     <string name="game_storage_settings">Oyunlar</string>
@@ -5038,8 +5071,8 @@ Otomatik yedeklemeyi açtığınızda, cihaz ve uygulama verileri periyodik olar
     <string name="gesture_title_recent_apps">Son uygulamaları görüntüleme</string>
     <string name="gesture_title_switch_apps">Uygulamalar arasında geçiş yapma</string>
     <string name="gesture_to_split_screen">Hareketler</string>
-    <string name="gesture_wakeup_summary">"Yalnızca ''Klasik'' veya ''Sınırsız'' temayı kulllanırken ekranı kapatmak için çift dokunabilirsiniz."</string>
-    <string name="gesture_wakeup_summary_2">"Yalnızca ''Klasik'' temasını kulllanırken ekranı kapatmak için çift dokunabilirsiniz."</string>
+    <string name="gesture_wakeup_summary">"Yalnızca ''Klasik'' veya ''Sınırsız'' temayı kullanırken ekranı kapatmak için çift dokunabilirsiniz."</string>
+    <string name="gesture_wakeup_summary_2">"Yalnızca ''Klasik'' temasını kullanırken ekranı kapatmak için çift dokunabilirsiniz."</string>
     <string name="gesture_wakeup_title">Cihaz kilitlendiğinde ekranı uyandırmak veya kapatmak için çift dokunun</string>
     <string name="giga_hertz">GHz</string>
     <string name="gigabyteShort">GB</string>
@@ -5154,6 +5187,7 @@ Ekran kilidini onaylayabileceğiniz alan sağa doğru hareket edecektir."</strin
     <string name="gxzw_anim_rhythm">Ritim</string>
     <string name="gxzw_anim_star">Yıldız ışığı</string>
     <string name="gxzw_anim_switch">Parmak izi animasyonu</string>
+    <string name="gxzw_anim_switch_new">Parmak izi animasyonu</string>
     <string name="gxzw_anim_title">Parmak izi tanımlama</string>
     <string name="gxzw_aod_show_summary">Parmak izi simgesini görünür hale getirmek için cihazı kaldırın veya ekrana dokunun. Bu özellik sistem pil tüketimini arttırır ama cihazın kilidini daha hızlı açmanızı sağlar.</string>
     <string name="gxzw_aod_show_tittle">Ekran kapalıyken parmak izi simgesini göster</string>
@@ -5172,6 +5206,7 @@ Ekran kilidini onaylayabileceğiniz alan sağa doğru hareket edecektir."</strin
     <string name="gxzw_quick_open_show_summary">· Kısayol menüsünü açmak için cihazın kilidi açıldıktan sonra parmağınızı parmak izi simgesinin üzerinde tutun.</string>
     <string name="gxzw_quick_open_slow_summary">Kısayol menüsünü açmak için parmak izi simgesine basın ve basılı tutun. Bir kısayolu açmak için kaydırın.</string>
     <string name="gxzw_quick_open_slow_title">Basın ve basılı tutun</string>
+    <string name="gxzw_quick_open_summary">Kilit açtıktan sonra kısayol menüsünü açmak için parmak izi simgesine basın, ardından seçmek için bir kısayola doğru kaydırın</string>
     <string name="gxzw_quick_open_title">Kısayollar</string>
     <string name="gxzw_recognizing_anim_a">Dalgacık</string>
     <string name="gxzw_recognizing_anim_b">Sarmal</string>
@@ -5462,6 +5497,7 @@ Xiaomi Cloud'u açın ve ögeleri oradan geri yükleyin."</string>
     <string name="immediately_destroy_activities">Etkinlikleri saklama</string>
     <string name="immediately_destroy_activities_summary">Kullanıcının ayrıldığı her etkinliği hemen yok et</string>
     <string name="immersive_audio_sources">Sürükleyici ses</string>
+    <string name="import_manager_font_summary">Uygulamalar için yazı tiplerini içe aktar ve yönet</string>
     <string name="importance_default">Varsayılan</string>
     <string name="importance_high">Yüksek</string>
     <string name="importance_low">Düşük</string>
@@ -5961,6 +5997,69 @@ Xiaomi Cloud'u açın ve ögeleri oradan geri yükleyin."</string>
     <string name="layout_size_normal_text">Küçük</string>
     <string name="layout_size_small">ÇK</string>
     <string name="layout_size_small_text">Ekstra küçük</string>
+    <string name="ldp_checker_action">Ayarlar</string>
+    <string name="ldp_checker_desc">Önemli güvenlik ayarları için kimliğinizi doğrulamak üzere bir parmak izi ekleyin ve Cihazı bul özelliğini açın. Oturumu açık olan cihazınız kaybolursa veya çalınırsa Cihazı bul özelliği cihazınızın konumunu bulmanıza ve verilerinizi korumanıza yardımcı olabilir.</string>
+    <string name="ldp_checker_find_device_desc">Xiaomi Hesabınızda oturum açmadıysanız önce oturum açmak için yönlendirileceksiniz.</string>
+    <string name="ldp_checker_find_device_title">Cihazı bul özelliğini aç</string>
+    <string name="ldp_checker_fingerprint_enroll_desc">Henüz bir ekran kilidi ayarlamadıysanız öncelikle bir tane ayarlamak için yönlendirileceksiniz.</string>
+    <string name="ldp_checker_fingerprint_enroll_title">En az bir parmak izi ekleyin</string>
+    <string name="ldp_checker_title">Parmak izi ve Cihazı bul özellikleri açık olmalıdır</string>
+    <string name="ldp_closed_dialog_button_know">Anladım</string>
+    <string name="ldp_closed_dialog_reason_by_xiaomi_account">Kayıp cihaz koruması özelliğini Xiaomi Hesabınız ile kapattınız. Cihazınızın güvenlik özellikleri artık ekstra koruma içermiyor.</string>
+    <string name="ldp_closed_dialog_reason_no_account">Xiaomi Hesabınızda oturum açık olmadığı için Kayıp cihaz koruması şu an kapalı.</string>
+    <string name="ldp_closed_dialog_reason_no_device_find">Cihazı bul özelliğini uzaktan kapattınız, bu yüzden Kayıp cihaz koruması özelliği de kapalı.</string>
+    <string name="ldp_closed_dialog_reason_no_fingerprint">Parmak izi ayarlanmadığı için Kayıp cihaz koruması şu an kapalı.</string>
+    <string name="ldp_closed_dialog_reason_no_lock_password">Ekran kilidi ayarlanmadığı için Kayıp cihaz koruması şu an kapalı.</string>
+    <string name="ldp_closed_dialog_sync_title">Kayıp cihaz koruması kapalı</string>
+    <string name="ldp_closed_dialog_title">Kayıp cihaz koruması kapalı</string>
+    <string name="ldp_detail_introduction">Cihazınız kaybolursa bu özelliğin sizi korumaya nasıl yardımcı olacağını görün.</string>
+    <string name="ldp_detail_title">Kayıp cihaz koruması hakkında</string>
+    <string name="ldp_dual_auth">İki faktörlü kimlik doğrulama</string>
+    <string name="ldp_dual_auth_desc">Kaybolan SIM kartınızın başkaları tarafından Xiaomi Hesabınıza müdahale etmek için kullanılmasını engelleyin.</string>
+    <string name="ldp_extra_fingerprint_item1">•Ekran kilidini kapatmak veya değiştirmek</string>
+    <string name="ldp_extra_fingerprint_item2">•Parmak izi veya yüz verisi eklemek</string>
+    <string name="ldp_extra_fingerprint_item3">•Parmak izini veya yüz verisini silmek</string>
+    <string name="ldp_extra_fingerprint_item4">•Xiaomi Hesabından çıkış yapmak</string>
+    <string name="ldp_extra_fingerprint_title">Aşağıdaki eylemler ekstra parmak izi kontrolü gerektirir</string>
+    <string name="ldp_fingerprint_fault_desc">"Bu özelliği parmak izi doğrulaması ile kapatabilirsiniz. Parmak iziniz doğrulanamazsa Kayıp cihaz koruması bunun yerine Xiaomi Hesabınızı doğrulayarak bu özelliği kapatmanıza izin verir.
+Başkalarının bu yöntemi kullanarak korumayı hemen atlamasını önlemek için Kayıp cihaz koruması %1$d saatlik bir güvenlik gecikmesi başlatacaktır. Bu, gerçek sahibine cihazı uzaktan silmek veya SIM kartı askıya almak gibi işlemler yapmak çin zaman tanır. Gecikme bittikten sonra bu özelliği sonraki %2$d saat içinde Xiaomi Hesabınızı doğrulayarak kapatabilirsiniz."</string>
+    <string name="ldp_fingerprint_fault_title">Parmak izi doğrulaması kullanılmıyorsa</string>
+    <string name="ldp_forbidden_actions_item1">•Cihazı bul özelliğini kapatmak</string>
+    <string name="ldp_forbidden_actions_item2">•Çevrim dışı konum özelliğini kapatmak</string>
+    <string name="ldp_forbidden_actions_item3">"•''Son konumu gönder'' özelliğini kapatmak"</string>
+    <string name="ldp_forbidden_actions_title">Aşağıdaki eylemler engellenecek</string>
+    <string name="ldp_function_home_introduction_des">Cihazınız kaybolduysa ve birisi sizin ekran kilidinizi, yüz verinizi veya eşleştirilmiş bir Bluetooth cihazınızı biliyorsa bu özellik o kişinin sizin cihazınızda önemli kötü niyetli değişiklikler yapmasını durdurmaya yardımcı olabilir. &lt;a href=app://learn_more>Daha fazla bilgi edin&lt;/a></string>
+    <string name="ldp_function_home_suggestion_title">Önerilen özellikler</string>
+    <string name="ldp_guide_account_protection_desc">Hassas Xiaomi Hesabı eylemleri önce bu cihazda parmak izi doğrulaması gerektirir.</string>
+    <string name="ldp_guide_account_protection_title">Xiaomi Hesabınıza ekstra koruma ekleyin</string>
+    <string name="ldp_guide_action">İleri</string>
+    <string name="ldp_guide_desc">Cihazınız kaybolduysa ve birisi sizin ekran kilidinizi, yüz verinizi veya eşleştirilmiş bir Bluetooth cihazınızı biliyorsa bu özellik o kişinin sizin cihazınızda önemli kötü niyetli değişiklikler yapmasını durdurmaya yardımcı olabilir.</string>
+    <string name="ldp_guide_identity_verification_desc">Güvenlik ayarlarında yapılan değişiklikler ve bazı hassas özelliklere erişim parmak izi doğrulaması gerektirir, böylece bunları yalnızca siz kullanabilirsiniz.</string>
+    <string name="ldp_guide_identity_verification_title">Hassas eylemlerin gerçekten sizin tarafınızdan gerçekleştirildiğinden emin olun</string>
+    <string name="ldp_how_to_protect_desc">"Kayıp cihaz koruması ekstra bir güvenlik katmanı ekler. Cihaz kilidi daha düşük bir güvenlik yöntemi kullanılarak açılırsa sistem hassas eylemler için farklı bir doğrulama yöntemi gerektirecek. Bu gereksiz tekrarlanan doğrulamalar olmaksızın başka bir kimlik kontrolü ekler.
+Cihazınız kaybolursa bu ekstra kontrol ekran kilidiniz veya Xiaomi Hesabı bilgileriniz dolandırıcılık veya kimlik avı yoluyla sızdırılmış olsa bile başkalarının önemli güvenlik ayarları değişimi yapmasını engellemeye yine de yardımcı olabilir."</string>
+    <string name="ldp_how_to_protect_title">Nasıl çalışır</string>
+    <string name="ldp_recommend_action_button_text">Aç</string>
+    <string name="ldp_recommend_desc">Bu, başkalarının Xiaomi Hesabınızı sıfırlamak için SIM kartınızı kullanmasını ve Kayıp cihaz koruması ve Cihazı bul gibi güvenlik özelliklerini kapatmasını engellemeye yardımcı olur.</string>
+    <string name="ldp_recommend_later_button_text">Şimdi değil</string>
+    <string name="ldp_recommend_title">Hesabınız için iki faktörlü kimlik doğrulamayı açın</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item1">•Bluetooth cihazları ile kilit açma özelliğini kapatmak</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item2">•USIM kart ayarlarını görüntülemek veya değiştirmek</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item3">•Şifre uygulamasını açmak</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item4">•Şifreleri otomatik doldurmak için Şifre uygulamasını kullanmak</string>
+    <string name="ldp_replace_pwd_with_fingerprint_title">Aşağıdaki eylemler için ekran kilidi doğrulaması parmak izi doğrulaması ile değiştirilecek</string>
+    <string name="ldp_summary">Diğerlerinin bu cihazda ve oturum açtığınız Xiaomi Hesabınızda önemli değişiklikler yapmasını önleyin</string>
+    <string name="ldp_title">Kayıp cihaz koruması</string>
+    <string name="ldp_trigger_occasion_desc">Cihaz kilidi yüz verisi, ekran kilidi veya eşleştirilmiş bir Bluetooth cihazı ile açılırsa bazı hassas eylemler ekstra bir parmak izi kontrolü veya yalnızca parmak izi gerektirecek. Aynı zamanda Cihazı bul özelliği kapatılamayacak.</string>
+    <string name="ldp_trigger_occasion_title">Koruma tetiklendiğinde</string>
+    <string name="ldp_uni_auth_add_face_title">Yüz verisi eklemek için parmak izinizi doğrulayın</string>
+    <string name="ldp_uni_auth_add_fingerprint_title">Yeni bir tane eklemek için parmak izinizi doğrulayın</string>
+    <string name="ldp_uni_auth_change_password_title">Ekran kilidini değiştirmek için parmak izinizi doğrulayın</string>
+    <string name="ldp_uni_auth_disable_ldp_title">Kayıp cihaz korumasını kapatmak için parmak izinizi doğrulayın</string>
+    <string name="ldp_uni_auth_enable_ldp_subtitle">Kayıp cihaz korumasını açmak için kimliğinizi doğrulayın ve parmak izi sensörünün düzgün çalıştığından emin olun.</string>
+    <string name="ldp_uni_auth_remove_face_title">Yüz verisini silmek için parmak izinizi doğrulayın</string>
+    <string name="ldp_uni_auth_remove_fingerprint_title">Birini silmek için parmak izinizi doğrulayın</string>
+    <string name="ldp_uni_auth_remove_password_title">Ekran kilidini kapatmak için parmak izinizi doğrulayın</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_about_security_chip">Özel güvenlik çipinin cihazınızı nasıl korduğunu öğrenin</string>
     <string name="learn_more">Daha fazla bilgi</string>
@@ -5991,6 +6090,7 @@ Xiaomi Cloud'u açın ve ögeleri oradan geri yükleyin."</string>
     <string name="license_title">Lisans</string>
     <string name="lift_to_wake_title">Kaldırarak uyandır</string>
     <string name="light_camera_state_summary">Zamanlı veya seri çekim yaparken arka ışığı açın</string>
+    <string name="light_camera_state_summary_new">Zamanlı veya seri çekim yaparken LED ışığı açın</string>
     <string name="light_camera_state_title">Kamera durum göstergesi</string>
     <string name="light_color_mode">Işık modu</string>
     <string name="lights_title">LED ışık</string>
@@ -6677,6 +6777,7 @@ Bu işlemi geri alamazsınız."</string>
 Bu işlemi geri alamazsınız."</string>
     <string name="master_clear_title">Tüm verileri sil (fabrika ayarlarına sıfırlama)</string>
     <string name="master_clear_title_new">Fabrika ayarlarına sıfırla</string>
+    <string name="material_classic_title">Buzlu cam</string>
     <string name="material_clock_toggle_content_description">"ÖÖ veya ÖS'yi seçin"</string>
     <string name="material_hour_24h_suffix">%1$s saat</string>
     <string name="material_hour_selection">Saat seçin</string>
@@ -6693,6 +6794,7 @@ Bu işlemi geri alamazsınız."</string>
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Zamanı seçin</string>
     <string name="material_timepicker_text_input_mode_description">Zaman girişi için metin girişi moduna geçin.</string>
+    <string name="material_transparent_title">Yumuşak cam</string>
     <string name="max_aspect_settings_all_app_display_loading">Yalnızca bir sn.…</string>
     <string name="max_cpu10_info">"On Çekirdek Maks. "</string>
     <string name="max_cpu2_info">"Çift Çekirdek Maks. "</string>
@@ -6834,6 +6936,8 @@ Bu işlemi geri alamazsınız."</string>
     <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
     <string name="mi_smart_play_entry_title">Mi Smart Play</string>
     <string name="mi_transfer">Mi Taşıyıcı</string>
+    <string name="mi_transfer_banner_summary">Birden fazla cihaz markası desteklenir</string>
+    <string name="mi_transfer_banner_title">Ögeleri eski cihazınızdan aktarın</string>
     <string name="mi_upi_settings">Mi Pay Hesabı</string>
     <string name="mi_wallet">Mi Cüzdan</string>
     <string name="mi_wallet_desc">Mi Cüzdan</string>
@@ -7080,30 +7184,11 @@ Ek ayarlara erişmek için devam edin."</string>
     <string name="miui_face_unlock_open_toast_for_sensor_light_virtual">Ekran parlaklığı otomatik ayarlanmayacak</string>
     <string name="miui_input_method_attention">Uyarı</string>
     <string name="miui_input_method_settings">Giriş yöntemi ayarları</string>
-    <string name="miui_lab_ai_cloud_closed">AI ön yükleme henüz kullanılabilir değil.</string>
-    <string name="miui_lab_ai_preload_desc">AI ön yükleme, uygulamaların daha hızlı açılmasını sağlar</string>
-    <string name="miui_lab_ai_preload_title">AI ön yükleme</string>
-    <string name="miui_lab_aiasst_call_screen_desc">Al kullanarak aramaları cevaplayın</string>
-    <string name="miui_lab_aiasst_call_screen_title">AI Arama Asistanı</string>
-    <string name="miui_lab_drive_mode_desc">Sesli kontrolü kullanın ve WeChat mesajlarını dinleyin</string>
-    <string name="miui_lab_drive_mode_title">Araç modu</string>
-    <string name="miui_lab_feature_applied">Uygulandı</string>
-    <string name="miui_lab_feature_off">Kapalı</string>
-    <string name="miui_lab_feature_on">Açık</string>
-    <string name="miui_lab_features">MIUI laboratuvar özellikleri</string>
-    <string name="miui_lab_gallery_search_desc">Gelişmiş resim arama</string>
-    <string name="miui_lab_gallery_search_title">Galeride fotoğraf bul</string>
-    <string name="miui_lab_gesture_desc">Gezinme için tuşlar yerine hareketleri kullanın</string>
-    <string name="miui_lab_gesture_title">Tam ekran hareketleri</string>
-    <string name="miui_lab_install_drive_mode_error">Yüklenemedi. Tekrar deneyin.</string>
-    <string name="miui_lab_install_drive_mode_summary">Araç modu bir sistem uygulamasıdır. Kurulum için internet bağlantısı gerekmez.</string>
-    <string name="miui_lab_install_drive_mode_title">Araç modunu yükle</string>
-    <string name="miui_lab_settings">Lab</string>
-    <string name="miui_lab_slogan">Öğren. Araştır. Keşfet.</string>
     <string name="miui_master_clear_prompt_battery_low">Pil seviyesi %1$s oranından az olduğunda fabrika ayarlarına sıfırlama işlemi gerçekleştirilemez. Devam etmeden önce cihazınızı şarj edin.</string>
     <string name="miui_master_clear_summary">Bu cihazdaki tüm verileri siler</string>
     <string name="miui_more_special_feature">Yeni özellikleri keşfet</string>
     <string name="miui_nfc_dialog_message">"NFC'yi kapatırsanız Mi Pay, ulaşım kartı, anahtar kartı ve daha fazlasını içeren NFC özelliklerini kullanamayacaksınız. Yine de kapatılsın mı?"</string>
+    <string name="miui_nfc_dialog_message_gl">"NFC'yi kapatırsanız NFC etiketlerini okuma ve yazma, ulaşım kartlarını kullanma ve daha fazlası dahil olmak üzere NFC özelliklerini kullanamayacaksınız. Yine de kapatılsın mı?"</string>
     <string name="miui_nfc_dialog_negative">Kapat</string>
     <string name="miui_nfc_dialog_positive">İptal</string>
     <string name="miui_nfc_dialog_title">"NFC'yi kapatma"</string>
@@ -7230,6 +7315,7 @@ Herhangi bir kullanıcı bu cihazda var olan tüm kullanıcı profilleri adına 
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Yarım ekrana geç</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Büyüt</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Küçült</string>
+    <string name="miuix_popup_show_description">Açılır pencere</string>
     <string name="miuix_popup_window_default_title">Açılır pencere</string>
     <string name="miuix_progressbar_loading">Yükleniyor</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yenilemek için aşağı çekin</string>
@@ -7714,6 +7800,12 @@ Herhangi bir kullanıcı bu cihazda var olan tüm kullanıcı profilleri adına 
     <string name="next_button_label">Sonraki</string>
     <string name="next_label">İleri</string>
     <string name="next_page_content_description">Sonraki</string>
+    <string name="nfc_ac_btn_no">İptal</string>
+    <string name="nfc_ac_btn_yes">Ayarla</string>
+    <string name="nfc_ac_confirm_ask">Erişim kartı varsayılan kart olarak ayarlansın mı?</string>
+    <string name="nfc_ac_confirm_desc">Telefonunuzu dokundurarak kapıları açmak için erişim kartını varsayılan dokundurma kartı olarak ayarlayın.</string>
+    <string name="nfc_ac_summary">Telefonunuzu bir erişim kartı olarak kullanın ve tek dokunuşla desteklenen kapıların kilidini açın</string>
+    <string name="nfc_ac_title">Erişim kartı</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Kullanmak için önce bir ödeme uygulaması yükleyin</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">NFC kapalı olduğundan kullanılamıyor</string>
     <string name="nfc_category_title">NFC</string>
@@ -7738,7 +7830,7 @@ Herhangi bir kullanıcı bu cihazda var olan tüm kullanıcı profilleri adına 
     <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Varsayılan olarak ayarla</string>
     <string name="nfc_payment_btn_text_update">Güncelle</string>
-    <string name="nfc_payment_default">Ödeme varsayılanı</string>
+    <string name="nfc_payment_default">Varsayılan kartı seçin</string>
     <string name="nfc_payment_default_not_set">Ayarlanmadı</string>
     <string name="nfc_payment_favor_default">Her zaman varsayılan uygulamayı kullan</string>
     <string name="nfc_payment_favor_open">Diğer ödeme uygulaması açıldığında varsayılan uygulamayı değiştir</string>
@@ -7807,7 +7899,10 @@ Bu seçenek, varsayılan ödeme uygulamanız olan %2$s uygulamasının yerini al
     <string name="night_display_temperature_title">Yoğunluk</string>
     <string name="night_display_text">Gece Işığı, ekranınızın renk tonunu amber yapar. Bu renk tonlaması, ekranınızı loş ışıkta daha iyi görmenizi sağlar ve daha kolay uyumanıza yardımcı olabilir.</string>
     <string name="night_display_title">Gece Işığı</string>
+    <string name="night_eye_protection_summary">Uykuya daldıktan sonra otomatik olarak parlaklığı azaltarak gece uyandığınızda cihazınıza bakarken rahat etmenizi sağlar.</string>
+    <string name="night_eye_protection_title">Gece göz konforu</string>
     <string name="night_light_main_switch_title">"Gece Işığı'nı kullan"</string>
+    <string name="night_vision_adapted_game_title">@string/adapted_game_title</string>
     <string name="nls_feature_modes_settings_summary">"Modlar'ı yönetebilir, etkinleştirebilir ve ilgili ayarları değiştirebilir."</string>
     <string name="nls_feature_read_summary">Kişiler, mesajlar ve fotoğraflar gibi kişisel bilgiler de dahil olmak üzere bildirimlerinizi okuyabilir.</string>
     <string name="nls_feature_read_title">Bildirimlerinizi okuma</string>
@@ -8290,6 +8385,7 @@ Hareketli USB 10 dakika işlem yapılmadığında otomatik olarak kapatılır."<
     <string name="paper_mode_customize_time_summary">Okuma modunu özel bir zaman aralığında aç</string>
     <string name="paper_mode_customize_time_title">Özel zaman</string>
     <string name="paper_mode_enable_description">Ekrana daha sıcak bir ton ekleyerek mavi ışığı azaltın</string>
+    <string name="paper_mode_enable_title">@string/screen_paper_mode_title</string>
     <string name="paper_mode_end_time_title">Kapat</string>
     <string name="paper_mode_get_location_dlg_msg">Gün doğumu ve gün batımı zamanını hesaplamak için konumunuza erişim izni gerekmektedir</string>
     <string name="paper_mode_get_location_dlg_negative_btn_text">İptal</string>
@@ -8323,6 +8419,7 @@ Bu hizmeti kullanmadan önce %s sözleşmesini okuyun ve kabul edin."</string>
     <string name="password_save_success">Başarıyla kaydedildi</string>
     <string name="password_saving">Şifre kaydediliyor…</string>
     <string name="password_security_settings_title">Şifreler &amp; güvenlik</string>
+    <string name="password_set_success_hint">Şimdi cihazınızın kilidini yeni ekran kilidinizle açabilirsiniz</string>
     <string name="password_setup_complete">Şifre başarıyla ayarlandı</string>
     <string name="password_toggle_content_description">Şifreyi göster</string>
     <string name="password_turned_off_text">Şifre devre dışı bırakıldı</string>
@@ -8489,6 +8586,13 @@ Bu hizmeti kullanmadan önce %s sözleşmesini okuyun ve kabul edin."</string>
     <string name="please_stop_listen_broadcast_audio">Önce yayını dinlemeyi durdurun</string>
     <string name="please_type_passphrase">Şifre</string>
     <string name="pm">ÖS</string>
+    <string name="pocket_musician">Xiaomi Cep Gitarı</string>
+    <string name="pocket_musician_battery_toast_both">"Yazılımı güncellemeden önce bu cihazı ve Xiaomi Cep Gitarı'nı şarj edin"</string>
+    <string name="pocket_musician_battery_toast_device">"Yazılımı güncellemeden önce Xiaomi Cep Gitarı'nı şarj edin"</string>
+    <string name="pocket_musician_battery_toast_phone">Bu cihazı şarj cihazına takın ve tekrar yazılımı güncellemeyi deneyin</string>
+    <string name="pocket_musician_ota_connect_first">"Güncelleme bilgisi almak için Xiaomi Cep Gitarı'nı bağlayın"</string>
+    <string name="pocket_musician_ota_dialog_text">Güncelleniyor…</string>
+    <string name="pocket_musician_ota_summary">Güncellemeden sonra bu aksesuarı manuel olarak yeniden başlatın</string>
     <string name="poco_launcher_privacy_policy">POCO Başlatıcı Gizlilik Politikası</string>
     <string name="poco_launcher_user_agreement">POCO Başlatıcı Kullanıcı Sözleşmesi</string>
     <string name="pointer_fill_style">İmleç rengi</string>
@@ -8513,6 +8617,7 @@ Bu hizmeti kullanmadan önce %s sözleşmesini okuyun ve kabul edin."</string>
     <string name="popup_window">Kayan bildirimleri kısıtla</string>
     <string name="post_dsds_reboot_notification_text">SIM ayarlarını güncellemek için dokunun</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">"%1$s SIM'inizin aktif olduğundan emin olun."</string>
+    <string name="post_reset_google_verification">Fabrika ayarlarına sıfırladıktan sonra şifre belirlemek için bu cihazda daha önce kullanılan Google Hesabı ile oturum açın.</string>
     <string name="power_autorun_apps_empty">Burada uygulama yok</string>
     <string name="power_autorun_empty">Kullanılabilir uygulama yok</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -9087,7 +9192,29 @@ Cihazınızı bilgisayara bağlayan veya cihazınıza kötü amaçlı uygulamala
     <string name="proxy_url_title">"PAC URL'si: "</string>
     <string name="proxy_warning_limited_support">HTTP proxy, tarayıcı tarafından kullanılır, ancak diğer uygulamalar tarafından kullanılmayabilir.</string>
     <string name="pss_profiling_disabled">Bellek kullanımının profilini çıkarma devre dışı bırakıldı</string>
+    <string name="qingcai_eye_care_summery">Ekrandaki içeriği otomatik olarak algılayın ve zararlı mavi ışığı filtreleyerek oyun renklerini canlı tutun</string>
+    <string name="qingcai_eye_care_title">Göz konforu (canlı)</string>
     <string name="qr_code_content_description">QR kodu</string>
+    <string name="quick_button_check_app_activity_title">Hızlı başlatma için uygulama seçin</string>
+    <string name="quick_button_check_app_not_found_txt">Sonuç bulunamadı</string>
+    <string name="quick_button_check_app_search_edit_hint">Uygulamaları ara</string>
+    <string name="quick_button_check_app_search_text_cancel_txt">İptal</string>
+    <string name="quick_button_check_app_search_text_submit_txt">Bitti</string>
+    <string name="quick_button_eyecare_mode_summery">Mavi ışığı azaltmak için Okuma modunu açın</string>
+    <string name="quick_button_eyecare_mode_tile">Okuma modu</string>
+    <string name="quick_button_furious_mode_summery">Tabletinizinden en iyi şekilde yararlanmak için Nihai moda geçin</string>
+    <string name="quick_button_furious_mode_title">Nihai mod</string>
+    <string name="quick_button_inspiration_summery">Aklınıza gelen fikirleri yakalamak için kaleminizle yazın</string>
+    <string name="quick_button_inspiration_title">Yazma</string>
+    <string name="quick_button_none_title">Eylem yok</string>
+    <string name="quick_button_preference_title">Kısayol tuşu</string>
+    <string name="quick_button_screenshot_summery">İhtiyacınız olduğunda ekran görüntüsü alın</string>
+    <string name="quick_button_screenshot_title">Ekran görüntüsü</string>
+    <string name="quick_button_start_button_txt">Uygulama seçin</string>
+    <string name="quick_button_start_summery">Sık kullanılan uygulamalarınızı daha hızlı açın</string>
+    <string name="quick_button_start_title">Hızlı başlatma</string>
+    <string name="quick_button_super_ai_summery">Ekrandaki her şeyi anında ezberleyin</string>
+    <string name="quick_button_super_ai_title">Xiaomi Hyper XiaoAi bellek</string>
     <string name="quick_function">Yardımcı özellikler</string>
     <string name="quick_reply_title">Hızlı yanıtlar</string>
     <string name="quick_settings_developer_tiles">Hızlı ayarlar geliştirici kutuları</string>
@@ -9331,6 +9458,10 @@ Alanınızdaki tüm uygulamalar ve verileri de telefonunuzun "<b>dahili depolama
     <string name="right_function_key">Sağ kısayol</string>
     <string name="right_hearing_aid">Sağ işitme cihazı</string>
     <string name="right_shoulder_key">Sağ</string>
+    <string name="ring_remote_battery_status_toast_one">Bu cihazı şarj cihazına takın ve tekrar yazılımı güncellemeyi deneyin</string>
+    <string name="ring_remote_battery_status_toast_three">Donanım yazılımını güncellemeden önce manyetik tutucunuzun pilini değiştirin</string>
+    <string name="ring_remote_battery_status_toast_two">Şarj cihazını bu cihaza bağlayın ve manyetik tutucunun pilini değiştirin, ardından tekrar yazılımı güncellemeyi deneyin</string>
+    <string name="ring_remote_ota_summary">Güncelleniyor. Bağlantıyı kesmeyin.</string>
     <string name="ring_to_you">Özel zil sesi</string>
     <string name="ring_to_you_info">Siz cevaplamadan önce diğer insanların duyacağı özel bir ses ayarlayın</string>
     <string name="ring_volume_option_title">Zil sesi</string>
@@ -9351,6 +9482,26 @@ Alanınızdaki tüm uygulamalar ve verileri de telefonunuzun "<b>dahili depolama
     <string name="roaming_warning">Dolaşım ücretleri alınabilir.</string>
     <string name="rom_total_size">Toplam ROM boyutu</string>
     <string name="root">Root erişimi</string>
+    <string name="rp_clone_space_password_same_tip">Yeni ekran kilidi İkinci alan şifresinden farklı olmalıdır</string>
+    <string name="rp_forget_password_dialog_button_know">Anladım</string>
+    <string name="rp_forget_password_dialog_desc">Ekran kilidinizi yakın zamanda değiştirdiyseniz ve cihazınız çok fazla başarısız kilit açma denemesinden sonra kilitlendiyse parmak izinizle son %1$d saat içinde değiştirilen ekran kilidinizi doğrulayarak mevcut ekran kilidinizi sıfırlayabilirsiniz.</string>
+    <string name="rp_forget_password_dialog_note">"Kilit ekranında birden fazla başarısız kilit açma denemesinden sonra ekran kilidinizi sıfırlamayı başlatmak için ''Şifremi unuttum'' seçeneğine dokunun."</string>
+    <string name="rp_forget_password_dialog_title">Cihaz kilitlendiğinde ekran kilidini sıfırla</string>
+    <string name="rp_old_password_retention_hint">Önceki ekran kilidiniz bir süre tutulacak. Yeni ekran kilidinizi unutursanız sıfırlamak için öncekini kullanabilirsiniz.</string>
+    <string name="rp_password_no_match">PIN kodları eşleşmiyor. Tekrar deneyin.</string>
+    <string name="rp_remove_old_password">Önceki ekran kilidini sil</string>
+    <string name="rp_reset_dialog_button_cancel">İptal</string>
+    <string name="rp_reset_dialog_button_confirm">Temizle</string>
+    <string name="rp_reset_dialog_message">Yakın zamanda ekran kilidinizi değiştirdiniz. Yine de önceki ekran kilidinizi ve parmak izinizi kullanarak mevcut ekran kilidinizi sıfırlayabilirsiniz. Bu yedek seneçeğe ihtiyacınız yoksa önceki ekran kilidini şimdi silebilirsiniz.</string>
+    <string name="rp_reset_dialog_title">Önceki ekran kilidini sil</string>
+    <string name="rp_reset_old_password_now_desc">Önceki ekran kilidinizi ve parmak izinizi doğruladıktan sonra yeni bir ekran kilidi ayarlamak için yönlendirileceksiniz.</string>
+    <string name="rp_reset_old_password_now_title">Ekran kilidi sıfırlanıyor…</string>
+    <string name="rp_reset_password_hint">Sonraki %1$s %2$s için önceki ekran kilidinizi ve parmak izinizi doğrulayarak mevcut ekran kilidinizi sıfırlayabilirsiniz.</string>
+    <string name="rp_set_new_password">Yeni bir ekran kilidi ayarla</string>
+    <string name="rp_set_new_password_desc">Yeni ekran kilidinizi unutursanız önceki ekran kilidinizi ve parmak izinizi kullanarak yenisini sıfırlayabilirsiniz.</string>
+    <string name="rp_set_new_password_finish_desc">Unutulan ekran kilidi, önceki ekran kilidiniz olarak kaydedilmeyecek. Orijinal önceki ekran kilidiniz için zamanlayıcı sıfırlanacak.</string>
+    <string name="rp_set_new_password_finish_title">Başarıyla ayarlandı</string>
+    <string name="rp_set_new_pattern">Yeni desen çiz</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
     <string name="rtt_settings_summary">Arama sırasında mesajla iletişim kurun</string>
@@ -9514,6 +9665,7 @@ Alanınızdaki tüm uygulamalar ve verileri de telefonunuzun "<b>dahili depolama
     <string name="screen_effect_adapt_color_title">Canlı</string>
     <string name="screen_effect_origin_color_summary">Renk kalibrasyonu yoluyla gerçekçi renkleri yeniden üretin</string>
     <string name="screen_effect_origin_color_title">Orijinal renk PRO</string>
+    <string name="screen_effect_tip">İçeriğe en uygun renk alanı otomatik olarak seçilecektir. sRGB, P3 ve BT.2020 formatlarını destekler.</string>
     <string name="screen_enhance_engine_ai_note">%d. Bu özellik güç tüketimini biraz arttırır.</string>
     <string name="screen_enhance_engine_ai_note_2">%d. Yalnızca Galeri uygulamasından alınan görüntüler geliştirilebilir.</string>
     <string name="screen_enhance_engine_ai_note_3">%d. Orijinal renkleri görüntülemeyi seçerseniz veya gelişmiş ayarlamaları uyguladıysanız bu özellik çalışmayacaktır.</string>
@@ -9751,6 +9903,7 @@ Uygulama sabitlemeyi kullanmak için: \t
     <string name="search_account_list">Diğer hesaplar;Hesap;Hesaplar</string>
     <string name="search_add_facerecoginition_text">Yüz ile kilit açma;Yüz tanıma</string>
     <string name="search_advanced_settings">Gelişmiş ayarlar;Wifi;Wifi ayarları;WLAN ayarları</string>
+    <string name="search_ai_companion_title">Pano kısayolu;Kopyala;Anında erişim;Erişim</string>
     <string name="search_airplane_mode">Uçak modu;Uçak modu;Uçuş modu;Uçak;Uçak;Uçuş</string>
     <string name="search_alarm_sound_title">Alarm sesi;alarm zil sesi;alarm</string>
     <string name="search_ambient_display_screen_title">Ortam ekranı;Her zaman açık ekran;Her zaman açık ekran</string>
@@ -9762,6 +9915,7 @@ Uygulama sabitlemeyi kullanmak için: \t
     <string name="search_application_lock_name">Uygulama kilidi</string>
     <string name="search_applications_settings">Yüklü uygulamalar</string>
     <string name="search_back_key">Geri;Geri tuşu;Geri düğmesi</string>
+    <string name="search_background_blur_mode">Buzlu cam;Yumuşak cam;Görsel stil</string>
     <string name="search_battery_indicator">Pil göstergesi</string>
     <string name="search_bluetooth_device_searchable">Bulunabilirlik;Görünürlük;Bluetooth adı</string>
     <string name="search_bluetooth_enable">"Bluetooth;Bluetooth'u aç;Bluetooth açık"</string>
@@ -9969,10 +10123,18 @@ seçenekleri;Yardım;Geliştirici;Geliştiriciler;Geliştirme;Gelişim;Sorun gid
     <string name="security_advanced_settings_work_profile_settings_summary">İş profili kilidi, şifreleme ve daha fazlası</string>
     <string name="security_center_title">Güvenlik</string>
     <string name="security_check_progress_dialog_message">Güvenlik sorunları kontrol ediliyor…</string>
+    <string name="security_chip">Güvenlik çipi</string>
     <string name="security_chip_active">Şifreler ve parmak izi verileri özel güvenlik çipi ile korunmaktadır. <Data>&lt;br/>&lt;a href=security_chip_bottomsheet>Daha fazla bilgi edin&lt;/a></Data></string>
+    <string name="security_chip_data_protection">Özel bir güvenlik çipi verilerinizi korumaya yardımcı olur</string>
     <string name="security_chip_description">Özel güvenlik çipi hassas cihaz verilerini korumak için Xiaomi tarafından tasarlanmış bir donanım güvenlik modülüdür.</string>
     <string name="security_chip_details">NFC güvenlik çipinin aksine özel güvenlik çipi ekran kilidinizi, şifrelenmiş hassas verileri ve parmak izi bilgilerini korur. Daha güçlü koruma, daha iyi kararlılık ve müdahalelere karşı geliştirilmiş direnç sağlamak için fiziksel olarak NFC çipinden izole edilmiştir.</string>
+    <string name="security_chip_dialog_confirm">Anladım</string>
+    <string name="security_chip_dual_certification">Hem Ortak Kriterler (CC) hem de Çin ticari kriptografi sertifikasyon gereksinimlerini karşılayan güvenlik çipi, fiziksel saldırılara ve kaba kuvvetle şifre kırma girişimlerine karşı koruma sağlar</string>
+    <string name="security_chip_fingerprint_encrypt">Parmak izleriniz şifrelenir ve güvenlik çipi ile korunur</string>
+    <string name="security_chip_hardware_encryption">Donanım düzeyinde şifreleme</string>
+    <string name="security_chip_hardware_vault">Güvenli donanım modülü</string>
     <string name="security_chip_password_protection">Çipin Weaver mekanizması sayesinde şifreleriniz donanım düzeyinde korunur:</string>
+    <string name="security_chip_root_key_protection">Kök anahtar, özel bir güvenlik çipi ile korunmaktadır, bu nedenle sistem veya üçüncü taraf uygulamalar tarafından erişilemez.</string>
     <string name="security_dashboard_summary">Ekran kilidi, Cihazımı Bul, uygulama güvenliği</string>
     <string name="security_encryption_alert_dialog_info_first">Bu özelliği kullanabilmek için bir ekran kilidi ayarlayın. Cihaz şifresini çözmek ve cihazı normal olarak kullanabilmek için cihazı her yeniden başlatmanızdan sonra ekran kilidini girmeniz gerekecektir.</string>
     <string name="security_encryption_alert_dialog_title_first">Öncelikle ekran kilidi ayarlayın</string>
@@ -10390,6 +10552,8 @@ Her seferinde parmağınızı hafifçe hareket ettirin. Bu şekilde parmak izini
     <string name="set_jeejen_prompt_message">Basit mod varsayılan başlatıcınız olarak ayarlanacaktır. Varsayılan başlatıcıyı, Ayarlar > Ana ekran &amp; Son kullanılanlar > Varsayılan başlatıcı menüsünden değiştirebilirsiniz.</string>
     <string name="set_jeejen_prompt_title">Değişiklikleri onayla</string>
     <string name="set_lock_screen_password">Ekran kilidi ayarla</string>
+    <string name="set_new_password_hint">Yeni ekran kilidinizi girin ve unutmayın</string>
+    <string name="set_new_password_hint_new">Yeni ekran kilidinizi girin ve unutmayın</string>
     <string name="set_pad_clone_password">Tabletin İkinci alan şifresini ayarlayın</string>
     <string name="set_password">Ekran kilidi ayarla</string>
     <string name="set_password_before_face">Yüz verisi eklemeden önce ekran kilidini ayarlayın</string>
@@ -11389,6 +11553,8 @@ Daha hızlı bir ^3 kullanmayı deneyin veya bunun yerine bu ^4 birimini taşın
     <string name="sunlight_mode">Güneş ışığı modu</string>
     <string name="sunlight_mode_boost_summary">Parlak koşullarda parlaklık aralığını genişletin ve parlaklığı otomatik ayarlayın! Bu özellik cihazınızın ısınmasına ve dah fazla güç tüketmesine neden olacaktır.</string>
     <string name="sunlight_mode_summary">Ekranın çok karanlık olmasını engellemek için güçlü ortam ışığında parlaklığı ayarlayın</string>
+    <string name="super_sensory_night_vision_summery">Düşük ışıkta kontrastı iyileştirerek ayrıntıların net kalmasını ve daha iyi bir gece oyun deneyimi yaşamanızı sağlar</string>
+    <string name="super_sensory_night_vision_title">Gelişmiş gece görüşü</string>
     <string name="super_voice_assist">Süper Mi AI</string>
     <string name="super_volume_tip">Maksimum ses seviyesi %s</string>
     <string name="supervision_add_forgot_pin_preference_title">"PIN'i unuttum"</string>
@@ -11491,6 +11657,7 @@ PIN'i Android Ayarları > Ebeveyn Denetimleri bölümünden düzenleyebilir veya
     <string name="swipe_add_fingerprint_dirty_title">Parmağınızın temiz ve kuru olduğundan emin olun</string>
     <string name="swipe_add_fingerprint_finish_text">Daha iyi kilit açmak için daha fazla açıdan parmak izinizi kaydetmeyi deneyin</string>
     <string name="swipe_add_fingerprint_insufficient_title">Parmak iziniz tanımlanamadı. Tekrar deneyin.</string>
+    <string name="swipe_add_fingerprint_message">İlerledikçe açıyı değiştirerek Güç tuşu boyunca yavaşça kaydırın</string>
     <string name="swipe_add_fingerprint_move_text">Farklı açıları ve pozisyonları deneyin</string>
     <string name="swipe_add_fingerprint_move_title">Tutuşunuzu ayarlayın</string>
     <string name="swipe_add_fingerprint_need_up_text">Parmak izinizi yakalamada sorun yaşıyoruz</string>
@@ -11502,6 +11669,7 @@ PIN'i Android Ayarları > Ebeveyn Denetimleri bölümünden düzenleyebilir veya
     <string name="swipe_add_fingerprint_swipe_fast_title">Parmağınızı yavaşça hareket ettirin</string>
     <string name="swipe_add_fingerprint_swipe_slow_title">Parmağınızı daha hızlı hareket ettirin</string>
     <string name="swipe_add_fingerprint_text">Parmak izinizin kenarlarını yakalamak için tutuşunuzu ayarlayın</string>
+    <string name="swipe_add_fingerprint_title">Parmağınızı sağa ve sola hareket ettirin</string>
     <string name="swipe_add_fingerprint_up_text">Parmağınızı hafifçe bastırın ve döndürün</string>
     <string name="swipe_add_fingerprint_up_title">Parmak izi alanının ortasına basın</string>
     <string name="swipe_direction_ltr">Menüyü kapatmak için sağa, göstermek için sola kaydırın</string>
@@ -13281,6 +13449,7 @@ Farklı bir Wi-Fi ağına bağlanmak için "<b>Geri</b> seçeneğine dokunun.</s
     <string name="wifi_share_add">Halka açık Wi-Fi ağlarımı paylaş</string>
     <string name="wifi_share_add_summary">"Halka açık Wi-Fi ağlarınızı paylaştığınızda
 diğer kullanıcıların ağlarını da kullanabilirsiniz."</string>
+    <string name="wifi_share_close_button_description">Kapat</string>
     <string name="wifi_share_conflict_dialog_message">\"%1$s\" adlı bir paylaşılan ağ zaten var. Paylaşılan ağa geçerseniz özel ağınızdan ayrılırsınız ve geçici olarak internet bağlantınız kesilebilir.</string>
     <string name="wifi_share_conflict_dialog_title">Paylaşılan ağa geçilsin mi?</string>
     <string name="wifi_share_connect">Bağlan</string>
@@ -13295,6 +13464,7 @@ diğer kullanıcıların ağlarını da kullanabilirsiniz."</string>
     <string name="wifi_share_plain_password_text">Şifre: %s</string>
     <string name="wifi_share_preference_summary">Bu cihazdaki diğer kullanıcılar bu ağa erişebilir</string>
     <string name="wifi_share_preference_title">Ağı paylaşın</string>
+    <string name="wifi_share_qr_code_description">QR kodu</string>
     <string name="wifi_share_qrcode_finish">Bitti</string>
     <string name="wifi_share_qrcode_summary">Paylaşmak için yukarıdaki QR kodunu taratın.</string>
     <string name="wifi_share_qrcode_title">Wi-Fi ağını paylaş</string>
@@ -13378,6 +13548,10 @@ diğer kullanıcıların ağlarını da kullanabilirsiniz."</string>
     <string name="wifi_wakeup_location_summary">Bu özelliğini kullanabilmek için konum hizmetlerini açın.</string>
     <string name="wifi_wakeup_negative_button">İptal</string>
     <string name="wifi_wakeup_positive_button">Aç</string>
+    <string name="wifi_wakeup_privacy_agree">Kabul et</string>
+    <string name="wifi_wakeup_privacy_content">"\"Wi-Fi'yi otomatik olarak aç (\"bu hizmet\"), Xiaomi Inc. (\"biz\" veya \"Xiaomi\") tarafından sağlanan bir hizmettir. Ev ağınız gibi yüksek kaliteli Wi-Fi ağlarını kaydeder ve mobil veri kullanımını azaltmak için yakınlarda olduğunuzda otomatik olarak Wi-Fi'yi açar. Kişisel bilgilerinizin ve gizliliğinizin korunmasına büyük önem veriyoruz. Kişisel bilgileriniz için ilgili yasal gereklilikler ve sektör standartları uyarınca gerekli güvenlik önlemlerini sağlayacağız.&lt;br>Bu hizmeti açtığınızda sizi yakındaki yüksek kaliteli Wi-Fi ağlarıyla eşleştirmek için baz istasyonu kimliğine göre yaklaşık konum bilgilerinizi toplayacağız. &lt;br>Bu bilgiler yalnızca cihazınızda işlenecek ve cloud'a yüklenmeyecektir.&lt;br>Bu bilgiyi vermemeyi seçerseniz bu hizmeti kullanamayacaksınız.&lt;br>Kişisel bilgilerinizi yalnızca bu gizlilik bildirisinde açıklanan toplama amaçlarını gerçekleştirmek veya yürürlükteki yasal gerekliliklere uymak için gerekli olan süre boyunca sağlayacağız.&lt;br>Kişisel bilgilerin korunmasına yönelik özel bir bildirim oluşturduk. Bu gizlilik bildirisiyle ilgili görüş veya sorularınız ya da kişisel bilgilerinizin toplanması, kullanılması veya ifşa edilmesi ile ilgili sorularınız varsa &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a> adresinden bizimle iletişime geçin. Genellikle on beş iş günü içerisinde cevap vereceğiz.&lt;br>Bu gizlilik bildirisini okuduğunuzu ve kabul ettiğinizi göstermek için \"Kabul et\" seçeneğine dokunun."</string>
+    <string name="wifi_wakeup_privacy_disagree">İptal</string>
+    <string name="wifi_wakeup_privacy_title">Gizlilik bildirisi</string>
     <string name="wifi_wakeup_scan_summary">"Wi-Fi'yi otomatik olarak açabilmek için uygulamaların ve hizmetlerin Wi-Fi ağlarını aramasına izin verin. Bu özelliğin açılması cihazınızın yakındaki kayıtlı ağlara otomatik olarak bağlanmasına izin verecektir."</string>
     <string name="wifi_wakeup_summary">Ev ağınız gibi yüksek kaliteli kayıtlı ağların yakınında olduğunuzda kablosuz özelliği tekrar açılır</string>
     <string name="wifi_wakeup_summary_no_location">Konum kapalı olduğundan kullanılamıyor. <annotation id="link">Konum</annotation>"'u açın."</string>
@@ -13568,10 +13742,21 @@ diğer kullanıcıların ağlarını da kullanabilirsiniz."</string>
     <string name="xiaomi_cloud_service_description_without_contacts">Xiaomi Cloud fotoğraflarınızı senkronize eder, uygulamalarınızı ve ayarlarınızı yedekler ve Cihazı bul özelliğini kullanarak telefonunuzu bulmanıza yardımcı olur.</string>
     <string name="xiaomi_cloud_service_disabled">Kapalı</string>
     <string name="xiaomi_cloud_service_unknown">Bilinmeyen</string>
+    <string name="xiaomi_confirm_enable_16k_erase_checkbox_text">Riskleri anlıyorum ve olası sonuçları kabul ediyorum</string>
+    <string name="xiaomi_confirm_enable_16k_pages_text">Bu modda yazılım bütünlüğü garanti edilemez. Bu işlem cihazınızı yeniden başlatacaktır.</string>
+    <string name="xiaomi_confirm_enable_16k_pages_update_wipe">\"16 KB sayfa boyutu ile başlatma\", yalnızca geliştirici testlerine yönelik yüksek hassasiyetli bir özelliktir. Bu özelliğin açılması; fotoğraflar, videolar, belgeler ve tüm uygulama verileri dahil olmak üzere cihazdaki tüm verileri silecektir. Yazılım bütünlüğü garanti edilemez. Bu modda bazı özellikler kullanılamayabilir ve bazı uygulamalar düzgün çalışmayabilir.</string>
+    <string name="xiaomi_confirm_enable_4k_pages_text">Bu işlem cihazınızı yeniden başlatacaktır.</string>
+    <string name="xiaomi_confirm_reboot_button_text">Yeniden başlat</string>
+    <string name="xiaomi_confirm_reboot_title_text">Risk tespit edildi</string>
     <string name="xiaomi_custom_input_method">Xiaomi için özelleştirildi</string>
+    <string name="xiaomi_erase_confirm_countdown_format">Tamam (%1$d)</string>
     <string name="xiaomi_hp_location">Tam konum erişimi</string>
     <string name="xiaomi_hp_location_description">Tam konum bilgileri doğru navigasyona olanak tanır</string>
     <string name="xiaomi_money_service">Mi Para</string>
+    <string name="xiaomi_page_agnostic_16k_pages_text">Cihazınız, ext4 dosya sistemiyle birlikte 16 KB sayfa boyutu kullanıyor. F2FS dosya sistemini geri yüklemek için 4 KB sayfa boyutuna geri dönmeli ve fabrika ayarlarına sıfırlama işlemi gerçekleştirmelisiniz.</string>
+    <string name="xiaomi_page_agnostic_16k_pages_title">16 KB sayfa boyutu kullanılıyor</string>
+    <string name="xiaomi_page_agnostic_4k_pages_text">Cihazınız, ext4 dosya sistemiyle birlikte 4 KB sayfa boyutu kullanıyor. F2FS dosya sistemini geri yüklemek için fabrika ayarlarına sıfırlama işlemi gerçekleştirin.</string>
+    <string name="xiaomi_page_agnostic_4k_pages_title">4 KB sayfa boyutu kullanılıyor</string>
     <string name="xiaomi_router_available_notif_summary">Daha fazla bilgi için dokun.</string>
     <string name="xiaomi_router_available_notif_title">Mi Yönlendirici kullanılabilir</string>
     <string name="xiaomi_router_notif_summary">Mi Yönlendirici kullanılabilir olduğunda beni uyar</string>

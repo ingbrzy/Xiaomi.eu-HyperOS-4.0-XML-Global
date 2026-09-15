@@ -58,6 +58,7 @@
     <string name="advanced_customize_mode">Продвинутые настройки</string>
     <string name="afternoon">День</string>
     <string name="agreement_desc">Условия использования (обязательно)</string>
+    <string name="ai_app_unsupported_type_generation">Не удается создать это приложение</string>
     <string name="ai_apply_wallpaper">Применить</string>
     <string name="ai_cannot_scrolling_with_the_screen">Невозможно включить прокрутку для этих обоев</string>
     <string name="ai_creativity_all_album_images">Все альбомы</string>
@@ -150,6 +151,7 @@
     <string name="ai_wallpaper_tips_service_exception">Не удалось подключиться к серверу. Подождите немного и повторите попытку.</string>
     <string name="ai_wallpaper_tips_title_content_violation">Внимание!</string>
     <string name="ai_wallpaper_tips_view">Пейзажи</string>
+    <string name="air_quality_index_abbreviation">ИКВ</string>
     <string name="aiwallpaper_enhance_entry_content_moretype">Используя возможности больших моделей, эта функция создает видео на основе статических изображений, чтобы оживить ваши обои. В настоящее время поддерживаются изображения людей, животных и мультфильмы.</string>
     <string name="aiwallpaper_enhance_entry_content_path">"1. Перейдите в «Настройки» > «Персонализация» > «Динамические AI-обои».
 2. Нажмите кнопку «Добавить» в правом нижнем углу и выберите фото для создания динамических обоев."</string>
@@ -664,6 +666,23 @@
     <string name="item_resource_audio_optional_notification_ring">Уведомление</string>
     <string name="item_resource_audio_optional_phone_ring">Мелодия</string>
     <string name="item_view_role_description">Вкладка</string>
+    <string name="kg_allinone_drag_bottom">Перетащите нижнюю часть часов, чтобы настроить их высоту</string>
+    <string name="kg_allinone_drag_corner">Перетащите правый нижний угол часов, чтобы изменить их размер</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (скругленный)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (квадратный)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Этот шрифт не поддерживает стили структуры</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Текущий стиль, размер и толщина шрифта не поддерживают стили структуры</string>
+    <string name="kg_allinone_hollow_style_both">Часы и минуты: контур</string>
+    <string name="kg_allinone_hollow_style_hour">Часы: контур. Минуты: сплошной.</string>
+    <string name="kg_allinone_hollow_style_minute">Часы: сплошной. Минуты: контур.</string>
+    <string name="kg_allinone_hollow_style_none">Часы и минуты: сплошной</string>
+    <string name="kg_allinone_hollow_style_title">Стиль структуры</string>
+    <string name="kg_allinone_transparency_name">Прозрачность часов</string>
+    <string name="kg_allinone_transparency_title">Прозрачность</string>
+    <string name="kg_allinone_weight_title">Толщина шрифта</string>
     <string name="kg_choose_video_dialog_invalid_default_message">Это видео не поддерживается.</string>
     <string name="kg_choose_video_dialog_invalid_direction_title">Горизонтальные видео не поддерживаются.</string>
     <string name="kg_choose_video_dialog_invalid_format_message">Поддерживаются только файлы *.mp4 и *.mov без HDR.</string>
@@ -690,7 +709,10 @@
     <string name="kg_editor_cancel">Отмена</string>
     <string name="kg_editor_history_more">Еще</string>
     <string name="kg_editor_history_select_option">Выбрать объекты</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Стеклянные часы не поддерживают эффекты</string>
     <string name="kg_follow_the_theme">Подписаться на тему</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Размытие и наложение</string>
+    <string name="kg_font_filter_group_label_glass">Стекло</string>
     <string name="kg_function_button_text_follow">Экран блокировки</string>
     <string name="kg_function_button_text_home_pick">Выбрать</string>
     <string name="kg_function_font_filter_type_title">Эффект</string>
@@ -731,13 +753,22 @@
     <string name="kg_talkback_pick_wallpaper">Обои, выбрать из библиотеки</string>
     <string name="kg_talkback_select_all">Выбрать все</string>
     <string name="kg_talkback_selected">Выбрано</string>
+    <string name="kg_talkback_slide_up_or_down">Проведите вверх или вниз, чтобы отрегулировать</string>
     <string name="kg_talkback_unselect_all">Отменить выбор всего</string>
+    <string name="kg_template_description_magazine_natural">Стиль часов, который сочетает естественные пейзажи с многослойными визуальными эффектами для изысканного, выразительного вида</string>
+    <string name="kg_template_title_Ultra_longtime_a_talkback">Большие часы А</string>
+    <string name="kg_template_title_Ultra_longtime_b_talkback">Большие часы Б</string>
+    <string name="kg_template_title_classic_max_talkback">Классический экран блокировки МАКС</string>
     <string name="kg_template_title_desktop">Рабочий стол</string>
     <string name="kg_template_title_graffiti_lock">Экран блокировки с набросками</string>
     <string name="kg_template_title_lock_screen">Экран блокировки</string>
+    <string name="kg_template_title_magazine_c_one_talkback">Журнал В, контурный</string>
+    <string name="kg_template_title_magazine_natural">Визуальные элементы природы</string>
     <string name="kg_template_title_mine_collocation">Мои наборы</string>
     <string name="kg_template_title_oriental_aesthetics">Восточная эстетика</string>
     <string name="kg_template_title_oversize_time">Большие часы</string>
+    <string name="kg_template_title_plus_horizontal_talkback">Классический экран блокировки Плюс, горизонтальный</string>
+    <string name="kg_template_title_plus_vertical_talkback">Классический экран блокировки Плюс, вертикальный</string>
     <string name="kg_title_ai_generate">ИИ</string>
     <string name="kg_title_ai_generating">Создание…</string>
     <string name="kg_title_clock_name">Часы</string>
@@ -848,7 +879,7 @@ MM"</string>
     <string name="miui_rhombus_clock_date">d MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">d.M</string>
+    <string name="miui_smart_frame_clock_date">dd.MM</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -897,6 +928,7 @@ mm"</string>
     <string name="miuix_compat_dialog_ok">OK</string>
     <string name="miuix_compat_dialog_update_title">Проблемы совместимости</string>
     <string name="miuix_compat_mms">Сообщения</string>
+    <string name="miuix_popup_show_description">Всплывающее окно</string>
     <string name="miuix_popup_window_default_title">Всплывающее окно</string>
     <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потяните вниз для обновления</string>
@@ -1186,6 +1218,8 @@ mm"</string>
     <string name="pet_pay_no_records">Тут пока ничего нет</string>
     <string name="pet_pay_not_received_points">Баллы еще не поступили</string>
     <string name="pet_pay_paying_later">Не сейчас</string>
+    <string name="pet_pay_payment_confirming">Обработка платежа</string>
+    <string name="pet_pay_points_updated">Баллы появятся автоматически после зачисления.</string>
     <string name="pet_pay_result_failure_message">Произошла ошибка. Проверьте способ оплаты и повторите попытку.</string>
     <string name="pet_pay_result_success_message">Баллы добавлены! Угощайте своего питомца чем-нибудь особенным.</string>
     <string name="pet_photo_page_float_info">Чем четче фото, тем милее будет ваш AI-питомец</string>
@@ -1323,6 +1357,8 @@ mm"</string>
     <string name="rear_screen_ai_app_save_draft_yes">Сохранить</string>
     <string name="rear_screen_ai_app_second_space_blocked">Второе пространство недоступно</string>
     <string name="rear_screen_ai_app_task_limit_message">Перед созданием новой задачи дождитесь завершения текущей задачи</string>
+    <string name="rear_screen_ai_app_usage_limit_message">Не удается создать больше объектов сегодня. Повторите попытку завтра.</string>
+    <string name="rear_screen_ai_app_usage_limit_title">Не удается создать больше</string>
     <string name="rear_screen_aod_setting">Активный экран</string>
     <string name="rear_screen_aod_setting_title">Задний активный экран</string>
     <string name="rear_screen_apply_fail">Не удалось применить</string>
@@ -1344,6 +1380,8 @@ mm"</string>
     <string name="rear_screen_settings_entry_widget_ai_gen">Создан с помощью AI</string>
     <string name="rear_screen_settings_entry_widget_mine">Мои упрощенные приложения</string>
     <string name="rear_screen_settings_entry_widget_store">Магазин упрощенных приложений</string>
+    <string name="rear_screen_smart_display_description">Когда используется передний экран, задний экран через некоторое время автоматически выключается для экономии заряда батареи</string>
+    <string name="rear_screen_smart_display_title">Умный экран</string>
     <string name="rear_screen_sunlight_mode">Дневной режим</string>
     <string name="rear_screen_sunlight_mode_automatic_brightness_adjustment">Адаптировать яркость экрана в зависимости от внешней освещенности, чтобы изображение на экране не было слишком темным</string>
     <string name="rear_screen_template_upper_limit">Добавить больше не удаётся. Удалите один пункт в Настройках > Задний экран и попробуйте снова.</string>
@@ -1954,6 +1992,7 @@ mm"</string>
     <string name="uid_change_dialog_message">Вы удалили обновления. Для использования тем перезагрузите устройство.</string>
     <string name="uid_change_dialog_ok">Понятно</string>
     <string name="uid_change_dialog_title">Перезагрузите устройство</string>
+    <string name="ultraviolet_rays_abbreviation">УФИ</string>
     <string name="unknown_error">Произошла ошибка</string>
     <string name="unselected_align_center_horizontally">Выбор выравнивання по центру отменен</string>
     <string name="unselected_align_left_horizontally">Обнаружено выровненное по левому краю</string>
@@ -2053,9 +2092,6 @@ mm"</string>
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Ср</string>
     <string name="wednesday_shortest">Ср</string>
-    <string name="widget_add">Добавить</string>
-    <string name="widget_download">Загрузить</string>
-    <string name="widget_downloading">Загрузка</string>
     <string name="wifi_check_cancel">Отмена</string>
     <string name="wifi_check_confirm">OK</string>
     <string name="wifi_check_message">Использовать мобильный интернет для загрузки обновлений?</string>

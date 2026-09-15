@@ -2,10 +2,7 @@
 <resources>
     <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
-    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
     <string name="abc_action_mode_done">Klar</string>
-    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
-    <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
     <string name="abc_menu_alt_shortcut_label">Alt + </string>
@@ -20,12 +17,9 @@
     <string name="abc_prepend_shortcut_label">Meny + </string>
     <string name="abc_search_hint">Sök …</string>
     <string name="abc_searchview_description_clear">Ta bort frågan</string>
-    <string name="abc_searchview_description_query">Sökfråga</string>
     <string name="abc_searchview_description_search">Sök</string>
     <string name="abc_searchview_description_submit">Skicka fråga</string>
     <string name="abc_searchview_description_voice">Röstsökning</string>
-    <string name="abc_shareactionprovider_share_with">Dela med</string>
-    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="accept_all_permission_content">Hitta enhet kanske inte fungerar korrekt utan behörigheter. Välj alla de listade behörigheterna för att kunna använda alla funktioner i Hitta enhet.</string>
     <string name="accept_all_permission_title">Behörigheter krävs</string>
@@ -48,7 +42,6 @@
     <string name="alert_sync_merge_dialog_confirm">Aktivera</string>
     <string name="am">F.m</string>
     <string name="app_name">Xiaomi Cloud</string>
-    <string name="bad_authentication">Ogiltigt konto eller lösenord</string>
     <string name="browser_sync_settings_preference">Synka automatiskt</string>
     <string name="btn_return">Tillbaka</string>
     <string name="btn_revoke_permission">Återkalla samtycke</string>
@@ -56,6 +49,8 @@
     <string name="button_cancel">Avbryt</string>
     <string name="button_quit">Lämna</string>
     <string name="button_revoke">Återkalla</string>
+    <string name="calendar_date_picker_a11y_next_month">Ändra till nästa månad</string>
+    <string name="calendar_date_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="calendar_sync_item_permission">kalender</string>
     <string name="call_log_sync_item_permission">samtalshistorik</string>
     <string name="call_notification_answer_action">Svara</string>
@@ -118,8 +113,6 @@
     <string name="creation_dialog_title">Observera</string>
     <string name="creation_sync_settings_only_in_wifi">Synkronisera endast på WLAN</string>
     <string name="creation_sync_settings_only_in_wifi_summary">Rekommenderas för att spara mobildata</string>
-    <string name="creation_sync_settings_preference">Synkronisera canvasbilder</string>
-    <string name="creation_sync_settings_summary">Skapade canvasbilder</string>
     <string name="cta_notification_content_text">Tillåt %s att ansluta till internet för att kunna återställa objekt</string>
     <string name="cta_notification_content_title">Kan inte återställa objekt från %s</string>
     <string name="customize_notification_btn_text">Uppgradera</string>
@@ -143,15 +136,16 @@
     <string name="detect_sim_card">Sök efter SIM kort</string>
     <string name="device_activation_card_cannot_get_yet">Kunde inte få info. Försök igen om 3 - 5 dagar.</string>
     <string name="device_activation_card_cannot_get_yet_new">Det gick inte att hämta informationen. Vänta en minut eller två och försök igen.</string>
-    <string name="device_activation_card_description">Första aktiveringen registreras när en enhet ansluter till nätverket (inklusive men inte begränsat till Wi-Fi och mobilnätverk) för första gången. Det tar vanligtvis ett tag att registrera första aktiveringen, så det är bättre att vänta i 3-5 dagar efter anslutning till nätverket innan du kontrollerar anslutningsstatus.&lt;br>&lt;br>Enhetsaktivering är den huvudsakliga faktorn som avgör giltighetsperioden för vår utökade garanti. Kolla vår &lt;a href=%1$s>Retur-, Bytes- och Reparationspolicy&lt;/a> för fler detaljer.&lt;br>&lt;br>Tveka inte att ringa vår kundsupports hotline om du har några frågor: 400-100-5678.</string>
-    <string name="device_activation_card_description_china">Första aktiveringen registreras när en enhet ansluter till nätverket (inklusive men inte begränsat till WLAN och mobilnätverk) för första gången. Det tar vanligtvis ett tag att registrera första aktiveringen, så det är bättre att vänta i 3-5 dagar efter anslutning till nätverket innan du kontrollerar anslutningsstatus.&lt;br>&lt;br>Enhetsaktivering är den huvudsakliga faktorn som avgör giltighetsperioden för vår utökade garanti. Kolla vår &lt;a href=%1$s>Retur-, Bytes- och Reparationspolicy&lt;/a> för fler detaljer.&lt;br>&lt;br>Tveka inte att ringa vår kundsupports hotline om du har några frågor: 400-100-5678.</string>
-    <string name="device_activation_card_description_china_new">Första aktiveringen registreras när en enhet ansluter till nätverket (inklusive men inte begränsat till WLAN och mobilnätverk) för första gången. Det tar vanligtvis ett tag att registrera första aktiveringen, så det är bättre att vänta i &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dagar efter anslutning till nätverket, innan du kontrollerar anslutningsstatus.&lt;br>&lt;br>Enhetsaktivering är den huvudsakliga faktorn som avgör giltighetsperioden för vår utökade garanti. Kolla vår &lt;a href=%3$s>Retur-, Bytes- och Reparationspolicy&lt;/a> för fler detaljer.&lt;br>&lt;br>Tveka inte att ringa vår kundsupports hotline om du har några frågor: 400-100-5678.</string>
-    <string name="device_activation_card_description_new">Första aktiveringen registreras när en enhet ansluter till nätverket (inklusive men inte begränsat till Wi-Fi och mobilnätverk) för första gången. Det tar vanligtvis ett tag att registrera första aktiveringen, så det är bättre att vänta i &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dagar efter anslutning till nätverket, innan du kontrollerar anslutningsstatus.&lt;br>&lt;br>Enhetsaktivering är den huvudsakliga faktorn som avgör giltighetsperioden för vår utökade garanti. Kolla vår &lt;a href=%3$s>Retur-, Bytes- och Reparationspolicy&lt;/a> för fler detaljer.&lt;br>&lt;br>Tveka inte att ringa vår kundsupports hotline om du har några frågor: 400-100-5678.</string>
+    <string name="device_activation_card_description">Första aktiveringen registreras när en enhet ansluter till nätverket (inklusive men inte begränsat till Wi-Fi och mobilnätverk) för första gången. Det tar vanligtvis ett tag att registrera första aktiveringen, så det är bättre att vänta i &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dagar efter anslutning till nätverket, innan du kontrollerar anslutningsstatus.&lt;br>&lt;br>Enhetsaktivering är den huvudsakliga faktorn som avgör giltighetsperioden för vår utökade garanti. Kolla vår &lt;a href=%3$s>Retur-, Bytes- och Reparationspolicy&lt;/a> för fler detaljer.&lt;br>&lt;br>Tveka inte att ringa vår kundsupports hotline om du har några frågor: 950816.</string>
+    <string name="device_activation_card_description_china">Första aktiveringen registreras när en enhet ansluter till nätverket (inklusive men inte begränsat till WLAN och mobilnätverk) för första gången. Det tar vanligtvis ett tag att registrera första aktiveringen, så det är bättre att vänta i &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dagar efter anslutning till nätverket, innan du kontrollerar anslutningsstatus.&lt;br>&lt;br>Enhetsaktivering är den huvudsakliga faktorn som avgör giltighetsperioden för vår utökade garanti. Kolla vår &lt;a href=%3$s>Retur-, Bytes- och Reparationspolicy&lt;/a> för fler detaljer.&lt;br>&lt;br>Tveka inte att ringa vår kundsupports hotline om du har några frågor: 950816.</string>
+    <string name="device_activation_card_description_china_new">Första aktiveringen registreras när en enhet ansluter till nätverket (inklusive men inte begränsat till WLAN och mobilnätverk) för första gången. Det tar vanligtvis ett tag att registrera första aktiveringen, så det är bättre att vänta i &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dagar efter anslutning till nätverket, innan du kontrollerar anslutningsstatus.&lt;br>&lt;br>Enhetsaktivering är den huvudsakliga faktorn som avgör giltighetsperioden för vår utökade garanti. Kolla vår &lt;a href=%3$s>Retur-, Bytes- och Reparationspolicy&lt;/a> för fler detaljer.&lt;br>&lt;br>Tveka inte att ringa vår kundsupports hotline om du har några frågor: 950816.</string>
+    <string name="device_activation_card_description_new">Första aktiveringen registreras när en enhet ansluter till nätverket (inklusive men inte begränsat till Wi-Fi och mobilnätverk) för första gången. Det tar vanligtvis ett tag att registrera första aktiveringen, så det är bättre att vänta i &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dagar efter anslutning till nätverket, innan du kontrollerar anslutningsstatus.&lt;br>&lt;br>Enhetsaktivering är den huvudsakliga faktorn som avgör giltighetsperioden för vår utökade garanti. Kolla vår &lt;a href=%3$s>Retur-, Bytes- och Reparationspolicy&lt;/a> för fler detaljer.&lt;br>&lt;br>Tveka inte att ringa vår kundsupports hotline om du har några frågor: 950816.</string>
     <string name="device_activation_card_device_not_support">Stöds inte på denna enhet</string>
     <string name="device_activation_card_local_service_error">Det gick inte att hämta informationen. Vänta en minut eller två och försök igen.</string>
     <string name="device_activation_card_no_network_error">Det gick inte ansluta till nätverket. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="device_activation_card_title">Första aktiveringen</string>
     <string name="device_activation_page_title">Enhetsaktivering</string>
+    <string name="device_location_tip">*Platsen som visas bestäms av nätverket och är inte exakt. Om du gjorde denna inloggningsbegäran trycker du på Tillåt för att visa verifieringskoden.</string>
     <string name="dialog_btn_yes_install_icon">Installera</string>
     <string name="dialog_msg_install_manager_content">Installera Hitta enhet igen?</string>
     <string name="dialog_storage_full_title">Molnlagring är full</string>
@@ -168,7 +162,6 @@
     <string name="e2ee_button_next">Nästa</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Aktivera skärmlås för att den här enheten ska kunna uppdatera din säkerhetskod.</string>
     <string name="e2ee_data_protection_close_button">Avaktivera</string>
-    <string name="e2ee_data_protection_label_auto_fill">Lösenordshanterare</string>
     <string name="e2ee_data_protection_label_auto_fill_new">Lösenord</string>
     <string name="e2ee_data_protection_label_browser">Webbläsarbokmärken</string>
     <string name="e2ee_data_protection_label_call_log">Samtalshistorik</string>
@@ -190,27 +183,19 @@
     <string name="e2ee_data_protection_update_security_key_title">Uppdatera säkerhetskod</string>
     <string name="e2ee_device_delete">Ta bort enhet</string>
     <string name="e2ee_device_delete_tip">När du tar bort den här enheten från dit Xiaomi-konto kommer den att loggas ut och du kommer inte att kunna använda Tjänster från Xiaomi Cloud, sökning, och andra kontorelaterade funktioner på den , tills du loggar in igen.</string>
-    <string name="e2ee_device_delete_warning_dialog_content">Den här enheten stöder inte avancerat dataskydd, så du kommer inte att kunna logga in på ditt konto om du aktiverar den här funktionen. Uppdatera den här enheten till Xiaomi HyperOS 2, för att kunna logga in på ditt konto.</string>
-    <string name="e2ee_device_delete_warning_dialog_title">Kan inte logga in</string>
     <string name="e2ee_device_exit_failed_tip">Kunde inte logga ut. Vänta en minut eller två och försök igen.</string>
     <string name="e2ee_device_exit_failed_toast">Kunde inte logga ut. Vänta en minut eller två och försök igen.</string>
     <string name="e2ee_device_exit_tip">%s är utloggad</string>
     <string name="e2ee_device_management_subtitle">"De här enheterna har inte ännu verifierats som betrodda enheter. Logga ut från ditt Xiaomi-konto på dessa enheter innan du aktiverar Avancerat dataskydd. "</string>
     <string name="e2ee_device_management_title">Hantera enheter</string>
     <string name="e2ee_device_name">Enhetsnamn</string>
-    <string name="e2ee_device_sim">SIM-kort</string>
-    <string name="e2ee_device_sim_default_tip">Inga aktiverade SIM</string>
     <string name="e2ee_device_system_version">Systemversion</string>
     <string name="e2ee_device_tip">Ta bort den här enheten från ditt konto innan du aktiverar Avancerat dataskydd</string>
-    <string name="e2ee_device_verification">Verifiera din enhet</string>
-    <string name="e2ee_device_verification_os_tip">Uppdatera till Xiaomi HyperOS 2 eller senare</string>
     <string name="e2ee_device_verification_result_subtitle">Enheter som loggats ut från ditt Xiaomi-konto kommer inte att kunna använda Xiaomi Cloud och andra relaterade tjänster förrän de loggar in igen.</string>
     <string name="e2ee_device_verification_result_title">Alla enheter är utloggade</string>
     <string name="e2ee_device_verification_tip">Tryck här för att ta bort den här enheten</string>
     <string name="e2ee_dialog_close_subtitle">Data som skyddas av den här funktionen kommer inte längre stödja end-to-end-kryptering, och Avancerat dataskydd kommer att avaktiveras på alla enheter.</string>
     <string name="e2ee_dialog_close_title">Stäng av Avancerat dataskydd</string>
-    <string name="e2ee_dialog_exit_account_subtitle">När en enhet är utloggad kommer Avancerat dataskydd att stängas av automatiskt. Det kommer inte att påverka andra enheter. När du loggar in igen kommer du att behöva aktivera den här funktionen igen.</string>
-    <string name="e2ee_dialog_exit_account_title">Stäng av Avancerat dataskydd?</string>
     <string name="e2ee_error_device">Den här funktionen stöds inte på den här enheten.</string>
     <string name="e2ee_error_global_account">Den här funktionen stöds inte i din region.</string>
     <string name="e2ee_error_init">Kunde inte initiera. Vänta en minut eller två och försök igen</string>
@@ -221,7 +206,6 @@
     <string name="e2ee_exit_account_subtitle">Du håller på att logga ut från den senaste för närvarande anslutna enheten som är kopplad till ditt Xiaomi-konto. Du kommer att behöva använda ett skärmlås, eller en säkerhetskod för att kunna logga in i gen och få åtkomst till din data som lagras i molnet. Alternativt, tryck på \"Stäng av\" nedan, för att avaktivera Avancerad dataskydd.</string>
     <string name="e2ee_exit_account_title">Loggar ut</string>
     <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
-    <string name="e2ee_load_failed">Den här servern är upptagen. Vänta en minut eller två och försök igen.</string>
     <string name="e2ee_loading">Vänta en stund…</string>
     <string name="e2ee_loading_close">Stänger av…</string>
     <string name="e2ee_loading_open">Slår på…</string>
@@ -246,7 +230,6 @@
     <string name="e2ee_set_recovery_method">Återställningsmetoder</string>
     <string name="e2ee_set_recovery_method_code">Verifieringskod</string>
     <string name="e2ee_set_recovery_method_lockscreen">Skärmlås</string>
-    <string name="e2ee_set_recovery_method_security_key">Säkerhetskod (Inte angiven)</string>
     <string name="e2ee_set_recovery_method_tip">Du kan få åtkomst till din molndata via din enhets skärmlås, eller genom att skicka en verifieringskod. Du kan lägga till ytterligare en återställningsmetod genom att ange en säkerhetskod.</string>
     <string name="e2ee_set_recovery_method_title">Tillgängliga återhämtningsmetoder</string>
     <string name="e2ee_tip_forget_securityKey_button">Hoppa över verifiering</string>
@@ -458,10 +441,8 @@ Du kan också anonymt hjälpa andra att hitta sina Xiaomi-enheter."</string>
     <string name="lockscreen_positive_btn">Nästa</string>
     <string name="low_battery_locate_summary">Rapportera automatiskt platsinfo när batteriet är lågt</string>
     <string name="low_battery_locate_title">Rapportera plats när batteriet är lågt</string>
-    <string name="manual_activation">Återaktivera</string>
     <string name="master_alert_notif_content">Säkerhetskopiera objekt regelbundet för att inte förlora något viktigt.</string>
     <string name="master_alert_notif_title">Aktivera Xiaomi Cloud</string>
-    <string name="member_menu_vip_expire_time">Utgår den %s</string>
     <string name="member_menu_vipname_free">Gratis</string>
     <string name="member_menu_vipname_mega">Mega</string>
     <string name="member_menu_vipname_premium">Premium</string>
@@ -709,7 +690,7 @@ Du kan också anonymt hjälpa andra att hitta sina Xiaomi-enheter."</string>
     <string name="micloud_preference_syncitem_title">Moln-synkronisering</string>
     <string name="micloud_preference_up_cloud_membership">Uppgradera Xiaomi Cloud-medlemskap</string>
     <string name="micloud_preference_upgrade_membership_warning">Molnlagringen är nästan full. Uppgradera ditt Xiaomi Cloud-medlemskap för att få mer lagringsutrymme och säkerställ att dina objekt kan synkroniseras.</string>
-    <string name="micloud_preference_view_all">Visa alla</string>
+    <string name="micloud_preference_view_all">Mer</string>
     <string name="micloud_preference_view_cloud_notes">Visa moln-anteckningar</string>
     <string name="micloud_preference_view_cloud_recordings">Visa moln-inspelningar</string>
     <string name="micloud_preference_view_cloud_shared_family">Cloud-medlemskap delas med familj</string>
@@ -758,7 +739,7 @@ Säkerställ att du använder de tillhörande Xiaomi-kontot som ditt systemkonto
     <string name="micloud_sync_result_sim_activated_error">Det gick inte aktivera SIM-kort</string>
     <string name="micloud_sync_result_wifi_only">Objektet är för stort. Synkronisera när du är ansluten till Wi-Fi.</string>
     <string name="micloud_sync_result_wifi_only_china">Objektet är för stort. Synkronisera när du är ansluten till WLAN.</string>
-    <string name="micloud_wipe_data_confirm_label">Ta bort synkroniserade objekt från denna enhet?</string>
+    <string name="micloud_wipe_data_confirm_label">Radera synkade objekt</string>
     <string name="micloud_wipe_data_confirm_title">Vissa objekt från följande appar är synkroniserade med Xiaomi Cloud. Du kan ta bort dem från denna enhet och ändå behålla dem i molnet.</string>
     <string name="micloud_wipe_data_remove">Ta bort</string>
     <string name="micloud_wipe_data_retain">Behåll</string>
@@ -796,6 +777,7 @@ Säkerställ att du använder de tillhörande Xiaomi-kontot som ditt systemkonto
     <string name="miuix_appcompat_select_all_description">Välj alla</string>
     <string name="miuix_appcompat_select_item">Välj objekt</string>
     <string name="miuix_appcompat_show_dialog_description">Dialogruta</string>
+    <string name="miuix_popup_show_description">Dialogruta</string>
     <string name="miuix_progressbar_loading">Laddar</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
@@ -856,14 +838,8 @@ Säkerställ att du använder de tillhörande Xiaomi-kontot som ditt systemkonto
     <string name="not_set">Inte angett</string>
     <string name="noti_quota_button_text">Uppgradera</string>
     <string name="noti_quota_full_sum">Uppgradera din lagringsplan för att fortsätta synka objekt.</string>
-    <string name="noti_quota_full_sum_without_button">Skaffa mer lagringsutrymme för att fortsätta synka objekt.</string>
-    <string name="noti_quota_full_title">Molnlagringen är &lt;font color=#F22424>full&lt;/font></string>
-    <string name="noti_quota_full_title_without_button">Molnlagring är full</string>
     <string name="noti_quota_low_sum">Uppgradera din lagringsplan för att fortsätta synka objekt.</string>
-    <string name="noti_quota_low_sum_without_button">Skaffa mer lagringsutrymme för att fortsätta synka objekt.</string>
     <string name="noti_quota_low_title">Inte tillräcklig molnlagring</string>
-    <string name="noti_quota_low_title_with_storage">&lt;font color=#F22424>Mindre än &lt;xliff:g id=remaining_storage_space example=0.5>%s&lt;/xliff:g> GB&lt;/font> av molnlagringsutrymmet återstår</string>
-    <string name="noti_quota_low_title_without_button">Inte tillräcklig molnlagring</string>
     <string name="notification_sync_fail_title">Det gick inte att synkronisera lösenorden</string>
     <string name="notification_update_key_text">Lösenordshanterarens lösenord ändrades. Verifiera det nya lösenordet.</string>
     <string name="offline_find_action_open">Aktivera</string>
@@ -897,6 +873,10 @@ Säkerställ att du använder de tillhörande Xiaomi-kontot som ditt systemkonto
     <string name="passkeeper_install_keybag_title">Ange din lösenkod för Lösenordshanteraren</string>
     <string name="passkeeper_sync_off_confirm_content">Du kommer inte att kunna synkronisera dina nya lösenord med molnet om du avaktiverar den här funktionen.</string>
     <string name="passkeeper_sync_on">Startar…</string>
+    <string name="passport_two_factor_change_password_dialog_message">Om denna begäran inte gjordes av dig rekommenderar vi att du ändrar ditt lösenord.</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">Avbryt</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">Ändra</string>
+    <string name="passport_two_factor_change_password_dialog_title">Ändra lösenord?</string>
     <string name="pay_info_dialog_confirm_to_pay">Betala %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Använd återstående Mi Mynt: %s</string>
     <string name="pay_info_dialog_title">Välj betalningsmetod</string>
@@ -919,10 +899,6 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="pref_title_sync_display_photo_on_wifi_only_china">Använd endast WLAN för att synkronisera bilder</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy_and_agreement">Villkor</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad">Välkommen till Hitta enhet! Du kan använda den här appen att hitta, spåra och låsa din enhet när den är borta. Du kan även anonymt hjälpa andra att hitta sina Xiaomi-enheter.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">Du kan använda Hitta enhet för att hitta, låsa eller radera din data på din enhet om den är borttappad.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone">Välkommen till Hitta enhet! Du kan använda den här appen att hitta, spåra och låsa din enhet när den är borta. Du kan även anonymt hjälpa andra att hitta sina Xiaomi-enheter.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">Du kan använda Hitta enhet för att hitta, låsa eller radera din data på din enhet om den är borttappad.</string>
     <string name="privacy_dialog_sync_all_purpose_china">Välkommen till Tjänster från Xiaomi Cloud! Du kan använda Xiaomi Cloud för att synkronisera dina meddelande, kontakter, anteckningar, webbläsarinställningar, foton och videor, WLAN-inställningar, inspelningar, utseende på Hemskärmen, appar, kalenderhändelser, poster i blockeringslistan, samtalshistorik, och App vault, över alla anslutna enheter.</string>
     <string name="privacy_dialog_sync_all_purpose_china_v2">Välkommen till Tjänster från Xiaomi Cloud! Du kan använda Xiaomi Cloud för att synkronisera dina meddelande, kontakter, anteckningar, webbläsarinställningar, foton och videor, WLAN-inställningar, inspelningar, utseende på Hemskärmen, appar, kalenderhändelser, poster i blockeringslistan, samtalshistorik, och App vault, över alla anslutna enheter.</string>
     <string name="privacy_dialog_sync_all_purpose_pad">Välkommen till Tjänster från Xiaomi Cloud! Du kan använda den här appen för att synkronisera dina meddelanden, kontakter, anteckningar, webbobjekt, molnalbum, musik, kalender, blockeringslista och samtalshistorik till molnet.</string>
@@ -931,7 +907,6 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="privacy_dialog_sync_all_purpose_pad_without_sim_or_contact">Välkommen till Xiaomi Cloud-tjänsterna! Du kan använda Xiaomi Cloud för att synkronisera dina anteckningar, webbläsarinställningar, foton och videor, inspelningar, kalenderhändelser samt poster i blockeringslistan på alla anslutna enheter.</string>
     <string name="privacy_doc_cloudservice_china_v2_with_charge_hint_new">Välkommen till Tjänster från Xiaomi Cloud! Du kan använda Xiaomi Cloud för att synkronisera dina meddelanden, din samtalshistorik kontakter, anteckningar, inställningar för webbläsaren, foton och videor, WLAN-inställningar, inspelningar, Utseende på Hemskärmen, appar, kalenderhändelser, objekt från blockeringslistan och App Vault mellan alla anslutna enheter. Få åtkomst till de objekt du synkroniserar från alla webbläsare på &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />För att aktivera dessa tjänster, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> kommer ett inrikes betalt SMS&lt;/b>&lt;/font> att skickas. När du byter SIM-kort, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> kommer ett inrikes betalt SMS&lt;/b>&lt;/font> automatiskt skickas för återaktivering.&lt;br/>Alla SMS-avgifter som genereras av omnämnda åtgärder kommer att samlas in av din operatör. Xiaomi kommer inte att debitera dig för dessa meddelanden.&lt;br />&lt;br />Vi kommer att skydda dina personliga uppgifter i enlighet med de relevanta lagarna, regleringarna och integritetspolicyerna.&lt;br />För att kunna fungera normalt behöver dessa tjänster ansluta till internet och kräver följande behörigheter för att kunna samla in din personliga information:&lt;br />• Kalender:&lt;br />För synkronisering av händelser&lt;br />• Åtkomst till SMS:&lt;br />För synkronisering av meddelanden&lt;br />• Åtkomst till MMS:&lt;br />För synkronisering av meddelanden&lt;br />• Åtkomst till kontakter:&lt;br /> För synkronisering av kontakter&lt;br />• Redigering av kontakter:&lt;br /> För synkronisering av kontakter&lt;br />• Lagringsutrymme:&lt;br />För att spara objekt på din enhet (t.ex. bilder och videor)&lt;br />Om du inte beviljar dessa behörigheter, eller delar och laddar upp din personliga information, kommer du inte att kunna använda dessa tjänster. Du kan välja att avinstallera den här appen, logga ut, eller begränsa behörigheter i Inställningar i dessa fall.&lt;br />Läs och godkänn vårt &lt;a href=%3$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och vår &lt;a href=%4$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
     <string name="privacy_doc_cloudservice_china_with_charge_hint_new">Välkommen till Tjänster från Xiaomi Cloud! Du kan använda Xiaomi Cloud för att synkronisera dina meddelanden, din samtalshistorik kontakter, anteckningar, inställningar för webbläsaren, foton och videor, WLAN-inställningar, inspelningar, Utseende på Hemskärmen, appar, kalenderhändelser, objekt från blockeringslistan och App Vault mellan alla anslutna enheter. Få åtkomst till de objekt du synkroniserar från alla webbläsare på &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />För att aktivera dessa tjänster, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> kommer ett inrikes betalt SMS&lt;/b>&lt;/font> att skickas. När du byter SIM-kort, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> kommer ett inrikes betalt SMS&lt;/b>&lt;/font> automatiskt skickas för återaktivering.&lt;br/>Alla SMS-avgifter som genereras av omnämnda åtgärder kommer att samlas in av din operatör. Xiaomi kommer inte att debitera dig för dessa meddelanden.&lt;br />&lt;br />Vi kommer att skydda dina personliga uppgifter i enlighet med de relevanta lagarna, regleringarna och integritetspolicyerna.&lt;br />För att kunna fungera normalt behöver dessa tjänster ansluta till internet och kräver följande behörigheter för att kunna samla in din personliga information:&lt;br />• Kalender:&lt;br />För synkronisering av händelser&lt;br />• Åtkomst till SMS:&lt;br />För synkronisering av meddelanden&lt;br />• Åtkomst till MMS:&lt;br />För synkronisering av meddelanden&lt;br />• Åtkomst till kontakter:&lt;br /> För synkronisering av kontakter&lt;br />• Redigering av kontakter:&lt;br /> För synkronisering av kontakter&lt;br />• Lagringsutrymme:&lt;br />För att spara objekt på din enhet (t.ex. bilder och videor)&lt;br />Om du inte beviljar dessa behörigheter, eller delar och laddar upp din personliga information, kommer du inte att kunna använda dessa tjänster. Du kan välja att avinstallera den här appen, logga ut, eller begränsa behörigheter i Inställningar i dessa fall.&lt;br />Läs och godkänn vårt &lt;a href=%3$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och vår &lt;a href=%4$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
-    <string name="privacy_doc_cloudservice_global">Xiaomi Cloud behöver ansluta till internet för att fungera normalt. Synkronisering av data kan kräva användning av mobildata och att du stänger av Wi-Fi. Läs och acceptera vårt &lt;a href=%1$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och &lt;a href=%2$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder Xiaomi Cloud-tjänster.</string>
     <string name="privacy_doc_cloudservice_pad_new">Välkommen till Tjänster från Xiaomi Cloud! Du kan använda Xiaomi Cloud för att synkronisera dina meddelanden, kontakter, anteckningar, webbläsarinställningar, foton och videor, inspelningar, appar, kalenderhändelser och objekt i blockeringslistor, mellan alla anslutna enheter. Få åtkomst till objekten du synkroniserar, från vilken webbläsare som helst på &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />För att aktivera dessa tjänster, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> kommer ett SMS med svensk standardtaxa&lt;/b>&lt;/font> att skickas. När du byter SIM-kort, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> kommer SMS automatiskt att skickas med svensk standardtaxa&lt;/b>&lt;/font> för en återaktivering.&lt;br/>Alla avgifter för SMS som genereras vid tidigare nämnda åtgärder kommer att debiteras av din leverantör. Xiaomi kommer inte att debitera dig för dessa meddelanden.&lt;br />&lt;br />Vi kommer att skydda dina personliga uppgifter i enlighet med de relevanta lagarna, regleringarna och integritetspolicyerna.&lt;br />För att kunna fungera normalt behöver dessa tjänster anslutas till internet och kräver följande behörigheter för att samla in dina personuppgifter:&lt;br />• Kalender:&lt;br />För att synkronisera händelser&lt;br />• Få åtkomst till SMS:&lt;br />För att synkronisera meddelanden&lt;br />• Få åtkomst till MMS:&lt;br />För att synkronisera meddelanden&lt;br />• Få åtkomst till kontakter:&lt;br />För att synkronisera kontakter&lt;br />• redigera kontakter:&lt;br />För att synkronisera kontakter&lt;br />• Lagring:&lt;br />För att lagra objekt på din enhet (t.ex. bilder och videor)&lt;br />Om du inte ger samtycke till sådan behörighet eller delar och laddar upp dina privata uppgifter.Kan du inte använda de här tjänsterna. Du kan välja att avinstallera den här appen och logga ut, eller begränsar behörigheterna i Inställningarna i sådana fall.&lt;br />Läs och godkänn vårt &lt;a href=%3$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och vår&lt;a href=%4$s>&lt;u> integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
     <string name="privacy_doc_cloudservice_pad_without_contact_but_sim_new">Välkommen till Tjänster från Xiaomi Cloud! Du kan använda Xiaomi Could för att synkronisera dina meddelanden, anteckningar, webbläsarinställningar, foton och videor, inspelningar, appar, kalenderhändelser, och blockeringslistor mellan alla dina anslutna enheter. Få åtkomst till de objekt som du synkroniserad från vilken webbläsare som helst, via &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />För att aktivera dessa tjänster, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> kommer ett SMS med svensk taxa&lt;/b>&lt;/font> att skickas. När du byter SIM-kort, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> kommer ett SMS med svensk taxa&lt;/b>&lt;/font> att skickas automatiskt för återaktivering.&lt;br/>Alla SMS-avgifter som tillkommer på grund av de tidigare omnämnda åtgärderna kommer att debiteras av din leverantör. Xiaomi kommer inte att debitera dig för dessa meddelanden.&lt;br />&lt;br />Vi kommer att skydda dina personliga uppgifter i enlighet med de relevanta lagarna, regleringarna och integritetspolicyerna.&lt;br />För att kunna fungera normalt måste dessa tjänster vara anslutna till internet och kräver följande behörighet för att samla ni dina personuppgifter:&lt;br />• Kalender:&lt;br />För synkronisering av händelser&lt;br />• Åtkomst till SMS:&lt;br />För synkronisering av meddelanden&lt;br />• För åtkomst till MMS:&lt;br />För synkronisering av meddelanden&lt;br />• Lagring:&lt;br />För att spara objekt på din enhet (t.ex. bilder och videor)&lt;br />Om du inte beviljar sådan behörighet, eller delar och laddar upp dina personuppgifter, kommer du inte att kunna använda dessa tjänster. Du kan välja att avinstallera den här appen, logga ut, eller begränsa behörigheterna i Inställningar i sådana fall.&lt;br />Läs och godkänn vårt &lt;a href=%3$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och vår &lt;a href=%4$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
     <string name="privacy_doc_cloudservice_pad_without_sim_but_contact_new">Välkommen till Tjänster från Xiaomi Cloud! Du kan använda Xiaomi Could för att synkronisera dina kontakter, anteckningar, webbläsarinställningar, foton och videor, inspelningar, appar, kalenderhändelser och blockeringslistor, mellan alla dina anslutna enheter. Få åtkomst till de objekt som du synkroniserar, från vilken webbläsare du vill, via &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Vi kommer att skydda dina personliga uppgifter i enlighet med de relevanta lagarna, regleringarna och integritetspolicyerna.&lt;br />För att kunna fungera normalt behöver de här tjänsterna ansluta till internet och kräver följande behörigheter för att kunna samla in dina personuppgifter:&lt;br />• Kalender:&lt;br />För att synkronisera händelser&lt;br />• Få åtkomst till kontakter:&lt;br />För synkronisering av kontakter&lt;br />• Redigering av kontakter:&lt;br />För synkronisering av kontakter&lt;br />• Lagring:&lt;br />För att spara objekt på din enhet (t.ex. bilder, videor)&lt;br />Om du inte beviljar sådan behörighet, eller delar och laddar upp dina personuppgifter, kommer du inte att kunna använda dessa tjänster. Du kan välja att avinstallera den här appen, logga ut, eller begränsa tillstånden i Inställningar, i sådana fall.&lt;br />Läs och godkänn vårt &lt;a href=%3$s>&lt;u>Användaravtal&lt;/u>&lt;/a> och &lt;a href=%4$s>&lt;u>Integritetspolicy&lt;/u>&lt;/a> innan du använder våra tjänster.&lt;br /></string>
@@ -1006,8 +981,6 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
-    <string name="search_menu_title">Sök</string>
-    <string name="send">Skicka</string>
     <string name="share_cancel">Delning avbruten</string>
     <string name="share_failed">Kunde inte dela</string>
     <string name="share_location_app_name">Hitta enhet</string>
@@ -1167,46 +1140,6 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="system_busy_or_network_error">Ett fel inträffade, vänta en minut eller två och försök igen.</string>
     <string name="talkback_hide_passcode">Dölj lösenord</string>
     <string name="talkback_show_passcode">Visa lösenord</string>
-    <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
-    <string name="the_anti_aggression_day">Anti-våldsdagen</string>
-    <string name="the_arbor_day">Arbor Day</string>
-    <string name="the_armed_forces_day">Försvarsmaktens dag</string>
-    <string name="the_armys_day">PLA-dagen</string>
-    <string name="the_childrens_day">Barnens dag</string>
-    <string name="the_chinese_youth_day">Ungdomsdagen</string>
-    <string name="the_christmas_day">Jul</string>
-    <string name="the_double_ninth_festival">Dubbel nionde-festivalen</string>
-    <string name="the_dragon_boat_festival">Drakbåtsfestivalen</string>
-    <string name="the_easter_day">Påsken</string>
-    <string name="the_eve_of_the_spring_festival">Kinesisk nyårsafton</string>
-    <string name="the_fifth_day">Femte dagen av kinesiskt nyår</string>
-    <string name="the_fools_day">Första april</string>
-    <string name="the_forth_day">Fjärde dagen av kinesiskt nyår</string>
-    <string name="the_hksar_establishment_day">Hong Kong SAR etableringsdag</string>
-    <string name="the_international_womens_day">Kvinnodagen</string>
-    <string name="the_laba_festival">Laba-festivalen</string>
-    <string name="the_labour_day">Arbetardagen</string>
-    <string name="the_lantern_festival">Lanternfestivalen</string>
-    <string name="the_mid_autumn_festival">Midhöstfestivalen</string>
-    <string name="the_national_day">Nationaldagen</string>
-    <string name="the_national_father_day">Sun Yat-sens födelsedag</string>
-    <string name="the_new_years_day">Nyår</string>
-    <string name="the_night_of_sevens">Qixi-festivalen</string>
-    <string name="the_partys_day">CPC-dagen</string>
-    <string name="the_peace_day">Hågkomstens dag</string>
-    <string name="the_retrocession_day">Retrocessionsdagen</string>
-    <string name="the_second_day">Andra dagen av kinesiskt nyår</string>
-    <string name="the_seventh_day">Sjunde dagen av kinesiskt nyår</string>
-    <string name="the_sixth_day">Sjätte dagen av kinesiskt nyår</string>
-    <string name="the_spirit_festival">Spökfestivalen</string>
-    <string name="the_spring_festival">Kinesiskt nyår</string>
-    <string name="the_teachers_day">Lärarens dag</string>
-    <string name="the_third_day">Tredje dagen av kinesiskt nyår</string>
-    <string name="the_tw_childrens_day">Barnens dag</string>
-    <string name="the_tw_youth_day">Ungdomsdagen</string>
-    <string name="the_united_nations_day">FN-dagen</string>
-    <string name="the_valentines_day">Alla hjärtans dag</string>
-    <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tor</string>
     <string name="thursday_shortest">Tor</string>
@@ -1245,11 +1178,18 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="verify_camera_permission_title">Behörigheter krävs</string>
     <string name="verify_code_btn_negative">Avbryt</string>
     <string name="verify_code_btn_positive">Nästa</string>
+    <string name="verify_code_device_list_title">Skickade kod till dessa enheter</string>
     <string name="verify_code_dialog_message_default">Ange den här koden på din nya enhet</string>
     <string name="verify_code_dialog_title_default">Verfieringskod för enheten</string>
     <string name="verify_code_error_textView">Felaktig kod. Försök igen.</string>
     <string name="verify_code_error_view">Felaktig kod. Försök igen.</string>
+    <string name="verify_code_send_desc_1">Ange verifieringskoden skickad till %1$s för att fortsätta</string>
+    <string name="verify_code_send_desc_2">Ange verifieringskod skickad till %1$s och %2$s för att fortsätta</string>
+    <string name="verify_code_send_desc_3">Ange veriferingskoden skickad till %1$s, %2$s, och %3$s för att fortsätta</string>
+    <string name="verify_code_send_desc_4">Ange verifieringskoden skickad till %1$s, %2$s, %3$s, och %4$s för att fortsätta</string>
+    <string name="verify_code_send_desc_5">Ange veriferingskoden skickad till %1$s, %2$s, %3$s, %4$s, och %5$s för att fortsätta</string>
     <string name="verify_code_success_textView">Uppdatera säkerhetskod</string>
+    <string name="verify_code_view_all_devices">Visa alla enheter</string>
     <string name="verify_code_warning_dialog_message_default">Ge din nya enhet åtkomst till krypterad data?</string>
     <string name="verify_code_warning_dialog_title">Verifieringskod</string>
     <string name="verify_code_warning_dialog_title_default">Ny enhet begär åtkomst</string>
@@ -1313,6 +1253,7 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="verify_warning_dialog_message_pc">Avancerat dataskydd är aktiverat. Bevilja de nödvändiga behörigheterna på din dator för att kunna få åtkomst till krypterad data.</string>
     <string name="verify_warning_dialog_message_web">Avancerat dataskydd är aktiverat. Bevilja de nödvändiga behörigheterna på i.mi.com för att kunna få åtkomst till krypterad data.</string>
     <string name="verify_warning_dialog_negative_btn">Tillåt inte</string>
+    <string name="verify_warning_dialog_negative_btn_new">Tillåt inte</string>
     <string name="verify_warning_dialog_positive_btn">Tillåt</string>
     <string name="verify_warning_dialog_title">En annan enhet startade en en-to-end-kryptering</string>
     <string name="verify_warning_dialog_title_find_device">\"Offline-plats\" är aktiv för en annan enhet</string>
@@ -1323,10 +1264,7 @@ Platsinfo kanske inte rapporteras när nätverksanslutningen är dålig."</strin
     <string name="waiting_for_sync">Väntar…</string>
     <string name="web_view_auto_login_fail">Kunde inte logga in. Försök igen.</string>
     <string name="web_view_login_text">Loggar in…</string>
-    <string name="web_view_reload_btn_text">Försök igen</string>
     <string name="web_view_reload_btn_text_new">Försök igen</string>
-    <string name="web_view_reload_description_text">"Kunde inte ansluta till nätverk.
-Kontrollera dina inställningar och försök igen."</string>
     <string name="web_view_reload_description_text_new">Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
@@ -1339,5 +1277,4 @@ Kontrollera dina inställningar och försök igen."</string>
     <string name="wipe_data_query_progress_title">Kontrollerar…</string>
     <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="xiaomi_cloud_service_subtitle">Alla viktiga objekt på en plats</string>
-    <string name="yesterday">Igår</string>
 </resources>

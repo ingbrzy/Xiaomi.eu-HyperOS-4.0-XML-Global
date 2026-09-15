@@ -27,8 +27,10 @@
     <string name="abc_shareactionprovider_share_with">Comparteix amb</string>
     <string name="abc_shareactionprovider_share_with_application">Comparteix amb %s</string>
     <string name="abc_toolbar_collapse_description">Replega</string>
+    <string name="access_calendar">Accedir al calendari</string>
     <string name="access_non_personal_data">Si retireu el consentiment per a l’accés i ús de dades no personals del vostre dispositiu, els serveis de Tipus de fons de pantalla es desactivaran i les dades recollides s’eliminaran dins del termini especificat a les lleis i normatives aplicables.</string>
     <string name="accessibility_enabled">Accessibilitat habilitada.</string>
+    <string name="accessibility_settings">Accessibilitat</string>
     <string name="accessibility_sliding_button_state_description_off">Desactivat</string>
     <string name="accessibility_sliding_button_state_description_on">Activat</string>
     <string name="accessibility_tab_state_description_unselect">"No s'ha seleccionat"</string>
@@ -36,8 +38,8 @@
     <string name="activate_esim_tips">"No s'ha pogut activar. Proveu-ho de nou."</string>
     <string name="activating_esim_tips">"S'està activant…"</string>
     <string name="address_dialing_introduction">"Podeu utilitzar aquesta aplicació per fer trucades, veure l'historial de trucades i gestionar els contactes."</string>
-    <string name="after_sales_support">After-sales support</string>
-    <string name="after_sales_support_introduction">This service allows you to get support and assistance regarding your purchased devices.</string>
+    <string name="after_sales_support">Suport postvenda</string>
+    <string name="after_sales_support_introduction">Aquest servei us permet obtenir assistència i assistència en relació amb els vostres dispositius comprats.</string>
     <string name="afternoon">Tarda</string>
     <string name="agree">Accepto</string>
     <string name="agree_and_next">Accepto</string>
@@ -56,20 +58,27 @@
     <string name="ai_button_title">"Botó d'IA"</string>
     <string name="album_introduction">Podeu utilitzar aquesta aplicació per gestionar, editar i embellir fotos i vídeos.</string>
     <string name="am">AM</string>
-    <string name="app_battery_usage">"For checking individual apps' battery usage"</string>
+    <string name="app_battery_usage">"Per comprovar l'ús de la bateria de les aplicacions individuals"</string>
     <string name="app_name">Provisions</string>
+    <string name="application_extension_service">"Serveis d'extensió d'aplicacions"</string>
+    <string name="application_extension_service_introduction">"Els serveis d'extensió d'aplicacions us proporcionaran funcions d'inici de sessió i de verificació. Per oferir serveis bàsics, aquesta aplicació necessita els permisos següents:"</string>
     <string name="application_package_introduction">El programa d’instal·lació de paquets s’utilitza per instal·lar aplicacions de tercers, inclosos els serveis de recomanació d’aplicacions d’escaneig i d’instal·lació prèvia a la instal·lació.</string>
     <string name="application_permissions">"Permisos de l'aplicació"</string>
-    <string name="authority_introduction">权限管理服务是您对应用进行权限管理的基础服务。</string>
+    <string name="aquire_device_info">Accedir a la informació del dispositiu</string>
+    <string name="authority_introduction">El gestor de permisos és un servei bàsic que us permet gestionar els permisos de les aplicacions en aquest dispositiu.</string>
     <string name="back">Enrere</string>
     <string name="backup_introduction">Pots utilitzar aquesta aplicació per fer una còpia de seguretat i restaurar els elements del teu dispositiu.</string>
     <string name="bluetooth_introduction">El sistema utilitza Bluetooth per a la comunicació sense fil. Per poder funcionar amb normalitat, Bluetooth necessita els permisos següents:</string>
-    <string name="bluetooth_usage_desc">Initial setup allows you to set your basic preferences for this device. To set up your device successfully, Bluetooth system services will use the following permissions:</string>
+    <string name="bluetooth_usage_desc">La configuració inicial us permet definir les preferències bàsiques per a aquest dispositiu. Per configurar el dispositiu correctament, calen els permisos següents:</string>
     <string name="boot_video_replay">Reproduir de nou</string>
     <string name="boot_video_skip">Omet</string>
     <string name="calculator_introduction">Pots fer servir aquesta aplicació per a fer càlculs, convertir unitats i monedes, i calcular els pagaments de la teva hipoteca.</string>
+    <string name="calendar_date_picker_a11y_next_month">Canvia al mes següent</string>
+    <string name="calendar_date_picker_a11y_prev_month">Canvia al mes anterior</string>
+    <string name="calendar_storage">Emmagatzematge del calendari</string>
     <string name="camera_application_introduction">Podeu utilitzar aquesta aplicació per fer fotos i vídeos.</string>
     <string name="camera_introduction">Pots fer servir la càmera per a fer fotos i gravar vídeos.</string>
+    <string name="camera_mind_introduction">"El motor de millora d'imatges és un servei del sistema que gestiona els recursos del sistema i millora la qualitat de la imatge per a funcions com ara fer fotos, gravar vídeos i escanejar codis."</string>
     <string name="carousel_cookies_content"><Data>"Quan toqueu imatges i històries a Tipus de fons de pantalla, les seves versions completes s'obriran al vostre navegador. El nostre proveïdor de contingut de tercers de confiança pot recomanar contingut i anuncis addicionals que s'adaptin als vostres interessos. Si accepteu activar aquesta funció, col·locaran galetes al vostre navegador, tal com es descriu en aquesta &lt;a href=\"%1$s\">Política de galetes&lt;/a>. Si rebutges les galetes, Tipus de fons de pantalla continuarà funcionant, però el seu contingut i recomanacions poden deixar de ser rellevants per a tu. Sempre pots canviar les teves preferències a Configuració."</Data></string>
     <string name="carousel_cookies_subtitle">Les galetes ens permeten personalitzar la vostra experiència de pantalla de bloqueig.</string>
     <string name="carousel_cookies_title">Contingut personalitzat i galetes</string>
@@ -80,6 +89,7 @@
     <string name="carrier_introduction_china_rothko">"Per tal de millorar la qualitat dels serveis que se us proporcionen, els programes que s'executen en aquest dispositiu (inclosos els serveis de SystemHelper, RegService i Carrier) poden enviar la informació sobre aquest dispositiu o la vostra targeta SIM (inclosos IMEI, IMSI, MSISDN, MEID, ICCID), l'adreça MAC, la versió del sistema, la versió d'Android, el model del dispositiu, la configuració bàsica del maquinari i el número de telèfon), així com la vostra ubicació aproximada (incloent-hi la regió, les coordenades, l'identificador del barri i l'identificador de l'estació base) al vostre operador mitjançant WLAN, mòbil xarxes o SMS. Quan feu trucades, DCService es connectarà a la xarxa. Els operadors de telefonia mòbil garanteixen que aquesta informació només s'utilitzarà per a l'anàlisi, la millora de la qualitat del servei o la prestació de serveis o tecnologies personalitzats i mai es compartirà amb ningú d'una manera que permeti identificar-vos personalment. Consulteu la declaració corresponent del vostre operador per obtenir més informació. Podeu consultar totes les tarifes de servei relacionades directament amb el vostre operador."</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>Amb la Interconnectivitat, podeu transferir elements entre dispositius i utilitzar controls entre dispositius. Si activeu aquesta funció, indiqueu que accepteu la &lt;a href=%1$s>Política de privadesa&lt;/a >. Aquest servei necessita connectar-se a Internet i accedir als permisos següents:</Data></string>
+    <string name="china_mobile_components_manager_app">Gestor de components personalitzats amb IA</string>
     <string name="clearable_edittext_clear_description">Netejar</string>
     <string name="clock_introduction">"Pots utilitzar aquesta aplicació per a veure l'hora, a més de fer servir un temporitzador o un cronòmetre, el rellotge mundial, configurar alarmes i més."</string>
     <string name="close">Tanca</string>
@@ -114,6 +124,7 @@
     <string name="diagnose_report">"Enviar dades de diagnòstic per a localitzar i analitzar problemes en el sistema i millorar l'experiència d'usuari. Aquestes dades inclouen informació personal (per exemple, l'IP o la ubicació)"</string>
     <string name="disageement_abnormal_download">"Si no estàs d'acord amb donar aquests permisos ni amb compartir i carregar la teva informació personal, no podràs fer servir aquest servei."</string>
     <string name="disagree">Cancel·leu</string>
+    <string name="disagree_unable_serve">Si no accepteu els permisos anteriors, no podreu utilitzar aquest servei.</string>
     <string name="disagreement_abnormal_running">"Si no estàs d'acord amb donar aquests permisos ni amb compartir i carregar la teva informació personal, no podràs fer servir aquesta aplicació. En aquest cas, pots escollir no fer-la servir o restringir els permisos en els ajustaments."</string>
     <string name="disagreement_abnormal_running_fast_pairing">"Si no estàs d'acord amb donar aquests permisos, no podràs fer servir aquesta aplicació. Pots optar per restringir els permisos i desactivar aquesta funció en Ajustaments."</string>
     <string name="disagreement_application_not_working_properly">Si no accepteu concedir aquests permisos, no podreu utilitzar aquesta aplicació.</string>
@@ -139,13 +150,13 @@
     <string name="enable_accessibility_dialog_message">"TalkBack s'activa prement amb 2 dits la pantalla durant més de 10 segons. TalkBack proporciona comentaris de veu per a persones amb discapacitat visual. Si l'has activada per accident, prem el botó Cancel·lar i, després, fes doble clic a la pantalla."</string>
     <string name="enable_accessibility_dialog_negative_btn">Cancel·leu</string>
     <string name="enable_accessibility_dialog_positive_btn">"D'acord"</string>
-    <string name="enable_or_disable_bluetooth">Turning Bluetooth on and off</string>
+    <string name="enable_or_disable_bluetooth">"S'està activant i desactivant el Bluetooth"</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
     <string name="evening">Tarda</string>
     <string name="expand_button_title">Opcions avançades</string>
     <string name="fast_application_introduction">El marc de serveis d’aplicacions ràpides és un marc de serveis bàsic que admet la distribució i el funcionament ràpids d’aplicacions.</string>
-    <string name="fast_pairing_introduction">Mi Link lets you quickly connect to Bluetooth devices.</string>
+    <string name="fast_pairing_introduction">Mi Link us permet connectar-vos ràpidament a dispositius Bluetooth.</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -207,7 +218,7 @@
     <string name="font_use_case_symbol_example">@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Cos</string>
     <string name="font_use_case_title_example">Títol</string>
-    <string name="framework_introduction">Xiaomi service framework (Mi Push, Analytics, and MIUIBI) is a basic system service that provides push notifications, risk prevention, statistics, and analytics capabilities. In order to provide these services, we need to collect and process relevant and necessary personal information. When collecting and processing such information, we will comply with applicable laws, regulations, and other normative documents.</string>
+    <string name="framework_introduction">"El marc de serveis Xiaomi (Mi Push and Analytics) és un servei bàsic del sistema que proporciona notificacions push, prevenció de riscos, estadístiques i capacitats d'anàlisi. Per oferir aquests serveis, hem de recopilar i processar informació personal rellevant i necessària. En recopilar i processar aquesta informació, complirem les lleis, regulacions i altres documents normatius aplicables."</string>
     <string name="framwork_base_service">"Per oferir la funcionalitat de notificació automàtica, hem de recopilar identificadors de dispositiu (OAID i ID d'Android xifrat), informació sobre les aplicacions que utilitzen el servei push (per exemple, nom del paquet de l'aplicació, versió i estat d'execució), fabricant del dispositiu, model de dispositiu, memòria del dispositiu, versió del sistema operatiu, regió, nom del nom del operador de la targeta SIM, tipus de xarxa actual i estat de la Wi-Fi. Podeu canviar la manera com rebeu les notificacions automàtiques a Configuració, i us proporcionarem notificacions automàtiques en funció de les vostres preferències, per a les quals també recopilarem la informació sobre les vostres preferències, inclosa si decideixes bloquejar les notificacions o no, i si permetes que apareguin a la pantalla de bloqueig.
 Per a la prevenció de riscos, les estadístiques i el processament analític, necessitem permís per connectar-nos a la xarxa i accedir a la vostra ubicació, IMEI del dispositiu, IMSI del dispositiu, identificadors del dispositiu (OAID, adreça MAC i ID d'Android xifrat), fabricant del dispositiu, model de dispositiu, memòria del dispositiu, versió del sistema operatiu, regió i tipus de xarxa actual. La informació anterior es recopilarà un cop al dia mentre utilitzeu aquest dispositiu."</string>
     <string name="friday">Divendres</string>
@@ -215,20 +226,20 @@ Per a la prevenció de riscos, les estadístiques i el processament analític, n
     <string name="friday_shortest">Dv</string>
     <string name="game_introduction">"El plug-in de jocs et permet inscriure't, crear comandes, fer pagaments, utilitzar cupons i participar en esdeveniments promocionals."</string>
     <string name="get_audio_and_video_information_settings">Accediu a fotos, vídeos i àudio emmagatzemats en el dispositiu</string>
-    <string name="get_contact_information_settings">Access contacts</string>
-    <string name="get_imei_information">Access IMEI</string>
+    <string name="get_contact_information_settings">Accediu als contactes</string>
+    <string name="get_imei_information">"Accedir a l'IMEI"</string>
     <string name="get_imei_information_settings">"Identificador únic del dispositiu d'accés (IMEI)"</string>
-    <string name="google_service_introduction">To be able to work normally, Google Play needs to connect to the internet, access your location, be able to send SMS and MMS, record audio, make calls, access calendar events, call history, sensors, storage, camera, device info, and accounts.</string>
+    <string name="google_service_introduction">Per poder funcionar amb normalitat, Google Play ha de connectar-se a Internet, accedir a la vostra ubicació, poder enviar SMS i MMS, gravar àudio, fer trucades, accedir a esdeveniments del calendari, historial de trucades, sensors, emmagatzematge, càmera, informació del dispositiu i comptes.</string>
     <string name="home_settings_miui_home">Clàssic</string>
     <string name="home_settings_poco_launcher">"Calaix d'aplicacions"</string>
     <string name="home_settings_title">"Selecciona l'iniciador per defecte"</string>
-    <string name="image_brain_configuration_service">Servei de configuració de Xiaomi Imaging Engine</string>
     <string name="ime_privacy_policy">Política de Privadesa del teclat seleccionat</string>
     <string name="ime_privacy_policy_no_network">"Sense connexió de xarxa. Vegeu la política de privadesa d'aquest teclat a %s."</string>
     <string name="ims_introduction">El servei IMS proporciona funcions bàsiques de comunicació i s’utilitza per a trucades d’àudio i vídeo d’alta definició.</string>
     <string name="input_method_category">"Seleccioneu el teclat predeterminat que s'utilitzarà per escriure correus electrònics, notes i gairebé tota la resta. Recordeu que també podeu instal·lar teclats de tercers."</string>
     <string name="input_method_setting">Seleccioneu el teclat predeterminat</string>
     <string name="install_preinstall_app">"S'estan carregant les aplicacions…"</string>
+    <string name="intent_filter_verification_service">"Servei de verificació de filtre d'intencions"</string>
     <string name="interconnection_communication_introduction">Serveis de comunicació per Internet de Xiaomi us permet descobrir, connectar-vos i comunicar-vos amb altres dispositius Xiaomi.</string>
     <string name="interconnection_service_global_label"><Data>Amb la Interconnectivitat, podeu transferir elements entre dispositius i utilitzar controls entre dispositius. Si activeu aquesta funció, indiqueu que accepteu la &lt;a href=%1$s>Política de privadesa&lt;/a >.</Data></string>
     <string name="interconnection_service_permission1">Activa i desactiva el Bluetooth</string>
@@ -257,7 +268,7 @@ Per a la prevenció de riscos, les estadístiques i el processament analític, n
     <string name="item_contents_wwarning">Si el dispositiu es perd, no podreu evitar que altres persones l’utilitzin i no accedeixin a les vostres dades tret que establiu un bloqueig de pantalla. Ometre igualment?</string>
     <string name="item_facerecognition">Desbloqueig facial</string>
     <string name="item_fingerprint">Empremta digital</string>
-    <string name="item_lock_screen_password">Només pantalla de bloqueig</string>
+    <string name="item_lock_screen_password">Només bloqueig de pantalla</string>
     <string name="item_lock_screen_password_only">Bloqueig de pantalla</string>
     <string name="item_return">Estableix</string>
     <string name="item_skip">Omet</string>
@@ -276,7 +287,14 @@ Per a la prevenció de riscos, les estadístiques i el processament analític, n
     <string name="kind_tip_details_protective_details_cn">"La pantalla interior d'aquest dispositiu està coberta per una pel·lícula protectora especial, la substitució de la qual requereix un equip professional. No traieu ni substituïu el protector de pantalla interior per vosaltres mateixos, ja que els danys resultants a la pantalla interior afectaran la garantia. Si necessiteu substituir el protector de pantalla, poseu-vos en contacte amb el servei postvenda de Xiaomi."</string>
     <string name="kind_tip_details_protective_details_global">"La pantalla interior d'aquest dispositiu està coberta per una pel·lícula protectora especial. L'eliminació o la substitució de la pel·lícula pot causar danys a la pantalla interior."</string>
     <string name="kind_tip_details_protective_title">No traieu el protector de pantalla interior per vosaltres mateixos</string>
+    <string name="kind_tip_note_fold_1">"No traieu el protector de pantalla interior ni apliqueu un protector de pantalla no oficial vosaltres mateixos. Per substituir el protector, contacteu amb el servei d'assistència de Xiaomi."</string>
+    <string name="kind_tip_note_fold_2">Eviteu prémer la pantalla amb objectes punxeguts, com ara bolígrafs o tecles.</string>
+    <string name="kind_tip_note_fold_3">Assegureu-vos que no quedi res atrapat entre les pantalles abans de plegar el dispositiu.</string>
+    <string name="kind_tip_note_fold_4">No utilitzeu objectes punxeguts per netejar la brutícia de les vores de la pantalla.</string>
+    <string name="kind_tip_note_fold_5">Plegueu el dispositiu abans de ficar-lo en una bossa o butxaca per evitar ratllar la pantalla interior.</string>
+    <string name="kind_tip_note_fold_6">Són normals els petits plecs, els sons en plegar o desplegar i els sons en prémer la pantalla.</string>
     <string name="kind_tip_subtitle">"Aquest dispositiu està equipat amb una pantalla plegable. Per evitar danys i assegurar-vos que la pantalla funciona amb normalitat, preneu les precaucions següents durant l'ús."</string>
+    <string name="kind_tip_subtitle_fold">Aquest dispositiu té una pantalla flexible plegable. Per protegir el dispositiu, presteu atenció al següent:</string>
     <string name="kind_tip_title">Atenció</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">"Compartició d'informació d'ubicació amb agències i cossos de seguretat, emergència i rescat"</string>
@@ -294,7 +312,7 @@ Per a la prevenció de riscos, les estadístiques i el processament analític, n
     <string name="location_U">U+ GPSnWPS</string>
     <string name="location_content">"Segons la llei, les operadores mòbils poden obtenir la informació de la ubicació dels dispositius mòbils per tal de complir amb els requeriments d'agències o cossos destinats a seguretat, rescat i emergència (com ara bombers i policia)."</string>
     <string name="location_introduction">Els serveis d’ubicació proporcionen una gran varietat de serveis basats en la ubicació basats en la informació de la vostra ubicació.</string>
-    <string name="location_introduction_qcom">Location services use positioning for providing location-specific services. When location services are used by your device, QCC module will connect to the network to speed up the positioning process.</string>
+    <string name="location_introduction_qcom">"Els serveis d'ubicació utilitzen el posicionament per oferir serveis específics d'ubicació. Quan el vostre dispositiu utilitza els serveis d'ubicació, el mòdul QCC es connectarà a la xarxa per accelerar el procés de posicionament."</string>
     <string name="location_location">Els cossos de seguretat, rescat i emergència poden obtenir la teva ubicació actual si ho demanen</string>
     <string name="lockscreen_introduction">Tipus de fons de pantalla et permet rebre cada dia imatges noves per a la teva pantalla de bloqueig.</string>
     <string name="media_storage_devices">"Dispositius d'emmagatzematge multimèdia"</string>
@@ -306,7 +324,7 @@ Per a la prevenció de riscos, les estadístiques i el processament analític, n
     <string name="mint_keyboard_oobe_terms">Política de privadesa del teclat Mint</string>
     <string name="miui14_start_up_slogan">Ready. Steady. Live.</string>
     <string name="miui_privacy_policy_no_network">No hi ha connexió a internet. Vegeu la política de privadesa a %s.</string>
-    <string name="miui_provision">Initial setup</string>
+    <string name="miui_provision">Configuració inicial</string>
     <string name="miui_settings">Configuració</string>
     <string name="miui_terms_no_network">"No tens connexió a internet. Consulta l'Acord d'usuari a %s."</string>
     <string name="miuix_access_state_desc">Seleccionat</string>
@@ -319,6 +337,7 @@ Per a la prevenció de riscos, les estadístiques i el processament analític, n
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleccionar tot</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleccioneu-ho tot</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selecciona elements</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Selecciona</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Més</string>
     <string name="miuix_appcompat_cancel_description">Cancel·leu</string>
     <string name="miuix_appcompat_confirm_description">Confirma</string>
@@ -332,6 +351,7 @@ Per a la prevenció de riscos, les estadístiques i el processament analític, n
     <string name="miuix_appcompat_select_all_description">Seleccioneu-ho tot</string>
     <string name="miuix_appcompat_select_item">Selecciona elements</string>
     <string name="miuix_appcompat_show_dialog_description">Finestra emergent</string>
+    <string name="miuix_popup_show_description">Finestra emergent</string>
     <string name="miuix_progressbar_loading">Carregant</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tira cap avall per a refrescar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">"S'ha refrescat correctament"</string>
@@ -396,9 +416,17 @@ Per a la prevenció de riscos, les estadístiques i el processament analític, n
     <string name="multisim_settings_category">Configuració de SIM</string>
     <string name="multisim_settings_sb_title">%d targeta SIM detectada</string>
     <string name="multisim_settings_title">"S'han detectat 2 targetes SIM"</string>
+    <string name="navigation_guide_back_summary_spec_pad">Feu lliscar el dit de costat cap al centre de la pantalla</string>
+    <string name="navigation_guide_back_title">Enrere</string>
+    <string name="navigation_guide_home_summary_spec_pad">Llisqueu cap amunt des de la part inferior de la pantalla</string>
+    <string name="navigation_guide_home_title">"Vés a la Pantalla d'inici"</string>
+    <string name="navigation_guide_provision_see_more_pad_with_virtual_key">"Veure més demostracions a Configuració > Pantalla d'inici > Sistema de navegació"</string>
+    <string name="navigation_guide_recent_summary_spec_pad">Llisqueu cap amunt des de la vora inferior de la pantalla, posa en pausa i aixeca el dit</string>
+    <string name="navigation_guide_recent_title">Obre recents</string>
     <string name="navigation_picker_gesture_guide">Guia de gestos</string>
     <string name="navigation_picker_radio_text_full_screen">Gestos de pantalla completa</string>
     <string name="navigation_picker_radio_text_virtual_key">Botons</string>
+    <string name="navigation_type_full_screen">Gestos</string>
     <string name="next">Següent</string>
     <string name="next_fingerprint">Següent</string>
     <string name="night">Nit</string>
@@ -413,10 +441,10 @@ Per a la prevenció de riscos, les estadístiques i el processament analític, n
     <string name="other_settings_ad_disable_summary">Activa per personalitzar anuncis</string>
     <string name="other_settings_ad_enable">Anuncis personalitzats</string>
     <string name="other_settings_ad_enable_summary">"Quan les recomanacions d'anuncis personalitzats estiguin desactivades, encara veureu la mateixa quantitat d'anuncis a les aplicacions del sistema que quan la funció està activada. Els anuncis de Xiaomi i plataformes de tercers, però, ja no seran rellevants, ja que no es basaran en les vostres preferències personals."</string>
-    <string name="other_settings_alarm_assistance">Emergency location</string>
-    <string name="other_settings_alarm_assistance_privacy">Privacy Policy</string>
+    <string name="other_settings_alarm_assistance">"Localització d'emergència"</string>
+    <string name="other_settings_alarm_assistance_privacy">Política de privadesa</string>
     <string name="other_settings_alarm_assistance_summary">"Podeu enviar la vostra informació d'ubicació a la policia mitjançant SMS o dades mòbils automàticament mentre truqueu al 110, 120, 119 o 122. Llegiu i accepteu el nostre &lt;a href=\"%1$s\">Acord d'usuari&lt;/a> i la &lt;a href=\"%2$s\">Política de privadesa&lt;/a> abans d'utilitzar aquesta funció."</string>
-    <string name="other_settings_alarm_assistance_user">User Agreement</string>
+    <string name="other_settings_alarm_assistance_user">"Acord d'usuari"</string>
     <string name="other_settings_auto_update">Actualitzacions del sistema automàtiques</string>
     <string name="other_settings_auto_update_summary">El sistema seleccionarà el millor moment per baixar i instal·lar les actualitzacions. El vostre dispositiu es reiniciarà automàticament per aplicar els canvis.</string>
     <string name="other_settings_auto_update_summary_v1">Permet que el sistema seleccioni el millor moment per descarregar i instal·lar actualitzacions. El vostre dispositiu es reiniciarà automàticament per aplicar els canvis.</string>
@@ -431,14 +459,14 @@ Pots desactivar les actualitzacions automàtiques a GetApps > Configuració > Ac
     <string name="other_settings_location">Ubicació</string>
     <string name="other_settings_location_summary">Permetre que les aplicacions i els llocs web accedeixin a la informació de la vostra informació d’ubicació per proporcionar serveis basats en la ubicació</string>
     <string name="other_settings_minor_mode">Mode de mainada</string>
-    <string name="other_settings_minor_mode_summary"><Data>"Help minors develop healthy device usage habits. When Child mode is on, a feature shortcut will be added in Settings and on the Home screen. By turning on this feature, you're agreeing to the &lt;a href=%1$s>Child Mode Privacy Policy&lt;/a >."</Data></string>
+    <string name="other_settings_minor_mode_summary"><Data>"Ajudeu els menors a desenvolupar hàbits saludables d'ús dels dispositius. Quan el mode infantil està activat, s'afegirà una drecera de funció a Configuració i a la Pantalla d'inici. En activar aquesta funció, accepteu la &lt;a href=%1$s>Política de privadesa del Mode de mainada&lt;/a>."</Data></string>
     <string name="other_settings_quality_service">Permisos de Daemon del sistema</string>
     <string name="other_settings_quality_service_summary">"Daemon del sistema s'utilitza per millorar l'estabilitat i el rendiment del sistema. Per poder funcionar amb normalitat, aquest servei necessita permisos per accedir i desar elements a l'emmagatzematge del dispositiu."</string>
     <string name="other_settings_upload_debug_log_detail">"Ajudeu a millorar la vostra experiència enviant automàticament dades de diagnòstic, dispositius i ús de les aplicacions a Xiaomi. Això ajudarà a millorar la durada de la bateria, l'estabilitat del sistema i de l'aplicació i molt més.
 Les dades que envieu inclouran informació general sobre aquest dispositiu i sobre com el feu servir (per exemple, el nivell de bateria, l'activitat del sistema i de l'aplicació i els errors). Les dades s’utilitzaran per millorar els nostres dispositius.
 La desactivació d’aquesta funció no afecta la capacitat del dispositiu d’enviar la informació necessària per a serveis essencials, com ara actualitzacions del sistema i seguretat.
 Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Configuració."</string>
-    <string name="other_settings_upload_debug_log_summary">"Ajudeu a millorar la vostra experiència enviant automàticament dades de diagnòstic, dispositiu i ús de les aplicacions a Xiaomi. Això ajudarà a millorar la durada de la bateria, el sistema i l'estabilitat de l'aplicació, etc."</string>
+    <string name="other_settings_upload_debug_log_summary">"Ajudeu a millorar la vostra experiència enviant automàticament dades de diagnòstic, dispositiu i ús de les aplicacions a Xiaomi. Això ajudarà a millorar la durada de la bateria, el sistema i l'estabilitat de l'aplicació, etc. "</string>
     <string name="other_settings_upload_debug_log_title">Enviar dades d’ús i diagnòstic</string>
     <string name="other_settings_user_experience">"Programa d'experiència d'usuari"</string>
     <string name="other_settings_user_experience_summary">"Ajudeu-nos a millorar els nostres productes i serveis compartint les estadístiques d’ús i dades amb nosaltres. "</string>
@@ -451,14 +479,17 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="permission_account">Accedir als comptes del teu dispositiu</string>
     <string name="permission_account_introduction">Per a iniciar sessió amb Mi Account</string>
     <string name="permission_application_package_introduction">"Per a accedir a l'emmagatzematge per tal d'analitzar i escanejar paquets d'instal·lació"</string>
-    <string name="permission_authority_describe">读取应用列表</string>
-    <string name="permission_authority_describe_applist_summary">用于管理应用权限。</string>
+    <string name="permission_application_scope_description">Només fem servir aquests permisos quan realitzem la verificació de seguretat i no els utilitzarem per a cap altre propòsit.</string>
+    <string name="permission_authority_describe">"Accedir a la llista d'aplicacions instal·lades en aquest dispositiu"</string>
+    <string name="permission_authority_describe_applist_summary">"Per gestionar els permisos de l'aplicació"</string>
     <string name="permission_backup">"Accedint a l'emmagatzematge"</string>
     <string name="permission_backup_introduction">Per accedir i desar les còpies de seguretat al dispositiu</string>
     <string name="permission_call_records">Accediu al registre de trucades</string>
     <string name="permission_call_records_describe_bluetooth_summary">"Per permetre que els altres dispositius compatibles que connecteu a aquest dispositiu accedeixin a l'historial de trucades. Això només passarà quan demaneu utilitzar l'historial de trucades de manera proactiva mitjançant un altre dispositiu. L'historial de trucades i els contactes compartits pel sistema mitjançant Bluetooth només s'emmagatzemaran a la memòria cau localment als vostres dispositius i es compartiran amb ells amb el vostre permís."</string>
     <string name="permission_call_records_introduction">"Per a accedir a l'historial de trucades per tal de mostrar els elements bloquejats"</string>
     <string name="permission_call_state_introduction">Per a accedir als estats del telèfon, gravar trucades i aturar gravacions durant trucades entrants</string>
+    <string name="permission_china_mobile_ai_function">Identificador únic (IMEI) i número de telèfon del dispositiu</string>
+    <string name="permission_china_mobile_ai_function_describe">Per mostrar informació personalitzada en dispositius intel·ligents personalitzats de China Mobile, cal accedir a la informació següent i sincronitzar-la amb China Mobile durant el procés de configuració inicial:</string>
     <string name="permission_clock_info_introduction">"Per a desar dades d'alarma"</string>
     <string name="permission_contact">Accediu als contactes</string>
     <string name="permission_contact_describe">Accediu als contactes</string>
@@ -477,10 +508,10 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="permission_direct_call">Feu trucades</string>
     <string name="permission_direct_call_introduction">Per a afegir elements a Blocklist</string>
     <string name="permission_download_introduction">Per a emmagatzemar en la memòria cau elements i desar-los al teu dispositiu</string>
-    <string name="permission_enable_disable_bluetooth_summary">For finding devices nearby in order to connect and transfer data</string>
+    <string name="permission_enable_disable_bluetooth_summary">Per trobar dispositius a prop per connectar i transferir dades</string>
     <string name="permission_fast_pairing">Per poder trobar dispositius a prop, Mi Link ha de connectar-se a Internet i requereix els permisos següents:</string>
     <string name="permission_get_audio_and_video_summary_settings">Per configurar les previsualitzacions de la foto de perfil i els tons de trucada (inclou la Configuració)</string>
-    <string name="permission_get_imei_information_summary">For identifying device activation time</string>
+    <string name="permission_get_imei_information_summary">"Per identificar el temps d'activació del dispositiu"</string>
     <string name="permission_get_imei_information_summary_settings">Per mostrar informació i especificacions del dispositiu</string>
     <string name="permission_imei_service">"Per a accedir a l'IMEI per tal d'oferir serveis associats al teu dispositiu"</string>
     <string name="permission_interaction_introduction">Per a desar fotos i vídeos en el dispositiu</string>
@@ -499,8 +530,11 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="permission_media_storage_summary">Per comprovar com les aplicacions utilitzen els permisos relacionats amb la privadesa mentre accedeixen als fitxers</string>
     <string name="permission_message_introduction">Per a enviar missatges a contactes bloquejats</string>
     <string name="permission_mi_account">"Accés a l'estat de trucada"</string>
-    <string name="permission_number">读取本机号码</string>
-    <string name="permission_number_introduction">用于支持连接系统蓝牙并实现车载或蓝牙耳机通话；</string>
+    <string name="permission_multi_user_state">"Estat multiusuari del dispositiu d'accés"</string>
+    <string name="permission_multi_user_state_camera_mind_summary">Per assignar recursos del sistema adequadament en escenaris multiusuari com ara un Segon espai</string>
+    <string name="permission_not_agree_service_not_working">"Si no esteu d'acord amb els permisos necessaris esmentats anteriorment, no podreu utilitzar aquest servei."</string>
+    <string name="permission_number">Accedir al número de telèfon</string>
+    <string name="permission_number_introduction">Per establir connexió Bluetooth amb sistemes de cotxe i auriculars Bluetooth</string>
     <string name="permission_phone_imei_device">"Per a accedir a l'IMEI per tal d'identificar dispositius"</string>
     <string name="permission_phone_network">"Per a accedir al tipus de xarxa per tal d'optimitzar i ajustar els elements descarregables"</string>
     <string name="permission_phone_service">Accedeix al número de telèfon, IMEI i IMSI</string>
@@ -508,7 +542,7 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="permission_photo_video">Fer fotos i gravar vídeo:</string>
     <string name="permission_photo_video_introduction">Per a fer fotos, gravar vídeos i fer servir el flaix</string>
     <string name="permission_picture_introduction">Per a desar, editar i sincronitzar fotos i vídeos</string>
-    <string name="permission_qualcomm_describe_summary">用于针对不同类型应用动态调整系统参数，完成系统组件及应用的进程调度。</string>
+    <string name="permission_qualcomm_describe_summary">Per assignar dinàmicament recursos del sistema a diferents aplicacions i organitzar els seus processos de treball</string>
     <string name="permission_quality_describe_summary">"Per recopilar informació sobre bloquejos d'aplicacions"</string>
     <string name="permission_read_app_list">"Accediu a la llista d'aplicacions instal·lades en aquest dispositiu"</string>
     <string name="permission_read_application_list_summary">Per actualitzar les aplicacions baixades i confirmar la informació de l’aplicació que utilitza l’instal·lador de paquets;</string>
@@ -521,7 +555,7 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="permission_read_device_store">"Accediu a l'emmagatzematge del dispositiu"</string>
     <string name="permission_read_device_store_summary">"Per accedir als fitxers font baixats i als fitxers de configuració d'origen;"</string>
     <string name="permission_read_message">Accediu a missatges de text</string>
-    <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
+    <string name="permission_read_message_introduction">Per verificar la propietat del vostre dispositiu</string>
     <string name="permission_read_note_introduction">Per a accedir a notes i adjunts</string>
     <string name="permission_read_send_message">Enviar i rebre SMS</string>
     <string name="permission_read_send_message_fast_application_summary">Per permetre a les aplicacions ràpides enviar i rebre SMS;</string>
@@ -537,6 +571,7 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="permission_read_write_device_store">Accediu i deseu elements a Emmagatzematge</string>
     <string name="permission_read_write_device_store_album_summary">Per a emmagatzemar, mostrar, editar, sincronitzar i baixar les teves fotos i vídeos.</string>
     <string name="permission_read_write_device_store_application_package_summary">"Per analitzar i escanejar paquets d'instal·lació."</string>
+    <string name="permission_read_write_device_store_camera_mind_summary">Per emmagatzemar fotos i vídeos després de la millora de la qualitat de la imatge o altres processaments</string>
     <string name="permission_read_write_device_store_camera_summary">Per desar fitxers al dispositiu després de fer fotos o vídeos.</string>
     <string name="permission_read_write_device_store_download_summary">Per emmagatzemar a la memòria cau, accedir i gestionar el contingut baixat.</string>
     <string name="permission_read_write_device_store_fast_application_summary">Per permetre a les aplicacions ràpides accedir, emmagatzemar i editar fitxers;</string>
@@ -547,9 +582,14 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="permission_recorder_file_introduction">Per a accedir i desar gravacions de so</string>
     <string name="permission_recording">Gravar trucades i so:</string>
     <string name="permission_recording_introduction">Per a gravar so mentre es grava vídeo</string>
-    <string name="permission_reminder_mode_summary_settings">For selecting incoming call reminder types</string>
+    <string name="permission_reminder_mode_summary_settings">Per seleccionar els tipus de recordatori de trucades entrants</string>
     <string name="permission_screen_shoot_introduction">Per a accedir i desar gravacions de pantalla</string>
     <string name="permission_send_message">Enviar SMS</string>
+    <string name="permission_sms_verification_code_login">Per proporcionar verificació per SMS per iniciar sessió ràpidament</string>
+    <string name="permission_uniquely_identifiable_information">"Accedir als identificadors únics d'aquest dispositiu"</string>
+    <string name="permission_uniquely_identifiable_information_summary">"Accedir a l'adreça MAC i al dispositiu OAID per descobrir, connectar i comunicar-vos amb altres dispositius"</string>
+    <string name="permission_use_bluetooth">Utilitzeu Bluetooth</string>
+    <string name="permission_use_bluetooth_summary">Per descobrir, connectar i comunicar-se amb dispositius propers</string>
     <string name="permission_use_camera">Accedir a la càmera</string>
     <string name="permission_use_camera_camera_summary">Per a fer fotos, gravar vídeos i fer servir el flaix;</string>
     <string name="permission_use_camera_desktop_summary">Per determinar si és compatible amb la funció de llanterna;</string>
@@ -559,20 +599,22 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="permission_use_microphone_camera_summary">Per a gravar so mentre es grava vídeo;</string>
     <string name="permission_use_microphone_desktop_summary">"Per mostrar l'estat de la gravació."</string>
     <string name="permission_use_microphone_fast_application_summary">Per permetre que les aplicacions ràpides accedeixin al micròfon;</string>
+    <string name="permission_use_wlan">Utilitza WLAN</string>
+    <string name="permission_use_wlan_summary">Per descobrir, connectar i comunicar-se amb dispositius propers</string>
     <string name="permission_user_record_introduction">Per a gravar so</string>
     <string name="permission_virusscan_introduction">Per a realitzar anàlisi de virus i optimitzar el teu dispositiu</string>
     <string name="permission_write_device_store">Deseu els elements a l’emmagatzematge del dispositiu</string>
     <string name="permission_write_device_store_summary">"Per emmagatzemar a la memòria cau els fitxers de configuració d'origen baixats."</string>
     <string name="permission_xunlei_introduction">"Per a iniciar sessió i gestionar comptes del sistema per tal d'oferir serveis Xunlei"</string>
-    <string name="phone_service_introduction">电话服务是一项基础通讯服务，为通话、短信、上网等功能提供底层通讯能力支撑。</string>
+    <string name="phone_service_introduction">Telefonia és un servei bàsic que permet al vostre dispositiu fer trucades, enviar i rebre missatges i connectar-se a la xarxa.</string>
     <string name="pm">PM</string>
     <string name="poco_agree_terms_other">"(Incloent la Política de privadesa i Acord d'usuari del llançador POCO)"</string>
     <string name="poco_launcher_privacy_policy">Política de privadesa del Llançador POCO</string>
     <string name="poco_launcher_user_agreement">"Acord d'usuari del Llançador POCO"</string>
     <string name="position_header">"Compartint informació d'ubicació"</string>
     <string name="position_subheading">"Informació d'ubicació"</string>
-    <string name="power_and_performance">Battery and performance</string>
-    <string name="power_and_performance_introduction">This service provides basic battery management, usage statistics, power saving features, and more.</string>
+    <string name="power_and_performance">Bateria i rendiment</string>
+    <string name="power_and_performance_introduction">"Aquest servei ofereix una gestió bàsica de la bateria, estadístiques d'ús, funcions d'estalvi d'energia i molt més."</string>
     <string name="pref_title_data_slot">Targeta SIM de dades preferida</string>
     <string name="pref_title_voice_slot">Targeta SIM de veu preferida</string>
     <string name="preference_copied">"\"%1$s\" s'ha copiat al porta-retalls"</string>
@@ -586,32 +628,48 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="privacy_title">Termes i Política de privadesa</string>
     <string name="prompt_fingerprint">La protecció de dades avançada està activada per al vostre compte. Establiu un bloqueig de pantalla per a aquest dispositiu.</string>
     <string name="protect_persoanl_info_statement">Protegirem la teva informació personal de conformitat amb les lleis, directrius i polítiques de privadesa aplicables.</string>
+    <string name="provide_date_management_service">Aquest servei permet consultar la data i gestionar els esdeveniments.</string>
+    <string name="provision_accessibility_talkback_summary">Escolteu el contingut en pantalla llegit en veu alta amb un lector de pantalla. Dissenyat per a persones amb discapacitat visual.</string>
+    <string name="provision_accessibility_talkback_title">Talkback</string>
     <string name="provision_back">Enrere</string>
     <string name="provision_complete_text">Tot fet</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Veure la &lt;a href=%1$s>Política de privadesa&lt;/a > del teclat seleccionat.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Política de privadesa</string>
     <string name="provision_next">Següent</string>
     <string name="provision_skip_underline">Omet</string>
-    <string name="qualcomm_introduction">com.qualcomm.qti.workloadclassifier提供系统进程调度服务。</string>
+    <string name="provision_talkback_dialog_allow">Permet</string>
+    <string name="provision_talkback_dialog_deny">Denega</string>
+    <string name="provision_talkback_dialog_description">"El control total és adequat per a les aplicacions que t'ajuden amb l'accessibilitat, però no per a la majoria de les aplicacions."</string>
+    <string name="provision_talkback_dialog_item_control_description">"Pot llegir tot el contingut de la pantalla i mostrar contingut per sobre d'altres aplicacions."</string>
+    <string name="provision_talkback_dialog_item_control_title">Veure i controlar la pantalla</string>
+    <string name="provision_talkback_dialog_item_perform_description">Pot fer un seguiment de les teves interaccions amb una aplicació o un sensor de maquinari, i interaccionar amb aplicacions en nom teu.</string>
+    <string name="provision_talkback_dialog_item_perform_title">Veure i dur a terme accions</string>
+    <string name="provision_talkback_dialog_title">El servei realitzarà aquestes accions:</string>
+    <string name="qualcomm_introduction">com.qualcomm.qti.workloadclassifier és un servei que gestiona els processos del sistema.</string>
+    <string name="read_application_info">"Accedir a l'informació de l'aplicació"</string>
+    <string name="read_sms_and_mms">Accés als SMS i MMS</string>
     <string name="recommend_font">MiSans</string>
     <string name="recommended_font_mark">Recomanat</string>
     <string name="recorder_introduction">Pots fer servir aquesta aplicació per a gravar àudio i fer còpies de seguretat de gravacions en el núvol.</string>
     <string name="refuse_cookie">Rejecta galetes</string>
     <string name="require_authority_list_statement">Per poder treballar amb normalitat, aquest servei requereix els permisos següents:</string>
     <string name="require_authority_statement">"Per a permetre'ns oferir-te serveis bàsics, ens hauràs de donar els següents permisos per tal que puguem recopilar la teva informació personal:"</string>
-    <string name="require_base_authority_statement">"为实现基本服务，需要调用您的如下权限：
-\t\t\t读取本机号码、IMEI及IMSI"</string>
-    <string name="require_basic_applist_and_authority_statement">为实现基本功能，需要调用您的如下权限：</string>
+    <string name="require_base_authority_statement">"Per oferir els serveis bàsics, calen els permisos següents:
+\t\t\tAccediu a IMEI i IMSI"</string>
+    <string name="require_basic_applist_and_authority_statement">Per oferir els serveis bàsics, calen els permisos següents:</string>
     <string name="require_device_information_statement">Per poder oferir els serveis bàsics, calen els permisos següents:</string>
     <string name="require_miuidaemon_authority_statement">Per permetre’ns proporcionar-vos aquest servei, heu d’atorgar els permisos següents per tal que puguem recollir la vostra informació personal:</string>
     <string name="require_network_and_authority_statement">Per poder treballar amb normalitat, aquest servei ha de connectar-se a Internet i requereix els permisos següents:</string>
     <string name="require_network_authority_statement">Per poder treballar amb normalitat, aquest servei ha de connectar-se a Internet i requereix els permisos següents:</string>
     <string name="require_network_authority_statement_dual">Per poder treballar amb normalitat, aquest servei ha de connectar-se a Internet i requereix els permisos següents:</string>
+    <string name="require_statement">Per poder oferir serveis bàsics, necessitem els permisos següents:</string>
     <string name="require_telephone_imei">Llegeix IMEI i IMSI</string>
     <string name="require_telephone_imei_summary">"Per accedir a l'IMEI"</string>
     <string name="require_telephone_location">Accedir a la ubicació</string>
     <string name="require_telephone_location_summary">"Per accedir a la vostra ubicació aproximada per proporcionar serveis d'optimització de xarxa basats en la ubicació i calibratge de fus horari"</string>
     <string name="require_telephone_statement">Per oferir els serveis bàsics, calen els permisos següents:</string>
+    <string name="safe_open_service">Serveis oberts segurs</string>
+    <string name="safe_open_service_introduction">Els serveis oberts segurs ajuden els desenvolupadors i proporcionen capacitats de seguretat a nivell de sistema per protegir els usuaris i la seva privadesa.</string>
     <string name="sample_text_summary">"Xiaomi crea sense parar productes increïbles amb preus honestos per permetre que tothom del món gaudeixi d'una vida millor gràcies a una tecnologia innovadora."</string>
     <string name="sample_text_title">Text de mostra:</string>
     <string name="saturday">Dissabte</string>
@@ -633,11 +691,12 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="service_name_address_dialing">Contactes i Telèfon</string>
     <string name="service_name_album">Galeria</string>
     <string name="service_name_application_package">Instal·lador de paquets</string>
-    <string name="service_name_authority">权限管理服务</string>
+    <string name="service_name_authority">Gestor de permisos</string>
     <string name="service_name_backup">Còpies de seguretat</string>
     <string name="service_name_bluetooth">Bluetooth</string>
     <string name="service_name_calculator">Calculadora</string>
     <string name="service_name_camera">Càmera</string>
+    <string name="service_name_camera_mind">"Motor de millora d'imatges"</string>
     <string name="service_name_carrier">"Declaració sobre serveis d'operadora"</string>
     <string name="service_name_clock">Rellotge</string>
     <string name="service_name_compass">Brúixola</string>
@@ -652,7 +711,7 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="service_name_lockscreen">Tipus de fons de pantalla</string>
     <string name="service_name_message">Missatgeria</string>
     <string name="service_name_note">Notes</string>
-    <string name="service_name_phone_service">电话服务</string>
+    <string name="service_name_phone_service">Telefonia</string>
     <string name="service_name_qualcomm">com.qualcomm.qti.workloadclassifier</string>
     <string name="service_name_recorder">Gravadora</string>
     <string name="service_name_screen_recording">Gravadora de pantalla</string>
@@ -661,21 +720,20 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="service_name_systemdesktop">Connector de servei de pantalla d’inici</string>
     <string name="service_policy">&lt;Data>Llegeix i accepta la nostra &lt;a href=%1$s>Política de privadesa&lt;/a >.&lt;/Data></string>
     <string name="service_policy_adjust_content">Política de privadesa de Xunlei</string>
-    <string name="service_policy_download">"&lt;Data>RLlegiu i accepteu la &lt;a href=%1$s>Política de privadesa de Xunlei&lt;/a > i &lt;a href=%1$s>Acord d'usuari de Serveis de xarxa Xunlei&lt;/a >abans de continuar.&lt;/Data>"</string>
+    <string name="service_policy_download"><Data>"Llegiu i accepteu la &lt;a href=%1$s>Política de privadesa de Xunlei&lt;/a > i &lt;a href=%1$s>Acord d'usuari de Serveis de xarxa Xunlei&lt;/a >abans de continuar."</Data></string>
     <string name="service_privacy_index">Política de privadesa</string>
     <string name="service_security_over_r">"&lt;Data>Llegiu i accepteu la nostra &lt;a href=%1$s>Política de privadesa&lt;/a>.&lt;br/>&lt;br/>D'acord amb els estàndards d'Android &lt;xliff:g id=version_number example=11>%2$d&lt;/xliff:g>, es retirarà un permís únic en un període de temps definit (al voltant de &lt;xliff:g example=5 seconds id=short>%3$s&lt;/xliff:g>) després que deixi de funcionar l'aplicació corresponent. Si obriu l'aplicació durant aquest curt període de temps, el permís es retirarà.&lt;/Data>"</string>
     <string name="service_sim_activation">Activació de targeta SIM</string>
-    <string name="servicestate_title">Declaració sobre serveis bàsics</string>
     <string name="setting_locale">"S'està ajustant la configuració regional…"</string>
     <string name="shut_down">Tanca</string>
-    <string name="sim_activation_introduction">The SIM card activation service verifies the information of the currently inserted SIM card to make sure that system services can work normally. These services include Find device, Mi Message, creating Xiaomi Accounts using phone numbers, and syncing messages and call history.</string>
+    <string name="sim_activation_introduction">"El servei d'activació de la targeta SIM verifica la informació de la targeta SIM actualment inserida per assegurar-se que els serveis del sistema poden funcionar amb normalitat. Aquests serveis inclouen Troba dispositiu, Missatges Mi, creació de Comptes Xiaomi mitjançant números de telèfon i sincronització de missatges i historial de trucades."</string>
     <string name="sim_card_detecting">Comprovant la SIM…</string>
     <string name="sim_card_detecting_check">"No s'ha pogut trobar la targeta SIM. Assegura't que la targeta SIM estigui instal·lada correctament i que disposes de fons suficients en el teu saldo."</string>
     <string name="sim_card_detecting_confirm_turn_on_network">Permeteu connectar-se a les xarxes de dades mòbils? De ser així, la targeta SIM que introduïu serà emprada per connectar-se a les xarxes de dades mòbils.</string>
     <string name="sim_card_detecting_title">"S'està comprovant la targeta SIM…"</string>
     <string name="sim_card_detection">Inseriu una targeta SIM</string>
     <string name="sim_card_detection_info">Per inserir la targeta SIM, llegiu les instruccions subministrades amb el dispositiu.</string>
-    <string name="sim_card_detection_info_sb">"Inseriu una targeta SIM abans de continuar. La funció de cerca de dispositius i sincronització no estarà totalment disponible si creeu un compte sense targeta SIM. Aquest dispositiu admet eSIM. "</string>
+    <string name="sim_card_detection_info_sb">"Inseriu una targeta SIM abans de continuar. La funció de Troba dispositiu i sincronització no estarà totalment disponible si creeu un compte sense targeta SIM. Aquest dispositiu admet eSIM. "</string>
     <string name="sim_card_detection_info_sb_esim">Premeu per activar a eSIM.</string>
     <string name="sim_card_detection_mobile_not_available">"La targeta Mi no s'ha pogut connectar a la xarxa"</string>
     <string name="sim_card_detection_sb_esim">Activa a eSIM</string>
@@ -700,8 +758,8 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="sunday_short">Dg</string>
     <string name="sunday_shortest">Dg</string>
     <string name="system_navigation_mode">Sistema de navegació del sistema</string>
-    <string name="system_update_statement">In order to perform a system update, we need to collect the device IMEI, device IMSI, device identifiers (OAID and encrypted Android ID), Xiaomi Account, device manufacturer, device model, network operator, device memory, operating system version, region, language, connectivity, network type, and IP address.</string>
-    <string name="system_update_title">System updates</string>
+    <string name="system_update_statement">"Per dur a terme una actualització del sistema, hem de recollir l'IMEI del dispositiu, l'IMSI del dispositiu, els identificadors del dispositiu (OAID i l'identificador d'Android xifrat), Compte Xiaomi, el fabricant del dispositiu, el model del dispositiu, l'operador de xarxa, la memòria del dispositiu, la versió del sistema operatiu, la regió, l'idioma, la connectivitat, el tipus de xarxa i l'adreça IP."</string>
+    <string name="system_update_title">Actualitzacions del sistema</string>
     <string name="systemdesktop_introduction">El connector de servei de Pantalla d’inici us proporciona funcions bàsiques com ara Pantalla d’inici, interfície d’usuari del sistema i captures de pantalla.</string>
     <string name="term_condition_detail">"Obteniu imatges impressionants i històries emocionants que es lliuren diàriament a la Pantalla de bloqueig. Aquesta funció no utilitzarà les vostres dades per a la personalització sense el vostre consentiment. Llegiu i accepteu la &lt;a href =%1$s>Política de privadesa&lt;/a> i el &lt;a href =%2$s>Acord d'usuari&lt;/a> del proveïdor de contingut de tercers abans d'utilitzar aquesta funció."</string>
     <string name="terms_and_statement_title">Termes i condicions</string>
@@ -742,14 +800,14 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="terms_of_use_label_simcard">"Servei d'activació de SIM"</string>
     <string name="terms_of_use_label_smart_service">Serveis intel·ligents</string>
     <string name="terms_of_use_label_statistics">Estadístiques</string>
-    <string name="terms_of_use_label_system_quality_monitoring">系统质量监测</string>
+    <string name="terms_of_use_label_system_quality_monitoring">Supervisió de la qualitat del sistema</string>
     <string name="terms_of_use_label_systemhelper">"Servei d'autoinscripció"</string>
     <string name="terms_of_use_label_translation">Servei de traducció</string>
-    <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
+    <string name="terms_of_use_label_unionplay_security">Element segur de UnionPay TSM (versió de Xiaomi)</string>
     <string name="terms_of_use_label_updater">"Servei d'actualització del sistema (comprova si hi ha actualitzacions en línia i notifica sobre noves versions)"</string>
     <string name="terms_of_use_label_use_location_and_network_global">"Abans d'utilitzar el sistema, llegiu i accepteu el nostre Acord d'usuari i la Política de privadesa, que cobreixen les aplicacions Xiaomi preinstal·lades al vostre dispositiu (p. ex., Galeria, Mi Música, Navegador Mi, Mi Vídeo, Temes, etc.). Protegim la vostra informació personal d'acord amb les lleis, regulacions i polítiques de privadesa pertinents. Les dades d'aquest dispositiu s'encripten i es poden suprimir permanentment fent un restabliment de fàbrica. Quan el vostre dispositiu estigui activat, els serveis següents es connectaran a la xarxa i accediran a la vostra ubicació:"</string>
     <string name="terms_of_use_label_use_network_china">"Abans d'utilitzar el sistema, llegiu i accepteu el nostre &lt;a href=\"%1$s\">Acord d'usuari&lt;/a> i la &lt;a href=\"%2$s\">Política de privadesa&lt;/a>. Protegim la vostra informació personal d'acord amb les lleis, regulacions i polítiques de privadesa pertinents."</string>
-    <string name="terms_of_use_label_use_network_china_append">Quan el dispositiu estigui activat, els serveis següents es connectaran a la xarxa:</string>
+    <string name="terms_of_use_label_use_network_china_append">"Quan el dispositiu estigui activat, els serveis següents es connectaran a la xarxa: "</string>
     <string name="terms_of_use_label_wallpaper">Fons de pantalla</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
@@ -827,9 +885,12 @@ Has d'acceptar la Política de privadesa del teclat Mint abans de fer servir aqu
     <string name="tuesday">Dimarts</string>
     <string name="tuesday_short">Dt</string>
     <string name="tuesday_shortest">Dt</string>
+    <string name="used_date_viewing">Per comprovar la data</string>
     <string name="user_agreement">"Acord d'usuari"</string>
     <string name="v7_preference_off">DESACTIVAT</string>
     <string name="v7_preference_on">ACTIVAT</string>
+    <string name="verify_application_security">"Per verificar la seguretat de l'aplicació"</string>
+    <string name="verify_device_security">Per verificar la seguretat del dispositiu</string>
     <string name="voice_assist_desp">Diguis «Mi IA» al teu telèfon. Mi IA reconeixerà la teva veu i podrà controlar el teu dispositiu.</string>
     <string name="voice_assist_title">Desperta amb veu</string>
     <string name="wc_dialog_agree">Accepto</string>

@@ -32,6 +32,8 @@
     <string name="bottomsheet_action_expand_halfway">הרחבה עד האמצע</string>
     <string name="bottomsheet_drag_handle_clicked">בוצעה הקשה כפולה על נקודת האחיזה לגרירה</string>
     <string name="bottomsheet_drag_handle_content_description">נקודת אחיזה לגרירה</string>
+    <string name="calendar_date_picker_a11y_next_month">מעבר לחודש הבא</string>
+    <string name="calendar_date_picker_a11y_prev_month">מעבר לחודש הקודם</string>
     <string name="call_notification_answer_action">מענה</string>
     <string name="call_notification_answer_video_action">וידאו</string>
     <string name="call_notification_decline_action">דחייה</string>
@@ -39,13 +41,17 @@
     <string name="call_notification_incoming_text">שיחה נכנסת</string>
     <string name="call_notification_ongoing_text">שיחה פעילה</string>
     <string name="call_notification_screening_text">סינון שיחה נכנסת</string>
+    <string name="camera_a11y_action_enter">Enter camera</string>
+    <string name="camera_a11y_action_fullscreen">Full screen</string>
+    <string name="camera_a11y_action_play_pause">Pause or play</string>
+    <string name="camera_a11y_action_switch_lens">Switch lens</string>
+    <string name="camera_category_name">מצלמות</string>
+    <string name="camera_count_tip">כל המצלמות</string>
     <string name="cast_ad_label">מודעה</string>
     <string name="cast_casting_to_device">מעביר אל %1$s</string>
     <string name="cast_closed_captions">כתוביות</string>
     <string name="cast_closed_captions_unavailable">הכתוביות אינן זמינות</string>
     <string name="cast_connecting_to_device">מתחבר אל %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">מתבצע חיפוש מכשירים</string>
-    <string name="cast_device_chooser_title">העברה אל</string>
     <string name="cast_disconnect">נתק</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">‏התמונה מוצגת בזמן שמקלט Cast מפעיל מודעה</string>
@@ -84,9 +90,6 @@
     <string name="cast_tracks_chooser_dialog_ok">אישור</string>
     <string name="cast_tracks_chooser_dialog_subtitles">כתוביות</string>
     <string name="cast_unmute">ביטול השתקה</string>
-    <string name="cast_zero_devices_found">"‏לא נמצאו מכשירים.
-"</string>
-    <string name="cast_zero_devices_learn_more_description">‏<a href="https://support.google.com/chromecastbuiltin/answer/3006709">כאן מוסבר איך אפשר להעביר (cast) את התוכן למכשירים אחרים</a>.</string>
     <string name="character_counter_content_description">הוזנו %1$d תווים מתוך %2$d</string>
     <string name="character_counter_overflowed_content_description">מגבלת התווים חורגת ב-%1$d מתוך %2$d</string>
     <string name="clear_text_end_icon_content_description">מחיקת הטקסט</string>
@@ -117,6 +120,14 @@
     <string name="fallback_menu_item_copy_link">העתקת הקישור</string>
     <string name="fallback_menu_item_open_in_browser">פתיחה בדפדפן</string>
     <string name="fallback_menu_item_share_link">לשיתוף הקישור</string>
+    <string name="fusion_device_nearby">בסביבה</string>
+    <string name="home_curtain_card_close_button">סגירה</string>
+    <string name="home_curtain_card_open_button">פתיחה</string>
+    <string name="home_curtain_card_pause_button">השהייה</string>
+    <string name="homemodule_camera__physical_mask">המצלמה חסומה</string>
+    <string name="homemodule_curtain_AllDevice_none">אין וילונות</string>
+    <string name="homemodule_light_AllDevice_none">אין מכשירי תאורה</string>
+    <string name="ic_media_route_learn_more_accessibility">‏איך להעביר (cast)</string>
     <string name="icon_content_description">סמל לתיבת דו-שיח</string>
     <string name="item_view_role_description">מקש Tab</string>
     <string name="material_clock_toggle_content_description">יש לבחור ב-AM או ב-PM</string>
@@ -133,13 +144,29 @@
     <string name="material_timepicker_select_time">בחר שעה</string>
     <string name="material_timepicker_text_input_mode_description">העבר למצב קלט טקסט לצורך הזנת השעה</string>
     <string name="media_notification_channel_name">‏העברה (Cast)</string>
+    <string name="mj_home_device_empty">אין מכשירים</string>
+    <string name="mj_module_card_name_curtain">וילונות</string>
+    <string name="mj_module_card_name_env">סביבה</string>
+    <string name="mj_module_card_name_light">תאורה</string>
+    <string name="mj_room_curtain_device_none">כל הוילונות סגורים</string>
+    <string name="mj_room_light_device_none">כל האורות כבויים</string>
+    <string name="mj_talkback_device_main_need_psd">נדרשת סיסמה</string>
     <string name="mr_button_content_description">‏העברה (cast)</string>
     <string name="mr_cast_button_connected">‏העברה (cast). מחובר</string>
     <string name="mr_cast_button_connecting">‏העברה (cast). מתבצעת התחברות</string>
     <string name="mr_cast_button_disconnected">‏העברה (cast). אין חיבור</string>
     <string name="mr_cast_dialog_title_view_placeholder">אין מידע זמין</string>
+    <string name="mr_chooser_looking_for_devices">מתבצע חיפוש מכשירים…</string>
     <string name="mr_chooser_searching">מתבצע חיפוש מכשירים</string>
     <string name="mr_chooser_title">העברה אל</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">מידע נוסף</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">‏מוודאים שהמכשיר השני והרכב מחוברים לאותה רשת Wi-Fi</string>
+    <string name="mr_chooser_wifi_warning_description_phone">‏מוודאים שהמכשיר השני והטלפון מחוברים לאותה רשת Wi-Fi</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">‏מוודאים שהמכשיר השני והטאבלט מחוברים לאותה רשת Wi-Fi</string>
+    <string name="mr_chooser_wifi_warning_description_tv">‏מוודאים שהמכשיר השני והטלוויזיה מחוברים לאותה רשת Wi-Fi</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">‏מוודאים ששני המכשירים מחוברים לאותה רשת Wi-Fi</string>
+    <string name="mr_chooser_wifi_warning_description_watch">‏מוודאים שהמכשיר השני והשעון מחוברים לאותה רשת Wi-Fi</string>
+    <string name="mr_chooser_zero_routes_found_title">אין מכשירים זמינים</string>
     <string name="mr_controller_album_art">עטיפת אלבום</string>
     <string name="mr_controller_casting_screen">העברת מסך מתבצעת</string>
     <string name="mr_controller_close_description">סגירה</string>
@@ -204,6 +231,9 @@
     <string name="mtrl_timepicker_cancel">ביטול</string>
     <string name="mtrl_timepicker_confirm">אישור</string>
     <string name="not_set">לא מוגדרת</string>
+    <string name="noti_device_off">כבוי</string>
+    <string name="noti_device_on">פועל</string>
+    <string name="operation_open_close">הפעלה/כיבוי</string>
     <string name="password_toggle_content_description">הצגת סיסמה</string>
     <string name="preference_copied">\"%1$s\" הועתק ללוח.</string>
     <string name="search_menu_title">חיפוש</string>

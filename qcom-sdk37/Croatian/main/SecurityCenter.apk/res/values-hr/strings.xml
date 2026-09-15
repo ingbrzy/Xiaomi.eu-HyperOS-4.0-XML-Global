@@ -163,7 +163,7 @@
     <string name="add_done">Uspješno dodano</string>
     <string name="add_game">Dodaj igru</string>
     <string name="add_game_notification_summary">Dodirni za pokretanje i ubrzanje brzine</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">\"%s\" dodano u Game Space</string>
     <string name="add_miservice_dialog_content">%s zahtijeva od vas da dodate Xiaomi service framework na popis iznimaka. Možete primiti obavijesti od naših ugrađenih aplikacija i aplikacija drugih proizvođača.</string>
     <string name="add_miservice_dialog_title">Xiaomi service framework</string>
     <string name="add_to_whitelist_button">Iznimke podataka roaminga</string>
@@ -200,6 +200,48 @@
     <string name="anitispam_intercept_record">Povijest popisa blokiranih</string>
     <string name="anti_disturb_msg_detail">Isključi sve obavijesti, osim za dolazne pozive</string>
     <string name="anti_disturb_msg_title">DND</string>
+    <string name="anti_peeping">Otkrivanje pogleda druge osobe</string>
+    <string name="anti_peeping_apps_disable_header_title">Aplikacije koje nisu odabrane</string>
+    <string name="anti_peeping_apps_enable_header_title">Odabrane aplikacije</string>
+    <string name="anti_peeping_apps_notify_description">Kada se odabrana aplikacija prikazuje preko cijelog zaslona, ​​ova će značajka kontinuirano provjeravati gleda li netko vaš zaslon i obavijestiti vas</string>
+    <string name="anti_peeping_apps_notify_title">Obavijesti kada netko gleda</string>
+    <string name="anti_peeping_apps_notify_type">Obavijesti</string>
+    <string name="anti_peeping_apps_privacy_tip">Ova značajka koristi podatke o licu za prepoznavanje pogleda. Svi se podaci obrađuju na vašem uređaju i neće se dijeliti.</string>
+    <string name="anti_peeping_face_need_input">Potrebni podaci lica</string>
+    <string name="anti_peeping_face_need_input_confirm">Postavke</string>
+    <string name="anti_peeping_face_need_input_subtitle">Dodajte podatke o svom licu kako biste mogli koristiti ovu značajku. Dodati sada?</string>
+    <string name="anti_peeping_focus_not_enabled"><Data>Istaknuti dio obavijesti je isključen. Upozorenja će umjesto toga koristiti vibraciju. &lt;font color=#3482FF>Uključi&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback"><Data>Istaknuti sadržaj obavijesti je isključen. Upozorenja nisu dostupna. &lt;font color=#3482FF>Uključi&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback_v2"><Data>Xiaomi HyperIsland je isključen. Obavijesti nisu dostupne. &lt;font color=#3482FF>Uključi&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_v2"><Data>Xiaomi HyperIsland je isključen. Upozorenja će umjesto toga koristiti vibraciju. &lt;font color=#3482FF>Uključi&lt;/font></Data></string>
+    <string name="anti_peeping_notification_channel_name">Otkrivanje pogleda druge osobe</string>
+    <string name="anti_peeping_notification_got_it">Razumijem</string>
+    <string name="anti_peeping_notification_protect_content">Neću više podsjećati</string>
+    <string name="anti_peeping_notification_title">Zaštitite svoju privatnost</string>
+    <string name="anti_peeping_privacy_auto_close_des">Ova značajka može neznatno povećati potrošnju energije i bit će isključena kada je uključena Štednja baterije.</string>
+    <string name="anti_peeping_privacy_auto_close_title">Automatski se isključuje kada je uključena Štednja baterije</string>
+    <string name="anti_peeping_privacy_statement_des">"Nakon što uključite ovu značajku, ovaj će uređaj koristiti prednji fotoaparat kako bi provjerio gleda li netko drugi osim vas u vaš zaslon kada su vaše odabrane aplikacije prikazane preko cijelog zaslona. Ako se otkrije, dobit ćete podsjetnik o privatnosti.
+Sva se obrada izvodi na vašem uređaju i neće se prenijeti u cloud."</string>
+    <string name="anti_peeping_privacy_statement_title">Izjava o privatnosti</string>
+    <string name="anti_peeping_privacy_understand_des">"Ova značajka koristi prednji fotoaparat za snimanje slika i analizu gleda li netko drugi osim vas u vaš zaslon. Ako se otkrije takva aktivnost, dobit ćete podsjetnik kako biste zaštitili svoju privatnost.
+Možete odabrati koje aplikacije želite zaštititi. \"Otkrivanje pogleda druge osobe\" automatski će se uključiti kada se te aplikacije prikazuju preko cijelog zaslona."</string>
+    <string name="anti_peeping_privacy_understand_title">O \"Otkrivanje pogleda druge osobe\"</string>
+    <string name="anti_peeping_recommend_apps_button_open">Uključi</string>
+    <string name="anti_peeping_recommend_tips">%s korisnika odabralo je sljedeće aplikacije</string>
+    <string name="anti_peeping_recommend_title">Preporučene aplikacije</string>
+    <string name="anti_peeping_search_key">Otkrivanje pogleda druge osobe</string>
+    <string name="anti_peeping_search_keywords">Otkrivanje pogleda druge osobe; pogled druge osobe; prikaz privatnosti; privatni prikaz; prikaz privatnosti</string>
+    <string name="anti_peeping_splash_confirm">Sljedeće</string>
+    <string name="anti_peeping_splash_custom_des">Ova će se značajka uključiti kada se odabrane aplikacije prikažu na cijelom zaslonu</string>
+    <string name="anti_peeping_splash_custom_title">Odaberite aplikacije za zaštitu</string>
+    <string name="anti_peeping_splash_dialog_des"><Data>Vaš uređaj će kontinuirano provjeravati gledaju li ljudi vaš zaslon i obavijestit će vas ako ih otkrije. &lt;font color=#3482FF>Saznajte više&lt;/font></Data></string>
+    <string name="anti_peeping_splash_identify_des">Otkrijte gleda li netko drugi u vaš zaslon</string>
+    <string name="anti_peeping_splash_identify_title">Otkrivanje drugih koji gledaju</string>
+    <string name="anti_peeping_splash_notify_des">Podržava Xiaomi HyperIsland i vibracijska upozorenja</string>
+    <string name="anti_peeping_splash_notify_title">Primajte podsjetnike o privatnosti</string>
+    <string name="anti_peeping_vibrate_demo_toast">Bit ćete obaviješteni kada se otkrije pogled druge osobe</string>
+    <string name="anti_peeping_vibration_not_enabled"><Data>Haptička povratna informacija je isključena. Upozorenja će se prikazivati ​​putem Xiaomi HyperIslanda. &lt;font color=#3482FF>Uključi&lt;/font></Data></string>
+    <string name="anti_peeping_vibration_not_enabled_no_fallback"><Data>Haptička povratna informacija je isključena. Obavijesti nisu dostupne. &lt;font color=#3482FF>Uključi&lt;/font></Data></string>
     <string name="antispam_add_black_number_message">Broj koji ste unijeli je kratak. Blokirati sve brojeve koji počinju ovim znamenkama?</string>
     <string name="antispam_add_black_number_negative">Ne</string>
     <string name="antispam_add_black_number_positive">Da</string>
@@ -623,6 +665,12 @@ Ako još niste postavili zaključavanje zaslona, ​​slijedite upute za postav
     <string name="apps_item_virus_ignore_text">Zanemari</string>
     <string name="apps_item_virus_summary_installed">Instalirane aplikacije</string>
     <string name="apps_item_virus_summary_uninstalled">APK</string>
+    <string name="apps_layout_all_apps">Sve aplikacije</string>
+    <string name="apps_layout_all_freeform_apps">Dostupne aplikacije</string>
+    <string name="apps_layout_recommend_apps">Preporučene aplikacije</string>
+    <string name="apps_layout_search_app">Pretraži aplikacije</string>
+    <string name="apps_layout_search_app_no_result">Ne mogu pronaći rezultate</string>
+    <string name="apps_layout_shortcut">Prečice</string>
     <string name="apps_list_header_title_sms">Provjeri aplikaciju za slanje poruka</string>
     <string name="apps_list_header_title_sms_access">Ograniči pristup kodovima potvrde</string>
     <string name="ask_create_shortcut">Izraditi prečicu Početnog zaslona?</string>
@@ -719,6 +767,9 @@ Ako još niste postavili zaključavanje zaslona, ​​slijedite upute za postav
     <string name="back_sound_support_china">Prvo isključite WLAN</string>
     <string name="background_restrict_app_dialog_message">Ograničavanje pristupa mreži u pozadini ovoj aplikaciji može onemogućiti da funkcionira normalno, prima poruke, preuzima sadržaj itd. Ograničiti svejedno?</string>
     <string name="background_traffic">Pozadina %s</string>
+    <string name="background_virus_scan_notification_summary">Više aplikacija, uključujući %s. Dodirnite za prikaz.</string>
+    <string name="background_virus_scan_notification_summary_one">Dodirnite za pregled</string>
+    <string name="background_virus_scan_notification_title_one">Otkrivena zlonamjerna aplikacija %s</string>
     <string name="backsound_set_hint">Postaviti svoju poruku \"Odsutan sam\" za %s?</string>
     <string name="banner_optimizemanage_summary">Oslobodite memoriju</string>
     <string name="banner_red_money_assist_button">Uključi</string>
@@ -979,7 +1030,9 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="bubble_notification_switch">Prikaži oblačiće razgovora</string>
     <string name="bubble_notification_switch_desc">Kada je aplikacija za slanje poruka u plutajućem prozoru skrivena na rubu zaslona, ​​prikažite dolazne poruke u oblačićima</string>
     <string name="bubble_pickup_voice_print_auto">Snimanje uzorka glasa…</string>
+    <string name="bubble_pickup_voice_print_auto_v2">Snimanje glasovnog otiska i podataka o licu…</string>
     <string name="bubble_pickup_voice_print_success">Snimljen uzorak glasa</string>
+    <string name="bubble_pickup_voice_print_success_v2">Zabilježeni podaci o uzorku glasa i podacima lica</string>
     <string name="button_background_connection">Dopusti</string>
     <string name="button_block_calls_from_cantacts">Odblokiraj</string>
     <string name="button_block_calls_from_strangers">Odblokiraj</string>
@@ -1025,6 +1078,13 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="call_delete_hint">Izbrisati sve blokirane pozive s tog broja?</string>
     <string name="call_delete_title">Izbriši povijest poziva</string>
     <string name="call_empty_number">Prazni brojevi</string>
+    <string name="call_filter_ad_promotion">Oglasi</string>
+    <string name="call_filter_education_training">Obrazovanje</string>
+    <string name="call_filter_high_risk">Visok rizik</string>
+    <string name="call_filter_insurance_finance">Osiguranje</string>
+    <string name="call_filter_loan_promotion">Krediti</string>
+    <string name="call_filter_real_estate">Nekretnine</string>
+    <string name="call_filter_renovation_repair">Kućni popravci</string>
     <string name="call_forwarding_block">Proslijeđeni pozivi</string>
     <string name="call_intercept_settings">Postavke popisa blokiranih poziva</string>
     <string name="call_notification_answer_action">Odgovori</string>
@@ -1038,6 +1098,19 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="call_overseas_block">Međunarodni pozivi</string>
     <string name="call_prefix">Lista blokiranih predbrojeva</string>
     <string name="call_private">Blokirajte pozive sa skrivenih brojeva</string>
+    <string name="call_reason_ad_promotion_mark">Oglasi</string>
+    <string name="call_reason_ad_promotion_mark_large">Oglasi</string>
+    <string name="call_reason_education_training_mark">Obrazovanje</string>
+    <string name="call_reason_education_training_mark_large">Obrazovanje</string>
+    <string name="call_reason_high_risk_mark">Visok rizik</string>
+    <string name="call_reason_insurance_finance_mark">Osiguranje</string>
+    <string name="call_reason_insurance_finance_mark_large">Osiguranje</string>
+    <string name="call_reason_loan_promotion_mark">Krediti</string>
+    <string name="call_reason_loan_promotion_mark_large">Krediti</string>
+    <string name="call_reason_real_estate_mark">Nekretnine</string>
+    <string name="call_reason_real_estate_mark_large">Nekretnine</string>
+    <string name="call_reason_renovation_repair_mark">Kućni popravci</string>
+    <string name="call_reason_renovation_repair_mark_large">Kućni popravci</string>
     <string name="call_stranger_block">Blokirajte pozive od stranaca</string>
     <string name="call_transfer_block">Blokiraj prosljeđene pozive</string>
     <string name="call_transfer_info">Blokirajte prosljeđene pozive sa nepoznatih brojeva</string>
@@ -1110,6 +1183,10 @@ Ovu značajku možete uključiti i isključiti u Kontrolnom centru."</string>
     <string name="cetus_invisible_mode">Anonimno</string>
     <string name="cetus_invisible_mode_description_card">Povuci dozvole</string>
     <string name="cetus_invisible_mode_description_switch">Uključite za povlačenje dozvola za mikrofon, fotoaparat i lokaciju za sve aplikacije</string>
+    <string name="cetus_invisible_mode_notice_audio">Trenutno ste u anonimnom načinu. Ne možete koristiti mikrofon.</string>
+    <string name="cetus_invisible_mode_notice_camera">Trenutno ste u anonimnom načinu. Ne možete koristiti fotoaparat.</string>
+    <string name="cetus_invisible_mode_notice_location">Trenutno ste u anonimnom načinu. Ne možete koristiti uslugu lokacije.</string>
+    <string name="cetus_invisible_mode_notice_tip">Dotaknite za gašenje Anonimnog načina u Postavkama.</string>
     <string name="cetus_invisible_mode_warn_all">Sada ste u anonimnom načinu. Dopuštenja za mikrofon, fotoaparat i usluge lokacije su isključena.</string>
     <string name="cetus_invisible_mode_warn_camera">Sada ste u anonimnom načinu. Dozvole fotoaparata su povučene.</string>
     <string name="cetus_invisible_mode_warn_location">Sada ste u anonimnom načinu. Dopuštenja usluga lokacije su isključena.</string>
@@ -1155,6 +1232,8 @@ Ovu značajku možete uključiti i isključiti u Kontrolnom centru."</string>
     <string name="click_to_set_carrier">Dodirnite za postavljanje</string>
     <string name="click_to_set_personalized_reminder">Postavi upozorenja</string>
     <string name="click_to_set_traffic">Dodirnite za postavljanje</string>
+    <string name="clip_notification_close_summary">Prestati primati podsjetnike kada aplikacija pristupi međuspremniku?</string>
+    <string name="clip_notification_close_title">Isključite podsjetnike za pristup međuspremniku</string>
     <string name="clipboard_ai_allow">Pametno upravljanje</string>
     <string name="clipboard_ai_allow_summary">Omogućuje sustavu da odredi može li aplikacija pristupiti sadržaju međuspremnika i podsjeća vas kada to učini</string>
     <string name="close">Zatvori</string>
@@ -1238,13 +1317,13 @@ Ovu značajku možete uključiti i isključiti u Kontrolnom centru."</string>
     <string name="connected_devices_for_screen">Dopustiti %1$s pregled i interakciju sa sadržajem zaslona ovog uređaja?</string>
     <string name="connected_devices_for_screen_desc">Za prikaz i interakciju sa sadržajem zaslona</string>
     <string name="connected_devices_header_title">Povezani uređaji</string>
-    <string name="connected_devices_notification">Obavjesti</string>
+    <string name="connected_devices_notification">Obavijesti</string>
     <string name="connected_devices_notification_desc">Prikaži obavijesti ovog uređaja na uređajima u blizini koji su prijavljeni na isti račun</string>
     <string name="connected_devices_notification_title">Dopustiti gornjem uređaju da prikazuje obavijesti ovog uređaja?</string>
     <string name="connected_devices_permission">Međusobno povezivanje i dopuštenja</string>
     <string name="connected_devices_permission_settings">Međusobno povezivanje i dopuštenja</string>
     <string name="connected_devices_permission_summary">Upravljajte pristupom ovom uređaju</string>
-    <string name="connected_devices_record">Snimi</string>
+    <string name="connected_devices_record">Snimi poziv</string>
     <string name="connected_devices_record_desc">Dopusti uređajima u blizini koji su prijavljeni na isti račun da snimaju zvuk na ovom uređaju</string>
     <string name="connected_devices_record_title">Dopustiti gornjem uređaju snimanje zvuka na ovom uređaju?</string>
     <string name="connected_devices_screen">Zaslon</string>
@@ -1252,6 +1331,7 @@ Ovu značajku možete uključiti i isključiti u Kontrolnom centru."</string>
     <string name="connected_devices_screen_title">Dopustiti gornjem uređaju pregled i interakciju sa sadržajem zaslona ovog uređaja?</string>
     <string name="connected_interconnection">Međusobno povezivanje</string>
     <string name="connecting">Povezivanje…</string>
+    <string name="contacts_will_also_be_blocked">Uključujući kontakte</string>
     <string name="continue_install">Instaliraj</string>
     <string name="continue_set">Nastavi</string>
     <string name="convenient_mode">Otključaj sve aplikacije odjednom</string>
@@ -1302,32 +1382,40 @@ Ovu značajku možete uključiti i isključiti u Kontrolnom centru."</string>
     <string name="cs_pickup_vioce_print_guide_dialog_desc">Završite poziv i slijedite upustvo za početak.</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">Da bi se uzeo zvuk od jedne osobe, prvo snimite njihov uzorak glasa.</string>
     <string name="cs_pickup_vioce_print_in_private_tips">Snimite svoj otisak glasa kako biste smanjivanje buke mogli postaviti na Privatno.</string>
+    <string name="cs_pickup_vioce_print_in_private_tips_v2">Snimite svoj glasovni otisak i podatke o licu kako biste mogli postaviti smanjenje buke na Privatno.</string>
     <string name="cs_pickup_vioce_print_private_dialog_title">Snimi uzorak glasa</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title_v2">Snimanje glasovnog otiska i podataka o licu</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Snimi uzorak glasa prije biranja \"Jedan sudionik\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Odspoji vanjske uređaje i pokušaj ponovo</string>
     <string name="cs_pickup_voice_print_auto_dialog_tips">"Vaš će glas biti snimljen i obrađen samo na ovom uređaju.
 Za najbolje rezultate snimajte sami na tihom mjestu."</string>
     <string name="cs_pickup_voice_print_auto_dialog_title">Za Prilagođeno smanjenje buke potreban je Uzorak glasa</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title_v2">Za Prilagođeno smanjenje buke potrebni su Uzorak glasa i podaci lica</string>
     <string name="cs_pickup_voice_print_desc">Primite zvuk samo od jedne osobe</string>
     <string name="cs_privacy_camera_global_settings_title">Privatnost poziva</string>
     <string name="cs_record_voice_title">Snimi</string>
     <string name="cs_screen_translation_title">Prijevod zaslona</string>
     <string name="cs_simultaneous_interpretation_title">Prevedi</string>
+    <string name="cs_simultaneous_interpretation_title_2">Prevedi</string>
     <string name="cs_title_pickup">Smanjenje buke</string>
     <string name="cs_title_smart_subtitle">Transkripcija podnaslova</string>
     <string name="cs_title_ultraclear">Ultra HD način</string>
     <string name="cs_tool_box_max_screen_guide_case_1">Isprobajte simultano prevođenje i druge alate za konferencijske pozive u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_max_screen_guide_case_1_new">Isprobajte simultano prevođenje, Beautify i druge alate za konferencijske pozive u novom alatnom okviru za pozive</string>
+    <string name="cs_tool_box_max_screen_guide_case_1_new_v2">Isprobajte Prevođenje, Uljepšavanje i više u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_max_screen_guide_case_2">Isprobajte niz značajki konferencijskog poziva u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_max_screen_guide_case_2_new">Isprobajte Uljepšavanje i druge alate za konferencijske pozive u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_max_screen_guide_case_3_new">Isprobajte niz značajki konferencijskog poziva u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_max_screen_guide_case_4_new">Isprobajte simultano prevođenje i druge alate za konferencijske pozive u novom alatnom okviru za pozive</string>
+    <string name="cs_tool_box_max_screen_guide_case_4_new_v2">Isprobajte Prevođenje i više u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_phone_guide_case_1">Isprobajte simultano prevođenje i druge značajke u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_phone_guide_case_1_new">Isprobajte simultano prevođenje, Uljepšavanje i više u novom alatnom okviru za pozive</string>
+    <string name="cs_tool_box_phone_guide_case_1_new_v2">Isprobajte Prevođenje, Uljepšavanje i više u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_phone_guide_case_2">Isprobajte niz značajki u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_phone_guide_case_2_new">Isprobajte Uljepšavanje i druge značajke u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_phone_guide_case_3_new">Isprobajte niz izvrsnih značajki u novom alatnom okviru za pozive</string>
     <string name="cs_tool_box_phone_guide_case_4_new">Isprobajte simultano prevođenje i druge značajke u novom alatnom okviru za pozive</string>
+    <string name="cs_tool_box_phone_guide_case_4_new_v2">Isprobajte Prevođenje i više u novom alatnom okviru za pozive</string>
     <string name="cs_voice_print">Snimi uzorak glasa</string>
     <string name="cs_voice_search">Uzorak glasa</string>
     <string name="cs_vt_camera_title">Fotoaparat preko više uređaja</string>
@@ -1907,6 +1995,7 @@ Biti će dodani u iznimke, ali prethodno blokirane stavke neće se prikazivati u
     <string name="gallery_confirm_start_activity">%s nema dopuštenje za pristup Vašoj Galeriji niti aplikacijama društvenih medija. Ova aplikacija traži pristup slikama pohranjenim na ovom uređaji kako bi dijelila stavke. Dopustiti?</string>
     <string name="game_ad_recommendation">Svi igraju</string>
     <string name="game_anti_disturb_msg">DND Igre</string>
+    <string name="game_audio_label_international">Zvuk igre</string>
     <string name="game_balance_gpu_enhance_title">Diskretno poboljšanje GPU-a</string>
     <string name="game_balance_more_setting_title">Dodatne postavke</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Poboljšana vizualna izvedba</string>
@@ -2021,7 +2110,7 @@ Kada je uključena pametna brzina kadrova, alati za detekciju brzine kadrova u i
     <string name="game_toolbox_settings_talkback">Postavke</string>
     <string name="game_toolbox_slow_charge_desc">Uključite ovu značajku kako biste poboljšali iskustvo igranja tijekom punjenja usporavanjem brzine punjenja. To može spriječiti pregrijavanje vašeg uređaja. Uključiti sada?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Razumijem</string>
-    <string name="game_toolbox_slow_charge_negative_btn">Otkaži</string>
+    <string name="game_toolbox_slow_charge_negative_btn">Odustani</string>
     <string name="game_toolbox_slow_charge_notification_msg">Ova značajka poboljšava iskustvo igranja tijekom punjenja usporavanjem brzine punjenja. To može spriječiti pregrijavanje vašeg uređaja.</string>
     <string name="game_toolbox_slow_charge_notification_title">U tijeku je sporo punjenje</string>
     <string name="game_toolbox_slow_charge_positive_btn">Uključi</string>
@@ -2091,12 +2180,14 @@ Kada je uključena pametna brzina kadrova, alati za detekciju brzine kadrova u i
     <string name="gamebox_func_antimsg_open">Plutajuće obavijesti sada su ograničene</string>
     <string name="gamebox_func_immersion_close">Imersivni način je sada isključen</string>
     <string name="gamebox_func_immersion_open">Imersivni način je sada uključen</string>
+    <string name="gamebox_func_start_gyroscope_international">Uključite žiroskop u postavkama igre da biste koristili ovu značajku</string>
     <string name="gamebox_func_switch_simcard">Prebačeno na SIM karticu %1$d za podatke</string>
     <string name="gamebox_func_switch_simcard_immersion">SIM kartice se ne mogu zamijeniti u Imersivnom načinu rada</string>
     <string name="gamebox_func_wlan_close">Wi-Fi je sada isključen</string>
     <string name="gamebox_func_wlan_open">Wi-Fi je sada uključen</string>
     <string name="gamebox_game_center_app_not_find">Prvo instalirajte Igre</string>
     <string name="gamebox_gift_pack">Pokloni</string>
+    <string name="gamebox_gyroscope_acceleration_international">Ubrzanje žiroskopa</string>
     <string name="gamebox_hangup">Isključi zaslon</string>
     <string name="gamebox_hangup_new">Isključi zaslon</string>
     <string name="gamebox_hangup_tips_content">Ova značajka omogućuje vam da isključite zaslon, ali igru zadržite u pozadini. On se automatski isključuje nakon otključavanja uređaja.</string>
@@ -2277,6 +2368,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_game_macro_toast_tips">"Isprobajte kombinacije!
 Snimite sekvence i koristite ih bilo kada!"</string>
     <string name="gb_game_mode_change_btn_right">Ponovno pokreni</string>
+    <string name="gb_game_mode_change_failed_toast">Pohrana nije moguća</string>
     <string name="gb_game_mode_change_message">Ponovno pokrenuti igru za primjenu promjene sada?</string>
     <string name="gb_game_mode_change_new">Prebacujte se između rasporeda ovdje</string>
     <string name="gb_game_mode_change_title">Ponovo pokrenite igru</string>
@@ -2319,6 +2411,9 @@ Snimite sekvence i koristite ih bilo kada!"</string>
     <string name="gb_gpu_driver_update_app_tips">Trenutna verzija je ažurirana</string>
     <string name="gb_have_signed">Prijavljeno danas</string>
     <string name="gb_hot_area_seekbar">Hot zone raspon</string>
+    <string name="gb_launch_mute_start">Utišaj</string>
+    <string name="gb_launch_mute_start_enbaled_toast">Bešumno je uključeno. (klik)Isključi(/klik)</string>
+    <string name="gb_launch_mute_start_unmuted_toast">Zvuk vraćen</string>
     <string name="gb_manual_record_dialog_del_video_message">Trajno izbrisati odabrane videozapise?</string>
     <string name="gb_manual_video_record_title">Snimke</string>
     <string name="gb_margin_restrain">Zanemari slučajan dodir po rubovima</string>
@@ -2507,8 +2602,17 @@ svojih gejmerskih sesija"</string>
     <string name="gd_app_edit_title_new">Uredite prečice plutajućih prozora</string>
     <string name="gd_beauty_manage_summary">Otvorite s bočne kutije s alatima tijekom videopoziva da biste koristili ovu značajku</string>
     <string name="gd_beauty_manage_title">Uljepšavanje za video pozive</string>
+    <string name="gd_dock_preview_section_title">Kako otvoriti</string>
+    <string name="gd_dock_preview_sidebar_title">Povucite indikator prema unutra</string>
+    <string name="gd_dock_preview_swipe_title">Povucite i držite</string>
     <string name="gd_dock_shortcut_fullscreen">Cijeli zaslon</string>
+    <string name="gd_dock_shortcut_multisplitscreen">Višestruko podijeljeni zaslon</string>
     <string name="gd_dock_shortcut_splitescreen">Podijeljeni zaslon</string>
+    <string name="gd_dock_swipe_launcher_upgrade_hint">Trenutna verzija pokretača ne podržava povlačenje i držanje</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_cancel">Odustani</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_confirm">Promijeni</string>
+    <string name="gd_dock_xiaoai_ball_dialog_content">Možete povući i zadržati pritisak kako biste otvorili balončić radnje za Xiaomi Hyper XiaoAi. Ako prijeđete na bočnu kutiju za alat, balončić radnje za Xiaomi Hyper XiaoAi bit će isključen. Želite li sada promijeniti?</string>
+    <string name="gd_dock_xiaoai_ball_dialog_title">Način aktivacije prekidača?</string>
     <string name="gd_setting_conversation">Konferencijski alati</string>
     <string name="gd_setting_conversation_desc">Pruža niz značajki za korištenje u audio i video pozivima preko cijelog zaslona</string>
     <string name="gd_setting_dock_activity_title">Bočna kutija za alat</string>
@@ -2562,6 +2666,7 @@ svojih gejmerskih sesija"</string>
 · Pritisnite i držite indikator za pomicanje prozora."</string>
     <string name="global_dock_guide_desc_without_split_screen_new">"Prijeđite prstom da biste otvorili bočnu traku i dodirnite aplikaciju da biste je otvorili u plutajućem prozoru.
 Pritisnite i držite indikator za pomicanje prozora."</string>
+    <string name="global_dock_recommend_switch_title">Prikaži preporučene aplikacije u bočnoj traci</string>
     <string name="global_satisfaction_notification_button">Ocijeni</string>
     <string name="global_satisfaction_notification_channel">Anketa o zadovoljstvu korisnika</string>
     <string name="global_satisfaction_notification_subhead">Recite nam nešto o svom iskustvu</string>
@@ -2803,6 +2908,9 @@ pridružite se našem lovu na jaja!"</string>
     <string name="install_title">Instaliraj putem USB-a</string>
     <string name="install_type_instant">Instant apikacija</string>
     <string name="installing">Instaliranje</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Više aplikacija, uključujući %s, zloupotrebljavaju dopuštenja za pristup</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Ova aplikacija zloupotrebljava dopuštenja za pristup. Dodirnite za prikaz.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Blokirana zlonamjerna aplikacija %s</string>
     <string name="intercept_all_mark_calls">Blokirati sve pozive označene kao \"%s\"?</string>
     <string name="intercept_calls_nofify_hide_text">Za postavljanje pravila blokiranja za ostale označene brojeve dodirnite ovdje</string>
     <string name="intercept_calls_notify_title">Pozivi s ovom oznakom bit će automatski prekinuti. Želite li ih blokirati sada?</string>
@@ -3194,6 +3302,7 @@ Vaš uređaj je sada %s brži."</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Prebacite na polovicu zaslona</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Povećaj</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Smanji</string>
+    <string name="miuix_popup_show_description">Iskočni prozor</string>
     <string name="miuix_popup_window_default_title">Iskočni prozor</string>
     <string name="miuix_progressbar_loading">Učitavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Povucite dolje za osvježavanje</string>
@@ -3435,6 +3544,8 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="notification_abnormal_check_now_button">Prikaži</string>
     <string name="notification_abnormal_consume_app_title">%s troši bateriju</string>
     <string name="notification_abnormal_consume_cpu">CPU izvori su zloupotrebljavani u pozadini</string>
+    <string name="notification_abnormal_consume_high_drain_app_title">%s prazni bateriju</string>
+    <string name="notification_abnormal_consume_high_drain_subtitle">Visoka potrošnja baterije u pozadini</string>
     <string name="notification_abnormal_consume_wakelock">Sustav je radi u pozadini</string>
     <string name="notification_antivirus_button_text">Skeniraj</string>
     <string name="notification_antivirus_message">Skenirajte sada za sprečavanje rizika</string>
@@ -3522,7 +3633,10 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s iskorišteno %2$s ovaj tjedan</string>
     <string name="now_inquiry">Pojedinosti</string>
     <string name="number_address">Lokacija</string>
+    <string name="number_locked_v2">{count, plural, =0 {0 aplikacija otključano} one {# aplikacija otključana} few {# aplikacije otključane} other {# aplikacija otključano} }</string>
+    <string name="number_masked_v2">{count, plural, =0 {0 aplikacija} one {# aplikacija} few {# aplikacije} other {# aplikacija} }</string>
     <string name="number_of_lucky_money">Crvene omotnice na koje ste dobili podsjetnike</string>
+    <string name="number_to_lock_v2">{count, plural, =0 {0 aplikacija nije otključano} one {# aplikacija nijeotključana} few {# aplikacije nije otključane} other {# aplikacija nije otključano} }</string>
     <string name="numeric_need_to_confirm">Unesite ponovno za potvrdu</string>
     <string name="numeric_password_confirmed_header_confirm">Uspješno postavljeno. Dodirnite za potvrdu.</string>
     <string name="numeric_password_confirmed_header_continue">Uspješno postavljeno. Dodirnite \"Dalje\".</string>
@@ -3571,7 +3685,15 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="open_activity_err">Aplikacija nije pronađena</string>
     <string name="open_app">Otvori</string>
     <string name="open_applock">Uključi Zaključavanje aplikacija</string>
+    <string name="open_applock_calling_tips">Zaključajte aplikacije i potvrdite svoj identitet prilikom njihovog otvaranja. Zaključavanje aplikacije ima dvije vrste zaporki i podržava biometrijsku provjeru.</string>
+    <string name="open_applock_calling_title">Zaključavanje aplikacija</string>
     <string name="open_applock_password_type">Tip zaporke</string>
+    <string name="open_applock_tip_item1_sub_title">Koristite zaporku za zaštitu privatnosti ili zaporku za zaključani zaslon</string>
+    <string name="open_applock_tip_item1_title">Dva tipa zaporke</string>
+    <string name="open_applock_tip_item2_sub_title">Otključajte aplikaciju koristeći zaporku ili podatke lica</string>
+    <string name="open_applock_tip_item2_title">Biometrijska provjera</string>
+    <string name="open_applock_tip_item3_sub_title">Odaberite zahtijevanje provjere nakon zaključavanja zaslona, ​​nakon određenog vremena ili nakon izlaska iz aplikacije</string>
+    <string name="open_applock_tip_item3_title">Prilagođeno vrijeme provjere</string>
     <string name="open_applock_tips">Zaključajte aplikacije i potvrdite svoj identitet prilikom njihovog otvaranja. Zaključavanje aplikacije ima dvije vrste zaporki i podržava biometrijsku provjeru.</string>
     <string name="open_callwait">Uključeno</string>
     <string name="open_dnd_mode">Način Ne ometaj</string>
@@ -3599,8 +3721,6 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Upotrebljavanje malicioznih aplikacija predstavlja sigurnosni rizik</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s može biti maliciozna aplikacija</string>
     <string name="optimize_manage_title">Povećaj brzinu</string>
     <string name="optimize_result_available_memory_info">Dostupna memorija</string>
     <string name="optimize_result_button_cloudspace">Nabavite više prostora za pohranu u cloud-u</string>
@@ -3653,6 +3773,7 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="overlay_permission_dialog_message_security_service">Sigurnost treba određene dozvole za normalan rad.</string>
     <string name="overlay_permission_dialog_open">Postavke</string>
     <string name="overlay_permission_dialog_title">Potrebne dozvole</string>
+    <string name="overlay_read_clip_toast">\"%1$s\" pristupio međuspremniku</string>
     <string name="package_change_notification_summary">Dodirnite da biste saznali više.</string>
     <string name="package_change_notification_title">Postavite ograničenje podataka automatski</string>
     <string name="package_setted_error_notification_summary">Dodirnite za prikaz pojedinosti o uporabi podataka.</string>
@@ -3684,6 +3805,7 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="pb_abnormal_header_time">Vrijeme</string>
     <string name="pb_abnormal_header_type">Vrsta</string>
     <string name="pb_abnormal_header_value">Vrijednost</string>
+    <string name="pb_abnormal_idle_high_temp">Pregrijavanje tijekom mirovanja</string>
     <string name="pb_abnormal_loading">Pričekajte trenutak…</string>
     <string name="pb_abnormal_record">Povijest</string>
     <string name="pb_activity_title">Pojedinosti o prijenosnoj bateriji</string>
@@ -3695,6 +3817,7 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="pb_data_fetch_all_error">Podaci nisu pročitani. Prijenosna baterija je možda isključena ili nije podržana.</string>
     <string name="pb_data_fetch_all_error_new">Podaci nisu pročitani. Powerbank je možda isključen ili nije podržan. Ako je isključen, ponovno spojite kabel za punjenje i pokušajte ponovno.</string>
     <string name="pb_data_fetch_partial_error">Neki artikli nisu dostupni zbog kašnjenja ili nepodržane prijenosne baterije.</string>
+    <string name="pb_data_fetch_partial_error_new">Neki artikli nisu dostupni zbog kašnjenja ili nepodržane prijenosne baterije.</string>
     <string name="pb_manufacturer">Proizvođač</string>
     <string name="pb_measure_point">Senzor %1$d</string>
     <string name="pb_production_date">Datum proizvodnje</string>
@@ -4012,6 +4135,210 @@ Ultra štednje baterije"</string>
     <string name="pc_work_in_super_save_mode">Ultra štednja baterije</string>
     <string name="pc_xiaoai_create_auto_task">Novi zadatak za Mi Ala</string>
     <string name="pc_xiaoai_voice_control_close">Isključite Mi AI \"Probudi se glasom\"</string>
+    <string name="peep_protection_ai_key_disabled">Prikaz privatnosti je isključen</string>
+    <string name="peep_protection_ai_key_enabled">Prikaz privatnosti je uključen</string>
+    <string name="peep_protection_v2_app_notification_protection">Obavijesti</string>
+    <string name="peep_protection_v2_app_notification_protection_desc">Obavijesti odabranih aplikacija aktivirat će prikaz privatnosti</string>
+    <string name="peep_protection_v2_app_protection_desc">Uključi prikaz privatnosti za odabrane aplikacije</string>
+    <string name="peep_protection_v2_banner_summary">Isprobajte značajke prikaza privatnosti ekskluzivne za ovaj model uređaja</string>
+    <string name="peep_protection_v2_banner_title">Xiaomi Prikaz privatnosti</string>
+    <string name="peep_protection_v2_batch_disable">Isključi</string>
+    <string name="peep_protection_v2_batch_enable">Uključi</string>
+    <string name="peep_protection_v2_category_capability">Mogućnosti značajki</string>
+    <string name="peep_protection_v2_category_capability_v2">Otkrivanje poziva</string>
+    <string name="peep_protection_v2_category_finance">Financije</string>
+    <string name="peep_protection_v2_category_group_title_v2">%1$s (%2$d)</string>
+    <string name="peep_protection_v2_category_other">Drugo</string>
+    <string name="peep_protection_v2_category_recommend">Preporučeno</string>
+    <string name="peep_protection_v2_category_scene">Scenarij</string>
+    <string name="peep_protection_v2_category_scene_v2">Zaslon</string>
+    <string name="peep_protection_v2_category_smart">Pametno</string>
+    <string name="peep_protection_v2_category_social">Društvene mreže</string>
+    <string name="peep_protection_v2_category_suggest">Preporučeno</string>
+    <string name="peep_protection_v2_category_tip_dismiss">Ne hvala</string>
+    <string name="peep_protection_v2_category_tip_message">Neka vam Xiaomi Hyper XiaoAi pomogne u stvaranju personaliziranih grupa aplikacija. Na primjer, možete dodati Galeriju, Zaporke i Bilješke u grupu za prikaz privatnosti pod nazivom \"Subway\". Također možete reći Xiaomi Hyper XiaoAi kako želite grupirati svoje aplikacije i dodati druga pametna pravila aktivacije.</string>
+    <string name="peep_protection_v2_category_tip_prompt">Izradite grupu aplikacija za prikaz privatnosti. Dodajte %1$s u ovu grupu, nazovite je \"Privatno\" i uključite prikaz privatnosti za ove aplikacije.</string>
+    <string name="peep_protection_v2_category_tip_title">Stvorite vlastitu grupu</string>
+    <string name="peep_protection_v2_color_inversion_closed_msg">Ova značajka ne radi s inverzijom boja. Xiaomi Prikaz privatnosti je isključen.</string>
+    <string name="peep_protection_v2_color_inversion_closed_reopen">Uključi</string>
+    <string name="peep_protection_v2_color_inversion_closed_title">Xiaomi Prikaz privatnosti je isključen</string>
+    <string name="peep_protection_v2_color_inversion_conflict_msg">Ova značajka ne radi s inverzijom boja. Prvo isključite inverziju boja.</string>
+    <string name="peep_protection_v2_color_inversion_conflict_title">Isključi inverziju boja</string>
+    <string name="peep_protection_v2_cue_byapp_reason">Uključi prikaz privatnosti za ovu aplikaciju</string>
+    <string name="peep_protection_v2_cue_byapp_title">Uključi prikaz privatnosti za %s</string>
+    <string name="peep_protection_v2_cue_global_reason">Isprobajte značajke privatnosti ekskluzivne za ovaj model uređaja</string>
+    <string name="peep_protection_v2_cue_global_title">Uključite Xiaomi Prikaz privatnosti</string>
+    <string name="peep_protection_v2_cue_summary">Ova značajka je ekskluzivna za ovaj model uređaja</string>
+    <string name="peep_protection_v2_deep_mode">Poboljšana privatnost</string>
+    <string name="peep_protection_v2_deep_mode_desc">Neka Vaš zaslon bude zaklonjeniji od tuđih pogleda</string>
+    <string name="peep_protection_v2_expert_mode_hint">*Zahtijeva prebacivanje usluge Xiaomi Hyper XiaoAi u način rada Pro</string>
+    <string name="peep_protection_v2_face_need_input_hint">Potrebni podaci lica</string>
+    <string name="peep_protection_v2_first_close_message">Dodajte Xiaomi Prikaz privatnosti u Kontrolni centar > Uredi > Sustavni prekidači za brzo uključivanje ili isključivanje.</string>
+    <string name="peep_protection_v2_first_close_title">Brzo uključite Xiaomi Prikaz privatnosti</string>
+    <string name="peep_protection_v2_first_close_title_v2">Prekidači</string>
+    <string name="peep_protection_v2_global_first_open_msg">Dodajte Privatnost preko cijelog zaslona u Kontrolni centar > Uredi > Sustavni prekidači za brzo uključivanje ili isključivanje.</string>
+    <string name="peep_protection_v2_global_first_open_title">Brzo uključite privatnost preko cijelog zaslona</string>
+    <string name="peep_protection_v2_global_hint">Pogled druge osobe ne može se otkriti dok je uključena Privatnost preko cijelog zaslona</string>
+    <string name="peep_protection_v2_global_no_aon_hint">Radi uštede baterije, pogled druge osobe neće se otkrivati ​​dok je uključena privatnost preko cijelog zaslona</string>
+    <string name="peep_protection_v2_global_protection">Privatnost preko cijelog zaslona</string>
+    <string name="peep_protection_v2_global_protection_desc">Koristite prikaz privatnosti u više scenarija na svom uređaju</string>
+    <string name="peep_protection_v2_global_protection_desc_v2">Zaslon za zaštitu privatnosti ostaje uključen na cijelom uređaju</string>
+    <string name="peep_protection_v2_go_miclaw">Otvori Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_header_desc_v2">Vidljivost zaslona iz bočnih kutova bit će smanjena. Uređaj će vas upozoriti kada otkrije pogled druge osobe. (klik)Saznajte više(/klik)</string>
+    <string name="peep_protection_v2_intro_detection_desc">Postavite pametna pravila za ovu značajku pomoću Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_intro_enable">Uključi</string>
+    <string name="peep_protection_v2_intro_pixel_desc">Suzite vidljivi kut zaslona i otkrijte kada netko drugi gleda</string>
+    <string name="peep_protection_v2_intro_pixel_title">Privatnost na hardverskoj razini</string>
+    <string name="peep_protection_v2_intro_privacy_tip">Otežajte pregled zaslona sa strane uz kontinuirano otkrivanje i upozorenja kada vas netko drugi gleda</string>
+    <string name="peep_protection_v2_intro_scope_desc_global">Odaberite određene aplikacije i obavijesti ili koristite ovu značajku na cijelom uređaju</string>
+    <string name="peep_protection_v2_intro_smart_page_desc">Odaberite određene aplikacije, stranice i obavijesti ili koristite ovu značajku na cijelom uređaju</string>
+    <string name="peep_protection_v2_intro_smart_page_title">Višebrojni scenariji</string>
+    <string name="peep_protection_v2_learn_more">Saznajte više</string>
+    <string name="peep_protection_v2_learn_more_limits_desc">"Ova značajka može neznatno povećati potrošnju energije. Bit će privremeno isključena radi uštede baterije kada je uključena Štednja baterije.
+Prilikom pregleda HDR sadržaja, prikaz privatnosti se pauzira kako bi se osigurala kvaliteta prikaza.
+Prikaz privatnosti pauzira se u pejzažnom načinu i automatski se ponovno pokreće nakon što se vratite u portretni način.
+Neke teme trećih strana još ne podržavaju prikaz privatnosti za obavijesti zaključanog zaslona.
+Moguća su kašnjenja u otkrivanju dolazaka ili odlazaka s lokacija."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global">"Ova značajka može neznatno povećati potrošnju energije. Bit će privremeno isključena radi uštede baterije kada je uključena Štednja baterije.
+Prilikom pregleda HDR sadržaja, pametni prikaz privatnosti se pauzira kako bi se osigurala kvaliteta prikaza.
+Prikaz privatnosti pauzira se u pejzažnom načinu i automatski se ponovno pokreće nakon što se vratite u portretni način.
+Neke teme trećih strana još ne podržavaju prikaz privatnosti za obavijesti zaključanog zaslona."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global_hdr">"Ova značajka može neznatno povećati potrošnju energije. Bit će privremeno isključena radi uštede baterije kada je uključena Štednja baterije.
+Prilikom pregleda HDR sadržaja, pametni prikaz privatnosti se pauzira kako bi se osigurala kvaliteta prikaza.
+Prikaz privatnosti pauzira se u pejzažnom načinu i automatski se ponovno pokreće nakon što se vratite u portretni način.
+Neke teme trećih strana još ne podržavaju prikaz privatnosti za obavijesti zaključanog zaslona."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_hdr">"Ova značajka može neznatno povećati potrošnju energije. Bit će privremeno isključena radi uštede baterije kada je uključena Štednja baterije.
+Prilikom pregleda HDR sadržaja, prikaz privatnosti se pauzira kako bi se osigurala kvaliteta prikaza.
+Prikaz privatnosti pauzira se u pejzažnom načinu i automatski se ponovno pokreće nakon što se vratite u portretni način.
+Neke teme trećih strana još ne podržavaju prikaz privatnosti za obavijesti zaključanog zaslona.
+Moguća su kašnjenja u otkrivanju dolazaka ili odlazaka s lokacija."</string>
+    <string name="peep_protection_v2_learn_more_limits_title">Ograničenja i posebni slučajevi</string>
+    <string name="peep_protection_v2_learn_more_privacy_desc">"Nakon što je ova značajka uključena, uređaj može koristiti prednji fotoaparat za snimanje slika i lokalno otkrivanje lica ili smjera pogleda kada je detekcija pogleda aktivna. To se koristi za prepoznavanje gleda li netko drugi osim vas u zaslon i za upozorenje.
+Svi se podaci obrađuju na vašem uređaju i neće se prenositi u Xiaomi Cloud ili bilo koju uslugu u cloudu treće strane."</string>
+    <string name="peep_protection_v2_learn_more_privacy_title">Izjava o privatnosti</string>
+    <string name="peep_protection_v2_learn_more_scope_desc">"Možete odabrati način rada značajke Xiaomi Prikaza privatnosti : na cijelom uređaju, u odabranim aplikacijama, na stranicama s osjetljivim sadržajem ili za obavijesti.
+
+Privatnost na cijelom zaslonu:
+Značajka Privacy Display ostaje aktivna na cijelom uređaju kako bi zaštitila sve što gledate. Dok je ova značajka uključena, neće se detektirati pogled druge osobe.
+
+Odabrane aplikacije:
+Odaberite aplikacije koje želite zaštititi. Kada se te aplikacije prikazuju na zaslonu, Xiaomi Privacy Display smanjuje vidljivost pod kutom i detektira gleda li netko drugi u zaslon.
+
+Stranice s osjetljivim sadržajem:
+Čak i ako određene aplikacije nisu dodane na popis, Xiaomi Prikaz privatnosti može se automatski uključiti za stranice s osjetljivim sadržajem, poput onih za unos zaporke, plaćanja, prijenos sredstava i razmjenu poruka.
+
+Obavijesti aplikacija:
+Obavijesti odabranih aplikacija prikazuju se uz djelomičnu zaštitu privatnosti kako bi se spriječilo da druge osobe vide osjetljive podatke."</string>
+    <string name="peep_protection_v2_learn_more_scope_desc_global">"Možete odabrati način rada značajke Xiaomi Prikaz privatnostina cijelom uređaju, u odabranim aplikacijama ili za obavijesti.
+
+Privatnost na cijelom zaslonu:
+Značajka privatnosti zaslona ostaje aktivna na cijelom uređaju kako bi zaštitila sve što gledate. Dok je ova značajka uključena, neće se detektirati pogled druge osobe.
+
+Odabrane aplikacije:
+Odaberite aplikacije koje želite zaštititi. Kada se te aplikacije prikazuju na zaslonu, Xiaomi Privacy Display smanjuje vidljivost iz bočnog kuta i detektira gleda li netko drugi u zaslon.
+
+Obavijesti aplikacija:
+Obavijesti odabranih aplikacija prikazuju se uz djelomičnu zaštitu privatnosti kako bi se spriječilo da druge osobe vide osjetljive podatke."</string>
+    <string name="peep_protection_v2_learn_more_scope_title">Raspon Prikaza privatnosti</string>
+    <string name="peep_protection_v2_learn_more_smart_desc">Svojeg AI pomoćnika možete koristiti za stvaranje i upravljanje grupama aplikacija za zaštitu privatnosti prikaza, automatsko uključivanje Privatnosti preko cijelog zaslona na javnim mjestima ili automatsko aktiviranje određenih grupa. Također možete prilagoditi opseg zaštite privatnosti i pravila aktivacije kako bi sustav bolje odgovarao vašim navikama.</string>
+    <string name="peep_protection_v2_learn_more_smart_title">Vlastita pravila</string>
+    <string name="peep_protection_v2_learn_more_understand_desc">"Xiaomi Prikaz privatnosti kombinira smanjenu vidljivost pod bočnim kutom s obavijesti o privatnosti kako bi pružio potpuniju zaštitu, štiteći vas kako od pogleda pod širokim kutom, tako i od pogleda iz neposredne blizine pod užim kutovima.
+
+Smanjena vidljivost pod bočnim kutom:
+Zahvaljujući kontroli svjetla zaslona na razini piksela, sadržaj na zaslonu postaje teže vidljiv kako se kut gledanja povećava. To smanjuje rizik da druge osobe vide vaše osobne podatke.
+
+Obavijest o privatnosti:
+Kao nadopuna smanjenoj vidljivosti pod bočnim kutom, sustav vas može upozoriti ako otkrije da netko drugi (osim vas) gleda u zaslon iza vas ili pod drugim uskim kutom."</string>
+    <string name="peep_protection_v2_learn_more_understand_title">O Xiaomi Prikazu privatnosti</string>
+    <string name="peep_protection_v2_main_body">Vidljivost zaslona iz bočnih kutova bit će smanjena. Vaš će uređaj također kontinuirano provjeravati gleda li netko vaš zaslon i upozorit će vas kada se otkrije pogled druge osobe. (kliknite)Saznajte više(/kliknite)</string>
+    <string name="peep_protection_v2_main_desc">Zaštitite svoj zaslon od tuđih pogleda.</string>
+    <string name="peep_protection_v2_main_switch">Xiaomi Prikaz privatnosti</string>
+    <string name="peep_protection_v2_main_switch_desc">Koristite zaslon za zaštitu privatnosti i otkrijte pogled druge osobe.</string>
+    <string name="peep_protection_v2_main_switch_desc_v2">Omogućite uređaju da uključi prikaz za zaštitu privatnosti na temelju odabranog scenarija</string>
+    <string name="peep_protection_v2_main_switch_title_v2">Xiaomi Prikaz privatnosti</string>
+    <string name="peep_protection_v2_main_tile_label">Xiaomi Prikaz privatnosti</string>
+    <string name="peep_protection_v2_move_app_title_v2">Preseli %s na</string>
+    <string name="peep_protection_v2_move_app_to_category">Preseli %s u grupu</string>
+    <string name="peep_protection_v2_notification_protection">Prikaz privatnosti obavijesti</string>
+    <string name="peep_protection_v2_notification_protection_desc">Obavijesti odabranih aplikacija aktivirat će prikaz privatnosti</string>
+    <string name="peep_protection_v2_notification_protection_desc_v2">Obavijesti od odabranih aplikacija prikazuju se uz djelomičnu zaštitu privatnosti</string>
+    <string name="peep_protection_v2_notify_type_desc">Bit ćete upozoreni kada se otkrije pogled druge osobe</string>
+    <string name="peep_protection_v2_notify_type_title">Obavijest privatnosti</string>
+    <string name="peep_protection_v2_page_detail_category_title">Sljedeće stranice u ovoj aplikaciji zaštićene su prikazom privatnosti</string>
+    <string name="peep_protection_v2_page_protection_desc">Uključite prikaz privatnosti za određene stranice</string>
+    <string name="peep_protection_v2_peep_detection_desc_v2">Otkriva pogled i upozorava vas</string>
+    <string name="peep_protection_v2_peep_island_action_dismiss_v2">Zanemari</string>
+    <string name="peep_protection_v2_peep_island_subtitle_v2">Neću više podsjećati</string>
+    <string name="peep_protection_v2_privacy_statement">Ova značajka koristi podatke o licu za prepoznavanje pogleda. Svi se podaci obrađuju na vašem uređaju i neće se dijeliti.</string>
+    <string name="peep_protection_v2_recommend_title">Preporučene aplikacije</string>
+    <string name="peep_protection_v2_search_app">Prikaz informacija o privatnosti aplikacije; prikaz privatnosti za aplikacije; Odabrane aplikacije</string>
+    <string name="peep_protection_v2_search_empty_hint">Rezultati pretraživanja prikazat će se ovdje</string>
+    <string name="peep_protection_v2_search_global">Privatnost preko cijelog zaslona;Cijeli zaslon</string>
+    <string name="peep_protection_v2_search_hint">Pretraži aplikacije</string>
+    <string name="peep_protection_v2_search_keywords_1">Prikaz privatnosti</string>
+    <string name="peep_protection_v2_search_keywords_2">Pikseli</string>
+    <string name="peep_protection_v2_search_keywords_3">Pogled</string>
+    <string name="peep_protection_v2_search_no_result">Ne mogu pronaći rezultate</string>
+    <string name="peep_protection_v2_search_notification">Prikaz privatnosti obavijesti; prikaz privatnosti za obavijesti; Obavijest aplikacije</string>
+    <string name="peep_protection_v2_search_notify_type">Obavijest o privatnosti; otkrivanje pogleda; zaštita privatnosti; upozorenje na pogled</string>
+    <string name="peep_protection_v2_search_page">Prikaz privatnosti stranice; prikaz privatnosti za stranice</string>
+    <string name="peep_protection_v2_search_smart_enable">Pametna aktivacija; automatski prikaz privatnosti</string>
+    <string name="peep_protection_v2_select_apps">Odabrane aplikacije</string>
+    <string name="peep_protection_v2_select_apps_category_tip">Možete stvarati, upravljati, uklanjati ili preimenovati grupe aplikacija za prikaz privatnosti u (klik)Xiaomi Hyper XiaoAi(/klik)</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">U načinu rada „Pro” sustava Xiaomi Hyper XiaoAi možete stvarati, uređivati, uklanjati ili preimenovati kategorije aplikacija za prikaz u načinu zaštite privatnosti</string>
+    <string name="peep_protection_v2_smart_enable">Pametno pokretanje</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_desc">U Xiaomi Hyper XiaoAi možete kreirati pravila za prikaz privatnosti na temelju mjesta koja često posjećujete. Kada stignete na određenu lokaciju, prikaz privatnosti će se automatski uključiti ili isključiti.</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_title">Izradi pametno pravilo</string>
+    <string name="peep_protection_v2_smart_enable_desc_v2">Izradite pravila prikaza privatnosti na temelju lokacije</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint">Još nema pravila. Izradite pametna pravila aktivacije temeljena na lokaciji u Xiaomi Hyper XiaoAi.</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Još nema pravila. Možete stvoriti pametna pravila aktivacije temeljena na lokaciji u (klik)Xiaomi Hyper XiaoAi (klik).</string>
+    <string name="peep_protection_v2_smart_enable_page_desc">U (click)Xiaomi Hyper XiaoAi(/click) možete postaviti pametna pravila temeljena na lokaciji, poput automatskog uključivanja zaštite privatnosti na cijelom zaslonu dok se vozite podzemnom željeznicom. Kada stignete na određenu lokaciju, način zaštite privatnosti na zaslonu aktivirat će se prema vašem pravilu.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">U načinu rada „Pro” sustava Xiaomi Hyper XiaoAi možete postaviti pravila za pametno aktiviranje na temelju lokacije, kao što je „Automatski uključi zaštitu privatnosti na cijelom zaslonu kada sam u podzemnoj željeznici”. Kada stignete na određenu lokaciju, prikaz za zaštitu privatnosti automatski će se uključiti u skladu s vašim pravilima.</string>
+    <string name="peep_protection_v2_smart_enable_prompt">Pomozite mi stvoriti pravilo za prikaz privatnosti: Često koristim telefon u podzemnoj željeznici i kafićima. Stvorite pravila za te scenarije i automatski uključite prikaz privatnosti za društvene mreže i financijske grupe kada stignem na te lokacije.</string>
+    <string name="peep_protection_v2_smart_enable_prompt_copied">Uspješno kopirano</string>
+    <string name="peep_protection_v2_smart_enable_sio_unavailable">Dopustite pristup da biste mogli koristiti ovu značajku</string>
+    <string name="peep_protection_v2_smart_enable_switch_desc">Prepoznajte scenarije i automatski uključite ili isključite prikaz privatnosti</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip">Ostavite Wi-Fi uključenim kako biste preciznije aktivirali pametna pravila. Neka mjesta mogu biti prepoznata sa zakašnjenjem ili neće biti prepoznata kada je Wi-Fi isključen.</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip_china">Ostavite WLAN uključenim kako biste preciznije aktivirali pametna pravila. Neka mjesta mogu biti prepoznata sa zakašnjenjem ili neće biti prepoznata kada je WLAN isključen.</string>
+    <string name="peep_protection_v2_smart_page_active_list">Određene stranice u sljedećim aplikacijama su zaštićene</string>
+    <string name="peep_protection_v2_smart_page_header_title">Automatski uključeno za određene osjetljive stranice</string>
+    <string name="peep_protection_v2_smart_page_intro">Čak i ako zaboravite dodati neke aplikacije, prikaz privatnosti automatski će se uključiti kada otvorite osjetljive stranice poput unosa zaporke, plaćanja, transfera i poruka.</string>
+    <string name="peep_protection_v2_smart_page_switch_title">Prikaz privatnosti stranice</string>
+    <string name="peep_protection_v2_status_off">Ostani u trenutačnom usmjerenju</string>
+    <string name="peep_protection_v2_status_on">Uključi</string>
+    <string name="peep_protection_v2_strategy_action_disable_category">Isključi prikaz privatnosti za %s</string>
+    <string name="peep_protection_v2_strategy_action_disable_deep">Isključite Poboljšanu privatnost</string>
+    <string name="peep_protection_v2_strategy_action_disable_default">Isključi prikaz privatnosti</string>
+    <string name="peep_protection_v2_strategy_action_disable_global">Isključite Privatnost preko cijelog zaslona</string>
+    <string name="peep_protection_v2_strategy_action_disable_target">Isključi prikaz privatnosti za %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_category">Uključi prikaz privatnosti za %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_deep">Uključite Poboljšanu privatnost</string>
+    <string name="peep_protection_v2_strategy_action_enable_default">Uključi prikaz privatnosti</string>
+    <string name="peep_protection_v2_strategy_action_enable_global">Uključite Privatnost preko cijelog zaslona</string>
+    <string name="peep_protection_v2_strategy_action_enable_target">Uključi prikaz privatnosti za %s</string>
+    <string name="peep_protection_v2_strategy_action_fallback">Peep protection</string>
+    <string name="peep_protection_v2_strategy_action_separator_leave">; on leave</string>
+    <string name="peep_protection_v2_strategy_arrive_condition">Prilikom dolaska na %1$s</string>
+    <string name="peep_protection_v2_strategy_auto_desc">Arrive at %1$s, auto %2$s</string>
+    <string name="peep_protection_v2_strategy_auto_title">%1$s: %2$s</string>
+    <string name="peep_protection_v2_strategy_delete">Ukloni</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_msg">Trajno izbriši ovo pravilo?</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_title">Izbrisati ovo pravilo?</string>
+    <string name="peep_protection_v2_strategy_detail_title">Pametna pravila</string>
+    <string name="peep_protection_v2_strategy_edit_desc_hint">Opis</string>
+    <string name="peep_protection_v2_strategy_edit_main_title_hint">Naslov</string>
+    <string name="peep_protection_v2_strategy_edit_title">Uredi</string>
+    <string name="peep_protection_v2_strategy_edit_title_hint">Enter new strategy name</string>
+    <string name="peep_protection_v2_strategy_edit_title_v2">Uredite naslov</string>
+    <string name="peep_protection_v2_strategy_go_miclaw">Prilagodi pravila</string>
+    <string name="peep_protection_v2_strategy_leave_condition">Prilikom odlaska sa %1$s</string>
+    <string name="peep_protection_v2_strategy_notify_on_trigger">Obavijesti kada je uključen prikaz za zaštitu privatnosti</string>
+    <string name="peep_protection_v2_strategy_prompt_copied">Uspješno kopirano</string>
+    <string name="peep_protection_v2_strategy_prompt_template">Pomozi mi izmijeniti pravilo prikaza privatnosti \"%1$s\" i prilagoditi njegove postavke.</string>
+    <string name="peep_protection_v2_strategy_unknown_location">Unknown location</string>
+    <string name="peep_protection_v2_thermal_paused_toast">Obavijest o privatnosti nastavit će se nakon što se uređaj ohladi</string>
+    <string name="peep_protection_v2_tile_label">Privatnost preko cijelog zaslona</string>
+    <string name="peep_protection_v2_title">Xiaomi Prikaz privatnosti</string>
     <string name="per_month_pkg_traffic_settings">Postavi ograničenje podataka</string>
     <string name="percent_formatted_text">%s%%</string>
     <string name="percent_text_formatted">%s%%</string>
@@ -4054,6 +4381,7 @@ Ultra štednje baterije"</string>
     <string name="permgroupdesc_storage">Pristupite fotografijama ili datotekama na uređaju</string>
     <string name="permission_action_accept">Dopusti</string>
     <string name="permission_action_ai_prompt">Odluči za mene</string>
+    <string name="permission_action_allow_for_compatibility">Samo lokalna mreža</string>
     <string name="permission_action_always">Uvijek dopusti</string>
     <string name="permission_action_desc">Dajte dopuštenje, ali vratite prazne poruke u aplikaciju radi zaštite privatnosti</string>
     <string name="permission_action_desc_always">Ovo dopuštenje može se bilo kada koristiti</string>
@@ -4067,8 +4395,14 @@ Ultra štednje baterije"</string>
     <string name="permission_action_virtual">Vrati praznu poruku</string>
     <string name="permission_action_virtual_common_summary">Dajte aplikacijama potrebna dopuštenja, ali vraćajte prazne poruke kako biste zaštitili svoju privatnost</string>
     <string name="permission_action_virtual_phone_summary">Dodijelite aplikacijama relevantna dopuštenja, ali im nemojte dopustiti pristup stvarnom telefonskom broju SIM kartice</string>
+    <string name="permission_allow_for_compatibility_note">Omogućuje aplikaciji komunikaciju samo s uređajima na istoj lokalnoj mreži. Bluetooth i drugi načini povezivanja nisu podržani.</string>
+    <string name="permission_changed_retry">Promijenjena dopuštenja. Ponovno pokrenite aplikacije.</string>
     <string name="permission_close_permission_control_dialog_msg">Kada je Upravitelj dopuštenja isključen, aplikacije neće pitati za vaše dopuštenje pristupu vašim kontaktima, povijesti poziva, postavkama promjene sustava ili pristupu kameri i ostalim resursima uređaja.</string>
     <string name="permission_close_permission_control_dialog_title">Isključiti?</string>
+    <string name="permission_compatibility_dialog_message">Ova je aplikacija izrađena za stariju verziju sustava Android. Ukraćivanje dozvola može dovesti do toga da aplikacija više ne funkcionira kako je predviđeno.</string>
+    <string name="permission_compatibility_dialog_negative_btn">Odustani</string>
+    <string name="permission_compatibility_dialog_positive_btn">Odbij</string>
+    <string name="permission_compatibility_dialog_title">Ova aplikacija možda neće ispravno raditi</string>
     <string name="permission_exception_title">Ograničena veza za aplikacije</string>
     <string name="permission_group_audio">Ovo dopuštenje omogućuje aplikacijama pristup glazbi i drugim audio datotekama pohranjenim na ovom uređaju.</string>
     <string name="permission_group_calendar">Ovo dopuštenje omogućuje aplikacijama pristup, dodavanje, brisanje i uređivanje događaja u kalendaru.</string>
@@ -4176,6 +4510,7 @@ Ultra štednje baterije"</string>
     <string name="permission_with_SMS_and_MMS">Dopuštenja koja se odnose na SMS i MMS</string>
     <string name="permission_with_call_and_contact">Dopuštenja koja se odnose na telefonske pozive, informacije kontakata i povijest poziva.</string>
     <string name="permission_with_read_write_clipboard">Dopusti aplikacijama pristup i pohranu stavki u međuspremnik</string>
+    <string name="permisson_reject_notice_toast_text2">nema dopuštenje da %1$s.</string>
     <string name="permit_running_network">Pozadinski podaci</string>
     <string name="person_have_hongbao">%1$s vam je poslao/la crvenu omotnicu!</string>
     <string name="person_hotpot">Mobilni hospot</string>
@@ -4244,6 +4579,7 @@ Ultra štednje baterije"</string>
     <string name="power_center_battery_detail">Pojedinosti</string>
     <string name="power_center_battery_duration">Preostalo vrijeme</string>
     <string name="power_center_battery_duration_format">%1$s %2$s</string>
+    <string name="power_center_battery_duration_new">Preostalo vrijeme zaslona</string>
     <string name="power_center_battery_duration_screen_on">Preostalo vremena zaslona</string>
     <string name="power_center_battery_hardware">Hardver %s</string>
     <string name="power_center_battery_health_poor_tip">Čini se da je stanje baterije slabo. Provjerite bateriju u ovlaštenom servisnom centru.</string>
@@ -4385,6 +4721,7 @@ Ultra štednje baterije"</string>
     <string name="power_idle">Uređaj u mirovanju</string>
     <string name="power_main_battery_last_day_hour">%1$sd %2$sh preostalo</string>
     <string name="power_main_battery_last_hour_minute">%1$sh %2$sm preostalo</string>
+    <string name="power_main_battery_last_hour_minute_new">Procijenjeno vrijeme gledanja zaslona: %1$s %2$s</string>
     <string name="power_main_battery_last_hour_minute_screen_on">%1$s %2$s vremena zaslona preostalo</string>
     <string name="power_main_open_last_hour_minute_screen_on">Uključite za dodavanje %1$s %2$s vremena zaslona</string>
     <string name="power_ntc_dialog_btn_finish">Razumijem</string>
@@ -4534,6 +4871,12 @@ Ultra štednje baterije"</string>
     <string name="pp_app_warning_permission_tips_detail">Prikažite podsjetnik kada aplikacija zatraži dopuštenja za lokaciju, fotoaparat ili mikrofon</string>
     <string name="pp_clipboard">Međuspremnik</string>
     <string name="pp_none_read_clipboard_item">Ne obaviještavaj</string>
+    <string name="pp_privacy_call_entry">Privatni poziv</string>
+    <string name="pp_privacy_call_entry_demo_desc">Smanjite propuštanje zvuka iz slušalice kako biste zaštitili privatnost poziva</string>
+    <string name="pp_privacy_call_entry_switch_desc">Radi tijekom poziva preko slušalice. Ova značajka neće prikupljati sadržaj ili podatke vašeg poziva.</string>
+    <string name="pp_privacy_call_protect">Zaštita poziva</string>
+    <string name="pp_privacy_call_switch_off">Privatni poziv je isključen</string>
+    <string name="pp_privacy_call_switch_on">Privatni poziv je uključen</string>
     <string name="pp_privacy_lab_clipboard_summary">Dopustite svom uređaju da odluči može li aplikacija pristupiti međuspremniku i primati obavijesti kada to učini</string>
     <string name="pp_privacy_lab_operator_get_number_summary">Zatražite od aplikacija da traže vaše dopuštenje kada žele pristupiti vašem telefonskom broju radi prijave</string>
     <string name="pp_privacy_protection">Zaštita</string>
@@ -4668,6 +5011,7 @@ Ultra štednje baterije"</string>
     <string name="privacy_description_camera">%1s koristi fotoaparat u pozadini. Dodirivanjem prekidača možete ograničiti spomenutu aktivnost.</string>
     <string name="privacy_description_camera_mic">%1s koristi fotoaparat i mikrofon u pozadini. Dodirivanjem prekidača možete ograničiti spomenutu aktivnost.</string>
     <string name="privacy_description_mic">%1s koristi mikrofon u pozadini. Dodirivanjem prekidača možete ograničiti spomenutu aktivnost.</string>
+    <string name="privacy_device_unique_feature">Značajka dostupna samo na uređaju</string>
     <string name="privacy_dialog_call_item_1">Pristup podacima o uređaju</string>
     <string name="privacy_dialog_call_item_2">Upućivanje poziva</string>
     <string name="privacy_dialog_call_item_3">Pristup statusu uređaja</string>
@@ -4717,6 +5061,10 @@ Ultra štednje baterije"</string>
     <string name="privacy_flares_recent_detail_more">Ova je aplikacija koristila osjetljivo dopuštenje</string>
     <string name="privacy_global_guide_permission_guide_text">Primit ćete upozorenje statusne trake kada aplikacija snima zvuk ili koristi fotoaparat. Kako biste saznali o kojoj aplikaciji se točno radi, dotaknite upozorenje.</string>
     <string name="privacy_guide_permission_guide_text">Možete primati upozorenja na traci statusa kad aplikacije pristupaju vašoj lokaciji, snimaju zvuk ili fotografiraju.</string>
+    <string name="privacy_hide_app_notify_auto_close_desc">Ova značajka sprječava skrivene aplikacije u slanju obavijesti. Da biste primali obavijesti, isključite opciju „Sakrij obavijesti” ili otkrijte aplikaciju.</string>
+    <string name="privacy_hide_app_notify_auto_close_title">Isključi obavijesti</string>
+    <string name="privacy_hide_app_notify_auto_revoke_summary">Automatski isključi obavijesti skrivenih aplikacija</string>
+    <string name="privacy_hide_app_notify_dialog_confirm">Razumijem</string>
     <string name="privacy_hide_other_permissions">Sakrij ostale dozvole</string>
     <string name="privacy_hybrid_password_long">Unesite do %d znaka</string>
     <string name="privacy_hybrid_password_too_short">Unesite bar %d znaka</string>
@@ -4881,6 +5229,10 @@ Povući suglasnost odmah?"</string>
     <string name="privacy_screen_share_notification_title">Emitiranje sadržaja zaslona</string>
     <string name="privacy_screen_share_protect_tip">Zaštićeno</string>
     <string name="privacy_screen_share_tip">Emitiranje</string>
+    <string name="privacy_screen_share_v2_land_subtitle">“%s” pristupa sadržaju zaslona</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Sadržaj zaslona je zaštićen</string>
+    <string name="privacy_screen_share_v2_notification_title">Emitiranje sadržaja zaslona</string>
+    <string name="privacy_screen_share_v2_small_island_title">Dijeljenje zaslona</string>
     <string name="privacy_search_key_1">Privatnost</string>
     <string name="privacy_search_key_10">ID Uređaja</string>
     <string name="privacy_search_key_2">Presretanje mreže</string>
@@ -5006,6 +5358,7 @@ Povući suglasnost odmah?"</string>
     <string name="repeat_type">Ponovi</string>
     <string name="repeated_marked_number_summary">Ne blokiraj drugi poziv s istog prijavljenog broja unutar %d minute</string>
     <string name="repeated_marked_number_title">Ne blokiraj ponovljene pozive s prijavljenih brojeva</string>
+    <string name="repeated_stranger_number_summary">Ne blokiraj drugi poziv s istog nepoznatog broja unutar %d minute</string>
     <string name="repeated_unknown_number_summary">Ne blokiraj drugi poziv s istog nepoznatog broja unutar %d minute</string>
     <string name="replace_dns">Zamjeni DNS automatski</string>
     <string name="report">Prijavi</string>
@@ -5091,10 +5444,12 @@ Povući suglasnost odmah?"</string>
     <string name="safe_result_item_info_system_version">Sustav je ažuriran</string>
     <string name="safepay_alert_dialog_button_continue">Nastavi</string>
     <string name="safepay_alert_dialog_button_fix">Saznajte više</string>
+    <string name="safety">Sigurnost</string>
     <string name="saturday">Subota</string>
     <string name="saturday_short">Sub</string>
     <string name="saturday_shortest">Sub</string>
     <string name="save_mode_btn_ok">Razumijem</string>
+    <string name="save_privacy_pwd_fail_toast">Pohrana nije moguća. Pokušajte ponovno.</string>
     <string name="sc_allow_network_dialog_message">Ograničili ste mrežnu vezu i pristup svojoj lokaciji za aplikaciju Sigurnost. Dajte aplikaciji potrebne dozvole za upotrebu ove značajke.</string>
     <string name="sc_allow_network_dialog_tiltle">Ne mogu koristiti ovu značajku</string>
     <string name="sc_system_risk_fix_info_xspace">To se ne može riješiti u Drugom prostoru. Pokušajte ponovo u Prvom prostoru.</string>
@@ -5105,6 +5460,11 @@ Povući suglasnost odmah?"</string>
     <string name="scan_status_risk">Rizično</string>
     <string name="scan_status_safe">Osiguraj</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Zaštita od prijevara</string>
+    <string name="screen_share_search_keyword_1">Dijeljenje zaslona</string>
+    <string name="screen_share_search_keyword_2">Podijeli zaslon</string>
+    <string name="screen_share_search_title">Zaštita dijeljenja zaslona</string>
+    <string name="screen_share_warning_positive_button">Zaustavi</string>
     <string name="screenrecord_not_find">Instalirajte zadnju verziju Snimača Zaslona i pokušajte ponovno.</string>
     <string name="sd_eject">Uklonite SD karticu</string>
     <string name="sd_eject_summary">Uklonite SD karticu za sigurno uklanjanje</string>
@@ -5490,13 +5850,17 @@ Povući suglasnost odmah?"</string>
     <string name="st_message_phone_AntiSpam">Blokiraj pozive</string>
     <string name="st_message_phonepass">Dopusti pozive</string>
     <string name="st_msg_keyword_black">Lista blokiranih ključnih riječi</string>
+    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
     <string name="st_msg_keyword_group">Ključne riječi</string>
     <string name="st_msg_keyword_white">Iznimke ključnih riječi</string>
+    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
     <string name="st_msg_other_group">Ostalo</string>
     <string name="st_msg_settings">Lista blokiranih SMS-a</string>
     <string name="st_msg_stranger_group">Blokirajte poruke od nepoznatih osoba</string>
     <string name="st_settings_name">Postavke Lista blokiranih</string>
     <string name="st_share_settings">Koristi SIM %d postavke</string>
+    <string name="st_show_num_keyword_v2">{count, plural, =0 {0 ključnih riječi } one {# ključna riječ } few {# ključne riječi } other {# ključnih riječi } }</string>
+    <string name="st_show_num_number_v2">{count, plural, =0 {0 brojeva } one {# broj } few {# broja } other {# brojeva } }</string>
     <string name="st_smg_intercept_all">Blokiraj sve poruke</string>
     <string name="st_smg_intercept_confirm_dialog_summary_all">SMS i MMS poruke s bilo kojeg broja ili područja koja nije u vašim iznimkama bit će blokirane. Želite li ih blokirati sada?</string>
     <string name="st_smg_intercept_confirm_dialog_summary_stranger">SMS i MMS poruke s bilo kojeg broja ili područja koja nije u vašim iznimkama ili u kontaktima bit će blokirane. Želite li ih blokirati sada?</string>
@@ -5570,6 +5934,7 @@ Povući suglasnost odmah?"</string>
     <string name="status_bar_network_flow_purchase">"   Kupuj >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Postavi podatkovni plan >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Blokiraj</string>
     <string name="still_retain_btn">Zadrži</string>
     <string name="stop_milink_connect">Zaustavi emitiranje</string>
     <string name="storage_activity_title">Prostor za pohranu</string>
@@ -5766,6 +6131,7 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="superpower_progress_low_temp_content">Uključivanje načina rada za dodatnu izdržljivost u hladnim uvjetima…</string>
     <string name="superpower_progress_switch_home">Prebacivanje na Tamnu temu</string>
     <string name="superpower_progress_title">Preostalo vrijeme</string>
+    <string name="superpower_progress_title_new">Preostalo vrijeme zaslona</string>
     <string name="superpower_progress_turndown_brightness">Smanjenje osvjetljenje zaslona</string>
     <string name="superpower_progress_turnoff_fan">Iskljulivanje ventilatora za hlađenje</string>
     <string name="superpower_progress_turnoff_items">Ograničavanje aktivnosti koje troše energiju</string>
@@ -5809,9 +6175,10 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Pročitajte i potvrdite naš &lt;a href=\"%1$s\">Korisnički ugovor&lt;/a> prije nastavka.</Data></string>
     <string name="system_permission_declare_no_say_no">Ako ne želite dati potrebne dozvole ili nam ne dopustite da prikupljamo i koristimo vaše podatke, ova aplikacija neće moći normalno raditi.</string>
     <string name="system_permission_declare_no_say_no_analytics">Ako ne želite odobriti ta dopuštenja, možete se poništiti iz Postavke > Dodatne postavke > Privatnost > Program iskustava korisnika.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Ako odlučite ne dati potrebne dozvole ili nam ne dopustite da prikupljamo i koristimo vaše podatke, ova aplikacija neće moći djelomično raditi.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Ako odlučite ne dati potrebna dopuštenja ili nam ne dopustite prikupljanje i upotrebu vaših podataka, nećete moći koristiti povezane značajke.</string>
     <string name="system_permission_declare_optional">Da bismo vam pružili dodatne usluge dok koristite aplikaciju, možda će nam trebati sljedeća dopuštenja: %s. Uvijek možete prilagoditi svoje postavke dopuštenja u Postavkama.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Kako bismo Vam pružili bolje korisničko iskustvo, ova aplikacija treba sljedeće dodatna dopuštenja: %1s Za više pojedinosti o tome kako obrađujemo vaše osobne podatke, dodirnite &lt;a href=\"test\"> ovdje&lt;/a>. Svojim dopuštenjima možete upravljati u bilo kojem trenutku u Postavkama.</Data></string>
+    <string name="system_permission_declare_perm_separator">", "</string>
     <string name="system_permission_declare_privacy_declare">Ova se aplikacija mora povezati na internet i zahtijeva sljedeća dopuštenja kako bi mogla normalno raditi:</string>
     <string name="system_permission_declare_privacy_no_network">Ova aplikacija treba sljedeća dopuštenja da bi mogla normalno raditi:</string>
     <string name="system_permission_declare_privacy_no_permission">Ova se aplikacija mora povezati na internet i sakuplja tražene osobne podatke kako bi mogla normalno raditi.</string>
@@ -5972,8 +6339,8 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="title_auto_update">Ažuriraj automatski</string>
     <string name="title_background_connection">Ne možete koristiti %s u pozadini</string>
     <string name="title_bill_balance_inquiry">Ravnoteža (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Propušteni pozivi iz vaših kontakata</string>
-    <string name="title_block_calls_from_strangers">Nedostaju važni pozivi</string>
+    <string name="title_block_calls_from_cantacts">Propušteni pozivi iz vaših kontakata?</string>
+    <string name="title_block_calls_from_strangers">Nedostaju važni pozivi?</string>
     <string name="title_chain_start">Ograniči lančano pokretanje</string>
     <string name="title_cleaner_cloudscan">Skeniraj cloud smeće</string>
     <string name="title_cloud_account">Xiaomi Račun</string>
@@ -6027,6 +6394,8 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="title_realname_verify">ID Provjera</string>
     <string name="title_reply">Komentiraj</string>
     <string name="title_restrict_data_usage">%s ne možete se spojiti na internet</string>
+    <string name="title_risky_app_scan_no">Otkrivanje rizičnih aplikacija je isključeno</string>
+    <string name="title_risky_app_scan_yes">Otkrivanje rizičnih aplikacija je uključeno</string>
     <string name="title_safe_mode">Uključi Sigurni način</string>
     <string name="title_show_notification">Widget panela obavijesti</string>
     <string name="title_system_auto_download">Ažuriranja će se preuzeti automatski</string>
@@ -6067,6 +6436,14 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="toast_update_success">Uspješno ažurirano</string>
     <string name="today">Danas</string>
     <string name="tomorrow">Sutra</string>
+    <string name="toolbox_invocation_guide_cancel">Ne sada</string>
+    <string name="toolbox_invocation_guide_caption">Prijeđite prstom i držite za otvaranje</string>
+    <string name="toolbox_invocation_guide_caption_upgrade">Otvoren s bilo kojeg mjesta</string>
+    <string name="toolbox_invocation_guide_confirm">Koristi</string>
+    <string name="toolbox_invocation_guide_confirm_upgrade">Isprobajte sada</string>
+    <string name="toolbox_invocation_guide_message">Prijeđite prstom prema unutra od ruba zaslona i držite, a zatim otpustite za otvaranje</string>
+    <string name="toolbox_invocation_guide_title">Koristi bočni izbornik</string>
+    <string name="toolbox_invocation_guide_title_upgrade">Novi način otvaranja bočnog izbornika</string>
     <string name="top_game">Najbolje igre</string>
     <string name="top_load_fail_detail">Ne mogu učitati, dodirni za ponovni pokušaj</string>
     <string name="top_no_network_detial">Ne mogu učitati, provjerite mrežnu vezu i pokušajte ponovno</string>
@@ -6160,6 +6537,45 @@ Preostali podaci uključuju podatke koji se prenjeli iz prethodnog mjeseca."</st
     <string name="txv_lucky_money_group_text">Samo grupne obavijesti</string>
     <string name="ufs_size_suffix">%1$s+%2$s</string>
     <string name="unable_connect_internet">Ne mogu se povezati na mrežu</string>
+    <string name="uni_auth_security_delay_tips">Potrebno je sigurnosno kašnjenje</string>
+    <string name="uniauth_close_bt_text">Ugasi</string>
+    <string name="uniauth_close_lock_sim_bind_local_phone_fp_title">Potvrdite svoj otisak prsta kako biste otključali USIM i povezali ga s ovim uređajem</string>
+    <string name="uniauth_close_lock_sim_fp_title">Potvrdite svoj otisak prsta za otključavanje USIM kartice</string>
+    <string name="uniauth_close_lost_device_prot_bt">Isključite zaštitu izgubljenog uređaja</string>
+    <string name="uniauth_close_lost_device_prot_tips_bt">Shvaćam</string>
+    <string name="uniauth_close_lost_device_prot_tips_message">Zaštita od gubitka uređaja isključena je putem vašeg Xiaomi računa. Značajke na ovom uređaju više neće imati dodatnu zaštitu.</string>
+    <string name="uniauth_close_lost_device_prot_tips_title">Zaštita izgubljenog uređaja isključena</string>
+    <string name="uniauth_common_fp_title">Potvrdite svoj otisak prsta</string>
+    <string name="uniauth_common_tips">Ne mogu potvrditi. Pokušajte ponovo.</string>
+    <string name="uniauth_fp_disabled_sub_title">Previše neuspjelih pokušaja</string>
+    <string name="uniauth_fp_disabled_title">Otisci prsta trenutno nisu dostupni</string>
+    <string name="uniauth_fp_enter_lockscreen_text">Koristite zaključavanje zaslona</string>
+    <string name="uniauth_fp_recover_by_lockscreen_bt_text">Vraćanje pristupa otisku prsta</string>
+    <string name="uniauth_fp_temp_disabled_sub_title">Otisci prstiju trenutno nisu dostupni zbog previše neuspješnih pokušaja</string>
+    <string name="uniauth_lockscreen_default_title">Potvrdite zaključavanje zaslona</string>
+    <string name="uniauth_lockscreen_disabled_sub_title">Ne mogu koristiti zaključavanje zaslona zbog previše neuspješnih pokušaja</string>
+    <string name="uniauth_lockscreen_mix_do_next">Sljedeće</string>
+    <string name="uniauth_lockscreen_mix_hint">Unesite ovdje</string>
+    <string name="uniauth_lockscreen_sub_title">Za vraćanje pristupa otisku prsta</string>
+    <string name="uniauth_logout_xiaomi_acount_fp_title">Potvrdite svoj otisak prsta kako biste se odjavili sa svog Xiaomi računa</string>
+    <string name="uniauth_lp_fp_sub_title">Zaštita od gubitka uređaja je uključena. Potvrdite otisak prsta kako biste potvrdili da ovu radnju izvršava vlasnik uređaja.</string>
+    <string name="uniauth_lp_lockscreen_and_fp_sub_title">Koristite dvofaktorsku autentifikaciju za potvrdu identiteta</string>
+    <string name="uniauth_no_acount_login_tips">Prijavite se na svoj Xiaomi Račun prvo</string>
+    <string name="uniauth_open_lock_sim_bind_local_phone_fp_title">Potvrdite svoj otisak prsta kako biste zaključali USIM i povezali ga s ovim uređajem</string>
+    <string name="uniauth_open_lock_sim_fp_title">Potvrdite svoj otisak prsta za zaključavanje USIM kartice</string>
+    <string name="uniauth_reset_lockscreen_default_title">Potvrdite prethodno zaključavanje zaslona</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_sub_title">Koristite dvofaktorsku autentifikaciju za postavljanje novog zaključavanja zaslona</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_title">Potvrdite svoj otisak prsta</string>
+    <string name="uniauth_reset_lockscreen_title">Potvrdite prethodno zaključavanje zaslona</string>
+    <string name="uniauth_resetlockscreen_error_sub_title">Nije moguće ponovno postaviti</string>
+    <string name="uniauth_resetlockscreen_error_title">Previše neuspješnih pokušaja provjere otključavanja zaslona</string>
+    <string name="uniauth_security_delay_end_notification_msg">Sljedećih %1$d sati možete potvrditi svoj Xiaomi račun kako biste isključili zaštitu od izgubljenog uređaja</string>
+    <string name="uniauth_security_delay_end_notification_title">Sigurnosna odgoda je istekla</string>
+    <string name="uniauth_security_delay_msg">Nakon %1$d sati možete potvrditi svoj Xiaomi račun kako biste isključili Zaštitu od izgubljenog uređaja. Bit ćete obaviješteni kada odgoda završi.</string>
+    <string name="uniauth_security_delay_next_more">Saznajte više</string>
+    <string name="uniauth_temp_disabled_title">Pokušajte ponovno kasnije</string>
+    <string name="uniauth_uqery_pin_fp_title">Potvrdite otisak prsta da biste vidjeli PIN</string>
+    <string name="uniauth_xiaomi_acount_title">Potvrdite svoj Xiaomi Račun</string>
     <string name="uninstall_app_dialog_msg">Deinstaliranje će ukloniti sve podatke aplikacije.</string>
     <string name="uninstall_app_dialog_title">Deinstalirati sada?</string>
     <string name="uninstall_app_done">Uspješno deinstalirano</string>
@@ -6221,7 +6637,9 @@ Preostali podaci uključuju podatke koji se prenjeli iz prethodnog mjeseca."</st
     <string name="usbsharenet_pc_exception_summary">Ne mogu se povezati na internet putem USB veze. Provjerite internetsku vezu vašeg računala.</string>
     <string name="use_for_open_applock">Za uključivanje Zaključavanja aplikacije</string>
     <string name="use_immediately">Koristi</string>
+    <string name="use_lock_screen_password_type">Zaporka Zaključanog zaslona</string>
     <string name="use_other_ime_warn">Tipkovnica treće strane može snimiti sve što tipkate, uključujući zaporke i druge osjetljive podatke.</string>
+    <string name="use_private_password_type">Zaporka zaštite privatnosti</string>
     <string name="user_define_title">Dodaj pravila</string>
     <string name="user_guide">Prijeđite prstom prema gore da biste otkrili još svježih igara</string>
     <string name="v7_preference_off">ISKLJUČENO</string>
@@ -6310,6 +6728,7 @@ Uključivanjem jednog isključit ćete drugi."</string>
     <string name="vb_video_super_division_desc">"Korištenje ove značajke povećava korištenje baterije.
 Ova značajka ne radi s umekšavanjem pokreta.
 Uključivanje jednu od ovih značajki ugasiti će drugu."</string>
+    <string name="vb_video_super_division_subdesc">Automatski povećava rezoluciju kada je ≤720P.</string>
     <string name="vb_video_super_division_tips">"Nije dovoljno jasno?
 Pokušajte povećati rezoluciju!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Poboljšane animacije su ugašene</string>
@@ -6339,6 +6758,12 @@ Ova značajka neće raditi kada je uključena Štednja baterije ili Ultra štedn
     <string name="view_package_info">Pogledajte detalje plana</string>
     <string name="view_traffic_detail">Prikaz pojedinosti</string>
     <string name="view_traffic_details">Prikaži statistiku korištenja podataka</string>
+    <string name="virtual_reject_notice_content">U aplikaciju je poslan prazan odgovor kako bi zaštitili Vaše osobne podatke</string>
+    <string name="virtual_reject_notice_title_calendar">Pristup kalendaru putem %1$s</string>
+    <string name="virtual_reject_notice_title_calllog">Pristup povijesti poziva putem %1$s</string>
+    <string name="virtual_reject_notice_title_contacts">Pristup kontaktima putem%1$s</string>
+    <string name="virtual_reject_notice_title_phonestate">Pristup informacijama uređaja putem %1$s</string>
+    <string name="virtual_reject_notice_title_sms">Pristup porukama putem %1$s</string>
     <string name="virus_app_delete_installed">Deinstaliraj</string>
     <string name="virus_app_delete_uninstalled">Izbriši</string>
     <string name="virus_app_ignore">Zanemari</string>

@@ -20,8 +20,6 @@
     <string name="abc_searchview_description_search">ค้นหา</string>
     <string name="abc_searchview_description_submit">ส่งคำค้นหา</string>
     <string name="abc_searchview_description_voice">ค้นหาด้วยเสียง</string>
-    <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
-    <string name="abc_shareactionprovider_share_with_application">แชร์ทาง %s</string>
     <string name="abc_toolbar_collapse_description">ยุบ</string>
     <string name="accessbility_suggestion_dropdown_closed">ไม่มีคำแนะนำ</string>
     <string name="accessbility_suggestion_dropdown_opened">คำแนะนำเกี่ยวกับข้อมูลติดต่อที่เปิดอยู่</string>
@@ -76,7 +74,19 @@
     <string name="agenda_not_today_empty_hint">ยังไม่มีกิจกรรมที่นี่ แตะเพื่อสร้าง</string>
     <string name="agenda_tomorrow">พรุ่งนี้ %1$s</string>
     <string name="agenda_view">กำหนดการ</string>
+    <string name="ai_card_amount">จำนวนเงินที่ชำระ</string>
+    <string name="ai_card_arrival_time">เวลาที่เดินทางถึง</string>
+    <string name="ai_card_card_no">หมายเลขบัตร</string>
+    <string name="ai_card_check_in_date">วันที่เช็คอิน</string>
+    <string name="ai_card_check_out_date">วันที่เช็คเอาท์</string>
+    <string name="ai_card_hall">โรงละคร</string>
+    <string name="ai_card_room_type">ประเภทห้อง</string>
+    <string name="ai_card_seat">ที่นั่ง</string>
+    <string name="ai_card_source">จาก %s</string>
+    <string name="ai_card_table_info">รายละเอียดตาราง</string>
     <string name="ai_introduce_card_sub_title">ให้ AI เพิ่มการเดินทาง ตั๋ว และกิจกรรมประเภทอื่นๆ ลงในปฏิทินของคุณโดยอัตโนมัติ</string>
+    <string name="ai_location_navigate">การนำทาง</string>
+    <string name="ai_location_taxi">รถรับจ้าง</string>
     <string name="alarm_close_reminder">กำลังปิดการเตือนความจำ</string>
     <string name="alarm_label">รับทราบ</string>
     <string name="alarm_open_reminder">ตั้งการปลุก</string>
@@ -121,6 +131,8 @@
     <string name="calendar_account_manager">จัดการปฏิทินบัญชี</string>
     <string name="calendar_account_settings">การตั้งค่าบัญชี</string>
     <string name="calendar_data_sharing_instruction">คำชี้แจงเกี่ยวกับการแชร์ข้อมูลกับบุคคลที่สาม</string>
+    <string name="calendar_date_picker_a11y_next_month">เปลี่ยนไปที่เดือนถัดไป</string>
+    <string name="calendar_date_picker_a11y_prev_month">เปลี่ยนไปที่เดือนก่อนหน้า</string>
     <string name="calendar_desc_withdraw_consent">เพิกถอนความยินยอมต่อนโยบายความเป็นส่วนตัวของ ปฏิทิน</string>
     <string name="calendar_import_source">แหล่งที่มา</string>
     <string name="calendar_privacy_policy">นโยบายความเป็นส่วนตัว</string>
@@ -182,6 +194,7 @@
     <string name="date_interval_tab">ช่วงเวลา</string>
     <string name="date_interval_text_to">ถึง %1$s</string>
     <string name="date_jump_title">ระบุวัน</string>
+    <string name="date_of_birth">วันเกิดของ %s</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -191,6 +204,7 @@
     <string name="date_today">" (วันนี้)"</string>
     <string name="date_view">วันที่</string>
     <string name="day_view_new_event_hint">กำหนดการใหม่</string>
+    <string name="days_left">เหลืออยู่</string>
     <string name="default_reminder_labels_day">ก่อน %d วัน</string>
     <string name="default_reminder_labels_days">ก่อน %d วัน</string>
     <string name="default_reminder_labels_hour">ก่อน %d ชั่วโมง</string>
@@ -243,6 +257,8 @@
     <string name="edit_event_birthday_name_hint">ชื่อ</string>
     <string name="edit_event_calendar_label">ปฏิทิน</string>
     <string name="edit_event_choose_date">เลือกวันที่</string>
+    <string name="edit_event_confirm_continue">แก้ไขต่อ</string>
+    <string name="edit_event_confirm_discard">ละทิ้ง</string>
     <string name="edit_event_confirm_message">ยกเลิกการแก้ไข?</string>
     <string name="edit_event_countdown_name_empty_hint">ป้อนชื่อกำหนดการ</string>
     <string name="edit_event_countdown_name_hint">กำหนดการ</string>
@@ -275,6 +291,7 @@
     <string name="email_picker_label">อีเมลกับ</string>
     <string name="empty" />
     <string name="empty_event">ไม่สามารถสร้างกำหนดการว่างเปล่าได้</string>
+    <string name="end_at">สิ้นสุด: %s</string>
     <string name="eras_ad">หลังคริสตกาล</string>
     <string name="eras_bc">ก่อนคริสตกาล</string>
     <string name="evening">บ่าย</string>
@@ -300,6 +317,7 @@
     <string name="event_info_where">ที่ไหน</string>
     <string name="event_none_selected">ไม่เลือกทั้งหมดแล้ว</string>
     <string name="event_reminder_allday_day_zero">ในวันนั้นที่ %2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">ในวันนี้</string>
     <string name="event_reminder_custom">กำหนดเอง</string>
     <string name="event_reminder_value_zero">เมื่อกำหนดการเริ่มขึ้น</string>
     <string name="event_title">หัวเรื่อง</string>
@@ -398,7 +416,6 @@
     <string name="hint_what_smart_input_12">h:mm aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">ป้อนหัวข้อกำหนดการ</string>
-    <string name="hint_where">ตำแหน่งพิกัด</string>
     <string name="holiday_detail_read_more">เพิ่มเติม</string>
     <string name="horoscope_select_activity_label">เลือกสัญลักษณ์ราศี</string>
     <string name="hotel_detail_title">รายละเอียดโรงแรม</string>
@@ -445,6 +462,7 @@
     <string name="login_caldav">เพิ่ม</string>
     <string name="login_failed_toast">ไม่สามารถเข้าสู่ระบบได้ รีเฟรชและลองอีกครั้ง</string>
     <string name="logining_caldav_account">กำลังเพิ่ม…</string>
+    <string name="lunar_birthday_desc">ปฏิทินจีนโบราณ</string>
     <string name="lunar_date">วันทางจันทรคติ</string>
     <string name="lunar_date_content_desc">วันที่ตามปฏิทินจีนดั้งเดิม</string>
     <string name="lunar_to_solar_chinese_calendar">จีนเป็นเกรกอเรียน</string>
@@ -491,6 +509,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">สลับไปยังครึ่งหน้าจอ</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">ขยายใหญ่สุด</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">ย่อเล็กสุด</string>
+    <string name="miuix_popup_show_description">หน้าต่างป๊อปอัป</string>
     <string name="miuix_popup_window_default_title">หน้าต่างป๊อปอัป</string>
     <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
@@ -584,6 +603,8 @@
     <string name="no_data">ยังไม่มีอะไรในนี้</string>
     <string name="no_events_hint">ไม่มีกำหนดการ</string>
     <string name="no_locale_list_text">ไม่สามารถรับรายการสถานที่ได้ ลองอีกครั้ง</string>
+    <string name="no_location_hint">ไม่พบผลลัพธ์</string>
+    <string name="no_location_network">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="no_more_events">ไม่มีกำหนดการที่จะแสดงแล้ว</string>
     <string name="no_network">"ไม่สามารถเชื่อมต่อกับเครือข่ายได้
 กรุณาตรวจสอบการตั้งค่าเครือข่ายแล้วลองอีกครั้ง"</string>
@@ -605,7 +626,10 @@
     <string name="notification_open_setting_button_ok">อนุญาต</string>
     <string name="notification_open_setting_message">คุณจะไม่สามารถรับการแจ้งเตือนเกี่ยวกับกิจกรรมได้ เว้นแต่คุณจะอนุญาตให้ปฏิทินส่งการแจ้งเตือนถึงคุณ</string>
     <string name="notification_open_setting_title">อณุญาตการแจ้งเตือนปฏิทิน?</string>
+    <string name="panel_title_end">สิ้นสุด</string>
+    <string name="panel_title_start">เริ่ม</string>
     <string name="pasport_register_dialog_message">สร้างบัญชี Xiaomi ด้วยหมายเลขโทรศัพท์ %s ของคุณเลยตอนนี้?</string>
+    <string name="pass_day">ผ่าน</string>
     <string name="passenger">ผู้โดยสาร</string>
     <string name="passport_access_denied">ปฏิเสธการเข้าถึง</string>
     <string name="passport_account_crop_user_avatar">ตัดกรอบภาพ</string>
@@ -825,6 +849,10 @@
     <string name="premission_read_write_storage">พื้นที่จัดเก็บ</string>
     <string name="premission_read_write_storage_new">เข้าถึงที่เก็บข้อมูลอุปกรณ์</string>
     <string name="privacy_and_permissions">การอนุญาตและความเป็นส่วนตัว</string>
+    <string name="privacy_update_message">"เมื่อแตะ \"ตกลง\" คุณกำลังยอมรับ (คลิก)นโยบายความเป็นส่วนตัวของปฏิทิน(คลิก):
+
+เพื่อมอบประสบการณ์การใช้งานที่ดีขึ้น คุณสามารถเลือกสถานที่เมื่อสร้างกิจกรรมได้แล้ว การค้นหาสถานที่และคำแนะนำต่างๆ จะดำเนินการผ่านบริการแผนที่ของบุคคลที่สาม"</string>
+    <string name="privacy_update_title">นโยบายความเป็นส่วนตัวที่อัปเดตแล้ว</string>
     <string name="productivity_add_event">สร้างกิจกรรม</string>
     <string name="productivity_no_event">ยังไม่มีกำหนดการที่นี่</string>
     <string name="pull_refresh_events">เรียกดู %d กำหนดการ</string>
@@ -892,7 +920,7 @@
     <string name="search_calendar_settings">ปฏิทิน;หัวเรื่อง;การแจ้งเตือน</string>
     <string name="search_events">ค้นหากำหนดการ</string>
     <string name="search_history">ประวัติการค้นหา</string>
-    <string name="search_location_hint">ป้อนที่อยู่</string>
+    <string name="search_location_hint">ป้อนตำแหน่งพิกัด</string>
     <string name="search_menu_title">ค้นหา</string>
     <string name="search_timezone">ค้นหาเขตเวลา</string>
     <string name="select_date">ระบุวัน</string>
@@ -939,11 +967,13 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="solar_birthday_desc">ปฏิทินเกรกอเรียน</string>
     <string name="solar_date_content_desc">วันที่ตามปฏิทินเกรกอเรียน</string>
     <string name="solar_lunar_convert_tab">แปลง</string>
     <string name="solar_to_lunar_chinese_calendar">เกรกอเรียนเป็นจีน</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">กิจกรรม</string>
+    <string name="start_at">เริ่ม: %s</string>
     <string name="start_date_calculate">คำนวณ</string>
     <string name="start_string">เริ่มต้นที่ %s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1147,6 +1177,11 @@
     <string name="widget_normal_weekN">สัปดาห์ที่ %d</string>
     <string name="widget_select_style">เลือกรูปแบบที่ชอบ</string>
     <string name="widget_spec_agenda_birth_today">วันนี้</string>
+    <string name="withdraw_consent_button_withdraw">เพิกถอน</string>
+    <string name="withdraw_consent_message">"หากคุณดำเนินการต่อ คุณจะเพิกถอนความยินยอมต่อนโยบายความเป็นส่วนตัวของปฏิทิน เราจะหยุดเก็บรวบรวมข้อมูลส่วนบุคคลของคุณ ข้อมูลส่วนบุคคลที่ได้เก็บรวบรวมและเก็บรักษาไว้แล้วจะถูกลบภายในระยะเวลาที่กำหนดตามกฎหมายและข้อบังคับที่เกี่ยวข้อง เว้นแต่จะมีการกำหนดไว้เป็นอย่างอื่น
+เนื่องจากปฏิทินให้บริการโดยอาศัยการเก็บรวบรวมข้อมูลส่วนบุคคลที่จำเป็น การเพิกถอนความยินยอมของคุณจะถือเป็นการปฏิเสธที่จะรับบริการจากปฏิทิน ต้องการเพิกถอนความยินยอมตอนนี้หรือไม่?"</string>
+    <string name="withdraw_consent_preference_title">การเพิกถอนความยินยอม</string>
+    <string name="withdraw_consent_title">การเพิกถอนความยินยอม</string>
     <string name="work_day_default_banner_title">มีวันทำงานที่มีประสิทธิภาพ!</string>
     <string name="xiaomi_account">บัญชี Xiaomi</string>
     <string name="xiaomi_calendar_display_name">ปฏิทินบัญชี Xiaomi</string>

@@ -163,7 +163,7 @@
     <string name="add_done">성공적으로 추가됨</string>
     <string name="add_game">게임 추가</string>
     <string name="add_game_notification_summary">탭하여 실행 &amp; 가속</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">게임 스페이스에 \"%s\"이(가) 추가되었습니다</string>
     <string name="add_miservice_dialog_content">%s은(는) 예외 목록에 Xiaomi 서비스 프레임워크를 추가할 것을 요구합니다. 저희의 내장 앱과 기타 서드파티 앱으로부터 알림이 수신될 것입니다.</string>
     <string name="add_miservice_dialog_title">Xiaomi 서비스 프레임워크</string>
     <string name="add_to_whitelist_button">예외 사항 설정</string>
@@ -200,6 +200,48 @@
     <string name="anitispam_intercept_record">차단 목록 기록</string>
     <string name="anti_disturb_msg_detail">전화 수신 알림을 제외한 모든 알림 끄기</string>
     <string name="anti_disturb_msg_title">방해금지 모드</string>
+    <string name="anti_peeping">타인 시선 감지</string>
+    <string name="anti_peeping_apps_disable_header_title">선택되지 않은 앱</string>
+    <string name="anti_peeping_apps_enable_header_title">선택한 앱</string>
+    <string name="anti_peeping_apps_notify_description">이 기능은 선택한 앱이 전체 화면으로 표시될 때 다른 사람이 사용자의 화면을 보고 있는지 계속 확인하고 사용자에게 알립니다.</string>
+    <string name="anti_peeping_apps_notify_title">누군가 보고 있을 때 알림</string>
+    <string name="anti_peeping_apps_notify_type">알림</string>
+    <string name="anti_peeping_apps_privacy_tip">이 기능은 안면 인식 데이터를 사용하여 시선을 감지합니다. 모든 데이터는 기기에서 처리되며 공유되지 않습니다.</string>
+    <string name="anti_peeping_face_need_input">안면 인식 데이터 필요함</string>
+    <string name="anti_peeping_face_need_input_confirm">설정</string>
+    <string name="anti_peeping_face_need_input_subtitle">이 기능을 사용하려면 안면 인식 데이터를 추가하세요. 추가하시겠습니까?</string>
+    <string name="anti_peeping_focus_not_enabled"><Data>알림 스포트라이트가 꺼져 있습니다. 대신 진동으로 알림을 제공합니다. &lt;font color=#3482FF>켜기&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback"><Data>알림 스포트라이트가 꺼져 있습니다. 알림을 사용할 수 없습니다. &lt;font color=#3482FF>켜기&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback_v2"><Data>Xiaomi HyperIsland가 꺼져 있습니다. 알림을 이용할 수 없습니다. &lt;font color=#3482FF>켜기&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_v2"><Data>Xiaomi HyperIsland가 꺼져 있습니다. 대신 진동으로 알림을 제공합니다. &lt;font color=#3482FF>켜기&lt;/font></Data></string>
+    <string name="anti_peeping_notification_channel_name">타인 시선 감지</string>
+    <string name="anti_peeping_notification_got_it">알겠습니다.</string>
+    <string name="anti_peeping_notification_protect_content">다시 알리지 않기</string>
+    <string name="anti_peeping_notification_title">개인 정보 보호</string>
+    <string name="anti_peeping_privacy_auto_close_des">이 기능을 사용하면 전력 소비가 약간 증가할 수 있으며, 배터리 절약 모드를 켜면 이 기능은 꺼집니다.</string>
+    <string name="anti_peeping_privacy_auto_close_title">배터리 절약 모드가 켜지면 자동으로 꺼짐</string>
+    <string name="anti_peeping_privacy_statement_des">"이 기능을 켜면 기기는 선택한 앱이 전체 화면으로 표시될 때 다른 사람이 사용자 화면을 보고 있는지 전면 카메라를 통해 확인합니다. 그런 경우가 감지되면 사용자는 개인 정보 알림을 받게 됩니다.
+모든 처리는 기기에서 이루어지며 클라우드에 업로드되지 않습니다."</string>
+    <string name="anti_peeping_privacy_statement_title">개인 정보 보호 성명</string>
+    <string name="anti_peeping_privacy_understand_des">"이 기능은 전면 카메라를 사용하여 이미지를 캡처하고 다른 사람이 화면을 보고 있는지 여부를 분석합니다. 이러한 활동이 감지되면 사용자는 개인 정보 보호에 도움이 되는 알림을 받게 됩니다.
+어느 앱을 보호할지 선택할 수 있습니다. \"타인 시선 감지\"는 해당 앱이 전체 화면으로 표시될 때 자동으로 켜집니다."</string>
+    <string name="anti_peeping_privacy_understand_title">\"타인 시선 감지\" 정보</string>
+    <string name="anti_peeping_recommend_apps_button_open">켜기</string>
+    <string name="anti_peeping_recommend_tips">%s명의 사용자가 다음 앱을 선택했습니다.</string>
+    <string name="anti_peeping_recommend_title">추천 앱</string>
+    <string name="anti_peeping_search_key">타인 시선 감지</string>
+    <string name="anti_peeping_search_keywords">다른 사람의 시선 감지, 다른 사람의 시선, 프라이버시 디스플레이, 비공개 디스플레이, 프라이버시 디스플레이</string>
+    <string name="anti_peeping_splash_confirm">다음</string>
+    <string name="anti_peeping_splash_custom_des">선택한 앱이 전체 화면으로 표시되면 이 기능이 켜집니다.</string>
+    <string name="anti_peeping_splash_custom_title">보호할 앱 선택</string>
+    <string name="anti_peeping_splash_dialog_des"><Data>사용자 화면을 보고 있는 사람이 있는지 기기가 지속적으로 모니터링하고 그런 사람이 감지되면 알림을 보냅니다. &lt;font color=#3482FF>더 알아보기&lt;/font></Data></string>
+    <string name="anti_peeping_splash_identify_des">다른 사람이 사용자 화면을 보고 있는지 감지</string>
+    <string name="anti_peeping_splash_identify_title">다른 사람의 시선 감지</string>
+    <string name="anti_peeping_splash_notify_des">Xiaomi HyperIsland 및 진동 알림 지원</string>
+    <string name="anti_peeping_splash_notify_title">개인 정보 보호 알림 받기</string>
+    <string name="anti_peeping_vibrate_demo_toast">다른 사람의 시선이 감지되면 알려줍니다</string>
+    <string name="anti_peeping_vibration_not_enabled"><Data>햅틱 피드백이 꺼져 있습니다. 알림은 Xiaomi HyperIsland를 통해 표시됩니다. &lt;font color=#3482FF>켜기&lt;/font></Data></string>
+    <string name="anti_peeping_vibration_not_enabled_no_fallback"><Data>햅틱 피드백이 꺼져 있습니다. 알림을 사용할 수 없습니다. &lt;font color=#3482FF>켜기&lt;/font></Data></string>
     <string name="antispam_add_black_number_message">입력하신 번호는 짧습니다. 이 숫자로 시작하는 모든 번호를 차단하시겠습니까?</string>
     <string name="antispam_add_black_number_negative">아니요</string>
     <string name="antispam_add_black_number_positive">네</string>
@@ -299,7 +341,7 @@
     <string name="app_behavior_record_close_title">기록 끄기</string>
     <string name="app_behavior_record_hide_system">시스템 앱 숨기기</string>
     <string name="app_behavior_record_open">켜기</string>
-    <string name="app_behavior_record_open_content_text">앱 활동 기록을 켜서 앱이 개인 정보를 사용하는 방법을 알아보십시오.</string>
+    <string name="app_behavior_record_open_content_text">앱 활동 기록을 켜서 앱이 개인 정보를 사용하는 방법을 알아보세요.</string>
     <string name="app_behavior_record_setting_button_title">시스템 서비스의 활동 표시</string>
     <string name="app_behavior_record_setting_show_system_desc">기본 시스템 서비스의 활동을 확인하시려면 켜세요. 시스템의 안정성을 보장하기 위해, 이러한 서비스들은 일부 제한할 수 없는 권한을 요구할 수 있습니다.</string>
     <string name="app_behavior_record_setting_show_system_title">시스템 서비스의 활동 표시</string>
@@ -623,6 +665,12 @@
     <string name="apps_item_virus_ignore_text">무시</string>
     <string name="apps_item_virus_summary_installed">설치된 앱</string>
     <string name="apps_item_virus_summary_uninstalled">APK</string>
+    <string name="apps_layout_all_apps">모든 앱</string>
+    <string name="apps_layout_all_freeform_apps">사용 가능한 앱</string>
+    <string name="apps_layout_recommend_apps">추천 앱</string>
+    <string name="apps_layout_search_app">앱 검색</string>
+    <string name="apps_layout_search_app_no_result">결과를 찾을 수 없음</string>
+    <string name="apps_layout_shortcut">바로가기</string>
     <string name="apps_list_header_title_sms">메시지 앱 확인</string>
     <string name="apps_list_header_title_sms_access">인증 코드로의 접근 제한</string>
     <string name="ask_create_shortcut">홈 화면 바로 가기를 생성하시겠습니까?</string>
@@ -719,6 +767,9 @@
     <string name="back_sound_support_china">먼저 WLAN 끄기</string>
     <string name="background_restrict_app_dialog_message">이 앱의 백그라운드 네트워크 접근을 제한하시면 앱의 정상 작동, 메시지 수신, 콘텐츠 다운로드, 기타 등에 영향을 주게됩니다. 그래도 제한하시겠습니까?</string>
     <string name="background_traffic">백그라운드 %s</string>
+    <string name="background_virus_scan_notification_summary">%s 외 여러 앱. 탭하여 확인하세요.</string>
+    <string name="background_virus_scan_notification_summary_one">탭하여 확인</string>
+    <string name="background_virus_scan_notification_title_one">악성 앱 %s 감지됨</string>
     <string name="backsound_set_hint">차단 목록에 대한 음성 답변을 %s으로 설정하시겠습니까?</string>
     <string name="banner_optimizemanage_summary">메모리 확보</string>
     <string name="banner_red_money_assist_button">켜기</string>
@@ -979,7 +1030,9 @@
     <string name="bubble_notification_switch">대화 버블 표시</string>
     <string name="bubble_notification_switch_desc">플로팅 창의 메신저 앱이 화면의 구석에 숨겨져 있을 시 수신되는 메시지를 버블로 표시</string>
     <string name="bubble_pickup_voice_print_auto">성문 녹음 중…</string>
+    <string name="bubble_pickup_voice_print_auto_v2">성문 및 안면 인식 데이터 등록 중…</string>
     <string name="bubble_pickup_voice_print_success">성문 녹음됨</string>
+    <string name="bubble_pickup_voice_print_success_v2">성문 및 안면 인식 데이터 등록 완료</string>
     <string name="button_background_connection">허용</string>
     <string name="button_block_calls_from_cantacts">차단 해제</string>
     <string name="button_block_calls_from_strangers">차단 해제</string>
@@ -1025,6 +1078,13 @@
     <string name="call_delete_hint">이 번호에서 전송된 모든 차단된 통화를 삭제하시겠습니까?</string>
     <string name="call_delete_title">통화 기록 삭제</string>
     <string name="call_empty_number">발신 번호 표시 제한</string>
+    <string name="call_filter_ad_promotion">광고</string>
+    <string name="call_filter_education_training">교육</string>
+    <string name="call_filter_high_risk">고위험</string>
+    <string name="call_filter_insurance_finance">보험</string>
+    <string name="call_filter_loan_promotion">대출</string>
+    <string name="call_filter_real_estate">부동산</string>
+    <string name="call_filter_renovation_repair">집수리</string>
     <string name="call_forwarding_block">착신 전환된 통화</string>
     <string name="call_intercept_settings">통화 차단 목록 설정</string>
     <string name="call_notification_answer_action">통화</string>
@@ -1038,6 +1098,19 @@
     <string name="call_overseas_block">국제 전화</string>
     <string name="call_prefix">접두어 차단 목록</string>
     <string name="call_private">발신자 표시 제한 통화 차단</string>
+    <string name="call_reason_ad_promotion_mark">광고</string>
+    <string name="call_reason_ad_promotion_mark_large">광고</string>
+    <string name="call_reason_education_training_mark">교육</string>
+    <string name="call_reason_education_training_mark_large">교육</string>
+    <string name="call_reason_high_risk_mark">고위험</string>
+    <string name="call_reason_insurance_finance_mark">보험</string>
+    <string name="call_reason_insurance_finance_mark_large">보험</string>
+    <string name="call_reason_loan_promotion_mark">대출</string>
+    <string name="call_reason_loan_promotion_mark_large">대출</string>
+    <string name="call_reason_real_estate_mark">부동산</string>
+    <string name="call_reason_real_estate_mark_large">부동산</string>
+    <string name="call_reason_renovation_repair_mark">집수리</string>
+    <string name="call_reason_renovation_repair_mark_large">집수리</string>
     <string name="call_stranger_block">수상한 사람으로부터 온 통화 차단</string>
     <string name="call_transfer_block">착신전환 통화 차단</string>
     <string name="call_transfer_info">알 수 없는 번호로부터 전달된 통화 차단</string>
@@ -1110,6 +1183,10 @@
     <string name="cetus_invisible_mode">익명</string>
     <string name="cetus_invisible_mode_description_card">권한 중단</string>
     <string name="cetus_invisible_mode_description_switch">모든 앱에 대한 마이크, 카메라 및 위치 관련 권한을 중단하시려면 켜세요</string>
+    <string name="cetus_invisible_mode_notice_audio">익명 모드를 사용하고 있습니다. 마이크를 사용할 수 없습니다.</string>
+    <string name="cetus_invisible_mode_notice_camera">익명 모드를 사용하고 있습니다. 카메라를 사용할 수 없습니다.</string>
+    <string name="cetus_invisible_mode_notice_location">익명 모드를 사용하고 있습니다. 위치 서비스를 사용할 수 없습니다.</string>
+    <string name="cetus_invisible_mode_notice_tip">탭하여 설정에서 익명 모드를 끄세요</string>
     <string name="cetus_invisible_mode_warn_all">익명 모드를 사용하고 있습니다. 마이크, 카메라 및 위치 서비스 권한이 해제되었습니다.</string>
     <string name="cetus_invisible_mode_warn_camera">익명 모드를 사용하고 있습니다. 카메라 권한이 중단되었습니다.</string>
     <string name="cetus_invisible_mode_warn_location">익명 모드를 사용하고 있습니다. 위치 서비스 권한이 해제되었습니다.</string>
@@ -1155,6 +1232,8 @@
     <string name="click_to_set_carrier">탭하여 설정</string>
     <string name="click_to_set_personalized_reminder">경고 설정</string>
     <string name="click_to_set_traffic">탭하여 설정</string>
+    <string name="clip_notification_close_summary">앱의 클립보드 접근 여부에 대한 알림 수신을 중지하시겠습니까?</string>
+    <string name="clip_notification_close_title">클립보드 접근 알림 끄기</string>
     <string name="clipboard_ai_allow">스마트 관리</string>
     <string name="clipboard_ai_allow_summary">시스템이 앱의 클립보드 콘텐츠 접근 여부를 결정하고 접근할 시 사용자에게 알림</string>
     <string name="close">닫기</string>
@@ -1241,17 +1320,18 @@
     <string name="connected_devices_notification">알림</string>
     <string name="connected_devices_notification_desc">같은 계정에 로그인된 주변의 기기에 이 기기의 알림 표시</string>
     <string name="connected_devices_notification_title">위의 기기에서 이 기기의 알림을 표시하도록 허용하시겠습니까?</string>
-    <string name="connected_devices_permission">상호 연결성 및 권한</string>
-    <string name="connected_devices_permission_settings">상호 연결성 및 권한</string>
+    <string name="connected_devices_permission">상호 연결 및 권한</string>
+    <string name="connected_devices_permission_settings">상호 연결 및 권한</string>
     <string name="connected_devices_permission_summary">이 기기로의 접근 관리</string>
-    <string name="connected_devices_record">녹화</string>
+    <string name="connected_devices_record">등록</string>
     <string name="connected_devices_record_desc">같은 계정에 로그인된 주변의 기기가 이 기기에서 오디오를 녹음할 수 있도록 허용</string>
     <string name="connected_devices_record_title">위의 기기가 이 기기에서 오디오를 녹음할 수 있도록 허용하시겠습니까?</string>
     <string name="connected_devices_screen">화면</string>
     <string name="connected_devices_screen_desc">같은 계정에 로그인된 주변의 기기가 이 기기의 화면 내용을 확인하고 상호 작용할 수 있도록 허용</string>
     <string name="connected_devices_screen_title">위의 기기가 이 기기의 화면 내용을 확인하고 상호 작용할 수 있도록 허용하시겠습니까?</string>
-    <string name="connected_interconnection">상호 연결성</string>
+    <string name="connected_interconnection">상호 연결</string>
     <string name="connecting">연결하는 중…</string>
+    <string name="contacts_will_also_be_blocked">연락처 포함</string>
     <string name="continue_install">설치</string>
     <string name="continue_set">계속</string>
     <string name="convenient_mode">한 번에 모든 앱 잠금해제</string>
@@ -1302,32 +1382,40 @@
     <string name="cs_pickup_vioce_print_guide_dialog_desc">시작하시려면 통화를 종료하고 안내에 따라주세요.</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">한 사람의 소리만 들으려면 먼저 그 사람의 성문을 녹음하세요.</string>
     <string name="cs_pickup_vioce_print_in_private_tips">소음 감소 기능을 비공개로 설정하려면 성문을 녹음하세요.</string>
+    <string name="cs_pickup_vioce_print_in_private_tips_v2">소음 제어를 프라이빗으로 설정하려면 성문 및 안면 인식 데이터를 등록하세요.</string>
     <string name="cs_pickup_vioce_print_private_dialog_title">성문 녹음</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title_v2">성문 및 안면 인식 데이터 등록</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">\"단일 참여자\"를 선택하기 전에 성문을 녹음하세요</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">외부 기기의 연결을 해제하고 다시 시도하세요</string>
     <string name="cs_pickup_voice_print_auto_dialog_tips">"귀하의 음성은 이 기기에서만 녹음되고 처리됩니다.
 최상의 결과를 위해 조용한 곳에서 혼자 녹음하세요."</string>
     <string name="cs_pickup_voice_print_auto_dialog_title">맞춤형 노이즈 캔슬링을 위해 성문이 필요함</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title_v2">맞춤형 노이즈 캔슬링을 위해 성문 및 안면 인식 데이터가 필요합니다</string>
     <string name="cs_pickup_voice_print_desc">한 사람의 소리만 듣기</string>
     <string name="cs_privacy_camera_global_settings_title">통화 개인 정보 보호</string>
     <string name="cs_record_voice_title">녹음</string>
     <string name="cs_screen_translation_title">화면 번역</string>
     <string name="cs_simultaneous_interpretation_title">통역</string>
+    <string name="cs_simultaneous_interpretation_title_2">번역</string>
     <string name="cs_title_pickup">노이즈 감소</string>
     <string name="cs_title_smart_subtitle">자막 필사</string>
     <string name="cs_title_ultraclear">울트라 HD 모드</string>
     <string name="cs_tool_box_max_screen_guide_case_1">새로운 통화 도구상자의 동시통역 및 기타 전화 회의 등을 사용해 보세요</string>
     <string name="cs_tool_box_max_screen_guide_case_1_new">새로워진 통화 도구상자에서 동시통역, 미화, 기타 전화 회의 도구를 사용해 보세요</string>
+    <string name="cs_tool_box_max_screen_guide_case_1_new_v2">번역 및 미화를 포함하여 새로운 통화 도구상자의 다양한 기능을 사용해 보세요.</string>
     <string name="cs_tool_box_max_screen_guide_case_2">새로운 통화 도구에서 다양한 전화 회의 기능을 사용해 보세요</string>
     <string name="cs_tool_box_max_screen_guide_case_2_new">새로워진 통화 도구상자에서 미화 및 기타 전화 회의 도구를 사용해 보세요</string>
     <string name="cs_tool_box_max_screen_guide_case_3_new">새로운 통화 도구에서 다양한 전화 회의 기능을 사용해 보세요</string>
     <string name="cs_tool_box_max_screen_guide_case_4_new">새로운 통화 도구상자의 동시통역 및 기타 전화 회의 등을 사용해 보세요</string>
+    <string name="cs_tool_box_max_screen_guide_case_4_new_v2">번역을 포함하여 새로운 통화 도구상자의 다양한 기능을 사용해 보세요.</string>
     <string name="cs_tool_box_phone_guide_case_1">새로운 통화 도구상자의 동시통역 및 기타 기능을 사용해 보세요</string>
     <string name="cs_tool_box_phone_guide_case_1_new">새로워진 통화 도구상자의 동시통역, 미화 및 더 많은 기능을 사용해 보세요</string>
+    <string name="cs_tool_box_phone_guide_case_1_new_v2">번역 및 미화를 포함하여 새로운 통화 도구상자의 다양한 기능을 사용해 보세요.</string>
     <string name="cs_tool_box_phone_guide_case_2">새로운 통화 도구에서 다양한 기능을 사용해 보세요</string>
     <string name="cs_tool_box_phone_guide_case_2_new">새로워진 통화 도구상자에서 미화 및 기타 기능을 사용해 보세요</string>
     <string name="cs_tool_box_phone_guide_case_3_new">새로워진 통화 도구에서 다양하고 멋진 기능을 사용해 보세요</string>
     <string name="cs_tool_box_phone_guide_case_4_new">새로운 통화 도구상자의 동시통역 및 기타 기능을 사용해 보세요</string>
+    <string name="cs_tool_box_phone_guide_case_4_new_v2">번역을 포함하여 새로운 통화 도구상자의 다양한 기능을 사용해 보세요.</string>
     <string name="cs_voice_print">성문 녹음</string>
     <string name="cs_voice_search">성문</string>
     <string name="cs_vt_camera_title">기기 간 카메라</string>
@@ -2112,6 +2200,7 @@ Xiaomi는 지진 경보 정보의 정확성, 유효성 및 적시성을 약속�
     <string name="gallery_confirm_start_activity">%s의 갤러리 및 소셜 미디어 앱 제한이 허용되지 않았습니다. 해당 앱이 항목 공유를 위해 기기에 저장된 이미지에 접근을 요청합니다. 허용하시겠습니까?</string>
     <string name="game_ad_recommendation">모두가 즐기는 항목</string>
     <string name="game_anti_disturb_msg">게임 방해금지 모드</string>
+    <string name="game_audio_label_international">게임 오디오</string>
     <string name="game_balance_gpu_enhance_title">외장 GPU 성능 향상</string>
     <string name="game_balance_more_setting_title">추가 설정</string>
     <string name="game_balance_none_gpu_enhance_subtitle">그래픽 성능 향상</string>
@@ -2141,7 +2230,7 @@ Xiaomi는 지진 경보 정보의 정확성, 유효성 및 적시성을 약속�
     <string name="game_perf_config_motion_desc">게임의 터치 감도 조정</string>
     <string name="game_perf_config_network_desc">네트워크 랙 및 지터 감소</string>
     <string name="game_perf_config_network_title">네트워크 스피드 부스트</string>
-    <string name="game_perf_config_strategy_diy">맞춤형</string>
+    <string name="game_perf_config_strategy_diy">사용자 지정</string>
     <string name="game_perf_config_strategy_fps_first">프레임률 우선</string>
     <string name="game_perf_config_strategy_picture_first">사진 우선</string>
     <string name="game_perf_config_strategy_title">성능 전략</string>
@@ -2154,7 +2243,7 @@ Xiaomi는 지진 경보 정보의 정확성, 유효성 및 적시성을 약속�
     <string name="game_toolbox_ai_service_desc">AI로 향상된 게이밍 경험</string>
     <string name="game_toolbox_ai_service_title">AI 게이밍 서비스</string>
     <string name="game_toolbox_ai_upgrade_dialog_btn">업데이트</string>
-    <string name="game_toolbox_ai_upgrade_dialog_desc">AI 게임 서비스에 대한 업데이트가 제공됩니다. 관련 기능을 사용하기 전에 업데이트하십시오.</string>
+    <string name="game_toolbox_ai_upgrade_dialog_desc">AI 게임 서비스에 대한 업데이트가 제공됩니다. 관련 기능을 사용하기 전에 업데이트하세요.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">업데이트 확인</string>
     <string name="game_toolbox_auto_brightness_talkback">자동 밝기</string>
     <string name="game_toolbox_btn_back_talkback">뒤로 가기</string>
@@ -2296,12 +2385,14 @@ Xiaomi는 지진 경보 정보의 정확성, 유효성 및 적시성을 약속�
     <string name="gamebox_func_antimsg_open">플로팅 알림 제한됨</string>
     <string name="gamebox_func_immersion_close">몰입 모드 꺼짐</string>
     <string name="gamebox_func_immersion_open">몰입 모드 켜짐</string>
+    <string name="gamebox_func_start_gyroscope_international">이 기능을 사용하려면 게임 설정에서 자이로스코프를 켜세요.</string>
     <string name="gamebox_func_switch_simcard">데이터 사용을 위한 SIM 카드 %1$d로 전환됨</string>
     <string name="gamebox_func_switch_simcard_immersion">몰입 모드에서는 SIM 카드를 전환할 수 없음</string>
     <string name="gamebox_func_wlan_close">Wi-Fi 꺼짐</string>
     <string name="gamebox_func_wlan_open">Wi-Fi 켜짐</string>
     <string name="gamebox_game_center_app_not_find">먼저 게임 설치</string>
     <string name="gamebox_gift_pack">선물</string>
+    <string name="gamebox_gyroscope_acceleration_international">자이로 부스트</string>
     <string name="gamebox_hangup">화면 끄기</string>
     <string name="gamebox_hangup_new">화면 끄기</string>
     <string name="gamebox_hangup_tips_content">이 기능은 화면이 꺼지지만 게임이 백그라운드에서 지속 실행되게 합니다. 해당 기능은 기기를 한 번 잠그시면 자동으로 꺼집니다.</string>
@@ -2482,6 +2573,7 @@ Xiaomi는 지진 경보 정보의 정확성, 유효성 및 적시성을 약속�
     <string name="gb_game_macro_toast_tips">"콤보를 시도해보세요!
 순서를 기록하여 언제든지 사용하실 수 있습니다!"</string>
     <string name="gb_game_mode_change_btn_right">다시 시작</string>
+    <string name="gb_game_mode_change_failed_toast">저장 실패</string>
     <string name="gb_game_mode_change_message">지금 게임을 다시 시작하여 변경 사항을 적용하시겠습니까?</string>
     <string name="gb_game_mode_change_new">여기에서 레이아웃 간 전환</string>
     <string name="gb_game_mode_change_title">게임 재시작</string>
@@ -2524,6 +2616,9 @@ Xiaomi는 지진 경보 정보의 정확성, 유효성 및 적시성을 약속�
     <string name="gb_gpu_driver_update_app_tips">현재 버전은 최신입니다</string>
     <string name="gb_have_signed">오늘 체크인함</string>
     <string name="gb_hot_area_seekbar">핫 존 범위</string>
+    <string name="gb_launch_mute_start">무음</string>
+    <string name="gb_launch_mute_start_enbaled_toast">무음 모드가 켜져 있습니다. (click)끄기(/click)</string>
+    <string name="gb_launch_mute_start_unmuted_toast">소리가 켜졌습니다</string>
     <string name="gb_manual_record_dialog_del_video_message">선택한 동영상을 영구적으로 삭제하시겠습니까?</string>
     <string name="gb_manual_video_record_title">녹화</string>
     <string name="gb_margin_restrain">가장자리 터치 오류 무시</string>
@@ -2712,8 +2807,17 @@ Xiaomi는 지진 경보 정보의 정확성, 유효성 및 적시성을 약속�
     <string name="gd_app_edit_title_new">플로팅 창 바로가기 편집</string>
     <string name="gd_beauty_manage_summary">이 기능을 사용하려면 영상 통화 중 측면 도구상자 열기</string>
     <string name="gd_beauty_manage_title">영상 통화 미화</string>
+    <string name="gd_dock_preview_section_title">여는 방법</string>
+    <string name="gd_dock_preview_sidebar_title">표시기를 안쪽으로 드래그</string>
+    <string name="gd_dock_preview_swipe_title">길게 눌러 드래그</string>
     <string name="gd_dock_shortcut_fullscreen">전체화면</string>
+    <string name="gd_dock_shortcut_multisplitscreen">다중 분할 화면</string>
     <string name="gd_dock_shortcut_splitescreen">분할 화면</string>
+    <string name="gd_dock_swipe_launcher_upgrade_hint">현재 사용 중인 런처 버전은 길게 눌러 드래그 기능이 지원되지 않습니다.</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_cancel">취소</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_confirm">전환</string>
+    <string name="gd_dock_xiaoai_ball_dialog_content">드래그한 후 길게 눌러 Xiaomi Hyper XiaoAi 액션 버블을 열 수 있습니다. 측면 도구상자로 전환하면 Xiaomi Hyper XiaoAi 액션 버블이 꺼집니다. 지금 전환하시겠습니까?</string>
+    <string name="gd_dock_xiaoai_ball_dialog_title">활성화 방법을 전환하시겠습니까?</string>
     <string name="gd_setting_conversation">회의 도구</string>
     <string name="gd_setting_conversation_desc">전체화면 음성 및 영화 통화에서 사용할 수 있는 다양한 기능 제공</string>
     <string name="gd_setting_dock_activity_title">측면 도구상자</string>
@@ -2767,6 +2871,7 @@ Xiaomi는 지진 경보 정보의 정확성, 유효성 및 적시성을 약속�
 · 표시기를 길게 눌러 창을 이동하실 수 있습니다."</string>
     <string name="global_dock_guide_desc_without_split_screen_new">"스와이프하여 사이드바를 열고 앱을 탭하여 플로팅 창으로 여세요.
 창을 움직이려면 표시기를 길게 누르세요."</string>
+    <string name="global_dock_recommend_switch_title">사이드바에 추천 앱 표시</string>
     <string name="global_satisfaction_notification_button">평가</string>
     <string name="global_satisfaction_notification_channel">사용자 만족도 설문조사</string>
     <string name="global_satisfaction_notification_subhead">귀하의 생각을 들려주세요</string>
@@ -3008,6 +3113,9 @@ Xiaomi는 지진 경보 정보의 정확성, 유효성 및 적시성을 약속�
     <string name="install_title">USB로 설치</string>
     <string name="install_type_instant">인스턴트 앱</string>
     <string name="installing">설치 중</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">%s 외 여러 앱이 접근성 권한을 남용하고 있습니다</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">이 앱은 접근성 권한을 남용하고 있습니다. 탭하여 확인하세요.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">악성 앱 %s 차단됨</string>
     <string name="intercept_all_mark_calls">"'%s' 유형의 전화를 모두 차단하시겠습니까?"</string>
     <string name="intercept_calls_nofify_hide_text">다른 유형의 번호에 대한 차단 규칙을 설정하려면 여기를 탭하세요</string>
     <string name="intercept_calls_notify_title">이 유형의 통화는 자동으로 종료됩니다. 지금 차단하시겠습니까?</string>
@@ -3419,6 +3527,7 @@ SMS 전송"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">반쪽 화면으로 전환</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">최대화</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">최소화</string>
+    <string name="miuix_popup_show_description">팝업 창</string>
     <string name="miuix_popup_window_default_title">팝업 창</string>
     <string name="miuix_progressbar_loading">로드 중</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">아래로 당겨 새로고침</string>
@@ -3660,6 +3769,8 @@ SMS 전송"</string>
     <string name="notification_abnormal_check_now_button">보기</string>
     <string name="notification_abnormal_consume_app_title">%s이 배터리를 소모합니다</string>
     <string name="notification_abnormal_consume_cpu">백그라운드에서 CPU 리소스가 남용됨</string>
+    <string name="notification_abnormal_consume_high_drain_app_title">%s이(가) 배터리를 소모하고 있습니다.</string>
+    <string name="notification_abnormal_consume_high_drain_subtitle">백그라운드에서 배터리 사용량이 많음</string>
     <string name="notification_abnormal_consume_wakelock">시스템이 백그라운드에서 계속 깨어있음</string>
     <string name="notification_antivirus_button_text">스캔</string>
     <string name="notification_antivirus_message">위험을 최소화하기 위해 지금 스캔</string>
@@ -3747,7 +3858,10 @@ SMS 전송"</string>
     <string name="notify_weekly_traffic_title_for_slotnum">이번 주에 %1$s에서 %2$s 사용됨</string>
     <string name="now_inquiry">세부사항</string>
     <string name="number_address">위치</string>
+    <string name="number_locked_v2">{count, plural, =0 {잠긴 앱 0개} other {잠긴 앱 #개} }</string>
+    <string name="number_masked_v2">{count, plural, =0 {앱 0개} other {앱 #개} }</string>
     <string name="number_of_lucky_money">알림을 받은 빨간 봉투</string>
+    <string name="number_to_lock_v2">{count, plural, =0 {잠기지 않은 앱 0개} other {잠기지 않은 앱 #개} }</string>
     <string name="numeric_need_to_confirm">다시 입력하여 확인</string>
     <string name="numeric_password_confirmed_header_confirm">설정 성공, 확인을 탭하세요.</string>
     <string name="numeric_password_confirmed_header_continue">설정 성공, \"다음\"을 탭하세요.</string>
@@ -3796,7 +3910,15 @@ SMS 전송"</string>
     <string name="open_activity_err">앱을 찾을 수 없습니다.</string>
     <string name="open_app">열기</string>
     <string name="open_applock">앱 잠금 켜기</string>
+    <string name="open_applock_calling_tips">앱을 잠글 수 있고 앱을 열 때 본인 확인을 합니다. 앱 잠금은 두 가지 유형의 비밀번호가 있으며 생체 인증을 지원합니다.</string>
+    <string name="open_applock_calling_title">앱 잠금</string>
     <string name="open_applock_password_type">비밀번호 유형</string>
+    <string name="open_applock_tip_item1_sub_title">개인 정보 보호 비밀번호 또는 잠금화면 비밀번호 사용</string>
+    <string name="open_applock_tip_item1_title">두 가지 비밀번호 유형</string>
+    <string name="open_applock_tip_item2_sub_title">지문 또는 안면 인식 데이터를 통해 앱 잠금 해제</string>
+    <string name="open_applock_tip_item2_title">생체 인증</string>
+    <string name="open_applock_tip_item3_sub_title">화면 잠금 후, 일정 시간이 지난 후 또는 앱을 종료한 후에 인증을 요구하도록 선택할 수 있습니다.</string>
+    <string name="open_applock_tip_item3_title">인증 시점 사용자 설정</string>
     <string name="open_applock_tips">앱을 잠글 수 있고, 앱을 열 때 본인 확인을 합니다. 앱 잠금은 두 가지 유형의 비밀번호가 있으며 생체 인증을 지원합니다.</string>
     <string name="open_callwait">켜짐</string>
     <string name="open_dnd_mode">방해금지 모드</string>
@@ -3824,8 +3946,6 @@ SMS 전송"</string>
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">악성 앱을 사용하시면 보안 위험을 초래합니다</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s은(는) 악성 앱일 수 있습니다</string>
     <string name="optimize_manage_title">스피드 부스트</string>
     <string name="optimize_result_available_memory_info">사용 가능한 메모리</string>
     <string name="optimize_result_button_cloudspace">더 많은 클라우드 저장 공간 얻기</string>
@@ -3878,6 +3998,7 @@ SMS 전송"</string>
     <string name="overlay_permission_dialog_message_security_service">보안은 정상 작동을 위해 특정 권한이 요구됩니다.</string>
     <string name="overlay_permission_dialog_open">설정</string>
     <string name="overlay_permission_dialog_title">권한 요구됨</string>
+    <string name="overlay_read_clip_toast">\"%1$s\"이(가) 클립보드에 접근함</string>
     <string name="package_change_notification_summary">탭하여 더 알아보기.</string>
     <string name="package_change_notification_title">자동 데이터 한도 조정</string>
     <string name="package_setted_error_notification_summary">탭하여 데이터 사용량 세부사항 보기</string>
@@ -3909,6 +4030,7 @@ SMS 전송"</string>
     <string name="pb_abnormal_header_time">시간</string>
     <string name="pb_abnormal_header_type">유형</string>
     <string name="pb_abnormal_header_value">값</string>
+    <string name="pb_abnormal_idle_high_temp">대기 중 과열</string>
     <string name="pb_abnormal_loading">잠시만 기다려주세요…</string>
     <string name="pb_abnormal_record">기록</string>
     <string name="pb_activity_title">보조 배터리 정보</string>
@@ -3920,6 +4042,7 @@ SMS 전송"</string>
     <string name="pb_data_fetch_all_error">데이터를 읽을 수 없습니다. 보조 배터리가 분리되었거나 호환되지 않을 수 있습니다.</string>
     <string name="pb_data_fetch_all_error_new">데이터를 읽을 수 없습니다. 보조 배터리의 연결이 끊어졌거나 지원되지 않는 모델일 수 있습니다. 연결이 끊어진 경우 충전 케이블을 다시 연결한 후 재시도해 보세요.</string>
     <string name="pb_data_fetch_partial_error">일부 항목은 지원되지 않는 보조 배터리 또는 지연으로 인해 사용할 수 없습니다.</string>
+    <string name="pb_data_fetch_partial_error_new">일부 항목은 지원되지 않는 보조 배터리 또는 지연으로 인해 사용할 수 없습니다.</string>
     <string name="pb_manufacturer">제조사</string>
     <string name="pb_measure_point">센서 %1$d</string>
     <string name="pb_production_date">제조일</string>
@@ -4237,6 +4360,210 @@ SMS 전송"</string>
     <string name="pc_work_in_super_save_mode">울트라 배터리 절약</string>
     <string name="pc_xiaoai_create_auto_task">Mi AI의 새로운 작업</string>
     <string name="pc_xiaoai_voice_control_close">Mi AI의 \"음성으로 깨우기\" 끄기</string>
+    <string name="peep_protection_ai_key_disabled">프라이버시 디스플레이 꺼짐</string>
+    <string name="peep_protection_ai_key_enabled">프라이버시 디스플레이 켜짐</string>
+    <string name="peep_protection_v2_app_notification_protection">알림</string>
+    <string name="peep_protection_v2_app_notification_protection_desc">선택한 앱에서 알림을 보내면 프라이버시 디스플레이가 활성화됩니다.</string>
+    <string name="peep_protection_v2_app_protection_desc">선택한 앱 사용 시 프라이버시 디스플레이를 켭니다.</string>
+    <string name="peep_protection_v2_banner_summary">이 기기 모델에서만 지원되는 프라이버시 디스플레이 기능을 사용해 보세요.</string>
+    <string name="peep_protection_v2_banner_title">사생활 보호 디스플레이</string>
+    <string name="peep_protection_v2_batch_disable">끄기</string>
+    <string name="peep_protection_v2_batch_enable">켜기</string>
+    <string name="peep_protection_v2_category_capability">기능 소개</string>
+    <string name="peep_protection_v2_category_capability_v2">시선 감지</string>
+    <string name="peep_protection_v2_category_finance">금융</string>
+    <string name="peep_protection_v2_category_group_title_v2">%1$s(%2$d)</string>
+    <string name="peep_protection_v2_category_other">기타</string>
+    <string name="peep_protection_v2_category_recommend">권장 사항</string>
+    <string name="peep_protection_v2_category_scene">상황</string>
+    <string name="peep_protection_v2_category_scene_v2">화면</string>
+    <string name="peep_protection_v2_category_smart">스마트</string>
+    <string name="peep_protection_v2_category_social">소셜 네트워크</string>
+    <string name="peep_protection_v2_category_suggest">추천</string>
+    <string name="peep_protection_v2_category_tip_dismiss">사양하겠습니다.</string>
+    <string name="peep_protection_v2_category_tip_message">Xiaomi Hyper XiaoAi는 사용자가 맞춤 앱 그룹을 만들 수 있도록 도와드립니다. 예를 들어 사용자는 갤러리, 비밀번호, 메모를 ‘지하철’이라는 이름의 프라이버시 디스플레이 그룹에 추가할 수 있습니다. 또한 원하는 앱 그룹 구성 방식을 Xiaomi Hyper XiaoAi에 알려주고, 다른 스마트 활성화 규칙도 추가할 수 있습니다.</string>
+    <string name="peep_protection_v2_category_tip_prompt">"프라이버시 디스플레이 앱 그룹을 만드세요. 이 그룹에 %1$s을(를) 추가하고 이름을 '비공개'로 지정한 다음, 이 앱들의 프라이버시 디스플레이를 켜세요."</string>
+    <string name="peep_protection_v2_category_tip_title">나만의 그룹 만들기</string>
+    <string name="peep_protection_v2_color_inversion_closed_msg">이 기능은 색상 반전과 함께 사용할 수 없습니다. 사생활 보호 디스플레이가 꺼져 있습니다.</string>
+    <string name="peep_protection_v2_color_inversion_closed_reopen">켜기</string>
+    <string name="peep_protection_v2_color_inversion_closed_title">사생활 보호 디스플레이 꺼짐</string>
+    <string name="peep_protection_v2_color_inversion_conflict_msg">이 기능은 색상 반전과 함께 사용할 수 없습니다. 먼저 색상 반전을 꺼주세요.</string>
+    <string name="peep_protection_v2_color_inversion_conflict_title">색상 반전 끄기</string>
+    <string name="peep_protection_v2_cue_byapp_reason">이 앱의 프라이버시 디스플레이 켜기</string>
+    <string name="peep_protection_v2_cue_byapp_title">%s의 프라이버시 디스플레이 켜기</string>
+    <string name="peep_protection_v2_cue_global_reason">이 기기 모델에서만 지원되는 프라이버시 기능을 사용해 보세요.</string>
+    <string name="peep_protection_v2_cue_global_title">사생활 보호 디스플레이 켜기</string>
+    <string name="peep_protection_v2_cue_summary">해당 기능은 이 기기 모델에서만 지원됩니다.</string>
+    <string name="peep_protection_v2_deep_mode">고급 프라이버시</string>
+    <string name="peep_protection_v2_deep_mode_desc">타인이 내 화면을 보기 어렵게 만들기</string>
+    <string name="peep_protection_v2_expert_mode_hint">*Xiaomi Hyper XiaoAi를 Pro 모드로 전환해야 합니다.</string>
+    <string name="peep_protection_v2_face_need_input_hint">안면 인식 데이터 필요함</string>
+    <string name="peep_protection_v2_first_close_message">\"제어 센터 > 편집 > 시스템 토글\"에 사생활 보호 디스플레이를 추가하면 빨리 켜고 끌 수 있습니다.</string>
+    <string name="peep_protection_v2_first_close_title">사생활 보호 디스플레이 빨리 켜기</string>
+    <string name="peep_protection_v2_first_close_title_v2">토글</string>
+    <string name="peep_protection_v2_global_first_open_msg">\"제어 센터 > 편집 > 시스템 토글\"에 전체 화면 프라이버시를 추가하면 빨리 켜고 끌 수 있습니다.</string>
+    <string name="peep_protection_v2_global_first_open_title">전체 화면 프라이버시 빠르게 켜기</string>
+    <string name="peep_protection_v2_global_hint">전체 화면 프라이버시가 켜진 경우 기기는 타인의 시선을 감지할 수 없습니다.</string>
+    <string name="peep_protection_v2_global_no_aon_hint">배터리를 절약하기 위해 전체 화면 프라이버시가 켜진 동안에는 다른 사람의 시선을 감지하지 않습니다.</string>
+    <string name="peep_protection_v2_global_protection">전체 화면 프라이버시</string>
+    <string name="peep_protection_v2_global_protection_desc">다양한 상황에서 기기의 프라이버시 디스플레이 사용</string>
+    <string name="peep_protection_v2_global_protection_desc_v2">기기 사용 전반에서 프라이버시 디스플레이가 켜진 상태로 유지됩니다.</string>
+    <string name="peep_protection_v2_go_miclaw">Xiaomi Hyper XiaoAi 열기</string>
+    <string name="peep_protection_v2_header_desc_v2">측면에서 화면이 잘 보이지 않도록 합니다. 다른 사람의 시선이 감지되면 기기에서 알림을 보냅니다. (click)더 알아보기(/click)</string>
+    <string name="peep_protection_v2_intro_detection_desc">Xiaomi Hyper XiaoAi로 이 기능에 대한 스마트 규칙 설정</string>
+    <string name="peep_protection_v2_intro_enable">켜기</string>
+    <string name="peep_protection_v2_intro_pixel_desc">화면이 보이는 각도를 제한하고 다른 사람이 화면을 보고 있는지 감지합니다.</string>
+    <string name="peep_protection_v2_intro_pixel_title">하드웨어 수준 프라이버시</string>
+    <string name="peep_protection_v2_intro_privacy_tip">화면을 측면에서 보기 어렵게 만들고, 누군가가 사용자 화면을 보고 있는 경우 지속적으로 감지하여 알려줍니다.</string>
+    <string name="peep_protection_v2_intro_scope_desc_global">특정 앱 및 알림을 선택하거나 기기 사용 전반에서 이 기능을 사용하세요.</string>
+    <string name="peep_protection_v2_intro_smart_page_desc">특정 앱, 페이지, 알림을 선택하거나 기기 전체에 이 기능을 사용하세요.</string>
+    <string name="peep_protection_v2_intro_smart_page_title">다양한 상황</string>
+    <string name="peep_protection_v2_learn_more">더 알아보기</string>
+    <string name="peep_protection_v2_learn_more_limits_desc">"이 기능을 사용하면 전력 소모가 약간 증가할 수 있습니다. 배터리 절약 모드가 켜져 있으면 배터리를 절약하기 위해 기능이 일시적으로 비활성화됩니다.
+HDR 콘텐츠 미리 보기 중에는 화면 품질을 보장하기 위해 프라이버시 디스플레이가 일시 중지됩니다.
+가로 모드에서는 프라이버시 디스플레이가 일시 중지되며, 세로 모드로 변경하면 자동으로 다시 활성화됩니다.
+일부 제3자 테마는 잠금화면 알림에 대한 프라이버시 디스플레이를 아직 지원하지 않습니다.
+특정 위치에 도착하거나 해당 위치를 벗어났음을 감지하는 데 시간이 걸릴 수 있습니다."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global">"이 기능을 사용하면 전력 소모가 약간 증가할 수 있습니다. 배터리 절약 모드가 켜져 있으면 배터리를 절약하기 위해 기능이 일시적으로 비활성화됩니다.
+HDR 콘텐츠 미리 보기 중에는 화면 품질을 보장하기 위해 프라이버시 디스플레이가 일시 중지됩니다.
+가로 모드에서는 프라이버시 디스플레이가 일시 중지되며, 세로 모드로 변경하면 자동으로 다시 활성화됩니다.
+일부 제3자 테마는 잠금화면 알림에 대한 프라이버시 디스플레이를 아직 지원하지 않습니다."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global_hdr">"이 기능을 사용하면 전력 소모가 약간 증가할 수 있습니다. 배터리 절약 모드가 켜져 있을 때는 배터리를 절약하기 위해 기능이 일시적으로 꺼집니다.
+HDR 콘텐츠를 미리 보기 중에는 디스플레이 품질을 유지하기 위해 프라이버시 디스플레이가 일시 중지됩니다.
+가로 모드에서는 프라이버시 디스플레이가 일시 중지되며, 세로 모드로 돌아오면 자동으로 다시 시작됩니다.
+일부 서드파티 테마는 아직 잠금 화면 알림의 프라이버시 디스플레이를 지원하지 않습니다."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_hdr">"이 기능을 사용하면 전력 소모가 약간 증가할 수 있습니다. 배터리 절약 모드가 켜져 있을 때는 배터리를 절약하기 위해 기능이 일시적으로 꺼집니다.
+HDR 콘텐츠를 미리 보기 중에는 디스플레이 품질을 유지하기 위해 프라이버시 디스플레이가 일시 중지됩니다.
+가로 모드에서는 프라이버시 디스플레이가 일시 중지되며, 세로 모드로 돌아오면 자동으로 다시 시작됩니다.
+일부 서드파티 테마는 아직 잠금 화면 알림의 프라이버시 디스플레이를 지원하지 않습니다.
+위치 도착 및 출발 감지에 지연이 발생할 수 있습니다."</string>
+    <string name="peep_protection_v2_learn_more_limits_title">제한 사항 및 특수 사례</string>
+    <string name="peep_protection_v2_learn_more_privacy_desc">"이 기능을 켜면, 시선 감지 기능이 활성화되어 있는 동안 기기는 전면 카메라를 사용해 이미지를 촬영하고 얼굴 또는 시선 방향을 기기 내에서 감지할 수 있습니다. 이를 통해 사용자 외의 다른 사람이 화면을 보고 있는지 판단하고 알림을 보냅니다.
+모든 데이터는 기기 내에서 처리되며 Xiaomi Cloud 또는 제3자 클라우드 서비스로 업로드되지 않습니다."</string>
+    <string name="peep_protection_v2_learn_more_privacy_title">개인 정보 보호 성명</string>
+    <string name="peep_protection_v2_learn_more_scope_desc">"사생활 보호 디스플레이의 작동 방식을 기기 전체, 선택한 앱, 민감한 페이지, 알림에 적용할 수 있습니다.
+
+기기 전체 프라이버시 디스플레이:
+사용자가 보는 모든 내용을 보호하기 위해 기기 사용 전반에서 사생활 보호 디스플레이가 켜진 상태로 유지됩니다. 이 기능이 켜져 있는 동안에는 다른 사람의 시선을 감지하지 않습니다.
+
+선택한 앱:
+보호하려는 앱을 선택하세요. 선택한 앱이 화면에 표시되면 사생활 보호 디스플레이가 측면에서 화면이 잘 보이지 않도록 하고 다른 사람이 화면을 보고 있는지 감지합니다.
+
+민감한 페이지:
+일부 앱이 목록에 추가되지 않았더라도 사생활 보호 디스플레이는 비밀번호 입력, 결제, 송금 및 메시지 전송과 같은 민감한 페이지에 대해 자동으로 켜질 수 있습니다.
+
+앱 알림:
+선택한 앱의 알림이 부분적 개인 정보 보호 기능이 적용된 상태로 표시되어 다른 사람이 민감한 정보를 보지 못하도록 지원합니다."</string>
+    <string name="peep_protection_v2_learn_more_scope_desc_global">"사생활 보호 디스플레이의 작동 방식을 기기 전체, 선택한 앱, 알림에 적용할 수 있습니다.
+
+기기 전체 프라이버시 디스플레이:
+사용자가 보는 모든 내용을 보호하기 위해 기기 사용 전반에서 사생활 보호 디스플레이가 켜진 상태로 유지됩니다. 이 기능이 켜져 있는 동안에는 다른 사람의 시선을 감지하지 않습니다.
+
+선택한 앱:
+보호하려는 앱을 선택하세요. 선택한 앱이 화면에 표시되면 사생활 보호 디스플레이가 측면에서 화면이 잘 보이지 않도록 하고 다른 사람이 화면을 보고 있는지 감지합니다.
+
+앱 알림:
+선택한 앱의 알림이 부분적 개인 정보 보호 기능이 적용된 상태로 표시되어 다른 사람이 민감한 정보를 보지 못하도록 지원합니다."</string>
+    <string name="peep_protection_v2_learn_more_scope_title">프라이버시 디스플레이 적용 범위</string>
+    <string name="peep_protection_v2_learn_more_smart_desc">AI 어시스턴트를 사용하여 프라이버시 디스플레이 앱 그룹을 생성하고 관리하거나, 공공장소에서 전체 화면 프라이버시를 자동으로 켜거나, 지정한 그룹을 자동으로 활성화할 수 있습니다. 프라이버시 디스플레이 적용 범위와 실행 규칙을 조정하여 사용자 습관에 잘 맞도록 설정할 수 있습니다.</string>
+    <string name="peep_protection_v2_learn_more_smart_title">사용자지정 규칙</string>
+    <string name="peep_protection_v2_learn_more_understand_desc">"사생활 보호 디스플레이는 측면 시야 제한 기능과 시선 감지 기능을 결합하여 큰 각도의 화면 엿보기와 작은 각도의 근거리 화면 엿보기를 방지함으로써 더욱 철저히 개인 정보를 보호합니다.
+
+측면 시야각 감소:
+픽셀 단위로 화면 광원을 제어하여 화면을 보는 각도가 커질수록 화면 내용을 빠르게 보기 어렵게 만듭니다. 이로 인해 다른 사람이 사용자의 개인 정보를 볼 가능성이 감소합니다.
+
+개인정보 보호 알림:
+측면 시야각 감소를 보완하기 위해, 이 시스템은 사용자가 아닌 다른 사람이 뒤쪽이나 좁은 각도에서 화면을 보고 있을 때 경고를 전송할 수 있습니다."</string>
+    <string name="peep_protection_v2_learn_more_understand_title">사생활 보호 디스플레이 정보</string>
+    <string name="peep_protection_v2_main_body">측면에서 화면이 잘 보이지 않도록 합니다. 또한 기기는 다른 사람이 사용자의 화면을 보고 있는지 계속 확인하며, 다른 사람의 시선이 감지되면 알려줍니다. (click)더 알아보기/(click)</string>
+    <string name="peep_protection_v2_main_desc">다른 사람이 화면을 엿보지 못하도록 보호</string>
+    <string name="peep_protection_v2_main_switch">사생활 보호 디스플레이</string>
+    <string name="peep_protection_v2_main_switch_desc">프라이버시 디스플레이로 타인 시선 감지</string>
+    <string name="peep_protection_v2_main_switch_desc_v2">선택한 시나리오에 따라 기기가 프라이버시 디스플레이를 켜도록 허용합니다.</string>
+    <string name="peep_protection_v2_main_switch_title_v2">사생활 보호 디스플레이</string>
+    <string name="peep_protection_v2_main_tile_label">사생활 보호 디스플레이</string>
+    <string name="peep_protection_v2_move_app_title_v2">%s을(를) 다음으로 이동:</string>
+    <string name="peep_protection_v2_move_app_to_category">%s을(를) 그룹으로 이동</string>
+    <string name="peep_protection_v2_notification_protection">알림 프라이버시 디스플레이</string>
+    <string name="peep_protection_v2_notification_protection_desc">선택한 앱에서 알림을 보내면 프라이버시 디스플레이가 활성화됩니다.</string>
+    <string name="peep_protection_v2_notification_protection_desc_v2">선택한 앱의 알림이 부분적 개인 정보 보호 기능이 적용된 상태로 표시됩니다.</string>
+    <string name="peep_protection_v2_notify_type_desc">타인의 시선이 감지되면 알려줍니다.</string>
+    <string name="peep_protection_v2_notify_type_title">개인정보 처리방침</string>
+    <string name="peep_protection_v2_page_detail_category_title">이 앱의 다음 페이지들은 프라이버시 디스플레이로 보호됩니다.</string>
+    <string name="peep_protection_v2_page_protection_desc">특정 페이지에서 프라이버시 디스플레이를 켭니다.</string>
+    <string name="peep_protection_v2_peep_detection_desc_v2">시선을 감지하여 알려 줍니다.</string>
+    <string name="peep_protection_v2_peep_island_action_dismiss_v2">무시</string>
+    <string name="peep_protection_v2_peep_island_subtitle_v2">다시 알리지 않기</string>
+    <string name="peep_protection_v2_privacy_statement">이 기능은 안면 인식 데이터를 사용하여 시선을 감지합니다. 모든 데이터는 기기에서 처리되며 공유되지 않습니다.</string>
+    <string name="peep_protection_v2_recommend_title">추천 앱</string>
+    <string name="peep_protection_v2_search_app">앱 프라이버시 디스플레이;앱용 프라이버시 디스플레이;선택한 앱</string>
+    <string name="peep_protection_v2_search_empty_hint">검색 결과는 여기에 표시됩니다.</string>
+    <string name="peep_protection_v2_search_global">전체 화면 프라이버시;전체 화면</string>
+    <string name="peep_protection_v2_search_hint">앱 검색</string>
+    <string name="peep_protection_v2_search_keywords_1">프라이버시 디스플레이</string>
+    <string name="peep_protection_v2_search_keywords_2">픽셀</string>
+    <string name="peep_protection_v2_search_keywords_3">시선</string>
+    <string name="peep_protection_v2_search_no_result">결과를 찾을 수 없음</string>
+    <string name="peep_protection_v2_search_notification">알림 프라이버시 디스플레이;알림용 프라이버시 디스플레이;앱 알림</string>
+    <string name="peep_protection_v2_search_notify_type">프라이버시 알림;시선 감지;프라이버시 보호;시선 감지 알림</string>
+    <string name="peep_protection_v2_search_page">페이지 프라이버시 디스플레이;페이지용 프라이버시 디스플레이</string>
+    <string name="peep_protection_v2_search_smart_enable">스마트 활성화;자동 프라이버시 디스플레이</string>
+    <string name="peep_protection_v2_select_apps">선택한 앱</string>
+    <string name="peep_protection_v2_select_apps_category_tip">(click)Xiaomi Hyper XiaoAi(/click)에서 프라이버시 디스플레이 앱 그룹을 만들고, 관리하고, 제거하고, 이름을 변경할 수 있습니다.</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">Xiaomi Hyper XiaoAi의 Pro 모드에서 개인 정보 표시 앱 범주를 생성, 관리, 제거하거나 이름을 변경할 수 있습니다</string>
+    <string name="peep_protection_v2_smart_enable">스마트 활성화</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_desc">Xiaomi Hyper XiaoAi에서 자주 방문하는 장소에 대한 프라이버시 디스플레이 규칙을 만들 수 있습니다. 지정한 위치에 도착하면 프라이버시 디스플레이가 자동으로 켜지거나 꺼집니다.</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_title">스마트 규칙 만들기</string>
+    <string name="peep_protection_v2_smart_enable_desc_v2">위치 기반 프라이버시 디스플레이 규칙을 만듭니다.</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint">아직 규칙이 없습니다. Xiaomi Hyper XiaoAi에서 위치 기반 스마트 활성화 규칙을 만드세요.</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">아직 규칙이 없습니다. (click)Xiaomi Hyper XiaoAi(click)에서 위치 기반 스마트 활성화 규칙을 만들 수 있습니다.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc">(click)Xiaomi Hyper XiaoAi(/click)에서 위치 기반 스마트 규칙을 설정할 수 있습니다. 예를 들어 지하철을 타면 전체 화면 프라이버시가 자동으로 켜지도록 설정할 수 있습니다. 지정한 위치에 도착하면 규칙에 따라 프라이버시 디스플레이가 켜집니다.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">Xiaomi Hyper XiaoAi의 Pro 모드에서 위치 기반 스마트 활성화 규칙을 설정할 수 있습니다. 예를 들어 지하철을 타면 전체 화면 프라이버시가 자동으로 켜지도록 설정할 수 있습니다. 지정한 위치에 도착하면 규칙에 따라 프라이버시 디스플레이가 켜집니다.</string>
+    <string name="peep_protection_v2_smart_enable_prompt">프라이버시 디스플레이 규칙을 만들어 주세요: 지하철과 카페에서 휴대전화를 자주 사용합니다. 이러한 상황에 대한 규칙을 만들고, 해당 위치에 도착하면 소셜 네트워크 및 금융 그룹에 대한 프라이버시 디스플레이가 자동으로 켜지도록 설정해 주세요.</string>
+    <string name="peep_protection_v2_smart_enable_prompt_copied">복사 성공</string>
+    <string name="peep_protection_v2_smart_enable_sio_unavailable">이 기능을 사용하려면 접근을 허용하세요.</string>
+    <string name="peep_protection_v2_smart_enable_switch_desc">상황을 파악해 프라이버시 디스플레이를 자동으로 켜거나 끕니다.</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip">스마트 규칙이 더 정확하게 실행되도록 Wi-Fi를 켜두세요. Wi-Fi가 꺼져 있으면 일부 장소의 인식이 지연되거나 인식되지 않을 수 있습니다.</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip_china">스마트 규칙이 더 정확하게 실행되도록 WLAN을 켜두세요. WLAN이 꺼져 있으면 일부 장소의 인식이 지연되거나 인식되지 않을 수 있습니다.</string>
+    <string name="peep_protection_v2_smart_page_active_list">다음 앱의 특정 페이지가 보호됩니다.</string>
+    <string name="peep_protection_v2_smart_page_header_title">민감한 특정 페이지를 열면 자동으로 켜짐</string>
+    <string name="peep_protection_v2_smart_page_intro">일부 앱을 추가하는 것을 잊더라도 비밀번호 입력, 결제, 송금, 메시지와 같은 민감한 화면을 열면 프라이버시 디스플레이가 자동으로 켜집니다.</string>
+    <string name="peep_protection_v2_smart_page_switch_title">페이지 프라이버시 디스플레이</string>
+    <string name="peep_protection_v2_status_off">꺼짐</string>
+    <string name="peep_protection_v2_status_on">켜짐</string>
+    <string name="peep_protection_v2_strategy_action_disable_category">%s의 프라이버시 디스플레이 끄기</string>
+    <string name="peep_protection_v2_strategy_action_disable_deep">고급 프라이버시 보호 끄기</string>
+    <string name="peep_protection_v2_strategy_action_disable_default">프라이버시 디스플레이 끄기</string>
+    <string name="peep_protection_v2_strategy_action_disable_global">전체 화면 프라이버시 끄기</string>
+    <string name="peep_protection_v2_strategy_action_disable_target">%s의 프라이버시 디스플레이 끄기</string>
+    <string name="peep_protection_v2_strategy_action_enable_category">%s의 프라이버시 디스플레이 켜기</string>
+    <string name="peep_protection_v2_strategy_action_enable_deep">고급 프라이버시 보호 켜기</string>
+    <string name="peep_protection_v2_strategy_action_enable_default">프라이버시 디스플레이 켜기</string>
+    <string name="peep_protection_v2_strategy_action_enable_global">전체 화면 프라이버시 켜기</string>
+    <string name="peep_protection_v2_strategy_action_enable_target">%s의 프라이버시 디스플레이 켜기</string>
+    <string name="peep_protection_v2_strategy_action_fallback">Peep protection</string>
+    <string name="peep_protection_v2_strategy_action_separator_leave">; on leave</string>
+    <string name="peep_protection_v2_strategy_arrive_condition">%1$s에 도착할 때</string>
+    <string name="peep_protection_v2_strategy_auto_desc">Arrive at %1$s, auto %2$s</string>
+    <string name="peep_protection_v2_strategy_auto_title">%1$s: %2$s</string>
+    <string name="peep_protection_v2_strategy_delete">삭제</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_msg">이 규칙을 영구적으로 삭제하시겠습니까?</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_title">이 규칙을 삭제하시겠습니까?</string>
+    <string name="peep_protection_v2_strategy_detail_title">스마트 규칙</string>
+    <string name="peep_protection_v2_strategy_edit_desc_hint">설명</string>
+    <string name="peep_protection_v2_strategy_edit_main_title_hint">제목</string>
+    <string name="peep_protection_v2_strategy_edit_title">편집</string>
+    <string name="peep_protection_v2_strategy_edit_title_hint">Enter new strategy name</string>
+    <string name="peep_protection_v2_strategy_edit_title_v2">제목 편집</string>
+    <string name="peep_protection_v2_strategy_go_miclaw">규칙 조정</string>
+    <string name="peep_protection_v2_strategy_leave_condition">%1$s에서 떠날 때</string>
+    <string name="peep_protection_v2_strategy_notify_on_trigger">프라이버시 디스플레이가 켜지면 알리기</string>
+    <string name="peep_protection_v2_strategy_prompt_copied">복사 성공</string>
+    <string name="peep_protection_v2_strategy_prompt_template">프라이버시 디스플레이 규칙 \"%1$s“ 수정 후 설정을 조정해 주세요.</string>
+    <string name="peep_protection_v2_strategy_unknown_location">Unknown location</string>
+    <string name="peep_protection_v2_thermal_paused_toast">기기가 식으면 프라이버시 알림이 다시 작동합니다.</string>
+    <string name="peep_protection_v2_tile_label">전체 화면 프라이버시</string>
+    <string name="peep_protection_v2_title">사생활 보호 디스플레이</string>
     <string name="per_month_pkg_traffic_settings">데이터 한도 설정</string>
     <string name="percent_formatted_text">%s%%</string>
     <string name="percent_text_formatted">%s%%</string>
@@ -4279,6 +4606,7 @@ SMS 전송"</string>
     <string name="permgroupdesc_storage">기기의 사진 또는 파일 접근</string>
     <string name="permission_action_accept">수락</string>
     <string name="permission_action_ai_prompt">자동으로 결정</string>
+    <string name="permission_action_allow_for_compatibility">로컬 네트워크만</string>
     <string name="permission_action_always">항상 허용</string>
     <string name="permission_action_desc">개인 정보 보호를 위해 권한을 부여하되 빈 메시지 반환</string>
     <string name="permission_action_desc_always">해당 권한은 언제나 사용 가능</string>
@@ -4292,8 +4620,14 @@ SMS 전송"</string>
     <string name="permission_action_virtual">빈 메시지 반환</string>
     <string name="permission_action_virtual_common_summary">앱에 필요한 권한을 부여하지만 개인 정보 보호를 위해 빈 메시지로 반환</string>
     <string name="permission_action_virtual_phone_summary">앱에 관련 권한을 부여하되 SIM 카드의 실제 전화번호에 접근하는 것은 허용하지 않기</string>
+    <string name="permission_allow_for_compatibility_note">앱이 동일한 로컬 네트워크의 기기와만 통신할 수 있도록 허용합니다. 블루투스 및 기타 연결 수단은 지원되지 않습니다.</string>
+    <string name="permission_changed_retry">권한이 변경되었습니다. 앱을 다시 시작하세요.</string>
     <string name="permission_close_permission_control_dialog_msg">권한 관리자가 꺼졌을 경우, 앱은 귀하의 연락처 읽기, 통화 기록 보기, 시스템 설정 변경 또는 카메라나 다른 기기 리소스에 접근하기 전에 권한을 요청하지 않습니다.</string>
     <string name="permission_close_permission_control_dialog_title">끄시겠습니까?</string>
+    <string name="permission_compatibility_dialog_message">이 앱은 이전 버전의 Android를 기준으로 개발되었습니다. 권한을 거부하면 일부 기능이 제대로 작동하지 않을 수 있습니다.</string>
+    <string name="permission_compatibility_dialog_negative_btn">취소</string>
+    <string name="permission_compatibility_dialog_positive_btn">거부</string>
+    <string name="permission_compatibility_dialog_title">이 앱은 정상적으로 작동하지 않을 수 있습니다.</string>
     <string name="permission_exception_title">앱 연결 제한</string>
     <string name="permission_group_audio">이 권한을 통해 앱이 이 기기에 저장된 음악 및 기타 오디오 파일에 접근할 수 있습니다.</string>
     <string name="permission_group_calendar">이 권한을 통해 앱이 캘린더 일정에 접근, 추가, 삭제 및 편집할 수 있습니다.</string>
@@ -4401,6 +4735,7 @@ SMS 전송"</string>
     <string name="permission_with_SMS_and_MMS">SMS와 MMS 관련 권한</string>
     <string name="permission_with_call_and_contact">전화 통화, 연락처 정보, 통화 기록과 연관된 권한</string>
     <string name="permission_with_read_write_clipboard">앱의 클립보드 항목 접근 및 항목 저장 허용</string>
+    <string name="permisson_reject_notice_toast_text2">%1$s의 권한이 거부되었습니다.</string>
     <string name="permit_running_network">백그라운드 데이터</string>
     <string name="person_have_hongbao">%1$s 님이 빨간 봉투를 보냈습니다!</string>
     <string name="person_hotpot">모바일 핫스팟</string>
@@ -4469,6 +4804,7 @@ SMS 전송"</string>
     <string name="power_center_battery_detail">세부사항</string>
     <string name="power_center_battery_duration">남은 시간</string>
     <string name="power_center_battery_duration_format">%1$s %2$s</string>
+    <string name="power_center_battery_duration_new">남은 화면 시간</string>
     <string name="power_center_battery_duration_screen_on">남은 화면 시간</string>
     <string name="power_center_battery_hardware">하드웨어 %s</string>
     <string name="power_center_battery_health_poor_tip">배터리의 건강 상태가 좋지 않은 것 같습니다. 공식 서비스 센터에서 배터리를 검사하세요.</string>
@@ -4610,6 +4946,7 @@ SMS 전송"</string>
     <string name="power_idle">휴대폰 유휴상태</string>
     <string name="power_main_battery_last_day_hour">%1$s일 %2$s시간 남음</string>
     <string name="power_main_battery_last_hour_minute">%1$s시간 %2$s분 남음</string>
+    <string name="power_main_battery_last_hour_minute_new">예상 화면 시간: %1$s %2$s</string>
     <string name="power_main_battery_last_hour_minute_screen_on">남은 화면 시간 %1$s %2$s</string>
     <string name="power_main_open_last_hour_minute_screen_on">화면 시간을 %1$s %2$s 추가하기 위해 켜기</string>
     <string name="power_ntc_dialog_btn_finish">알겠습니다</string>
@@ -4759,6 +5096,12 @@ SMS 전송"</string>
     <string name="pp_app_warning_permission_tips_detail">앱이 위치, 카메라 또는 마이크 권한을 요청 시 알림 표시</string>
     <string name="pp_clipboard">클립보드</string>
     <string name="pp_none_read_clipboard_item">알리지 않음</string>
+    <string name="pp_privacy_call_entry">비공개 통화</string>
+    <string name="pp_privacy_call_entry_demo_desc">일반 통화 중에 소리 누출을 줄여 통화 프라이버시를 보호합니다</string>
+    <string name="pp_privacy_call_entry_switch_desc">일반 통화 중에 작동합니다. 이 기능은 통화 내용이나 데이터를 수집하지 않습니다.</string>
+    <string name="pp_privacy_call_protect">통화 보호</string>
+    <string name="pp_privacy_call_switch_off">비공개 통화 꺼짐</string>
+    <string name="pp_privacy_call_switch_on">비공개 통화가 켜져 있습니다.</string>
     <string name="pp_privacy_lab_clipboard_summary">앱의 클립보드 접근 여부를 기기에서 결정하고 접근 시 알림을 수신할 수 있도록 허용</string>
     <string name="pp_privacy_lab_operator_get_number_summary">로그인을 위해 사용자의 전화번호에 접근 시 앱이 권한을 요청하도록 요구</string>
     <string name="pp_privacy_protection">보호</string>
@@ -4893,6 +5236,7 @@ SMS 전송"</string>
     <string name="privacy_description_camera">%1s이(가) 백그라운드에서 마이크를 사용 중입니다. 아래의 스위치를 조작하여 활동을 제한하실 수 있습니다.</string>
     <string name="privacy_description_camera_mic">%1s이(가) 백그라운드에서 카메라 및 마이크를 사용 중입니다. 아래의 스위치를 조작하여 활동을 제한하실 수 있습니다.</string>
     <string name="privacy_description_mic">%1s이(가) 백그라운드에서 카메라를 사용 중입니다. 아래의 스위치를 조작하여 활동을 제한하실 수 있습니다.</string>
+    <string name="privacy_device_unique_feature">기기 전용 기능</string>
     <string name="privacy_dialog_call_item_1">기기 정보 접근</string>
     <string name="privacy_dialog_call_item_2">통화 발신</string>
     <string name="privacy_dialog_call_item_3">기기 상태 접근</string>
@@ -4942,6 +5286,10 @@ SMS 전송"</string>
     <string name="privacy_flares_recent_detail_more">이 앱이 민감한 권한을 사용했습니다</string>
     <string name="privacy_global_guide_permission_guide_text">앱이 오디오를 녹음하거나 카메라를 사용할 시 상태 바에서 경고를 수신하게 됩니다. 어떤 앱의 활동인지 알아보시려면, 경고를 탭하세요.</string>
     <string name="privacy_guide_permission_guide_text">앱이 위치에 접근하거나 오디오를 녹음하거나 사진 촬영 시 상태 바에서 알림을 수신할 수 있습니다.</string>
+    <string name="privacy_hide_app_notify_auto_close_desc">이 기능은 숨겨진 앱이 알림을 보내지 못하게 합니다. 알림을 받으려면 \"알림 숨기기\"를 끄거나 앱 숨김을 해제하세요.</string>
+    <string name="privacy_hide_app_notify_auto_close_title">알림 끄기</string>
+    <string name="privacy_hide_app_notify_auto_revoke_summary">숨겨진 앱의 알림을 자동으로 끄기</string>
+    <string name="privacy_hide_app_notify_dialog_confirm">알겠습니다</string>
     <string name="privacy_hide_other_permissions">기타 권한 숨기기</string>
     <string name="privacy_hybrid_password_long">최대 %d자리 문자를 입력하세요</string>
     <string name="privacy_hybrid_password_too_short">최소 %d자리 문자를 입력하세요</string>
@@ -5106,6 +5454,10 @@ SMS 전송"</string>
     <string name="privacy_screen_share_notification_title">화면 콘텐츠 캐스팅</string>
     <string name="privacy_screen_share_protect_tip">보호됨</string>
     <string name="privacy_screen_share_tip">캐스팅</string>
+    <string name="privacy_screen_share_v2_land_subtitle">“%s“이(가) 화면 콘텐츠에 접근하고 있습니다.</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">화면 콘텐츠 보호됨</string>
+    <string name="privacy_screen_share_v2_notification_title">화면 콘텐츠 캐스팅</string>
+    <string name="privacy_screen_share_v2_small_island_title">화면 공유</string>
     <string name="privacy_search_key_1">개인 정보 보호</string>
     <string name="privacy_search_key_10">기기 ID</string>
     <string name="privacy_search_key_2">네트워크 인터셉션</string>
@@ -5231,6 +5583,7 @@ SMS 전송"</string>
     <string name="repeat_type">반복</string>
     <string name="repeated_marked_number_summary">%d분 이내에 신고된 동일한 번호의 두 번째 전화를 차단하지 않음</string>
     <string name="repeated_marked_number_title">신고된 번호로부터 반복해서 걸려 오는 통화를 차단하지 않습니다.</string>
+    <string name="repeated_stranger_number_summary">모르는 번호에서 %d분 이내에 다시 걸려 온 전화는 차단하지 않음</string>
     <string name="repeated_unknown_number_summary">모르는 번호로 %d분 이내에 다시 걸려 온 전화는 차단하지 않음</string>
     <string name="replace_dns">자동으로 DNS 교체</string>
     <string name="report">신고</string>
@@ -5316,10 +5669,12 @@ SMS 전송"</string>
     <string name="safe_result_item_info_system_version">시스템이 최신입니다</string>
     <string name="safepay_alert_dialog_button_continue">계속</string>
     <string name="safepay_alert_dialog_button_fix">더 알아보기</string>
+    <string name="safety">보안</string>
     <string name="saturday">토요일</string>
     <string name="saturday_short">토</string>
     <string name="saturday_shortest">토</string>
     <string name="save_mode_btn_ok">알겠습니다</string>
+    <string name="save_privacy_pwd_fail_toast">저장할 수 없습니다. 다시 시도하세요.</string>
     <string name="sc_allow_network_dialog_message">보안 네트워크 연결 및 위치 접근을 제한하셨습니다. 이 기능 사용을 위해 보안에 필요한 권한을 부여하세요.</string>
     <string name="sc_allow_network_dialog_tiltle">이 기능을 사용할 수 없습니다.</string>
     <string name="sc_system_risk_fix_info_xspace">보조 공간에서는 진행할 수 없습니다. 기본 공간에서 시도하세요.</string>
@@ -5330,6 +5685,11 @@ SMS 전송"</string>
     <string name="scan_status_risk">위험</string>
     <string name="scan_status_safe">보안</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">사기로부터 보호</string>
+    <string name="screen_share_search_keyword_1">공유 화면</string>
+    <string name="screen_share_search_keyword_2">화면 공유</string>
+    <string name="screen_share_search_title">화면 공유 보호</string>
+    <string name="screen_share_warning_positive_button">중지</string>
     <string name="screenrecord_not_find">화면 녹화기의 최신 버전을 설치하시고 다시 시도해 보세요.</string>
     <string name="sd_eject">SD 카드 분리</string>
     <string name="sd_eject_summary">안전한 제거를 위해 SD 카드 분리</string>
@@ -5716,13 +6076,17 @@ SMS 전송"</string>
     <string name="st_message_phone_AntiSpam">통화 차단</string>
     <string name="st_message_phonepass">통화 허용</string>
     <string name="st_msg_keyword_black">키워드 차단 목록</string>
+    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
     <string name="st_msg_keyword_group">키워드</string>
     <string name="st_msg_keyword_white">키워드 예외 항목</string>
+    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
     <string name="st_msg_other_group">기타</string>
     <string name="st_msg_settings">SMS 차단 목록</string>
     <string name="st_msg_stranger_group">모르는 사람의 메시지 차단</string>
     <string name="st_settings_name">차단 목록 설정</string>
     <string name="st_share_settings">SIM %d 설정 사용</string>
+    <string name="st_show_num_keyword_v2">{count, plural, =0 {키워드 0개 } other {키워드 #개 } }</string>
+    <string name="st_show_num_number_v2">{count, plural, =0 {번호 0개 } other {번호 #개 } }</string>
     <string name="st_smg_intercept_all">모든 메시지 차단</string>
     <string name="st_smg_intercept_confirm_dialog_summary_all">예외 목록에 없는 모든 번호나 지역의 SMS 및 MMS가 차단됩니다. 지금 차단하시겠습니까?</string>
     <string name="st_smg_intercept_confirm_dialog_summary_stranger">예외 목록이나 연락처에 없는 모든 번호나 지역의 SMS 및 MMS가 차단됩니다. 지금 차단하시겠습니까?</string>
@@ -5796,6 +6160,7 @@ SMS 전송"</string>
     <string name="status_bar_network_flow_purchase">"   구매 >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   데이터 플랜 설정 >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">차단</string>
     <string name="still_retain_btn">유지</string>
     <string name="stop_milink_connect">캐스팅 중지됨</string>
     <string name="storage_activity_title">저장 공간</string>
@@ -5906,7 +6271,7 @@ SMS 전송"</string>
     <string name="storage_system_log_tip">시스템 로그는 필요에 따라 자동으로 삭제될 것입니다</string>
     <string name="storage_system_memory_expansion">메모리 확장</string>
     <string name="storage_system_memory_expansion_tip">저장소를 점유하여 RAM 확장</string>
-    <string name="storage_system_other_tip">시스템 정상 작동에 필요한 데이터 (파일 크기는 시간 경과에 따라 변경될 수 있음)</string>
+    <string name="storage_system_other_tip">시스템 정상 작동에 필요한 데이터(파일 크기는 시간 경과에 따라 변경될 수 있음)</string>
     <string name="storage_system_other_tip_new">시스템 운영 및 업그레이드에 필요한 저장 공간을 포함합니다. 이 파티션의 크기는 시스템 상태에 따라 변동됩니다.</string>
     <string name="storage_ufs_msg">UFS 스토리지 확장 기술 및 스토리지 최적화 알고리즘을 사용하여 이 기기에 최대 %1$s의 스토리지를 추가하실 수 있습니다.</string>
     <string name="storage_ufs_tip">추가 스토리지</string>
@@ -5992,6 +6357,7 @@ SMS 전송"</string>
     <string name="superpower_progress_low_temp_content">저온 내구성 모드 켜는 중…</string>
     <string name="superpower_progress_switch_home">다크 테마로 전환</string>
     <string name="superpower_progress_title">남은 시간</string>
+    <string name="superpower_progress_title_new">남은 화면 시간</string>
     <string name="superpower_progress_turndown_brightness">화면 밝기 감소</string>
     <string name="superpower_progress_turnoff_fan">냉각 팬 끄기</string>
     <string name="superpower_progress_turnoff_items">전력 소모 활동 제한</string>
@@ -6035,9 +6401,10 @@ SMS 전송"</string>
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>계속하시기 전, 저희의 &lt;a href=\"%1$s\">이용자 약관&lt;/a>을 읽고 동의하세요.</Data></string>
     <string name="system_permission_declare_no_say_no">요구된 권한을 부여하지 않으셨거나 데이터 수집을 허용하지 않으신 경우, 해당 앱이 정상적으로 작동할 수 없습니다.</string>
     <string name="system_permission_declare_no_say_no_analytics">해당 권한을 부여하고 싶지 않으신 경우, 설정 > 추가 설정 > 개인 정보 보호 > 사용자 환경 개선 프로그램에서 해제하실 수 있습니다.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">요구된 권한을 부여하지 않으셨거나 데이터 수집을 허용하지 않으신 경우, 해당 앱의 일부 요소가 작동하지 않을 수 있습니다.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">필수 권한을 허용하지 않거나 데이터 수집 및 사용에 동의하지 않으면 관련 기능을 사용할 수 없습니다.</string>
     <string name="system_permission_declare_optional">앱 사용 중에 추가 서비스를 제공하기 위해, 다음의 권한이 요구됩니다: %s. 언제든지 설정에서 권한 설정을 조정하실 수 있습니다.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>앱이 더 나은 사용자 경험을 제공할 수 있도록, 다음의 추가적인 권한이 요구됩니다: %1s. 당사가 귀하의 개인 정보를 처리하는 방법에 대한 자세한 내용은 &lt;a href=\"test\">여기&lt;/a>를 탭하세요. 언제든지 설정에서 권한을 관리하실 수 있습니다.</Data></string>
+    <string name="system_permission_declare_perm_separator">", "</string>
     <string name="system_permission_declare_privacy_declare">해당 앱은 정상 작동을 위해 인터넷 연결 및 다음의 권한이 요구됩니다:</string>
     <string name="system_permission_declare_privacy_no_network">해당 앱은 정상 작동을 위해 다음의 권한이 요구됩니다:</string>
     <string name="system_permission_declare_privacy_no_permission">해당 앱은 정상 작동을 위해 인터넷 연결 및 개인 데이터 수집이 요구됩니다.</string>
@@ -6198,8 +6565,8 @@ SMS 전송"</string>
     <string name="title_auto_update">자동으로 업데이트</string>
     <string name="title_background_connection">백그라운드에서 %s 사용 불가</string>
     <string name="title_bill_balance_inquiry">잔액 (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">연락처에서 걸려온 부재중 전화</string>
-    <string name="title_block_calls_from_strangers">중요한 전화 누락</string>
+    <string name="title_block_calls_from_cantacts">연락처에 있는 사람의 전화를 놓치셨나요?</string>
+    <string name="title_block_calls_from_strangers">중요한 전화를 놓치셨나요?</string>
     <string name="title_chain_start">연속 실행 제한</string>
     <string name="title_cleaner_cloudscan">클라우드 쓰레기 스캔</string>
     <string name="title_cloud_account">Xiaomi 계정</string>
@@ -6253,6 +6620,8 @@ SMS 전송"</string>
     <string name="title_realname_verify">ID 인증</string>
     <string name="title_reply">댓글</string>
     <string name="title_restrict_data_usage">%s 인터넷 연결 실패</string>
+    <string name="title_risky_app_scan_no">위험 앱 감지 꺼짐</string>
+    <string name="title_risky_app_scan_yes">위험 앱 감지 켜짐</string>
     <string name="title_safe_mode">보안 모드 켜기</string>
     <string name="title_show_notification">알림 바 위젯</string>
     <string name="title_system_auto_download">업데이트가 자동으로 다운로드됩니다.</string>
@@ -6293,6 +6662,14 @@ SMS 전송"</string>
     <string name="toast_update_success">업데이트 성공</string>
     <string name="today">오늘</string>
     <string name="tomorrow">내일</string>
+    <string name="toolbox_invocation_guide_cancel">지금 안 함</string>
+    <string name="toolbox_invocation_guide_caption">스와이프 후 길게 눌러 열기</string>
+    <string name="toolbox_invocation_guide_caption_upgrade">화면 어디서든 열 수 있습니다.</string>
+    <string name="toolbox_invocation_guide_confirm">사용</string>
+    <string name="toolbox_invocation_guide_confirm_upgrade">지금 시도</string>
+    <string name="toolbox_invocation_guide_message">화면 가장자리에서 안쪽으로 스와이프한 후 더 누르고 있다가 손을 떼면 열립니다.</string>
+    <string name="toolbox_invocation_guide_title">사이드바 사용</string>
+    <string name="toolbox_invocation_guide_title_upgrade">사이드바를 여는 새로운 방법</string>
     <string name="top_game">인기 게임</string>
     <string name="top_load_fail_detail">불러올 수 없습니다. 다시 시도하려면 탭하세요</string>
     <string name="top_no_network_detial">불러올 수 없습니다. 네트워크 연결 상태를 확인하신 후 다시 시도하세요.</string>
@@ -6387,6 +6764,45 @@ SMS 전송"</string>
     <string name="txv_lucky_money_group_text">그룹 알림만</string>
     <string name="ufs_size_suffix">%1$s+%2$s</string>
     <string name="unable_connect_internet">인터넷 연결 없음</string>
+    <string name="uni_auth_security_delay_tips">보안 대기 시간이 필요합니다.</string>
+    <string name="uniauth_close_bt_text">끄기</string>
+    <string name="uniauth_close_lock_sim_bind_local_phone_fp_title">지문을 인증하여 USIM의 잠금을 해제하고 이 기기와 연결</string>
+    <string name="uniauth_close_lock_sim_fp_title">지문을 인증하여 USIM 잠금 해제</string>
+    <string name="uniauth_close_lost_device_prot_bt">분실 기기 보호 끄기</string>
+    <string name="uniauth_close_lost_device_prot_tips_bt">알겠습니다.</string>
+    <string name="uniauth_close_lost_device_prot_tips_message">Xiaomi 계정을 사용하여 분실 기기 보호를 해제했습니다. 이 기기 기능은 더 이상 추가로 보호되지 않습니다.</string>
+    <string name="uniauth_close_lost_device_prot_tips_title">분실 기기 보호 꺼짐</string>
+    <string name="uniauth_common_fp_title">지문을 인증하세요.</string>
+    <string name="uniauth_common_tips">인증할 수 없습니다. 다시 시도하세요.</string>
+    <string name="uniauth_fp_disabled_sub_title">시도 횟수가 한도를 초과했습니다.</string>
+    <string name="uniauth_fp_disabled_title">지문을 사용할 수 없음</string>
+    <string name="uniauth_fp_enter_lockscreen_text">화면 잠금 사용</string>
+    <string name="uniauth_fp_recover_by_lockscreen_bt_text">지문을 통한 접근 권한을 복구</string>
+    <string name="uniauth_fp_temp_disabled_sub_title">시도 횟수가 한도를 초과하여 지금은 지문을 사용할 수 없습니다.</string>
+    <string name="uniauth_lockscreen_default_title">화면 잠금을 인증하세요.</string>
+    <string name="uniauth_lockscreen_disabled_sub_title">시도 횟수가 한도를 초과하여 화면 잠금을 사용할 수 없음</string>
+    <string name="uniauth_lockscreen_mix_do_next">다음</string>
+    <string name="uniauth_lockscreen_mix_hint">여기에 입력</string>
+    <string name="uniauth_lockscreen_sub_title">지문을 통한 접근 권한을 복구하기 위해</string>
+    <string name="uniauth_logout_xiaomi_acount_fp_title">지문을 인증하여 Xiaomi 계정에서 로그아웃</string>
+    <string name="uniauth_lp_fp_sub_title">분실 기기 보호 기능이 켜져 있습니다. 지문을 인증하여 기기 소유자가 이 작업을 수행한 것이 맞는지 확인해 주세요.</string>
+    <string name="uniauth_lp_lockscreen_and_fp_sub_title">이중 인증을 사용하여 신원 확인</string>
+    <string name="uniauth_no_acount_login_tips">먼저 Xiaomi 계정에 로그인하세요.</string>
+    <string name="uniauth_open_lock_sim_bind_local_phone_fp_title">지문을 인증하여 USIM을 잠그고 이 기기와 연결</string>
+    <string name="uniauth_open_lock_sim_fp_title">지문을 인증하여 USIM 잠금</string>
+    <string name="uniauth_reset_lockscreen_default_title">이전 화면 잠금 인증</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_sub_title">이중 인증을 사용하여 새 화면 잠금 설정</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_title">지문을 인증하세요.</string>
+    <string name="uniauth_reset_lockscreen_title">이전 화면 잠금 인증</string>
+    <string name="uniauth_resetlockscreen_error_sub_title">초기화할 수 없음</string>
+    <string name="uniauth_resetlockscreen_error_title">화면 잠금 인증 시도 횟수가 한도를 초과했습니다.</string>
+    <string name="uniauth_security_delay_end_notification_msg">다음 %1$d 시간 동안 Xiaomi 계정을 인증하여 분실 기기 보호를 해제할 수 있습니다.</string>
+    <string name="uniauth_security_delay_end_notification_title">보안 대기 시간 종료</string>
+    <string name="uniauth_security_delay_msg">%1$d시간 후에는 Xiaomi 계정을 인증하여 분실 기기 보호를 해제할 수 있습니다. 보안 대기 시간이 종료되면 알림을 받습니다.</string>
+    <string name="uniauth_security_delay_next_more">더 알아보기</string>
+    <string name="uniauth_temp_disabled_title">나중에 다시 시도해 주세요.</string>
+    <string name="uniauth_uqery_pin_fp_title">지문을 인증하여 PIN 보기</string>
+    <string name="uniauth_xiaomi_acount_title">Xiaomi 계정 인증</string>
     <string name="uninstall_app_dialog_msg">설치 제거하시면 모든 앱 데이터가 삭제됩니다.</string>
     <string name="uninstall_app_dialog_title">지금 제거하시겠습니까?</string>
     <string name="uninstall_app_done">설치 제거 성공</string>
@@ -6448,7 +6864,9 @@ SMS 전송"</string>
     <string name="usbsharenet_pc_exception_summary">공유된 USB 연결을 사용하여 인터넷에 연결할 수 없습니다. 컴퓨터의 인터넷 연결을 확인하세요.</string>
     <string name="use_for_open_applock">앱 잠금을 켜기 위해</string>
     <string name="use_immediately">사용</string>
+    <string name="use_lock_screen_password_type">잠금화면 비밀번호</string>
     <string name="use_other_ime_warn">서드파티 키보드는 비밀번호 및 기타 민감한 정보를 포함하는 사용자가 입력하는 모든 유형의 정보를 기록할 수 있습니다.</string>
+    <string name="use_private_password_type">개인 정보 보호 비밀번호</string>
     <string name="user_define_title">규칙 추가</string>
     <string name="user_guide">위로 당겨올려 더 많은 새로운 게임 확인</string>
     <string name="v7_preference_off">사용 안함</string>
@@ -6465,7 +6883,7 @@ SMS 전송"</string>
     <string name="vb_immerse_voice">이머시브 사운드</string>
     <string name="vb_movie_mode">극장 모드</string>
     <string name="vb_movie_power_hint">극장 모드는 몰입감 있는 시각 경험을 제공합니다. 기기가 과열되고 전력 소모가 증가할 것입니다.</string>
-    <string name="vb_movie_power_hint_new">"놀라운 시청 경험을 위해 효과를 조정하십시오.
+    <string name="vb_movie_power_hint_new">"놀라운 시청 경험을 위해 효과를 조정하세요.
 이 기능은 전력 소모를 증가시킵니다."</string>
     <string name="vb_movie_subtitle">고성능이 요구됨</string>
     <string name="vb_mv_style_close_toast">스타일 꺼짐</string>
@@ -6537,6 +6955,7 @@ SMS 전송"</string>
     <string name="vb_video_super_division_desc">"이 기능을 사용하면 전력 소비량이 증가합니다.
 해당 기능은 모션 스무싱을 지원하지 않습니다.
 한 기능을 켜면 다른 기능은 꺼집니다."</string>
+    <string name="vb_video_super_division_subdesc">해상도가 720P 이하일 경우 자동으로 업스케일합니다.</string>
     <string name="vb_video_super_division_tips">"해상도가 선명하지 않으십니까?
 해상도 업스케일링을 시도해보세요!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">애니메이션 강화 꺼짐</string>
@@ -6566,6 +6985,12 @@ SMS 전송"</string>
     <string name="view_package_info">요금제 세부사항 보기</string>
     <string name="view_traffic_detail">세부사항 보기</string>
     <string name="view_traffic_details">데이터 사용량 통계 보기</string>
+    <string name="virtual_reject_notice_content">개인 정보 보호를 위해 앱에 빈 응답이 전송됨</string>
+    <string name="virtual_reject_notice_title_calendar">%1$s의 캘린더 접근</string>
+    <string name="virtual_reject_notice_title_calllog">%1$s의 통화 기록 접근</string>
+    <string name="virtual_reject_notice_title_contacts">%1$s의 연락처 접근</string>
+    <string name="virtual_reject_notice_title_phonestate">%1$s의 기기 정보 접근</string>
+    <string name="virtual_reject_notice_title_sms">%1$s의 메시지 접근</string>
     <string name="virus_app_delete_installed">설치 제거</string>
     <string name="virus_app_delete_uninstalled">삭제</string>
     <string name="virus_app_ignore">무시</string>
@@ -6672,6 +7097,7 @@ SMS 전송"</string>
     <string name="warningcenter_disaster_level_4">레벨 Ⅳ(경미함)</string>
     <string name="warningcenter_disaster_level_all">모든 수준</string>
     <string name="warningcenter_disaster_level_info">경보 수준</string>
+    <string name="warningcenter_disaster_level_separator">", "</string>
     <string name="warningcenter_disaster_level_title">경보 수준</string>
     <string name="warningcenter_disaster_list_title">재해 경보</string>
     <string name="warningcenter_disaster_local">위치 찾기</string>

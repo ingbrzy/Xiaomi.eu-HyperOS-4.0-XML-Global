@@ -290,7 +290,7 @@
         <item>Optimisé pour la qualité audio (990kbps/909kbps)</item>
         <item>Équilibre audio et qualité de connexion (660kbps / 606kbps)</item>
         <item>Optimisé pour la qualité de connexion (330kbps/303kbps)</item>
-        <item>Meilleur effet (débit binaire adaptatif)</item>
+        <item>Meilleur effort (débit binaire adaptatif)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
         <item>Latence courte</item>
@@ -311,9 +311,9 @@
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
         <item>Optimisé pour faible latence (256 kbps)</item>
-        <item>Optimisé pour la qualité de la connexion (400 kbps)</item>
-        <item>Qualité audio et de connexion équilibrée (500/560 kbps)</item>
-        <item>Optimisé pour la qualité audio (900 kbps)</item>
+        <item>Optimisé pour la qualité de connexion (400kbps)</item>
+        <item>Qualité de connexion et qualité audio équilibré (500/560kbps)</item>
+        <item>Optimisé pour la qualité audio (900kbps)</item>
         <item>Meilleur effort (débit binaire automatique)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
@@ -345,7 +345,7 @@
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Activer les codecs facultatifs</item>
+        <item>Autoriser les codecs facultatifs</item>
         <item>Désactiver les codecs facultatifs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
@@ -364,11 +364,17 @@
         <item>Activer les codecs facultatifs</item>
         <item>Désactiver les codecs facultatifs</item>
     </string-array>
+    <string-array name="bluetooth_audio_active_device_array">
+        <item></item>
+        <item>Utilisation (médias et appels)</item>
+        <item>En utilisation (médias)</item>
+        <item>En utilisation (appels)</item>
+    </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
         <item>" | Activé"</item>
         <item>" | Activé (média)"</item>
-        <item>" | Activé (téléphone)"</item>
+        <item>" | Activé (Appel audio)"</item>
     </string-array>
     <string-array name="bluetooth_audio_routing_titles">
         <item>"Utiliser le paramètre par défaut de l'appli"</item>
@@ -424,7 +430,7 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Désactivé</item>
-        <item>Activé et filtré</item>
+        <item>Filtre activé</item>
         <item>Activé</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_filters_entries">
@@ -559,7 +565,7 @@
     </string-array>
     <string-array name="common_password_business_names">
         <item>"Verrouillage d'écran"</item>
-        <item>Mot de passe de protection de la vie privée</item>
+        <item>Mot de passe de confidentialité</item>
         <item>Mode enfant</item>
         <item>Gestionnaire de fichiers</item>
         <item>"Verrouillage d'application"</item>

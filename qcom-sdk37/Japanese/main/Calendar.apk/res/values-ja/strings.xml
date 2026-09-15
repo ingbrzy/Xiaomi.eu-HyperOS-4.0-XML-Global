@@ -20,13 +20,11 @@
     <string name="abc_searchview_description_search">検索</string>
     <string name="abc_searchview_description_submit">検索キーワードを送信</string>
     <string name="abc_searchview_description_voice">音声検索</string>
-    <string name="abc_shareactionprovider_share_with">共有</string>
-    <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="accessbility_suggestion_dropdown_closed">候補はありません</string>
     <string name="accessbility_suggestion_dropdown_opened">選択できる連絡先候補の数</string>
     <string name="accessibility_add_attendee">参加者を追加する</string>
-    <string name="accessibility_alarm_remind">アラームリマインダー</string>
+    <string name="accessibility_alarm_remind">アラーム通知</string>
     <string name="accessibility_all_day">終日のイベント</string>
     <string name="accessibility_change_view_tab">選択済み: %s</string>
     <string name="accessibility_day_page_selected">現在、日表示で%1$d年%2$s月%3$d日です</string>
@@ -76,8 +74,20 @@
     <string name="agenda_not_today_empty_hint">まだイベントはありません。タップして作成してください。</string>
     <string name="agenda_tomorrow">明日、%1$s</string>
     <string name="agenda_view">イベント</string>
-    <string name="ai_introduce_card_sub_title">AI が旅行、チケット、その他のイベントをカレンダーに自動的に追加します</string>
-    <string name="alarm_close_reminder">アラームリマインダーをオフにする</string>
+    <string name="ai_card_amount">支払金額</string>
+    <string name="ai_card_arrival_time">到着時刻</string>
+    <string name="ai_card_card_no">カード番号</string>
+    <string name="ai_card_check_in_date">チェックイン日</string>
+    <string name="ai_card_check_out_date">チェックアウト日</string>
+    <string name="ai_card_hall">劇場</string>
+    <string name="ai_card_room_type">部屋タイプ</string>
+    <string name="ai_card_seat">座席</string>
+    <string name="ai_card_source">%sから</string>
+    <string name="ai_card_table_info">テーブルの詳細</string>
+    <string name="ai_introduce_card_sub_title">AIが、旅行やチケットなどの予定を自動でカレンダーに追加します</string>
+    <string name="ai_location_navigate">ナビゲーション</string>
+    <string name="ai_location_taxi">タクシー</string>
+    <string name="alarm_close_reminder">アラーム通知をオフにする</string>
     <string name="alarm_label">了解</string>
     <string name="alarm_open_reminder">アラームを設定</string>
     <string name="alarm_reminder_already">アラームが正常に設定されました</string>
@@ -92,7 +102,7 @@
     <string name="apply_auto_insert_ai_event_button">オンにする</string>
     <string name="attendees">参加者</string>
     <string name="auto_import_birthday_from_contact">連絡先の誕生日をインポート</string>
-    <string name="auto_insert_ai_event_toast_v1">自動インポートイベントがオンです</string>
+    <string name="auto_insert_ai_event_toast_v1">イベントの自動インポートがオンです</string>
     <string name="back_to_today">今日</string>
     <string name="birthday_born">生年月日</string>
     <string name="birthday_calendar_display_name">誕生日リマインダー</string>
@@ -121,6 +131,8 @@
     <string name="calendar_account_manager">アカウントカレンダーを管理</string>
     <string name="calendar_account_settings">アカウント設定</string>
     <string name="calendar_data_sharing_instruction">第三者とのデータ共有に関する声明</string>
+    <string name="calendar_date_picker_a11y_next_month">翌月に変更</string>
+    <string name="calendar_date_picker_a11y_prev_month">前月に変更</string>
     <string name="calendar_desc_withdraw_consent">カレンダーのプライバシーポリシーへの同意の撤回</string>
     <string name="calendar_import_source">ソース</string>
     <string name="calendar_privacy_policy">プライバシーポリシー</string>
@@ -183,7 +195,8 @@
     <string name="date_interval_start">開始日</string>
     <string name="date_interval_tab">日数計算</string>
     <string name="date_interval_text_to">%1$s</string>
-    <string name="date_jump_title">日付にジャンプ</string>
+    <string name="date_jump_title">日付に移動</string>
+    <string name="date_of_birth">%sの誕生日</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -193,6 +206,7 @@
     <string name="date_today">" (今日)"</string>
     <string name="date_view">日付</string>
     <string name="day_view_new_event_hint">新しいイベント</string>
+    <string name="days_left">残り</string>
     <string name="default_reminder_labels_day">%d日前</string>
     <string name="default_reminder_labels_days">%d日前</string>
     <string name="default_reminder_labels_hour">%d時間前</string>
@@ -245,6 +259,8 @@
     <string name="edit_event_birthday_name_hint">名前</string>
     <string name="edit_event_calendar_label">カレンダー</string>
     <string name="edit_event_choose_date">日付を選択する</string>
+    <string name="edit_event_confirm_continue">編集を続ける</string>
+    <string name="edit_event_confirm_discard">破棄</string>
     <string name="edit_event_confirm_message">変更を破棄しますか？</string>
     <string name="edit_event_countdown_name_empty_hint">イベント名を入力してください</string>
     <string name="edit_event_countdown_name_hint">イベント</string>
@@ -277,6 +293,7 @@
     <string name="email_picker_label">使用するメール</string>
     <string name="empty" />
     <string name="empty_event">空のイベントは作成できません</string>
+    <string name="end_at">終了: %s</string>
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="evening">夕方</string>
@@ -298,10 +315,11 @@
     <string name="event_info_title_anniversary">記念日</string>
     <string name="event_info_title_birthday">誕生日</string>
     <string name="event_info_title_countdown">カウントダウン</string>
-    <string name="event_info_when">いつ</string>
+    <string name="event_info_when">日付</string>
     <string name="event_info_where">どこで</string>
     <string name="event_none_selected">すべての選択を解除しました</string>
     <string name="event_reminder_allday_day_zero">当日の%2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">当日</string>
     <string name="event_reminder_custom">カスタム</string>
     <string name="event_reminder_value_zero">イベント開始時</string>
     <string name="event_title">タイトル</string>
@@ -400,7 +418,6 @@
     <string name="hint_what_smart_input_12">aa h:mm</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">イベントタイトルを入力してください</string>
-    <string name="hint_where">場所</string>
     <string name="holiday_detail_read_more">その他</string>
     <string name="horoscope_select_activity_label">星座を選択</string>
     <string name="hotel_detail_title">ホテルの詳細</string>
@@ -447,6 +464,7 @@
     <string name="login_caldav">追加</string>
     <string name="login_failed_toast">サインインできませんでした。更新してからもう一度お試しください。</string>
     <string name="logining_caldav_account">追加中…</string>
+    <string name="lunar_birthday_desc">中国暦</string>
     <string name="lunar_date">陰暦</string>
     <string name="lunar_date_content_desc">中国暦の日付</string>
     <string name="lunar_to_solar_chinese_calendar">中国暦からグレゴリオ暦</string>
@@ -493,6 +511,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">半画面に切り替える</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">最大化</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">最小化</string>
+    <string name="miuix_popup_show_description">ポップアップウィンドウ</string>
     <string name="miuix_popup_window_default_title">ポップアップウィンドウ</string>
     <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
@@ -586,6 +605,8 @@
     <string name="no_data">まだ何もありません</string>
     <string name="no_events_hint">イベントはありません</string>
     <string name="no_locale_list_text">位置情報のリストを取得できませんでした。もう一度お試しください。</string>
+    <string name="no_location_hint">結果が見つかりませんでした</string>
+    <string name="no_location_network">ネットワークに接続できませんでした</string>
     <string name="no_more_events">これ以上表示するイベントはありません</string>
     <string name="no_network">"ネットワークに接続できませんでした。
 ネットワーク設定を確認して、もう一度お試しください。"</string>
@@ -607,7 +628,10 @@
     <string name="notification_open_setting_button_ok">許可</string>
     <string name="notification_open_setting_message">カレンダーに通知の送信を許可しない限り、イベントに関する通知を受信できません。</string>
     <string name="notification_open_setting_title">カレンダー通知を許可しますか？</string>
+    <string name="panel_title_end">終了時刻</string>
+    <string name="panel_title_start">開始時刻</string>
     <string name="pasport_register_dialog_message">電話番号 %s で Xiaomi アカウントを今すぐ作成しますか？</string>
+    <string name="pass_day">合格</string>
     <string name="passenger">乗客</string>
     <string name="passport_access_denied">アクセスは拒否されました</string>
     <string name="passport_account_crop_user_avatar">写真をトリミング</string>
@@ -772,23 +796,23 @@
     <string name="passport_wrong_vcode">入力したコードが正しくありません</string>
     <string name="passport_wrong_voice">入力したコードが正しくありません</string>
     <string name="path_calendar_settings">システムアプリ/カレンダー/設定</string>
-    <string name="permission_allowed">付与済み</string>
+    <string name="permission_allowed">許可済み</string>
     <string name="permission_description">アクセス許可の詳細</string>
     <string name="permission_description_audio">このデバイスに保存されている音楽やその他のオーディオへのアクセス</string>
-    <string name="permission_description_image_video">このデバイスに保存されている写真とビデオへのアクセス</string>
+    <string name="permission_description_image_video">このデバイスに保存されている写真と動画へのアクセス</string>
     <string name="permission_management">アクセス許可</string>
     <string name="permission_not_allowed">未付与</string>
     <string name="permission_read_audio">オーディオへのアクセス</string>
-    <string name="permission_read_image_video">写真とビデオへのアクセス</string>
+    <string name="permission_read_image_video">写真と動画へのアクセス</string>
     <string name="phone_num">電話番号</string>
     <string name="pm">午後</string>
     <string name="portrait_week_view">縦向きの週間アジェンダ</string>
     <string name="pref_reminder_time">リマインダー時刻</string>
-    <string name="pref_title_alarm_remind">アラームリマインダー</string>
+    <string name="pref_title_alarm_remind">アラーム通知</string>
     <string name="pref_title_countdown_remind">カウントダウンリマインダー</string>
     <string name="pref_title_no_remind">リマインダーなし</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
-    <string name="preferences_alarms_category_title">アラームリマインダー</string>
+    <string name="preferences_alarms_category_title">アラーム通知</string>
     <string name="preferences_alarms_sound">サウンド</string>
     <string name="preferences_alarms_vibrateWhen">バイブレーション</string>
     <string name="preferences_alerts_vibrateWhen_title">バイブレーション</string>
@@ -821,12 +845,16 @@
     <string name="premission_description_read_contacts">連絡先の誕生日を表示するため</string>
     <string name="premission_description_read_write_storage">このデバイス上のファイルや写真にアクセスして保存するため</string>
     <string name="premission_description_ringtone">通知音を設定するため</string>
-    <string name="premission_description_title">スケジュールされたイベントの表示と管理</string>
+    <string name="premission_description_title">予定の表示や管理ができます</string>
     <string name="premission_read_contacts">連絡先</string>
     <string name="premission_read_notice_state">通知</string>
     <string name="premission_read_write_storage">ストレージ</string>
     <string name="premission_read_write_storage_new">ストレージへのアクセス</string>
     <string name="privacy_and_permissions">プライバシーとアクセス許可</string>
+    <string name="privacy_update_message">"「同意する」をタップすると、(click) カレンダーのプライバシーポリシー (/クリック) に同意したことになります。
+
+より良い体験を提供するため、イベントを作成する際に場所を選択できるようになりました。場所の検索とおすすめは、サードパーティの地図サービスを介して提供されます。"</string>
+    <string name="privacy_update_title">更新されたプライバシーポリシー</string>
     <string name="productivity_add_event">イベントを作成</string>
     <string name="productivity_no_event">まだイベントはありません</string>
     <string name="pull_refresh_events">%dのイベントを表示</string>
@@ -848,8 +876,8 @@
     <string name="repeat_alarm_changed_movie_event">映画について常にリマインドする</string>
     <string name="repeat_alarm_changed_ony_selected">今回のみ</string>
     <string name="repeat_alarm_changed_train_event">列車について常にリマインドする</string>
-    <string name="repeat_alarm_close_title">これは繰り返しのイベントです。アラームリマインダーをオフにしますか？</string>
-    <string name="repeat_alarm_open_title">これは繰り返しのイベントです。アラームリマインダーを設定しますか？</string>
+    <string name="repeat_alarm_close_title">これは繰り返しのイベントです。アラーム通知をオフにしますか？</string>
+    <string name="repeat_alarm_open_title">これは繰り返しのイベントです。アラーム通知を設定しますか？</string>
     <string name="repeat_count_down_close_title">これは繰り返しのイベントです。それでもカウントダウンリマインダーをオフにしますか？</string>
     <string name="repeat_count_down_open_title">これは繰り返しのイベントです。それでもカウントダウンリマインダーをオンにしますか？</string>
     <string name="repeat_custom_activity_label">カスタム</string>
@@ -894,10 +922,10 @@
     <string name="search_calendar_settings">カレンダー;アジェンダ;リマインダー</string>
     <string name="search_events">イベントを検索</string>
     <string name="search_history">検索履歴</string>
-    <string name="search_location_hint">アドレスを入力してください</string>
+    <string name="search_location_hint">場所を入力してください</string>
     <string name="search_menu_title">検索</string>
     <string name="search_timezone">タイムゾーンを検索</string>
-    <string name="select_date">日付にジャンプ</string>
+    <string name="select_date">日付に移動</string>
     <string name="select_today_tip">今日</string>
     <string name="send">送信</string>
     <string name="service_rejected_temporarily">証明書は一時的に拒否されました</string>
@@ -906,7 +934,7 @@
     <string name="setting_about_summary">バージョン:</string>
     <string name="setting_accounts">カレンダーアカウント</string>
     <string name="setting_almanac_yiji">中国の暦の禁忌</string>
-    <string name="setting_auto_insert_v1">自動インポートイベント</string>
+    <string name="setting_auto_insert_v1">イベントの自動インポート</string>
     <string name="setting_constellation_title">星占い</string>
     <string name="setting_daysoff_no_update">祝日に関する情報は最新の状態です。</string>
     <string name="setting_daysoff_update">祝日に関する情報をアップデート</string>
@@ -925,7 +953,7 @@
     <string name="setting_show_almanac_yiji">中国の暦情報を表示</string>
     <string name="setting_show_extend_month">月表示を展開</string>
     <string name="setting_show_reject_agenda">拒否したイベントを表示</string>
-    <string name="setting_show_week_number">第何週かを表示</string>
+    <string name="setting_show_week_number">週番号を表示</string>
     <string name="setting_title_about">このアプリについて</string>
     <string name="setting_title_holiday_display">祝日を表示する</string>
     <string name="setting_title_import_todo">タスクをインポート</string>
@@ -942,11 +970,13 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="solar_birthday_desc">グレゴリオ暦</string>
     <string name="solar_date_content_desc">グレゴリオ暦の日付</string>
     <string name="solar_lunar_convert_tab">変換</string>
     <string name="solar_to_lunar_chinese_calendar">グレゴリオ暦から中国暦</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">イベント</string>
+    <string name="start_at">開始: %s</string>
     <string name="start_date_calculate">計算</string>
     <string name="start_string">%sに出発</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1146,7 +1176,7 @@
     <string name="wednesday_shortest">水</string>
     <string name="weekly">毎週 (毎週%s)</string>
     <string name="weekly_plain">毎週</string>
-    <string name="when_label">いつ</string>
+    <string name="when_label">日付</string>
     <string name="widget_edit_background">背景</string>
     <string name="widget_edit_lunar_text">中国暦</string>
     <string name="widget_edit_no_subscribe_info">この情報はイベントがないときに表示されます</string>
@@ -1161,6 +1191,11 @@
     <string name="widget_normal_weekN">第%d週</string>
     <string name="widget_select_style">スタイルを選択</string>
     <string name="widget_spec_agenda_birth_today">今日</string>
+    <string name="withdraw_consent_button_withdraw">撤回</string>
+    <string name="withdraw_consent_message">"続けると、カレンダーのプライバシーポリシーへの同意を撤回することになります。撤回すると、個人情報の収集は中止されます。すでに収集され保持されている個人情報は、別段の要求がない限り、適用される法令に基づいて特定の期間内に削除されます。
+カレンダーは、必要な個人情報の収集に基づいてサービスを提供しているため、同意を撤回した場合はカレンダーのサービスを受けることを拒否したとみなされます。今すぐ同意を撤回しますか？"</string>
+    <string name="withdraw_consent_preference_title">同意の撤回</string>
+    <string name="withdraw_consent_title">同意の撤回</string>
     <string name="work_day_default_banner_title">仕事で実りある一日をお過ごしください！</string>
     <string name="xiaomi_account">Xiaomi アカウント</string>
     <string name="xiaomi_calendar_display_name">Xiaomi アカウントカレンダー</string>

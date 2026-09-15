@@ -2,7 +2,7 @@
 <resources>
     <string name="HIPS_Perm_Access_Gallery">カメラで撮影した写真やビデオへのアクセス</string>
     <string name="HIPS_Perm_Access_Gallery_Desc">このアプリにシステムカメラアプリで撮影した写真やビデオへのアクセスを許可する</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Bluetoothのオンとオフの切り替え</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Bluetoothの切り替え</string>
     <string name="HIPS_Perm_CallLog_Desc">通話履歴の書き込みと削除</string>
     <string name="HIPS_Perm_Call_Desc">電話番号への直接発信</string>
     <string name="HIPS_Perm_Contact_Desc">連絡先の変更と削除</string>
@@ -11,7 +11,7 @@
     <string name="HIPS_Perm_External_READ_MEDIA_AUDIO">オーディオファイルへのアクセス</string>
     <string name="HIPS_Perm_External_READ_MEDIA_AUDIO_Desc">このデバイスに保存されている曲やその他のオーディオファイルにアクセスする</string>
     <string name="HIPS_Perm_External_READ_MEDIA_AUDIO_PIC_VIDEO_Desc">画像、ビデオ、音声ファイルへのアクセスと内部ストレージへの保存</string>
-    <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO">写真とビデオへのアクセス</string>
+    <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO">写真と動画へのアクセス</string>
     <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO_Desc">このデバイスに保存されている写真とビデオにアクセスする</string>
     <string name="HIPS_Perm_External_Storage">ストレージへのアクセスとアイテムの保存</string>
     <string name="HIPS_Perm_External_Storage_Desc">内部ストレージへのアクセスとファイルや写真の保存</string>
@@ -163,7 +163,7 @@
     <string name="add_done">正常に追加しました</string>
     <string name="add_game">ゲームを追加</string>
     <string name="add_game_notification_summary">タップして起動し、スピードブーストを実行</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">「%s」がゲームスペースに追加されました</string>
     <string name="add_miservice_dialog_content">%sでは、Xiaomiサービスフレームワークを例外に追加する必要があります。内臓アプリや他のサードパーティアプリから通知を受信することがあります。</string>
     <string name="add_miservice_dialog_title">Xiaomi サービスフレームワーク</string>
     <string name="add_to_whitelist_button">データローミングの例外</string>
@@ -200,6 +200,48 @@
     <string name="anitispam_intercept_record">ブロックリスト履歴</string>
     <string name="anti_disturb_msg_detail">着信通話を除くすべての通知をオフにする</string>
     <string name="anti_disturb_msg_title">DND</string>
+    <string name="anti_peeping">他人の視線を検出する</string>
+    <string name="anti_peeping_apps_disable_header_title">選択されていないアプリ</string>
+    <string name="anti_peeping_apps_enable_header_title">選択したアプリ</string>
+    <string name="anti_peeping_apps_notify_description">選択したアプリが全画面表示されている際、この機能は誰かが画面を覗き込んでいないかを常時確認し、通知します</string>
+    <string name="anti_peeping_apps_notify_title">誰かが覗いているに通知する</string>
+    <string name="anti_peeping_apps_notify_type">通知</string>
+    <string name="anti_peeping_apps_privacy_tip">この機能は、顔データを使用して視線を検出します。すべてのデータはデバイス上で処理され、外部に共有されることはありません。</string>
+    <string name="anti_peeping_face_need_input">顔データが必要です</string>
+    <string name="anti_peeping_face_need_input_confirm">設定</string>
+    <string name="anti_peeping_face_need_input_subtitle">この機能をご利用いただくには、ご自身の顔データを追加する必要があります。今すぐ追加しますか？</string>
+    <string name="anti_peeping_focus_not_enabled"><Data>通知スポットライトがオフです。アラートは代わりにバイブレーションを使用します。&lt;font color=#3482FF>オンにする&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback"><Data>通知スポットライトがオフです。アラートは利用できません。&lt;font color=#3482FF>オンにする&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback_v2"><Data>Xiaomi HyperIsland はオフです。アラートは利用できません。&lt;font color=#3482FF>オンにする&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_v2"><Data>Xiaomi HyperIsland がオフです。アラートは代わりにバイブレーションを使用します。&lt;font color=#3482FF>オンにする&lt;/font></Data></string>
+    <string name="anti_peeping_notification_channel_name">他人の視線を検出する</string>
+    <string name="anti_peeping_notification_got_it">了解</string>
+    <string name="anti_peeping_notification_protect_content">二度と通知しない</string>
+    <string name="anti_peeping_notification_title">プライバシーを保護する</string>
+    <string name="anti_peeping_privacy_auto_close_des">この機能を使用すると、消費電力が若干増加する場合があります。また、バッテリーセーバーがオンになっている場合は、この機能はオフになります。</string>
+    <string name="anti_peeping_privacy_auto_close_title">バッテリーセーバーがオンになっていると、自動的にオフになります</string>
+    <string name="anti_peeping_privacy_statement_des">"この機能をオンにすると、選択したアプリが全画面表示されている際に、本デバイスはフロントカメラを使用して、自分以外の誰かが画面を覗き込んでいないかを確認します。覗き込みが検出された場合、プライバシーに関する通知が表示されます。
+すべての処理はデバイス内で行われ、クラウドにはアップロードされません。"</string>
+    <string name="anti_peeping_privacy_statement_title">プライバシーに関する声明</string>
+    <string name="anti_peeping_privacy_understand_des">"この機能はフロントカメラを使用して画像を撮影し、自分以外の誰かが画面を覗き込んでいないかを分析します。そのような動きが検出された場合、プライバシー保護のための通知が表示されます。
+保護対象のアプリを選択できます。「他人の視線を検出する」機能は、それらのアプリが全画面表示された際に自動的にオンになります。"</string>
+    <string name="anti_peeping_privacy_understand_title">「他人の視線を検出する」について</string>
+    <string name="anti_peeping_recommend_apps_button_open">オンにする</string>
+    <string name="anti_peeping_recommend_tips">%sのユーザーが以下のアプリを選択しました</string>
+    <string name="anti_peeping_recommend_title">おすすめのアプリ</string>
+    <string name="anti_peeping_search_key">他人の視線を検出する</string>
+    <string name="anti_peeping_search_keywords">他人の視線を検知;他人の視線;プライバシー表示;プライベート表示;プライバシー表示</string>
+    <string name="anti_peeping_splash_confirm">次へ</string>
+    <string name="anti_peeping_splash_custom_des">選択したアプリが全画面表示されると、この機能がオンになります</string>
+    <string name="anti_peeping_splash_custom_title">保護するアプリを選択</string>
+    <string name="anti_peeping_splash_dialog_des"><Data>お使いのデバイスは、画面を覗き見している人がいないか常に確認し、検出した場合は通知します。 &lt;font color=#3482FF>もっと詳しく知る&lt;/font></Data></string>
+    <string name="anti_peeping_splash_identify_des">他の人が自分の画面を見ているかどうかを確認する</string>
+    <string name="anti_peeping_splash_identify_title">他人が見ているのを検出する</string>
+    <string name="anti_peeping_splash_notify_des">Xiaomi HyperIsland および振動通知に対応</string>
+    <string name="anti_peeping_splash_notify_title">プライバシーに関するリマインダーを受け取る</string>
+    <string name="anti_peeping_vibrate_demo_toast">ユーザー以外の人の視線を検出すると通知します</string>
+    <string name="anti_peeping_vibration_not_enabled"><Data>触覚フィードバックがオフです。アラートはXiaomi HyperIsland経由で表示されます。&lt;font color=#3482FF>オンにする&lt;/font></Data></string>
+    <string name="anti_peeping_vibration_not_enabled_no_fallback"><Data>触覚フィードバックがオフです。アラートは利用できません。&lt;font color=#3482FF>オンにする&lt;/font></Data></string>
     <string name="antispam_add_black_number_message">入力した番号は短いです。これらの数字で始まるすべての番号をブロックしますか？</string>
     <string name="antispam_add_black_number_negative">いいえ</string>
     <string name="antispam_add_black_number_positive">はい</string>
@@ -232,17 +274,17 @@
     <string name="antivirus_monitor_risk_advice">このアプリは安全ではありません。削除してください。</string>
     <string name="antivirus_monitor_virus_advice">このアプリにはウイルスが含まれている可能性があります。削除してください。</string>
     <string name="antivirus_monitored_app_empty">互換性のある決済アプリが見つかりませんでした</string>
-    <string name="antivirus_monitored_tips">リスクを自動検出して決済時のセキュリティを高める</string>
+    <string name="antivirus_monitored_tips">リスクを自動検知して決済時のセキュリティを強化</string>
     <string name="antivirus_none_engine_dialog_ok">OK</string>
     <string name="antivirus_not_wlan">Wi-Fiに接続していません。モバイルデータを使用すると、追加料金が発生する可能性があります。続行してもよろしいですか？</string>
     <string name="antivirus_privacy_dialog_cloudscan">アプリの名前と詳細をアップロード</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">ウイルスをより効果的に検出して中和するために、アプリのパッケージ名とプロパティをアップロードして、クラウドエンジンを使ってスキャンします。</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">ウイルスをより効果的に検出して駆除するために、アプリのパッケージ名と詳細情報をアップロードして、クラウドエンジンを使ってスキャンします。</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="antivirus_privacy_dialog_summary"><Data>この機能は、サードパーティのウイルス対策エンジンによって提供されています。詳細については、サードパーティの&lt;a href=\"%1$s\">ライセンス契約&lt;/a>をお読みください。</Data></string>
     <string name="antivirus_privacy_dialog_summary_kddi"><Data>セキュリティスキャンを実行した場合、あなたのデバイスに関する情報及びスキャンの結果に関する情報等が%1$sのサーバーにアップロードされ、各社の&lt;a href=\"%2$s\">プライバシーポリシー&lt;/a>に従って利用されます。&lt;br/>&lt;br/>セキュリティスキャンを実行する前に、%3$sのプライバシーポリシーを読んで同意してください。&lt;br/>&lt;br/>%4$sのサーバーにデータをアップロードすることに同意しない場合でも、ローカルに保存されているウイルス定義を使用したセキュリティスキャンを実行できます。その場合、あなたのデータはいかなるサーバーにもアップロードされることはありません。</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">プライバシーポリシー</string>
     <string name="antivirus_privacy_dialog_title">プライバシーポリシー</string>
-    <string name="antivirus_privacy_dialog_title_kddi">プライバシーポリシー</string>
+    <string name="antivirus_privacy_dialog_title_kddi">利用規約</string>
     <string name="antivirus_riskapp_title">リスクの可能性</string>
     <string name="antivirus_sec_network_unavailable">セキュリティは、インターネットへの接続を制限されているためアップデートできません。セキュリティにインターネットへの接続を許可しますか？</string>
     <string name="antivirus_third_privacy_title">サードパーティのプライバシーポリシー</string>
@@ -392,8 +434,8 @@
     <string name="app_manager_factory_reset_dlg_msg">Androidのシステムアプリへのすべてのアップデートがアンインストールされます。</string>
     <string name="app_manager_factory_reset_dlg_title">アップデートをアンインストールしますか？</string>
     <string name="app_manager_find_apps">アプリを探す</string>
-    <string name="app_manager_force_stop_dlg_text">アプリを強制停止すると、エラーが発生する可能性があります。</string>
-    <string name="app_manager_force_stop_dlg_title">強制停止しますか？</string>
+    <string name="app_manager_force_stop_dlg_text">アプリを強制終了すると、エラーが発生する可能性があります。</string>
+    <string name="app_manager_force_stop_dlg_title">強制終了しますか？</string>
     <string name="app_manager_full_screen_summary">選択したアプリが全画面表示モードで動作することを許可する</string>
     <string name="app_manager_full_screen_title">全画面表示モード</string>
     <string name="app_manager_global_recommend_title">あなたへ</string>
@@ -402,7 +444,7 @@
     <string name="app_manager_globel_perm_title">アプリのアクセス許可</string>
     <string name="app_manager_has_not_data">データはありません</string>
     <string name="app_manager_have_not_consume">なし</string>
-    <string name="app_manager_hide_system_server">システムサービスを隠す</string>
+    <string name="app_manager_hide_system_server">システムサービスを非表示にする</string>
     <string name="app_manager_manage_space">スペースを管理する</string>
     <string name="app_manager_memory">RAM</string>
     <string name="app_manager_menu_clear_data">データを消去</string>
@@ -505,7 +547,7 @@
     <string name="app_running_tip_dialog_text">このアプリはバックグラウンドで動作しているようです。アプリを終了することで、デバイスを高速化し、消費電力を抑えることができます。</string>
     <string name="app_running_tip_dialog_title">%1$sを終了</string>
     <string name="app_settings_link">アプリ内の追加設定</string>
-    <string name="app_summary">"WeChatとQQ用の赤い封筒アシスタント
+    <string name="app_summary">"WeChatとQQ用の紅包アシスタント
 グループチャットと個人チャットの両方に対応"</string>
     <string name="app_usage_half_year">過去%dか月後</string>
     <string name="app_usage_more_year">%d年以上前</string>
@@ -560,8 +602,8 @@
     <string name="applock_guide_tip1_without_finger">複数のパスワードタイプが利用可能です。顔認証またはパスワードの入力で、アプリのロックを解除できます。</string>
     <string name="applock_guide_tip1_without_finger_face">複数のパスワードタイプが利用可能です。</string>
     <string name="applock_guide_tip2">Xiaomi アカウントを追加すると、パスワードをリセットできます。</string>
-    <string name="applock_guide_tip3">通知の内容を隠すことができます。</string>
-    <string name="applock_guide_tip3_global">通知の内容を隠すことができます。</string>
+    <string name="applock_guide_tip3">通知の内容を非表示にすることができます。</string>
+    <string name="applock_guide_tip3_global">通知の内容を非表示にすることができます。</string>
     <string name="applock_guide_title">アプリロックでプライバシーを保護</string>
     <string name="applock_gulide_third_part">サインアウトするとアカウントが削除されます</string>
     <string name="applock_header_text_less_than_half">小さすぎます。もう少しドラッグしてください。</string>
@@ -585,7 +627,7 @@
     <string name="applock_operate_faceunlock_title">顔認証を使用</string>
     <string name="applock_operate_fingerprint_summary">アプリロックでは複数の指紋を登録できます</string>
     <string name="applock_operate_fingerprint_title">指紋認証を使用</string>
-    <string name="applock_operate_hidenoti_summary">アプリロックは、保護されたアプリに対してこれを行うことができます。</string>
+    <string name="applock_operate_hidenoti_summary">アプリロックは、保護されたアプリに対して行うことができます。</string>
     <string name="applock_operate_hidenoti_title">プライベートな情報を含む通知を非表示にしたいですか？</string>
     <string name="applock_password_set_luck_button">設定</string>
     <string name="applock_password_set_luck_comment">このデバイスでプライベート機能を使用するには、画面ロックを設定する必要があります。</string>
@@ -623,6 +665,12 @@
     <string name="apps_item_virus_ignore_text">無視</string>
     <string name="apps_item_virus_summary_installed">インストールしたアプリ</string>
     <string name="apps_item_virus_summary_uninstalled">APK</string>
+    <string name="apps_layout_all_apps">すべてのアプリ</string>
+    <string name="apps_layout_all_freeform_apps">利用可能なアプリ</string>
+    <string name="apps_layout_recommend_apps">おすすめのアプリ</string>
+    <string name="apps_layout_search_app">アプリを検索</string>
+    <string name="apps_layout_search_app_no_result">該当結果が見つかりませんでした</string>
+    <string name="apps_layout_shortcut">ショートカット</string>
     <string name="apps_list_header_title_sms">メッセージングアプリを確認</string>
     <string name="apps_list_header_title_sms_access">認証コードへのアクセスを制限する</string>
     <string name="ask_create_shortcut">ホーム画面ショートカットを作成しますか？</string>
@@ -719,10 +767,13 @@
     <string name="back_sound_support_china">まず、WLANをオフにしてください</string>
     <string name="background_restrict_app_dialog_message">このアプリのバックグラウンドでのネットワークアクセスを制限すると、メッセージの受信やコンテンツのダウンロードができなくなるなど、アプリが正常に動作しなくなる可能性があります。制限してもよろしいですか？</string>
     <string name="background_traffic">バックグラウンド %s</string>
+    <string name="background_virus_scan_notification_summary">%sを含む複数のアプリが検出されました。タップして表示します。</string>
+    <string name="background_virus_scan_notification_summary_one">タップして表示します</string>
+    <string name="background_virus_scan_notification_title_one">悪意のあるアプリ%sが検出されました</string>
     <string name="backsound_set_hint">%sに不在メッセージを設定しますか？</string>
     <string name="banner_optimizemanage_summary">メモリを解放する</string>
     <string name="banner_red_money_assist_button">オンにする</string>
-    <string name="banner_red_money_assist_summary">赤い封筒をすばやく開く</string>
+    <string name="banner_red_money_assist_summary">紅包をすばやく開く</string>
     <string name="battery_and_property">バッテリー</string>
     <string name="battery_and_property_important_notify">重要なバッテリー通知</string>
     <string name="battery_and_property_ordinary_notify">通常のバッテリー通知</string>
@@ -811,8 +862,8 @@
     <string name="behavior_widget_read_write_external_storage">アクセスしたファイル</string>
     <string name="best_booster_status">現在のゲーム速度はベストな状態です</string>
     <string name="best_warning_dialog_button">了解</string>
-    <string name="best_warning_dialog_message">"ヒント: 赤い封筒アシスタントを使うと、赤い封筒を素早く受け取れます。ただし、いつも一番に開封していると、&lt;font color='#F30018'>WeChatが自動プラグインで赤い封筒を受け取っていると誤認する可能性があります&lt;/font>。これにより、今後の受け取り機会に影響が出るかもしれません。慎重にペースを調整しましょう。赤い封筒は素晴らしいですが、欲張らないで！"</string>
-    <string name="best_warning_dialog_message1">"赤い封筒アシスタントを使えば、より早く赤い封筒を受け取れます。ただし、いつも一番に開封していると、&lt;font color='#F22424'>WeChatが自動プラグインで赤い封筒を受け取っていると誤認する可能性があります&lt;/font>。これにより今後の受け取り機会に影響が出る恐れがあります。慎重にペースを調整しましょう。赤い封筒は嬉しいものですが、欲張らないで！"</string>
+    <string name="best_warning_dialog_message">"ヒント: 紅包アシスタントを使うと、紅包を素早く受け取れます。ただし、いつも一番に開封していると、&lt;font color='#F30018'>WeChatが自動プラグインで紅包を受け取っていると誤認する可能性があります&lt;/font>。これにより、今後の受け取り機会に影響が出るかもしれません。慎重にペースを調整しましょう。紅包は素晴らしいですが、欲張らないで！"</string>
+    <string name="best_warning_dialog_message1">"紅包アシスタントを使えば、より早く紅包を受け取れます。ただし、いつも一番に開封していると、&lt;font color='#F22424'>WeChatが自動プラグインで紅包を受け取っていると誤認する可能性があります&lt;/font>。これにより今後の受け取り機会に影響が出る恐れがあります。慎重にペースを調整しましょう。紅包は嬉しいものですが、欲張らないで！"</string>
     <string name="best_warning_dialog_title">注意</string>
     <string name="bg_network_exception_title">制限されたバックグラウンド接続</string>
     <string name="bh_buy_order_fail_tips_text">エラーが発生しました。数分待ってからもう一度お試しください。</string>
@@ -894,7 +945,7 @@
     <string name="biometric_finger_verify">指紋認証</string>
     <string name="biometric_lockscreen_pwd">画面ロックの認証</string>
     <string name="biometric_lockscreen_pwd_or_finger">指紋または画面ロックで認証</string>
-    <string name="biometric_private_password">プライバシー保護パスワード認証</string>
+    <string name="biometric_private_password">プライバシー保護パスワードの認証</string>
     <string name="biometric_private_password_lockout_title">失敗回数が多すぎます</string>
     <string name="biometric_private_pwd_or_finger">指紋またはプライバシー保護パスワードで認証</string>
     <string name="biometric_reset_password_tips">パスワードがリセットされました。ロックを解除するには新しいパスワードを入力してください。</string>
@@ -979,7 +1030,9 @@
     <string name="bubble_notification_switch">会話バブルを表示する</string>
     <string name="bubble_notification_switch_desc">フローティングウィンドウのメッセンジャーアプリが画面の端に隠れている場合、着信メッセージをバブルで表示します</string>
     <string name="bubble_pickup_voice_print_auto">声紋を録音中…</string>
+    <string name="bubble_pickup_voice_print_auto_v2">声紋と顔データを記録中…</string>
     <string name="bubble_pickup_voice_print_success">声紋を記録しました</string>
+    <string name="bubble_pickup_voice_print_success_v2">声紋と顔データが記録されました</string>
     <string name="button_background_connection">許可</string>
     <string name="button_block_calls_from_cantacts">ブロック解除</string>
     <string name="button_block_calls_from_strangers">ブロック解除</string>
@@ -1025,6 +1078,13 @@
     <string name="call_delete_hint">この番号からのブロック済み着信をすべて削除しますか？</string>
     <string name="call_delete_title">通話履歴を削除</string>
     <string name="call_empty_number">空白の番号</string>
+    <string name="call_filter_ad_promotion">広告</string>
+    <string name="call_filter_education_training">教育</string>
+    <string name="call_filter_high_risk">高いリスク</string>
+    <string name="call_filter_insurance_finance">保険</string>
+    <string name="call_filter_loan_promotion">ローン</string>
+    <string name="call_filter_real_estate">不動産</string>
+    <string name="call_filter_renovation_repair">自宅の修繕</string>
     <string name="call_forwarding_block">転送された通話</string>
     <string name="call_intercept_settings">通話ブロックリストの設定</string>
     <string name="call_notification_answer_action">応答</string>
@@ -1038,6 +1098,19 @@
     <string name="call_overseas_block">国際通話</string>
     <string name="call_prefix">接頭番号ブロックリスト</string>
     <string name="call_private">非通知番号からの着信をブロック</string>
+    <string name="call_reason_ad_promotion_mark">広告</string>
+    <string name="call_reason_ad_promotion_mark_large">広告</string>
+    <string name="call_reason_education_training_mark">教育</string>
+    <string name="call_reason_education_training_mark_large">教育</string>
+    <string name="call_reason_high_risk_mark">高いリスク</string>
+    <string name="call_reason_insurance_finance_mark">保険</string>
+    <string name="call_reason_insurance_finance_mark_large">保険</string>
+    <string name="call_reason_loan_promotion_mark">ローン</string>
+    <string name="call_reason_loan_promotion_mark_large">ローン</string>
+    <string name="call_reason_real_estate_mark">不動産</string>
+    <string name="call_reason_real_estate_mark_large">不動産</string>
+    <string name="call_reason_renovation_repair_mark">自宅の修繕</string>
+    <string name="call_reason_renovation_repair_mark_large">自宅の修繕</string>
     <string name="call_stranger_block">未登録番号からの着信をブロック</string>
     <string name="call_transfer_block">転送された通話をブロック</string>
     <string name="call_transfer_info">不明な番号からの転送された通話をブロック</string>
@@ -1078,15 +1151,15 @@
     <string name="card_main_galleryclean_title">写真を削除</string>
     <string name="card_main_gamebooster_summary">ゲームの接続安定性を向上させる</string>
     <string name="card_main_gamebooster_title">ゲームターボ</string>
-    <string name="card_main_hbassistant_summary">このツールを使用して素早く赤い封筒を開く</string>
-    <string name="card_main_hbassistant_title">赤い封筒アシスタント</string>
+    <string name="card_main_hbassistant_summary">このツールを使用して素早く紅包を開く</string>
+    <string name="card_main_hbassistant_title">紅包アシスタント</string>
     <string name="card_main_monthreport_action">表示</string>
     <string name="card_main_netcheck_action">テスト</string>
     <string name="card_main_netcheck_summary">接続のテストを行い、ネットワークの問題を診断する</string>
     <string name="card_main_netcheck_title">ネットワーク診断</string>
     <string name="card_main_optimize_manage_action">今すぐブーストする</string>
     <string name="card_main_optimize_manage_summary">キャッシュを消去してデバイスを高速化する</string>
-    <string name="card_main_optimize_manage_title">スピードブースト</string>
+    <string name="card_main_optimize_manage_title">パフォーマンスブースト</string>
     <string name="card_main_overscroll_tips">最高のセキュリティ</string>
     <string name="card_main_private_space_action">作成</string>
     <string name="card_main_private_space_summary">セカンド・スペースを使用することは、2つのデバイスを持っているようなものです</string>
@@ -1110,6 +1183,10 @@
     <string name="cetus_invisible_mode">シークレット</string>
     <string name="cetus_invisible_mode_description_card">アクセス許可を一時停止</string>
     <string name="cetus_invisible_mode_description_switch">オンにすると、すべてのアプリのマイク、カメラ、位置情報関連のアクセス許可を一時停止します</string>
+    <string name="cetus_invisible_mode_notice_audio">シークレットモードになっています。マイクは使用できません。</string>
+    <string name="cetus_invisible_mode_notice_camera">シークレットモードになっています。カメラは使用できません。</string>
+    <string name="cetus_invisible_mode_notice_location">シークレットモードになっています。位置情報サービスは利用できません。</string>
+    <string name="cetus_invisible_mode_notice_tip">シークレットモードをオフにする場合は、タップして設定に移動します</string>
     <string name="cetus_invisible_mode_warn_all">シークレットモードです。マイク、カメラ、位置情報へのアクセス許可はオフになっています。</string>
     <string name="cetus_invisible_mode_warn_camera">シークレットモードになっています。カメラへのアクセス許可は一時停止されました。</string>
     <string name="cetus_invisible_mode_warn_location">シークレットモードです。位置情報サービズへのアクセス許可はオフになっています。</string>
@@ -1155,13 +1232,15 @@
     <string name="click_to_set_carrier">タップして設定</string>
     <string name="click_to_set_personalized_reminder">警告を設定</string>
     <string name="click_to_set_traffic">タップして設定</string>
+    <string name="clip_notification_close_summary">アプリがクリップボードにアクセスした際のリマインダーを受信しないようにしますか？</string>
+    <string name="clip_notification_close_title">クリップボードアクセスリマインダーをオフにする</string>
     <string name="clipboard_ai_allow">スマート管理</string>
     <string name="clipboard_ai_allow_summary">アプリがクリップボードのコンテンツにアクセスできるかどうかをシステムが判断し、アクセスできる場合に通知します</string>
     <string name="close">閉じる</string>
     <string name="close_callwait">オフ</string>
     <string name="close_lucky_money_dialog_ok">オフにする</string>
-    <string name="close_lucky_money_dialog_summary">赤い封筒アシスタントをオフにすると、新しい赤い封筒の通知が届かなくなり、見逃す可能性があります。フローティングウィンドウをオフにしたい場合は、追加設定で操作できます。今すぐ赤い封筒アシスタントをオフにしますか？</string>
-    <string name="close_lucky_money_dialog_title">赤い封筒アシスタントをオフにする</string>
+    <string name="close_lucky_money_dialog_summary">紅包アシスタントをオフにすると、新しい紅包の通知が届かなくなり、見逃す可能性があります。フローティングウィンドウをオフにしたい場合は、追加設定で操作できます。今すぐ紅包アシスタントをオフにしますか？</string>
+    <string name="close_lucky_money_dialog_title">紅包アシスタントをオフにする</string>
     <string name="cmcc_app_check_dialog_message">デバイスを再起動して修復を完了させてください。</string>
     <string name="cmcc_app_check_dialog_negative">後で</string>
     <string name="cmcc_app_check_dialog_positive">今すぐ再起動</string>
@@ -1244,7 +1323,7 @@
     <string name="connected_devices_permission">相互接続性とアクセス許可</string>
     <string name="connected_devices_permission_settings">相互接続性とアクセス許可</string>
     <string name="connected_devices_permission_summary">このデバイスへのアクセスを管理する</string>
-    <string name="connected_devices_record">録画</string>
+    <string name="connected_devices_record">登録</string>
     <string name="connected_devices_record_desc">同じアカウントにサインインしている付近のデバイスにこのデバイスでの録音を許可する</string>
     <string name="connected_devices_record_title">上記のデバイスに、このデバイスで録音することを許可しますか？</string>
     <string name="connected_devices_screen">画面</string>
@@ -1252,6 +1331,7 @@
     <string name="connected_devices_screen_title">上記のデバイスにこのデバイスの画面コンテンツの表示と操作を許可しますか？</string>
     <string name="connected_interconnection">相互接続性</string>
     <string name="connecting">接続中…</string>
+    <string name="contacts_will_also_be_blocked">連絡先を含む</string>
     <string name="continue_install">インストール</string>
     <string name="continue_set">続ける</string>
     <string name="convenient_mode">一度にすべてのアプリをロック解除</string>
@@ -1302,32 +1382,40 @@
     <string name="cs_pickup_vioce_print_guide_dialog_desc">通話を終了し、指示に従って開始してください。</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">1 人の音だけを拾うには、まずその人の声紋を録音してください。</string>
     <string name="cs_pickup_vioce_print_in_private_tips">ノイズ低減を「プライベート」に設定するには、まず声紋を録音してください。</string>
+    <string name="cs_pickup_vioce_print_in_private_tips_v2">ノイズ低減を「プライベート」に設定するには、まず声紋と顔データを記録してください。</string>
     <string name="cs_pickup_vioce_print_private_dialog_title">声紋を録音</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title_v2">声紋と顔データを記録</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">「単一参加者」を選択する前に声紋を録音してください</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">外部デバイスを取り外し、もう一度お試しください</string>
     <string name="cs_pickup_voice_print_auto_dialog_tips">"あなたの音声は、このデバイス上でのみ録音および処理されます。
 最良の結果を得るには、静かな場所で一人で録音してください。"</string>
     <string name="cs_pickup_voice_print_auto_dialog_title">パーソナライズされたノイズ低減には声紋が必要です</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title_v2">パーソナライズされたノイズ低減には声紋と顔データが必要です</string>
     <string name="cs_pickup_voice_print_desc">1 人の音だけを拾う</string>
     <string name="cs_privacy_camera_global_settings_title">通話プライバシー</string>
     <string name="cs_record_voice_title">録音</string>
     <string name="cs_screen_translation_title">画面翻訳</string>
     <string name="cs_simultaneous_interpretation_title">同時通訳</string>
+    <string name="cs_simultaneous_interpretation_title_2">翻訳</string>
     <string name="cs_title_pickup">ノイズ低減</string>
     <string name="cs_title_smart_subtitle">字幕起こし</string>
     <string name="cs_title_ultraclear">ウルトラ HD モード</string>
     <string name="cs_tool_box_max_screen_guide_case_1">新しい通話ツールボックスで同時通訳やその他の電話会議ツールをお試しください</string>
     <string name="cs_tool_box_max_screen_guide_case_1_new">新しい通話ツールボックスで同時通訳やビューティ機能、その他の電話会議ツールをお試しください</string>
+    <string name="cs_tool_box_max_screen_guide_case_1_new_v2">新しい通話ツールボックスで翻訳やビューティなど多数の機能をお試しください</string>
     <string name="cs_tool_box_max_screen_guide_case_2">新しい通話ツールボックスでさまざまな電話会議機能をお試しください</string>
     <string name="cs_tool_box_max_screen_guide_case_2_new">新しい通話ツールボックスでビューティ機能やその他の電話会議ツールをお試しください</string>
     <string name="cs_tool_box_max_screen_guide_case_3_new">新しい通話ツールボックスでさまざまな電話会議機能をお試しください</string>
     <string name="cs_tool_box_max_screen_guide_case_4_new">新しい通話ツールボックスで同時通訳やその他の電話会議ツールをお試しください</string>
+    <string name="cs_tool_box_max_screen_guide_case_4_new_v2">新しい通話ツールボックスで翻訳など多数の機能をお試しください</string>
     <string name="cs_tool_box_phone_guide_case_1">新しい通話ツールボックスで同時通訳やその他の機能をお試しください</string>
     <string name="cs_tool_box_phone_guide_case_1_new">新しい通話ツールボックスで同時通訳やビューティ機能などをお試しください</string>
+    <string name="cs_tool_box_phone_guide_case_1_new_v2">新しい通話ツールボックスで翻訳やビューティなど多数の機能をお試しください</string>
     <string name="cs_tool_box_phone_guide_case_2">新しい通話ツールボックスのさまざまな機能をお試しください</string>
     <string name="cs_tool_box_phone_guide_case_2_new">新しい通話ツールボックスでビューティやその他の機能をお試しください</string>
     <string name="cs_tool_box_phone_guide_case_3_new">新しい通話ツールボックスのさまざまな優れた機能をお試しください</string>
     <string name="cs_tool_box_phone_guide_case_4_new">新しい通話ツールボックスで同時通訳やその他の機能をお試しください</string>
+    <string name="cs_tool_box_phone_guide_case_4_new_v2">新しい通話ツールボックスで翻訳など多数の機能をお試しください</string>
     <string name="cs_voice_print">声紋を録音</string>
     <string name="cs_voice_search">声紋</string>
     <string name="cs_vt_camera_title">クロスデバイスカメラ</string>
@@ -1403,7 +1491,7 @@
     <string name="debug_open_title">この機能は開発者向けのもので、一般ユーザーには不便かもしれません。USBデバッグをオンにすると、以下のような変更が生じる可能性があります。</string>
     <string name="declaration_dialog_msg">この機能は、データ使用量の把握に役立ちますが、追加料金の発生を防ぐことを保証するものではありません。念のため、低めの使用上限を設定してください。</string>
     <string name="deep_clean_disconnect_data_title">デバイスのロック時はモバイルデータをオフにする</string>
-    <string name="deep_clean_memory_clean_title">デバイスのロック時にキャッシュを消去</string>
+    <string name="deep_clean_memory_clean_title">画面ロック時にキャッシュを削除</string>
     <string name="deep_clean_never_memory_clean">しない</string>
     <string name="deep_power_save_item_summary_auto_brightness">画面の明るさを自動的に調整してバッテリーを節約する</string>
     <string name="deep_power_save_item_summary_bluetooth">Bluetoothをオフにしてバッテリーを節約する</string>
@@ -1457,7 +1545,7 @@
     <string name="dialog_not_remind">今後表示しない</string>
     <string name="dialog_remobe_luckymoney_cancle">キャンセル</string>
     <string name="dialog_remobe_luckymoney_ok">オンにする</string>
-    <string name="dialog_remove_luckymoney">お使いのシステムバージョンには既存の赤い封筒機能があります。続行すると、既存の機能が削除され、Xiaomiのより高速で安定した赤い封筒アシスタントが使用されます。システム機能を引き続き使用する場合はキャンセルしてください。今すぐ赤い封筒アシスタントを有効にしますか？</string>
+    <string name="dialog_remove_luckymoney">お使いのシステムバージョンには既存の紅包機能があります。続行すると、既存の機能が削除され、Xiaomiのより高速で安定した紅包アシスタントが使用されます。システム機能を引き続き使用する場合はキャンセルしてください。今すぐ紅包アシスタントを有効にしますか？</string>
     <string name="dialog_restrict_all_mobile_summary">この後、すべてのアプリで%sのモバイルデータを使用した接続が制限されます。</string>
     <string name="dialog_restrict_all_mobile_title">%sのモバイルデータ接続を制限する</string>
     <string name="dialog_restrict_all_wlan_summary">この後、すべてのアプリでWi-Fi接続が制限されます。</string>
@@ -1589,7 +1677,7 @@
 連絡"</string>
     <string name="ew_alert_earthquake_cancel">解除されました</string>
     <string name="ew_alert_earthquake_center_title">震源</string>
-    <string name="ew_alert_earthquake_distance">震源地から%skm離れています</string>
+    <string name="ew_alert_earthquake_distance">現在地は震源地から%skm離れています</string>
     <string name="ew_alert_earthquake_feel_little">わずかな揺れ</string>
     <string name="ew_alert_earthquake_feel_max">深刻</string>
     <string name="ew_alert_earthquake_feel_middle">強</string>
@@ -1604,7 +1692,7 @@
     <string name="ew_alert_help_earthquake_title">地震波が到達しました</string>
     <string name="ew_alert_help_place_navigation">ナビゲート</string>
     <string name="ew_alert_help_safe_title">危険を避ける</string>
-    <string name="ew_alert_help_tips">地震時の安全対策: 落ち着いて行動し、まず身を隠す。その後避難し、開けた場所へ移動する。頭部を保護し、エレベーターは使用しない。</string>
+    <string name="ew_alert_help_tips">地震時の安全対策: 落ち着いて行動し、まず身を非表示にする。その後避難し、開けた場所へ移動する。頭部を保護し、エレベーターは使用しない。</string>
     <string name="ew_alert_no_contact">緊急連絡先を設定するには、[設定] > [プライバシーとセキュリティ] > [緊急 SOS]を選択してください</string>
     <string name="ew_alert_no_emergency">[セキュリティ] > [地震速報] で医療データを追加してください</string>
     <string name="ew_alert_text_from">ソース: %s</string>
@@ -1887,11 +1975,11 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="fallback_menu_item_open_in_browser">ブラウザで開く</string>
     <string name="fallback_menu_item_share_link">リンクの共有</string>
     <string name="fast_open">クイックオープンモード</string>
-    <string name="fast_open_dialog_message">この機能をオンにすると、新しい赤い封筒の通知を受信した際に、赤い封筒が表示されたアプリページが自動的に開きます。現在実行中のアプリ操作は中断されます。今すぐオンにしますか？</string>
+    <string name="fast_open_dialog_message">この機能をオンにすると、新しい紅包の通知を受信した際に、紅包が表示されたアプリページが自動的に開きます。現在実行中のアプリ操作は中断されます。今すぐオンにしますか？</string>
     <string name="fast_open_dialog_message_summary">クイックオープンモードがナビゲーション、動画、ゲームアプリを中断することを許可しないことをお勧めします。デバイスの画面がオフの状態では、クイックオープンモードは機能しません。</string>
     <string name="fast_open_dialog_ok">オンにする</string>
-    <string name="fast_open_noti_summary">%sさんがあなたに赤い封筒を送りました</string>
-    <string name="fast_open_summary">新しい赤い封筒の通知を受信すると、現在の操作が中断され、代わりに赤い封筒が表示されたアプリページが開きます</string>
+    <string name="fast_open_noti_summary">%sさんがあなたに紅包を送りました</string>
+    <string name="fast_open_summary">新しい紅包の通知を受信すると、現在の操作が中断され、代わりに紅包が表示されたアプリページが開きます</string>
     <string name="fcm_fallback_notification_channel_label">その他</string>
     <string name="file_confirm_start_activity">%sは、ギャラリーやソーシャルメディアアプリへのアクセスを許可されていません。このアプリは、このデバイスに保存されているファイルにアクセスしてアイテムを共有しようとしています。許可しますか？</string>
     <string name="finger_or_face_unlock">指紋認証または顔認証でロックを解除してください</string>
@@ -1981,9 +2069,9 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="first_aid_scanning_item4">バッテリーの問題を確認しています…</string>
     <string name="first_aid_scanning_item5">その他の問題を確認しています…</string>
     <string name="first_aid_stop_scan">スキャンを停止</string>
-    <string name="first_settings_default_camera_title">デフォルトでメタデータなしで共有</string>
+    <string name="first_settings_default_camera_title">メタデータを削除して共有</string>
     <string name="first_settings_default_location_subtitle">共有写真から位置情報を削除する</string>
-    <string name="first_settings_default_location_title">デフォルトでは位置情報なしで共有</string>
+    <string name="first_settings_default_location_title">位置情報を削除して共有</string>
     <string name="first_settings_share_enable">\"安全な共有\"バッジを追加</string>
     <string name="first_settings_share_enable_subtitle">WeChat で共有したアイテムにはバッジが表示されます</string>
     <string name="first_settings_subtitle">安全な共有オプションは以下の通りです。</string>
@@ -2113,6 +2201,7 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="gallery_confirm_start_activity">%sは、ギャラリーやソーシャルメディアアプリへのアクセスを許可されていません。このアプリは、このデバイスに保存されている画像にアクセスしてアイテムを共有しようとしています。許可しますか？</string>
     <string name="game_ad_recommendation">みんなが遊んでいるゲーム</string>
     <string name="game_anti_disturb_msg">ゲーム中の機能制限</string>
+    <string name="game_audio_label_international">ゲームオーディオ</string>
     <string name="game_balance_gpu_enhance_title">独立型GPUの強化</string>
     <string name="game_balance_more_setting_title">追加設定</string>
     <string name="game_balance_none_gpu_enhance_subtitle">強化されたビジュアル性能</string>
@@ -2137,14 +2226,14 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="game_more_improve">バックグラウンドアクティビティとダウンロード速度を制限し、バッテリーと帯域幅を節約し、ゲームプレイをスムーズにする</string>
     <string name="game_perf_config_audio_desc">ゲームのオーディオスタイルを調整する</string>
     <string name="game_perf_config_audio_title">ゲームオーディオ</string>
-    <string name="game_perf_config_display_desc_disabled">利用不可</string>
+    <string name="game_perf_config_display_desc_disabled">利用できません</string>
     <string name="game_perf_config_display_desc_enabled">解像度とフレームレートを調整する</string>
     <string name="game_perf_config_motion_desc">ゲームのタッチ感度を調整する</string>
     <string name="game_perf_config_network_desc">ネットワークの遅延とジッターを軽減</string>
-    <string name="game_perf_config_network_title">ネットワークスピードブースト</string>
+    <string name="game_perf_config_network_title">ネットワークパフォーマンスブースト</string>
     <string name="game_perf_config_strategy_diy">カスタム</string>
     <string name="game_perf_config_strategy_fps_first">フレームレート優先</string>
-    <string name="game_perf_config_strategy_picture_first">画質優先</string>
+    <string name="game_perf_config_strategy_picture_first">画像優先</string>
     <string name="game_perf_config_strategy_title">パフォーマンス戦略</string>
     <string name="game_performance_wild_mode">Wild Boost</string>
     <string name="game_performance_wild_mode_tips">"オンにするとデバイスのパフォーマンスが向上します
@@ -2154,9 +2243,9 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="game_toolbox_ai_qa_title">AI ガイド</string>
     <string name="game_toolbox_ai_service_desc">AI 強化のゲーム体験</string>
     <string name="game_toolbox_ai_service_title">AI ゲームサービス</string>
-    <string name="game_toolbox_ai_upgrade_dialog_btn">更新</string>
+    <string name="game_toolbox_ai_upgrade_dialog_btn">アップデート</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">AI ゲームサービスのアップデートが利用可能です。関連機能を使用する前にアップデートしてください。</string>
-    <string name="game_toolbox_ai_upgrade_dialog_title">アップデートを確認してください</string>
+    <string name="game_toolbox_ai_upgrade_dialog_title">アップデートを確認</string>
     <string name="game_toolbox_auto_brightness_talkback">自動明るさ調整</string>
     <string name="game_toolbox_btn_back_talkback">戻るボタン</string>
     <string name="game_toolbox_cellular_network">モバイルネットワークの速度向上</string>
@@ -2210,7 +2299,7 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="game_toolbox_immersion_sound_title">イマーシブサウンド</string>
     <string name="game_toolbox_item_joystick_key_mapping">コントローラーボタン</string>
     <string name="game_toolbox_margin_restrain_description">タッチ拒否範囲を設定して、誤タッチを減らす</string>
-    <string name="game_toolbox_mem_clean_desc">メモリ消去とスピードブースト</string>
+    <string name="game_toolbox_mem_clean_desc">メモリ消去とパフォーマンスブースト</string>
     <string name="game_toolbox_mem_clean_desc_new">システムメモリを解放</string>
     <string name="game_toolbox_memory">メモリ</string>
     <string name="game_toolbox_more_tools_title">その他のツール</string>
@@ -2297,12 +2386,14 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="gamebox_func_antimsg_open">フローティング通知は現在制限されています</string>
     <string name="gamebox_func_immersion_close">没入モードがオフになりました</string>
     <string name="gamebox_func_immersion_open">没入モードがオンになりました</string>
+    <string name="gamebox_func_start_gyroscope_international">この機能を使用するには、ゲームの設定でジャイロスコープをオンにしてください</string>
     <string name="gamebox_func_switch_simcard">データ用をSIMカード %1$dに切り替えました</string>
     <string name="gamebox_func_switch_simcard_immersion">没入モードではSIMカードを切り替えられません</string>
     <string name="gamebox_func_wlan_close">Wi-Fiはオフになっています</string>
     <string name="gamebox_func_wlan_open">Wi-Fiはオンになっています</string>
     <string name="gamebox_game_center_app_not_find">まず、ゲームをインストールしてください</string>
     <string name="gamebox_gift_pack">ギフト</string>
+    <string name="gamebox_gyroscope_acceleration_international">ジャイロブースト</string>
     <string name="gamebox_hangup">画面をオフにする</string>
     <string name="gamebox_hangup_new">画面をオフにする</string>
     <string name="gamebox_hangup_tips_content">この機能を使用すると、画面をオフにしても、ゲームをバックグラウンドで実行し続けることができます。デバイスのロックを解除すると、この機能は自動的にオフになります。</string>
@@ -2483,6 +2574,7 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="gb_game_macro_toast_tips">"コンボを試してみましょう！
 シーケンスを記録し、いつでも使用することができます。"</string>
     <string name="gb_game_mode_change_btn_right">再起動</string>
+    <string name="gb_game_mode_change_failed_toast">保存できませんでした</string>
     <string name="gb_game_mode_change_message">今すぐゲームを再起動して、変更を適用しますか？</string>
     <string name="gb_game_mode_change_new">ここでレイアウトを切り替えます</string>
     <string name="gb_game_mode_change_title">ゲームを再起動</string>
@@ -2525,13 +2617,16 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="gb_gpu_driver_update_app_tips">現在のバージョンは最新です</string>
     <string name="gb_have_signed">今日はチェックインしました</string>
     <string name="gb_hot_area_seekbar">ホットゾーン範囲</string>
+    <string name="gb_launch_mute_start">ミュート</string>
+    <string name="gb_launch_mute_start_enbaled_toast">サイレントモードがオンです。 (click)オフにする(/click)</string>
+    <string name="gb_launch_mute_start_unmuted_toast">ミュートを解除しました</string>
     <string name="gb_manual_record_dialog_del_video_message">選択したビデオを完全に削除しますか？</string>
     <string name="gb_manual_video_record_title">記録</string>
     <string name="gb_margin_restrain">エッジでの誤タッチを無視</string>
     <string name="gb_margin_restrain_description">タッチ拒否範囲を設定して、誤タッチを減らす</string>
     <string name="gb_margin_restrain_seekbar">誤タッチエリア</string>
-    <string name="gb_msg_completely_shielded">メッセージを隠す</string>
-    <string name="gb_msg_completely_shielded_summary">隠す</string>
+    <string name="gb_msg_completely_shielded">メッセージを非表示にする</string>
+    <string name="gb_msg_completely_shielded_summary">非表示にする</string>
     <string name="gb_msg_not_shielded_summary">表示</string>
     <string name="gb_msg_quickly_answer">クイック返信を許可</string>
     <string name="gb_msg_quickly_answer_summary">クイック返信</string>
@@ -2713,8 +2808,17 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="gd_app_edit_title_new">フローティングウィンドウのショートカットを編集</string>
     <string name="gd_beauty_manage_summary">この機能を使用するには、ビデオ通話中にサイドツールボックスから開いてください</string>
     <string name="gd_beauty_manage_title">ビデオ通話のビューティ</string>
+    <string name="gd_dock_preview_section_title">開き方</string>
+    <string name="gd_dock_preview_sidebar_title">インジケーターを内側にドラッグしてください</string>
+    <string name="gd_dock_preview_swipe_title">ドラッグして長押し</string>
     <string name="gd_dock_shortcut_fullscreen">全画面表示</string>
+    <string name="gd_dock_shortcut_multisplitscreen">マルチ分割画面</string>
     <string name="gd_dock_shortcut_splitescreen">画面分割</string>
+    <string name="gd_dock_swipe_launcher_upgrade_hint">現在のランチャーバージョンはドラッグ＆ホールドに対応していません</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_cancel">キャンセル</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_confirm">切り替える</string>
+    <string name="gd_dock_xiaoai_ball_dialog_content">ドラッグして長押しすると Xiaomi Hyper XiaoAi アクションバブルを開けます。サイドツールボックスに切り替えると、Xiaomi Hyper XiaoAi はオフになります。今すぐ切り替えますか？</string>
+    <string name="gd_dock_xiaoai_ball_dialog_title">アクティブ化方法の切り替え</string>
     <string name="gd_setting_conversation">会議ツール</string>
     <string name="gd_setting_conversation_desc">全画面表示での音声通話やビデオ通話で使用するための様々な機能を提供します</string>
     <string name="gd_setting_dock_activity_title">サイドツールボックス</string>
@@ -2768,6 +2872,7 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
 · インジケーターを長押しすると、ウィンドウを移動できます。"</string>
     <string name="global_dock_guide_desc_without_split_screen_new">"スワイプしてサイドバーを開き、アプリをタップしてフローティングウィンドウで開きます。
 インジケーターを長押しすると、ウィンドウが移動します。"</string>
+    <string name="global_dock_recommend_switch_title">サイドバーにおすすめのアプリを表示する</string>
     <string name="global_satisfaction_notification_button">評価</string>
     <string name="global_satisfaction_notification_channel">ユーザー満足度調査</string>
     <string name="global_satisfaction_notification_subhead">使用感についてぜひご評価ください</string>
@@ -2795,7 +2900,7 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="group_audio">音楽とオーディオ</string>
     <string name="group_clipboard">クリップボード</string>
     <string name="group_connect_device">相互接続性</string>
-    <string name="group_file">ファイルとドキュメント</string>
+    <string name="group_file">写真・動画・ファイル</string>
     <string name="group_file_less_t">ファイルとメディアへのアクセス</string>
     <string name="group_head_data_ai_clipboard">クリップボードの保護</string>
     <string name="group_head_data_camera_desc">オフにして、すべてのアプリのカメラへのアクセスを制限します</string>
@@ -2885,7 +2990,7 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="gtb_guide_gtb_community_title">コミュニティ</string>
     <string name="gtb_guide_gtb_func_desc">ゲームをステップアップ</string>
     <string name="gtb_guide_gtb_func_title">ゲームターボ</string>
-    <string name="gtb_guide_gtb_game_effected">適用済み</string>
+    <string name="gtb_guide_gtb_game_effected">適用中</string>
     <string name="gtb_guide_gtb_game_new">新着</string>
     <string name="gtb_guide_gtb_line_new">ゲームターボでパフォーマンスモードを体験しましょう！</string>
     <string name="gtb_guide_gtb_line_new_global">スワイプしてゲームターボを開きます</string>
@@ -2942,13 +3047,13 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="handle_title_app">アプリ</string>
     <string name="handle_title_details">バッテリー使用量の詳細</string>
     <string name="handle_title_network">Wi-Fiセキュリティ</string>
-    <string name="handle_title_pay_env">決済時のセキュリティ</string>
+    <string name="handle_title_pay_env">決済環境</string>
     <string name="handle_title_privacy">プライバシーとセキュリティ</string>
     <string name="handle_title_system">システムのバッテリー使用量</string>
     <string name="hide_mode_app_background_setting_text">アプリバッテリーセーバー</string>
     <string name="hide_mode_result_summary_text">アプリごとにバッテリーセーバーの設定をカスタマイズする</string>
     <string name="hide_mode_summary_text">アプリのバックグラウンドアクティビティを管理してバッテリーを節約する</string>
-    <string name="hide_system_app">システムアプリを隠す</string>
+    <string name="hide_system_app">システムアプリを非表示にする</string>
     <string name="hint_antispam_mode_edit">カスタムモード</string>
     <string name="hints_handle_item_text_virus">危険</string>
     <string name="hints_input_roaming_daily_limit">データ使用量の上限を入力</string>
@@ -2967,8 +3072,8 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="hints_virus_app_summary">%s (アプリ)</string>
     <string name="hints_virus_lib_update_default_summary">最終アップデート日時は不明です</string>
     <string name="hongbao_cancel">キャンセル</string>
-    <string name="hongbao_message_slogon">今日は幸運な日です</string>
-    <string name="hongbao_name">赤い封筒アシスタント</string>
+    <string name="hongbao_message_slogon">今日はラッキーな日です</string>
+    <string name="hongbao_name">紅包アシスタント</string>
     <string name="hot">人気</string>
     <string name="hot_today">今日の人気</string>
     <string name="how_to_modify_risk_app_permission">手順</string>
@@ -3009,6 +3114,9 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="install_title">USB経由でインストール</string>
     <string name="install_type_instant">インスタントアプリ</string>
     <string name="installing">インストール中</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">%sを含む複数のアプリがアクセシビリティ権限を悪用しています</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">このアプリはアクセシビリティ権限を悪用しています。タップして表示します。</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">ブロックされた悪意のあるアプリ%s</string>
     <string name="intercept_all_mark_calls">「%s」とラベル付けされたすべての通話をブロックしますか？</string>
     <string name="intercept_calls_nofify_hide_text">他のラベル付き番号のブロック設定を行うには、ここをタップしてください</string>
     <string name="intercept_calls_notify_title">このラベルが付いた通話は自動的に終了します。今すぐブロックしますか？</string>
@@ -3133,10 +3241,10 @@ Xiaomiは、地震速報情報の正確性、有効性、適時性を約束ま�
     <string name="low_temperature_warning_message">気温が低すぎるため、スマートフォンが予期せずシャットダウンする可能性があります。重要な変更はすべて保存してください。</string>
     <string name="low_temperature_warning_title">低温通知</string>
     <string name="lucky_assistant_description">"Xiaomi提供
-WeChatとQQ用の赤い封筒アシスタント
+WeChatとQQ用の紅包アシスタント
 ブロックされたグループや、PCでDNDソフトウェアを使用している場合、リマインダーはサポートされません"</string>
     <string name="lucky_money_close">閉じる</string>
-    <string name="lucky_money_group_summary">グループ内で送られた赤い封筒のリマインダーのみ受信します。通知を減らすことをお勧めします。</string>
+    <string name="lucky_money_group_summary">グループ内で送られた紅包のリマインダーのみ受信します。通知を減らすことをお勧めします。</string>
     <string name="lucky_sound_mode_lucky">ラッキー</string>
     <string name="lucky_sound_warn">音声リマインダー</string>
     <string name="main_activity_content_summary_root">ルートアクセス</string>
@@ -3364,8 +3472,8 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
-    <string name="menu_text_optimize_manage">スピードブースト</string>
-    <string name="menu_text_optimize_manage_1">スピードブースト</string>
+    <string name="menu_text_optimize_manage">パフォーマンスブースト</string>
+    <string name="menu_text_optimize_manage_1">パフォーマンスブースト</string>
     <string name="menu_text_power_manager">バッテリー</string>
     <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">例外から削除</string>
@@ -3420,6 +3528,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">半画面に切り替える</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">最大化</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">最小化</string>
+    <string name="miuix_popup_show_description">ポップアップウィンドウ</string>
     <string name="miuix_popup_window_default_title">ポップアップウィンドウ</string>
     <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
@@ -3635,7 +3744,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="nickname">ニックネーム</string>
     <string name="night">夜</string>
     <string name="no_game">ゲームが見つかりませんでした</string>
-    <string name="no_lucky_money">まだ赤い封筒を受け取っていません</string>
+    <string name="no_lucky_money">まだ紅包を受け取っていません</string>
     <string name="no_open">今はしない</string>
     <string name="no_privacy_permission">プライバシーポリシーへの同意は不要</string>
     <string name="no_sim_card_by_tips">通話料金残高やデータ使用量の警告を設定するには、まずSIMカードを挿入してください。</string>
@@ -3661,6 +3770,8 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="notification_abnormal_check_now_button">表示</string>
     <string name="notification_abnormal_consume_app_title">%sがバッテリーを消耗しています</string>
     <string name="notification_abnormal_consume_cpu">バックグラウンドでCPUリソースが乱用されています</string>
+    <string name="notification_abnormal_consume_high_drain_app_title">%s がバッテリーを消耗しています</string>
+    <string name="notification_abnormal_consume_high_drain_subtitle">バックグラウンドでのバッテリー使用量が多くなっています</string>
     <string name="notification_abnormal_consume_wakelock">システムはバックグラウンドで起動状態に保たれています</string>
     <string name="notification_antivirus_button_text">スキャン</string>
     <string name="notification_antivirus_message">今すぐスキャンしてリスクを中和してください</string>
@@ -3708,7 +3819,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="notification_low_storage_size_1_gb_hint">ストレージ容量を解放するとデバイスの速度を改善できます</string>
     <string name="notification_low_storage_size_1p5_gb_hint">ゴミを消去するとデバイスの速度が向上します</string>
     <string name="notification_mask_summary">保護されたアプリの通知内容を表示しない</string>
-    <string name="notification_mask_title">通知内容を隠す</string>
+    <string name="notification_mask_title">通知内容を非表示にする</string>
     <string name="notification_masked_item">通知内容を非表示にしたいですか？</string>
     <string name="notification_masked_subtitle">アプリロックで非表示にすることができます</string>
     <string name="notification_optimize_button_text">消去</string>
@@ -3748,7 +3859,10 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="notify_weekly_traffic_title_for_slotnum">今週 %1$sは %2$s 使用しました</string>
     <string name="now_inquiry">詳細</string>
     <string name="number_address">場所</string>
-    <string name="number_of_lucky_money">あなたが思い出した赤い封筒</string>
+    <string name="number_locked_v2">{count, plural, =0 {0 個のアプリがロックされています} other {# 個のアプリがロックされています} }</string>
+    <string name="number_masked_v2">{count, plural, =0 {0個のアプリ} other {#個のアプリ} }</string>
+    <string name="number_of_lucky_money">あなたが思い出した紅包</string>
+    <string name="number_to_lock_v2">{count, plural, =0 {0 個のアプリはロックされていません} other {# 個のアプリはロックされていません} }</string>
     <string name="numeric_need_to_confirm">再度入力して確定してください</string>
     <string name="numeric_password_confirmed_header_confirm">正常に設定されました。タップして確認してください。</string>
     <string name="numeric_password_confirmed_header_continue">正常に設定されました。\"次へ\"をタップしてください。</string>
@@ -3770,7 +3884,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="om_locked_apps_summary">ロックしたアプリは、スピードブーストにより無視されます。</string>
     <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">スピードブーストが必要です</string>
-    <string name="om_optimzing_big_button_text">スピードブースト</string>
+    <string name="om_optimzing_big_button_text">パフォーマンスブースト</string>
     <string name="om_running_app_info_summary">%sを解放</string>
     <string name="om_running_locked_apps">ロックした実行中のアプリ</string>
     <string name="om_running_system_apps">実行中のシステムアプリ</string>
@@ -3780,7 +3894,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="om_settings_lock_app">アプリをロック</string>
     <string name="om_settings_lock_app_manage">アプリをロック</string>
     <string name="om_settings_memocy_occupy_too_large_summary">キャッシュサイズが大きすぎる時は通知する</string>
-    <string name="om_settings_memory_clean_lock_screen">デバイスのロック時にキャッシュを消去する</string>
+    <string name="om_settings_memory_clean_lock_screen">画面ロック時にキャッシュを削除</string>
     <string name="om_settings_memory_occupy_notify">キャッシュサイズが大きいです</string>
     <string name="om_settings_memory_occupy_notify_never">しない</string>
     <string name="om_settings_notify_manage">通知</string>
@@ -3797,14 +3911,22 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="open_activity_err">アプリケーションが見つかりませんでした</string>
     <string name="open_app">開く</string>
     <string name="open_applock">アプリロックをオンにする</string>
+    <string name="open_applock_calling_tips">アプリをロックし、起動時に本人確認を行ってください。アプリロックには2種類のパスワードがあり、生体認証に対応しています。</string>
+    <string name="open_applock_calling_title">アプリロック</string>
     <string name="open_applock_password_type">パスワードの種類</string>
+    <string name="open_applock_tip_item1_sub_title">プライバシー保護パスワードまたはロック画面パスワードを使用</string>
+    <string name="open_applock_tip_item1_title">2種類のパスワード</string>
+    <string name="open_applock_tip_item2_sub_title">指紋または顔データでアプリのロックを解除</string>
+    <string name="open_applock_tip_item2_title">生体認証</string>
+    <string name="open_applock_tip_item3_sub_title">画面をロックした後、設定した時間の後、またはアプリを終了した後に認証を要求するように選択します</string>
+    <string name="open_applock_tip_item3_title">カスタム認証タイミング</string>
     <string name="open_applock_tips">アプリをロックし、起動時に本人確認を行ってください。アプリロックには2種類のパスワードタイプがあり、生体認証をサポートしています。</string>
     <string name="open_callwait">オン</string>
     <string name="open_dnd_mode">DND モード</string>
     <string name="open_dnd_mode_summary">一定期間、リマインダーをサイレントにする</string>
     <string name="open_extreme_power_save_mode_title">エクストリームバッテリーセーバーをオンにする</string>
     <string name="open_fast_open_mode">クイックオープンモード</string>
-    <string name="open_fast_open_mode_summary">新しい赤い封筒の通知を受け取ると、赤い封筒が表示されているアプリページが自動的に開きます</string>
+    <string name="open_fast_open_mode_summary">新しい紅包の通知を受け取ると、紅包が表示されているアプリページが自動的に開きます</string>
     <string name="open_game">開く</string>
     <string name="open_lucky">オンにする</string>
     <string name="open_now">アプリにモバイルデータを使用させます</string>
@@ -3825,9 +3947,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">悪意のあるアプリの使用はセキュリティリスクをもたらします</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%sは悪意のあるアプリである可能性があります</string>
-    <string name="optimize_manage_title">スピードブースト</string>
+    <string name="optimize_manage_title">パフォーマンスブースト</string>
     <string name="optimize_result_available_memory_info">使用可能メモリ</string>
     <string name="optimize_result_button_cloudspace">クラウドストレージ容量を増やす</string>
     <string name="optimize_result_button_consume_power_analysis">バッテリーをスキャン</string>
@@ -3879,6 +3999,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="overlay_permission_dialog_message_security_service">セキュリティが正常に動作するには特定の権限が必要です。</string>
     <string name="overlay_permission_dialog_open">設定</string>
     <string name="overlay_permission_dialog_title">アクセス許可が必要です</string>
+    <string name="overlay_read_clip_toast">「%1$s」がクリップボードにアクセスしました</string>
     <string name="package_change_notification_summary">もっと見る</string>
     <string name="package_change_notification_title">自動的にデータ使用量の制限を調整</string>
     <string name="package_setted_error_notification_summary">タップすると、データ使用量の詳細が表示されます。</string>
@@ -3910,6 +4031,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="pb_abnormal_header_time">時刻</string>
     <string name="pb_abnormal_header_type">種類</string>
     <string name="pb_abnormal_header_value">値</string>
+    <string name="pb_abnormal_idle_high_temp">アイドル時の発熱</string>
     <string name="pb_abnormal_loading">お待ちください…</string>
     <string name="pb_abnormal_record">履歴</string>
     <string name="pb_activity_title">モバイルバッテリーの詳細</string>
@@ -3921,6 +4043,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="pb_data_fetch_all_error">データを読み取れませんでした。モバイルバッテリーが接続されていないか、サポートされていない可能性があります。</string>
     <string name="pb_data_fetch_all_error_new">データを読めませんでした。モバイルバッテリーが接続されていないかサポートされていない可能性があります。接続されていない場合は充電ケーブルを接続し直し、もう一度お試しください。</string>
     <string name="pb_data_fetch_partial_error">遅延のため、またはサポートされていないモバイルバッテリーのため、一部のアイテムはご利用いただけません</string>
+    <string name="pb_data_fetch_partial_error_new">遅延のため、またはサポートされていないモバイルバッテリーのため、一部のアイテムはご利用いただけません</string>
     <string name="pb_manufacturer">メーカー</string>
     <string name="pb_measure_point">センサー %1$d</string>
     <string name="pb_production_date">製造日</string>
@@ -4238,6 +4361,210 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="pc_work_in_super_save_mode">ウルトラバッテリーセーバー</string>
     <string name="pc_xiaoai_create_auto_task">Mi AI からの新しいタスク</string>
     <string name="pc_xiaoai_voice_control_close">Mi AI の \"音声でスリープ解除\"をオフにする</string>
+    <string name="peep_protection_ai_key_disabled">プライバシー表示がオフです</string>
+    <string name="peep_protection_ai_key_enabled">プライバシー表示がオンです</string>
+    <string name="peep_protection_v2_app_notification_protection">通知</string>
+    <string name="peep_protection_v2_app_notification_protection_desc">選択したアプリから通知があると、プライバシー表示が有効になります</string>
+    <string name="peep_protection_v2_app_protection_desc">選択したアプリでプライバシー表示をオンにする</string>
+    <string name="peep_protection_v2_banner_summary">このデバイスモデル専用のプライバシー表示機能をお試しください</string>
+    <string name="peep_protection_v2_banner_title">Xiaomi プライバシー表示</string>
+    <string name="peep_protection_v2_batch_disable">オフにする</string>
+    <string name="peep_protection_v2_batch_enable">オンにする</string>
+    <string name="peep_protection_v2_category_capability">機能</string>
+    <string name="peep_protection_v2_category_capability_v2">視線の検出</string>
+    <string name="peep_protection_v2_category_finance">ファイナンス</string>
+    <string name="peep_protection_v2_category_group_title_v2">%1$s (%2$d)</string>
+    <string name="peep_protection_v2_category_other">その他</string>
+    <string name="peep_protection_v2_category_recommend">おすすめ</string>
+    <string name="peep_protection_v2_category_scene">シナリオ</string>
+    <string name="peep_protection_v2_category_scene_v2">画面</string>
+    <string name="peep_protection_v2_category_smart">スマート</string>
+    <string name="peep_protection_v2_category_social">ソーシャルネットワーク</string>
+    <string name="peep_protection_v2_category_suggest">おすすめ</string>
+    <string name="peep_protection_v2_category_tip_dismiss">今はしない</string>
+    <string name="peep_protection_v2_category_tip_message">Xiaomi Hyper XiaoAi は、パーソナライズされたアプリグループの作成を支援します。たとえば、ギャラリー、パスワード、メモを「地下鉄」というプライバシー表示グループに追加できます。 アプリをどのようにグループ化するか、その他のスマートアクティベーションルールを追加するかを Xiaomi Hyper XiaoAi に指示することもできます。</string>
+    <string name="peep_protection_v2_category_tip_prompt">プライバシー表示アプリグループを作成してください。%1$sをこのグループに追加し、「プライベート」に設定すると、これらのアプリでプライバシー表示を有効にできます。</string>
+    <string name="peep_protection_v2_category_tip_title">自分のグループを作成する</string>
+    <string name="peep_protection_v2_color_inversion_closed_msg">色反転使用時はこの機能を使用できません。Xiaomi プライバシー表示はオフです。</string>
+    <string name="peep_protection_v2_color_inversion_closed_reopen">オンにする</string>
+    <string name="peep_protection_v2_color_inversion_closed_title">Xiaomi プライバシー表示がオフになりました</string>
+    <string name="peep_protection_v2_color_inversion_conflict_msg">色反転使用時はこの機能を使用できません。まず、色反転をオフにしてください。</string>
+    <string name="peep_protection_v2_color_inversion_conflict_title">色反転をオフにする</string>
+    <string name="peep_protection_v2_cue_byapp_reason">このアプリでプライバシー表示をオンにする</string>
+    <string name="peep_protection_v2_cue_byapp_title">%s でプライバシー表示をオンにする</string>
+    <string name="peep_protection_v2_cue_global_reason">このデバイスモデル専用のプライバシー機能をお試しください</string>
+    <string name="peep_protection_v2_cue_global_title">Xiaomi プライバシー表示をオンにする</string>
+    <string name="peep_protection_v2_cue_summary">この機能は、このデバイス モデル専用です</string>
+    <string name="peep_protection_v2_deep_mode">強化プライバシー</string>
+    <string name="peep_protection_v2_deep_mode_desc">画面を他人に見づらくしましょう</string>
+    <string name="peep_protection_v2_expert_mode_hint">* Xiaomi Hyper XiaoAi をプロモードに切り替える必要があります</string>
+    <string name="peep_protection_v2_face_need_input_hint">顔データが必要です</string>
+    <string name="peep_protection_v2_first_close_message">[コントロールセンター] > [編集] > [システムトグル] に Xiaomi プライバシー表示を追加すると、素早くオン・オフできます。</string>
+    <string name="peep_protection_v2_first_close_title">Xiaomi プライバシー表示を素早くオンにします</string>
+    <string name="peep_protection_v2_first_close_title_v2">トグル</string>
+    <string name="peep_protection_v2_global_first_open_msg">[コントロールセンター] > [編集] > [システムトグル] に全画面プライバシーを追加すると、素早くオン・オフできます。</string>
+    <string name="peep_protection_v2_global_first_open_title">全画面プライバシーを素早くオンにする</string>
+    <string name="peep_protection_v2_global_hint">全画面プライバシーがオンのときは、他人の視線を検出できません</string>
+    <string name="peep_protection_v2_global_no_aon_hint">バッテリーを節約するため、全画面プライバシーがオンのときは、他人の視線を検出しません</string>
+    <string name="peep_protection_v2_global_protection">全画面プライバシー</string>
+    <string name="peep_protection_v2_global_protection_desc">デバイス上の複数シナリオでプライバシー表示を使用します</string>
+    <string name="peep_protection_v2_global_protection_desc_v2">デバイス全体でプライバシー表示がオンになります</string>
+    <string name="peep_protection_v2_go_miclaw">Xiaomi Hyper XiaoAi を開く</string>
+    <string name="peep_protection_v2_header_desc_v2">横からの角度では画面を見づらくします。他人の視線を検出すると、デバイスが通知を表示します。(click) もっと詳しく知る (/click)</string>
+    <string name="peep_protection_v2_intro_detection_desc">Xiaomi Hyper XiaoAi でこの機能のスマートルールを設定します</string>
+    <string name="peep_protection_v2_intro_enable">オンにする</string>
+    <string name="peep_protection_v2_intro_pixel_desc">画面の視野角を狭くして、他人の視線を検出します</string>
+    <string name="peep_protection_v2_intro_pixel_title">ハードウェアレベルのプライバシー</string>
+    <string name="peep_protection_v2_intro_privacy_tip">画面を横から見にくくし、他人の視線を常時検出してアラートを出力します</string>
+    <string name="peep_protection_v2_intro_scope_desc_global">特定のアプリと通知を選択するか、デバイス全体に対してこの機能を使用します</string>
+    <string name="peep_protection_v2_intro_smart_page_desc">特定のアプリ、ページ、通知を選択するか、デバイス全体に対してこの機能を使用します</string>
+    <string name="peep_protection_v2_intro_smart_page_title">複数のシナリオ</string>
+    <string name="peep_protection_v2_learn_more">さらに詳しく</string>
+    <string name="peep_protection_v2_learn_more_limits_desc">"この機能は消費電力をわずかに増加させます。バッテリーセーバーがオンの場合、バッテリーを節約するためにこの機能は一時的にオフになります。
+HDR コンテンツをプレビューする場合、表示品質を確保するためプライバシー表示を一時停止します。
+プライバシー表示は横向きモードで一時停止し、縦向きモードに戻ると自動的に再開します。
+一部のサードパーティ製テーマは、ロック画面における通知のプライバシー表示をサポートしていません。
+場所への到着や出発の検出に遅れが生じることがあります。"</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global">"この機能は消費電力をわずかに増加させます。バッテリーセーバーがオンの場合、バッテリーを節約するためにこの機能は一時的にオフになります。
+HDR コンテンツをプレビューする場合、表示品質を確保するためプライバシー表示を一時停止します。
+プライバシー表示は横向きモードで一時停止し、縦向きモードに戻ると自動的に再開します。
+一部のサードパーティ製テーマは、ロック画面における通知のプライバシー表示をサポートしていません。"</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global_hdr">"この機能は消費電力をわずかに増加させます。バッテリーセーバーがオンの場合、バッテリーを節約するためにこの機能は一時的にオフになります。
+HDR コンテンツをプレビューする場合、表示品質を確保するためプライバシー表示を一時停止します。
+プライバシー表示は横向きモードで一時停止し、縦向きモードに戻ると自動的に再開します。
+一部のサードパーティ製テーマは、ロック画面における通知のプライバシー表示をサポートしていません。"</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_hdr">"この機能は消費電力をわずかに増加させます。バッテリーセーバーがオンの場合、バッテリーを節約するためにこの機能は一時的にオフになります。
+HDR コンテンツをプレビューする場合、表示品質を確保するためプライバシー表示を一時停止します。
+プライバシー表示は横向きモードで一時停止し、縦向きモードに戻ると自動的に再開します。
+一部のサードパーティ製テーマは、ロック画面における通知のプライバシー表示をサポートしていません。
+場所への到着や出発の検出に遅れが生じることがあります。"</string>
+    <string name="peep_protection_v2_learn_more_limits_title">制限と特殊なケース</string>
+    <string name="peep_protection_v2_learn_more_privacy_desc">"この機能をオンにすると、デバイスはフロントカメラを使用して画像をキャプチャし、視線の検出が有効なときに顔または視線方向をローカルで検出します。これは、他人が画面を見ていることを認識し、警告するためです。
+すべてのデータはデバイス内で処理され、Xiaomi Cloud やサードパーティのクラウドサービスにはアップロードされません。"</string>
+    <string name="peep_protection_v2_learn_more_privacy_title">プライバシーに関する声明</string>
+    <string name="peep_protection_v2_learn_more_scope_desc">"Xiaomi プライバシー表示の動作を、デバイス全体、選択したアプリ、他人に見られたくないページ、通知から選択できます。
+
+全画面プライバシー:
+プライバシー表示をデバイス全体で有効にして、表示されるすべての情報を保護します。この機能をオンにすると、他人の視線は検出されません。
+
+選択したアプリ:
+保護するアプリを選択します。それらのアプリが画面に表示されると、Xiaomi プライバシー表示は斜めからの視認性を低下させ、他人の視線を検出します。
+
+機密性の高いページ:
+アプリがリストに追加されていない場合でも、Xiaomi プライバシー表示がパスワード入力、支払い、振込、メッセージなど他人に見られたくないページで自動的にオンになります。
+
+アプリの通知:
+他人に見られたくない情報が見られるのを防ぐため、選択したアプリからの通知を部分的なプライバシー保護で表示します。"</string>
+    <string name="peep_protection_v2_learn_more_scope_desc_global">"Xiaomi プライバシー表示の動作を、デバイス全体、選択したアプリ、通知から選択できます。
+
+全画面プライバシー:
+プライバシー表示をデバイス全体で有効にして、表示されるすべての情報を保護します。この機能をオンにすると、他人の視線は検出されません。
+
+選択したアプリ:
+保護するアプリを選択します。それらのアプリが画面に表示されると、Xiaomi プライバシー表示は斜めからの視認性を低下させ、他人の視線を検出します。
+
+アプリの通知:
+他人に見られたくない情報が見られるのを防ぐため、選択したアプリからの通知を部分的なプライバシー保護で表示します。"</string>
+    <string name="peep_protection_v2_learn_more_scope_title">プライバシー表示の範囲</string>
+    <string name="peep_protection_v2_learn_more_smart_desc">AI アシスタントを使用すると、プライバシー表示するアプリのグループを作成・管理したり、公共の場所で全画面プライバシーを自動的にオンにしたり、指定したグループを自動的にオンにしたりできます。また、プライバシー表示の範囲とトリガールールを調整して、習慣に合わせてカスタマイズすることもできます。</string>
+    <string name="peep_protection_v2_learn_more_smart_title">カスタムルール</string>
+    <string name="peep_protection_v2_learn_more_understand_desc">"Xiaomi プライバシー表示は、斜めからの視認性を低下させ、それにプライバシーに関する通知を組み合わせることで、斜め方向の表示と狭い角度で近い位置の視線から保護し、より完全にプライバシーを保護します。
+
+斜めからの視認性低減:
+ピクセルレベルのスクリーンライト制御で、角度が少し斜めになると画面の内容が見えづらくなります。これにより、他人が個人情報を見る可能性を減らします。
+
+プライバシーに関する通知:
+斜めからの視認性低下を補う機能として、本人以外の人物を後方または別の狭い角度内に検出した場合に警告を発します。"</string>
+    <string name="peep_protection_v2_learn_more_understand_title">Xiaomi プライバシー表示について</string>
+    <string name="peep_protection_v2_main_body">側面からの画面の視認性が下げます。また、他人がユーザーの画面を見ているか確認し、他人の視線を検出すると警告します。(click) もっと詳しく知る (/click)</string>
+    <string name="peep_protection_v2_main_desc">他人の視線から画面を保護します</string>
+    <string name="peep_protection_v2_main_switch">Xiaomi プライバシー表示</string>
+    <string name="peep_protection_v2_main_switch_desc">プライバシー表示を使用して、他人の視線を検出します</string>
+    <string name="peep_protection_v2_main_switch_desc_v2">選択したシナリオに基づいて、デバイスがプライバシー表示を有効にすることを許可します</string>
+    <string name="peep_protection_v2_main_switch_title_v2">Xiaomi プライバシー表示</string>
+    <string name="peep_protection_v2_main_tile_label">Xiaomi プライバシー表示</string>
+    <string name="peep_protection_v2_move_app_title_v2">%s を移動:</string>
+    <string name="peep_protection_v2_move_app_to_category">%s をグループに移動します</string>
+    <string name="peep_protection_v2_notification_protection">通知プライバシー表示</string>
+    <string name="peep_protection_v2_notification_protection_desc">選択したアプリから通知があると、プライバシー表示が有効になります</string>
+    <string name="peep_protection_v2_notification_protection_desc_v2">選択したアプリからの通知は、プライバシーを一部保護した状態で表示されます</string>
+    <string name="peep_protection_v2_notify_type_desc">他人の視線を検出すると警告します</string>
+    <string name="peep_protection_v2_notify_type_title">プライバシーに関する通知</string>
+    <string name="peep_protection_v2_page_detail_category_title">このアプリの以下のページは、プライバシー表示によって保護されています</string>
+    <string name="peep_protection_v2_page_protection_desc">特定のページでプライバシー表示をオンにする</string>
+    <string name="peep_protection_v2_peep_detection_desc_v2">視線を検出してアラートを出力します</string>
+    <string name="peep_protection_v2_peep_island_action_dismiss_v2">無視</string>
+    <string name="peep_protection_v2_peep_island_subtitle_v2">今後通知しない</string>
+    <string name="peep_protection_v2_privacy_statement">この機能は、顔データを使用して視線を検出します。すべてのデータはデバイス上で処理され、外部に共有されることはありません。</string>
+    <string name="peep_protection_v2_recommend_title">おすすめのアプリ</string>
+    <string name="peep_protection_v2_search_app">アプリのプライバシー表示;アプリのプライバシー表示;選択したアプリ</string>
+    <string name="peep_protection_v2_search_empty_hint">検索結果はここに表示されます</string>
+    <string name="peep_protection_v2_search_global">全画面プライバシー;フルスクリーン</string>
+    <string name="peep_protection_v2_search_hint">アプリを検索</string>
+    <string name="peep_protection_v2_search_keywords_1">プライバシー表示</string>
+    <string name="peep_protection_v2_search_keywords_2">ピクセル</string>
+    <string name="peep_protection_v2_search_keywords_3">視線</string>
+    <string name="peep_protection_v2_search_no_result">該当結果が見つかりませんでした</string>
+    <string name="peep_protection_v2_search_notification">通知プライバシー表示;通知のプライバシー表示;アプリの通知</string>
+    <string name="peep_protection_v2_search_notify_type">プライバシーに関する通知;視線を検出;プライバシー保護;視線アラート</string>
+    <string name="peep_protection_v2_search_page">ページプライバシー表示;ページのプライバシー表示</string>
+    <string name="peep_protection_v2_search_smart_enable">スマートアクティベーション;自動プライバシー表示</string>
+    <string name="peep_protection_v2_select_apps">選択したアプリ</string>
+    <string name="peep_protection_v2_select_apps_category_tip">(click)Xiaomi Hyper XiaoAi(/click) でプライバシー表示アプリグループを作成、管理、削除、名前を変更できます</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">Xiaomi Hyper XiaoAi のプロモードでは、プライバシー表示アプリカテゴリを作成、管理、削除、または名前変更できます</string>
+    <string name="peep_protection_v2_smart_enable">スマートアクティベーション</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_desc">Xiaomi Hyper XiaoAi では、頻繁に訪れる場所を基にしたプライバシー表示ルールを作成できます。指定した場所に到着すると、自動でプライバシー表示がオンまたはオフになります。</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_title">スマート ルールの作成</string>
+    <string name="peep_protection_v2_smart_enable_desc_v2">位置情報を基にしたプライバシー表示ルールを作成する</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint">まだルールがありません。Xiaomi Hyper XiaoAi で位置情報を基にしたスマートアクティベーションルールを作成してください。</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">まだルールがありません。(click)Xiaomi Hyper XiaoAi (click)で位置情報を基にしたスマートアクティベーションルールを作成してください。</string>
+    <string name="peep_protection_v2_smart_enable_page_desc">(click)Xiaomi Hyper XiaoAi(/click) では、地下鉄に乗っているときに自動で全画面プライバシー表示をオンにするなど、位置情報を基にしたスマートルールを設定できます。指定した場所に到着すると、ルールに基づきプライバシー表示がオンになります。</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">Xiaomi Hyper XiaoAi のプロモードでは、「地下鉄に乗っているときは自動で全画面プライバシーをオンにする」など、位置情報を基にしたスマート有効化ルールを設定できます。指定した場所に到着すると、ルールに基づいたプライバシー表示がオンになります。</string>
+    <string name="peep_protection_v2_smart_enable_prompt">プライバシー表示ルールの作成を手伝ってください: 地下鉄やカフェでよくスマートフォンを使用します。これらのシナリオのルールを作成し、これらの場所に到着したら、ソーシャルネットワークとファイナンスグループのプライバシー表示を自動でオンにしてください。</string>
+    <string name="peep_protection_v2_smart_enable_prompt_copied">正常にコピーされました</string>
+    <string name="peep_protection_v2_smart_enable_sio_unavailable">この機能を使用するには、アクセス権限を付与してください</string>
+    <string name="peep_protection_v2_smart_enable_switch_desc">シナリオを特定し、自動でプライバシー表示をオンまたはオフにします</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip">Wi-Fiをオンのままにすると、スマートルールをより正確にトリガーできます。Wi-Fiがオフの場合、一部の場所の認識が遅延したり、認識されなかったりする場合があります。</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip_china">WLANをオンのままにすると、スマートルールをより正確にトリガーできます。WLANがオフの場合、一部の場所の認識が遅延したり、認識されなかったりする場合があります。</string>
+    <string name="peep_protection_v2_smart_page_active_list">次のアプリの特定のページは保護されています</string>
+    <string name="peep_protection_v2_smart_page_header_title">他人には見せたくない性質のページで自動的に有効にする</string>
+    <string name="peep_protection_v2_smart_page_intro">一部のアプリを追加し忘れても、パスワード入力、支払い、振込、メッセージなどの他人には見せたくない性質のページを開くと、プライバシー表示が自動的にオンになります。</string>
+    <string name="peep_protection_v2_smart_page_switch_title">ページプライバシー表示</string>
+    <string name="peep_protection_v2_status_off">オフ</string>
+    <string name="peep_protection_v2_status_on">オン</string>
+    <string name="peep_protection_v2_strategy_action_disable_category">%s でプライバシー表示をオフにする</string>
+    <string name="peep_protection_v2_strategy_action_disable_deep">強化プライバシーをオフにする</string>
+    <string name="peep_protection_v2_strategy_action_disable_default">プライバシー表示をオフにする</string>
+    <string name="peep_protection_v2_strategy_action_disable_global">全画面プライバシーをオフにする</string>
+    <string name="peep_protection_v2_strategy_action_disable_target">%s でプライバシー表示をオフにする</string>
+    <string name="peep_protection_v2_strategy_action_enable_category">%s でプライバシー表示をオンにする</string>
+    <string name="peep_protection_v2_strategy_action_enable_deep">強化プライバシーをオンにする</string>
+    <string name="peep_protection_v2_strategy_action_enable_default">プライバシー表示をオンにする</string>
+    <string name="peep_protection_v2_strategy_action_enable_global">全画面プライバシーをオンにする</string>
+    <string name="peep_protection_v2_strategy_action_enable_target">%s でプライバシー表示をオンにする</string>
+    <string name="peep_protection_v2_strategy_action_fallback">Peep protection</string>
+    <string name="peep_protection_v2_strategy_action_separator_leave">; on leave</string>
+    <string name="peep_protection_v2_strategy_arrive_condition">%1$s に着いたら</string>
+    <string name="peep_protection_v2_strategy_auto_desc">Arrive at %1$s, auto %2$s</string>
+    <string name="peep_protection_v2_strategy_auto_title">%1$s: %2$s</string>
+    <string name="peep_protection_v2_strategy_delete">削除</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_msg">このルールを完全に削除しますか？</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_title">このルールを削除しますか？</string>
+    <string name="peep_protection_v2_strategy_detail_title">スマートルール</string>
+    <string name="peep_protection_v2_strategy_edit_desc_hint">説明</string>
+    <string name="peep_protection_v2_strategy_edit_main_title_hint">タイトル</string>
+    <string name="peep_protection_v2_strategy_edit_title">編集</string>
+    <string name="peep_protection_v2_strategy_edit_title_hint">Enter new strategy name</string>
+    <string name="peep_protection_v2_strategy_edit_title_v2">タイトルを編集</string>
+    <string name="peep_protection_v2_strategy_go_miclaw">ルールの調整</string>
+    <string name="peep_protection_v2_strategy_leave_condition">%1$s を離れたら</string>
+    <string name="peep_protection_v2_strategy_notify_on_trigger">プライバシー表示がオンの場合に通知する</string>
+    <string name="peep_protection_v2_strategy_prompt_copied">正常にコピーされました</string>
+    <string name="peep_protection_v2_strategy_prompt_template">「%1$s」のプライバシー表示ルール変更と設定の調整を手伝ってください。</string>
+    <string name="peep_protection_v2_strategy_unknown_location">Unknown location</string>
+    <string name="peep_protection_v2_thermal_paused_toast">デバイスの温度が下がったらプライバシーに関する通知を再開します</string>
+    <string name="peep_protection_v2_tile_label">全画面プライバシー</string>
+    <string name="peep_protection_v2_title">Xiaomi プライバシー表示</string>
     <string name="per_month_pkg_traffic_settings">データ上限を設定</string>
     <string name="percent_formatted_text">%s%%</string>
     <string name="percent_text_formatted">%s%%</string>
@@ -4265,14 +4592,14 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="permdesc_out_calls">発信通話の監視</string>
     <string name="permgroupdesc_calendar">カレンダーのイベントにアクセス</string>
     <string name="permgroupdesc_calllog">通話履歴へのアクセスとアイテムの保存</string>
-    <string name="permgroupdesc_camera">写真の撮影とビデオの録画</string>
+    <string name="permgroupdesc_camera">写真撮影および動画録画</string>
     <string name="permgroupdesc_contacts">連絡先にアクセス</string>
     <string name="permgroupdesc_installapplist">このデバイスにインストールされているアプリ一覧へのアクセス</string>
-    <string name="permgroupdesc_location">位置情報にアクセス</string>
-    <string name="permgroupdesc_microphone">オーディオを録音</string>
+    <string name="permgroupdesc_location">位置情報へのアクセス</string>
+    <string name="permgroupdesc_microphone">音声を録音</string>
     <string name="permgroupdesc_phone">通話の発信と会話の管理</string>
     <string name="permgroupdesc_readmediafile">このデバイスに保存されている写真、ビデオ、オーディオへのアクセス</string>
-    <string name="permgroupdesc_readmediaimages">写真とビデオへのアクセス</string>
+    <string name="permgroupdesc_readmediaimages">写真と動画へのアクセス</string>
     <string name="permgroupdesc_readmediavideo">音楽とオーディオへのアクセス</string>
     <string name="permgroupdesc_recognition">健康とアクティビティデータにアクセス</string>
     <string name="permgroupdesc_sensors">ボディセンサーデータにアクセス</string>
@@ -4280,6 +4607,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="permgroupdesc_storage">デバイス上の写真またはファイルにアクセス</string>
     <string name="permission_action_accept">同意</string>
     <string name="permission_action_ai_prompt">自動で決定する</string>
+    <string name="permission_action_allow_for_compatibility">ローカルネットワークのみ</string>
     <string name="permission_action_always">常に許可</string>
     <string name="permission_action_desc">アクセス許可を付与し、空のメッセージをアプリに返してプライバシーを保護する</string>
     <string name="permission_action_desc_always">この権限はいつでも使用できます</string>
@@ -4293,8 +4621,14 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="permission_action_virtual">空のメッセージを返す</string>
     <string name="permission_action_virtual_common_summary">アプリに必要な権限を付与しますが、プライバシーを保護するために空のメッセージを返します</string>
     <string name="permission_action_virtual_phone_summary">アプリに関連の権限を付与しますが、SIM カードの実際の電話番号へのアクセスは許可しません</string>
+    <string name="permission_allow_for_compatibility_note">アプリが同じローカルネットワーク上のデバイスとのみ通信できるようにします。Bluetooth やその他の接続方法には対応していません。</string>
+    <string name="permission_changed_retry">アクセス許可を変更しました。アプリを再起動してください。</string>
     <string name="permission_close_permission_control_dialog_msg">アクセス許可マネージャーがオフの場合、連絡先の読み取り、通話履歴の表示、システム設定の変更、カメラやその他のデバイスリソースにアクセスする前に、アプリは許可を要求しません。</string>
     <string name="permission_close_permission_control_dialog_title">オフにしますか？</string>
+    <string name="permission_compatibility_dialog_message">このアプリは以前のバージョンの Android 用に設計されています。許可を付与しないと、正常に機能しない可能性があります。</string>
+    <string name="permission_compatibility_dialog_negative_btn">キャンセル</string>
+    <string name="permission_compatibility_dialog_positive_btn">拒否</string>
+    <string name="permission_compatibility_dialog_title">このアプリは正常に動作しない可能性があります</string>
     <string name="permission_exception_title">アプリの接続制限</string>
     <string name="permission_group_audio">この権限により、アプリはこのデバイスに保存されている音楽やその他のオーディオファイルにアクセスできます。</string>
     <string name="permission_group_calendar">この権限により、アプリはカレンダー イベントにアクセス、追加、削除、編集できるようになります。</string>
@@ -4381,7 +4715,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="permission_instruction_write_clipboard">この権限により、アプリはアイテムをクリップボードに保存できます。スパムメッセージは、クリップボードの通常の使用に影響を与える可能性があります。</string>
     <string name="permission_instruction_write_contacts">この権限により、アプリは連絡先を追加、削除、編集できるようになります。</string>
     <string name="permission_instruction_write_settings">この権限により、アプリはシステム設定を変更できます。悪意のあるアプリは、この権限を使用してシステム構成を破壊し、デバイスの通常の使用に影響を与える可能性があります。</string>
-    <string name="permission_legacy_storage">写真、ビデオ、オーディオ、ファイルへのアクセス</string>
+    <string name="permission_legacy_storage">写真、動画、音声、ファイルへのアクセス</string>
     <string name="permission_oaid_desc">%1$s が他のアプリやウェブサイトでのアクティビティを追跡することを許可しますか？</string>
     <string name="permission_only_opening_screen">アプリ起動時のアクセス制限</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">アプリは、連絡先の読み取り、通話履歴の表示、システム設定の変更、カメラやその他のデバイスリソースにアクセスする前に、ユーザーの許可を要求しません。この機能はアクセス許可設定でオンにできます。</string>
@@ -4402,8 +4736,9 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="permission_with_SMS_and_MMS">SMSとMMSに関連する権限</string>
     <string name="permission_with_call_and_contact">電話、連絡先情報、通話履歴に関連する権限</string>
     <string name="permission_with_read_write_clipboard">アプリにクリップボードへのアクセスとアイテムの保存を許可する</string>
+    <string name="permisson_reject_notice_toast_text2">%1$sへの権限がありません</string>
     <string name="permit_running_network">バックグラウンドデータ</string>
-    <string name="person_have_hongbao">%1$sさんがあなたに赤い封筒を送りました！</string>
+    <string name="person_have_hongbao">%1$sさんがあなたに紅包を送りました！</string>
     <string name="person_hotpot">モバイルホットスポット</string>
     <string name="phone">携帯</string>
     <string name="phone_manage">ユーティリティ</string>
@@ -4470,6 +4805,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="power_center_battery_detail">詳細</string>
     <string name="power_center_battery_duration">残り時間</string>
     <string name="power_center_battery_duration_format">%1$s%2$s</string>
+    <string name="power_center_battery_duration_new">残りのスクリーンタイム</string>
     <string name="power_center_battery_duration_screen_on">残りのスクリーンタイム</string>
     <string name="power_center_battery_hardware">ハードウェア %s</string>
     <string name="power_center_battery_health_poor_tip">バッテリーの健康度が低いようです。認定サービスセンターでバッテリーを点検してください。</string>
@@ -4611,6 +4947,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="power_idle">デバイスはアイドル状態です</string>
     <string name="power_main_battery_last_day_hour">残り%1$s日%2$s時間</string>
     <string name="power_main_battery_last_hour_minute">残り%1$s時間%2$s分</string>
+    <string name="power_main_battery_last_hour_minute_new">推定スクリーンタイム: %1$s %2$s</string>
     <string name="power_main_battery_last_hour_minute_screen_on">残りのスクリーンタイム %1$s%2$s</string>
     <string name="power_main_open_last_hour_minute_screen_on">オンにするとスクリーンタイムが%1$s%2$s追加されます</string>
     <string name="power_ntc_dialog_btn_finish">了解</string>
@@ -4693,7 +5030,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="power_save_model_open">省電力オン</string>
     <string name="power_save_on_time_end_time_summary_na">終了時刻</string>
     <string name="power_save_on_time_start_time_summary_na">開始時刻</string>
-    <string name="power_save_ps_clean">デバイスのロック時にキャッシュを消去</string>
+    <string name="power_save_ps_clean">画面ロック時にキャッシュを削除</string>
     <string name="power_save_ps_close_setting_3">電力消費の大きいサービスと機能をオフにする（%1$s、%2$s、%3$s）</string>
     <string name="power_save_ps_close_setting_4">電力消費の大きいサービスと機能をオフにする（%1$s、%2$s、%3$s、%4$s）</string>
     <string name="power_save_ps_close_setting_5">電力消費の大きいサービスと機能をオフにする（%1$s、%2$s、%3$s、%4$s、%5$s）</string>
@@ -4760,6 +5097,12 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="pp_app_warning_permission_tips_detail">アプリが位置情報、カメラ、マイクへのアクセス許可を要求した際に通知を表示する</string>
     <string name="pp_clipboard">クリップボード</string>
     <string name="pp_none_read_clipboard_item">通知しない</string>
+    <string name="pp_privacy_call_entry">プライベート通話</string>
+    <string name="pp_privacy_call_entry_demo_desc">イヤホンの音漏れを減らして通話のプライバシーを保護します</string>
+    <string name="pp_privacy_call_entry_switch_desc">イヤホン通話中に動作します。この機能は通話内容やデータを収集しません。</string>
+    <string name="pp_privacy_call_protect">通話保護</string>
+    <string name="pp_privacy_call_switch_off">プライベート通話機能がオフです</string>
+    <string name="pp_privacy_call_switch_on">プライベート通話機能がオンです</string>
     <string name="pp_privacy_lab_clipboard_summary">アプリがクリップボードにアクセスできるかどうかをデバイスが判断し、アクセスしたときに通知を受信できるようにします。</string>
     <string name="pp_privacy_lab_operator_get_number_summary">サインインのために電話番号にアクセスする場合、アプリにユーザーの許可を確認するよう要求します</string>
     <string name="pp_privacy_protection">保護</string>
@@ -4868,7 +5211,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="privacy_apps_close">閉じる</string>
     <string name="privacy_apps_enable_summary">アプリを隠しフォルダーに移動して、ホーム画面ショートカットを削除する</string>
     <string name="privacy_apps_go_to_use">開始</string>
-    <string name="privacy_apps_manager_dialog_message">このアプリを隠すと、このアプリのアイコンはホーム画面に表示されません。今すぐこのアプリを隠しますか？</string>
+    <string name="privacy_apps_manager_dialog_message">このアプリを非表示にすると、このアプリのアイコンはホーム画面に表示されません。今すぐこのアプリを隠しますか？</string>
     <string name="privacy_apps_next_stup">次へ</string>
     <string name="privacy_apps_password_auth_summary">隠しアプリにアクセスする前にIDを認証する</string>
     <string name="privacy_apps_password_auth_title">ID認証</string>
@@ -4878,7 +5221,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="privacy_apps_shield_message_title">通知を非表示</string>
     <string name="privacy_apps_tutorial">ジェスチャー</string>
     <string name="privacy_apps_tutorial_dlg_message_1">ホーム画面で2本の指を広げて隠しアプリを表示する</string>
-    <string name="privacy_apps_tutorial_dlg_message_2">注：アプリを隠すと、そのアプリのホーム画面ショートカットのみが非表示になります。</string>
+    <string name="privacy_apps_tutorial_dlg_message_2">注：アプリを非表示にすると、そのアプリのホーム画面ショートカットのみが非表示になります。</string>
     <string name="privacy_apps_tutorial_dlg_title">隠しアプリの表示方法</string>
     <string name="privacy_apps_tutorial_prompt_pageone">この機能を使用すると、アプリアイコンを非表示にして、ホーム画面に表示されないようにすることができます。</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">パスワードを入力すると、隠しアプリのフォルダーが表示されます。</string>
@@ -4894,6 +5237,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="privacy_description_camera">%1sがバックグラウンドでカメラを使用しています。下のスイッチを切り替えて、このアクティビティを制限できます。</string>
     <string name="privacy_description_camera_mic">%1sがバックグラウンドでカメラとマイクを使用しています。下のスイッチを切り替えて、このアクティビティを制限できます。</string>
     <string name="privacy_description_mic">%1sはバックグラウンドでマイクを使用しています。下のスイッチを切り替えて、このアクティビティを制限できます。</string>
+    <string name="privacy_device_unique_feature">デバイス専用機能</string>
     <string name="privacy_dialog_call_item_1">デバイス情報へのアクセス</string>
     <string name="privacy_dialog_call_item_2">通話の発信</string>
     <string name="privacy_dialog_call_item_3">デバイスステータスへのアクセス</string>
@@ -4915,7 +5259,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="privacy_dialog_open">オンにする</string>
     <string name="privacy_dialog_positive_button_text">同意</string>
     <string name="privacy_dialog_revoking">同意を撤回中…</string>
-    <string name="privacy_dialog_title">使用条件</string>
+    <string name="privacy_dialog_title">利用規約</string>
     <string name="privacy_empty_call">今日、通話履歴にアクセスしませんでした</string>
     <string name="privacy_empty_contact">今日、連絡先にアクセスしませんでした</string>
     <string name="privacy_empty_location">今日、位置情報にアクセスしませんでした</string>
@@ -4943,6 +5287,10 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="privacy_flares_recent_detail_more">このアプリはセンシティブな権限を使用しました</string>
     <string name="privacy_global_guide_permission_guide_text">アプリが録音や撮影を行うと、ステータスバーにアラートが表示されます。アラートをタップすると、どのアプリがその動作を行なっているかを確認できます。</string>
     <string name="privacy_guide_permission_guide_text">アプリが位置情報にアクセスしたり、録音したり、写真を撮ったりすると、ステータスバーにアラートを受け取ることができます。</string>
+    <string name="privacy_hide_app_notify_auto_close_desc">この機能を使用すると非表示アプリによる通知がオフになります。通知を受け取るには「通知を非表示」をオフにするかアプリを再表示してください。</string>
+    <string name="privacy_hide_app_notify_auto_close_title">通知をオフにする</string>
+    <string name="privacy_hide_app_notify_auto_revoke_summary">非表示アプリの通知を自動的にオフにします</string>
+    <string name="privacy_hide_app_notify_dialog_confirm">了解</string>
     <string name="privacy_hide_other_permissions">その他の権限を非表示</string>
     <string name="privacy_hybrid_password_long">%d 文字まで入力できます</string>
     <string name="privacy_hybrid_password_too_short">%d 文字以上入力してください</string>
@@ -5107,6 +5455,10 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="privacy_screen_share_notification_title">画面コンテンツをキャスト中</string>
     <string name="privacy_screen_share_protect_tip">保護されています</string>
     <string name="privacy_screen_share_tip">キャスト中</string>
+    <string name="privacy_screen_share_v2_land_subtitle">「%s」が画面内容にアクセスしています</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">画面コンテンツは保護されています</string>
+    <string name="privacy_screen_share_v2_notification_title">画面コンテンツをキャスト中</string>
+    <string name="privacy_screen_share_v2_small_island_title">画面共有中</string>
     <string name="privacy_search_key_1">プライバシー</string>
     <string name="privacy_search_key_10">デバイスID</string>
     <string name="privacy_search_key_2">ネットワーク傍受</string>
@@ -5122,7 +5474,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="privacy_search_keyword_3">アイコンを非表示</string>
     <string name="privacy_search_keyword_4">ホーム画面ショートカットを非表示</string>
     <string name="privacy_search_keyword_5">プライベートアプリ</string>
-    <string name="privacy_search_keyword_6">隠す</string>
+    <string name="privacy_search_keyword_6">非表示にする</string>
     <string name="privacy_show_other_permissions">その他の権限を表示</string>
     <string name="privacy_show_password">パスワードを表示</string>
     <string name="privacy_show_password_summary">パスワードを短時間表示する</string>
@@ -5137,7 +5489,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="privacy_thumbnail_blur_title">アプリのプレビューをぼかす</string>
     <string name="privacy_thumbnail_blur_top_tip">「最近のタスク」に表示する際にプレビューをぼかすアプリを選択します</string>
     <string name="privacy_thumbnail_shield_title">プレビューマスキング</string>
-    <string name="privacy_thumbnail_shield_top_tip">\"最近のタスク\"に表示されるアプリのプレビューを隠す</string>
+    <string name="privacy_thumbnail_shield_top_tip">\"最近のタスク\"に表示されるアプリのプレビューを非表示にする</string>
     <string name="privacy_type_open">オン</string>
     <string name="privacy_update_dialog_content_1">%sのプライバシーポリシーが更新されました:</string>
     <string name="privacy_update_dialog_content_2"><Data>続ける前に、新しいバージョンの&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>を読んで同意してください。</Data></string>
@@ -5175,7 +5527,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="provision_back">戻る</string>
     <string name="provision_next">次へ</string>
     <string name="provision_skip_underline">スキップ</string>
-    <string name="qq_lucky_warning">QQの赤い封筒</string>
+    <string name="qq_lucky_warning">QQの紅包</string>
     <string name="qucick_replay_instrument">選択したメッセンジャー（WhatsApp、WeChat、QQなど）の通知にクイック返信を使用する</string>
     <string name="quick_mode_closed">オフ</string>
     <string name="quick_mode_opened">オン</string>
@@ -5232,6 +5584,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="repeat_type">繰り返し</string>
     <string name="repeated_marked_number_summary">同じ報告番号から%d分以内に2回目の着信があった場合はブロックしない</string>
     <string name="repeated_marked_number_title">報告された番号から繰り返しかかってくる電話をブロックしない</string>
+    <string name="repeated_stranger_number_summary">同じ不明な番号から%d分以内に2回目の着信があった場合はブロックしない</string>
     <string name="repeated_unknown_number_summary">同じ不明な番号から%d分以内に2回目の着信があった場合はブロックしない</string>
     <string name="replace_dns">DNSを自動的に置き換える</string>
     <string name="report">報告</string>
@@ -5317,10 +5670,12 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="safe_result_item_info_system_version">お使いのシステムは最新です</string>
     <string name="safepay_alert_dialog_button_continue">続ける</string>
     <string name="safepay_alert_dialog_button_fix">もっと詳しく知る</string>
+    <string name="safety">セキュリティ</string>
     <string name="saturday">土曜日</string>
     <string name="saturday_short">土</string>
     <string name="saturday_shortest">土</string>
     <string name="save_mode_btn_ok">了解</string>
+    <string name="save_privacy_pwd_fail_toast">保存できませんでした。もう一度お試しください。</string>
     <string name="sc_allow_network_dialog_message">セキュリティアプリのネットワーク接続と位置情報へのアクセスを制限しました。この機能を使用するには、セキュリティアプリに必要な権限を付与してください。</string>
     <string name="sc_allow_network_dialog_tiltle">この機能は使用できません</string>
     <string name="sc_system_risk_fix_info_xspace">これはセカンド・スペースでは解決できません。ファースト・スペースで実行してください。</string>
@@ -5331,6 +5686,11 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="scan_status_risk">リスクがあります</string>
     <string name="scan_status_safe">安全です</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">詐欺防止対策</string>
+    <string name="screen_share_search_keyword_1">画面共有</string>
+    <string name="screen_share_search_keyword_2">画面の共有</string>
+    <string name="screen_share_search_title">画面共有の保護</string>
+    <string name="screen_share_warning_positive_button">停止</string>
     <string name="screenrecord_not_find">最新バージョンのスクリーンレコーダーをインストールしてからもう一度お試しください。</string>
     <string name="sd_eject">SDカードのマウントを解除</string>
     <string name="sd_eject_summary">SDカードのマウントを解除して、安全に取り外します</string>
@@ -5617,7 +5977,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="special_perm_intercept_system_msg">ウイルスが含まれている可能性のあるアプリをインストールしたり、他の方法で誤動作したりすることがあります</string>
     <string name="special_perm_intercept_system_title">システムのセキュリティと安定性に影響を与える</string>
     <string name="special_perm_intercept_title">\"%s\"は非常にセンシティブな権限です。これを許可すると、個人情報が漏洩し、財産が危険にさらされる可能性があります。アプリで許可される内容は次のとおりです。</string>
-    <string name="special_perm_intercept_usb_title">\"%s\"は開発者向けの非常にセンシティブなサービスです。これをオンにすると、個人情報が漏洩し、財産が危険にさらされる可能性があります。発生しうる状況は次の通りです。</string>
+    <string name="special_perm_intercept_usb_title">\"%s\"は開発者向けの非常にセンシティブなサービスです。これをオンにすると、個人情報が漏洩し、財産が危険にさらされる可能性があります。発生しうるリスクは次の通りです。</string>
     <string name="special_perm_manager_msg">アプリにこのデバイスのコントロールを許可する</string>
     <string name="special_perm_manager_title">デバイスのコントロール</string>
     <string name="special_perm_nfc_msg">アプリで非接触型決済を実行できるようにします</string>
@@ -5717,13 +6077,17 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="st_message_phone_AntiSpam">通話をブロック</string>
     <string name="st_message_phonepass">通話を許可</string>
     <string name="st_msg_keyword_black">キーワードブロックリスト</string>
+    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
     <string name="st_msg_keyword_group">キーワード</string>
     <string name="st_msg_keyword_white">キーワード例外</string>
+    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
     <string name="st_msg_other_group">その他</string>
     <string name="st_msg_settings">SMSブロックリスト</string>
     <string name="st_msg_stranger_group">未登録番号からのメッセージをブロック</string>
     <string name="st_settings_name">ブロックリスト設定</string>
     <string name="st_share_settings">SIM %d設定を使用</string>
+    <string name="st_show_num_keyword_v2">{count, plural, =0 {0 個のキーワード } other {# 個のキーワード } }</string>
+    <string name="st_show_num_number_v2">{count, plural, =0 {0 個の数 } other {# 個の数 } }</string>
     <string name="st_smg_intercept_all">すべてのメッセージをブロックする</string>
     <string name="st_smg_intercept_confirm_dialog_summary_all">例外に登録されていない番号や地域からのSMSおよびMMSはブロックされます。今すぐブロックしますか？</string>
     <string name="st_smg_intercept_confirm_dialog_summary_stranger">例外または連絡先に登録されていない番号や地域からのSMSおよびMMSはブロックされます。今すぐブロックしますか？</string>
@@ -5797,6 +6161,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="status_bar_network_flow_purchase">"   購入 >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   データプランを設定 >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">ブロック</string>
     <string name="still_retain_btn">残す</string>
     <string name="stop_milink_connect">キャストを停止しました</string>
     <string name="storage_activity_title">ストレージ容量</string>
@@ -5866,7 +6231,7 @@ WeChatとQQ用の赤い封筒アシスタント
 
 この^1をこのデバイスで使用するには、まず設定をしなければなりません。"</string>
     <string name="storage_fbo_action_des">[デフラグ] をタップして開始します。このプロセス中はデバイスに遅延が発生する可能性があります。デフラグを高速化するため、デバイスの使用はお控えください。</string>
-    <string name="storage_fbo_btn">デフラグ</string>
+    <string name="storage_fbo_btn">ストレージ最適化</string>
     <string name="storage_fbo_btn_estimate">準備中…</string>
     <string name="storage_fbo_clear">ストレージリフレッシュ</string>
     <string name="storage_fbo_des">内部ストレージは断片化の影響を受け、デバイスの動作速度が大幅に低下する可能性があります。ストレージリフレッシュは、デバイスが使用されていない間に自動的に動作します。ファイルを物理的に最小のフラグメントに整理することで、遅延を低減します。</string>
@@ -5993,6 +6358,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="superpower_progress_low_temp_content">低温耐久モードをオンにしています…</string>
     <string name="superpower_progress_switch_home">ダークテーマに切り替える</string>
     <string name="superpower_progress_title">残り時間</string>
+    <string name="superpower_progress_title_new">残りのスクリーンタイム</string>
     <string name="superpower_progress_turndown_brightness">画面の明るさを下げる</string>
     <string name="superpower_progress_turnoff_fan">冷却ファンをオフにする</string>
     <string name="superpower_progress_turnoff_items">電力消費アクティビティを制限する</string>
@@ -6026,7 +6392,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="system_app">システムアプリ</string>
     <string name="system_app_permission_instruction">このアプリは、基本的なシステムサービスを提供するために以下のアクセス許可が必要です。アクセス許可の状態を変更するとシステムの動作に異常をきたすため、このアプリではアクセス許可の管理を制限しています。</string>
     <string name="system_application">システムアプリ</string>
-    <string name="system_permission_declare_agree">同意</string>
+    <string name="system_permission_declare_agree">同意する</string>
     <string name="system_permission_declare_analytics_declare">当社のユーザーエクスペリエンスプログラムにご登録ください。このアプリは、当社がご利用者に提供するサービスを改善するために、インターネットに接続し、以下の権限または機能を使用して統計を収集する必要があります。統計目的でのみデータを収集しており、収集したデータに基づいてご利用者を個人的に特定することはできません。</string>
     <string name="system_permission_declare_disagree">同意しない</string>
     <string name="system_permission_declare_double_link"><Data>続ける前に、&lt;a href=\"%1$s\">利用規約&lt;/a>と&lt;a href=\"%2$s\">プライバシーポリシー&lt;/a>を読んで同意してください。</Data></string>
@@ -6036,10 +6402,11 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>続ける前に、&lt;a href=\"%1$s\">利用規約&lt;/a>を読んで同意してください。</Data></string>
     <string name="system_permission_declare_no_say_no">必要なアクセス許可を付与しない、または当社によるデータの収集と使用を許可しない場合、このアプリは正常に動作しません。</string>
     <string name="system_permission_declare_no_say_no_analytics">これらのアクセス許可を付与したくない場合は、設定 > 追加設定 > プライバシー > ユーザーエクスペリエンスプログラム で登録を解除できます。</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">必要なアクセス許可を付与しない、または当社によるデータの収集と使用を許可しない場合、このアプリは正常に動作しません。</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">必要なアクセス許可を付与しない、または当社によるデータの収集と使用を許可しない場合、関連機能は正常に動作しません。</string>
     <string name="system_permission_declare_optional">アプリの使用中に追加のサービスを提供するために、アクセス許可（%s）が必要になる場合があります。アクセス許可の状態は、設定でいつでも変更できます。</string>
     <string name="system_permission_declare_optional_default_grant"><Data>より良いユーザーエクスペリエンスを提供するために、このアプリには次の追加の権限が必要です: %1s。個人情報の処理方法の詳細については、&lt;a href=\"test\">こちら&lt;/a>をタップしてください。権限はいつでも [設定] で管理できます。</Data></string>
-    <string name="system_permission_declare_privacy_declare">このアプリはインターネットに接続する必要があり、正常に動作するためには以下の権限が必要です。</string>
+    <string name="system_permission_declare_perm_separator">", "</string>
+    <string name="system_permission_declare_privacy_declare">本アプリを正常にご利用いただくには、インターネット接続および以下の権限が必要です。</string>
     <string name="system_permission_declare_privacy_no_network">このアプリが正常に動作するには、以下のアクセス許可が必要です。</string>
     <string name="system_permission_declare_privacy_no_permission">このアプリは、インターネットに接続し、正常に動作するために必要な個人データを収集する必要があります。</string>
     <string name="system_permission_declare_privacy_policy"><Data>続ける前に、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>を読んで同意してください。</Data></string>
@@ -6124,7 +6491,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="tether_over_limit_warning_notify_message">ポータブルホットスポットをオフにしてください。</string>
     <string name="tether_over_limit_warning_notify_title">ホットスポットデータの上限に達しました</string>
     <string name="textDirection">ltr</string>
-    <string name="text_all_control_summary">赤い封筒が検出されると、画面が点灯して通知します</string>
+    <string name="text_all_control_summary">紅包が検出されると、画面が点灯して通知します</string>
     <string name="text_button">了解</string>
     <string name="text_cycle_day">%s</string>
     <string name="text_day" />
@@ -6199,8 +6566,8 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="title_auto_update">自動的にアップデート</string>
     <string name="title_background_connection">%s はバックグラウンドで使用できません</string>
     <string name="title_bill_balance_inquiry">残高 (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">連絡先からの不在着信</string>
-    <string name="title_block_calls_from_strangers">重要な電話に出られません</string>
+    <string name="title_block_calls_from_cantacts">連絡先からの不在着信がありますか？</string>
+    <string name="title_block_calls_from_strangers">重要な電話に出られなかったことがありますか？</string>
     <string name="title_chain_start">チェーン起動を制限する</string>
     <string name="title_cleaner_cloudscan">クラウドのゴミスキャン</string>
     <string name="title_cloud_account">Xiaomi アカウント</string>
@@ -6254,6 +6621,8 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="title_realname_verify">ID認証</string>
     <string name="title_reply">コメント</string>
     <string name="title_restrict_data_usage">%s はインターネットに接続できません</string>
+    <string name="title_risky_app_scan_no">危険なアプリの検出はオフです</string>
+    <string name="title_risky_app_scan_yes">危険なアプリの検出はオンです</string>
     <string name="title_safe_mode">セキュアモードをオンにする</string>
     <string name="title_show_notification">通知シェードウィジェット</string>
     <string name="title_system_auto_download">アップデートは自動的にダウンロードされます</string>
@@ -6294,6 +6663,14 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="toast_update_success">正常にアップデートされました</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
+    <string name="toolbox_invocation_guide_cancel">今はしない</string>
+    <string name="toolbox_invocation_guide_caption">スワイプして長押しすると開きます</string>
+    <string name="toolbox_invocation_guide_caption_upgrade">どこからでも開けます</string>
+    <string name="toolbox_invocation_guide_confirm">使用</string>
+    <string name="toolbox_invocation_guide_confirm_upgrade">今すぐ試す</string>
+    <string name="toolbox_invocation_guide_message">画面の端から内側に向かってスワイプし、そのまま押し続けてから指を離すと開きます</string>
+    <string name="toolbox_invocation_guide_title">サイドバーを使用</string>
+    <string name="toolbox_invocation_guide_title_upgrade">サイドバーを開く新しい方法</string>
     <string name="top_game">トップのゲーム</string>
     <string name="top_load_fail_detail">読み込めませんでした。タップしてもう一度お試しください。</string>
     <string name="top_no_network_detial">読み込めませんでした。ネットワーク接続を確認して、もう一度お試しください。</string>
@@ -6388,6 +6765,45 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="txv_lucky_money_group_text">グループ通知のみ</string>
     <string name="ufs_size_suffix">%1$s+%2$s</string>
     <string name="unable_connect_internet">インターネット接続なし</string>
+    <string name="uni_auth_security_delay_tips">セキュリティ遅延が必要です</string>
+    <string name="uniauth_close_bt_text">オフにする</string>
+    <string name="uniauth_close_lock_sim_bind_local_phone_fp_title">指紋を認証して USIM のロックを解除し、このデバイスに関連付ける</string>
+    <string name="uniauth_close_lock_sim_fp_title">指紋を認証して USIM のロックを解除</string>
+    <string name="uniauth_close_lost_device_prot_bt">紛失デバイス保護をオフにする</string>
+    <string name="uniauth_close_lost_device_prot_tips_bt">了解</string>
+    <string name="uniauth_close_lost_device_prot_tips_message">Xiaomi アカウントを使用して、紛失デバイス保護がオフになりました。このデバイスの機能には、追加の保護が適用されなくなります。</string>
+    <string name="uniauth_close_lost_device_prot_tips_title">紛失デバイス保護がオフになっています</string>
+    <string name="uniauth_common_fp_title">指紋を認証</string>
+    <string name="uniauth_common_tips">認証できませんでした。もう一度お試しください。</string>
+    <string name="uniauth_fp_disabled_sub_title">失敗回数が多すぎます</string>
+    <string name="uniauth_fp_disabled_title">指紋認証は現在ご利用いただけません</string>
+    <string name="uniauth_fp_enter_lockscreen_text">画面ロックを使用</string>
+    <string name="uniauth_fp_recover_by_lockscreen_bt_text">指紋認証によるアクセスを復元</string>
+    <string name="uniauth_fp_temp_disabled_sub_title">失敗回数が多すぎるため、指紋認証は現在ご利用いただけません</string>
+    <string name="uniauth_lockscreen_default_title">画面ロックを認証</string>
+    <string name="uniauth_lockscreen_disabled_sub_title">試行回数が多すぎるため、画面ロックを使用できません</string>
+    <string name="uniauth_lockscreen_mix_do_next">次へ</string>
+    <string name="uniauth_lockscreen_mix_hint">ここに入力</string>
+    <string name="uniauth_lockscreen_sub_title">指紋認証を復元する場合</string>
+    <string name="uniauth_logout_xiaomi_acount_fp_title">指紋を認証して Xiaomi アカウントからサインアウト</string>
+    <string name="uniauth_lp_fp_sub_title">紛失デバイス保護がオンになっています。指紋認証を行い、この操作がデバイスの所有者によって行われたことを確認してください。</string>
+    <string name="uniauth_lp_lockscreen_and_fp_sub_title">2要素認証を使用して本人確認を行ってください</string>
+    <string name="uniauth_no_acount_login_tips">まず、Xiaomi アカウントにサインインします</string>
+    <string name="uniauth_open_lock_sim_bind_local_phone_fp_title">指紋を認証して USIM をロックし、このデバイスに関連付ける</string>
+    <string name="uniauth_open_lock_sim_fp_title">指紋を認証して USIM をロック</string>
+    <string name="uniauth_reset_lockscreen_default_title">以前の画面ロックを認証</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_sub_title">2要素認証を使用して新しい画面ロックを設定</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_title">指紋を認証</string>
+    <string name="uniauth_reset_lockscreen_title">以前の画面ロックを認証</string>
+    <string name="uniauth_resetlockscreen_error_sub_title">リセットできません</string>
+    <string name="uniauth_resetlockscreen_error_title">画面ロック認証の試行回数が多すぎます</string>
+    <string name="uniauth_security_delay_end_notification_msg">次の%1$d時間は、Xiaomi アカウントを認証して紛失デバイス保護をオフにすることができます</string>
+    <string name="uniauth_security_delay_end_notification_title">セキュリティ遅延が終了しました</string>
+    <string name="uniauth_security_delay_msg">%1$d時間経過後、Xiaomi アカウントを認証して紛失デバイス保護をオフにすることができます。遅延が終了すると通知されます。</string>
+    <string name="uniauth_security_delay_next_more">さらに詳しく</string>
+    <string name="uniauth_temp_disabled_title">後でもう一度お試しください</string>
+    <string name="uniauth_uqery_pin_fp_title">指紋を認証して PIN を表示</string>
+    <string name="uniauth_xiaomi_acount_title">Xiaomi アカウントを認証</string>
     <string name="uninstall_app_dialog_msg">アンインストールすると、すべてのアプリデータが削除されます。</string>
     <string name="uninstall_app_dialog_title">今すぐアンインストールしますか？</string>
     <string name="uninstall_app_done">正常にアンインストールされました</string>
@@ -6449,7 +6865,9 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="usbsharenet_pc_exception_summary">共有USB接続を使用してインターネットに接続できません。パソコンのインターネット接続を確認してください。</string>
     <string name="use_for_open_applock">アプリロックをオンにするため</string>
     <string name="use_immediately">使用</string>
+    <string name="use_lock_screen_password_type">ロック画面パスワード</string>
     <string name="use_other_ime_warn">サードパーティ製のキーボードは、パスワードやその他のセンシティブな情報を含め、入力されたすべての情報を記録する可能性があります。</string>
+    <string name="use_private_password_type">プライバシー保護パスワード</string>
     <string name="user_define_title">ルールを追加</string>
     <string name="user_guide">上にスワイプして新しいゲームを発見する</string>
     <string name="v7_preference_off">OFF</string>
@@ -6538,6 +6956,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="vb_video_super_division_desc">"この機能を使用すると消費電力が増加します。
 また、この機能はモーションスムージングとは同時に使用できません。
 どちらか一方の機能をオンにすると、もう一方の機能はオフになります。"</string>
+    <string name="vb_video_super_division_subdesc">解像度が720P以下の場合は自動的にアップスケールします。</string>
     <string name="vb_video_super_division_tips">"鮮明度が不十分ですか？
 解像度のアップスケールを試してみてください。"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">拡張アニメーションはオフです</string>
@@ -6567,6 +6986,12 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="view_package_info">プランの詳細を表示</string>
     <string name="view_traffic_detail">詳細を表示</string>
     <string name="view_traffic_details">データ使用状況の統計を表示</string>
+    <string name="virtual_reject_notice_content">個人情報を保護するために、空の応答がアプリに送信されました</string>
+    <string name="virtual_reject_notice_title_calendar">%1$sによるカレンダーへのアクセス</string>
+    <string name="virtual_reject_notice_title_calllog">%1$sによる通話履歴へのアクセス</string>
+    <string name="virtual_reject_notice_title_contacts">%1$sによる連絡先へのアクセス</string>
+    <string name="virtual_reject_notice_title_phonestate">%1$sによるデバイス情報へのアクセス</string>
+    <string name="virtual_reject_notice_title_sms">%1$sによるメッセージへのアクセス</string>
     <string name="virus_app_delete_installed">アンインストール</string>
     <string name="virus_app_delete_uninstalled">削除</string>
     <string name="virus_app_ignore">無視</string>
@@ -6576,7 +7001,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="virus_app_verison_text">バージョン：%s</string>
     <string name="virus_auto_update_engine">自動アップデート: %s</string>
     <string name="virus_auto_update_engine_1">定義を自動的にアップデート</string>
-    <string name="virus_clear_dialog_title">悪意のあるアプリの消去</string>
+    <string name="virus_clear_dialog_title">悪性アプリの削除</string>
     <string name="virus_detail_app">ウイルスが含まれています</string>
     <string name="virus_detail_title">ウイルス</string>
     <string name="virus_engine_choose_text">オンラインウイルス定義</string>
@@ -6649,7 +7074,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="warning_car_accident_privay_revoke_text">同意の撤回</string>
     <string name="warning_car_accident_title">自動車事故検知</string>
     <string name="warning_view_demo_text">デモを表示</string>
-    <string name="warningcenter_accurate_area_title">影響を受けたエリア</string>
+    <string name="warningcenter_accurate_area_title">被災地域</string>
     <string name="warningcenter_action_check">表示</string>
     <string name="warningcenter_alert_home">位置情報</string>
     <string name="warningcenter_alert_room">部屋</string>
@@ -6660,7 +7085,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="warningcenter_disaster_area_search_hint">地域を入力</string>
     <string name="warningcenter_disaster_area_select">選択した地域</string>
     <string name="warningcenter_disaster_area_suggest">おすすめの地域</string>
-    <string name="warningcenter_disaster_area_title">影響を受けたエリア</string>
+    <string name="warningcenter_disaster_area_title">被災地域</string>
     <string name="warningcenter_disaster_detail_suggest">高優先度の警告をオンにすることをお勧めします</string>
     <string name="warningcenter_disaster_detail_title">詳細</string>
     <string name="warningcenter_disaster_guide_title">安全ガイドライン</string>
@@ -6673,6 +7098,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="warningcenter_disaster_level_4">レベル Ⅳ (軽度)</string>
     <string name="warningcenter_disaster_level_all">すべてのレベル</string>
     <string name="warningcenter_disaster_level_info">警告のレベル</string>
+    <string name="warningcenter_disaster_level_separator">", "</string>
     <string name="warningcenter_disaster_level_title">警告のレベル</string>
     <string name="warningcenter_disaster_list_title">災害警告</string>
     <string name="warningcenter_disaster_local">位置を特定</string>
@@ -6732,7 +7158,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="warningcenter_smarthome">Xiaomi Home</string>
     <string name="warningcenter_title">警告センター</string>
     <string name="website">ウェブサイト</string>
-    <string name="wechat_lucky_warning">WeChatの赤い封筒</string>
+    <string name="wechat_lucky_warning">WeChatの紅包</string>
     <string name="wednesday">水曜日</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>

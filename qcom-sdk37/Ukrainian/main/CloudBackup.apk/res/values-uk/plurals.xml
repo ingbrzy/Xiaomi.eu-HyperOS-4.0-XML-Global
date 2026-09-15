@@ -43,10 +43,10 @@
         <item quantity="other">Через %d хв</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Тільки що</item>
-        <item quantity="few">Тільки що</item>
-        <item quantity="many">Тільки що</item>
-        <item quantity="other">Тільки що</item>
+        <item quantity="one">Щойно</item>
+        <item quantity="few">Щойно</item>
+        <item quantity="many">Щойно</item>
+        <item quantity="other">Щойно</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="one">%d хв назад</item>
@@ -59,6 +59,30 @@
         <item quantity="few">Схоже, що ви не створювали резервну копію протягом %s тижнів. Створіть резервну копію, щоб уникнути втрати важливих даних.</item>
         <item quantity="many">Схоже, що ви не створювали резервну копію протягом %s тижнів. Створіть резервну копію, щоб уникнути втрати важливих даних.</item>
         <item quantity="other">Схоже, що ви не створювали резервну копію протягом %s тижнів. Створіть резервну копію, щоб уникнути втрати важливих даних.</item>
+    </plurals>
+    <plurals name="backup_frequence_days">
+        <item quantity="one">Every %d day</item>
+        <item quantity="few">Every %d days</item>
+        <item quantity="many">Every %d days</item>
+        <item quantity="other">Every %d days</item>
+    </plurals>
+    <plurals name="backup_options_summary_format">
+        <item quantity="one">%1$d/%2$d item</item>
+        <item quantity="few">%1$d/%2$d items</item>
+        <item quantity="many">%1$d/%2$d items</item>
+        <item quantity="other">%1$d/%2$d items</item>
+    </plurals>
+    <plurals name="backup_unselected_items_dialog_message">
+        <item quantity="one">Backup is off for %2$d item including %1$s. To back up, select in \"Backed up items\".</item>
+        <item quantity="few">Backup is off for %2$d items including %1$s. To back up, select in \"Backed up items\".</item>
+        <item quantity="many">Backup is off for %2$d items including %1$s. To back up, select in \"Backed up items\".</item>
+        <item quantity="other">Backup is off for %2$d items including %1$s. To back up, select in \"Backed up items\".</item>
+    </plurals>
+    <plurals name="backup_unselected_items_dialog_title">
+        <item quantity="one">"%d app isn't backed up"</item>
+        <item quantity="few">"%d apps aren't backed up"</item>
+        <item quantity="many">"%d apps aren't backed up"</item>
+        <item quantity="other">"%d apps aren't backed up"</item>
     </plurals>
     <plurals name="cloud_backup_detail_manage_summary">
         <item quantity="one">Резервних копій: %1$s (%2$s)</item>
@@ -125,6 +149,30 @@
         <item quantity="few">%d хв тому</item>
         <item quantity="many">%d хв тому</item>
         <item quantity="other">%d хв тому</item>
+    </plurals>
+    <plurals name="restore_notification_partial_result_1">
+        <item quantity="one">Restored %d item</item>
+        <item quantity="few">Restored %d items</item>
+        <item quantity="many">Restored %d items</item>
+        <item quantity="other">Restored %d items</item>
+    </plurals>
+    <plurals name="restore_notification_partial_result_2">
+        <item quantity="one">"Couldn't restore %d item"</item>
+        <item quantity="few">"Couldn't restore %d items"</item>
+        <item quantity="many">"Couldn't restore %d items"</item>
+        <item quantity="other">"Couldn't restore %d items"</item>
+    </plurals>
+    <plurals name="restore_progress_partial_hint_1">
+        <item quantity="one">Restored %d item</item>
+        <item quantity="few">Restored %d items</item>
+        <item quantity="many">Restored %d items</item>
+        <item quantity="other">Restored %d items</item>
+    </plurals>
+    <plurals name="restore_progress_partial_hint_2">
+        <item quantity="one">"Couldn't restore %d item"</item>
+        <item quantity="few">"Couldn't restore %d items"</item>
+        <item quantity="many">"Couldn't restore %d items"</item>
+        <item quantity="other">"Couldn't restore %d items"</item>
     </plurals>
     <plurals name="session_starting_app_count_backup_text">
         <item quantity="one">Створено резервну копію %d програми</item>

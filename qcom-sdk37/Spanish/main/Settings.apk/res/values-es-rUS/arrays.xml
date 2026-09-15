@@ -311,9 +311,9 @@
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
         <item>Optmizado para latencia baja (256kbps)</item>
-        <item>Optimizado para calidad de conexión (400kbps)</item>
-        <item>Audio y calidad de conexión balanceados (500/560kbps)</item>
-        <item>Optimizado para calidad de audio (900kbps)</item>
+        <item>Optimizado para calidad de conexión (400 kbps)</item>
+        <item>Audio y calidad de conexión balanceados (500/560 kbps)</item>
+        <item>Optimizado para calidad de audio (900 kbps)</item>
         <item>Mejor efecto (tasa de bits automática)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
@@ -364,11 +364,17 @@
         <item>Habilitar codecs opcionales</item>
         <item>Deshabilitar codecs opcionales</item>
     </string-array>
+    <string-array name="bluetooth_audio_active_device_array">
+        <item></item>
+        <item>En uso (multimedia y llamadas)</item>
+        <item>En uso (multimedia)</item>
+        <item>En uso (llamadas)</item>
+    </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
         <item>" | Activo"</item>
         <item>" | Activo (multimedia)"</item>
-        <item>" | Activo (teléfono)"</item>
+        <item>" | Activo (audio de llamadas)"</item>
     </string-array>
     <string-array name="bluetooth_audio_routing_titles">
         <item>Usar la configuración predeterminada de la app</item>
@@ -423,8 +429,8 @@
         <item>half_close</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
-        <item>Inhabilitado</item>
-        <item>Filtrado habilitado</item>
+        <item>Deshabilitado</item>
+        <item>Filtro habilitado</item>
         <item>Habilitado</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_filters_entries">
@@ -642,7 +648,7 @@
     <string-array name="haptic_feedback_level_texts">
         <item>Desactivado</item>
         <item>Bajo</item>
-        <item>Medio</item>
+        <item>Mediana</item>
         <item>Fuerte</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">

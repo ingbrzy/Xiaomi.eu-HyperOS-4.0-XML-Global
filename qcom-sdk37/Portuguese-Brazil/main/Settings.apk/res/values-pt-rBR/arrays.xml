@@ -364,11 +364,17 @@
         <item>Ativar codecs opcionais</item>
         <item>Desativar codecs opcionais</item>
     </string-array>
+    <string-array name="bluetooth_audio_active_device_array">
+        <item></item>
+        <item>Em uso (mídia e chamadas)</item>
+        <item>Em uso (mídia)</item>
+        <item>Em uso (chamadas)</item>
+    </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
         <item>" | Ativo"</item>
         <item>" | Ativo (mídia)"</item>
-        <item>" | Ativo (telefone)"</item>
+        <item>" | Ativo (áudio de chamada)"</item>
     </string-array>
     <string-array name="bluetooth_audio_routing_titles">
         <item>Usar o padrão do app</item>
@@ -424,7 +430,7 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Desativado</item>
-        <item>Filtro ativado</item>
+        <item>Ativado e Filtrado</item>
         <item>Ativado</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_filters_entries">
@@ -511,7 +517,7 @@
     <string-array name="change_security_lock_picker">
         <item>Desbloqueio facial</item>
         <item>Padrão</item>
-        <item>PIN</item>
+        <item>Fixar</item>
         <item>Senha</item>
     </string-array>
     <array name="click_bottom">
@@ -559,7 +565,7 @@
     </string-array>
     <string-array name="common_password_business_names">
         <item>Tela de bloqueio</item>
-        <item>Senha de proteção de privacidade</item>
+        <item>Senha de privacidade</item>
         <item>Modo criança</item>
         <item>Gerenciador de Arquivos</item>
         <item>Bloqueio de apps</item>
@@ -1160,7 +1166,7 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Botão Voltar à esquerda, botão Menu à direita</item>
     </string-array>
     <string-array name="screen_key_press_action">
-        <item>Mostrar apps recentes</item>
+        <item>Mostrar bandeja de apps recentes</item>
         <item>Mostrar menu</item>
     </string-array>
     <string-array name="screen_optimize_summary">

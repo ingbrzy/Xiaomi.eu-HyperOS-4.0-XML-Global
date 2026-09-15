@@ -40,6 +40,10 @@
         <item quantity="one">%d App hinzugefügt</item>
         <item quantity="other">%d Apps hinzugefügt</item>
     </plurals>
+    <plurals name="anti_peeping_recommend_selected_tips">
+        <item quantity="one">Schnell das Privatsphäre-Display für %1$d App einschalten</item>
+        <item quantity="other">Schnell das Privatsphäre-Display für %1$d Apps einschalten</item>
+    </plurals>
     <plurals name="app_behavior_dashboard_title_desc">
         <item quantity="one">%d App</item>
         <item quantity="other">%d Apps</item>
@@ -107,6 +111,10 @@
     <plurals name="applock_one_key_lock">
         <item quantity="one">%s App wird mit App-Sperre geschützt sein</item>
         <item quantity="other">%s Apps werden mit App-Sperre geschützt sein</item>
+    </plurals>
+    <plurals name="background_virus_scan_notification_title">
+        <item quantity="one">%d schädliche App entdeckt</item>
+        <item quantity="other">%d schädliche Apps entdeckt</item>
     </plurals>
     <plurals name="behavior_widget_app_text">
         <item quantity="one">%2$d App einschließlich %1$s</item>
@@ -440,6 +448,10 @@ und erhalte eine %d-Tage-Probezeit kostenlos!"</item>
         <item quantity="one">%d neues Spiel hinzugefügt</item>
         <item quantity="other">%d neue Spiele hinzugefügt</item>
     </plurals>
+    <plurals name="intercept_accessibility_virus_notifiction_title">
+        <item quantity="one">%d schädliche App blockiert</item>
+        <item quantity="other">%d schädliche Apps blockiert</item>
+    </plurals>
     <plurals name="intl_perm_privacy_control_message_count">
         <item quantity="one">Du kannst %d Element schützen</item>
         <item quantity="other">Du kannst %d Elemente schützen</item>
@@ -517,8 +529,8 @@ und erhalte eine %d-Tage-Probezeit kostenlos!"</item>
         <item quantity="other">%d Updates sind verfügbar</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
-        <item quantity="one">%d ausgesuchtes Element</item>
-        <item quantity="other">%d ausgesuchte Elemente</item>
+        <item quantity="one">%d Element ausgewählt</item>
+        <item quantity="other">%d Elemente ausgewählt</item>
     </plurals>
     <plurals name="mixed_recording_incorrect_too_short">
         <item quantity="one">Gebe mindestens %d Zeichen ein</item>
@@ -608,10 +620,6 @@ und erhalte eine %d-Tage-Probezeit kostenlos!"</item>
         <item quantity="one">%d App</item>
         <item quantity="other">%d Apps</item>
     </plurals>
-    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
-        <item quantity="one">%2$d App, darunter %1$s könnte schädlich sein</item>
-        <item quantity="other">%2$d Apps, darunter %1$s könnten schädlich sein</item>
-    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="one">+%d</item>
         <item quantity="other">+%d</item>
@@ -639,6 +647,14 @@ und erhalte eine %d-Tage-Probezeit kostenlos!"</item>
     <plurals name="pc_battery_replacement_service_day">
         <item quantity="one">%d-tägigen</item>
         <item quantity="other">%d-tägigen</item>
+    </plurals>
+    <plurals name="pc_battery_text_hour">
+        <item quantity="one">%d Std.</item>
+        <item quantity="other">%d Std.</item>
+    </plurals>
+    <plurals name="pc_battery_text_minute">
+        <item quantity="one">%d Min.</item>
+        <item quantity="other">%d Min.</item>
     </plurals>
     <plurals name="pc_can_be_optimize_numbers">
         <item quantity="one">%d Element</item>
@@ -688,6 +704,10 @@ und erhalte eine %d-Tage-Probezeit kostenlos!"</item>
         <item quantity="one">%s Min verbleibend</item>
         <item quantity="other">%s Min verbleibend</item>
     </plurals>
+    <plurals name="pc_smart_charge_notify_summary_long_time_charge">
+        <item quantity="one">Im letzten %1$d Tag haben die Ladevorgänge lange gedauert. Der Ladevorgang wird bei %2$s pausiert.</item>
+        <item quantity="other">In den letzten %1$d Tagen haben die Ladevorgänge lange gedauert. Der Ladevorgang wird bei %2$s pausiert.</item>
+    </plurals>
     <plurals name="pc_statistics_battery_last_hour">
         <item quantity="one">%d Std verbleibend</item>
         <item quantity="other">%d Std verbleibend</item>
@@ -703,6 +723,22 @@ und erhalte eine %d-Tage-Probezeit kostenlos!"</item>
     <plurals name="pc_statistics_battery_use_second">
         <item quantity="one">Vor %d Sek voll aufgeladen</item>
         <item quantity="other">Vor %d Sek voll aufgeladen</item>
+    </plurals>
+    <plurals name="peep_protection_v2_category_group_title">
+        <item quantity="one">%1$s (%2$d)</item>
+        <item quantity="other">%1$s (%2$d)</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_apps">
+        <item quantity="one">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_strategies">
+        <item quantity="one">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_page_count">
+        <item quantity="one">%d Seite</item>
+        <item quantity="other">%d Seiten</item>
     </plurals>
     <plurals name="people">
         <item quantity="one">Von %1$d Person heruntergeladen</item>
@@ -1035,6 +1071,10 @@ und erhalte eine %d-Tage-Probezeit kostenlos!"</item>
     <plurals name="traffic_setting_app_count">
         <item quantity="one">%d App</item>
         <item quantity="other">%d Apps</item>
+    </plurals>
+    <plurals name="uniauth_reset_lockscreen_sub_title">
+        <item quantity="one">%1$d Versuch verbleibend</item>
+        <item quantity="other">%1$d Versuche verbleibend</item>
     </plurals>
     <plurals name="uninstall_game_count_title">
         <item quantity="one">%d Spiel nicht hinzugefügt</item>

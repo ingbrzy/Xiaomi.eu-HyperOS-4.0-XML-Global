@@ -372,7 +372,7 @@ Suurennus ei toimi näppäimistöllä tai siirtymispalkissa."</string>
     <string name="accessibility_service_screen_control_description">Se voi lukea kaiken näytön sisällön ja näyttää sisältöä kaikista sovelluksista.</string>
     <string name="accessibility_service_screen_control_title">Näytön katselu ja ohjaus</string>
     <string name="accessibility_service_warning_description">Täysi käyttöoikeus sopii saavutettavuussovelluksille, mutta ei useimmille sovelluksille.</string>
-    <string name="accessibility_setting_item_control_timeout_title">Reagointiaika (saavutettavuuskatkaisu)</string>
+    <string name="accessibility_setting_item_control_timeout_title">Aika ryhtyä toimiin</string>
     <string name="accessibility_settings">Saavutettavuus</string>
     <string name="accessibility_settings_summary">Näyttö, käyttö, audio</string>
     <string name="accessibility_settings_tabs_general">Yleinen</string>
@@ -609,6 +609,7 @@ Vaihda ominaisuudesta toiseen pyyhkäisemällä ylös kolmella sormella ja koske
     <string name="activity_title_root_note">Tietoja pääkäyttäjän oikeuksista</string>
     <string name="ad_service">Mainospalvelut</string>
     <string name="adapt_embedded">Rinnakkaisikkunat ovat saatavilla</string>
+    <string name="adapted_game_title">Tuetut pelit</string>
     <string name="adaptive_brightness_main_switch_title">Käytä kirkkauden säätöä</string>
     <string name="adaptive_connectivity_main_switch_title">Käytä mukautuvaa yhdistettävyyttä</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Valitsee automaattisesti parhaan verkkoyhteyden akunkeston pidentämiseksi</string>
@@ -684,7 +685,7 @@ Vaihda ominaisuudesta toiseen pyyhkäisemällä ylös kolmella sormella ja koske
     <string name="add_fingerprint_move_fast">Pidä sormeasi näytöllä hieman kauemmin</string>
     <string name="add_fingerprint_name_suggest_text">Sormenjäljen nimi</string>
     <string name="add_fingerprint_put_finger_edge_msg">Liikuta sormeasi hieman ja aseta se takaisin tunnistimelle, jotta kaikki sormenjäljen eri kohdat lisätään.</string>
-    <string name="add_fingerprint_put_finger_msg">Aseta sormesi tunnistimelle ja nosta se, kun tunnet värinän.</string>
+    <string name="add_fingerprint_put_finger_msg">Laita sormesi anturille, nosta se sitten pois, ja toista.</string>
     <string name="add_fingerprint_put_finger_title">Lisää sormenjälki</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Siirrä sormeasi hieman</string>
     <string name="add_fingerprint_success_msg">Lisätty onnistuneesti</string>
@@ -724,7 +725,10 @@ Järjestelmänvalvoja voi valvoa tähän käyttäjäprofiiliin liittyviä asetuk
     <string name="advanced_battery_title">Akun käyttö</string>
     <string name="advanced_gesture">Mukautetut eleet</string>
     <string name="advanced_screen_paper_mode_title">Lukutila</string>
+    <string name="advanced_screen_paper_mode_title_eye_comfort">Silmäystävällisyys</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Silmien mukavuus</string>
+    <string name="advanced_screen_paper_mode_title_vision_care">Xiaomi Vision Care</string>
     <string name="advanced_section_header">Yleiset</string>
     <string name="advanced_security_title">Lisäasetukset</string>
     <string name="advanced_settings">Lisäasetukset</string>
@@ -901,8 +905,8 @@ Widget: %2$s
     <string name="aon_gesture_up_down_waving_summary">Toimii pystysuuntaisten sisältösyötteiden kanssa</string>
     <string name="aon_gesture_up_down_waving_switch">Heilauta pystysuunnassa pyyhkäistäksesi ylös ja alas</string>
     <string name="aon_gesture_up_down_waving_title">Pyyhkäise pystysuunnassa</string>
-    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Varmista, että tila on hyvin valaistu, ja pidä sitten kättä %d–%d cm kameran edessä kämmen alaspäin. Kun tunnistus on onnistunut, heiluta kättäsi ylöspäin. Tämän jälkeen voit pyyhkäistä näyttöä ylös tällä eleellä.</string>
-    <string name="aon_gesture_up_waving_diagram_title">Heiluta ylös näytön edessä</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Varmista, että tila on hyvin valaistu, ja pidä sitten kättäsi %d–%d cm kameran edessä kämmen ylös- tai alaspäin. Kun tunnistus on onnistunut, pyyhkäise heiluttamalla kättäsi. Heiluta jatkaaksesi pyyhkäisyä. Jos haluat vaihtaa pyyhkäisyn suuntaa, käännä kättäsi toiseen suuntaan ja pidä sitä hetken paikallaan. Kun se on tunnistettu, heiluta uudelleen.</string>
+    <string name="aon_gesture_up_waving_diagram_title">Pyyhkäise heiluttamalla näytön edessä</string>
     <string name="aon_scanner_default_payment_method_title">Oletusmaksutapa</string>
     <string name="aon_scanner_dialog_message">Kun otat Pikaskannerin käyttöön, skannaamasi QR-koodit jaetaan Mi AI -skannerin kanssa. Varmista, että ymmärrät ja hyväksyt tämän ennen kuin jatkat. Skannaamiasi QR-koodeja ei tallenneta paikallisesti tai ladata pilveen. Huomaa, että tämän ominaisuuden käyttö saattaa hieman lisätä kokonaisvirrankulutusta.</string>
     <string name="aon_scanner_dialog_message_new">Kun käytät Pikaskanneria, skannaamasi QR-koodit jaetaan Tekälyskannerin kanssa. Näitä tietoja ei tallenneta laitteellesi eikä ladata pilveen. Tämän ominaisuuden käyttöönotto lisää virrankulutusta hieman.</string>
@@ -1406,6 +1410,7 @@ Käytetty viimeksi %2$s"</string>
     <string name="back_strap_status_close">Pois</string>
     <string name="back_strap_status_open">Päällä</string>
     <string name="back_strap_title">Taustavalotehosteet</string>
+    <string name="back_strap_title_tip">Ota käyttöön, jotta saat henkilökohtaisia ilmoituksia eri tilanteissa</string>
     <string name="back_tap">Takaisinnapautus</string>
     <string name="back_triple_tap">Kolmoisnapautus takaisin</string>
     <string name="background_activity_disabled_dialog_text">"Sovellusta ei voi rajoittaa, koska akun optimointi ei ole käytössä.
@@ -1417,6 +1422,7 @@ Ota optimointi käyttöön rajoittamista varten."</string>
     <string name="background_blur_enable">Edistyneet tekstuurit</string>
     <string name="background_blur_enable_summary">Lisää järjestelmään renderöintitehosteita, kuten sumennusta, visuaalisen kokemuksen parantamiseksi</string>
     <string name="background_blur_message">Tämän ominaisuuden käyttöönotto voi kuluttaa enemmän virtaa ja saada laitteesi kuumenemaan. Otetaanko silti käyttöön?</string>
+    <string name="background_blur_mode_title">Visuaalinen tyyli</string>
     <string name="background_blur_title">Ota edistyneet tekstuurit käyttöön</string>
     <string name="background_check_pref">Taustatarkistus</string>
     <string name="background_data">Taustatiedot</string>
@@ -1983,7 +1989,8 @@ Kelloavaus on kätevä tapa avata puhelin, esimerkiksi jos sormesi ovat kastunee
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">Käynnistä uudelleen</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">Käynnistä Bluetooth uudelleen</string>
     <string name="bluetooth_enable_opp_high_speed_summary">Käytä nopeita Bluetooth P2P -protokollia siirtoihin</string>
-    <string name="bluetooth_enable_page_scan_summary">Poista käytöstä/ota käyttöön sivun skannaus Bluetooth-testiä varten</string>
+    <string name="bluetooth_enable_page_scan">Bluetooth-sivuskannaus</string>
+    <string name="bluetooth_enable_page_scan_summary">Ota Bluetooth-sivuskannaus käyttöön tai poista se käytöstä testausta varten</string>
     <string name="bluetooth_enter_passkey_msg">Kirjoita yhdistämiskoodi ja paina sitten Return tai Enter</string>
     <string name="bluetooth_enter_passkey_other_device">Saatat joutua syöttämään tämän koodin myös toiseen laitteeseen.</string>
     <string name="bluetooth_enter_pin_other_device">Saatat joutua syöttämään tämän PIN-koodin myös toiseen laitteeseen.</string>
@@ -2291,9 +2298,11 @@ Valinta"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Unohda laite</string>
     <string name="bluetooth_unpair_dialog_title">Unohdetaanko laite?</string>
     <string name="bluetooth_unpair_dialog_with_associations_body">%1$s ei ole enää puhelimen pari. %2$s ei enää hallinnoi laitetta</string>
+    <string name="bluetooth_unpairing">Puretaan pariliitosta…</string>
     <string name="bluetooth_version">Bluetooth-versio</string>
     <string name="bluetooth_version_message">Päivitä</string>
     <string name="bluetooth_wake">Herätä Bluetooth-äänellä</string>
+    <string name="bluetooth_watch_not_synced_unpair_manually">Kelloa ei ole synkronoitu. Poista pariliitos manuaalisesti.</string>
     <string name="blur_switch">Vähennä sumennustehosteita</string>
     <string name="blur_switch_disabled_summary">Tilapäisesti pois käytöstä virransäästön takia</string>
     <string name="blur_switch_summary">Tee taustoista ja paneeleista helpommin nähtäviä</string>
@@ -2617,6 +2626,7 @@ Jos asennat CA-varmenteen, sen omistaja voi päästä sivustoilta ja sovelluksis
     <string name="camera_key_action_title">Mi-näppäin</string>
     <string name="camera_key_action_toggle_title">Vaihtokytkin</string>
     <string name="camera_laser_sensor_switch">Kameran laseranturi</string>
+    <string name="camera_mr_settings">Kamerarengas</string>
     <string name="camera_rear">Taka %s</string>
     <string name="camera_toggle_label_qs">Pääsy kameraan</string>
     <string name="camera_toggle_title">Pääsy kameraan</string>
@@ -2747,6 +2757,16 @@ Jos tämä lupa myönnetään, sovellus on saatavilla vaihtoehtona aina, kun tag
     <string name="checked_app_title">Valotehosteet päällä</string>
     <string name="checking_find_device_status">Tarkistetaan Etsi laite -tilaa…</string>
     <string name="checking_for_updates">Tarkistetaan päivityksiä…</string>
+    <string name="child_face_number_reach_limit">Voit lisätä kasvotietoja enintään kolmelle henkilölle</string>
+    <string name="child_face_unlock_download_education_center_button">Asenna</string>
+    <string name="child_face_unlock_download_education_center_content">Jotta voit käyttää tätä ominaisuutta, asenna ensin Koulutuskeskus.</string>
+    <string name="child_face_unlock_download_education_center_title">Huomio</string>
+    <string name="child_face_unlock_first_close_child_unlock">Poista ensin \"Avaa koulutuskeskus lukituksen avaamisen jälkeen\" käytöstä</string>
+    <string name="child_face_unlock_first_close_stay_keyguard">Poista ensin \"Pysy lukitusnäytössä lukituksen avaamisen jälkeen\" käytöstä</string>
+    <string name="child_face_unlock_no_use">Pois</string>
+    <string name="child_face_unlock_open_education_center">Avaa Koulutuskeskus lukituksen avaamisen jälkeen</string>
+    <string name="child_face_unlock_open_education_center_summary">Valitse tätä ominaisuutta käyttävän henkilön kasvotiedot</string>
+    <string name="child_face_unlock_use">Käytä</string>
     <string name="chip_add_title">Lisää taajuus</string>
     <string name="chip_change_error_toast">Parametreja ei voitu säätää</string>
     <string name="chip_change_toast">Taajuus muutettu. Ota muutokset käyttöön käynnistämällä laite uudelleen.</string>
@@ -3684,6 +3704,7 @@ Tämä asetus vaikuttaa kaikkiin tämän laitteen käyttäjiin."</string>
     <string name="device_screen_size">Näytön koko</string>
     <string name="device_screen_usage">Näytön käyttö täyden latauksen jälkeen</string>
     <string name="device_sd_memory">SD-kortti</string>
+    <string name="device_security_chip">Erillinen tietoturvasiru</string>
     <string name="device_share_loading">Luodaan kuvaa</string>
     <string name="device_status">Tila</string>
     <string name="device_status_activity_title">Tila</string>
@@ -3740,6 +3761,7 @@ Tämä asetus vaikuttaa kaikkiin tämän laitteen käyttäjiin."</string>
     <string name="disable_overlays">Poista HW-peittokuvat käytöstä</string>
     <string name="disable_overlays_summary">Käytä GPU:ta näytön koostamiseen</string>
     <string name="disable_password_warning">Kun poistat näytön lukituksen käytöstä, tallennetut sormenjäljet ja kasvotiedot poistetaan. Et voi enää avata laitetta kasvoilla tai sormenjäljillä etkä käyttää niitä Muistiinpanoissa tai Galleriassa.</string>
+    <string name="disable_permission_text_by_hyper">Nämä käyttöluvat eivät ole läpäisseet tarkistusta ja niitä on nyt rajoitettu</string>
     <string name="disable_phantom_process_monitor_summary">Poista käytöstä rajoitukset, jotka liittyvät järjestelmäresurssin käyttöön sovelluksen alatason prosesseissa</string>
     <string name="disable_phantom_process_monitor_title">Poista käytöstä alatason prosessirajoitukset</string>
     <string name="disable_power_key_long_press_under_keyguard">Poista virtapainikkeen valikko käytöstä</string>
@@ -3991,6 +4013,7 @@ Tämä asetus vaikuttaa kaikkiin tämän laitteen käyttäjiin."</string>
     <string name="dump_log_summary">"Tämä ominaisuus on suunniteltu %s-lokin luomiseen järjestelmän betaversiossa. Käytä sitä varoen.
 Voit tarkastella luotuja lokeja Tiedostonhallinnassa."</string>
     <string name="dump_log_title">Tietoja tästä ominaisuudesta</string>
+    <string name="dynamic_island_title">Xiaomi HyperIsland</string>
     <string name="early_morning">Aamu</string>
     <string name="easy_mode_font_settings_toast">Kirjasinta ei voi säätää Yksinkertaistetussa tilassa</string>
     <string name="easymode_hint">Napauta poistaaksesi yksinkertaistetun tilan käytöstä</string>
@@ -4020,6 +4043,7 @@ Voit tarkastella luotuja lokeja Tiedostonhallinnassa."</string>
     <string name="eid_multi_sim">E​ID %1$d</string>
     <string name="eighthours">8 tuntia</string>
     <string name="elastic_text">Kehotteet ja pudotusvalikot näkyvät joustavalla ponnahduksella, joka keskittyy enemmän näihin kohteisiin</string>
+    <string name="elder_care_ai_anti_fraud">Tunnista huijaus keskustelujen aikana ja vastaanota hälytyksiä</string>
     <string name="elder_care_block_advertising_promotions_calls_title">Estä markkinointipuhelut</string>
     <string name="elder_care_block_estate_agency_calls_title">Estä kiinteistönvälitystoimiston puhelut</string>
     <string name="elder_care_block_risky_app_title">Estä riskialttiit sovellukset</string>
@@ -4388,6 +4412,11 @@ Yhdistä ulkoinen näyttö tai kokeile toista johtoa"</string>
     <string name="external_source_untrusted">Ei sallittu</string>
     <string name="extreme_threats_summary">Saa hälytyksiä ihmishenkiä ja omaisuutta koskevista uhista</string>
     <string name="extreme_threats_title">Erittäin vakavat uhat</string>
+    <string name="eye_care_adjust_mode">Säätötyyli</string>
+    <string name="eye_care_classic_mode">Klassinen</string>
+    <string name="eye_care_learn_more">Lue lisää silmäystävällisyydestä</string>
+    <string name="eye_care_mode_description">\"Rytmi\" säätää värilämpötilaa automaattisesti ajan ja käyttötilanteen perusteella. Se pysyy luonnollisempana päivällä ja muuttuu lämpimämmäksi yöllä. \"Klassinen\" käyttää kiinteää värilämpötilaa ja sitä on säädettävä manuaalisesti.</string>
+    <string name="eye_care_rhythmic_mode">Rytmi</string>
     <string name="eye_gaze_dialog_message">Kun tämä ominaisuus on käytössä, järjestelmä havaitsee, katsotko näyttöä, mutta kasvonpiirteitäsi ei analysoida eikä näitä tietoja tallenneta laitteellesi tai ladata pilveen. Otetaanko nyt käyttöön?</string>
     <string name="eye_gaze_dialog_title">Tietoturvailmoitus</string>
     <string name="eye_gaze_summary">Laite ei lukkiudu, kun se havaitsee sinun katsovan näyttöä</string>
@@ -4396,6 +4425,7 @@ Yhdistä ulkoinen näyttö tai kokeile toista johtoa"</string>
     <string name="eye_habit_prompt_summary">Vastaanota ilmoituksia, kun laitteesi havaitsee olosuhteet, jotka voivat rasittaa silmiä</string>
     <string name="eye_habit_prompt_title">Silmänterveysilmoitukset</string>
     <string name="eye_paper_protection">Lukutilan asetukset</string>
+    <string name="eye_protection_technology">Teknologia</string>
     <string name="eyes_protect_certification">Teknologia ja sertifiointi</string>
     <string name="eyes_protect_certification_summary_1">Näköterveyttä edistävä S++ -sertifiointi</string>
     <string name="eyes_protect_certification_summary_2">Sertifioitu matala sinivalo (laitteistototeutus), vuorokausirytmiystävällisyys ja välkkymättömyys</string>
@@ -4407,6 +4437,7 @@ Yhdistä ulkoinen näyttö tai kokeile toista johtoa"</string>
     <string name="eyes_protect_certification_title_3">Luonnollisempi ympyräpolarisaatio</string>
     <string name="eyes_protect_certification_title_4">Välkkymätön DC-himmennys</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM-himmennys</string>
+    <string name="eyes_protect_game_title">Silmien mukavuus pelatessa</string>
     <string name="face_data_apply_for_category_title">Poista lukitus kasvotiedoilla</string>
     <string name="face_data_apply_for_keyguard_title">Lukitusnäyttö</string>
     <string name="face_data_input_camera_fail">Kameraa ei voitu ladata</string>
@@ -4437,6 +4468,7 @@ Lisää näytön lukitus ennen kasvotietojen lisäämistä."</string>
     <string name="face_data_suggesstion_first_cn_highlight">Kasvojentunnistus on vähemmän turvallinen kuin PIN-koodi, salasana, kuvio tai sormenjälki. Laitteesi lukitus saattaa avautua valokuvallasi sekä samannäköisten ihmisten tai esineiden avulla.</string>
     <string name="face_data_suggesstion_second">Varmista, että mikään kasvonosistasi ei ole esineiden peitossa ja, että ne ovat selvästi näkyvissä. Kasvosi pitäisi olla myös hyvin valaistut.</string>
     <string name="face_enroll_when_slt_on_toast">Kasvoja ei voi lisätä kasvojentunnistukseen käytettäessä Tiantong-satelliittiviestintää</string>
+    <string name="face_enrollment_fold_warning">Näytön tilan muuttaminen keskeyttää kasvotietojen tallennuksen</string>
     <string name="face_enrollment_tips">Varmista, että kaikki kasvosi osat näkyvät selvästi. Älä käytä hattuja, maskeja, aurinkolaseja tai muita asusteita.</string>
     <string name="face_finger_add">Lisää</string>
     <string name="face_finger_delete">Poista</string>
@@ -4460,6 +4492,9 @@ Lisää näytön lukitus ennen kasvotietojen lisäämistä."</string>
     <string name="face_unlock_disable">Kasvojen tunnistus on pois päältä</string>
     <string name="face_unlock_down">Nosta päätäsi</string>
     <string name="face_unlock_enable">Kasvojen tunnistus on päällä</string>
+    <string name="face_unlock_in_low_light_msg">Lisää näytön kirkkautta heikossa valossa kasvojen tunnistuksen parantamiseksi</string>
+    <string name="face_unlock_in_low_light_tip">Kun Yöaikainen silmäystävällisyys on päällä, \"Optimoi tunnistus hämärässä\" ei lisää näytön kirkkautta</string>
+    <string name="face_unlock_in_low_light_title">Optimoi tunnistus heikossa valossa</string>
     <string name="face_unlock_not_found">Sinua ei voitu tunnistaa</string>
     <string name="face_unlock_offset_bottom">Laske puhelintasi hieman</string>
     <string name="face_unlock_offset_left">Siirry oikealle</string>
@@ -4513,6 +4548,11 @@ ulkoruutuun päin"</string>
     <string name="fan_mode_partial_scene_usage">Valittu</string>
     <string name="fan_mode_range_title">Käyttötilanteet</string>
     <string name="fan_mode_usage_scenes">Käyttötilanteet</string>
+    <string name="fan_other_features">Muut ominaisuudet</string>
+    <string name="fan_self_clean">Tuulettimen itsepuhdistus</string>
+    <string name="fan_self_clean_summary">Jos tuuletin ei ole toiminut yli %d päivään, se puhdistaa itsensä automaattisesti, kun näyttö ei ole päällä ja laite latautuu</string>
+    <string name="fan_smart_stop_on_recording">Pysäytä äänikomennon aikana</string>
+    <string name="fan_smart_stop_on_recording_summary">Vähennä tuulettimen melua puheluiden, ääni- ja videotallennuksen aikana. Ei koske pelejä.</string>
     <string name="fcc_equipment_id">Varustetunnus</string>
     <string name="feature_flags_dashboard_title">Ominaisuusilmoitukset</string>
     <string name="feedback">Palaute</string>
@@ -4592,6 +4632,7 @@ Pyydä lisätietoja luoton myöntäjältä."</string>
     <string name="fingerprint_enroll_button_add">Lisää toinen</string>
     <string name="fingerprint_enroll_button_next">Seuraava</string>
     <string name="fingerprint_enrollment_desc">Kun olet tallentanut sormenjäljen, voit käyttää sitä laitteen avaamiseen ja henkilöllisyytesi vahvistamiseen.</string>
+    <string name="fingerprint_enrollment_fold_warning">Näytön tilan muuttaminen keskeyttää sormenjälkien tallennuksen</string>
     <string name="fingerprint_enrollment_title">Tallenna sormenjälki</string>
     <string name="fingerprint_face_password">Sormenjäljet, kasvotiedot ja näytönlukitus</string>
     <string name="fingerprint_face_password_unlock">Sormenjäljet, kasvotiedot ja näytönlukitus</string>
@@ -4619,6 +4660,7 @@ Pyydä lisätietoja luoton myöntäjältä."</string>
     <string name="fingerprint_password_unlock">Kasvotiedot ja näytönlukitus</string>
     <string name="fingerprint_payment">Sormenjälki maksut</string>
     <string name="fingerprint_privacy_desc">Voit käyttää sormenjälkeäsi pääsynä yksityisiin albumeihin, viesteihin, muistiinpanoihin, tiedostoihin, Xiaomi Hyper XiaoAi -muistiin, sovelluslukkoon ja salasanojen hallintatyökaluihin.</string>
+    <string name="fingerprint_privacy_policy"><Data>Lue ja hyväksy &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"Sormenjäljet ja näytön lukitus\" -tietosuojalausunto&lt;/a> ennen kuin jatkat.&lt;/font></Data></string>
     <string name="fingerprint_protection">Sormenjäljen suojaus</string>
     <string name="fingerprint_record_input">Nauhoita</string>
     <string name="fingerprint_removal_failed">Sormenjälkeä ei voitu poistaa, yritä myöhemmin uudelleen</string>
@@ -4690,21 +4732,6 @@ Pyydä lisätietoja luoton myöntäjältä."</string>
     <string name="flash_notifications_summary_off">Pois päältä / Ilmoitukset kameran tai näytön valoilmoituksella</string>
     <string name="flash_notifications_summary_on">Päällä / Ilmoitukset kameran tai näytön valoilmoituksella</string>
     <string name="flash_notifications_title">Valosäde ilmoitusten yhteydessä</string>
-    <string name="flashback_background_start_switch_summary">Luo kortit avaintiedoilla automaattisesti, kun sovellukset ovat käynnissä taustalla</string>
-    <string name="flashback_background_start_switch_title">Luo kortteja automaattisesti</string>
-    <string name="flashback_baidu_map_summary">Näytä reitti</string>
-    <string name="flashback_didi_summary">Näytä ajotiedot</string>
-    <string name="flashback_meituan_summary">Näytä toimitustiedot</string>
-    <string name="flashback_meituan_waimai_summary">Näytä toimitustiedot</string>
-    <string name="flashback_open_switch_summary">Näytä tärkeimmät tiedot, kun sovellukset näytetään kelluvina ikkunoina</string>
-    <string name="flashback_open_switch_title">Sovelluskortit</string>
-    <string name="flashback_shansong_summary">Näytä toimituksen eteneminen</string>
-    <string name="flashback_status_close">Pois</string>
-    <string name="flashback_status_open">Päällä</string>
-    <string name="flashback_summary">Näytä tärkeimmät tiedot, kun sovellukset näytetään kelluvina ikkunoina</string>
-    <string name="flashback_support_apps_title">Saatavilla olevat sovellukset</string>
-    <string name="flashback_title">Sovelluskortit</string>
-    <string name="flashback_wangzhe_summary">Näytä ylösnousemuslaskenta</string>
     <string name="flip_aod_settings_title">Lukitusnäyttö (ulkoinen)</string>
     <string name="flip_aod_settings_title_new">Lukitusnäyttö (ulkoinen)</string>
     <string name="flip_application_settings_title">Ulkoisen näytön sovellukset</string>
@@ -4800,6 +4827,8 @@ Pyydä lisätietoja luoton myöntäjältä."</string>
     <string name="font_preview_text_content">"Esimerkkiteksti:
 
 Xiaomi rakentaa hellittämättä upeita tuotteita rehellisillä hinnoilla, jotta kaikki voivat nauttia paremmasta elämästä innovatiivisen teknologian avulla."</string>
+    <string name="font_preview_text_content_new">"Esimerkkiteksti:
+Xiaomi rakentaa jatkuvasti upeita tuotteita rehellisillä hinnoilla, jotta kaikki voivat nauttia paremmasta elämästä innovatiivisen teknologian avulla."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Nykyinen fontti ei tue fontin painon säätämistä</string>
     <string name="font_settings_jump">Esteettömyys ja näytön koko</string>
@@ -4819,12 +4848,14 @@ Xiaomi rakentaa hellittämättä upeita tuotteita rehellisillä hinnoilla, jotta
 "</string>
     <string name="font_size_summary1">"Jos järjestelmäsi teksti on vieläkin liian pieni, kokeile "</string>
     <string name="font_size_summary2">Yksinkertaistettu tila</string>
+    <string name="fonts_management_installed_app">Asenna ja hallitse sovelluksissa käytettäviä fontteja</string>
+    <string name="fonts_manager">Hallitse fontteja</string>
     <string name="footer_description_full_screen_intent">Salli tämän sovelluksen näyttää ilmoituksia, jotka kattavat koko näytön, kun laite on lukittu. Sovellus voi käyttää koko näytön ilmoituksia näyttääkseen hälytyksiä, saapuvia puheluita tai muita kiireellisiä ilmoituksia. Tämä asetus perustuu oikeuteen avata uusia ikkunoita, kun se on käynnissä taustalla, ja sitä voidaan käyttää vain, kun tämä lupa on myönnetty.</string>
     <string name="footer_learn_more_content_description">Lue lisää: %1$s</string>
     <string name="footer_time_zone_offset_change_next_change">Seuraava muutos</string>
     <string name="footer_time_zone_offset_change_no_next_change">Ei ajoitettuja muutoksia</string>
     <string name="forbidden_network">(kielletty)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Korjaustila on käytössä. Salasanoja ei voi määrittää tai vaihtaa nyt.</string>
     <string name="forbidden_switch_apn_string">Valitut APN-asetukset eivät täsmää nykyisen verkkotyypin kanssa</string>
     <string name="force_allow_on_external">Salli aina ulkoinen tallennus</string>
     <string name="force_allow_on_external_summary">Mahdollistaa sovelluksen tietojen tallentamisen ulkoiseen tallennustilaan luetteloarvoista riippumatta</string>
@@ -4944,6 +4975,7 @@ Tämä ominaisuus toimii vain, kun järjestelmän navigointi on asetettu eleille
     <string name="friday_first_day_of_week">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
+    <string name="frp_status_activated">Tehdasasetusten palautussuoja on käytössä</string>
     <string name="fsg_mistake_touch_summary">Joissakin tilanteissa, kuten koko näytöllä toistettavissa peleissä ja videoissa, eleet on toistettava kaksi kertaa toiminnon suorittamiseksi</string>
     <string name="fsg_mistake_touch_title">Toista ele kaksi kertaa</string>
     <string name="full_screen_display">Koko näytön tila</string>
@@ -4987,6 +5019,7 @@ Kun otat automaattisen varmuuskopioinnin käyttöön, laitteen ja sovellusten ti
     <string name="game_controller_stick_remapping_category">Suunnat</string>
     <string name="game_controller_stick_right">Oikea ohjainsauva</string>
     <string name="game_delta_action_moments">Tarvikkeiden ryöstely ja onnistunut evakuointi</string>
+    <string name="game_eyecare_empty_list_tip">Täällä ei ole vielä mitään</string>
     <string name="game_king_of_glory_moments">Tapot, voitot ja muut tärkeät hetket</string>
     <string name="game_peacekeeper_elites_moments">Laskuvarjohypyt ja taistelu</string>
     <string name="game_storage_settings">Pelit</string>
@@ -5154,6 +5187,7 @@ Alue, jolla voit vahvistaa näytön lukituksen, siirtyy oikealle."</string>
     <string name="gxzw_anim_rhythm">Rytmi</string>
     <string name="gxzw_anim_star">Tähtivalo</string>
     <string name="gxzw_anim_switch">Sormenjälkianimaatio</string>
+    <string name="gxzw_anim_switch_new">Sormenjälkianimaatio</string>
     <string name="gxzw_anim_title">Sormenjäljen tunnistus</string>
     <string name="gxzw_aod_show_summary">Nosta laitetta tai napauta näyttöä, jotta sormenjälkikuvake tulee näkyviin. Tämä ominaisuus lisää järjestelmän virrankulutusta, mutta mahdollistaa laitteen lukituksen avaamisen nopeammin.</string>
     <string name="gxzw_aod_show_tittle">Näytä sormenjälkikuvake näytön ollessa pois päältä</string>
@@ -5172,6 +5206,7 @@ Alue, jolla voit vahvistaa näytön lukituksen, siirtyy oikealle."</string>
     <string name="gxzw_quick_open_show_summary">· Avaa pikavalikko pitämällä sormesi sormenjälkikuvakkeella laitteen lukituksen avaamisen jälkeen.</string>
     <string name="gxzw_quick_open_slow_summary">Avaa pikavalikko painamalla ja pitämällä pohjassa sormenjälkikuvaketta. Käytä pikavalintaa pyyhkäisemällä.</string>
     <string name="gxzw_quick_open_slow_title">Paina ja pidä pohjassa</string>
+    <string name="gxzw_quick_open_summary">Lukituksen avaamisen jälkeen avaa pikakuvakevalikko pitämällä sormenjälkikuvake painettuna. Valitse sitten pikakuvake liu’uttamalla sen kohdalle.</string>
     <string name="gxzw_quick_open_title">Pikavalinnat</string>
     <string name="gxzw_recognizing_anim_a">Ripple</string>
     <string name="gxzw_recognizing_anim_b">Spiral</string>
@@ -5462,6 +5497,7 @@ Avaa Xiaomi Cloud ja palauta kohteet sieltä."</string>
     <string name="immediately_destroy_activities">Älä säilytä toimintoja</string>
     <string name="immediately_destroy_activities_summary">Tuhoa kaikki toiminnot, kun käyttäjä poistuu</string>
     <string name="immersive_audio_sources">Mukaansatempaava ääni</string>
+    <string name="import_manager_font_summary">Tuo ja hallitse sovellusten fontteja</string>
     <string name="importance_default">Oletus</string>
     <string name="importance_high">Korkea</string>
     <string name="importance_low">Matala</string>
@@ -5961,6 +5997,69 @@ Tärkeää: Satelliittipuhelut eivät ole käytettävissä. Hätäpuhelut voivat
     <string name="layout_size_normal_text">Pieni</string>
     <string name="layout_size_small">XS</string>
     <string name="layout_size_small_text">Erittäin pieni</string>
+    <string name="ldp_checker_action">Asetukset</string>
+    <string name="ldp_checker_desc">Vahvista henkilöllisyytesi lisäämällä sormenjälki tärkeitä tietoturva-asetuksia varten ja ota Etsi laite -toiminto käyttöön. Jos sisäänkirjautunut laitteesi katoaa tai varastetaan, Etsi laite -toiminto voi auttaa sinua paikantamaan sen ja suojaamaan tietojasi.</string>
+    <string name="ldp_checker_find_device_desc">Jos et ole kirjautunut sisään Xiaomi-tilillesi, sinut opastetaan kirjautumaan sisään ensin.</string>
+    <string name="ldp_checker_find_device_title">Ota Etsi laite käyttöön</string>
+    <string name="ldp_checker_fingerprint_enroll_desc">Jos et ole vielä asettanut näytön lukitusta, sinut ohjataan asettamaan se ensin.</string>
+    <string name="ldp_checker_fingerprint_enroll_title">Lisää vähintään yksi sormenjälki</string>
+    <string name="ldp_checker_title">Sormenjälki ja Etsi laite on otettava käyttöön</string>
+    <string name="ldp_closed_dialog_button_know">Selvä</string>
+    <string name="ldp_closed_dialog_reason_by_xiaomi_account">Poistit kadonneen laitteen suojauksen käytöstä Xiaomi-tilisi kautta. Laitteen tietoturvaominaisuuksilla ei enää ole lisäsuojaa.</string>
+    <string name="ldp_closed_dialog_reason_no_account">Kadonneen laitteen suojaus on nyt pois käytöstä, koska et ole kirjautunut sisään Xiaomi-tilille.</string>
+    <string name="ldp_closed_dialog_reason_no_device_find">Poistit Etsi laite -ominaisuuden käytöstä etäältä, joten kadonneen laitteen suojaus ei ole käytössä.</string>
+    <string name="ldp_closed_dialog_reason_no_fingerprint">Kadonneen laitteen suojaus on nyt pois käytöstä, koska sormenjälkeä ei ole asetettu.</string>
+    <string name="ldp_closed_dialog_reason_no_lock_password">Kadonneen laitteen suojaus on nyt pois käytöstä, koska näytön lukitusta ei ole asetettu.</string>
+    <string name="ldp_closed_dialog_sync_title">Kadonneen laitteen suojaus ei ole käytössä</string>
+    <string name="ldp_closed_dialog_title">Kadonneen laitteen suojaus ei ole käytössä</string>
+    <string name="ldp_detail_introduction">Katso, miten tämä ominaisuus voi auttaa suojaamaan sinua, jos laitteesi katoaa.</string>
+    <string name="ldp_detail_title">Tietoa kadonneen laitteen suojauksesta</string>
+    <string name="ldp_dual_auth">Kaksivaiheinen todennus</string>
+    <string name="ldp_dual_auth_desc">Estä muita käyttämästä kadonnutta SIM-korttia Xiaomi-tilin peukalointiin</string>
+    <string name="ldp_extra_fingerprint_item1">•Näytön lukituksen muuttaminen tai poistaminen käytöstä</string>
+    <string name="ldp_extra_fingerprint_item2">•Sormenjälkien tai kasvotietojen lisääminen</string>
+    <string name="ldp_extra_fingerprint_item3">•Sormenjälkien tai kasvotietojen poistaminen</string>
+    <string name="ldp_extra_fingerprint_item4">•Kirjautuminen ulos Xiaomi-tililtä</string>
+    <string name="ldp_extra_fingerprint_title">Seuraavat toimet edellyttävät ylimääräistä sormenjälkitarkistusta</string>
+    <string name="ldp_fingerprint_fault_desc">"Voit poistaa tämän ominaisuuden käytöstä sormenjälkitodennuksen avulla. Jos sormenjälkeäsi ei voida vahvistaa, voit poistaa sen käytöstä kadonneen laitteen suojauksen avulla vahvistamalla Xiaomi-tilisi.
+Jos haluat estää muita käyttämästä tätä menetelmää suojauksen ohittamiseen heti, kadonneen laitteen suojaus käynnistää %1$d tunnin turvaviiveen. Tämä antaa laitteen todelliselle omistajalle aikaa ryhtyä toimenpiteisiin, kuten laitteen etätyhjentämiseen tai SIM-kortin jäädyttämiseen. Viiveen päätyttyä voit poistaa tämän ominaisuuden käytöstä vahvistamalla Xiaomi-tilisi seuraavien %2$d tunnin kuluessa."</string>
+    <string name="ldp_fingerprint_fault_title">Jos sormenjälkitodennus ei ole käytettävissä</string>
+    <string name="ldp_forbidden_actions_item1">•Etsi laite -toiminnon poistaminen käytöstä</string>
+    <string name="ldp_forbidden_actions_item2">•Offline-sijainnin poistaminen käytöstä</string>
+    <string name="ldp_forbidden_actions_item3">•\"Lähetä viimeisin sijainti\" -toiminnon poistaminen käytöstä</string>
+    <string name="ldp_forbidden_actions_title">Seuraavat toiminnot estetään</string>
+    <string name="ldp_function_home_introduction_des">Jos laite katoaa ja joku on saanut näytön lukituksen, kasvotiedot tai pariliitetyn Bluetooth-laitteen, tämä ominaisuus voi auttaa estämään häntä tekemästä tärkeitä haitallisia muutoksia laitteeseen. &lt;a href=app://learn_more>Lisätietoja&lt;/a></string>
+    <string name="ldp_function_home_suggestion_title">Suositellut ominaisuudet</string>
+    <string name="ldp_guide_account_protection_desc">Arkaluonteiset Xiaomi-tilin toiminnot edellyttävät ensin sormenjälkitodennusta tällä laitteella.</string>
+    <string name="ldp_guide_account_protection_title">Lisää ylimääräistä suojaa Xiaomi-tiliisi</string>
+    <string name="ldp_guide_action">Seuraava</string>
+    <string name="ldp_guide_desc">Jos laite katoaa ja joku on saanut näytön lukituksen, kasvotiedot tai pariliitetyn Bluetooth-laitteen, tämä ominaisuus voi auttaa estämään häntä tekemästä tärkeitä haitallisia muutoksia laitteeseen.</string>
+    <string name="ldp_guide_identity_verification_desc">Tietoturva-asetusten muuttaminen ja joidenkin arkaluonteisten ominaisuuksien käyttäminen edellyttää sormenjälkitodennusta, joten vain sinä voit käyttää niitä.</string>
+    <string name="ldp_guide_identity_verification_title">Varmista, että suoritat itse arkaluonteiset toiminnot</string>
+    <string name="ldp_how_to_protect_desc">"Kadonneen laitteen suojaus lisää ylimääräisen tietoturvakerroksen. Jos laitteen lukitus poistetaan käyttämällä alhaisempaa suojausmenetelmää, järjestelmä vaatii toisen vahvistusmenetelmän arkaluonteisten toimintojen käyttöä varten. Tämä lisää toisen henkilöllisyyden tarkistuksen ilman tarpeetonta toistuvaa vahvistusta.
+Jos laite katoaa, tämä lisätarkistus voi silti estää muita muuttamasta tärkeitä tietoturva-asetuksia, vaikka näytön lukitus tai Xiaomi-tilin tiedot olisivat vuotaneet huijausten tai tietojenkalastelun kautta."</string>
+    <string name="ldp_how_to_protect_title">Näin se toimii</string>
+    <string name="ldp_recommend_action_button_text">Ota käyttöön</string>
+    <string name="ldp_recommend_desc">Tämä auttaa estämään muita käyttämästä SIM-korttiasi Xiaomi-tilisi nollaamiseen ja sitten tietoturvaominaisuuksien, kuten kadonneen laitteen suojauksen ja Etsi laite -toiminnon, poistamiseen käytöstä.</string>
+    <string name="ldp_recommend_later_button_text">Ei nyt</string>
+    <string name="ldp_recommend_title">Ota kaksivaiheinen todennus käyttöön tililläsi</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item1">•Lukituksen avaamisen Bluetooth-laitteilla käytöstä poistaminen</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item2">•USIM-kortin asetusten tarkasteleminen tai muuttaminen</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item3">•Salasanat-sovelluksen avaaminen</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item4">•Salasanat-sovelluksen käyttäminen salasanojen automaattiseen täyttöön</string>
+    <string name="ldp_replace_pwd_with_fingerprint_title">Seuraavissa toiminnoissa näytön lukituksen vahvistus korvataan sormenjälkitodennuksella</string>
+    <string name="ldp_summary">Estä muita tekemästä tärkeitä muutoksia tähän laitteeseen ja sisäänkirjautuneeseen Xiaomi-tiliin</string>
+    <string name="ldp_title">Kadonneen laitteen suojaus</string>
+    <string name="ldp_trigger_occasion_desc">Jos laitteen lukitus avataan kasvotiedoilla, näytön lukituksella tai pariliitetyllä Bluetooth-laitteella, jotkin arkaluonteiset toiminnot edellyttävät ylimääräistä sormenjälkitarkistusta tai vain sormenjälkeä. Samalla Etsi laite -ominaisuutta ei voi poistaa käytöstä.</string>
+    <string name="ldp_trigger_occasion_title">Kun suojaus käynnistyy</string>
+    <string name="ldp_uni_auth_add_face_title">Vahvista sormenjälkesi kasvotietojen lisäämiseksi</string>
+    <string name="ldp_uni_auth_add_fingerprint_title">Vahvista sormenjälkesi uuden sormenjäljen lisäämiseksi</string>
+    <string name="ldp_uni_auth_change_password_title">Vahvista sormenjälkesi näytön lukituksen muuttamiseksi</string>
+    <string name="ldp_uni_auth_disable_ldp_title">Vahvista sormenjälkesi kadonneen laitteen suojauksen poistamiseksi käytöstä</string>
+    <string name="ldp_uni_auth_enable_ldp_subtitle">Voit ottaa kadonneen laitteen suojauksen käyttöön vahvistamalla henkilöllisyytesi ja varmistamalla, että sormenjälkianturi toimii oikein.</string>
+    <string name="ldp_uni_auth_remove_face_title">Vahvista sormenjälkesi kasvotietojen poistamiseksi</string>
+    <string name="ldp_uni_auth_remove_fingerprint_title">Vahvista sormenjälkesi sormenjäljen poistamiseksi</string>
+    <string name="ldp_uni_auth_remove_password_title">Vahvista sormenjälkesi näytön lukituksen poistamiseksi käytöstä</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_about_security_chip">Tietoa siitä, miten erillinen tietoturvasiru suojaa laitettasi</string>
     <string name="learn_more">Lue lisää</string>
@@ -5991,6 +6090,7 @@ Tärkeää: Satelliittipuhelut eivät ole käytettävissä. Hätäpuhelut voivat
     <string name="license_title">Käyttölupa</string>
     <string name="lift_to_wake_title">Herätä nostamalla</string>
     <string name="light_camera_state_summary">Ota taustavalo käyttöön, kun otat ajastettuja kuvia tai sarjakuvia</string>
+    <string name="light_camera_state_summary_new">Sytytä LED-valo ajastettuja tai sarjakuvia otettaessa</string>
     <string name="light_camera_state_title">Kameran tilailmaisin</string>
     <string name="light_color_mode">Valotila</string>
     <string name="lights_title">LED-valo</string>
@@ -6677,6 +6777,7 @@ Tätä toimintoa ei voi peruuttaa."</string>
 Et voi peruuttaa tätä toimintoa."</string>
     <string name="master_clear_title">Poista kaikki tiedot (tehdasasetusten palautus)</string>
     <string name="master_clear_title_new">Tehdasasetusten palautus</string>
+    <string name="material_classic_title">Huurrettu lasi</string>
     <string name="material_clock_toggle_content_description">Valitse AP tai IP</string>
     <string name="material_hour_24h_suffix">%1$s tuntia</string>
     <string name="material_hour_selection">Valitse tunti</string>
@@ -6693,6 +6794,7 @@ Et voi peruuttaa tätä toimintoa."</string>
     <string name="material_timepicker_pm">ip</string>
     <string name="material_timepicker_select_time">Valitse aika</string>
     <string name="material_timepicker_text_input_mode_description">Vaihda ajan syöttämiseen tekstitilassa.</string>
+    <string name="material_transparent_title">Pehmeä lasi</string>
     <string name="max_aspect_settings_all_app_display_loading">Hetki vain…</string>
     <string name="max_cpu10_info">"Deca-core Max "</string>
     <string name="max_cpu2_info">"Dual-core Max "</string>
@@ -6834,6 +6936,8 @@ Et voi peruuttaa tätä toimintoa."</string>
     <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
     <string name="mi_smart_play_entry_title">Mi Smart Play</string>
     <string name="mi_transfer">Mi Mover</string>
+    <string name="mi_transfer_banner_summary">Useita laitemerkkejä tuetaan</string>
+    <string name="mi_transfer_banner_title">Siirrä kohteita vanhalta laitteeltasi</string>
     <string name="mi_upi_settings">Mi Pay -tili</string>
     <string name="mi_wallet">Mi-lompakko</string>
     <string name="mi_wallet_desc">Mi-lompakko</string>
@@ -7080,30 +7184,11 @@ Jatka käyttääksesi lisäasetuksia."</string>
     <string name="miui_face_unlock_open_toast_for_sensor_light_virtual">Näytön kirkkautta ei säädetä automaattisesti</string>
     <string name="miui_input_method_attention">Huomio</string>
     <string name="miui_input_method_settings">Syöttömenetelmän asetukset</string>
-    <string name="miui_lab_ai_cloud_closed">Tekoälyennakkolataus ei ole vielä käytettävissä.</string>
-    <string name="miui_lab_ai_preload_desc">Tekoälyennakkolataus nopeuttaa sovellusten käynnistämistä</string>
-    <string name="miui_lab_ai_preload_title">Tekoälyennakkolataus</string>
-    <string name="miui_lab_aiasst_call_screen_desc">Vastaa puheluihin tekoälyn avulla</string>
-    <string name="miui_lab_aiasst_call_screen_title">Tekoälypuheluavustaja</string>
-    <string name="miui_lab_drive_mode_desc">Käytä ääniohjaimia ja kuuntele WeChat-viestejä</string>
-    <string name="miui_lab_drive_mode_title">Autotila</string>
-    <string name="miui_lab_feature_applied">Asetettu</string>
-    <string name="miui_lab_feature_off">Pois</string>
-    <string name="miui_lab_feature_on">Päällä</string>
-    <string name="miui_lab_features">MIUI-laboratorion ominaisuudet</string>
-    <string name="miui_lab_gallery_search_desc">Parannettu kuvahaku</string>
-    <string name="miui_lab_gallery_search_title">Etsi kuvia Galleriassa</string>
-    <string name="miui_lab_gesture_desc">Käytä navigointiin eleitä painikkeiden sijaan</string>
-    <string name="miui_lab_gesture_title">Koko näytön eleet</string>
-    <string name="miui_lab_install_drive_mode_error">Ei voitu asentaa. Yritä uudelleen.</string>
-    <string name="miui_lab_install_drive_mode_summary">Autotila on järjestelmäsovellus. Asennus ei edellytä internetyhteyttä.</string>
-    <string name="miui_lab_install_drive_mode_title">Asenna autotila</string>
-    <string name="miui_lab_settings">Laboratorio</string>
-    <string name="miui_lab_slogan">Opi. Tutki. Löydä.</string>
     <string name="miui_master_clear_prompt_battery_low">Tehdasasetusten palautusta ei voida suorittaa alle %1$s akkuvarauksella. Lataa laite ennen kuin jatkat.</string>
     <string name="miui_master_clear_summary">Poistaa laitteen kaikki tiedot</string>
     <string name="miui_more_special_feature">Tutki uusia ominaisuuksia</string>
     <string name="miui_nfc_dialog_message">Et voi käyttää NFC-ominaisuuksia, kuten Mi Payta, matkakortteja, avainkortteja ja muuta, jos poistat NFC:n käytöstä. Poistetaanko käytöstä silti?</string>
+    <string name="miui_nfc_dialog_message_gl">Et voi käyttää NFC-ominaisuuksia, kuten NFC-tunnisteiden lukemista ja kirjoittamista, kulkukorttien käyttöä ja muita ominaisuuksia, jos poistat NFC:n käytöstä. Haluatko kuitenkin poistaa sen käytöstä?</string>
     <string name="miui_nfc_dialog_negative">Poista käytöstä</string>
     <string name="miui_nfc_dialog_positive">Peruuta</string>
     <string name="miui_nfc_dialog_title">Poistetaan NFC käytöstä</string>
@@ -7230,6 +7315,7 @@ Kuka tahansa käyttäjä voi myöntää käyttöoikeuksia kaikkien tällä laitt
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Vaihda puolinäyttöön</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Suurenna</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimoi</string>
+    <string name="miuix_popup_show_description">Ponnahdusikkuna</string>
     <string name="miuix_popup_window_default_title">Ponnahdusikkuna</string>
     <string name="miuix_progressbar_loading">Lataa</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
@@ -7714,6 +7800,12 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="next_button_label">Seuraava</string>
     <string name="next_label">Seuraava</string>
     <string name="next_page_content_description">Seuraava</string>
+    <string name="nfc_ac_btn_no">Peruuta</string>
+    <string name="nfc_ac_btn_yes">Aseta</string>
+    <string name="nfc_ac_confirm_ask">Haluatko asettaa kulkukortin oletuskortiksi?</string>
+    <string name="nfc_ac_confirm_desc">Jos haluat avata ovien lukituksen napauttamalla puhelinta, aseta kulkukortti oletusnapautuskortiksi.</string>
+    <string name="nfc_ac_summary">Käytä puhelinta kulkukorttina ja avaa tuetut ovet napauttamalla</string>
+    <string name="nfc_ac_title">Kulkukortti</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Aloita käyttö asentamalla ensin maksullinen sovellus</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Ei saatavilla, koska NFC on pois päältä</string>
     <string name="nfc_category_title">NFC</string>
@@ -7738,7 +7830,7 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Valitse oletukseksi</string>
     <string name="nfc_payment_btn_text_update">Päivitä</string>
-    <string name="nfc_payment_default">Oletusmaksusovellus</string>
+    <string name="nfc_payment_default">Valitse oletuskortti</string>
     <string name="nfc_payment_default_not_set">Ei asetettu</string>
     <string name="nfc_payment_favor_default">Käytä aina oletussovellusta</string>
     <string name="nfc_payment_favor_open">Vaihda oletussovellus, kun toinen maksusovellus on avoinna</string>
@@ -7807,7 +7899,10 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="night_display_temperature_title">Voimakkuus</string>
     <string name="night_display_text">Yövalo tekee näytöstä keltasävyisen. Sen avulla näytön katselu heikossa valossa on helpompaa ja saatat nukahtaa helpommin.</string>
     <string name="night_display_title">Yövalo</string>
+    <string name="night_eye_protection_summary">Vähennä automaattisesti kirkkautta nukahtamisen jälkeen mukavuuden lisäämiseksi, kun heräät katsomaan laitetta yöllä</string>
+    <string name="night_eye_protection_title">Yöllinen silmäystävällisyys</string>
     <string name="night_light_main_switch_title">Käytä yövaloa</string>
+    <string name="night_vision_adapted_game_title">@string/adapted_game_title</string>
     <string name="nls_feature_modes_settings_summary">Se voi ylläpitää tiloja, aktivoida ne ja muuttaa niihin liittyviä asetuksia.</string>
     <string name="nls_feature_read_summary">Se voi nähdä ilmoituksesi, myös henkilökohtaiset tiedot, esim. yhteystiedot, viestit ja kuvat.</string>
     <string name="nls_feature_read_title">Ilmoitustesi lukeminen</string>
@@ -8290,6 +8385,7 @@ OTG sammuu automaattisesti 10 minuutin käyttämättömyyden jälkeen."</string>
     <string name="paper_mode_customize_time_summary">Ota lukutila käyttöön mukautetulle ajalle</string>
     <string name="paper_mode_customize_time_title">Mukautettu aika</string>
     <string name="paper_mode_enable_description">Vähennä sinivaloa asettamalla näytölle lämpimämpi sävy</string>
+    <string name="paper_mode_enable_title">@string/screen_paper_mode_title</string>
     <string name="paper_mode_end_time_title">Poista käytöstä</string>
     <string name="paper_mode_get_location_dlg_msg">Auringonnousun ja -laskun määrittämiseen tarvitaan pääsy sijaintitietoihisi</string>
     <string name="paper_mode_get_location_dlg_negative_btn_text">Peruuta</string>
@@ -8323,6 +8419,7 @@ Lue ja hyväksy %s ennen kuin käytät tätä palvelua."</string>
     <string name="password_save_success">Tallennettu onnistuneesti</string>
     <string name="password_saving">Salasanaa tallennetaan…</string>
     <string name="password_security_settings_title">Salasanat ja tietoturva</string>
+    <string name="password_set_success_hint">Voit nyt avata laitteen lukituksen uudella näytön lukituksella</string>
     <string name="password_setup_complete">Salasanan asettaminen onnistui</string>
     <string name="password_toggle_content_description">Näytä salasana</string>
     <string name="password_turned_off_text">Salasana on laitettu pois päältä</string>
@@ -8489,6 +8586,13 @@ Lue ja hyväksy %s ennen kuin käytät tätä palvelua."</string>
     <string name="please_stop_listen_broadcast_audio">Lopeta ensin lähetyksen kuunteleminen</string>
     <string name="please_type_passphrase">Salasana</string>
     <string name="pm">ip.</string>
+    <string name="pocket_musician">Xiaomi-taskukitara</string>
+    <string name="pocket_musician_battery_toast_both">Lataa tämä laite ja Xiaomi-taskukitara ennen laiteohjelmiston päivittämistä</string>
+    <string name="pocket_musician_battery_toast_device">Lataa Xiaomi-taskukitara ennen laiteohjelmiston päivittämistä</string>
+    <string name="pocket_musician_battery_toast_phone">Liitä laturi tähän laitteeseen ja yritä päivittää laiteohjelmisto uudelleen</string>
+    <string name="pocket_musician_ota_connect_first">Yhdistä Xiaomi-taskukitara saadaksesi päivitystiedot</string>
+    <string name="pocket_musician_ota_dialog_text">Päivitetään…</string>
+    <string name="pocket_musician_ota_summary">Käynnistä tämä lisävaruste uudelleen manuaalisesti päivityksen jälkeen</string>
     <string name="poco_launcher_privacy_policy">POCO Launcher -tietosuojakäytäntö</string>
     <string name="poco_launcher_user_agreement">POCO Launcher -käyttäjäsopimus</string>
     <string name="pointer_fill_style">Kohdistimen väri</string>
@@ -8513,6 +8617,7 @@ Lue ja hyväksy %s ennen kuin käytät tätä palvelua."</string>
     <string name="popup_window">Rajoita kelluvia ilmoituksia</string>
     <string name="post_dsds_reboot_notification_text">Päivitä SIM‑asetukset napauttamalla</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">SIM-kortti (%1$s) on aktiivinen</string>
+    <string name="post_reset_google_verification">Tehdasasetusten palauttamisen jälkeen kirjaudu sisään laitteessa aiemmin käytetyllä Google-tilillä ja määritä salasana.</string>
     <string name="power_autorun_apps_empty">Ei sovelluksia täällä</string>
     <string name="power_autorun_empty">Ei sovelluksia saatavilla</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -9087,7 +9192,29 @@ Kuka tahansa, joka yhdistää laitteesi tietokoneeseen tai asentaa laitteelle ha
     <string name="proxy_url_title">"Välitysp. aut. määr. URL: "</string>
     <string name="proxy_warning_limited_support">Selain käyttää HTTP-välityspalvelinta, mutta muut sovellukset mahdollisesti eivät.</string>
     <string name="pss_profiling_disabled">Muistin käytön profilointi poissa käytöstä</string>
+    <string name="qingcai_eye_care_summery">Tunnista näytössä näkyvä sisältö automaattisesti ja suodata haitallinen sininen valo pitäen pelin värit eloisina</string>
+    <string name="qingcai_eye_care_title">Silmien mukavuus (elävä)</string>
     <string name="qr_code_content_description">QR-koodi</string>
+    <string name="quick_button_check_app_activity_title">Valitse sovellus pikakäynnistystä varten</string>
+    <string name="quick_button_check_app_not_found_txt">Tuloksia ei löytynyt</string>
+    <string name="quick_button_check_app_search_edit_hint">Etsi sovelluksia</string>
+    <string name="quick_button_check_app_search_text_cancel_txt">Peruuta</string>
+    <string name="quick_button_check_app_search_text_submit_txt">Valmis</string>
+    <string name="quick_button_eyecare_mode_summery">Ota lukutila käyttöön sinisen valon vähentämiseksi</string>
+    <string name="quick_button_eyecare_mode_tile">Lukutila</string>
+    <string name="quick_button_furious_mode_summery">Vaihda Ääritilaan, jotta saat kaiken irti tabletistasi</string>
+    <string name="quick_button_furious_mode_title">Ääritila</string>
+    <string name="quick_button_inspiration_summery">Kirjoita kirjoituspuikolla, jotta saat ideat talteen heti, kun ne ilmestyvät</string>
+    <string name="quick_button_inspiration_title">Kirjoitus</string>
+    <string name="quick_button_none_title">Ei toimintoa</string>
+    <string name="quick_button_preference_title">Pikavalintanäppäin</string>
+    <string name="quick_button_screenshot_summery">Ota kuvakaappaus aina tarvittaessa</string>
+    <string name="quick_button_screenshot_title">Kuvakaappaus</string>
+    <string name="quick_button_start_button_txt">Valitse sovellus</string>
+    <string name="quick_button_start_summery">Avaa usein käytetyt sovellukset nopeammin</string>
+    <string name="quick_button_start_title">Pikakäynnistys</string>
+    <string name="quick_button_super_ai_summery">Muistaa näytön sisällön hetkessä</string>
+    <string name="quick_button_super_ai_title">Xiaomi Hyper XiaoAi -muisti</string>
     <string name="quick_function">Avustavat toiminnot</string>
     <string name="quick_reply_title">Pikavastaukset</string>
     <string name="quick_settings_developer_tiles">Pika-asetusosiot kehittäjille</string>
@@ -9331,6 +9458,10 @@ Kaikki tilan sovellukset ja niiden data poistetaan pysyvästi puhelimen "<b>sis�
     <string name="right_function_key">Oikea pikavalinta</string>
     <string name="right_hearing_aid">Oikea kuulolaite</string>
     <string name="right_shoulder_key">Oikea</string>
+    <string name="ring_remote_battery_status_toast_one">Liitä laturi tähän laitteeseen ja yritä päivittää laiteohjelmisto uudelleen</string>
+    <string name="ring_remote_battery_status_toast_three">Vaihda magneettipidikkeen paristo ennen laiteohjelmiston päivittämistä</string>
+    <string name="ring_remote_battery_status_toast_two">Liitä laturi tähän laitteeseen, vaihda magneettipidikkeen paristo, ja yritä sitten päivittää laiteohjelmisto uudelleen</string>
+    <string name="ring_remote_ota_summary">Päivitetään. Älä katkaise yhteyttä.</string>
     <string name="ring_to_you">Mukautettu soittoääni</string>
     <string name="ring_to_you_info">Aseta mukautettu soittoääni, jonka muut ihmiset kuulevat ennen kuin vastaat</string>
     <string name="ring_volume_option_title">Soittoääni</string>
@@ -9351,6 +9482,26 @@ Kaikki tilan sovellukset ja niiden data poistetaan pysyvästi puhelimen "<b>sis�
     <string name="roaming_warning">Datan käytöstä saatetaan periä roaming-maksuja.</string>
     <string name="rom_total_size">ROM-muistin kokonaiskoko</string>
     <string name="root">Pääkäyttäjän oikeudet</string>
+    <string name="rp_clone_space_password_same_tip">Uuden näytön lukituksen tulisi olla eri kuin toisen tilan salasana</string>
+    <string name="rp_forget_password_dialog_button_know">Selvä</string>
+    <string name="rp_forget_password_dialog_desc">Jos olet äskettäin muuttanut näytön lukitusta ja laite lukittuu liian monen epäonnistuneen lukituksen avausyrityksen jälkeen, voit nollata nykyisen näytön lukituksen vahvistamalla %1$d viime tunnin aikana muutetun näytön lukituksen ja sormenjälkesi.</string>
+    <string name="rp_forget_password_dialog_note">Jos lukitusnäytössä on useita epäonnistuneita lukituksen avausyrityksiä, aloita näytön lukituksen nollaaminen napauttamalla Salasana unohtunut.</string>
+    <string name="rp_forget_password_dialog_title">Nollaa näytön lukitus, kun laite on lukittu</string>
+    <string name="rp_old_password_retention_hint">Edellinen näytön lukitus säilytetään jonkin aikaa. Jos unohdat uuden näytön lukituksen, voit nollata sen edellisellä.</string>
+    <string name="rp_password_no_match">PIN-koodit eivät täsmää. Yritä uudelleen.</string>
+    <string name="rp_remove_old_password">Nollaa edellinen näytön lukitus</string>
+    <string name="rp_reset_dialog_button_cancel">Peruuta</string>
+    <string name="rp_reset_dialog_button_confirm">Tyhjennä</string>
+    <string name="rp_reset_dialog_message">Olet äskettäin muuttanut näytön lukitusta. Voit silti nollata nykyisen näytön lukituksen käyttämällä edellistä näytön lukitusta ja sormenjälkeä. Jos et tarvitse tätä varmuuskopiointiasetusta, voit tyhjentää edellisen näytön lukituksen nyt.</string>
+    <string name="rp_reset_dialog_title">Tyhjennä edellinen näytön lukitus</string>
+    <string name="rp_reset_old_password_now_desc">Kun olet vahvistanut edellisen näytön lukituksen ja sormenjäljen, sinut opastetaan asettamaan uusi näytön lukitus.</string>
+    <string name="rp_reset_old_password_now_title">Nollataan näytön lukitusta…</string>
+    <string name="rp_reset_password_hint">Seuraavien %1$s %2$s aikana voit nollata nykyisen näytön lukituksen vahvistamalla edellisen näytön lukituksen ja sormenjäljen.</string>
+    <string name="rp_set_new_password">Aseta uusi näytön lukitus</string>
+    <string name="rp_set_new_password_desc">Jos unohdat uuden näytön lukituksen, voit nollata sen käyttämällä edellistä näytön lukitusta ja sormenjälkeä.</string>
+    <string name="rp_set_new_password_finish_desc">Unohtunutta näytön lukitusta ei tallenneta edelliseksi näytön lukitukseksi. Alkuperäisen edellisen näytön lukituksen ajastin nollataan.</string>
+    <string name="rp_set_new_password_finish_title">Asetettu onnistuneesti</string>
+    <string name="rp_set_new_pattern">Piirrä uusi kuvio</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
     <string name="rtt_settings_summary">Viesti tekstiviesteillä puhelun aikana</string>
@@ -9514,6 +9665,7 @@ Kaikki tilan sovellukset ja niiden data poistetaan pysyvästi puhelimen "<b>sis�
     <string name="screen_effect_adapt_color_title">Eloisa</string>
     <string name="screen_effect_origin_color_summary">Toista realistiset värit värikalibroinnin avulla</string>
     <string name="screen_effect_origin_color_title">Alkuperäinen väri PRO</string>
+    <string name="screen_effect_tip">Sopivin väriavaruus sovitetaan sisältöön automaattisesti. Tukee sRGB-, P3- ja BT.2020-väriavaruuksia.</string>
     <string name="screen_enhance_engine_ai_note">%d. Tämä ominaisuus lisää hieman virrankulutusta.</string>
     <string name="screen_enhance_engine_ai_note_2">%d. Vain Galleria-sovelluksen kuvia voidaan ehostaa.</string>
     <string name="screen_enhance_engine_ai_note_3">%d. Tämä ominaisuus ei toimi, jos päätät näyttää alkuperäiset värit tai käyttää lisäasetuksia.</string>
@@ -9751,6 +9903,7 @@ Näin voit kiinnittää sovelluksen: \t
     <string name="search_account_list">Muut tilit;Tili;Tilit</string>
     <string name="search_add_facerecoginition_text">Lukituksen avaus kasvojentunnistuksella;Kasvojentunnistus</string>
     <string name="search_advanced_settings">Lisäasetukset;WiFi;WiFi asetukset;WLAN asetukset</string>
+    <string name="search_ai_companion_title">Leikepöydän pikanäppäin;Kopioi;Välitön pääsy;Pääsy</string>
     <string name="search_airplane_mode">Lentotila;Lentokonetila;Lentotila;Lentokone;Lento</string>
     <string name="search_alarm_sound_title">Hälytyksen ääni;hälytyksen soittoääni;hälytys</string>
     <string name="search_ambient_display_screen_title">Himmennetty näyttö;Aina näytössä;Aina näytössä</string>
@@ -9762,6 +9915,7 @@ Näin voit kiinnittää sovelluksen: \t
     <string name="search_application_lock_name">Sovelluslukko</string>
     <string name="search_applications_settings">Asennetut sovellukset</string>
     <string name="search_back_key">Takaisin;Takaisin-painike; Takaisin-näppäin</string>
+    <string name="search_background_blur_mode">Huurrettu lasi;Pehmeä lasi;Visuaalinen tyyli</string>
     <string name="search_battery_indicator">Akkukuvake</string>
     <string name="search_bluetooth_device_searchable">Tunnistettavuus;Näkyvä;Bluetooth nimi</string>
     <string name="search_bluetooth_enable">Bluetooth;Laita Bluetooth päälle;Bluetooth päällä</string>
@@ -9968,10 +10122,18 @@ Näin voit kiinnittää sovelluksen: \t
     <string name="security_advanced_settings_work_profile_settings_summary">Työprofiilin lukitus, salaus ja muuta</string>
     <string name="security_center_title">Tietoturva</string>
     <string name="security_check_progress_dialog_message">Tarkastetaan turvallisuusongelmien varalta…</string>
+    <string name="security_chip">Turvasiru</string>
     <string name="security_chip_active">Salasanaasi ja sormenjälkitietojasi suojaa erillinen tietoturvasiru. <Data>&lt;br/>&lt;a href=security_chip_bottomsheet>Lisätietoa&lt;/a></Data></string>
+    <string name="security_chip_data_protection">Erillinen turvasiru auttaa suojaamaan tietojasi</string>
     <string name="security_chip_description">Erillinen tietoturvasiru on Xiaomin suunnittelema laitteiston tietoturvamoduuli, joka suojaa laitteen arkaluontoisia tietoja.</string>
     <string name="security_chip_details">Toisin kuin NFC-tietoturvasiru, erillinen tietoturvasiru suojaa näytön lukituksen, salatut arkaluontoiset tiedot ja sormenjälkitiedot. Se on fyysisesti eristetty NFC-sirusta, mikä takaa vahvemman suojan, paremman vakauden ja parannetun häiriönsietokyvyn.</string>
+    <string name="security_chip_dialog_confirm">Selvä</string>
+    <string name="security_chip_dual_certification">Turvasiru, joka täyttää sekä Common Criteria (CC) -standardin että Kiinan kaupallisen kryptografian sertifiointivaatimukset ja joka auttaa suojautumaan fyysisiltä hyökkäyksiltä ja raakavoimaiselta murrolta</string>
+    <string name="security_chip_fingerprint_encrypt">Sormenjälkesi on salattu ja suojattu turvasirulla</string>
+    <string name="security_chip_hardware_encryption">Laitteistotason salaus</string>
+    <string name="security_chip_hardware_vault">Suojattu laitteistomoduuli</string>
     <string name="security_chip_password_protection">Sirun Weaver-mekanismi suojaa salasanasi laitteistotasolla:</string>
+    <string name="security_chip_root_key_protection">Juuriavain on suojattu erillisellä turvasirulla, joten järjestelmä tai kolmannen osapuolen sovellukset eivät voi käyttää sitä</string>
     <string name="security_dashboard_summary">Näytön lukitus, Paikanna laite, sovellusten tietoturva</string>
     <string name="security_encryption_alert_dialog_info_first">Aseta näytönlukitus tämän ominaisuuden kytkemiseksi päälle. Sinun on siirryttävä näytönlukitukseen jokaisen uudelleenkäynnistyksen jälkeen laitteen salauksen purkamiseksi ja käyttääksesi laitetta normaalisti.</string>
     <string name="security_encryption_alert_dialog_title_first">Aseta ensin näytönlukitus</string>
@@ -10389,6 +10551,8 @@ Siirrä sormea hieman joka kerta. Tämä auttaa tallentamaan suuremman osan sorm
     <string name="set_jeejen_prompt_message">Yksinkertaistettu tila asetetaan oletuskäynnistykseksi. Voit muuttaa oletuskäynnistystä kohdassa Asetukset > Järjestelmäasetukset > Aloitusnäyttö ja Viimeaikaiset > Oletuskäynnistys.</string>
     <string name="set_jeejen_prompt_title">Vahvista muutokset</string>
     <string name="set_lock_screen_password">Aseta näytönlukitus</string>
+    <string name="set_new_password_hint">Syötä uusi näytön lukitus ja muista se</string>
+    <string name="set_new_password_hint_new">Syötä uusi näytön lukitus ja muista se</string>
     <string name="set_pad_clone_password">Aseta tabletin toisen tilan salasana</string>
     <string name="set_password">Aseta näytönlukitus</string>
     <string name="set_password_before_face">Aseta näytön lukitus ennen kasvotietojen lisäämistä</string>
@@ -11388,6 +11552,8 @@ Kokeile ottaa käyttöön nopeampi ^3 tai käytä laitetta ^4 siirrettävänä t
     <string name="sunlight_mode">Auringonvalotila</string>
     <string name="sunlight_mode_boost_summary">Laajenna kirkkausaluetta ja säädä kirkkautta automaattisesti kirkkaissa olosuhteissa. Tämä ominaisuus saa laitteesi lämpenemään ja kuluttamaan enemmän virtaa.</string>
     <string name="sunlight_mode_summary">Säädä kirkkaus voimakkaaseen ympäröivään valoon, jotta näyttö ei tummu liikaa</string>
+    <string name="super_sensory_night_vision_summery">Paranna kontrastia heikossa valossa, jotta yksityiskohdat pysyvät selkeinä paremman yöpelikokemuksen takaamiseksi</string>
+    <string name="super_sensory_night_vision_title">Parannettu yönäkö</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Maksimiäänenvoimakkuus %s</string>
     <string name="supervision_add_forgot_pin_preference_title">PIN-koodi unohtunut</string>
@@ -11490,6 +11656,7 @@ Voit muokata PIN-koodia tai poistaa sen Androidin asetuksista kohdasta Lapsilukk
     <string name="swipe_add_fingerprint_dirty_title">Varmista, että sormi on puhdas ja kuiva</string>
     <string name="swipe_add_fingerprint_finish_text">Kokeile tallentaa sormenjälkesi useammasta kulmasta paremman lukituksen avaamisen saavuttamiseksi</string>
     <string name="swipe_add_fingerprint_insufficient_title">Sormenjälkeäsi ei tunnistettu. Yritä uudelleen.</string>
+    <string name="swipe_add_fingerprint_message">Pyyhkäise hitaasti virtapainikkeen yli ja vaihda kulmaa edetessäsi</string>
     <string name="swipe_add_fingerprint_move_text">Kokeile eri kulmia ja asentoja</string>
     <string name="swipe_add_fingerprint_move_title">Säädä otetta</string>
     <string name="swipe_add_fingerprint_need_up_text">Ongelmia sormenjäljen tallentamisessa</string>
@@ -11501,6 +11668,7 @@ Voit muokata PIN-koodia tai poistaa sen Androidin asetuksista kohdasta Lapsilukk
     <string name="swipe_add_fingerprint_swipe_fast_title">Siirrä sormeasi hitaammin</string>
     <string name="swipe_add_fingerprint_swipe_slow_title">Siirrä sormeasi nopeammin</string>
     <string name="swipe_add_fingerprint_text">Säädä otettasi niin, että sormenjäljen reunat tallentuvat</string>
+    <string name="swipe_add_fingerprint_title">Liikuta sormeasi vasemmalle ja oikealle</string>
     <string name="swipe_add_fingerprint_up_text">Paina ja käännä sormeasi hieman</string>
     <string name="swipe_add_fingerprint_up_title">Paina sormenjälkialueen keskikohtaa</string>
     <string name="swipe_direction_ltr">Ohita pyyhkäisemällä oikealle ja näytä valikko pyyhkäisemällä vasemmalle.</string>
@@ -13280,6 +13448,7 @@ Annetaanko tämä lupa kaikille sovelluksille, jotka haluavat etsiä verkkoja?"<
     <string name="wifi_share_add">Jaa julkiset verkkoni</string>
     <string name="wifi_share_add_summary">"Kun jaat julkiset verkkosi,
  voit myös käyttää muiden käyttäjien jakamia verkkoja."</string>
+    <string name="wifi_share_close_button_description">Sulje</string>
     <string name="wifi_share_conflict_dialog_message">Jaettu verkko nimeltä \"%1$s\" on jo olemassa. Jos vaihdat jaettuun verkkoon, poistut yksityisestä verkosta, eikä sinulla ehkä ole tilapäisesti internetyhteyttä.</string>
     <string name="wifi_share_conflict_dialog_title">Vaihda jaettuun verkkoon?</string>
     <string name="wifi_share_connect">Yhdistä</string>
@@ -13294,6 +13463,7 @@ Annetaanko tämä lupa kaikille sovelluksille, jotka haluavat etsiä verkkoja?"<
     <string name="wifi_share_plain_password_text">Salasana: %s</string>
     <string name="wifi_share_preference_summary">Muut laitteen käyttäjät voivat käyttää tätä verkkoa</string>
     <string name="wifi_share_preference_title">Jaa verkko</string>
+    <string name="wifi_share_qr_code_description">QR-koodi</string>
     <string name="wifi_share_qrcode_finish">Valmis</string>
     <string name="wifi_share_qrcode_summary">Jaa skannaamalla yläpuolella oleva QR-koodi.</string>
     <string name="wifi_share_qrcode_title">Jaa Wi-Fi-verkko</string>
@@ -13377,6 +13547,10 @@ Annetaanko tämä lupa kaikille sovelluksille, jotka haluavat etsiä verkkoja?"<
     <string name="wifi_wakeup_location_summary">Ota sijaintipalvelut käyttöön, jotta voit käyttää tätä ominaisuutta.</string>
     <string name="wifi_wakeup_negative_button">Peruuta</string>
     <string name="wifi_wakeup_positive_button">Ota käyttöön</string>
+    <string name="wifi_wakeup_privacy_agree">Hyväksy</string>
+    <string name="wifi_wakeup_privacy_content">\"Ota Wi-Fi käyttöön automaattisesti\" (\"tämä palvelu\") on Xiaomi Inc.:n (\"me\" tai \"Xiaomi\") tarjoama ominaisuus. Se tallentaa korkealaatuiset Wi-Fi-verkot, kuten kotiverkkosi, ja ottaa Wi-Fin automaattisesti käyttöön, kun olet lähellä, mikä auttaa vähentämään mobiilidatan käyttöä. Henkilökohtaisten tietojesi ja yksityisyytesi suojaaminen on meille erittäin tärkeää. Tarjoamme henkilökotaisille tiedoillesi turvatoimet asiaankuuluvien lakisääteisten vaatimusten ja alan standardien mukaisesti.&lt;br>Kun otat tämän palvelun käyttöön, keräämme likimääräiset sijaintitietosi tukiasemien tunnusten perusteella, jotta voimme yhdistää sinut lähellä oleviin korkealaatuisiin Wi-Fi-verkkoihin.&lt;br>Näitä tietoja käsitellään vain laitteellasi, eikä niitä ladata pilveen.&lt;br>Jos päätät olla antamatta näitä tietoja, et voi käyttää tätä palvelua.&lt;br>Säilytämme henkilökohtaisia tietojasi vain niin kauan kuin on tarpeen tässä tietosuojalausunnossa kuvattujen keräystarkoitusten saavuttamiseksi tai sovellettavien lakisääteisten vaatimusten noudattamiseksi.&lt;br>Meillä on erillinen osasto henkilökohtaisten tietojen suojaa varten. Jos sinulla on kommentteja tai kysymyksiä tästä tietosuojalausunnosta tai jos sinulla on kysyttävää henkilötietojesi keräämisestä, käytöstä tai luovuttamisesta, ota meihin yhteyttä osoitteessa &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>. Yleensä vastaamme viidentoista arkipäivän kuluessa.&lt;br>Napauta \"Hyväksy\" merkiksi siitä, että olet lukenut ja hyväksyt tämän tietosuojalausunnon.</string>
+    <string name="wifi_wakeup_privacy_disagree">Peruuta</string>
+    <string name="wifi_wakeup_privacy_title">Tietosuojalausunto</string>
     <string name="wifi_wakeup_scan_summary">Anna sovellusten ja palvelujen hakea Wi-Fi-verkkoja, jotta Wi-Fi voidaan ottaa käyttöön automaattisesti. Tämän ominaisuuden ottaminen käyttöön antaa laitteen muodostaa yhteyden automaattisesti lähellä oleviin tallennettuihin verkkoihin.</string>
     <string name="wifi_wakeup_summary">Wi-Fi laitetaan automaattisesti päälle, kun lähistöllä on kotiverkkosi tai muita laadukkaita tallennettuja verkkoja</string>
     <string name="wifi_wakeup_summary_no_location">Ei käytettävissä, koska sijainti on poistettu käytöstä. Ota <annotation id="link">sijainti</annotation> käyttöön.</string>
@@ -13567,10 +13741,21 @@ Annetaanko tämä lupa kaikille sovelluksille, jotka haluavat etsiä verkkoja?"<
     <string name="xiaomi_cloud_service_description_without_contacts">Xiaomi Cloud synkronoi kuvasi, varmuuskopioi sovelluksesi ja asetuksesi sekä auttaa löytämään puhelimesi käyttämällä Etsi laite -toimintoa.</string>
     <string name="xiaomi_cloud_service_disabled">Pois</string>
     <string name="xiaomi_cloud_service_unknown">Tuntematon</string>
+    <string name="xiaomi_confirm_enable_16k_erase_checkbox_text">Ymmärrän riskit ja hyväksyn mahdolliset seuraukset</string>
+    <string name="xiaomi_confirm_enable_16k_pages_text">Ohjelmiston eheyttä ei voida taata tässä tilassa. Toiminto käynnistää laitteen uudelleen.</string>
+    <string name="xiaomi_confirm_enable_16k_pages_update_wipe">\"Käynnistä 16 kt:n sivukoolla\" on erittäin arkaluonteinen toiminto, joka on tarkoitettu vain kehittäjien testausta varten. Sen käyttöönotto poistaa kaikki laitteen tiedot, mukaan lukien kuvat, videot, asiakirjat ja kaikkien sovellusten tiedot. Ohjelmiston eheyttä ei voida taata. Tässä tilassa jotkin ominaisuudet eivät ole käytettävissä, ja osa sovelluksista ei välttämättä toimi oikein.</string>
+    <string name="xiaomi_confirm_enable_4k_pages_text">Toiminto käynnistää laitteen uudelleen.</string>
+    <string name="xiaomi_confirm_reboot_button_text">Käynnistä uudelleen</string>
+    <string name="xiaomi_confirm_reboot_title_text">Uhka havaittu</string>
     <string name="xiaomi_custom_input_method">Mukautettu Xiaomille</string>
+    <string name="xiaomi_erase_confirm_countdown_format">OK (%1$d)</string>
     <string name="xiaomi_hp_location">Pääsy tarkkaan sijaintiin</string>
     <string name="xiaomi_hp_location_description">Tarkat sijaintitiedot mahdollistavat tarkan navigoinnin</string>
     <string name="xiaomi_money_service">Mi-kolikot</string>
+    <string name="xiaomi_page_agnostic_16k_pages_text">Laitteessasi on käytössä 16 kt:n sivukoko ja ext4-tiedostojärjestelmä. Voit palauttaa F2FS-tiedostojärjestelmän vaihtamalla takaisin 4 kt:n sivukokoon ja palauttamalla laitteen tehdasasetukset.</string>
+    <string name="xiaomi_page_agnostic_16k_pages_title">Käytössä 16 kt:n sivukoko</string>
+    <string name="xiaomi_page_agnostic_4k_pages_text">Laitteessasi on käytössä 4 kt:n sivukoko ja ext4-tiedostojärjestelmä. Voit palauttaa F2FS-tiedostojärjestelmän palauttamalla laitteen tehdasasetukset.</string>
+    <string name="xiaomi_page_agnostic_4k_pages_title">Käytössä 4 kt:n sivukoko</string>
     <string name="xiaomi_router_available_notif_summary">Näytä lisätiedot napauttamalla.</string>
     <string name="xiaomi_router_available_notif_title">Mi-reititin saatavilla</string>
     <string name="xiaomi_router_notif_summary">Ilmoita minulle, kun Mi-reititin on saatavilla</string>

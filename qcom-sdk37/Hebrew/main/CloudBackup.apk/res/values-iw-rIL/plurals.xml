@@ -60,6 +60,30 @@
         <item quantity="many">נראה שלא גיבית פריטים במשך %s שבועות. יש ליצור גיבויים כדי למנוע אובדן של דברים חשובים.</item>
         <item quantity="other">נראה שלא גיבית פריטים במשך %s שבועות. יש ליצור גיבויים כדי למנוע אובדן של דברים חשובים.</item>
     </plurals>
+    <plurals name="backup_frequence_days">
+        <item quantity="one">Every %d day</item>
+        <item quantity="two">Every %d days</item>
+        <item quantity="many">Every %d days</item>
+        <item quantity="other">Every %d days</item>
+    </plurals>
+    <plurals name="backup_options_summary_format">
+        <item quantity="one">%1$d/%2$d item</item>
+        <item quantity="two">%1$d/%2$d items</item>
+        <item quantity="many">%1$d/%2$d items</item>
+        <item quantity="other">%1$d/%2$d items</item>
+    </plurals>
+    <plurals name="backup_unselected_items_dialog_message">
+        <item quantity="one">Backup is off for %2$d item including %1$s. To back up, select in \"Backed up items\".</item>
+        <item quantity="two">Backup is off for %2$d items including %1$s. To back up, select in \"Backed up items\".</item>
+        <item quantity="many">Backup is off for %2$d items including %1$s. To back up, select in \"Backed up items\".</item>
+        <item quantity="other">Backup is off for %2$d items including %1$s. To back up, select in \"Backed up items\".</item>
+    </plurals>
+    <plurals name="backup_unselected_items_dialog_title">
+        <item quantity="one">"%d app isn't backed up"</item>
+        <item quantity="two">"%d apps aren't backed up"</item>
+        <item quantity="many">"%d apps aren't backed up"</item>
+        <item quantity="other">"%d apps aren't backed up"</item>
+    </plurals>
     <plurals name="cloud_backup_detail_manage_summary">
         <item quantity="one">גיבוי %1$s, גודל: %2$s</item>
         <item quantity="two">%1$s גיבויים, גודל: %2$s</item>
@@ -125,6 +149,30 @@
         <item quantity="two">לפני %d דקות</item>
         <item quantity="many">לפני %d דקות</item>
         <item quantity="other">לפני %d דקות</item>
+    </plurals>
+    <plurals name="restore_notification_partial_result_1">
+        <item quantity="one">Restored %d item</item>
+        <item quantity="two">Restored %d items</item>
+        <item quantity="many">Restored %d items</item>
+        <item quantity="other">Restored %d items</item>
+    </plurals>
+    <plurals name="restore_notification_partial_result_2">
+        <item quantity="one">"Couldn't restore %d item"</item>
+        <item quantity="two">"Couldn't restore %d items"</item>
+        <item quantity="many">"Couldn't restore %d items"</item>
+        <item quantity="other">"Couldn't restore %d items"</item>
+    </plurals>
+    <plurals name="restore_progress_partial_hint_1">
+        <item quantity="one">Restored %d item</item>
+        <item quantity="two">Restored %d items</item>
+        <item quantity="many">Restored %d items</item>
+        <item quantity="other">Restored %d items</item>
+    </plurals>
+    <plurals name="restore_progress_partial_hint_2">
+        <item quantity="one">"Couldn't restore %d item"</item>
+        <item quantity="two">"Couldn't restore %d items"</item>
+        <item quantity="many">"Couldn't restore %d items"</item>
+        <item quantity="other">"Couldn't restore %d items"</item>
     </plurals>
     <plurals name="session_starting_app_count_backup_text">
         <item quantity="one">גובה יישום אחד (%d)</item>

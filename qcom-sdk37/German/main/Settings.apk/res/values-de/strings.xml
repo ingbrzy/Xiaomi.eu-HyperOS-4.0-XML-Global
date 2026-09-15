@@ -362,17 +362,17 @@ In die Tastatur oder Navigationsleiste kann nicht hineingezoomt werden."</string
     <string name="accessibility_send_feedback_title">Feedback geben</string>
     <string name="accessibility_send_survey_notification_channel">Umfrage zu Bedienungshilfen</string>
     <string name="accessibility_send_survey_title">Zur Umfrage</string>
-    <string name="accessibility_service_action_perform_description">Die Funktion kann deine Interaktionen mit einer App oder einem Hardwaresensor verfolgen und in deinem Namen mit Apps interagieren.</string>
-    <string name="accessibility_service_action_perform_title">Aktionen aufrufen und durchführen</string>
+    <string name="accessibility_service_action_perform_description">Es können deine Interaktionen mit einer App oder einem Hardware-Sensor verfolgt und mit Apps in deinem Namen interagiert werden.</string>
+    <string name="accessibility_service_action_perform_title">Aktionen anzeigen und ausführen</string>
     <string name="accessibility_service_auto_added_qs_tooltip_content">„%1$s“ wurde zu den Schnelleinstellungen hinzugefügt. Du kannst jederzeit nach unten wischen und die Funktion aktivieren oder deaktivieren.</string>
     <string name="accessibility_service_default_description">Es wurde keine Beschreibung bereitgestellt.</string>
     <string name="accessibility_service_primary_open_title">%1$s öffnen</string>
     <string name="accessibility_service_primary_switch_title">%1$s verwenden</string>
     <string name="accessibility_service_qs_tooltip_content">Du kannst „%1$s“ auch vom oberen Rand des Bildschirms in die Schnelleinstellungen aufnehmen</string>
-    <string name="accessibility_service_screen_control_description">Die Funktion kann alle Inhalte auf dem Bildschirm lesen und diese Inhalte über anderen Apps anzeigen.</string>
-    <string name="accessibility_service_screen_control_title">Bildschirm aufrufen und steuern</string>
-    <string name="accessibility_service_warning_description">Die vollständige Kontrolle sollte nur für Apps aktiviert werden, die dir Zugang zu App-Funktionen erleichtern. Das ist in der Regel nur ein kleiner Teil der Apps.</string>
-    <string name="accessibility_setting_item_control_timeout_title">Zeit zum Reagieren (Zeitüberschreitung bei Bedienungshilfen)</string>
+    <string name="accessibility_service_screen_control_description">Es können alle Inhalte auf dem Bildschirm gelesen und Inhalte über anderen Apps angezeigt werden.</string>
+    <string name="accessibility_service_screen_control_title">Bildschirm anzeigen und steuern</string>
+    <string name="accessibility_service_warning_description">Vollständige Steuerung ist für Apps angemessen, die dir bei deinen Barrierefreiheitsanforderungen helfen, aber nicht für die meisten Apps.</string>
+    <string name="accessibility_setting_item_control_timeout_title">Zeit zum Handeln</string>
     <string name="accessibility_settings">Bedienungshilfen</string>
     <string name="accessibility_settings_summary">Display, Interaktion, Audio</string>
     <string name="accessibility_settings_tabs_general">Allgemein</string>
@@ -609,6 +609,7 @@ Wenn du zwischen den Funktionen wechseln möchtest, wische mit drei Fingern übe
     <string name="activity_title_root_note">Über Root-Zugriff</string>
     <string name="ad_service">Werbedienste</string>
     <string name="adapt_embedded">Parallele Fenster sind verfügbar</string>
+    <string name="adapted_game_title">Unterstützte Spiele</string>
     <string name="adaptive_brightness_main_switch_title">Automatische Helligkeit verwenden</string>
     <string name="adaptive_connectivity_main_switch_title">Adaptive Konnektivität verwenden</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Es wird automatisch die beste Netzwerkverbindung ausgewählt, um die Akkulaufzeit zu verlängern</string>
@@ -683,8 +684,8 @@ Wenn du zwischen den Funktionen wechseln möchtest, wische mit drei Fingern übe
     <string name="add_fingerprint_instruction_title">Fingerabdruck hinzufügen</string>
     <string name="add_fingerprint_move_fast">Halte deinen Finger ein wenig länger auf dem Bildschirm</string>
     <string name="add_fingerprint_name_suggest_text">Fingerabdruckname</string>
-    <string name="add_fingerprint_put_finger_edge_msg">Den Finger leicht auf dem Sensor bewegen, um alle Teile des Fingerabdrucks hinzuzufügen.</string>
-    <string name="add_fingerprint_put_finger_msg">Finger auf den Sensor legen und bei Vibration anheben.</string>
+    <string name="add_fingerprint_put_finger_edge_msg">Bewege deinen Finger leicht auf dem Sensor, um alle Teile des Fingerabdrucks hinzuzufügen.</string>
+    <string name="add_fingerprint_put_finger_msg">Platziere deinen Finger auf den Sensor, hebe ihn dann an und wiederhole den Vorgang.</string>
     <string name="add_fingerprint_put_finger_title">Fingerabdruck hinzufügen</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Finger leicht bewegen</string>
     <string name="add_fingerprint_success_msg">Erfolgreich hinzugefügt</string>
@@ -724,7 +725,10 @@ Der Administrator kann die mit diesem Nutzer verbundenen Einstellungen, Zugriffs
     <string name="advanced_battery_title">Akkunutzung</string>
     <string name="advanced_gesture">Personalisierte Gesten</string>
     <string name="advanced_screen_paper_mode_title">Lesemodus</string>
+    <string name="advanced_screen_paper_mode_title_eye_comfort">Augenkomfort</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Augenkomfort</string>
+    <string name="advanced_screen_paper_mode_title_vision_care">Xiaomi Vision Care</string>
     <string name="advanced_section_header">Allgemein</string>
     <string name="advanced_security_title">Erweitert</string>
     <string name="advanced_settings">Weitere Einstellungen</string>
@@ -758,6 +762,16 @@ Der Administrator kann die mit diesem Nutzer verbundenen Einstellungen, Zugriffs
     <string name="airplane_mode">Flugmodus</string>
     <string name="airplane_mode_summary">Aktivieren Sie diese Option, um Ihr Gerät von Mobilfunknetzen zu trennen. Wenn diese Funktion aktiviert ist, können Sie keine Anrufe tätigen, keine Textnachrichten senden und empfangen oder keine mobilen Daten verwenden.</string>
     <string name="airplane_mode_sync_description">Wenn unterstützte Geräte wie Smartphones und Smartwatches per Bluetooth verbunden sind, wird der Flugmodus auf diesen Geräten synchronisiert</string>
+    <string name="airpods_auto_connect_help">Handbuch für das automatische Verbinden</string>
+    <string name="airpods_auto_connect_help_step_one">%1$s. Verbinde deine AirPods mit einem Apple-Gerät</string>
+    <string name="airpods_auto_connect_help_step_one_summary">Nachdem die AirPods verbunden sind, öffne die Detailseite unter Einstellungen > Bluetooth > AirPods.</string>
+    <string name="airpods_auto_connect_help_step_three">%1$s. Verbinde deine AirPods erneut mit deinem Xiaomi-Gerät</string>
+    <string name="airpods_auto_connect_help_step_three_summary">Danach stellen deine AirPods automatisch eine Verbindung mit dem Gerät verwendeten Gerät her.</string>
+    <string name="airpods_auto_connect_help_step_two">%1$s. Wähle „Bei der letzten Verbindung mit diesem iPhone“ aus</string>
+    <string name="airpods_auto_connect_help_step_two_summary">Scrolle auf der Detailseite zu „Mit diesem iPhone verbinden“ und wähle „Bei der letzten Verbindung mit diesem iPhone“ aus.</string>
+    <string name="airpods_auto_connect_help_title">Verbinde deine AirPods automatisch mit Xiaomi-Geräten</string>
+    <string name="airpods_fast_connect_fail_summary">Drücke und halte die Taste auf der Rückseite des Lade-Etuis oder tippe doppelt auf das Etui, bis die Statusanzeige weiß blinkt</string>
+    <string name="airpods_fast_connect_fail_summary_single">Drücke und halte die Antischall-Taste auf deinen Kopfhörern, bis die Statusanzeige weiß blinkt</string>
     <string name="alarm_ringtone_title">Standard-Weckton</string>
     <string name="alarm_sound_dialog_title">Weckton auswählen</string>
     <string name="alarm_sound_title">Wecker</string>
@@ -834,6 +848,7 @@ Widget: %2$s
     <string name="ambient_display_wake_screen_title">Bildschirm aktivieren</string>
     <string name="anc_auto">Auto</string>
     <string name="anc_depth">Stark</string>
+    <string name="anc_intelligent">Intelligente Geräuschunterdrückung</string>
     <string name="anc_mild">Leicht</string>
     <string name="android_beam_disabled_summary">Zuerst NFC einschalten</string>
     <string name="android_beam_explained">Platziere dieses Gerät in der Nähe eines anderen Gerätes, das Mi Beam unterstützt, um Webseiten, Videos, Kontakte und mehr zu teilen.</string>
@@ -856,7 +871,7 @@ Widget: %2$s
     <string name="another_migration_already_in_progress">Es wird schon eine andere Migration durchgeführt.</string>
     <string name="answer_call_account">Nimm alle Anrufe für dieses Konto entgegen.</string>
     <string name="answer_call_account_summary">Wenn du einen Anruf auf einem Telefon erhältst, das mit demselben Konto angemeldet ist, schalten deine Kopfhörer automatisch auf dieses Telefon um, um den Anruf entgegenzunehmen.</string>
-    <string name="anti_burn_summary">Dimme den Bildschirm, wenn du wegschaust, um den Akku zu schonen und stelle die Helligkeit wieder her, wenn du das Gerät erneut verwendest</string>
+    <string name="anti_burn_summary">Der Bildschirm wird gedimmt, wenn du wegschaust, um Akku zu sparen. Die Helligkeit wird wiederhergestellt, sobald du das Gerät erneut verwendest</string>
     <string name="anti_burn_title">Aufmerksame Anzeige</string>
     <string name="anti_spam">Sperrliste</string>
     <string name="aod_and_lock_screen_settings_title">Immer eingeschaltetes Display und Sperrbildschirm</string>
@@ -901,11 +916,11 @@ Widget: %2$s
     <string name="aon_gesture_up_down_waving_summary">Funktioniert mit vertikalen Inhaltsfeeds</string>
     <string name="aon_gesture_up_down_waving_switch">Winke vertikal, um nach oben und unten zu wischen</string>
     <string name="aon_gesture_up_down_waving_title">Vertikal wischen</string>
-    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Stelle sicher, dass du dich in einem gut beleuchteten Raum befindest und halte dann deine Hand %d bis %d cm vor die Kamera und die Handfläche nach unten. Wenn die Erkennung erfolgreich war, bewege deine Hand nach oben. Du kannst dann diese Geste verwenden, um auf dem Bildschirm nach oben zu wischen.</string>
-    <string name="aon_gesture_up_waving_diagram_title">Winke vor dem Bildschirm nach oben</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Stelle sicher, dass du in einem gut beleuchteten Raum bist, halte deine Hand %d bis %d cm vor die Kamera mit deiner Handfläche nach oben oder unten. Sobald die Erkennung erfolgreich ist, winke mit deiner Hand, um zu wischen. Winke weiter, um weiter zu wischen. Um die Richtung zu ändern, drehe deine Hand in die andere Richtung und halte sie für einen Moment still. Sobald sie erkannt wird, winke erneut.</string>
+    <string name="aon_gesture_up_waving_diagram_title">Zum Wischen vor dem Bildschirm winken</string>
     <string name="aon_scanner_default_payment_method_title">Standard-Zahlungsmethode</string>
     <string name="aon_scanner_dialog_message">Wenn du den Schnellscanner einschaltest, werden die QR-Codes, die du scannst, mit Mi AI Scanner geteilt. Vergewissere dich, dass du das verstanden hast und damit einverstanden bist, bevor du fortfährst. Die von dir gescannten QR-Codes werden weder lokal gespeichert noch in die Cloud hochgeladen. Beachte, dass die Verwendung dieser Funktion den Gesamtstromverbrauch leicht erhöhen kann.</string>
-    <string name="aon_scanner_dialog_message_new">Wenn du den Schnellscanner verwendest, werden die gescannten QR-Codes mit AI Scanner geteilt. Diese Informationen werden weder auf deinem Gerät gespeichert noch in die Cloud hochgeladen. Wenn du diese Funktion einschaltest, steigt der Stromverbrauch leicht an.</string>
+    <string name="aon_scanner_dialog_message_new">Wenn du den Schnellscanner verwendest, werden die gescannten QR-Codes mit KI Scanner geteilt. Diese Informationen werden weder auf deinem Gerät gespeichert noch in die Cloud hochgeladen. Wenn du diese Funktion einschaltest, steigt der Stromverbrauch leicht an.</string>
     <string name="aon_scanner_dialog_title">Datenschutzerklärung</string>
     <string name="aon_scanner_disclaimer_message">Der Schnellscanner bietet eine schnelle und einfache Möglichkeit, QR-Codes zu scannen. Sobald du diese Funktion eingeschaltet hast, kannst du QR-Codes schnell scannen und direkt auf die entsprechende Seite gehen. Vergewissere dich vor dem Scannen, dass du den Inhalt und die Dienste, die der QR-Code bietet, vollständig verstehst. Entscheide, ob du ihn scannen oder mit dem Link zu einem Drittanbieterdienst fortfahren möchtest. Wenn du dich dafür entscheidest, auf den Dienst eines Drittanbieters zuzugreifen, trägst du die Verantwortung für alle Konsequenzen und rechtlichen Risiken. Bitte beachte, dass Xiaomi keine ausdrücklichen oder stillschweigenden Garantien oder Gewährleistungen für den Inhalt des QR-Codes, die Produkte und Dienstleistungen Dritter übernimmt.</string>
     <string name="aon_scanner_disclaimer_title">Haftungsausschluss</string>
@@ -913,7 +928,12 @@ Widget: %2$s
     <string name="aon_scanner_download_message_new">Da die Schnellscanner-Dienste von AI Scanner bereitgestellt werden, müssen wir die von dir gescannten QR-Codes mit AI Scanner teilen. Installiere AI Scanner, bevor du fortfährst.</string>
     <string name="aon_scanner_download_title">Installiere Mi AI Scanner.</string>
     <string name="aon_scanner_download_title_new">AI Scanner installieren</string>
+    <string name="aon_scanner_first_summary">Richte auf dem Startbildschirm, nachdem du das Gerät umgedreht hast, die Kamera auf einen QR-Code. Halte es %1$d–%2$d cm entfernt und halte es zum Scannen.</string>
+    <string name="aon_scanner_first_title">Schnellscanner äußerer Bildschirm</string>
+    <string name="aon_scanner_second_summary">Richte die Kamera auf dem Startbildschirm auf einen QR-Code. Halte sie %1$d–%2$d cm entfernt, bis eine Aufforderung erscheint, halte sie dann %3$d Sekunden zum Scannen.</string>
+    <string name="aon_scanner_second_title">Schnellscanner innerer Bildschirm</string>
     <string name="aon_scanner_settings">Schnellscanner</string>
+    <string name="aon_scanner_settings_summary">Richte auf dem Startbildschirm die Hauptkamera auf einen QR-Code, um ihn zu scannen</string>
     <string name="aon_scanner_status_close">Aus</string>
     <string name="aon_scanner_status_open">An</string>
     <string name="aon_scanner_summary" formatted="false">Richte dein Gerät auf dem Startbildschirm innerhalb von %d cm auf einen QR-Code, bis eine Aufforderung erscheint und halte es für %d Sekunden gedrückt, um zu scannen</string>
@@ -959,6 +979,7 @@ Widget: %2$s
     <string name="app_cache_optimization">App-Cache-Optimierung</string>
     <string name="app_cache_optimization_summary">Starte dein Gerät nach dem Aktivieren dieser Funktion neu, damit sie wirksam wird</string>
     <string name="app_cellular_data_usage">Datennutzung durch Apps</string>
+    <string name="app_dark_toggle_status">com.taobao.taobao</string>
     <string name="app_data_sharing_updates_summary">Apps ansehen, bei denen sich die Art der Weitergabe deiner Standortdaten geändert hat</string>
     <string name="app_data_sharing_updates_title">Änderungen bei der Weitergabe von Standortdaten</string>
     <string name="app_default_dashboard_title">Standard-Apps</string>
@@ -1210,6 +1231,8 @@ Streamname: %1$s"</string>
     <string name="audio_sharing_test_sound_title">Testton abspielen</string>
     <string name="audio_sharing_title">Audiofreigabe</string>
     <string name="audio_sharing_turn_off_button_label">Deaktivieren</string>
+    <string name="audio_sources_mode">Immersive Soundeffekte</string>
+    <string name="audio_sources_mode_summary">Immersive Soundeffekte auswählen oder anpassen</string>
     <string name="audio_streams_activity_title">Audiostreams</string>
     <string name="audio_streams_add_source_bad_code_state_summary">Prüfe das Passwort und versuche es noch einmal</string>
     <string name="audio_streams_add_source_failed_state_summary">Verbindung nicht möglich. Bitte versuch es noch einmal.</string>
@@ -1405,7 +1428,8 @@ Zuletzt ausgeführt am %2$s"</string>
     <string name="back_strap_other_seetings">Weitere Einstellungen</string>
     <string name="back_strap_status_close">Aus</string>
     <string name="back_strap_status_open">An</string>
-    <string name="back_strap_title">Rücklichteffekte</string>
+    <string name="back_strap_title">Rückseiten-Lichteffekte</string>
+    <string name="back_strap_title_tip">Einschalten, um personalisierte Alarme in verschiedenen Szenarien zu erhalten</string>
     <string name="back_tap">Auf Rückseite tippen</string>
     <string name="back_triple_tap">Dreimal auf Rückseite tippen</string>
     <string name="background_activity_disabled_dialog_text">"Da bei dieser App die Akkunutzung nicht optimiert wird, kannst du sie nicht einschränken.
@@ -1417,6 +1441,7 @@ Du musst du zunächst die Akkuoptimierung aktivieren."</string>
     <string name="background_blur_enable">Erweiterte Texturen</string>
     <string name="background_blur_enable_summary">Fügt Rendering-Effekte wie Unschärfe im gesamten System hinzu, um ein besseres visuelles Erlebnis zu bieten</string>
     <string name="background_blur_message">Das Aktivieren dieser Funktion könnte mehr Energie verbrauchen und dazu führen, dass dein Gerät wärmer wird. Trotzdem aktivieren?</string>
+    <string name="background_blur_mode_title">Visueller Stil</string>
     <string name="background_blur_title">Erweiterte Texturen aktivieren</string>
     <string name="background_check_pref">Hintergrundprüfung</string>
     <string name="background_data">Hintergrunddaten</string>
@@ -1477,7 +1502,7 @@ Backups werden in der Xiamo Cloud gespeichert und Sie können drahtlos darauf zu
     <string name="backup_set_new_pw_title">Neues Sicherungspasswort eingeben</string>
     <string name="backup_set_null_pw">Zuerst Passwort eingeben</string>
     <string name="backup_set_pw_confirm_title">Neues Sicherungspasswort bestätigen</string>
-    <string name="badge_title">Plaketten</string>
+    <string name="badge_title">Benachrichtigungsplaketten</string>
     <string name="band_24G">" (%f-GHz-Band)"</string>
     <string name="band_5G">" (%d-GHz-Band)"</string>
     <string name="baseband_version">Baseband-Version</string>
@@ -1753,7 +1778,7 @@ Apps:
     <string name="blob_id_text">ID für geteilte Daten: %d</string>
     <string name="blob_never_expires_text">Läuft nicht ab.</string>
     <string name="block_list_connected_devices">Verbundene Geräte</string>
-    <string name="block_list_diaglog_cancle">Abbruch</string>
+    <string name="block_list_diaglog_cancle">Abbrechen</string>
     <string name="block_list_diaglog_ok">OK</string>
     <string name="block_list_dialog_content">Diese Aktion wird %s von diesem Gerät trennen und zur Sperrliste hinzufügen</string>
     <string name="block_list_dialog_title">Verbindung trennen?</string>
@@ -1876,6 +1901,7 @@ Du hast dich bisher nicht mit %2$s verbunden."</string>
     <string name="bluetooth_connected">Verbunden %1$s</string>
     <string name="bluetooth_connected_battery_level">Verbunden | Akku %1$s %2$s</string>
     <string name="bluetooth_connected_battery_level_new">"Verbunden | Akku %1$s |  Wird verwendet (Anrufe und Medien)"</string>
+    <string name="bluetooth_connected_battery_level_summary">Akku %1$s | %2$s</string>
     <string name="bluetooth_connected_multiple_devices_summary">Mit mehreren Geräten verbunden</string>
     <string name="bluetooth_connected_no_a2dp">%1$s verbunden (keine Medien)</string>
     <string name="bluetooth_connected_no_a2dp_battery_level">Verbunden (keine Medien) | Akku %1$s %2$s</string>
@@ -1983,7 +2009,8 @@ Du hast dich bisher nicht mit %2$s verbunden."</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">Neu starten</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">Bluetooth neu starten</string>
     <string name="bluetooth_enable_opp_high_speed_summary">Bluetooth P2P-Protokollen für Hochgeschwindigkeitsübertragungen verwenden</string>
-    <string name="bluetooth_enable_page_scan_summary">Seitenscan für Bluetooth-Test deaktivieren/aktivieren</string>
+    <string name="bluetooth_enable_page_scan">Bluetooth-Seitenscan</string>
+    <string name="bluetooth_enable_page_scan_summary">Bluetooth-Seitenscan zum Testen ein- oder ausschalten</string>
     <string name="bluetooth_enter_passkey_msg">Gib den Kopplungscode ein und tippe dann auf die Eingabetaste.</string>
     <string name="bluetooth_enter_passkey_other_device">Eventuell musst du diesen Zugangscode auch auf dem anderen Gerät eingeben.</string>
     <string name="bluetooth_enter_pin_other_device">Eventuell musst du diese PIN auch auf dem anderen Gerät eingeben.</string>
@@ -2011,7 +2038,7 @@ Du hast dich bisher nicht mit %2$s verbunden."</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktiv (nur Medien), nur links</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktiv (nur Medien), links und rechts</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktiv (nur Medien), nur rechts</string>
-    <string name="bluetooth_hearing_aid_profile_summary_connected">Mit Hörgerät verbunden</string>
+    <string name="bluetooth_hearing_aid_profile_summary_connected">Verbunden mit Hörgerät</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Für Hörgerät verwendet</string>
     <string name="bluetooth_hearing_aid_right_active">Aktiv (nur rechts)</string>
     <string name="bluetooth_hearing_aid_right_connected">Rechtes Hörgerät verbunden mit %1$s</string>
@@ -2076,6 +2103,7 @@ Du warst bisher noch nie mit %2$s verbunden."</string>
     <string name="bluetooth_message_move_out_of_blacklist">Blockierung von %1$s jetzt aufheben?</string>
     <string name="bluetooth_mi_fast_connect">Kompatible Geräte koppeln</string>
     <string name="bluetooth_mi_fast_connect_summary">Verbinde schnell Kopfhörer, Lautsprecher und andere kompatible Geräte</string>
+    <string name="bluetooth_mi_key_missing_toast">Dieses Gerät entkoppeln und erneut versuchen</string>
     <string name="bluetooth_middle_content_description_expressive">Akkustand des Lade-Case: %1$s</string>
     <string name="bluetooth_middle_name">Case</string>
     <string name="bluetooth_middle_name_expressive">Case: %1$s</string>
@@ -2167,13 +2195,13 @@ Du warst bisher noch nie mit %2$s verbunden."</string>
     <string name="bluetooth_profile_headset">Telefonanrufe</string>
     <string name="bluetooth_profile_hearing_aid">Hörgerät</string>
     <string name="bluetooth_profile_hid">Eingabegerät</string>
-    <string name="bluetooth_profile_le_audio">LE Audio</string>
+    <string name="bluetooth_profile_le_audio">LE-Audio</string>
     <string name="bluetooth_profile_map">Für den Zugriff auf Nachrichten verwendet</string>
     <string name="bluetooth_profile_opp">Dateiübertragung</string>
     <string name="bluetooth_profile_pan">Internetzugriff</string>
     <string name="bluetooth_profile_pan_nap">Freigabe der Internetverbindung</string>
     <string name="bluetooth_profile_pbap">Zugriff auf Kontakte und Anrufliste gewähren</string>
-    <string name="bluetooth_profile_pbap_summary">Für das Teilen von Kontakten verwendet</string>
+    <string name="bluetooth_profile_pbap_summary">Für das Teilen von Kontakten verwenden</string>
     <string name="bluetooth_profile_sap">Für den Zugriff auf die SIM-Karte verwendet</string>
     <string name="bluetooth_profile_volume_control">Lautstärkeregler</string>
     <string name="bluetooth_refresh">Aktualisieren</string>
@@ -2291,9 +2319,11 @@ Solange die Verbindung besteht, gehen alle Anrufe unter der Nummer %3$s an das G
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Gerät entfernen</string>
     <string name="bluetooth_unpair_dialog_title">Gerät entkoppeln?</string>
     <string name="bluetooth_unpair_dialog_with_associations_body">Dein Smartphone ist dann nicht mehr mit %1$s gekoppelt. %2$s verwaltet das Gerät nicht mehr.</string>
+    <string name="bluetooth_unpairing">Wird entkoppelt…</string>
     <string name="bluetooth_version">Bluetooth-Version</string>
     <string name="bluetooth_version_message">Update</string>
     <string name="bluetooth_wake">Aufwachen mit Bluetooth-Audio</string>
+    <string name="bluetooth_watch_not_synced_unpair_manually">Uhr wird nicht synchronisiert. Manuelle entkoppeln.</string>
     <string name="blur_switch">Weichzeichnereffekte reduzieren</string>
     <string name="blur_switch_disabled_summary">Wegen Energiesparmodus vorübergehend deaktiviert</string>
     <string name="blur_switch_summary">Hintergründe und Steuerfelder besser sichtbar machen</string>
@@ -2517,7 +2547,7 @@ Dies wirkt sich auch auf andere Apps oder Unterhaltungen aus, die als Bubble ers
     <string name="button_normal_text">Reguläre Taste</string>
     <string name="button_text_accept">Erlauben</string>
     <string name="button_text_accept_timer">Erlauben (%d)</string>
-    <string name="button_text_cancel">Abbruch</string>
+    <string name="button_text_cancel">Abbrechen</string>
     <string name="button_text_login">Anmelden</string>
     <string name="button_text_next_step">Weiter</string>
     <string name="button_text_next_step_timer">Weiter (%d)</string>
@@ -2617,14 +2647,15 @@ Wenn du ein CA-Zertifikat installierst, hat dessen Inhaber Zugriff auf deine Dat
     <string name="camera_key_action_title">MI Taste</string>
     <string name="camera_key_action_toggle_title">Auslöser umschalten</string>
     <string name="camera_laser_sensor_switch">Kamera-Lasersensor</string>
+    <string name="camera_mr_settings">Kameraring</string>
     <string name="camera_rear">Hintere %s</string>
     <string name="camera_toggle_label_qs">Kamerazugriff</string>
     <string name="camera_toggle_title">Kamerazugriff</string>
     <string name="cancel">Abbrechen</string>
-    <string name="cancel_action">Abbruch</string>
+    <string name="cancel_action">Abbrechen</string>
     <string name="cancel_alert">Änderungen verwerfen?</string>
-    <string name="cancel_button">Abbruch</string>
-    <string name="cancel_download_buton_text">Abbruch</string>
+    <string name="cancel_button">Abbrechen</string>
+    <string name="cancel_download_buton_text">Abbrechen</string>
     <string name="cancel_lock_screen_dialog_button_label">Abbrechen</string>
     <string name="cancel_password">Abbrechen</string>
     <string name="cannot_change_apn_toast">Dieser APN kann nicht geändert werden.</string>
@@ -2747,6 +2778,16 @@ Wenn Apps diese Berechtigung haben, stehen sie als Option zur Verfügung, wenn e
     <string name="checked_app_title">Lichteffekte an</string>
     <string name="checking_find_device_status">Gerätesuche, Status überprüfen…</string>
     <string name="checking_for_updates">Auf Updates prüfen…</string>
+    <string name="child_face_number_reach_limit">Du kannst Gesichtsdaten für bis zu drei Personen hinzufügen</string>
+    <string name="child_face_unlock_download_education_center_button">Installieren</string>
+    <string name="child_face_unlock_download_education_center_content">Um diese Funktion nutzen zu können, installiere zuerst das Bildungszentrum.</string>
+    <string name="child_face_unlock_download_education_center_title">Achtung</string>
+    <string name="child_face_unlock_first_close_child_unlock">Zuerst „Bildungszentrum nach dem Entsperren öffnen“ ausschalten</string>
+    <string name="child_face_unlock_first_close_stay_keyguard">Zuerst „Auf dem Sperrbildschirm nach dem Entsperren bleiben“ ausschalten</string>
+    <string name="child_face_unlock_no_use">Aus</string>
+    <string name="child_face_unlock_open_education_center">Bildungszentrum nach dem Entsperren öffnen</string>
+    <string name="child_face_unlock_open_education_center_summary">Gesichtsdaten einer bestimmten Person auswählen, die diese Funktion verwenden wird</string>
+    <string name="child_face_unlock_use">Verwenden</string>
     <string name="chip_add_title">Frequenz hinzufügen</string>
     <string name="chip_change_error_toast">Parameter konnten nicht angepsasst werden</string>
     <string name="chip_change_toast">Frequenz geändert. Starte das Gerät neu, damit die Änderungen wirksam werden.</string>
@@ -2755,6 +2796,7 @@ Wenn Apps diese Berechtigung haben, stehen sie als Option zur Verfügung, wenn e
     <string name="chip_dialog_reboot">Neu starten</string>
     <string name="chip_edit_dialog_message">Eine Frequenzverifizierung ist erforderlich. Dies kann die Neustartzeit verlängern.</string>
     <string name="chip_edit_dialog_title">Zum Anwenden neu starten</string>
+    <string name="chip_edit_dialog_title_new">Starte das Gerät neu, um die Änderungen zu übernehmen</string>
     <string name="chip_edit_title">Freqzenz bearbeiten</string>
     <string name="chip_fre_bottom">Du kannst eine Frequenz innerhalb des zulässigen Bereichs auswählen. Das Intervall zwischen benachbarten Frequenzen muss größer als %s GHz sein</string>
     <string name="chip_fre_label">Benutzerdefiniert</string>
@@ -2780,6 +2822,7 @@ Chip-Performance-Dashboard"</string>
     <string name="chip_per_summary_new">Passe die Frequenz und Spannung jeder Kerngruppe an</string>
     <string name="chip_per_title">Chip-Performance-Dashboard</string>
     <string name="chip_reset_dialog_message">Um die Standards wiederherzustellen, starte dein Gerät neu.</string>
+    <string name="chip_reset_dialog_message_new">Starte das Gerät neu, um die Standards wiederherzustellen.</string>
     <string name="chip_reset_dialog_title">Gerät jetzt wiederherstellen?</string>
     <string name="chip_reset_menu">Standards wiederherstellen</string>
     <string name="chip_save_restart">Speichern und neu starten</string>
@@ -2790,6 +2833,7 @@ Chip-Performance-Dashboard"</string>
     <string name="chip_voltage">%s mV</string>
     <string name="chip_voltage_tip">Spannung: %s</string>
     <string name="chip_welcome_tip">Passe die Spannung und Frequenz jeder Kerngruppe an</string>
+    <string name="chip_welcome_tip_new">Stelle die Spannung und Frequenz jeder Kerngruppe ein. Wenn nach der Anpassung Stabilitäts- oder andere Probleme auftreten, wird das Gerät automatisch neu gestartet, um die Standardeinstellungen wiederherzustellen.</string>
     <string name="choose_a_card_to_reset">SIM-Karte zum Zurücksetzen auswählen</string>
     <string name="choose_ali_payment">Alipay</string>
     <string name="choose_keyguard_clock_style">Uhrenstil auf Sperrbildschirm</string>
@@ -2842,11 +2886,11 @@ Chip-Performance-Dashboard"</string>
     <string name="close">Schließen</string>
     <string name="close_aod">Diese Funktion kann nicht mit dem \"Immer An-Modus\" kombiniert werden. Schalte zuerst \"Immer An-Modus\" aus.</string>
     <string name="close_app">Aktuelle App beenden</string>
-    <string name="close_demo_mode">Abbruch</string>
+    <string name="close_demo_mode">Abbrechen</string>
     <string name="close_drawer">Navigationsmenü schließen</string>
     <string name="close_fod">Du kannst das Gerät nicht mehr mit dem Fingerabdruck bei abgeschaltetem Bildschirm entsperren. Das Entsperren mit dem Fingerabdruck funktioniert nur bei eingeschaltetem Bildschirm.</string>
     <string name="close_fod_aod">Du kannst das Gerät nicht mehr mit dem Fingerabdruck bei abgeschaltetem Bildschirm entsperren. Der \"Immer An-Modus\" steht ebenso nicht zur Verfügung. Das Entsperren mit dem Fingerabdruck funktioniert nur bei eingeschaltetem Bildschirm.</string>
-    <string name="close_hotspot_hint">Schalte den mobilen Hotspot vor der Übertragung aus.</string>
+    <string name="close_hotspot_hint">Den mobilen Hotspot vor dem Übertragen ausschalten</string>
     <string name="close_lid_display_settings_title">Nach dem Zuklappen</string>
     <string name="close_miui_optimization_title">System-Optimierung ausschalten</string>
     <string name="close_optimization_message">Textlayout, Konten und andere Teile von MIUI sind möglicherweise betroffen, nachdem du diese Funktion deaktiviert hast.</string>
@@ -3684,6 +3728,7 @@ Diese Einstellung wirkt sich auf alle Benutzer dieses Geräts aus."</string>
     <string name="device_screen_size">Bildschirmgröße</string>
     <string name="device_screen_usage">Displaynutzung seit letzter vollständiger Aufladung</string>
     <string name="device_sd_memory">SD-Karte</string>
+    <string name="device_security_chip">Spezieller Sicherheitschip</string>
     <string name="device_share_loading">Foto erstellen</string>
     <string name="device_status">Status</string>
     <string name="device_status_activity_title">Status</string>
@@ -3740,6 +3785,7 @@ Diese Einstellung wirkt sich auf alle Benutzer dieses Geräts aus."</string>
     <string name="disable_overlays">HW-Overlays deaktivieren</string>
     <string name="disable_overlays_summary">Für Bildschirm-Compositing immer GPU verwenden</string>
     <string name="disable_password_warning">Nachdem du die Bildschirmsperre ausgeschaltet hast, werden aufgezeichnete Fingerabdrücke und Gesichtsdaten gelöscht. Du kannst das Gerät dann nicht mit deinem Gesicht oder deinen Fingerabdrücken entsperren oder sie in Notizen oder der Galerie verwenden.</string>
+    <string name="disable_permission_text_by_hyper">Diese Berechtigung hat die Überprüfung nicht bestanden und ist jetzt eingeschränkt</string>
     <string name="disable_phantom_process_monitor_summary">Beschränkungen für die Nutzung von Systemressourcen durch die untergeordneten App-Prozesse deaktivieren</string>
     <string name="disable_phantom_process_monitor_title">Beschränkungen für Unterprozesse deaktivieren</string>
     <string name="disable_power_key_long_press_under_keyguard">Ein/Aus-Taste-Menü ausschalten</string>
@@ -3971,7 +4017,7 @@ Diese Einstellung wirkt sich auf alle Benutzer dieses Geräts aus."</string>
     <string name="dual_clock_open_message">Die Dualuhr wird auf dem Sperr- und Startbildschirm angezeigt.</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
-    <string name="dual_wifi">Dualband-WLAN-​Geschwindigkeitsboost</string>
+    <string name="dual_wifi">Dualband-WLAN-Geschwindigkeitsboost</string>
     <string name="dual_wifi_acceleration">Geschwindigkeit steigern</string>
     <string name="dual_wifi_auto_disable">Speed Boost automatisch stoppen</string>
     <string name="dual_wifi_auto_disable_summary">Bei ausgeschaltetem Bildschirm automatisch von WLAN-Hilfsnetzwerken trennen, um Energie zu sparen</string>
@@ -3991,6 +4037,7 @@ Diese Einstellung wirkt sich auf alle Benutzer dieses Geräts aus."</string>
     <string name="dump_log_summary">"Diese Funktion dient zum Generieren des %s-Protokolls in der Beta-Version des Systems. Bitte mit Vorsicht nutzen.
 Du kannst generierte Protokolle im Dateimanager einsehen."</string>
     <string name="dump_log_title">Über diese Funktion</string>
+    <string name="dynamic_island_title">Xiaomi HyperIsland</string>
     <string name="early_morning">Morgen</string>
     <string name="easy_mode_font_settings_toast">Im Lite-Modus kann die Schriftart nicht angepasst werden</string>
     <string name="easymode_hint">Antippen, um Lite-Modus auszuschalten</string>
@@ -4020,6 +4067,7 @@ Du kannst generierte Protokolle im Dateimanager einsehen."</string>
     <string name="eid_multi_sim">EID %1$d</string>
     <string name="eighthours">8 Stunden</string>
     <string name="elastic_text">Eingabeaufforderungen und Dropdown-Menüs erscheinen mit einem elastischen Poppen, das diese Elemente stärken betont</string>
+    <string name="elder_care_ai_anti_fraud">Betrug während Gesprächen erkennen und Warnungen erhalten</string>
     <string name="elder_care_block_advertising_promotions_calls_title">Marketing-Anrufe blockieren</string>
     <string name="elder_care_block_estate_agency_calls_title">Anrufe von Immobilienmaklern blockieren</string>
     <string name="elder_care_block_risky_app_title">Riskante Apps blockieren</string>
@@ -4117,7 +4165,7 @@ Du kannst generierte Protokolle im Dateimanager einsehen."</string>
     <string name="enable_preferred_network_type_title">Menü für bevorzugte Netzwerkart anzeigen</string>
     <string name="enable_quick_setting">In Schnelleinstellungen anzeigen</string>
     <string name="enable_receiving_mms_notification_title">Eingehende MMS</string>
-    <string name="enable_screen_projection_summary">Übertrage Bildschirminhalte auf einen externen Monitor.</string>
+    <string name="enable_screen_projection_summary">Den Bildschirminhalt auf einen externen Monitor übertragen</string>
     <string name="enable_sending_mms_notification_title">MMS kann nicht gesendet werden</string>
     <string name="enable_service_title">Der Dienst führt diese Aktionen aus:</string>
     <string name="enable_sizecompat_freeform">Erzwingen der Größenänderung von Fenstern</string>
@@ -4250,8 +4298,8 @@ Weitere Informationen erhältst du vom Administrator deiner Organisation."</stri
     <string name="enterprise_privacy_usage_stats">Nutzungsdauer und genutzte Datenmenge für jede App</string>
     <string name="enterprise_privacy_wipe_device">Der Administrator kann alle Gerätedaten löschen</string>
     <string name="environmental_speech_recognition">Erkennung von Umgebungsgeräuschen</string>
-    <string name="eras_ad">n. Chr.</string>
-    <string name="eras_bc">v. Chr.</string>
+    <string name="eras_ad">u. Z.</string>
+    <string name="eras_bc">v. u. Z.</string>
     <string name="erase_application">Apps löschen</string>
     <string name="erase_application_description">Heruntergeladene Apps löschen</string>
     <string name="erase_data">Löschen</string>
@@ -4388,25 +4436,36 @@ Schließe einen externen Bildschirm an oder verwende ein anderes Kabel"</string>
     <string name="external_source_untrusted">Nicht zugelassen</string>
     <string name="extreme_threats_summary">Warnungen zu extremen Gefahren für Leben und Eigentum erhalten</string>
     <string name="extreme_threats_title">Extreme Gefahren</string>
+    <string name="eye_care_adjust_mode">Anpassungsstil</string>
+    <string name="eye_care_classic_mode">Klassisch</string>
+    <string name="eye_care_learn_more">Mehr über Augenkomfort erfahren</string>
+    <string name="eye_care_mode_description">„Rhythmus“ passt die Farbtemperatur automatisch basierend auf der Tageszeit und dem Nutzungsszenario an. Tagsüber bleibt sie natürlicher, nachts wärmer. „Klassisch“ verwendet eine feste Farbtemperatur und muss manuell angepasst werden.</string>
+    <string name="eye_care_rhythmic_mode">Rhythmus</string>
     <string name="eye_gaze_dialog_message">Wenn diese Funktion eingeschaltet ist, erkennt das System, ob du auf den Bildschirm schaust, aber deine Gesichtszüge werden nicht analysiert und diese Daten werden nicht auf deinem Gerät gespeichert oder in die Cloud hochgeladen. Jetzt einschalten?</string>
     <string name="eye_gaze_dialog_title">Sicherheitshinweis</string>
-    <string name="eye_gaze_summary">Das Gerät wird nicht gesperrt, wenn es erkennt, dass du auf den Bildschirm schaust</string>
+    <string name="eye_gaze_summary">Das Gerät bleibt entsperrt, solange du auf den Bildschirm schaust</string>
     <string name="eye_gaze_summary_fold_device">Das Gerät wird nicht gesperrt, wenn es erkennt, dass du auf einen äußeren Bildschirm schaust.</string>
     <string name="eye_gaze_title">Blick erkennen</string>
     <string name="eye_habit_prompt_summary">Erhalte Benachrichtigungen, wenn dein Gerät Bedingungen erkennt, die eine Überanstrengung der Augen verursachen könnten</string>
     <string name="eye_habit_prompt_title">Augengesundheit-Benachrichtigungen</string>
+    <string name="eye_habit_prompt_title_new">@string/eye_habit_prompt_title</string>
     <string name="eye_paper_protection">Lesemodus-Einstellungen</string>
+    <string name="eye_protection_technology">Technologie</string>
     <string name="eyes_protect_certification">Technologie und Zertifizierung</string>
     <string name="eyes_protect_certification_summary_1">Augengesundheits-Freundlichkeitszertifizierung S++</string>
     <string name="eyes_protect_certification_summary_2">„Low Blue Light (Hardware Solution)“-, „Circadian Friendly“- und „Flicker Free“-zertifiziert</string>
     <string name="eyes_protect_certification_summary_3">Zirkulare Polarisationstechnologie erlaubt es dem Licht, sich gleichmäßig zu zerstreuen, was zu einem natürlicheren visuellem Erlebnis führt.</string>
     <string name="eyes_protect_certification_summary_4">DC-Dimmen-Technologie mit voller Helligkeit reduziert die Belastung der Sehnerven, indem sie das Flimmern beim Wechsel zwischen hellen und dunklen Szenen eliminiert.</string>
     <string name="eyes_protect_certification_summary_5">Die benutzerdefinierte SVM-Kompensation von Xiaomi hält den SVM-Wert bei jeder Helligkeit unter 1 und sorgt so für ein angenehmeres Seherlebnis</string>
+    <string name="eyes_protect_certification_summary_5_extended">Geringes SVM-Flackern bei allen Helligkeitsstufen, um die Belastung der Augen zu reduzieren</string>
+    <string name="eyes_protect_certification_summary_6">Hardwarebasierter Augenschutz für schlechte Lichtverhältnisse und Nachtbetrieb. Reduziert die Belastung der Augen und unterstützt einen gesunden Schlafrhythmus.</string>
     <string name="eyes_protect_certification_title_1">China Quality Certification Center</string>
     <string name="eyes_protect_certification_title_2">Dreifache TÜV Rheinland „Eye Comfort“-Zertifizierung</string>
     <string name="eyes_protect_certification_title_3">Natürlichere zirkulare Polarisation</string>
     <string name="eyes_protect_certification_title_4">Flimmerfreies DC-Dimmen</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM-Dimmen</string>
+    <string name="eyes_protect_certification_title_6">%d-nit-Mindestehelligkeit</string>
+    <string name="eyes_protect_game_title">Augenkomfort beim Spielen</string>
     <string name="face_data_apply_for_category_title">Mit Gesichtsdaten entsperren</string>
     <string name="face_data_apply_for_keyguard_title">Sperrbildschirm</string>
     <string name="face_data_input_camera_fail">Kamera konnte nicht geladen werden</string>
@@ -4437,6 +4496,7 @@ Fügen Sie ein Sperrbildschirmpasswort hinzu, bevor Sie Ihre Gesichtsdaten hinzu
     <string name="face_data_suggesstion_first_cn_highlight">Die Gesichtsentsperrung ist weniger sicher als eine PIN, ein Passwort, Muster oder Fingerabdruck. Ihr Gerät kann mit Ihrem Foto sowie von Personen oder Objekten mit ähnlichem Aussehen entsperrt werden.</string>
     <string name="face_data_suggesstion_second">Achte darauf, dass deine Gesichtsteile nicht von einem Gegenstand abgedeckt und deutlich erkennbar sind. Dein Gesicht sollte auch gut beleuchtet sein.</string>
     <string name="face_enroll_when_slt_on_toast">Ein Gesicht für die Gesichtsentsperrung kann nicht hinzugefügt werden, wenn die Tiantong-Satellitenkommunikation genutzt wird</string>
+    <string name="face_enrollment_fold_warning">Das Ändern des Bildschirmzustands unterbricht die Aufzeichnung der Gesichtsdaten</string>
     <string name="face_enrollment_tips">Stelle sicher, dass alle Teile deines Gesichts gut sichtbar sind. Trage keine Hüte, Masken, Sonnenbrillen oder andere Accessoires.</string>
     <string name="face_finger_add">Hinzufügen</string>
     <string name="face_finger_delete">Löschen</string>
@@ -4460,6 +4520,9 @@ Fügen Sie ein Sperrbildschirmpasswort hinzu, bevor Sie Ihre Gesichtsdaten hinzu
     <string name="face_unlock_disable">Gesichtsentsperrung ist aus</string>
     <string name="face_unlock_down">Hebe deinen Kopf an</string>
     <string name="face_unlock_enable">Gesichtsentsperrung ist an</string>
+    <string name="face_unlock_in_low_light_msg">Erhöhe die Bildschirmhelligkeit bei geringem Licht, um die Gesichtserkennung zu verbessern.</string>
+    <string name="face_unlock_in_low_light_tip">Wenn der Nachtaugenkomfort an ist, wird der Bildschirm durch „Erkennung bei geringem Licht optimieren“ nicht aufgehellt</string>
+    <string name="face_unlock_in_low_light_title">Erkennung bei geringem Licht optimieren</string>
     <string name="face_unlock_not_found">Du wurdest nicht erkannt</string>
     <string name="face_unlock_offset_bottom">Senke dein Gerät ein wenig</string>
     <string name="face_unlock_offset_left">Nach rechts bewegen</string>
@@ -4513,6 +4576,12 @@ Fügen Sie ein Sperrbildschirmpasswort hinzu, bevor Sie Ihre Gesichtsdaten hinzu
     <string name="fan_mode_partial_scene_usage">Ausgewählt</string>
     <string name="fan_mode_range_title">Verwendungsszenarien</string>
     <string name="fan_mode_usage_scenes">Verwendungsszenarien</string>
+    <string name="fan_other_features">Weitere Funktionen</string>
+    <string name="fan_self_clean">Selbstreinigender Ventilator</string>
+    <string name="fan_self_clean_summary">Wenn der Ventilator länger als %d Tage nicht gelaufen ist, reinigt er sich automatisch, während der Bildschirm ausgeschaltet ist und das Gerät aufgeladen wird</string>
+    <string name="fan_smart_stop_on_recording">Anhalten während Audioerfassung</string>
+    <string name="fan_smart_stop_on_recording_summary">Reduziere das Lüftungsgeräusch während Anrufen, Audio- und Videoaufnahmen. Gilt nicht für Spiele.</string>
+    <string name="fast_connect_device_image">Bild</string>
     <string name="fcc_equipment_id">Geräte-ID</string>
     <string name="feature_flags_dashboard_title">Funktions-Flags</string>
     <string name="feedback">Feedback</string>
@@ -4572,7 +4641,7 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="find_my_device_enable">An</string>
     <string name="find_my_device_summary">Für diese Funktion musst du dich im Xiaomi-Konto anmelden</string>
     <string name="finger_add_user_info_dialog_cancel">Abbrechen</string>
-    <string name="finger_add_user_info_dialog_message">Damit du Entsperren per Fingerabdruck verwenden und Zahlungen per Fingerabdruck tätigen kannst, müssen wir deine Fingerabdruck erfassen. Der Fingerabdruck wird lokal auf diesem Gerät gespeichert. Um diesen zu löschen, suche in den Einstellungen nach \"Entsperren per Fingerabdruck\" und wähle dann Entsperren per Fingerabdruck > Fingerabdruck. Wenn du nicht zustimmst, wirst du diese Funktion nicht nutzen können.</string>
+    <string name="finger_add_user_info_dialog_message">Um Entsperren per Fingerabdruck zu verwenden und Zahlungen per Fingerabdruck zu tätigen, müssen wir deinen Fingerabdruck erfassen. Der Fingerabdruck wird lokal auf diesem Gerät gespeichert. Um ihn zu löschen, suche in den Einstellungen nach „Entsperren per Fingerabdruck“ und wähle dann „Entsperren per Fingerabdruck“ > „Fingerabdruck“ aus. Wenn du nicht zustimmst, kannst du diese Funktion nicht löschen.</string>
     <string name="finger_add_user_info_dialog_next">Zustimmen</string>
     <string name="finger_add_user_info_dialog_title">Achtung</string>
     <string name="finger_detail_info_text">Fingerabdrucknamen ändern</string>
@@ -4592,6 +4661,7 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="fingerprint_enroll_button_add">Weiteren Fingerabdruck hinzufügen</string>
     <string name="fingerprint_enroll_button_next">Weiter</string>
     <string name="fingerprint_enrollment_desc">Nachdem du einen Fingerabdruck gespeichert hast, kannst du ihn zum Entsperren des Geräts und zur Verifizierung deiner Identität verwenden.</string>
+    <string name="fingerprint_enrollment_fold_warning">Das Ändern des Bildschirmzustands unterbricht die Aufzeichnung des Fingerabdrucks</string>
     <string name="fingerprint_enrollment_title">Fingerabdruck erfassen</string>
     <string name="fingerprint_face_password">Fingerabdrücke, Gesichtsdaten und Bildschirmsperre</string>
     <string name="fingerprint_face_password_unlock">Fingerabdrücke, Gesichtsdaten und Bildschirmsperre</string>
@@ -4619,6 +4689,7 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="fingerprint_password_unlock">Fingerabdrücke und Bildschirmsperre</string>
     <string name="fingerprint_payment">Mit Fingerabdruck bezahlen</string>
     <string name="fingerprint_privacy_desc">Du kannst deinen Fingerabdruck für den Zugriff auf private Alben, Nachrichten, Notizen, Dateien, den Xiaomi-Hyper-XiaoAi-Speicher, die App-Sperre und Tools zur Passwortverwaltung verwenden.</string>
+    <string name="fingerprint_privacy_policy"><Data>Lies die &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"Fingerabdrücke und Bildschirmsperre\"-Datenschutzerklärung&lt;/a> durch und stimme ihr zu, bevor du fortfährst.&lt;/font></Data></string>
     <string name="fingerprint_protection">Fingerabdruck-Schutz</string>
     <string name="fingerprint_record_input">Aufnehmen</string>
     <string name="fingerprint_removal_failed">Konnte Fingerabdruck nicht entfernen, später erneut versuchen</string>
@@ -4634,7 +4705,7 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="fingerprint_unlock_set_unlock_pin">PIN • Fingerabdruck</string>
     <string name="fingerprint_unlock_skip_fingerprint">Weiter ohne Fingerabdruck</string>
     <string name="fingerprint_unlock_title">Du kannst dein Smartphone per Fingerabdruck entsperren. Aus Sicherheitsgründen benötigst du bei dieser Option eine alternative Displaysperre.</string>
-    <string name="fingerprint_unlock_touch_type">Berührung</string>
+    <string name="fingerprint_unlock_touch_type">Berühren</string>
     <string name="fingerprint_unlock_type">Fingerabdruck-Erkennungsmethode</string>
     <string name="fingerprint_v2_delete_message">Dadurch werden die Aufnahmen und das Modell des Fingerabdrucks für „%1$s“ gelöscht, die auf deinem Smartphone gespeichert sind.</string>
     <string name="finish_application">Beenden erzwingen</string>
@@ -4690,21 +4761,6 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="flash_notifications_summary_off">Aus – Aufleuchten des Kamerablitzes oder des Displays bei Benachrichtigungen und Weckrufen</string>
     <string name="flash_notifications_summary_on">An – Aufleuchten des Kamerablitzes oder des Displays bei Benachrichtigungen und Weckrufen</string>
     <string name="flash_notifications_title">Beamen für Benachrichtigungen</string>
-    <string name="flashback_background_start_switch_summary">Karteikarten mit Schlüsselinformationen automatisch erzeugen, wenn Apps im Hintergrund laufen</string>
-    <string name="flashback_background_start_switch_title">Karteikarten automatisch generieren</string>
-    <string name="flashback_baidu_map_summary">Route anzeigen</string>
-    <string name="flashback_didi_summary">Fahrzeuginfo anzeigen</string>
-    <string name="flashback_meituan_summary">Auslieferungsinfo anzeigen</string>
-    <string name="flashback_meituan_waimai_summary">Auslieferungsinfo anzeigen</string>
-    <string name="flashback_open_switch_summary">Schlüsselinformationen anzeigen, wenn Apps als schwebende Fenster angezeigt werden</string>
-    <string name="flashback_open_switch_title">App-Karteikarten</string>
-    <string name="flashback_shansong_summary">Auslieferungs-Fortschritt anzeigen</string>
-    <string name="flashback_status_close">Aus</string>
-    <string name="flashback_status_open">Ein</string>
-    <string name="flashback_summary">Schlüsselinformationen anzeigen, wenn Apps als schwebende Fenster angezeigt werden</string>
-    <string name="flashback_support_apps_title">Verfügbare Apps</string>
-    <string name="flashback_title">App-Karteikarten</string>
-    <string name="flashback_wangzhe_summary">Wiederbelebungs-Countdown anzeigen</string>
     <string name="flip_aod_settings_title">Sperrbildschirm (außen)</string>
     <string name="flip_aod_settings_title_new">Sperrbildschirm (außen)</string>
     <string name="flip_application_settings_title">Apps für äußeren Bildschirm</string>
@@ -4738,8 +4794,8 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d.M.</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">M-yyyy</string>
-    <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
+    <string name="fmt_date_numeric_year_month">M.yyyy</string>
+    <string name="fmt_date_numeric_year_month_day">d.M.yyyy</string>
     <string name="fmt_date_short_month">MMM</string>
     <string name="fmt_date_short_month_day">d. MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
@@ -4749,7 +4805,7 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour">"h 'o''Uhr'"</string>
     <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="fmt_time_12hour_minute_pm">h:mm a</string>
     <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
@@ -4757,7 +4813,7 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
     <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
     <string name="fmt_time_12hour_pm">ha</string>
-    <string name="fmt_time_24hour">"H 'o''clock'"</string>
+    <string name="fmt_time_24hour">"H 'o''Uhr'"</string>
     <string name="fmt_time_24hour_minute">H:mm</string>
     <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
     <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
@@ -4800,6 +4856,8 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="font_preview_text_content">"Beispieltext:
 
 Xiaomi entwickelt unermüdlich fantastische Produkte zu ehrlichen Preisen, um allen auf der Welt das Leben durch innovative Technologien zu erleichtern."</string>
+    <string name="font_preview_text_content_new">"Beispieltext:
+Xiaomi entwickelt unermüdlich fantastische Produkte zu ehrlichen Preisen, um allen auf der Welt das Leben durch innovative Technologien zu erleichtern."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Die aktuelle Schriftart unterstützt das Anpassen der Schriftstärke nicht</string>
     <string name="font_settings_jump">Barrierefreiheit > Bildschirmgröße</string>
@@ -4819,12 +4877,14 @@ Xiaomi entwickelt unermüdlich fantastische Produkte zu ehrlichen Preisen, um al
 "</string>
     <string name="font_size_summary1">"Wenn der Text immernoch zu klein ist, versuche "</string>
     <string name="font_size_summary2">Lite Modus</string>
+    <string name="fonts_management_installed_app">Schriftarten installieren und verwalten, um sie in Apps zu verwenden</string>
+    <string name="fonts_manager">Schriftarten verwalten</string>
     <string name="footer_description_full_screen_intent">Erlaube dieser App, Benachrichtigungen anzuzeigen, die den gesamten Bildschirm ausfüllen, wenn das Gerät gesperrt ist. Die App kann Vollbildbenachrichtigungen verwenden, um Alarme, eingehende Anrufe oder andere dringende Benachrichtigungen anzuzeigen. Diese Einstellung beruht auf der Berechtigung, neue Fenster zu öffnen, während sie im Hintergrund ausgeführt wird, und kann nur verwendet werden, wenn diese Berechtigung erteilt wurde.</string>
     <string name="footer_learn_more_content_description">Weitere Informationen zu %1$s</string>
     <string name="footer_time_zone_offset_change_next_change">Nächste Änderung</string>
     <string name="footer_time_zone_offset_change_no_next_change">Keine geplanten Änderungen</string>
     <string name="forbidden_network">(nicht zulässig)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Der Reparaturmodus ist an. Passwörter können jetzt nicht festgelegt oder geändert werden.</string>
     <string name="forbidden_switch_apn_string">Die ausgewählten APN Einstellungen passen nicht zum aktuellen Netzwerk Typ</string>
     <string name="force_allow_on_external">Sperrung des externen Speichers für alle Apps aufheben</string>
     <string name="force_allow_on_external_summary">Jede App kann, ungeachtet der Manifestwerte, in den externen Speicher geschrieben werden</string>
@@ -4859,7 +4919,7 @@ Xiaomi entwickelt unermüdlich fantastische Produkte zu ehrlichen Preisen, um al
     <string name="forget_password_button_text"><u>Passwort vergessen</u></string>
     <string name="forget_password_dialog_button_text">Zurück</string>
     <string name="forget_password_dialog_content_four">2. Wählen Sie [Wipe data] und warten Sie darauf, dass das Gerät wieder hochfährt.</string>
-    <string name="forget_password_dialog_content_one">&lt;Data>Wenn du dein Passwort vergisst, kannst du es nicht wiederherstellen. Du kannst jedoch dein Passwort zurücksetzen, wenn du &lt;font color=#ec2700>alle Daten auf deinem Gerät gelöscht hast&lt;/font> (einschl. Fotos, Kontakte, etc.). Sichere zuvor alle wichtigen Daten.&lt;/Data></string>
+    <string name="forget_password_dialog_content_one"><Data>Wenn du dein Passwort vergisst, kannst du es nicht wiederherstellen. Du kannst jedoch dein Passwort zurücksetzen, wenn du &lt;font color=#ec2700>alle Daten auf deinem Gerät gelöscht hast&lt;/font> (einschließlich Fotos, Kontakte usw.). Sichere zuvor alle wichtigen Daten.</Data></string>
     <string name="forget_password_dialog_content_three">1. Schalten Sie Ihr Gerät aus. Drücken Sie den [Ein/Aus]-Knopf und den [Lautstärke +]-Knopf gleichzeitig und halten Sie diese gedrückt, bis das *-Symbol erscheint.</string>
     <string name="forget_password_dialog_content_two">Befolge diese Schritte, um Daten zu löschen:</string>
     <string name="forget_password_dialog_title">Daten löschen</string>
@@ -4944,6 +5004,7 @@ Diese Funktion funktioniert nur, wenn die Systemnavigation auf Gesten eingestell
     <string name="friday_first_day_of_week">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">Fr</string>
+    <string name="frp_status_activated">Der Schutz vor Zurücksetzen auf die Werkseinstellungen ist an</string>
     <string name="fsg_mistake_touch_summary">In einigen Fällen, etwa bei Vollbildspielen und Videos, müssen Gesten zweimal gewischt werden, um zu funktionieren</string>
     <string name="fsg_mistake_touch_title">Gesten doppelt prüfen</string>
     <string name="full_screen_display">Vollbildmodus</string>
@@ -4964,6 +5025,7 @@ Wenn du die automatische Sicherung aktivierst, werden Geräte- und App-Daten reg
     <string name="game_app_title">Spiellichteffekte</string>
     <string name="game_booster">Spiel;Spiele;Turbo;Gaming;Spielmodus</string>
     <string name="game_booster_title">Spiel-Turbo</string>
+    <string name="game_call_of_duty_title">Call of Duty</string>
     <string name="game_controller_button_a">A-Taste</string>
     <string name="game_controller_button_b">B-Taste</string>
     <string name="game_controller_button_l1">L1-Taste</string>
@@ -4987,8 +5049,13 @@ Wenn du die automatische Sicherung aktivierst, werden Geräte- und App-Daten reg
     <string name="game_controller_stick_remapping_category">Richtungen</string>
     <string name="game_controller_stick_right">Rechter Stick</string>
     <string name="game_delta_action_moments">Plünderung von Vorräten und erfolgreiche Evakuierung</string>
+    <string name="game_delta_action_title">三角洲行动</string>
+    <string name="game_eyecare_empty_list_tip">Hier ist noch nichts</string>
     <string name="game_king_of_glory_moments">Kills, Siege und andere wichtige Momente</string>
+    <string name="game_king_of_glory_title">王者荣耀</string>
     <string name="game_peacekeeper_elites_moments">Fallschirmspringen und Kampf</string>
+    <string name="game_peacekeeper_elites_title">和平精英</string>
+    <string name="game_pubg_mobile_title">PUBG MOBILE</string>
     <string name="game_storage_settings">Spiele</string>
     <string name="gaze_lock_screen_summary">Das Gerät bleibt entsperrt, wenn du auf den Bildschirm schaust, und wird gesperrt, wenn du den Blick abwendest, um deine Privatsphäre zu schützen, und setzt deine automatische Sperrzeiteinstellung außer Kraft.</string>
     <string name="gaze_lock_screen_title">Anwesenheit erkennen</string>
@@ -5154,6 +5221,7 @@ Der Bereich, in dem du deine Bildschirmsperre bestätigen kannst, wird nach rech
     <string name="gxzw_anim_rhythm">Rhythmus</string>
     <string name="gxzw_anim_star">Sternenlicht</string>
     <string name="gxzw_anim_switch">Fingerabdruckanimation</string>
+    <string name="gxzw_anim_switch_new">Fingerabdruckanimation</string>
     <string name="gxzw_anim_title">Fingerabdruckerkennung</string>
     <string name="gxzw_aod_show_summary">Hebe das Gerät an oder tippe auf den Bildschirm, damit das Fingerabdrucksymbol erscheint. Diese Funktion erhöht den Stromverbrauch des Systems, aber erlaubt dir, das Gerät schneller freizuschalten.</string>
     <string name="gxzw_aod_show_tittle">Fingerabdrucksymbole anzeigen, wenn der Bildschirm aus ist</string>
@@ -5172,6 +5240,7 @@ Der Bereich, in dem du deine Bildschirmsperre bestätigen kannst, wird nach rech
     <string name="gxzw_quick_open_show_summary">· Halte deinen Finger auf dem Fingerabdrucksymbol, nachdem das Gerät entsperrt wurde, um das Verknüpfungsmenü zu öffnen.</string>
     <string name="gxzw_quick_open_slow_summary">Fingerabdrucksymbol gedrückt halten, um das Kontextmenü zu öffnen. Wischen um eine Verknüpfung zu verwenden.</string>
     <string name="gxzw_quick_open_slow_title">Drücken und halten</string>
+    <string name="gxzw_quick_open_summary">Klicke nach dem Entsperren auf das Fingerabdruck-Symbol, um das Verknüpfungsmenü zu öffnen. Schiebe es dann zu einer Verknüpfung, um sie auszuwählen.</string>
     <string name="gxzw_quick_open_title">Verknüpfungen</string>
     <string name="gxzw_recognizing_anim_a">Wellenform</string>
     <string name="gxzw_recognizing_anim_b">Spirale</string>
@@ -5194,7 +5263,7 @@ Der Bereich, in dem du deine Bildschirmsperre bestätigen kannst, wird nach rech
     <string name="handy_mode_hint">Einhandmodus ist nur auf dem Außenbildschirm verfügbar</string>
     <string name="handy_mode_size">Bildschirmgröße</string>
     <string name="handy_mode_tips">Einhandmodus einschalten durch Wischen nach links oder rechts von der Mitte des Navigationsfelds.</string>
-    <string name="handy_mode_tips_full_screen">Einhandmodus durch Wischen der Vollbildschirm-Anzeige einschalten. Diese Funktion ist nicht verfügbar, wenn die Anzeige verborgen ist.</string>
+    <string name="handy_mode_tips_full_screen">Einhandmodus durch Wischen der Vollbildanzeige einschalten. Diese Funktion ist nicht verfügbar, wenn die Anzeige verborgen ist.</string>
     <string name="haptic_agent_completion_01_content_description">Abgeschlossene Aufgaben</string>
     <string name="haptic_cursor_movement_07_content_description">Helligkeit anpassen</string>
     <string name="haptic_descripthion_for_max_level">Stark</string>
@@ -5264,8 +5333,14 @@ Der Bereich, in dem du deine Bildschirmsperre bestätigen kannst, wird nach rech
     <string name="headset_aac">AAC</string>
     <string name="headset_adaptive_hearing_summary">Automatische Anpassung des Sounds basierend auf deiner Ohrform und Umgebung</string>
     <string name="headset_adaptive_hearing_title">Adaptiver Sound</string>
+    <string name="headset_adaptive_volume_summary_gaia">Lautstärke automatisch an die Umgebung anpassen</string>
+    <string name="headset_airpods_rename_summary">Der neue Name wird nur auf diesem Gerät erscheinen</string>
+    <string name="headset_airpods_ring_find">Ton zum Orten abspielen</string>
+    <string name="headset_airpods_ring_find_summary">Spiele einen lauten Ton über die mit diesem Gerät gekoppelten Kopfhörer ab, um sie zu orten</string>
+    <string name="headset_airpods_spatial_audio_summary">Genieße immersiven Sound bei unterstützten Audio- und Videodateien</string>
     <string name="headset_ambient_sound">Umgebungsgeräusche</string>
     <string name="headset_aptx_adapter">Qualcomm® aptX™ Adaptive</string>
+    <string name="headset_autoswitch_switched">Gewechselt</string>
     <string name="headset_connectiong">Verbinden…</string>
     <string name="headset_find_both">Beide</string>
     <string name="headset_find_cancel">Abbrechen</string>
@@ -5276,6 +5351,7 @@ Der Bereich, in dem du deine Bildschirmsperre bestätigen kannst, wird nach rech
     <string name="headset_find_notify_connected">Verbunden</string>
     <string name="headset_find_notify_disconnect">Getrennt. Verbinden und erneut versuchen.</string>
     <string name="headset_find_play_warning">Mindestens einer der Ohrhörer scheint in deinem Ohr zu sein. Das Abspielen des Alarms kann dein Gehör schädigen. Entferne den Ohrhörer aus deinem Ohr, bevor du fortfährst.</string>
+    <string name="headset_find_play_warning_no_wear">Der Ton wird mit hoher Lautstärke wiedergegeben, was dein Gehör schädigen kann. Nimm die Kopfhörer raus, bevor du den Ton abspielst.</string>
     <string name="headset_find_playing">Wiedergabe…</string>
     <string name="headset_find_query_play">Abspielen</string>
     <string name="headset_find_right">Rechts</string>
@@ -5298,6 +5374,7 @@ Der Bereich, in dem du deine Bildschirmsperre bestätigen kannst, wird nach rech
     <string name="headset_notification_switch_summary">Status in der Widget-Benachrichtigungsleiste zeigen, wenn Kopfhörer verbunden sind</string>
     <string name="headset_notification_switch_title">Widget-Benachrichtigungsleiste</string>
     <string name="headset_paired_other_device_need_reset">Diese Kopfhörer sind mit einem anderen Gerät gekoppelt. Setze sie zurück, um eine Verbindung herstellen zu können.</string>
+    <string name="headset_profile_hfp">Anrufaudio</string>
     <string name="headset_remove_message">Gerät entkoppeln?</string>
     <string name="headset_remove_message_indicate">%1$s wird von allen Geräten, die mit diesem Xiaomi-Konto verbunden sind, entkoppelt.</string>
     <string name="headset_sbc">SBC</string>
@@ -5308,6 +5385,7 @@ Der Bereich, in dem du deine Bildschirmsperre bestätigen kannst, wird nach rech
     <string name="headset_silent_upgrade_switch_summary">Automatische Aktualisierung der Kopfhörer-Firmware, wenn alle erforderlichen Bedingungen erfüllt sind</string>
     <string name="headset_silent_upgrade_switch_title">Automatisch aktualisieren</string>
     <string name="headset_spatial_audio">Dimensionales Audio</string>
+    <string name="headset_toast_tip_disconnect_others">Deine Kopfhörer scheinen jetzt mit einem anderen Gerät verbunden zu sein.</string>
     <string name="headset_unsaved_devices">Auf anderen Geräten verwendet</string>
     <string name="headset_voice_control_assistant_summary">Einschalten, um Mi AI zu wecken, die Lautstärke zu regeln, Musik abzuspielen und zu pausieren und per Sprache zum vorherigen oder nächsten Titel zu wechseln</string>
     <string name="headset_voice_control_assistant_summary_fixed">Einschalten, um Mi AI zu wecken, die Lautstärke zu regeln, Musik abzuspielen und zu pausieren, den Geräuschunterdrückungsmodus zu wechseln und per Sprache zum vorherigen oder nächsten Titel zu wechseln</string>
@@ -5462,6 +5540,7 @@ Xiaomi Cloud
     <string name="immediately_destroy_activities">Aktivitäten nicht speichern</string>
     <string name="immediately_destroy_activities_summary">Aktivität löschen, sobald der Nutzer diese beendet</string>
     <string name="immersive_audio_sources">Immersiver Sound</string>
+    <string name="import_manager_font_summary">Schriftarten für Apps importieren und verwalten</string>
     <string name="importance_default">Standard</string>
     <string name="importance_high">Hoch</string>
     <string name="importance_low">Niedrig</string>
@@ -5961,6 +6040,69 @@ Wichtig: Anrufe über Satellit sind nicht möglich. Notrufe werden jedoch eventu
     <string name="layout_size_normal_text">Klein</string>
     <string name="layout_size_small">XS</string>
     <string name="layout_size_small_text">Sehr klein</string>
+    <string name="ldp_checker_action">Einstellungen</string>
+    <string name="ldp_checker_desc">Füge einen Fingerabdruck hinzu, um deine Identität für wichtige Sicherheitseinstellungen zu bestätigen und um die Gerätesuche einzuschalten. Wenn du dein Gerät verloren hast oder es gestohlen wurde, kann die Gerätesuche dabei helfen, es zu finden und deine Daten zu schützen.</string>
+    <string name="ldp_checker_find_device_desc">Wenn du nicht bei deinem Xiaomi-Konto angemeldet bist, wirst du aufgefordert, dich anzumelden.</string>
+    <string name="ldp_checker_find_device_title">Gerätesuche einschalten</string>
+    <string name="ldp_checker_fingerprint_enroll_desc">Wenn du noch keine Bildschirmsperre festgelegt hast, wirst du aufgefordert, eine einzurichten.</string>
+    <string name="ldp_checker_fingerprint_enroll_title">Füge mindestens einen Fingerabdruck hinzu</string>
+    <string name="ldp_checker_title">Fingerabdruck und Gerätesuche müssen eingeschaltet sein</string>
+    <string name="ldp_closed_dialog_button_know">Verstanden</string>
+    <string name="ldp_closed_dialog_reason_by_xiaomi_account">Du hast den Verlorenes-Gerät-Schutz über dein Xiaomi-Konto ausgeschaltet. Die Sicherheitsfunktionen deines Gerätes verfügen nicht mehr über zusätzlichen Schutz.</string>
+    <string name="ldp_closed_dialog_reason_no_account">Verlorenes-Gerät-Schutz ist jetzt aus, weil du nicht bei deinem Xiaomi-Konto angemeldet bist.</string>
+    <string name="ldp_closed_dialog_reason_no_device_find">Du hast die Gerätesuche aus der Ferne ausgeschaltet, damit der Verlorenes-Gerät-Schutz aus ist.</string>
+    <string name="ldp_closed_dialog_reason_no_fingerprint">Verlorenes-Gerät-Schutz ist jetzt aus, weil kein Fingerabdruck festgelegt wurde.</string>
+    <string name="ldp_closed_dialog_reason_no_lock_password">Verlorenes-Gerät-Schutz ist jetzt aus, weil keine Bildschirmsperre festgelegt wurde.</string>
+    <string name="ldp_closed_dialog_sync_title">Verlorenes-Gerät-Schutz ist aus</string>
+    <string name="ldp_closed_dialog_title">Verlorenes-Gerät-Schutz ist aus</string>
+    <string name="ldp_detail_introduction">Erfahre, wie diese Funktion dich schützen kann, wenn du dein Gerät verlierst.</string>
+    <string name="ldp_detail_title">Über Verlorenes-Gerät-Schutz</string>
+    <string name="ldp_dual_auth">Zwei-Faktor-Authentifizierung</string>
+    <string name="ldp_dual_auth_desc">Verhindere, dass andere deine verlorene SIM-Karte verwenden, um dein Xiaomi-Konto zu manipulieren</string>
+    <string name="ldp_extra_fingerprint_item1">•Ausschalten oder Ändern der Bildschirmsperre</string>
+    <string name="ldp_extra_fingerprint_item2">•Hinzufügen von Fingerabdrücken oder Gesichtsdaten</string>
+    <string name="ldp_extra_fingerprint_item3">•Löschen von Fingerabdrücken oder Gesichtsdaten</string>
+    <string name="ldp_extra_fingerprint_item4">•Abmelden von deinem Xiaomi-Konto</string>
+    <string name="ldp_extra_fingerprint_title">Die folgenden Aktionen erfordern eine zusätzliche Fingerabdruck-Überprüfung</string>
+    <string name="ldp_fingerprint_fault_desc">"Du kannst diese Funktion mit der Fingerabdruckverifizierung ausschalten. Wenn dein Fingerabdruck nicht verifiziert werden kann, kannst du den Verlorenes-Gerät-Schutz ausschalten, indem du stattdessen dein Xiaomi-Konto verifizierst.
+Um zu verhindern, dass andere diese Methode sofort zur Umgehung des Schutzes nutzen, löst der Verlorenes-Gerät-Schutz eine Sicherheitsverzögerung von %1$d Stunden aus. Dadurch hat der tatsächliche Besitzer Zeit, Maßnahmen zu ergreifen, wie beispielsweise das Gerät aus der Ferne zu löschen oder die SIM-Karte zu sperren. Nach Ablauf der Verzögerung kannst du diese Funktion ausschalten, indem du dein Xiaomi-Konto innerhalb der nächsten %2$d Stunden verifizierst."</string>
+    <string name="ldp_fingerprint_fault_title">Wenn die Fingerabdruckverifizierung nicht verfügbar ist</string>
+    <string name="ldp_forbidden_actions_item1">•Ausschalten der Gerätesuche</string>
+    <string name="ldp_forbidden_actions_item2">•Ausschalten des Offline-Standorts</string>
+    <string name="ldp_forbidden_actions_item3">•Ausschalten von „Letzten Standort senden“</string>
+    <string name="ldp_forbidden_actions_title">Die folgenden Aktionen werden gesperrt</string>
+    <string name="ldp_function_home_introduction_des">Wenn dein Gerät verloren geht und jemand deine Bildschirmsperre, Gesichtsdaten oder ein gekoppeltes Bluetooth-Gerät hat, kann diese Funktion verhindern, dass wichtige böswillige Änderungen an deinem Gerät vorgenommen werden. &lt;a href=app://learn_more>Mehr erfahren&lt;/a></string>
+    <string name="ldp_function_home_suggestion_title">Empfohlene Funktionen</string>
+    <string name="ldp_guide_account_protection_desc">Vertrauliche Xiaomi-Konto-Aktionen erfordern auf diesem Gerät zuerst eine Fingerabdruckverifizierung.</string>
+    <string name="ldp_guide_account_protection_title">Füge deinem Xiaomi-Konto zusätzlichen Schutz hinzu</string>
+    <string name="ldp_guide_action">Weiter</string>
+    <string name="ldp_guide_desc">Wenn dein Gerät verloren geht und jemand deine Bildschirmsperre, Gesichtsdaten oder ein gekoppeltes Bluetooth-Gerät hat, kann diese Funktion verhindern, dass wichtige böswillige Änderungen an deinem Gerät vorgenommen werden.</string>
+    <string name="ldp_guide_identity_verification_desc">Änderungen an den Sicherheitseinstellungen und der Zugriff auf einige vertrauliche Funktionen erfordern eine Fingerabdruckverifizierung, damit nur du sie verwenden kannst.</string>
+    <string name="ldp_guide_identity_verification_title">Stelle sicher, dass vertrauliche Aktionen wirklich nur von dir ausgeführt werden</string>
+    <string name="ldp_how_to_protect_desc">"Der Verlorenes-Gerät-Schutz bietet eine zusätzliche Sicherheitsebene. Wenn das Gerät mit einer weniger sicheren Methode entsperrt wird, verlangt das System für vertrauliche Aktionen eine andere Verifizierungsmethode. Dadurch wird eine weitere Identitätsprüfung hinzugefügt, ohne dass unnötige wiederholte Verifizierungen erforderlich sind.
+Wenn du dein Gerät verloren hast, kann diese zusätzliche Prüfung andere daran hindern, wichtige Sicherheitseinstellungen zu ändern, selbst wenn dein Bildschirm gesperrt ist oder Xiaomi-Konto-Details durch Betrug oder Phishing offengelegt wurden."</string>
+    <string name="ldp_how_to_protect_title">So funktioniert es</string>
+    <string name="ldp_recommend_action_button_text">Einschalten</string>
+    <string name="ldp_recommend_desc">Dadurch wird verhindert, dass andere deine SIM-Karte verwenden, um dein Xiaomi-Konto zurückzusetzen und anschließend Sicherheitsfunktionen wie Verlorenes-Gerät-Schutz und Gerätesuche ausschalten.</string>
+    <string name="ldp_recommend_later_button_text">Nicht jetzt</string>
+    <string name="ldp_recommend_title">Schalte die Zwei-Faktor-Authentifizierung für dein Konto ein</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item1">•Entsperren mit Bluetooth-Geräten wird ausgeschaltet</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item2">•Anzeigen oder Ändern der USIM-Karteneinstellungen</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item3">•Öffnen der Passwörter-App</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item4">•Verwenden der Passwörter-App, um Passwörter automatisch auszufüllen</string>
+    <string name="ldp_replace_pwd_with_fingerprint_title">Für die folgenden Aktionen wird die Verifizierung der Bildschirmsperre mit der Fingerabdruckverifizierung ersetzt</string>
+    <string name="ldp_summary">Verhindere, dass andere wichtige Änderungen an diesem Gerät und deinem angemeldeten Xiaomi-Konto vornehmen</string>
+    <string name="ldp_title">Verlorenes-Gerät-Schutz</string>
+    <string name="ldp_trigger_occasion_desc">Wenn dein Gerät mit Gesichtsdaten, Bildschirmsperre oder einem gekoppelten Bluetooth-Gerät entsperrt wurde, erfordern einige vertrauliche Aktionen eine zusätzliche Fingerabdruck-Überprüfung oder nur einen Fingerabdruck. Gleichzeitig kann die Option Gerätesuche nicht ausgeschaltet werden.</string>
+    <string name="ldp_trigger_occasion_title">Wenn der Schutz ausgelöst wird</string>
+    <string name="ldp_uni_auth_add_face_title">Verifiziere deinen Fingerabdruck, um Gesichtsdaten hinzuzufügen</string>
+    <string name="ldp_uni_auth_add_fingerprint_title">Verifiziere deinen Fingerabdruck, um einen neuen hinzuzufügen</string>
+    <string name="ldp_uni_auth_change_password_title">Verifiziere deinen Fingerabdruck, um die Bildschirmsperre zu ändern</string>
+    <string name="ldp_uni_auth_disable_ldp_title">Verifiziere deinen Fingerabdruck, um den Verlorenes-Gerät-Schutz auszuschalten</string>
+    <string name="ldp_uni_auth_enable_ldp_subtitle">Um den Verlorenes-Gerät-Schutz einzuschalten, verifiziere deine Identität und stelle sicher, dass der Fingerabdrucksensor richtig funktioniert.</string>
+    <string name="ldp_uni_auth_remove_face_title">Verifiziere deinen Fingerabdruck, um Gesichtsdaten zu löschen</string>
+    <string name="ldp_uni_auth_remove_fingerprint_title">Verifiziere deinen Fingerabdruck, um einen zu löschen</string>
+    <string name="ldp_uni_auth_remove_password_title">Verifiziere deinen Fingerabdruck, um die Bildschirmsperre auszuschalten</string>
     <string name="le_audio_title">LE-Audio</string>
     <string name="learn_about_security_chip">Erfahre, wie der spezielle Sicherheitschip dein Gerät schützt</string>
     <string name="learn_more">Weitere Informationen</string>
@@ -5991,6 +6133,7 @@ Wichtig: Anrufe über Satellit sind nicht möglich. Notrufe werden jedoch eventu
     <string name="license_title">Lizenz</string>
     <string name="lift_to_wake_title">Zum Aktivieren anheben</string>
     <string name="light_camera_state_summary">Rücklicht bei Zeit- oder Serienaufnahmen einschalten</string>
+    <string name="light_camera_state_summary_new">Schalte das LED-Licht bei Zeit- oder Serienaufnahmen ein</string>
     <string name="light_camera_state_title">Kamera-Statusanzeige</string>
     <string name="light_color_mode">Tageslichtmodus</string>
     <string name="lights_title">LED-Licht</string>
@@ -6107,7 +6250,7 @@ Wichtig: Anrufe über Satellit sind nicht möglich. Notrufe werden jedoch eventu
     <string name="location_settings_footer_location_off_no_telephony">Standortzugriff ist für Apps und Dienste deaktiviert.</string>
     <string name="location_settings_footer_location_off_with_telephony">Standortzugriff ist für Apps und Dienste deaktiviert. Der Standort deines Geräts kann jedoch trotzdem an Rettungskräfte gesendet werden, wenn du eine Notrufnummer kontaktierst.</string>
     <string name="location_settings_loading_app_permission_stats">Wird geladen…</string>
-    <string name="location_settings_primary_switch_title">Standort verwenden</string>
+    <string name="location_settings_primary_switch_title">Standortdienste verwenden</string>
     <string name="location_settings_subtitle">Apps und Dienste ansehen, die Zugriff auf den Standort haben</string>
     <string name="location_settings_summary_location_off">Aus</string>
     <string name="location_settings_summary_location_on">{count,plural, =1{An / # App hat Zugriff auf den Standort}other{An / # Apps haben Zugriff auf den Standort}}</string>
@@ -6677,6 +6820,7 @@ Diese Aktion kann nicht rückgängig gemacht werden."</string>
 Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="master_clear_title">Alle Daten löschen (Zurücksetzen auf die Werkseinstellungen)</string>
     <string name="master_clear_title_new">Auf Werkseinstellungen zurücksetzen</string>
+    <string name="material_classic_title">Milchglas</string>
     <string name="material_clock_toggle_content_description">Vormittags oder Nachmittags auswählen</string>
     <string name="material_hour_24h_suffix">%1$s Stunden</string>
     <string name="material_hour_selection">Stunde auswählen</string>
@@ -6693,6 +6837,7 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
     <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="material_transparent_title">Weichglas</string>
     <string name="max_aspect_settings_all_app_display_loading">Einen Moment…</string>
     <string name="max_cpu10_info">"Decacore Max "</string>
     <string name="max_cpu2_info">"Dualcore Max "</string>
@@ -6834,6 +6979,8 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
     <string name="mi_smart_play_entry_title">Mi Smart Play</string>
     <string name="mi_transfer">Mi Mover</string>
+    <string name="mi_transfer_banner_summary">Es werden mehrere Gerätemarken unterstützt</string>
+    <string name="mi_transfer_banner_title">Elemente von deinem alten Gerät übertragen</string>
     <string name="mi_upi_settings">Mi Pay-Konto</string>
     <string name="mi_wallet">Mi Wallet</string>
     <string name="mi_wallet_desc">Mi Wallet</string>
@@ -6865,6 +7012,8 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="miheadset_RightEar">Rechts</string>
     <string name="miheadset_active">Energetisch</string>
     <string name="miheadset_adaptive">Adaptiv</string>
+    <string name="miheadset_air_anc_no_wear_indicate">Trage deine Kopfhörer, um diese Funktion zu nutzen</string>
+    <string name="miheadset_air_anc_wear_indicate">Trage beide Kopfhörer, um diese Funktion zu nutzen</string>
     <string name="miheadset_ancClosed">Aus</string>
     <string name="miheadset_ancDepth">Tief</string>
     <string name="miheadset_ancEquilibrium">Ausgeglichen</string>
@@ -6874,6 +7023,7 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="miheadset_ancMild">Leicht</string>
     <string name="miheadset_anc_indicate">Kopfhörer verbinden und koppeln</string>
     <string name="miheadset_anc_manual">Manuell</string>
+    <string name="miheadset_atuo_download_new_title">Automatisches Update der Kopfhörer</string>
     <string name="miheadset_audio_mode">Audioqualität</string>
     <string name="miheadset_audio_mode_high">Hoch</string>
     <string name="miheadset_audio_mode_listen">Niedrig</string>
@@ -6885,6 +7035,7 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="miheadset_auto_ack_mode">Nimm Anrufe automatisch an, wenn du die Kopfhörer trägst</string>
     <string name="miheadset_auto_ack_mode_summary">Anrufe automatisch annehmen</string>
     <string name="miheadset_auto_answer_call">Anrufe automatisch annehmen</string>
+    <string name="miheadset_auto_download_new_summary">Automatisches Update der Firmware der Kopfhörer, wenn sie mit dem WLAN verbunden sind und nicht verwendet werden</string>
     <string name="miheadset_bluetooth_audio_title">LC3plus Bluetooth-Audio-Abtastrate</string>
     <string name="miheadset_bright">Hell</string>
     <string name="miheadset_call_assist">Mi-KI</string>
@@ -6903,6 +7054,7 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="miheadset_disconnect">Verbindung trennen</string>
     <string name="miheadset_disconnect_ble">Bluetooth-Verbindung trennen</string>
     <string name="miheadset_disconnect_device">Verbindung zu diesem Gerät trennen?</string>
+    <string name="miheadset_dolby_space_audio">Dolby Audio</string>
     <string name="miheadset_double_MFB">Doppelt auf MFB tippen</string>
     <string name="miheadset_double_click_key_mode">Doppeltippen</string>
     <string name="miheadset_double_click_left">Den linken Kopfhörer doppelt antippen</string>
@@ -6952,6 +7104,10 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="miheadset_head_tracking_summary">Erlebe erweiterte Gefühl für Raum und Richtung für unterstütztes Audio und Video</string>
     <string name="miheadset_high_quality">Hohe Qualität</string>
     <string name="miheadset_ignore">Entkoppeln</string>
+    <string name="miheadset_immersion">Immersives Pendeln</string>
+    <string name="miheadset_immersion_airplane_mode">Flugzeug</string>
+    <string name="miheadset_immersion_high_speed_rail_mode">Zug</string>
+    <string name="miheadset_immersion_subway_mode">Öffentliche Verkehrsmittel</string>
     <string name="miheadset_in_ear_check">In-Ohr-Erkennung</string>
     <string name="miheadset_in_ear_check_summary">Audio wird angehalten, wenn Kopfhörer herausgenommen werden und automatisch fortgesetzt, wenn sie wieder im Ohr sind.</string>
     <string name="miheadset_key_config_ANC_list_title">Antischall</string>
@@ -6985,6 +7141,7 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="miheadset_longpress_temple_when_idle">Drücken und halten, wenn kein Anruf getätigt wird</string>
     <string name="miheadset_low_latency">Niedrige Latenzzeit</string>
     <string name="miheadset_manual">Über das Gerät</string>
+    <string name="miheadset_mi_space_audio">Xiaomi Dimensionales Audio</string>
     <string name="miheadset_mihc">Hohe Xiaomi-Qualität (Ton auf CD-Niveau)</string>
     <string name="miheadset_minus">Leiser</string>
     <string name="miheadset_moreSettingsInAi">Zusätzliche Einstellungen</string>
@@ -7005,6 +7162,7 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="miheadset_plus">Lauter</string>
     <string name="miheadset_plus_and_minus">Drücke und halte die „+“-Taste für %d Sek.</string>
     <string name="miheadset_preferences">Einstellungen</string>
+    <string name="miheadset_recording_translation">Audioaufnahme/Dolmetschen</string>
     <string name="miheadset_rename">Umbenennen</string>
     <string name="miheadset_rename_device">Umbenennen</string>
     <string name="miheadset_same_account_incall">Anrufe von allen synchronisierten Geräten annehmen</string>
@@ -7017,18 +7175,19 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="miheadset_slide_right_temple_back_forward">Über rechten Bügel wischen</string>
     <string name="miheadset_soft">Weich</string>
     <string name="miheadset_sound_mode_balanced_hearing">Ausgeglichen</string>
-    <string name="miheadset_sound_mode_daily_mode">Daily mode</string>
-    <string name="miheadset_sound_mode_outdoor_mode">Outdoor mode</string>
-    <string name="miheadset_sound_mode_summary_new">For best results, start playing a song before using this feature</string>
+    <string name="miheadset_sound_mode_daily_mode">Täglicher Modus</string>
+    <string name="miheadset_sound_mode_outdoor_mode">Outdoor-Modus</string>
+    <string name="miheadset_sound_mode_summary_new">Die besten Ergebnisse erzielst du, wenn du beginnst einen Titel wiederzugeben, bevor du diese Funktion verwendest</string>
     <string name="miheadset_sound_mode_volume_boost">Lautstärke-Boost</string>
-    <string name="miheadset_sound_mode_water_mode">Underwater mode</string>
+    <string name="miheadset_sound_mode_water_mode">Unterwasser-Modus</string>
     <string name="miheadset_sound_settings">Audio</string>
     <string name="miheadset_spatial_audio_off">Aus</string>
     <string name="miheadset_spatial_audio_on">Ein</string>
     <string name="miheadset_spatial_audio_summary">Erlebe Immersion und Raumgefühl für unterstütztes Audio und Video</string>
     <string name="miheadset_support">Hilfe</string>
-    <string name="miheadset_switch_play_mode_summary">1. Switch playback modes: Play via Bluetooth or listen to music stored on the headphones.</string>
-    <string name="miheadset_switch_play_oder_summary">2. Switch playback order: Repeat one song, the whole playlist, or shuffle. This feature applies only to music stored on the headphones.</string>
+    <string name="miheadset_switch_play_mode">Wiedergabemodus wechseln</string>
+    <string name="miheadset_switch_play_mode_summary">1. Wechsle den Wiedergabemodus: Gib die Musik über Bluetooth wieder oder höre die auf dem Kopfhörer gespeicherte Musik.</string>
+    <string name="miheadset_switch_play_oder_summary">2. Wechsle die Wiedergabereihenfolge: Wiederhole einen Titel, die ganze Wiedergabeliste oder wähle die Zufallswiedergabe. Diese Funktion gilt nur für Musik, die auf deinen Kopfhörern gespeichert ist.</string>
     <string name="miheadset_switch_play_order">Wiedergabereihenfolge wechseln</string>
     <string name="miheadset_transparent">Transparenz</string>
     <string name="miheadset_transparentMode">Transparenz</string>
@@ -7080,30 +7239,11 @@ Weitere zusätzliche Einstellungen öffnen."</string>
     <string name="miui_face_unlock_open_toast_for_sensor_light_virtual">Bildschirmhelligkeit wird nicht automatisch angepasst</string>
     <string name="miui_input_method_attention">Achtung</string>
     <string name="miui_input_method_settings">Eingabemethode-Einstellungen</string>
-    <string name="miui_lab_ai_cloud_closed">AI-Vorladung ist noch nicht verfügbar.</string>
-    <string name="miui_lab_ai_preload_desc">AI-Vorladung beschleunigt den Start der App</string>
-    <string name="miui_lab_ai_preload_title">AI-Vorladung</string>
-    <string name="miui_lab_aiasst_call_screen_desc">Anrufe mittels KI beantworten</string>
-    <string name="miui_lab_aiasst_call_screen_title">AI Call Assistant</string>
-    <string name="miui_lab_drive_mode_desc">Verwende die Sprachsteuerung und höre WeChat-Nachrichten an</string>
-    <string name="miui_lab_drive_mode_title">Automodus</string>
-    <string name="miui_lab_feature_applied">Angewendet</string>
-    <string name="miui_lab_feature_off">Aus</string>
-    <string name="miui_lab_feature_on">An</string>
-    <string name="miui_lab_features">MIUI Lab Funktionen</string>
-    <string name="miui_lab_gallery_search_desc">Verbesserte Bildersuche</string>
-    <string name="miui_lab_gallery_search_title">Fotos in Galerie finden</string>
-    <string name="miui_lab_gesture_desc">Gesten anstelle von Tasten zur Navigation verwenden</string>
-    <string name="miui_lab_gesture_title">Vollbildgesten</string>
-    <string name="miui_lab_install_drive_mode_error">Installation fehlgeschlagen, erneut versuchen.</string>
-    <string name="miui_lab_install_drive_mode_summary">Automodus ist eine Systemapp. Die Installation erfordert keine Internetverbindung.</string>
-    <string name="miui_lab_install_drive_mode_title">Automodus installieren</string>
-    <string name="miui_lab_settings">Labor</string>
-    <string name="miui_lab_slogan">Lerne. Erforsche. Entdecke.</string>
     <string name="miui_master_clear_prompt_battery_low">Ein Werksreset kann nicht durchgeführt werden, wenn weniger als %1$s der Batterie verbleiben. Lade dein Gerät auf, bevor du fortfährst.</string>
     <string name="miui_master_clear_summary">Löscht alle Daten von diesem Gerät</string>
     <string name="miui_more_special_feature">Entdecke neue Funktionen</string>
     <string name="miui_nfc_dialog_message">Wenn du NFC ausschaltest, wirst du keine NFC-Funktionen, darunter Mi Pay, Transportkarten, Schlüsselkarten und mehr, verwenden können. Trotzdem ausschalten?</string>
+    <string name="miui_nfc_dialog_message_gl">Du wirst NFC-Funktionen, einschließlich Lesen und Schreiben von NFC-Tags, Verwenden von Zugangskarten und mehr nicht verwenden können, wenn du NFC ausschaltest. Trotzdem ausschalten?</string>
     <string name="miui_nfc_dialog_negative">Ausschalten</string>
     <string name="miui_nfc_dialog_positive">Abbrechen</string>
     <string name="miui_nfc_dialog_title">NFC ausschalten</string>
@@ -7193,21 +7333,21 @@ Weitere zusätzliche Einstellungen öffnen."</string>
 Jeder Benutzer kann Berechtigungen für alle Profile erteilen, die auf diesem Gerät existieren."</string>
     <string name="miui_user_add_user_title">Benutzerprofil hinzufügen</string>
     <string name="miui_userguide">Benutzerhandbuch</string>
-    <string name="miui_visual_perception_summary">Lasse dein Gerät deine Anwesenheit erkennen und wähle bequemere Ver- und Entriegelungsoptionen</string>
+    <string name="miui_visual_perception_summary">Lass dein Gerät erkennen, wann du anwesend bist und nutze bequeme Optionen zum Sperren und Entsperren</string>
     <string name="miui_visual_perception_title">Aktive visuelle Wahrnehmung</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
     <string name="miuix_accessibility_title">Titel</string>
     <string name="miuix_appcompat_accessibility_collapse_state">Eingeklappt</string>
     <string name="miuix_appcompat_accessibility_expand_state">Erweitert</string>
-    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus beenden</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus verlassen</string>
     <string name="miuix_appcompat_accessibility_new_message">Neue Benachrichtigung</string>
-    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus starten</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus aufrufen</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Auswahl aufheben</string>
-    <string name="miuix_appcompat_action_mode_select_all">Alles auswählen</string>
-    <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
+    <string name="miuix_appcompat_action_mode_select_all">Alle auswählen</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Gegenstände auswählen</string>
     <string name="miuix_appcompat_action_sheet_default_message">Auswählen</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mehr</string>
-    <string name="miuix_appcompat_cancel_description">Abbruch</string>
+    <string name="miuix_appcompat_cancel_description">Abbrechen</string>
     <string name="miuix_appcompat_confirm_description">Bestätigen</string>
     <string name="miuix_appcompat_delete_description">Löschen</string>
     <string name="miuix_appcompat_deselect_all">Auswahl aufheben</string>
@@ -7215,8 +7355,8 @@ Jeder Benutzer kann Berechtigungen für alle Profile erteilen, die auf diesem Ge
     <string name="miuix_appcompat_edit">Bearbeiten</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
     <string name="miuix_appcompat_search_input_description">Suchen</string>
-    <string name="miuix_appcompat_select_all">Alles auswählen</string>
-    <string name="miuix_appcompat_select_all_description">Alles auswählen</string>
+    <string name="miuix_appcompat_select_all">Alle auswählen</string>
+    <string name="miuix_appcompat_select_all_description">Alle auswählen</string>
     <string name="miuix_appcompat_select_item">Elemente auswählen</string>
     <string name="miuix_appcompat_show_dialog_description">Pop-up-Fenster</string>
     <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Zum Schließen nach unten wischen</string>
@@ -7230,6 +7370,7 @@ Jeder Benutzer kann Berechtigungen für alle Profile erteilen, die auf diesem Ge
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Zum halben Bildschirm wechseln</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximieren</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimieren</string>
+    <string name="miuix_popup_show_description">Pop-up-Fenster</string>
     <string name="miuix_popup_window_default_title">Pop-up-Fenster</string>
     <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
@@ -7564,6 +7705,7 @@ Betriebssystem auswählen:"</string>
     <string name="musical_rhythm_app_title">Rhythmische Lichteffekte</string>
     <string name="must_match_initial_password_length">Muss mit der Länge des Passworts für das Hauptprofil übereinstimmen</string>
     <string name="mute">Lautlos-Modus</string>
+    <string name="mute_during_update">Pausiere die Wiedergabe während der Aktualisierung für eine erfolgreiche Installation</string>
     <string name="mute_media_sound_summary">Spiele, Musik, Videos und andere Apps</string>
     <string name="mute_media_sound_title">Im Lautlos-Modus Medien stummschalten</string>
     <string name="mute_music_stream">Medientöne stummschalten</string>
@@ -7714,6 +7856,12 @@ Betriebssystem auswählen:"</string>
     <string name="next_button_label">Weiter</string>
     <string name="next_label">Weiter</string>
     <string name="next_page_content_description">Weiter</string>
+    <string name="nfc_ac_btn_no">Abbrechen</string>
+    <string name="nfc_ac_btn_yes">Festlegen</string>
+    <string name="nfc_ac_confirm_ask">Zugangskarte als deine Standardkarte festlegen?</string>
+    <string name="nfc_ac_confirm_desc">Um Türen mit einem Tippen deines Telefons aufzuschließen, lege deine Zugangskarte als deine Standardkarte fest.</string>
+    <string name="nfc_ac_summary">Verwende dein Telefon als Zugangskarte und schließe nicht unterstützte Türen mit deinem Tippen auf</string>
+    <string name="nfc_ac_title">Zugangskarte</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Installiere zuerst eine Zahlungs-App, damit du die Option verwenden kannst</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Nicht verfügbar, weil NFC deaktiviert ist</string>
     <string name="nfc_category_title">NFC</string>
@@ -7738,7 +7886,7 @@ Betriebssystem auswählen:"</string>
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Standard festlegen</string>
     <string name="nfc_payment_btn_text_update">Aktualisieren</string>
-    <string name="nfc_payment_default">Standard-App für Zahlungen</string>
+    <string name="nfc_payment_default">Standardkarte auswählen</string>
     <string name="nfc_payment_default_not_set">Nicht festgelegt</string>
     <string name="nfc_payment_favor_default">Immer Standard-App verwenden</string>
     <string name="nfc_payment_favor_open">Ersetzen wenn andere geöffnet wird</string>
@@ -7807,7 +7955,10 @@ Dadurch wird %2$s als Ihre Standard-App für das kontaktlose Bezahlen ersetzt."<
     <string name="night_display_temperature_title">Intensität</string>
     <string name="night_display_text">Die Funktion „Nachtlicht“ gibt der Displayanzeige eine gelbe Tönung. Das schont in dunklen Umgebungen die Augen und kann das Einschlafen erleichtern.</string>
     <string name="night_display_title">Nachtlicht</string>
+    <string name="night_eye_protection_summary">Die Helligkeit wird automatisch reduziert, nachdem du eingeschlafen bist, damit nachts beim Aufwachen bequem auf dein Gerät schauen kannst</string>
+    <string name="night_eye_protection_title">Nächtlicher Augenkomfort</string>
     <string name="night_light_main_switch_title">Nachtlicht verwenden</string>
+    <string name="night_vision_adapted_game_title">@string/adapted_game_title</string>
     <string name="nls_feature_modes_settings_summary">Sie kann Modi verwalten und aktivieren sowie zugehörige Einstellungen ändern.</string>
     <string name="nls_feature_read_summary">Sie kann deine Benachrichtigungen abrufen, darunter auch personenbezogene Daten wie Kontakte, Nachrichten und Fotos.</string>
     <string name="nls_feature_read_title">Benachrichtigungen abrufen</string>
@@ -8154,7 +8305,7 @@ Zusammenfassungen werden von Apps oder KI auf deinem Gerät erstellt und können
     <string name="operation_guide_title">Tutorial</string>
     <string name="operation_start">Start</string>
     <string name="operator_warning">Dein Mobilfunkanbieter berechnet die Datennutzung eventuell anders als das Gerät</string>
-    <string name="optimization_cancel">Abbruch</string>
+    <string name="optimization_cancel">Abbrechen</string>
     <string name="orange_pom_dialog_cancel_action">Abbrechen</string>
     <string name="orange_pom_dialog_confirm_action">Aktivieren</string>
     <string name="orange_pom_dialog_content">Neue Einstellungen und Apps von Orange sind verfügbar. Aktiviere sie jetzt für ein besseres Erlebnis.</string>
@@ -8209,12 +8360,27 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
     <string name="owner_info_settings_summary">Kein Text</string>
     <string name="owner_info_settings_title">Sperrbildschirm-Nachricht</string>
     <string name="owner_space">Hauptprofil</string>
-    <string name="p8g_new_product_name">Retro Handheld Console Case</string>
+    <string name="p75_earphone_not_in_box">Öffne das Etui und lege beide Kopfhörer hinein</string>
+    <string name="p8g_battery_status_toast_one">Verbinde das Ladegerät mit diesem Gerät und versuche es erneut</string>
+    <string name="p8g_battery_status_toast_three">Lade dein Retro-Handheld-Konsole-Etui und versuche es erneut</string>
+    <string name="p8g_battery_status_toast_two">Lade dieses Gerät und das Retro-Handheld-Konsole-Etui, versuche es dann erneut</string>
+    <string name="p8g_new_product_name">Retro-Handheld-Konsole-Etui</string>
+    <string name="p8g_ota_dialog_text">Wird aktualisiert. Entferne dein Retro-Handheld-Konsole-Etui nicht.</string>
     <string name="p8g_ota_summary">Nimm das Gehäuse während der Aktualisierung nicht ab</string>
     <string name="p8g_product_name">Gaming-Etui</string>
+    <string name="package_msg_check_title">Stelle sicher, dass die folgenden Funktionseinträge und -pfade mit dem übereinstimmen, was auf der Verpackung beschrieben wird:</string>
+    <string name="package_msg_search_button">Überprüfen</string>
+    <string name="package_msg_search_loading">Wird überprüft…</string>
+    <string name="package_msg_search_result_title">Aktueller Gerätestatus:</string>
+    <string name="package_track_check_title">Verpackungsinformationen überprüfen</string>
+    <string name="package_track_item">"Einstellungen > Über das Telefon > Detailierte Informationen und Spezifikationen > Status > IMEI-
+Einstellungen > Über das Telefon > Auf Werkseinstellungen zurücksetzen
+Einstellungen > Über das Telefon > Zertifikat-
+Einstellungen > Über das Telefon > Speicher-
+Einstellungen > Sicherheit und Notfall > Drahtlose Notfallwarnungen"</string>
     <string name="packages_subtitle">Enthaltene Pakete</string>
     <string name="pad_add_fingerprint_finish_message">Fahren Sie fort, um auf weitere Einstellungen zuzugreifen.</string>
-    <string name="pad_add_fingerprint_message">Legen Sie Ihren Finger auf den Ein-/Aus-Taste</string>
+    <string name="pad_add_fingerprint_message">Lege deinen Finger auf die Ein/Aus-Taste</string>
     <string name="pad_application_mode_name">Horizontales App-Layout</string>
     <string name="page_agnostic_16k_pages_text">Du befindest dich im 16‑KB-Modus des speicherseitenunabhängigen Modus. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du wieder in den Produktionsmodus wechseln möchtest, musst du zurück zum 4‑KB-Modus wechseln und dann den Bootloader des Geräts sperren. Dadurch wird das Gerät wieder auf die Werkseinstellungen zurückgesetzt und die Produktionseinstellungen werden wiederhergestellt. Nachdem das Gerät hochgefahren und Android gestartet wurde, deaktiviere in den Entwickleroptionen die OEM-Entsperrung. Wenn Android auf dem Gerät nicht gestartet werden kann oder das Gerät instabil ist, flashe das aktuelle Factory Image unter &lt;a href=\"https://developers.google.com/android/images\">https://developers.google.com/android/images&lt;/a> oder verwende &lt;a href=\"https://flash.android.com/back-to-public\">https://flash.android.com/back-to-public&lt;/a> und wähle „Gerätedaten löschen“, „Bootloader sperren“ und „Flashen aller Partitionen erzwingen“ aus.</string>
     <string name="page_agnostic_16k_pages_text_short">Du befindest dich im 16‑KB-Modus des speicherseitenunabhängigen Modus. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du wieder in den Produktionsmodus wechseln möchtest, musst du zurück zum 4‑KB-Modus wechseln und dann den Bootloader des Geräts sperren. Wenn du mehr erfahren möchtest, tippe hier.</string>
@@ -8224,6 +8390,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
     <string name="page_agnostic_4k_pages_title">Speicherseitenunabhängigen 4‑KB-Modus verwenden</string>
     <string name="page_agnostic_notification_action">Weitere Informationen</string>
     <string name="page_agnostic_notification_channel_name">Speicherseitenunabhängiger 16‑KB-Modus</string>
+    <string name="page_description">Seite %1$d von %2$d</string>
     <string name="page_layout_1">Sonntag, der 16. August</string>
     <string name="page_layout_10">Einstellungen</string>
     <string name="page_layout_11">Wetter</string>
@@ -8284,20 +8451,26 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
     <string name="palm_circle_summary">Auf das Tablet übertragene Anrufe entgegennehmen oder beenden</string>
     <string name="palm_circle_title">Einen Kreis zeichnen</string>
     <string name="paper_color_title">Farben</string>
+    <string name="paper_color_title_new">@string/paper_color_title</string>
     <string name="paper_colors_active_apps">App-Bereich</string>
     <string name="paper_mode_auto_twilight_summary">Nach Sonnenuntergang automatisch in den Lesemodus wechseln</string>
     <string name="paper_mode_auto_twilight_title">Nachtmodus</string>
+    <string name="paper_mode_auto_twilight_title_new">@string/paper_mode_auto_twilight_title</string>
     <string name="paper_mode_customize_time_summary">Für einen benutzerdefinierten Zeitraum in den Lesemodus wechseln</string>
     <string name="paper_mode_customize_time_title">Individueller Zeitraum</string>
+    <string name="paper_mode_customize_time_title_new">@string/paper_mode_customize_time_title</string>
     <string name="paper_mode_enable_description">Reduziert Blaulicht und gibt dem Bildschirm einen wärmeren Ton</string>
+    <string name="paper_mode_enable_title">@string/screen_paper_mode_title</string>
     <string name="paper_mode_end_time_title">Ausschalten</string>
+    <string name="paper_mode_end_time_title_new">@string/paper_mode_end_time_title</string>
     <string name="paper_mode_get_location_dlg_msg">Um die Zeiten für Sonnenaufgang und Sonnenuntergang berechnen zu können, ist der Standortzugriff erforderlich</string>
-    <string name="paper_mode_get_location_dlg_negative_btn_text">Abbruch</string>
+    <string name="paper_mode_get_location_dlg_negative_btn_text">Abbrechen</string>
     <string name="paper_mode_get_location_dlg_positive_btn_text">Einstellungen</string>
     <string name="paper_mode_get_location_dlg_title">Standort festlegen</string>
     <string name="paper_mode_reset">Standardeinstellungen wiederherstellen</string>
     <string name="paper_mode_side_effect_hint">Eine höhere Intensität kann sich auf die Darstellung des Inhalts auswirken</string>
     <string name="paper_mode_start_time_title">Einschalten</string>
+    <string name="paper_mode_start_time_title_new">@string/paper_mode_start_time_title</string>
     <string name="paper_mode_summary">Zu wärmeren Farben wechseln und Papier-Texturen zu Hintergründen hinzufügen, um die Augen zu entlasten</string>
     <string name="paper_mode_title">Papier</string>
     <string name="papger_effect_category">Modus</string>
@@ -8317,12 +8490,13 @@ Lies und stimme %s zu, bevor du diesen Dienst benutzt."</string>
     <string name="password_check_fail">Falscher Code</string>
     <string name="password_entrance_title">Bildschirmsperre festlegen</string>
     <string name="password_guard">Passwort</string>
-    <string name="password_length_valid">Passwort erfüllt Anforderungen</string>
+    <string name="password_length_valid">Passwort entspricht den Anforderungen</string>
     <string name="password_mismatch">Passwörter stimmen nicht überein</string>
     <string name="password_retry">Erneut versuchen</string>
     <string name="password_save_success">Erfolgreich gespeichert</string>
     <string name="password_saving">Passwort wird gespeichert…</string>
     <string name="password_security_settings_title">Passwörter und Sicherheit</string>
+    <string name="password_set_success_hint">Du kannst jetzt dein Gerät mit deiner neuen Bildschirmsperre entsperren</string>
     <string name="password_setup_complete">Passwort erfolgreich festgelegt</string>
     <string name="password_toggle_content_description">Passwort anzeigen</string>
     <string name="password_turned_off_text">Passwort wurde deaktiviert</string>
@@ -8332,7 +8506,7 @@ Lies und stimme %s zu, bevor du diesen Dienst benutzt."</string>
     <string name="pattern_password">Muster</string>
     <string name="pattern_recorded">Muster gespeichert</string>
     <string name="pause_animation">Animation pausieren</string>
-    <string name="pc_hidemode_performance_chip_title">Performance (Übertaktung)</string>
+    <string name="pc_hidemode_performance_chip_title">Leistung (Übertaktung)</string>
     <string name="pc_install_manager">Installieren über USB</string>
     <string name="pc_power_mode_has_performance_chip">Verbesserte Performance (Übertaktung)</string>
     <string name="peak_refresh_rate_summary">Setzt die Aktualisierungsrate für einige Inhalte automatisch auf %1$d Hz herauf. Dadurch wird die Akkunutzung erhöht.</string>
@@ -8450,6 +8624,7 @@ Lies und stimme %s zu, bevor du diesen Dienst benutzt."</string>
     <string name="photography_handle_launch_camera">Kamera öffnen</string>
     <string name="photography_handle_launch_camera_doc_mode">Dokument</string>
     <string name="photography_handle_launch_camera_fastshot_mode">Schnellschuss</string>
+    <string name="photography_handle_launch_camera_legend_mode">AA</string>
     <string name="photography_handle_launch_camera_modes">Kameramodus</string>
     <string name="photography_handle_launch_camera_photo_mode">Foto</string>
     <string name="photography_handle_launch_camera_portrait_mode">Porträt</string>
@@ -8488,7 +8663,18 @@ Lies und stimme %s zu, bevor du diesen Dienst benutzt."</string>
     <string name="please_stop_broadcast_audio">Audio-Übertragung zuerst stoppen</string>
     <string name="please_stop_listen_broadcast_audio">Höre zuerst auf, die Übertragung anzuhören</string>
     <string name="please_type_passphrase">Passwort</string>
+    <string name="pluto_close_immersion_toast">Geräuschunterdrückungsmodus geändert. Immersives Pendeln ist aus.</string>
+    <string name="pluto_miheadset_immersion_summary">Geräuschunterdrückung gepaart mit beruhigenden Klängen für einen ruhigeren Arbeitsweg</string>
+    <string name="pluto_one_ear_toast">Trage zuerst beide Kopfhörer</string>
+    <string name="pluto_open_immersion_toast">Die Wiedergabe von Musik wird „Immersives Pendeln“ pausieren. Es wird fortgesetzt, wenn die Musik pausiert wird.</string>
     <string name="pm">abends</string>
+    <string name="pocket_musician">Xiaomi-Taschengitarre</string>
+    <string name="pocket_musician_battery_toast_both">Lade dieses Gerät und deine Xiaomi-Taschengitarre auf, bevor du die Firmware aktualisierst</string>
+    <string name="pocket_musician_battery_toast_device">Lade deine Xiaomi-Taschengitarre auf, bevor du die Firmware aktualisierst</string>
+    <string name="pocket_musician_battery_toast_phone">Verbinde das Ladegerät mit diesem Gerät und versuche erneut, die Firmware zu aktualisieren</string>
+    <string name="pocket_musician_ota_connect_first">Verbinde die Xiaomi-Taschengitarre, um Update-Informationen zu erhalten</string>
+    <string name="pocket_musician_ota_dialog_text">Wird aktualisiert…</string>
+    <string name="pocket_musician_ota_summary">Starte dieses Zubehör nach dem Update manuell neu</string>
     <string name="poco_launcher_privacy_policy">POCO Launcher Nutzervereinbarung</string>
     <string name="poco_launcher_user_agreement">POCO Launcher Datenschutzerklärung</string>
     <string name="pointer_fill_style">Cursorfarbe</string>
@@ -8513,6 +8699,7 @@ Lies und stimme %s zu, bevor du diesen Dienst benutzt."</string>
     <string name="popup_window">Popup-Benachrichtigungen einschränken</string>
     <string name="post_dsds_reboot_notification_text">Tippe, um die SIM-Einstellungen zu aktualisieren</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">Deine %1$s-SIM-Karte ist aktiviert</string>
+    <string name="post_reset_google_verification">Melde dich nach dem Zurücksetzen auf die Werkseinstellungen mit dem zuvor auf diesem Gerät verwendeten Google-Konto an, um ein Passwort festzulegen.</string>
     <string name="power_autorun_apps_empty">Hier gibt es keine Apps</string>
     <string name="power_autorun_empty">Keine Apps verfügbar</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -8852,7 +9039,7 @@ Ein/Aus-Taste und Lautertaste gleichzeitig drücken"</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
     <string name="privacy_protect_title">Datenschutz</string>
     <string name="privacy_protection">Datenschutz</string>
-    <string name="privacy_protection_title">Datenschutz</string>
+    <string name="privacy_protection_title">Privatsphäre</string>
     <string name="privacy_relative">Datenschutz</string>
     <string name="privacy_settings">Sichern und zurücksetzen</string>
     <string name="privacy_settings_new">Sichern und wiederherstellen</string>
@@ -9087,7 +9274,29 @@ Personen, die dein Gerät mit einem Computer verbinden oder schädliche Apps auf
     <string name="proxy_url_title">"PAC-URL: "</string>
     <string name="proxy_warning_limited_support">Der HTTP-Proxy wird vom Browser verwendet, eventuell aber nicht von anderen Apps.</string>
     <string name="pss_profiling_disabled">Arbeitsspeichernutzungs-Profiling deaktiviert</string>
+    <string name="qingcai_eye_care_summery">Erkennt automatisch Bildschirminhalte und filtert schädliches blaues Licht heraus, während die Farben im Spiel lebendig bleiben</string>
+    <string name="qingcai_eye_care_title">Augenkomfort (lebhaft)</string>
     <string name="qr_code_content_description">QR-Code</string>
+    <string name="quick_button_check_app_activity_title">App für Schnellstart auswählen</string>
+    <string name="quick_button_check_app_not_found_txt">Keine Ergebnisse gefunden</string>
+    <string name="quick_button_check_app_search_edit_hint">Apps suchen</string>
+    <string name="quick_button_check_app_search_text_cancel_txt">Abbrechen</string>
+    <string name="quick_button_check_app_search_text_submit_txt">Fertig</string>
+    <string name="quick_button_eyecare_mode_summery">Schalte den Lesemodus ein, um blaues Licht zu reduzieren</string>
+    <string name="quick_button_eyecare_mode_tile">Lesemodus</string>
+    <string name="quick_button_furious_mode_summery">Wechsle zum ultimativen Modus, um das Beste aus deinem Tablet herauszuholen</string>
+    <string name="quick_button_furious_mode_title">Ultimativer Modus</string>
+    <string name="quick_button_inspiration_summery">Schreibe mit deinem Stift, um Ideen festzuhalten, wann immer sie auftauchen</string>
+    <string name="quick_button_inspiration_title">Schreiben</string>
+    <string name="quick_button_none_title">Keine Aktion</string>
+    <string name="quick_button_preference_title">Verknüpfungstaste</string>
+    <string name="quick_button_screenshot_summery">Nimm ein Bildschirmfoto auf, wann immer du möchtest</string>
+    <string name="quick_button_screenshot_title">Bildschirmfoto</string>
+    <string name="quick_button_start_button_txt">Apps auswählen</string>
+    <string name="quick_button_start_summery">Öffne deine häufig verwendeten Apps schneller</string>
+    <string name="quick_button_start_title">Schnellstart</string>
+    <string name="quick_button_super_ai_summery">Im Handumdrehen merken, was auf dem Bildschirm zu sehen ist</string>
+    <string name="quick_button_super_ai_title">Xiaomi-Hyper-XiaoAi-Erinnerung</string>
     <string name="quick_function">Hilfsfunktionen</string>
     <string name="quick_reply_title">Schnellantworten</string>
     <string name="quick_settings_developer_tiles">Kacheln für Schnelleinstellungen für Entwickler</string>
@@ -9199,6 +9408,7 @@ Personen, die dein Gerät mit einem Computer verbinden oder schädliche Apps auf
     <string name="remove_guest_on_exit_keywords">löschen, gast, aktivität, entfernen, daten, besucher, löschen</string>
     <string name="remove_guest_on_exit_summary">Beim Beenden des Gastmodus alle Apps und Daten von Gästen löschen</string>
     <string name="remove_managed_profile_label">Arbeitsprofil entfernen</string>
+    <string name="rename_times_reached_limit">Es kann heute nichts mehr umbenannt werden</string>
     <string name="rename_words_reached_limit">Der neue Name darf nicht länger als dies sein</string>
     <string name="repeat">Wiederholen</string>
     <string name="repeat_call">Benachrichtigen über wiederholte Anrufe</string>
@@ -9266,7 +9476,7 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="reset_private_space_delete_title">Vertrauliches Profil löschen</string>
     <string name="reset_remove_data_hint">Alle oben aufgelisteten Elemente werden dauerhaft gelöscht. Sichere alle wichtigen Elemente auf deinem Computer oder in der Xiaomi Cloud, bevor du fortfährst.</string>
     <string name="reset_second_space_passwd">Passwort für Zweitprofil zurücksetzen</string>
-    <string name="reset_second_space_passwd_cancel">Abbruch</string>
+    <string name="reset_second_space_passwd_cancel">Abbrechen</string>
     <string name="reset_second_space_passwd_confirm">Weiter</string>
     <string name="reset_second_space_passwd_detail">Passwort für das im Hauptprofil verwendete Xiaomi-Konto eingeben</string>
     <string name="reset_shortcut_manager_throttling">Limits für ShortcutManager-Aufrufe zurücksetzen</string>
@@ -9331,6 +9541,10 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="right_function_key">Rechte Verknüpfung</string>
     <string name="right_hearing_aid">Rechtes Hörgerät</string>
     <string name="right_shoulder_key">Rechts</string>
+    <string name="ring_remote_battery_status_toast_one">Verbinde das Ladegerät mit diesem Gerät und versuche erneut, die Firmware zu aktualisieren</string>
+    <string name="ring_remote_battery_status_toast_three">Ersetze den Akku in deiner Magnethalterung, bevor du die Firmware aktualisierst</string>
+    <string name="ring_remote_battery_status_toast_two">Verbinde das Ladegerät mit diesem Gerät, setze den Akku des Magnethalters wieder ein und versuche dann erneut, die Firmware zu aktualisieren</string>
+    <string name="ring_remote_ota_summary">Wird aktualisiert. Nicht trennen.</string>
     <string name="ring_to_you">Benutzerdefinierter Klingelton</string>
     <string name="ring_to_you_info">Einen eigenen Ton einstellen, den andere Menschen hören, bevor du den Anruf annimmst</string>
     <string name="ring_volume_option_title">Klingelton</string>
@@ -9351,6 +9565,26 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="roaming_warning">Eventuell fallen Roaminggebühren an.</string>
     <string name="rom_total_size">Gesamte ROM-Größe</string>
     <string name="root">Root-Zugriff</string>
+    <string name="rp_clone_space_password_same_tip">Die neue Bildschirmsperre sollte sich von dem Passwort für das Zweitprofil unterscheiden</string>
+    <string name="rp_forget_password_dialog_button_know">Verstanden</string>
+    <string name="rp_forget_password_dialog_desc">Wenn du kürzlich deine Bildschirmsperre geändert hast und dein Gerät nach zu vielen erfolglosen Entsperrversuchen gesperrt wird, kannst du deine aktuelle Bildschirmsperre zurücksetzen, indem du eine innerhalb der letzten %1$d Stunden geänderte Bildschirmsperre zusammen mit deinem Fingerabdruck verifizierst.</string>
+    <string name="rp_forget_password_dialog_note">Tippe nach mehreren erfolglosen Entsperrversuchen auf dem Sperrbildschirm auf „Passwort vergessen“ und beginne mit dem Zurücksetzen deiner Bildschirmsperre.</string>
+    <string name="rp_forget_password_dialog_title">Bildschirmsperre zurücksetzen, wenn das Gerät gesperrt ist</string>
+    <string name="rp_old_password_retention_hint">Deine vorherige Bildschirmsperre wird für eine Weile beibehalten. Wenn du deine neue Bildschirmsperre vergisst, kannst du die vorherige verwenden, um sie zurückzusetzen.</string>
+    <string name="rp_password_no_match">PINs stimmen nicht überein. Versuche es erneut.</string>
+    <string name="rp_remove_old_password">Vorherige Bildschirmsperre löschen</string>
+    <string name="rp_reset_dialog_button_cancel">Abbrechen</string>
+    <string name="rp_reset_dialog_button_confirm">Löschen</string>
+    <string name="rp_reset_dialog_message">Du hast kürzlich deine Bildschirmsperre geändert. Du kannst deine aktuelle Bildschirmsperre weiterhin mit deiner vorherigen Bildschirmsperre und deinem Fingerabdruck zurücksetzen. Wenn du diese Sicherungsoption nicht benötigst, kannst du die vorherige Bildschirmsperre jetzt löschen.</string>
+    <string name="rp_reset_dialog_title">Vorherige Bildschirmsperre löschen</string>
+    <string name="rp_reset_old_password_now_desc">Nachdem du deine vorherige Bildschirmsperre und deinen Fingerabdruck verifiziert hast, wirst du aufgefordert, eine neue Bildschirmsperre festzulegen.</string>
+    <string name="rp_reset_old_password_now_title">Bildschirmsperre wird zurückgesetzt…</string>
+    <string name="rp_reset_password_hint">Für die nächsten %1$s %2$s kannst du deine aktuelle Bildschirmsperre zurücksetzen, indem du deine vorherige Bildschirmsperre und deinen Fingerabdruck verifizierst.</string>
+    <string name="rp_set_new_password">Eine neue Bildschirmsperre festlegen</string>
+    <string name="rp_set_new_password_desc">Wenn du deine neue Bildschirmsperre vergessen hast, kannst du sie mit deiner vorherigen Bildschirmsperre oder deinem Fingerabdruck zurücksetzen.</string>
+    <string name="rp_set_new_password_finish_desc">Die vergessene Bildschirmsperre wird nicht als deine neue Bildschirmsperre gespeichert. Der Timer für die ursprüngliche vorherige Bildschirmsperre wird zurückgesetzt.</string>
+    <string name="rp_set_new_password_finish_title">Erfolgreich festgelegt</string>
+    <string name="rp_set_new_pattern">Neues Muster zeichnen</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
     <string name="rtt_settings_summary">Während eines Anrufs Nachrichten senden und empfangen</string>
@@ -9495,7 +9729,7 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="scanning_status_text_wifi_on_ble_on">Sowohl WLAN- als auch Bluetooth-Scannen sind an</string>
     <string name="screen">Anzeige</string>
     <string name="screen_brightness">Bildschirmhelligkeit</string>
-    <string name="screen_cancel">Abbruch</string>
+    <string name="screen_cancel">Abbrechen</string>
     <string name="screen_color_and_optimize">Farben und Kontrast</string>
     <string name="screen_color_and_optimize_disabled">Farbschema und Farbtemperatur kann im Lesemodus nicht angepasst werden</string>
     <string name="screen_color_temperature">Farbtemperatur</string>
@@ -9514,6 +9748,7 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="screen_effect_adapt_color_title">Lebendig</string>
     <string name="screen_effect_origin_color_summary">Reproduziere realistische Farben durch Farbkalibrierung</string>
     <string name="screen_effect_origin_color_title">Originalfarbe PRO</string>
+    <string name="screen_effect_tip">Der am besten geeignete Farbraum wird automatisch an den Inhalt angepasst. Unterstützt sRGB, P3 und BT.2020.</string>
     <string name="screen_enhance_engine_ai_note">%d. Durch diese Funktion erhöht sich der Energieverbrauch leicht.</string>
     <string name="screen_enhance_engine_ai_note_2">%d. Es können nur Fotos aus der Gallerie-App verbessert werden.</string>
     <string name="screen_enhance_engine_ai_note_3">%d. Diese Funktion ist nicht verfügbar, wenn du die Originalfarben anzeigen möchtest oder fortgeschrittene Verbesserungen angewendet hast.</string>
@@ -9585,7 +9820,7 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="screen_monochrome_mode_summary">In Monochrom Modus wechseln um Akkuhaltbarkeit zu verlängern</string>
     <string name="screen_monochrome_mode_title">Monochrom Modus</string>
     <string name="screen_never_timeout_title">Niemals in den Ruhezustand wechseln</string>
-    <string name="screen_on_proximity_sensor_summary">Berührungssteuerung sperren wenn sich dein Gerät in einer Tasche befindet</string>
+    <string name="screen_on_proximity_sensor_summary">Berührungsgesten sperren, wenn sich das Gerät in einer Tasche befindet</string>
     <string name="screen_on_proximity_sensor_title">Taschenmodus</string>
     <string name="screen_optimize">Farben</string>
     <string name="screen_optimize_disabled">Farbschema kann im Lesemodus nicht angepasst werden</string>
@@ -9605,7 +9840,9 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="screen_paper_mode_summary">Der Lesemodus sorgt dafür, dass die Farben deines Bildschirms wärmer erscheinen und deine Augen sich entspannen können</string>
     <string name="screen_paper_mode_time_summary">Zeitpunkt festlegen, an dem der Lesemodus ein- bzw. ausgeschaltet wird</string>
     <string name="screen_paper_mode_time_title">Zeitplan</string>
+    <string name="screen_paper_mode_time_title_new">@string/screen_paper_mode_time_title</string>
     <string name="screen_paper_mode_title">Lesemodus</string>
+    <string name="screen_paper_mode_title_new">@string/screen_paper_mode_title</string>
     <string name="screen_paper_mode_turn_off">Aus</string>
     <string name="screen_paper_mode_turn_on">Ein</string>
     <string name="screen_paper_mode_update_white_pkg_list_privacy_again">Nicht mehr anzeigen</string>
@@ -9615,6 +9852,7 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="screen_paper_mode_update_white_pkg_list_summary">Liste der Apps aktualisieren, die automatisch den Lesemodus verwenden</string>
     <string name="screen_paper_mode_update_white_pkg_list_title">Automatisch aktualisieren</string>
     <string name="screen_paper_texture">Textur</string>
+    <string name="screen_paper_texture_new">@string/screen_paper_texture</string>
     <string name="screen_pinning_description">Angeheftete Apps können andere Apps öffnen und auf deine personenbezogenen Daten zugreifen.</string>
     <string name="screen_pinning_dialog_message">"Angeheftete Apps können Folgendes tun:
 
@@ -9641,20 +9879,20 @@ So verwendest du die Funktion „Bildschirmfixierung“: \t
     <string name="screen_pinning_unlock_pin">Vor Beenden nach PIN fragen</string>
     <string name="screen_projection">Übertragen</string>
     <string name="screen_projection_characteristics">Besondere Merkmale</string>
-    <string name="screen_projection_characteristics_off_screen_summary">Du kannst die Übertragung fortsetzen, wenn der Bildschirm deines Geräts ausgeschaltet ist. Diese Funktion senkt den Stromverbrauch.</string>
-    <string name="screen_projection_characteristics_off_screen_title">Übertrage mit ausgeschaltetem Bildschirm.</string>
+    <string name="screen_projection_characteristics_off_screen_summary">Du kannst die Wiedergabe fortsetzen, wenn der Bildschirm deines Geräts ausgeschaltet ist. Diese Funktion senkt den Stromverbrauch.</string>
+    <string name="screen_projection_characteristics_off_screen_title">Bei ausgeschaltetem Bildschirm Übertragen</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">Zeige keine unverankerten Benachrichtigungen, eingehende Anrufe und andere privaten Objekte auf externen Monitoren an.</string>
     <string name="screen_projection_characteristics_privacy_protect_title">Private Objekte verbergen</string>
-    <string name="screen_projection_characteristics_small_window_summary">Minimiere das Fenster, das übertragen wird, um in er Lage zu sein, andere Funktionen deines Telefons zu nutzen.</string>
+    <string name="screen_projection_characteristics_small_window_summary">Minimiere das Fenster, das gecastet wird, um in der Lage zu sein, andere Funktionen deines Telefons zu nutzen.</string>
     <string name="screen_projection_characteristics_small_window_title">Fenster minimieren</string>
     <string name="screen_projection_example_document_summary">Zeigen Sie Präsentationen auf einem externen Monitor an, während Sie mit Ihrem Telefon zwischen Folien wechseln und Notizen anzeigen. Gehen Sie zur Dateimanager > Dokumentation zum Testen dieser Funktion.</string>
     <string name="screen_projection_example_document_title">Unterlagen</string>
     <string name="screen_projection_example_gallery_summary">Tippen Sie auf die Schaltfläche Freigeben unter einem Element in der Galerie-App, um es auf einem externen Monitor anzuzeigen.</string>
     <string name="screen_projection_example_gallery_title">Fotos und Videos</string>
-    <string name="screen_projection_example_game_summary">Mit Spiel-Turbo kannst du Spiele auf einen externen Monitor übertragen. Verwende die Verknüpfung in der Spiel-Turbo-Toolbox, um diese Funktion zu aktivieren.</string>
+    <string name="screen_projection_example_game_summary">Mit Game Turbo können Sie Spiele auf einen externen Monitor übertragen. Verwenden Sie die Verknüpfung in der Game Turbo-Toolbox, um diese Funktion zu aktivieren.</string>
     <string name="screen_projection_example_game_title">Spiele</string>
     <string name="screen_projection_help">Hilfe</string>
-    <string name="screen_projection_sample_summary">Übertragung von Dokumenten, Spielen, Fotos und Videos.</string>
+    <string name="screen_projection_sample_summary">Übertragen von Dokumenten, Spielen, Fotos und Videos</string>
     <string name="screen_projection_sample_title">Demos</string>
     <string name="screen_projection_title">Übertragen</string>
     <string name="screen_reader_category_title">Bildschirmleser</string>
@@ -9751,6 +9989,7 @@ So verwendest du die Funktion „Bildschirmfixierung“: \t
     <string name="search_account_list">Weitere Accounts;Account;Accounts</string>
     <string name="search_add_facerecoginition_text">Gesichtsentsperrung;Gesichtserkennung</string>
     <string name="search_advanced_settings">Erweiterte Einstellungen;Wifi;Wifi Einstellungen;WLAN-Einstellungen</string>
+    <string name="search_ai_companion_title">Zwischenablage-Verknüpfung;Kopieren;Sofortzugriff,Zugriff</string>
     <string name="search_airplane_mode">Flugmodus;Flugzeug;Flug</string>
     <string name="search_alarm_sound_title">Weckton;Weckerklingelton;Wecker</string>
     <string name="search_ambient_display_screen_title">Inaktivitätsdisplay;Immer angezeigt;Immer angezeigt;Immer eingeschaltetes Display</string>
@@ -9762,6 +10001,7 @@ So verwendest du die Funktion „Bildschirmfixierung“: \t
     <string name="search_application_lock_name">App-Sperre</string>
     <string name="search_applications_settings">Installierte Apps</string>
     <string name="search_back_key">Zurück;Zurück-Taste;Zurück Taste</string>
+    <string name="search_background_blur_mode">Milchglas;Weichglas;Visueller Stil</string>
     <string name="search_battery_indicator">Akkuanzeige</string>
     <string name="search_bluetooth_device_searchable">Verfügbar;Sichtbar;Bluetooth-Name</string>
     <string name="search_bluetooth_enable">Bluetooth;Bluetooth einschalten;Bluetooth ein</string>
@@ -9795,6 +10035,11 @@ So verwendest du die Funktion „Bildschirmfixierung“: \t
     <string name="search_do_not_disturb_mode">Nicht stören</string>
     <string name="search_doze_always_on_title">Always-On</string>
     <string name="search_dtmf_tone_enable_title">Tastentöne einschalten;Tastentöne;Tastentöne;tastentöne;Wähltöne;Wählton</string>
+    <string name="search_elder_care_block_advertising_promotions_calls_title">Sperrliste</string>
+    <string name="search_elder_care_block_estate_agency_calls_title">Sperrliste</string>
+    <string name="search_elder_care_block_scam_calls_title">Sperrliste</string>
+    <string name="search_elder_care_font_size_title">Schriftart</string>
+    <string name="search_elder_care_title">Senior*in</string>
     <string name="search_empty">Keine Ergebnisse gefunden</string>
     <string name="search_enable_adb">USB-Debugging</string>
     <string name="search_fluency_mode">Systemanimationen</string>
@@ -9907,6 +10152,7 @@ So verwendest du die Funktion „Bildschirmfixierung“: \t
     <string name="search_status_bar_settings_toggle_position">Schalterpositionen;Schalter;umschalten;Schalter umschalten</string>
     <string name="search_storage_settings">Speicher;Speicherplatz</string>
     <string name="search_subscreen_aod">Immer eingeschaltetes Display;AOD;Rückseiten-Display-AOD</string>
+    <string name="search_subscreen_personality">Hintergrundbild;Rückseiten-Display-Hintergrundbild</string>
     <string name="search_subscreen_title">Rückseiten-Display;hinterer Bildschirm;Rückseiten-Bildschirm</string>
     <string name="search_sync_settings">Sync;Automatisch;Nur mit WLAN</string>
     <string name="search_system_app_settings">System-Apps</string>
@@ -9968,10 +10214,18 @@ So verwendest du die Funktion „Bildschirmfixierung“: \t
     <string name="security_advanced_settings_work_profile_settings_summary">Sperre des Arbeitsprofils, Verschlüsselung und mehr</string>
     <string name="security_center_title">Sicherheit</string>
     <string name="security_check_progress_dialog_message">Nach Sicherheitsprobleme suchen…</string>
+    <string name="security_chip">Sicherheitschip</string>
     <string name="security_chip_active">Deine Passwörter und Fingerabdruckdaten sind durch den speziellen Sicherheitschip geschützt. <Data>&lt;br/>&lt;a href=security_chip_bottomsheet>Mehr erfahren&lt;/a></Data></string>
+    <string name="security_chip_data_protection">Ein spezieller Sicherheitschip hilft deine Daten zu schützen</string>
     <string name="security_chip_description">Der spezielle Sicherheitschip ist ein von Xiaomi entwickeltes Hardware-Sicherheitsmodul zum Schutz vertraulicher Gerätedaten.</string>
     <string name="security_chip_details">Im Gegensatz zum NFC-Sicherheitschip schützt der spezielle Sicherheitschip deine Bildschirmsperre, verschlüsselte vertrauliche Daten und Fingerabdruckinformationen. Er ist physisch vom NFC-Chip getrennt, was einen stärkeren Schutz, eine bessere Stabilität und eine höhere Widerstandsfähigkeit gegen Störungen gewährleistet.</string>
+    <string name="security_chip_dialog_confirm">Verstanden</string>
+    <string name="security_chip_dual_certification">Der Sicherheitschip, der sowohl die Anforderungen der Common Criteria (CC) als auch die chinesischen Zertifizierungsanforderungen für kommerzielle Kryptografie erfüllt, schützt vor physischen Angriffen und Brute-Force-Angriffen</string>
+    <string name="security_chip_fingerprint_encrypt">Deine Fingerabdrücke sind verschlüsselt und durch den Sicherheitschip geschützt</string>
+    <string name="security_chip_hardware_encryption">Verschlüsselung auf Hardwareebene</string>
+    <string name="security_chip_hardware_vault">Sicheres Hardwaremodul</string>
     <string name="security_chip_password_protection">Mit dem Weaver-Mechanismus des Chips sind deine Passwörter auf Hardwareebene geschützt:</string>
+    <string name="security_chip_root_key_protection">Der Root-Schlüssel wird durch einen speziellen Sicherheitschip geschützt, damit weder das System noch Apps von Drittanbietern darauf zugreifen können</string>
     <string name="security_dashboard_summary">Displaysperre, „Mein Gerät finden“, App-Sicherheit</string>
     <string name="security_encryption_alert_dialog_info_first">Lege ein Sperrbildschirm-Passwort fest, um diese Funktion einzuschalten. Du musst das Sperrbildschirm-Passwort nach jedem Neustart eingeben, um das Gerät zu entschlüsseln und normal zu benutzen.</string>
     <string name="security_encryption_alert_dialog_title_first">Erst Sperrbildschirm festlegen</string>
@@ -10389,6 +10643,8 @@ Bewege deinen Finger jedes Mal ein wenig. Dadurch kann dein Fingerabdruck besser
     <string name="set_jeejen_prompt_message">Lite-Modus wird als Standard-Launcher festgelegt. Du kannst den Standard-Launcher unter Einstellungen > Systemeinstellungen > Startbildschirm und Schnellzugriff > Standardlauncher ändern.</string>
     <string name="set_jeejen_prompt_title">Änderungen bestätigen</string>
     <string name="set_lock_screen_password">Bildschirmsperre einstellen</string>
+    <string name="set_new_password_hint">Gib deine neue Bildschirmsperre ein und merke sie dir</string>
+    <string name="set_new_password_hint_new">Gib deine neue Bildschirmsperre ein und merke sie dir</string>
     <string name="set_pad_clone_password">Lege das Passwort des Zweitprofils deines Tablets fest</string>
     <string name="set_password">Bildschirmsperre einstellen</string>
     <string name="set_password_before_face">Lege eine Bildschirmsperre fest, bevor du Gesichtsdaten hinzufügst</string>
@@ -10804,6 +11060,7 @@ Doppeltippe, um zuletzt geöffnete Apps zu öffnen."</string>
     <string name="smart_battery_manager_title">Akku-Manager</string>
     <string name="smart_battery_summary">Akkunutzung für selten verwendete Apps einschränken</string>
     <string name="smart_battery_title">Apps automatisch verwalten</string>
+    <string name="smart_clipboard_title">Zwischenablage-Verknüpfung</string>
     <string name="smart_dual_sim_title">Intelligente Dual-SIM</string>
     <string name="smart_forwarding_failed_not_activated_text">SIM ist nicht aktiviert.</string>
     <string name="smart_forwarding_failed_text">Netzwerk- oder SIM-Fehler.</string>
@@ -10822,9 +11079,9 @@ Doppeltippe, um zuletzt geöffnete Apps zu öffnen."</string>
     <string name="smart_home_value_none">Keine</string>
     <string name="smart_home_value_unknown">Unbekannt</string>
     <string name="smart_rotate_text_headline">Bei der Gesichtserkennung wird die Kamera auf der Vorderseite verwendet, um die Genauigkeit beim automatischen Drehen zu verbessern. Bilder werden weder gespeichert noch an Google gesendet.</string>
-    <string name="smart_storage_backup_title">Xiaomi-Smart-Speicher</string>
-    <string name="smart_storage_summary">Sichere dein Gerät oder stelle Daten mithilfe von Smart-Speicher wieder her</string>
-    <string name="smart_storage_title">Smart-Speicher</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Sichere dein Gerät oder stelle Daten mithilfe von SmartStorage wieder her</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Smartcover-Modus</string>
     <string name="smartcover_sensitive_summary">Gerät mit Smartcover automatisch sperren oder entsperren</string>
     <string name="smartcover_sensitive_title">Smartcover</string>
@@ -10993,7 +11250,7 @@ Dies wird durch vertrauenswürdige Anmeldedaten ermöglicht, die auf deinem Ger�
     <string name="state_on">An</string>
     <string name="status_bar_app_des_separator">", "</string>
     <string name="status_bar_app_disable_notification">Benachrichtigungen ausgeblendet</string>
-    <string name="status_bar_app_enable_floating">Popup-Benachrichtigungen</string>
+    <string name="status_bar_app_enable_floating">Popup-Benach­richtigungen</string>
     <string name="status_bar_app_enable_keyguard">Sperrbildschirm</string>
     <string name="status_bar_app_enable_message">Plaketten</string>
     <string name="status_bar_carrier_settings_no_sim_card">Keine SIM-Karte</string>
@@ -11220,6 +11477,7 @@ Versuche, ein schnelleres Speichergerät (^3) zu verwenden oder verwende stattde
     <string name="string_kHz_2">%.1f kHz</string>
     <string name="string_kHz_3">%.1f kHz</string>
     <string name="string_kHz_4">%.1f kHz</string>
+    <string name="string_kHz_5">%.1f kHz</string>
     <string name="string_never">Niemals</string>
     <string name="string_off">Aus</string>
     <string name="string_offed">Aus</string>
@@ -11388,6 +11646,8 @@ Versuche, ein schnelleres Speichergerät (^3) zu verwenden oder verwende stattde
     <string name="sunlight_mode">Sonnenlicht-Modus</string>
     <string name="sunlight_mode_boost_summary">Erweitere den Helligkeitsbereich und passe die Helligkeit in einer hellen Umgebung automatisch an. Diese Funktion wird dazu führen, dass dein Gerät sich erwärmt und mehr Energie verbraucht.</string>
     <string name="sunlight_mode_summary">Helligkeit an starkes Umgebungslicht anpassen, damit der Bildschirm nicht zu dunkel wird</string>
+    <string name="super_sensory_night_vision_summery">Verbessert den Kontrast bei schlechten Lichtverhältnissen, damit Details klar bleiben und du ein besseres Spielerlebnis in der Nacht hast</string>
+    <string name="super_sensory_night_vision_title">Verbesserte Nachtsicht</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Maximale Lautstärke %s</string>
     <string name="supervision_add_forgot_pin_preference_title">PIN vergessen</string>
@@ -11490,6 +11750,7 @@ Du kannst die PIN in den Android-Einstellungen unter „Jugendschutzeinstellunge
     <string name="swipe_add_fingerprint_dirty_title">Stelle sicher, dass dein Finger sauber und trocken ist</string>
     <string name="swipe_add_fingerprint_finish_text">Versuche, deinen Fingerabdruck aus mehreren Winkeln aufzunehmen, um besser zu entsperren</string>
     <string name="swipe_add_fingerprint_insufficient_title">Fingerabdruck konnte nicht erkannt werden. Wiederholen.</string>
+    <string name="swipe_add_fingerprint_message">Wische langsam über die Ein/Aus-Taste und ändere dabei den Winkel.</string>
     <string name="swipe_add_fingerprint_move_text">Versuche verschiedene Winkel und Positionen</string>
     <string name="swipe_add_fingerprint_move_title">Passe deinen Griff an</string>
     <string name="swipe_add_fingerprint_need_up_text">Probleme bei der Erfassung deines Fingerabdrucks</string>
@@ -11501,6 +11762,7 @@ Du kannst die PIN in den Android-Einstellungen unter „Jugendschutzeinstellunge
     <string name="swipe_add_fingerprint_swipe_fast_title">Bewege deinen Finger langsamer</string>
     <string name="swipe_add_fingerprint_swipe_slow_title">Bewege deinen Finger schneller</string>
     <string name="swipe_add_fingerprint_text">Passe deinen Griff an, um die Ränder deines Fingerabdrucks zu erfassen</string>
+    <string name="swipe_add_fingerprint_title">Bewege deinen Finger nach links und rechts</string>
     <string name="swipe_add_fingerprint_up_text">Drücke und drehe deinen Finger leicht</string>
     <string name="swipe_add_fingerprint_up_title">Drücke auf die Mitte des Fingerabdruckbereichs</string>
     <string name="swipe_direction_ltr">Nach rechts: schließen, nach links: Menü anzeigen</string>
@@ -11739,9 +12001,9 @@ Wenn diese Option aktiviert ist, kann dieses Gerät einem Thread-Netzwerk beitre
     <string name="time_format_entries_2">%d-Stunde 13:00 Uhr</string>
     <string name="time_format_entries_3">Automatisch (je nach Systemsprache)</string>
     <string name="time_notifications_title">Benachrichtigungen</string>
-    <string name="time_picker_dialog_title">Uhrzeit einstellen</string>
-    <string name="time_picker_label_hour">Std</string>
-    <string name="time_picker_label_minute">Min.</string>
+    <string name="time_picker_dialog_title">Zeit einstellen</string>
+    <string name="time_picker_label_hour">H</string>
+    <string name="time_picker_label_minute">M</string>
     <string name="time_spent_in_app_pref_title">Bildschirmzeit</string>
     <string name="time_unit_just_now">Gerade eben</string>
     <string name="time_zen_mode_turn_off">Ende</string>
@@ -11838,7 +12100,7 @@ Wenn diese Option aktiviert ist, kann dieses Gerät einem Thread-Netzwerk beitre
     <string name="touch_filtered_warning">Deine Eingabe wird von \"Einstellungen\" nicht erkannt, weil die Berechtigungsanfrage von einer App verdeckt wird.</string>
     <string name="touch_sensitive_summary">Unterstützung für die Bedienung mit Handschuhen und Fehlbedienungsmodus wird eingeschaltet</string>
     <string name="touch_sensitive_title">Handschuhmodus</string>
-    <string name="touch_sensitive_turn_off_cancel">Abbruch</string>
+    <string name="touch_sensitive_turn_off_cancel">Abbrechen</string>
     <string name="touch_sensitive_turn_off_confirm">OK</string>
     <string name="touch_sensitive_turn_off_summary">Taschenmodus ebenfalls ausschalten?</string>
     <string name="touch_sensitive_turn_off_title">Handschuhmodus ausschalten</string>
@@ -11954,7 +12216,7 @@ Wenn diese Option aktiviert ist, kann dieses Gerät einem Thread-Netzwerk beitre
     <string name="turn_off_keyguard_password_wait_dialog">Passwort ausschalten…</string>
     <string name="turn_off_keyguard_password_with_face_confirm_msg">Sobald du das Sperrbildschirmpasswort deaktivierst, werden gespeicherte Gesichtsdaten gelöscht. Du wirst nicht in der Lage sein, das Gerät mit deinem Gesicht zu entsperren.</string>
     <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">Nach Deaktivieren des Passworts kannst du dein Gerät nicht mehr mit deinem Fingerabdruck entsperren.</string>
-    <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">Sobald du das Sperrbildschirmpasswort deaktiviert hast, werden aufgezeichnete Fingerabdrücke und Gesichtsdaten gelöscht. Du kannst das Gerät dann nicht mehr mit deinem Gesicht oder Fingerabdrücken entsperren.</string>
+    <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">Sobald du das Sperrbildschirmpasswort ausgeschaltet hast, werden gespeicherte Fingerabdrücke und Gesichtsdaten gelöscht. Danach kannst du das Gerät nicht mehr mit deinem Gesicht oder deinen Fingerabdrücken entsperren.</string>
     <string name="turn_off_security_lock">Sperrbildschirm ausschalten</string>
     <string name="turn_on_keyguard_password">Sperrbildschirmpasswort aktivieren</string>
     <string name="turn_on_keyguard_password_alert">Merke dir dein Passwort. Wenn du es vergisst, kannst du es nicht wiederherstellen.</string>
@@ -12280,7 +12542,7 @@ Hinweis: Dies stellt ein Sicherheitsrisiko dar. Verbinde daher nur Geräte, dene
     <string name="usb_preference">USB-Einstellungen</string>
     <string name="usb_ptp_summary">Übertrage Fotos mit Kamerasoftware oder Dateien auf Computer, die MTP nicht unterstützen.</string>
     <string name="usb_ptp_title">Kamera (PTP)</string>
-    <string name="usb_reverse_charge">Umladung</string>
+    <string name="usb_reverse_charge">Umgekehrtes Laden</string>
     <string name="usb_summary_MIDI">MIDI</string>
     <string name="usb_summary_MIDI_power">MIDI und Stromversorgung</string>
     <string name="usb_summary_UVC">Webcam</string>
@@ -12319,9 +12581,9 @@ Hinweis: Dies stellt ein Sicherheitsrisiko dar. Verbinde daher nur Geräte, dene
     <string name="usb_use_uvc_webcam">Webcam</string>
     <string name="use_carrier_default_pin">Mobilfunkanbieter-Standardeinst. nutzen</string>
     <string name="use_control_panel">Neues Kontrollzentrum nutzen</string>
-    <string name="use_otg_charge_only">Umladung</string>
+    <string name="use_otg_charge_only">Umgekehrtes Laden</string>
     <string name="use_otg_charge_only_summary">Schnelleres 1,8A-Laden</string>
-    <string name="use_otg_file_transfers">Umladung und Dateien übertragen</string>
+    <string name="use_otg_file_transfers">Umgekehrtes Laden und Dateien übertragen</string>
     <string name="use_otg_file_transfers_summary">Langsameres 500mA-Laden und Dateiübertragungen</string>
     <string name="use_otg_title">USB unterwegs</string>
     <string name="use_personalized_ad_service">Personalisierte Werbevorschläge</string>
@@ -12547,7 +12809,7 @@ Tippe auf Plus um Wörter hinzufügen."</string>
     <string name="virus_scanner_provider">Bereitgestellt von %s</string>
     <string name="virus_scanner_scan">Zum Scannen tippen</string>
     <string name="virus_scanner_scanning">Scannen…</string>
-    <string name="virus_scanner_select_Cancel">Abbruch</string>
+    <string name="virus_scanner_select_Cancel">Abbrechen</string>
     <string name="virus_scanner_select_OK">OK</string>
     <string name="virus_scanner_select_lib">Virendatenbank auswählen</string>
     <string name="virus_scanner_select_multi">Wenn du mehr als eine Virendatenbank auswählst wird das die Suche verlangsamen</string>
@@ -12632,8 +12894,8 @@ Während eines Sprachanrufs kannst du das Internet nicht nutzen und manche Apps 
     <string name="vpn_insecure_dialog_subtitle">Unsicher. Update auf IKEv2-VPN empfohlen.</string>
     <string name="vpn_insecure_summary">Nicht sicher</string>
     <string name="vpn_ipsec_ca_cert">IPSec-CA-Zertifikat</string>
-    <string name="vpn_ipsec_identifier">IPSec‑ID</string>
-    <string name="vpn_ipsec_secret">Vorinstallierter IPSec-Schlüssel</string>
+    <string name="vpn_ipsec_identifier">IPSec-Kennung</string>
+    <string name="vpn_ipsec_secret">Vorab geteilter IPSec-Schlüssel</string>
     <string name="vpn_ipsec_server_cert">IPSec-Serverzertifikat</string>
     <string name="vpn_ipsec_user_cert">IPSec-Nutzerzertifikat</string>
     <string name="vpn_l2tp_secret">L2TP geheim</string>
@@ -12686,7 +12948,7 @@ Während eines Sprachanrufs kannst du das Internet nicht nutzen und manche Apps 
     <string name="vpn_turn_on">Aktivieren</string>
     <string name="vpn_type">Typ</string>
     <string name="vpn_username_optional">Nutzername (optional)</string>
-    <string name="vpn_username_required">Nutzername</string>
+    <string name="vpn_username_required">Benutzername</string>
     <string name="vpn_version">Version</string>
     <string name="vpn_version_info">Version %s</string>
     <string name="vr_listener_security_warning_summary">%1$s kann ausgeführt werden, wenn der Modus für virtuelle Realität für Apps aktiviert wird.</string>
@@ -12908,7 +13170,7 @@ Wenn du eine App über ein Widget öffnest, musst du deine Identität bestätige
     <string name="wifi_conflict_dialog_cancel">Abbrechen</string>
     <string name="wifi_conflict_dialog_switch">Wechseln</string>
     <string name="wifi_connect">Verbinden</string>
-    <string name="wifi_connect_cmcc_dialog_cancel">Abbruch</string>
+    <string name="wifi_connect_cmcc_dialog_cancel">Abbrechen</string>
     <string name="wifi_connect_cmcc_dialog_confirm">OK</string>
     <string name="wifi_connect_cmcc_dialog_content">Du bist mit einem mobilen Datennetzwerk verbunden. Wenn du dein angegebenes Datenlimit überschreitest, könnte es sein das dein Anbieter zusätzliche Gebühren verlangt.</string>
     <string name="wifi_connect_cmcc_dialog_not_remind">Nicht mehr anzeigen</string>
@@ -13129,7 +13391,7 @@ Deine Routereinstellungen ändern sich durch das verborgene Netzwerk nicht."</st
     <string name="wifi_notify_cmcc_connected_title">CMCC Netzwerk Benachrichtigung</string>
     <string name="wifi_notify_open_networks">Über öffentliche Netzwerke informieren</string>
     <string name="wifi_notify_open_networks_summary">Benachrichtigen, wenn ein leistungsstarkes öffentliches Netzwerk verfügbar ist</string>
-    <string name="wifi_off_airplane_on_cancel">Abbruch</string>
+    <string name="wifi_off_airplane_on_cancel">Abbrechen</string>
     <string name="wifi_off_airplane_on_confirm">OK</string>
     <string name="wifi_off_airplane_on_content">Du kannst WLAN manuell im Flugmodus einschalten.</string>
     <string name="wifi_off_airplane_on_not_remind">Nicht mehr anzeigen</string>
@@ -13280,6 +13542,7 @@ Drücke "<b>Zurück</b> um eine Verbindung zu einem anderen WLAN-Netzwerk herzus
     <string name="wifi_share_add">Mein öffentliches WLAN-Netzwerk teilen.</string>
     <string name="wifi_share_add_summary">"Wenn du deine öffentlichen Netzwerke teilst,
 kannst du auch die Netzwerke anderer Benutzer nutzen."</string>
+    <string name="wifi_share_close_button_description">Schließen</string>
     <string name="wifi_share_conflict_dialog_message">Ein freigegebenes Netzwerk mit dem Namen „%1$s“ ist bereits vorhanden. Wenn du zu diesem freigegebenen Netzwerk wechselst, verlässt du dein privates Netzwerk und hast möglicherweise vorübergehend keine Internetverbindung.</string>
     <string name="wifi_share_conflict_dialog_title">Zum freigegebenen Netzwerk wechseln?</string>
     <string name="wifi_share_connect">Verbinden</string>
@@ -13294,6 +13557,7 @@ kannst du auch die Netzwerke anderer Benutzer nutzen."</string>
     <string name="wifi_share_plain_password_text">Passwort: %s</string>
     <string name="wifi_share_preference_summary">Andere Nutzer dieses Geräts können auf dieses Netzwerk zugreifen</string>
     <string name="wifi_share_preference_title">Netzwerk freigeben</string>
+    <string name="wifi_share_qr_code_description">QR-Code</string>
     <string name="wifi_share_qrcode_finish">Fertig</string>
     <string name="wifi_share_qrcode_summary">Zum Teilen QR-Code scannen.</string>
     <string name="wifi_share_qrcode_title">WLAN-Netzwerk teilen</string>
@@ -13377,12 +13641,16 @@ kannst du auch die Netzwerke anderer Benutzer nutzen."</string>
     <string name="wifi_wakeup_location_summary">Aktiviere die Standortdienste, um diese Funktion verwenden zu können.</string>
     <string name="wifi_wakeup_negative_button">Abbrechen</string>
     <string name="wifi_wakeup_positive_button">Einschalten</string>
+    <string name="wifi_wakeup_privacy_agree">Zustimmen</string>
+    <string name="wifi_wakeup_privacy_content">\"WLAN automatisch einschalten\" (\"dieser Dienst\") ist eine Funktion, die von Xiaomi Inc. (\"wir\" oder \"Xiaomi\") bereitgestellt wird. Sie speichert hochwertige WLAN-Netzwerke, wie beispielsweise dein Heimnetzwerk, und schaltet das WLAN automatisch ein, wenn du dich in der Nähe befindest, um den Verbrauch von mobilen Daten zu reduzieren. Wir legen großen Wert auf den Schutz deiner personenbezogenen Daten sowie deiner Privatsphäre. Wir treffen entsprechende Sicherheitsmaßnahmen für deine personenbezogenen Daten gemäß den einschlägigen gesetzlichen Anforderungen und Branchenstandards.&lt;br>Wenn du diesen Dienst einschaltest, erfassen wir anhand von Mobilfunkmast-IDs Informationen zu deinem ungefähren Standort, um dir hochwertige WLAN-Netzwerke in deiner Nähe anzuzeigen.&lt;br>Diese Informationen werden nur auf deinem Gerät verarbeitet und nicht in die Cloud hochgeladen.&lt;br>Wenn du diese Informationen nicht bereitstellst, kannst du diesen Dienst nicht nutzen.&lt;br>Wir speichern deine personenbezogenen Daten nur so lange, wie es zur Erreichung der in dieser Datenschutzerklärung beschriebenen Erhebungszwecke oder zur Einhaltung geltender gesetzlicher Vorschriften erforderlich ist.&lt;br>Wir haben eine eigene Abteilung für den Schutz personenbezogener Daten eingerichtet. Wenn du Anmerkungen oder Fragen zu dieser Datenschutzerklärung hast, oder wenn du Fragen zur Erhebung, Nutzung oder Weitergabe deiner personenbezogenen Daten hast, wende dich bitte an &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>. In der Regel antworten wir innerhalb von fünfzehn Werktagen.&lt;br>Tippe auf \"Zustimmen\", um zu bestätigen, dass du diese Datenschutzerklärung gelesen hast und dieser zustimmst.</string>
+    <string name="wifi_wakeup_privacy_disagree">Abbrechen</string>
+    <string name="wifi_wakeup_privacy_title">Datenschutzerklärung</string>
     <string name="wifi_wakeup_scan_summary">Erlaube Apps und Diensten, nach WLAN-Netzwerken zu suchen, damit WLAN automatisch eingeschaltet werden kann. Wenn du diese Funktion einschaltest, kann dein Gerät automatisch eine Verbindung zu gespeicherten Netzwerken in der Nähe herstellen.</string>
     <string name="wifi_wakeup_summary">WLAN automatisch aktivieren, wenn ein gespeichertes WLAN in der Nähe verfügbar und die Signalqualität gut ist</string>
     <string name="wifi_wakeup_summary_no_location">Nicht verfügbar, weil die Einstellung \"Standort\" deaktiviert ist. Aktiviere die Einstellung <annotation id="link">Standort</annotation>.</string>
     <string name="wifi_wakeup_title">Zusätzliche Funktionen einschalten</string>
     <string name="wifi_wapi_as_cert">AS Zertifikat</string>
-    <string name="wifi_wapi_cert_cancel_button">Abbruch</string>
+    <string name="wifi_wapi_cert_cancel_button">Abbrechen</string>
     <string name="wifi_wapi_cert_create_subdir">Ordner erstellen</string>
     <string name="wifi_wapi_cert_delet_subdir">Zertifikat auswählen</string>
     <string name="wifi_wapi_cert_install">WAPI-Zertifikat installieren</string>
@@ -13567,10 +13835,21 @@ kannst du auch die Netzwerke anderer Benutzer nutzen."</string>
     <string name="xiaomi_cloud_service_description_without_contacts">"Xiaomi Cloud synchronisiert deine Fotos, sichert deine Apps und Einstellungen, und hilft dir mithilfe von 'Gerätesuche' dein Gerät wiederzufinden."</string>
     <string name="xiaomi_cloud_service_disabled">Aus</string>
     <string name="xiaomi_cloud_service_unknown">Unbekannt</string>
+    <string name="xiaomi_confirm_enable_16k_erase_checkbox_text">Ich verstehe die Risiken und akzeptiere die möglichen Konsequenzen</string>
+    <string name="xiaomi_confirm_enable_16k_pages_text">Die Softwareintegrität kann in diesem Modus nicht gewährleistet werden. Das wird dein Gerät neu starten.</string>
+    <string name="xiaomi_confirm_enable_16k_pages_update_wipe">„Mit 16-KB-Seitengröße starten“ ist eine äußerst empfindliche Funktion, die ausschließlich für Testzwecke durch Entwickler vorgesehen ist. Durch das Einschalten dieser Funktion werden alle Daten auf dem Gerät gelöscht, einschließlich Fotos, Videos, Dokumente und aller App-Daten. Die Softwareintegrität kann nicht garantiert werden. In diesem Modus sind einige Funktionen nicht verfügbar und manche Apps funktionieren möglicherweise nicht ordnungsgemäß.</string>
+    <string name="xiaomi_confirm_enable_4k_pages_text">Das wird dein Gerät neu starten.</string>
+    <string name="xiaomi_confirm_reboot_button_text">Neustarten</string>
+    <string name="xiaomi_confirm_reboot_title_text">Risiko entdeckt</string>
     <string name="xiaomi_custom_input_method">Angepasst für Xiaomi</string>
+    <string name="xiaomi_erase_confirm_countdown_format">OK (%1$d)</string>
     <string name="xiaomi_hp_location">Präziser Standortzugriff</string>
     <string name="xiaomi_hp_location_description">Präziser Standortzugriff erlaubt genaue Navigation</string>
     <string name="xiaomi_money_service">Mi Coins</string>
+    <string name="xiaomi_page_agnostic_16k_pages_text">Dein Gerät verwendet beim ext4-Dateisystem eine Seitengröße von 16 KB. Um das F2FS-Dateisystem wiederherzustellen, musst du wieder auf eine 4-KB-Seitengröße umstellen und das Gerät auf die Werkseinstellungen zurücksetzen.</string>
+    <string name="xiaomi_page_agnostic_16k_pages_title">16-KB-Seitengröße wird verwendet</string>
+    <string name="xiaomi_page_agnostic_4k_pages_text">Dein Gerät verwendet beim ext4-Dateisystem eine Seitengröße von 4 KB. Um das F2FS-Dateisystem wiederherzustellen, musst du das Gerät auf die Werkseinstellungen zurücksetzen.</string>
+    <string name="xiaomi_page_agnostic_4k_pages_title">4-KB-Seitengröße wird verwendet</string>
     <string name="xiaomi_router_available_notif_summary">Für mehr Infos antippen.</string>
     <string name="xiaomi_router_available_notif_title">Mi Router verfügbar</string>
     <string name="xiaomi_router_notif_summary">Benachrichtigen wenn Mi Router HotSpots verfügbar sind</string>

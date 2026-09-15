@@ -163,7 +163,7 @@
     <string name="add_done">Úspěšně přidáno</string>
     <string name="add_game">Přidat hru</string>
     <string name="add_game_notification_summary">Klepněte pro spuštění a posílení rychlosti</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">„%s“ přidáno do herního prostoru</string>
     <string name="add_miservice_dialog_content">%s vyžaduje přidání Xiaomi service framework do seznamu výjimek. Budete tak přijímat upozornění od vestavěných aplikací a jiných aplikací třetích stran.</string>
     <string name="add_miservice_dialog_title">Xiaomi service framework</string>
     <string name="add_to_whitelist_button">Výjimky z datového roamingu</string>
@@ -200,6 +200,48 @@
     <string name="anitispam_intercept_record">Historie blokování</string>
     <string name="anti_disturb_msg_detail">Vypne všechna upozornění kromě oznámení příchozích hovorů</string>
     <string name="anti_disturb_msg_title">Nerušit</string>
+    <string name="anti_peeping">Detekovat pohled jiné osoby</string>
+    <string name="anti_peeping_apps_disable_header_title">Nevybrané aplikace</string>
+    <string name="anti_peeping_apps_enable_header_title">Vybrané aplikace</string>
+    <string name="anti_peeping_apps_notify_description">Když je vybraná aplikace zobrazena na celé obrazovce, tato funkce bude průběžně kontrolovat, zda se někdo dívá na obrazovku, a upozorní vás na to</string>
+    <string name="anti_peeping_apps_notify_title">Oznámit, když se někdo dívá</string>
+    <string name="anti_peeping_apps_notify_type">Oznámení</string>
+    <string name="anti_peeping_apps_privacy_tip">Tato funkce používá tvář k detekci pohledu. Všechna data jsou zpracovávána ve vašem zařízení a nebudou sdílena.</string>
+    <string name="anti_peeping_face_need_input">Je vyžadována tvář</string>
+    <string name="anti_peeping_face_need_input_confirm">Nastavení</string>
+    <string name="anti_peeping_face_need_input_subtitle">Chcete-li tuto funkci používat, musíte přidat tvář. Přidat nyní?</string>
+    <string name="anti_peeping_focus_not_enabled"><Data>Zdůraznění oznámení je vypnuté. Místo toho se použijí vibrace. &lt;font color=#3482FF>Zapnout&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback"><Data>Zdůraznění oznámení je vypnuté. Upozornění nejsou k dispozici. &lt;font color=#3482FF>Zapnout&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback_v2"><Data>Zóna Xiaomi HyperIsland je vypnutá. Upozornění nejsou dostupná. &lt;font color=#3482FF>Zapnout&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_v2"><Data>Zóna Xiaomi HyperIsland je vypnutá. Upozornění budou místo toho používat vibrace. &lt;font color=#3482FF>Zapnout&lt;/font></Data></string>
+    <string name="anti_peeping_notification_channel_name">Detekovat pohled jiné osoby</string>
+    <string name="anti_peeping_notification_got_it">Rozumím</string>
+    <string name="anti_peeping_notification_protect_content">Znovu nepřipomínat</string>
+    <string name="anti_peeping_notification_title">Chraňte své soukromí</string>
+    <string name="anti_peeping_privacy_auto_close_des">Tato funkce může mírně zvýšit spotřebu energie a bude neaktivní, když je zapnutý Spořič baterie.</string>
+    <string name="anti_peeping_privacy_auto_close_title">Automaticky se vypne, když je zapnutý Spořič baterie</string>
+    <string name="anti_peeping_privacy_statement_des">"Po zapnutí této funkce bude toto zařízení používat přední fotoaparát ke kontrole, zda se někdo jiný než vy dívá na obrazovku, když jsou vybrané aplikace zobrazeny na celé obrazovce. V případě detekce se zobrazí připomenutí ohledně ochrany soukromí.
+Veškeré zpracování probíhá ve vašem zařízení a nebude nahráno do cloudu."</string>
+    <string name="anti_peeping_privacy_statement_title">Prohlášení o ochraně osobních údajů</string>
+    <string name="anti_peeping_privacy_understand_des">"Tato funkce využívá přední kameru k pořizování snímků a analýze, zda se na obrazovku dívá někdo jiný než vy. Pokud je taková aktivita detekována, zobrazí se vám připomenutí, které pomůže chránit vaše soukromí.
+Můžete vybrat, které aplikace chcete chránit. Funkce „Detekovat pohled jiné osoby“ se automaticky zapne, když se tyto aplikace zobrazí na celé obrazovce."</string>
+    <string name="anti_peeping_privacy_understand_title">O funkci „Detekovat pohled jiné osoby“</string>
+    <string name="anti_peeping_recommend_apps_button_open">Zapnout</string>
+    <string name="anti_peeping_recommend_tips">%s uživatelů vybralo následující aplikace</string>
+    <string name="anti_peeping_recommend_title">Doporučené aplikace</string>
+    <string name="anti_peeping_search_key">Detekovat pohled jiné osoby</string>
+    <string name="anti_peeping_search_keywords">Detekovat pohled jiné osoby;pohled jiné osoby;soukromé zobrazení;privátní zobrazení;Soukromé zobrazení</string>
+    <string name="anti_peeping_splash_confirm">Další</string>
+    <string name="anti_peeping_splash_custom_des">Tato funkce se zapne, když se vámi vybrané aplikace zobrazí na celou obrazovku</string>
+    <string name="anti_peeping_splash_custom_title">Vyberte aplikace, které chcete chránit</string>
+    <string name="anti_peeping_splash_dialog_des"><Data>Vaše zařízení bude průběžně kontrolovat, zda se někdo nedívá na vaši obrazovku, a v případě detekce vás upozorní. &lt;font color=#3482FF>Více&lt;/font></Data></string>
+    <string name="anti_peeping_splash_identify_des">Detekovat, zda se někdo další nedívá na vaši obrazovku</string>
+    <string name="anti_peeping_splash_identify_title">Detekovat, když se někdo dívá</string>
+    <string name="anti_peeping_splash_notify_des">Podporuje Xiaomi HyperIsland a upozornění vibracemi</string>
+    <string name="anti_peeping_splash_notify_title">Dostávat připomenutí ohledně soukromí</string>
+    <string name="anti_peeping_vibrate_demo_toast">Budete upozorněni při zjištění pohledu jiné osoby</string>
+    <string name="anti_peeping_vibration_not_enabled"><Data>Haptická odezva je vypnutá. Upozornění se budou zobrazovat prostřednictvím Xiaomi HyperIsland. &lt;font color=#3482FF>Zapnout&lt;/font></Data></string>
+    <string name="anti_peeping_vibration_not_enabled_no_fallback"><Data>Haptická odezva je vypnutá. Upozornění nejsou k dispozici. &lt;font color=#3482FF>Zapnout&lt;/font></Data></string>
     <string name="antispam_add_black_number_message">Zadané číslo je krátké. Zablokovat všechna čísla začínající těmito číslicemi?</string>
     <string name="antispam_add_black_number_negative">Ne</string>
     <string name="antispam_add_black_number_positive">Ano</string>
@@ -357,7 +399,7 @@
     <string name="app_manager_clear_all_data">Vymazat všechna data</string>
     <string name="app_manager_clear_cache">Vyčistit mezipaměť</string>
     <string name="app_manager_clear_data_dlg_message">Všechna data aplikace včetně souborů, nastavení, účtů, databází a mezipaměti budou trvale odstraněna.</string>
-    <string name="app_manager_clear_data_dlg_title">Vymazat všechna data?</string>
+    <string name="app_manager_clear_data_dlg_title">Odstranit všechna data?</string>
     <string name="app_manager_clear_dlg_title">Vymazat data</string>
     <string name="app_manager_clear_failed_dlg_message">Data aplikace se nepodařilo odstranit.</string>
     <string name="app_manager_code_size">Velikost aplikace</string>
@@ -623,6 +665,12 @@ Pokud jste zatím nenastavili zámek obrazovky, nastavte jej podle uvedených po
     <string name="apps_item_virus_ignore_text">Ignorovat</string>
     <string name="apps_item_virus_summary_installed">Nainstalovaná aplikace</string>
     <string name="apps_item_virus_summary_uninstalled">APK</string>
+    <string name="apps_layout_all_apps">Všechny aplikace</string>
+    <string name="apps_layout_all_freeform_apps">Dostupné aplikace</string>
+    <string name="apps_layout_recommend_apps">Doporučené aplikace</string>
+    <string name="apps_layout_search_app">Vyhledat aplikace</string>
+    <string name="apps_layout_search_app_no_result">Nenalezeny žádné výsledky</string>
+    <string name="apps_layout_shortcut">Zástupci</string>
     <string name="apps_list_header_title_sms">Zkontrolovat aplikaci pro zprávy</string>
     <string name="apps_list_header_title_sms_access">Omezit přístup k ověřovacím kódům</string>
     <string name="ask_create_shortcut">Vytvořit zástupce na Domovské obrazovce?</string>
@@ -719,6 +767,9 @@ Pokud jste zatím nenastavili zámek obrazovky, nastavte jej podle uvedených po
     <string name="back_sound_support_china">Nejprve vypněte WLAN</string>
     <string name="background_restrict_app_dialog_message">Zakázání přístupu k síti na pozadí pro tuto aplikaci může způsobit, že aplikace nebude schopna fungovat správně, přijímat zprávy, stahovat obsah atd. Přesto zakázat?</string>
     <string name="background_traffic">Na pozadí %s</string>
+    <string name="background_virus_scan_notification_summary">Více aplikací, včetně %s. Klepnutím zobrazíte.</string>
+    <string name="background_virus_scan_notification_summary_one">Klepnutím zobrazíte</string>
+    <string name="background_virus_scan_notification_title_one">Detekována škodlivá aplikace %s</string>
     <string name="backsound_set_hint">Nastavit zprávu o nepřítomnosti na %s?</string>
     <string name="banner_optimizemanage_summary">Vyčištění paměti</string>
     <string name="banner_red_money_assist_button">Zapnout</string>
@@ -979,7 +1030,9 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="bubble_notification_switch">Zobrazit bubliny konverzací</string>
     <string name="bubble_notification_switch_desc">Pokud je aplikace zpráv v plovoucím okně skryta na okraji obrazovky, příchozí zprávy budou zobrazeny v bublině.</string>
     <string name="bubble_pickup_voice_print_auto">Zaznamenávání hlasového otisku…</string>
+    <string name="bubble_pickup_voice_print_auto_v2">Nahrávání hlasu a tváře…</string>
     <string name="bubble_pickup_voice_print_success">Byl zaznamenán hlas</string>
+    <string name="bubble_pickup_voice_print_success_v2">Hlas a tvář byly nahrány</string>
     <string name="button_background_connection">Povolit</string>
     <string name="button_block_calls_from_cantacts">Odblokovat</string>
     <string name="button_block_calls_from_strangers">Odblokovat</string>
@@ -1021,10 +1074,17 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="call_blacklist">Blokované hovory</string>
     <string name="call_cloud_block">Seznam blokování z Cloudu</string>
     <string name="call_contact_block">Blokovat hovory od kontaktů</string>
-    <string name="call_delete_all_hint">Vymazat všechny blokované hovory?</string>
+    <string name="call_delete_all_hint">Odstranit všechny blokované hovory?</string>
     <string name="call_delete_hint">Vymazat všechny blokované hovory z tohoto čísla?</string>
-    <string name="call_delete_title">Vymazat historii hovorů</string>
+    <string name="call_delete_title">Odstranit historii hovorů</string>
     <string name="call_empty_number">Prázdná čísla</string>
+    <string name="call_filter_ad_promotion">Reklamy</string>
+    <string name="call_filter_education_training">Vzdělávání</string>
+    <string name="call_filter_high_risk">Vysoké riziko</string>
+    <string name="call_filter_insurance_finance">Pojištění</string>
+    <string name="call_filter_loan_promotion">Půjčky</string>
+    <string name="call_filter_real_estate">Nemovitosti</string>
+    <string name="call_filter_renovation_repair">Opravy domu</string>
     <string name="call_forwarding_block">Přesměrované hovory</string>
     <string name="call_intercept_settings">Nastavení blokování hovorů</string>
     <string name="call_notification_answer_action">Přijmout</string>
@@ -1038,6 +1098,19 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="call_overseas_block">Mezinárodní hovory</string>
     <string name="call_prefix">Blokované předvolby</string>
     <string name="call_private">Blokovat hovory ze skrytých čísel</string>
+    <string name="call_reason_ad_promotion_mark">Reklamy</string>
+    <string name="call_reason_ad_promotion_mark_large">Reklamy</string>
+    <string name="call_reason_education_training_mark">Vzdělávání</string>
+    <string name="call_reason_education_training_mark_large">Vzdělávání</string>
+    <string name="call_reason_high_risk_mark">Vysoké riziko</string>
+    <string name="call_reason_insurance_finance_mark">Pojištění</string>
+    <string name="call_reason_insurance_finance_mark_large">Pojištění</string>
+    <string name="call_reason_loan_promotion_mark">Půjčky</string>
+    <string name="call_reason_loan_promotion_mark_large">Půjčky</string>
+    <string name="call_reason_real_estate_mark">Nemovitosti</string>
+    <string name="call_reason_real_estate_mark_large">Nemovitosti</string>
+    <string name="call_reason_renovation_repair_mark">Opravy domu</string>
+    <string name="call_reason_renovation_repair_mark_large">Opravy domu</string>
     <string name="call_stranger_block">Blokovat hovory z neznámých čísel</string>
     <string name="call_transfer_block">Blokovat přesměrované hovory</string>
     <string name="call_transfer_info">Blokovat hovory přesměrované z neznámých čísel</string>
@@ -1110,6 +1183,10 @@ Tuto funkci můžete zapnout a vypnout v Centru ovládání."</string>
     <string name="cetus_invisible_mode">Inkognito</string>
     <string name="cetus_invisible_mode_description_card">Pozastavit oprávnění</string>
     <string name="cetus_invisible_mode_description_switch">Po zapnutí budou pozastavena oprávnění pro přístup k mikrofonu, fotoaparátu a informacím o poloze pro všechny aplikace</string>
+    <string name="cetus_invisible_mode_notice_audio">Jste inkognito. Mikrofon nyní nelze použít.</string>
+    <string name="cetus_invisible_mode_notice_camera">Jste inkognito. Fotoaparát nyní nelze použít.</string>
+    <string name="cetus_invisible_mode_notice_location">Jste inkognito. Služby určování polohy nyní nelze použít.</string>
+    <string name="cetus_invisible_mode_notice_tip">Klepněte pro vypnutí režimu Inkognito v Nastavení</string>
     <string name="cetus_invisible_mode_warn_all">Jste inkognito. Oprávnění pro přístup k mikrofonu, fotoaparátu a službám určování polohy byla vypnuta.</string>
     <string name="cetus_invisible_mode_warn_camera">Jste inkognito. Oprávnění fotoaparátu byla pozastavena.</string>
     <string name="cetus_invisible_mode_warn_location">Jste inkognito. Oprávnění pro přístup ke službám určování polohy byla vypnuta.</string>
@@ -1155,6 +1232,8 @@ Tuto funkci můžete zapnout a vypnout v Centru ovládání."</string>
     <string name="click_to_set_carrier">Klepněte pro nastavení</string>
     <string name="click_to_set_personalized_reminder">Nastavit upozornění</string>
     <string name="click_to_set_traffic">Klepněte pro nastavení</string>
+    <string name="clip_notification_close_summary">Ukončit zasílání oznámení, když některá aplikace přistoupí ke schránce?</string>
+    <string name="clip_notification_close_title">Vypnout oznámení o přístupu ke schránce</string>
     <string name="clipboard_ai_allow">Chytrá správa</string>
     <string name="clipboard_ai_allow_summary">Umožněte systému, aby rozhodl, zda aplikace využije obsah schránky, a aby vás upozornil, když tak učiní</string>
     <string name="close">Zavřít</string>
@@ -1244,7 +1323,7 @@ Tuto funkci můžete zapnout a vypnout v Centru ovládání."</string>
     <string name="connected_devices_permission">Propojitelnost a oprávnění</string>
     <string name="connected_devices_permission_settings">Propojitelnost a oprávnění</string>
     <string name="connected_devices_permission_summary">Spravovat přístup k tomuto zařízení</string>
-    <string name="connected_devices_record">Nahrát</string>
+    <string name="connected_devices_record">Zaznamenat</string>
     <string name="connected_devices_record_desc">Zařízením v okolí přihlášeným ke stejnému účtu bude na tomto zařízení povoleno nahrávat zvuk</string>
     <string name="connected_devices_record_title">Povolit výše uvedenému zařízení nahrávání zvuku na tomto zařízení?</string>
     <string name="connected_devices_screen">Obrazovka</string>
@@ -1252,6 +1331,7 @@ Tuto funkci můžete zapnout a vypnout v Centru ovládání."</string>
     <string name="connected_devices_screen_title">Povolit výše uvedenému zařízení prohlížení a interakci s obsahem obrazovky tohoto zařízení?</string>
     <string name="connected_interconnection">Propojitelnost</string>
     <string name="connecting">Připojování…</string>
+    <string name="contacts_will_also_be_blocked">Včetně kontaktů</string>
     <string name="continue_install">Instalovat</string>
     <string name="continue_set">Pokračovat</string>
     <string name="convenient_mode">Odemknout všechny aplikace najednou</string>
@@ -1302,32 +1382,40 @@ Tuto funkci můžete zapnout a vypnout v Centru ovládání."</string>
     <string name="cs_pickup_vioce_print_guide_dialog_desc">Ukončete hovor a postupujte podle pokynů.</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">Chcete-li zachytávat hlas pouze jedné osoby, nejprve nahrajte její hlas.</string>
     <string name="cs_pickup_vioce_print_in_private_tips">Nahrajte svůj hlas, abyste mohli nastavit potlačení šumu na Soukromé.</string>
+    <string name="cs_pickup_vioce_print_in_private_tips_v2">Nahrajte svůj hlas a tvář, abyste mohli nastavit potlačení šumu na soukromé.</string>
     <string name="cs_pickup_vioce_print_private_dialog_title">Nahrajte hlas</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title_v2">Nahrát hlas a tvář</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Než vyberete možnost „Jeden účastník“, nahrajte hlas.</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Odpojte externí zařízení a zkuste to znovu.</string>
     <string name="cs_pickup_voice_print_auto_dialog_tips">"Váš hlas bude zaznamenán a zpracován pouze na tomto zařízení.
 Chcete-li dosáhnout nejlepších výsledků, zaznamenejte jej, když jste sami a na tichém místě."</string>
     <string name="cs_pickup_voice_print_auto_dialog_title">Pro personalizovanou redukci šumu je je vyžadován hlasový otisk</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title_v2">Pro personalizovanou redukci šumu je vyžadován hlas a tvář</string>
     <string name="cs_pickup_voice_print_desc">Zachytávejte hlas pouze jedné osoby</string>
     <string name="cs_privacy_camera_global_settings_title">Soukromí hovorů</string>
     <string name="cs_record_voice_title">Nahrát</string>
     <string name="cs_screen_translation_title">Překlad obrazovky</string>
     <string name="cs_simultaneous_interpretation_title">Tlumočení</string>
+    <string name="cs_simultaneous_interpretation_title_2">Přeložit</string>
     <string name="cs_title_pickup">Redukce šumu</string>
     <string name="cs_title_smart_subtitle">Přepis konverzace na titulky</string>
     <string name="cs_title_ultraclear">Režim Ultra HD</string>
     <string name="cs_tool_box_max_screen_guide_case_1">Vyzkoušejte simultánní tlumočení a další nástroje pro konfereční hovory v nové Sadě nástrojů pro volání</string>
     <string name="cs_tool_box_max_screen_guide_case_1_new">Vyzkoušejte simultánní tlumočení, Zkrášlení a další nástroje pro konfereční hovory v nové Sadě nástrojů pro volání</string>
+    <string name="cs_tool_box_max_screen_guide_case_1_new_v2">Vyzkoušejte funkce Přeložit, Zkrášlení a další v nové Sadě nástrojů pro volání</string>
     <string name="cs_tool_box_max_screen_guide_case_2">Vyzkoušejte širokou škálu funkcí pro konferenční hovory v nové Sadě nástrojů pro volání</string>
     <string name="cs_tool_box_max_screen_guide_case_2_new">Vyzkoušejte Zkrášlení a další nástroje pro konferenční hovory v nové Sadě nástrojů pro volání</string>
     <string name="cs_tool_box_max_screen_guide_case_3_new">Vyzkoušejte širokou škálu funkcí pro konferenční hovory v nové Sadě nástrojů pro volání</string>
     <string name="cs_tool_box_max_screen_guide_case_4_new">Vyzkoušejte simultánní tlumočení a další nástroje pro konfereční hovory v nové Sadě nástrojů pro volání</string>
+    <string name="cs_tool_box_max_screen_guide_case_4_new_v2">Vyzkoušejte funkce Přeložit a další v nové Sadě nástrojů pro volání</string>
     <string name="cs_tool_box_phone_guide_case_1">Vyzkoušejte simultánní tlumočení a další funkce nové Sady nástrojů pro volání</string>
     <string name="cs_tool_box_phone_guide_case_1_new">Vyzkoušejte simultánní tlumočení, Zkrášlení a další možnosti v nové Sadě nástrojů pro volání</string>
+    <string name="cs_tool_box_phone_guide_case_1_new_v2">Vyzkoušejte funkce Přeložit, Zkrášlení a další v nové Sadě nástrojů pro volání</string>
     <string name="cs_tool_box_phone_guide_case_2">Vyzkoušejte širokou škálu funkcí nové Sady nástrojů pro volání</string>
     <string name="cs_tool_box_phone_guide_case_2_new">Vyzkoušejte Zkrášlení a další funkce v nové Sadě nástrojů pro volání</string>
     <string name="cs_tool_box_phone_guide_case_3_new">Vyzkoušejte nabídku skvělých funkcí v nové Sadě nástrojů pro volání</string>
     <string name="cs_tool_box_phone_guide_case_4_new">Vyzkoušejte simultánní tlumočení a další funkce nové Sady nástrojů pro volání</string>
+    <string name="cs_tool_box_phone_guide_case_4_new_v2">Vyzkoušejte funkce Přeložit a další v nové Sadě nástrojů pro volání</string>
     <string name="cs_voice_print">Nahrajte hlas</string>
     <string name="cs_voice_search">Hlas</string>
     <string name="cs_vt_camera_title">Sdílení fotoaparátů v zařízeních</string>
@@ -1412,12 +1500,12 @@ Chcete-li dosáhnout nejlepších výsledků, zaznamenejte jej, když jste sami 
     <string name="deep_power_save_item_title_lock_screen_time">Vypnout displej</string>
     <string name="deep_save_memory_clean_summary">Vymazat mezipaměť při zamknutí zařízení, aby aplikace nespotřebovávaly baterii</string>
     <string name="deep_save_ontime_boot_shutdown_summary">Plánovaný čas zapnutí a vypnutí zařízení</string>
-    <string name="delete">Vymazat</string>
+    <string name="delete">Odstranit</string>
     <string name="delete_all_sms">Smazat vše</string>
     <string name="delete_connected_devices">Odstranit vybraná zařízení?</string>
     <string name="delete_connected_devices_title">Odstranit %1$s?</string>
     <string name="delete_from_manual_item_white_list">Odebrat z výjimek</string>
-    <string name="delete_input">Vymazat</string>
+    <string name="delete_input">Odstranit</string>
     <string name="deleted_apps">Odstraněné aplikace</string>
     <string name="demo_number">241</string>
     <string name="desc_share_uid_sec" formatted="false">%1s. %2s</string>
@@ -1487,9 +1575,9 @@ Všechna data na vašem zařízení mohou být smazána a heslo Zamykací obrazo
     <string name="dlg_add_keyword">Přidat klíčová slova</string>
     <string name="dlg_add_white">Nové hovory a zprávy z čísel přidaných do výjimek budou zobrazeny v historii volání a přijatých zprávách. Avšak dříve zablokované položky nebudou zobrazeny. Přidat vybraná čísla do výjimek?</string>
     <string name="dlg_antispam_mode_delete_message">Pravidla po jejich vymazání nelze obnovit.</string>
-    <string name="dlg_antispam_mode_delete_title">Vymazat pravidla?</string>
-    <string name="dlg_antispam_using_mode_delete_message">Vymazat právě používaná pravidla a přepnout na výchozí pravidla pro blokování?</string>
-    <string name="dlg_antispam_using_mode_international_delete_message">Vymazat právě používaná pravidla a přepnout na výchozí pravidla pro blokování?</string>
+    <string name="dlg_antispam_mode_delete_title">Odstranit pravidla?</string>
+    <string name="dlg_antispam_using_mode_delete_message">Odstranit právě používaná pravidla a přepnout na výchozí pravidla pro blokování?</string>
+    <string name="dlg_antispam_using_mode_international_delete_message">Odstranit právě používaná pravidla a přepnout na výchozí pravidla pro blokování?</string>
     <string name="dlg_black_address_antispam_message">Přidat tuto oblast do blokovaných?</string>
     <string name="dlg_black_antispam_hint">Blokované</string>
     <string name="dlg_black_antispam_message">Přidat toto číslo do blokovaných?</string>
@@ -1499,7 +1587,7 @@ Všechna data na vašem zařízení mohou být smazána a heslo Zamykací obrazo
     <string name="dlg_clear_all_sms">Smazat blokované zprávy?</string>
     <string name="dlg_clear_current_call">Vymazat všechny blokované hovory z tohoto čísla?</string>
     <string name="dlg_clear_current_ok">Vymazat</string>
-    <string name="dlg_clear_current_sms">Vymazat všechny blokované zprávy z tohoto čísla?</string>
+    <string name="dlg_clear_current_sms">Odstranit všechny blokované zprávy z tohoto čísla?</string>
     <string name="dlg_confirm">Zapnout</string>
     <string name="dlg_delete_keyword">Vymazat tato klíčová slova?</string>
     <string name="dlg_edit_keyword">Upravit klíčová slova</string>
@@ -1906,6 +1994,7 @@ Všechna data na vašem zařízení mohou být smazána a heslo Zamykací obrazo
     <string name="gallery_confirm_start_activity">Aplikace %s nemá povolen přístup k vaší Galerii a aplikacím sociálních médií. Tato aplikace se pokouší o přístup k obrázkům uloženým na tomto zařízení pro jejich sdílení. Povolit?</string>
     <string name="game_ad_recommendation">Všichni hrají</string>
     <string name="game_anti_disturb_msg">Nerušit při hraní</string>
+    <string name="game_audio_label_international">Zvuk ve hře</string>
     <string name="game_balance_gpu_enhance_title">Vylepšení diskrétní GPU</string>
     <string name="game_balance_more_setting_title">Další nastavení</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Vylepšený vizuální výkon</string>
@@ -1920,8 +2009,8 @@ Všechna data na vašem zařízení mohou být smazána a heslo Zamykací obrazo
     <string name="game_booster_tab_top">Horní</string>
     <string name="game_booster_title">Posílit</string>
     <string name="game_bootser_tab_settings">Nastavení zvýšení rychlosti</string>
-    <string name="game_center_more">Více</string>
-    <string name="game_center_network_setting_tip">Povolte v Nastavení aplikaci optimalizace připojení k internetu</string>
+    <string name="game_center_more">Další</string>
+    <string name="game_center_network_setting_tip">V Nastavení povolte aplikaci Zabezpečení připojení k internetu</string>
     <string name="game_center_network_setting_tip_pad">V Nastavení povolte aplikaci Zabezpečení připojení k internetu</string>
     <string name="game_center_recommend">Doporučené</string>
     <string name="game_else_function">Ostatní</string>
@@ -1947,7 +2036,7 @@ Všechna data na vašem zařízení mohou být smazána a heslo Zamykací obrazo
     <string name="game_toolbox_ai_qa_title">Průvodce AI</string>
     <string name="game_toolbox_ai_service_desc">Zážitek z hraní vylepšený pomocí AI</string>
     <string name="game_toolbox_ai_service_title">Herní služby s AI</string>
-    <string name="game_toolbox_ai_upgrade_dialog_btn">Aktualizovat</string>
+    <string name="game_toolbox_ai_upgrade_dialog_btn">Aktualizace</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">Je k dispozici aktualizace herních služeb s AI. Než začnete používat související funkce, proveďte aktualizaci.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Zkontrolovat aktualizace</string>
     <string name="game_toolbox_auto_brightness_talkback">Automatický jas</string>
@@ -2023,7 +2112,7 @@ Když je zapnutá funkce Chytrá snímková frekvence, nástroje pro pro měřen
     <string name="game_toolbox_slow_charge_negative_btn">Zrušit</string>
     <string name="game_toolbox_slow_charge_notification_msg">Tato funkce zlepšuje herní zážitek během nabíjení tím, že se zpomalí rychlost nabíjení. To může zabránit přehřátí zařízení.</string>
     <string name="game_toolbox_slow_charge_notification_title">Probíhá pomalé nabíjení</string>
-    <string name="game_toolbox_slow_charge_positive_btn">Zapnout</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Povolit</string>
     <string name="game_toolbox_slow_charge_title">Pomalé nabíjení</string>
     <string name="game_toolbox_slow_charge_toast">Pomalé nabíjení je zapnuté</string>
     <string name="game_toolbox_smart_charge_title">Chytré nabíjení</string>
@@ -2090,12 +2179,14 @@ Když je zapnutá funkce Chytrá snímková frekvence, nástroje pro pro měřen
     <string name="gamebox_func_antimsg_open">Plovoucí oznámení jsou nyní zakázána</string>
     <string name="gamebox_func_immersion_close">Režim Immersive je vypnutý</string>
     <string name="gamebox_func_immersion_open">Režim Immersive je zapnutý</string>
+    <string name="gamebox_func_start_gyroscope_international">Zapněte v nastavení hry gyroskop a použijte tuto funkci</string>
     <string name="gamebox_func_switch_simcard">Přepnuto na SIM %1$d pro datové připojení</string>
     <string name="gamebox_func_switch_simcard_immersion">V režimu Immersive SIM karty nelze přepnout</string>
     <string name="gamebox_func_wlan_close">Wi-Fi je vypnuta</string>
     <string name="gamebox_func_wlan_open">Wi-Fi je zapnuta</string>
     <string name="gamebox_game_center_app_not_find">Nejprve nainstalujte Hry</string>
     <string name="gamebox_gift_pack">Dárky</string>
+    <string name="gamebox_gyroscope_acceleration_international">Vylepšení gyroskopu</string>
     <string name="gamebox_hangup">Vypnutí obrazovky</string>
     <string name="gamebox_hangup_new">Vypnout obrazovku</string>
     <string name="gamebox_hangup_tips_content">Tato funkce dovoluje, aby hra běžela nepřetržitě na pozadí i po vypnutí obrazovky. Funkce bude automaticky vypnuta, jakmile zařízení odemknete.</string>
@@ -2184,7 +2275,7 @@ Když je zapnutá funkce Chytrá snímková frekvence, nástroje pro pro měřen
     <string name="gb_already_in_game_list_tips">Tato položka již byla přidána mezi herní aplikace. Nelze ji přidat znovu.</string>
     <string name="gb_already_in_video_list_tips">Tato položka již byla přidána mezi video aplikace. Nelze ji přidat znovu.</string>
     <string name="gb_application_not_find">Žádné položky</string>
-    <string name="gb_audition_instruction">Pro nahrávání stiskněte a přidržte (%1$s-%2$s s)</string>
+    <string name="gb_audition_instruction">Pro nahrávání podržte (%1$s-%2$s s)</string>
     <string name="gb_audition_play_instruction">Pro lepší výsledek použijte sluchátka</string>
     <string name="gb_award_noti_message">Zapněte aktualizace na pozadí pro Game for Peace v Game Turbo pro získání odměn</string>
     <string name="gb_award_noti_title">Odměny Game for Peace už na vás čekají!</string>
@@ -2276,6 +2367,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_game_macro_toast_tips">"Vyzkoušejte kombinovaná videa!
 Nahrajte a propojte sekvence podle svého gusta!"</string>
     <string name="gb_game_mode_change_btn_right">Restartovat</string>
+    <string name="gb_game_mode_change_failed_toast">Nepodařilo se uložit</string>
     <string name="gb_game_mode_change_message">Restartovat hru a použít změny režimu zobrazení?</string>
     <string name="gb_game_mode_change_new">Zde můžete zvolit rozložení</string>
     <string name="gb_game_mode_change_title">Restartovat hru</string>
@@ -2318,6 +2410,9 @@ Nahrajte a propojte sekvence podle svého gusta!"</string>
     <string name="gb_gpu_driver_update_app_tips">Současná verze je aktuální</string>
     <string name="gb_have_signed">Dnes jste se již přihlásili</string>
     <string name="gb_hot_area_seekbar">Rozsah žhavé zóny</string>
+    <string name="gb_launch_mute_start">Ticho</string>
+    <string name="gb_launch_mute_start_enbaled_toast">Tichý režim je zapnutý. (klikněte)Vypnout(/click)</string>
+    <string name="gb_launch_mute_start_unmuted_toast">Zvuk byl obnoven</string>
     <string name="gb_manual_record_dialog_del_video_message">Trvale odstranit vybraná videa?</string>
     <string name="gb_manual_video_record_title">Nahrávky</string>
     <string name="gb_margin_restrain">Ignorovat náhodný dotyk na okrajích</string>
@@ -2506,11 +2601,20 @@ klíčové momenty vaší hry"</string>
     <string name="gd_app_edit_title_new">Upravit zástupce plovoucích oken</string>
     <string name="gd_beauty_manage_summary">Chcete-li použít tuto funkci, otevřete ji během videohovorů z boční sady nástrojů.</string>
     <string name="gd_beauty_manage_title">Zkrášlení pro videohovory</string>
+    <string name="gd_dock_preview_section_title">Jak otevřít</string>
+    <string name="gd_dock_preview_sidebar_title">Přetáhněte ukazatel dovnitř</string>
+    <string name="gd_dock_preview_swipe_title">Přetáhněte a podržte</string>
     <string name="gd_dock_shortcut_fullscreen">Celá obrazovka</string>
+    <string name="gd_dock_shortcut_multisplitscreen">MultiSplit obrazovka</string>
     <string name="gd_dock_shortcut_splitescreen">Rozdělení obrazovky</string>
+    <string name="gd_dock_swipe_launcher_upgrade_hint">Aktuální verze launcheru nepodporuje přidržení při přetahování</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_cancel">Zrušit</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_confirm">Přepnout</string>
+    <string name="gd_dock_xiaoai_ball_dialog_content">Můžete přetáhnout a přidržet akční bublinu Xiaomi Hyper XiaoAi. Pokud přepnete na postranní sadu nástrojů, akční bublina Xiaomi Hyper XiaoAi se vypne. Chcete nyní přepnout?</string>
+    <string name="gd_dock_xiaoai_ball_dialog_title">Přepnout způsob aktivace?</string>
     <string name="gd_setting_conversation">Nástroje konference</string>
     <string name="gd_setting_conversation_desc">Množství užitečných funkcí pro audio a video hovory v režimu celé obrazovky</string>
-    <string name="gd_setting_dock_activity_title">Postranní sada nástrojů</string>
+    <string name="gd_setting_dock_activity_title">Postranní panel nástrojů</string>
     <string name="gd_setting_dock_call_summary_new">Používejte během audiohovorů a videohovorů na celou obrazovku „Zkrášlení“ a další funkce</string>
     <string name="gd_setting_dock_call_title">Sada nástrojů pro volání</string>
     <string name="gd_setting_dock_game_summary">Vylepšete zobrazení a výkon při hraní her</string>
@@ -2542,7 +2646,7 @@ klíčové momenty vaší hry"</string>
     <string name="gd_sidebar_edit_delete_app_tips_talkback">Odstranit aplikaci</string>
     <string name="gd_sidebar_edit_division_line_talkback">Oddělovací čára</string>
     <string name="gd_sidebar_edit_quick_title">Zástupci</string>
-    <string name="gd_sidebar_long_press_tips">Držte zařízení ve svislé poloze a stiskněte a přidržte indikátor pro jeho přesunutí</string>
+    <string name="gd_sidebar_long_press_tips">Držte zařízení ve svislé poloze a podržte indikátor pro jeho přesunutí</string>
     <string name="gd_splite_screen_tips">Plovoucí okna nejsou v režimu Rozdělení obrazovky podporována</string>
     <string name="gdpr_msg"><Data>Pro detekování bezpečnostních rizik a zajištění ochrany vašich dat, tato aplikace vyžaduje váš souhlas se shromažďováním některých údajů o vašem zařízení. Před využitím našich služeb si přečtěte a souhlaste s našimi &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Zásadami ochrany osobních údajů&lt;/a>. Pokud se rozhodnete neudělit souhlas se shromažďováním výše uvedených informací, budete moci aplikaci i nadále vyžívat, avšak některé z funkcí nebudou dostupné.</Data></string>
     <string name="ge" />
@@ -2553,14 +2657,15 @@ klíčové momenty vaší hry"</string>
     <string name="global_dock_guide_desc_pad">Přidržením indikátoru okno přesunete</string>
     <string name="global_dock_guide_desc_with_split_screen">"· Klepněte na aplikaci v postranní liště pro otevření plovoucího okna.
 · Přetáhněte aplikaci do středu obrazovky pro její otevření v plovoucím okně nebo na boční hranu obrazovky pro její otevření pomocí funkce Rozdělení obrazovky.
-· Stiskněte a přidržte prst na indikátoru pro přesunutí okna."</string>
+· Podržte prst na indikátoru pro přesunutí okna."</string>
     <string name="global_dock_guide_desc_with_split_screen_new">"Klepněte na aplikaci v postranní liště pro otevření v plovoucím okně.
  Přetažením aplikace do středu obrazovky ji otevřete v plovoucím okně a přetažením do strany ji otevřete v režimu Rozdělení obrazovky.
  Přidržením indikátoru okno přesunete."</string>
     <string name="global_dock_guide_desc_without_split_screen">"· Klepněte na aplikaci v postranní liště pro otevření plovoucího okna.
-· Stiskněte a přidržte prst na indikátoru pro přesunutí okna."</string>
+· Podržte prst na indikátoru pro přesunutí okna."</string>
     <string name="global_dock_guide_desc_without_split_screen_new">"Potažením otevřete postranní lištu a klepnutím na aplikaci ji otevřete v plovoucím okně.
 Přidržením indikátoru okno posunete."</string>
+    <string name="global_dock_recommend_switch_title">Zobrazit doporučené aplikace na postranní liště</string>
     <string name="global_satisfaction_notification_button">Ohodnotit</string>
     <string name="global_satisfaction_notification_channel">Průzkum uživatelské spokojenosti</string>
     <string name="global_satisfaction_notification_subhead">Podělte se s námi o vaše zkušenosti</string>
@@ -2627,7 +2732,7 @@ Přidržením indikátoru okno posunete."</string>
     <string name="gs_game_performance">Výkon</string>
     <string name="gs_game_record_intro_tips">*Nahrávání během hraní je dostupné pouze pro vybrané kompatibilní hry</string>
     <string name="gs_game_shortcut">Vylepšete své herní prostředí</string>
-    <string name="gs_gamebox">Zástupci ve hře</string>
+    <string name="gs_gamebox">Zkratky ve hře</string>
     <string name="gs_gamebox_detail">Pro zobrazení potáhněte prstem z horního okraje obrazovky</string>
     <string name="gs_gamebox_slip">Potáhněte dolů pro otevření</string>
     <string name="gs_only_self_start_for_list">Zakázat procesy běžící na pozadí pro úsporu baterie během hraní</string>
@@ -2802,6 +2907,9 @@ a zapojte se do hledání vajíček!"</string>
     <string name="install_title">Instalovat pomocí USB</string>
     <string name="install_type_instant">Rychlá aplikace</string>
     <string name="installing">Instalování</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Více aplikací, včetně %s, zneužívá povolení pro usnadnění přístupu</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Tato aplikace zneužívá povolení pro usnadnění přístupu. Klepnutím zobrazíte.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Zablokována škodlivá aplikace %s</string>
     <string name="intercept_all_mark_calls">Blokovat všechny hovory označené jako „%s“?</string>
     <string name="intercept_calls_nofify_hide_text">Chcete-li nastavit pravidla blokování pro další označená čísla, klepněte sem</string>
     <string name="intercept_calls_notify_title">Hovory označené tímto štítkem budou automaticky ukončeny. Začít blokovat?</string>
@@ -2828,7 +2936,7 @@ a zapojte se do hledání vajíček!"</string>
     <string name="invalid_charger">Pomocí tohoto USB zařízení nelze nabít. Použijte USB nabíječku z příslušenství telefonu.</string>
     <string name="invisible_mode_close_summary_compact">Aktuální verze systému podporuje pouze současné zapnutí oprávnění fotoaparátu, polohy a mikrofonu pro všechny aplikace. Zapnutím jednoho z těchto oprávnění se zapnou všechna.</string>
     <string name="invisible_mode_close_title_compact">Připomenutí oprávnění</string>
-    <string name="invisible_mode_open_summary_compact">Současná verze podporuje pouze současné vypnutí oprávnění fotoaparátu, polohy a mikrofonu pro všechny aplikace. Vypnutím jednoho z těchto oprávnění se vypnou všechna.</string>
+    <string name="invisible_mode_open_summary_compact">Aktuální verze systému podporuje pouze současné vypnutí oprávnění pro přístup k fotoaparátu, poloze a mikrofonu pro všechny aplikace. Vypnutím jednoho z těchto oprávnění se vypnou všechna.</string>
     <string name="invisible_mode_open_title_compact">Připomenutí oprávnění</string>
     <string name="ip_address_exception_summary">IP adresu se nepodařilo získat. Pokud se tato chyba opakuje, zkuste nastavit pevnou IP adresu.</string>
     <string name="item_app_permission">Oprávnění aplikací</string>
@@ -3098,7 +3206,7 @@ Vaše zařízení je nyní o %s rychlejší."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Varování</string>
     <string name="menu_item_virus_risky_app_detect_summary">Zablokovat nebo oznámit rizikové aplikace</string>
     <string name="menu_item_virus_risky_app_detect_uninstall">Odinstalovat</string>
-    <string name="menu_remove">Vymazat</string>
+    <string name="menu_remove">Odstranit</string>
     <string name="menu_report">Nahlásit chybu</string>
     <string name="menu_setting_traffic">Nastavit manuálně</string>
     <string name="menu_show_work_profile_text">Zobrazit aplikace Pracovního prostoru</string>
@@ -3193,6 +3301,7 @@ Vaše zařízení je nyní o %s rychlejší."</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Přepnout na poloviční obrazovku</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizovat</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizovat</string>
+    <string name="miuix_popup_show_description">Vyskakovací okno</string>
     <string name="miuix_popup_window_default_title">Vyskakovací okno</string>
     <string name="miuix_progressbar_loading">Načítání</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potáhněte pro obnovení</string>
@@ -3434,6 +3543,8 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="notification_abnormal_check_now_button">Zobrazit</string>
     <string name="notification_abnormal_consume_app_title">Aplikace %s vybíjí baterii</string>
     <string name="notification_abnormal_consume_cpu">Zdroje procesoru jsou zneužívány na pozadí</string>
+    <string name="notification_abnormal_consume_high_drain_app_title">%s vybíjí baterii</string>
+    <string name="notification_abnormal_consume_high_drain_subtitle">Vysoké využívání baterie na pozadí</string>
     <string name="notification_abnormal_consume_wakelock">Systém stále běží na pozadí</string>
     <string name="notification_antivirus_button_text">Zkontrolovat</string>
     <string name="notification_antivirus_message">Zkontrolujte zařízení nyní pro snížení rizika</string>
@@ -3521,7 +3632,10 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s využito %2$s tento týden</string>
     <string name="now_inquiry">Podrobnosti</string>
     <string name="number_address">Oblast</string>
+    <string name="number_locked_v2">{count, plural, =0 {0 zamčených aplikací} one {# zamčená aplikace} few {# zamčené aplikace} many {# zamčených aplikací} other {# zamčených aplikací} }</string>
+    <string name="number_masked_v2">{count, plural, =0 {0 aplikací} one {# aplikace} few {# aplikace} many {# aplikací} other {# aplikací} }</string>
     <string name="number_of_lucky_money">Červené obálky, na které jste dostali upozornění</string>
+    <string name="number_to_lock_v2">{count, plural, =0 {0 nezamčených aplikací} one {# nezamčená aplikace} few {# nezamčené aplikace} many {# nezamčených aplikací} other {# nezamčených aplikací} }</string>
     <string name="numeric_need_to_confirm">Zadejte znovu pro potvrzení</string>
     <string name="numeric_password_confirmed_header_confirm">Úspěšně nastaveno. Klepněte pro potvrzení.</string>
     <string name="numeric_password_confirmed_header_continue">Úspěšně nastaveno. Klepněte na \"Další\".</string>
@@ -3570,7 +3684,15 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="open_activity_err">Aplikace nebyla nalezena</string>
     <string name="open_app">Otevřít</string>
     <string name="open_applock">Zapnout Zámek aplikací</string>
+    <string name="open_applock_calling_tips">Zamkne aplikace a ověří vaši totožnost při jejich otevírání. Zámek aplikací používá dva typy hesel a podporuje biometrické ověřování.</string>
+    <string name="open_applock_calling_title">Zámek aplikací</string>
     <string name="open_applock_password_type">Typ hesla</string>
+    <string name="open_applock_tip_item1_sub_title">Použijte heslo pro ochranu osobních údajů nebo heslo Zamykací obrazovky</string>
+    <string name="open_applock_tip_item1_title">Dva typy hesel</string>
+    <string name="open_applock_tip_item2_sub_title">Odemkněte aplikace otiskem prstu nebo tváří</string>
+    <string name="open_applock_tip_item2_title">Biometrické ověření</string>
+    <string name="open_applock_tip_item3_sub_title">Vyberte, zda chcete ověření vyžadovat po zamknutí obrazovky, po uplynutí nastavené doby nebo po ukončení aplikace</string>
+    <string name="open_applock_tip_item3_title">Vlastní načasování ověření</string>
     <string name="open_applock_tips">Uzamkněte si aplikace a vyžadujte při jejich otevírání ověření identity. Zámek aplikací nabízí dva typy hesel a podporuje biometrické ověření.</string>
     <string name="open_callwait">Zap.</string>
     <string name="open_dnd_mode">Režim Nerušit</string>
@@ -3598,8 +3720,6 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Používání škodlivých aplikací představuje bezpečnostní rizika.</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s může být škodlivou aplikací.</string>
     <string name="optimize_manage_title">Zvýšit rychlost</string>
     <string name="optimize_result_available_memory_info">Dostupná paměť</string>
     <string name="optimize_result_button_cloudspace">Získat více místa na úložišti cloudu</string>
@@ -3652,6 +3772,7 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="overlay_permission_dialog_message_security_service">Aby aplikace Zabezpečení mohla správně fungovat, musí jí být udělena určitá oprávnění.</string>
     <string name="overlay_permission_dialog_open">Nastavení</string>
     <string name="overlay_permission_dialog_title">Vyžadována oprávnění</string>
+    <string name="overlay_read_clip_toast">Aplikace „%1$s“ přistoupila ke schránce</string>
     <string name="package_change_notification_summary">Klepněte pro více informací.</string>
     <string name="package_change_notification_title">Nastavit datový limit automaticky</string>
     <string name="package_setted_error_notification_summary">Zobrazit podrobnosti o využití dat.</string>
@@ -3683,6 +3804,7 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="pb_abnormal_header_time">Čas</string>
     <string name="pb_abnormal_header_type">Typ</string>
     <string name="pb_abnormal_header_value">Hodnota</string>
+    <string name="pb_abnormal_idle_high_temp">Přehřívání při nečinnosti</string>
     <string name="pb_abnormal_loading">Ještě chvilku…</string>
     <string name="pb_abnormal_record">Historie</string>
     <string name="pb_activity_title">Podrobnosti o powerbance</string>
@@ -3694,6 +3816,7 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="pb_data_fetch_all_error">Data se nepodařilo načíst. Powerbanka může být odpojená nebo nepodporovaná.</string>
     <string name="pb_data_fetch_all_error_new">Data se nepodařilo načíst. Powerbanka může být odpojená nebo nemusí být podporovaná. Pokud byla odpojená, připojte nabíjecí kabel zpět a zkuste to znovu.</string>
     <string name="pb_data_fetch_partial_error">Některé položky jsou nedostupné kvůli prodlevě nebo nepodporované powerbance</string>
+    <string name="pb_data_fetch_partial_error_new">Některé položky jsou nedostupné kvůli prodlevě nebo nepodporované powerbance</string>
     <string name="pb_manufacturer">Výrobce</string>
     <string name="pb_measure_point">Senzor %1$d</string>
     <string name="pb_production_date">Datum výroby</string>
@@ -4011,6 +4134,210 @@ Ultra spořiče baterie"</string>
     <string name="pc_work_in_super_save_mode">Ultra spořič baterie</string>
     <string name="pc_xiaoai_create_auto_task">Nový úkol z Mi AI</string>
     <string name="pc_xiaoai_voice_control_close">Vypněte Mi AI funkci „Hlasové probuzení“</string>
+    <string name="peep_protection_ai_key_disabled">Soukromý displej je vypnutý</string>
+    <string name="peep_protection_ai_key_enabled">Soukromý displej je zapnutý</string>
+    <string name="peep_protection_v2_app_notification_protection">Oznámení</string>
+    <string name="peep_protection_v2_app_notification_protection_desc">Oznámení z vybraných aplikací aktivují soukromé zobrazení</string>
+    <string name="peep_protection_v2_app_protection_desc">Zapínat soukromý displej u vybraných aplikací</string>
+    <string name="peep_protection_v2_banner_summary">Vyzkoušejte funkce soukromého displeje vyhrazené pro tento model zařízení</string>
+    <string name="peep_protection_v2_banner_title">Soukromý displej Xiaomi</string>
+    <string name="peep_protection_v2_batch_disable">Vypnout</string>
+    <string name="peep_protection_v2_batch_enable">Zapnout</string>
+    <string name="peep_protection_v2_category_capability">Možnosti funkce</string>
+    <string name="peep_protection_v2_category_capability_v2">Rozpoznání pohledu</string>
+    <string name="peep_protection_v2_category_finance">Finance</string>
+    <string name="peep_protection_v2_category_group_title_v2">%1$s (%2$d)</string>
+    <string name="peep_protection_v2_category_other">Další</string>
+    <string name="peep_protection_v2_category_recommend">Doporučeno</string>
+    <string name="peep_protection_v2_category_scene">Scénáře</string>
+    <string name="peep_protection_v2_category_scene_v2">Obrazovka</string>
+    <string name="peep_protection_v2_category_smart">Chytrý</string>
+    <string name="peep_protection_v2_category_social">Sociální sítě</string>
+    <string name="peep_protection_v2_category_suggest">Doporučené</string>
+    <string name="peep_protection_v2_category_tip_dismiss">Ne, děkuji</string>
+    <string name="peep_protection_v2_category_tip_message">Umožněte, aby vám Xiaomi Hyper XiaoAi pomohla vytvořit vlastní skupiny aplikací. Například můžete přidat aplikace Galerie, Hesla a Poznámky do skupiny soukromého zobrazení nazvané „Metro“. Také můžete Xiaomi Hyper XiaoAi říct, jak chcete aplikace seskupit a přidat další pravidla pro jejich chytrou aktivaci.</string>
+    <string name="peep_protection_v2_category_tip_prompt">Vytvořte skupinu aplikací se soukromým zobrazením. Přidejte %1$s do této skupiny, nazvěte ji „Privátní“ a zapněte soukromé zobrazení pro tyto aplikace.</string>
+    <string name="peep_protection_v2_category_tip_title">Vytvořte si vlastní skupinu</string>
+    <string name="peep_protection_v2_color_inversion_closed_msg">Tato funkce není kompatibilní s převrácením barev. Soukromý displej Xiaomi byl vypnut.</string>
+    <string name="peep_protection_v2_color_inversion_closed_reopen">Zapnout</string>
+    <string name="peep_protection_v2_color_inversion_closed_title">Soukromý displej Xiaomi byl vypnut</string>
+    <string name="peep_protection_v2_color_inversion_conflict_msg">Tato funkce není kompatibilní s převrácením barev. Nejprve vypněte převrácení barev.</string>
+    <string name="peep_protection_v2_color_inversion_conflict_title">Vypnout převrácení barev</string>
+    <string name="peep_protection_v2_cue_byapp_reason">Zapnout soukromý displej pro tuto aplikaci</string>
+    <string name="peep_protection_v2_cue_byapp_title">Zapnout soukromý displej pro %s</string>
+    <string name="peep_protection_v2_cue_global_reason">Vyzkoušejte funkce soukromí vyhrazené pro tento model zařízení</string>
+    <string name="peep_protection_v2_cue_global_title">Zapnout Soukromý displej Xiaomi</string>
+    <string name="peep_protection_v2_cue_summary">Tato funkce je vyhrazena pouze pro tento model zařízení</string>
+    <string name="peep_protection_v2_deep_mode">Zvýšená ochrana soukromí</string>
+    <string name="peep_protection_v2_deep_mode_desc">Znesnadněte zobrazení obrazovky ostatním uživatelům</string>
+    <string name="peep_protection_v2_expert_mode_hint">*Vyžaduje přepnutí Xiaomi Hyper XiaoAi do režimu Pro</string>
+    <string name="peep_protection_v2_face_need_input_hint">Je vyžadována tvář</string>
+    <string name="peep_protection_v2_first_close_message">Přidejte Soukromý displej Xiaomi v části Centrum ovládání > Upravit > Systémové přepínače, abyste ho mohli rychle zapnout a vypnout.</string>
+    <string name="peep_protection_v2_first_close_title">Rychle zapnout Soukromý displej Xiaomi</string>
+    <string name="peep_protection_v2_first_close_title_v2">Přepínače</string>
+    <string name="peep_protection_v2_global_first_open_msg">Přidejte Ochranu soukromí na celé obrazovce v části Centrum ovládání > Upravit > Systémové přepínače, abyste ho mohli rychle zapnout a vypnout.</string>
+    <string name="peep_protection_v2_global_first_open_title">Rychlé zapnutí Ochrany soukromí na celé obrazovce</string>
+    <string name="peep_protection_v2_global_hint">Nelze detekovat pohled jiné osoby, když je zapnutá Ochrana soukromí na celé obrazovce</string>
+    <string name="peep_protection_v2_global_no_aon_hint">Kvůli úspoře baterie nebude pohled jiné osoby rozpoznáván, když je zapnuta Ochrana soukromí na celé obrazovce</string>
+    <string name="peep_protection_v2_global_protection">Ochrana soukromí na celé obrazovce</string>
+    <string name="peep_protection_v2_global_protection_desc">Použijte soukromý displej v různých scénářích na vašem zařízení</string>
+    <string name="peep_protection_v2_global_protection_desc_v2">Soukromý displej zůstane zapnutý v celém zařízení</string>
+    <string name="peep_protection_v2_go_miclaw">Otevřít Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_header_desc_v2">Viditelnost obrazovky ze stran bude omezena. Zařízení vás upozorní, když rozpozná pohled jiné osoby. (click)Zjistěte více(/click)</string>
+    <string name="peep_protection_v2_intro_detection_desc">Nastavte chytrá pravidla pro tuto funkci pomocí Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_intro_enable">Zapnout</string>
+    <string name="peep_protection_v2_intro_pixel_desc">Zúžte zorný úhel obrazovky a zjistěte, kdy se někdo jiný dívá</string>
+    <string name="peep_protection_v2_intro_pixel_title">Soukromí na úrovni hardwaru</string>
+    <string name="peep_protection_v2_intro_privacy_tip">Znesnadněte viditelnost obrazovky z boku s nepřetržitou detekcí a upozorněními, když se na ni někdo jiný dívá</string>
+    <string name="peep_protection_v2_intro_scope_desc_global">Vyberte konkrétní aplikace nebo oznámení, nebo tuto funkci používejte v celém zařízení</string>
+    <string name="peep_protection_v2_intro_smart_page_desc">Vyberte konkrétní aplikace, stránky a oznámení, nebo použijte tuto funkci v celém zařízení</string>
+    <string name="peep_protection_v2_intro_smart_page_title">Různé scénáře</string>
+    <string name="peep_protection_v2_learn_more">Zjistit více</string>
+    <string name="peep_protection_v2_learn_more_limits_desc">"Tato funkce může mírně zvýšit spotřebu energie. Bude dočasně vypnuta, aby se šetřila baterie, když je zapnutý Spořič baterie.
+Při náhledu obsahu HDR se soukromý displej pozastaví, aby byla zajištěna kvalita zobrazení.
+Soukromý displej se v režimu na šířku pozastaví a automaticky se znovu spustí poté, co se vrátíte do režimu na výšku.
+Některá témata třetích stran zatím nepodporují soukromý displej pro oznámení na Zamykací obrazovce.
+Může docházet ke zpožděním při detekování příjezdů do míst nebo odjezdů z nich."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global">"Tato funkce může mírně zvýšit spotřebu energie. Bude dočasně vypnuta, aby se šetřila baterie, když je zapnutý Spořič baterie.
+Při náhledu obsahu HDR se soukromý displej pozastaví, aby byla zajištěna kvalita zobrazení.
+Soukromý displej se v režimu na šířku pozastaví a automaticky se znovu spustí poté, co se vrátíte do režimu na výšku.
+Některá témata třetích stran zatím nepodporují soukromý displej pro oznámení na Zamykací obrazovce."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global_hdr">"Tato funkce může mírně zvýšit spotřebu energie. Bude dočasně vypnuta, aby se šetřila baterie, když je zapnutý Spořič baterie.
+Při náhledu obsahu HDR se soukromý displej pozastaví, aby byla zajištěna kvalita zobrazení.
+Soukromý displej se v režimu na šířku pozastaví a automaticky se znovu spustí poté, co se vrátíte do režimu na výšku.
+Některá témata třetích stran zatím nepodporují soukromý displej pro oznámení na Zamykací obrazovce."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_hdr">"Tato funkce může mírně zvýšit spotřebu energie. Bude dočasně vypnuta, aby se šetřila baterie, když je zapnutý Spořič baterie.
+Při náhledu obsahu HDR se soukromý displej pozastaví, aby byla zajištěna kvalita zobrazení.
+Soukromý displej se v režimu na šířku pozastaví a automaticky se znovu spustí poté, co se vrátíte do režimu na výšku.
+Některá témata třetích stran zatím nepodporují soukromý displej pro oznámení na Zamykací obrazovce.
+Může docházet ke zpožděním při detekování příjezdů do míst nebo odjezdů z nich."</string>
+    <string name="peep_protection_v2_learn_more_limits_title">Omezení a zvláštní případy</string>
+    <string name="peep_protection_v2_learn_more_privacy_desc">"Po zapnutí této funkce může zařízení používat přední kameru k pořizování snímků a k lokálnímu rozpoznávání obličejů nebo směru pohledu, když je aktivní detekce pohledu. To slouží k zjištění, zda se na obrazovku dívá někdo jiný než vy, a k upozornění.
+Všechna data se zpracovávají na vašem zařízení a nebudou nahrána na Xiaomi Cloud ani do žádné cloudové služby třetí strany."</string>
+    <string name="peep_protection_v2_learn_more_privacy_title">Prohlášení o ochraně osobních údajů</string>
+    <string name="peep_protection_v2_learn_more_scope_desc">"Můžete si vybrat, jak bude Soukromý displej Xiaomi fungovat: v celém zařízení, ve vybraných aplikacích, na citlivých stránkách nebo u oznámení.
+
+Ochrana soukromí na celé obrazovce:
+Soukromý displej zůstává zapnutý v celém zařízení, aby pomohl chránit vše, co si zobrazujete. Pohled jiné osoby nebude detekován, když je tato funkce zapnutá.
+
+Vybrané aplikace:
+Vyberte aplikace, které chcete chránit. Když jsou tyto aplikace zobrazeny na obrazovce, Soukromý displej Xiaomi sníží viditelnost ze strany a rozpozná, jestli se dívá někdo jiný.
+
+Citlivé stránky:
+I když některé aplikace nejsou přidány na seznam, Soukromý displej Xiaomi se může automaticky zapnout pro citlivé stránky, jako je zadávání hesla, platby, převody a zasílání zpráv.
+
+Oznámení z aplikací:
+Oznámení z vámi vybraných aplikací se zobrazují s částečnou ochranou soukromí, aby se zabránilo tomu, že ostatní uvidí citlivé informace."</string>
+    <string name="peep_protection_v2_learn_more_scope_desc_global">"Můžete si vybrat, jak bude Soukromý displej Xiaomi fungovat: v celém zařízení, ve vybraných aplikacích nebo u oznámení.
+
+Ochrana soukromí na celé obrazovce:
+Soukromý displej zůstává zapnutý v celém zařízení, aby pomohl chránit vše, co si zobrazujete. Když je tato funkce zapnutá, pohled jiné osoby nebude rozpoznáván.
+
+Vybrané aplikace:
+Vyberte aplikace, které chcete chránit. Když jsou tyto aplikace zobrazeny na obrazovce, Soukromý displej Xiaomi sníží viditelnost ze strany a rozpozná, jestli se dívá někdo jiný.
+
+Oznámení z aplikací:
+Oznámení z vámi vybraných aplikací se zobrazují s částečnou ochranou soukromí zajišťující, aby ostatní neviděli citlivé informace."</string>
+    <string name="peep_protection_v2_learn_more_scope_title">Rozsah soukromého displeje</string>
+    <string name="peep_protection_v2_learn_more_smart_desc">Svého AI asistenta můžete použít k vytvoření a správě skupin soukromých displejů pro aplikace, k automatickému zapnutí Ochrany soukromí na celé obrazovce na veřejných místech nebo k automatickému zapnutí vybraných skupin. Můžete také upravit rozsah soukromého displeje a pravidla jeho spuštění tak, aby to lépe odpovídalo vašim návykům.</string>
+    <string name="peep_protection_v2_learn_more_smart_title">Vlastní pravidla</string>
+    <string name="peep_protection_v2_learn_more_understand_desc">"Soukromý displej Xiaomi kombinuje sníženou viditelnost z bočních úhlů s oznámením o ochraně soukromí, aby pomáhal chránit jak před sledováním z širokého úhlu, tak před sledováním zblízka z užších úhlů, čímž vám poskytuje komplexnější ochranu soukromí.
+
+Snížená viditelnost z bočních úhlů:
+Díky ovládání světla obrazovky na úrovni pixelů se obsah obrazovky s rostoucím pozorovacím úhlem rychle stává hůře čitelným. To pomáhá snížit pravděpodobnost, že ostatní uvidí vaše osobní informace.
+
+Oznámení o ochraně soukromí:
+Jako doplněk snížené viditelnosti z bočních úhlů vás systém může upozornit, když zjistí, že se někdo jiný než vy dívá na obrazovku zezadu nebo z jiného užšího úhlu."</string>
+    <string name="peep_protection_v2_learn_more_understand_title">O Soukromém displeji Xiaomi</string>
+    <string name="peep_protection_v2_main_body">Viditelnost obrazovky ze stran bude omezena. Vaše zařízení bude také průběžně hlídat, zda se někdo nedívá na vaši obrazovku, a pokud rozpozná pohled jiné osoby, upozorní vás na to. (click)Zjistit více(/click)</string>
+    <string name="peep_protection_v2_main_desc">Chraňte svou obrazovku před pohledy jiných lidí</string>
+    <string name="peep_protection_v2_main_switch">Soukromý displej Xiaomi</string>
+    <string name="peep_protection_v2_main_switch_desc">Použijte soukromý displej a detekujte pohled jiné osoby</string>
+    <string name="peep_protection_v2_main_switch_desc_v2">Povolit zařízení zapínat soukromý displej podle vybraného scénáře</string>
+    <string name="peep_protection_v2_main_switch_title_v2">Soukromý displej Xiaomi</string>
+    <string name="peep_protection_v2_main_tile_label">Soukromý displej Xiaomi</string>
+    <string name="peep_protection_v2_move_app_title_v2">Přesunout %s do</string>
+    <string name="peep_protection_v2_move_app_to_category">Přesunout aplikaci %s do skupiny</string>
+    <string name="peep_protection_v2_notification_protection">Soukromý displej pro oznámení</string>
+    <string name="peep_protection_v2_notification_protection_desc">Oznámení z vybraných aplikací aktivují soukromé zobrazení</string>
+    <string name="peep_protection_v2_notification_protection_desc_v2">Oznámení z vybraných aplikací se zobrazují s částečnou ochranou soukromí</string>
+    <string name="peep_protection_v2_notify_type_desc">Budete upozorněni, když je rozpoznán pohled jiné osoby</string>
+    <string name="peep_protection_v2_notify_type_title">Oznámení o ochraně soukromí</string>
+    <string name="peep_protection_v2_page_detail_category_title">Následující stránky v této aplikaci jsou chráněny soukromým displejem</string>
+    <string name="peep_protection_v2_page_protection_desc">Zapínat soukromý displej u konkrétních stránek</string>
+    <string name="peep_protection_v2_peep_detection_desc_v2">Rozpoznávat pohled a upozorňovat</string>
+    <string name="peep_protection_v2_peep_island_action_dismiss_v2">Ignorovat</string>
+    <string name="peep_protection_v2_peep_island_subtitle_v2">Znovu nepřipomínat</string>
+    <string name="peep_protection_v2_privacy_statement">Tato funkce používá tvář k rozpoznání pohledu. Všechna data jsou zpracovávána ve vašem zařízení a nebudou sdílena.</string>
+    <string name="peep_protection_v2_recommend_title">Doporučené aplikace</string>
+    <string name="peep_protection_v2_search_app">Soukromý displej aplikace;soukromý displej pro aplikace;Vybrané aplikace</string>
+    <string name="peep_protection_v2_search_empty_hint">Tady se zobrazí výsledky vyhledávání</string>
+    <string name="peep_protection_v2_search_global">Ochrana soukromí na celé obrazovce;Celá obrazovka</string>
+    <string name="peep_protection_v2_search_hint">Vyhledat aplikace</string>
+    <string name="peep_protection_v2_search_keywords_1">Soukromé zobrazení</string>
+    <string name="peep_protection_v2_search_keywords_2">Pixel</string>
+    <string name="peep_protection_v2_search_keywords_3">Pohled</string>
+    <string name="peep_protection_v2_search_no_result">Nenalezeny žádné výsledky</string>
+    <string name="peep_protection_v2_search_notification">Soukromý displej oznámení;soukromý displej pro oznámení;Oznámení aplikace</string>
+    <string name="peep_protection_v2_search_notify_type">Oznámení o ochraně soukromí;rozpoznat pohled;ochrana soukromí;upozornění na pohled</string>
+    <string name="peep_protection_v2_search_page">Soukromý displej stránky;soukromý displej pro stránky</string>
+    <string name="peep_protection_v2_search_smart_enable">Chytrá aktivace;automatický soukromý displej</string>
+    <string name="peep_protection_v2_select_apps">Vybrané aplikace</string>
+    <string name="peep_protection_v2_select_apps_category_tip">V (click)Xiaomi Hyper XiaoAi(/click) můžete vytvářet, spravovat, odstraňovat nebo přejmenovávat skupiny aplikací pro soukromé zobrazení</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">V režimu Pro služby Xiaomi Hyper XiaoAi můžete vytvářet, spravovat, odstraňovat nebo přejmenovávat kategorie aplikací soukromého displeje</string>
+    <string name="peep_protection_v2_smart_enable">Chytrá aktivace</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_desc">V Xiaomi Hyper XiaoAi můžete vytvořit pravidla soukromého zobrazení podle míst, která často navštěvujete. Když dorazíte na konkrétní místo, soukromé zobrazení se automaticky zapne nebo vypne.</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_title">Vytvořit chytré pravidlo</string>
+    <string name="peep_protection_v2_smart_enable_desc_v2">Vytvořit pravidla pro soukromý displej podle polohy</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint">Zatím žádná pravidla. Vytvořte chytrá pravidla aktivace na základě polohy v Xiaomi Hyper XiaoAi.</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Zatím žádná pravidla. Můžete vytvořit chytrá pravidla aktivace na základě polohy v (click)Xiaomi Hyper XiaoAi(click).</string>
+    <string name="peep_protection_v2_smart_enable_page_desc">V (click)Xiaomi Hyper XiaoAi(/click) můžete definovat pravidla na základě polohy, například automatické zapnutí Ochrany soukromí na celé obrazovce, když jedete v metru. Když dorazíte na určené místo, soukromé zobrazení se zapne podle vašeho pravidla.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">V režimu Pro služby Xiaomi Hyper XiaoAi můžete nastavit pravidla chytré aktivace podle polohy, například „ Automaticky zapnout Ochranu soukromí na celé obrazovce, když jsem v metru“. Když přijdete na určené místo, soukromý displej se automaticky zapne podle nastavených pravidel.</string>
+    <string name="peep_protection_v2_smart_enable_prompt">Pomoz mi vytvořit pravidlo pro soukromé zobrazení: Svůj telefon často používám v kavárnách a v metru. Vytvoř pravidla pro tyto scénáře a automaticky zapni soukromé zobrazení pro sociální sítě a finanční skupiny, když se budu nacházet na těchto místech.</string>
+    <string name="peep_protection_v2_smart_enable_prompt_copied">Úspěšně zkopírováno</string>
+    <string name="peep_protection_v2_smart_enable_sio_unavailable">Abyste mohli využívat tuto funkci, povolte přístup</string>
+    <string name="peep_protection_v2_smart_enable_switch_desc">Rozpoznat scénáře a automaticky zapínat nebo vypínat soukromé zobrazení</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip">Ponechejte Wi-Fi zapnutou, abyste usnadnili přesnější aktivaci chytrých pravidel. Když je Wi-Fi vypnutá, některá místa mohou být rozpoznána s prodlevou nebo nemusejí být vůbec rozpoznána.</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip_china">Ponechejte WLAN zapnutou, abyste usnadnili přesnější aktivaci chytrých pravidel. Když je WLAN vypnutá, některá místa mohou být rozpoznána s prodlevou nebo nemusejí být vůbec rozpoznána.</string>
+    <string name="peep_protection_v2_smart_page_active_list">Konkrétní stránky v následujících aplikacích jsou chráněny</string>
+    <string name="peep_protection_v2_smart_page_header_title">Automaticky zapnout u konkrétních citlivých stránek</string>
+    <string name="peep_protection_v2_smart_page_intro">I když některé aplikace zapomenete přidat, soukromé zobrazení se automaticky zapne, když otevřete citlivé stránky, například zadávání hesel, platby, převody a zasílání zpráv.</string>
+    <string name="peep_protection_v2_smart_page_switch_title">Soukromé zobrazení stránky</string>
+    <string name="peep_protection_v2_status_off">Vypnuto</string>
+    <string name="peep_protection_v2_status_on">Zapnuto</string>
+    <string name="peep_protection_v2_strategy_action_disable_category">Vypnout soukromý displej pro %s</string>
+    <string name="peep_protection_v2_strategy_action_disable_deep">Vypnout Pokročilé soukromí</string>
+    <string name="peep_protection_v2_strategy_action_disable_default">Vypnout soukromý displej</string>
+    <string name="peep_protection_v2_strategy_action_disable_global">Vypnout Ochranu soukromí na celé obrazovce</string>
+    <string name="peep_protection_v2_strategy_action_disable_target">Vypnout soukromý displej pro %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_category">Zapnout soukromý displej pro %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_deep">Zapnout Pokročilé soukromí</string>
+    <string name="peep_protection_v2_strategy_action_enable_default">Zapnout soukromý displej</string>
+    <string name="peep_protection_v2_strategy_action_enable_global">Zapnout Ochranu soukromí na celé obrazovce</string>
+    <string name="peep_protection_v2_strategy_action_enable_target">Zapnout soukromý displej pro %s</string>
+    <string name="peep_protection_v2_strategy_action_fallback">Peep protection</string>
+    <string name="peep_protection_v2_strategy_action_separator_leave">; on leave</string>
+    <string name="peep_protection_v2_strategy_arrive_condition">Při příchodu do %1$s</string>
+    <string name="peep_protection_v2_strategy_auto_desc">Arrive at %1$s, auto %2$s</string>
+    <string name="peep_protection_v2_strategy_auto_title">%1$s: %2$s</string>
+    <string name="peep_protection_v2_strategy_delete">Delete</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_msg">Trvale odstranit toto pravidlo?</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_title">Smazat toto pravidlo?</string>
+    <string name="peep_protection_v2_strategy_detail_title">Chytrá pravidla</string>
+    <string name="peep_protection_v2_strategy_edit_desc_hint">Popis</string>
+    <string name="peep_protection_v2_strategy_edit_main_title_hint">Nadpis</string>
+    <string name="peep_protection_v2_strategy_edit_title">Upravit</string>
+    <string name="peep_protection_v2_strategy_edit_title_hint">Enter new strategy name</string>
+    <string name="peep_protection_v2_strategy_edit_title_v2">Upravit název</string>
+    <string name="peep_protection_v2_strategy_go_miclaw">Upravit pravidla</string>
+    <string name="peep_protection_v2_strategy_leave_condition">Při odchodu z %1$s</string>
+    <string name="peep_protection_v2_strategy_notify_on_trigger">Upozorňovat, když je soukromý displej zapnutý</string>
+    <string name="peep_protection_v2_strategy_prompt_copied">Úspěšně zkopírováno</string>
+    <string name="peep_protection_v2_strategy_prompt_template">Pomozte mi upravit pravidlo soukromého displeje „%1$s“ a upravit jeho nastavení.</string>
+    <string name="peep_protection_v2_strategy_unknown_location">Unknown location</string>
+    <string name="peep_protection_v2_thermal_paused_toast">Oznámení o ochraně soukromí se obnoví, až se zařízení ochladí</string>
+    <string name="peep_protection_v2_tile_label">Ochrana soukromí na celé obrazovce</string>
+    <string name="peep_protection_v2_title">Soukromý displej Xiaomi</string>
     <string name="per_month_pkg_traffic_settings">Nastavit limit mobilních dat</string>
     <string name="percent_formatted_text">%s %%</string>
     <string name="percent_text_formatted">%s %%</string>
@@ -4053,6 +4380,7 @@ Ultra spořiče baterie"</string>
     <string name="permgroupdesc_storage">Přístup k fotografiím a souborům na zařízení</string>
     <string name="permission_action_accept">Povolit</string>
     <string name="permission_action_ai_prompt">Rozhodnout za mě</string>
+    <string name="permission_action_allow_for_compatibility">Pouze místní síť</string>
     <string name="permission_action_always">Vždy povolit</string>
     <string name="permission_action_desc">Pro ochranu svého soukromí udělte oprávnění odesílat aplikaci prázdné odpovědi</string>
     <string name="permission_action_desc_always">Toto oprávnění může být využito kdykoli</string>
@@ -4066,8 +4394,14 @@ Ultra spořiče baterie"</string>
     <string name="permission_action_virtual">Odpovědět prázdnou zprávou</string>
     <string name="permission_action_virtual_common_summary">Udělí aplikacím potřebná oprávnění, ale z důvodu ochrany vašeho soukromí se budou odesílat prázdné odpovědi</string>
     <string name="permission_action_virtual_phone_summary">Udělte aplikacím odpovídající oprávnění, ale nepovolte jim přístup ke skutečným telefonním číslům na SIM kartě</string>
+    <string name="permission_allow_for_compatibility_note">Povolí aplikaci komunikovat pouze se zařízeními ve stejné místní síti. Bluetooth a další metody připojení nejsou podporovány.</string>
+    <string name="permission_changed_retry">Povolení byla změněna. Restartujte aplikace.</string>
     <string name="permission_close_permission_control_dialog_msg">Pokud je Správce povolení deaktivován, aplikace se nebudou ptát na povolení pro přístup ke kontaktům, historii hovorů, změnu nastavení systému nebo přístup k fotoaparátu a jiným zdrojům zařízení.</string>
     <string name="permission_close_permission_control_dialog_title">Deaktivovat?</string>
+    <string name="permission_compatibility_dialog_message">Tato aplikace byla navržena pro starší verzi systému Android. Odepření povolení může způsobit, že již nebude fungovat tak, jak bylo zamýšleno.</string>
+    <string name="permission_compatibility_dialog_negative_btn">Zrušit</string>
+    <string name="permission_compatibility_dialog_positive_btn">Odepřít</string>
+    <string name="permission_compatibility_dialog_title">Tato aplikace nemusí fungovat správně</string>
     <string name="permission_exception_title">Omezené připojení pro aplikace</string>
     <string name="permission_group_audio">Toto oprávnění umožňuje aplikacím přístup k hudbě a dalším zvukovým souborům uloženým v tomto zařízení.</string>
     <string name="permission_group_calendar">Toto oprávnění umožňuje aplikacím využívat přístup, přidávat, odstraňovat a upravovat události v kalendáři.</string>
@@ -4175,6 +4509,7 @@ Ultra spořiče baterie"</string>
     <string name="permission_with_SMS_and_MMS">Povolení spojená s SMS a MMS</string>
     <string name="permission_with_call_and_contact">Povolení spojená s tel. hovory, kontakty a historií hovorů.</string>
     <string name="permission_with_read_write_clipboard">Povolte aplikacím přístup k položkám a ukládání položek do schránky</string>
+    <string name="permisson_reject_notice_toast_text2">nemá povolení k %1$s.</string>
     <string name="permit_running_network">Data na pozadí</string>
     <string name="person_have_hongbao">%1$s vám poslal(a) červenou obálku!</string>
     <string name="person_hotpot">Mobilní hotspoty</string>
@@ -4243,6 +4578,7 @@ Ultra spořiče baterie"</string>
     <string name="power_center_battery_detail">Podrobnosti</string>
     <string name="power_center_battery_duration">Zbývající čas</string>
     <string name="power_center_battery_duration_format">%1$s %2$s</string>
+    <string name="power_center_battery_duration_new">Zbývající doba sledování obrazovky</string>
     <string name="power_center_battery_duration_screen_on">Zbývající čas</string>
     <string name="power_center_battery_hardware">Hardware %s</string>
     <string name="power_center_battery_health_poor_tip">Zdá se, že úroveň zdraví baterie zařízení je velmi nízká. Doporučujeme navštívit autorizované servisní centrum.</string>
@@ -4384,6 +4720,7 @@ Ultra spořiče baterie"</string>
     <string name="power_idle">Zařízení v nečinnosti</string>
     <string name="power_main_battery_last_day_hour">Zbývá %1$s d %2$s hod.</string>
     <string name="power_main_battery_last_hour_minute">Zbývá %1$s hod. %2$s min.</string>
+    <string name="power_main_battery_last_hour_minute_new">Odhadovaná doba sledování obrazovky: %1$s %2$s</string>
     <string name="power_main_battery_last_hour_minute_screen_on">Zbývá %1$s %2$s doby sledování obrazovky</string>
     <string name="power_main_open_last_hour_minute_screen_on">Zapněte pro přidání %1$s %2$s doby sledování obrazovky</string>
     <string name="power_ntc_dialog_btn_finish">Rozumím</string>
@@ -4533,6 +4870,12 @@ Ultra spořiče baterie"</string>
     <string name="pp_app_warning_permission_tips_detail">Zobrazí upozornění, když aplikace vyžaduje oprávnění pro přístup k informacím o poloze, fotoaparátu nebo mikrofonu</string>
     <string name="pp_clipboard">Schránka</string>
     <string name="pp_none_read_clipboard_item">Neoznamovat</string>
+    <string name="pp_privacy_call_entry">Soukromé volání</string>
+    <string name="pp_privacy_call_entry_demo_desc">Snižte únik zvuku ze sluchátka, abyste si chránili soukromí hovorů</string>
+    <string name="pp_privacy_call_entry_switch_desc">Funguje během hovorů přes sluchátko. Tato funkce nebude shromažďovat obsah vašeho hovoru ani žádná data.</string>
+    <string name="pp_privacy_call_protect">Ochrana hovorů</string>
+    <string name="pp_privacy_call_switch_off">Soukromé volání je vypnuto</string>
+    <string name="pp_privacy_call_switch_on">Soukromé volání je zapnuto</string>
     <string name="pp_privacy_lab_clipboard_summary">Povolte systému, aby se rozhodl, zda bude mít aplikace přístup do schránky, a dostávejte oznámení, když tak učiní</string>
     <string name="pp_privacy_lab_operator_get_number_summary">Zajistí, aby si aplikace vyžádaly vaše oprávnění, když chtějí využít přístup k vašemu telefonnímu číslu za účelem přihlášení</string>
     <string name="pp_privacy_protection">Zabezpečení</string>
@@ -4667,6 +5010,7 @@ Ultra spořiče baterie"</string>
     <string name="privacy_description_camera">Aplikace %1s využívá fotoaparát na pozadí. Pro zákaz využívání klepněte na přepínač níže.</string>
     <string name="privacy_description_camera_mic">Aplikace %1s využívá fotoaparát a mikrofon na pozadí. Pro zákaz využívání klepněte na přepínač níže.</string>
     <string name="privacy_description_mic">Aplikace %1s využívá mikrofon na pozadí. Pro zákaz využívání klepněte na přepínač níže.</string>
+    <string name="privacy_device_unique_feature">Funkce vyhrazená pro zařízení</string>
     <string name="privacy_dialog_call_item_1">Přístup k informacím o zařízení</string>
     <string name="privacy_dialog_call_item_2">Uskutečňovat hovory</string>
     <string name="privacy_dialog_call_item_3">Přístup ke stavu zařízení</string>
@@ -4716,6 +5060,10 @@ Ultra spořiče baterie"</string>
     <string name="privacy_flares_recent_detail_more">Tato aplikace využila citlivá oprávnění</string>
     <string name="privacy_global_guide_permission_guide_text">Pokud aplikace nahrávají zvuk nebo využívají fotoaparát, obdržíte upozornění ve stavovém řádku. Pro zjištění, o kterou aplikaci se jedná, klepněte na upozornění.</string>
     <string name="privacy_guide_permission_guide_text">Pokud aplikace získají přístup k vaší poloze, nahrají zvuk nebo vytvoří fotografii, ve stavovém řádku bude zobrazeno upozornění.</string>
+    <string name="privacy_hide_app_notify_auto_close_desc">Tato funkce zabraňuje skrytým aplikacím odesílat oznámení. Chcete-li přijímat oznámení, vypněte možnost „Skrýt oznámení\"“nebo zrušte skrytí aplikace.</string>
+    <string name="privacy_hide_app_notify_auto_close_title">Vypnutí oznámení</string>
+    <string name="privacy_hide_app_notify_auto_revoke_summary">Automaticky vypnout oznámení ze skrytých aplikací</string>
+    <string name="privacy_hide_app_notify_dialog_confirm">Rozumím</string>
     <string name="privacy_hide_other_permissions">Skrýt ostatní oprávnění</string>
     <string name="privacy_hybrid_password_long">Zadejte max. %d znaků</string>
     <string name="privacy_hybrid_password_too_short">Zadejte alespoň %d znaků</string>
@@ -4880,6 +5228,10 @@ Odebrat souhlas nyní?"</string>
     <string name="privacy_screen_share_notification_title">Přenášení obsahu obrazovky</string>
     <string name="privacy_screen_share_protect_tip">Zabezpečeno</string>
     <string name="privacy_screen_share_tip">Přenášení</string>
+    <string name="privacy_screen_share_v2_land_subtitle">„%s“ má přístup k obsahu obrazovky</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Obsah obrazovky je chráněn</string>
+    <string name="privacy_screen_share_v2_notification_title">Přenášení obsahu obrazovky</string>
+    <string name="privacy_screen_share_v2_small_island_title">Sdílení obrazovky</string>
     <string name="privacy_search_key_1">Soukromí</string>
     <string name="privacy_search_key_10">ID zařízení</string>
     <string name="privacy_search_key_2">Odposlech sítě</string>
@@ -5005,6 +5357,7 @@ Odebrat souhlas nyní?"</string>
     <string name="repeat_type">Opakovat</string>
     <string name="repeated_marked_number_summary">Neblokovat druhý hovor ze stejného nahlášeného čísla během %d minut</string>
     <string name="repeated_marked_number_title">Neblokovat opakující se volání z nahlášených čísel</string>
+    <string name="repeated_stranger_number_summary">Neblokovat druhý hovor ze stejného neznámého čísla během %d minut</string>
     <string name="repeated_unknown_number_summary">Neblokovat druhý hovor ze stejného neznámého čísla během %d minut</string>
     <string name="replace_dns">Nahradit DNS automaticky</string>
     <string name="report">Nahlásit</string>
@@ -5090,10 +5443,12 @@ Odebrat souhlas nyní?"</string>
     <string name="safe_result_item_info_system_version">Systém je aktuální</string>
     <string name="safepay_alert_dialog_button_continue">Pokračovat</string>
     <string name="safepay_alert_dialog_button_fix">Zjistit více</string>
+    <string name="safety">Zabezpečení</string>
     <string name="saturday">Sobota</string>
     <string name="saturday_short">Sob</string>
     <string name="saturday_shortest">Sob</string>
     <string name="save_mode_btn_ok">Rozumím</string>
+    <string name="save_privacy_pwd_fail_toast">Uložení se nezdařilo. Zkuste to znovu.</string>
     <string name="sc_allow_network_dialog_message">Zakázali jste aplikaci Optimalizace přístup k internetovému připojení i informacím o vaší poloze. Pro využití této funkce udělte aplikaci Optimalizace požadovaná oprávnění.</string>
     <string name="sc_allow_network_dialog_tiltle">Tuto funkci nelze využít</string>
     <string name="sc_system_risk_fix_info_xspace">Tento problém nelze v Druhém prostoru vyřešit. Zkuste to znovu v Prvním prostoru.</string>
@@ -5104,6 +5459,11 @@ Odebrat souhlas nyní?"</string>
     <string name="scan_status_risk">Nebezpečné</string>
     <string name="scan_status_safe">Bezpečné</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Ochrana proti podvodům</string>
+    <string name="screen_share_search_keyword_1">Sdílení obrazovky</string>
+    <string name="screen_share_search_keyword_2">Sdílet obrazovku</string>
+    <string name="screen_share_search_title">Ochrana sdílení obrazovky</string>
+    <string name="screen_share_warning_positive_button">Ukončit</string>
     <string name="screenrecord_not_find">Nainstalujte nejnovější verzi Nahrávání obrazovky a zkuste to znovu.</string>
     <string name="sd_eject">Odebrat SD kartu</string>
     <string name="sd_eject_summary">Odeberte SD kartu pro její bezpečné odpojení</string>
@@ -5239,7 +5599,7 @@ Odebrat souhlas nyní?"</string>
     <string name="sms_cloud_block">Seznam blokování z Cloudu</string>
     <string name="sms_contact_block">Blokovat SMS od kontaktů</string>
     <string name="sms_delete_all_hint">Smazat všechny zprávy?</string>
-    <string name="sms_delete_hint">Vymazat všechny blokované SMS z tohoto čísla?</string>
+    <string name="sms_delete_hint">Odstranit všechny blokované SMS z tohoto čísla?</string>
     <string name="sms_delete_title">Smazat zprávy</string>
     <string name="sms_detail_correct_success_text">Tady jsou statistiky využití dat z předchozí kalibrace (%1$s):</string>
     <string name="sms_detail_fragment_title_bill">Zůstatek na telefonu</string>
@@ -5414,7 +5774,7 @@ Odebrat souhlas nyní?"</string>
     <string name="st_antispam_bw_head_add">Přidat předvolbu</string>
     <string name="st_antispam_bw_man_add">Přidat telefonní číslo</string>
     <string name="st_antispam_bw_pick_add">Přidat kontakty</string>
-    <string name="st_antispam_delete">Vymazat</string>
+    <string name="st_antispam_delete">Odstranit</string>
     <string name="st_antispam_des_anti">Blokovat</string>
     <string name="st_antispam_des_permit">Povolit</string>
     <string name="st_antispam_des_permit_nokeyword">Povolit</string>
@@ -5489,13 +5849,17 @@ Odebrat souhlas nyní?"</string>
     <string name="st_message_phone_AntiSpam">Blokovat hovory</string>
     <string name="st_message_phonepass">Povolit hovory</string>
     <string name="st_msg_keyword_black">Blokovaná klíčová slova</string>
+    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
     <string name="st_msg_keyword_group">Klíčová slova</string>
     <string name="st_msg_keyword_white">Výjimky z klíčových slov</string>
+    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
     <string name="st_msg_other_group">Ostatní</string>
     <string name="st_msg_settings">Blokované SMS</string>
     <string name="st_msg_stranger_group">Blokovat zprávy z neznámých čísel</string>
     <string name="st_settings_name">Nastavení Blokovaných</string>
     <string name="st_share_settings">Použít nastavení SIM %d</string>
+    <string name="st_show_num_keyword_v2">{count, plural, =0 {0 klíčových slov } one {# klíčové slovo } few {# klíčová slova } many {# klíčových slov } other {# klíčových slov } }</string>
+    <string name="st_show_num_number_v2">{count, plural, =0 {0 čísel } one {# číslo } few {# čísla } many {# čísel } other {# čísel } }</string>
     <string name="st_smg_intercept_all">Blokovat všechny zprávy</string>
     <string name="st_smg_intercept_confirm_dialog_summary_all">SMS a MMS z jakéhokoli čísla nebo oblasti neuvedené ve výjimkách budou blokovány. Začít blokovat?</string>
     <string name="st_smg_intercept_confirm_dialog_summary_stranger">SMS a MMS z jakéhokoli čísla nebo oblasti neuvedené ve výjimkách nebo kontaktech budou blokovány. Začít blokovat?</string>
@@ -5569,6 +5933,7 @@ Odebrat souhlas nyní?"</string>
     <string name="status_bar_network_flow_purchase">"   Zakoupit >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Nastavení datového plánu >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Blokovat</string>
     <string name="still_retain_btn">Ponechat</string>
     <string name="stop_milink_connect">Přenášení zastaveno</string>
     <string name="storage_activity_title">Místo na úložišti</string>
@@ -5679,7 +6044,7 @@ Pro využití ^1 s tímto zařízením, toto úložiště nejprve nastavte."</st
     <string name="storage_system_log_tip">Systémové protokoly budou v případě potřeby automaticky odstraněny</string>
     <string name="storage_system_memory_expansion">Rozšíření paměti</string>
     <string name="storage_system_memory_expansion_tip">Rozšířit paměť RAM obsazením úložiště</string>
-    <string name="storage_system_other_tip">Data, potřebná pro běžnou funkci systému (velikost souboru se může časem změnit)</string>
+    <string name="storage_system_other_tip">Data, potřebná pro běžný chod systému (velikost souboru se může časem změnit)</string>
     <string name="storage_system_other_tip_new">Zahrnuje místo na úložišti nezbytné pro systémové operace a aktualizace. Velikost tohoto oddílu se bude měnit podle stavu systému.</string>
     <string name="storage_ufs_msg">Pomocí naší technologie rozšíření úložiště UFS a optimalizačních algoritmů úložiště můžete na toto zařízení přidat až %1$s úložného prostoru.</string>
     <string name="storage_ufs_tip">Dodatečné úložiště</string>
@@ -5765,6 +6130,7 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="superpower_progress_low_temp_content">Zapínání Režimu odolnosti proti chladu…</string>
     <string name="superpower_progress_switch_home">Přepnutí do Tmavého režimu</string>
     <string name="superpower_progress_title">Zbývající čas</string>
+    <string name="superpower_progress_title_new">Zbývající doba sledování obrazovky</string>
     <string name="superpower_progress_turndown_brightness">Snížení jasu obrazovky</string>
     <string name="superpower_progress_turnoff_fan">Vypínání chladicího ventilátoru</string>
     <string name="superpower_progress_turnoff_items">Zakázání aktivit spotřebovávajících příliš mnoho energie</string>
@@ -5808,9 +6174,10 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Před pokračováním si přečtěte a souhlaste s našimi &lt;a href=\"%1$s\">Smluvními podmínkami&lt;/a>.</Data></string>
     <string name="system_permission_declare_no_say_no">Pokud se rozhodnete neudělit této aplikaci požadovaná oprávnění nebo zakázat shromažďování dat, aplikace nebude fungovat správně.</string>
     <string name="system_permission_declare_no_say_no_analytics">Pokud si nepřejete tato oprávnění udělit, můžete se z programu odhlásit v Nastavení > Další nastavení > Soukromí > Optimalizace na základě uživatelské zkušenosti.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Pokud se rozhodnete neudělit této aplikaci požadovaná oprávnění nebo zakázat shromažďování dat, aplikace nebude částečně fungovat správně.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Pokud této aplikaci neudělíte požadovaná povolení nebo nám zakážete shromažďovat a používat vaše data, nebudete moct používat související funkce.</string>
     <string name="system_permission_declare_optional">Pro poskytnutí doplňkových služeb během využívání této aplikace je vyžadováno udělení následujících oprávnění: %s. Udělená oprávnění můžete kdykoli upravit v Nastavení.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Abychom mohli poskytovat kvalitnější uživatelské služby, tato aplikace vyžaduje následující dodatečná povolení: %1s. Podrobné informace o tom, jak zpracováváme vaše osobní údaje, si můžete přečíst, když klepnete &lt;a href=\"test\">sem&lt;/a>. Svá povolení můžete kdykoliv spravovat v Nastavení.</Data></string>
+    <string name="system_permission_declare_perm_separator">", "</string>
     <string name="system_permission_declare_privacy_declare">Tato aplikace vyžaduje pro správné fungování připojení k internetu a udělení následujících oprávnění:</string>
     <string name="system_permission_declare_privacy_no_network">Tato aplikace vyžaduje pro správné fungování udělení následujících oprávnění:</string>
     <string name="system_permission_declare_privacy_no_permission">Aby tato aplikace mohla správně fungovat, musí být připojena k internetu a mít oprávnění ke shromažďování vašich osobních údajů.</string>
@@ -5971,8 +6338,8 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="title_auto_update">Aktualizovat automaticky</string>
     <string name="title_background_connection">%s nemůže využít připojení na pozadí</string>
     <string name="title_bill_balance_inquiry">Zůstatek (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Zmeškané hovory z vašeho seznamu kontaktů</string>
-    <string name="title_block_calls_from_strangers">Zmeškali jste důležitý hovor</string>
+    <string name="title_block_calls_from_cantacts">Zmeškané hovory od vašich kontaktů?</string>
+    <string name="title_block_calls_from_strangers">Zmeškali jste důležité hovory?</string>
     <string name="title_chain_start">Zakázat řetězové spuštění</string>
     <string name="title_cleaner_cloudscan">Skenování odpadu Cloudu</string>
     <string name="title_cloud_account">Xiaomi účet</string>
@@ -6026,6 +6393,8 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="title_realname_verify">Ověření identity</string>
     <string name="title_reply">Komentář</string>
     <string name="title_restrict_data_usage">%s se nemůže připojit k internetu</string>
+    <string name="title_risky_app_scan_no">Detekce rizikových aplikací je vypnutá</string>
+    <string name="title_risky_app_scan_yes">Detekce rizikových aplikací je zapnutá</string>
     <string name="title_safe_mode">Zapnout Bezpečný režim</string>
     <string name="title_show_notification">Widget v oznamovací roletce</string>
     <string name="title_system_auto_download">Automatické stahování aktualizací</string>
@@ -6066,6 +6435,14 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="toast_update_success">Úspěšně aktualizováno</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zítra</string>
+    <string name="toolbox_invocation_guide_cancel">Nyní ne</string>
+    <string name="toolbox_invocation_guide_caption">Potáhněte prstem a podržte k otevření</string>
+    <string name="toolbox_invocation_guide_caption_upgrade">Otevřete odkudkoli</string>
+    <string name="toolbox_invocation_guide_confirm">Použít</string>
+    <string name="toolbox_invocation_guide_confirm_upgrade">Vyzkoušet nyní</string>
+    <string name="toolbox_invocation_guide_message">Potáhněte prstem dovnitř od okraje obrazovky, podržte a poté uvolněním otevřete</string>
+    <string name="toolbox_invocation_guide_title">Použít postranní lištu</string>
+    <string name="toolbox_invocation_guide_title_upgrade">Nový způsob otevření postranní lišty</string>
     <string name="top_game">Top hry</string>
     <string name="top_load_fail_detail">Načtení se nezdařilo, klepněte pro opakování</string>
     <string name="top_no_network_detial">Nelze načíst. Zkontrolujte síťové připojení a zkuste to znovu.</string>
@@ -6159,6 +6536,45 @@ Zbývající data včetně dat, která byla přenesena z minulého měsíce."</s
     <string name="txv_lucky_money_group_text">Jen skupinová oznámení</string>
     <string name="ufs_size_suffix">%1$s+%2$s</string>
     <string name="unable_connect_internet">Nelze se připojit k síti</string>
+    <string name="uni_auth_security_delay_tips">Je vyžadována bezpečnostní prodleva</string>
+    <string name="uniauth_close_bt_text">Vypnout</string>
+    <string name="uniauth_close_lock_sim_bind_local_phone_fp_title">Ověřte otisk prstu pro odemknutí USIM a její přiřazení k tomuto zařízení</string>
+    <string name="uniauth_close_lock_sim_fp_title">Ověřte otisk prstu pro odemknutí USIM</string>
+    <string name="uniauth_close_lost_device_prot_bt">Vypnout Ochranu ztraceného zařízení</string>
+    <string name="uniauth_close_lost_device_prot_tips_bt">Rozumím</string>
+    <string name="uniauth_close_lost_device_prot_tips_message">Ochrana ztraceného zařízení byla vypnuta prostřednictvím vašeho Xiaomi účtu. Funkce na tomto zařízení již nejsou chráněny dodatečným zabezpečením.</string>
+    <string name="uniauth_close_lost_device_prot_tips_title">Ochrana ztraceného zařízení je vypnuta</string>
+    <string name="uniauth_common_fp_title">Ověřte otisk prstu</string>
+    <string name="uniauth_common_tips">Ověření se nezdařilo. Zkuste to znovu.</string>
+    <string name="uniauth_fp_disabled_sub_title">Příliš mnoho neúspěšných pokusů</string>
+    <string name="uniauth_fp_disabled_title">Otisky prstů nejsou momentálně dostupné</string>
+    <string name="uniauth_fp_enter_lockscreen_text">Použijte zámek obrazovky</string>
+    <string name="uniauth_fp_recover_by_lockscreen_bt_text">Obnovte přístup otiskem prstu</string>
+    <string name="uniauth_fp_temp_disabled_sub_title">Otisky prstů nejsou momentálně dostupné kvůli příliš mnoha neúspěšným pokusům</string>
+    <string name="uniauth_lockscreen_default_title">Ověřte zámek obrazovky</string>
+    <string name="uniauth_lockscreen_disabled_sub_title">Zamykací obrazovku nelze použít kvůli příliš mnoha neúspěšným pokusům</string>
+    <string name="uniauth_lockscreen_mix_do_next">Další</string>
+    <string name="uniauth_lockscreen_mix_hint">Zadejte zde</string>
+    <string name="uniauth_lockscreen_sub_title">Pro obnovení přístupu otiskem prstu</string>
+    <string name="uniauth_logout_xiaomi_acount_fp_title">Ověřte otisk prstu pro odhlášení z Xiaomi účtu</string>
+    <string name="uniauth_lp_fp_sub_title">Ochrana ztraceného zařízení je zapnutá. Ověřte otisk prstu pro potvrzení, že tuto akci provedl vlastník zařízení.</string>
+    <string name="uniauth_lp_lockscreen_and_fp_sub_title">Použijte dvoufaktorové ověření k potvrzení své totožnosti</string>
+    <string name="uniauth_no_acount_login_tips">Nejprve se přihlaste ke svému Xiaomi účtu</string>
+    <string name="uniauth_open_lock_sim_bind_local_phone_fp_title">Ověřte otisk prstu pro zamknutí USIM a její přiřazení k tomuto zařízení</string>
+    <string name="uniauth_open_lock_sim_fp_title">Ověřte otisk prstu pro zamknutí USIM</string>
+    <string name="uniauth_reset_lockscreen_default_title">Ověřte předchozí zámek obrazovky</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_sub_title">Použijte dvoufaktorové ověření k nastavení nového zámku obrazovky</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_title">Ověřte otisk prstu</string>
+    <string name="uniauth_reset_lockscreen_title">Ověřte předchozí zámek obrazovky</string>
+    <string name="uniauth_resetlockscreen_error_sub_title">Nelze resetovat</string>
+    <string name="uniauth_resetlockscreen_error_title">Příliš mnoho neúspěšných pokusů o ověření zámku obrazovky</string>
+    <string name="uniauth_security_delay_end_notification_msg">V následujících %1$d hodinách můžete ověřit svůj Xiaomi účet a vypnout Ochranu ztraceného zařízení</string>
+    <string name="uniauth_security_delay_end_notification_title">Bezpečnostní prodleva skončila</string>
+    <string name="uniauth_security_delay_msg">Po %1$d hodinách můžete ověřit svůj Xiaomi účet a vypnout Ochranu ztraceného zařízení. Když prodleva skončí, dostanete upozornění.</string>
+    <string name="uniauth_security_delay_next_more">Zjistit více</string>
+    <string name="uniauth_temp_disabled_title">Zkuste to znovu později</string>
+    <string name="uniauth_uqery_pin_fp_title">Ověřte otisk prstu pro zobrazení PIN</string>
+    <string name="uniauth_xiaomi_acount_title">Ověřte svůj Xiaomi účet</string>
     <string name="uninstall_app_dialog_msg">Při odinstalování dojde k odstranění veškerých dat aplikace.</string>
     <string name="uninstall_app_dialog_title">Odinstalovat nyní?</string>
     <string name="uninstall_app_done">Úspěšně odinstalováno</string>
@@ -6220,7 +6636,9 @@ Zbývající data včetně dat, která byla přenesena z minulého měsíce."</s
     <string name="usbsharenet_pc_exception_summary">Nelze se připojit k internetu pomocí sdíleného USB připojení. Zkontrolujte internetové připojení vašeho počítače.</string>
     <string name="use_for_open_applock">Pro zapínání Zámku aplikací</string>
     <string name="use_immediately">Použít</string>
+    <string name="use_lock_screen_password_type">Heslo Zamykací obrazovky</string>
     <string name="use_other_ime_warn">Klávesnice třetích stran mohou zaznamenávat vše co napíšete, včetně hesel a dalších citlivých informací.</string>
+    <string name="use_private_password_type">Heslo pro ochranu osobních údajů</string>
     <string name="user_define_title">Přidat pravidla</string>
     <string name="user_guide">Potáhněte nahoru pro zobrazení nejčerstvějších herních novinek</string>
     <string name="v7_preference_off">Vypnuto</string>
@@ -6309,6 +6727,7 @@ Zapnutím jedné funkce vypnete druhou funkci."</string>
     <string name="vb_video_super_division_desc">"Používání této funkce zvyšuje spotřebu energie.
 Tuto funkci nelze použít, když je zapnuto Zaostření pohybu.
 Zapnutí jedné z těchto funkcí vypne tu druhou."</string>
+    <string name="vb_video_super_division_subdesc">Automaticky zvýšit rozlišení, když je ≤ 720 P.</string>
     <string name="vb_video_super_division_tips">"Obraz stále není dost jasný?
 Zkuste zvýšit rozlišení!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Vylepšení animací je vypnuto</string>
@@ -6328,16 +6747,22 @@ Funkci nelze využít, pokud je zapnutý Spořič baterie nebo Ultra spořič ba
     <string name="videobox_settings_line_location_desc">Zobrazit zástupce na okraji obrazovky</string>
     <string name="videobox_settings_line_location_left">Vlevo</string>
     <string name="videobox_settings_line_location_right">Vpravo</string>
-    <string name="videobox_settings_line_location_title">Zástupce nástrojů videa</string>
+    <string name="videobox_settings_line_location_title">Zástupce nástrojů pro video</string>
     <string name="videobox_settings_manager_apps">Správa video aplikací</string>
     <string name="videobox_settings_switch_desc">Speciální efekty a funkce pro přehrávání videa</string>
-    <string name="videobox_settings_switch_title">Nástroje videa</string>
+    <string name="videobox_settings_switch_title">Nástroje pro video</string>
     <string name="videobox_settings_timing">Upozornění na sledování</string>
     <string name="videobox_settings_timing_desc">Každou hodinu zobrazit upozornění na příliš dlouhé sledování</string>
-    <string name="videobox_settings_title">Nástroje videa</string>
+    <string name="videobox_settings_title">Nástroje pro video</string>
     <string name="view_package_info">Zobrazit podrobnosti plánu</string>
     <string name="view_traffic_detail">Zobrazit podrobnosti</string>
     <string name="view_traffic_details">Zobrazit statistiky využití dat</string>
+    <string name="virtual_reject_notice_content">Pro zachování ochrany vašich osobních údajů byla aplikaci odeslána prázdná odpověď</string>
+    <string name="virtual_reject_notice_title_calendar">Aplikace %1$s získala přístup ke kalendáři</string>
+    <string name="virtual_reject_notice_title_calllog">Aplikace %1$s získala přístup k historii hovorů</string>
+    <string name="virtual_reject_notice_title_contacts">Aplikace %1$s získala přístup ke kontaktům</string>
+    <string name="virtual_reject_notice_title_phonestate">Aplikace %1$s získala přístup k informacím o zařízení</string>
+    <string name="virtual_reject_notice_title_sms">Aplikace %1$s získala přístup ke zprávám</string>
     <string name="virus_app_delete_installed">Odinstalovat</string>
     <string name="virus_app_delete_uninstalled">Smazat</string>
     <string name="virus_app_ignore">Ignorovat</string>

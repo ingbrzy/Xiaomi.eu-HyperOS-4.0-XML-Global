@@ -49,11 +49,13 @@
     <string name="app_casting">앱 캐스팅</string>
     <string name="app_name">캐스트</string>
     <string name="app_name_call">전화</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">메시지</string>
     <string name="app_name_vtcamera">기기 간 카메라</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -97,6 +99,8 @@
     <string name="appcirculate_toast_success_1">전환 성공</string>
     <string name="appcirculate_toast_success_2">비공개 모드에서 캐스트 중…</string>
     <string name="appcirculate_toast_success_3">캐스트 중…</string>
+    <string name="apple_watch_cross_device_notification">알림</string>
+    <string name="apple_watch_health_data">건강 데이터</string>
     <string name="application_extension">앱 확장</string>
     <string name="application_extension_content_pad">\"%1$s\"이(가) 외부 디스플레이로 사용됩니다. 이 별도 창에 앱을 표시할 수 있습니다.</string>
     <string name="application_extension_content_phone">이 앱은 \"%1$s\"에만 표시됩니다</string>
@@ -115,6 +119,8 @@
     <string name="bottomsheet_drag_handle_content_description">드래그 핸들</string>
     <string name="button_cancel">취소</string>
     <string name="button_confirm">선택</string>
+    <string name="calendar_date_picker_a11y_next_month">다음 달로 변경</string>
+    <string name="calendar_date_picker_a11y_prev_month">이전 달로 변경</string>
     <string name="call_notification_answer_action">통화</string>
     <string name="call_notification_answer_video_action">동영상</string>
     <string name="call_notification_decline_action">거절</string>
@@ -122,14 +128,20 @@
     <string name="call_notification_incoming_text">수신 전화</string>
     <string name="call_notification_ongoing_text">진행 중인 통화</string>
     <string name="call_notification_screening_text">수신 전화 검사 중</string>
+    <string name="camera_a11y_action_enter">Enter camera</string>
+    <string name="camera_a11y_action_fullscreen">Full screen</string>
+    <string name="camera_a11y_action_play_pause">Pause or play</string>
+    <string name="camera_a11y_action_switch_lens">Switch lens</string>
     <string name="camera_associate_failed">카메라 연결 실패</string>
     <string name="camera_associate_success">카메라 연결됨</string>
+    <string name="camera_category_name">카메라</string>
     <string name="camera_composed_button">결합</string>
     <string name="camera_composed_button_description">결합. 두 대의 기기에서 카메라로 동시에 촬영하려면 탭하세요.</string>
     <string name="camera_composed_no_device">기기가 근처에 없는 것 같습니다</string>
     <string name="camera_composed_title">이 기기의 카메라와 결합</string>
     <string name="camera_composed_using_title">카메라 결합</string>
     <string name="camera_connecting_description">연결 중…</string>
+    <string name="camera_count_tip">모든 카메라</string>
     <string name="camera_disassociate">카메라에서 연결 해제됨</string>
     <string name="camera_discompose_button_description">결합 촬영을 중지하고 이 기기의 카메라로 돌아가려면 탭하세요.</string>
     <string name="camera_glasses_content_description">안경이 이 기기에 연결되었습니다. 두 번 눌러서 활성화하세요. 두 손가락으로 누르고 드래그하여 전송하세요.</string>
@@ -181,6 +193,7 @@
     <string name="car_card_seat_main_seat">운전자 시트</string>
     <string name="car_card_seat_second_seat">조수석 시트</string>
     <string name="car_card_seat_warm">시트 히팅</string>
+    <string name="car_card_tv_control_text">뒷좌석 엔터테인먼트 화면 리모컨</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">에어컨</string>
     <string name="car_device_camera_name">%1$s 전면 카메라</string>
@@ -192,8 +205,6 @@
     <string name="cast_closed_captions">자막</string>
     <string name="cast_closed_captions_unavailable">자막 사용 불가</string>
     <string name="cast_connecting_to_device">%1$s에 연결 중</string>
-    <string name="cast_device_chooser_searching_for_devices">기기를 찾는 중</string>
-    <string name="cast_device_chooser_title">전송 대상</string>
     <string name="cast_disconnect">연결 해제</string>
     <string name="cast_dynamic_group_name_format">%1$s 외 %2$d대</string>
     <string name="cast_expanded_controller_ad_image_description">Cast 수신기에서 광고를 재생할 때 이미지가 표시됨</string>
@@ -234,12 +245,10 @@
     <string name="cast_tracks_chooser_dialog_ok">확인</string>
     <string name="cast_tracks_chooser_dialog_subtitles">자막</string>
     <string name="cast_unmute">음소거 해제</string>
-    <string name="cast_zero_devices_found">"기기를 찾을 수 없습니다.
-"</string>
-    <string name="cast_zero_devices_learn_more_description">콘텐츠를 다른 기기로 전송하는 방법을 <a href="https://support.google.com/chromecastbuiltin/answer/3006709">자세히 알아보세요</a>.</string>
     <string name="casting_tips">캐스트 중…</string>
     <string name="character_counter_content_description">입력된 글자 %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>
+    <string name="check_device_list">지원되는 기기 보기</string>
     <string name="circulate_add_another_device_control_app">앱 추가</string>
     <string name="circulate_audio_group_title">재생 중…</string>
     <string name="circulate_back_button_content_description">뒤로</string>
@@ -258,6 +267,7 @@
     <string name="circulate_camera_glasses_error_device_not_support">안경의 콘텐츠를 이 기기에 전송할 수 없음</string>
     <string name="circulate_car_card_use_camera">EV의 전면 카메라 사용</string>
     <string name="circulate_car_card_using_camera">EV의 전면 카메라 사용 중</string>
+    <string name="circulate_car_card_using_pad_camera">차량에서 태블릿 카메라 사용 중</string>
     <string name="circulate_card_audio_change_pad_title">태블릿 오디오로 전환</string>
     <string name="circulate_card_audio_change_phone_title">휴대전화 오디오로 전환</string>
     <string name="circulate_card_audio_playing_pad_title">태블릿 오디오 사용</string>
@@ -396,6 +406,7 @@
     <string name="circulate_glasses_duplicate_headset_dialog_message_pad">태블릿이 이미 이어폰에 연결되어 있습니다. 안경에 연결하면 이어폰의 연결이 해제됩니다. 지금 연결하시겠습니까?</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_phone">휴대전화가 이미 이어폰에 연결되어 있습니다. 안경에 연결하면 이어폰의 연결이 해제됩니다. 지금 연결하시겠습니까?</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_tv">TV가 이미 이어폰에 연결되어 있습니다. 안경에 연결하면 이어폰의 연결이 해제됩니다. 지금 연결하시겠습니까?</string>
+    <string name="circulate_header_mijia">스마트 기기</string>
     <string name="circulate_headset_back_to_box_desc">"1. 양쪽 이어폰을 충전 케이스에 넣으세요.
 2. 케이스의 버튼을 길게 누르세요.
 3. 대상 기기에서 페어링을 완료하세요."</string>
@@ -511,6 +522,7 @@ Xiaomi 계정에 로그인하세요"</string>
     <string name="circulate_pad_card_use_desktop">태블릿과 홈 화면+ 공유</string>
     <string name="circulate_pad_card_using_camera">태블릿 카메라 사용 중</string>
     <string name="circulate_pad_card_using_desktop">태블릿과 홈 화면+ 공유 중</string>
+    <string name="circulate_pad_synergy_subtitle">연결됨</string>
     <string name="circulate_pc_card_use_desktop">컴퓨터와 홈 화면+ 공유</string>
     <string name="circulate_pc_card_use_km">컴퓨터와 마우스 공유</string>
     <string name="circulate_pc_card_using_camera">컴퓨터가 카메라 사용 중</string>
@@ -544,6 +556,17 @@ Xiaomi 계정에 로그인하세요"</string>
     <string name="circulate_sport_device_find_stop">중지</string>
     <string name="circulate_sport_device_find_stop_failed">이 기기 검색을 중지할 수 없습니다. 다시 시도하세요.</string>
     <string name="circulate_sport_device_find_watch">이 워치 찾기</string>
+    <string name="circulate_synergy_camera_car">차량 카메라 사용</string>
+    <string name="circulate_synergy_camera_pad">태블릿이 휴대전화 카메라 사용 중</string>
+    <string name="circulate_synergy_camera_pc">컴퓨터가 휴대전화 카메라 사용 중</string>
+    <string name="circulate_synergy_camera_phone">휴대전화 카메라 사용</string>
+    <string name="circulate_synergy_cast_tv">캐스트</string>
+    <string name="circulate_synergy_cellular_car">차량 핫스팟 사용</string>
+    <string name="circulate_synergy_cellular_phone">휴대전화 모바일 데이터 사용</string>
+    <string name="circulate_synergy_desktop">홈 화면+ 사용</string>
+    <string name="circulate_synergy_km_pc">마우스 및 키보드를 컴퓨터와 공유</string>
+    <string name="circulate_synergy_music_playing">재생</string>
+    <string name="circulate_synergy_telephone">전화 응답</string>
     <string name="circulate_taking_photo">휴대전화 카메라 사용 중…</string>
     <string name="circulate_title">Xiaomi Smart Hub</string>
     <string name="circulate_to_mijia">스마트 홈 기기</string>
@@ -611,10 +634,15 @@ Xiaomi 계정에 로그인하세요"</string>
     <string name="connect_settings_connection_service">상호 연결</string>
     <string name="connect_settings_corp_network">네트워크 어시스턴트</string>
     <string name="connect_settings_corp_phone">통화 동기화</string>
+    <string name="connect_settings_corp_phone_close_toast">끌 수 없습니다. 통화가 끝난 후 다시 시도하세요.</string>
+    <string name="connect_settings_corp_phone_device_category">사용 가능한 기기</string>
+    <string name="connect_settings_corp_phone_not_found_summary">태블릿이나 컴퓨터가 근처에 있고 동일한 Xiaomi 계정에 로그인되어 있으며 같은 네트워크에 연결되어 있는지 확인하세요. 다시 시도하려면 \"새로고침\"을 탭하세요.</string>
+    <string name="connect_settings_corp_phone_searching_summary">태블릿이나 컴퓨터가 근처에 있고 동일한 Xiaomi 계정에 로그인되어 있으며 같은 네트워크에 연결되어 있는지 확인하세요.</string>
     <string name="connect_settings_general_category_share_camera">여러 기기에서 기기 간 카메라 허용</string>
     <string name="connect_settings_general_category_share_launcher">여러 기기에서 홈 화면+ 허용</string>
     <string name="connect_settings_general_summary_corp_phone_pad">Xiaomi 계정에 로그인한 태블릿에서 근처 휴대전화의 통화 응답</string>
     <string name="connect_settings_general_summary_corp_phone_phone">Xiaomi 계정에 로그인한 근처 태블릿이나 컴퓨터에서 통화 응답</string>
+    <string name="connect_settings_general_summary_corp_phone_phone_v2">이 기기로 걸려 오는 전화를 동일한 Xiaomi 계정에 로그인된 태블릿이나 컴퓨터에서 받을 수 있습니다.</string>
     <string name="connect_settings_general_summary_relay_app">"Xiaomi 계정에 로그인한 모든 기기에서 동일한 앱을 사용하세요.
 휴대전화, 태블릿, 컴퓨터에서 지원됩니다."</string>
     <string name="connect_settings_general_summary_share_camera">Xiaomi 계정에 로그인한 주변 태블릿 및 컴퓨터에서 영상 통화 또는 라이브 스트리밍을 하는 동안 휴대전화 카메라를 사용하여 촬영 각도를 조정</string>
@@ -623,12 +651,15 @@ Xiaomi 계정에 로그인하세요"</string>
     <string name="connect_settings_general_summary_share_launcher_phone">Xiaomi 계정에 로그인한 근처 태블릿, 컴퓨터 및 차량에서 휴대전화를 확인, 제어 및 앱에 접근하세요.</string>
     <string name="connect_settings_general_summary_share_launcher_phone_v2">동일한 계정에 로그인된 주변의 휴대전화, 태블릿, 컴퓨터, 차량에서 이 기기를 보거나 제어하고 해당 앱을 사용하세요.</string>
     <string name="connect_settings_general_summary_share_notification_pad">Xiaomi 계정에 로그인한 태블릿에서 근처 휴대전화의 배터리 부족 알림을 표시</string>
+    <string name="connect_settings_general_summary_share_notification_pad_v2">태블릿과 휴대전화가 동일한 Xiaomi 계정에 로그인되어 있고 같은 네트워크에 연결되어 있으면 근처에 있는 휴대전화의 알림아 태블릿에 표시되도록 할 수 있습니다.</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Xiaomi 계정에 로그인한 근처 TV, 태블릿, 컴퓨터에 중요한 휴대전화 알림을 표시합니다.
 TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부족 알림과 호환됩니다."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">휴대전화의 배터리 부족 알림을 동일한 계정으로 로그인된 근처 태블릿에 표시합니다.</string>
     <string name="connect_settings_known_button">알겠습니다</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
+    <string name="connect_settings_mi_share_tap_share">터치하여 공유</string>
     <string name="connect_settings_nfc_share">NFC를 통해 항목 전송</string>
+    <string name="connect_settings_not_found_device_title">사용 가능한 기기를 찾을 수 없음</string>
     <string name="connect_settings_not_opened">꺼짐</string>
     <string name="connect_settings_opened">켜짐</string>
     <string name="connect_settings_presentation_password_error">잘못된 비밀번호</string>
@@ -638,6 +669,7 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="connect_settings_relay_app">앱</string>
     <string name="connect_settings_same_account">이 계정에서</string>
     <string name="connect_settings_screen_cast">캐스트</string>
+    <string name="connect_settings_searching_device_title">기기 검색 중</string>
     <string name="connect_settings_share_camera">기기 간 카메라</string>
     <string name="connect_settings_share_clipboard">클립보드</string>
     <string name="connect_settings_share_file">기기 간 파일</string>
@@ -649,6 +681,7 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">얼굴 또는 비밀번호 잠금 해제</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Mac에서 지문이나 비밀번호를 사용하여 휴대전화와 앱 잠금을 해제하세요</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock">Xiaomi EV 카메라를 통한 안면 인식을 사용하여 휴대전화와 앱 잠금 해제</string>
+    <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock_v2">Xiaomi EV 카메라를 사용하여 얼굴을 인식하고 Xiaomi 전화 잠금을 해제하세요.</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">안면 인식 잠금해제</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">잠금 해제 후 빠른 앱 실행</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Xiaomi 태블릿에서 지문이나 비밀번호를 사용하여 휴대전화와 앱 잠금을 해제하세요</string>
@@ -656,20 +689,31 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">태블릿 홈 화면에 휴대폰 앱을 추가하세요. 휴대전화 잠금이 해제되면 태블릿에서 바로 실행할 수 있습니다.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">잠금해제에 지문 또는 비밀번호 입력 사용</string>
     <string name="connect_settings_share_notification">알림</string>
+    <string name="connect_settings_share_notification_apple_watch">이 기기의 알림을 Apple Watch에 표시</string>
+    <string name="connect_settings_share_notification_apple_watch_category">알림을 워치로 동기화</string>
     <string name="connect_settings_share_notification_help">도움말</string>
     <string name="connect_settings_share_notification_iphone_device">iPhone에서 이 기기의 알림 표시</string>
     <string name="connect_settings_share_notification_local_device">이 기기에 iPhone 알림 표시</string>
     <string name="connect_settings_share_notification_local_device_summary">이 기기에서 전화, 메시지, 앱 알림을 받으려면 iPhone의 Xiaomi 상호 연결 > 알림 동기화 > Xiaomi와 동기화에서 Xiaomi 휴대전화와 알림을 동기화하도록 허용하세요.</string>
     <string name="connect_settings_share_notification_local_device_summary_v2">"Xiaomi 기기에서 전화, 메시지, 앱 알림을 받으려면 iPhone의 'Xiaomi 상호 연결 > 알림 동기화 > Xiaomi와 동기화'에서 연결하세요."</string>
     <string name="connect_settings_share_notification_local_device_title">%1$s의 알림 받기</string>
+    <string name="connect_settings_share_notification_local_low_battery_summary">Xiaomi 휴대전화의 배터리 부족 알림을 이 기기에 표시합니다.</string>
+    <string name="connect_settings_share_notification_local_low_battery_title">배터리 부족 알림</string>
     <string name="connect_settings_share_notification_local_other_mi_device">이 기기에서 다른 Xiaomi 기기의 알림 보기</string>
     <string name="connect_settings_share_notification_mi_device">Xiaomi 기기에서 이 기기의 알림을 표시합니다</string>
     <string name="connect_settings_share_notification_mi_device_category">주변의 기기와 동기화</string>
     <string name="connect_settings_share_notification_mi_device_category_v2">주변의 기기</string>
+    <string name="connect_settings_share_notification_mi_device_category_v3">주변의 기기로 알림 동기화</string>
     <string name="connect_settings_share_notification_mi_device_v2">Xiaomi 태블릿 또는 TV</string>
     <string name="connect_settings_share_notification_mi_device_v3">Xiaomi 태블릿, 컴퓨터 및 TV</string>
     <string name="connect_settings_share_notification_more_feature">더 많은 기능</string>
+    <string name="connect_settings_share_notification_other_important">추가 동기화 옵션</string>
+    <string name="connect_settings_share_notification_other_important_summary">Xiaomi 휴대전화의 배터리 부족 알림을 Xiaomi 태블릿과 컴퓨터에 표시하고, 음식 배달 및 차량 호출 알림을 Xiaomi TV에 표시합니다.</string>
+    <string name="connect_settings_share_notification_other_important_title">Xiaomi 태블릿, 컴퓨터, TV와 동기화</string>
     <string name="connect_settings_share_notification_other_mi_local_device">다른 Xiaomi 기기에서 이 기기의 알림 보기</string>
+    <string name="connect_settings_share_notification_pad_local">이 기기의 알림을 Xiaomi 태블릿에 표시합니다.</string>
+    <string name="connect_settings_share_notification_pad_mi_device_summary">Xiaomi 휴대전화 앱의 알림을 이 기기에 표시합니다. 동기화할 알림은 휴대전화의 설정 > 상호 연결 > 기기 간 알림에서 선택하세요.</string>
+    <string name="connect_settings_share_notification_pad_mi_device_title">앱 알림</string>
     <string name="connect_settings_share_notification_receive_tab">수신</string>
     <string name="connect_settings_share_notification_receive_tab_device_category">사용 가능한 기기</string>
     <string name="connect_settings_share_notification_receive_tab_device_category_v2">사용 가능한 기기</string>
@@ -693,10 +737,17 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="connect_settings_share_notification_send_tab">동기화</string>
     <string name="connect_settings_share_notification_send_tab_device_category">휴대전화와 동기화</string>
     <string name="connect_settings_share_notification_send_tab_device_category_v2">내 휴대전화</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v3">사용 가능한 기기</string>
+    <string name="connect_settings_share_notification_send_tab_not_found_device_summary">위의 안내를 모두 따랐는지 확인하세요. 다시 시도하려면 \"새로고침\"을 탭합니다.</string>
     <string name="connect_settings_share_notification_send_tab_summary">"이 기기의 알림을 동일한 계정에 로그인한 휴대전화, 태블릿 또는 TV에 표시합니다.
 *지원되는 기능: 휴대전화에서는 전화, 메시지, 앱 알림을 표시할 수 있습니다. TV에서는 배달 및 차량 호출 알림을 표시할 수 있습니다. 태블릿과 컴퓨터에서는 휴대전화의 배터리 부족 알림을 표시할 수 있습니다."</string>
     <string name="connect_settings_share_notification_send_tab_summary_v2">"• 이 기기가 잠겨 있는 동안 동일한 계정으로 로그인된 휴대전화, 태블릿, 컴퓨터 또는 TV에서 이 기기의 알림을 볼 수 있습니다.
 • 휴대전화에서는 통화, 메시지 또는 앱 알림을, TV에서는 음식 배달 및 차량 호출 알림을, 태블릿과 컴퓨터에서는 배터리 부족 알림을 볼 수 있습니다."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v3">"이 기기에서 받은 알림을 같은 Xiaomi 계정에 로그인된 다른 기기와 동기화하여 다른 기기에 표시할 수 있습니다.
+• 휴대전화와 동기화: 두 기기 모두 동일한 Xiaomi 계정에 로그인되어 있고 네트워크에 연결되어 있어야 합니다.
+• 태블릿과 동기화: 태블릿이 근처에 있고, 동일한 Xiaomi 계정에 로그인되어 있으며, 같은 네트워크에 연결되어 있거나 홈 화면+를 사용 중이어야 합니다."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v4">"• 이 기기가 잠겨 있는 동안 동일한 계정으로 로그인된 휴대전화, 태블릿, 컴퓨터, TV, 워치에서 이 기기의 알림을 볼 수 있습니다.
+• 휴대전화에서는 통화, 메시지, 앱 알림을, TV에서는 음식 배달, 차량 호출 알림을, 태블릿과 컴퓨터에서는 배터리 부족 알림을 볼 수 있습니다."</string>
     <string name="connect_settings_share_notification_send_tab_v2">동기화</string>
     <string name="connect_settings_summary"><Data>Xiaomi 계정에 로그인한 주변 기기를 찾아 Xiaomi Smart Hub에 추가하세요. &lt;a href=%1$s>더 알아보기&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">기기 간에 무선으로 상호 작용하도록 허용</string>
@@ -728,6 +779,7 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="console_guide_subtitle_small_window">휴대전화의 다른 기능을 사용할 수 있게 하기 위해 캐스트 중인 창을 최소화합니다</string>
     <string name="copy">복사</string>
     <string name="copy_toast_msg">클립보드에 링크 복사됨</string>
+    <string name="copy_verification_code_tip">인증 코드 복사됨</string>
     <string name="current_wifi_tv">사용 중인 네트워크</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -784,20 +836,18 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="dialog_nfc_cast_wifi_off">NFC를 사용하는 캐스트를 사용하시려면 WLAN를 켜셔야 합니다. 지금 켜시겠습니까?</string>
     <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 모바일 기기와 TV를 동일한 Wi-Fi 네트워크에 연결하세요.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 일부 TV 모델에서 해당 기능은 화면 미러링이 켜져 있을 때만 사용할 수 있습니다. 더 알아보시려면 &lt;a href=milink://com.milink.service/specification>\"도움말\"&lt;/a>을 확인하세요.</Data></string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 모바일 기기와 TV를 동일한 WLAN 네트워크에 연결하세요.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 일부 TV 모델에서 해당 기능은 화면 미러링이 켜져 있을 때만 사용할 수 있습니다. 더 알아보시려면 &lt;a href=milink://com.milink.service/specification>\"도움말\"&lt;/a>을 확인하세요.</Data></string>
+    <string name="dialog_no_device_message_new"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. TV와 휴대전화를 동일한 Wi-Fi 네트워크에 연결하세요.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 일부 TV는 화면 미러링을 켜야 검색이 가능합니다. 자세한 내용은 &lt;a href=milink://com.milink.service/specification>도움말&lt;/a>을 확인하세요.</Data></string>
+    <string name="dialog_no_device_message_new_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. TV와 휴대전화를 동일한 WLAN 네트워크에 연결하세요.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 일부 TV는 화면 미러링을 켜야 검색이 가능합니다. 자세한 내용은 &lt;a href=milink://com.milink.service/specification>도움말&lt;/a>을 확인하세요.</Data></string>
     <string name="dialog_ok">확인</string>
     <string name="dialog_only_suport_content">사진, 동영상, 음악 스트리밍</string>
     <string name="dialog_open_remote_switch_content">설정을 적용할 수 없습니다. %1$s 및 이 기기가 동일한 계정에 로그인되어 있고 동일한 네트워크에 연결되어 있는지 확인하세요.</string>
+    <string name="dialog_open_remote_switch_content_corp_phone">켤 수 없습니다. %1$s이(가) 동일한 Xiaomi 계정에 로그인되어 있고 동일한 네트워크에 연결되어 있는지 확인하세요.</string>
     <string name="dialog_open_wifi_bt">켜기</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"대상 기기에 무선 캐스트 기능이 켜져 있는지 확인해 주세요.
 연결에 문제가 발생하신 경우, 도움말을 확인해 주세요."</string>
     <string name="dialog_recent_connected">최근</string>
-    <string name="dialog_remote_authorization">%1$s에서 권한 허용</string>
-    <string name="dialog_remote_authorization_content">%1$s의 상호 연결에서 알림 권한을 허용하세요.</string>
-    <string name="dialog_reset_app_subscribe">%1$s의 알림 수신 허용</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s은(는) %1$s에서 이전에 삭제되었습니다. 이 기기에서 앱 알림을 받을 수 없습니다. 설정을 변경한 후 다시 시도하세요.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">일부 앱이 이전에 내 %1$s에서 삭제되었으며 이 기기에서는 해당 앱의 알림을 받을 수 없습니다. 알림 동기화를 다시 설정하세요.</string>
     <string name="dialog_reset_app_subscribe_multi">알림 설정 변경</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s 및 %3$s은(는) %1$s에서 이전에 삭제되었습니다. 이 기기에서 앱 알림을 받을 수 없습니다. 설정을 변경한 후 다시 시도하세요.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s, %4$s은(는) %1$s에서 이전에 삭제되었습니다. 이 기기에서 앱 알림을 받을 수 없습니다. 설정을 변경한 후 다시 시도하세요.</string>
     <string name="dialog_retry">다시 시도</string>
     <string name="dialog_scan_message">"%1$d. 모바일 기기와 TV를 동일한 Wi-Fi 네트워크에 연결하세요.
 
@@ -805,17 +855,46 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="dialog_scan_message_china">"%1$d. 모바일 기기와 TV를 동일한 WLAN 네트워크에 연결하세요.
 
 %2$d. 더 알아보시려면 \"도움말\"을 확인하세요."</string>
+    <string name="dialog_scan_message_new">"%1$d. TV와 휴대전화를 동일한 Wi-Fi 네트워크에 연결하세요.
+
+%2$d. 일부 TV는 화면 미러링을 켜야 검색이 가능해집니다. 자세한 내용은 “도움말 보기”를 탭하세요."</string>
+    <string name="dialog_scan_message_new_china">"%1$d. TV와 휴대전화를 동일한 WLAN 네트워크에 연결하세요.
+
+%2$d. 일부 TV는 화면 미러링을 켜야 검색이 가능합니다. 자세한 내용은 “도움말 보기”를 탭하세요."</string>
     <string name="dialog_scanning_close_dual_wifi_china">캐스트를 사용하시려면 \"듀얼 밴드 WLAN 가속\"을 끄세요. 지금 끄시겠습니까?</string>
     <string name="dialog_scanning_close_dual_wifi_global">캐스트를 사용하시려면 \"듀얼 밴드 가속\"을 끄세요. 지금 끄시겠습니까?</string>
     <string name="dialog_scanning_close_tethering">캐스트를 위해 핫스팟을 끄세요. 지금 핫스팟을 끄시겠습니까?</string>
     <string name="dialog_scanning_device">주변의 기기 검색 중…</string>
     <string name="dialog_scanning_precondition">무선 디스플레이를 사용하시려면 휴대전화의 Wi-Fi 및 블루투스를 켜세요.</string>
+    <string name="dialog_scanning_precondition_new_1">화면 캐스팅을 사용하려면 Wi-Fi, 위치 서비스가 필요합니다. 해당 기능들을 켜시겠습니까?</string>
+    <string name="dialog_scanning_precondition_new_1_china">화면 캐스팅을 사용하려면 WLAN, 블루투스, 위치 서비스가 필요합니다. 해당 기능들을 켜시겠습니까?</string>
     <string name="dialog_scanning_precondition_new_china">캐스트를 사용하시려면 WLAN, 블루투스 및 위치 서비스를 켜셔야 합니다. 지금 켜시겠습니까?</string>
     <string name="dialog_scanning_precondition_new_global">캐스트를 사용하시려면 Wi-Fi 및 위치 서비스를 켜셔야 합니다. 지금 켜시겠습니까?</string>
     <string name="dialog_select_tv">기기 선택 (%1$d)</string>
     <string name="dialog_show_help">도움말</string>
+    <string name="dialog_show_help_v1">도움말 보기</string>
     <string name="disconnect">캐스트 중지</string>
+    <string name="dist_camera_pad_switch_off_toast_button_text">알겠습니다</string>
+    <string name="dist_camera_pad_switch_off_toast_subtitle">"태블릿의 '설정 > 상호 연결'에서 기기 간 카메라를 켜세요."</string>
+    <string name="dist_camera_pad_switch_off_toast_title">기기 간 카메라 켜기</string>
+    <string name="dist_camera_phone_switch_off_toast_button_text">알겠습니다.</string>
+    <string name="dist_camera_phone_switch_off_toast_subtitle">"휴대전화의 '설정 > 상호 연결'에서 기기 간 카메라를 켜세요."</string>
+    <string name="dist_camera_phone_switch_off_toast_title">기기 간 카메라 켜기</string>
     <string name="dp_casting_start_hint">케이블을 통해 연결되었습니다. 캐스트가 종료되었습니다.</string>
+    <string name="dp_in_dialog_cancel">취소</string>
+    <string name="dp_in_dialog_enter">켜기</string>
+    <string name="dp_in_dialog_message">이 모드에서는 태블릿이 디스플레이로만 작동합니다. 태블릿의 소리가 음소거되고 외부 기기의 오디오만 재생됩니다. 시스템 알림이 표시되지 않습니다. 사용 경험을 최적화하기 위해 가로 방향으로 사용하세요.</string>
+    <string name="dp_in_dialog_title">화면 확장 프로 켜기</string>
+    <string name="dp_in_exit_dialog_exit">끄기</string>
+    <string name="dp_in_exit_dialog_message">화면 연결이 해제되고 태블릿의 홈 화면으로 돌아갑니다.</string>
+    <string name="dp_in_exit_dialog_title">화면 확장 프로를 끄시겠습니까?</string>
+    <string name="dp_in_low_battery_confirm">알겠습니다</string>
+    <string name="dp_in_low_battery_message">배터리가 %s 미만입니다. 곧 충전하세요.</string>
+    <string name="dp_in_no_signal_exit">화면 확장 프로 끄기</string>
+    <string name="dp_in_no_signal_subtitle">기기가 연결되어 있는지 확인하세요</string>
+    <string name="dp_in_no_signal_title">기기 신호를 감지할 수 없음</string>
+    <string name="dp_in_notification_subtitle">이 모드에서는 태블릿이 디스플레이로만 작동합니다</string>
+    <string name="dp_in_notification_title">화면 확장 프로 켜기</string>
     <string name="dual_wifi_warning_china">듀얼 WLAN을 끄시고 다시 시도하세요</string>
     <string name="dual_wifi_warning_global">듀얼 Wi-Fi를 끄시고 다시 시도하세요</string>
     <string name="early_morning">아침</string>
@@ -835,6 +914,7 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="err_toast_msg_not_support_audio_protocol">이 기기로 오디오 재생을 전송할 수 없음</string>
     <string name="err_toast_msg_retry_later">이 작업을 실행할 수 없습니다. 1-2분 정도 기다리신 후 다시 시도하세요.</string>
     <string name="err_toast_msg_state_not_support">드래그가 지원되지 않음</string>
+    <string name="err_toast_msg_state_not_support_circulate">지금 전환할 수 없음</string>
     <string name="err_toast_msg_try_switch_network">모바일 기기 및 컴퓨터를 동일한 WLAN 네트워크에 연결하세요</string>
     <string name="error_a11y_label">오류: 잘못됨</string>
     <string name="error_icon_content_description">오류</string>
@@ -915,6 +995,7 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="friday">금요일</string>
     <string name="friday_short">금</string>
     <string name="friday_shortest">금</string>
+    <string name="fusion_device_nearby">근처</string>
     <string name="global_dialog_cancle">취소</string>
     <string name="global_dialog_miplay_permission_positive">설정</string>
     <string name="global_dialog_nearbydevice_permission_message">상호 연결은 주변의 기기를 검색하려면 해당 기기들에 대한 연결 권한이 필요합니다. 상호 연결을 정상적으로 사용하시려면 설정에서 요구되는 권한을 부여하세요.</string>
@@ -928,6 +1009,9 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="global_privacy_positive">동의</string>
     <string name="global_privacy_screencast">이 기능을 제공하는 서비스는 녹음 또는 캐스트 중에 화면에 표시되거나 기기에서 재생되는 민감한 정보를 캡처할 수 있습니다. 민감한 정보에는 오디오, 비밀번호, 결제 정보, 사진, 메시지 등이 포함됩니다.</string>
     <string name="global_privacy_tip"><Data>저희는 기본적인 서비스 제공 및 캐스팅 처리의 최적화를 위해 귀하의 개인 정보에 대한 수집이 필요합니다. 저희가 수집한 개인 정보를 처리하는 방침은 저희의 &lt;a href=%1$s>개인 정보 보호 정책&lt;/a>에서 확인하실 수 있습니다. 언제든지 설정의 보안 개인 정보 보호 정책에서 동의를 철회하실 수 있습니다.</Data></string>
+    <string name="guide_mask_btn">시작하기</string>
+    <string name="guide_mask_desc">카드를 길게 누른 후 Xiaomi Smart Hub와 제어 센터 상단에 고정해 둘 수 있습니다.</string>
+    <string name="guide_mask_title">완전히 새로워진 Xiaomi Smart Hub</string>
     <string name="hang_up">화면을 끈 상태에서 캐스트</string>
     <string name="hang_up_alert_dialog_content">기기의 화면이 꺼진 상태에서 캐스트를 진행합니다. 이 기능으로 기기의 전력 소모를 감소시킬 수 있습니다. 전원 버튼을 눌러 화면을 다시 깨울 수 있습니다.</string>
     <string name="hang_up_alert_dialog_neg">취소</string>
@@ -936,6 +1020,8 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="head_toast_connecting">연결 중…</string>
     <string name="head_toast_fail">연결 실패</string>
     <string name="head_toast_success">연결 성공</string>
+    <string name="headset_circulate_card_default_title">이어폰이 연결되었습니다.</string>
+    <string name="headset_circulate_card_glasses_title">안경이 연결되었습니다.</string>
     <string name="headset_content_description">이어폰이 이 기기에 연결되었습니다. 두 번 눌러서 활성화하세요. 두 손가락으로 누르고 드래그하여 재생을 전송하세요.</string>
     <string name="headset_content_description_global">이어폰이 이 기기에 연결되었습니다. 두 번 눌러서 활성화하세요.</string>
     <string name="help_page_question_1st_01_international">"%1$d. 캐스트하려는 기기가 Xiaomi TV일 경우에는 Miracast를 켜세요.
@@ -963,10 +1049,14 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
     <string name="help_page_text_06_new_1">Xiaomi TV, 셋톱박스 및 프로젝터:</string>
     <string name="help_page_text_06_new_2">"%1$d. 모바일 기기와 외부 모니터가 동일한 Wi-Fi 네트워크에 연결되어 있는지 확인하세요.
 %2$d. 일부 Xiaomi TV에서는 캐스트를 설정하고 기기 검색 및 인증 방식을 맞춤 설정할 수 있습니다."</string>
+    <string name="help_page_text_06_new_2_china">"%1$d. TV와 휴대전화가 동일한 WLAN 네트워크에 연결되었는지 확인하세요.
+%2$d. 일부 Xiaomi TV의 경우 무선 캐스팅 설정에서 기기 검색 및 인증 방식을 맞춤 설정할 수 있습니다."</string>
     <string name="help_page_text_06_new_3">*캐스트 설정에서 TV 캐스트 환경설정이 가능합니다.</string>
     <string name="help_page_text_06_new_4">Xiaomi 이외의 TV, 셋톱박스 및 프로젝터:</string>
     <string name="help_page_text_06_new_5">"%1$d. 모바일 기기와 외부 모니터가 동일한 Wi-Fi 네트워크에 연결되어 있는지 확인하세요.
 %2$d. 일부 브랜드의 TV에서는 캐스트를 위해 Miracast를 켜셔야 합니다."</string>
+    <string name="help_page_text_06_new_5_china">"%1$d. TV와 휴대전화가 동일한 WLAN 네트워크에 연결되었는지 확인하세요.
+%2$d. 일부 TV 브랜드의 경우 \"Miracast\"를 켜야 합니다."</string>
     <string name="help_page_text_06_new_6">더 알아보기</string>
     <string name="help_page_text_08">%1$d단계: 캐스트 켜기</string>
     <string name="help_page_text_08_new">%1$d단계: 캐스트 켜기</string>
@@ -984,6 +1074,12 @@ TV의 음식 배달 및 승차 앱과 태블릿 및 컴퓨터의 배터리 부�
 %2$d. 네트워크 환경이 안정적인지 확인하세요. 그렇지 않은 경우, 공유기를 재시작하시거나 %3$d GHz 네트워크 대역폭으로 전환하세요.
 %4$d. Xiaomi TV에 캐스트 시에는 TV의 무선 캐스트 기능을 켜시고 연결 중에는 캐스트 페이지를 유지하세요.
 %5$d. 회사나 학교 등 일부 대규모 공용 LAN에서는 동일한 LAN에 있는 기기를 검색하는 기능을 지원하지 않습니다."</string>
+    <string name="help_page_text_13_desc_1_new">"%1$d. Xiaomi TV로 캐스트하는 경우, TV에서 \"Miracast\"를 켜세요.
+%2$d. Xiaomi 제품이 아닌 TV로 화면을 캐스트하는 경우, 해당 TV가 “Miracast”(일부 기기에서는 “무선 디스플레이”, “화면 미러링”, “멀티 스크린 상호작용”으로 표시됨)를 지원하는지와 해당 기능이 켜져 있는지 확인하세요."</string>
+    <string name="help_page_text_13_desc_1_new_china">"%1$d. TV와 휴대전화가 동일한 WLAN 네트워크에 연결되거나 동일한 모바일 핫스팟에 연결되었는지 확인하세요.
+%2$d. 네트워크가 안정적인지 확인하세요. 라우터를 다시 시작하거나 5 GHz 라우터로 변경하세요.
+%4$d. Xiaomi TV로 화면을 캐스트하는 경우, TV에서 “무선 디스플레이”를 켜고 홈 화면을 유지하세요.
+%5$d. 대규모 공용 네트워크(사무실, 학교 등)의 경우 멀티캐스트 격리로 인해 기기 검색이 차단될 수 있습니다."</string>
     <string name="help_page_text_13_desc_2">일부 TV는 캐스트 중에 LAN이 아닌 연결을 사용합니다. 이러한 기기가 네트워크에서 분리되는 것은 정상입니다. 일반적으로 캐스트 종료 후 %1$d-%2$d초 후에 다시 연결됩니다.</string>
     <string name="help_page_text_13_summary_1">외부 기기에 연결할 수 없음</string>
     <string name="help_page_text_13_summary_2">캐스트 중 네트워크 중단</string>
@@ -1044,13 +1140,19 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="help_page_text_55_global">"네트워크에 연결할 수 없는 경우, 외부 모니터가 Miracast 기능의 지원 및 실행 여부를 확인해 주세요. 일부 모델의 경우, 해당 기능의 명칭이 무선 디스플레이, 화면 미러링 또는 다중 스크린일 수 있습니다.
 %1$d. 만약 다른 문제가 발생하시는 경우, \"서비스 &amp; 피드백\" 앱을 사용하여 보고해 주세요."</string>
     <string name="help_page_text_end">목록에 기기의 브랜드가 없는 경우, 해당 제조사에 캐스트 기능에 대해 문의하세요.</string>
+    <string name="hint_deivce">지원되는 기기 및 기능 보기</string>
+    <string name="hint_text">Xiaomi Smart Hub를 통해 Human × Car × Home 기기를 관리할 수 있습니다.</string>
+    <string name="home_curtain_card_close_button">닫기</string>
+    <string name="home_curtain_card_open_button">열기</string>
+    <string name="home_curtain_card_pause_button">일시 정지</string>
+    <string name="homemodule_camera__physical_mask">카메라가 차단됨</string>
+    <string name="homemodule_curtain_AllDevice_none">커튼 장치 없음</string>
+    <string name="homemodule_light_AllDevice_none">조명 장치 없음</string>
     <string name="i_see">알겠습니다</string>
+    <string name="ic_media_route_learn_more_accessibility">전송 방법 알아보기</string>
     <string name="icon_content_description">대화상자 아이콘</string>
     <string name="image_transfer_failed">이미지 전송 실패</string>
     <string name="install">설치</string>
-    <string name="inter_connect_setting_unavailable_dialog_message">설정 > 상호 연결을 열고 기기 간 카메라를 켜세요.</string>
-    <string name="inter_connect_setting_unavailable_dialog_positive_button">알겠습니다</string>
-    <string name="inter_connect_setting_unavailable_dialog_title">기기 간 카메라</string>
     <string name="introduction_to_accessibility_message">"상호 연결을 사용하면 여러 기기에서 데이터를 제어하고 전송할 수 있습니다.
 
 상호 연결을 사용할 때 다른 앱에서 마이크를 사용하지 못하도록 접근성 기능을 켜세요.
@@ -1065,6 +1167,7 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="local_camera_device">이 기기</string>
     <string name="local_device_camera">이 기기</string>
     <string name="local_hotspot_opening">이 기기의 핫스팟을 끄시고 다시 시도하세요</string>
+    <string name="login_hint">Xiaomi 계정에 로그인</string>
     <string name="material_clock_toggle_content_description">오전 또는 오후를 선택하세요.</string>
     <string name="material_hour_24h_suffix">%1$s시간</string>
     <string name="material_hour_selection">시간 선택</string>
@@ -1083,7 +1186,7 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="message_install">기기 간 스케치를 사용하시려면 Mi 캔버스를 설치하세요</string>
     <string name="message_update">기기 간 스케치를 사용하시려면 Mi 캔버스를 업데이트하세요.</string>
     <string name="midnight">야간</string>
-    <string name="mihome_camera_device_during_calll">카메라가 통화에 사용되고 있습니다</string>
+    <string name="mihome_camera_device_during_call_normal">카메라가 사용 중입니다. 1-2분 후 다시 시도하세요.</string>
     <string name="mihome_camera_device_not_available">더 많은 기기를 연결할 수 없음</string>
     <string name="mihome_camera_device_offline">연결할 수 없습니다. 카메라가 오프라인 상태입니다.</string>
     <string name="mihome_camera_device_sleep">절전 모드에서 나가신 후 다시 시도하세요</string>
@@ -1126,6 +1229,7 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="miuix_appcompat_action_mode_deselect_all">전체 선택 해제</string>
     <string name="miuix_appcompat_action_mode_select_all">모두 선택</string>
     <string name="miuix_appcompat_action_mode_title_empty">항목 선택</string>
+    <string name="miuix_appcompat_action_sheet_default_message">선택</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">더 보기</string>
     <string name="miuix_appcompat_cancel_description">취소</string>
     <string name="miuix_appcompat_confirm_description">승인</string>
@@ -1139,6 +1243,19 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="miuix_appcompat_select_all_description">전체 선택</string>
     <string name="miuix_appcompat_select_item">항목 선택</string>
     <string name="miuix_appcompat_show_dialog_description">팝업 창</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">아래로 스와이프하여 닫기</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">아래로 스와이프하여 반쪽 화면으로 전환</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">아래로 스와이프하여 최소화</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">위로 스와이프하여 반쪽 화면으로 전환</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">위로 스와이프하여 최대화</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">반쪽 화면</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">최대화됨</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">최소화됨</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">반쪽 화면으로 전환</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">최대화</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">최소화</string>
+    <string name="miuix_popup_show_description">팝업 창</string>
+    <string name="miuix_popup_window_default_title">팝업 창</string>
     <string name="miuix_progressbar_loading">로드 중</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">아래로 당겨 새로고침</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">새로고침 성공</string>
@@ -1151,6 +1268,13 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="miuix_show_password">비밀번호 표시</string>
     <string name="miuix_stretchablewidget_collapsed">축소됨</string>
     <string name="miuix_stretchablewidget_expanded">확장됨</string>
+    <string name="mj_home_device_empty">기기 없음</string>
+    <string name="mj_module_card_name_curtain">커튼</string>
+    <string name="mj_module_card_name_env">환경</string>
+    <string name="mj_module_card_name_light">조명</string>
+    <string name="mj_room_curtain_device_none">모든 커튼이 닫혀 있습니다</string>
+    <string name="mj_room_light_device_none">모든 조명이 꺼져 있습니다</string>
+    <string name="mj_talkback_device_main_need_psd">비밀번호 필요</string>
     <string name="monday">월요일</string>
     <string name="monday_short">월</string>
     <string name="monday_shortest">월</string>
@@ -1197,8 +1321,17 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="mr_cast_button_connecting">전송 버튼입니다. 기기 연결 중입니다</string>
     <string name="mr_cast_button_disconnected">전송 버튼입니다. 기기가 연결 해제되었습니다</string>
     <string name="mr_cast_dialog_title_view_placeholder">사용할 수 있는 정보 없음</string>
+    <string name="mr_chooser_looking_for_devices">기기 검색 중…</string>
     <string name="mr_chooser_searching">기기를 찾는 중</string>
     <string name="mr_chooser_title">전송 대상</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">자세히 알아보기</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">다른 기기가 이 자동차와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
+    <string name="mr_chooser_wifi_warning_description_phone">다른 기기가 이 휴대전화와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">다른 기기가 이 태블릿과 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
+    <string name="mr_chooser_wifi_warning_description_tv">다른 기기가 이 TV와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">다른 기기가 이 기기와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
+    <string name="mr_chooser_wifi_warning_description_watch">다른 기기가 이 시계와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
+    <string name="mr_chooser_zero_routes_found_title">사용 가능한 기기 없음</string>
     <string name="mr_controller_album_art">앨범아트</string>
     <string name="mr_controller_casting_screen">화면 전송 중</string>
     <string name="mr_controller_close_description">닫기</string>
@@ -1263,8 +1396,11 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="mtrl_picker_toggle_to_year_selection">탭하여 연도 뷰로 전환</string>
     <string name="mtrl_timepicker_cancel">취소</string>
     <string name="mtrl_timepicker_confirm">확인</string>
+    <string name="nearby_device">사용 가능한 기기</string>
     <string name="nfc_connect_failed_toast">캐스트 실패, 다시 시도.</string>
     <string name="night">저녁</string>
+    <string name="no_device">표시할 내용 없음</string>
+    <string name="no_device_enable_hint">주변의 기기를 자동으로 검색하고 연결하여 여러 기기에 걸쳐 다양한 작업을 수행하세요.</string>
     <string name="noon">정오</string>
     <string name="normal_device_desc">연결된 적이 있지만 신뢰 항목으로 표시되지 않은 기기</string>
     <string name="normal_device_desc_limit">연결된 적이 있지만 신뢰 항목으로 표시되지 않은 기기</string>
@@ -1274,25 +1410,44 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="not_support_from_blacklist_toast">앱 캐스팅을 지원하지 않는 모드입니다.</string>
     <string name="not_support_from_whitelist_toast">앱을 열어 캐스트하기</string>
     <string name="not_support_toast">앱 캐스팅을 지원하지 않는 앱입니다.</string>
+    <string name="not_support_toast_split_screen">분할 화면에서는 앱 캐스팅이 지원되지 않습니다</string>
     <string name="nothing_to_play">재생 중 아님</string>
+    <string name="noti_device_off">꺼짐</string>
+    <string name="noti_device_on">켜짐</string>
     <string name="notification_cast_desc">캐스트 중…</string>
     <string name="notification_channel_description">다른 기기에서 Xiaomi 기기로 동기화할 알림 유형을 선택하세요</string>
+    <string name="notification_channel_description_2">알림 기본 설정 관리</string>
     <string name="notification_channel_subtitle_ref_call">iPhone의 통화</string>
-    <string name="notification_channel_subtitle_ref_call_1">%1$s에 걸려 온 전화</string>
-    <string name="notification_channel_subtitle_ref_lary_1">%1$s의 Lark 메시지</string>
+    <string name="notification_channel_subtitle_ref_call_2">%1$s의 수신 통화</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">%1$s의 DingTalk 알림</string>
+    <string name="notification_channel_subtitle_ref_lary_2">%1$s의 Lark 알림</string>
     <string name="notification_channel_subtitle_ref_mqq">iPhone의 QQ 메시지</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">%1$s에 전송된 QQ 메시지</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">%1$s의 QQ 알림</string>
     <string name="notification_channel_subtitle_ref_sms">iPhone의 메시지</string>
-    <string name="notification_channel_subtitle_ref_sms_1">%1$s에 전송된 메시지</string>
+    <string name="notification_channel_subtitle_ref_sms_2">%1$s의 SMS</string>
+    <string name="notification_channel_subtitle_ref_wework_2">%1$s의 WeCom 알림</string>
     <string name="notification_channel_subtitle_ref_xin">iPhone의 WeChat 메시지</string>
-    <string name="notification_channel_subtitle_ref_xin_1">%1$s에 전송된 WeChat 메시지</string>
+    <string name="notification_channel_subtitle_ref_xin_2">%1$s의 WeChat 알림</string>
     <string name="notification_channel_title_name">알림이 Xiaomi 기기에 동기화됨</string>
+    <string name="notification_channel_title_name_2">다른 기기의 알림</string>
+    <string name="notification_copy">복사</string>
     <string name="notification_desc_scanning">주변의 기기 검색 중…</string>
     <string name="notification_incoming_call_to_reply">전화가 왔습니다. %1$s에서 받으세요.</string>
+    <string name="notification_permission_accept">허용</string>
+    <string name="notification_permission_client_content">내 %1$s에서 이 기기에 알림 권한을 부여합니다.</string>
+    <string name="notification_permission_client_title">%1$s에서 권한 부여</string>
     <string name="notification_permission_content">상호 연결이 설치되고 계정에 로그인된 모든 iPhone에서 이 기기의 알림을 허용합니다.</string>
+    <string name="notification_permission_content_v2">이 기기의 통화, SMS, 앱 알림이 내 %1$s에 표시되도록 허용할까요?</string>
+    <string name="notification_permission_deny">허용하지 않음</string>
     <string name="notification_permission_new_content">알림 동기화가 켜져 있는 iPhone이나 기기 간 알림이 켜진 Xiaomi 기기에서 이 기기의 전화, 메시지, 앱 알림을 표시하도록 허용하세요.</string>
+    <string name="notification_permission_request_content">잠금을 해제하여 접근 허용</string>
+    <string name="notification_permission_request_title">%1$s에 대한 알림 접근 허용</string>
+    <string name="notification_permission_title">%1$s에 알림 권한 부여</string>
     <string name="notification_rc_title">XiaoMi TV 어시스턴트</string>
     <string name="notification_revice_phone">%1$s 알림</string>
+    <string name="notification_send_page_pad_disabled">설정 > 상호 연결 > 기기 간 알림에서 %1$s의 앱 알림을 허용하세요.</string>
+    <string name="notification_send_page_pad_offline">%1$s 및 이 기기가 동일한 Xiaomi 계정에 로그인되어 있고 동일한 네트워크에 연결되어 있는지 확인하고 \"설정 > 상호 연결 > 기기 간 알림\"에서 앱 알림을 허용하세요.</string>
+    <string name="notification_send_page_title">이 기기의 알림을 %1$s와(과) 동기화</string>
     <string name="notification_show_more">탭하여 더 많은 기능 보기</string>
     <string name="notification_support_applist">지원되는 앱</string>
     <string name="notify_wifiap_dialog_msg">코드 스캔 및 네트워크 구성을 위해 먼저 휴대용 핫스팟을 끄세요.</string>
@@ -1315,6 +1470,7 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="open_wlan_self_china">상호 연결 기능을 사용할 수 있도록 WLAN을 켜세요. 지금 켜시겠습니까?</string>
     <string name="open_wlan_self_toast">Wi-Fi를 켜고 다시 시도하세요</string>
     <string name="open_wlan_self_toast_china">WLAN을 켜고 다시 시도하세요</string>
+    <string name="operation_open_close">켜기/끄기</string>
     <string name="paipai_connect_btn_text">완료</string>
     <string name="paipai_connect_tv1_text">기기에 연결됨</string>
     <string name="paipai_connect_tv2_text">데이터 전송됨</string>
@@ -1378,7 +1534,7 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="passport_error_length_limit">입력하신 텍스트가 너무 깁니다</string>
     <string name="passport_error_network">네트워크에 연결 할 수 없음</string>
     <string name="passport_error_no_password_user">아직 비밀번호를 설정하지 않았습니다. SMS로 로그인하십시오.</string>
-    <string name="passport_error_phone">잘못된 전화번호</string>
+    <string name="passport_error_phone">유효한 전화번호를 입력하세요.</string>
     <string name="passport_error_server">서버 오류</string>
     <string name="passport_error_sms_limit">이 번호로 너무 많은 인증 코드를 전송했습니다. 나중에 다시 시도하십시오.</string>
     <string name="passport_error_ticket_invalid">이 코드가 잘못되었습니다</string>
@@ -1492,9 +1648,12 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="path_setting_cast_feature">더 많은 연결 옵션/캐스트/특수 기능</string>
     <string name="path_setting_cast_help">더 많은 연결 옵션/캐스트/도움말</string>
     <string name="permission_allowed">권한 부여됨</string>
+    <string name="permission_label_access_app_meta">여러 기기에서 앱 사용 시 앱 정보에 접근</string>
     <string name="permission_uballowed">권한 부여되지 않음</string>
     <string name="picker_view_description">기기 간 카메라. 카드의 내부를 탭하여 주변 기기의 카메라를 선택할 수 있습니다.</string>
     <string name="picker_view_outside_description">이 카드를 닫으려면 탭하세요.</string>
+    <string name="pin_device_header">고정된 기기</string>
+    <string name="pin_hint">고정</string>
     <string name="pm">오후</string>
     <string name="pre_privacy_setting_title">개인 정보 보호</string>
     <string name="preference_copied">"'%1$s'이(가) 클립보드에 복사되었습니다."</string>
@@ -1606,6 +1765,7 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="screen_projection">캐스트</string>
     <string name="screen_projection_characteristics">특수 기능</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Xiaomi HyperIsland에서 앱 캐스팅으로 전환하면 현재 앱을 외부 모니터에 띄우고 폰에서는 다른 앱을 사용할 수 있습니다.﻿</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Xiaomi HyperIsland에서 앱 캐스팅으로 전환하면 현재 앱을 외부 모니터에 캐스트하면서 태블릿에서는 다른 앱을 사용할 수 있습니다.﻿</string>
     <string name="screen_projection_characteristics_cast_summary">화면 콘텐츠를 근처의 TV에 캐스트</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">배터리 절약 및 과열 방지를 위해 캐스트 중에 모바일 기기 화면 끄기</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">전력 소모 및 과열을 줄이기 위해 캐스트 중에는 화면 끄기</string>
@@ -1677,6 +1837,7 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="small_window_not_supported">캐스트 중에는 앱을 최소화할 수 없음</string>
     <string name="sound_card_circulatable_control_text">재생 컨트롤</string>
     <string name="sound_card_circulatable_source_text">오디오 소스</string>
+    <string name="start_btn">켜기</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">안경 카메라를 사용 중입니다. 나중에 다시 시도하세요.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">오디오 녹음 중입니다. 카메라를 열 수 없습니다.</string>
     <string name="start_forbidden_by_glasses_in_translation">번역 중입니다. 카메라를 열 수 없습니다.</string>
@@ -1783,21 +1944,25 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="title_connection_interrupted">연결 중단됨</string>
     <string name="title_install">Mi 캔버스 설치</string>
     <string name="title_update">Mi 캔버스 업데이트</string>
+    <string name="to_login">로그인</string>
     <string name="toast_confirm_network">설정을 완료할 수 없습니다. 이 기기가 네트워크에 연결되어 있는지 확인하세요.</string>
     <string name="toast_copy_auth_message_finish">복사 완료</string>
     <string name="toast_guide_show_more">더 알아보기</string>
     <string name="toast_guide_title">여기에서 놀라운 새 기능을 살펴보세요</string>
     <string name="toast_invisible_mode">익명 모드를 사용하고 있습니다. 캐스트를 사용할 수 없습니다.</string>
     <string name="toast_invisible_mode1">익명 모드를 사용하는 중에는 캐스팅이 작동하지 않음</string>
+    <string name="toast_local_not_install">이 앱이 설치되어 있지 않습니다.</string>
     <string name="toast_msg_for_multi_window">분할 화면에서는 이 기능을 사용할 수 없음</string>
     <string name="toast_msg_for_small_window">휴대전화에서 캐스트 중인 창을 최소화하여 다른 기능을 사용하실 수 있으며 이는 캐스트 과정을 방해하지 않습니다.</string>
     <string name="toast_nfc_dont_move">휴대전화를 멀리 이동하지 마세요</string>
     <string name="toast_nfc_same_wifi">TV 및 기기를 동일한 네트워크에 연결하세요</string>
+    <string name="toast_notification_device_not_found">%1$s와(과) 이 기기가 동일한 Xiaomi 계정에 로그인되어 있는지 확인하세요.</string>
     <string name="toast_remote_not_install">%1$s에 이 앱이 설치되어 있지 않습니다.</string>
     <string name="toast_retry">설정이 적용될 때까지 기다린 후 다시 시도하세요.</string>
     <string name="toast_synchronization">기기 상태를 확인 중입니다. 나중에 다시 시도하세요.</string>
     <string name="toast_title_for_small_window">앱에서 \"창 최소화\" 선택</string>
     <string name="toast_turn_off_hotspot_before_cast">캐스트 전 휴대용 핫스팟 끄기</string>
+    <string name="toast_watch_app_not_install">이 앱을 설치한 후 다시 시도하세요.</string>
     <string name="today">오늘</string>
     <string name="tomorrow">내일</string>
     <string name="trust_device_desc">해당 기기들은 근처에 있을 때 먼저 표시됨</string>
@@ -1812,6 +1977,7 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="tuesday_shortest">화</string>
     <string name="unlock_screen_to_authorize_camera">%s이(가) 이 기기의 카메라를 사용하려 합니다</string>
     <string name="unlock_screen_to_authorize_camera_car">%s이(가) 기기의 카메라에 접근하려 합니다</string>
+    <string name="unpin_hint">고정 해제</string>
     <string name="update">업데이트</string>
     <string name="upgrade_accessibility_cancel_download">다운로드 취소됨</string>
     <string name="upgrade_accessibility_finish_all_upgrade">업데이트를 성공했습니다. 현재 버전은 최신입니다.</string>
@@ -1862,12 +2028,43 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="using_camera_of_device_description">%1$s의 카메라 사용</string>
     <string name="v7_preference_off">사용 안함</string>
     <string name="v7_preference_on">사용</string>
+    <string name="verification_code_flow_title">%1$s의 인증 코드</string>
+    <string name="verification_code_list_title">코드</string>
+    <string name="watch_app_12306">Railway 12306</string>
+    <string name="watch_app_amap">Amap</string>
+    <string name="watch_app_baidu_map">Baidu Maps</string>
+    <string name="watch_app_category_title">지원되는 앱</string>
+    <string name="watch_app_didi">DiDi</string>
+    <string name="watch_app_hanglv">Umetrip</string>
+    <string name="watch_app_jd">JD</string>
+    <string name="watch_app_meituan">Meituan</string>
+    <string name="watch_app_meituan_waimai">Meituan Delivery</string>
+    <string name="watch_app_taobao">Taobao</string>
+    <string name="watch_app_taobao_flash">Taobao Shangou</string>
+    <string name="watch_call_sync_desc">이 기기에서 전달된 전화에 응답</string>
+    <string name="watch_call_sync_title">통화</string>
+    <string name="watch_dynamic_island_desc">여행, 내비게이션, 음식 배달 등에 대한 실시간 정보 동기화</string>
+    <string name="watch_dynamic_island_page_title">Xiaomi HyperIsland의 알림을 Apple Watch와 동기화</string>
+    <string name="watch_dynamic_island_title">Xiaomi HyperIsland</string>
+    <string name="watch_header_title">Apple Watch</string>
+    <string name="watch_health_data_desc">Apple Watch의 피트니스 및 건강 데이터를 Mi Fitness와 동기화</string>
+    <string name="watch_health_data_title">건강 데이터</string>
     <string name="watch_more_setting">더 많은 옵션</string>
+    <string name="watch_notification_sync_desc">이 기기의 알림 동기화</string>
+    <string name="watch_notification_sync_page_title">이 기기의 알림을 Apple Watch에 동기화</string>
+    <string name="watch_notification_sync_title">알림</string>
+    <string name="watch_page_description">"이 기기의 통화, 메시지, 알림 및 Xiaomi HyperIsland 실시간 정보를 Apple Watch에서 받아보세요. Apple Watch의 피트니스 및 건강 데이터도 Mi Fitness와 동기화할 수 있습니다.
+* 전체 상호 연결 기능을 사용하려면 필요한 권한을 허용하세요."</string>
+    <string name="watch_page_description_global">"이 기기의 전화, 메시지, 알림을 Apple Watch에서 받을 수 있습니다.
+* 모든 상호 연결 기능을 사용하려면 필요한 권한을 활성화하세요."</string>
+    <string name="watch_status_enabled">켜짐</string>
+    <string name="watch_status_not_enabled">꺼짐</string>
     <string name="wednesday">수요일</string>
     <string name="wednesday_short">수</string>
     <string name="wednesday_shortest">수</string>
     <string name="wifi_connect_btn_text">구성</string>
-    <string name="wifi_disabled_dialog_message">기기 간 카메라를 사용하시려면 기기에서 WLAN을 켜세요.</string>
+    <string name="wifi_disabled_dialog_message_china">기기 간 카메라를 사용하려면 WLAN을 켜세요.</string>
+    <string name="wifi_disabled_dialog_message_gl">기기 간 카메라를 사용하려면 Wi-Fi를 켜세요.</string>
     <string name="wifi_disabled_dialog_positive_button">알겠습니다</string>
     <string name="wifi_disabled_dialog_title">기기 간 카메라</string>
     <string name="wifi_other">기타 네트워크</string>
@@ -1877,5 +2074,23 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="wifi_username_et_hint">계정 ID</string>
     <string name="window_card_ml_find_null">이 기기가 근처에 없는 것 같습니다</string>
     <string name="window_card_ml_find_null_camera">근처에서 카메라나 사용 가능한 기기를 찾을 수 없음</string>
+    <string name="window_card_pin_device_offline_group_cancel">집 전체 재생이 취소되었습니다.</string>
+    <string name="window_card_pin_device_offline_no_connection">기기 연결 해제됨</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_car">차량이 이 기기와 블루투스로 연결되어 사용 중인지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_device">블루투스 기기가 이 기기에 연결되어 있고 사용 중인지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_glasses">안경이 이 기기와 블루투스로 연결되어 사용 중인지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_headset">이어폰이 이 기기와 블루투스로 연결되어 사용 중인지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_sound">스피커가 이 기기와 블루투스로 연결되어 사용 중인지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_car">"1. 이 기기가 차량의 핫스팟에 연결되어 있는지 확인하세요.
+ 2. 두 기기에서 동일한 Xiaomi 계정에 로그인할 수도 있습니다. 차량의 \"설정 > 연결 > 상호 연결\"에서 두 기기를 연결할 수 있습니다."</string>
+    <string name="window_card_pin_device_offline_subtitle_group">Xiaomi Smart Play에서 여러 기기가 선택되어 있는지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_pad">두 기기가 서로 가까이 있고 블루투스가 켜져 있는지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_pad_car">이 기기가 차량의 핫스팟에 연결되어 있는지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_pc">두 기기가 서로 가까이 있고 블루투스가 켜져 있는지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_phone">두 기기가 서로 가까이 있고 동일한 Xiaomi 계정에 로그인되어 있으며 블루투스가 켜져 있는지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_sound">두 기기가 동일한 LAN에 연결되어 있는지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_third_tv">이 기기가 TV로 캐스트되고 있는지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_tv">두 기기가 동일한 LAN에 연결되어 있는지 확인하세요.</string>
+    <string name="window_card_pin_device_offline_subtitle_watch">워치 또는 밴드가 Mi Fitness에 연결되어 있는지 확인하세요.</string>
     <string name="yesterday">어제</string>
 </resources>

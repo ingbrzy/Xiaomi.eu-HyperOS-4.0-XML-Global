@@ -1,64 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Prieš 1 valandą</item>
-        <item quantity="few">Prieš 1 valandą</item>
-        <item quantity="many">Prieš 1 valandą</item>
-        <item quantity="other">Prieš 1 valandą</item>
-    </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">Prieš %d valandą</item>
-        <item quantity="few">Prieš %d valandas</item>
-        <item quantity="many">Prieš %d valandų</item>
-        <item quantity="other">Prieš %d valandų</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Prieš pusvalandį</item>
-        <item quantity="few">Prieš pusvalandį</item>
-        <item quantity="many">Prieš pusvalandį</item>
-        <item quantity="other">Prieš pusvalandį</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="one">Po %d valandos</item>
-        <item quantity="few">Po %d valandų</item>
-        <item quantity="many">Po %d valandų</item>
-        <item quantity="other">Po %d valandų</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="one">Po pusvalandžio</item>
-        <item quantity="few">Po pusvalandžio</item>
-        <item quantity="many">Po pusvalandžio</item>
-        <item quantity="other">Po pusvalandžio</item>
-    </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Dabar</item>
-        <item quantity="few">Dabar</item>
-        <item quantity="many">Dabar</item>
-        <item quantity="other">Dabar</item>
-    </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="one">Po %d minutės</item>
-        <item quantity="few">Po %d minučių</item>
-        <item quantity="many">Po %d minučių</item>
-        <item quantity="other">Po %d minučių</item>
-    </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Ką tik</item>
-        <item quantity="few">Ką tik</item>
-        <item quantity="many">Ką tik</item>
-        <item quantity="other">Ką tik</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="one">Prieš %d minutę</item>
-        <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minučių</item>
-        <item quantity="other">Prieš %d minučių</item>
-    </plurals>
     <plurals name="auto_answer_summary_delay">
         <item quantity="one">delsa: %d sekundė</item>
         <item quantity="few">delsa: %d sekundės</item>
         <item quantity="many">delsa: %d sekundės</item>
         <item quantity="other">delsa: %d sekundžių</item>
+    </plurals>
+    <plurals name="beidou_receiving">
+        <item quantity="one">Gaunama (%ds)</item>
+        <item quantity="few">Gaunama (%ds)</item>
+        <item quantity="many">Gaunama (%ds)</item>
+        <item quantity="other">Gaunama (%ds)</item>
+    </plurals>
+    <plurals name="beidou_sending">
+        <item quantity="one">Siunčiama (%ds)</item>
+        <item quantity="few">Siunčiama (%ds)</item>
+        <item quantity="many">Siunčiama (%ds)</item>
+        <item quantity="other">Siunčiama (%ds)</item>
     </plurals>
     <plurals name="call_record_add_white_list_over_reminder">
         <item quantity="one">Galite pridėti iki %s asmens, pasirinkite iš naujo.</item>
@@ -78,66 +36,6 @@
         <item quantity="many">%d numerių bus ištrinta.</item>
         <item quantity="other">%d numerių bus ištrinta.</item>
     </plurals>
-    <plurals name="day">
-        <item quantity="one">%s diena</item>
-        <item quantity="few">%s dienos</item>
-        <item quantity="many">%s dienos</item>
-        <item quantity="other">%s dienų</item>
-    </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Prieš pusvalandį</item>
-        <item quantity="few">Prieš pusvalandį</item>
-        <item quantity="many">Prieš pusvalandį</item>
-        <item quantity="other">Prieš pusvalandį</item>
-    </plurals>
-    <plurals name="hour">
-        <item quantity="one">%s valanda</item>
-        <item quantity="few">%s valandos</item>
-        <item quantity="many">%s valandos</item>
-        <item quantity="other">%s valandų</item>
-    </plurals>
-    <plurals name="in_a_hour">
-        <item quantity="one">Po 1 valandos</item>
-        <item quantity="few">Po 1 valandos</item>
-        <item quantity="many">Po 1 valandos</item>
-        <item quantity="other">Po 1 valandos</item>
-    </plurals>
-    <plurals name="in_half_hour">
-        <item quantity="one">Po pusvalandžio</item>
-        <item quantity="few">Po pusvalandžio</item>
-        <item quantity="many">Po pusvalandžio</item>
-        <item quantity="other">Po pusvalandžio</item>
-    </plurals>
-    <plurals name="in_less_than_one_minute">
-        <item quantity="one">Dabar</item>
-        <item quantity="few">Dabar</item>
-        <item quantity="many">Dabar</item>
-        <item quantity="other">Dabar</item>
-    </plurals>
-    <plurals name="in_num_minutes">
-        <item quantity="one">po 1 minutės</item>
-        <item quantity="few">po %d minučių</item>
-        <item quantity="many">po %d minučių</item>
-        <item quantity="other">po %d minučių</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Ką tik</item>
-        <item quantity="few">Ką tik</item>
-        <item quantity="many">Ką tik</item>
-        <item quantity="other">Ką tik</item>
-    </plurals>
-    <plurals name="miuix_appcompat_items_selected">
-        <item quantity="one">Pasirinktas %d elementas</item>
-        <item quantity="few">Pasirinkti %d elementai</item>
-        <item quantity="many">Pasirinkti %d elementai</item>
-        <item quantity="other">Pasirinkta %d elementų</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">Prieš 1 minutę</item>
-        <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minutes</item>
-        <item quantity="other">Prieš %d minučių</item>
-    </plurals>
     <plurals name="pin_attempts">
         <item quantity="one">"
 Liko %d bandymas."</item>
@@ -147,5 +45,29 @@ Liko %d bandymai."</item>
 Liko %d bandymai."</item>
         <item quantity="other">"
 Liko %d bandymų."</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">Pasirinktas %d elementas</item>
+        <item quantity="few">Pasirinkti %d elementai</item>
+        <item quantity="many">Pasirinkti %d elementai</item>
+        <item quantity="other">Pasirinkta %d elementų</item>
+    </plurals>
+    <plurals name="satellite_low_battery_turn_off_message">
+        <item quantity="one">Žemas akumuliatoriaus lygis. „Tiantong“ palydovinis ryšys išsijungs po %d sek.</item>
+        <item quantity="few">Žemas akumuliatoriaus lygis. „Tiantong“ palydovinis ryšys išsijungs po %d sek.</item>
+        <item quantity="many">Žemas akumuliatoriaus lygis. „Tiantong“ palydovinis ryšys išsijungs po %d sek.</item>
+        <item quantity="other">Žemas akumuliatoriaus lygis. „Tiantong“ palydovinis ryšys išsijungs po %d sek.</item>
+    </plurals>
+    <plurals name="satellite_pa_megathermal_turn_off_message">
+        <item quantity="one">Įrenginys perkaitęs. Palydovo komunikacijos išsijungs už %d sekundės.</item>
+        <item quantity="few">Įrenginys perkaitęs. Palydovo komunikacijos išsijungs už %d sekundžių.</item>
+        <item quantity="many">Įrenginys perkaitęs. Palydovo komunikacijos išsijungs už %d sekundžių</item>
+        <item quantity="other">Įrenginys perkaitęs. Palydovo komunikacijos išsijungs už %d sekundžių</item>
+    </plurals>
+    <plurals name="satellite_privacy_withdrawal_dialog_disable_negative">
+        <item quantity="one">Atšaukti paslaugas (%d sek.)</item>
+        <item quantity="few">Atšaukti paslaugas (%d sek.)</item>
+        <item quantity="many">Atšaukti paslaugas (%d sek.)</item>
+        <item quantity="other">Atšaukti paslaugas (%d sek.)</item>
     </plurals>
 </resources>

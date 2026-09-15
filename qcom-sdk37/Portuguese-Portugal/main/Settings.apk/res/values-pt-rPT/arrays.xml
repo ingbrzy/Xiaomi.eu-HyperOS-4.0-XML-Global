@@ -364,11 +364,17 @@
         <item>Ativar codecs opcionais</item>
         <item>Desativar codecs opcionais</item>
     </string-array>
+    <string-array name="bluetooth_audio_active_device_array">
+        <item></item>
+        <item>Em uso (multimédia e chamadas)</item>
+        <item>Em uso (multimédia)</item>
+        <item>Em uso (chamadas)</item>
+    </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
         <item>" | Ativo"</item>
         <item>" | Ativo (multimédia)"</item>
-        <item>" | Ativo (telemóvel)"</item>
+        <item>" | Ativo (áudio de chamada)"</item>
     </string-array>
     <string-array name="bluetooth_audio_routing_titles">
         <item>Usar predefinição da app</item>
@@ -424,8 +430,8 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Desativado</item>
-        <item>Filtrado ativado</item>
-        <item>Ativado</item>
+        <item>Ligado e Filtrado</item>
+        <item>Ligado</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_filters_entries">
         <item>Deixe apenas cabeçalhos de LCA (Lista de controlo de acesso)</item>
@@ -559,8 +565,8 @@
     </string-array>
     <string-array name="common_password_business_names">
         <item>Ecrã de bloqueio</item>
-        <item>Palavra-passe de proteção de privacidade</item>
-        <item>Modo Criança</item>
+        <item>Palavra-passe de privacidade</item>
+        <item>Modo criança</item>
         <item>Gestor de Ficheiros</item>
         <item>Bloqueio de aplicações</item>
         <item>Segundo Espaço</item>
@@ -1160,7 +1166,7 @@ Nota: Apenas para Ubuntu 8.04!"</item>
         <item>Botão Voltar à esquerda, botão Menu à direita</item>
     </string-array>
     <string-array name="screen_key_press_action">
-        <item>Mostrar aplicações recentes</item>
+        <item>Mostrar bandeja de aplicações recentes</item>
         <item>Mostrar menu</item>
     </string-array>
     <string-array name="screen_optimize_summary">

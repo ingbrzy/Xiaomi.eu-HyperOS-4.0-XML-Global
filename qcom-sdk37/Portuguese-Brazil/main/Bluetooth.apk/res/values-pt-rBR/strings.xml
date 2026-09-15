@@ -50,13 +50,13 @@
     <string name="bluetooth_broadcast_audio_started_toast">Não se esqueça de interromper a transmissão quando não a utilizar. Transmissões de áudio drenam a bateria.</string>
     <string name="bluetooth_connect_action">Conectar ao Bluetooth</string>
     <string name="bluetooth_disconnected">Áudio Bluetooth desconectado\"</string>
-    <string name="bluetooth_enabled_apm_message">Se você mantiver o Bluetooth ativado, o seu dispositivo lembrará de mantê-lo ativo da próxima vez que você estiver no Modo avião</string>
+    <string name="bluetooth_enabled_apm_message">Se você mantiver o Bluetooth ativado, o seu dispositivo lembrará de mantê-lo ativo da próxima vez que você estiver no Modo avião.</string>
     <string name="bluetooth_enabled_apm_title">Bluetooth ativado no Modo avião</string>
     <string name="bluetooth_enabled_auto_on_message">Você pode alterar isso a qualquer momento nas Configurações</string>
     <string name="bluetooth_enabled_auto_on_title">O bluetooth foi ativado novamente</string>
     <string name="bluetooth_map_settings_app_icon">Ícone do aplicativo</string>
     <string name="bluetooth_media_audio_app_name">Áudio Bluetooth</string>
-    <string name="bluetooth_media_audio_queue_name">Tocando agora</string>
+    <string name="bluetooth_media_audio_queue_name">Reproduzindo agora</string>
     <string name="bluetooth_notification_group">Mudança automática de estado do Bluetooth</string>
     <string name="bluetooth_opp_file_limit_exceeded">Arquivos maiores que 4GB não podem ser transferidos</string>
     <string name="bluetooth_sap_notif_disconnect_button">Desconectar</string>
@@ -66,9 +66,9 @@
     <string name="bluetooth_sap_notif_ticker">Acesso ao SIM via Bluetooth</string>
     <string name="bluetooth_sap_notif_title">Acesso ao SIM via Bluetooth</string>
     <string name="bluetooth_stays_on_message">Seu dispositivo mantém o Bluetooth ativado no modo avião. Desative o Bluetooth se não quiser que ele permaneça ativado.</string>
-    <string name="bluetooth_stays_on_message_due_to_media">O Bluetooth continua ativado no modo avião quando conectado a um dispositivo portátil de mídia.</string>
-    <string name="bluetooth_stays_on_message_due_to_watch">O Bluetooth vai continuar ativado no modo avião enquanto o dispositivo estiver conectado ao relógio.</string>
-    <string name="bluetooth_stays_on_message_on_watch">O Bluetooth continua ativado no modo avião quando conectado a outros dispositivos.</string>
+    <string name="bluetooth_stays_on_message_due_to_media">O Bluetooth permanece ativado no modo avião enquanto o aparelho estiver conectado a um dispositivo de mídia.</string>
+    <string name="bluetooth_stays_on_message_due_to_watch">Seu dispositivo manterá o Bluetooth ativado no modo avião enquanto estiver conectado ao seu relógio.</string>
+    <string name="bluetooth_stays_on_message_on_watch">O Bluetooth permanece ativado no modo avião enquanto estiver conectado a outros dispositivos.</string>
     <string name="bluetooth_stays_on_title">Bluetooth permanece ativado</string>
     <string name="bt_audio_share_assistant_notification_title">Ouvindo o rádio nas proximidades</string>
     <string name="bt_audio_share_notification_content">Toque para ver detalhes</string>
@@ -90,6 +90,8 @@
     <string name="bt_toast_4">Enviando arquivo para \"%1$s\"</string>
     <string name="bt_toast_5">Enviando %1$s arquivos para \"%2$s\"</string>
     <string name="bt_toast_6">Parou de enviar o arquivo para \"%1$s\"</string>
+    <string name="calendar_date_picker_a11y_next_month">Alterar para o próximo mês</string>
+    <string name="calendar_date_picker_a11y_prev_month">Alterar para o mês anterior</string>
     <string name="call_notification_answer_action">Atender</string>
     <string name="call_notification_answer_video_action">Vídeo</string>
     <string name="call_notification_decline_action">Recusar</string>
@@ -211,6 +213,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">Desmarcar tudo</string>
     <string name="miuix_appcompat_action_mode_select_all">Selecionar tudo</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selecionar itens</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Selecionar</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mais</string>
     <string name="miuix_appcompat_cancel_description">Cancelar</string>
     <string name="miuix_appcompat_confirm_description">Confirmar</string>
@@ -224,6 +227,7 @@
     <string name="miuix_appcompat_select_all_description">Selecionar tudo</string>
     <string name="miuix_appcompat_select_item">Selecionar itens</string>
     <string name="miuix_appcompat_show_dialog_description">Janela pop-up</string>
+    <string name="miuix_popup_show_description">Janela pop-up</string>
     <string name="miuix_progressbar_loading">Carregando</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Puxe para baixo para atualizar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Atualizado com sucesso</string>
@@ -303,11 +307,11 @@
     <string name="pbap_session_key_dialog_header">É necessária uma chave de sessão Bluetooth</string>
     <string name="pbap_session_key_dialog_title">Digite a chave de sessão para %1$s</string>
     <string name="permdesc_bluetoothAcceptlist">Permite que a app inclua temporariamente na lista de permissões um dispositivo Bluetooth, permitindo que esse dispositivo envie arquivos para este dispositivo sem a confirmação do usuário.</string>
-    <string name="permdesc_bluetoothBackup">Permite que o app Bluetooth aceite transmissões para acionar o backup de dados de configurações</string>
+    <string name="permdesc_bluetoothBackup">Permite que o app Bluetooth receba transmissões para acionar o backup dos dados de configuração</string>
     <string name="permdesc_bluetoothShareManager">Permite que o app acesse o gerenciador do BluetoothShare e o utilize para transferir arquivos.</string>
     <string name="permdesc_handoverStatus">Permite receber informações sobre o status da transferência de conexão via Bluetooth.</string>
     <string name="permlab_bluetoothAcceptlist">Aceitar acesso de dispositivos Bluetooth da lista de permissões.</string>
-    <string name="permlab_bluetoothBackup">Permitir transmissões de backup do Bluetooth.</string>
+    <string name="permlab_bluetoothBackup">Permitir transmissões de backup via Bluetooth.</string>
     <string name="permlab_bluetoothShareManager">Acesso ao gerenciador de downloads.</string>
     <string name="permlab_handoverStatus">Receber transmissões de transferência de handover BT.</string>
     <string name="phonebook_advance_feature_support">Suporte a recursos avançados da agenda telefônica</string>

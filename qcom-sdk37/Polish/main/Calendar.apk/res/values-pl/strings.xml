@@ -20,8 +20,6 @@
     <string name="abc_searchview_description_search">Szukaj</string>
     <string name="abc_searchview_description_submit">Wyślij zapytanie</string>
     <string name="abc_searchview_description_voice">Wyszukiwanie głosowe</string>
-    <string name="abc_shareactionprovider_share_with">Udostępnij przez:</string>
-    <string name="abc_shareactionprovider_share_with_application">Udostępnij przez: %s</string>
     <string name="abc_toolbar_collapse_description">Zwiń</string>
     <string name="accessbility_suggestion_dropdown_closed">Brak dostępnych sugestii</string>
     <string name="accessbility_suggestion_dropdown_opened">Otwarto sugerowane kontakty</string>
@@ -76,7 +74,19 @@
     <string name="agenda_not_today_empty_hint">Brak wydarzeń. Dotknij, aby stworzyć.</string>
     <string name="agenda_tomorrow">JUTRO, %1$s</string>
     <string name="agenda_view">Wydarzenia</string>
+    <string name="ai_card_amount">Kwota płatności</string>
+    <string name="ai_card_arrival_time">Godzina przyjazdu</string>
+    <string name="ai_card_card_no">Numer karty</string>
+    <string name="ai_card_check_in_date">Data zameldowania</string>
+    <string name="ai_card_check_out_date">Data wymeldowania</string>
+    <string name="ai_card_hall">Teatr</string>
+    <string name="ai_card_room_type">Typ pokoju</string>
+    <string name="ai_card_seat">Siedzenia</string>
+    <string name="ai_card_source">Od %s</string>
+    <string name="ai_card_table_info">Szczegóły</string>
     <string name="ai_introduce_card_sub_title">Pozwól sztucznej inteligencji automatycznie dodawać wycieczki, bilety i inne rodzaje wydarzeń do kalendarza.</string>
+    <string name="ai_location_navigate">Nawigacja</string>
+    <string name="ai_location_taxi">Taksówka</string>
     <string name="alarm_close_reminder">Wyłączanie przypomnień o alarmach</string>
     <string name="alarm_label">Rozumiem</string>
     <string name="alarm_open_reminder">Ustaw alarm</string>
@@ -121,6 +131,8 @@
     <string name="calendar_account_manager">Zarządzaj kalendarzami konta</string>
     <string name="calendar_account_settings">Ustawienia konta</string>
     <string name="calendar_data_sharing_instruction">Oświadczeniem o udostępnianiu danych firmom zewnętrznym</string>
+    <string name="calendar_date_picker_a11y_next_month">Zmień na następny miesiąc</string>
+    <string name="calendar_date_picker_a11y_prev_month">Zmień na poprzedni miesiąc</string>
     <string name="calendar_desc_withdraw_consent">Cofnij zgodę na Politykę Prywatności Kalendarza</string>
     <string name="calendar_import_source">Źródło</string>
     <string name="calendar_privacy_policy">Polityka Prywatności</string>
@@ -184,6 +196,7 @@
     <string name="date_interval_tab">Interwał</string>
     <string name="date_interval_text_to">Do %1$s</string>
     <string name="date_jump_title">Skocz do daty</string>
+    <string name="date_of_birth">Urodziny %s</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -193,6 +206,7 @@
     <string name="date_today">" (dzisiaj)"</string>
     <string name="date_view">Data</string>
     <string name="day_view_new_event_hint">Nowe wydarzenie</string>
+    <string name="days_left">Pozostało</string>
     <string name="default_reminder_labels_day">%d dzień przed</string>
     <string name="default_reminder_labels_days">%d dni przed</string>
     <string name="default_reminder_labels_hour">%d godzinę przed</string>
@@ -245,6 +259,8 @@
     <string name="edit_event_birthday_name_hint">Imię</string>
     <string name="edit_event_calendar_label">Kalendarz</string>
     <string name="edit_event_choose_date">Wybierz datę</string>
+    <string name="edit_event_confirm_continue">Kontynuuj edycję</string>
+    <string name="edit_event_confirm_discard">Odrzuć</string>
     <string name="edit_event_confirm_message">Odrzucić zmiany?</string>
     <string name="edit_event_countdown_name_empty_hint">Wprowadź nazwę wydarzenia</string>
     <string name="edit_event_countdown_name_hint">Wydarzenie</string>
@@ -277,6 +293,7 @@
     <string name="email_picker_label">Powiadom e-mailem</string>
     <string name="empty" />
     <string name="empty_event">Nie można utworzyć pustych wydarzeń</string>
+    <string name="end_at">Zakończenie: %s</string>
     <string name="eras_ad">n.e</string>
     <string name="eras_bc">p.n.e</string>
     <string name="evening">Popołudnie</string>
@@ -302,6 +319,7 @@
     <string name="event_info_where">Gdzie</string>
     <string name="event_none_selected">Odznaczono wszystko</string>
     <string name="event_reminder_allday_day_zero">W tym dniu o %2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">W tym dniu</string>
     <string name="event_reminder_custom">Własne</string>
     <string name="event_reminder_value_zero">Gdy rozpoczyna się wydarzenie</string>
     <string name="event_title">Tytuł</string>
@@ -327,7 +345,7 @@
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">d MMMM yyyy</string>
+    <string name="fmt_date_long_year_month_day">d MMMM, yyyy</string>
     <string name="fmt_date_numeric_day">d</string>
     <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d.MM</string>
@@ -337,7 +355,7 @@
     <string name="fmt_date_short_month">MMM</string>
     <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
+    <string name="fmt_date_short_year_month_day">d MMM, yyyy</string>
     <string name="fmt_date_time">D T</string>
     <string name="fmt_date_time_timezone">D T z</string>
     <string name="fmt_date_timezone">D z</string>
@@ -400,7 +418,6 @@
     <string name="hint_what_smart_input_12">h:mm aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">Wprowadź nazwę wydarzenia</string>
-    <string name="hint_where">Lokalizacja</string>
     <string name="holiday_detail_read_more">Więcej</string>
     <string name="horoscope_select_activity_label">Wybierz znak zodiaku</string>
     <string name="hotel_detail_title">Szczegóły hotelu</string>
@@ -447,6 +464,7 @@
     <string name="login_caldav">Dodaj</string>
     <string name="login_failed_toast">Nie udało się zalogować. Odśwież i spróbuj ponownie</string>
     <string name="logining_caldav_account">Dodawanie…</string>
+    <string name="lunar_birthday_desc">Tradycyjny chiński kalendarz</string>
     <string name="lunar_date">Data księżycowa</string>
     <string name="lunar_date_content_desc">Data według tradycyjnego kalendarza chińskiego</string>
     <string name="lunar_to_solar_chinese_calendar">Chiński na gregoriański</string>
@@ -493,6 +511,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Przełącz na połowę ekranu</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Zmaksymalizuj</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Zminimalizuj</string>
+    <string name="miuix_popup_show_description">Wyskakujące okno</string>
     <string name="miuix_popup_window_default_title">Wyskakujące okno</string>
     <string name="miuix_progressbar_loading">Wczytywanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Przeciągnij w dół, aby odświeżyć</string>
@@ -519,32 +538,32 @@
     <string name="monday">Poniedziałek</string>
     <string name="monday_short">Pon.</string>
     <string name="monday_shortest">Pon.</string>
-    <string name="month_april">Kwiecień</string>
+    <string name="month_april">kwietnia</string>
     <string name="month_april_short">Kwi.</string>
     <string name="month_april_shortest">Kwi.</string>
-    <string name="month_august">Sierpień</string>
+    <string name="month_august">sierpnia</string>
     <string name="month_august_short">Sier.</string>
     <string name="month_august_shortest">Sier.</string>
     <string name="month_calendar_view">Widok miesięczny</string>
-    <string name="month_december">Grudzień</string>
+    <string name="month_december">grudnia</string>
     <string name="month_december_short">Gru.</string>
     <string name="month_december_shortest">Gru.</string>
-    <string name="month_february">Luty</string>
+    <string name="month_february">lutego</string>
     <string name="month_february_short">Lut.</string>
     <string name="month_february_shortest">Lut.</string>
-    <string name="month_january">Styczeń</string>
+    <string name="month_january">stycznia</string>
     <string name="month_january_short">Sty.</string>
     <string name="month_january_shortest">Sty.</string>
-    <string name="month_july">Lipiec</string>
+    <string name="month_july">lipca</string>
     <string name="month_july_short">Lip.</string>
     <string name="month_july_shortest">Lip.</string>
-    <string name="month_june">Czerwiec</string>
+    <string name="month_june">czerwca</string>
     <string name="month_june_short">Czer.</string>
     <string name="month_june_shortest">Czer.</string>
-    <string name="month_march">Marzec</string>
+    <string name="month_march">marca</string>
     <string name="month_march_short">Mar.</string>
     <string name="month_march_shortest">Mar.</string>
-    <string name="month_may">Maj</string>
+    <string name="month_may">maja</string>
     <string name="month_may_short">Maj.</string>
     <string name="month_may_shortest">Maj.</string>
     <string name="month_medium_april">kwi.</string>
@@ -559,13 +578,13 @@
     <string name="month_medium_november">lis.</string>
     <string name="month_medium_october">paź.</string>
     <string name="month_medium_september">wrz.</string>
-    <string name="month_november">Listopad</string>
+    <string name="month_november">listopada</string>
     <string name="month_november_short">Lis.</string>
     <string name="month_november_shortest">Lis.</string>
-    <string name="month_october">Październik</string>
+    <string name="month_october">października</string>
     <string name="month_october_short">Paź.</string>
     <string name="month_october_shortest">Paź.</string>
-    <string name="month_september">Wrzesień</string>
+    <string name="month_september">września</string>
     <string name="month_september_short">Wrz.</string>
     <string name="month_september_shortest">Wrz.</string>
     <string name="month_view">Miesiąc</string>
@@ -586,6 +605,8 @@
     <string name="no_data">Na razie nie ma tu niczego</string>
     <string name="no_events_hint">Brak wydarzeń</string>
     <string name="no_locale_list_text">Nie można uzyskać listy lokalizacji. Spróbuj ponownie.</string>
+    <string name="no_location_hint">Brak wyników wyszukiwania</string>
+    <string name="no_location_network">Nie udało się połączyć z siecią</string>
     <string name="no_more_events">Nie ma więcej wydarzeń do wyświetlenia</string>
     <string name="no_network">"Nie udało się połączyć z siecią.
 Sprawdź ustawienia sieci i spróbuj ponownie."</string>
@@ -607,7 +628,10 @@ Sprawdź ustawienia sieci i spróbuj ponownie."</string>
     <string name="notification_open_setting_button_ok">Zezwól</string>
     <string name="notification_open_setting_message">Nie będzie możliwe otrzymywanie powiadomień o wydarzeniach, dopóki nie zezwolisz Kalendarzowi na ich wysyłanie.</string>
     <string name="notification_open_setting_title">Zezwolić na powiadomienia z Kalendarza?</string>
+    <string name="panel_title_end">Koniec</string>
+    <string name="panel_title_start">Początek</string>
     <string name="pasport_register_dialog_message">Utworzyć konto Xiaomi za pomocą numeru telefonu %s?</string>
+    <string name="pass_day">Minęło</string>
     <string name="passenger">Pasażer</string>
     <string name="passport_access_denied">Odmowa dostępu</string>
     <string name="passport_account_crop_user_avatar">Przytnij zdjęcie</string>
@@ -827,6 +851,10 @@ Sprawdź ustawienia sieci i spróbuj ponownie."</string>
     <string name="premission_read_write_storage">Pamięć</string>
     <string name="premission_read_write_storage_new">Dostęp do pamięci</string>
     <string name="privacy_and_permissions">Prywatność i uprawnienia</string>
+    <string name="privacy_update_message">"Dotykając „Zgadzam się” akceptujesz (click)Politykę Prywatności Kalendarza(/click):
+
+Aby zapewnić Ci lepsze wrażenia, możesz teraz wybrać lokalizację podczas tworzenia wydarzenia. Wyszukiwanie lokalizacji i rekomendacje są obsługiwane przez zewnętrznych usługodawców."</string>
+    <string name="privacy_update_title">Zaktualizowana Polityka Prywatności</string>
     <string name="productivity_add_event">Utwórz wydarzenie</string>
     <string name="productivity_no_event">Pusto</string>
     <string name="pull_refresh_events">Zobacz wydarzenia roku %d</string>
@@ -894,7 +922,7 @@ Sprawdź ustawienia sieci i spróbuj ponownie."</string>
     <string name="search_calendar_settings">Kalendarz;Plan;Przypomnienie</string>
     <string name="search_events">Szukaj wydarzeń</string>
     <string name="search_history">Przeszukaj historię</string>
-    <string name="search_location_hint">Wprowadź adres</string>
+    <string name="search_location_hint">Wprowadź lokalizację</string>
     <string name="search_menu_title">Szukaj</string>
     <string name="search_timezone">Wyszukaj strefy czasowe</string>
     <string name="select_date">Skocz do daty</string>
@@ -942,11 +970,13 @@ Sprawdź ustawienia sieci i spróbuj ponownie."</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="solar_birthday_desc">Kalendarz gregoriański</string>
     <string name="solar_date_content_desc">Data według kalendarza gregoriańskiego</string>
     <string name="solar_lunar_convert_tab">Konwertuj</string>
     <string name="solar_to_lunar_chinese_calendar">Gregoriański na chiński</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Wydarzenia</string>
+    <string name="start_at">Początek: %s</string>
     <string name="start_date_calculate">Oblicz</string>
     <string name="start_string">Zaczyna się o %s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1161,6 +1191,10 @@ Sprawdź ustawienia sieci i spróbuj ponownie."</string>
     <string name="widget_normal_weekN">Tydzień %d</string>
     <string name="widget_select_style">Wybierz styl</string>
     <string name="widget_spec_agenda_birth_today">Dzisiaj</string>
+    <string name="withdraw_consent_button_withdraw">Wycofaj</string>
+    <string name="withdraw_consent_message">Kontynuacja oznacza cofnięcie zgody na Politykę Prywatności Kalendarza. Przestaniemy gromadzić Twoje dane osobowe. Zebrane i przechowywane już dane zostaną usunięte w określonym czasie, zgodnie z obowiązującymi przepisami. Jako iż usługi Kalendarza są świadczone na podstawie zbieranych niezbędnych danych osobowych, cofnięcie zgody będzie równoznaczne z odmową akceptacji usług Kalendarza. Wycofać zgodę?</string>
+    <string name="withdraw_consent_preference_title">Cofnięcie zgody</string>
+    <string name="withdraw_consent_title">Cofnięcie zgody</string>
     <string name="work_day_default_banner_title">Życzymy produktywnego dnia w pracy!</string>
     <string name="xiaomi_account">Konto Xiaomi</string>
     <string name="xiaomi_calendar_display_name">Kalendarz konta Xiaomi</string>

@@ -32,6 +32,8 @@
     <string name="bottomsheet_action_expand_halfway">တစ်ဝက်ချဲ့ရန်</string>
     <string name="bottomsheet_drag_handle_clicked">ဖိဆွဲအထိန်း နှစ်ချက်တို့ထားသည်</string>
     <string name="bottomsheet_drag_handle_content_description">ဖိဆွဲအထိန်း</string>
+    <string name="calendar_date_picker_a11y_next_month">နောက်လသို့ ပြောင်းရန်</string>
+    <string name="calendar_date_picker_a11y_prev_month">ယခင်လသို့ ပြောင်းရန်</string>
     <string name="call_notification_answer_action">ဖုန်းကိုင်ရန်</string>
     <string name="call_notification_answer_video_action">ဗီဒီယို</string>
     <string name="call_notification_decline_action">ငြင်းပယ်ရန်</string>
@@ -44,8 +46,6 @@
     <string name="cast_closed_captions">စာတန်းထိုးများ</string>
     <string name="cast_closed_captions_unavailable">စာတန်းထိုး မရနိုင်ပါ</string>
     <string name="cast_connecting_to_device">%1$s နှင့် ချိတ်ဆက်နေပါသည်</string>
-    <string name="cast_device_chooser_searching_for_devices">စက်များ ရှာနေသည်</string>
-    <string name="cast_device_chooser_title">ကာစ်လုပ်ရန်</string>
     <string name="cast_disconnect">ဆက်သွယ်မှုဖြုတ်ပါ</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">ကာ့စ်လက်ခံကိရိယာက ကြော်ငြာဖွင့်နေစဉ် ပြသသော ပုံ</string>
@@ -84,9 +84,6 @@
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">စာတန်းထိုးများ</string>
     <string name="cast_unmute">အသံပြန်ဖွင့်ပါ</string>
-    <string name="cast_zero_devices_found">"စက်များ ရှာမတွေ့ပါ။
-"</string>
-    <string name="cast_zero_devices_learn_more_description">သင့်အကြောင်းအရာကို အခြားစက်များသို့ ကာစ်လုပ်ပုံအကြောင်း <a href="https://support.google.com/chromecastbuiltin/answer/3006709">ပိုမိုလေ့လာပါ</a>။</string>
     <string name="character_counter_content_description">စာလုံးရေ %2$d တွင် %1$d ထည့်သွင်းထားသည်</string>
     <string name="character_counter_overflowed_content_description">စာလုံးရေအကန့်အသတ် %2$d လုံးတွင် %1$d လုံးကျော်နေသည်</string>
     <string name="clear_text_end_icon_content_description">စာသား ဖယ်ရှားရန်</string>
@@ -117,6 +114,7 @@
     <string name="fallback_menu_item_copy_link">လင့်ခ်ကို ကူးယူရန်</string>
     <string name="fallback_menu_item_open_in_browser">ဘရောင်ဇာတွင် ဖွင့်ရန်</string>
     <string name="fallback_menu_item_share_link">လင့်ခ်ကို မျှဝေရန်</string>
+    <string name="ic_media_route_learn_more_accessibility">ကာစ်လုပ်ပုံကို လေ့လာရန်</string>
     <string name="icon_content_description">ဒိုင်ယာလော့ခ် သင်္ကေတ</string>
     <string name="item_view_role_description">တဘ်</string>
     <string name="material_clock_toggle_content_description">AM (သို့) PM ရွေးရန်</string>
@@ -138,8 +136,17 @@
     <string name="mr_cast_button_connecting">Cast. ချိတ်ဆက်နေသည်</string>
     <string name="mr_cast_button_disconnected">Cast. ချိတ်ဆက်မထားပါ</string>
     <string name="mr_cast_dialog_title_view_placeholder">အချက်အလက် မရရှိနိုင်ပါ</string>
+    <string name="mr_chooser_looking_for_devices">စက်များကို ရှာနေသည်...</string>
     <string name="mr_chooser_searching">စက်များကို ရှာနေသည်</string>
     <string name="mr_chooser_title">ဤစက်သို့ ကာစ်လုပ်ရန်</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">ပိုမိုလေ့လာရန်</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">အခြားစက်သည် ဤကားနှင့် Wi-Fi ကွန်ရက်တစ်ခုတည်းတွင် ရှိနေကြောင်း သေချာပါစေ</string>
+    <string name="mr_chooser_wifi_warning_description_phone">အခြားစက်သည် ဤဖုန်းနှင့် Wi-Fi ကွန်ရက်တစ်ခုတည်းတွင် ရှိနေကြောင်း သေချာပါစေ</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">အခြားစက်သည် ဤတက်ဘလက်နှင့် Wi-Fi ကွန်ရက်တစ်ခုတည်းတွင် ရှိနေကြောင်း သေချာပါစေ</string>
+    <string name="mr_chooser_wifi_warning_description_tv">အခြားစက်သည် ဤ tv နှင့် Wi-Fi ကွန်ရက်တစ်ခုတည်းတွင် ရှိနေကြောင်း သေချာပါစေ</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">အခြားစက်သည် ဤစက်နှင့် Wi-Fi ကွန်ရက်တစ်ခုတည်းတွင် ရှိနေကြောင်း သေချာပါစေ</string>
+    <string name="mr_chooser_wifi_warning_description_watch">အခြားစက်သည် ဤနာရီနှင့် Wi-Fi ကွန်ရက်တစ်ခုတည်းတွင် ရှိနေကြောင်း သေချာပါစေ</string>
+    <string name="mr_chooser_zero_routes_found_title">စက်များ မရနိုင်ပါ</string>
     <string name="mr_controller_album_art">အယ်လ်ဘမ်ပုံ</string>
     <string name="mr_controller_casting_screen">ကာစ်တ်လုပ်သည့် မျက်နှာပြင်</string>
     <string name="mr_controller_close_description">ပိတ်ရန်</string>

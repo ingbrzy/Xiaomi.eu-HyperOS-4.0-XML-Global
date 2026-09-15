@@ -20,8 +20,6 @@
     <string name="abc_searchview_description_search">검색</string>
     <string name="abc_searchview_description_submit">검색어 보내기</string>
     <string name="abc_searchview_description_voice">음성 검색</string>
-    <string name="abc_shareactionprovider_share_with">공유 대상:</string>
-    <string name="abc_shareactionprovider_share_with_application">%s과(와) 공유</string>
     <string name="abc_toolbar_collapse_description">접기</string>
     <string name="accessbility_suggestion_dropdown_closed">제안사항이 없습니다.</string>
     <string name="accessbility_suggestion_dropdown_opened">추천 연락처 열림</string>
@@ -76,7 +74,19 @@
     <string name="agenda_not_today_empty_hint">아직 일정이 없습니다. 탭하여 생성해보세요.</string>
     <string name="agenda_tomorrow">내일, %1$s</string>
     <string name="agenda_view">이벤트</string>
+    <string name="ai_card_amount">결제 금액</string>
+    <string name="ai_card_arrival_time">도착 시각</string>
+    <string name="ai_card_card_no">카드 번호</string>
+    <string name="ai_card_check_in_date">체크인 날짜</string>
+    <string name="ai_card_check_out_date">체크아웃 날짜</string>
+    <string name="ai_card_hall">상영관</string>
+    <string name="ai_card_room_type">객실 유형</string>
+    <string name="ai_card_seat">좌석</string>
+    <string name="ai_card_source">출처: %s</string>
+    <string name="ai_card_table_info">테이블 세부 정보</string>
     <string name="ai_introduce_card_sub_title">AI가 자동으로 여행, 티켓 및 기타 유형의 이벤트를 일정에 추가하도록 하세요</string>
+    <string name="ai_location_navigate">내비게이션</string>
+    <string name="ai_location_taxi">택시</string>
     <string name="alarm_close_reminder">알림 미리알림 끄기</string>
     <string name="alarm_label">알겠습니다</string>
     <string name="alarm_open_reminder">알람 설정</string>
@@ -121,6 +131,8 @@
     <string name="calendar_account_manager">계정 캘린더 관리</string>
     <string name="calendar_account_settings">계정 설정</string>
     <string name="calendar_data_sharing_instruction">서드파티 데이터 공유에 관한 성명</string>
+    <string name="calendar_date_picker_a11y_next_month">다음 달로 변경</string>
+    <string name="calendar_date_picker_a11y_prev_month">이전 달로 변경</string>
     <string name="calendar_desc_withdraw_consent">캘린더 개인 정보 보호 정책에 대한 동의 철회</string>
     <string name="calendar_import_source">출처</string>
     <string name="calendar_privacy_policy">개인 정보 보호 정책</string>
@@ -182,6 +194,7 @@
     <string name="date_interval_tab">간격</string>
     <string name="date_interval_text_to">%1$s 부터</string>
     <string name="date_jump_title">날짜로 이동</string>
+    <string name="date_of_birth">%s의 생일</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -191,6 +204,7 @@
     <string name="date_today">" (오늘)"</string>
     <string name="date_view">날짜</string>
     <string name="day_view_new_event_hint">새 일정</string>
+    <string name="days_left">남음</string>
     <string name="default_reminder_labels_day">%d일 전</string>
     <string name="default_reminder_labels_days">%d일 전</string>
     <string name="default_reminder_labels_hour">%d시간 전</string>
@@ -243,6 +257,8 @@
     <string name="edit_event_birthday_name_hint">이름</string>
     <string name="edit_event_calendar_label">캘린더</string>
     <string name="edit_event_choose_date">날짜 선택</string>
+    <string name="edit_event_confirm_continue">계속 편집</string>
+    <string name="edit_event_confirm_discard">변경 취소</string>
     <string name="edit_event_confirm_message">변경 사항을 버리시겠습니까?</string>
     <string name="edit_event_countdown_name_empty_hint">일정 이름 입력</string>
     <string name="edit_event_countdown_name_hint">일정</string>
@@ -275,6 +291,7 @@
     <string name="email_picker_label">이메일 발송 시 사용</string>
     <string name="empty" />
     <string name="empty_event">비어있는 일정을 생성할 수 없음</string>
+    <string name="end_at">종료: %s</string>
     <string name="eras_ad">서기</string>
     <string name="eras_bc">기원전</string>
     <string name="evening">오후</string>
@@ -300,6 +317,7 @@
     <string name="event_info_where">장소</string>
     <string name="event_none_selected">전체 선택 해제됨</string>
     <string name="event_reminder_allday_day_zero">당일 %2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">당일</string>
     <string name="event_reminder_custom">사용자지정</string>
     <string name="event_reminder_value_zero">일정 시작 시</string>
     <string name="event_title">제목</string>
@@ -398,7 +416,6 @@
     <string name="hint_what_smart_input_12">h:mm aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">일정 제목 입력</string>
-    <string name="hint_where">위치</string>
     <string name="holiday_detail_read_more">더 보기</string>
     <string name="horoscope_select_activity_label">별자리 선택</string>
     <string name="hotel_detail_title">호텔 세부사항</string>
@@ -445,6 +462,7 @@
     <string name="login_caldav">추가</string>
     <string name="login_failed_toast">로그인할 수 없습니다. 새로고침 하신 후 다시 시도해 주세요.</string>
     <string name="logining_caldav_account">추가 중…</string>
+    <string name="lunar_birthday_desc">음력</string>
     <string name="lunar_date">음력 날짜</string>
     <string name="lunar_date_content_desc">음력 캘린더에 따른 날짜</string>
     <string name="lunar_to_solar_chinese_calendar">음력에서 양력</string>
@@ -491,6 +509,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">반쪽 화면으로 전환</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">최대화</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">최소화</string>
+    <string name="miuix_popup_show_description">팝업 창</string>
     <string name="miuix_popup_window_default_title">팝업 창</string>
     <string name="miuix_progressbar_loading">로드 중</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">아래로 당겨 새로고침</string>
@@ -584,6 +603,8 @@
     <string name="no_data">아직 아무것도 없습니다</string>
     <string name="no_events_hint">일정 없음</string>
     <string name="no_locale_list_text">위치 목록을 가져올 수 없습니다. 다시 시도하세요.</string>
+    <string name="no_location_hint">결과를 찾을 수 없음</string>
+    <string name="no_location_network">네트워크에 연결할 수 없음</string>
     <string name="no_more_events">더 이상 표시할 일정 없음</string>
     <string name="no_network">"네트워크에 연결할 수 없습니다.
 네트워크 설정을 확인하시고 다시 시도하세요."</string>
@@ -605,7 +626,10 @@
     <string name="notification_open_setting_button_ok">허용</string>
     <string name="notification_open_setting_message">캘린더의 알림 전송을 허용하지 않으면 일정에 대한 수신할 수 없습니다.</string>
     <string name="notification_open_setting_title">캘린더 알림을 허용하시겠습니까?</string>
+    <string name="panel_title_end">종료</string>
+    <string name="panel_title_start">시작</string>
     <string name="pasport_register_dialog_message">전화번호 %s을(를) 통해 Xiaomi 계정을 생성하시겠습니까?</string>
+    <string name="pass_day">지남</string>
     <string name="passenger">탑승객</string>
     <string name="passport_access_denied">접근 거부됨</string>
     <string name="passport_account_crop_user_avatar">사진 자르기</string>
@@ -825,6 +849,10 @@
     <string name="premission_read_write_storage">저장소</string>
     <string name="premission_read_write_storage_new">저장소 접근</string>
     <string name="privacy_and_permissions">개인 정보 &amp; 권한</string>
+    <string name="privacy_update_message">"\"동의\"를 탭하면 (click)캘린더 개인 정보 보호 정책(/click)에 동의하시게 됩니다.
+
+더 나은 사용자 환경을 제공하기 위해, 이제 일정을 만들 때 위치를 선택하실 수 있습니다. 위치 검색 및 추천 서비스는 타사 지도 서비스를 통해 제공됩니다."</string>
+    <string name="privacy_update_title">개인 정보 보호 정책 업데이트됨</string>
     <string name="productivity_add_event">일정 생성</string>
     <string name="productivity_no_event">여기에 일정 없음</string>
     <string name="pull_refresh_events">%d 일정 보기</string>
@@ -892,7 +920,7 @@
     <string name="search_calendar_settings">캘린더;할 일;미리알림</string>
     <string name="search_events">일정 검색</string>
     <string name="search_history">검색 기록</string>
-    <string name="search_location_hint">주소 입력</string>
+    <string name="search_location_hint">위치 입력</string>
     <string name="search_menu_title">검색</string>
     <string name="search_timezone">시간대 검색</string>
     <string name="select_date">날짜로 이동</string>
@@ -902,7 +930,7 @@
     <string name="setting_about_calendar_version">캘린더 버전: %1$s-%2$s</string>
     <string name="setting_about_summary">버전:</string>
     <string name="setting_accounts">캘린더 계정</string>
-    <string name="setting_almanac_yiji">중국 연감 금기 사항</string>
+    <string name="setting_almanac_yiji">중국 황력 금기 사항</string>
     <string name="setting_auto_insert_v1">일정 자동 가져오기</string>
     <string name="setting_constellation_title">운세</string>
     <string name="setting_daysoff_no_update">공휴일 정보가 최신 상태입니다.</string>
@@ -939,11 +967,13 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="solar_birthday_desc">양력</string>
     <string name="solar_date_content_desc">양력 캘린더에 따른 날짜</string>
     <string name="solar_lunar_convert_tab">변환</string>
     <string name="solar_to_lunar_chinese_calendar">양력에서 음력</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">일정</string>
+    <string name="start_at">시작: %s</string>
     <string name="start_date_calculate">계산</string>
     <string name="start_string">%s에 시작</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1147,6 +1177,11 @@
     <string name="widget_normal_weekN">%d주</string>
     <string name="widget_select_style">스타일 선택</string>
     <string name="widget_spec_agenda_birth_today">오늘</string>
+    <string name="withdraw_consent_button_withdraw">철회</string>
+    <string name="withdraw_consent_message">"계속 진행하면 캘린더 개인 정보 보호 정책에 대한 동의를 철회하시게 됩니다. 동의 철회 시 귀하의 개인 정보 수집이 중단됩니다. 이미 수집되어 보관 중인 개인 정보는 별도의 요청이 없는 한 관련 법규에 따라 특정 기간 내에 삭제됩니다.
+캘린더는 필요한 개인 정보 수집을 기반으로 서비스를 제공하므로, 귀하의 동의 철회는 캘린더 서비스 이용 수락 거부로 간주됩니다. 동의를 철회하시겠습니까?"</string>
+    <string name="withdraw_consent_preference_title">동의 철회</string>
+    <string name="withdraw_consent_title">동의 철회</string>
     <string name="work_day_default_banner_title">생산적인 하루 되세요!</string>
     <string name="xiaomi_account">Xiaomi 계정</string>
     <string name="xiaomi_calendar_display_name">Xiaomi 계정 캘린더</string>

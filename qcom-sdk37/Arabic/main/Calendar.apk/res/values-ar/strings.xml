@@ -20,8 +20,6 @@
     <string name="abc_searchview_description_search">البحث</string>
     <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
     <string name="abc_searchview_description_voice">بحث صوتي</string>
-    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
-    <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
     <string name="abc_toolbar_collapse_description">تصغير</string>
     <string name="accessbility_suggestion_dropdown_closed">لا تتوفر أية اقتراحات</string>
     <string name="accessbility_suggestion_dropdown_opened">اقتراحات جهات الاتصال التي تم فتحها</string>
@@ -76,7 +74,19 @@
     <string name="agenda_not_today_empty_hint">لا توجد أحداث بعد. أنقر للإنشاء.</string>
     <string name="agenda_tomorrow">غدا، %1$s</string>
     <string name="agenda_view">الأحداث</string>
+    <string name="ai_card_amount">مبلغ الدفع</string>
+    <string name="ai_card_arrival_time">وقت الوصول</string>
+    <string name="ai_card_card_no">رقم البطاقة</string>
+    <string name="ai_card_check_in_date">تاريخ تسجيل الوصول</string>
+    <string name="ai_card_check_out_date">تاريخ المغادرة</string>
+    <string name="ai_card_hall">السينما</string>
+    <string name="ai_card_room_type">نوع الغرفة</string>
+    <string name="ai_card_seat">المقاعد</string>
+    <string name="ai_card_source">من %s</string>
+    <string name="ai_card_table_info">تفاصيل الجدول</string>
     <string name="ai_introduce_card_sub_title">دع الذكاء الاصطناعي يضيف تلقائيًا رحلاتك وتذاكرك وأنواع أخرى من الأحداث إلى تقويمك.</string>
+    <string name="ai_location_navigate">التنقل</string>
+    <string name="ai_location_taxi">تاكسي</string>
     <string name="alarm_close_reminder">إيقاف تشغيل التذكير بالمنبه</string>
     <string name="alarm_label">حسنا</string>
     <string name="alarm_open_reminder">تعيين المنبه</string>
@@ -121,6 +131,8 @@
     <string name="calendar_account_manager">إدارة تقويمات الحساب</string>
     <string name="calendar_account_settings">إعدادات الحساب</string>
     <string name="calendar_data_sharing_instruction">بيان مشاركة البيانات مع جهات خارجية</string>
+    <string name="calendar_date_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="calendar_date_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
     <string name="calendar_desc_withdraw_consent">سحب الموافقة على سياسة خصوصية التقويم</string>
     <string name="calendar_import_source">المصدر</string>
     <string name="calendar_privacy_policy">سياسة الخصوصية</string>
@@ -184,6 +196,7 @@
     <string name="date_interval_tab">الفاصل الزمني</string>
     <string name="date_interval_text_to">إلى %1$s</string>
     <string name="date_jump_title">الانتقال إلى تاريخ</string>
+    <string name="date_of_birth">عيد ميلاد %s</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -193,6 +206,7 @@
     <string name="date_today">" (اليوم)"</string>
     <string name="date_view">التاريخ</string>
     <string name="day_view_new_event_hint">حدث جديد</string>
+    <string name="days_left">المتبقي</string>
     <string name="default_reminder_labels_day">قبل %d يوم</string>
     <string name="default_reminder_labels_days">قبل %d أيام</string>
     <string name="default_reminder_labels_hour">قبل %d ساعة</string>
@@ -245,6 +259,8 @@
     <string name="edit_event_birthday_name_hint">الإسم</string>
     <string name="edit_event_calendar_label">التقويم</string>
     <string name="edit_event_choose_date">اختر تاريخ</string>
+    <string name="edit_event_confirm_continue">الاستمرار بالتعديل</string>
+    <string name="edit_event_confirm_discard">تجاهل</string>
     <string name="edit_event_confirm_message">تجاهل التغييرات؟</string>
     <string name="edit_event_countdown_name_empty_hint">ادخل اسم الحدث</string>
     <string name="edit_event_countdown_name_hint">الحدث</string>
@@ -277,6 +293,7 @@
     <string name="email_picker_label">إرسال بريد إلكتروني إلى</string>
     <string name="empty" />
     <string name="empty_event">لا يمكن إنشاء أحداث فارغة</string>
+    <string name="end_at">النهاية: %s</string>
     <string name="eras_ad">بعد الميلاد</string>
     <string name="eras_bc">قبل الميلاد</string>
     <string name="evening">عصر</string>
@@ -302,6 +319,7 @@
     <string name="event_info_where">أين</string>
     <string name="event_none_selected">تم إلغاء تحديد الكل</string>
     <string name="event_reminder_allday_day_zero">في ذلك اليوم على الساعة %2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">خلال اليوم</string>
     <string name="event_reminder_custom">تخصيص</string>
     <string name="event_reminder_value_zero">عند بدء الحدث</string>
     <string name="event_title">العنوان</string>
@@ -400,7 +418,6 @@
     <string name="hint_what_smart_input_12">hh:mm aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">أدخل عنوان الحدث</string>
-    <string name="hint_where">الموقع</string>
     <string name="holiday_detail_read_more">المزيد</string>
     <string name="horoscope_select_activity_label">تحديد علامة البرج</string>
     <string name="hotel_detail_title">تفاصيل الفندق</string>
@@ -447,6 +464,7 @@
     <string name="login_caldav">إضافة</string>
     <string name="login_failed_toast">تعذر تسجيل الدخول، قم بالتحديث ثم أعد المحاولة</string>
     <string name="logining_caldav_account">جارٍ الإضافة…</string>
+    <string name="lunar_birthday_desc">التقويم الصيني التقليدي</string>
     <string name="lunar_date">التاريخ القمري</string>
     <string name="lunar_date_content_desc">التاريخ حسب التقويم الصيني التقليدي</string>
     <string name="lunar_to_solar_chinese_calendar">صيني إلى ميلادي</string>
@@ -493,6 +511,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">التبديل إلى نصف الشاشة</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">تكبير</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">تصغير</string>
+    <string name="miuix_popup_show_description">نافذة منبثقة</string>
     <string name="miuix_popup_window_default_title">نافذة منبثقة</string>
     <string name="miuix_progressbar_loading">تحميل</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">اسحب لأسفل للتحديث</string>
@@ -586,6 +605,8 @@
     <string name="no_data">لا شيء هنا بعد</string>
     <string name="no_events_hint">لا توجد أحداث</string>
     <string name="no_locale_list_text">تعذر الحصول على قائمة المواقع. أعد المحاولة.</string>
+    <string name="no_location_hint">لم أتمكن من العثور على نتائج</string>
+    <string name="no_location_network">لم يتمكن من الاتصال بالشبكة</string>
     <string name="no_more_events">لا يوجد مزيد من الأحداث لعرضها</string>
     <string name="no_network">"تعذر الاتصال بالشبكة.
 تحقق من إعدادات الشبكة ثم حاول مرة أخرى."</string>
@@ -607,7 +628,10 @@
     <string name="notification_open_setting_button_ok">سماح</string>
     <string name="notification_open_setting_message">لن تتمكن من استلام إشعارات عن الأحداث إذا لم تمنح التقويم إذن إرسال الإشعارات.</string>
     <string name="notification_open_setting_title">السماح بإشعارات التقويم؟</string>
+    <string name="panel_title_end">الانتهاء</string>
+    <string name="panel_title_start">البدء</string>
     <string name="pasport_register_dialog_message">هل ترغب في إنشاء حساب Mi باستخدام رقم الهاتف %s الآن؟</string>
+    <string name="pass_day">آمن</string>
     <string name="passenger">الراكب</string>
     <string name="passport_access_denied">تم رفض الدخول</string>
     <string name="passport_account_crop_user_avatar">قص الصورة</string>
@@ -827,6 +851,10 @@
     <string name="premission_read_write_storage">التخزين</string>
     <string name="premission_read_write_storage_new">الوصول إلى التخزين</string>
     <string name="privacy_and_permissions">الخصوصية والأذونات</string>
+    <string name="privacy_update_message">"بالضغط على \"موافق\"، فإنك توافق على (انقر)سياسة الخصوصية الخاصة بـ \"التقويم\"(/انقر): 
+
+لتقديم تجربة أفضل لك، يمكنك الآن تحديد موقع عند إنشاء حدث. يتم توفير ميزات البحث عن المواقع والاقتراحات من خلال خدمات خرائط تابعة لجهات خارجية."</string>
+    <string name="privacy_update_title">سياسة الخصوصية المحدثة</string>
     <string name="productivity_add_event">إنشاء حدث</string>
     <string name="productivity_no_event">لا توجد أحداث بعد</string>
     <string name="pull_refresh_events">عرض أحداث %d</string>
@@ -894,7 +922,7 @@
     <string name="search_calendar_settings">التقويم؛جدول الأعمال؛تذكير</string>
     <string name="search_events">البحث عن أحداث</string>
     <string name="search_history">سجل البحث</string>
-    <string name="search_location_hint">أدخل عنوان</string>
+    <string name="search_location_hint">ادخل الموقع</string>
     <string name="search_menu_title">البحث</string>
     <string name="search_timezone">بحث عن مناطق زمنية</string>
     <string name="select_date">الانتقال إلى تاريخ</string>
@@ -942,11 +970,13 @@
     <string name="size_peta_byte">بنتابايت</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">تيرابايت</string>
+    <string name="solar_birthday_desc">التقويم الميلادي</string>
     <string name="solar_date_content_desc">التاريخ حسب التقويم الميلادي</string>
     <string name="solar_lunar_convert_tab">تحويل</string>
     <string name="solar_to_lunar_chinese_calendar">ميلادي إلى صيني</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">الأحداث</string>
+    <string name="start_at">البداية: %s</string>
     <string name="start_date_calculate">أحسب</string>
     <string name="start_string">يبدأ عند %s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1161,6 +1191,11 @@
     <string name="widget_normal_weekN">الاسبوع %d</string>
     <string name="widget_select_style">اختيار نمط</string>
     <string name="widget_spec_agenda_birth_today">اليوم</string>
+    <string name="withdraw_consent_button_withdraw">سحب الموافقة</string>
+    <string name="withdraw_consent_message">"في حال المتابعة، ستسحب موافقتك على سياسة الخصوصية الخاصة بالتقويم، وسنتوقف عن جمع معلوماتك الشخصية. أما المعلومات الشخصية التي تم جمعها والاحتفاظ بها مسبقا، فسيتم حذفها خلال الفترة المحددة وفقاً للقوانين واللوائح المعمول بها، ما لم تقتضِ الضرورة خلاف ذلك. 
+ونظراً لأن التقويم يقدم خدماته استناداً إلى جمع المعلومات الشخصية الضرورية، فإن سحبك للموافقة يعد بمثابة رفضٍ لخدمات التقويم. هل ترغب في سحب الموافقة الآن؟"</string>
+    <string name="withdraw_consent_preference_title">سحب الموافقات</string>
+    <string name="withdraw_consent_title">سحب الموافقة</string>
     <string name="work_day_default_banner_title">اتمنى لك يوم عمل مليئ بالانجازات!</string>
     <string name="xiaomi_account">حساب Mi</string>
     <string name="xiaomi_calendar_display_name">تقويم حساب Mi</string>

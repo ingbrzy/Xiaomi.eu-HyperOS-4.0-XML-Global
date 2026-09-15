@@ -372,7 +372,7 @@ You can’t zoom in on the keyboard or navigation bar."</string>
     <string name="accessibility_service_screen_control_description">It can read all content on the screen and display content over other apps.</string>
     <string name="accessibility_service_screen_control_title">View and control screen</string>
     <string name="accessibility_service_warning_description">Full control is appropriate for apps that help you with accessibility needs, but not for most apps.</string>
-    <string name="accessibility_setting_item_control_timeout_title">Time to take action (Accessibility timeout)</string>
+    <string name="accessibility_setting_item_control_timeout_title">Time to take action</string>
     <string name="accessibility_settings">Accessibility</string>
     <string name="accessibility_settings_summary">Display, interaction, audio</string>
     <string name="accessibility_settings_tabs_general">General</string>
@@ -609,6 +609,7 @@ To switch between features, swipe up with three fingers and hold."</string>
     <string name="activity_title_root_note">About root access</string>
     <string name="ad_service">Ad services</string>
     <string name="adapt_embedded">Parallel windows are available</string>
+    <string name="adapted_game_title">Supported games</string>
     <string name="adaptive_brightness_main_switch_title">Use adaptive brightness</string>
     <string name="adaptive_connectivity_main_switch_title">Use adaptive connectivity</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Automatically selects the best network connection to extend your battery life</string>
@@ -684,7 +685,7 @@ To switch between features, swipe up with three fingers and hold."</string>
     <string name="add_fingerprint_move_fast">Keep your finger on the screen a bit longer</string>
     <string name="add_fingerprint_name_suggest_text">Fingerprint name</string>
     <string name="add_fingerprint_put_finger_edge_msg">Move your finger slightly and put it on the sensor again to add all the different parts of your fingerprint.</string>
-    <string name="add_fingerprint_put_finger_msg">Put your finger on the sensor and lift after you feel a vibration.</string>
+    <string name="add_fingerprint_put_finger_msg">Place your finger on the sensor, then lift it off, and repeat.</string>
     <string name="add_fingerprint_put_finger_title">Add fingerprint</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Move your finger slightly</string>
     <string name="add_fingerprint_success_msg">Added successfully</string>
@@ -724,7 +725,10 @@ Your admin has the ability to monitor and manage settings, access, apps and data
     <string name="advanced_battery_title">Battery usage</string>
     <string name="advanced_gesture">Custom gestures</string>
     <string name="advanced_screen_paper_mode_title">Reading mode</string>
+    <string name="advanced_screen_paper_mode_title_eye_comfort">Eye Comfort</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Eye comfort</string>
+    <string name="advanced_screen_paper_mode_title_vision_care">Xiaomi Vision Care</string>
     <string name="advanced_section_header">General</string>
     <string name="advanced_security_title">Advanced</string>
     <string name="advanced_settings">Additional settings</string>
@@ -901,8 +905,8 @@ Widget: %2$s
     <string name="aon_gesture_up_down_waving_summary">Works with vertical content feeds</string>
     <string name="aon_gesture_up_down_waving_switch">Wave vertically to swipe up and down</string>
     <string name="aon_gesture_up_down_waving_title">Swipe vertically</string>
-    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">"Make sure you're in a well-lit space, then hold your hand %d–%d cm in front of the camera with your palm facing down. Once recognition is successful, wave your hand upwards. You can then use this gesture to swipe up on the screen."</string>
-    <string name="aon_gesture_up_waving_diagram_title">Wave up in front of the screen</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">"Make sure you're in a well-lit space, then hold your hand %d–%d cm in front of the camera with your palm facing up or down. Once recognition is successful, wave your hand to swipe. Keep waving to continue swiping. To change swipe direction, turn your hand the other way and hold it still for a moment. Once it is recognised, wave again."</string>
+    <string name="aon_gesture_up_waving_diagram_title">Wave in front of the screen to swipe</string>
     <string name="aon_scanner_default_payment_method_title">Default payment method</string>
     <string name="aon_scanner_dialog_message">"When you turn on Quick scanner, the QR codes you scan will be shared with Mi AI Scanner. Make sure you understand and agree to this before continuing. The QR codes you scan won't be stored locally or uploaded to the cloud. Note that using this feature may slightly increase overall power consumption."</string>
     <string name="aon_scanner_dialog_message_new">"When you use Quick scanner, QR codes you scan will be shared with AI Scanner. This information won't be stored on your device nor uploaded to the cloud. Turning this feature on will slightly increase power consumption."</string>
@@ -1406,6 +1410,7 @@ Last ran on %2$s"</string>
     <string name="back_strap_status_close">Off</string>
     <string name="back_strap_status_open">On</string>
     <string name="back_strap_title">Back light effects</string>
+    <string name="back_strap_title_tip">Turn on to get personalised alerts in different scenarios</string>
     <string name="back_tap">Back tap</string>
     <string name="back_triple_tap">Triple back tap</string>
     <string name="background_activity_disabled_dialog_text">"Since this app is not set to optimise battery, you can’t restrict it.
@@ -1417,6 +1422,7 @@ To restrict the app, first turn on battery optimisation."</string>
     <string name="background_blur_enable">Advanced textures</string>
     <string name="background_blur_enable_summary">Adds rendering effects like blurring across the system to provide an enhanced visual experience</string>
     <string name="background_blur_message">Turning on this feature may use more power and cause your device to heat up. Turn on anyway?</string>
+    <string name="background_blur_mode_title">Visual style</string>
     <string name="background_blur_title">Turn on advanced textures</string>
     <string name="background_check_pref">Background check</string>
     <string name="background_data">Background data</string>
@@ -1983,7 +1989,8 @@ You haven’t connected to %2$s before."</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">Restart</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">Restart Bluetooth</string>
     <string name="bluetooth_enable_opp_high_speed_summary">Use high speed Bluetooth P2P protocols for transfers</string>
-    <string name="bluetooth_enable_page_scan_summary">Disable/enable page scan for Bluetooth test</string>
+    <string name="bluetooth_enable_page_scan">Bluetooth page scan</string>
+    <string name="bluetooth_enable_page_scan_summary">Turn Bluetooth page scan on or off for testing</string>
     <string name="bluetooth_enter_passkey_msg">Type the pairing code then press Return or Enter</string>
     <string name="bluetooth_enter_passkey_other_device">You may also need to type this passkey on the other device.</string>
     <string name="bluetooth_enter_pin_other_device">You may also need to type this PIN on the other device.</string>
@@ -2291,9 +2298,11 @@ While connected, %2$s will receive all calls made to %3$s."</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Forget device</string>
     <string name="bluetooth_unpair_dialog_title">Forget device?</string>
     <string name="bluetooth_unpair_dialog_with_associations_body">Your phone will no longer be paired with %1$s. %2$s will no longer manage the device</string>
+    <string name="bluetooth_unpairing">Unpairing…</string>
     <string name="bluetooth_version">Bluetooth version</string>
     <string name="bluetooth_version_message">Update</string>
     <string name="bluetooth_wake">Wake with Bluetooth audio</string>
+    <string name="bluetooth_watch_not_synced_unpair_manually">"Watch isn't synced. Unpair manually."</string>
     <string name="blur_switch">Reduce blur effects</string>
     <string name="blur_switch_disabled_summary">Temporarily disabled due to Battery Saver</string>
     <string name="blur_switch_summary">Make backgrounds and panels easier to see</string>
@@ -2615,6 +2624,7 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="camera_key_action_title">Mi Button</string>
     <string name="camera_key_action_toggle_title">Trigger toggle</string>
     <string name="camera_laser_sensor_switch">Camera laser sensor</string>
+    <string name="camera_mr_settings">Camera ring</string>
     <string name="camera_rear">Rear %s</string>
     <string name="camera_toggle_label_qs">Camera access</string>
     <string name="camera_toggle_title">Camera access</string>
@@ -2745,6 +2755,16 @@ If this permission is on, the app will be available as an option whenever a tag 
     <string name="checked_app_title">Light effects on</string>
     <string name="checking_find_device_status">Checking Find device status…</string>
     <string name="checking_for_updates">Checking for updates…</string>
+    <string name="child_face_number_reach_limit">You can add face data for up to three people</string>
+    <string name="child_face_unlock_download_education_center_button">Install</string>
+    <string name="child_face_unlock_download_education_center_content">To be able to use this feature, install Education Centre first.</string>
+    <string name="child_face_unlock_download_education_center_title">Attention</string>
+    <string name="child_face_unlock_first_close_child_unlock">Turn off \"Open Education Centre after unlocking\" first</string>
+    <string name="child_face_unlock_first_close_stay_keyguard">Turn off \"Stay on Lock screen after unlocking\" first</string>
+    <string name="child_face_unlock_no_use">Off</string>
+    <string name="child_face_unlock_open_education_center">Open Education Centre after unlocking</string>
+    <string name="child_face_unlock_open_education_center_summary">Select face data of a specific person who will use this feature</string>
+    <string name="child_face_unlock_use">Use</string>
     <string name="chip_add_title">Add frequency</string>
     <string name="chip_change_error_toast">"Couldn't adjust parameters"</string>
     <string name="chip_change_toast">Frequency changed. Reboot device to apply changes.</string>
@@ -3682,6 +3702,7 @@ This setting affects all users of this device."</string>
     <string name="device_screen_size">Screen size</string>
     <string name="device_screen_usage">Screen usage since full charge</string>
     <string name="device_sd_memory">SD card</string>
+    <string name="device_security_chip">Dedicated security chip</string>
     <string name="device_share_loading">Creating image</string>
     <string name="device_status">Status</string>
     <string name="device_status_activity_title">Status</string>
@@ -3738,6 +3759,7 @@ This setting affects all users of this device."</string>
     <string name="disable_overlays">Disable HW overlays</string>
     <string name="disable_overlays_summary">Always use GPU for screen compositing</string>
     <string name="disable_password_warning">"After you turn off your screen lock, recorded fingerprints and face data will be deleted. You won't be able to unlock the device using your face or fingerprints, or use them in Notes or Gallery."</string>
+    <string name="disable_permission_text_by_hyper">"This permission hasn't passed review and is restricted now"</string>
     <string name="disable_phantom_process_monitor_summary">Disable restrictions on the system resource usage of the app child processes</string>
     <string name="disable_phantom_process_monitor_title">Disable child process restrictions</string>
     <string name="disable_power_key_long_press_under_keyguard">Turn off the Power button menu</string>
@@ -3989,6 +4011,7 @@ This setting affects all users of this device."</string>
     <string name="dump_log_summary">"This feature is designed for generating the %s log in the Beta version of the system. Use it with caution.
 You can view generated logs in File Manager."</string>
     <string name="dump_log_title">About this feature</string>
+    <string name="dynamic_island_title">Xiaomi HyperIsland</string>
     <string name="early_morning">Morning</string>
     <string name="easy_mode_font_settings_toast">"Can't adjust font in Lite mode"</string>
     <string name="easymode_hint">Tap to turn off Lite mode</string>
@@ -4018,6 +4041,7 @@ You can view generated logs in File Manager."</string>
     <string name="eid_multi_sim">E​ID %1$d</string>
     <string name="eighthours">8 hours</string>
     <string name="elastic_text">Prompts and dropdown menus appear with an elastic pop that brings more focus on these objects</string>
+    <string name="elder_care_ai_anti_fraud">Detect fraud during conversations and get alerts</string>
     <string name="elder_care_block_advertising_promotions_calls_title">Block marketing calls</string>
     <string name="elder_care_block_estate_agency_calls_title">Block real estate agency calls</string>
     <string name="elder_care_block_risky_app_title">Block risky apps</string>
@@ -4386,6 +4410,11 @@ Connect an external display to get started or try using a different cable"</stri
     <string name="external_source_untrusted">Not allowed</string>
     <string name="extreme_threats_summary">Receive alerts for extreme threats to life and property</string>
     <string name="extreme_threats_title">Extreme threats</string>
+    <string name="eye_care_adjust_mode">Adjustment style</string>
+    <string name="eye_care_classic_mode">Classic</string>
+    <string name="eye_care_learn_more">Learn about eye comfort</string>
+    <string name="eye_care_mode_description">\"Rhythm\" automatically adjusts the color temperature based on the time and usage scenario. It stays more natural during the day and warmer at night. \"Classic\" uses a fixed color temperature and needs to be adjusted manually.</string>
+    <string name="eye_care_rhythmic_mode">Rhythm</string>
     <string name="eye_gaze_dialog_message">"When this feature is on, the system will detect whether you're looking at the screen, but your facial features won't be analyzed and this data won't be stored on your device or uploaded to the cloud. Turn on now?"</string>
     <string name="eye_gaze_dialog_title">Security notice</string>
     <string name="eye_gaze_summary">"Device won't lock when it detects that you're looking at the screen"</string>
@@ -4394,6 +4423,7 @@ Connect an external display to get started or try using a different cable"</stri
     <string name="eye_habit_prompt_summary">Receive notifications when your device detects conditions that might cause eye strain</string>
     <string name="eye_habit_prompt_title">Eye health notifications</string>
     <string name="eye_paper_protection">Reading mode settings</string>
+    <string name="eye_protection_technology">Technology</string>
     <string name="eyes_protect_certification">Technology and certification</string>
     <string name="eyes_protect_certification_summary_1">Visual health friendliness S++ certification</string>
     <string name="eyes_protect_certification_summary_2">Low Blue Light (Hardware Solution), Circadian Friendly, and Flicker Free certified</string>
@@ -4405,6 +4435,7 @@ Connect an external display to get started or try using a different cable"</stri
     <string name="eyes_protect_certification_title_3">More natural circular polarisation</string>
     <string name="eyes_protect_certification_title_4">Flicker-free DC dimming</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM dimming</string>
+    <string name="eyes_protect_game_title">Gaming eye comfort</string>
     <string name="face_data_apply_for_category_title">Unlock using face data</string>
     <string name="face_data_apply_for_keyguard_title">Lock screen</string>
     <string name="face_data_input_camera_fail">"Couldn't load camera"</string>
@@ -4435,6 +4466,7 @@ Add a screen lock before adding your face data."</string>
     <string name="face_data_suggesstion_first_cn_highlight">Face unlock is less secure than a PIN, password, pattern, or fingerprint. Your device might be unlocked with your photo, as well as by people or objects with a similar appearance.</string>
     <string name="face_data_suggesstion_second">"Make sure all parts of your face aren't covered by objects and are clearly visible. Your face should be well-lit as well."</string>
     <string name="face_enroll_when_slt_on_toast">"Can't add a face for Face unlock when using Tiantong Satellite communications"</string>
+    <string name="face_enrollment_fold_warning">Changing the screen state will interrupt face data recording</string>
     <string name="face_enrollment_tips">"Make sure all parts of your face are clearly visible. Don't wear hats, masks, sunglasses, or other accessories."</string>
     <string name="face_finger_add">Add</string>
     <string name="face_finger_delete">Delete</string>
@@ -4458,6 +4490,9 @@ Add a screen lock before adding your face data."</string>
     <string name="face_unlock_disable">Face unlock is off</string>
     <string name="face_unlock_down">Raise your head</string>
     <string name="face_unlock_enable">Face unlock is on</string>
+    <string name="face_unlock_in_low_light_msg">Increase screen brightness in low light to improve face recognition</string>
+    <string name="face_unlock_in_low_light_tip">"When Nighttime eye comfort is on, \"Optimize recognition in low light\" won't brighten the screen"</string>
+    <string name="face_unlock_in_low_light_title">Optimize recognition in low light</string>
     <string name="face_unlock_not_found">"Couldn't recognise you"</string>
     <string name="face_unlock_offset_bottom">Lower your phone a bit</string>
     <string name="face_unlock_offset_left">Move to the right</string>
@@ -4511,6 +4546,11 @@ facing the outer screen"</string>
     <string name="fan_mode_partial_scene_usage">Selected</string>
     <string name="fan_mode_range_title">Usage scenarios</string>
     <string name="fan_mode_usage_scenes">Usage scenarios</string>
+    <string name="fan_other_features">Other features</string>
+    <string name="fan_self_clean">Fan self-cleaning</string>
+    <string name="fan_self_clean_summary">"If the fan hasn't run for more than %d days, it will clean itself automatically while the screen is off and the device is charging"</string>
+    <string name="fan_smart_stop_on_recording">Pause during audio capture</string>
+    <string name="fan_smart_stop_on_recording_summary">"Reduce fan noise during calls, audio recording, and video recording. Doesn't apply to games."</string>
     <string name="fcc_equipment_id">Equipment ID</string>
     <string name="feature_flags_dashboard_title">Feature flags</string>
     <string name="feedback">Feedback</string>
@@ -4590,6 +4630,7 @@ To learn more, contact your credit provider."</string>
     <string name="fingerprint_enroll_button_add">Add another</string>
     <string name="fingerprint_enroll_button_next">Next</string>
     <string name="fingerprint_enrollment_desc">After recording a fingerprint, you can use it to unlock the device and verify your identity.</string>
+    <string name="fingerprint_enrollment_fold_warning">Changing the screen state will interrupt fingerprint recording</string>
     <string name="fingerprint_enrollment_title">Record fingerprint</string>
     <string name="fingerprint_face_password">Fingerprints, face data, and screen lock</string>
     <string name="fingerprint_face_password_unlock">Fingerprints, face data, and screen lock</string>
@@ -4617,6 +4658,7 @@ To learn more, contact your credit provider."</string>
     <string name="fingerprint_password_unlock">Fingerprints &amp; screen lock</string>
     <string name="fingerprint_payment">Fingerprint payments</string>
     <string name="fingerprint_privacy_desc">You can use your fingerprint for access to private albums, messages, notes, files, Xiaomi Hyper XiaoAi memory, App lock, and password management tools.</string>
+    <string name="fingerprint_privacy_policy"><Data>Read and agree to &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"Fingerprints &amp;#038; screen lock\" Privacy Statement&lt;/a> before you continue.&lt;/font></Data></string>
     <string name="fingerprint_protection">Fingerprint protection</string>
     <string name="fingerprint_record_input">Record</string>
     <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
@@ -4688,21 +4730,6 @@ To learn more, contact your credit provider."</string>
     <string name="flash_notifications_summary_off">Off/Get alerted with a camera or screen flash for notifications and alarms</string>
     <string name="flash_notifications_summary_on">On/Get alerted with a camera or screen flash for notifications and alarms</string>
     <string name="flash_notifications_title">Beam for notifications</string>
-    <string name="flashback_background_start_switch_summary">Generate flashcards with key info automatically when apps are running in the background</string>
-    <string name="flashback_background_start_switch_title">Generate flashcards automatically</string>
-    <string name="flashback_baidu_map_summary">Show route</string>
-    <string name="flashback_didi_summary">Show ride info</string>
-    <string name="flashback_meituan_summary">Show delivery info</string>
-    <string name="flashback_meituan_waimai_summary">Show delivery info</string>
-    <string name="flashback_open_switch_summary">Show key info when apps are displayed as floating windows</string>
-    <string name="flashback_open_switch_title">App flashcards</string>
-    <string name="flashback_shansong_summary">Show delivery progress</string>
-    <string name="flashback_status_close">Off</string>
-    <string name="flashback_status_open">On</string>
-    <string name="flashback_summary">Show key info when apps are displayed as floating windows</string>
-    <string name="flashback_support_apps_title">Available apps</string>
-    <string name="flashback_title">App flashcards</string>
-    <string name="flashback_wangzhe_summary">Show resurrection countdown</string>
     <string name="flip_aod_settings_title">Lock screen (outer)</string>
     <string name="flip_aod_settings_title_new">Lock screen (outer)</string>
     <string name="flip_application_settings_title">Outer screen apps</string>
@@ -4798,6 +4825,8 @@ To learn more, contact your credit provider."</string>
     <string name="font_preview_text_content">"Example text:
 
 Xiaomi relentlessly builds amazing products with honest prices to let everyone in the world enjoy a better life through innovative technology."</string>
+    <string name="font_preview_text_content_new">"Example text:
+Xiaomi relentlessly builds amazing products with honest prices to let everyone in the world enjoy a better life through innovative technology."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">"Current font doesn't support adjusting font weight"</string>
     <string name="font_settings_jump">Accessibility > Display size</string>
@@ -4817,12 +4846,14 @@ Xiaomi relentlessly builds amazing products with honest prices to let everyone i
 "</string>
     <string name="font_size_summary1">"If your system's text is still too small, try "</string>
     <string name="font_size_summary2">Lite mode</string>
+    <string name="fonts_management_installed_app">Install and manage fonts to use in apps</string>
+    <string name="fonts_manager">Manage fonts</string>
     <string name="footer_description_full_screen_intent">Allow this app to display notifications that take up the entire screen when the device is locked. The app can use full screen notifications to display alarms, incoming calls, or other urgent notifications. This setting relies on the permission to open new windows while running in the background and can only be used when this permission is granted.</string>
     <string name="footer_learn_more_content_description">Learn more about %1$s</string>
     <string name="footer_time_zone_offset_change_next_change">Next change</string>
     <string name="footer_time_zone_offset_change_no_next_change">No scheduled changes</string>
     <string name="forbidden_network">(forbidden)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">"Repair mode is on. Can't set or change passwords now."</string>
     <string name="forbidden_switch_apn_string">"Selected APN settings don't match current network type"</string>
     <string name="force_allow_on_external">Force allow apps on external</string>
     <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
@@ -4942,6 +4973,7 @@ This feature works only when system navigation is set to gestures."</string>
     <string name="friday_first_day_of_week">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
+    <string name="frp_status_activated">Factory reset protection is on</string>
     <string name="fsg_mistake_touch_summary">In some scenes, such as full-screen games and videos, gestures need to be double swipe to take effect</string>
     <string name="fsg_mistake_touch_title">Double check for the gestures</string>
     <string name="full_screen_display">Fullscreen mode</string>
@@ -4985,6 +5017,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="game_controller_stick_remapping_category">Directions</string>
     <string name="game_controller_stick_right">Right stick</string>
     <string name="game_delta_action_moments">Looting supplies and successful evacuation</string>
+    <string name="game_eyecare_empty_list_tip">Nothing here yet</string>
     <string name="game_king_of_glory_moments">Kills, wins, and other key moments</string>
     <string name="game_peacekeeper_elites_moments">Skydiving and combat</string>
     <string name="game_storage_settings">Games</string>
@@ -5152,6 +5185,7 @@ The area where you can confirm your screen lock will move to the right."</string
     <string name="gxzw_anim_rhythm">Rhythm</string>
     <string name="gxzw_anim_star">Starlight</string>
     <string name="gxzw_anim_switch">Fingerprint animation</string>
+    <string name="gxzw_anim_switch_new">Fingerprint animation</string>
     <string name="gxzw_anim_title">Fingerprint recognition</string>
     <string name="gxzw_aod_show_summary">Raise the device or tap the screen to make the fingerprint icon appear. This feature increases system power consumption but allows you to unlock the device faster.</string>
     <string name="gxzw_aod_show_tittle">Show fingerprint icon when the screen is off</string>
@@ -5170,6 +5204,7 @@ The area where you can confirm your screen lock will move to the right."</string
     <string name="gxzw_quick_open_show_summary">· Keep your finger on the fingerprint icon after the device unlocks to open the shortcut menu.</string>
     <string name="gxzw_quick_open_slow_summary">Press and hold the fingerprint icon to open shortcut menu. Swipe to use a shortcut.</string>
     <string name="gxzw_quick_open_slow_title">Press and hold</string>
+    <string name="gxzw_quick_open_summary">After unlocking, keep pressing the fingerprint icon to open the shortcut menu, then slide to a shortcut to select it.</string>
     <string name="gxzw_quick_open_title">Shortcuts</string>
     <string name="gxzw_recognizing_anim_a">Ripple</string>
     <string name="gxzw_recognizing_anim_b">Spiral</string>
@@ -5460,6 +5495,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="immediately_destroy_activities">"Don't keep activities"</string>
     <string name="immediately_destroy_activities_summary">Destroy every activity as soon as the user leaves it</string>
     <string name="immersive_audio_sources">Immersive sound</string>
+    <string name="import_manager_font_summary">Import and manage fonts for apps</string>
     <string name="importance_default">Default</string>
     <string name="importance_high">High</string>
     <string name="importance_low">Low</string>
@@ -5663,7 +5699,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="keyboard_layout_not_support_hint">Unsupported layout</string>
     <string name="keyboard_layout_picker_category_title">Physical keyboard layouts</string>
     <string name="keyboard_layout_picker_title">Keyboard layouts</string>
-    <string name="keyboard_mouse_touch">Keyboard, mouse, and track pad</string>
+    <string name="keyboard_mouse_touch">Keyboard, mouse, and trackpad</string>
     <string name="keyboard_options_category">Options</string>
     <string name="keyboard_repeat_keys_decrease_delay_desc">Decrease delay</string>
     <string name="keyboard_repeat_keys_decrease_rate_desc">Decrease repeat rate</string>
@@ -5959,6 +5995,69 @@ Important: Calling over satellite is not available. However, emergency calls may
     <string name="layout_size_normal_text">Small</string>
     <string name="layout_size_small">XS</string>
     <string name="layout_size_small_text">Extra small</string>
+    <string name="ldp_checker_action">Settings</string>
+    <string name="ldp_checker_desc">Add a fingerprint to confirm your identity for important security settings, and turn on Find device. If your signed-in device is lost or stolen, Find device can help you locate it and protect your data.</string>
+    <string name="ldp_checker_find_device_desc">"If you aren't signed in to your Xiaomi Account, you'll be guided to sign in first."</string>
+    <string name="ldp_checker_find_device_title">Turn on Find device</string>
+    <string name="ldp_checker_fingerprint_enroll_desc">"If you haven't set a screen lock yet, you'll be guided to set one first."</string>
+    <string name="ldp_checker_fingerprint_enroll_title">Add at least one fingerprint</string>
+    <string name="ldp_checker_title">Fingerprint and Find device must be turned on</string>
+    <string name="ldp_closed_dialog_button_know">Got it</string>
+    <string name="ldp_closed_dialog_reason_by_xiaomi_account">"You turned off Lost device protection through your Xiaomi Account. Your device's security features no longer have extra protection."</string>
+    <string name="ldp_closed_dialog_reason_no_account">"Lost device protection is now off because you aren't signed in to Xiaomi Account."</string>
+    <string name="ldp_closed_dialog_reason_no_device_find">You turned off Find device remotely, so Lost device protection is off.</string>
+    <string name="ldp_closed_dialog_reason_no_fingerprint">Lost device protection is now off because no fingerprint is set.</string>
+    <string name="ldp_closed_dialog_reason_no_lock_password">Lost device protection is now off because no screen lock is set.</string>
+    <string name="ldp_closed_dialog_sync_title">Lost device protection is off</string>
+    <string name="ldp_closed_dialog_title">Lost device protection is off</string>
+    <string name="ldp_detail_introduction">See how this feature can help protect you if your device is lost.</string>
+    <string name="ldp_detail_title">About Lost device protection</string>
+    <string name="ldp_dual_auth">Two-factor authentication</string>
+    <string name="ldp_dual_auth_desc">Prevent others from using your lost SIM card to tamper with your Xiaomi Account</string>
+    <string name="ldp_extra_fingerprint_item1">•Turning off or changing screen lock</string>
+    <string name="ldp_extra_fingerprint_item2">•Adding fingerprints or face data</string>
+    <string name="ldp_extra_fingerprint_item3">•Deleting fingerprints or face data</string>
+    <string name="ldp_extra_fingerprint_item4">•Signing out of your Xiaomi Account</string>
+    <string name="ldp_extra_fingerprint_title">The following actions require an extra fingerprint check</string>
+    <string name="ldp_fingerprint_fault_desc">"You can turn off this feature with fingerprint verification. If your fingerprint can't be verified, Lost device protection allows you to turn it off by verifying your Xiaomi Account instead.
+To prevent others from using this method to bypass protection right away, Lost device protection will start a security delay of %1$d hours. This gives the real owner time to take action, such as remotely erasing the device or suspending the SIM card. After the delay ends, you can turn off this feature by verifying your Xiaomi Account within the next %2$d hours."</string>
+    <string name="ldp_fingerprint_fault_title">"If fingerprint verification isn't available"</string>
+    <string name="ldp_forbidden_actions_item1">•Turning off Find device</string>
+    <string name="ldp_forbidden_actions_item2">•Turning off Offline location</string>
+    <string name="ldp_forbidden_actions_item3">•Turning off \"Send last location\"</string>
+    <string name="ldp_forbidden_actions_title">The following actions will be blocked</string>
+    <string name="ldp_function_home_introduction_des">If your device is lost and someone has your screen lock, face data, or a paired Bluetooth device, this feature can help stop them from making important malicious changes to your device. &lt;a href=app://learn_more>Learn more&lt;/a></string>
+    <string name="ldp_function_home_suggestion_title">Recommended features</string>
+    <string name="ldp_guide_account_protection_desc">Sensitive Xiaomi Account actions require fingerprint verification on this device first.</string>
+    <string name="ldp_guide_account_protection_title">Add extra protection to your Xiaomi Account</string>
+    <string name="ldp_guide_action">Next</string>
+    <string name="ldp_guide_desc">If your device is lost and someone has your screen lock, face data, or a paired Bluetooth device, this feature can help stop them from making important malicious changes to your device.</string>
+    <string name="ldp_guide_identity_verification_desc">Changes to security settings and access to some sensitive features require fingerprint verification, so only you can use them.</string>
+    <string name="ldp_guide_identity_verification_title">Make sure sensitive actions are really performed by you</string>
+    <string name="ldp_how_to_protect_desc">"Lost device protection adds an extra layer of security. If the device is unlocked using a lower security method, the system will require a different verification method for sensitive actions. This adds another identity check without unnecessary repeated verification.
+If your device is lost, this extra check can still help prevent others from changing important security settings, even if your screen lock or Xiaomi Account details have been leaked through scams or phishing."</string>
+    <string name="ldp_how_to_protect_title">How it works</string>
+    <string name="ldp_recommend_action_button_text">Turn on</string>
+    <string name="ldp_recommend_desc">This helps prevent others from using your SIM card to reset your Xiaomi Account and then turning off security features such as Lost device protection and Find device.</string>
+    <string name="ldp_recommend_later_button_text">Not now</string>
+    <string name="ldp_recommend_title">Turn on two-factor authentication for your account</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item1">•Turning off unlock with Bluetooth devices</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item2">•Viewing or changing USIM card settings</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item3">•Opening the Passwords app</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item4">•Using Passwords to autofill passwords</string>
+    <string name="ldp_replace_pwd_with_fingerprint_title">For the following actions, screen lock verification will be replaced by fingerprint verification</string>
+    <string name="ldp_summary">Prevent others from making important changes to this device and your signed-in Xiaomi Account</string>
+    <string name="ldp_title">Lost device protection</string>
+    <string name="ldp_trigger_occasion_desc">"If the device is unlocked with face data, screen lock, or a paired Bluetooth device, some sensitive actions will require an extra fingerprint check or fingerprint only. At the same time, Find device can't be turned off."</string>
+    <string name="ldp_trigger_occasion_title">When protection is triggered</string>
+    <string name="ldp_uni_auth_add_face_title">Verify your fingerprint to add face data</string>
+    <string name="ldp_uni_auth_add_fingerprint_title">Verify your fingerprint to add a new one</string>
+    <string name="ldp_uni_auth_change_password_title">Verify your fingerprint to change screen lock</string>
+    <string name="ldp_uni_auth_disable_ldp_title">Verify your fingerprint to turn off Lost device protection</string>
+    <string name="ldp_uni_auth_enable_ldp_subtitle">To turn on Lost device protection, verify your identity and make sure the fingerprint sensor is working properly.</string>
+    <string name="ldp_uni_auth_remove_face_title">Verify your fingerprint to delete face data</string>
+    <string name="ldp_uni_auth_remove_fingerprint_title">Verify your fingerprint to delete one</string>
+    <string name="ldp_uni_auth_remove_password_title">Verify your fingerprint to turn off screen lock</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_about_security_chip">Learn how the dedicated security chip protects your device</string>
     <string name="learn_more">Learn more</string>
@@ -5989,6 +6088,7 @@ Important: Calling over satellite is not available. However, emergency calls may
     <string name="license_title">Licence</string>
     <string name="lift_to_wake_title">Lift to wake</string>
     <string name="light_camera_state_summary">Turn on back light when taking timed or burst shots</string>
+    <string name="light_camera_state_summary_new">Turn on LED light when taking timed or burst shots</string>
     <string name="light_camera_state_title">Camera status indicator</string>
     <string name="light_color_mode">Light mode</string>
     <string name="lights_title">LED light</string>
@@ -6675,6 +6775,7 @@ You can't reverse this action."</string>
 You won't be able to reverse this action."</string>
     <string name="master_clear_title">Erase all data (factory reset)</string>
     <string name="master_clear_title_new">Factory reset</string>
+    <string name="material_classic_title">Frosted glass</string>
     <string name="material_clock_toggle_content_description">Select a.m. or p.m.</string>
     <string name="material_hour_24h_suffix">%1$s hours</string>
     <string name="material_hour_selection">Select hour</string>
@@ -6691,6 +6792,7 @@ You won't be able to reverse this action."</string>
     <string name="material_timepicker_pm">p.m.</string>
     <string name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="material_transparent_title">Soft glass</string>
     <string name="max_aspect_settings_all_app_display_loading">Just a sec…</string>
     <string name="max_cpu10_info">"Deca-core Max "</string>
     <string name="max_cpu2_info">"Dual-core Max "</string>
@@ -6832,6 +6934,8 @@ You won't be able to reverse this action."</string>
     <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
     <string name="mi_smart_play_entry_title">Mi Smart Play</string>
     <string name="mi_transfer">Mi Mover</string>
+    <string name="mi_transfer_banner_summary">Multiple device brands are supported</string>
+    <string name="mi_transfer_banner_title">Transfer items from your old device</string>
     <string name="mi_upi_settings">Mi Pay Account</string>
     <string name="mi_wallet">Mi Wallet</string>
     <string name="mi_wallet_desc">Mi Wallet</string>
@@ -7078,30 +7182,11 @@ Continue to access additional settings."</string>
     <string name="miui_face_unlock_open_toast_for_sensor_light_virtual">"Screen brightness won't be adjusted automatically"</string>
     <string name="miui_input_method_attention">Attention</string>
     <string name="miui_input_method_settings">Input method settings</string>
-    <string name="miui_lab_ai_cloud_closed">"AI preloading isn't available yet."</string>
-    <string name="miui_lab_ai_preload_desc">AI preloading increases app launch speed</string>
-    <string name="miui_lab_ai_preload_title">AI preloading</string>
-    <string name="miui_lab_aiasst_call_screen_desc">Answer calls using AI</string>
-    <string name="miui_lab_aiasst_call_screen_title">AI Call Assistant</string>
-    <string name="miui_lab_drive_mode_desc">Use voice controls and listen to WeChat messages</string>
-    <string name="miui_lab_drive_mode_title">Car mode</string>
-    <string name="miui_lab_feature_applied">Applied</string>
-    <string name="miui_lab_feature_off">Off</string>
-    <string name="miui_lab_feature_on">On</string>
-    <string name="miui_lab_features">MIUI lab features</string>
-    <string name="miui_lab_gallery_search_desc">Improved image search</string>
-    <string name="miui_lab_gallery_search_title">Find photos in Gallery</string>
-    <string name="miui_lab_gesture_desc">Use gestures instead of buttons for navigation</string>
-    <string name="miui_lab_gesture_title">Full screen gestures</string>
-    <string name="miui_lab_install_drive_mode_error">"Couldn't install. Try again."</string>
-    <string name="miui_lab_install_drive_mode_summary">"Car mode is a system app. Installation doesn't require internet connection."</string>
-    <string name="miui_lab_install_drive_mode_title">Install Car mode</string>
-    <string name="miui_lab_settings">Lab</string>
-    <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
     <string name="miui_master_clear_prompt_battery_low">"Can't perform a factory reset when less than %1$s of battery is left. Charge your device before you continue."</string>
     <string name="miui_master_clear_summary">Erases all data on this device</string>
     <string name="miui_more_special_feature">Explore new features</string>
     <string name="miui_nfc_dialog_message">"You won't be able to use NFC features which include Mi Pay, transport cards, key cards, and more if you turn off NFC. Turn off anyway?"</string>
+    <string name="miui_nfc_dialog_message_gl">"You won't be able to use NFC features, including reading and writing NFC tags, using access cards, and more, if you turn off NFC. Turn off anyway?"</string>
     <string name="miui_nfc_dialog_negative">Turn off</string>
     <string name="miui_nfc_dialog_positive">Cancel</string>
     <string name="miui_nfc_dialog_title">Turning off NFC</string>
@@ -7228,6 +7313,7 @@ Any user can grant permissions on behalf of all user profiles that exist on this
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Switch to half screen</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximise</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimise</string>
+    <string name="miuix_popup_show_description">Pop-up window</string>
     <string name="miuix_popup_window_default_title">Pop-up window</string>
     <string name="miuix_progressbar_loading">Loading</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
@@ -7712,6 +7798,12 @@ Select your operating system:"</string>
     <string name="next_button_label">Next</string>
     <string name="next_label">Next</string>
     <string name="next_page_content_description">Next</string>
+    <string name="nfc_ac_btn_no">Cancel</string>
+    <string name="nfc_ac_btn_yes">Set</string>
+    <string name="nfc_ac_confirm_ask">Set access card as your default card?</string>
+    <string name="nfc_ac_confirm_desc">To unlock doors by tapping your phone, set access card as your default tap card.</string>
+    <string name="nfc_ac_summary">Use your phone as an access card and unlock supported doors with a tap</string>
+    <string name="nfc_ac_title">Access card</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">To use, first install a payment app</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Unavailable because NFC is off</string>
     <string name="nfc_category_title">NFC</string>
@@ -7736,7 +7828,7 @@ Select your operating system:"</string>
     <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Set default</string>
     <string name="nfc_payment_btn_text_update">Update</string>
-    <string name="nfc_payment_default">Payment default</string>
+    <string name="nfc_payment_default">Select default card</string>
     <string name="nfc_payment_default_not_set">Not set</string>
     <string name="nfc_payment_favor_default">Always use default app</string>
     <string name="nfc_payment_favor_open">Replace default app when another payment app is open</string>
@@ -7805,7 +7897,10 @@ This replaces %2$s as your default payment app."</string>
     <string name="night_display_temperature_title">Intensity</string>
     <string name="night_display_text">Night Light tints your screen amber. This makes it easier to look at your screen or read in dim light, and may help you fall asleep more easily.</string>
     <string name="night_display_title">Night Light</string>
+    <string name="night_eye_protection_summary">Automatically reduce brightness after you fall asleep for your comfort when you wake up to look at your device at night</string>
+    <string name="night_eye_protection_title">Nighttime eye comfort</string>
     <string name="night_light_main_switch_title">Use Night Light</string>
+    <string name="night_vision_adapted_game_title">@string/adapted_game_title</string>
     <string name="nls_feature_modes_settings_summary">It can manage and activate modes, and change related settings.</string>
     <string name="nls_feature_read_summary">It can read your notifications, including personal information such as contacts, messages and photos.</string>
     <string name="nls_feature_read_title">Read your notifications</string>
@@ -8288,6 +8383,7 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="paper_mode_customize_time_summary">Turn on Reading mode for a custom period</string>
     <string name="paper_mode_customize_time_title">Custom period</string>
     <string name="paper_mode_enable_description">Reduce blue light by adding a warmer tone to the screen</string>
+    <string name="paper_mode_enable_title">@string/screen_paper_mode_title</string>
     <string name="paper_mode_end_time_title">Turn off</string>
     <string name="paper_mode_get_location_dlg_msg">Access to your location is required to calculate the time for sunsets and sunrises</string>
     <string name="paper_mode_get_location_dlg_negative_btn_text">Cancel</string>
@@ -8321,6 +8417,7 @@ Read and agree to %s before using this service."</string>
     <string name="password_save_success">Saved successfully</string>
     <string name="password_saving">Saving password…</string>
     <string name="password_security_settings_title">Passwords &amp; security</string>
+    <string name="password_set_success_hint">You can now unlock your device with your new screen lock</string>
     <string name="password_setup_complete">Set password successfully</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="password_turned_off_text">Password has been turned off</string>
@@ -8487,6 +8584,13 @@ Read and agree to %s before using this service."</string>
     <string name="please_stop_listen_broadcast_audio">Stop listening to the broadcast first</string>
     <string name="please_type_passphrase">Password</string>
     <string name="pm">PM</string>
+    <string name="pocket_musician">Xiaomi Pocket Guitar</string>
+    <string name="pocket_musician_battery_toast_both">Charge this device and your Xiaomi Pocket Guitar before updating the firmware</string>
+    <string name="pocket_musician_battery_toast_device">Charge your Xiaomi Pocket Guitar before updating the firmware</string>
+    <string name="pocket_musician_battery_toast_phone">Connect the charger to this device and try updating the firmware again</string>
+    <string name="pocket_musician_ota_connect_first">Connect Xiaomi Pocket Guitar to get update info</string>
+    <string name="pocket_musician_ota_dialog_text">Updating…</string>
+    <string name="pocket_musician_ota_summary">Restart this accessory manually after the update</string>
     <string name="poco_launcher_privacy_policy">POCO Launcher Privacy Policy</string>
     <string name="poco_launcher_user_agreement">POCO Launcher User Agreement</string>
     <string name="pointer_fill_style">Cursor colour</string>
@@ -8511,6 +8615,7 @@ Read and agree to %s before using this service."</string>
     <string name="popup_window">Restrict floating notifications</string>
     <string name="post_dsds_reboot_notification_text">Tap to update SIM settings</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">Your %1$s SIM is active</string>
+    <string name="post_reset_google_verification">After a factory reset, sign in with the Google Account previously used on this device to set a password.</string>
     <string name="power_autorun_apps_empty">No apps here</string>
     <string name="power_autorun_empty">No apps available</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -9085,7 +9190,29 @@ Anyone that connects your device to a computer or installs malicious apps on you
     <string name="proxy_url_title">"PAC URL: "</string>
     <string name="proxy_warning_limited_support">The HTTP proxy is used by the browser but may not be used by other apps.</string>
     <string name="pss_profiling_disabled">Memory profiling disabled</string>
+    <string name="qingcai_eye_care_summery">Detect on-screen content automatically and filter harmful blue light while keeping game colours vivid</string>
+    <string name="qingcai_eye_care_title">Eye comfort (vivid)</string>
     <string name="qr_code_content_description">QR code</string>
+    <string name="quick_button_check_app_activity_title">Select app for quick launch</string>
+    <string name="quick_button_check_app_not_found_txt">"Couldn't find results"</string>
+    <string name="quick_button_check_app_search_edit_hint">Search apps</string>
+    <string name="quick_button_check_app_search_text_cancel_txt">Cancel</string>
+    <string name="quick_button_check_app_search_text_submit_txt">Done</string>
+    <string name="quick_button_eyecare_mode_summery">Turn on Reading mode to reduce blue light</string>
+    <string name="quick_button_eyecare_mode_tile">Reading mode</string>
+    <string name="quick_button_furious_mode_summery">Switch to Ultimate mode to get the most out of your tablet</string>
+    <string name="quick_button_furious_mode_title">Ultimate mode</string>
+    <string name="quick_button_inspiration_summery">Write with your stylus to capture ideas whenever they appear</string>
+    <string name="quick_button_inspiration_title">Writing</string>
+    <string name="quick_button_none_title">No action</string>
+    <string name="quick_button_preference_title">Shortcut button</string>
+    <string name="quick_button_screenshot_summery">Take a screenshot whenever you need</string>
+    <string name="quick_button_screenshot_title">Screenshot</string>
+    <string name="quick_button_start_button_txt">Select app</string>
+    <string name="quick_button_start_summery">Open your frequently used apps faster</string>
+    <string name="quick_button_start_title">Quick launch</string>
+    <string name="quick_button_super_ai_summery">"Memorise what's on screen in a snap"</string>
+    <string name="quick_button_super_ai_title">Xiaomi Hyper XiaoAi memory</string>
     <string name="quick_function">Assistive features</string>
     <string name="quick_reply_title">Quick replies</string>
     <string name="quick_settings_developer_tiles">Quick Settings developer tiles</string>
@@ -9329,6 +9456,10 @@ All apps in your space and their data will also be permanently deleted from your
     <string name="right_function_key">Right shortcut</string>
     <string name="right_hearing_aid">Right hearing aid</string>
     <string name="right_shoulder_key">Right</string>
+    <string name="ring_remote_battery_status_toast_one">Connect the charger to this device and try updating the firmware again</string>
+    <string name="ring_remote_battery_status_toast_three">Replace the battery in your magnetic holder before updating the firmware</string>
+    <string name="ring_remote_battery_status_toast_two">Connect the charger to this device and replace the magnetic holder battery, then try updating the firmware again</string>
+    <string name="ring_remote_ota_summary">"Updating. Don't disconnect."</string>
     <string name="ring_to_you">Custom ringing tone</string>
     <string name="ring_to_you_info">Set a custom tone other people will hear before you pick up</string>
     <string name="ring_volume_option_title">Ringtone</string>
@@ -9349,6 +9480,26 @@ All apps in your space and their data will also be permanently deleted from your
     <string name="roaming_warning">Roaming charges may apply.</string>
     <string name="rom_total_size">Total ROM size</string>
     <string name="root">Root access</string>
+    <string name="rp_clone_space_password_same_tip">New screen lock should be different from Second space password</string>
+    <string name="rp_forget_password_dialog_button_know">Got it</string>
+    <string name="rp_forget_password_dialog_desc">If you recently changed your screen lock and your device becomes locked after too many unsuccessful unlock attempts, you can reset your current screen lock by verifying a screen lock changed within the last %1$d hours, along with your fingerprint.</string>
+    <string name="rp_forget_password_dialog_note">After multiple unsuccessful unlock attempts on the Lock screen, tap \"Forgot password\" to start resetting your screen lock.</string>
+    <string name="rp_forget_password_dialog_title">Reset screen lock when device is locked</string>
+    <string name="rp_old_password_retention_hint">Your previous screen lock will be kept for a while. If you forget your new screen lock, you can use the previous one to reset it.</string>
+    <string name="rp_password_no_match">"PINs don't match. Try again."</string>
+    <string name="rp_remove_old_password">Clear previous screen lock</string>
+    <string name="rp_reset_dialog_button_cancel">Cancel</string>
+    <string name="rp_reset_dialog_button_confirm">Clear</string>
+    <string name="rp_reset_dialog_message">"You recently changed your screen lock. You can still reset your current screen lock using your previous screen lock and fingerprint. If you don't need this backup option, you can clear the previous screen lock now."</string>
+    <string name="rp_reset_dialog_title">Clear previous screen lock</string>
+    <string name="rp_reset_old_password_now_desc">"After verifying your previous screen lock and fingerprint, you'll be guided to set a new screen lock."</string>
+    <string name="rp_reset_old_password_now_title">Resetting screen lock…</string>
+    <string name="rp_reset_password_hint">For the next %1$s %2$s, you can reset your current screen lock by verifying your previous screen lock and fingerprint.</string>
+    <string name="rp_set_new_password">Set a new screen lock</string>
+    <string name="rp_set_new_password_desc">If you forget your new screen lock, you can reset it using your previous screen lock and fingerprint.</string>
+    <string name="rp_set_new_password_finish_desc">"The forgotten screen lock won't be saved as your previous screen lock. The timer for your original previous screen lock will be reset."</string>
+    <string name="rp_set_new_password_finish_title">Set successfully</string>
+    <string name="rp_set_new_pattern">Draw new pattern</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
     <string name="rtt_settings_summary">Use text to communicate during a call</string>
@@ -9491,7 +9642,7 @@ All apps in your space and their data will also be permanently deleted from your
     <string name="scanning_status_text_wifi_off_ble_on">Bluetooth scanning is on, Wi-Fi scanning is off</string>
     <string name="scanning_status_text_wifi_on_ble_off">Wi-Fi scanning is on, Bluetooth scanning is off</string>
     <string name="scanning_status_text_wifi_on_ble_on">Both Wi-Fi and Bluetooth scanning are on</string>
-    <string name="screen">Screen</string>
+    <string name="screen">Display</string>
     <string name="screen_brightness">Screen brightness</string>
     <string name="screen_cancel">Cancel</string>
     <string name="screen_color_and_optimize">Colours &amp; contrast</string>
@@ -9512,6 +9663,7 @@ All apps in your space and their data will also be permanently deleted from your
     <string name="screen_effect_adapt_color_title">Vivid</string>
     <string name="screen_effect_origin_color_summary">Reproduce realistic colours through colour calibration</string>
     <string name="screen_effect_origin_color_title">Original colour PRO</string>
+    <string name="screen_effect_tip">The most suitable color space will be matched to the content automatically. Supports sRGB, P3, and BT.2020.</string>
     <string name="screen_enhance_engine_ai_note">%d. This feature slightly increases power consumption.</string>
     <string name="screen_enhance_engine_ai_note_2">%d. Only images from the Gallery app can be enhanced.</string>
     <string name="screen_enhance_engine_ai_note_3">"%d. This feature won't work if you chose to display original colours or applied advanced adjustments."</string>
@@ -9749,6 +9901,7 @@ To use app pinning: \t
     <string name="search_account_list">Other accounts;Account;Accounts</string>
     <string name="search_add_facerecoginition_text">Face unlock;Face recognition</string>
     <string name="search_advanced_settings">Advanced settings;Wifi;Wifi settings;WLAN settings</string>
+    <string name="search_ai_companion_title">Clipboard shortcut;Copy;Instant access;Access</string>
     <string name="search_airplane_mode">Aeroplane mode;Aeroplane mode;Flight mode;Aeroplane;Aeroplane;Flight</string>
     <string name="search_alarm_sound_title">Alarm sound;alarm ringtone;alarm</string>
     <string name="search_ambient_display_screen_title">Ambient display;Always-on display;Always on display</string>
@@ -9760,6 +9913,7 @@ To use app pinning: \t
     <string name="search_application_lock_name">App lock</string>
     <string name="search_applications_settings">Installed apps</string>
     <string name="search_back_key">Back;Back button;Back key</string>
+    <string name="search_background_blur_mode">Frosted glass;Soft glass;Visual style</string>
     <string name="search_battery_indicator">Battery indicator</string>
     <string name="search_bluetooth_device_searchable">Discoverable;Visible;Bluetooth name</string>
     <string name="search_bluetooth_enable">Bluetooth;Turn on Bluetooth;Bluetooth on</string>
@@ -9966,10 +10120,18 @@ To use app pinning: \t
     <string name="security_advanced_settings_work_profile_settings_summary">Work profile lock, encryption and more</string>
     <string name="security_center_title">Security</string>
     <string name="security_check_progress_dialog_message">Checking for security issues…</string>
+    <string name="security_chip">Security chip</string>
     <string name="security_chip_active">Your passwords and fingerprint data are protected by the dedicated security chip. <Data>&lt;br/>&lt;a href=security_chip_bottomsheet>Learn more&lt;/a></Data></string>
+    <string name="security_chip_data_protection">A dedicated security chip helps protect your data</string>
     <string name="security_chip_description">The dedicated security chip is a hardware security module designed by Xiaomi to protect sensitive device data.</string>
     <string name="security_chip_details">"Unlike the NFC security chip, the dedicated security chip protects your screen lock, encrypted sensitive data, and fingerprint information. It's physically isolated from the NFC chip, ensuring stronger protection, better stability, and enhanced resistance against interference."</string>
+    <string name="security_chip_dialog_confirm">Got it</string>
+    <string name="security_chip_dual_certification">The security chip that meets both Common Criteria (CC) and Chinese commercial cryptography certification requirements helps defend against physical attacks and brute-force cracking</string>
+    <string name="security_chip_fingerprint_encrypt">Your fingerprints are encrypted and protected by the security chip</string>
+    <string name="security_chip_hardware_encryption">Hardware-level encryption</string>
+    <string name="security_chip_hardware_vault">Secure hardware module</string>
     <string name="security_chip_password_protection">"With the chip's Weaver mechanism, your passwords are protected at the hardware level:"</string>
+    <string name="security_chip_root_key_protection">"The root key is protected by a dedicated security chip, so it can't be accessed by the system or third party apps"</string>
     <string name="security_dashboard_summary">Screen lock, Find My Device, app security</string>
     <string name="security_encryption_alert_dialog_info_first">"Set a screen lock to turn this feature on. You'll have to enter screen lock after every reboot to decrypt and use the device normally."</string>
     <string name="security_encryption_alert_dialog_title_first">Set screen lock first</string>
@@ -10387,6 +10549,8 @@ Move your finger slightly each time. This helps capture more of your fingerprint
     <string name="set_jeejen_prompt_message">Lite mode will be set as your default launcher. You can change the default launcher in Settings > System settings > Home screen &amp; Recents > Default launcher.</string>
     <string name="set_jeejen_prompt_title">Confirm changes</string>
     <string name="set_lock_screen_password">Set screen lock</string>
+    <string name="set_new_password_hint">Enter your new screen lock and remember it</string>
+    <string name="set_new_password_hint_new">Enter your new screen lock and remember it</string>
     <string name="set_pad_clone_password">"Set your tablet's Second space password"</string>
     <string name="set_password">Set screen lock</string>
     <string name="set_password_before_face">Set screen lock before adding face data</string>
@@ -11386,6 +11550,8 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="sunlight_mode">Sunlight mode</string>
     <string name="sunlight_mode_boost_summary">Expand brightness range and adjust brightness automatically under bright conditions. This feature will cause your device to heat up and consume more power.</string>
     <string name="sunlight_mode_summary">Adjust brightness to strong ambient light to prevent the screen from going too dark</string>
+    <string name="super_sensory_night_vision_summery">Improve contrast in low light so details stay clear for a better night gaming experience</string>
+    <string name="super_sensory_night_vision_title">Enhanced night vision</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Maximum volume %s</string>
     <string name="supervision_add_forgot_pin_preference_title">Forgot PIN</string>
@@ -11488,6 +11654,7 @@ You can edit or delete the PIN from Android Settings > Parental controls."</stri
     <string name="swipe_add_fingerprint_dirty_title">Make sure your finger is clean and dry</string>
     <string name="swipe_add_fingerprint_finish_text">Try recording your fingerprint from more angles for better unlocking</string>
     <string name="swipe_add_fingerprint_insufficient_title">"Couldn't recognise your fingerprint. Try again."</string>
+    <string name="swipe_add_fingerprint_message">Swipe slowly across the Power button, changing the angle as you go</string>
     <string name="swipe_add_fingerprint_move_text">Try different angles and positions</string>
     <string name="swipe_add_fingerprint_move_title">Adjust your grip</string>
     <string name="swipe_add_fingerprint_need_up_text">Having trouble capturing your fingerprint</string>
@@ -11499,6 +11666,7 @@ You can edit or delete the PIN from Android Settings > Parental controls."</stri
     <string name="swipe_add_fingerprint_swipe_fast_title">Move your finger slower</string>
     <string name="swipe_add_fingerprint_swipe_slow_title">Move your finger faster</string>
     <string name="swipe_add_fingerprint_text">Adjust your grip to capture the edges of your fingerprint</string>
+    <string name="swipe_add_fingerprint_title">Move your finger left and right</string>
     <string name="swipe_add_fingerprint_up_text">Press and rotate your finger slightly</string>
     <string name="swipe_add_fingerprint_up_title">Press the centre of the fingerprint area</string>
     <string name="swipe_direction_ltr">Swipe right to dismiss, left to show menu</string>
@@ -13278,6 +13446,7 @@ Tap "<b>Back</b> to connect to a different Wi-Fi network.</string>
     <string name="wifi_share_add">Share my public networks</string>
     <string name="wifi_share_add_summary">"When you share your public networks,
 you can use other users' networks, too."</string>
+    <string name="wifi_share_close_button_description">Close</string>
     <string name="wifi_share_conflict_dialog_message">"A shared network with the name '%1$s' already exists. If you switch to the shared network, you will leave your private network and you may temporarily have no Internet."</string>
     <string name="wifi_share_conflict_dialog_title">Switch to shared network?</string>
     <string name="wifi_share_connect">Connect</string>
@@ -13292,6 +13461,7 @@ you can use other users' networks, too."</string>
     <string name="wifi_share_plain_password_text">Password: %s</string>
     <string name="wifi_share_preference_summary">Other users on this device can access this network</string>
     <string name="wifi_share_preference_title">Share network</string>
+    <string name="wifi_share_qr_code_description">QR code</string>
     <string name="wifi_share_qrcode_finish">Done</string>
     <string name="wifi_share_qrcode_summary">To share, scan the QR code above.</string>
     <string name="wifi_share_qrcode_title">Share Wi-Fi network</string>
@@ -13375,6 +13545,10 @@ you can use other users' networks, too."</string>
     <string name="wifi_wakeup_location_summary">Turn on location services to be able to use this feature.</string>
     <string name="wifi_wakeup_negative_button">Cancel</string>
     <string name="wifi_wakeup_positive_button">Turn on</string>
+    <string name="wifi_wakeup_privacy_agree">Agree</string>
+    <string name="wifi_wakeup_privacy_content">"\"Turn on Wi-Fi automatically\" (\"this service\") is a feature provided by Xiaomi Inc. (\"we\" or \"Xiaomi\"). It saves high quality Wi-Fi networks, such as your home network, and automatically turns on Wi-Fi when you're nearby to help reduce mobile data usage. We attach great importance to the protection of your personal information and privacy. We'll provide corresponding security measures for your personal information in accordance with relevant legal requirements and industry standards.&lt;br>When you turn on this service, we'll collect your approximate location info, based on cell tower IDs, to match you with nearby high quality Wi-Fi networks.&lt;br>This information is processed only on your device and won't be uploaded to the cloud.&lt;br>If you choose not to provide this information, you won't be able to use this service.&lt;br>We'll retain your personal information only for the period necessary to achieve the purposes of collection described in this privacy statement or to comply with applicable legal requirements.&lt;br>We've established a dedicated department for personal information protection. If you have any comments or questions about this privacy statement, or if you have any questions about our collection, use, or disclosure of your personal information, contact us at &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>. In general, we'll respond within fifteen working days.&lt;br>Tap \"Agree\" to indicate that you've read and agree to this privacy statement."</string>
+    <string name="wifi_wakeup_privacy_disagree">Cancel</string>
+    <string name="wifi_wakeup_privacy_title">Privacy statement</string>
     <string name="wifi_wakeup_scan_summary">Allow apps and services to search for Wi-Fi networks to be able to turn on Wi-Fi automatically. Turning this feature on will allow your device to connect to saved networks nearby automatically.</string>
     <string name="wifi_wakeup_summary">Wi-Fi will be activated automatically when you are in the location of a saved Wi-Fi network</string>
     <string name="wifi_wakeup_summary_no_location">Unavailable because location is turned off. Turn on <annotation id="link">location</annotation>.</string>
@@ -13565,10 +13739,21 @@ you can use other users' networks, too."</string>
     <string name="xiaomi_cloud_service_description_without_contacts">Xiaomi Cloud syncs your photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
     <string name="xiaomi_cloud_service_disabled">Off</string>
     <string name="xiaomi_cloud_service_unknown">Unknown</string>
+    <string name="xiaomi_confirm_enable_16k_erase_checkbox_text">I understand the risks and accept the potential consequences</string>
+    <string name="xiaomi_confirm_enable_16k_pages_text">"Software integrity can't be guaranteed in this mode. This will reboot your device."</string>
+    <string name="xiaomi_confirm_enable_16k_pages_update_wipe">"\"Boot with 16 KB page size\" is a highly sensitive feature intended for developer testing only. Turning it on will erase all data on the device, including photos, videos, documents, and all app data. Software integrity can't be guaranteed. In this mode, some features won't be available, and some apps may not work properly."</string>
+    <string name="xiaomi_confirm_enable_4k_pages_text">This will reboot your device.</string>
+    <string name="xiaomi_confirm_reboot_button_text">Reboot</string>
+    <string name="xiaomi_confirm_reboot_title_text">Risk detected</string>
     <string name="xiaomi_custom_input_method">Customised for Xiaomi</string>
+    <string name="xiaomi_erase_confirm_countdown_format">OK (%1$d)</string>
     <string name="xiaomi_hp_location">Precise location access</string>
     <string name="xiaomi_hp_location_description">Precise location information allows accurate navigation</string>
     <string name="xiaomi_money_service">Mi Coins</string>
+    <string name="xiaomi_page_agnostic_16k_pages_text">Your device is using a 16 KB page size with the ext4 file system. To restore the F2FS file system, you must switch back to a 4 KB page size and perform a factory reset.</string>
+    <string name="xiaomi_page_agnostic_16k_pages_title">Using 16 KB page size</string>
+    <string name="xiaomi_page_agnostic_4k_pages_text">Your device is using a 4 KB page size with the ext4 file system. To restore the F2FS file system, perform a factory reset.</string>
+    <string name="xiaomi_page_agnostic_4k_pages_title">Using 4 KB page size</string>
     <string name="xiaomi_router_available_notif_summary">Tap to view more info.</string>
     <string name="xiaomi_router_available_notif_title">Mi Router available</string>
     <string name="xiaomi_router_notif_summary">Notify me when a Mi Router is available</string>

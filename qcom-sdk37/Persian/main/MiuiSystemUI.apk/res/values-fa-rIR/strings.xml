@@ -31,6 +31,7 @@
     <string name="accessibility_settings">تنظیمات</string>
     <string name="accessibility_sliding_button_state_description_off">خاموش شد</string>
     <string name="accessibility_sliding_button_state_description_on">روشن شد</string>
+    <string name="accessibility_status_bar_second_space">فضای دوم فعال است</string>
     <string name="accessibility_status_bar_stealth">شما ناشناس هستید</string>
     <string name="accessibility_tab_state_description_unselect">انتخاب نشده است</string>
     <string name="actionbar_button_up_description">بازگشت</string>
@@ -55,8 +56,6 @@
     <string name="bluetooth_talkback_headphone">هدفون</string>
     <string name="bluetooth_talkback_input_peripheral">دستگاه ورودی محیطی</string>
     <string name="bt_is_off">بلوتوث خاموش است</string>
-    <string name="cant_open_more_windows">پنجره‌های بیشتری باز نمی‌شوند</string>
-    <string name="casting_not_supported_app">نمی‌توان %s را میان دستگاه‌ها منتقل کرد</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="clearable_edittext_clear_description">پاک‌سازی</string>
@@ -76,7 +75,8 @@
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
-    <string name="default_lockscreen_unlock_hint_text">برای باز کردن قفل به سمت بالا بکشید</string>
+    <string name="date_picker_lunar">سالنامه سنتی چینی</string>
+    <string name="default_lockscreen_unlock_hint_text">برای باز کردن قفل به بالا بکشید</string>
     <string name="delete">حذف</string>
     <string name="device_locked_without_biometric">هنگامی که از قفل صفحه سوم شخص استفاده می‌کنید نمی‌توانید قفل این دستگاه را با اثر انگشت یا داده چهره باز کنید</string>
     <string name="device_locked_without_biometric_face">هنگامی که از قفل صفحه سوم شخص استفاده می‌کنید نمی‌توانید قفل این دستگاه را با داده چهره باز کنید</string>
@@ -84,27 +84,8 @@
     <string name="dialog_forget_password_cancel">لغو</string>
     <string name="dialog_forget_password_message">در صورت فراموشی کد PUK خود، می‌توانید این eSIM را غیر فعال کرده تا دسترسی به دستگاه خود را از دست ندهید. پس از آن، برای راهنمایی می‌توانید با کارور خود تماس بگیرید.</string>
     <string name="dialog_forget_password_ok">غیر فعال</string>
-    <string name="dist_compute_title">پشتیبانی محاسباتی</string>
-    <string name="do_disclosure_generic">این دستگاه به سازمان شما تعلق دارد</string>
     <string name="do_disclosure_with_name">این دستگاه به %s تعلق دارد</string>
     <string name="download_lock_wallpaper">برای دانلود تصاویر زمینه چرخشی دوبار ضربه بزنید</string>
-    <string name="drag_shadow_freeform_mini_open">پنجره‌های شناور ریز</string>
-    <string name="drag_shadow_freeform_mini_unsupported">پنجره‌های شناور ریز پشتیبانی نمی‌شوند</string>
-    <string name="drag_shadow_freeform_open">پنجره شناور</string>
-    <string name="drag_shadow_freeform_unsupported">پنجره‌های شناور پشتیبانی نمی‌شوند</string>
-    <string name="drag_shadow_freeform_unsupported_app">%s از پنجره‌های شناور پشتیبانی نمی‌کند</string>
-    <string name="drag_shadow_fullscreen_open">تمام صفحه</string>
-    <string name="drag_shadow_pad_casting_open">باز کردن در تبلت</string>
-    <string name="drag_shadow_pad_casting_unsupported">نمی‌توان %s را در تبلت باز کرد</string>
-    <string name="drag_shadow_pc_casting_open">باز کردن در رایانه</string>
-    <string name="drag_shadow_pc_casting_unsupported">%s را نمی‌توان در رایانه باز کرد</string>
-    <string name="drag_shadow_split_bottom_open">تقسیم صفحه (پایین)</string>
-    <string name="drag_shadow_split_left_open">تقسیم صفحه (چپ)</string>
-    <string name="drag_shadow_split_right_open">تقسیم صفحه (راست)</string>
-    <string name="drag_shadow_split_top_open">تقسیم صفحه (بالا)</string>
-    <string name="drag_shadow_split_unsupported">تقسیم صفحه پشتیبانی نمی‌شود</string>
-    <string name="drag_shadow_split_unsupported_app">%s از تقسیم صفحه پشتیبانی نمی‌کند</string>
-    <string name="drag_shadow_stop_casting_open">توقف اشتراک‌گذاری</string>
     <string name="drag_to_add_tiles">برای افزودن یا جای‌گذاری دوباره موارد، فشرده و نگه دارید</string>
     <string name="early_morning">صبح</string>
     <string name="emergency_call_string">اضطراری</string>
@@ -115,6 +96,7 @@
     <string name="evening">بعد از ظهر</string>
     <string name="face_unlock_be_on_the_screen">دستگاه را جلوی صورت خود بگیرید</string>
     <string name="face_unlock_check_failed">شما شناسایی نشدید</string>
+    <string name="face_unlock_error_camera_is_using">دوربین درحال استفاده است</string>
     <string name="face_unlock_fail_retry_global">برای استفاده از گشودن قفل با چهره بالا را بزنید</string>
     <string name="face_unlock_locked">در حال حاضر نمی‌توان از گشودن قفل با چهره استفاده کرد</string>
     <string name="face_unlock_not_found">شما شناسایی نشدید</string>
@@ -126,8 +108,8 @@
     <string name="face_unlock_reveal_eye">چشمان خود را نمایان کنید</string>
     <string name="face_unlock_reveal_mouth">لب‌های خود را نمایان کنید</string>
     <string name="face_unlock_success">قفل با موفقیت باز شد</string>
-    <string name="face_unlock_swipe_up_retry">برای تلاش دوباره به سمت بالا بکشید</string>
     <string name="fgs_manager_dialog_title">اپ‌های فعال</string>
+    <string name="fgs_modal_empty_title">هنوز هیچ برنامه فعالی وجود ندارد</string>
     <string name="finger_error_single_mode">در حالت یک دست از اسکنر اثر انگشت نمی‌توان استفاده کرد. از حالت یک دست خارج شده و سپس دوباره تلاش کنید.</string>
     <string name="fingerprint_again_identified_msg">اثر انگشت شما اکنون فعال است. از آن برای باز کردن قفل دستگاه استفاده کرده یا گذرواژه را وارد کنید.</string>
     <string name="fingerprint_again_identified_msg_password">"اثر انگشت شما اکنون فعال است.
@@ -212,6 +194,7 @@ PIN خود را وارد کرده تا قفل باز شود."</string>
     <string name="format_month_day_lunar_calendar_month_day_desc">%2$s %1$s، تاریخ بر اساس سالنامه سنتی چینی: %3$s، تعطیلات: %4$s</string>
     <string name="format_month_day_style1">d/MMM</string>
     <string name="format_month_day_style2">M/d</string>
+    <string name="format_month_day_style_interactive_pets">M/d</string>
     <string name="format_month_day_week">dd MMM، EEE</string>
     <string name="format_month_day_week_desc">%3$s، %2$s %1$s</string>
     <string name="format_month_day_week_lunar_calendar_month_day_desc">%3$s، %2$s %1$s، تاریخ بر اساس سالنامه سنتی چینی: %4$s</string>
@@ -219,7 +202,6 @@ PIN خود را وارد کرده تا قفل باز شود."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s، روز ماه: %2$s</string>
-    <string name="free_form_recommend_tip">پنجره شناور</string>
     <string name="friday">جمعه</string>
     <string name="friday_short">جمعه</string>
     <string name="friday_shortest">جمع</string>
@@ -268,15 +250,6 @@ PIN خود را وارد کرده تا قفل باز شود."</string>
     <string name="humidity_format_with_unit">%s</string>
     <string name="ime_security_warning_global">شیوه‌های ورودی ممکن است همه متونی که شما تایپ می‌کنید، شامل اطلاعات شخصی همچون گذرواژه و شماره کارت‌های اعتباری را گردآوری کنند. از %1$s استفاده شود؟</string>
     <string name="ime_security_warning_title_global">در حال روشن کردن صفحه کلید</string>
-    <string name="info_focus_download_end">انجام شد</string>
-    <string name="info_focus_download_start">یک پنجره شناور باز کرده و منتظر پایان دانلود باشید</string>
-    <string name="info_focus_download_update">روند دانلود</string>
-    <string name="info_focus_match_end">با موفقیت تطبیق داده شد</string>
-    <string name="info_focus_match_start">یک پنجره شناور باز کرده و منتظر باشید تا مطابقت داده شود</string>
-    <string name="info_focus_match_update">درحال مطابقت دادن…</string>
-    <string name="info_focus_rebirth_end">بازتولید شد</string>
-    <string name="info_focus_rebirth_start">یک پنجره شناور باز کرده و منتظر بازتولید باشید</string>
-    <string name="info_focus_rebirth_update">در انتظار بازتولید</string>
     <string name="input_lockscreen_password_hint_text">گذرواژه را وارد کنید</string>
     <string name="input_lockscreen_pattern_hint_text">الگو بکشید</string>
     <string name="input_lockscreen_pin_hint_text">کد PIN را وارد کنید</string>
@@ -299,11 +272,11 @@ PIN خود را وارد کرده تا قفل باز شود."</string>
     <string name="keyboard_key">\"</string>
     <string name="keyboard_key_back">بازگشت</string>
     <string name="keyboard_key_space">فاصله</string>
-    <string name="keyguard_charging_battery_level">%%%s</string>
+    <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_double_fast_and_level_tip">افزایش سرعت شارژ %s</string>
-    <string name="keyguard_charging_normal_and_level_tip">در حال شارژ %d%%</string>
-    <string name="keyguard_charging_quick_and_level_tip">درحال شارژ سریع %d%%</string>
-    <string name="keyguard_charging_super_quick_and_level_tip">در حال شارژ فوق سریع %d%%</string>
+    <string name="keyguard_charging_normal_and_level_tip">در حال شارژ %s</string>
+    <string name="keyguard_charging_quick_and_level_tip">در حال شارژ سریع %s</string>
+    <string name="keyguard_charging_super_quick_and_level_tip">شارژ در بالاترین سرعت %s</string>
     <string name="keyguard_editor_super_save_mode_toast">هنگام روشن بودن بهینه‌ساز فوق‌العاده باتری صفحه قفل ویرایش نمی‌شود</string>
     <string name="keyguard_left_mi_wallet">کیف پول Mi</string>
     <string name="keyguard_left_remotecentral">کنترل Mi</string>
@@ -311,6 +284,7 @@ PIN خود را وارد کرده تا قفل باز شود."</string>
     <string name="keyguard_left_torch">چراغ قوه</string>
     <string name="keyguard_left_view_lock_wallpaper">تصاویر زمینه چرخشی</string>
     <string name="keyguard_loading_to_editor_tips">در حال باز کردن ویرایشگر صفحه قفل…</string>
+    <string name="keyguard_num_state_zen_mode_text">مزاحم نشوید</string>
     <string name="kilobyte_per_second">ک.ب/ث</string>
     <string name="lock_screen_carrier_airplane_mode_on">حالت هواپیما</string>
     <string name="lock_screen_magazine_default_content">بخشی از تصاویر تازه</string>
@@ -335,7 +309,7 @@ PIN خود را وارد کرده تا قفل باز شود."</string>
     <string name="miui_clock_os2_pad_exclusive_b_air_quality">شاخص کیفیت هوا</string>
     <string name="miui_clock_os2_pad_exclusive_b_ultraviolet_radiation">شاخص فرابنفش</string>
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
-dd/MM/yyyy"</string>
+d/M/yyyy"</string>
     <string name="miui_keyboard_shortcut_click">فشردن</string>
     <string name="miui_keyboard_shortcut_double_click">دوبار فشردن</string>
     <string name="miui_keyboard_shortcut_show_all_apps">نمایش همه برنامه‌ها</string>
@@ -370,10 +344,11 @@ d/M"</string>
     <string name="miui_notification_menu_custom_fold">گروه‌بندی در «اعلان‌های بیشتر»</string>
     <string name="miui_notification_menu_custom_unfold">گروه‌بندی نشود</string>
     <string name="miui_notification_menu_more_setting">بیشتر</string>
+    <string name="miui_notification_menu_msg_callkit_unfocus">Xiaomi HyperIsland را برای تماس‌های صوتی و تصویری از %1$s غیرفعال می‌کنید؟ در این صورت، آنها در قالب استاندارد نمایش داده خواهند شد.</string>
     <string name="miui_notification_menu_msg_custom_fold">اعلان‌های سفارشی از «%1$s» در «اعلان‌های بیشتر» گروه‌بندی شوند؟</string>
     <string name="miui_notification_menu_msg_custom_unfold">اعلان‌های سفارشی از «%1$s» در کرکره اعلان نمایش داده شوند؟</string>
     <string name="miui_notification_menu_msg_not_allow">همه اعلان‌ها از %1$s خاموش شوند؟</string>
-    <string name="miui_notification_menu_msg_unfocus">شما در آستانه خاموش کردن نور افکن اعلان برای %1$s هستید. این اعلان‌ها به صورت عادی نمایش داده خواهند شد. خاموش شود؟</string>
+    <string name="miui_notification_menu_msg_unfocus">اعلان‌های Xiaomi HyperIsland از %1$s را غیرفعال می‌کنید؟ در این صورت، آنها در قالب استاندارد نمایش داده خواهند شد.</string>
     <string name="miui_notification_menu_msg_unliveupdate">این کار تمام به‌روزرسانی‌های زنده از %1$s را متوقف می‌کند. اعلان‌های جدید در قالب معمولی نمایش داده می‌شوند. به‌روزرسانی‌های زنده متوقف شوند؟</string>
     <string name="miui_notification_menu_setting_success">انجام شده</string>
     <string name="miui_notification_menu_snooze">چرت زدن</string>
@@ -381,13 +356,12 @@ d/M"</string>
     <string name="miui_notification_menu_title_custom_unfold">توقف گروه‌بندی اعلان‌های سفارشی</string>
     <string name="miui_notification_menu_title_no_drawable">در نمایشگر درونی ادامه دهید</string>
     <string name="miui_notification_menu_title_not_allow">خاموش کردن</string>
-    <string name="miui_notification_menu_unfocus">خاموش کردن نور افکن اعلان</string>
+    <string name="miui_notification_menu_unfocus">غیرفعال کردن Xiaomi HyperIsland</string>
     <string name="miui_notification_menu_unliveupdate">توقف به‌روزرسانی‌های زنده</string>
     <string name="miui_notification_slide_menu_ongoing">محدود کردن اعلان‌های همیشگی</string>
     <string name="miui_oversize_a_date">"d
 /
 M"</string>
-    <string name="miui_restart_button_description">برای نمایش عالی دوباره راه‌اندازی کنید</string>
     <string name="miui_rhombus_clock_date">dd MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
@@ -414,6 +388,7 @@ mm"</string>
     <string name="miuix_appcompat_accessibility_expand_state">باز شد</string>
     <string name="miuix_appcompat_accessibility_new_message">اعلان جدید</string>
     <string name="miuix_appcompat_action_mode_select_all">انتخاب همه</string>
+    <string name="miuix_appcompat_action_sheet_default_message">انتخاب</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">بیشتر</string>
     <string name="miuix_appcompat_cancel_description">لغو</string>
     <string name="miuix_appcompat_confirm_description">تأیید</string>
@@ -421,6 +396,7 @@ mm"</string>
     <string name="miuix_appcompat_deselect_all_description">لغو انتخاب همه</string>
     <string name="miuix_appcompat_select_all_description">انتخاب همه</string>
     <string name="miuix_appcompat_show_dialog_description">صفحه بازشو</string>
+    <string name="miuix_popup_show_description">صفحه بازشو</string>
     <string name="miuix_progressbar_loading">در حال بارگذاری</string>
     <string name="miuix_show_password">نمایش رمز عبور</string>
     <string name="miuix_stretchablewidget_collapsed">بسته شده</string>
@@ -467,9 +443,6 @@ mm"</string>
     <string name="more">بیشتر</string>
     <string name="morning">صبح</string>
     <string name="msim_set_sub_not_supported_phone_in_call">هنگام تماس تنظیم نمی‌شود</string>
-    <string name="multiwin_closewindow">بستن پنجره</string>
-    <string name="multiwin_newwindow">پنجره جدید</string>
-    <string name="multiwin_windowcontrol">نوار کنترل پنجره</string>
     <string name="night">شب</string>
     <string name="noon">ظهر</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
@@ -493,11 +466,20 @@ mm"</string>
     <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>دستگاه خود را خاموش کرده و &lt;font color=#a5220e>دکمه خاموش/روشن&lt;/font> و &lt;font color=#a5220e>دکمه بالا بردن صدا&lt;/font> را همزمان فشرده و نگه دارید تا لوگوی Mi را نمایش کنید.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>گزینه &lt;font color=#a5220e>«Wipe &amp;amp; Reset»&lt;/font> را انتخاب کرده و صبر کرده تا دستگاه بازنشانی شود.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">چگونه داده‌ها را پاک کنیم؟</string>
+    <string name="phone_locked_forget_reset_password_method_content" formatted="false"><Data>شما اخیراً قفل صفحهٔ خود را تغییر داده‌اید. می‌توانید با تأیید هم‌زمان اثر انگشت و قفل صفحه‌ای که طی &lt;xliff:g id=hours refersto=96>%d&lt;/xliff:g> ساعت گذشته تغییر داده شده است، دوباره آن را بازنشانی کنید. حداکثر &lt;font color=#d42908>&lt;xliff:g id=attempts refersto=5>%d&lt;/xliff:g>&lt;/font> بار فرصت تأیید دارید؛ پس از آن دیگر قادر به بازنشانی قفل صفحه نخواهید بود.</Data></string>
+    <string name="phone_locked_forget_reset_password_verify_identity">تایید هویت</string>
     <string name="phone_locked_string">این دستگاه قفل شده است</string>
-    <string name="pin_toast">برای برداشتن از پایین صفحه به سمت بالا کشیده و مکث کنید</string>
-    <string name="pin_toast_nav">برای برداشتن این برنامه دکمه‌های بازگشت پیش‌نمایش را فشرده و نگه دارید</string>
     <string name="pm">ب.ظ</string>
+    <string name="privacy_dialog_dismiss">انجام شد</string>
+    <string name="privacy_dialog_records">همه پیشینه‌ها</string>
     <string name="privacy_dialog_title">اعلان‌ها درباره اقدامات حساس</string>
+    <string name="privacy_dialog_using_camera">%1$s در حال استفاده از دوربین است</string>
+    <string name="privacy_dialog_using_camera_and_location">%1$s در حال استفاده از دوربین و موقعیت مکانی است</string>
+    <string name="privacy_dialog_using_location">%1$s در حال استفاده از موقعیت مکانی شما است</string>
+    <string name="privacy_dialog_using_microphone">%1$s در حال استفاده از میکروفن است</string>
+    <string name="privacy_dialog_using_microphone_and_camera">%1$s در حال استفاده از میکروفن و دوربین است</string>
+    <string name="privacy_dialog_using_microphone_and_camera_and_location">%1$s در حال استفاده از میکروفن، دوربین و موقعیت مکانی است</string>
+    <string name="privacy_dialog_using_microphone_and_location">%1$s در حال استفاده از میکروفن و موقعیت مکانی است</string>
     <string name="privacy_recent_used_title">موارد تازه</string>
     <string name="privacy_using_title">کنونی</string>
     <string name="qs_bill_message_balance">%1$s %2$s باقی مانده است</string>
@@ -520,6 +502,7 @@ mm"</string>
     <string name="qs_traffic_message_type_used">%1$s %2$s استفاده شده است</string>
     <string name="quick_settings_airplane_state_change_message_off">حالت هواپیما خاموش است</string>
     <string name="quick_settings_airplane_state_change_message_on">حالت هواپیما روشن است</string>
+    <string name="quick_settings_aspect_ratio_switch_label">نسبت ابعاد</string>
     <string name="quick_settings_auto_rotate_state_change_message_off">چرخش خودکار خاموش است</string>
     <string name="quick_settings_auto_rotate_state_change_message_on">چرخش خودکار روشن است</string>
     <string name="quick_settings_autobrightness_label">تنظیم روشنایی خودکار</string>
@@ -550,6 +533,9 @@ mm"</string>
     <string name="quick_settings_dnd_state_change_message_off">مزاحم نشوید خاموش است</string>
     <string name="quick_settings_dnd_state_change_message_on">مزاحم نشوید روشن است</string>
     <string name="quick_settings_edit_label">ویرایش</string>
+    <string name="quick_settings_eye_comfort_mode_label">حالت مطالعه</string>
+    <string name="quick_settings_eye_comfort_state_change_message_off">حالت مطالعه خاموش است</string>
+    <string name="quick_settings_eye_comfort_state_change_message_on">حالت مطالعه روشن است</string>
     <string name="quick_settings_flashlight_label">چراغ قوه</string>
     <string name="quick_settings_flashlight_state_change_message_off">چراغ قوه خاموش است</string>
     <string name="quick_settings_flashlight_state_change_message_on">چراغ قوه روشن است</string>
@@ -626,6 +612,7 @@ mm"</string>
     <string name="quick_settings_wlan_state_change_message_on">WLAN روشن است</string>
     <string name="rain_probability_desc">احتمال بارندگی: %s</string>
     <string name="rapid_charge_mode_tip">شارژ فوری</string>
+    <string name="recent_privacy_usage">استفاده اخیر از مجوزها</string>
     <string name="return_to_incall_screen">بازگشت به تماس</string>
     <string name="saturday">شنبه</string>
     <string name="saturday_short">شنبه</string>
@@ -647,7 +634,6 @@ mm"</string>
     <string name="sim_state_locked_dialog_title">سیم‌کارت نامعتبر است</string>
     <string name="sim_state_locked_puk_dialog_message">شما حداقل %d بار کد PUK را اشتباه وارد کرده‌اید. سیم‌کارت شما اکنون نامعتبر است. این سیم‌کارت را با سیم‌کارتی دیگر جایگزین کنید.</string>
     <string name="somatosensory_temperature_format">دمای حسی %s°</string>
-    <string name="split_screen_recommend_tip">تقسیم صفحه</string>
     <string name="status_bar_clock_date_format">E، d MMM</string>
     <string name="status_bar_clock_date_format_12">E، d MMM</string>
     <string name="status_bar_clock_date_time_format">E، d MMM H:mm</string>
@@ -673,8 +659,11 @@ mm"</string>
     <string name="time_picker_label_hour">ساعت</string>
     <string name="time_picker_label_minute">دقیقه</string>
     <string name="tiny_accessibility_kg_battery_level">باتری</string>
+    <string name="tiny_bubble_date_week_format">EE M/d</string>
     <string name="tiny_camera_content_description">دوربین</string>
-    <string name="tip_close_flares">در این مدت شما اعلانی درباره رفتار برنامه دریافت نخواهید کرد</string>
+    <string name="tiny_classic_date_format">EE M/d</string>
+    <string name="tiny_pets_date_format">M/d</string>
+    <string name="tiny_splicing_date_format">M/d</string>
     <string name="tomorrow">فردا</string>
     <string name="torch_high_temperature_warning">این دستگاه بیش از حد داغ شده است. نمی‌توان از چراغ قوه استفاده کرد.</string>
     <string name="torch_low_battery_warning">به دلیل کم بودن باتری نمی‌توان از چراغ قوه استفاده کرد</string>
@@ -715,7 +704,7 @@ mm"</string>
     <string name="wireless_change_to_ac_charging">به شارژ سیمی تعویض شد</string>
     <string name="wireless_charge_dialog_cancel">متوجه‌ام</string>
     <string name="wireless_charge_dialog_title">دستگاه خود را در مرکز پایه شارژ قرار دهید</string>
-    <string name="wireless_charge_reset_device">شارژ به کندی انجام می‌شود. دستگاه خود را درست تنظیم کنید.</string>
+    <string name="wireless_charge_reset_device">شارژ خیلی کند است. دستگاه را جور دیگری قرار دهید.</string>
     <string name="yesterday">دیروز</string>
     <string name="zen_mode_warnings_all_time_content">اعلان‌ها و تماس‌ها بی‌صدا خواهند شد</string>
     <string name="zen_mode_warnings_keyguard_content">با قفل شدن دستگاه، اعلان‌ها و تماس‌ها بی‌صدا خواهند شد</string>

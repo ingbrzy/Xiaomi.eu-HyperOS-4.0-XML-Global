@@ -2,10 +2,7 @@
 <resources>
     <string name="abc_action_bar_home_description">Krmarjenje na začetek</string>
     <string name="abc_action_bar_up_description">Pomik navzgor</string>
-    <string name="abc_action_menu_overflow_description">Več možnosti</string>
     <string name="abc_action_mode_done">Končano</string>
-    <string name="abc_activity_chooser_view_see_all">Pokaži vse</string>
-    <string name="abc_activitychooserview_choose_application">Izbira aplikacije</string>
     <string name="abc_capital_off">IZKLOP</string>
     <string name="abc_capital_on">VKLOP</string>
     <string name="abc_menu_alt_shortcut_label">Alt +</string>
@@ -20,12 +17,9 @@
     <string name="abc_prepend_shortcut_label">Meni +</string>
     <string name="abc_search_hint">Iskanje …</string>
     <string name="abc_searchview_description_clear">Izbris poizvedbe</string>
-    <string name="abc_searchview_description_query">Iskalna poizvedba</string>
     <string name="abc_searchview_description_search">Iskanje</string>
     <string name="abc_searchview_description_submit">Pošiljanje poizvedbe</string>
     <string name="abc_searchview_description_voice">Glasovno iskanje</string>
-    <string name="abc_shareactionprovider_share_with">Skupna raba z:</string>
-    <string name="abc_shareactionprovider_share_with_application">Skupna raba z drugimi prek aplikacije %s</string>
     <string name="abc_toolbar_collapse_description">Strnitev</string>
     <string name="accept_all_permission_content">Storitev Poišči napravo morda ne bo delovala pravilno, če ne dodelite vseh dovoljenj. Izberite vsa navedena dovoljenja, da boste lahko uporabljali vse možnosti storitve Poišči napravo.</string>
     <string name="accept_all_permission_title">Zahtevana dovoljenja</string>
@@ -48,7 +42,6 @@
     <string name="alert_sync_merge_dialog_confirm">Vklopi</string>
     <string name="am">dop.</string>
     <string name="app_name">Xiaomi Cloud</string>
-    <string name="bad_authentication">Nepravilen račun ali geslo</string>
     <string name="browser_sync_settings_preference">Samodejna sinhronizacija</string>
     <string name="btn_return">Nazaj</string>
     <string name="btn_revoke_permission">Prekliči soglasje</string>
@@ -56,6 +49,8 @@
     <string name="button_cancel">Prekliči</string>
     <string name="button_quit">Izhod</string>
     <string name="button_revoke">Preklic soglasja</string>
+    <string name="calendar_date_picker_a11y_next_month">Spremeni na naslednji mesec</string>
+    <string name="calendar_date_picker_a11y_prev_month">Spremeni na prejšnji mesec</string>
     <string name="calendar_sync_item_permission">koledar</string>
     <string name="call_log_sync_item_permission">zgodovina klicev</string>
     <string name="call_notification_answer_action">Sprejmi</string>
@@ -118,8 +113,6 @@
     <string name="creation_dialog_title">Pozor</string>
     <string name="creation_sync_settings_only_in_wifi">Sinhronizacija samo v omrežju WLAN</string>
     <string name="creation_sync_settings_only_in_wifi_summary">Priporočeno za varčevanje z mobilnimi podatki</string>
-    <string name="creation_sync_settings_preference">Sinhronizacija platen</string>
-    <string name="creation_sync_settings_summary">Ustvarjena platna</string>
     <string name="cta_notification_content_text">Dovolite %s povezavo na splet, da bi obnovili predmete</string>
     <string name="cta_notification_content_title">Ni mogoče obnoviti predmete iz %s</string>
     <string name="customize_notification_btn_text">Nadgradi</string>
@@ -143,15 +136,16 @@
     <string name="detect_sim_card">Iskanje SIM kartice</string>
     <string name="device_activation_card_cannot_get_yet">Informacij ni bilo mogoče pridobiti. Poskusite znova čez 3-5 dni.</string>
     <string name="device_activation_card_cannot_get_yet_new">Ni mogoče pridobiti informacij. Počakajte minuto ali dve in poskusite ponovno.</string>
-    <string name="device_activation_card_description">Prva aktivacija bo registrirana, ko se bo naprava prvič povezala na omrežje (vključno z, vendar ne omenjeno na Wi-Fi in mobilna omrežja). Običajno traja nekaj časa, da se prva aktivacija registrira, zato je bolje, da počakate 3-5 dni po vzpostavitvi povezave z omrežjem, preden ko preverite stanje aktivacije.&lt;br>&lt;br>Aktivacija naprave je glavni dejavnik pri določanju obdobja veljavnosti naše podaljšane garancije. Za več podrobnosti si oglejte naš &lt;a href=%1$s>Pravilnik o vračilu, zamenjavi in popravilu&lt;/a>.&lt;br>&lt;br>Če imate kakršna koli vprašanja, pokličite našo telefonsko številko za podporo strankam: 400-100-5678.</string>
-    <string name="device_activation_card_description_china">Prva aktivacija se zabeleži, ko se naprava prvič poveže z omrežjem (vključno, vendar ne omejeno na WLAN in mobilna omrežja). Registracija prve aktivacije običajno traja nekaj časa, zato je priporočljivo počakati 3–5 dni po povezavi z omrežjem, preden preverite stanje aktivacije.&lt;br>&lt;br>Aktivacija naprave je glavni dejavnik pri določanju obdobja veljavnosti naše podaljšane garancije. Za več podrobnosti preverite naš &lt;a href=%1$s>Pravilnik o vračanju, zamenjavi in popravilih&lt;/a>.&lt;br>&lt;br>Če imate kakršna koli vprašanja, pokličite našo telefonsko številko za podporo strankam: 400-100-5678.</string>
-    <string name="device_activation_card_description_china_new">Prva aktivacija bo registrirana, ko se bo naprava prvič povezala z omrežjem (vključno z, vendar ne omenjeno na WLAN in mobilna omrežja). Običajno traja nekaj časa, da se prva aktivacija registrira, zato je bolje, da počakate &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dni po vzpostavitvi povezave z omrežjem, preden preverite stanje aktivacije.&lt;br>&lt;br>Aktivacija naprave je glavni dejavnik pri določanju obdobja veljavnosti podaljšane garancije. Za več podrobnosti si oglejte naš &lt;a href=%3$s>Pravilnik o vračilih, zamenjavi in popravilih&lt;/a>.&lt;br>&lt;br>Če imate kakršna koli vprašanja, pokličite našo telefonsko številko za podporo strankam: 400-100-5678.</string>
-    <string name="device_activation_card_description_new">Prva aktivacija bo registrirana, ko se bo naprava prvič povezala z omrežjem (vključno z, vendar ne omenjeno na Wi-Fi in mobilna omrežja). Običajno traja nekaj časa, da se prva aktivacija registrira, zato je bolje, da počakate &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dni po vzpostavitvi povezave z omrežjem, preden preverite stanje aktivacije.&lt;br>&lt;br>Aktivacija naprave je glavni dejavnik pri določanju obdobja veljavnosti podaljšane garancije. Za več podrobnosti si oglejte naš &lt;a href=%3$s>Pravilnik o vračilih, zamenjavi in popravilih&lt;/a>.&lt;br>&lt;br>Če imate kakršna koli vprašanja, pokličite našo telefonsko številko za podporo strankam: 400-100-5678.</string>
+    <string name="device_activation_card_description">"Prva aktivacija bo registrirana, ko se bo naprava prvič povezala z omrežjem (vključno z, vendar ne omenjeno na Wi-Fi in mobilna omrežja). Običajno traja nekaj časa, da se prva aktivacija registrira, zato je bolje', da počakate &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dni po vzpostavitvi povezave z omrežjem, preden preverite stanje aktivacije.&lt;br>&lt;br>Aktivacija naprave je glavni dejavnik pri določanju obdobja veljavnosti podaljšane garancije. Za več podrobnosti si oglejte naš &lt;a href=%3$s>Pravilnik o vračilih, zamenjavi in popravilih&lt;/a>.&lt;br>&lt;br>Če imate kakršna koli vprašanja, pokličite našo telefonsko številko za podporo strankam: 950816."</string>
+    <string name="device_activation_card_description_china">"Prva aktivacija bo registrirana, ko se bo naprava prvič povezala z omrežjem (vključno z, vendar ne omenjeno na Wi-Fi in mobilna omrežja). Običajno traja nekaj časa, da se prva aktivacija registrira, zato je bolje', da počakate &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dni po vzpostavitvi povezave z omrežjem, preden preverite stanje aktivacije.&lt;br>&lt;br>Aktivacija naprave je glavni dejavnik pri določanju obdobja veljavnosti podaljšane garancije. Za več podrobnosti si oglejte naš &lt;a href=%3$s>Pravilnik o vračilih, zamenjavi in popravilih&lt;/a>.&lt;br>&lt;br>Če imate kakršna koli vprašanja, pokličite našo telefonsko številko za podporo strankam: 950816."</string>
+    <string name="device_activation_card_description_china_new">"Prva aktivacija bo registrirana, ko se bo naprava prvič povezala z omrežjem (vključno z, vendar ne omenjeno na Wi-Fi in mobilna omrežja). Običajno traja nekaj časa, da se prva aktivacija registrira, zato je bolje', da počakate &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dni po vzpostavitvi povezave z omrežjem, preden preverite stanje aktivacije.&lt;br>&lt;br>Aktivacija naprave je glavni dejavnik pri določanju obdobja veljavnosti podaljšane garancije. Za več podrobnosti si oglejte naš &lt;a href=%3$s>Pravilnik o vračilih, zamenjavi in popravilih&lt;/a>.&lt;br>&lt;br>Če imate kakršna koli vprašanja, pokličite našo telefonsko številko za podporo strankam: 950816."</string>
+    <string name="device_activation_card_description_new">Prva aktivacija bo registrirana, ko se bo naprava prvič povezala z omrežjem (vključno z, vendar ne omenjeno na Wi-Fi in mobilna omrežja). Običajno traja nekaj časa, da se prva aktivacija registrira, zato je bolje, da počakate &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> dni po vzpostavitvi povezave z omrežjem, preden preverite stanje aktivacije.&lt;br>&lt;br>Aktivacija naprave je glavni dejavnik pri določanju obdobja veljavnosti podaljšane garancije. Za več podrobnosti si oglejte naš &lt;a href=%3$s>Pravilnik o vračilih, zamenjavi in popravilih&lt;/a>.&lt;br>&lt;br>Če imate kakršna koli vprašanja, pokličite našo telefonsko številko za podporo strankam: 950816.</string>
     <string name="device_activation_card_device_not_support">Ni podprto na tej napravi</string>
     <string name="device_activation_card_local_service_error">Ni mogoče pridobiti informacij. Počakajte minuto ali dve in poskusite ponovno.</string>
     <string name="device_activation_card_no_network_error">Povezava z omrežjem ni uspela. Preverite vaše omrežne nastavitve in poskusite ponovno.</string>
     <string name="device_activation_card_title">Prva aktivacija</string>
     <string name="device_activation_page_title">Aktivacija naprave</string>
+    <string name="device_location_tip">*Prikazana lokacija je določena z omrežjem in ni točna. Če ste to zahtevo za vpis poslali vi, tapnite »Dovoli«, da si ogledate potrditveno kodo.</string>
     <string name="dialog_btn_yes_install_icon">Namesti</string>
     <string name="dialog_msg_install_manager_content">Želite ponovno namestiti funkcijo Poišči napravo?</string>
     <string name="dialog_storage_full_title">Pomnilnik v oblaku je poln</string>
@@ -168,7 +162,6 @@
     <string name="e2ee_button_next">Naprej</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Vklopite zaklepanje zaslona za to napravo, da lahko posodobite varnostni ključ.</string>
     <string name="e2ee_data_protection_close_button">Izklopi</string>
-    <string name="e2ee_data_protection_label_auto_fill">Upravitelj gesel</string>
     <string name="e2ee_data_protection_label_auto_fill_new">Gesla</string>
     <string name="e2ee_data_protection_label_browser">Zaznamki v brskalniku</string>
     <string name="e2ee_data_protection_label_call_log">Zgodovina klicev</string>
@@ -190,27 +183,19 @@
     <string name="e2ee_data_protection_update_security_key_title">Posodobitev varnostnega ključa</string>
     <string name="e2ee_device_delete">Odstrani napravo</string>
     <string name="e2ee_device_delete_tip">Po odstranitvi te naprave iz Xiaomi računa, bo ta odjavljena in v njej ne boste mogli uporabljati storitev Xiaomi Cloud, iskanja in drugih funkcij, povezanih z računom, dokler se znova ne prijavite.</string>
-    <string name="e2ee_device_delete_warning_dialog_content">Ta naprava ne podpira napredne zaščite podatkov, zato se ne boste mogli prijaviti v svoj račun, če vklopite to funkcijo. Posodobite to napravo na različico Xiaomi HyperOS 2, da se boste lahko prijavili v svoj račun.</string>
-    <string name="e2ee_device_delete_warning_dialog_title">Ne morem se prijaviti</string>
     <string name="e2ee_device_exit_failed_tip">Odjava ni bila mogoča. Počakajte minuto ali dve in poskusite ponovno</string>
     <string name="e2ee_device_exit_failed_toast">Odjava ni bila mogoča. Počakajte minuto ali dve in poskusite ponovno</string>
     <string name="e2ee_device_exit_tip">%s je odjavljen</string>
     <string name="e2ee_device_management_subtitle">"Te naprave še niso bile preverjene kot zaupanja vredne naprave. Odjavite se iz svojega Xiaomi računa v teh napravah, preden vklopite dodatno zaščito podatkov. "</string>
     <string name="e2ee_device_management_title">Upravljanje z napravami</string>
     <string name="e2ee_device_name">Ime naprave</string>
-    <string name="e2ee_device_sim">SIM kartica</string>
-    <string name="e2ee_device_sim_default_tip">SIM ni aktivirana</string>
     <string name="e2ee_device_system_version">Različica sistema</string>
     <string name="e2ee_device_tip">Pred vklopom napredne zaščite podatkov odstranite to napravo iz računa</string>
-    <string name="e2ee_device_verification">Preverite svojo napravo</string>
-    <string name="e2ee_device_verification_os_tip">Posodobitev na Xiaomi HyperOS 2 ali novejšo različico</string>
     <string name="e2ee_device_verification_result_subtitle">Naprave, odjavljene iz Xiaomi računa, ne bodo mogle uporabljati storitve Xiaomi Cloud in drugih povezanih storitev, dokler se ponovno ne prijavijo.</string>
     <string name="e2ee_device_verification_result_title">Vse naprave so odjavljene</string>
     <string name="e2ee_device_verification_tip">Za odstranitev te naprave tapnite tukaj</string>
     <string name="e2ee_dialog_close_subtitle">Podatki, zaščiteni s to funkcijo, ne bodo več podpirali šifriranja med koncema, napredna zaščita podatkov pa bo izklopljena v vseh napravah.</string>
     <string name="e2ee_dialog_close_title">Izklop napredne zaščite podatkov</string>
-    <string name="e2ee_dialog_exit_account_subtitle">Ko je naprava odjavljena, se napredna zaščita podatkov samodejno izklopi. To ne vpliva na druge naprave. Ko se ponovno prijavite, morate to funkcijo znova vklopiti.</string>
-    <string name="e2ee_dialog_exit_account_title">Izklop napredne zaščite podatkov?</string>
     <string name="e2ee_error_device">Ta funkcija v tej napravi ni podprta.</string>
     <string name="e2ee_error_global_account">Ta funkcija v vaši regiji ni podprta.</string>
     <string name="e2ee_error_init">Inicializacija ni bila mogoča. Počakajte minuto ali dve in poskusite ponovno.</string>
@@ -221,7 +206,6 @@
     <string name="e2ee_exit_account_subtitle">Odjavili se boste iz zadnje trenutno povezane naprave, povezane z vašim Xiaomi računom. Za ponovno prijavo in dostop do podatkov, shranjenih v oblaku, boste morali uporabiti zaklepanje zaslona ali varnostni ključ. Če želite izklopiti napredno zaščito podatkov, lahko spodaj tapnete tudi \"Izklopi\".</string>
     <string name="e2ee_exit_account_title">Odjavljanje</string>
     <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
-    <string name="e2ee_load_failed">Strežnik je zaseden. Počakajte minuto ali dve in poskusite ponovno.</string>
     <string name="e2ee_loading">Trenutek…</string>
     <string name="e2ee_loading_close">Izklapljanje…</string>
     <string name="e2ee_loading_open">Vklapljanje…</string>
@@ -246,7 +230,6 @@
     <string name="e2ee_set_recovery_method">Načini obnovitve</string>
     <string name="e2ee_set_recovery_method_code">Koda za preverjanje</string>
     <string name="e2ee_set_recovery_method_lockscreen">Zaklepanje zaslona</string>
-    <string name="e2ee_set_recovery_method_security_key">Varnostni ključ (ni nastavljen)</string>
     <string name="e2ee_set_recovery_method_tip">Dostop do podatkov v oblaku lahko pridobite z zaklepanjem zaslona naprave ali s pošiljanjem potrditvene kode. Dodaten način obnovitve lahko dodate z nastavitvijo varnostnega ključa.</string>
     <string name="e2ee_set_recovery_method_title">Razpoložljivi načini obnovitve</string>
     <string name="e2ee_tip_forget_securityKey_button">Preskoči preverjanje</string>
@@ -458,10 +441,8 @@ Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav."</s
     <string name="lockscreen_positive_btn">Naprej</string>
     <string name="low_battery_locate_summary">Samodejno poročaj lokacijo, ko je stanje baterije nizko</string>
     <string name="low_battery_locate_title">Poročanje lokacije pri prazni bateriji</string>
-    <string name="manual_activation">Ponovno aktiviraj</string>
     <string name="master_alert_notif_content">Redno varnostno kopirajte predmete, da ne bi izgubili ničesar pomembnega.</string>
     <string name="master_alert_notif_title">Vklopite Xiaomi Cloud</string>
-    <string name="member_menu_vip_expire_time">Preneha veljati %s</string>
     <string name="member_menu_vipname_free">Brezplačno</string>
     <string name="member_menu_vipname_mega">Mega</string>
     <string name="member_menu_vipname_premium">Premium</string>
@@ -627,12 +608,12 @@ Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav."</s
     <string name="micloud_member_net_error_alert_title">Ni se mogoče povezati na omrežje</string>
     <string name="micloud_member_pay_miid_error_toast">Napaka računa</string>
     <string name="micloud_member_pay_order_error_toast">Napaka podatkov</string>
-    <string name="micloud_membership_benefit_recycle_bin">Restore deleted items for an extended period</string>
-    <string name="micloud_membership_benefit_storage">Save photos and videos with expanded storage space</string>
-    <string name="micloud_membership_detail">Details</string>
-    <string name="micloud_membership_level_diamond">Ultra membership</string>
-    <string name="micloud_membership_level_gold">Premium membership</string>
-    <string name="micloud_membership_level_platinum">Mega membership</string>
+    <string name="micloud_membership_benefit_recycle_bin">Obnovi izbrisane za razširjeno obdobje</string>
+    <string name="micloud_membership_benefit_storage">Shrani slike in videoposnetke z razširjenim pomnilniškim prostorom</string>
+    <string name="micloud_membership_detail">Podrobnosti</string>
+    <string name="micloud_membership_level_diamond">Ultra članstvo</string>
+    <string name="micloud_membership_level_gold">Premium članstvo</string>
+    <string name="micloud_membership_level_platinum">Mega članstvo</string>
     <string name="micloud_notif_content_battery_low">Prazna baterija.</string>
     <string name="micloud_notif_content_depend_wifi">Povežite se na WiFi da sinhr.</string>
     <string name="micloud_notif_content_depend_wifi_china">Za sinhronizacijo se povežite z WLAN.</string>
@@ -709,7 +690,7 @@ Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav."</s
     <string name="micloud_preference_syncitem_title">Sinhronizacija v oblaku</string>
     <string name="micloud_preference_up_cloud_membership">Nadgradite Xiaomi Cloud članstvo</string>
     <string name="micloud_preference_upgrade_membership_warning">Shramba v oblaku je skoraj polna. Nadgradite svoje članstvo v Xiaomi Cloudu, da pridobite več prostora za shranjevanje in zagotovite sinhronizacijo svojih predmetov.</string>
-    <string name="micloud_preference_view_all">Pokaži vse</string>
+    <string name="micloud_preference_view_all">Več</string>
     <string name="micloud_preference_view_cloud_notes">Ogled beležk v oblaku</string>
     <string name="micloud_preference_view_cloud_recordings">Ogled posnetkov v oblaku</string>
     <string name="micloud_preference_view_cloud_shared_family">Članstva v oblaku v skupni rabi z družino</string>
@@ -758,7 +739,7 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="micloud_sync_result_sim_activated_error">Ne morem aktivirati kartice SIM</string>
     <string name="micloud_sync_result_wifi_only">Ta predmet je prevelik. Sinhronizirajte ga, ko boste povezani na Wi-Fi.</string>
     <string name="micloud_sync_result_wifi_only_china">Ta predmet je prevelik. Sinhronizirajte ga, ko boste povezani na WLAN.</string>
-    <string name="micloud_wipe_data_confirm_label">Želite izbrisati sinhronizirane predmete iz te naprave?</string>
+    <string name="micloud_wipe_data_confirm_label">Izbriši sinhronizirane elemente</string>
     <string name="micloud_wipe_data_confirm_title">Nekateri predmeti iz naslednjih aplikacij so sinhronizirani z Xiaomi Cloud. Izbrišete jih lahko iz te naprave in jih še vedno obdržite v pomnilniku v oblaku.</string>
     <string name="micloud_wipe_data_remove">Odstrani</string>
     <string name="micloud_wipe_data_retain">Ohrani</string>
@@ -796,6 +777,7 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="miuix_appcompat_select_all_description">Izberite vse</string>
     <string name="miuix_appcompat_select_item">Izberite predmete</string>
     <string name="miuix_appcompat_show_dialog_description">Pojavno okno</string>
+    <string name="miuix_popup_show_description">Pojavno okno</string>
     <string name="miuix_progressbar_loading">Nalaganje</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Povlecite za osvežitev</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uspešno osveženo</string>
@@ -856,14 +838,8 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="not_set">Ni nastavljeno</string>
     <string name="noti_quota_button_text">Nadgradi</string>
     <string name="noti_quota_full_sum">Nadgradite vašo naročnino za pomnilnik, da bi nadaljevali sinhronizacijo predmetov.</string>
-    <string name="noti_quota_full_sum_without_button">Dobite več prostora v pomnilniku, da bi nadaljevali sinhronizacijo predmetov.</string>
-    <string name="noti_quota_full_title">Prostor pomnilnika v oblaku je &lt;font color=#F22424>popolnoma zaseden&lt;/font></string>
-    <string name="noti_quota_full_title_without_button">Pomnilnik v oblaku je poln</string>
     <string name="noti_quota_low_sum">Nadgradite vašo naročnino za pomnilnik, da bi nadaljevali sinhronizacijo predmetov.</string>
-    <string name="noti_quota_low_sum_without_button">Dobite več prostora v pomnilniku, da bi nadaljevali sinhronizacijo predmetov.</string>
     <string name="noti_quota_low_title">Premalo prostora v pomnilniku v oblaku</string>
-    <string name="noti_quota_low_title_with_storage">&lt;font color=#F22424>Preostalo je manj kot &lt;xliff:g id=remaining_storage_space example=0.5>%s&lt;/xliff:g> GB&lt;/font> prostora v pomnilniku v oblaku</string>
-    <string name="noti_quota_low_title_without_button">Premalo prostora v pomnilniku v oblaku</string>
     <string name="notification_sync_fail_title">Ni mogoče sinhronizirati gesla</string>
     <string name="notification_update_key_text">Dostopna koda Upravitelja gesel je bila spremenjena. Potrdite novo dostopno kodo.</string>
     <string name="offline_find_action_open">Vklopi</string>
@@ -897,6 +873,10 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="passkeeper_install_keybag_title">Vnesite dostopno kodo za Upravitelja gesel</string>
     <string name="passkeeper_sync_off_confirm_content">Če izklopite to funkcijo, novih gesel ne boste mogli sinhronizirati z oblakom.</string>
     <string name="passkeeper_sync_on">Vklapljanje…</string>
+    <string name="passport_two_factor_change_password_dialog_message">Če te zahteve niste poslali vi, priporočamo, da spremenite geslo.</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">Prekliči</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">Spremeni</string>
+    <string name="passport_two_factor_change_password_dialog_title">Spremeni geslo?</string>
     <string name="pay_info_dialog_confirm_to_pay">Plačajte %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Uporabi preostale Mi Kovance: %s</string>
     <string name="pay_info_dialog_title">Izberite vrsto plačila</string>
@@ -919,10 +899,6 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="pref_title_sync_display_photo_on_wifi_only_china">Za sinhronizacijo fotografij uporabi le WLAN</string>
     <string name="preference_copied">»%1$s« je bilo kopirano v odložišče.</string>
     <string name="privacy_and_agreement">Pogoji in določila</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad">Dobrodošli v Poišči napravo! S to aplikacijo lahko poiščete, izsledite in zaklenete svojo napravo, ko jo izgubite. Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">Z aplikacijo Poišči napravo lahko najdete, zaklenete ali izbrišete podatke v napravi, če jo izgubite.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone">Dobrodošli v Poišči napravo! S to aplikacijo lahko poiščete, izsledite in zaklenete svojo napravo, ko jo izgubite. Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">Z aplikacijo Poišči napravo lahko najdete, zaklenete ali izbrišete podatke v napravi, če jo izgubite.</string>
     <string name="privacy_dialog_sync_all_purpose_china">Dobrodošli v Xiaomi Cloud storitve! Xiaomi Cloud lahko uporabite za sinhonizacijo vaših sporočil, zgodovine klicev, stikov, beležk, nastavitev brskalnika, fotografij in videoposnetkov, nastavitev WLAN omrežja, posnetkov, razporeditev začetnega zaslona, aplikacij, dogodkov koledarja, predmetov seznama blokiranih, zgodovine klicev ter shrambe aplikacij čez vse povezane naprave.</string>
     <string name="privacy_dialog_sync_all_purpose_china_v2">Dobrodošli v Xiaomi Cloud storitve! Xiaomi Cloud lahko uporabite za sinhonizacijo vaših sporočil, zgodovine klicev, stikov, beležk, nastavitev brskalnika, fotografij in videoposnetkov, nastavitev WLAN omrežja, posnetkov, razporeditev začetnega zaslona, aplikacij, dogodkov koledarja, predmetov seznama blokiranih, zgodovine klicev ter shrambe aplikacij čez vse povezane naprave.</string>
     <string name="privacy_dialog_sync_all_purpose_pad">Dobrodošli v storitvah Xiaomi Cloud! To aplikacijo lahko uporabite za sinhronizacijo sporočil, stikov, opomb, elementov v brskalniku, albumov v oblaku, glasbe, koledarja, seznama blokad in zgodovine klicev v oblak.</string>
@@ -931,7 +907,6 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="privacy_dialog_sync_all_purpose_pad_without_sim_or_contact">Dobrodošli v Xiaomi Cloud storitve! Xiaomi Cloud lahko uporabite za sinhronizacijo vaših beležk, nastavitev Brskalnika, slik in videa, posnetkov, dogodkov koledarja in predmetov iz seznama blokiranih čez vse povezane naprave.</string>
     <string name="privacy_doc_cloudservice_china_v2_with_charge_hint_new">Dobrodošli v storitvah Xiaomi Cloud! Xiaomi Cloud lahko uporabljate za sinhronizacijo svojih sporočil, zgodovine klicev, stikov, opomb, nastavitev brskalnika, fotografij in videoposnetkov, WLAN nastavitev, zvočnih posnetkov, razporeditve domačega zaslona, aplikacij, dogodkov v koledarju, elementov seznama blokiranih in vsebine iz shrambe aplikacij med vsemi povezanimi napravami. Do sinhroniziranih vsebin lahko dostopate iz katerega koli brskalnika na naslovu &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Za aktivacijo teh storitev bo poslano &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domače plačljivo SMS sporočilo&lt;/b>&lt;/font>. Ob zamenjavi SIM kartic bo za ponovno aktivacijo samodejno poslano &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domače plačljivo SMS&lt;/b>&lt;/font> sporočilo.&lt;br/>Vse stroške, povezane s temi SMS sporočili, zaračuna vaš mobilni operater. Xiaomi za ta sporočila ne zaračunava nobenih stroškov.&lt;br />&lt;br />Vaše osebne podatke bomo varovali v skladu z ustreznimi zakoni, predpisi in pravilniki o zasebnosti.&lt;br />Za nemoteno delovanje te storitve potrebujejo povezavo z internetom ter naslednja dovoljenja za zbiranje vaših osebnih podatkov:&lt;br />• Koledar:&lt;br />Za sinhronizacijo dogodkov&lt;br />• Dostop do SMS-sporočil:&lt;br />Za sinhronizacijo sporočil&lt;br />• Dostop do MMS-sporočil:&lt;br />Za sinhronizacijo sporočil&lt;br />• Dostop do stikov:&lt;br />Za sinhronizacijo stikov&lt;br />• Urejanje stikov:&lt;br />Za sinhronizacijo stikov&lt;br />• Shranjevanje:&lt;br />Za shranjevanje predmetov v vaši napravi (npr. slik in videoposnetkov)&lt;br />Če se z dodelitvijo teh dovoljenj ali z deljenjem in nalaganjem svojih osebnih podatkov, ne strinjate, teh storitev ne boste mogli uporabljati. V tem primeru lahko aplikacijo odstranite, se odjavite ali omejite dovoljenja v nastavitvah.&lt;br />Preberite in se strinjajte z našim &lt;a href=%3$s>&lt;u>Uporabniškim dogovorom&lt;/u>&lt;/a> in &lt;a href=%4$s>&lt;u>Pravilnikom o zasebnosti&lt;/u>&lt;/a> pred uporabo naših storitev.&lt;br /></string>
     <string name="privacy_doc_cloudservice_china_with_charge_hint_new">Dobrodošli v storitvah Xiaomi Cloud! Xiaomi Cloud lahko uporabljate za sinhronizacijo svojih sporočil, zgodovine klicev, stikov, opomb, nastavitev brskalnika, fotografij in videoposnetkov, WLAN nastavitev, zvočnih posnetkov, razporeditve domačega zaslona, aplikacij, dogodkov v koledarju, elementov seznama blokiranih in vsebine iz shrambe aplikacij med vsemi povezanimi napravami. Do sinhroniziranih vsebin lahko dostopate iz katerega koli brskalnika na naslovu &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Za aktivacijo teh storitev bo poslano &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domače plačljivo SMS sporočilo&lt;/b>&lt;/font>. Ob zamenjavi SIM kartic bo za ponovno aktivacijo samodejno poslano &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domače plačljivo SMS&lt;/b>&lt;/font> sporočilo.&lt;br/>Vse stroške, povezane s temi SMS sporočili, zaračuna vaš mobilni operater. Xiaomi za ta sporočila ne zaračunava nobenih stroškov.&lt;br />&lt;br />Vaše osebne podatke bomo varovali v skladu z ustreznimi zakoni, predpisi in pravilniki o zasebnosti.&lt;br />Za nemoteno delovanje te storitve potrebujejo povezavo z internetom ter naslednja dovoljenja za zbiranje vaših osebnih podatkov:&lt;br />• Koledar:&lt;br />Za sinhronizacijo dogodkov&lt;br />• Dostop do SMS-sporočil:&lt;br />Za sinhronizacijo sporočil&lt;br />• Dostop do MMS-sporočil:&lt;br />Za sinhronizacijo sporočil&lt;br />• Dostop do stikov:&lt;br />Za sinhronizacijo stikov&lt;br />• Urejanje stikov:&lt;br />Za sinhronizacijo stikov&lt;br />• Shranjevanje:&lt;br />Za shranjevanje predmetov v vaši napravi (npr. slik in videoposnetkov)&lt;br />Če se z dodelitvijo teh dovoljenj ali z deljenjem in nalaganjem svojih osebnih podatkov, ne strinjate, teh storitev ne boste mogli uporabljati. V tem primeru lahko aplikacijo odstranite, se odjavite ali omejite dovoljenja v nastavitvah.&lt;br />Preberite in se strinjajte z našim &lt;a href=%3$s>&lt;u>Uporabniškim dogovorom&lt;/u>&lt;/a> in &lt;a href=%4$s>&lt;u>Pravilnikom o zasebnosti&lt;/u>&lt;/a> pred uporabo naših storitev.&lt;br /></string>
-    <string name="privacy_doc_cloudservice_global">Xiaomi Cloud se za normalno delovanje mora povezati na omrežje. Sinhronizacija podatkov bo možno zahtevala uporabo mobilnih podatkov in vklopitev Wi-Fi omrežja. Pred uporabo Xiaomi Cloud storitev najprej preberite in se strinjajte z &lt;a href=%1$s>&lt;u>Uporabniškim dogovorom&lt;/u>&lt;/a> in &lt;a href=%2$s>&lt;u>Pravilnikom o zasebnosti&lt;/u>&lt;/a>.</string>
     <string name="privacy_doc_cloudservice_pad_new">Dobrodošli v Xiaomi Cloud storitve! Xiaomi Cloud lahko uporabite za sinhronizacijo vaših sporočil, stikov, beležk, nastavitev Brskalnika, slik in videa, posnetkov, aplikacij, dogodkov koledarja in elementov iz seznama blokiranih čez vse povezane naprave. Do predmetov, ki jih sinhronizirate, boste lahko dostopali iz katerega koli brskalnika preko &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Za aktivacijo teh storitev, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b>plačljivo domače SMS sporočilo&lt;/b>&lt;/font> bo poslano. Ko zamenjate SIM kartice, bo &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> plačljivo domače SMS sporočilo&lt;/b>&lt;/font> samodejno poslano za ponovno aktivacijo.&lt;br/>Vsi stroški SMS sporočil, ustvarjeni z zgoraj omenjenimi dejanji, prihajajo od vašega operaterja. Xiaomi vam teh sporočil ne bo zaračunal.&lt;br />&lt;br />Vaše osebne podatke bomo varovali v skladu z ustreznimi zakoni, predpisi in pravilniki o zasebnosti.&lt;br />Za normalno delovanje, te storitve morajo biti povezane na omrežje in zahteva naslednja dovoljenja, da lahko zbira vaše osebne podatke:&lt;br />• Koledar:&lt;br />Za sinhronizacijo dogodkov&lt;br />• Dostop do SMS sporočil:&lt;br />Za sinhronizacijo sporočil&lt;br />• Dostop do MMS sporočil:&lt;br />Za sinhronizacijo sporočil&lt;br />• Dostop do stikov:&lt;br />Za sinhronizacijo stikov&lt;br />• Urejanje stikov:&lt;br />Za sinhronizacijo stikov&lt;br />• Pomnilnik:&lt;br />Za shranjevanje predmetov na vaši napravi (npr. slike in videi)&lt;br />Če ne želite dodeliti takšna dovoljenja ali ne želite deliti in naložiti vaše osebne podatke, ne boste mogli uporabljati te storitve. V takih primerih se lahko odločite, da aplikacijo odstranite, se odjavite ali omejite dovoljenja.&lt;br />Pred uporabo naših storitev preberite in se strinjajte z našim &lt;a href=%3$s>&lt;u>Uporabniškim dogovorom&lt;/u>&lt;/a> in &lt;a href=%4$s>&lt;u>Pravilnikom o zasebnosti&lt;/u>&lt;/a>.&lt;br /></string>
     <string name="privacy_doc_cloudservice_pad_without_contact_but_sim_new">Dobrodošli v Xiaomi Cloud storitve! Xiaomi Cloud lahko uporabite za sinhronizacijo vaših sporočil, beležk, nastavitev brskalnika, slik in videa, posnetkov, aplikacij, dogodkov koledarja in elementov iz seznama blokiranih čez vse povezane naprave. Do elementov, ki jih sinhronizirate, boste lahko dostopali iz katerega koli brskalnika preko &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Za aktivacijo teh storitev, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b>plačljivo domače SMS sporočilo&lt;/b>&lt;/font> bo poslano. Ko zamenjate SIM kartice, bo &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> plačljivo domače SMS sporočilo&lt;/b>&lt;/font> samodejno poslano za ponovno aktivacijo.&lt;br/>Vsi stroški SMS sporočil, ustvarjeni z zgoraj omenjenimi dejanji, prihajajo od vašega operaterja. Xiaomi vam teh sporočil ne bo zaračunal.&lt;br />&lt;br />Vaše osebne podatke bomo varovali v skladu z ustreznimi zakoni, predpisi in pravilniki o zasebnosti.&lt;br />Za normalno delovanje, te storitve morajo biti povezane na omrežje in zahteva naslednja dovoljenja, da lahko zbira vaše osebne podatke:&lt;br />• Koledar:&lt;br />Za sinhronizacijo dogodkov&lt;br />• Dostop do SMS sporočil:&lt;br />Za sinhronizacijo sporočil&lt;br />• Dostop do MMS sporočil:&lt;br />Za sinhronizacijo sporočil&lt;br />• Pomnilnik:&lt;br />Za shranjevanje elementov na vaši napravi (npr. slike in videi)&lt;br />Če se ne strinjate s podelitvijo takšnih dovoljenj ali z deljenjem in nalaganjem svojih osebnih podatkov, teh storitev ne boste mogli uporabljati. V takih primerih se lahko odločite, da aplikacijo odstranite, se odjavite ali omejite dovoljenja.&lt;br />Pred uporabo naših storitev preberite in se strinjajte z našim &lt;a href=%3$s>&lt;u>Uporabniškim dogovorom&lt;/u>&lt;/a> in &lt;a href=%4$s>&lt;u>Pravilnikom o zasebnosti&lt;/u>&lt;/a>.&lt;br /></string>
     <string name="privacy_doc_cloudservice_pad_without_sim_but_contact_new">Dobrodošli v Xiaomi Cloud storitve! Xiaomi Cloud lahko uporabite za sinhronizacijo vaših stikov, beležk, nastavitev brskalnika, slik in videa, posnetkov, aplikacij, dogodkov koledarja in predmetov iz seznama blokiranih čez vse povezane naprave. Do predmetov, ki jih sinhronizirate, boste lahko dostopali iz katerega koli brskalnika preko &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Vaše osebne podatke bomo varovali v skladu z ustreznimi zakoni, predpisi in pravilniki o zasebnosti.&lt;br />Za normalno delovanje, te storitve morajo biti povezane na omrežje in zahteva naslednja dovoljenja, da lahko zbira vaše osebne podatke:&lt;br />• Koledar:&lt;br />Za sinhronizacijo dogodkov&lt;br />• Dostop do stikov:&lt;br />Za sinhronizacijo stikov&lt;br />• Urejanje stikov:&lt;br />Za sinhronizacijo stikov&lt;br />• Pomnilnik:&lt;br />Za shranjevanje predmetov na vaši napravi (npr. slike, videi)&lt;br />Če ne želite dodeliti takšna dovoljenja ali ne želite deliti in naložiti vaše osebne podatke, ne boste mogli uporabljati te storitve. V takih primerih se lahko odločite, da aplikacijo odstranite, se odjavite ali omejite dovoljenja.&lt;br />Pred uporabo naših storitev preberite in se strinjajte z našim &lt;a href=%3$s>&lt;u>Uporabniškim dogovorom&lt;/u>&lt;/a> in &lt;a href=%4$s>&lt;u>Pravilnikom o zasebnosti&lt;/u>&lt;/a>.&lt;br /></string>
@@ -1006,8 +981,6 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="saturday">Sobota</string>
     <string name="saturday_short">Sob</string>
     <string name="saturday_shortest">Sob</string>
-    <string name="search_menu_title">Iskanje</string>
-    <string name="send">Pošlji</string>
     <string name="share_cancel">Deljenje odpovedano</string>
     <string name="share_failed">Ne morem deliti</string>
     <string name="share_location_app_name">Poišči napravo</string>
@@ -1167,46 +1140,6 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="system_busy_or_network_error">Prišlo je do napake. Počakajte minuto ali dve in poskusite ponovno.</string>
     <string name="talkback_hide_passcode">Skrij dostopno kodo</string>
     <string name="talkback_show_passcode">Prikaži dostopno kodo</string>
-    <string name="the_anniversary_of_lifting_martial_law">Obletnica odprave vojaškega prava</string>
-    <string name="the_anti_aggression_day">Dan proti agresiji</string>
-    <string name="the_arbor_day">Arbor dan</string>
-    <string name="the_armed_forces_day">Dan oboroženih sil</string>
-    <string name="the_armys_day">PLA dan</string>
-    <string name="the_childrens_day">Dan otrokov</string>
-    <string name="the_chinese_youth_day">Dan mladosti</string>
-    <string name="the_christmas_day">Božič</string>
-    <string name="the_double_ninth_festival">Festival dvojnih devetk</string>
-    <string name="the_dragon_boat_festival">Festival zmajevih čolnov</string>
-    <string name="the_easter_day">Velika noč</string>
-    <string name="the_eve_of_the_spring_festival">Noč kitajskega novega leta</string>
-    <string name="the_fifth_day">Peti dan kitajskega novega leta</string>
-    <string name="the_fools_day">Prvi april</string>
-    <string name="the_forth_day">Četrti dan kitajskega novega leta</string>
-    <string name="the_hksar_establishment_day">Dan ustanovitve Hong Kong SAR</string>
-    <string name="the_international_womens_day">Dan žensk</string>
-    <string name="the_laba_festival">Laba festival</string>
-    <string name="the_labour_day">Praznik dela</string>
-    <string name="the_lantern_festival">Praznik lantern</string>
-    <string name="the_mid_autumn_festival">Praznik sredine jeseni</string>
-    <string name="the_national_day">Dan državnosti</string>
-    <string name="the_national_father_day">Rojstni dan Sun Yat-sena</string>
-    <string name="the_new_years_day">Novo leto</string>
-    <string name="the_night_of_sevens">Qixi festival</string>
-    <string name="the_partys_day">CPC dan</string>
-    <string name="the_peace_day">Dan spomina</string>
-    <string name="the_retrocession_day">Dan retrocesije</string>
-    <string name="the_second_day">Drugi dan kitajskega novega leta</string>
-    <string name="the_seventh_day">Sedmi dan kitajskega novega leta</string>
-    <string name="the_sixth_day">Šesti dan kitajskega novega leta</string>
-    <string name="the_spirit_festival">Festival duhov</string>
-    <string name="the_spring_festival">Kitajsko novo leto</string>
-    <string name="the_teachers_day">Dan učiteljev</string>
-    <string name="the_third_day">Tretji dan kitajskega novega leta</string>
-    <string name="the_tw_childrens_day">Dan otrokov</string>
-    <string name="the_tw_youth_day">Dan mladosti</string>
-    <string name="the_united_nations_day">Dan združenih narodov</string>
-    <string name="the_valentines_day">Valentinovo</string>
-    <string name="the_water_lantern_festival">Festival vodnih lantern</string>
     <string name="thursday">Četrtek</string>
     <string name="thursday_short">Čet</string>
     <string name="thursday_shortest">Čet</string>
@@ -1245,11 +1178,18 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="verify_camera_permission_title">Zahtevana dovoljenja</string>
     <string name="verify_code_btn_negative">Prekliči</string>
     <string name="verify_code_btn_positive">Naprej</string>
+    <string name="verify_code_device_list_title">Koda je bila poslana v te naprave</string>
     <string name="verify_code_dialog_message_default">To kodo vnesite v svojo novo napravo</string>
     <string name="verify_code_dialog_title_default">Koda za preverjanje naprave</string>
     <string name="verify_code_error_textView">Nepravilen ključ. Poskusite znova.</string>
     <string name="verify_code_error_view">Nepravilna koda. Poskusite znova.</string>
+    <string name="verify_code_send_desc_1">Za nadaljevanje vnesite potrditveno kodo, poslano v napravo %1$s</string>
+    <string name="verify_code_send_desc_2">Za nadaljevanje vnesite potrditveno kodo, poslano v napravi %1$s in %2$s</string>
+    <string name="verify_code_send_desc_3">Za nadaljevanje vnesite potrditveno kodo, poslano v naprave %1$s, %2$s in %3$s</string>
+    <string name="verify_code_send_desc_4">Za nadaljevanje vnesite potrditveno kodo, poslano v naprave %1$s, %2$s, %3$s in %4$s</string>
+    <string name="verify_code_send_desc_5">Za nadaljevanje vnesite potrditveno kodo, poslano v naprave %1$s, %2$s, %3$s, %4$s in %5$s</string>
     <string name="verify_code_success_textView">Posodobitev varnostnega ključa</string>
+    <string name="verify_code_view_all_devices">Prikaži vse naprave</string>
     <string name="verify_code_warning_dialog_message_default">Ali želite svoji novi napravi dovoliti dostop do šifriranih podatkov?</string>
     <string name="verify_code_warning_dialog_title">Koda za preverjanje</string>
     <string name="verify_code_warning_dialog_title_default">Nova naprava zahteva dostop</string>
@@ -1313,6 +1253,7 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="verify_warning_dialog_message_pc">Vklopljena je napredna zaščita podatkov. V svojem računalniku dodelite zahtevana dovoljenja za dostop do šifriranih podatkov.</string>
     <string name="verify_warning_dialog_message_web">Vklopljena je napredna zaščita podatkov. Podelite zahtevana dovoljenja na spletni strani i.mi.com, da boste lahko dostopali do šifriranih podatkov.</string>
     <string name="verify_warning_dialog_negative_btn">Ne dovoli</string>
+    <string name="verify_warning_dialog_negative_btn_new">Ne dovoli</string>
     <string name="verify_warning_dialog_positive_btn">Dovoli</string>
     <string name="verify_warning_dialog_title">Druga naprava je vklopila šifriranje med koncema</string>
     <string name="verify_warning_dialog_title_find_device">»Lokacija brez povezave« je vklopljena za drugo napravo</string>
@@ -1323,10 +1264,7 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="waiting_for_sync">Čakanje…</string>
     <string name="web_view_auto_login_fail">Prijava ni uspela. Poskusite ponovno.</string>
     <string name="web_view_login_text">Prijava v teku…</string>
-    <string name="web_view_reload_btn_text">Poskusite znova</string>
     <string name="web_view_reload_btn_text_new">Poskusite ponovno</string>
-    <string name="web_view_reload_description_text">"Povezava z omrežjem ni uspela.
-Preverite nastavitve omrežja in poskusite ponovno."</string>
     <string name="web_view_reload_description_text_new">Preverite vaše omrežne nastavitve in poskusite ponovno.</string>
     <string name="wednesday">Sreda</string>
     <string name="wednesday_short">Sre</string>
@@ -1339,5 +1277,4 @@ Preverite nastavitve omrežja in poskusite ponovno."</string>
     <string name="wipe_data_query_progress_title">Preverjanje…</string>
     <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="xiaomi_cloud_service_subtitle">Vsi pomembni predmeti na enem mestu</string>
-    <string name="yesterday">Včeraj</string>
 </resources>

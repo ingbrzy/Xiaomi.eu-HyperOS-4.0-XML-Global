@@ -20,8 +20,6 @@
     <string name="abc_searchview_description_search">Sök</string>
     <string name="abc_searchview_description_submit">Skicka fråga</string>
     <string name="abc_searchview_description_voice">Röstsökning</string>
-    <string name="abc_shareactionprovider_share_with">Dela med</string>
-    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="accessbility_suggestion_dropdown_closed">Det finns inga tillgängliga förslag</string>
     <string name="accessbility_suggestion_dropdown_opened">Kontaktförslag har öppnats</string>
@@ -76,7 +74,19 @@
     <string name="agenda_not_today_empty_hint">Inga händelser här än. Tryck här för att skapa en.</string>
     <string name="agenda_tomorrow">IMORGON, %1$s</string>
     <string name="agenda_view">Händelser</string>
+    <string name="ai_card_amount">Betalningsbelopp</string>
+    <string name="ai_card_arrival_time">Ankomsttid</string>
+    <string name="ai_card_card_no">Kortnummer</string>
+    <string name="ai_card_check_in_date">Incheckningsdatum</string>
+    <string name="ai_card_check_out_date">Utcheckningsdatum</string>
+    <string name="ai_card_hall">Teater</string>
+    <string name="ai_card_room_type">Rumstyp</string>
+    <string name="ai_card_seat">Säten</string>
+    <string name="ai_card_source">Från %s</string>
+    <string name="ai_card_table_info">Tabelldetaljer</string>
     <string name="ai_introduce_card_sub_title">Låt AI automatiskt lägga till resor, biljetter och andra sorters händelser i din kalender</string>
+    <string name="ai_location_navigate">Navigering</string>
+    <string name="ai_location_taxi">Taxi</string>
     <string name="alarm_close_reminder">Påminnelse om att stänga av larm</string>
     <string name="alarm_label">Jag förstår</string>
     <string name="alarm_open_reminder">Ställ in larm</string>
@@ -121,6 +131,8 @@
     <string name="calendar_account_manager">Hantera kontokalendrar</string>
     <string name="calendar_account_settings">Kontoinställningar</string>
     <string name="calendar_data_sharing_instruction">Uttalande om delning av data med tredje part</string>
+    <string name="calendar_date_picker_a11y_next_month">Ändra till nästa månad</string>
+    <string name="calendar_date_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="calendar_desc_withdraw_consent">Återkalla samtycke till Kalenderns integritetspolicy</string>
     <string name="calendar_import_source">Källa</string>
     <string name="calendar_privacy_policy">Integritetspolicy</string>
@@ -182,6 +194,7 @@
     <string name="date_interval_tab">Intervall</string>
     <string name="date_interval_text_to">Till %1$s</string>
     <string name="date_jump_title">Gå till datum</string>
+    <string name="date_of_birth">%ss födelsedag</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -191,6 +204,7 @@
     <string name="date_today">" (idag)"</string>
     <string name="date_view">Datum</string>
     <string name="day_view_new_event_hint">Ny händelse</string>
+    <string name="days_left">Återstående</string>
     <string name="default_reminder_labels_day">%d dagar före</string>
     <string name="default_reminder_labels_days">%d dagar före</string>
     <string name="default_reminder_labels_hour">%d timma före</string>
@@ -243,6 +257,8 @@
     <string name="edit_event_birthday_name_hint">Namn</string>
     <string name="edit_event_calendar_label">Kalender</string>
     <string name="edit_event_choose_date">Välj datum</string>
+    <string name="edit_event_confirm_continue">Fortsätt redigera</string>
+    <string name="edit_event_confirm_discard">Släng</string>
     <string name="edit_event_confirm_message">Ignorera ändringar?</string>
     <string name="edit_event_countdown_name_empty_hint">Ange händelsenamn</string>
     <string name="edit_event_countdown_name_hint">Händelse</string>
@@ -275,6 +291,7 @@
     <string name="email_picker_label">Maila med</string>
     <string name="empty" />
     <string name="empty_event">Kan inte skapa tomma händelser</string>
+    <string name="end_at">Avsluta: %s</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
     <string name="evening">Eftermiddag</string>
@@ -300,6 +317,7 @@
     <string name="event_info_where">Var</string>
     <string name="event_none_selected">Avmarkerade alla</string>
     <string name="event_reminder_allday_day_zero">På händelsedagen kl. %2$s</string>
+    <string name="event_reminder_allday_day_zero_annver">På dagen</string>
     <string name="event_reminder_custom">Anpassad</string>
     <string name="event_reminder_value_zero">När händelse startar</string>
     <string name="event_title">Titel</string>
@@ -398,7 +416,6 @@
     <string name="hint_what_smart_input_12">h:mm aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">ANge händelserubrik</string>
-    <string name="hint_where">Plats</string>
     <string name="holiday_detail_read_more">Mer</string>
     <string name="horoscope_select_activity_label">Välj zodiactecken</string>
     <string name="hotel_detail_title">Hotellinformation</string>
@@ -445,6 +462,7 @@
     <string name="login_caldav">Lägg till</string>
     <string name="login_failed_toast">Kunde inte logga in, uppdatera och försök igen</string>
     <string name="logining_caldav_account">Lägger till…</string>
+    <string name="lunar_birthday_desc">Traditionell kinesisk kalender</string>
     <string name="lunar_date">Månens datum</string>
     <string name="lunar_date_content_desc">Datum enligt den traditionella kinesiska kalendern</string>
     <string name="lunar_to_solar_chinese_calendar">Kinesisk till gregoriansk</string>
@@ -491,6 +509,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Byt till halvskärm</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximera</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimera</string>
+    <string name="miuix_popup_show_description">Dialogruta</string>
     <string name="miuix_popup_window_default_title">Dialogruta</string>
     <string name="miuix_progressbar_loading">Laddar</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
@@ -584,6 +603,8 @@
     <string name="no_data">Inget här än</string>
     <string name="no_events_hint">Inga händelser</string>
     <string name="no_locale_list_text">Kunde inte hämta listan över platser. Försök igen.</string>
+    <string name="no_location_hint">Kunde inte hitta några resultat</string>
+    <string name="no_location_network">Det gick inte att ansluta till nätverket</string>
     <string name="no_more_events">Inga fler händelser att visa</string>
     <string name="no_network">"Kunde inte ansluta till nätverk.
 Kontrollera inställningar och försök igen."</string>
@@ -605,7 +626,10 @@ Kontrollera inställningar och försök igen."</string>
     <string name="notification_open_setting_button_ok">Tillåt</string>
     <string name="notification_open_setting_message">Du kommer inte att kunna ta emot notifikationer om händelser såvida du inte tillåter Kalendern att skicka notifikationer till dig.</string>
     <string name="notification_open_setting_title">Tillåt kalendernotifikationer?</string>
+    <string name="panel_title_end">Avsluta</string>
+    <string name="panel_title_start">Starta</string>
     <string name="pasport_register_dialog_message">Skapa ett Xiaomi-konto via ditt telefonnummer %s nu?</string>
+    <string name="pass_day">Passerat</string>
     <string name="passenger">Passagerare</string>
     <string name="passport_access_denied">Åtkomst nekad</string>
     <string name="passport_account_crop_user_avatar">Beskär bild</string>
@@ -825,6 +849,10 @@ Kontrollera inställningar och försök igen."</string>
     <string name="premission_read_write_storage">Lagring</string>
     <string name="premission_read_write_storage_new">Åtkomst till lagringsutrymme</string>
     <string name="privacy_and_permissions">Integritet och behörigheter</string>
+    <string name="privacy_update_message">"Genom att trycka på \"Godkänn\" samtycker du till (click)Integritetspolicyn för Kalender(/click):
+
+För att ge dig en bättre upplevelse kan du nu välja en plats när du skapar en händelse. Platssökning och platsrekommendationer tillhandahålls via karttjänster från karttjänster från tredje part."</string>
+    <string name="privacy_update_title">Uppdaterad Integritetspolicy</string>
     <string name="productivity_add_event">Skapa händelse</string>
     <string name="productivity_no_event">Inga händelser är än</string>
     <string name="pull_refresh_events">Visa %d händelser</string>
@@ -892,7 +920,7 @@ Kontrollera inställningar och försök igen."</string>
     <string name="search_calendar_settings">Kalender;Agenda;Påminnelse</string>
     <string name="search_events">Söker efter händelser</string>
     <string name="search_history">Sökhistorik</string>
-    <string name="search_location_hint">Ange adress</string>
+    <string name="search_location_hint">Ange plats</string>
     <string name="search_menu_title">Sök</string>
     <string name="search_timezone">Sök tidszoner</string>
     <string name="select_date">Gå till datum</string>
@@ -939,11 +967,13 @@ Kontrollera inställningar och försök igen."</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="solar_birthday_desc">Gregoriansk kalender</string>
     <string name="solar_date_content_desc">Datum enligt den gregorianska kalendern</string>
     <string name="solar_lunar_convert_tab">Byt</string>
     <string name="solar_to_lunar_chinese_calendar">Gregoriansk till kinesisk</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Händelser</string>
+    <string name="start_at">Starta: %s</string>
     <string name="start_date_calculate">Beräkna</string>
     <string name="start_string">Startar kl. %s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1147,6 +1177,11 @@ Kontrollera inställningar och försök igen."</string>
     <string name="widget_normal_weekN">Vecka %d</string>
     <string name="widget_select_style">Välj en stil</string>
     <string name="widget_spec_agenda_birth_today">Idag</string>
+    <string name="withdraw_consent_button_withdraw">Återkalla</string>
+    <string name="withdraw_consent_message">"Om du fortsätter återkallar du ditt samtycke till Kalenderns integritetspolicy. Vi kommer att upphöra med att samla in dina personuppgifter. Personuppgifter som redan har samlats in och lagrats kommer att raderas inom den angivna tidsperioden i enlighet med tillämpliga lagar och förordningar, om inte annat krävs.
+Eftersom Kalender tillhandahåller sina tjänster baserat på insamling av nödvändiga personuppgifter kommer ditt återkallande av samtycke att betraktas som att du avböjer Kalenders tjänster. Vill du återkalla ditt samtycke nu?"</string>
+    <string name="withdraw_consent_preference_title">Återkallelse av ditt samtycke</string>
+    <string name="withdraw_consent_title">Återkallelse av ditt samtycke</string>
     <string name="work_day_default_banner_title">Vi önskar dig en produktiv dag på jobbet!</string>
     <string name="xiaomi_account">Xiaomi-konto</string>
     <string name="xiaomi_calendar_display_name">Xiaomi kontokalender</string>

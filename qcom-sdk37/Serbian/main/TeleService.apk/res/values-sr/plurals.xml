@@ -1,54 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Пре 1 час</item>
-        <item quantity="few">Пре 1 час</item>
-        <item quantity="other">Пре 1 час</item>
-    </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">Пре %d час</item>
-        <item quantity="few">Пре %d часа</item>
-        <item quantity="other">Пре %d часова</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Пре пола сата</item>
-        <item quantity="few">Пре пола сата</item>
-        <item quantity="other">Пре пола сата</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="one">За %d час</item>
-        <item quantity="few">За %d часа</item>
-        <item quantity="other">За %d часа</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="one">За пола сата</item>
-        <item quantity="few">За пола сата</item>
-        <item quantity="other">За пола сата</item>
-    </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Одмах</item>
-        <item quantity="few">Одмах</item>
-        <item quantity="other">Одмах</item>
-    </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="one">За %d минут</item>
-        <item quantity="few">За %d минута</item>
-        <item quantity="other">За %d минута</item>
-    </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Управо сада</item>
-        <item quantity="few">Управо сада</item>
-        <item quantity="other">Управо сада</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="one">Пре %d минут</item>
-        <item quantity="few">Пре %d минута</item>
-        <item quantity="other">Пре %d минута</item>
-    </plurals>
     <plurals name="auto_answer_summary_delay">
         <item quantity="one">одложи: %d секундy</item>
         <item quantity="few">одложи: %d секунде</item>
         <item quantity="other">одложи: %d секунди</item>
+    </plurals>
+    <plurals name="beidou_receiving">
+        <item quantity="one">Примање (%dс)</item>
+        <item quantity="few">Примање (%dс)</item>
+        <item quantity="other">Примање (%dс)</item>
+    </plurals>
+    <plurals name="beidou_sending">
+        <item quantity="one">Слање (%dс)</item>
+        <item quantity="few">Слање (%dс)</item>
+        <item quantity="other">Слање (%dс)</item>
     </plurals>
     <plurals name="call_record_add_white_list_over_reminder">
         <item quantity="one">Можете да додате %s особу, изаберите поново.</item>
@@ -65,56 +30,6 @@
         <item quantity="few">%d броја ће бити обрисана.</item>
         <item quantity="other">%d бројева ће бити обрисано.</item>
     </plurals>
-    <plurals name="day">
-        <item quantity="one">%s дан</item>
-        <item quantity="few">%s дана</item>
-        <item quantity="other">%s дана</item>
-    </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Пре пола сата</item>
-        <item quantity="few">Пре пола сата</item>
-        <item quantity="other">Пре пола сата</item>
-    </plurals>
-    <plurals name="hour">
-        <item quantity="one">%s час</item>
-        <item quantity="few">%s часа</item>
-        <item quantity="other">%s часова</item>
-    </plurals>
-    <plurals name="in_a_hour">
-        <item quantity="one">За 1 час</item>
-        <item quantity="few">За 1 час</item>
-        <item quantity="other">За 1 час</item>
-    </plurals>
-    <plurals name="in_half_hour">
-        <item quantity="one">За пола сата</item>
-        <item quantity="few">За пола сата</item>
-        <item quantity="other">За пола сата</item>
-    </plurals>
-    <plurals name="in_less_than_one_minute">
-        <item quantity="one">Одмах</item>
-        <item quantity="few">Одмах</item>
-        <item quantity="other">Одмах</item>
-    </plurals>
-    <plurals name="in_num_minutes">
-        <item quantity="one">за 1 мин.</item>
-        <item quantity="few">за %d минута</item>
-        <item quantity="other">за %d минута</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Управо сада</item>
-        <item quantity="few">Управо сада</item>
-        <item quantity="other">Управо сада</item>
-    </plurals>
-    <plurals name="miuix_appcompat_items_selected">
-        <item quantity="one">%d ставка је изабрана</item>
-        <item quantity="few">%d ставке су изабране</item>
-        <item quantity="other">%d ставки је изабрано</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">Пре 1 мин.</item>
-        <item quantity="few">Пре %d минута</item>
-        <item quantity="other">Пре %d минута</item>
-    </plurals>
     <plurals name="pin_attempts">
         <item quantity="one">"
 Остао вам је још %d покушај."</item>
@@ -122,5 +37,25 @@
 Преостало покушајa: %d"</item>
         <item quantity="other">"
 Преостало покушајa: %d"</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">%d ставка је изабрана</item>
+        <item quantity="few">%d ставке су изабране</item>
+        <item quantity="other">%d ставки је изабрано</item>
+    </plurals>
+    <plurals name="satellite_low_battery_turn_off_message">
+        <item quantity="one">Батерија је празна. Tiantong Satellite communications ће се искључити за %dс.</item>
+        <item quantity="few">Батерија је празна. Tiantong Satellite communications ће се искључити за %dс.</item>
+        <item quantity="other">Батерија је празна. Tiantong Satellite communications ће се искључити за %dс.</item>
+    </plurals>
+    <plurals name="satellite_pa_megathermal_turn_off_message">
+        <item quantity="one">Уређај је прегрејан. Сателитска комуникација ће се искључити за %d секунду.</item>
+        <item quantity="few">Уређај је прегрејан. Сателитска комуникација ће се искључити за %d секунде.</item>
+        <item quantity="other">Уређај је прегрејан. Сателитска комуникација ће се искључити за %d секунди.</item>
+    </plurals>
+    <plurals name="satellite_privacy_withdrawal_dialog_disable_negative">
+        <item quantity="one">Откажи услуге (%dс)</item>
+        <item quantity="few">Откажи услуге (%dс)</item>
+        <item quantity="other">Откажи услуге (%dс)</item>
     </plurals>
 </resources>

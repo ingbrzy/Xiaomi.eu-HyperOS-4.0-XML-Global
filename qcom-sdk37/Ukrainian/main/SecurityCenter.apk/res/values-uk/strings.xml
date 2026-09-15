@@ -163,7 +163,7 @@
     <string name="add_done">Додано успішно</string>
     <string name="add_game">Додати гру</string>
     <string name="add_game_notification_summary">Натисніть для запуску та збільшення швидкості</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">Гра \"%s\" додана до Ігрового простору</string>
     <string name="add_miservice_dialog_content">%s вимагає додати Xiaomi service framework до списку винятків. Ви можете отримувати сповіщення від вбудованих та сторонніх програм.</string>
     <string name="add_miservice_dialog_title">Xiaomi Service Framework</string>
     <string name="add_to_whitelist_button">Винятки</string>
@@ -200,6 +200,48 @@
     <string name="anitispam_intercept_record">Історія чорного списку</string>
     <string name="anti_disturb_msg_detail">Вимкнути всі сповіщення, окрім вхідних викликів</string>
     <string name="anti_disturb_msg_title">Не турбувати</string>
+    <string name="anti_peeping">Виявляти погляд іншої людини</string>
+    <string name="anti_peeping_apps_disable_header_title">Невибрані програми</string>
+    <string name="anti_peeping_apps_enable_header_title">Вибрані програми</string>
+    <string name="anti_peeping_apps_notify_description">Коли вибрана програма відображається в повноекранному режимі, Ця функція постійно перевірятиме, чи хтось дивиться на ваш екран і сповіщатиме вас</string>
+    <string name="anti_peeping_apps_notify_title">Повідомляти, коли хтось дивиться</string>
+    <string name="anti_peeping_apps_notify_type">Сповіщення</string>
+    <string name="anti_peeping_apps_privacy_tip">Ця функція використовує дані про обличчя для виявлення погляду. Всі дані обробляються на вашому пристрої і не будуть використовуватися спільно.</string>
+    <string name="anti_peeping_face_need_input">Потрібні дані обличчя</string>
+    <string name="anti_peeping_face_need_input_confirm">Налаштування</string>
+    <string name="anti_peeping_face_need_input_subtitle">Додайте дані обличчя, щоб використовувати цю функцію. Додати зараз?</string>
+    <string name="anti_peeping_focus_not_enabled"><Data>Підсвічування сповіщень відключено. Замість цього для сповіщень буде використовуватися вібрація. &lt;font color=#3482FF>Увімкнути&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback"><Data>Підсвічування сповіщень відключено. Сповіщення недоступні. &lt;font color=#3482FF>Увімкнути&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback_v2"><Data>Xiaomi HyperIsland вимкнено. Сповіщення недоступні. &lt;font color=#3482FF>Увімкнути&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_v2"><Data>Xiaomi HyperIsland вимкнено. Замість сповіщень буде використовуватися вібрація. &lt;font color=#3482FF>Увімкнути&lt;/font></Data></string>
+    <string name="anti_peeping_notification_channel_name">Виявлення погляду іншої людини</string>
+    <string name="anti_peeping_notification_got_it">Зрозуміло</string>
+    <string name="anti_peeping_notification_protect_content">Більше не нагадувати</string>
+    <string name="anti_peeping_notification_title">Захистіть вашу конфіденційність</string>
+    <string name="anti_peeping_privacy_auto_close_des">Ця функція може незначно збільшити енергоспоживання і буде відключена при увімкненні режиму \"Економія енергії\".</string>
+    <string name="anti_peeping_privacy_auto_close_title">Автоматично відключається при увімкненні режиму \"Економія енергії\"</string>
+    <string name="anti_peeping_privacy_statement_des">"Після увімкнення цієї функції пристрій використовуватиме фронтальну камеру, щоб перевірити, чи хтось, крім вас, не дивиться на ваш екран, коли вибрані вами програми відображаються в повноекранному режимі. У разі виявлення ви отримаєте нагадування про конфіденційність.
+Вся обробка даних виконується на вашому пристрої, і дані не будуть завантажуватися до хмари."</string>
+    <string name="anti_peeping_privacy_statement_title">Положення про конфіденційність</string>
+    <string name="anti_peeping_privacy_understand_des">"Ця функція використовує фронтальну камеру для зйомки зображень та аналізу того, чи хтось, крім вас, дивиться на ваш екран. Якщо така активність буде виявлена, ви отримаєте нагадування, щоб захистити свою конфіденційність.
+Ви можете вибрати, які програми захищати. Функція \"Виявлення погляду іншої людини\" автоматично вмикається, коли ці програми відображаються в повноекранному режимі."</string>
+    <string name="anti_peeping_privacy_understand_title">Про функцію \"Виявлення погляду іншої людини\"</string>
+    <string name="anti_peeping_recommend_apps_button_open">Увімкнути</string>
+    <string name="anti_peeping_recommend_tips">%s користувачів вибрали наступні програми</string>
+    <string name="anti_peeping_recommend_title">Рекомендовані програми</string>
+    <string name="anti_peeping_search_key">Виявлення погляду іншої людини</string>
+    <string name="anti_peeping_search_keywords">Виявлення погляду іншої людини;погляд іншої людини;конфіденційний екран;приватний екран;Конфіденційний екран</string>
+    <string name="anti_peeping_splash_confirm">Далі</string>
+    <string name="anti_peeping_splash_custom_des">Ця функція буде увімкнена, коли вибрані програми будуть відображатися в повноекранному режимі</string>
+    <string name="anti_peeping_splash_custom_title">Виберіть програми для захисту</string>
+    <string name="anti_peeping_splash_dialog_des"><Data>Ваш пристрій буде постійно перевіряти, чи не дивляться на ваш екран інші люди, і повідомляти вас у разі виявлення такої ситуації. &lt;font color=#3482FF>Детальніше&lt;/font></Data></string>
+    <string name="anti_peeping_splash_identify_des">Визначати, чи хтось інший дивиться на ваш екран</string>
+    <string name="anti_peeping_splash_identify_title">Виявлення погляду інших</string>
+    <string name="anti_peeping_splash_notify_des">Підтримує Xiaomi HyperIsland та вібропопередження</string>
+    <string name="anti_peeping_splash_notify_title">Отримувати нагадування про конфіденційність</string>
+    <string name="anti_peeping_vibrate_demo_toast">Ви отримаєте сповіщення, коли буде виявлено погляд іншої людини</string>
+    <string name="anti_peeping_vibration_not_enabled"><Data>Тактильний відгук вимкнено. Сповіщення будуть відображатися через Xiaomi HyperIsland. &lt;font color=#3482FF>Увімкнути&lt;/font></Data></string>
+    <string name="anti_peeping_vibration_not_enabled_no_fallback"><Data>Підсвічування сповіщень відключено. Сповіщення недоступні. &lt;font color=#3482FF>Увімкнути&lt;/font></Data></string>
     <string name="antispam_add_black_number_message">Введений вами номер короткий. Заблокувати всі номери, що починаються з цих цифр?</string>
     <string name="antispam_add_black_number_negative">Ні</string>
     <string name="antispam_add_black_number_positive">Так</string>
@@ -623,6 +665,12 @@
     <string name="apps_item_virus_ignore_text">Ігнорувати</string>
     <string name="apps_item_virus_summary_installed">Встановлена програма</string>
     <string name="apps_item_virus_summary_uninstalled">APK</string>
+    <string name="apps_layout_all_apps">Всі програми</string>
+    <string name="apps_layout_all_freeform_apps">Доступні програми</string>
+    <string name="apps_layout_recommend_apps">Рекомендовані програми</string>
+    <string name="apps_layout_search_app">Пошук програм</string>
+    <string name="apps_layout_search_app_no_result">Не вдалося знайти результати</string>
+    <string name="apps_layout_shortcut">Ярлики</string>
     <string name="apps_list_header_title_sms">Перевірити програму для повідомлень</string>
     <string name="apps_list_header_title_sms_access">Обмежити доступ до кодів підтвердження</string>
     <string name="ask_create_shortcut">Створити ярлик на робочому столі?</string>
@@ -719,6 +767,9 @@
     <string name="back_sound_support_china">Спочатку вимкніть WLAN</string>
     <string name="background_restrict_app_dialog_message">Обмеження фонового доступу до мережі для цієї програми може призвести до того, що ця програма буде працювати неправильно, не зможе отримувати повідомлення, завантажувати зміст і т.д. Обмежити все одно?</string>
     <string name="background_traffic">Фоновий режим: %s</string>
+    <string name="background_virus_scan_notification_summary">Багато програм, включаючи %s. Натисніть для перегляду.</string>
+    <string name="background_virus_scan_notification_summary_one">Натисніть, щоб переглянути</string>
+    <string name="background_virus_scan_notification_title_one">Виявлено шкідливу програму %s</string>
     <string name="backsound_set_hint">Встановити сигнал про відсутність на \"%s\"?</string>
     <string name="banner_optimizemanage_summary">"Звільніть пам'ять"</string>
     <string name="banner_red_money_assist_button">Увімкнути</string>
@@ -979,7 +1030,9 @@
     <string name="bubble_notification_switch">Показувати бульбашки діалогів</string>
     <string name="bubble_notification_switch_desc">Коли програму для обміну повідомленнями в плаваючому вікні приховано біля краю екрану, вхідні повідомлення будуть відображатися в бульбашках.</string>
     <string name="bubble_pickup_voice_print_auto">Запис відбитку голосу…</string>
+    <string name="bubble_pickup_voice_print_auto_v2">Запис голосового відбитка та даних обличчя…</string>
     <string name="bubble_pickup_voice_print_success">Зразок голосу записано</string>
+    <string name="bubble_pickup_voice_print_success_v2">Голосовий відбиток та дані обличчя записані</string>
     <string name="button_background_connection">Дозволити</string>
     <string name="button_block_calls_from_cantacts">Розблоковувати</string>
     <string name="button_block_calls_from_strangers">Розблоковувати</string>
@@ -1025,6 +1078,13 @@
     <string name="call_delete_hint">Видалити всі заблоковані виклики від цього номера?</string>
     <string name="call_delete_title">Очистити журнал викликів</string>
     <string name="call_empty_number">Порожні номери</string>
+    <string name="call_filter_ad_promotion">Реклама</string>
+    <string name="call_filter_education_training">Освіта</string>
+    <string name="call_filter_high_risk">Високий ризик</string>
+    <string name="call_filter_insurance_finance">Страхування</string>
+    <string name="call_filter_loan_promotion">Позики</string>
+    <string name="call_filter_real_estate">Нерухомість</string>
+    <string name="call_filter_renovation_repair">Ремонт дому</string>
     <string name="call_forwarding_block">Переадресовані виклики</string>
     <string name="call_intercept_settings">Налаштування чорного списку для викликів</string>
     <string name="call_notification_answer_action">Відповісти</string>
@@ -1038,6 +1098,19 @@
     <string name="call_overseas_block">Міжнародні виклики</string>
     <string name="call_prefix">Чорний список за префіксом</string>
     <string name="call_private">Блокувати виклики від прихованих номерів</string>
+    <string name="call_reason_ad_promotion_mark">Реклама</string>
+    <string name="call_reason_ad_promotion_mark_large">Реклама</string>
+    <string name="call_reason_education_training_mark">Освіта</string>
+    <string name="call_reason_education_training_mark_large">Освіта</string>
+    <string name="call_reason_high_risk_mark">Високий ризик</string>
+    <string name="call_reason_insurance_finance_mark">Страхування</string>
+    <string name="call_reason_insurance_finance_mark_large">Страхування</string>
+    <string name="call_reason_loan_promotion_mark">Позики</string>
+    <string name="call_reason_loan_promotion_mark_large">Позики</string>
+    <string name="call_reason_real_estate_mark">Нерухомість</string>
+    <string name="call_reason_real_estate_mark_large">Нерухомість</string>
+    <string name="call_reason_renovation_repair_mark">Ремонт дому</string>
+    <string name="call_reason_renovation_repair_mark_large">Ремонт дому</string>
     <string name="call_stranger_block">Блокувати виклики від незнайомців</string>
     <string name="call_transfer_block">Блокувати переадресовані виклики</string>
     <string name="call_transfer_info">Блокувати переадресовані виклики від невідомих номерів</string>
@@ -1110,6 +1183,10 @@
     <string name="cetus_invisible_mode">Анонімний режим</string>
     <string name="cetus_invisible_mode_description_card">Призупинити дію дозволів</string>
     <string name="cetus_invisible_mode_description_switch">"Увімкніть, щоб призупинити дію дозволів, пов'язаних з мікрофоном, камерою і місцем розташування, для всіх програм"</string>
+    <string name="cetus_invisible_mode_notice_audio">Неможливо використовувати мікрофон в Анонімному режимі.</string>
+    <string name="cetus_invisible_mode_notice_camera">Неможливо використовувати камеру в Анонімному режимі.</string>
+    <string name="cetus_invisible_mode_notice_location">Неможливо використовувати послуги визначення місцезнаходження в Анонімному режимі.</string>
+    <string name="cetus_invisible_mode_notice_tip">Натисніть, щоб відключити Анонімний режим у Налаштуваннях.</string>
     <string name="cetus_invisible_mode_warn_all">"Ви в Анонімному режимі. Дія дозволів, пов'язаних з мікрофоном, камерою і місцем розташування, вимкнена."</string>
     <string name="cetus_invisible_mode_warn_camera">Ви в Анонімному режимі. Дія дозволів на використання камери призупинена.</string>
     <string name="cetus_invisible_mode_warn_location">Ви в Анонімному режимі. Дія дозволів на доступ до місцезнаходження вимкнена.</string>
@@ -1155,6 +1232,8 @@
     <string name="click_to_set_carrier">Натисніть, щоб встановити</string>
     <string name="click_to_set_personalized_reminder">Встановити попередження</string>
     <string name="click_to_set_traffic">Натисніть, щоб встановити</string>
+    <string name="clip_notification_close_summary">Не отримувати нагадування, коли програма отримує доступ до буфера обміну?</string>
+    <string name="clip_notification_close_title">Вимкнути нагадування про доступ до буфера обміну</string>
     <string name="clipboard_ai_allow">Розумне керування</string>
     <string name="clipboard_ai_allow_summary">Дозволяє системі визначити, чи може програма отримати доступ до вмісту буфера обміну, і нагадує вам, коли вона це робить</string>
     <string name="close">Закрити</string>
@@ -1252,6 +1331,7 @@
     <string name="connected_devices_screen_title">Дозволити вказаному пристрою переглядати та взаємодіяти із вмістом екрана цього пристрою?</string>
     <string name="connected_interconnection">"Взаємопов'язаність"</string>
     <string name="connecting">Підключення…</string>
+    <string name="contacts_will_also_be_blocked">Включаючи контакти</string>
     <string name="continue_install">Встановити</string>
     <string name="continue_set">Продовжити</string>
     <string name="convenient_mode">Відразу розблоковувати всі програми</string>
@@ -1302,32 +1382,40 @@
     <string name="cs_pickup_vioce_print_guide_dialog_desc">Завершіть виклик та дотримуйтесь інструкцій, щоб почати.</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">Щоб вловити звук лише від однієї людини, спочатку запишіть зразок її голосу.</string>
     <string name="cs_pickup_vioce_print_in_private_tips">Запишіть свій голосовий відбиток, щоб встановити для шумопоглинання значення \"Приватне\".</string>
+    <string name="cs_pickup_vioce_print_in_private_tips_v2">Запишіть свій голосовий відбиток та дані обличчя, щоб встановити для шумопоглинання значення \"Приватне\".</string>
     <string name="cs_pickup_vioce_print_private_dialog_title">Записати зразок голосу</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title_v2">Записати голосовий відбиток та дані обличчя</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Запишіть зразок голосу, перш ніж вибрати \"Один учасник\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Вимкніть зовнішні пристрої та повторіть спробу</string>
     <string name="cs_pickup_voice_print_auto_dialog_tips">"Ваш голос буде записаний і оброблений тільки на цьому пристрої.
 Для найкращих результатів записуйте наодинці в тихому місці."</string>
     <string name="cs_pickup_voice_print_auto_dialog_title">Для персоналізованого розпізнавання голосу потрібен відбиток голосу</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title_v2">Для персонального шумопоглинання потрібно записати голосовий відбиток та дані обличчя</string>
     <string name="cs_pickup_voice_print_desc">Вловлювати звук тільки від однієї людини</string>
     <string name="cs_privacy_camera_global_settings_title">Конфіденційність викликів</string>
     <string name="cs_record_voice_title">Запис</string>
     <string name="cs_screen_translation_title">Екранний переклад</string>
     <string name="cs_simultaneous_interpretation_title">Розшифровка</string>
+    <string name="cs_simultaneous_interpretation_title_2">Перекласти</string>
     <string name="cs_title_pickup">Зменшення шумів</string>
     <string name="cs_title_smart_subtitle">Транскрипція у вигляді субтитрів</string>
     <string name="cs_title_ultraclear">Режим Ultra HD</string>
     <string name="cs_tool_box_max_screen_guide_case_1">Спробуйте синхронний переклад та інші інструменти конференц-дзвінків у нових Інструментах викликів</string>
     <string name="cs_tool_box_max_screen_guide_case_1_new">Спробуйте синхронний переклад, \"Покращення\" та інші інструменти конференц-викликів на новій панелі інструментів \"Виклик\"</string>
+    <string name="cs_tool_box_max_screen_guide_case_1_new_v2">Спробуйте \"Перекласти\", \"Покращення\" та інші функції на новій панелі інструментів \"Виклик\"</string>
     <string name="cs_tool_box_max_screen_guide_case_2">"Спробуйте ряд функцій конференц-зв'язку в нових Інструментах викликів"</string>
     <string name="cs_tool_box_max_screen_guide_case_2_new">Спробуйте \"Покращення\" та інші інструменти конференц-викликів на новій панелі інструментів \"Виклик\"</string>
     <string name="cs_tool_box_max_screen_guide_case_3_new">"Спробуйте ряд функцій конференц-зв'язку в нових Інструментах викликів"</string>
     <string name="cs_tool_box_max_screen_guide_case_4_new">Спробуйте синхронний переклад та інші інструменти конференц-дзвінків у нових Інструментах викликів</string>
+    <string name="cs_tool_box_max_screen_guide_case_4_new_v2">Спробуйте \"Перекласти\" та інші функції на новій панелі інструментів \"Виклик\"</string>
     <string name="cs_tool_box_phone_guide_case_1">Спробуйте синхронний переклад та інші функції в нових Інструментах викликів</string>
     <string name="cs_tool_box_phone_guide_case_1_new">Спробуйте синхронний переклад, функцію \"Покращення\" та багато іншого на новій панелі інструментів \"Виклик\"</string>
+    <string name="cs_tool_box_phone_guide_case_1_new_v2">Спробуйте \"Перекласти\", \"Покращення\" та інші функції на новій панелі інструментів \"Виклик\"</string>
     <string name="cs_tool_box_phone_guide_case_2">Спробуйте ряд функцій у нових Інструментах викликів</string>
     <string name="cs_tool_box_phone_guide_case_2_new">Спробуйте \"Покращення\" та інші функції на новій панелі інструментів \"Виклик\"</string>
     <string name="cs_tool_box_phone_guide_case_3_new">Спробуйте безліч чудових функцій на новій панелі інструментів \"Виклик\"</string>
     <string name="cs_tool_box_phone_guide_case_4_new">Спробуйте синхронний переклад та інші функції в нових Інструментах викликів</string>
+    <string name="cs_tool_box_phone_guide_case_4_new_v2">Спробуйте \"Перекласти\" та інші функції на новій панелі інструментів \"Виклик\"</string>
     <string name="cs_voice_print">Записати зразок голосу</string>
     <string name="cs_voice_search">Розпізнавання голосу</string>
     <string name="cs_vt_camera_title">Використання камер на декількох пристроях</string>
@@ -1906,6 +1994,7 @@
     <string name="gallery_confirm_start_activity">Програмі %s заборонено доступ до Галереї та програмам соціальних мереж. Дозволити програмі передачу зображень, які збергіаються на цьому пристрої?</string>
     <string name="game_ad_recommendation">Всі грають</string>
     <string name="game_anti_disturb_msg">Гра в режимі \"Не турбувати\"</string>
+    <string name="game_audio_label_international">Звук в грі</string>
     <string name="game_balance_gpu_enhance_title">Розширення виділеного графічного процесора</string>
     <string name="game_balance_more_setting_title">Додаткові налаштування</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Покращена візуалізація</string>
@@ -1923,7 +2012,7 @@
     <string name="game_center_more">Ще</string>
     <string name="game_center_network_setting_tip">Надайте програмі \"Безпека\" дозвіл на доступ до інтернету в Налаштуваннях</string>
     <string name="game_center_network_setting_tip_pad">Надайте програмі \"Безпека\" дозвіл на доступ до інтернету в Налаштуваннях</string>
-    <string name="game_center_recommend">Рекомендується</string>
+    <string name="game_center_recommend">Рекомендовано</string>
     <string name="game_else_function">Інші</string>
     <string name="game_manual_record_setting_setting">Налаштування</string>
     <string name="game_manual_record_setting_title">Ключові моменти</string>
@@ -1935,7 +2024,7 @@
     <string name="game_perf_config_motion_desc">Налаштуйте чутливість дотику в іграх</string>
     <string name="game_perf_config_network_desc">Зменшіть затримку мережі та тремтіння</string>
     <string name="game_perf_config_network_title">Збільшення швидкості мережі</string>
-    <string name="game_perf_config_strategy_diy">Користувальницький</string>
+    <string name="game_perf_config_strategy_diy">Власний</string>
     <string name="game_perf_config_strategy_fps_first">Частота кадрів</string>
     <string name="game_perf_config_strategy_picture_first">Якість</string>
     <string name="game_perf_config_strategy_title">Стратегія збільшення продуктивності</string>
@@ -1943,7 +2032,7 @@
     <string name="game_performance_wild_mode_tips">"Увімкніть, щоб підвищити продуктивність пристрою
 (пристрій може нагріватися і споживати більше енергії)"</string>
     <string name="game_setting">Налаштування ігор</string>
-    <string name="game_toolbox_ai_qa_desc">Питання і відповіді по великій моделі</string>
+    <string name="game_toolbox_ai_qa_desc">Запитання та відповіді по великій моделі</string>
     <string name="game_toolbox_ai_qa_title">ШI-керівництво</string>
     <string name="game_toolbox_ai_service_desc">Геймплей, покращений за допомогою ШI</string>
     <string name="game_toolbox_ai_service_title">Ігрові послуги з ШІ</string>
@@ -2023,7 +2112,7 @@
     <string name="game_toolbox_slow_charge_negative_btn">Скасувати</string>
     <string name="game_toolbox_slow_charge_notification_msg">Ця функція покращує ігровий досвід під час заряджання, сповільнюючи швидкість заряджання. Це може запобігти перегріванню пристрою.</string>
     <string name="game_toolbox_slow_charge_notification_title">Виконується повільне заряджання</string>
-    <string name="game_toolbox_slow_charge_positive_btn">Увімкнути</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Початок</string>
     <string name="game_toolbox_slow_charge_title">Повільне заряджання</string>
     <string name="game_toolbox_slow_charge_toast">Повільне заряджання увімкнено</string>
     <string name="game_toolbox_smart_charge_title">Розумне заряджання</string>
@@ -2040,7 +2129,7 @@
     <string name="game_toolbox_title_wild">Режим максимальної продуктивності</string>
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost увімкнено</string>
     <string name="game_toolbox_wild_mode_toast_tip">Продуктивність пристрою значно підвищилася</string>
-    <string name="game_toolbox_wild_mode_toast_title">Режим максимальної продуктивності увімк.</string>
+    <string name="game_toolbox_wild_mode_toast_title">Режим Ultimate увімк.</string>
     <string name="game_turbo_custom_subtitle">Ви можете налаштувати надвисоку роздільну здатність та розумну частота кадрів, щоб керувати частотою оновлення та якістю зображення</string>
     <string name="game_turbo_frame_rate_priority_subtitle">Інтелектуально покращувати частоту кадрів</string>
     <string name="game_turbo_image_quality_priority_subtitle">\"Покращення якості зображення\" покращує якість зображення за рахунок надвисокої роздільної здатності та керує частотою оновлення кадрів за допомогою функції розумна частота кадрів.</string>
@@ -2090,12 +2179,14 @@
     <string name="gamebox_func_antimsg_open">Спливаючі сповіщення відключені</string>
     <string name="gamebox_func_immersion_close">Режим занурення зараз вимкнено</string>
     <string name="gamebox_func_immersion_open">Режим занурення зараз увімкнено</string>
+    <string name="gamebox_func_start_gyroscope_international">Щоб використовувати цю функцію, увімкніть гіроскоп у налаштуваннях гри</string>
     <string name="gamebox_func_switch_simcard">Переключено на SIM-карту %1$d</string>
     <string name="gamebox_func_switch_simcard_immersion">Неможливо змінювати SIM-карти в режимі занурення</string>
     <string name="gamebox_func_wlan_close">Wi-Fi зараз вимкнено</string>
     <string name="gamebox_func_wlan_open">Wi-Fi зараз увімкнено</string>
     <string name="gamebox_game_center_app_not_find">Спочатку встановіть програму \"Ігри\"</string>
     <string name="gamebox_gift_pack">Подарунки</string>
+    <string name="gamebox_gyroscope_acceleration_international">Гіроскопічне збільшення швидкості</string>
     <string name="gamebox_hangup">Вимкнути екран</string>
     <string name="gamebox_hangup_new">Вимкнути екран</string>
     <string name="gamebox_hangup_tips_content">Ця функція дозволяє вимкнути екран, але гра буде працювати у фоновому режимі. Вона автоматично вимкнеться після розблокування пристрою.</string>
@@ -2276,6 +2367,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_game_macro_toast_tips">"Спробуйте комбо!
 Записуйте послідовності та використовуйте їх у будь-який час!"</string>
     <string name="gb_game_mode_change_btn_right">Перезапустити</string>
+    <string name="gb_game_mode_change_failed_toast">Не вдалося зберегти</string>
     <string name="gb_game_mode_change_message">Перезапустити гру, щоб застосувати зміни?</string>
     <string name="gb_game_mode_change_new">Перемикання компонувань</string>
     <string name="gb_game_mode_change_title">Перезапустіть гру</string>
@@ -2318,6 +2410,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_gpu_driver_update_app_tips">Оновлення не потрібно</string>
     <string name="gb_have_signed">Відмічався сьогодні</string>
     <string name="gb_hot_area_seekbar">Діапазон активної зони</string>
+    <string name="gb_launch_mute_start">Без звуку</string>
+    <string name="gb_launch_mute_start_enbaled_toast">Увімкнено режим \"Без звуку\". (click)Вимкнути(/click)</string>
+    <string name="gb_launch_mute_start_unmuted_toast">Звук відновлено</string>
     <string name="gb_manual_record_dialog_del_video_message">Видалити вибрані відео назавжди?</string>
     <string name="gb_manual_video_record_title">Записи</string>
     <string name="gb_margin_restrain">Ігнорувати випадкові натиснення поруч з краями пристрою</string>
@@ -2506,8 +2601,17 @@ Xiaomi Gaming Cooler"</string>
     <string name="gd_app_edit_title_new">Редагувати швидкі дії для спливаючого вікна</string>
     <string name="gd_beauty_manage_summary">Відкрийте бічну панель інструментів під час відеовикликів, щоб скористатися цією функцією</string>
     <string name="gd_beauty_manage_title">Функція \"Покращення\" для відеовикликів</string>
+    <string name="gd_dock_preview_section_title">Як відкрити</string>
+    <string name="gd_dock_preview_sidebar_title">Перетягніть повзунок всередину</string>
+    <string name="gd_dock_preview_swipe_title">Перетягуйте та утримуйте</string>
     <string name="gd_dock_shortcut_fullscreen">На весь екран</string>
+    <string name="gd_dock_shortcut_multisplitscreen">Екран мультирозділення</string>
     <string name="gd_dock_shortcut_splitescreen">Розділення екрана</string>
+    <string name="gd_dock_swipe_launcher_upgrade_hint">Поточна версія лаунчера не підтримує рух \"перетягніть та утримайте\"</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_cancel">Скасувати</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_confirm">Змінити</string>
+    <string name="gd_dock_xiaoai_ball_dialog_content">Ви можете перетягнути та утримувати, щоб відкрити бульбашку дій Xiaomi Hyper XiaoAi. Якщо ви переключитеся на бокову панель \"Інструменти\", бульбашка дій Xiaomi Hyper XiaoAi буде вимкнена. Переключитися зараз?</string>
+    <string name="gd_dock_xiaoai_ball_dialog_title">Змінити спосіб активації?</string>
     <string name="gd_setting_conversation">Інструменти для конференцій</string>
     <string name="gd_setting_conversation_desc">Широкий набір функцій для використання під час повноекранних аудіо- та відеовикликів.</string>
     <string name="gd_setting_dock_activity_title">Бічна панель інструментів</string>
@@ -2561,6 +2665,7 @@ Xiaomi Gaming Cooler"</string>
 · Натисніть і утримуйте індикатор, щоб перемістити вікно."</string>
     <string name="global_dock_guide_desc_without_split_screen_new">"Проведіть пальцем, щоб відкрити бічну панель та натисніть на програму, щоб відкрити її у спливаючому вікні.
 Натисніть і утримуйте індикатор, щоб перемістити вікно."</string>
+    <string name="global_dock_recommend_switch_title">Показувати рекомендовані програми на бічній панелі</string>
     <string name="global_satisfaction_notification_button">Оцінити</string>
     <string name="global_satisfaction_notification_channel">Опитування щодо рівня задоволення користувачів</string>
     <string name="global_satisfaction_notification_subhead">Поділіться з нами своїми враженнями від використання</string>
@@ -2802,6 +2907,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="install_title">Встановити, використовуючи USB</string>
     <string name="install_type_instant">Миттєва програма</string>
     <string name="installing">Встановлення</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Декілька програм, включаючи %s, порушують дозволи спеціальних можливостей</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Ця програма порушує дозволи спеціальних можливостей. Натисніть для перегляду.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Заблокована шкідлива програма %s</string>
     <string name="intercept_all_mark_calls">Заблокувати всі виклики, відмічені як \"%s\"?</string>
     <string name="intercept_calls_nofify_hide_text">Щоб встановити правила блокування для інших відмічених номерів, натисніть тут</string>
     <string name="intercept_calls_notify_title">Виклики з цією міткою будуть автоматично завершені. Заблокувати зараз?</string>
@@ -3193,6 +3301,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Переключитися на півекранний режим</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Збільшити</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Зменшити</string>
+    <string name="miuix_popup_show_description">Спливаюче вікно</string>
     <string name="miuix_popup_window_default_title">Спливаюче вікно</string>
     <string name="miuix_progressbar_loading">Завантаження</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потягніть вниз для оновлення</string>
@@ -3434,6 +3543,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="notification_abnormal_check_now_button">Переглянути</string>
     <string name="notification_abnormal_consume_app_title">%s розряджає батарею</string>
     <string name="notification_abnormal_consume_cpu">Ресурси ЦП використвоуються в фоновому режимі</string>
+    <string name="notification_abnormal_consume_high_drain_app_title">%s розряджає батарею</string>
+    <string name="notification_abnormal_consume_high_drain_subtitle">Високий рівень використання батареї у фоновому режимі</string>
     <string name="notification_abnormal_consume_wakelock">Система активна в фоновому режимі</string>
     <string name="notification_antivirus_button_text">Сканувати</string>
     <string name="notification_antivirus_message">Виконайте перевірку, щоб усунути ризики</string>
@@ -3521,7 +3632,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="notify_weekly_traffic_title_for_slotnum">Використано %1$s на %2$s за цей тиждень</string>
     <string name="now_inquiry">Деталі</string>
     <string name="number_address">Місцезнаходження</string>
+    <string name="number_locked_v2">{count, plural, =0 {0 програм заблоковано} one {# програма заблокована} few {# програми заблоковано} many {# програм заблоковано} other {# програм заблоковано} }</string>
+    <string name="number_masked_v2">{count, plural, =0 {0 програм} one {# програма} few {# програми} many {# програм} other {# програм} }</string>
     <string name="number_of_lucky_money">Червоні конверти, про які вам нагадали</string>
+    <string name="number_to_lock_v2">{count, plural, =0 {0 незаблокованих програм} one {# незаблокована програма} few {# незаблоковані програми} many {# незаблокованих програм} other {# незаблокованих програм} }</string>
     <string name="numeric_need_to_confirm">Введіть ще раз для підтвердження</string>
     <string name="numeric_password_confirmed_header_confirm">Встановлено успішно. Натисніть, щоб підтвердити.</string>
     <string name="numeric_password_confirmed_header_continue">Встановлено успішно. Натисніть \"Далі\".</string>
@@ -3570,7 +3684,15 @@ Xiaomi Gaming Cooler"</string>
     <string name="open_activity_err">Заявку не знайдено</string>
     <string name="open_app">Відкрити</string>
     <string name="open_applock">Увімкнути захист програм</string>
+    <string name="open_applock_calling_tips">Блокуйте програми та підтверджуйте свою особу під час їх відкриття. Захист програм має два типи паролів і підтримує біометричну перевірку.</string>
+    <string name="open_applock_calling_title">Захист програм</string>
     <string name="open_applock_password_type">Тип пароля</string>
+    <string name="open_applock_tip_item1_sub_title">Використовуйте пароль для захисту особистих даних або пароль для блокування екрана</string>
+    <string name="open_applock_tip_item1_title">Два типу паролів</string>
+    <string name="open_applock_tip_item2_sub_title">Розблокування програми відбитком пальця або за допомогою даних обличчя</string>
+    <string name="open_applock_tip_item2_title">Перевірка біометричних даних</string>
+    <string name="open_applock_tip_item3_sub_title">Виберіть необхідність перевірки після блокування екрана, після закінчення встановленого часу або після виходу з програми</string>
+    <string name="open_applock_tip_item3_title">Налаштувати час перевірки</string>
     <string name="open_applock_tips">Блокуйте програми та підтверджуйте свою особу під час їх відкриття. Захист програм має два типи паролів і підтримує біометричну перевірку.</string>
     <string name="open_callwait">Увімк.</string>
     <string name="open_dnd_mode">Режим \"Не турбувати\"</string>
@@ -3598,8 +3720,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Використання шкідливих програм створює ризики для безпеки системи</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">\"%s\" може бути шкідливою програмою</string>
     <string name="optimize_manage_title">Збільшити швидкість</string>
     <string name="optimize_result_available_memory_info">"Доступна пам'ять"</string>
     <string name="optimize_result_button_cloudspace">Отримати більше місця</string>
@@ -3652,6 +3772,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="overlay_permission_dialog_message_security_service">Для правильної роботи програмі \"Безпека\" потрібні певні дозволи.</string>
     <string name="overlay_permission_dialog_open">Налаштування</string>
     <string name="overlay_permission_dialog_title">Необхідні дозволи</string>
+    <string name="overlay_read_clip_toast">\"Програма %1$s отримала доступ до буфера обміну</string>
     <string name="package_change_notification_summary">Натисніть, щоб дізнатися більше.</string>
     <string name="package_change_notification_title">"Регулювати об'єм трафіку автоматично"</string>
     <string name="package_setted_error_notification_summary">Натисніть для перегляду відомостей щодо трафіку.</string>
@@ -3683,6 +3804,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_abnormal_header_time">Час</string>
     <string name="pb_abnormal_header_type">Тип</string>
     <string name="pb_abnormal_header_value">Значення</string>
+    <string name="pb_abnormal_idle_high_temp">Перегрівання в режимі очікування</string>
     <string name="pb_abnormal_loading">Секунду…</string>
     <string name="pb_abnormal_record">Історія</string>
     <string name="pb_activity_title">Деталі про портативну батарею</string>
@@ -3694,6 +3816,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_data_fetch_all_error">Не вдалося зчитати дані. Можливо, портативна батарея відключена або не підтримується.</string>
     <string name="pb_data_fetch_all_error_new">Не вдалося прочитати дані. Можливо, зовнішній акумулятор відключений або не підтримується. Якщо він був відключений, підключіть зарядний кабель та повторіть спробу.</string>
     <string name="pb_data_fetch_partial_error">"Деякі об'єкти недоступні через затримку або непідтримувану портативну батарею"</string>
+    <string name="pb_data_fetch_partial_error_new">"Деякі об'єкти недоступні через затримку або непідтримувану портативну батарею"</string>
     <string name="pb_manufacturer">Виробник</string>
     <string name="pb_measure_point">Сенсор %1$d</string>
     <string name="pb_production_date">Дата виробництва</string>
@@ -3707,7 +3830,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Заряджайте швидше завдяки потужній реверсивній зарядці. USB-підключення використовується тільки для зарядки.</string>
     <string name="pc_18W_high_power_reverse_charging_summary_new">Заряджайте швидше за допомогою зворотнього заряджання.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Зворотня зарядка</string>
-    <string name="pc_abnormal_scan_button_text">Закриваються додатки</string>
+    <string name="pc_abnormal_scan_button_text">Закриваються програми</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Система не переходить у режим очікування</string>
     <string name="pc_abnormal_scan_reason_reconnect">Система надто часто намагається підключитися до мережі</string>
     <string name="pc_abnormal_scan_reason_runtime_exception">Робота з помилками</string>
@@ -4011,6 +4134,210 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_work_in_super_save_mode">Ультраекономія енергії</string>
     <string name="pc_xiaoai_create_auto_task">Нове завдання від Mi AI</string>
     <string name="pc_xiaoai_voice_control_close">Вимкнути активацію Mi AI голосом</string>
+    <string name="peep_protection_ai_key_disabled">Конфіденційний екран вимкнено</string>
+    <string name="peep_protection_ai_key_enabled">Конфіденційний екран увімкнено</string>
+    <string name="peep_protection_v2_app_notification_protection">Сповіщення</string>
+    <string name="peep_protection_v2_app_notification_protection_desc">Сповіщення від вибраних програм будуть активовувати захист екрана</string>
+    <string name="peep_protection_v2_app_protection_desc">Вмикати конфіденційний екран для вибраних програм</string>
+    <string name="peep_protection_v2_banner_summary">Спробуйте функції конфіденційного екрана, які є лише на цій моделі пристрою</string>
+    <string name="peep_protection_v2_banner_title">Конфіденційний екран Xiaomi</string>
+    <string name="peep_protection_v2_batch_disable">Вимкнути</string>
+    <string name="peep_protection_v2_batch_enable">Увімкнути</string>
+    <string name="peep_protection_v2_category_capability">Можливості функції</string>
+    <string name="peep_protection_v2_category_capability_v2">Виявлення погляду</string>
+    <string name="peep_protection_v2_category_finance">Фінанси</string>
+    <string name="peep_protection_v2_category_group_title_v2">%1$s (%2$d)</string>
+    <string name="peep_protection_v2_category_other">Інше</string>
+    <string name="peep_protection_v2_category_recommend">Рекомендовано</string>
+    <string name="peep_protection_v2_category_scene">Сценарії</string>
+    <string name="peep_protection_v2_category_scene_v2">Екран</string>
+    <string name="peep_protection_v2_category_smart">Розумний режим</string>
+    <string name="peep_protection_v2_category_social">Соціальні мережі</string>
+    <string name="peep_protection_v2_category_suggest">Рекомендовано</string>
+    <string name="peep_protection_v2_category_tip_dismiss">Ні, дякую</string>
+    <string name="peep_protection_v2_category_tip_message">Дозвольте Xiaomi Hyper XiaoAi допомогти вам створити персоналізовані групи програм. Наприклад, можна додати Галерею, Паролі та Нотатки до групи захисту екрана під назвою \"Метро\". Ви також можете сказати Xiaomi Hyper XiaoAi, як потрібно згрупувати програми та додати інші розумні правила активації.</string>
+    <string name="peep_protection_v2_category_tip_prompt">Створіть групу програм для конфіденційного екрана. Додайте в цю групу %1$s, назвіть її \"Приватна\" та увімкніть для цих програм конфіденційний екран.</string>
+    <string name="peep_protection_v2_category_tip_title">Створіть власну групу</string>
+    <string name="peep_protection_v2_color_inversion_closed_msg">Ця функція не працює з інверсією кольорів. Конфіденційний екран Xiaomi вимкнено.</string>
+    <string name="peep_protection_v2_color_inversion_closed_reopen">Увімкнути</string>
+    <string name="peep_protection_v2_color_inversion_closed_title">Конфіденційний екран Xiaomi було вимкнено</string>
+    <string name="peep_protection_v2_color_inversion_conflict_msg">Ця функція несумісна з режимом \"Інверсія кольору\". Спочатку вимкніть її.</string>
+    <string name="peep_protection_v2_color_inversion_conflict_title">Вимкнути інверсію кольорів</string>
+    <string name="peep_protection_v2_cue_byapp_reason">Увімкнути конфіденційний екран для цієї програми</string>
+    <string name="peep_protection_v2_cue_byapp_title">Увімкнути конфіденційний екран для %s</string>
+    <string name="peep_protection_v2_cue_global_reason">Спробуйте функції конфіденційнсті, які є лише на цій моделі пристрою</string>
+    <string name="peep_protection_v2_cue_global_title">Увімкнути Конфіденційний екран Xiaomi</string>
+    <string name="peep_protection_v2_cue_summary">Ця функція доступна лише для цієї моделі пристрою</string>
+    <string name="peep_protection_v2_deep_mode">Покращена конфіденційність</string>
+    <string name="peep_protection_v2_deep_mode_desc">Зробіть ваш екран менш помітним для інших людей</string>
+    <string name="peep_protection_v2_expert_mode_hint">*Необхідне перемикання Xiaomi Hyper XiaoAi у Ручний режим</string>
+    <string name="peep_protection_v2_face_need_input_hint">Потрібні дані обличчя</string>
+    <string name="peep_protection_v2_first_close_message">Додайте функцію Конфіденційний екран Xiaomi до розділу \"Центр керування\" > \"Змінити\" > \"Система\", щоб швидко вмикати чи вимикати її.</string>
+    <string name="peep_protection_v2_first_close_title">Швидко вмикати Конфіденційний екран Xiaomi</string>
+    <string name="peep_protection_v2_first_close_title_v2">Перемикачі</string>
+    <string name="peep_protection_v2_global_first_open_msg">Додайте функцію Приховання всього екрана до розділу \"Центр керування\" > \"Редагувати\" > \"Система\", щоб швидко вмикати та вимикати її.</string>
+    <string name="peep_protection_v2_global_first_open_title">Швидко увімкнути Приховання всього екрана</string>
+    <string name="peep_protection_v2_global_hint">Погляд іншої людини не виявлятиметься, якщо увімкнено Приховання всього екрана</string>
+    <string name="peep_protection_v2_global_no_aon_hint">Для економії заряду батареї погляд іншої людини не буде виявлятися, поки увімкнено Приховання всього екрана</string>
+    <string name="peep_protection_v2_global_protection">Приховання всього екрана</string>
+    <string name="peep_protection_v2_global_protection_desc">Використовуйте конфіденційний екран у декількох сценаріях на вашому пристрої.</string>
+    <string name="peep_protection_v2_global_protection_desc_v2">Конфіденційний екран залишається увімкненим на всьому пристрої</string>
+    <string name="peep_protection_v2_go_miclaw">Відкрити Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_header_desc_v2">Видимість екрана під кутом буде зменшена. Ваш пристрій попередить вас, коли буде виявлено чужий погляд. (click)Детальніше(/click)</string>
+    <string name="peep_protection_v2_intro_detection_desc">Налаштовуйте розумні правила для цієї функції за допомогою Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_intro_enable">Увімкнути</string>
+    <string name="peep_protection_v2_intro_pixel_desc">Зменшувати кут огляду екрана та виявляти, коли хтось дивиться на нього</string>
+    <string name="peep_protection_v2_intro_pixel_title">Конфіденційність на рівні обладнання</string>
+    <string name="peep_protection_v2_intro_privacy_tip">Захистіть вміст екрана від сторонніх поглядів: система постійно відстежує, чи хтось дивиться на ваш екран збоку, і сповіщає вас у разі виявлення</string>
+    <string name="peep_protection_v2_intro_scope_desc_global">Вибирайте певні програми та сповіщення або використовуйте цю функцію на всьому пристрої</string>
+    <string name="peep_protection_v2_intro_smart_page_desc">Вибирайте певні програми, сторінки та сповіщення або використовуйте цю функцію на всьому пристрої</string>
+    <string name="peep_protection_v2_intro_smart_page_title">Декілька сценаріїв</string>
+    <string name="peep_protection_v2_learn_more">Детальніше</string>
+    <string name="peep_protection_v2_learn_more_limits_desc">"Ця функція може трохи збільшити енергоспоживання. Для економії заряду батареї вона буде тимчасово вимкнена, коли увімкнено режим \"Економія енергії\".
+Під час попереднього перегляду HDR-контенту робота функції \"Конфіденційний екран\" призупиняється, щоб забезпечити належну якість зображення.
+Робота функції \"Конфіденційний екран\" призупиняється в альбомній орієнтації та автоматично відновлюється після повернення до портретного режиму.
+Деякі сторонні теми поки що не підтримують відображення сповіщень на екрані блокування в режимі конфіденційного екрана.
+Виявлення прибуття до заданих місць або відправлення з них може відбуватися із затримкою."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global">"Ця функція може трохи збільшити енергоспоживання. Для економії заряду батареї вона буде тимчасово вимкнена, коли увімкнено режим \"Економія енергії\".
+Під час попереднього перегляду HDR-контенту робота функції \"Конфіденційний екран\" призупиняється, щоб забезпечити належну якість зображення.
+Робота функції \"Конфіденційний екран\" призупиняється в альбомній орієнтації та автоматично відновлюється після повернення до портретного режиму.
+Деякі сторонні теми поки що не підтримують відображення сповіщень на екрані блокування в режимі конфіденційного екрана."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global_hdr">"Ця функція може трохи збільшити енергоспоживання. Для економії заряду батареї вона буде тимчасово вимкнена, коли увімкнено режим \"Економія енергії\".
+Під час попереднього перегляду HDR-контенту робота функції \"Конфіденційний екран\" призупиняється, щоб забезпечити належну якість зображення.
+Робота функції \"Конфіденційний екран\" призупиняється в альбомній орієнтації та автоматично відновлюється після повернення до портретного режиму.
+Деякі сторонні теми поки що не підтримують відображення сповіщень на екрані блокування в режимі конфіденційного екрана."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_hdr">"Ця функція може трохи збільшити енергоспоживання. Для економії заряду батареї вона буде тимчасово вимкнена, коли увімкнено режим \"Економія енергії\".
+Під час попереднього перегляду HDR-контенту робота функції \"Конфіденційний екран\" призупиняється, щоб забезпечити належну якість зображення.
+Робота функції \"Конфіденційний екран\" призупиняється в альбомній орієнтації та автоматично відновлюється після повернення до портретного режиму.
+Деякі сторонні теми поки що не підтримують відображення сповіщень на екрані блокування в режимі конфіденційного екрана.
+Виявлення прибуття до заданих місць або відправлення з них може відбуватися із затримкою."</string>
+    <string name="peep_protection_v2_learn_more_limits_title">Обмеження та особливі випадки</string>
+    <string name="peep_protection_v2_learn_more_privacy_desc">"Після увімкнення цієї функції пристрій може використовувати фронтальну камеру для зйомки зображень і локального виявлення облич або напрямку погляду, коли функція виявлення погляду активна. Ця функція використовується для того, щоб визначити, чи дивиться на екран хтось, окрім вас, і попередити вас про це.
+Усі дані обробляються на вашому пристрої і їх не буде завантажено до Xiaomi Cloud або на будь-який сторонній хмарний сервіс."</string>
+    <string name="peep_protection_v2_learn_more_privacy_title">Положення про конфіденційність</string>
+    <string name="peep_protection_v2_learn_more_scope_desc">"Ви можете вибрати, як працюватиме Конфіденційний екран Xiaomi: на всьому пристрої, у вибраних програмах, на конфіденційних сторінках або для сповіщень.
+
+Приховання всього екрана:
+конфіденційний екран залишається увімкненим на всьому пристрої, щоб захистити все, що ви переглядаєте. Поки ця функція увімкнена, погляд іншої людини не виявлятиметься. 
+
+Вибрані програми:
+ виберіть програми, які хочете захистити. Коли ці програми запущені на екрані, Конфіденційний екран Xiaomi зменшує видимість збоку та визначає, чи дивиться на екран інша людина.
+
+Конфіденційні сторінки:
+навіть якщо деякі програми не були додані до списку, Конфіденційний екран Xiaomi може автоматично вмикатися для конфіденційних сторінок, таких як сторінки введення пароля, платежів, переказів та обміну повідомленнями.
+
+Сповіщення програм:
+сповіщення з вибраних вами програм відображаються з частковим захистом конфіденційності, щоб інші люди не могли побачити конфіденційну інформацію."</string>
+    <string name="peep_protection_v2_learn_more_scope_desc_global">"Ви можете вибрати, як працюватиме Конфіденційний екран Xiaomi: на всьому пристрої, у вибраних програмах або для сповіщень.
+
+Приховання всього екрана:
+конфіденційний екран залишається увімкненим на всьому пристрої, щоб захистити все, що ви переглядаєте. Поки ця функція увімкнена, погляд іншої людини не виявлятиметься. 
+
+Вибрані програми:
+ виберіть програми, які хочете захистити. Коли ці програми запущені на екрані, Конфіденційний екран Xiaomi зменшує видимість під кутом та визначає, чи дивиться на екран інша людина.
+
+Сповіщення програм:
+сповіщення з вибраних вами програм відображаються з частковим захистом конфіденційності, щоб інші люди не могли побачити конфіденційну інформацію."</string>
+    <string name="peep_protection_v2_learn_more_scope_title">"Об'єм захисту Конфіденційного екрана"</string>
+    <string name="peep_protection_v2_learn_more_smart_desc">Ви можете використовувати свого ШІ-помічника для створення груп програм, які відображатимуться на конфіденційному екрані, та керування ними, автоматичного увімкнення Приховання всього екрана в громадських місцях або автоматичного увімкнення певних груп. Ви також можете налаштувати область відображення конфіденційного екрана та правила його запуску, щоб вони краще відповідали вашим звичкам.</string>
+    <string name="peep_protection_v2_learn_more_smart_title">Власні режими</string>
+    <string name="peep_protection_v2_learn_more_understand_desc">"Конфіденційний екран Xiaomi поєднує знижену видимість під боковим кутом огляду та розпізнавання погляду. Це допомагає захистити інформацію як від перегляду під широким кутом, так і від перегляду з близької відстані під вужчими кутами, забезпечуючи більш повний захист конфіденційності.
+
+Зниження видимості під кутом:
+завдяки керуванню підсвічуванням екрана на рівні пікселів вміст екрана швидко стає менш помітним зі збільшенням кута огляду. Це допомагає зменшити ймовірність того, що інші побачать вашу особисту інформацію.
+
+Повідомлення про конфіденційність:
+крім зменшення видимості під боковим кутом огляду, система може попередити вас, якщо виявить, що хтось, крім вас, дивиться на екран ззаду або під іншим вузьким кутом."</string>
+    <string name="peep_protection_v2_learn_more_understand_title">Про Конфіденційний екран Xiaomi</string>
+    <string name="peep_protection_v2_main_body">Видимість екрана під кутом буде знижено. Пристрій також перевірятиме, чи хтось дивиться на ваш екран, і попередить вас під час виявлення чужого погляду. (click)Детальніше(/click)</string>
+    <string name="peep_protection_v2_main_desc">Захистіть свій екран від сторонніх поглядів</string>
+    <string name="peep_protection_v2_main_switch">Конфіденційний екран Xiaomi</string>
+    <string name="peep_protection_v2_main_switch_desc">Використовуйте функцію конфіденційного екрана та розпізнавайте погляди інших людей</string>
+    <string name="peep_protection_v2_main_switch_desc_v2">Дозволити пристрою вмикати конфіденційний екран на основі вибраного сценарію</string>
+    <string name="peep_protection_v2_main_switch_title_v2">Конфіденційний екран Xiaomi</string>
+    <string name="peep_protection_v2_main_tile_label">Конфіденційний екран Xiaomi</string>
+    <string name="peep_protection_v2_move_app_title_v2">Перемістити %s до</string>
+    <string name="peep_protection_v2_move_app_to_category">Перемістити %s до групи</string>
+    <string name="peep_protection_v2_notification_protection">Конфіденційний екран для сповіщень</string>
+    <string name="peep_protection_v2_notification_protection_desc">Сповіщення від вибраних програм будуть активовувати захист екрана</string>
+    <string name="peep_protection_v2_notification_protection_desc_v2">Сповіщення від вибраних програм відображаються з частковим захистом конфіденційності</string>
+    <string name="peep_protection_v2_notify_type_desc">Ви отримаєте сповіщення, коли буде виявлено погляд іншої людини</string>
+    <string name="peep_protection_v2_notify_type_title">Повідомлення про конфіденційність</string>
+    <string name="peep_protection_v2_page_detail_category_title">Наступні сторінки цієї програми захищені функцією \"Конфіденційний екран\"</string>
+    <string name="peep_protection_v2_page_protection_desc">Вмикати конфіденційний екран для вибраних сторінок</string>
+    <string name="peep_protection_v2_peep_detection_desc_v2">Виявляти погляд та попереджувати вас</string>
+    <string name="peep_protection_v2_peep_island_action_dismiss_v2">Ігнорувати</string>
+    <string name="peep_protection_v2_peep_island_subtitle_v2">Більше не нагадувати</string>
+    <string name="peep_protection_v2_privacy_statement">Ця функція використовує дані для виявлення погляду. Всі дані обробляються на вашому пристрої та не передаються третім особам.</string>
+    <string name="peep_protection_v2_recommend_title">Рекомендовані програми</string>
+    <string name="peep_protection_v2_search_app">Конфіденційний екран у програмах; конфіденційний екран для програм;Вибрані програми</string>
+    <string name="peep_protection_v2_search_empty_hint">"Результати пошуку з'являться тут"</string>
+    <string name="peep_protection_v2_search_global">Приховання всього екрана;Весь екран</string>
+    <string name="peep_protection_v2_search_hint">Пошук програм</string>
+    <string name="peep_protection_v2_search_keywords_1">Захист экрана</string>
+    <string name="peep_protection_v2_search_keywords_2">Піксель</string>
+    <string name="peep_protection_v2_search_keywords_3">Погляд</string>
+    <string name="peep_protection_v2_search_no_result">Не вдалося знайти результати</string>
+    <string name="peep_protection_v2_search_notification">Приховання екрана для сповіщень; приховання екрана для сповіщень;Сповіщення програм</string>
+    <string name="peep_protection_v2_search_notify_type">Повідомлення про конфіденційність;виявляти погляд;захист конфіденційності;попередження про погляд</string>
+    <string name="peep_protection_v2_search_page">Конфіденційний екран на сторінках; конфіденційний екран для сторінок</string>
+    <string name="peep_protection_v2_search_smart_enable">Розумна активація;автоматичний конфіденційний екран</string>
+    <string name="peep_protection_v2_select_apps">Вибрані програми</string>
+    <string name="peep_protection_v2_select_apps_category_tip">Ви можете створювати, керувати, видаляти або перейменовувати групи програм для захисту екрана у (click)Xiaomi Hyper XiaoAi(/click)</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">У Ручному режимі Xiaomi Hyper XiaoAi ви можете створювати, керувати, видаляти або перейменовувати категорії програм для конфіденційного екрана</string>
+    <string name="peep_protection_v2_smart_enable">Розумна активація</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_desc">У Xiaomi Hyper XiaoAi ви можете створювати правила захисту на основі місць, які ви часто відвідуєте. Коли ви прибудете у вказане місце, захист екрана автоматично увімкнеться або вимкнеться.</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_title">Створити розумне правило</string>
+    <string name="peep_protection_v2_smart_enable_desc_v2">Створювати правила для конфіденційного екрана на основі розташування</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint">Поки що правил немає. Створіть розумні правила активації на основі місцезнаходження у Xiaomi Hyper XiaoAi.</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Правила ще не створені. Ви можете створити правила розумної активації на основі мосцезнаходження у (click)Xiaomi Hyper XiaoAi(click).</string>
+    <string name="peep_protection_v2_smart_enable_page_desc">У (click)Xiaomi Hyper XiaoAi(/click) ви можете налаштувати розумні правила на основі місцезнаходження, наприклад, автоматичне увімкнення Приховання всього екрана, коли ви перебуваєте в метро. Після прибуття у вказане місце захист екрана увімкнеться відповідно до вашого правила.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">У Ручному режимі Xiaomi Hyper XiaoAi ви можете налаштувати правила активації на основі розташування, такі як \"Автоматично вмикати Приховання всього екрана, коли я в метро\". Коли ви прибудете у вказане місце, конфіденційний екран буде увімкнено автоматично відповідно до ваших правил.</string>
+    <string name="peep_protection_v2_smart_enable_prompt">Допоможи мені створити правило захисту екрана: я часто користуюся телефоном у метро та кафе. Створи правила для цих сценаріїв та автоматично вмикай захист екрана для груп соціальних мереж та фінансів, коли я перебуваю в цих місцях.</string>
+    <string name="peep_protection_v2_smart_enable_prompt_copied">Скопійовано</string>
+    <string name="peep_protection_v2_smart_enable_sio_unavailable">Надайте доступ для використання цієї функції</string>
+    <string name="peep_protection_v2_smart_enable_switch_desc">Розпізнавання сценаріїв та автоматичне увімкнення або вимкнення захисту екрана</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip">Залиште Wi-Fi увімкненим, щоб правила розумної активації спрацьовували точніше. При вимкненому Wi-Fi деякі місця можуть розпізнаватись із затримкою або не розпізнаватися зовсім.</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip_china">Залиште WLAN увімкненим, щоб правила розумної активації спрацьовували точніше. При вимкненому WLAN деякі місця можуть розпізнаватись із затримкою або не розпізнаватися зовсім.</string>
+    <string name="peep_protection_v2_smart_page_active_list">Деякі сторінки в наступних програмах захищені</string>
+    <string name="peep_protection_v2_smart_page_header_title">Автоматичне увімкнення для певних конфіденційних сторінок</string>
+    <string name="peep_protection_v2_smart_page_intro">Навіть якщо ви забудете додати деякі програми, захист екрана буде вмикатися автоматично під час відкриття конфіденційних сторінок, таких як введення пароля, платежі, перекази та обмін повідомленнями.</string>
+    <string name="peep_protection_v2_smart_page_switch_title">Захист сторінок</string>
+    <string name="peep_protection_v2_status_off">Вимк.</string>
+    <string name="peep_protection_v2_status_on">Увімк.</string>
+    <string name="peep_protection_v2_strategy_action_disable_category">Вимкнути конфіденційний екран для %s</string>
+    <string name="peep_protection_v2_strategy_action_disable_deep">Вимкнути функцію \"Покращена конфіденційність\"</string>
+    <string name="peep_protection_v2_strategy_action_disable_default">Вимкнути конфіденційний екран</string>
+    <string name="peep_protection_v2_strategy_action_disable_global">Вимкнути Приховання всього екрана</string>
+    <string name="peep_protection_v2_strategy_action_disable_target">Вимкнути конфіденційний екран для %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_category">Увімкнути конфіденційний екран для %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_deep">Увімкнути функцію \"Покращена конфіденційність\"</string>
+    <string name="peep_protection_v2_strategy_action_enable_default">Увімкнути конфіденційний екран</string>
+    <string name="peep_protection_v2_strategy_action_enable_global">Увімкнути Приховання всього екрана</string>
+    <string name="peep_protection_v2_strategy_action_enable_target">Увімкнути конфіденційний екран для %s</string>
+    <string name="peep_protection_v2_strategy_action_fallback">Peep protection</string>
+    <string name="peep_protection_v2_strategy_action_separator_leave">; on leave</string>
+    <string name="peep_protection_v2_strategy_arrive_condition">Під час прибуття на %1$s</string>
+    <string name="peep_protection_v2_strategy_auto_desc">Arrive at %1$s, auto %2$s</string>
+    <string name="peep_protection_v2_strategy_auto_title">%1$s: %2$s</string>
+    <string name="peep_protection_v2_strategy_delete">Видалити</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_msg">Видалити це правило назавжди?</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_title">Видалити цей розклад?</string>
+    <string name="peep_protection_v2_strategy_detail_title">Розумні правила</string>
+    <string name="peep_protection_v2_strategy_edit_desc_hint">Опис</string>
+    <string name="peep_protection_v2_strategy_edit_main_title_hint">Заголовок</string>
+    <string name="peep_protection_v2_strategy_edit_title">Змінити</string>
+    <string name="peep_protection_v2_strategy_edit_title_hint">Enter new strategy name</string>
+    <string name="peep_protection_v2_strategy_edit_title_v2">Змінити назву</string>
+    <string name="peep_protection_v2_strategy_go_miclaw">Відредагувати правила</string>
+    <string name="peep_protection_v2_strategy_leave_condition">Під час відправлення з %1$s</string>
+    <string name="peep_protection_v2_strategy_notify_on_trigger">Сповіщати, коли конфіденційний екран увімкнено</string>
+    <string name="peep_protection_v2_strategy_prompt_copied">Скопійовано</string>
+    <string name="peep_protection_v2_strategy_prompt_template">Допоможи мені змінити правило конфіденційного екрана \"%1$s\" та відредагувати його налаштування.</string>
+    <string name="peep_protection_v2_strategy_unknown_location">Unknown location</string>
+    <string name="peep_protection_v2_thermal_paused_toast">Повідомлення про конфіденційність відновить роботу після охолодження пристрою</string>
+    <string name="peep_protection_v2_tile_label">Приховання всього екрана</string>
+    <string name="peep_protection_v2_title">Конфіденційний екран Xiaomi</string>
     <string name="per_month_pkg_traffic_settings">Задати ліміт трафіку</string>
     <string name="percent_formatted_text">%s%%</string>
     <string name="percent_text_formatted">%s%%</string>
@@ -4053,6 +4380,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permgroupdesc_storage">Доступ до фото та файлів на пристрої</string>
     <string name="permission_action_accept">Дозволити</string>
     <string name="permission_action_ai_prompt">Вирішувати автоматично</string>
+    <string name="permission_action_allow_for_compatibility">Тільки локальна мережа</string>
     <string name="permission_action_always">Завжди дозволяти</string>
     <string name="permission_action_desc">Надати дозволи, але відправити програмі порожнє повідомлення, щоб захистити дані.</string>
     <string name="permission_action_desc_always">Ці дозволи можуть бути використані у будь-який час</string>
@@ -4066,8 +4394,14 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_action_virtual">Повертати порожні повідомлення</string>
     <string name="permission_action_virtual_common_summary">Надати програмам необхідні дозволи, але для захисту конфіденційності повертати порожні повідомлення.</string>
     <string name="permission_action_virtual_phone_summary">Надайте програмам відповідні дозволи, але не дозволяйте їм отримати доступ до дійсного номера телефону SIM-карти</string>
+    <string name="permission_allow_for_compatibility_note">Позволяє програмі взаємодіяти тільки з пристроями в одній локальній мережі. Bluetooth та інші методи підключення не підтримуються.</string>
+    <string name="permission_changed_retry">Дозволи змінено. Перезапустіть програми.</string>
     <string name="permission_close_permission_control_dialog_msg">Коли керування дозволами вимкнено, програми не будуть запитувати доступ до ваших даних та функцій.</string>
     <string name="permission_close_permission_control_dialog_title">Вимкнути?</string>
+    <string name="permission_compatibility_dialog_message">Ця програма була розроблена для старої версії Android. Якщо ви не надасте необхідних дозволів, то програма може перестати працювати належним чином.</string>
+    <string name="permission_compatibility_dialog_negative_btn">Скасувати</string>
+    <string name="permission_compatibility_dialog_positive_btn">Відхилити</string>
+    <string name="permission_compatibility_dialog_title">Ця програма може працювати неправильно</string>
     <string name="permission_exception_title">Обмежити підключення для програм</string>
     <string name="permission_group_audio">Цей дозвіл надає програмам доступ до музики та аудіо на пристрої.</string>
     <string name="permission_group_calendar">Цей дозвіл надає програмам доступ до подій календаря, а також до їх додавання, видалення та редагування.</string>
@@ -4140,7 +4474,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_instruction_scoped">Новий механізм захисту сховища дозволяє краще контролювати те, як сумісні програми використовують дозволи на доступ до сховища.</string>
     <string name="permission_instruction_send_mms">Цей дозвіл дозволяє застосункам надсилати мультимедійні повідомлення, що може призвести до додаткових витрат. Шкідливі застосунки можуть використовувати цей дозвіл для надсилання платних повідомлень без вашої згоди.</string>
     <string name="permission_instruction_send_payment_sms">Цей дозвіл надає програмам дозвіл на відправлення платних повідомлень.</string>
-    <string name="permission_instruction_send_sms">Цей дозвіл дозволяє застосункам надсилати текстові повідомлення, що може призвести до додаткових витрат. Шкідливі додатки можуть використовувати цей дозвіл для надсилання платних повідомлень без вашої згоди.</string>
+    <string name="permission_instruction_send_sms">Цей дозвіл дозволяє програмам надсилати текстові повідомлення, що може призвести до додаткових витрат. Шкідливі програми можуть використовувати цей дозвіл для надсилання платних повідомлень без вашої згоди.</string>
     <string name="permission_instruction_shake">Цей дозвіл дозволяє програмам визначати положення пристрою в просторі, розпізнавати тремтіння, визначати орієнтацію екрана, а також використовувати елементи керування грою та навігацію по карті.</string>
     <string name="permission_instruction_show_locked">Цей дозвіл дозволяє програмам відображати елементи на екрані блокування. Шкідливі програми можуть використовувати цей дозвіл для показу реклами.</string>
     <string name="permission_instruction_sociality">Якщо ви дозволите програмам доступ до файлів у власних папках, з метою захисту конфіденційності система дозволить вам вирішити, чи хочете ви, щоб ці програми також отримували доступ до файлів, створених програмами соціальних мереж. Оскільки програми з Android API 29 рівня і вище вже підтримують поділ сховища, цей перемикач залишається для них недоступним.</string>
@@ -4175,6 +4509,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_with_SMS_and_MMS">Доступ до SMS та MMS</string>
     <string name="permission_with_call_and_contact">Доступ до контактів та викликів</string>
     <string name="permission_with_read_write_clipboard">"Дозволити програмам доступ та зберігання об'єктів у буфері обміну"</string>
+    <string name="permisson_reject_notice_toast_text2">не має дозволу до %1$s.</string>
     <string name="permit_running_network">Фонові дані</string>
     <string name="person_have_hongbao">%1$s відправив(-ла) вам червоний конверт!</string>
     <string name="person_hotpot">Мобільні точки доступу</string>
@@ -4243,6 +4578,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_center_battery_detail">Деталі</string>
     <string name="power_center_battery_duration">Залишок часу</string>
     <string name="power_center_battery_duration_format">%1$s %2$s</string>
+    <string name="power_center_battery_duration_new">Екранний час, що залишився</string>
     <string name="power_center_battery_duration_screen_on">Екранний час, що залишився</string>
     <string name="power_center_battery_hardware">Апаратне забезпечення %s</string>
     <string name="power_center_battery_health_poor_tip">Виявлено сильне зношення батареї. Рекомендується провести діагностику в авторизованому сервісному центрі.</string>
@@ -4384,6 +4720,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_idle">Режим очікування</string>
     <string name="power_main_battery_last_day_hour">Заряду вистачить на %1$s дн %2$s год</string>
     <string name="power_main_battery_last_hour_minute">Заряду вистачить на %1$s год %2$s хв</string>
+    <string name="power_main_battery_last_hour_minute_new">Приблизний екранний час: %1$s %2$s</string>
     <string name="power_main_battery_last_hour_minute_screen_on">Екранний час, що залишився: %1$s %2$s</string>
     <string name="power_main_open_last_hour_minute_screen_on">Увімкніть, щоб додати %1$s %2$s екранного часу</string>
     <string name="power_ntc_dialog_btn_finish">Зрозуміло</string>
@@ -4533,6 +4870,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="pp_app_warning_permission_tips_detail">Показувати нагадування, коли програма запитує дозвіл на доступ до місцезнаходження, камери або мікрофона</string>
     <string name="pp_clipboard">Клавіатура</string>
     <string name="pp_none_read_clipboard_item">Не сповіщати</string>
+    <string name="pp_privacy_call_entry">Приватні виклики</string>
+    <string name="pp_privacy_call_entry_demo_desc">Зменшіть витік звуку навушників для захисту конфіденційності викликів</string>
+    <string name="pp_privacy_call_entry_switch_desc">Працює під час викликів через навушники. Ця функція не буде збирати вміст викликів або дані.</string>
+    <string name="pp_privacy_call_protect">Захист викликів</string>
+    <string name="pp_privacy_call_switch_off">Конфіденційні виклики вимкнені</string>
+    <string name="pp_privacy_call_switch_on">Конфіденційні виклики увімкнені</string>
     <string name="pp_privacy_lab_clipboard_summary">Дозвольте вашому пристрою вирішити, чи може програма отримувати доступ до буфера обміну, та отримувати сповіщення</string>
     <string name="pp_privacy_lab_operator_get_number_summary">"Зобов'язувати програми запитувати дозвіл, коли їм необхідний доступ до номера телефону для авторизації"</string>
     <string name="pp_privacy_protection">Захист</string>
@@ -4667,6 +5010,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_description_camera">Програма %1s використовує камеру у фоні. Ви можете натиснути на перемикач нижче, щоб обмежити активність.</string>
     <string name="privacy_description_camera_mic">Програма %1s використовує камеру та мікрофон у фоні. Ви можете натиснути на перемикач нижче, щоб обмежити активність.</string>
     <string name="privacy_description_mic">Програма %1s використовує мікрофон у фоні. Ви можете натиснути на перемикач нижче, що обмежити активність.</string>
+    <string name="privacy_device_unique_feature">Функція тільки на пристрої</string>
     <string name="privacy_dialog_call_item_1">Доступ до інформації про пристрій</string>
     <string name="privacy_dialog_call_item_2">Зателефонувати</string>
     <string name="privacy_dialog_call_item_3">Доступ до статусу пристрою</string>
@@ -4716,6 +5060,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_flares_recent_detail_more">Ця програма використала конфіденційний дозвіл</string>
     <string name="privacy_global_guide_permission_guide_text">Ви будете отримувати попередження у рядку стану, коли програми записують аудіо або використовують камеру. Щоб дізнатися, які саме програми виконують такі дії, натисніть на попередження.</string>
     <string name="privacy_guide_permission_guide_text">Ви можете отримувати повідомлення у рядку стану, коли програми отримують доступ до вашого місцезнаходження, записують звук або роблять фото.</string>
+    <string name="privacy_hide_app_notify_auto_close_desc">Ця функція запобігає прихованим програмам надсилати сповіщення. Щоб отримувати сповіщення, вимкніть функцію \"Приховувати сповіщення\" або скасуйте приховання програми.</string>
+    <string name="privacy_hide_app_notify_auto_close_title">Вимкнути сповіщення</string>
+    <string name="privacy_hide_app_notify_auto_revoke_summary">Автоматично вимикати сповіщення прихованих програм</string>
+    <string name="privacy_hide_app_notify_dialog_confirm">Зрозуміло</string>
     <string name="privacy_hide_other_permissions">Приховувати інші дозволи</string>
     <string name="privacy_hybrid_password_long">Введіть до %d символів</string>
     <string name="privacy_hybrid_password_too_short">Введіть принаймні %d символа(-ів)</string>
@@ -4880,6 +5228,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_screen_share_notification_title">Трансляція змісту екрана</string>
     <string name="privacy_screen_share_protect_tip">Захищено</string>
     <string name="privacy_screen_share_tip">Трансляція</string>
+    <string name="privacy_screen_share_v2_land_subtitle">\"%s\" отримує доступ до змісту екрана</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Контент екрана захищено</string>
+    <string name="privacy_screen_share_v2_notification_title">Трансляція змісту екрана</string>
+    <string name="privacy_screen_share_v2_small_island_title">Спільний екран</string>
     <string name="privacy_search_key_1">Конфіденційність</string>
     <string name="privacy_search_key_10">Ідентифікатор пристрою</string>
     <string name="privacy_search_key_2">Перехоплення мережі</string>
@@ -5005,6 +5357,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="repeat_type">Повтор</string>
     <string name="repeated_marked_number_summary">Не блокувати повторний дзвінок від того ж відміченого номера впродовж %d хвилин</string>
     <string name="repeated_marked_number_title">Не блокувати повторні дзвінки від відмічених номерів</string>
+    <string name="repeated_stranger_number_summary">Не блокувати повторний виклик від того ж невідомого номера впродовж %d хвилин</string>
     <string name="repeated_unknown_number_summary">Не блокувати повторний виклик від того ж невідомого номера впродовж %d хвилин</string>
     <string name="replace_dns">Автоматична заміна DNS</string>
     <string name="report">Звіт</string>
@@ -5090,10 +5443,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="safe_result_item_info_system_version">Оновлення не потрібне</string>
     <string name="safepay_alert_dialog_button_continue">Продовжити</string>
     <string name="safepay_alert_dialog_button_fix">Дізнатися більше</string>
+    <string name="safety">Безпека</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Сб</string>
     <string name="saturday_shortest">Сб</string>
     <string name="save_mode_btn_ok">Зрозуміло</string>
+    <string name="save_privacy_pwd_fail_toast">Не вдалося зберегти. Повторіть спробу.</string>
     <string name="sc_allow_network_dialog_message">Ви обмежили мережеве підключення та доступ до вашого місцезнаходження. Надайте програмі \"Безпека\" необхідні дозволи для використання цієї функції.</string>
     <string name="sc_allow_network_dialog_tiltle">Не вдається застосувати цю функцію</string>
     <string name="sc_system_risk_fix_info_xspace">Не вдалося вирішити цю проблему у Другому просторі. Повторіть спробу у Першому просторі.</string>
@@ -5104,6 +5459,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="scan_status_risk">Знайдені загрози</string>
     <string name="scan_status_safe">Система захищена</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Захист від шахрайства</string>
+    <string name="screen_share_search_keyword_1">Спільний екран</string>
+    <string name="screen_share_search_keyword_2">Поділитися екраном</string>
+    <string name="screen_share_search_title">Захист функції \"Поділитися екраном\"</string>
+    <string name="screen_share_warning_positive_button">Стоп</string>
     <string name="screenrecord_not_find">Встановіть останню версію програми Запис екрана та повторіть спробу.</string>
     <string name="sd_eject">Вилучити SD-карту</string>
     <string name="sd_eject_summary">Відключити SD-карту для безпечного вилучення</string>
@@ -5489,13 +5849,17 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_message_phone_AntiSpam">Блокувати виклики</string>
     <string name="st_message_phonepass">Дозволити виклики</string>
     <string name="st_msg_keyword_black">Чорний список за ключовим словом</string>
+    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
     <string name="st_msg_keyword_group">Ключові слова</string>
     <string name="st_msg_keyword_white">Білий список ключових слів</string>
+    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
     <string name="st_msg_other_group">Інші повідомлення</string>
     <string name="st_msg_settings">Чорний список SMS</string>
     <string name="st_msg_stranger_group">Блокувати повідомлення від незнайомців</string>
     <string name="st_settings_name">Налаштування</string>
     <string name="st_share_settings">Використовувати налаштування SIM %d</string>
+    <string name="st_show_num_keyword_v2">{count, plural, =0 {0 ключових слів } one {# ключове слово } few {# ключових слова } many {# ключових слів } other {# ключових сліва } }</string>
+    <string name="st_show_num_number_v2">{count, plural, =0 {0 номерів } one {# номер } few {# номера } many {# номерів } other {# номерів } }</string>
     <string name="st_smg_intercept_all">Заблокувати всі повідомлення</string>
     <string name="st_smg_intercept_confirm_dialog_summary_all">SMS та MMS з будь-якого номера або регіону, що не входять до списку виключень, будуть заблоковані. Заблокувати зараз?</string>
     <string name="st_smg_intercept_confirm_dialog_summary_stranger">SMS та MMS з будь-якого номера або регіону, що не входять до списку виключень або контактів, будуть заблоковані. Заблокувати зараз?</string>
@@ -5569,6 +5933,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="status_bar_network_flow_purchase">"   Придбати >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Налаштувати тариф >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Заблокувати</string>
     <string name="still_retain_btn">Залишити</string>
     <string name="stop_milink_connect">Зупинити трансляцію</string>
     <string name="storage_activity_title">"Пам'ять"</string>
@@ -5765,6 +6130,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="superpower_progress_low_temp_content">Увімкнення Режиму стійкості до холоду…</string>
     <string name="superpower_progress_switch_home">Перехід на Темну тему</string>
     <string name="superpower_progress_title">Залишок часу</string>
+    <string name="superpower_progress_title_new">Екранний час, що залишився</string>
     <string name="superpower_progress_turndown_brightness">Зменшення яскравості екрана</string>
     <string name="superpower_progress_turnoff_fan">Вимкнення вентилятора</string>
     <string name="superpower_progress_turnoff_items">Обмеження енергоємної активності</string>
@@ -5808,9 +6174,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Перед продовженням ознайомтеся та погодьтеся з нашою &lt;a href=\"%1$s\">Угодою користувача&lt;/a>.</Data></string>
     <string name="system_permission_declare_no_say_no">Якщо ви вирішите не надавати необхідні дозволи чи не дозволите нам збирати і використовувати ваші дані, ця програма не зможе нормально працювати.</string>
     <string name="system_permission_declare_no_say_no_analytics">Якщо ви відмовляєтеся надавати дозволи, ви можете відмовитися від участі у розділі Налаштування > Розширені налаштування > Конфіденційність > Програма покращення якості.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Якщо ви вирішите не надавати необхідні дозволи чи не дозволите нам збирати і використовувати ваші дані, ця програма не зможе нормально працювати.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">"Якщо ви не надасте необхідних дозволів або не дозволите нам збирати та використовувати ваші дані, ви не зможете використовувати пов'язані функції."</string>
     <string name="system_permission_declare_optional">Щоб надавати вам додаткові послуги під час використання програми, нам можуть знадобитися наступні дозволи: %s. Ви завжди можете змінити параметри дозволів у Налаштуваннях.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Щоб забезпечити кращу взаємодію з користувачем, цій програмі потрібні такі додаткові дозволи: %1s. Щоб дізнатися більше про те, як ми обробляємо вашу особисту інформацію, торкніться &lt;a href=\"test\">тут&lt;/a>. Ви можете будь-коли керувати своїми дозволами в налаштуваннях.</Data></string>
+    <string name="system_permission_declare_perm_separator">", "</string>
     <string name="system_permission_declare_privacy_declare">Для нормальної роботи цій програмі необхідне підключення до інтернету та отримання наступних дозволів:</string>
     <string name="system_permission_declare_privacy_no_network">Для нормальної роботи програмі необхідні наступні дозволи:</string>
     <string name="system_permission_declare_privacy_no_permission">Для нормальної роботи цій програмі необхідне підключення до інтернету та отримання наступних особистих даних.</string>
@@ -5971,8 +6338,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="title_auto_update">Автооновлення</string>
     <string name="title_background_connection">Не можете використовувати %s у фоновому режимі</string>
     <string name="title_bill_balance_inquiry">Баланс (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Пропускаєте дзвінки від контактів</string>
-    <string name="title_block_calls_from_strangers">Пропускаєте важливі дзвінки</string>
+    <string name="title_block_calls_from_cantacts">Пропускаєте дзвінки від контактів?</string>
+    <string name="title_block_calls_from_strangers">Пропускаєте важливі дзвінки?</string>
     <string name="title_chain_start">Обмежити взаємний запуск</string>
     <string name="title_cleaner_cloudscan">Сканування смітника у Xiaomi Cloud</string>
     <string name="title_cloud_account">Xiaomi акаунт</string>
@@ -6026,6 +6393,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="title_realname_verify">Перевірка ID</string>
     <string name="title_reply">Коментар</string>
     <string name="title_restrict_data_usage">%s не може підключитися до інтернету</string>
+    <string name="title_risky_app_scan_no">Виявлення ризикованих програм вимкнено</string>
+    <string name="title_risky_app_scan_yes">Виявлення ризикованих програм увімкнено</string>
     <string name="title_safe_mode">Увімкнути безпечний режим</string>
     <string name="title_show_notification">Віджет панелі сповіщень</string>
     <string name="title_system_auto_download">Автоматичне завантаження оновлень увімкнено</string>
@@ -6066,6 +6435,14 @@ Xiaomi Gaming Cooler"</string>
     <string name="toast_update_success">Оновлено успішно</string>
     <string name="today">Сьогодні</string>
     <string name="tomorrow">Завтра</string>
+    <string name="toolbox_invocation_guide_cancel">Не зараз</string>
+    <string name="toolbox_invocation_guide_caption">Проведіть та утримуйте, щоб відкрити</string>
+    <string name="toolbox_invocation_guide_caption_upgrade">Відкривайте з будь-якого місця</string>
+    <string name="toolbox_invocation_guide_confirm">Використовувати</string>
+    <string name="toolbox_invocation_guide_confirm_upgrade">Спробувати зараз</string>
+    <string name="toolbox_invocation_guide_message">Проведіть пальцем від краю екрана всередину та утримуйте, а потім відпустіть, щоб відкрити</string>
+    <string name="toolbox_invocation_guide_title">Використовувати бічну панель</string>
+    <string name="toolbox_invocation_guide_title_upgrade">Новий спосіб відкриття бічної панелі</string>
     <string name="top_game">Найпопулярніші ігри</string>
     <string name="top_load_fail_detail">Не вдалося завантажити, натисніть, щоб повторити спробу</string>
     <string name="top_no_network_detial">Не вдалося завантажити, перевірте підключення до мережі та повторіть спробу</string>
@@ -6159,6 +6536,45 @@ Xiaomi Gaming Cooler"</string>
     <string name="txv_lucky_money_group_text">Тільки групові сповіщення</string>
     <string name="ufs_size_suffix">%1$s+%2$s</string>
     <string name="unable_connect_internet">Відсутнє підключення до інтернету</string>
+    <string name="uni_auth_security_delay_tips">Необхідна затримка безпеки</string>
+    <string name="uniauth_close_bt_text">Вимкнути</string>
+    <string name="uniauth_close_lock_sim_bind_local_phone_fp_title">"Підтвердіть за допомогою відбитка пальця, щоб розблокувати USIM та пов'язати її з цим пристроєм"</string>
+    <string name="uniauth_close_lock_sim_fp_title">Підтвердіть відбитком пальця для розблокування USIM</string>
+    <string name="uniauth_close_lost_device_prot_bt">Вимкнути функцію \"Захист пристрою при втраті\"</string>
+    <string name="uniauth_close_lost_device_prot_tips_bt">Зрозуміло</string>
+    <string name="uniauth_close_lost_device_prot_tips_message">Функція \"Захист пристрою при втраті\" була відключена за допомогою вашого Xiaomi акаунту. Функції на цьому пристрої більше не матимуть додаткового захисту.</string>
+    <string name="uniauth_close_lost_device_prot_tips_title">Функція \"Захист пристрою при втраті\" відключена</string>
+    <string name="uniauth_common_fp_title">Підтвердіть відбитком пальця</string>
+    <string name="uniauth_common_tips">Не вдалося підтвердити. Повторіть спробу.</string>
+    <string name="uniauth_fp_disabled_sub_title">Занадто багато невдалих спроб</string>
+    <string name="uniauth_fp_disabled_title">Відбитки пальців зараз недоступні</string>
+    <string name="uniauth_fp_enter_lockscreen_text">Використовувати пароль для блокування екрана</string>
+    <string name="uniauth_fp_recover_by_lockscreen_bt_text">Відновити доступ за допомогою відбитка пальця</string>
+    <string name="uniauth_fp_temp_disabled_sub_title">Через занадто велику кількість невдалих спроб відбитки пальців зараз недоступні</string>
+    <string name="uniauth_lockscreen_default_title">Підтвердіть блокування екрана</string>
+    <string name="uniauth_lockscreen_disabled_sub_title">Не вдається використати пароль для блокування екрана через занадто велику кількість невдалих спроб</string>
+    <string name="uniauth_lockscreen_mix_do_next">Далі</string>
+    <string name="uniauth_lockscreen_mix_hint">Введіть тут</string>
+    <string name="uniauth_lockscreen_sub_title">Для відновлення доступу за допомогою відбитка пальця</string>
+    <string name="uniauth_logout_xiaomi_acount_fp_title">Підтвердіть за допомогою відбитка пальця, щоб вийти з Xiaomi акаунту</string>
+    <string name="uniauth_lp_fp_sub_title">Функцію \"Захист пристрою при втраті\" увімкнено. Підтвердіть за допомогою відбитка пальця, що дія виконується власником пристрою.</string>
+    <string name="uniauth_lp_lockscreen_and_fp_sub_title">Використовуйте двофакторну аутентифікацію для підтвердження особи</string>
+    <string name="uniauth_no_acount_login_tips">Спочатку увійдіть до вашого Xiaomi акаунту</string>
+    <string name="uniauth_open_lock_sim_bind_local_phone_fp_title">"Підтвердіть за допомогою відбитка пальця, щоб заблокувати USIM та пов'язати її з цим пристроєм"</string>
+    <string name="uniauth_open_lock_sim_fp_title">Підтвердіть відбитком пальця для блокування USIM</string>
+    <string name="uniauth_reset_lockscreen_default_title">Підтвердіть свій попередній пароль для блокування екрана</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_sub_title">Використовуйте двофакторну аутентифікацію, щоб встановити новий пароль екрана блокування</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_title">Підтвердіть відбитком пальця</string>
+    <string name="uniauth_reset_lockscreen_title">Підтвердіть свій попередній екран блокування</string>
+    <string name="uniauth_resetlockscreen_error_sub_title">Не вдається скинути</string>
+    <string name="uniauth_resetlockscreen_error_title">Забагато невдалих спроб ввести пароль для блокування екрана</string>
+    <string name="uniauth_security_delay_end_notification_msg">Протягом наступних %1$d годин ви можете підтвердити свій Xiaomi акаунт, щоб відключити функцію \"Захист пристрою при втраті\"</string>
+    <string name="uniauth_security_delay_end_notification_title">Час затримки безпеки закінчився</string>
+    <string name="uniauth_security_delay_msg">Через %1$d годин(-и) ви зможете підтвердити свій Xiaomi акаунт, щоб відключити функцію \"Захист пристрою при втраті\". Ви отримаєте сповіщення, коли час затримки закінчиться.</string>
+    <string name="uniauth_security_delay_next_more">Детальніше</string>
+    <string name="uniauth_temp_disabled_title">Повторіть спробу пізніше</string>
+    <string name="uniauth_uqery_pin_fp_title">Підтвердіть відбитком пальця, щоб переглянути PIN-код</string>
+    <string name="uniauth_xiaomi_acount_title">Підтвердіть ваш Xiaomi акаунт</string>
     <string name="uninstall_app_dialog_msg">Видалення призведе до зникнення всіх даних.</string>
     <string name="uninstall_app_dialog_title">Видалити зараз?</string>
     <string name="uninstall_app_done">Видалено успішно</string>
@@ -6220,7 +6636,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="usbsharenet_pc_exception_summary">"Неможливо підключитися до інтернету по USB. Перевірте інтернет-підключення вашого комп'ютера."</string>
     <string name="use_for_open_applock">Для увімкнення захисту програм</string>
     <string name="use_immediately">Застосувати</string>
+    <string name="use_lock_screen_password_type">Пароль для блокування екрана</string>
     <string name="use_other_ime_warn">Клавіатури сторонніх розробників можуть записувати все, що ви вводите, включаючи паролі та іншу конфіденційну інформацію.</string>
+    <string name="use_private_password_type">Пароль для захисту особистих даних</string>
     <string name="user_define_title">Додати режим</string>
     <string name="user_guide">Проведіть вгору для пошуку нових ігор</string>
     <string name="v7_preference_off">ВИМКНЕНО</string>
@@ -6309,6 +6727,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="vb_video_super_division_desc">"Використання цієї функції збільшує енергоспоживання.
 Ця функція не працює разом із \"Згладжування рухів\".
 Увімкнення однієї з функцій відключить іншу."</string>
+    <string name="vb_video_super_division_subdesc">Автоматичне збільшення роздільної здатності під час використання ≤720P.</string>
     <string name="vb_video_super_division_tips">"Недостатньо зрозуміло?
 Спробуйте збільшити роздільну здатність!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Покращена анімація відк.</string>
@@ -6338,6 +6757,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="view_package_info">Переглянути деталі плану</string>
     <string name="view_traffic_detail">Переглянути деталі</string>
     <string name="view_traffic_details">Переглянути статистику використання трафіку</string>
+    <string name="virtual_reject_notice_content">Порожня відповідь була відправлена програмі для захисту вашої особистої інформації</string>
+    <string name="virtual_reject_notice_title_calendar">Доступ до календаря %1$s</string>
+    <string name="virtual_reject_notice_title_calllog">Доступ до журналу викликів %1$s</string>
+    <string name="virtual_reject_notice_title_contacts">Доступ до контактів %1$s</string>
+    <string name="virtual_reject_notice_title_phonestate">Доступ до інформації про пристрій програмою \"%1$s\"</string>
+    <string name="virtual_reject_notice_title_sms">Доступ до повідомлень %1$s</string>
     <string name="virus_app_delete_installed">Видалити</string>
     <string name="virus_app_delete_uninstalled">Видалити</string>
     <string name="virus_app_ignore">Ігнорувати</string>

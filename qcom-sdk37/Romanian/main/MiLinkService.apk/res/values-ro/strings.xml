@@ -49,11 +49,13 @@
     <string name="app_casting">Proiectare aplicație</string>
     <string name="app_name">Emite</string>
     <string name="app_name_call">Telefon</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Mesaje</string>
     <string name="app_name_vtcamera">Cameră între dispozitive</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -97,6 +99,8 @@ dispozitivul dvs.?"</string>
     <string name="appcirculate_toast_success_1">Schimbat cu succes</string>
     <string name="appcirculate_toast_success_2">Se proiectează modul privat…</string>
     <string name="appcirculate_toast_success_3">Se proiectează…</string>
+    <string name="apple_watch_cross_device_notification">Notificări</string>
+    <string name="apple_watch_health_data">Date Sănătate</string>
     <string name="application_extension">Extensie de aplicație</string>
     <string name="application_extension_content_pad">Utilizați \"%1$s\" ca afișaj extern. Puteți afișa aplicații în această fereastră separată.</string>
     <string name="application_extension_content_phone">Această aplicație va fi afișată numai pe \"%1$s\"</string>
@@ -115,6 +119,8 @@ dispozitivul dvs.?"</string>
     <string name="bottomsheet_drag_handle_content_description">Ghidaj de tragere</string>
     <string name="button_cancel">Anulează</string>
     <string name="button_confirm">Selectează</string>
+    <string name="calendar_date_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="calendar_date_picker_a11y_prev_month">Treceți la luna anterioară</string>
     <string name="call_notification_answer_action">Răspunde</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Respinge</string>
@@ -122,14 +128,20 @@ dispozitivul dvs.?"</string>
     <string name="call_notification_incoming_text">Apel primit</string>
     <string name="call_notification_ongoing_text">Apel în desfășurare</string>
     <string name="call_notification_screening_text">Se filtrează un apel primit</string>
+    <string name="camera_a11y_action_enter">Enter camera</string>
+    <string name="camera_a11y_action_fullscreen">Full screen</string>
+    <string name="camera_a11y_action_play_pause">Pause or play</string>
+    <string name="camera_a11y_action_switch_lens">Switch lens</string>
     <string name="camera_associate_failed">Nu s-a putut conecta la cameră</string>
     <string name="camera_associate_success">Aparat foto conectat</string>
+    <string name="camera_category_name">Camere</string>
     <string name="camera_composed_button">Combină</string>
     <string name="camera_composed_button_description">Combină. Atingeți pentru a fotografia simultan cu camerele de pe două dispozitive.</string>
     <string name="camera_composed_no_device">Se pare că dispozitivul nu este în apropiere</string>
     <string name="camera_composed_title">Combinați cu camera acestui dispozitiv</string>
     <string name="camera_composed_using_title">Camere combinate</string>
     <string name="camera_connecting_description">Se conectează…</string>
+    <string name="camera_count_tip">Toate camerele</string>
     <string name="camera_disassociate">Deconectat de la cameră</string>
     <string name="camera_discompose_button_description">Atingeți pentru a opri fotografierea combinată și a reveni la camera acestui dispozitiv.</string>
     <string name="camera_glasses_content_description">Ochelari conectați la acest dispozitiv. Apăsați de două ori pentru a activa. Apăsați cu două degete și trageți pentru a transfera.</string>
@@ -181,6 +193,7 @@ dispozitivul dvs.?"</string>
     <string name="car_card_seat_main_seat">Șofer</string>
     <string name="car_card_seat_second_seat">Pasagerul din față</string>
     <string name="car_card_seat_warm">Încălzire scaun</string>
+    <string name="car_card_tv_control_text">Telecomandă pentru ecranul pentru divertisment din spate</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">AC</string>
     <string name="car_device_camera_name">%1$s camera frontală</string>
@@ -192,8 +205,6 @@ dispozitivul dvs.?"</string>
     <string name="cast_closed_captions">Subtitrări</string>
     <string name="cast_closed_captions_unavailable">Subtitrările nu sunt disponibile</string>
     <string name="cast_connecting_to_device">Se conectează la %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Se caută dispozitive</string>
-    <string name="cast_device_chooser_title">Proiectează pe</string>
     <string name="cast_disconnect">Deconectează-te</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Imagine afișată în timp ce receiverul Cast redă un anunț</string>
@@ -234,12 +245,10 @@ dispozitivul dvs.?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Subtitrări</string>
     <string name="cast_unmute">Activează sunetul</string>
-    <string name="cast_zero_devices_found">"Nu s-a găsit niciun dispozitiv.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Află mai multe</a> despre cum poți proiecta conținut pe alte dispozitive.</string>
     <string name="casting_tips">Se difuzează…</string>
     <string name="character_counter_content_description">Caractere introduse: %1$d din %2$d</string>
     <string name="character_counter_overflowed_content_description">Limita de caractere a depășit %1$d din %2$d</string>
+    <string name="check_device_list">Vizualizați dispozitivele compatibile</string>
     <string name="circulate_add_another_device_control_app">Adaugă aplicație</string>
     <string name="circulate_audio_group_title">Se redă…</string>
     <string name="circulate_back_button_content_description">Înapoi</string>
@@ -258,6 +267,7 @@ dispozitivul dvs.?"</string>
     <string name="circulate_camera_glasses_error_device_not_support">Conținutul ochelarilor nu poate fi transferat pe acest dispozitiv</string>
     <string name="circulate_car_card_use_camera">Folosește camera frontală a VE</string>
     <string name="circulate_car_card_using_camera">Se folosește camera frontală a VE</string>
+    <string name="circulate_car_card_using_pad_camera">Utilizarea camerei tabletei pe vehicul</string>
     <string name="circulate_card_audio_change_pad_title">Schimbați la tableta audio</string>
     <string name="circulate_card_audio_change_phone_title">Schimbare la sunetul telefonului</string>
     <string name="circulate_card_audio_playing_pad_title">Utilizarea sunetului pe tabletă</string>
@@ -396,6 +406,7 @@ pentru a oglindi ecranul acestei tablete"</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_pad">Tableta dvs. este deja conectat la căști. Dacă vă conectați la acești ochelari, căștile vor fi deconectate. Vă conectați acum?</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_phone">Telefonul dvs. este deja conectat la căști. Dacă vă conectați la acești ochelari, căștile vor fi deconectate. Vă conectați acum?</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_tv">Televizorul dvs. este deja conectat la căști. Dacă vă conectați la acești ochelari, căștile vor fi deconectate. Vă conectați acum?</string>
+    <string name="circulate_header_mijia">Dispozitive inteligente</string>
     <string name="circulate_headset_back_to_box_desc">"1. Pune ambele căști în carcasa de încărcare.
 2. Țineți apăsat butonul de pe carcasă.
 3. Finalizați asocierea pe dispozitivul ales."</string>
@@ -511,6 +522,7 @@ dispozitivul dvs.?"</string>
     <string name="circulate_pad_card_use_desktop">Partajați Ecranul principal+ cu tableta</string>
     <string name="circulate_pad_card_using_camera">Folosirea camerei foto din tabletă</string>
     <string name="circulate_pad_card_using_desktop">Se partajează Ecranul principal+ cu tableta</string>
+    <string name="circulate_pad_synergy_subtitle">Conectat</string>
     <string name="circulate_pc_card_use_desktop">Partajați Ecranul principal+ cu computer</string>
     <string name="circulate_pc_card_use_km">Partajați mouse-ul cu computerul</string>
     <string name="circulate_pc_card_using_camera">Computerul folosește camera</string>
@@ -544,6 +556,17 @@ dispozitivul dvs.?"</string>
     <string name="circulate_sport_device_find_stop">Oprește</string>
     <string name="circulate_sport_device_find_stop_failed">Nu s-a putut opri căutarea acestui dispozitiv. Încercați din nou.</string>
     <string name="circulate_sport_device_find_watch">Găsiți acest ceas</string>
+    <string name="circulate_synergy_camera_car">Utilizarea camerei vehiculului</string>
+    <string name="circulate_synergy_camera_pad">Tableta folosește camera telefonului</string>
+    <string name="circulate_synergy_camera_pc">Calculatorul folosește camera telefonului</string>
+    <string name="circulate_synergy_camera_phone">Folosirea camerei din telefon</string>
+    <string name="circulate_synergy_cast_tv">Se proiectează</string>
+    <string name="circulate_synergy_cellular_car">Utilizarea hotspotului vehiculului</string>
+    <string name="circulate_synergy_cellular_phone">Utilizarea datelor mobile ale telefonului</string>
+    <string name="circulate_synergy_desktop">Folosind Ecran principal+</string>
+    <string name="circulate_synergy_km_pc">Partajarea mouse-ului și a tastaturii cu computerul</string>
+    <string name="circulate_synergy_music_playing">Se redă</string>
+    <string name="circulate_synergy_telephone">Răspuns la apel telefonic</string>
     <string name="circulate_taking_photo">Folosirea camerei foto din telefon…</string>
     <string name="circulate_title">Xiaomi Smart Hub</string>
     <string name="circulate_to_mijia">Dispozitive inteligente pentru casă</string>
@@ -572,24 +595,24 @@ dispozitivul dvs.?"</string>
     <string name="close_invisible_mode_dialog_message">Nu se poate folosi Xiaomi Smart Play acum. Dezactivați Modul Incognito din Setări pentru a putea folosi această funcție.</string>
     <string name="close_invisible_mode_dialog_ok">Setări</string>
     <string name="close_invisible_mode_dialog_title">Ești incognito</string>
-    <string name="common_google_play_services_enable_button">Activați</string>
-    <string name="common_google_play_services_enable_text">%1$s nu va funcționa decât dacă activați serviciile Google Play.</string>
-    <string name="common_google_play_services_enable_title">Activați serviciile Google Play</string>
-    <string name="common_google_play_services_install_button">Instalați</string>
-    <string name="common_google_play_services_install_text">%1$s nu va rula fără serviciile Google Play, care lipsesc de pe dispozitivul dvs.</string>
-    <string name="common_google_play_services_install_title">Descărcați serviciile Google Play</string>
+    <string name="common_google_play_services_enable_button">Activează</string>
+    <string name="common_google_play_services_enable_text">%1$s nu va funcționa decât dacă activezi serviciile Google Play.</string>
+    <string name="common_google_play_services_enable_title">Activează serviciile Google Play</string>
+    <string name="common_google_play_services_install_button">Instalează</string>
+    <string name="common_google_play_services_install_text">%1$s nu va rula fără serviciile Google Play, care lipsesc de pe dispozitivul tău.</string>
+    <string name="common_google_play_services_install_title">Descarcă serviciile Google Play</string>
     <string name="common_google_play_services_notification_channel_name">Disponibilitatea serviciilor Google Play</string>
     <string name="common_google_play_services_notification_ticker">Eroare a serviciilor Google Play</string>
-    <string name="common_google_play_services_unknown_issue">%1$s întâmpină probleme privind serviciile Google Play. Încercați din nou.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s nu va rula fără serviciile Google Play, care nu sunt acceptate de dispozitivul dvs.</string>
-    <string name="common_google_play_services_update_button">Actualizați</string>
-    <string name="common_google_play_services_update_text">%1$s nu va rula decât dacă actualizați serviciile Google Play.</string>
-    <string name="common_google_play_services_update_title">Actualizați serviciile Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s întâmpină probleme privind serviciile Google Play. Încearcă din nou.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s nu va rula fără serviciile Google Play, care nu sunt acceptate de dispozitivul tău.</string>
+    <string name="common_google_play_services_update_button">Actualizează</string>
+    <string name="common_google_play_services_update_text">%1$s nu va rula decât dacă actualizezi serviciile Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualizează serviciile Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s nu va rula fără serviciile Google Play, care momentan se actualizează.</string>
     <string name="common_google_play_services_wear_update_text">Este necesară o nouă versiune a serviciilor Google Play. Se vor actualiza automat în curând.</string>
-    <string name="common_open_on_phone">Deschideți pe telefon</string>
-    <string name="common_signin_button_text">Conectați-vă</string>
-    <string name="common_signin_button_text_long">Conectați-vă cu Google</string>
+    <string name="common_open_on_phone">Deschide pe telefon</string>
+    <string name="common_signin_button_text">Conectează-te</string>
+    <string name="common_signin_button_text_long">Conectează-te cu Google</string>
     <string name="compose_camera_with_device_cancel_description">Combinarea camerelor cu %1$s. Atingeți butonul din dreapta pentru a anula.</string>
     <string name="compose_camera_with_device_description">Combinarea camerelor cu %1$s</string>
     <string name="compose_view_back_button_description">Reveniți la cardul Camerei între dispozitive.</string>
@@ -611,10 +634,15 @@ dispozitivul dvs.?"</string>
     <string name="connect_settings_connection_service">Interconectivitate</string>
     <string name="connect_settings_corp_network">Asistență în rețea</string>
     <string name="connect_settings_corp_phone">Sincronizare apeluri</string>
+    <string name="connect_settings_corp_phone_close_toast">Nu s-a putut dezactiva. Încercați din nou după ce se termină apelul.</string>
+    <string name="connect_settings_corp_phone_device_category">Dispozitive disponibile</string>
+    <string name="connect_settings_corp_phone_not_found_summary">Asigură-te că tableta sau computerul tău este în apropiere, conectat la același Cont Xiaomi și la aceeași rețea. Atingeți pe \"Reîmprospătează\" pentru a încerca din nou.</string>
+    <string name="connect_settings_corp_phone_searching_summary">Asigură-te că tableta sau computerul tău este în apropiere, conectat la același Cont Xiaomi și la aceeași rețea.</string>
     <string name="connect_settings_general_category_share_camera">Permiteți cameră între dispozitive pe aceste dispozitive</string>
     <string name="connect_settings_general_category_share_launcher">Activează Ecran principal+ pe aceste dispozitive</string>
     <string name="connect_settings_general_summary_corp_phone_pad">Răspundeți la apeluri de la telefoanele din apropiere pe tablete conectate la Contul Xiaomi</string>
     <string name="connect_settings_general_summary_corp_phone_phone">Răspundeți la apeluri de pe tabletele sau computerele din apropiere conectate la Contul Xiaomi</string>
+    <string name="connect_settings_general_summary_corp_phone_phone_v2">Răspundeți la apelurile primite către acest dispozitiv pe tabletă sau computer, fiind conectat la același Cont Xiaomi</string>
     <string name="connect_settings_general_summary_relay_app">"Folosește aceeași aplicație pe toate dispozitivele conectate la Contul Xiaomi.
 Acceptă telefoane, tablete și computere."</string>
     <string name="connect_settings_general_summary_share_camera">Folosește aparatul foto al telefonului pentru a ajusta unghiul de filmare în timpul apelurilor video sau al transmisiunilor live pe tablete și computere din apropiere, conectate la Contul Xiaomi.</string>
@@ -623,12 +651,15 @@ Acceptă telefoane, tablete și computere."</string>
     <string name="connect_settings_general_summary_share_launcher_phone">Vizualizați și controlați telefonul și accesați aplicațiile de pe acesta de pe tablete, computere și vehicule din apropiere, conectate la Contul Xiaomi</string>
     <string name="connect_settings_general_summary_share_launcher_phone_v2">Vizualizați și controlați acest dispozitiv și utilizați aplicațiile sale de la telefoane din apropiere, tablete, calculatoare sau vehicule conectate cu același cont</string>
     <string name="connect_settings_general_summary_share_notification_pad">Afișați alerte de baterie descărcată de la telefoanele din apropiere pe tabletele conectate la Contul Xiaomi</string>
+    <string name="connect_settings_general_summary_share_notification_pad_v2">Când tableta și telefonul sunt conectate la același Cont Xiaomi și la aceeași rețea, notificările de la telefonul din apropiere pot fi afișate pe tabletă.</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Afișează notificări importante de pe telefon pe televizoarele, tabletele și computerele din apropiere, conectate la Contul Xiaomi.
 Funcționează cu aplicațiile de livrare de mâncare și transport cu clienții pe televizoare, precum și cu alerte de baterie descărcată pe tablete și computere."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Afișează notificările de baterie descărcată ale telefonului pe o tabletă din apropiere, conectată la același cont</string>
     <string name="connect_settings_known_button">Am înțeles</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
+    <string name="connect_settings_mi_share_tap_share">Atingeți pentru a partaja</string>
     <string name="connect_settings_nfc_share">Transferă elemente prin NFC</string>
+    <string name="connect_settings_not_found_device_title">Nu s-au găsit dispozitive disponibile</string>
     <string name="connect_settings_not_opened">Oprit</string>
     <string name="connect_settings_opened">Pornit</string>
     <string name="connect_settings_presentation_password_error">Parolă incorectă</string>
@@ -638,6 +669,7 @@ Funcționează cu aplicațiile de livrare de mâncare și transport cu clienții
     <string name="connect_settings_relay_app">Aplicații</string>
     <string name="connect_settings_same_account">De la acest cont</string>
     <string name="connect_settings_screen_cast">Proiectează</string>
+    <string name="connect_settings_searching_device_title">Descoperirea dispozitivelor dvs.</string>
     <string name="connect_settings_share_camera">Cameră între dispozitive</string>
     <string name="connect_settings_share_clipboard">Clipboard</string>
     <string name="connect_settings_share_file">Fișiere pe mai multe dispozitive</string>
@@ -649,6 +681,7 @@ Funcționează cu aplicațiile de livrare de mâncare și transport cu clienții
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">Deblocare facială sau parolă</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Folosește amprenta sau parola pe Mac pentru a debloca telefonul și aplicațiile</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock">Deblochează-ți telefonul și aplicațiile folosind recunoașterea facială prin intermediul camerei mașinii tale Xiaomi EV</string>
+    <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock_v2">Folosește camera Xiaomi EV pentru a-ți recunoaște fața și a debloca telefonul Xiaomi</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">Deblocare facială</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">Lansare rapidă a aplicației după deblocare</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Folosește amprenta sau parola de pe tableta Xiaomi pentru a debloca telefonul și aplicațiile</string>
@@ -656,20 +689,31 @@ Funcționează cu aplicațiile de livrare de mâncare și transport cu clienții
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">Adăugați aplicații pentru telefon pe Ecranul principal al tabletei. După ce telefonul este deblocat, lansați-le direct de pe tabletă.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">Utilizează amprenta sau introduceți parola pentru a debloca</string>
     <string name="connect_settings_share_notification">Notificări</string>
+    <string name="connect_settings_share_notification_apple_watch">Afișează notificările de pe acest dispozitiv pe Apple Watch</string>
+    <string name="connect_settings_share_notification_apple_watch_category">Sincronizează notificările cu ceasul</string>
     <string name="connect_settings_share_notification_help">Ajutor</string>
     <string name="connect_settings_share_notification_iphone_device">Afișează notificările de pe acest dispozitiv pe iPhone</string>
     <string name="connect_settings_share_notification_local_device">Afișează notificările iPhone pe acest dispozitiv</string>
     <string name="connect_settings_share_notification_local_device_summary">Pentru a putea răspunde la apeluri și a primi mesaje și notificări ale aplicațiilor pe acest dispozitiv, permiteți sincronizarea notificărilor cu telefonul Xiaomi în Xiaomi Interconnectivity > Sincronizare notificări > Sincronizare cu Xiaomi pe iPhone.</string>
     <string name="connect_settings_share_notification_local_device_summary_v2">Pentru a putea răspunde la apeluri și a primi mesaje și notificări din aplicații pe dispozitivul Xiaomi, conectează-te la acesta pe iPhone în Interconectivitate Xiaomi > Sincronizare notificări > Sincronizare cu Xiaomi.</string>
     <string name="connect_settings_share_notification_local_device_title">Primește notificări de la %1$s</string>
+    <string name="connect_settings_share_notification_local_low_battery_summary">Afișează alerte de baterie descărcată de pe telefonul tău Xiaomi pe acest dispozitiv</string>
+    <string name="connect_settings_share_notification_local_low_battery_title">Alerte de baterie descărcată</string>
     <string name="connect_settings_share_notification_local_other_mi_device">Vizualizarea notificărilor de la alte dispozitive Xiaomi pe acest dispozitiv</string>
     <string name="connect_settings_share_notification_mi_device">Afișează notificări de la acest dispozitiv pe dispozitivele Xiaomi</string>
     <string name="connect_settings_share_notification_mi_device_category">Sincronizare cu dispozitivele din apropiere</string>
     <string name="connect_settings_share_notification_mi_device_category_v2">Dispozitive în apropiere</string>
+    <string name="connect_settings_share_notification_mi_device_category_v3">Sincronizează notificările cu dispozitivele din apropiere</string>
     <string name="connect_settings_share_notification_mi_device_v2">Tablete sau televizoare Xiaomi</string>
     <string name="connect_settings_share_notification_mi_device_v3">Tablete, computere și televizoare Xiaomi</string>
     <string name="connect_settings_share_notification_more_feature">Mai multe funcții</string>
+    <string name="connect_settings_share_notification_other_important">Opțiuni adiționale de sincronizare</string>
+    <string name="connect_settings_share_notification_other_important_summary">Afișează alerte de baterie descărcată de pe telefonul Xiaomi pe tabletele și computerele Xiaomi și alerte de livrare de mâncare și ridesharing pe televizoarele Xiaomi.</string>
+    <string name="connect_settings_share_notification_other_important_title">Sincronizare cu tablete, computere și televizoare Xiaomi</string>
     <string name="connect_settings_share_notification_other_mi_local_device">Vizualizarea notificărilor de pe acest dispozitiv pe alte dispozitive Xiaomi</string>
+    <string name="connect_settings_share_notification_pad_local">Afișează notificări de pe acest dispozitiv pe tableta Xiaomi</string>
+    <string name="connect_settings_share_notification_pad_mi_device_summary">Afișează notificările aplicației de pe telefonul Xiaomi pe acest dispozitiv. Selectează notificările pe care vrei să le sincronizezi pe telefon în Setări > Interconectivitate > Notificări pe mai multe dispozitive.</string>
+    <string name="connect_settings_share_notification_pad_mi_device_title">Notificări aplicație</string>
     <string name="connect_settings_share_notification_receive_tab">Primește</string>
     <string name="connect_settings_share_notification_receive_tab_device_category">Dispozitive disponibile</string>
     <string name="connect_settings_share_notification_receive_tab_device_category_v2">Dispozitive disponibile</string>
@@ -693,10 +737,17 @@ Funcționează cu aplicațiile de livrare de mâncare și transport cu clienții
     <string name="connect_settings_share_notification_send_tab">Sincronizează</string>
     <string name="connect_settings_share_notification_send_tab_device_category">Sincronizare cu telefonul</string>
     <string name="connect_settings_share_notification_send_tab_device_category_v2">Telefoanele mele</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v3">Dispozitive disponibile</string>
+    <string name="connect_settings_share_notification_send_tab_not_found_device_summary">Asigurați-vă că ați urmat instrucțiunile de mai sus. Atingeți \"Reîmprospătează\" pentru a încerca din nou.</string>
     <string name="connect_settings_share_notification_send_tab_summary">"Afișează notificările de pe acest dispozitiv pe telefoane, tablete sau televizoare conectate la același cont.
 *Funcții acceptate: Telefoanele pot afișa notificări despre apeluri, mesaje și aplicații; Televizoarele pot afișa alerte de livrare și de ridesharing; Tabletele și computerele pot afișa alerte de baterie descărcată de pe telefon."</string>
     <string name="connect_settings_share_notification_send_tab_summary_v2">"• Când acest dispozitiv este blocat, notificările de pe acesta pot fi vizualizate pe telefoane, tablete, computere sau televizoare conectate la același cont.
 •Puteți vizualiza apeluri, mesaje sau notificări despre aplicații pe telefoane, notificări despre livrarea de mâncare și transportul în comun pe televizoare și notificări despre baterie descărcată pe tablete și computere."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v3">"Notificările primite pe acest dispozitiv pot fi sincronizate și afișate pe alte dispozitive conectate la același Cont Xiaomi.
+• Sincronizare cu telefonul: Ambele dispozitive trebuie să fie conectate la același Cont Xiaomi și la rețea.
+• Sincronizare cu tableta: Tableta dvs. trebuie să fie în apropiere, conectată la același Cont Xiaomi și conectată la aceeași rețea sau utilizând Ecran principal+."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v4">"• Când acest dispozitiv este blocat, notificările de pe acesta pot fi vizualizate pe telefoane, tablete, computere, televizoare sau ceasuri conectate la același cont.
+• Puteți vizualiza apeluri, mesaje sau notificări din aplicații pe telefoane, notificări privind livrarea de mâncare și serviciile de ridesharing pe televizoare și notificări privind bateria descărcată pe tablete și computere."</string>
     <string name="connect_settings_share_notification_send_tab_v2">Sincronizează</string>
     <string name="connect_settings_summary"><Data>Descoperă dispozitivele din apropiere conectate la Contul Xiaomi și adaugă-le la Xiaomi Smart Hub. &lt;a href=%1$s>Learn more&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Permiteți dispozitivelor dvs. să interacționeze între ele wireless</string>
@@ -728,6 +779,7 @@ Activează Wi-Fi și Bluetooth înainte de utilizare."</string>
     <string name="console_guide_subtitle_small_window">Minimizați fereastra care este emisă pentru a putea utiliza alte funcții ale telefonului</string>
     <string name="copy">Copiați</string>
     <string name="copy_toast_msg">Linkul a fost copiat în clipboard</string>
+    <string name="copy_verification_code_tip">Cod de verificare copiat</string>
     <string name="current_wifi_tv">Rețea curentă</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -784,20 +836,18 @@ Activează Wi-Fi și Bluetooth înainte de utilizare."</string>
     <string name="dialog_nfc_cast_wifi_off">Activați WLAN pentru a putea emite folosind NFC. Activați acum?</string>
     <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Conectați dispozitivul mobil și televizorul la aceeași rețea Wi-Fi.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Pe unele modele de televizoare, această funcție este disponibilă numai când ecran oglindă este activat. Vezi &lt;a href=milink://com.milink.service/specification>\"Ajutor\"&lt;/a> pentru a afla mai multe.</Data></string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Conectați dispozitivul mobil și televizorul la aceeași rețea WLAN.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Pe unele modele de televizoare, această funcție este disponibilă numai când ecran oglindă este activat. Vezi &lt;a href=milink://com.milink.service/specification>\"Ajutor\"&lt;/a> pentru a afla mai multe.</Data></string>
+    <string name="dialog_no_device_message_new"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Conectați televizorul și telefonul la aceeași rețea Wi-Fi.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Unele televizoare trebuie să aibă activată funcția de oglindire a ecranului pentru a fi detectabile. &lt;a href=milink://com.milink.service/specification>Vezi ajutor&lt;/a> pentru detalii.</Data></string>
+    <string name="dialog_no_device_message_new_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Conectați televizorul și telefonul la aceeași rețea WLAN.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Unele televizoare trebuie să aibă activată funcția de oglindire a ecranului pentru a fi detectabile. &lt;a href=milink://com.milink.service/specification>Vezi ajutor&lt;/a> pentru detalii.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Transmiteți fotografii, videoclipuri sau muzică</string>
     <string name="dialog_open_remote_switch_content">Nu s-a putut aplica setarea. Asigurați-vă că dispozitivul %1$s este conectat la același cont și la aceeași rețea ca și acest dispozitiv.</string>
+    <string name="dialog_open_remote_switch_content_corp_phone">Nu s-a putut activa. Asigurați-vă că %1$s este conectat la același Cont Xiaomi și la aceeași rețea ca și acest dispozitiv.</string>
     <string name="dialog_open_wifi_bt">Porniți</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Asigurați-vă că funcția de emitere wireless este activată pe dispozitivul ales.
 Vizualizați ajutorul dacă aveți probleme la conectare."</string>
     <string name="dialog_recent_connected">Recent</string>
-    <string name="dialog_remote_authorization">Acordați permisiuni pentru %1$s</string>
-    <string name="dialog_remote_authorization_content">Acordă permisiuni de notificare către Interconectivitate pe %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Permite notificări de la %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">Aplicația %2$s a fost dezinstalată anterior de pe %1$s. Nu poți primi notificări de la aplicație pe acest dispozitiv. Modifică setările și încercați din nou.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Unele aplicații au fost dezinstalate anterior de pe %1$s și nu veți primi notificările acestora pe acest dispozitiv. Configurați din nou sincronizarea notificărilor.</string>
     <string name="dialog_reset_app_subscribe_multi">Modificați setările de notificare</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">Aplicațiile %2$s și %3$s au fost dezinstalate anterior de pe %1$s. Nu puteți primi notificări ale aplicației pe acest dispozitiv. Schimbați setările și încercați din nou.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">Aplicațiile %2$s, %3$s și %4$s au fost dezinstalate anterior de pe %1$s. Nu puteți primi notificări ale aplicației pe acest dispozitiv. Schimbați setările și încercați din nou.</string>
     <string name="dialog_retry">Încercați din nou</string>
     <string name="dialog_scan_message">"%1$d. Conectați dispozitivul mobil și televizorul la aceeași rețea Wi-Fi.
 
@@ -805,17 +855,46 @@ Vizualizați ajutorul dacă aveți probleme la conectare."</string>
     <string name="dialog_scan_message_china">"%1$d. Conectați dispozitivul mobil și televizorul la aceeași rețea WLAN.
 
 %2$d. Vezi \"Ajutor\" pentru a afla mai multe."</string>
+    <string name="dialog_scan_message_new">"%1$d. Conectați televizorul și telefonul la aceeași rețea Wi-Fi.
+
+%2$d. Unele televizoare trebuie să aibă activată funcția de oglindire a ecranului pentru a fi detectabile. Atingeți \"Vezi ajutor\" pentru detalii."</string>
+    <string name="dialog_scan_message_new_china">"%1$d. Conectați televizorul și telefonul la aceeași rețea WLAN.
+
+%2$d. Unele televizoare trebuie să aibă activată funcția de oglindire a ecranului pentru a fi detectabile. Atingeți \"Vezi ajutor\" pentru detalii."</string>
     <string name="dialog_scanning_close_dual_wifi_china">Dezactivați \"Accelerare viteză bandă duală WLAN\" pentru a putea proiecta. Dezactivați această funcție acum?</string>
     <string name="dialog_scanning_close_dual_wifi_global">Dezactivați \"Accelerare viteză bandă duală Wi-Fi \" pentru a putea proiecta. Dezactivați această funcție acum?</string>
     <string name="dialog_scanning_close_tethering">Dezactivați hotspot-ul pentru a putea proiecta. Dezactivați hotspot-ul acum?</string>
     <string name="dialog_scanning_device">Se caută dispozitive în apropiere…</string>
     <string name="dialog_scanning_precondition">Porniți Wi-Fi și Bluetooth pe telefon pentru a utiliza Afișajul wireless.</string>
+    <string name="dialog_scanning_precondition_new_1">Transmiterea ecranului necesită Wi-Fi și servicii de localizare. Activați?</string>
+    <string name="dialog_scanning_precondition_new_1_china">Transmiterea ecranului necesită WLAN, Bluetooth și servicii de localizare. Activați?</string>
     <string name="dialog_scanning_precondition_new_china">Activați serviciile WLAN, Bluetooth și de localizare pentru a putea utiliza emiterea. Activați acum?</string>
     <string name="dialog_scanning_precondition_new_global">Activați Wi-Fi și serviciile de localizare pentru a putea utiliza proiectarea. Activați acum?</string>
     <string name="dialog_select_tv">Selectează dispozitiv (%1$d)</string>
     <string name="dialog_show_help">Ajutor</string>
+    <string name="dialog_show_help_v1">Vezi ajutor</string>
     <string name="disconnect">Oprește emiterea</string>
+    <string name="dist_camera_pad_switch_off_toast_button_text">Am înțeles</string>
+    <string name="dist_camera_pad_switch_off_toast_subtitle">Activați Cameră între dispozitive pe tabletă în Setări > Interconectivitate.</string>
+    <string name="dist_camera_pad_switch_off_toast_title">Activează cameră între dispozitive</string>
+    <string name="dist_camera_phone_switch_off_toast_button_text">Am înțeles</string>
+    <string name="dist_camera_phone_switch_off_toast_subtitle">Activați Cameră între dispozitive pe telefon în Setări > Interconectivitate.</string>
+    <string name="dist_camera_phone_switch_off_toast_title">Activează cameră între dispozitive</string>
     <string name="dp_casting_start_hint">Conectat prin cablu. Proiectarea s-a terminat.</string>
+    <string name="dp_in_dialog_cancel">Anulează</string>
+    <string name="dp_in_dialog_enter">Activează</string>
+    <string name="dp_in_dialog_message">În acest mod, tableta funcționează doar ca ecran. Sunetele tabletei vor fi dezactivate, redându-se doar sunetul de la dispozitivul extern. Notificările de sistem nu vor apărea. Folosiți orientarea peisaj pentru o experiență optimă.</string>
+    <string name="dp_in_dialog_title">Activează Extensia de ecran Pro</string>
+    <string name="dp_in_exit_dialog_exit">Dezactivează</string>
+    <string name="dp_in_exit_dialog_message">Ecranul se va deconecta și veți reveni la Ecranul principal al tabletei.</string>
+    <string name="dp_in_exit_dialog_title">Dezactivezi Extensia de ecran Pro?</string>
+    <string name="dp_in_low_battery_confirm">Am înțeles</string>
+    <string name="dp_in_low_battery_message">Bateria este mai mică de %s. Încărcați în curând.</string>
+    <string name="dp_in_no_signal_exit">Dezactivează Extensia de ecran Pro</string>
+    <string name="dp_in_no_signal_subtitle">Asigurați-vă că dispozitivul este conectat</string>
+    <string name="dp_in_no_signal_title">Nu s-a putut detecta semnalul dispozitivului</string>
+    <string name="dp_in_notification_subtitle">Tableta funcționează doar ca ecran în acest mod</string>
+    <string name="dp_in_notification_title">Activează Extensia de ecran Pro</string>
     <string name="dual_wifi_warning_china">Dezactivează WLAN dual și încercați din nou</string>
     <string name="dual_wifi_warning_global">Dezactivează Wi-Fi dual și încercați din nou</string>
     <string name="early_morning">Dimineaţa</string>
@@ -835,6 +914,7 @@ Vizualizați ajutorul dacă aveți probleme la conectare."</string>
     <string name="err_toast_msg_not_support_audio_protocol">Nu se poate transfera redarea audio pe acest dispozitiv</string>
     <string name="err_toast_msg_retry_later">Această acțiune nu a putut fi efectuată. Așteptați un minut sau două și încercați din nou.</string>
     <string name="err_toast_msg_state_not_support">Tragerea nu este acceptată</string>
+    <string name="err_toast_msg_state_not_support_circulate">Nu se poate schimba acum</string>
     <string name="err_toast_msg_try_switch_network">Conectați atât dispozitivul mobil, cât și computerul la aceeași rețea WLAN</string>
     <string name="error_a11y_label">Eroare: nevalidă</string>
     <string name="error_icon_content_description">Eroare</string>
@@ -915,6 +995,7 @@ Vizualizați ajutorul dacă aveți probleme la conectare."</string>
     <string name="friday">Vineri</string>
     <string name="friday_short">Vin</string>
     <string name="friday_shortest">Vin</string>
+    <string name="fusion_device_nearby">Aproape</string>
     <string name="global_dialog_cancle">Anulează</string>
     <string name="global_dialog_miplay_permission_positive">Setări</string>
     <string name="global_dialog_nearbydevice_permission_message">Interconectivitate are nevoie de permisiunea de a se conecta la dispozitivele din apropiere pentru a le descoperi. Acordă această permisiune în Setări pentru a putea utiliza Interconectivitate în mod normal.</string>
@@ -928,6 +1009,9 @@ Vizualizați ajutorul dacă aveți probleme la conectare."</string>
     <string name="global_privacy_positive">De acord</string>
     <string name="global_privacy_screencast">În timpul înregistrării sau al proiectării, serviciul care oferă această funcție poate capta orice informații sensibile care sunt afișate pe ecran sau redate de pe dispozitiv, inclusiv informații sensibile, cum ar fi sunetul, parolele, informațiile de plată, fotografiile și mesajele.</string>
     <string name="global_privacy_tip"><Data>Trebuie să colectăm informațiile personale necesare pentru a vă oferi serviciile de bază și pentru a optimiza procesul de proiectare. Puteți afla cum gestionăm informațiile pe care le colectăm în &lt;a href=%1$s>Politica de confidențialitate&lt;/a>. Puteți să vă retrageți consimțământul pentru Politica de confidențialitate în Setări în orice moment.</Data></string>
+    <string name="guide_mask_btn">Începeți</string>
+    <string name="guide_mask_desc">Țineți apăsat un card, apoi fixați-l pentru a-l păstra în partea de sus în Centru de control și Xiaomi Smart Hub.</string>
+    <string name="guide_mask_title">Noul Xiaomi Smart Hub</string>
     <string name="hang_up">Difuzează cu ecranul dezactivat</string>
     <string name="hang_up_alert_dialog_content">Continuați difuzarea atunci când ecranul dispozitivului dvs. este oprit. Această caracteristică scade consumul de energie. Apăsați butonul de pornire pentru a reactiva ecranul.</string>
     <string name="hang_up_alert_dialog_neg">Anulează</string>
@@ -936,6 +1020,8 @@ Vizualizați ajutorul dacă aveți probleme la conectare."</string>
     <string name="head_toast_connecting">Se conectează…</string>
     <string name="head_toast_fail">Nu s-a putut conecta</string>
     <string name="head_toast_success">Conectat cu succes</string>
+    <string name="headset_circulate_card_default_title">Căștile sunt conectate</string>
+    <string name="headset_circulate_card_glasses_title">Ochelarii sunt conectați</string>
     <string name="headset_content_description">Căști conectate la acest dispozitiv. Apăsați de două ori pentru a activa. Apăsați cu două degete și trageți pentru a transfera redarea.</string>
     <string name="headset_content_description_global">Căști conectate la acest dispozitiv. Apăsați de două ori pentru a activa.</string>
     <string name="help_page_question_1st_01_international">"%1$d. Când dispozitivul pe care îl distribuiți este un televizor Xiaomi, activați Miracast pe el.
@@ -961,10 +1047,14 @@ Dacă cele două dispozitive nu pot fi conectate la aceeași rețea, activați M
     <string name="help_page_text_06_new_1">Televizoare Xiaomi, set-top box-uri și proiectoare:</string>
     <string name="help_page_text_06_new_2">"%1$d. Asigurați-vă că dispozitivul mobil și monitorul extern sunt conectate la aceeași rețea Wi-Fi.
 %2$d. Pe unele televizoare Xiaomi, puteți configura proiectarea de pe televizor, precum și personaliza metodele de căutare și verificare a dispozitivelor."</string>
+    <string name="help_page_text_06_new_2_china">"%1$d. Asigurați-vă că televizorul și telefonul sunt conectate la aceeași rețea WLAN.
+%2$d. Unele televizoare Xiaomi vă permit să personalizați descoperirea și verificarea dispozitivelor în setările de proiectare wireless."</string>
     <string name="help_page_text_06_new_3">*Puteți seta preferințele de proiectare pentru televizorul dvs. în setările de proiectare.</string>
     <string name="help_page_text_06_new_4">Televizoare Non-Xiaomi, set-top box-uri și proiectoare:</string>
     <string name="help_page_text_06_new_5">"%1$d. Asigurați-vă că dispozitivul mobil și monitorul extern sunt conectate la aceeași rețea Wi-Fi.
 %2$d. Pe unele branduri de televizoare, va trebui să activați Miracast pentru a putea proiecta."</string>
+    <string name="help_page_text_06_new_5_china">"%1$d. Asigurați-vă că televizorul și telefonul sunt conectate la aceeași rețea WLAN.
+%2$d. Unele mărci de televizoare necesită activarea funcției \"Miracast\"."</string>
     <string name="help_page_text_06_new_6">Aflați mai multe</string>
     <string name="help_page_text_08">Pas %1$d: Activează Se proiectează</string>
     <string name="help_page_text_08_new">Pas %1$d: Activează proiectarea</string>
@@ -982,6 +1072,12 @@ Dacă cele două dispozitive nu pot fi conectate la aceeași rețea, activați M
 %2$d. Asigurați-vă că mediul de rețea este stabil. Dacă nu, încercaţi să reporniţi routerul sau să comutaţi la o bandă de rețea de %3$d GHz.
 %4$d.Când proiectați pe un televizor Xiaomi, porniți funcția de proiectare wireless de pe televizor și rămâneți pe pagina de proiectarea în timp ce vă conectați.
 %5$d. Unele rețele publice mari, cum ar fi cele ale companiilor și școlilor, nu susțin capacitatea de a descoperi dispozitive pe aceeași rețea LAN."</string>
+    <string name="help_page_text_13_desc_1_new">"%1$d. Dacă proiectați conținut pe un televizor Xiaomi, activați „Miracast” pe televizor.
+%2$d. Dacă transmiteți conținut pe un televizor care nu este Xiaomi, asigurați-vă că acesta acceptă \"Miracast\" (numit și \"Afișaj wireless\", \"Ecran oglindă\" sau \"Interacțiune multi-ecran\" pe unele dispozitive) și că este activată."</string>
+    <string name="help_page_text_13_desc_1_new_china">"%1$d. Asigurați-vă că telefonul și televizorul sunt conectate la aceeași rețea WLAN sau conectați televizorul la același hotspot mobil.
+%2$d. Asigurați-vă că rețeaua este stabilă. Încercați să reporniți routerul sau să schimbați la un router de 5 GHz.
+%4$d. Dacă proiectați pe un televizor Xiaomi, încearcă să activezi \"Afișaj wireless\" pe televizor și să rămâi pe pagina principală.
+%5$d. Rețelele publice mari (birouri, școli, etc.) pot bloca descoperirea dispozitivelor din cauza izolării multicast."</string>
     <string name="help_page_text_13_desc_2">Unele televizoare utilizează conexiune non-LAN în timpul proiectări. Este normal ca aceste dispozitive să fie deconectate de la rețea. Se vor reconecta de obicei în %1$d-%2$d secunde</string>
     <string name="help_page_text_13_summary_1">Nu vă puteți conecta la un dispozitiv extern</string>
     <string name="help_page_text_13_summary_2">Întreruperi de rețea în timpul proiectări</string>
@@ -1042,13 +1138,19 @@ Dacă trebuie să activați Miracast, apăsați butonul [MENU] și selectați Ap
     <string name="help_page_text_55_global">"Dacă nu vă puteți conecta la rețea, asigurați-vă că monitorul extern acceptă funcționalitatea Miracast și este activat. Pe unele modele, această funcție se numește Afișaj Wireless, Ecran oglindă sau Ecrane multiple.
 %1$d. Dacă întâmpinați orice probleme, le puteți raporta folosind aplicația noastră \"Servicii și feedback\"."</string>
     <string name="help_page_text_end">Dacă marca dispozitivului dvs. nu este listată aici, contactați producătorul pentru a afla mai multe despre funcționalitatea de difuzare.</string>
+    <string name="hint_deivce">Vizualizați dispozitivele și funcțiile acceptate</string>
+    <string name="hint_text">Puteți gestiona Human × Car × Home devices prin Xiaomi Smart Hub</string>
+    <string name="home_curtain_card_close_button">Închideți</string>
+    <string name="home_curtain_card_open_button">Deschideți</string>
+    <string name="home_curtain_card_pause_button">Întrerupeți</string>
+    <string name="homemodule_camera__physical_mask">Camera este blocată</string>
+    <string name="homemodule_curtain_AllDevice_none">Fără perdele</string>
+    <string name="homemodule_light_AllDevice_none">Fără dispozitive de iluminat</string>
     <string name="i_see">Am înțeles</string>
+    <string name="ic_media_route_learn_more_accessibility">Află cum să proiectezi</string>
     <string name="icon_content_description">Pictogramă de dialog</string>
     <string name="image_transfer_failed">Nu s-au putut transfera imaginea</string>
     <string name="install">Instalează</string>
-    <string name="inter_connect_setting_unavailable_dialog_message">Deschide Setări > Interconectivitate pentru a activa cameră între dispozitive.</string>
-    <string name="inter_connect_setting_unavailable_dialog_positive_button">Am înțeles</string>
-    <string name="inter_connect_setting_unavailable_dialog_title">Cameră între dispozitive</string>
     <string name="introduction_to_accessibility_message">"Interconectivitate vă permite să controlați și să transferați date între dispozitive.
 
 Activați funcțiile de accesibilitate pentru a preveni utilizarea microfonului de către alte aplicații atunci când utilizați Interconectivitate.
@@ -1063,6 +1165,7 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="local_camera_device">Acest dispozitiv</string>
     <string name="local_device_camera">Acest dispozitiv</string>
     <string name="local_hotspot_opening">Dezactivați hotspot-ul acestui dispozitiv și încercați din nou</string>
+    <string name="login_hint">Conectați-vă la Contul Xiaomi</string>
     <string name="material_clock_toggle_content_description">Selectați ora</string>
     <string name="material_hour_24h_suffix">%1$s ore</string>
     <string name="material_hour_selection">Selectați ora</string>
@@ -1081,7 +1184,7 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="message_install">Instalează Mi Canvas pentru a putea schița pe diferite dispozitive.</string>
     <string name="message_update">Actualizează Mi Canvas pentru a putea schița pe diferite dispozitive.</string>
     <string name="midnight">Noapte</string>
-    <string name="mihome_camera_device_during_calll">Aparat foto este deja folosit pentru un apel</string>
+    <string name="mihome_camera_device_during_call_normal">Camera este în uz. Așteptați un minut sau două și încercați din nou.</string>
     <string name="mihome_camera_device_not_available">Nu se pot conecta mai multe dispozitive</string>
     <string name="mihome_camera_device_offline">Nu s-a putut conecta. Camera este offline.</string>
     <string name="mihome_camera_device_sleep">Ieșiți din Mod somn și încercați din nou</string>
@@ -1124,6 +1227,7 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="miuix_appcompat_action_mode_deselect_all">Deselectează tot</string>
     <string name="miuix_appcompat_action_mode_select_all">Selectează tot</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selectați elementele</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Selectează</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mai multe</string>
     <string name="miuix_appcompat_cancel_description">Anulează</string>
     <string name="miuix_appcompat_confirm_description">Confirmă</string>
@@ -1137,6 +1241,19 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="miuix_appcompat_select_all_description">Selectează tot</string>
     <string name="miuix_appcompat_select_item">Selectați elementele</string>
     <string name="miuix_appcompat_show_dialog_description">Fereastră pop-up</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Glisați în jos pentru a închide</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Glisați în jos pentru a schimba la jumătate de ecran</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Glisați în jos pentru a minimiza</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Glisați în sus pentru a schimba la jumătate de ecran</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Glisați în sus pentru a maximiza</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Jumătate de ecran</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximizat</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimizat</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Schimbă la jumătate de ecran</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximizați</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimizați</string>
+    <string name="miuix_popup_show_description">Fereastră pop-up</string>
+    <string name="miuix_popup_window_default_title">Fereastră pop-up</string>
     <string name="miuix_progressbar_loading">Încărcare</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Trage în jos pentru a reîmprospăta</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Reîmprospătat cu succes</string>
@@ -1149,6 +1266,13 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="miuix_show_password">Afișează parola</string>
     <string name="miuix_stretchablewidget_collapsed">Colaps</string>
     <string name="miuix_stretchablewidget_expanded">Extins</string>
+    <string name="mj_home_device_empty">Nu sunt dispozitive</string>
+    <string name="mj_module_card_name_curtain">Perdele</string>
+    <string name="mj_module_card_name_env">Mediu</string>
+    <string name="mj_module_card_name_light">Iluminat</string>
+    <string name="mj_room_curtain_device_none">Toate perdelele sunt trase</string>
+    <string name="mj_room_light_device_none">Toate luminile sunt stinse</string>
+    <string name="mj_talkback_device_main_need_psd">Parolă necesară</string>
     <string name="monday">Luni</string>
     <string name="monday_short">Lun</string>
     <string name="monday_shortest">Lun</string>
@@ -1195,8 +1319,17 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="mr_cast_button_connecting">Proiectează. Se conectează</string>
     <string name="mr_cast_button_disconnected">Proiectează. S-a deconectat</string>
     <string name="mr_cast_dialog_title_view_placeholder">Nu sunt informații disponibile</string>
+    <string name="mr_chooser_looking_for_devices">Se caută dispozitive…</string>
     <string name="mr_chooser_searching">Se caută dispozitive</string>
     <string name="mr_chooser_title">Proiectează pe</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Află mai multe</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Verifică dacă celălalt dispozitiv este în aceeași rețea Wi-Fi ca această mașină</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Verifică dacă celălalt dispozitiv este în aceeași rețea Wi-Fi ca acest telefon</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Verifică dacă celălalt dispozitiv este în aceeași rețea Wi-Fi ca această tabletă</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Verifică dacă celălalt dispozitiv este în aceeași rețea Wi-Fi ca acest televizor</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Verifică dacă celălalt dispozitiv este în aceeași rețea Wi-Fi ca acest dispozitiv</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Verifică dacă celălalt dispozitiv este în aceeași rețea Wi-Fi ca acest ceas</string>
+    <string name="mr_chooser_zero_routes_found_title">Nu sunt disponibile dispozitive</string>
     <string name="mr_controller_album_art">Grafica albumului</string>
     <string name="mr_controller_casting_screen">Se proiectează ecranul</string>
     <string name="mr_controller_close_description">Închide</string>
@@ -1261,8 +1394,11 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="mtrl_picker_toggle_to_year_selection">Atingeți pentru a comuta la afișarea An</string>
     <string name="mtrl_timepicker_cancel">Anulați</string>
     <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="nearby_device">Dispozitive disponibile</string>
     <string name="nfc_connect_failed_toast">Nu s-a putut emite. Încercați din nou.</string>
     <string name="night">Seara</string>
+    <string name="no_device">Nimic încă aici</string>
+    <string name="no_device_enable_hint">Descoperă automat dispozitivele din apropiere și conectează-le pentru a efectua o varietate de sarcini pe mai multe dispozitive.</string>
     <string name="noon">La amiază</string>
     <string name="normal_device_desc">Dispozitivele la care v-ați conectat, dar nu le-ați marcat ca fiind de încredere</string>
     <string name="normal_device_desc_limit">Dispozitivele la care v-ați conectat, dar nu le-ați marcat ca fiind de încredere</string>
@@ -1272,25 +1408,44 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="not_support_from_blacklist_toast">Proiectarea aplicației nu este acceptată în acest mod</string>
     <string name="not_support_from_whitelist_toast">Deschide aplicația pentru a proiecta</string>
     <string name="not_support_toast">Proiectarea aplicației nu este acceptată pentru această aplicație</string>
+    <string name="not_support_toast_split_screen">Proiectarea prin aplicație nu este acceptată în Ecran împărțit</string>
     <string name="nothing_to_play">Nu se redă</string>
+    <string name="noti_device_off">Oprit</string>
+    <string name="noti_device_on">Pornit</string>
     <string name="notification_cast_desc">Se emite…</string>
     <string name="notification_channel_description">Selectați tipurile de notificări care vor fi sincronizate de pe un alt dispozitiv pe dispozitivul dvs. Xiaomi</string>
+    <string name="notification_channel_description_2">Gestionați preferințele de notificare</string>
     <string name="notification_channel_subtitle_ref_call">Apel de pe iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Apel de la %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Mesaj Lark de la %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Apel de intrare pe %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">Notificare DingTalk pe %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Notificare Lark pe %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">Mesaj QQ de pe iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">Mesaj QQ de la %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">Notificare QQ pe %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Mesaj de pe iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Mesaj de la %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS pe %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">Notificare WeCom pe %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">Mesaj WeChat de pe iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">Mesaj WeChat de la %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">Notificare WeChat pe %1$s</string>
     <string name="notification_channel_title_name">Notificări sincronizate pe dispozitivul Xiaomi</string>
+    <string name="notification_channel_title_name_2">Notificări de la alte dispozitive</string>
+    <string name="notification_copy">Copiază</string>
     <string name="notification_desc_scanning">Se caută dispozitive în apropiere…</string>
     <string name="notification_incoming_call_to_reply">Apel de intrare. Răspunde pe %1$s.</string>
+    <string name="notification_permission_accept">Permite</string>
+    <string name="notification_permission_client_content">Acordă acestui dispozitiv permisiuni de notificare pe %1$s.</string>
+    <string name="notification_permission_client_title">Acordați permisiuni pentru %1$s</string>
     <string name="notification_permission_content">Permite notificările acestui dispozitiv pe orice iPhone cu Interconectivitate instalat și conectat la contul tău.</string>
+    <string name="notification_permission_content_v2">Permiteți afișarea apelurilor, SMS-urilor și notificărilor aplicațiilor de pe acest dispozitiv pe %1$s?</string>
+    <string name="notification_permission_deny">Nu permite</string>
     <string name="notification_permission_new_content">Permite afișarea apelurilor, mesajelor și notificărilor aplicațiilor de pe acest dispozitiv pe un iPhone cu opțiunea activată de sincronizare a notificărilor sau pe un dispozitiv Xiaomi cu opțiunea activată de notificări pe mai multe dispozitive.</string>
+    <string name="notification_permission_request_content">Deblocați pentru a permite accesul</string>
+    <string name="notification_permission_request_title">Permiteți accesul la notificări pentru %1$s</string>
+    <string name="notification_permission_title">Acordați permisiuni de notificare către %1$s</string>
     <string name="notification_rc_title">Asistent TV Xiaomi</string>
     <string name="notification_revice_phone">Notificări de la %1$s</string>
+    <string name="notification_send_page_pad_disabled">Permite notificările aplicațiilor pe %1$s în Setări > Interconectivitate > Notificări pe mai multe dispozitive</string>
+    <string name="notification_send_page_pad_offline">Asigurați-vă că %1$s este conectat la același Cont Xiaomi și la aceeași rețea ca și acest dispozitiv și permiteți notificările aplicațiilor în Setări > Interconectivitate > Notificări pe mai multe dispozitive.</string>
+    <string name="notification_send_page_title">Sincronizează notificările acestui dispozitiv cu %1$s</string>
     <string name="notification_show_more">Atingeți pentru a vizualiza mai multe funcții</string>
     <string name="notification_support_applist">Aplicații acceptate</string>
     <string name="notify_wifiap_dialog_msg">Pentru a scana codul și a configura rețeaua, mai întâi dezactivați hotspot-ul portabil.</string>
@@ -1313,6 +1468,7 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="open_wlan_self_china">Activați WLAN pentru a putea folosi funcțiile de interconectivitate. Activați acum?</string>
     <string name="open_wlan_self_toast">Activați Wi-Fi și încercați din nou</string>
     <string name="open_wlan_self_toast_china">Activați WLAN și încercați din nou</string>
+    <string name="operation_open_close">Pornire/Oprire</string>
     <string name="paipai_connect_btn_text">Efectuat</string>
     <string name="paipai_connect_tv1_text">Conectat la dispozitiv</string>
     <string name="paipai_connect_tv2_text">Date transferate</string>
@@ -1376,7 +1532,7 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="passport_error_length_limit">Textul introdus este prea lung</string>
     <string name="passport_error_network">Nu se poate conecta la rețea</string>
     <string name="passport_error_no_password_user">Nu ați setat încă parola. Conectați-vă prin SMS.</string>
-    <string name="passport_error_phone">Numărul de telefon nevalid</string>
+    <string name="passport_error_phone">Introduceți un număr de telefon valabil</string>
     <string name="passport_error_server">Eroare de server</string>
     <string name="passport_error_sms_limit">Au fost trimise prea multe coduri de verificare la acest număr. Încercați din nou mai târziu.</string>
     <string name="passport_error_ticket_invalid">Acest cod este incorect</string>
@@ -1490,9 +1646,12 @@ Notă: Veți primi un avertisment de sistem de rutină când activați funcțiil
     <string name="path_setting_cast_feature">Mai multe opțiuni de conectivitate/Proiectare/Funcții speciale</string>
     <string name="path_setting_cast_help">Mai multe opțiuni de conectivitate/Proiectare/Ajutor</string>
     <string name="permission_allowed">Acordat</string>
+    <string name="permission_label_access_app_meta">Accesează informațiile despre aplicații atunci când folosești aplicații pe mai multe dispozitive</string>
     <string name="permission_uballowed">Nu a fost acordat</string>
     <string name="picker_view_description">Cameră între dispozitive. Puteți atinge interiorul cardului pentru a selecta camerele de pe dispozitivele din apropiere.</string>
     <string name="picker_view_outside_description">Atingeți pentru a închide acest card.</string>
+    <string name="pin_device_header">Dispozitive fixate</string>
+    <string name="pin_hint">Fixează</string>
     <string name="pm">PM</string>
     <string name="pre_privacy_setting_title">Confidențialitate</string>
     <string name="preference_copied">„%1$s” a fost copiat în clipboard.</string>
@@ -1604,6 +1763,7 @@ Citiți și acceptați &lt;a href=%1$s>Acordul Utilizatorului&lt;/a> și &lt;a h
     <string name="screen_projection">Proiectează</string>
     <string name="screen_projection_characteristics">Funcții speciale</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Puteți schimba la Proiectare aplicație în Xiaomi HyperIsland pentru a proiecta aplicația curentă pe un monitor extern în timp ce utilizezi alte aplicații pe telefon.</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Puteți schimba la proiectarea aplicațiilor în Xiaomi HyperIsland pentru a proiecta aplicația curentă pe un monitor extern în timp ce utilizați alte aplicații pe tabletă.</string>
     <string name="screen_projection_characteristics_cast_summary">Proiectați conținutul ecranului pe un televizorul din apropiere</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Dezactivați ecranul dispozitivului mobil în timp ce proiectați pentru a economisi bateria și a evita supraîncălzirea</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Dezactivați ecranul în timp ce proiectați pentru a reduce consumul de energie și supraîncălzirea</string>
@@ -1675,6 +1835,7 @@ Asigurați-vă că ați activat Joc Turbo înainte de a proiecta jocuri."</strin
     <string name="small_window_not_supported">Nu puteți reduce această aplicație în timp ce se emite</string>
     <string name="sound_card_circulatable_control_text">Comenzi de redare</string>
     <string name="sound_card_circulatable_source_text">Sursă audio</string>
+    <string name="start_btn">Activează</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">Camera cu ochelari este în uz. Încercați din nou mai târziu.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">Se înregistrează audio. Nu se poate deschide Aparat foto.</string>
     <string name="start_forbidden_by_glasses_in_translation">Se traduce. Nu se poate deschide Aparat foto.</string>
@@ -1781,21 +1942,25 @@ Asigurați-vă că ați activat Joc Turbo înainte de a proiecta jocuri."</strin
     <string name="title_connection_interrupted">Conexiune întreruptă</string>
     <string name="title_install">Instalează Mi Canvas</string>
     <string name="title_update">Actualizează Mi Canvas</string>
+    <string name="to_login">Conectați-vă</string>
     <string name="toast_confirm_network">Configurarea nu a putut fi finalizată. Asigurați-vă că acest dispozitiv este conectat la rețea.</string>
     <string name="toast_copy_auth_message_finish">Copiat cu succes</string>
     <string name="toast_guide_show_more">Aflați mai multe</string>
     <string name="toast_guide_title">Explorați noile noastre funcții aici</string>
     <string name="toast_invisible_mode">Ești incognito. Nu poți utiliza emiterea acum.</string>
     <string name="toast_invisible_mode1">Proiectarea nu va funcționa când ești incognito</string>
+    <string name="toast_local_not_install">Această aplicație nu este instalată</string>
     <string name="toast_msg_for_multi_window">Nu puteți utiliza această funcție cu Ecranul împărțit</string>
     <string name="toast_msg_for_small_window">Puteți minimiza fereastra care este difuzată pentru a putea utiliza alte funcții ale telefonului dvs. fără a întrerupe procesul de difuzare.</string>
     <string name="toast_nfc_dont_move">Nu mutați telefonul departe</string>
     <string name="toast_nfc_same_wifi">Conectați atât televizorul, cât și acest dispozitiv la aceeași rețea</string>
+    <string name="toast_notification_device_not_found">Asigurați-vă că %1$s este conectat la același Cont Xiaomi ca și acest dispozitiv.</string>
     <string name="toast_remote_not_install">Această aplicație nu este instalată pe %1$s.</string>
     <string name="toast_retry">Așteptați până când setările sunt aplicate și încercați din nou</string>
     <string name="toast_synchronization">Se verifică starea dispozitivului. Încercați din nou mai târziu.</string>
     <string name="toast_title_for_small_window">Selectați \"Minimizați fereastra\" în aplicație</string>
     <string name="toast_turn_off_hotspot_before_cast">Dezactivați hotspot-ul portabil înainte de a emite</string>
+    <string name="toast_watch_app_not_install">Instalați această aplicație și încercați din nou</string>
     <string name="today">Astăzi</string>
     <string name="tomorrow">Mâine</string>
     <string name="trust_device_desc">Aceste dispozitive vor apărea aici mai întâi când sunt în apropiere</string>
@@ -1810,6 +1975,7 @@ Asigurați-vă că ați activat Joc Turbo înainte de a proiecta jocuri."</strin
     <string name="tuesday_shortest">Mar</string>
     <string name="unlock_screen_to_authorize_camera">%s dorește să folosească camera acestui dispozitiv</string>
     <string name="unlock_screen_to_authorize_camera_car">%s accesează camera acestui dispozitiv</string>
+    <string name="unpin_hint">Anulează fixarea</string>
     <string name="update">Actualizează</string>
     <string name="upgrade_accessibility_cancel_download">Descărcare anulată</string>
     <string name="upgrade_accessibility_finish_all_upgrade">Actualizat cu succes. Versiunea actuală este actualizată.</string>
@@ -1860,12 +2026,43 @@ Asigurați-vă că ați activat Joc Turbo înainte de a proiecta jocuri."</strin
     <string name="using_camera_of_device_description">Folosind camera a lui %1$s.</string>
     <string name="v7_preference_off">DEZACTIVAT</string>
     <string name="v7_preference_on">ACTIVAT</string>
+    <string name="verification_code_flow_title">Codul de verificare al lui %1$s</string>
+    <string name="verification_code_list_title">Cod</string>
+    <string name="watch_app_12306">Railway 12306</string>
+    <string name="watch_app_amap">Amap</string>
+    <string name="watch_app_baidu_map">Baidu Maps</string>
+    <string name="watch_app_category_title">Aplicații acceptate</string>
+    <string name="watch_app_didi">DiDi</string>
+    <string name="watch_app_hanglv">Umetrip</string>
+    <string name="watch_app_jd">JD</string>
+    <string name="watch_app_meituan">Meituan</string>
+    <string name="watch_app_meituan_waimai">Meituan Delivery</string>
+    <string name="watch_app_taobao">Taobao</string>
+    <string name="watch_app_taobao_flash">Taobao Shangou</string>
+    <string name="watch_call_sync_desc">Răspundeți la apelurile redirecționate de pe acest dispozitiv</string>
+    <string name="watch_call_sync_title">Apeluri</string>
+    <string name="watch_dynamic_island_desc">Sincronizați informații în timp real pentru călătorii, navigare, livrare de mâncare și multe altele</string>
+    <string name="watch_dynamic_island_page_title">Sincronizează notificările de pe Xiaomi HyperIsland pe Apple Watch</string>
+    <string name="watch_dynamic_island_title">Xiaomi HyperIsland</string>
+    <string name="watch_header_title">Apple Watch</string>
+    <string name="watch_health_data_desc">Sincronizează datele de fitness și sănătate de pe Apple Watch cu Mi Fitness</string>
+    <string name="watch_health_data_title">Date Sănătate</string>
     <string name="watch_more_setting">Mai multe opțiuni</string>
+    <string name="watch_notification_sync_desc">Sincronizează notificările de pe acest dispozitiv</string>
+    <string name="watch_notification_sync_page_title">Sincronizează notificările acestui dispozitiv cu Apple Watch</string>
+    <string name="watch_notification_sync_title">Notificări</string>
+    <string name="watch_page_description">"Primește apeluri, mesaje, notificări și informații în timp real de la Xiaomi HyperIsland de pe acest dispozitiv pe Apple Watch. Datele despre fitness și sănătate de pe Apple Watch pot fi, de asemenea, sincronizate cu Mi Fitness.
+* Activează permisiunile necesare pentru a utiliza funcțiile complete de interconectivitate."</string>
+    <string name="watch_page_description_global">"Primește apeluri, mesaje și notificări de pe acest dispozitiv pe Apple Watch.
+* Activează permisiunile necesare pentru a utiliza toate funcțiile de interconectivitate."</string>
+    <string name="watch_status_enabled">Pornit</string>
+    <string name="watch_status_not_enabled">Oprit</string>
     <string name="wednesday">Miercuri</string>
     <string name="wednesday_short">Mie</string>
     <string name="wednesday_shortest">Mie</string>
     <string name="wifi_connect_btn_text">Configurați</string>
-    <string name="wifi_disabled_dialog_message">Activați WLAN pe dispozitiv pentru a putea utiliza Cameră între dispozitive.</string>
+    <string name="wifi_disabled_dialog_message_china">Activează WLAN pentru a putea utiliza cameră între dispozitive.</string>
+    <string name="wifi_disabled_dialog_message_gl">Activează Wi-Fi pentru a putea utiliza cameră între dispozitive.</string>
     <string name="wifi_disabled_dialog_positive_button">Am înțeles</string>
     <string name="wifi_disabled_dialog_title">Cameră între dispozitive</string>
     <string name="wifi_other">Alte rețele</string>
@@ -1875,5 +2072,23 @@ Asigurați-vă că ați activat Joc Turbo înainte de a proiecta jocuri."</strin
     <string name="wifi_username_et_hint">ID Cont</string>
     <string name="window_card_ml_find_null">Este posibil ca acest dispozitiv să nu fie în apropiere</string>
     <string name="window_card_ml_find_null_camera">Nu s-a putut găsi camera sau dispozitivul utilizabil în apropiere</string>
+    <string name="window_card_pin_device_offline_group_cancel">Redarea în întreaga casă a fost anulată</string>
+    <string name="window_card_pin_device_offline_no_connection">Dispozitiv deconectat</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_car">Asigurați-vă că vehiculul dvs. este conectat la acest dispozitiv prin Bluetooth și este în uz</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_device">Asigurați-vă că dispozitivul Bluetooth este conectat la acest dispozitiv și este în uz</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_glasses">Asigurați-vă că și ochelari sunt conectați la acest dispozitiv prin Bluetooth și că sunt în uz.</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_headset">Asigurați-vă că și căștile sunt conectate la acest dispozitiv prin Bluetooth și că sunt în uz.</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_sound">Asigurați-vă că și difuzorul este conectat la acest dispozitiv prin Bluetooth și este în uz</string>
+    <string name="window_card_pin_device_offline_subtitle_car">"1. Asigurați-vă că acest dispozitiv este conectat la hotspotul vehiculului.
+2. De asemenea, vă puteți conecta la același Cont Xiaomi pe ambele dispozitive. Puteți conecta ambele dispozitive în Setări > Conectivitate > Interconectivitate pe vehicul."</string>
+    <string name="window_card_pin_device_offline_subtitle_group">Asigurați-vă că sunt selectate mai multe dispozitive în Xiaomi Smart Play</string>
+    <string name="window_card_pin_device_offline_subtitle_pad">Asigurați-vă că ambele dispozitive sunt aproape unul de celălalt și că Bluetooth-ul este activat</string>
+    <string name="window_card_pin_device_offline_subtitle_pad_car">Asigurați-vă că acest dispozitiv este conectat la hotspotul vehiculului</string>
+    <string name="window_card_pin_device_offline_subtitle_pc">Asigurați-vă că ambele dispozitive sunt aproape unul de celălalt și că Bluetooth-ul este activat</string>
+    <string name="window_card_pin_device_offline_subtitle_phone">Asigurați-vă că ambele dispozitive sunt aproape unul de celălalt, conectate la același Cont Xiaomi și au Bluetooth activat.</string>
+    <string name="window_card_pin_device_offline_subtitle_sound">Asigurați-vă că ambele dispozitive sunt conectate la aceeași rețea LAN</string>
+    <string name="window_card_pin_device_offline_subtitle_third_tv">Asigurați-vă că acest dispozitiv este proiectat pe televizorul tău</string>
+    <string name="window_card_pin_device_offline_subtitle_tv">Asigurați-vă că ambele dispozitive sunt conectate la aceeași rețea LAN</string>
+    <string name="window_card_pin_device_offline_subtitle_watch">Asigurați-vă că ceasul sau banda este conectată la Mi Fitness</string>
     <string name="yesterday">Ieri</string>
 </resources>

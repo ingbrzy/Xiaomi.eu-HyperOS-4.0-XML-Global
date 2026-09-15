@@ -7,10 +7,7 @@
     <string name="Xiaomi_Pad_6S_Pro">Xiaomi Pad 6S Pro 12.4</string>
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
-    <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
     <string name="abc_action_mode_done">Fertig</string>
-    <string name="abc_activity_chooser_view_see_all">Alle anzeigen</string>
-    <string name="abc_activitychooserview_choose_application">App auswählen</string>
     <string name="abc_capital_off">AUS</string>
     <string name="abc_capital_on">AN</string>
     <string name="abc_menu_alt_shortcut_label">Alt +</string>
@@ -25,12 +22,9 @@
     <string name="abc_prepend_shortcut_label">Menütaste +</string>
     <string name="abc_search_hint">Suchen…</string>
     <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
-    <string name="abc_searchview_description_query">Suchanfrage</string>
     <string name="abc_searchview_description_search">Suche</string>
     <string name="abc_searchview_description_submit">Anfrage senden</string>
     <string name="abc_searchview_description_voice">Sprachsuche</string>
-    <string name="abc_shareactionprovider_share_with">Teilen mit</string>
-    <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
     <string name="accessibility_sliding_button_state_description_off">Ausgeschaltet</string>
     <string name="accessibility_sliding_button_state_description_on">Eingeschaltet</string>
@@ -55,6 +49,8 @@
     <string name="btn_cancel_send">Diese Übertragung abbrechen</string>
     <string name="btn_exit_send">Beenden</string>
     <string name="btn_sure">OK</string>
+    <string name="calendar_date_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+    <string name="calendar_date_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
     <string name="call_notification_answer_action">Annehmen</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Ablehnen</string>
@@ -79,8 +75,6 @@
     <string name="connected">Verbunden</string>
     <string name="copy">Kopieren</string>
     <string name="count_and_size_of_file">%1$s %2$s</string>
-    <string name="custom_define_permission_desc_android.permission_group.LOCATION">Für die Übertragung von Dateien beim Verwenden von Bluetooth und WLAN</string>
-    <string name="custom_define_permission_desc_android.permission_group.STORAGE">Für das Senden und Empfangen von Dateien</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -107,8 +101,8 @@
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="enable_midrop">Einschalten</string>
-    <string name="eras_ad">n. Chr.</string>
-    <string name="eras_bc">v. Chr.</string>
+    <string name="eras_ad">u. Z.</string>
+    <string name="eras_bc">v. u. Z.</string>
     <string name="err_send_short_connect_error">Verbinden fehlgeschlagen</string>
     <string name="err_send_short_remote_busy">Gerät ist beschäftigt</string>
     <string name="err_send_short_remote_cancel">Abgebrochen</string>
@@ -186,8 +180,8 @@
     <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d.M.</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">M-yyyy</string>
-    <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
+    <string name="fmt_date_numeric_year_month">M.yyyy</string>
+    <string name="fmt_date_numeric_year_month_day">d.M.yyyy</string>
     <string name="fmt_date_short_month">MMM</string>
     <string name="fmt_date_short_month_day">d. MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
@@ -197,7 +191,7 @@
     <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour">"h 'o''Uhr'"</string>
     <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="fmt_time_12hour_minute_pm">h:mm a</string>
     <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
@@ -205,7 +199,7 @@
     <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
     <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
     <string name="fmt_time_12hour_pm">ha</string>
-    <string name="fmt_time_24hour">"H 'o''clock'"</string>
+    <string name="fmt_time_24hour">"H 'o''Uhr'"</string>
     <string name="fmt_time_24hour_minute">H:mm</string>
     <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
     <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
@@ -230,27 +224,20 @@
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">Fr</string>
-    <string name="functions_are_being_developed">Diese Funktion steht bald zur Verfügung. Bleib auf dem Laufenden!</string>
     <string name="global_help">Gerät nicht gefunden</string>
     <string name="global_my">"Mein Gerät
 %1$s"</string>
     <string name="go_to_settings">Einstellungen</string>
     <string name="guide_page_view1">Xiaomi Share auf beiden Geräten einschalten. Die andere Person kann auf den Toggle im Kontrollzentrum tippen. Seite %1$d von %2$d. Wische mit zwei Finger nach links oder rechts, um zu wechseln.</string>
-    <string name="guide_page_view1_lyra">Du kannst Xiaomi Share im Kontrollzentrum einschalten. Seite: %1$d von %2$d. Wische mit zwei Fingern nach links oder rechts, um zu wechseln.</string>
     <string name="guide_page_view1_os3">Schalte Xiaomi Share im Kontrollzentrum ein, um Dateien zu empfangen. Seite %1$d von %2$d. Wische mit zwei Fingern nach links oder rechts, um zu wechseln.</string>
-    <string name="guide_page_view2">Wähle das Gerät aus, an das du Elemente senden möchtest und tippe auf sein Symbol. Seite: %1$d von %2$d. Wische mit zwei Fingern nach links oder rechts, um zu wechseln.</string>
     <string name="guide_page_view2_os3">Wähle das Gerät aus, an das du Elemente senden möchtest. Seite: %1$d von %2$d. Wische mit zwei Fingern nach links oder rechts, um zu wechseln.</string>
     <string name="guide_page_view3">Bringe die NFC-Bereiche auf der Rückseite zweier Geräte nahe aneinander, um das Teilen zu beginnen. Seite %1$d von %2$d. Wische mit zwei Fingern nach links oder rechts, um zu wechseln.</string>
     <string name="guide_summary_1">Die andere Person kann den Schalter in der Benachrichtigungsleiste umlegen</string>
-    <string name="guide_summary_1_lyra">Du kannst Xiaomi Share im Kontrollzentrum jederzeit einschalten</string>
     <string name="guide_summary_1_os3">Du kannst Xiaomi Share im Kontrollzentrum jederzeit einschalten</string>
-    <string name="guide_summary_2">Wähle das Gerät aus, an das du Elemente schicken möchtest und tippe auf sein Symbol</string>
     <string name="guide_summary_2_os3">Wähle das Gerät aus, an das du Elemente schicken möchtest</string>
     <string name="guide_summary_3">Bringe die NFC-Bereiche auf der Rückseite zweier Geräte nahe aneinander, um das Teilen zu beginnen</string>
     <string name="guide_title_1">Xiaomi Share auf beiden Geräten einschalten</string>
-    <string name="guide_title_1_lyra">Xiaomi Share aktivieren, um Dateien zu empfangen</string>
     <string name="guide_title_1_os3">Xiaomi Share aktivieren, um Dateien zu empfangen</string>
-    <string name="guide_title_2">Gerät zum Teilen auswählen</string>
     <string name="guide_title_2_os3">Wähle ein Gerät aus, um Dateien zu senden</string>
     <string name="guide_title_3">Zum Teilen berühren</string>
     <string name="help">Gerät konnte nicht gefunden werden?</string>
@@ -327,37 +314,17 @@ Android-Geräte von anderen Herstellern: vivo, realme, OPPO, Honor, Black Shark,
     <string name="miuix_accessibility_title">Titel</string>
     <string name="miuix_appcompat_accessibility_collapse_state">Eingeklappt</string>
     <string name="miuix_appcompat_accessibility_expand_state">Erweitert</string>
-    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus beenden</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus verlassen</string>
     <string name="miuix_appcompat_accessibility_new_message">Neue Benachrichtigung</string>
-    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus starten</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Auswahl aufheben</string>
-    <string name="miuix_appcompat_action_mode_select_all">Alles auswählen</string>
-    <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus aufrufen</string>
+    <string name="miuix_appcompat_action_mode_select_all">Alle auswählen</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Auswählen</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mehr</string>
-    <string name="miuix_appcompat_cancel_description">Abbruch</string>
-    <string name="miuix_appcompat_confirm_description">Bestätigen</string>
-    <string name="miuix_appcompat_delete_description">Löschen</string>
-    <string name="miuix_appcompat_deselect_all">Auswahl aufheben</string>
-    <string name="miuix_appcompat_deselect_all_description">Alle abwählen</string>
-    <string name="miuix_appcompat_edit">Bearbeiten</string>
-    <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
-    <string name="miuix_appcompat_search_input_description">Suchen</string>
-    <string name="miuix_appcompat_select_all">Alles auswählen</string>
-    <string name="miuix_appcompat_select_all_description">Alles auswählen</string>
-    <string name="miuix_appcompat_select_item">Elemente auswählen</string>
+    <string name="miuix_appcompat_cancel_description">Abbrechen</string>
     <string name="miuix_appcompat_show_dialog_description">Pop-up-Fenster</string>
+    <string name="miuix_popup_show_description">Pop-up-Fenster</string>
     <string name="miuix_progressbar_loading">Indlæser</string>
-    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshing">Wird aktualisiert…</string>
-    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_nodata">"Das war's fürs Erste"</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_none">"Das war's fürs Erste"</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Moment...…</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Laden von Elementen fehlgeschlagen</string>
     <string name="miuix_show_password">Vis adgangskode</string>
-    <string name="miuix_stretchablewidget_collapsed">Eingeklappt</string>
-    <string name="miuix_stretchablewidget_expanded">Erweitert</string>
     <string name="monday">Montag</string>
     <string name="monday_short">Mo</string>
     <string name="monday_shortest">Mo</string>
@@ -406,7 +373,6 @@ Android-Geräte von anderen Herstellern: vivo, realme, OPPO, Honor, Black Shark,
     <string name="nearby_share">Nearby Share</string>
     <string name="nfc_check_the_touch_device">Zur Verbindung der Geräte sollten WLAN und Bluetooth auf dem anderen Gerät ebenfalls aktiviert sein. Überprüfe unter Einstellungen > Verbindung und Teilen > Verbundene Geräte, ob die Verbindung für das andere Gerät erlaubt ist und versuche es erneut.</string>
     <string name="nfc_check_the_touch_device_china">Zur Verbindung der Geräte sollten WLAN und Bluetooth auf dem anderen Gerät ebenfalls aktiviert sein. Überprüfe unter Einstellungen > Verbindung und Teilen > Verbundene Geräte, ob die Verbindung für das andere Gerät erlaubt ist und versuche es erneut.</string>
-    <string name="nfc_connect_fail">Verbindung fehlgeschlagen. Nach ein paar Minuten erneut versuchen.</string>
     <string name="nfc_connect_fail_lyra_secure">Du kannst Xiaomi Share im Kontrollzentrum deines Gerätes einschalten</string>
     <string name="nfc_connect_fail_lyra_secure_title">Xiaomi Share ist aus</string>
     <string name="nfc_connect_fail_pad">Verbindung fehlgeschlagen</string>
@@ -444,9 +410,15 @@ Android-Geräte von anderen Herstellern: vivo, realme, OPPO, Honor, Black Shark,
     <string name="pc_device_model_name">Computer</string>
     <string name="pc_redmi_device_model_name">Redmi-Laptop</string>
     <string name="pc_xiaomi_device_model_name">Xiaomi-Laptop</string>
+    <string name="permdesc_mishare_all">Erlaube der App den Zugriff auf die Kerndienste von Xiaomi Share</string>
+    <string name="permdesc_mishare_guide">Erlaube der App, die Xiaomi-Share-Hilfeseite anzuzeigen</string>
+    <string name="permdesc_mishare_nfc">Erlaube der App, NFC-Teilen-Dienste über Xiaomi Share einzuschalten, um Dateien schnell zwischen Geräten zu übertragen</string>
     <string name="permission_apply_purpose">Xiaomi Share erlauben, Geräte in der Nähe zu entdecken und zu verbinden, um Dateien übertragen zu können.</string>
     <string name="permission_denied_hint">Gewähre die erforderlichen Berechtigungen, um Xiaomi Share benutzen zu können</string>
     <string name="permission_related">Berechtigungen</string>
+    <string name="permlab_mishare_all">Zugriff auf geteilte Geräte</string>
+    <string name="permlab_mishare_guide">Zugriff aus Xiaomi-Share-Hilfe</string>
+    <string name="permlab_mishare_nfc">NFC-Teilen einschalten</string>
     <string name="pm">abends</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert.</string>
     <string name="privacy_authorize">Autorisierung</string>
@@ -483,7 +455,6 @@ Bevor du Xiaomi Share benutzt, musst du die folgenden Berechtigungen gewähren u
     <string name="redmi_k40">Redmi K40</string>
     <string name="redmi_k40_g">Redmi K40 Gaming Edition</string>
     <string name="redmi_k40_pro">Redmi K40 Pro</string>
-    <string name="redmi_k50_ultra">Redmi K50 Ultra</string>
     <string name="redmi_k70">Redmi K70</string>
     <string name="redmi_note_10">Redmi Note 10</string>
     <string name="redmi_note_10_pro">Redmi Note 10 Pro</string>
@@ -512,6 +483,8 @@ Bevor du Xiaomi Share benutzt, musst du die folgenden Berechtigungen gewähren u
     <string name="scanning_only_xiaomi_device">Dieses Element kann nur auf Xiaomi- oder Black Shark-Geräte übertragen werden.</string>
     <string name="search_menu_title">Suche</string>
     <string name="send">Senden</string>
+    <string name="send_complete">Erfolgreich gesendet</string>
+    <string name="send_failed">Senden fehlgeschlagen</string>
     <string name="send_files_by">Dateien teilen via</string>
     <string name="send_files_to">Elemente senden an</string>
     <string name="send_files_to_remote_success">Erfolgreich an %1$s gesendet</string>
@@ -554,7 +527,7 @@ Bevor du Xiaomi Share benutzt, musst du die folgenden Berechtigungen gewähren u
     <string name="share_open_nfc_title">NFC einschalten</string>
     <string name="share_refuse">Übertragung abgelehnt</string>
     <string name="share_send_notification_describe">Empfänger: %1$s</string>
-    <string name="share_show_nfc_position"><Data>&lt;a href=%1$s>NFC-Bereich anzeigen&lt;/a></Data></string>
+    <string name="share_show_nfc_position">&lt;a href=%1$s>NFC-Bereich des Xiaomi-Telefons anzeigen&lt;/a></string>
     <string name="share_to_be_sent">Ausstehend</string>
     <string name="share_waiting_connect">Ausstehend</string>
     <string name="share_waiting_other_recv">Dateien werden gesendet</string>
@@ -577,10 +550,7 @@ Bevor du Xiaomi Share benutzt, musst du die folgenden Berechtigungen gewähren u
     <string name="start_receive_much_files_from_pc">Mehr als %2$d Dateien von %1$s erfolgreich empfangen…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sub_title_mishare_switch">Diese Funktion wird automatisch nach %d Minuten ausgeschaltet.</string>
-    <string name="sub_title_mishare_switch_all">Du kannst alle Dateien empfangen</string>
-    <string name="sub_title_mishare_switch_mine">Du kannst Dateien von Geräten empfangen, die in deinem Konto angemeldet sind</string>
     <string name="sub_title_mishare_switch_mine_desc">Bevor du den Empfangsstatus auf „Von diesem Konto“ setzt, vergewissere dich, dass die Systemversion des anderen Geräts auf Xiaomi HyperOS oder höher und Xiaomi Share auf Version 3.0.0 oder höher aktualisiert wurde.</string>
-    <string name="sub_title_mishare_switch_none">Xiaomi Share aktivieren, um Dateien empfangen zu können</string>
     <string name="sub_title_mishare_switch_none_os3">Kann von Geräten in der Nähe gefunden werden</string>
     <string name="sub_title_turbo_mode">Wenn diese Funktion eingeschaltet ist, wird die Netzwerkverbindung während der Übertragung unterbrochen</string>
     <string name="sub_title_withdraw_privacy_policy_consent">Wenn du deine Einwilligung zur Datenschutzerklärung widerrufst, wird auch Xiaomi Share ausgeschaltet</string>
@@ -589,23 +559,26 @@ Bevor du Xiaomi Share benutzt, musst du die folgenden Berechtigungen gewähren u
     <string name="sunday">Sonntag</string>
     <string name="sunday_short">So</string>
     <string name="sunday_shortest">So</string>
-    <string name="support_device_type">Unterstützte Geräte</string>
     <string name="switch_mode_all">Von jedem (für %d Min.)</string>
     <string name="switch_mode_close">Aus</string>
     <string name="switch_mode_close_os3">Aus</string>
     <string name="switch_mode_sameaccount">Von diesem Konto</string>
+    <string name="tap_share_audio_transfer_describe">Öffne während der Audiowiedergabe die Xiaomi-Smart-Play-Karte oder eine Medien-App und halte dein Telefon anschließend in die Nähe des NFC-Tags des Fahrzeugs</string>
+    <string name="tap_share_audio_transfer_title">Audiowiedergabe übertragen</string>
+    <string name="tap_share_car_card_describe">Wenn kein Audio wiedergegeben wird, halte dein Telefon in die Nähe des NFC-Tags des Fahrzeugs</string>
+    <string name="tap_share_car_card_title">Fahrzeugsteuerung</string>
     <string name="tap_share_condition_describe">"%1$d. Auf beiden Geräten sind NFC, Bluetooth und WLAN aktiviert.
 %2$d. Aktualisiere Xiaomi Share auf deinem Xiaomi-Gerät auf die Version %3$s.
 %4$d. Installiere auf deinem iPhone die Xiaomi-Interkonnektivität-App."</string>
     <string name="tap_share_condition_describe_china">"%1$d. Auf beiden Geräten sind NFC, Bluetooth und WLAN aktiviert.
 %2$d. Aktualisiere Xiaomi Share auf deinem Xiaomi-Gerät auf die Version %3$s.
 %4$d. Installiere auf deinem iPhone die Xiaomi-Interkonnektivität-App."</string>
-    <string name="tap_share_condition_describe_os3">"%1$d. Stelle sicher, dass beide Geräte entsperrt sind und dass NFC, Bluetooth und WLAN eingeschaltet wurden.
-%2$d. Aktualisiere dein Xiaomi-Gerät auf Xiaomi HyperOS 3 oder später. Du kannst auch in den Einstellungen nach Xiaomi Share suchen, um zu überprüfen, ob „Zum Teilen berühren“ unterstützt wird.
-%4$d. Vergewissere dich, dass du ein iPhone 12 oder ein neueres Modell verwendest, auf dem iOS 17 oder später läuft. Installiere die neueste Version von Xiaomi-Interkonnektivität auf deinem iPhone."</string>
-    <string name="tap_share_condition_describe_os3_china">"%1$d. Stelle sicher, dass beide Geräte entsperrt sind und dass NFC, Bluetooth und WLAN eingeschaltet wurden.
-%2$d. Aktualisiere dein Xiaomi-Gerät auf Xiaomi HyperOS 3 oder später. Du kannst auch in den Einstellungen nach Xiaomi Share suchen, um zu überprüfen, ob „Zum Teilen berühren“ unterstützt wird.
-%4$d. Vergewissere dich, dass du ein iPhone 12 oder ein neueres Modell verwendest, auf dem iOS 17 oder später läuft. Installiere die neueste Version von Xiaomi-Interkonnektivität auf deinem iPhone."</string>
+    <string name="tap_share_condition_describe_os3">"%1$d. Aktualisiere dein Xiaomi-Telefon auf Xiaomi HyperOS 3.0 oder höher. Stelle sicher, dass dein Gerät „Zum Teilen berühren“ unterstützt, indem du in den Einstellungen nach Xiaomi Share suchst.
+%2$d. Vergewissere dich, dass die neueste Version von Xiaomi-Interkonnektivität auf einem iPhone 12 oder höher, mit iOS 17 oder höher, installiert ist.
+%4$d. Stelle sicher, dass die Bildschirme beider Geräte entsperrt und dass NFC, Bluetooth, WLAN sowie „Zum Teilen berühren“ eingeschaltet sind."</string>
+    <string name="tap_share_condition_describe_os3_china">"%1$d. Aktualisiere dein Xiaomi-Telefon auf Xiaomi HyperOS 3.0 oder höher. Stelle sicher, dass dein Gerät „Zum Teilen berühren“ unterstützt, indem du in den Einstellungen nach Xiaomi Share suchst.
+%2$d. Vergewissere dich, dass die neueste Version von Xiaomi-Interkonnektivität auf einem iPhone 12 oder höher, mit iOS 17 oder höher, installiert ist.
+%4$d. Stelle sicher, dass die Bildschirme beider Geräte entsperrt und dass NFC, Bluetooth, WLAN sowie „Zum Teilen berühren“ eingeschaltet sind."</string>
     <string name="tap_share_connecting_this_wifi">Verbindungsherstellung mit diesem WLAN-Netzwerk</string>
     <string name="tap_share_connecting_this_wlan">Verbindungsherstellung mit diesem WLAN-Netzwerk</string>
     <string name="tap_share_connecting_wifi">Verbindungsherstellung mit „%1$s“</string>
@@ -625,25 +598,39 @@ Bevor du Xiaomi Share benutzt, musst du die folgenden Berechtigungen gewähren u
 %d. Gib Kontakte frei, indem du die Detailseite eines Kontakts auf der Auswahlseite anzeigst oder auf „Freigeben“ tippst, um ein Freigabe-Popup zu öffnen.
 %d. Gib eine Webseite frei, indem du die Seite im Mi Browser öffnest oder auf „Freigeben“ tippst, um ein Freigabe-Popup zu öffnen.
 "</string>
+    <string name="tap_share_device_usage_condition">Anforderungen</string>
     <string name="tap_share_file_describe">Verwende „Zum Teilen berühren“ auf der Auswahlseite des Dateimanagers oder tippe auf „Senden“, um das Teilen-Menü zu öffnen.</string>
     <string name="tap_share_file_title">Dateien teilen</string>
     <string name="tap_share_game_team_up_describe">Betrete einen Gruppenraum in Mobile Legends: Bang Bang, um „Zum Teilen berühren“ zu verenden. Aktualisiere Mobile Legends: Bang Bang zuerst auf Version %1$s oder später.</string>
     <string name="tap_share_game_team_up_title">Spielgruppe</string>
+    <string name="tap_share_help_title">Hilfe</string>
+    <string name="tap_share_help_with_car">Wird mit Xiaomi Auto geteilt</string>
+    <string name="tap_share_help_with_other_android_iphone">Verwende „Zum Teilen berühren“, um mit anderen Android-Geräten zu teilen</string>
+    <string name="tap_share_help_with_phone_iphone">Wird mit einem Xiaomi-Telefon oder iPhone geteilt</string>
     <string name="tap_share_image_and_video_comment">Du kannst die folgenden Arten von Inhalt senden:</string>
     <string name="tap_share_image_and_video_describe">Zeige ein vollständiges Bild in der Galerie an oder drücke und halte es, um die Auswahlseite zu öffnen und „Zum Teilen berühren“ zu verwenden, oder tippe auf „Senden“, um ein Teilen-Menü zu öffnen.</string>
     <string name="tap_share_image_and_video_title">Fotos und Videos teilen</string>
     <string name="tap_share_image_describe">Berühre die hinteren NFC-Bereiche zweier Geräte, um schnell Elemente zu teilen.</string>
+    <string name="tap_share_image_describe_with_car">Halte dein Telefon in die Nähe des NFC-Tags deines Fahrzeugs, um Audioinhalte zu übertragen oder auf die Fahrzeugsteuerung zuzugreifen</string>
     <string name="tap_share_is_connect_this_wifi">Eine Verbindung mit einem WLAN-Netzwerk herstellen?</string>
     <string name="tap_share_is_connect_this_wlan">Verbindung mit diesem WLAN-Netzwerk herstellen?</string>
     <string name="tap_share_navigation_address_describe">Öffne die Details eines Standorts in Baidu Maps, um „Zum Teilen berühren“ oder tippe auf „Teilen“, um ein Teilen-Menü zu öffnen. Aktualisiere zuerst Baidu Maps auf Version %1$s oder später.</string>
     <string name="tap_share_navigation_address_title">Navigationsadresse teilen</string>
     <string name="tap_share_network_page_describe">Öffne eine Webseite in Mi Browser, um „Zum Teilen berühren“ zu verwenden oder tippe auf „Teilen“, um ein Teilen-Menü zu öffnen.</string>
     <string name="tap_share_network_page_title">Webseite teilen</string>
+    <string name="tap_share_no_content_to_share">Keine verfügbaren Elemente zum Teilen</string>
+    <string name="tap_share_note_describe">Verwende „Zum Teilen berühren“ auf der Detailseite einer Notiz oder auf der Auswahlseite oder tippe auf „Teilen“, um ein Teilen-Menü zu öffnen.</string>
+    <string name="tap_share_note_title">Notizen teilen</string>
     <string name="tap_share_preparing">Vorbereitung</string>
     <string name="tap_share_preparing_file">Dateien vorbereiten</string>
+    <string name="tap_share_receive_from_device">Geteilt von %1$s</string>
     <string name="tap_share_send_this_wifi">Dieses WLAN-Netzwerk teilen</string>
     <string name="tap_share_send_this_wlan">Dieses WLAN-Netzwerk teilen</string>
+    <string name="tap_share_send_to_device">An %1$s senden</string>
+    <string name="tap_share_sound_recorder_describe">Verwende „Zum Teilen berühren“ auf der Wiedergabeseite oder auf der Auswahlseite zu teilen oder tippe auf „Teilen“, um ein Teilen-Menü zu öffnen.</string>
+    <string name="tap_share_sound_recorder_title">Aufnahmen teilen</string>
     <string name="tap_share_subTitle">Berühre die Rückseiten zweier Geräte, um Elemente zu teilen.</string>
+    <string name="tap_share_tips_desc_generic">Halte die Rückseite des Telefons in die Nähe des NFC-Bereichs des anderen Geräts, um Elemente zu teilen</string>
     <string name="tap_share_tips_title">Berühre die Rückseiten zweier Geräte, um Elemente zu teilen.</string>
     <string name="tap_share_title">Zum Teilen berühren</string>
     <string name="tap_share_wifi_cannot_share">Dieses Netzwerk kann nicht geteilt werden</string>
@@ -655,58 +642,28 @@ Bevor du Xiaomi Share benutzt, musst du die folgenden Berechtigungen gewähren u
     <string name="tap_share_wifi_password_describe_china">Um ein WLAN-Netzwerk, mit dem du verbunden bist, zu teilen, öffne die WLAN-Liste, um „Zum Teilen berühren“ zu verwenden, oder tippe auf das verbundene WLAN-Netzwerk, um ein Teilen-Menü zu öffnen.</string>
     <string name="tap_share_wifi_password_title">WLAN-Passwort teilen</string>
     <string name="tap_share_wifi_password_title_china">WLAN-Passwort teilen</string>
+    <string name="tap_share_with_car_condition_describe_os4">"%1$d. Installiere und richte den offiziellen NFC-Tag in deinem Xiaomi Auto ein, indem du den Anweisungen folgst.
+%2$d. Aktualisiere dein Xiaomi-Telefon auf Xiaomi HyperOS 4.0.1 oder höher. Du kannst auch in den Einstellungen nach „Zum Teilen berühren“ suchen, um zu überprüfen, ob dein Telefon diese Funktion unterstützt..
+%4$d. Stelle sicher, dass die Bildschirme des Telefons und des Fahrzeugs eingeschaltet und entsperrt sind und schalte dann NFC, Bluetooth, WLAN und „Zum Teilen berühren“ ein."</string>
+    <string name="tap_share_with_car_condition_describe_os4_china">"%1$d. Installiere und richte den offiziellen NFC-Tag in deinem Xiaomi Auto ein, indem du den Anweisungen folgst.
+%2$d. Aktualisiere dein Xiaomi-Telefon auf Xiaomi HyperOS 4.0.1 oder höher. Du kannst auch in den Einstellungen nach „Zum Teilen berühren“ suchen, um zu überprüfen, ob dein Telefon diese Funktion unterstützt..
+%4$d. Stelle sicher, dass die Bildschirme des Telefons und des Fahrzeugs eingeschaltet und entsperrt sind und schalte dann NFC, Bluetooth, WLAN und „Zum Teilen berühren“ ein."</string>
+    <string name="tap_share_with_other_android_phone_condition_describe_os4">"%1$d. Aktualisiere dein Xiaomi-Telefon auf Xiaomi HyperOS 4.0.1 oder höher.
+%2$d. Aktualisiere deine OPPO-, vivo- und Honor-Telefone auf die neueste Version. Überprüfe die Einstellungen deines Telefons, um den NFC-Bereich zu finden.
+%4$d. Stelle sicher, dass die Bildschirme beider Geräte entsperrt und dass NFC, Bluetooth, WLAN sowie „Zum Teilen berühren“ eingeschaltet sind."</string>
+    <string name="tap_share_with_other_android_phone_condition_describe_os4_china">"%1$d. Aktualisiere dein Xiaomi-Telefon auf Xiaomi HyperOS 4.0.1 oder höher.
+%2$d. Aktualisiere deine OPPO-, vivo- und Honor-Telefone auf die neueste Version. Überprüfe die Einstellungen deines Telefons, um den NFC-Bereich zu finden.
+%4$d. Stelle sicher, dass die Bildschirme beider Geräte entsperrt und dass NFC, Bluetooth, WLAN sowie „Zum Teilen berühren“ eingeschaltet sind."</string>
     <string name="tapshare_receive_describe_wifi">Verbindungsherstellung mit „%1$s“</string>
-    <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
-    <string name="the_anti_aggression_day">Anti-Aggressionstag</string>
-    <string name="the_arbor_day">Tag des Baumes</string>
-    <string name="the_armed_forces_day">Tag der Streitkräfte</string>
-    <string name="the_armys_day">Tag des Militärs</string>
-    <string name="the_childrens_day">Kindertag</string>
-    <string name="the_chinese_youth_day">Jugendtag</string>
-    <string name="the_christmas_day">Weihnachten</string>
-    <string name="the_double_ninth_festival">Der doppelte neunte Festtag</string>
-    <string name="the_dragon_boat_festival">Drachenboot-Festival</string>
-    <string name="the_easter_day">Ostern</string>
-    <string name="the_eve_of_the_spring_festival">Abend des chinesischen Neujahrs</string>
-    <string name="the_fifth_day">Fünfter Tag des chinesischen Neujahrs</string>
-    <string name="the_fools_day">Erster April</string>
-    <string name="the_forth_day">Vierter Tag des chinesischen Neujahrs</string>
-    <string name="the_hksar_establishment_day">Gründungstag der Sonderverwaltungszone Hongkong</string>
-    <string name="the_international_womens_day">Frauentag</string>
-    <string name="the_laba_festival">Laba-Fest</string>
-    <string name="the_labour_day">Tag der Arbeit</string>
-    <string name="the_lantern_festival">Laternenfest</string>
-    <string name="the_mid_autumn_festival">Mondfest</string>
-    <string name="the_national_day">Nationalfeiertag</string>
-    <string name="the_national_father_day">Sun Yat-sens Geburtstag</string>
-    <string name="the_new_years_day">Neujahr</string>
-    <string name="the_night_of_sevens">Qixi-Fest</string>
-    <string name="the_partys_day">CPC-Tag</string>
-    <string name="the_peace_day">Tag des Waffenstillstandes</string>
-    <string name="the_retrocession_day">Tag der Retrozession</string>
-    <string name="the_second_day">Zweiter Tag des chinesischen Neujahrs</string>
-    <string name="the_seventh_day">Siebter Tag des chinesischen Neujahrs</string>
-    <string name="the_sixth_day">Sechster Tag des chinesischen Neujahrs</string>
-    <string name="the_spirit_festival">Tag der wandernden Seelen</string>
-    <string name="the_spring_festival">Chinesisches Neujahr</string>
-    <string name="the_teachers_day">Tag der Lehrer</string>
-    <string name="the_third_day">Dritter Tag des chinesischen Neujahrs</string>
-    <string name="the_tw_childrens_day">Kindertag</string>
-    <string name="the_tw_youth_day">Jugendtag</string>
-    <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
-    <string name="the_valentines_day">Valentinstag</string>
-    <string name="the_water_lantern_festival">Wasserlaternenfest</string>
-    <string name="throwing_print">Drucken</string>
-    <string name="throwing_screen">Cast</string>
     <string name="thursday">Donnerstag</string>
     <string name="thursday_short">Do</string>
     <string name="thursday_shortest">Do</string>
     <string name="tile_state_active">An</string>
     <string name="tile_state_inactive">Aus</string>
     <string name="tile_state_unavailable">Nicht verfügbar</string>
-    <string name="time_picker_dialog_title">Uhrzeit einstellen</string>
-    <string name="time_picker_label_hour">Std</string>
-    <string name="time_picker_label_minute">Min.</string>
+    <string name="time_picker_dialog_title">Zeit einstellen</string>
+    <string name="time_picker_label_hour">H</string>
+    <string name="time_picker_label_minute">M</string>
     <string name="tips_p2p_support_use5g">Die besten Ergebnisse erzielst du, wenn du ein 5-GHz-WLAN-Netzwerk verwendest.</string>
     <string name="tips_p2p_support_use5g_china">Die besten Ergebnisse erzielst du, wenn du ein 5-GHz-WLAN-Netzwerk verwendest.</string>
     <string name="tips_prompt_enable_midrop">Schalte Xiaomi Share ein, um Dateien mit Geräten in der Nähe zu teilen</string>
@@ -743,9 +700,7 @@ Bevor du Xiaomi Share benutzt, musst du die folgenden Berechtigungen gewähren u
     <string name="uwb_guide_summary_1">Wenn du das Zielgerät nicht finden kannst, bitte die andere Person, in ihrem Kontrollzentrum auf die Xiaomi-Share-Schaltfläche zu tippen.</string>
     <string name="uwb_guide_title_1">Bitte die andere Person, Xiaomi Share einzuschalten</string>
     <string name="uwb_guide_title_2">Das Zielgerät mit Beam schneller finden</string>
-    <string name="uwb_setting_guide">Mehr erfahren</string>
     <string name="uwb_setting_guide_summary">Beam nutzt UWB-Technologie, um Zielgeräte kabellos zu erkennen. Sobald das Zielgerät erkannt wurde, kommt das entsprechende Symbol in den Vordergrund.</string>
-    <string name="uwb_setting_guide_title">Halte dieses Gerät direkt gegenüber dem komatiblen Zielgerät</string>
     <string name="uwb_summary">Beam nutzt UWB-Technologie, um Zielgeräte kabellos zu erkennen. Die Übertragung von Elementen zwischen Geräten mit der UWB-Technologie ist schneller und komfortabler.</string>
     <string name="uwb_support_device">"Kompatible Geräte: "</string>
     <string name="uwb_title">Beam</string>

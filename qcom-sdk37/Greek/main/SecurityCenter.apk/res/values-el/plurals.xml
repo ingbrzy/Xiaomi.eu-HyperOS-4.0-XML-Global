@@ -40,6 +40,10 @@
         <item quantity="one">Προστέθηκε %d εφαρμογή</item>
         <item quantity="other">Προστέθηκαν %d εφαρμογές</item>
     </plurals>
+    <plurals name="anti_peeping_recommend_selected_tips">
+        <item quantity="one">Γρήγορη ενεργοποίηση της οθόνης απορρήτου για %1$d εφαρμογή</item>
+        <item quantity="other">Γρήγορη ενεργοποίηση της οθόνης απορρήτου για %1$d εφαρμογές</item>
+    </plurals>
     <plurals name="app_behavior_dashboard_title_desc">
         <item quantity="one">%d εφαρμογή</item>
         <item quantity="other">%d εφαρμογές</item>
@@ -107,6 +111,10 @@
     <plurals name="applock_one_key_lock">
         <item quantity="one">%s εφαρμογή θα είναι προστατευμένη με Κλείδωμα εφαρμογής</item>
         <item quantity="other">%s εφαρμογές θα είναι προστατευμένες με Κλείδωμα εφαρμογής</item>
+    </plurals>
+    <plurals name="background_virus_scan_notification_title">
+        <item quantity="one">Ανιχνεύτηκε %d κακόβουλη εφαρμογή</item>
+        <item quantity="other">Ανιχνεύτηκαν %d κακόβουλες εφαρμογές</item>
     </plurals>
     <plurals name="behavior_widget_app_text">
         <item quantity="one">%2$d εφαρμογή συμπεριλαμβανομένης της εφαρμογής %1$s</item>
@@ -432,6 +440,10 @@
         <item quantity="one">Προστέθηκε %d παιχνίδι</item>
         <item quantity="other">Προστέθηκαν %d παιχνίδια</item>
     </plurals>
+    <plurals name="intercept_accessibility_virus_notifiction_title">
+        <item quantity="one">Αποκλείστηκε %d κακόβουλη εφαρμογή</item>
+        <item quantity="other">Αποκλείστηκαν %d κακόβουλες εφαρμογές</item>
+    </plurals>
     <plurals name="intl_perm_privacy_control_message_count">
         <item quantity="one">Μπορείτε να προστατέψετε %d στοιχείο</item>
         <item quantity="other">Μπορείτε να προστατέψετε %d στοιχεία</item>
@@ -584,10 +596,6 @@
         <item quantity="one">%d εφαρμογή</item>
         <item quantity="other">%d εφαρμογές</item>
     </plurals>
-    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
-        <item quantity="one">%2$d εφαρμογή συμπεριλαμβανομένης της %1$s ενδέχεται να είναι κακόβουλες</item>
-        <item quantity="other">%2$d εφαρμογές συμπεριλαμβανομένης της %1$s ενδέχεται να είναι κακόβουλες</item>
-    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="one">+%d</item>
         <item quantity="other">+%d</item>
@@ -615,6 +623,14 @@
     <plurals name="pc_battery_replacement_service_day">
         <item quantity="one">%d-μέρα</item>
         <item quantity="other">%d-μέρες</item>
+    </plurals>
+    <plurals name="pc_battery_text_hour">
+        <item quantity="one">%d ώ</item>
+        <item quantity="other">%d ώ</item>
+    </plurals>
+    <plurals name="pc_battery_text_minute">
+        <item quantity="one">%d λεπ</item>
+        <item quantity="other">%d λεπ</item>
     </plurals>
     <plurals name="pc_can_be_optimize_numbers">
         <item quantity="one">%d αντικείμενο</item>
@@ -664,6 +680,10 @@
         <item quantity="one">%s λεπτό απομένει</item>
         <item quantity="other">%s λεπτά απομένουν</item>
     </plurals>
+    <plurals name="pc_smart_charge_notify_summary_long_time_charge">
+        <item quantity="one">Κατά την τελευταία %1$d ημέρα, οι συνεδρίες φόρτισης ήταν μεγάλες. Η φόρτιση θα διακοπεί προσωρινά στο %2$s.</item>
+        <item quantity="other">Κατά τις τελευταίες %1$d ημέρες, οι συνεδρίες φόρτισης ήταν μεγάλες. Η φόρτιση θα διακοπεί προσωρινά στο %2$s.</item>
+    </plurals>
     <plurals name="pc_statistics_battery_last_hour">
         <item quantity="one">%d ώρα απομένει</item>
         <item quantity="other">%d ώρες απομένουν</item>
@@ -679,6 +699,22 @@
     <plurals name="pc_statistics_battery_use_second">
         <item quantity="one">%d δευτερόλεπτο από την τελευταία φόρτιση</item>
         <item quantity="other">%d δευτερόλεπτα από την τελευταία φόρτιση</item>
+    </plurals>
+    <plurals name="peep_protection_v2_category_group_title">
+        <item quantity="one">%1$s (%2$d)</item>
+        <item quantity="other">%1$s (%2$d)</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_apps">
+        <item quantity="one">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_strategies">
+        <item quantity="one">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_page_count">
+        <item quantity="one">%d σελίδα</item>
+        <item quantity="other">%d σελίδες</item>
     </plurals>
     <plurals name="people">
         <item quantity="one">Έγινε λήψη από %1$d άτομο</item>
@@ -1011,6 +1047,10 @@
     <plurals name="traffic_setting_app_count">
         <item quantity="one">%d εφαρμογή</item>
         <item quantity="other">%d εφαρμογές</item>
+    </plurals>
+    <plurals name="uniauth_reset_lockscreen_sub_title">
+        <item quantity="one">Απομένει %1$d προσπάθεια</item>
+        <item quantity="other">Απομένουν %1$d προσπάθειες</item>
     </plurals>
     <plurals name="uninstall_game_count_title">
         <item quantity="one">Δεν έγινε προσθήκη %d παιχνιδιού</item>

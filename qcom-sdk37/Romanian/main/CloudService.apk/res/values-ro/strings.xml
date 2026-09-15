@@ -2,10 +2,7 @@
 <resources>
     <string name="abc_action_bar_home_description">Navigați la ecranul de pornire</string>
     <string name="abc_action_bar_up_description">Navigați în sus</string>
-    <string name="abc_action_menu_overflow_description">Mai multe opțiuni</string>
     <string name="abc_action_mode_done">Gata</string>
-    <string name="abc_activity_chooser_view_see_all">Afișați tot</string>
-    <string name="abc_activitychooserview_choose_application">Alegeți o aplicație</string>
     <string name="abc_capital_off">DEZACTIVAT</string>
     <string name="abc_capital_on">ACTIVAT</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
@@ -20,12 +17,9 @@
     <string name="abc_prepend_shortcut_label">Meniu+</string>
     <string name="abc_search_hint">Căutați…</string>
     <string name="abc_searchview_description_clear">Ștergeți interogarea</string>
-    <string name="abc_searchview_description_query">Termen de căutare</string>
     <string name="abc_searchview_description_search">Căutați</string>
     <string name="abc_searchview_description_submit">Trimiteți interogarea</string>
     <string name="abc_searchview_description_voice">Căutare vocală</string>
-    <string name="abc_shareactionprovider_share_with">Trimiteți la</string>
-    <string name="abc_shareactionprovider_share_with_application">Trimiteți folosind %s</string>
     <string name="abc_toolbar_collapse_description">Restrângeți</string>
     <string name="accept_all_permission_content">Găsește dispozitiv ar putea să nu funcționeze corect fără permisiuni. Selectați toate permisiunile enumerate pentru a putea utiliza toate funcțiile Găsește dispozitiv.</string>
     <string name="accept_all_permission_title">Permisiuni necesare</string>
@@ -48,7 +42,6 @@
     <string name="alert_sync_merge_dialog_confirm">Activează</string>
     <string name="am">AM</string>
     <string name="app_name">Xiaomi Cloud</string>
-    <string name="bad_authentication">Numele de utilizator sau parola nevalidă</string>
     <string name="browser_sync_settings_preference">Sincronizează automat</string>
     <string name="btn_return">Înapoi</string>
     <string name="btn_revoke_permission">Retragerea consimțământului</string>
@@ -56,6 +49,8 @@
     <string name="button_cancel">Anulează</string>
     <string name="button_quit">Ieșire</string>
     <string name="button_revoke">Retrage</string>
+    <string name="calendar_date_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="calendar_date_picker_a11y_prev_month">Treceți la luna anterioară</string>
     <string name="calendar_sync_item_permission">calendar</string>
     <string name="call_log_sync_item_permission">istoric apel</string>
     <string name="call_notification_answer_action">Răspunde</string>
@@ -118,8 +113,6 @@
     <string name="creation_dialog_title">Atenție</string>
     <string name="creation_sync_settings_only_in_wifi">Sincronizare numai pe WLAN</string>
     <string name="creation_sync_settings_only_in_wifi_summary">Recomandat pentru salvarea datelor mobile</string>
-    <string name="creation_sync_settings_preference">Sincronizare pânze</string>
-    <string name="creation_sync_settings_summary">Pânze create</string>
     <string name="cta_notification_content_text">Permite ca %s să se conecteze la internet pentru a putea restabili elemente</string>
     <string name="cta_notification_content_title">Nu s-a putut restabili elemente din %s</string>
     <string name="customize_notification_btn_text">Actualizează</string>
@@ -143,15 +136,16 @@
     <string name="detect_sim_card">Căutați pentru cartela SIM</string>
     <string name="device_activation_card_cannot_get_yet">Nu s-au putut obține informații. Încercați din nou peste 3-5 zile.</string>
     <string name="device_activation_card_cannot_get_yet_new">Nu s-au putut obține informații. Așteptați un minut sau două și încercați din nou.</string>
-    <string name="device_activation_card_description">Prima activare este înregistrată atunci când un dispozitiv se conectează la rețea (inclusiv, dar fără a se limita la rețele Wi-Fi și mobile) pentru prima dată. În mod normal, durează ceva timp pentru a înregistra prima activare, așa că este mai bine să așteptați 3-5 zile după conectarea la rețea înainte de a verifica starea activării.&lt;br>&lt;br>Activarea dispozitivului este factorul principal în determinarea perioadei de valabilitate a garanției noastre extinse. Consultați &lt;a href=%1$s>Politica noastră de returnare, schimb și reparații&lt;/a> pentru mai multe detalii.&lt;br>&lt;br>Nu ezitați să apelați linia noastră de asistență pentru clienți dacă aveți întrebări: 400-100-5678.</string>
-    <string name="device_activation_card_description_china">Prima activare este înregistrată atunci când un dispozitiv se conectează la rețea (inclusiv, dar fără a se limita la rețele WLAN și mobile) pentru prima dată. În mod normal, durează ceva timp pentru a înregistra prima activare, așa că este mai bine să așteptați 3-5 zile după conectarea la rețea înainte de a verifica starea activării.&lt;br>&lt;br>Activarea dispozitivului este factorul principal în determinarea perioadei de valabilitate a garanției noastre extinse. Consultați &lt;a href=%1$s>Politica noastră de returnare, schimb și reparații&lt;/a> pentru mai multe detalii.&lt;br>&lt;br>Nu ezitați să apelați linia noastră de asistență pentru clienți dacă aveți întrebări: 400-100-5678.</string>
-    <string name="device_activation_card_description_china_new">Prima activare este înregistrată atunci când un dispozitiv se conectează la rețea (inclusiv, dar fără a se limita la, rețelele WLAN și mobile) pentru prima dată. În mod normal, durează ceva timp pentru a înregistra prima activare, așa că este mai bine să așteptați &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> zile după conectarea la rețea înainte de a verifica starea activării.&lt;br>&lt;br>Activarea dispozitivului este principalul factor în determinarea perioadei de valabilitate a garanției noastre extinse. Consultați &lt;a href=%3$s>Politica noastră de returnare, schimb și reparare&lt;/a> pentru mai multe detalii.&lt;br>&lt;br>Nu ezitați să sunați la linia noastră telefonică de asistență pentru clienți dacă aveți întrebări: 400-100-5678.</string>
-    <string name="device_activation_card_description_new">Prima activare este înregistrată atunci când un dispozitiv se conectează la rețea (inclusiv, dar fără a se limita la, rețele Wi-Fi și mobile) pentru prima dată. În mod normal, durează ceva timp pentru a înregistra prima activare, așa că este mai bine să așteptați &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> zile după conectarea la rețea înainte de a verifica starea activării.&lt;br>&lt;br>Activarea dispozitivului este principalul factor în determinarea perioadei de valabilitate a garanției noastre extinse. Consultați &lt;a href=%3$s>Politica noastră de returnare, schimb și reparare&lt;/a> pentru mai multe detalii.&lt;br>&lt;br>Nu ezitați să sunați la linia noastră telefonică de asistență pentru clienți dacă aveți întrebări: 400-100-5678.</string>
+    <string name="device_activation_card_description">Prima activare este înregistrată atunci când un dispozitiv se conectează la rețea (inclusiv, dar fără a se limita la, rețele Wi-Fi și mobile) pentru prima dată. În mod normal, durează ceva timp pentru a înregistra prima activare, așa că este mai bine să așteptați &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> zile după conectarea la rețea înainte de a verifica starea activării.&lt;br>&lt;br>Activarea dispozitivului este principalul factor în determinarea perioadei de valabilitate a garanției noastre extinse. Consultați &lt;a href=%3$s>Politica noastră de returnare, schimb și reparare&lt;/a> pentru mai multe detalii.&lt;br>&lt;br>Nu ezitați să sunați la linia noastră telefonică de asistență pentru clienți dacă aveți întrebări: 950816.</string>
+    <string name="device_activation_card_description_china">Prima activare este înregistrată atunci când un dispozitiv se conectează la rețea (inclusiv, dar fără a se limita la, rețele WLAN și mobile) pentru prima dată. În mod normal, durează ceva timp pentru a înregistra prima activare, așa că este mai bine să așteptați &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> zile după conectarea la rețea înainte de a verifica starea activării.&lt;br>&lt;br>Activarea dispozitivului este principalul factor în determinarea perioadei de valabilitate a garanției noastre extinse. Consultați &lt;a href=%3$s>Politica noastră de returnare, schimb și reparare&lt;/a> pentru mai multe detalii.&lt;br>&lt;br>Nu ezitați să sunați la linia noastră telefonică de asistență pentru clienți dacă aveți întrebări: 950816.</string>
+    <string name="device_activation_card_description_china_new">Prima activare este înregistrată atunci când un dispozitiv se conectează la rețea (inclusiv, dar fără a se limita la, rețele WLAN și mobile) pentru prima dată. În mod normal, durează ceva timp pentru a înregistra prima activare, așa că este mai bine să așteptați &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> zile după conectarea la rețea înainte de a verifica starea activării.&lt;br>&lt;br>Activarea dispozitivului este principalul factor în determinarea perioadei de valabilitate a garanției noastre extinse. Consultați &lt;a href=%3$s>Politica noastră de returnare, schimb și reparare&lt;/a> pentru mai multe detalii.&lt;br>&lt;br>Nu ezitați să sunați la linia noastră telefonică de asistență pentru clienți dacă aveți întrebări: 950816.</string>
+    <string name="device_activation_card_description_new">Prima activare este înregistrată atunci când un dispozitiv se conectează la rețea (inclusiv, dar fără a se limita la, rețele Wi-Fi și mobile) pentru prima dată. În mod normal, durează ceva timp pentru a înregistra prima activare, așa că este mai bine să așteptați &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> zile după conectarea la rețea înainte de a verifica starea activării.&lt;br>&lt;br>Activarea dispozitivului este principalul factor în determinarea perioadei de valabilitate a garanției noastre extinse. Consultați &lt;a href=%3$s>Politica noastră de returnare, schimb și reparare&lt;/a> pentru mai multe detalii.&lt;br>&lt;br>Nu ezitați să sunați la linia noastră telefonică de asistență pentru clienți dacă aveți întrebări: 950816.</string>
     <string name="device_activation_card_device_not_support">Nu este suportat pe acest dispozitiv</string>
     <string name="device_activation_card_local_service_error">Nu s-au putut obține informații. Așteptați un minut sau două și încercați din nou.</string>
     <string name="device_activation_card_no_network_error">Nu s-a putut conecta la rețea. Verifică setările de conexiune la rețea și încearcă din nou.</string>
     <string name="device_activation_card_title">Prima activare</string>
     <string name="device_activation_page_title">Activarea dispozitivului</string>
+    <string name="device_location_tip">*Locația afișată este determinată de rețea și nu este exactă. Dacă ați făcut această solicitare de conectare, atingeți \"Permite\" pentru a vizualiza codul de verificare.</string>
     <string name="dialog_btn_yes_install_icon">Instalați</string>
     <string name="dialog_msg_install_manager_content">Instalați Găsește dispozitiv din nou?</string>
     <string name="dialog_storage_full_title">Spațiul de stocare cloud este plin</string>
@@ -168,7 +162,6 @@
     <string name="e2ee_button_next">Următorul</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Activați blocarea ecranului pentru acest dispozitiv pentru a vă putea actualiza cheia de securitate.</string>
     <string name="e2ee_data_protection_close_button">Dezactivează</string>
-    <string name="e2ee_data_protection_label_auto_fill">Gestionare parole</string>
     <string name="e2ee_data_protection_label_auto_fill_new">Parole</string>
     <string name="e2ee_data_protection_label_browser">Marcaje din browser</string>
     <string name="e2ee_data_protection_label_call_log">Istoric apel</string>
@@ -190,27 +183,19 @@
     <string name="e2ee_data_protection_update_security_key_title">Actualizați cheia de securitate</string>
     <string name="e2ee_device_delete">Eliminați dispozitivul</string>
     <string name="e2ee_device_delete_tip">Odată ce eliminați acest dispozitiv din Contul Xiaomi, acesta va fi deconectat și nu veți putea folosi serviciile Xiaomi Cloud, căutarea și alte funcții legate de cont până când nu vă conectați din nou.</string>
-    <string name="e2ee_device_delete_warning_dialog_content">Acest dispozitiv nu acceptă Protecția avansată a datelor, așa că nu vă veți putea conecta la contul dvs. dacă activați această funcție. Actualizați acest dispozitiv la Xiaomi HyperOS 2 pentru a vă putea conecta la contul dvs.</string>
-    <string name="e2ee_device_delete_warning_dialog_title">Nu se poate conecta</string>
     <string name="e2ee_device_exit_failed_tip">Nu s-a putut deconecta. Așteptați un minut sau două și încercați din nou.</string>
     <string name="e2ee_device_exit_failed_toast">Nu s-a putut deconecta. Așteptați un minut sau două și încercați din nou.</string>
     <string name="e2ee_device_exit_tip">%s este deconectat</string>
     <string name="e2ee_device_management_subtitle">"Aceste dispozitive nu au fost încă verificate ca dispozitive de încredere. Deconectați-vă de la Contul dvs. Xiaomi pe aceste dispozitive înainte de a activa Protecția avansată a datelor. "</string>
     <string name="e2ee_device_management_title">Gestionare dispozitive</string>
     <string name="e2ee_device_name">Nume dispozitiv</string>
-    <string name="e2ee_device_sim">Cartelă SIM</string>
-    <string name="e2ee_device_sim_default_tip">Nicio cartelă SIM activată</string>
     <string name="e2ee_device_system_version">Versiune sistem</string>
     <string name="e2ee_device_tip">Eliminați acest dispozitiv din contul dvs. înainte de a activa Protecția avansată a datelor</string>
-    <string name="e2ee_device_verification">Verificați-vă dispozitivul</string>
-    <string name="e2ee_device_verification_os_tip">Actualizați la Xiaomi HyperOS 2 sau o versiune ulterioară</string>
     <string name="e2ee_device_verification_result_subtitle">Dispozitivele deconectate de la Contul Xiaomi nu vor putea folosi Xiaomi Cloud și alte servicii conexe până când nu se vor conecta din nou.</string>
     <string name="e2ee_device_verification_result_title">Toate dispozitivele s-au deconectat</string>
     <string name="e2ee_device_verification_tip">Atingeți aici pentru a elimina acest dispozitiv</string>
     <string name="e2ee_dialog_close_subtitle">Datele protejate de această funcție nu vor mai accepta criptarea end-to-end, iar protecția avansată a datelor va fi dezactivată pe toate dispozitivele.</string>
     <string name="e2ee_dialog_close_title">Dezactivați Protecția avansată a datelor</string>
-    <string name="e2ee_dialog_exit_account_subtitle">Când un dispozitiv este deconectat, protecția avansată a datelor este dezactivată automat. Acest lucru nu va afecta alte dispozitive. Când vă conectați din nou, va trebui să activați din nou această funcție.</string>
-    <string name="e2ee_dialog_exit_account_title">Dezactivați Protecția avansată a datelor?</string>
     <string name="e2ee_error_device">Această funcție nu este acceptată pe acest dispozitiv.</string>
     <string name="e2ee_error_global_account">Această funcție nu este acceptată în regiunea dvs.</string>
     <string name="e2ee_error_init">Nu s-a putut inițializa. Așteptați un minut sau două și încercați din nou.</string>
@@ -221,7 +206,6 @@
     <string name="e2ee_exit_account_subtitle">Sunteți pe cale să vă deconectați de la ultimul dispozitiv conectat în prezent asociat cu Contul Xiaomi. Va trebui să utilizați o blocare de ecran sau o cheie de securitate pentru a vă conecta din nou și a accesa datele stocate în cloud. Ca alternativă, atingeți \"Dezactivați\" de mai jos pentru a dezactiva Protecția avansată a datelor.</string>
     <string name="e2ee_exit_account_title">Se deconectează</string>
     <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
-    <string name="e2ee_load_failed">Serverul este ocupat. Așteptați un minut sau două și încercați din nou.</string>
     <string name="e2ee_loading">Doar o secundă…</string>
     <string name="e2ee_loading_close">Se dezactivează…</string>
     <string name="e2ee_loading_open">Se activează…</string>
@@ -246,7 +230,6 @@
     <string name="e2ee_set_recovery_method">Metode de recuperare</string>
     <string name="e2ee_set_recovery_method_code">Cod de verificare</string>
     <string name="e2ee_set_recovery_method_lockscreen">Ecran de blocare</string>
-    <string name="e2ee_set_recovery_method_security_key">Cheie de acces de securitate (Nesetat)</string>
     <string name="e2ee_set_recovery_method_tip">Puteți obține acces la datele din cloud prin blocarea ecranului dispozitivului sau trimițând un cod de verificare. Puteți adăuga o metodă suplimentară de recuperare prin configurarea unei chei de acces de securitate.</string>
     <string name="e2ee_set_recovery_method_title">Metode de recuperare disponibile</string>
     <string name="e2ee_tip_forget_securityKey_button">Treci peste verificare</string>
@@ -458,10 +441,8 @@ De asemenea, puteți ajuta anonim pe alții să-și localizeze dispozitivele Xia
     <string name="lockscreen_positive_btn">Următorul</string>
     <string name="low_battery_locate_summary">Raportați automat informațiile despre locație atunci când bateria este descărcată</string>
     <string name="low_battery_locate_title">Raportează locația când bateria este descărcată</string>
-    <string name="manual_activation">Reactivează</string>
     <string name="master_alert_notif_content">Faceți copii de rezervă în mod regulat pentru a nu pierde nimic important.</string>
     <string name="master_alert_notif_title">Activați Xiaomi Cloud</string>
-    <string name="member_menu_vip_expire_time">Expiră pe %s</string>
     <string name="member_menu_vipname_free">Gratis</string>
     <string name="member_menu_vipname_mega">Mega</string>
     <string name="member_menu_vipname_premium">Premium</string>
@@ -627,12 +608,12 @@ De asemenea, puteți ajuta anonim pe alții să-și localizeze dispozitivele Xia
     <string name="micloud_member_net_error_alert_title">Nu se poate conecta la rețea</string>
     <string name="micloud_member_pay_miid_error_toast">Eroare cont</string>
     <string name="micloud_member_pay_order_error_toast">Eroare date</string>
-    <string name="micloud_membership_benefit_recycle_bin">Restore deleted items for an extended period</string>
-    <string name="micloud_membership_benefit_storage">Save photos and videos with expanded storage space</string>
-    <string name="micloud_membership_detail">Details</string>
-    <string name="micloud_membership_level_diamond">Ultra membership</string>
-    <string name="micloud_membership_level_gold">Premium membership</string>
-    <string name="micloud_membership_level_platinum">Mega membership</string>
+    <string name="micloud_membership_benefit_recycle_bin">Restabiliți elementele șterse pentru o perioadă extinsă de timp</string>
+    <string name="micloud_membership_benefit_storage">Salvează fotografii și videoclipuri cu spațiu de stocare extins</string>
+    <string name="micloud_membership_detail">Detalii</string>
+    <string name="micloud_membership_level_diamond">Abonament Ultra</string>
+    <string name="micloud_membership_level_gold">Abonament premium</string>
+    <string name="micloud_membership_level_platinum">Abonament Mega</string>
     <string name="micloud_notif_content_battery_low">Bateria e prea slabă.</string>
     <string name="micloud_notif_content_depend_wifi">Conectați-vă la Wi-Fi pentru a sincroniza.</string>
     <string name="micloud_notif_content_depend_wifi_china">Conectați-vă la WLAN pentru a sincroniza.</string>
@@ -709,7 +690,7 @@ De asemenea, puteți ajuta anonim pe alții să-și localizeze dispozitivele Xia
     <string name="micloud_preference_syncitem_title">Sincronizare cloud</string>
     <string name="micloud_preference_up_cloud_membership">Actualizați abonamentul Xiaomi Cloud</string>
     <string name="micloud_preference_upgrade_membership_warning">Stocarea în cloud este aproape plină. Actualizați-vă abonamentul Xiaomi Cloud pentru a obține mai mult spațiu de stocare și asigurați-vă că elementele dvs. pot fi sincronizate.</string>
-    <string name="micloud_preference_view_all">Vezi tot</string>
+    <string name="micloud_preference_view_all">Mai multe</string>
     <string name="micloud_preference_view_cloud_notes">Vizualizați notele din cloud</string>
     <string name="micloud_preference_view_cloud_recordings">Vezi înregistrările în cloud</string>
     <string name="micloud_preference_view_cloud_shared_family">Abonamentele la cloud partajate cu familia</string>
@@ -758,7 +739,7 @@ Asigurați-vă că utilizați Contul Xiaomi asociat ca și cont de sistem."</str
     <string name="micloud_sync_result_sim_activated_error">Nu se poate activa cartela SIM</string>
     <string name="micloud_sync_result_wifi_only">Acest element este prea lung. Sincronizați când sunteți conectat la Wi-Fi.</string>
     <string name="micloud_sync_result_wifi_only_china">Acest element este prea lung. Sincronizați când sunteți conectat la WLAN.</string>
-    <string name="micloud_wipe_data_confirm_label">Ștergeți elementele sincronizate de pe acest dispozitiv?</string>
+    <string name="micloud_wipe_data_confirm_label">Ștergeți elementele sincronizate</string>
     <string name="micloud_wipe_data_confirm_title">Unele elemente din următoarele aplicații sunt sincronizate cu Xiaomi Cloud. Puteți să le ștergeți de pe acest dispozitiv păstrându-le în cloud.</string>
     <string name="micloud_wipe_data_remove">Elimină</string>
     <string name="micloud_wipe_data_retain">Păstrează</string>
@@ -796,6 +777,7 @@ Asigurați-vă că utilizați Contul Xiaomi asociat ca și cont de sistem."</str
     <string name="miuix_appcompat_select_all_description">Selectează tot</string>
     <string name="miuix_appcompat_select_item">Selectați elementele</string>
     <string name="miuix_appcompat_show_dialog_description">Fereastră pop-up</string>
+    <string name="miuix_popup_show_description">Fereastră pop-up</string>
     <string name="miuix_progressbar_loading">Încărcare</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Trage în jos pentru a reîmprospăta</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Reîmprospătat cu succes</string>
@@ -856,14 +838,8 @@ Asigurați-vă că utilizați Contul Xiaomi asociat ca și cont de sistem."</str
     <string name="not_set">Nesetată</string>
     <string name="noti_quota_button_text">Actualizează</string>
     <string name="noti_quota_full_sum">Actualizați-vă planul de stocare pentru a continua sincronizarea elementelor.</string>
-    <string name="noti_quota_full_sum_without_button">Obțineți mai mult spațiu de stocare pentru a continua sincronizarea elementelor.</string>
-    <string name="noti_quota_full_title">Stocarea în cloud este &lt;font color=#F22424>plină&lt;/font></string>
-    <string name="noti_quota_full_title_without_button">Spațiul de stocare cloud este plin</string>
     <string name="noti_quota_low_sum">Actualizați-vă planul de stocare pentru a continua sincronizarea elementelor.</string>
-    <string name="noti_quota_low_sum_without_button">Obțineți mai mult spațiu de stocare pentru a continua sincronizarea elementelor.</string>
     <string name="noti_quota_low_title">Nu este suficient spațiu de stocare cloud</string>
-    <string name="noti_quota_low_title_with_storage">&lt;font color=#F22424>Mai puțin de &lt;xliff:g id=remaining_storage_space example=0.5>%s&lt;/xliff:g> GB&lt;/font> de stocare în cloud rămase</string>
-    <string name="noti_quota_low_title_without_button">Nu este suficient spațiu de stocare cloud</string>
     <string name="notification_sync_fail_title">Parolele nu au putut fi sincronizate</string>
     <string name="notification_update_key_text">Parola de gestionare a codului de acces a fost modificată. Verificați noul cod de acces.</string>
     <string name="offline_find_action_open">Activează</string>
@@ -897,6 +873,10 @@ Asigurați-vă că utilizați Contul Xiaomi asociat ca și cont de sistem."</str
     <string name="passkeeper_install_keybag_title">Introduceți parola pentru Gestionare parole</string>
     <string name="passkeeper_sync_off_confirm_content">Nu veți putea sincroniza noile parole cu cloud-ul dacă dezactivați această funcție.</string>
     <string name="passkeeper_sync_on">Se activează…</string>
+    <string name="passport_two_factor_change_password_dialog_message">Dacă această solicitare nu a fost făcută de dumneavoastră, vă recomandăm să vă schimbați parola.</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">Anulează</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">Schimbă</string>
+    <string name="passport_two_factor_change_password_dialog_title">Schimbați parola?</string>
     <string name="pay_info_dialog_confirm_to_pay">Plătește %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Utilizați restul de Monede Mi: %s</string>
     <string name="pay_info_dialog_title">Selectați metoda de plată</string>
@@ -919,10 +899,6 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="pref_title_sync_display_photo_on_wifi_only_china">Utilizați numai WLAN pentru a sincroniza fotografii</string>
     <string name="preference_copied">„%1$s” a fost copiat în clipboard.</string>
     <string name="privacy_and_agreement">Termeni și condiții</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad">Bine ați venit la Găsește dispozitiv! Puteți folosi această aplicație pentru a localiza, urmări și bloca dispozitivul atunci când lipsește. De asemenea, puteți ajuta în mod anonim pe alții să-și localizeze dispozitivele Xiaomi.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">Puteți utiliza Găsește dispozitiv pentru a localiza, bloca sau șterge datele de pe dispozitiv dacă acestea sunt pierdute.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone">Bine ați venit la Găsește dispozitiv! Puteți folosi această aplicație pentru a localiza, urmări și bloca dispozitivul atunci când lipsește. De asemenea, puteți ajuta în mod anonim pe alții să-și localizeze dispozitivele Xiaomi.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">Puteți utiliza Găsește dispozitiv pentru a localiza, bloca sau șterge datele de pe dispozitiv dacă acestea sunt pierdute.</string>
     <string name="privacy_dialog_sync_all_purpose_china">Bine ați venit la serviciile Xiaomi Cloud! Puteți utiliza Xiaomi Cloud pentru a vă sincroniza mesajele, istoricul apelurilor, contactele, notele, setările browserului, fotografiile și videoclipurile, setările WLAN, înregistrările, aspectul Ecranului principal, aplicații, evenimente din calendar, elemente din lista neagră, istoric apel și Aplicația seif în toate dispozitive conectate.</string>
     <string name="privacy_dialog_sync_all_purpose_china_v2">Bine ați venit la serviciile Xiaomi Cloud! Puteți utiliza Xiaomi Cloud pentru a vă sincroniza mesajele, istoricul apelurilor, contactele, notele, setările browserului, fotografiile și videoclipurile, setările WLAN, înregistrările, aspectul Ecranului principal, aplicații, evenimente din calendar, elemente din lista neagră, istoric apel și Aplicația seif în toate dispozitive conectate.</string>
     <string name="privacy_dialog_sync_all_purpose_pad">Bine ați venit la serviciile Xiaomi Cloud! Puteți utiliza această aplicație pentru a vă sincroniza mesajele, contactele, notele, elementele din browser, albumele în cloud, muzica, calendarul, lista neagră și istoricul apelurilor în cloud.</string>
@@ -931,7 +907,6 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="privacy_dialog_sync_all_purpose_pad_without_sim_or_contact">Bine ați venit la serviciile Xiaomi Cloud! Puteți utiliza Xiaomi Cloud pentru a vă sincroniza notele, setările Browserului, fotografiile și videoclipurile, înregistrările, evenimentele din calendar și elementele Listei neagră pe toate dispozitivele conectate.</string>
     <string name="privacy_doc_cloudservice_china_v2_with_charge_hint_new">Bine ați venit la serviciile Xiaomi Cloud! Puteți utiliza Xiaomi Cloud pentru a vă sincroniza mesajele, istoricul apelurilor, contactele, notele, setările browserului, fotografiile și videoclipurile, setările WLAN, înregistrările, aspectul Ecranului principal, aplicațiile, evenimentele din calendar, elementele din Lista neagră și Aplicație seif pe toate dispozitivele conectate. Accesați lucrurile pe care le sincronizați din orice browser la &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Pentru a activa aceste servicii, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> SMS intern plătit&lt;/b>&lt;/font> va fi trimis. Când schimbați cartelele SIM, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> SMS intern plătit&lt;/b>&lt;/font> va fi trimis automat pentru reactivare.&lt;br/>Toate taxele de SMS generate de acțiunile menționate mai sus vor fi colectate de operatorul dvs. Xiaomi nu vă va taxa pentru aceste mesaje.&lt;br />&lt;br />Vă vom proteja informațiile personale în conformitate cu legile, reglementările și politicile de confidențialitate relevante.&lt;br />Pentru a putea funcționa normal, aceste servicii trebuie să se conecteze la internet și necesită următoarele permisiuni pentru a colecta informațiile dvs. personale:&lt;br />• Calendar:&lt;br />Pentru sincronizarea evenimentelor&lt;br />• Accesare SMS:&lt;br />Pentru sincronizarea mesajelor&lt;br />• Accesare MMS:&lt;br />Pentru sincronizarea mesajelor&lt;br />• Accesare contacte:&lt;br />Pentru sincronizarea contactelor&lt;br />• Editare contacte:&lt;br />Pentru sincronizarea contactelor&lt;br />• Stocare:&lt;br />Pentru salvarea elementelor pe dispozitiv (de exemplu: imagini și videoclipuri)&lt;br />Dacă nu sunteți de acord să acordați astfel de permisiuni sau să distribuiți și să încărcați informațiile dvs. personale, nu veți putea folosi aceste servicii. Puteți alege să dezinstalați această aplicație, să vă deconectați sau să restricționați permisiunile din Setări în astfel de cazuri.&lt;br />Citiți și acceptați &lt;a href=%3$s>&lt;u>Acordul utilizatorului&lt;/u>&lt;/a> și &lt;a href=%4$s>&lt;u>Politica de confidențialitate&lt;/u>&lt;/a> înainte de a utiliza serviciile noastre.&lt;br /></string>
     <string name="privacy_doc_cloudservice_china_with_charge_hint_new">Bine ați venit la serviciile Xiaomi Cloud! Puteți utiliza Xiaomi Cloud pentru a vă sincroniza mesajele, istoricul apelurilor, contactele, notele, setările browserului, fotografiile și videoclipurile, setările WLAN, înregistrările, aspectul Ecranului principal, aplicațiile, evenimentele din calendar, elementele din Lista neagră și Aplicație seif pe toate dispozitivele conectate. Accesați elementele pe care le sincronizați din orice browser la &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Pentru a activa aceste servicii, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> SMS intern plătit&lt;/b>&lt;/font> va fi trimis. Când schimbați cartelele SIM, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> SMS intern plătit&lt;/b>&lt;/font> va fi trimis automat pentru reactivare.&lt;br/>Toate taxele de SMS generate de acțiunile menționate mai sus vor fi colectate de operatorul dvs. Xiaomi nu vă va taxa pentru aceste mesaje.&lt;br />&lt;br />Vă vom proteja informațiile personale în conformitate cu legile, reglementările și politicile de confidențialitate relevante.&lt;br />Pentru a putea funcționa normal, aceste servicii trebuie să se conecteze la internet și necesită următoarele permisiuni pentru a colecta informațiile dvs. personale:&lt;br />• Calendar:&lt;br />Pentru sincronizarea evenimentelor&lt;br />• Accesare SMS:&lt;br />Pentru sincronizarea mesajelor&lt;br />• Accesare MMS:&lt;br />Pentru sincronizarea mesajelor&lt;br />• Accesare contacte:&lt;br />Pentru sincronizarea contactelor&lt;br />• Editare contacte:&lt;br />Pentru sincronizarea contactelor&lt;br />• Stocare:&lt;br />Pentru salvarea elementelor pe dispozitiv (de exemplu: imagini și videoclipuri)&lt;br />Dacă nu sunteți de acord să acordați astfel de permisiuni sau să distribuiți și să încărcați informațiile dvs. personale, nu veți putea folosi aceste servicii. Puteți alege să dezinstalați această aplicație, să vă deconectați sau să restricționați permisiunile din Setări în astfel de cazuri.&lt;br />Citiți și acceptați &lt;a href=%3$s>&lt;u>Acordul utilizatorului&lt;/u>&lt;/a> și &lt;a href=%4$s>&lt;u>Politica de confidențialitate&lt;/u>&lt;/a> înainte de a utiliza serviciile noastre.&lt;br /></string>
-    <string name="privacy_doc_cloudservice_global">Xiaomi Cloud trebuie să se conecteze la internet pentru a funcționa normal. Sincronizarea datelor ar putea necesita utilizarea datelor mobile și activarea Wi-Fi. Citiți și acceptați &lt;a href=%1$s>&lt;u>Acordul utilizatorului&lt;/u>&lt;/a> și &lt;a href=%2$s>&lt;u>Politica de confidențialitate&lt;/u>&lt;/a> înainte de a utiliza serviciile Xiaomi Cloud.</string>
     <string name="privacy_doc_cloudservice_pad_new">Bine ați venit la serviciile Xiaomi Cloud! Puteți utiliza Xiaomi Cloud pentru a vă sincroniza mesajele, contactele, notele, setările browserului, fotografiile și videoclipurile, înregistrările, aplicațiile, evenimentele din calendar și elementele din lista neagră pe toate dispozitivele conectate. Accesați elementele pe care le sincronizați din orice browser la &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Pentru a activa aceste servicii, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b> SMS național tarifat&lt;/b>&lt;/font> va fi trimis. Când schimbați cartelele SIM, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b>SMS național tarifat&lt;/b>&lt;/font> va fi trimis automat pentru reactivare.&lt;br/>Toate tarifele pentru SMS-urile generate de acțiunile menționate mai sus vor fi colectate de operatorul dvs. Xiaomi nu vă va taxa pentru aceste mesaje.&lt;br />&lt;br />Vă vom proteja informațiile personale în conformitate cu legile, reglementările și politicile de confidențialitate relevante.&lt;br />Pentru a putea funcționa normal, aceste servicii trebuie să se conecteze la internet și necesită următoarele permisiuni pentru a colecta informațiile dvs. personale:&lt;br />• Calendar:&lt;br />Pentru sincronizarea evenimentelor&lt;br />• Accesare SMS:&lt;br />Pentru sincronizarea mesajelor&lt;br />• Accesare MMS:&lt;br />Pentru sincronizarea mesajelor&lt;br />• Accesare contacte:&lt;br />Pentru sincronizarea contactelor&lt;br />• Editarea contactelor:&lt;br />Pentru sincronizarea contactelor&lt;br />• Stocare:&lt;br />Pentru salvarea elementelor pe dispozitivul dvs. (de exemplu: imagini și videoclipuri)&lt;br />Dacă nu sunteți de acord să acordați astfel de permisiuni sau să distribuiți și să încărcați informațiile dvs. personale, nu veți putea utiliza aceste servicii. Puteți alege să dezinstalați această aplicație, să vă deconectați sau să restricționați permisiunile din Setări în astfel de cazuri.&lt;br />Citiți și acceptați &lt;a href=%3$s>&lt;u>Acordul utilizatorului&lt;/u>&lt;/a> și &lt;a href=%4$s>&lt;u>Politica de confidențialitate&lt;/u>&lt;/a> înainte de a utiliza serviciile noastre.&lt;br /></string>
     <string name="privacy_doc_cloudservice_pad_without_contact_but_sim_new">Bine ați venit la serviciile Xiaomi Cloud! Puteți utiliza Xiaomi Cloud pentru a vă sincroniza mesajele, contactele, notele, setările browserului, fotografiile și videoclipurile, înregistrările, aplicațiile, evenimentele din calendar și elementele din lista neagră pe toate dispozitivele conectate. Accesați elementele pe care le sincronizați din orice browser la &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Pentru a activa aceste servicii, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS național tarifat&lt;/b>&lt;/font> va fi trimis. Când schimbați cartelele SIM, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b>SMS național tarifa&lt;/b>&lt;/font> va fi trimis automat pentru reactivare.&lt;br/>Toate tarifele pentru SMS-urile generate de acțiunile menționate mai sus vor fi colectate de operatorul dvs. Xiaomi nu vă va taxa pentru aceste mesaje.&lt;br />&lt;br />Vă vom proteja informațiile personale în conformitate cu legile, reglementările și politicile de confidențialitate relevante.&lt;br />Pentru a putea funcționa normal, aceste servicii trebuie să se conecteze la internet și necesită următoarele permisiuni pentru a colecta informațiile dvs. personale:&lt;br />• Calendar:&lt;br />Pentru sincronizarea evenimentelor&lt;br />• Accesare SMS:&lt;br />Pentru sincronizarea mesajelor&lt;br />• Accesare MMS:&lt;br />Pentru sincronizarea mesajelor&lt;br />• Stocare:&lt;br />Pentru salvarea elementelor pe dispozitivul dvs. (de exemplu: imagini și videoclipuri)&lt;br />Dacă nu sunteți de acord să acordați astfel de permisiuni sau să distribuiți și să încărcați informațiile dvs. personale, nu veți putea utiliza aceste servicii. Puteți alege să dezinstalați această aplicație, să vă deconectați sau să restricționați permisiunile din Setări în astfel de cazuri.&lt;br />Citiți și acceptați &lt;a href=%3$s>&lt;u>Acordul utilizatorului&lt;/u>&lt;/a> și &lt;a href=%4$s>&lt;u>Politica de confidențialitate&lt;/u>&lt;/a> înainte de a utiliza serviciile noastre.&lt;br /></string>
     <string name="privacy_doc_cloudservice_pad_without_sim_but_contact_new">Bine ați venit la serviciile Xiaomi Cloud! Puteți utiliza Xiaomi Cloud pentru a vă sincroniza mesajele, contactele, notele, setările browserului, fotografiile și videoclipurile, înregistrările, aplicațiile, evenimentele din calendar și elementele din lista neagră pe toate dispozitivele conectate. Accesați elementele pe care le sincronizați din orice browser la &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Vă vom proteja informațiile personale în conformitate cu legile, reglementările și politicile de confidențialitate relevante.&lt;br />Pentru a putea funcționa normal, aceste servicii trebuie să se conecteze la internet și necesită următoarele permisiuni pentru a colecta informațiile dvs. personale:&lt;br />• Calendar:&lt;br />Pentru sincronizarea evenimentelor&lt;br />• Accesare contacte:&lt;br />Pentru sincronizarea contactelor&lt;br />• Editarea contactelor:&lt;br />Pentru sincronizarea contactelor&lt;br />• Stocare:&lt;br />Pentru salvarea elementelor pe dispozitivul dvs. (de exemplu, imagini, videoclipuri)&lt;br />Dacă nu sunteți de acord să acordați astfel de permisiuni sau să distribuiți și să încărcați informațiile dvs. personale, nu veți putea utiliza aceste servicii. Puteți alege să dezinstalați această aplicație, să vă deconectați sau să restricționați permisiunile din Setări în astfel de cazuri.&lt;br />Citiți și acceptați &lt;a href=%3$s>&lt;u>Acordul utilizatorului&lt;/u>&lt;/a> și &lt;a href=%4$s>&lt;u>Politica de confidențialitate&lt;/u>&lt;/a> înainte de a utiliza serviciile noastre.&lt;br /></string>
@@ -1006,8 +981,6 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="saturday">Sâmbătă</string>
     <string name="saturday_short">Sâm</string>
     <string name="saturday_shortest">Sâm</string>
-    <string name="search_menu_title">Căutați</string>
-    <string name="send">Trimite</string>
     <string name="share_cancel">Partajare anulată</string>
     <string name="share_failed">Nu poate fi partajat</string>
     <string name="share_location_app_name">Găsește dispozitiv</string>
@@ -1167,46 +1140,6 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="system_busy_or_network_error">A apărut o eroare. Așteptați un minut sau două și încercați din nou.</string>
     <string name="talkback_hide_passcode">Ascunde codul de acces</string>
     <string name="talkback_show_passcode">Afișează codul de acces</string>
-    <string name="the_anniversary_of_lifting_martial_law">Aniversarea Ridicării Legii Marțiale</string>
-    <string name="the_anti_aggression_day">Ziua anti-agresiune</string>
-    <string name="the_arbor_day">Ziua Copacului</string>
-    <string name="the_armed_forces_day">Ziua Forțelor Armate</string>
-    <string name="the_armys_day">Ziua PLA</string>
-    <string name="the_childrens_day">Ziua Copiilor</string>
-    <string name="the_chinese_youth_day">Ziua Tineretului</string>
-    <string name="the_christmas_day">Crăciun</string>
-    <string name="the_double_ninth_festival">Dublu al Nouălea Festival</string>
-    <string name="the_dragon_boat_festival">Festivalul Bărcii Dragonului</string>
-    <string name="the_easter_day">Paște</string>
-    <string name="the_eve_of_the_spring_festival">Ajunul Anului Nou Chinezesc</string>
-    <string name="the_fifth_day">A cincea zi de Anul Nou Chinezesc</string>
-    <string name="the_fools_day">Ziua Păcălelilor</string>
-    <string name="the_forth_day">A patra zi de Anul Nou Chinezesc</string>
-    <string name="the_hksar_establishment_day">Ziua înființării SAR din Hong Kong</string>
-    <string name="the_international_womens_day">Ziua Femeilor</string>
-    <string name="the_laba_festival">Festivalul Layue</string>
-    <string name="the_labour_day">Ziua Muncii</string>
-    <string name="the_lantern_festival">Festivalul Felinarelor</string>
-    <string name="the_mid_autumn_festival">Festival din Mijlocul Toamnei</string>
-    <string name="the_national_day">Ziua Naţională</string>
-    <string name="the_national_father_day">Zi de naștere a lui Sun Yat-sen</string>
-    <string name="the_new_years_day">Anul nou</string>
-    <string name="the_night_of_sevens">Festivalul Qixi</string>
-    <string name="the_partys_day">Ziua CPC</string>
-    <string name="the_peace_day">Ziua comemorării</string>
-    <string name="the_retrocession_day">Ziua Retrocesiunii</string>
-    <string name="the_second_day">A doua zi de Anul Nou Chinezesc</string>
-    <string name="the_seventh_day">A șaptea zi de Anul Nou Chinezesc</string>
-    <string name="the_sixth_day">A șasea zi de Anul Nou Chinezesc</string>
-    <string name="the_spirit_festival">Festivalul Fantomelor</string>
-    <string name="the_spring_festival">Anul Nou Chinezesc</string>
-    <string name="the_teachers_day">Ziua Profesorilor</string>
-    <string name="the_third_day">A treia zi de Anul Nou Chinezesc</string>
-    <string name="the_tw_childrens_day">Ziua Copiilor</string>
-    <string name="the_tw_youth_day">Ziua Tineretului</string>
-    <string name="the_united_nations_day">Ziua Națiunilor Unite</string>
-    <string name="the_valentines_day">Ziua îndrăgostiților</string>
-    <string name="the_water_lantern_festival">Festivalul Felinarelor de Apă</string>
     <string name="thursday">Joi</string>
     <string name="thursday_short">Joi</string>
     <string name="thursday_shortest">Joi</string>
@@ -1245,11 +1178,18 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="verify_camera_permission_title">Permisiuni necesare</string>
     <string name="verify_code_btn_negative">Anulează</string>
     <string name="verify_code_btn_positive">Următorul</string>
+    <string name="verify_code_device_list_title">Cod trimis către aceste dispozitive</string>
     <string name="verify_code_dialog_message_default">Introduceți acest cod pe noul dispozitiv</string>
     <string name="verify_code_dialog_title_default">Codul de verificare a dispozitivului</string>
     <string name="verify_code_error_textView">Cheie de acces incorectă. Încercați din nou.</string>
     <string name="verify_code_error_view">Cod incorect. Încercați din nou.</string>
+    <string name="verify_code_send_desc_1">Introduceți codul de verificare trimis către %1$s pentru a continua</string>
+    <string name="verify_code_send_desc_2">Introduceți codul de verificare trimis către %1$s și %2$s pentru a continua</string>
+    <string name="verify_code_send_desc_3">Introduceți codul de verificare trimis către %1$s, %2$s și %3$s pentru a continua</string>
+    <string name="verify_code_send_desc_4">Introduceți codul de verificare trimis către %1$s, %2$s, %3$s și %4$s pentru a continua</string>
+    <string name="verify_code_send_desc_5">Introduceți codul de verificare trimis către %1$s, %2$s, %3$s, %4$s și %5$s pentru a continua</string>
     <string name="verify_code_success_textView">Actualizați cheia de securitate</string>
+    <string name="verify_code_view_all_devices">Vezi toate dispozitivele</string>
     <string name="verify_code_warning_dialog_message_default">Permiteți noului dispozitiv să acceseze datele criptate?</string>
     <string name="verify_code_warning_dialog_title">Cod de verificare</string>
     <string name="verify_code_warning_dialog_title_default">Dispozitiv nou solicită acces</string>
@@ -1313,6 +1253,7 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="verify_warning_dialog_message_pc">Protecția avansată a datelor este activată. Acordați permisiunile necesare pe computer pentru a putea accesa datele criptate.</string>
     <string name="verify_warning_dialog_message_web">Protecția avansată a datelor este activată. Acordați permisiunile necesare pe i.mi.com pentru a putea accesa datele criptate.</string>
     <string name="verify_warning_dialog_negative_btn">Nu permite</string>
+    <string name="verify_warning_dialog_negative_btn_new">Nu permite</string>
     <string name="verify_warning_dialog_positive_btn">Permite</string>
     <string name="verify_warning_dialog_title">Un alt dispozitiv a activat criptarea end-to-end</string>
     <string name="verify_warning_dialog_title_find_device">\"Locația offline\" este activată pentru alt dispozitiv</string>
@@ -1323,10 +1264,7 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="waiting_for_sync">Se așteaptă…</string>
     <string name="web_view_auto_login_fail">Nu s-a putut conecta. Încercați din nou.</string>
     <string name="web_view_login_text">Se conectează…</string>
-    <string name="web_view_reload_btn_text">Încercați din nou</string>
     <string name="web_view_reload_btn_text_new">Încercați din nou</string>
-    <string name="web_view_reload_description_text">"Nu s-a putut conecta la rețea.
-Verificați setările la conexiune și încercați din nou."</string>
     <string name="web_view_reload_description_text_new">Verificați setările de rețea și încercați din nou.</string>
     <string name="wednesday">Miercuri</string>
     <string name="wednesday_short">Mie</string>
@@ -1339,5 +1277,4 @@ Verificați setările la conexiune și încercați din nou."</string>
     <string name="wipe_data_query_progress_title">Se verifică…</string>
     <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="xiaomi_cloud_service_subtitle">Toate elementele importante într-un singur loc</string>
-    <string name="yesterday">Ieri</string>
 </resources>

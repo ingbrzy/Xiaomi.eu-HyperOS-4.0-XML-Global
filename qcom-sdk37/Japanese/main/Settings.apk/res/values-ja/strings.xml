@@ -362,17 +362,17 @@
     <string name="accessibility_send_feedback_title">フィードバックを送信</string>
     <string name="accessibility_send_survey_notification_channel">ユーザー補助に関するアンケート</string>
     <string name="accessibility_send_survey_title">アンケートに回答</string>
-    <string name="accessibility_service_action_perform_description">アプリやハードウェア センサーの操作を記録したり、自動的にアプリを操作したりできます。</string>
+    <string name="accessibility_service_action_perform_description">アプリやハードウェアセンサー とのやり取りを追跡し、ユーザーに代わってアプリとやり取りすることができます。</string>
     <string name="accessibility_service_action_perform_title">操作の表示と実行</string>
     <string name="accessibility_service_auto_added_qs_tooltip_content">「%1$s」をクイック設定に追加しました。下にスワイプすると、いつでも ON と OFF を切り替えられます。</string>
     <string name="accessibility_service_default_description">説明はありません。</string>
     <string name="accessibility_service_primary_open_title">%1$sを開く</string>
     <string name="accessibility_service_primary_switch_title">%1$sを使用</string>
     <string name="accessibility_service_qs_tooltip_content">画面の上部からクイック設定に「%1$s」を追加することもできます</string>
-    <string name="accessibility_service_screen_control_description">画面上のすべてのコンテンツを読み取り、他のアプリの上にコンテンツを重ねて表示することができます。</string>
-    <string name="accessibility_service_screen_control_title">画面の表示と操作</string>
-    <string name="accessibility_service_warning_description">フル コントロールは、ユーザー補助機能に対応しているアプリに最適です。多くのアプリではこの機能に対応していません。</string>
-    <string name="accessibility_setting_item_control_timeout_title">操作までの時間（ユーザー補助タイムアウト）</string>
+    <string name="accessibility_service_screen_control_description">画面上のすべてのコンテンツ を読み取り、他のアプリ上にコンテンツを表示できます。</string>
+    <string name="accessibility_service_screen_control_title">画面の表示と制御</string>
+    <string name="accessibility_service_warning_description">フルコントロールは、アクセシビリティ のニーズに対応するアプリには適していますが、ほとんどのアプリには適していません。</string>
+    <string name="accessibility_setting_item_control_timeout_title">行動する時間です</string>
     <string name="accessibility_settings">ユーザー補助</string>
     <string name="accessibility_settings_summary">ディスプレイ、操作、音声</string>
     <string name="accessibility_settings_tabs_general">一般</string>
@@ -540,7 +540,7 @@
     <string name="account_dashboard_title">パスワードとアカウント</string>
     <string name="account_dashboard_title_with_passkeys">パスワードとアカウント</string>
     <string name="account_for_section_header">%1$sのアカウント</string>
-    <string name="account_list">その他のアカウント</string>
+    <string name="account_list">他のアカウント</string>
     <string name="account_other">その他</string>
     <string name="account_security_subpage_title">アカウントのセキュリティ</string>
     <string name="account_settings">アカウント</string>
@@ -610,6 +610,7 @@
     <string name="activity_title_root_note">ルートアクセスについて</string>
     <string name="ad_service">広告サービス</string>
     <string name="adapt_embedded">パラレルウィンドウが利用可能です</string>
+    <string name="adapted_game_title">サポートされているゲーム</string>
     <string name="adaptive_brightness_main_switch_title">明るさを自動調節する</string>
     <string name="adaptive_connectivity_main_switch_title">接続の自動調整を使用</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">最適なネットワーク接続を自動的に選択してバッテリーを長持ちさせます</string>
@@ -685,7 +686,7 @@
     <string name="add_fingerprint_move_fast">もう少し長めに押してください</string>
     <string name="add_fingerprint_name_suggest_text">指紋の名称</string>
     <string name="add_fingerprint_put_finger_edge_msg">指紋のあらゆる部分を登録できるように、指を少しずらしてもう一度センサーに当ててください。</string>
-    <string name="add_fingerprint_put_finger_msg">指をセンサーに当て、振動を感じたら離してください。</string>
+    <string name="add_fingerprint_put_finger_msg">センサーに指を置いて離すを繰り返します。</string>
     <string name="add_fingerprint_put_finger_title">指紋を追加</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">指を少しずらしてください</string>
     <string name="add_fingerprint_success_msg">正常に追加されました</string>
@@ -725,7 +726,10 @@
     <string name="advanced_battery_title">バッテリー使用量</string>
     <string name="advanced_gesture">カスタムジェスチャー</string>
     <string name="advanced_screen_paper_mode_title">読書モード</string>
+    <string name="advanced_screen_paper_mode_title_eye_comfort">視力保護</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">視力保護</string>
+    <string name="advanced_screen_paper_mode_title_vision_care">Xiaomi Vision Care</string>
     <string name="advanced_section_header">全般</string>
     <string name="advanced_security_title">詳細設定</string>
     <string name="advanced_settings">追加設定</string>
@@ -759,6 +763,16 @@
     <string name="airplane_mode">機内モード</string>
     <string name="airplane_mode_summary">オンにすると、デバイスがモバイルネットワークから切断されます。この機能がオンになっていると、通話、テキストメッセージの送受信、モバイルデータの使用ができなくなります。</string>
     <string name="airplane_mode_sync_description">スマートウォッチやスマートフォンなどの対応デバイスが Bluetooth で接続されていれば、デバイス間で機内モードが同期されます</string>
+    <string name="airpods_auto_connect_help">自動接続ガイド</string>
+    <string name="airpods_auto_connect_help_step_one">%1$s。AirPodsを Apple デバイスに接続してください</string>
+    <string name="airpods_auto_connect_help_step_one_summary">AirPodsが接続された後、[設定] > [Bluetooth] > [AirPods]で詳細ページを開いてください。</string>
+    <string name="airpods_auto_connect_help_step_three">%1$s。AirPodsを Xiaomi デバイスに再度接続してください</string>
+    <string name="airpods_auto_connect_help_step_three_summary">その後、AirPodsは最後に使用したデバイスに自動的に接続されます。</string>
+    <string name="airpods_auto_connect_help_step_two">%1$s。「最後にこのiPhoneに接続したとき」を選択</string>
+    <string name="airpods_auto_connect_help_step_two_summary">詳細ページで「このiPhoneに接続」までスクロールし、「最後にこのiPhoneに接続したとき」を選択してください。</string>
+    <string name="airpods_auto_connect_help_title">AirPodsを Xiaomi デバイスに自動接続</string>
+    <string name="airpods_fast_connect_fail_summary">充電ケースの背面にあるボタンを長押しするか、ケース前面をダブルタップし、ステータスライトが白く点滅するまで待ちます</string>
+    <string name="airpods_fast_connect_fail_summary_single">イヤホンのノイズコントロールボタンを、ステータスライトが白く点滅するまで長押ししてください</string>
     <string name="alarm_ringtone_title">デフォルトのアラーム音</string>
     <string name="alarm_sound_dialog_title">アラーム音を選択</string>
     <string name="alarm_sound_title">アラーム</string>
@@ -813,7 +827,7 @@
     <string name="allow_vibrate_title">バイブレーション</string>
     <string name="alpha_build">アルファ版</string>
     <string name="already_delete_system_app">アンインストールしたシステムアプリ</string>
-    <string name="always">常時</string>
+    <string name="always">いつも</string>
     <string name="always_allow_bind_appwidgets_text">このアプリによるウィジェットの作成とデータへのアクセスを許可しました。</string>
     <string name="always_on_display_fingerprint">常時オンディスプレイで使用</string>
     <string name="always_running">常に実行（%s）</string>
@@ -835,6 +849,7 @@
     <string name="ambient_display_wake_screen_title">ディスプレイの復帰</string>
     <string name="anc_auto">自動</string>
     <string name="anc_depth">強</string>
+    <string name="anc_intelligent">スマートノイズキャンセリング</string>
     <string name="anc_mild">弱</string>
     <string name="android_beam_disabled_summary">まず、NFC をオンにしてください</string>
     <string name="android_beam_explained">Mi Beam に対応した他のデバイスにこのデバイスを近づけると、ウェブページ、ビデオ、連絡先などを共有することができます。</string>
@@ -902,8 +917,8 @@
     <string name="aon_gesture_up_down_waving_summary">縦型コンテンツフィードに対応</string>
     <string name="aon_gesture_up_down_waving_switch">指を縦に動かして、上下にスワイプ</string>
     <string name="aon_gesture_up_down_waving_title">縦にスワイプ</string>
-    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">明るい場所にいることを確認し、手のひらを下に向けてカメラから%d～%dcmの距離に手を置きます。認識が成功したら、手を上に振ってください。このジェスチャーで画面を上にスワイプできます。</string>
-    <string name="aon_gesture_up_waving_diagram_title">画面の前で手を上に振る</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">明るい場所にいることを確認し、手のひらを上または下に向けてカメラから%d～%dcmの距離にかざしてください。認識が成功したら、手を振ってスワイプしてください。手を振り続けると連続でスワイプができます。スワイプの方向を変えるには手を反対方向へ向け、そのまま一時静止してください。認識が成功したら、手を振ってスワイプしてください。</string>
+    <string name="aon_gesture_up_waving_diagram_title">スワイプするには画面の前で手を振ってください</string>
     <string name="aon_scanner_default_payment_method_title">デフォルトの支払い方法</string>
     <string name="aon_scanner_dialog_message">クイックスキャナーをオンにすると、スキャンした QR コードが Mi AI Scanner と共有されます。続ける前に、この点を理解し、同意してください。スキャンした QR コードはローカルに保存されず、クラウドにもアップロードされません。この機能を使用すると、全体的な電力消費がわずかに増加する可能性があることに注意してください。</string>
     <string name="aon_scanner_dialog_message_new">クイックスキャナーを使用すると、スキャンした QR コードが AI スキャナーと共有されます。この情報はデバイスに保存されず、クラウドにもアップロードされません。この機能をオンにすると、電力消費がわずかに増加します。</string>
@@ -914,7 +929,12 @@
     <string name="aon_scanner_download_message_new">クイックスキャナーサービスは AI スキャナーによって提供されるため、スキャンした QR コードを AI スキャナーと共有する必要があります。続ける前に AI スキャナーをインストールしてください。</string>
     <string name="aon_scanner_download_title">Mi AI Scanner をインストール</string>
     <string name="aon_scanner_download_title_new">AI スキャナーをインストール</string>
+    <string name="aon_scanner_first_summary">ホーム画面でデバイスを裏返した後、カメラを QR コードに向けます。QR コードから %1$d～%2$d cm 離したままスキャンします。</string>
+    <string name="aon_scanner_first_title">外側の画面 クイックスキャナー</string>
+    <string name="aon_scanner_second_summary">ホーム画面で、カメラを QR コードに向けます。プロンプトが表示されるまで QR コードから %1$d～%2$d cm 離し、%3$d 秒間維持してスキャンします。</string>
+    <string name="aon_scanner_second_title">内側の画面 クイックスキャナー</string>
     <string name="aon_scanner_settings">クイックスキャナー</string>
+    <string name="aon_scanner_settings_summary">ホーム画面で、背面カメラを QR コードに向けるとスキャンできます</string>
     <string name="aon_scanner_status_close">オフ</string>
     <string name="aon_scanner_status_open">オン</string>
     <string name="aon_scanner_summary" formatted="false">ホーム画面で、メッセージが表示されるまでデバイスを %d cm 以内の距離で QR コードに向け、%d 秒間そのまま維持し、スキャンします。</string>
@@ -960,6 +980,7 @@
     <string name="app_cache_optimization">アプリキャッシュの最適化</string>
     <string name="app_cache_optimization_summary">この機能をオンにした後、デバイスを再起動して有効にします</string>
     <string name="app_cellular_data_usage">アプリのデータ使用量</string>
+    <string name="app_dark_toggle_status">com.taobao.taobao</string>
     <string name="app_data_sharing_updates_summary">ユーザーの位置情報を共有する方法が変更されたアプリを確認</string>
     <string name="app_data_sharing_updates_title">位置情報を共有する方法の更新</string>
     <string name="app_default_dashboard_title">デフォルトのアプリ</string>
@@ -1211,6 +1232,8 @@
     <string name="audio_sharing_test_sound_title">テスト音声を再生</string>
     <string name="audio_sharing_title">音声の共有</string>
     <string name="audio_sharing_turn_off_button_label">OFF にする</string>
+    <string name="audio_sources_mode">イマーシブサウンド効果</string>
+    <string name="audio_sources_mode_summary">イマーシブサウンド効果を選択またはカスタマイズする</string>
     <string name="audio_streams_activity_title">音声ストリーム</string>
     <string name="audio_streams_add_source_bad_code_state_summary">パスワードを確認して、もう一度お試しください</string>
     <string name="audio_streams_add_source_failed_state_summary">接続できません。再度お試しください。</string>
@@ -1407,6 +1430,7 @@
     <string name="back_strap_status_close">オフ</string>
     <string name="back_strap_status_open">オン</string>
     <string name="back_strap_title">バックライト効果</string>
+    <string name="back_strap_title_tip">オンにすると、さまざまな状況に応じてパーソナライズされた通知を受け取ることができます</string>
     <string name="back_tap">背面タップ</string>
     <string name="back_triple_tap">背面を 3 回タップ</string>
     <string name="background_activity_disabled_dialog_text">"このアプリは、電池の最適化が設定されていないため、制限することはできません。
@@ -1418,6 +1442,7 @@
     <string name="background_blur_enable">高度なテクスチャ</string>
     <string name="background_blur_enable_summary">システム全体にぼかしなどのレンダリング効果を追加して、強化された視覚体験を提供します</string>
     <string name="background_blur_message">この機能をオンにすると、より多くの電力が消費され、デバイスが熱くなる可能性があります。オンにしてもよろしいですか？</string>
+    <string name="background_blur_mode_title">ビジュアルスタイル</string>
     <string name="background_blur_title">高度なテクスチャをオンにする</string>
     <string name="background_check_pref">バックグラウンド チェック</string>
     <string name="background_data">バックグラウンドデータ</string>
@@ -1558,7 +1583,7 @@
     <string name="battery_info_voltage_units">mV</string>
     <string name="battery_last_full_charge">前回のフル充電</string>
     <string name="battery_level_percentage">バッテリー残量が%1$sから%2$sに低下しました</string>
-    <string name="battery_level_title">バッテリー残量</string>
+    <string name="battery_level_title">バッテリーレベル</string>
     <string name="battery_light_summary">デバイスの充電中に通知ライトをオンにする</string>
     <string name="battery_light_title">充電時に点灯</string>
     <string name="battery_manager_app_restricted">{count,plural, =1{# 件のアプリが制限されています}other{# 件のアプリが制限されています}}</string>
@@ -1877,11 +1902,12 @@
     <string name="bluetooth_connected">%1$sに接続しました</string>
     <string name="bluetooth_connected_battery_level">接続済み | バッテリー残量 %1$s %2$s</string>
     <string name="bluetooth_connected_battery_level_new">接続済み | バッテリー %1$s | 使用中（通話とメディア）</string>
+    <string name="bluetooth_connected_battery_level_summary">バッテリー %1$s | %2$s</string>
     <string name="bluetooth_connected_multiple_devices_summary">複数のデバイスに接続しました</string>
     <string name="bluetooth_connected_no_a2dp">%1$s 接続済み (メディアなし)</string>
     <string name="bluetooth_connected_no_a2dp_battery_level">接続済み (メディアなし) | バッテリー残量 %1$s %2$s</string>
     <string name="bluetooth_connected_no_headset">%1$s 接続済み (スマホなし)</string>
-    <string name="bluetooth_connected_no_headset_battery_level">接続済み (スマートフォンなし) | バッテリー残量 %1$s %2$s</string>
+    <string name="bluetooth_connected_no_headset_battery_level">接続済み (スマホなし) | バッテリー残量 %1$s %2$s</string>
     <string name="bluetooth_connected_no_headset_no_a2dp">%1$s 接続済み (スマホまたはメディアなし)</string>
     <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">接続済み (スマホまたはメディアなし) | バッテリー残量 %1$s %2$s</string>
     <string name="bluetooth_connected_summary">%1$s に接続しました</string>
@@ -1984,7 +2010,8 @@
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">再起動</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">Bluetooth を再起動</string>
     <string name="bluetooth_enable_opp_high_speed_summary">転送には高速 Bluetooth P2P プロトコルを使用する</string>
-    <string name="bluetooth_enable_page_scan_summary">Bluetooth テストのページスキャンを無効/有効にする</string>
+    <string name="bluetooth_enable_page_scan">Bluetooth ページスキャン</string>
+    <string name="bluetooth_enable_page_scan_summary">テスト用に Bluetooth ページスキャンをオンまたはオフにする</string>
     <string name="bluetooth_enter_passkey_msg">ペア設定コードを入力してからReturnキーまたはEnterキーを押してください</string>
     <string name="bluetooth_enter_passkey_other_device">もう一方のデバイスでも、このパスキーの入力が必要な場合があります。</string>
     <string name="bluetooth_enter_pin_other_device">もう一方のデバイスでも、このPINの入力が必要な場合があります。</string>
@@ -2030,9 +2057,9 @@
     <string name="bluetooth_hearing_device_input_routing_title">通話に使うデフォルトのマイク</string>
     <string name="bluetooth_hearing_device_settings_summary">ショートカット、補聴器両立性</string>
     <string name="bluetooth_hearing_device_settings_title">補聴器の設定</string>
-    <string name="bluetooth_hearingaid_left_battery_level">左側 - バッテリー残量：%1$s</string>
+    <string name="bluetooth_hearingaid_left_battery_level">左側 - バッテリー残量: %1$s</string>
     <string name="bluetooth_hearingaid_left_pairing_message">左側の補聴器をペア設定中…</string>
-    <string name="bluetooth_hearingaid_right_battery_level">右側 - バッテリー残量：%1$s</string>
+    <string name="bluetooth_hearingaid_right_battery_level">右側 - バッテリー残量: %1$s</string>
     <string name="bluetooth_hearingaid_right_pairing_message">右側の補聴器をペア設定中…</string>
     <string name="bluetooth_hid_profile_summary_connected">入力デバイスに接続されています</string>
     <string name="bluetooth_hid_profile_summary_use_for">入力に使用</string>
@@ -2054,8 +2081,8 @@
     <string name="bluetooth_key_missing_subtext">接続できません</string>
     <string name="bluetooth_key_missing_title">%1$s に接続できません</string>
     <string name="bluetooth_key_missing_toast">%1$s が接続できませんでした</string>
-    <string name="bluetooth_le_audio_profile_summary_connected">LE Audioに接続済み</string>
-    <string name="bluetooth_le_audio_profile_summary_use_for">LE Audioに使用</string>
+    <string name="bluetooth_le_audio_profile_summary_connected">LE Audio に接続済み</string>
+    <string name="bluetooth_le_audio_profile_summary_use_for">LE Audio に使用</string>
     <string name="bluetooth_leaudio_mode">Bluetooth LE Audio モード</string>
     <string name="bluetooth_left_content_description_expressive">バッテリー残量（左）: %1$s</string>
     <string name="bluetooth_left_name">左</string>
@@ -2063,7 +2090,7 @@
     <string name="bluetooth_main_content_description_expressive">バッテリー残量: %1$s</string>
     <string name="bluetooth_main_switch_title">Bluetooth を使用</string>
     <string name="bluetooth_map_profile_summary_connected">地図に接続済み</string>
-    <string name="bluetooth_map_profile_summary_use_for">MAPに使用</string>
+    <string name="bluetooth_map_profile_summary_use_for">MAP に使用</string>
     <string name="bluetooth_map_request">メッセージへのアクセスのリクエスト</string>
     <string name="bluetooth_max_connected_audio_devices_dialog_title">接続できる Bluetooth オーディオ デバイス数の上限の選択</string>
     <string name="bluetooth_max_connected_audio_devices_string">接続できる Bluetooth オーディオ デバイスの上限</string>
@@ -2077,10 +2104,11 @@
     <string name="bluetooth_message_move_out_of_blacklist">今すぐ%1$sのブロックを解除しますか？</string>
     <string name="bluetooth_mi_fast_connect">使用可能なデバイスとペア設定する</string>
     <string name="bluetooth_mi_fast_connect_summary">イヤホンやスピーカーなどの対応機器に素早く接続可能</string>
+    <string name="bluetooth_mi_key_missing_toast">このデバイスとのペア設定を解除して、もう一度お試しください</string>
     <string name="bluetooth_middle_content_description_expressive">バッテリー残量（ケース）: %1$s</string>
     <string name="bluetooth_middle_name">ケース</string>
     <string name="bluetooth_middle_name_expressive">ケース: %1$s</string>
-    <string name="bluetooth_move_out_of_blacklist">デバイスのブロックを解除</string>
+    <string name="bluetooth_move_out_of_blacklist">デバイスをブロック解除</string>
     <string name="bluetooth_multuple_devices_mac_address">"デバイスの Bluetooth アドレス:
 %1$s"</string>
     <string name="bluetooth_no_battery_level_lea_support">接続済み（音声の共有をサポート）</string>
@@ -2175,7 +2203,7 @@
     <string name="bluetooth_profile_pan_nap">インターネット接続の共有</string>
     <string name="bluetooth_profile_pbap">連絡先と通話履歴へのアクセスを許可する</string>
     <string name="bluetooth_profile_pbap_summary">連絡先の共有に使用</string>
-    <string name="bluetooth_profile_sap">SIMへのアクセスに使用</string>
+    <string name="bluetooth_profile_sap">SIM へのアクセスに使用</string>
     <string name="bluetooth_profile_volume_control">音量調節</string>
     <string name="bluetooth_refresh">更新</string>
     <string name="bluetooth_refreshing">デバイスをスキャン中</string>
@@ -2186,7 +2214,7 @@
     <string name="bluetooth_right_name_expressive">右: %1$s</string>
     <string name="bluetooth_ringtone_title">着信音とアラーム</string>
     <string name="bluetooth_sap_profile_summary_connected">SAPに接続</string>
-    <string name="bluetooth_sap_profile_summary_use_for">SIMアクセスに使用</string>
+    <string name="bluetooth_sap_profile_summary_use_for">SIM アクセスに使用</string>
     <string name="bluetooth_saved_device">保存済み</string>
     <string name="bluetooth_saved_device_lea_support">音声の共有をサポートしています</string>
     <string name="bluetooth_scan_change">変更</string>
@@ -2292,9 +2320,11 @@ aptX Adaptive: コーデックモード"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button">このデバイスとのペア設定を解除</string>
     <string name="bluetooth_unpair_dialog_title">このデバイスとのペア設定を解除しますか？</string>
     <string name="bluetooth_unpair_dialog_with_associations_body">お使いのスマートフォンと %1$s とのペア設定が解除されます。%2$s はこのデバイスを管理できなくなります</string>
+    <string name="bluetooth_unpairing">ペア設定を解除中…</string>
     <string name="bluetooth_version">Bluetooth バージョン</string>
     <string name="bluetooth_version_message">アップデート</string>
     <string name="bluetooth_wake">Bluetooth オーディオでスリープ解除</string>
+    <string name="bluetooth_watch_not_synced_unpair_manually">腕時計が同期していません。手動でペア設定を解除してください。</string>
     <string name="blur_switch">ぼかし効果を減らす</string>
     <string name="blur_switch_disabled_summary">バッテリー セーバーにより一時的に無効になりました</string>
     <string name="blur_switch_summary">背景とパネルを見やすくします</string>
@@ -2618,6 +2648,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="camera_key_action_title">Mi ボタン</string>
     <string name="camera_key_action_toggle_title">トリガートグル</string>
     <string name="camera_laser_sensor_switch">カメラのレーザー センサー</string>
+    <string name="camera_mr_settings">カメラリング</string>
     <string name="camera_rear">リア %s</string>
     <string name="camera_toggle_label_qs">カメラへのアクセス</string>
     <string name="camera_toggle_title">カメラへのアクセス</string>
@@ -2749,6 +2780,16 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="checked_app_title">ライト効果 オン</string>
     <string name="checking_find_device_status">「デバイスを探す」のステータスを確認中…</string>
     <string name="checking_for_updates">アップデートを確認中…</string>
+    <string name="child_face_number_reach_limit">最大 3 人分の顔データを追加できます</string>
+    <string name="child_face_unlock_download_education_center_button">インストール</string>
+    <string name="child_face_unlock_download_education_center_content">この機能を使用するには、まず教育センターをインストールしてください。</string>
+    <string name="child_face_unlock_download_education_center_title">注意</string>
+    <string name="child_face_unlock_first_close_child_unlock">まず「ロック解除後に教育センターを開く」をオフにしてください</string>
+    <string name="child_face_unlock_first_close_stay_keyguard">まず「ロック解除後もロック画面に留まる」をオフにしてください</string>
+    <string name="child_face_unlock_no_use">オフ</string>
+    <string name="child_face_unlock_open_education_center">ロック解除後に教育センターを開く</string>
+    <string name="child_face_unlock_open_education_center_summary">この機能を使用する特定のユーザーの顔データを選択します</string>
+    <string name="child_face_unlock_use">使用</string>
     <string name="chip_add_title">周波数を追加</string>
     <string name="chip_change_error_toast">パラメータを調整できませんでした</string>
     <string name="chip_change_toast">周波数が変更されました。変更を適用するにはデバイスを再起動してください。</string>
@@ -2757,6 +2798,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="chip_dialog_reboot">再起動</string>
     <string name="chip_edit_dialog_message">周波数の検証が必要です。これにより再起動時間が長くなる可能性があります。</string>
     <string name="chip_edit_dialog_title">適用するには再起動してください</string>
+    <string name="chip_edit_dialog_title_new">変更を適用するには、デバイスを再起動してください</string>
     <string name="chip_edit_title">周波数を編集</string>
     <string name="chip_fre_bottom">許容範囲内で周波数を選択できます。隣接する周波数の間隔は %s GHz より大きくする必要があります。</string>
     <string name="chip_fre_label">カスタム</string>
@@ -2782,6 +2824,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="chip_per_summary_new">各コアグループの周波数と電圧を調整する</string>
     <string name="chip_per_title">チップパフォーマンスダッシュボード</string>
     <string name="chip_reset_dialog_message">デフォルトに戻すには、デバイスを再起動してください。</string>
+    <string name="chip_reset_dialog_message_new">デフォルトに戻すには、デバイスを再起動してください。</string>
     <string name="chip_reset_dialog_title">今すぐデバイスを復元しますか？</string>
     <string name="chip_reset_menu">デフォルトに戻す</string>
     <string name="chip_save_restart">保存して再起動</string>
@@ -2792,6 +2835,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="chip_voltage">%s mV</string>
     <string name="chip_voltage_tip">電圧: %s</string>
     <string name="chip_welcome_tip">各コアグループの電圧と周波数を調整する</string>
+    <string name="chip_welcome_tip_new">各コアグループの電圧と周波数を調整します。調整後に安定性やその他の問題が発生した場合は、デバイスが自動的に再起動し、デフォルトの設定に戻ります。</string>
     <string name="choose_a_card_to_reset">リセットする SIM カードを選択</string>
     <string name="choose_ali_payment">Alipay</string>
     <string name="choose_keyguard_clock_style">ロック画面の時計形式</string>
@@ -3293,7 +3337,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="dangerous_option">高リスクの開発者向けオプション</string>
     <string name="dangerous_option_hint">「%1$s」が有効になっています。タップして設定を変更します。</string>
     <string name="dangerous_option_hint_title">高リスク機能が有効です</string>
-    <string name="dangerous_option_switch_title">高リスク機能について通知する</string>
+    <string name="dangerous_option_switch_title">ハイリスク機能について通知する</string>
     <string name="dark_color_mode">ダークモード</string>
     <string name="dark_color_summary_lcd">システムの背景と互換性のあるアプリには暗い色のパレットを使用します。ダークモードは、暗い場所でデバイスを使用しているときに眼精疲労を軽減するのに役立ちます。</string>
     <string name="dark_color_summary_oled">システムの背景や互換性のあるアプリには暗い色のパレットを使用します。ダークモードは消費電力を抑え、目の疲れを和らげます。</string>
@@ -3540,7 +3584,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="default_see_all_apps_title">アプリをすべて表示</string>
     <string name="default_spell_checker">デフォルトのスペル チェッカー</string>
     <string name="default_string_of_regional_preference">デフォルトを使用</string>
-    <string name="default_suppression_title">デフォルト (推奨)</string>
+    <string name="default_suppression_title">デフォルト（推奨）</string>
     <string name="default_theme">デフォルト</string>
     <string name="default_usb_mode">USB 接続</string>
     <string name="deferred_setup_hintViewTitle">確認中…</string>
@@ -3687,6 +3731,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="device_screen_size">画面サイズ</string>
     <string name="device_screen_usage">最後にフル充電してからの使用時間</string>
     <string name="device_sd_memory">SD カード</string>
+    <string name="device_security_chip">専用のセキュリティチップ</string>
     <string name="device_share_loading">画像を作成中</string>
     <string name="device_status">ステータス</string>
     <string name="device_status_activity_title">ステータス</string>
@@ -3743,6 +3788,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="disable_overlays">HW オーバーレイを無効化</string>
     <string name="disable_overlays_summary">画面合成に常に GPU を使用します</string>
     <string name="disable_password_warning">画面ロックをオフにすると、登録された指紋と顔データが削除されます。顔認証や指紋認証を使用してデバイスのロックを解除したり、メモやギャラリーで使用したりすることができなくなります。</string>
+    <string name="disable_permission_text_by_hyper">この権限は審査を通過しておらず、現在制限されています</string>
     <string name="disable_phantom_process_monitor_summary">アプリの子プロセスのシステム リソース使用量に関する制限を無効にします</string>
     <string name="disable_phantom_process_monitor_title">子プロセスの制限を無効化</string>
     <string name="disable_power_key_long_press_under_keyguard">電源ボタンメニューをオフにする</string>
@@ -3995,9 +4041,10 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="dump_log_summary">"この機能はシステムのベータ版で%sログを取得するためのものです。注意して使用してください。
 取得したログは、ファイルマネージャーで確認できます。"</string>
     <string name="dump_log_title">この機能について</string>
+    <string name="dynamic_island_title">Xiaomi HyperIsland</string>
     <string name="early_morning">早朝</string>
     <string name="easy_mode_font_settings_toast">シンプルモードではフォントを調整できません</string>
-    <string name="easymode_hint">タップしてシンプルモードをオフにする</string>
+    <string name="easymode_hint">タップしてライトモードをオフにする</string>
     <string name="easymode_hint_summary">タップしてオフにする</string>
     <string name="easymode_hint_title">シンプルモードはオンです</string>
     <string name="edge_mode_back">戻る</string>
@@ -4024,6 +4071,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="eid_multi_sim">EID %1$d</string>
     <string name="eighthours">8 時間</string>
     <string name="elastic_text">確認メッセージやドロップダウンメニューは弾力性のあるポップアップ表示で行われ、ユーザーの注意を引きます。</string>
+    <string name="elder_care_ai_anti_fraud">会話中に詐欺を検知して警告を受け取る</string>
     <string name="elder_care_block_advertising_promotions_calls_title">マーケティング電話をブロック</string>
     <string name="elder_care_block_estate_agency_calls_title">不動産業者からの電話をブロック</string>
     <string name="elder_care_block_risky_app_title">リスクの高いアプリをブロック</string>
@@ -4123,7 +4171,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="enable_receiving_mms_notification_title">MMS メッセージの受信</string>
     <string name="enable_screen_projection_summary">画面のコンテンツを外部モニターにキャストする</string>
     <string name="enable_sending_mms_notification_title">MMS メッセージを送信できません</string>
-    <string name="enable_service_title">このサービスは次の操作を実行します:</string>
+    <string name="enable_service_title">このサービスは次の操作を実行します：</string>
     <string name="enable_sizecompat_freeform">ウィンドウのサイズ変更を強制的に許可</string>
     <string name="enable_sizecompat_freeform_summary">互換性の制限があるアプリをサイズ変更可能なウィンドウで実行できるようにする</string>
     <string name="enable_snapshot_screenlock">[戻る] を長押しして写真を撮る</string>
@@ -4265,7 +4313,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="erase_internal_storage_description">音楽、写真、ビデオ、その他のユーザーデータを消去する</string>
     <string name="erase_optional">任意</string>
     <string name="erase_personal_data">このデバイスのすべてのファイル</string>
-    <string name="erase_personal_data_description">アカウント、連絡先、写真、アプリを含むすべてのファイルとデータ</string>
+    <string name="erase_personal_data_description">アカウント、連絡先、写真、およびアプリを含むすべてのファイルとデータ</string>
     <string name="erase_sd_data">モック SD カードをフォーマット</string>
     <string name="erase_sd_data_description">フォーマットすると SD カード上のすべてのデータが消去されます</string>
     <string name="erase_sim_confirm_button">消去</string>
@@ -4392,6 +4440,11 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="external_source_untrusted">許可しない</string>
     <string name="extreme_threats_summary">命や財産に関わる極めて重大な脅威への警報を受信する</string>
     <string name="extreme_threats_title">極めて重大な脅威</string>
+    <string name="eye_care_adjust_mode">調整タイプ</string>
+    <string name="eye_care_classic_mode">クラシック</string>
+    <string name="eye_care_learn_more">視力保護について詳しく知る</string>
+    <string name="eye_care_mode_description">「リズム」では時間と使用状況に応じて色温度を自動的に調整します。日中はより自然に近い色で表示し、夜間はより暖色に変化します。「クラシック」では固定された色温度が設定されるため、手作業での調整が必要です。</string>
+    <string name="eye_care_rhythmic_mode">リズム</string>
     <string name="eye_gaze_dialog_message">この機能をオンにすると、システムはユーザーが画面を見ているかどうかを検知しますが、ユーザーの顔の特徴は分析されません。また、このデータはデバイスに保存されず、クラウドにもアップロードされません。今すぐオンにしますか？</string>
     <string name="eye_gaze_dialog_title">セキュリティ通知</string>
     <string name="eye_gaze_summary">画面を見ていることが検出されるとデバイスはロックされません</string>
@@ -4399,18 +4452,24 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="eye_gaze_title">視線を検出</string>
     <string name="eye_habit_prompt_summary">デバイスが目の疲れを引き起こす可能性のある状態を検出したときに通知を受け取ります</string>
     <string name="eye_habit_prompt_title">目の健康に関する通知</string>
+    <string name="eye_habit_prompt_title_new">@string/eye_habit_prompt_title</string>
     <string name="eye_paper_protection">読書モード設定</string>
+    <string name="eye_protection_technology">技術</string>
     <string name="eyes_protect_certification">技術と認証</string>
     <string name="eyes_protect_certification_summary_1">視覚的健康配慮 S++ 認証</string>
     <string name="eyes_protect_certification_summary_2">低ブルーライト (ハードウェアソリューション)、サーカディアンリズムに配慮、フリッカーフリー認証取得</string>
     <string name="eyes_protect_certification_summary_3">円偏光技術により光が均一に拡散され、より自然な視覚体験を提供します</string>
     <string name="eyes_protect_certification_summary_4">高輝度 DC 調光技術により、明るいシーンと暗いシーンの切り替え時のちらつきを排除し、視神経への負担を軽減します</string>
     <string name="eyes_protect_certification_summary_5">Xiaomi独自開発のSVM補正技術により、あらゆる明るさ設定でSVMを1以下に維持し、より快適な視聴体験を実現</string>
+    <string name="eyes_protect_certification_summary_5_extended">すべての明るさレベルで低SVMフリッカーを実現し、目の疲れを軽減します</string>
+    <string name="eyes_protect_certification_summary_6">低光量環境や夜間使用時のハードウェアベースの目の快適性。目の疲れを軽減し、健康的な睡眠リズムをサポートします。</string>
     <string name="eyes_protect_certification_title_1">中国品質認証センター</string>
     <string name="eyes_protect_certification_title_2">トリプル TÜV Rheinland アイコンフォート認証</string>
     <string name="eyes_protect_certification_title_3">より自然な円偏波</string>
     <string name="eyes_protect_certification_title_4">フリッカーフリーの DC 調光</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM 調光</string>
+    <string name="eyes_protect_certification_title_6">最小の明るさ%d-nit</string>
+    <string name="eyes_protect_game_title">ゲーミング用アイケア</string>
     <string name="face_data_apply_for_category_title">顔認証でロック解除</string>
     <string name="face_data_apply_for_keyguard_title">ロック画面</string>
     <string name="face_data_input_camera_fail">カメラを読み込めませんでした</string>
@@ -4441,6 +4500,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="face_data_suggesstion_first_cn_highlight">顔認証は、PIN、パスワード、パターン、指紋よりも安全性の低い認証方法です。あなたの写真や、似たような外見の人や物によってロックが解除されてしまう可能性があります。</string>
     <string name="face_data_suggesstion_second">顔のすべての部分が物によって覆われていないか、はっきりと見えているかを確認してください。また、顔が明るく写っているかも確認してください。</string>
     <string name="face_enroll_when_slt_on_toast">Tiantong 衛星通信を使用している場合、顔認証の顔データは追加できません</string>
+    <string name="face_enrollment_fold_warning">画面の状態を変更すると、顔データの記録が中断されます</string>
     <string name="face_enrollment_tips">顔全体がはっきりと見えるようにしてください。帽子、マスク、サングラス、その他のアクセサリーを着用しないでください。</string>
     <string name="face_finger_add">追加</string>
     <string name="face_finger_delete">削除</string>
@@ -4464,6 +4524,9 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="face_unlock_disable">顔認証はオフです</string>
     <string name="face_unlock_down">頭を上げてください</string>
     <string name="face_unlock_enable">顔認証はオンです</string>
+    <string name="face_unlock_in_low_light_msg">低光量環境で顔認識の性能を向上させるには画面の明るさを上げてください</string>
+    <string name="face_unlock_in_low_light_tip">夜間の視力保護がオンの場合、「低光量での認識を最適化」しても画面が明るくなりません</string>
+    <string name="face_unlock_in_low_light_title">低光量環境での顔認識を最適化する</string>
     <string name="face_unlock_not_found">認識できませんでした</string>
     <string name="face_unlock_offset_bottom">デバイスを少し下げてください</string>
     <string name="face_unlock_offset_left">右に移動してください</string>
@@ -4517,6 +4580,12 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="fan_mode_partial_scene_usage">選択済み</string>
     <string name="fan_mode_range_title">使用シナリオ</string>
     <string name="fan_mode_usage_scenes">使用シナリオ</string>
+    <string name="fan_other_features">他の機能</string>
+    <string name="fan_self_clean">ファン自動洗浄</string>
+    <string name="fan_self_clean_summary">ファンが%d日以上作動していない場合、画面がオフでデバイスが充電中の間に自動的に清掃が行われます</string>
+    <string name="fan_smart_stop_on_recording">オーディオキャプチャ中に一時停止</string>
+    <string name="fan_smart_stop_on_recording_summary">通話、録音、録画の際にファンノイズを低減します。ゲームには適用されません。</string>
+    <string name="fast_connect_device_image">画像</string>
     <string name="fcc_equipment_id">装置ID</string>
     <string name="feature_flags_dashboard_title">機能フラグ</string>
     <string name="feedback">フィードバック</string>
@@ -4596,6 +4665,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="fingerprint_enroll_button_add">別の指紋を登録</string>
     <string name="fingerprint_enroll_button_next">次へ</string>
     <string name="fingerprint_enrollment_desc">指紋を記録したら、デバイスのロック解除と本人確認に使用できます。</string>
+    <string name="fingerprint_enrollment_fold_warning">画面の状態を変更すると、指紋の記録が中断されます</string>
     <string name="fingerprint_enrollment_title">指紋を登録</string>
     <string name="fingerprint_face_password">指紋、顔データ、画面ロック</string>
     <string name="fingerprint_face_password_unlock">指紋、顔データ、画面ロック</string>
@@ -4623,6 +4693,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="fingerprint_password_unlock">指紋と画面ロック</string>
     <string name="fingerprint_payment">指紋決済</string>
     <string name="fingerprint_privacy_desc">指紋認証を使ってプライベートアルバム、メッセージ、メモ、ファイル、Xiaomi Hyper XiaoAi メモリ、アプリロック、パスワード管理ツールにアクセスできます。</string>
+    <string name="fingerprint_privacy_policy"><Data>続ける前に &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"指紋と画面ロック\" プライバシー声明&lt;/a>を読んで同意してください。&lt;/font></Data></string>
     <string name="fingerprint_protection">指紋による保護</string>
     <string name="fingerprint_record_input">登録</string>
     <string name="fingerprint_removal_failed">指紋を削除できませんでした。後でもう一度お試しください。</string>
@@ -4694,21 +4765,6 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="flash_notifications_summary_off">OFF / 通知やアラームをカメラや画面の点滅でお知らせします</string>
     <string name="flash_notifications_summary_on">ON / 通知やアラームをカメラや画面の点滅でお知らせします</string>
     <string name="flash_notifications_title">通知受信時にビーム</string>
-    <string name="flashback_background_start_switch_summary">アプリがバックグラウンドで実行されているときに、重要な情報を含むフラッシュカードを自動的に生成します</string>
-    <string name="flashback_background_start_switch_title">フラッシュカードを自動生成</string>
-    <string name="flashback_baidu_map_summary">ルートを表示</string>
-    <string name="flashback_didi_summary">乗車情報を表示</string>
-    <string name="flashback_meituan_summary">配達情報を表示</string>
-    <string name="flashback_meituan_waimai_summary">配達情報を表示</string>
-    <string name="flashback_open_switch_summary">アプリがフローティングウィンドウとして表示されているときに重要な情報を表示する</string>
-    <string name="flashback_open_switch_title">アプリフラッシュカード</string>
-    <string name="flashback_shansong_summary">配送状況を表示</string>
-    <string name="flashback_status_close">オフ</string>
-    <string name="flashback_status_open">オン</string>
-    <string name="flashback_summary">アプリがフローティングウィンドウとして表示されているときに重要な情報を表示する</string>
-    <string name="flashback_support_apps_title">利用可能なアプリ</string>
-    <string name="flashback_title">アプリフラッシュカード</string>
-    <string name="flashback_wangzhe_summary">復活のカウントダウンを表示する</string>
     <string name="flip_aod_settings_title">ロック画面 (外側)</string>
     <string name="flip_aod_settings_title_new">ロック画面 (外側)</string>
     <string name="flip_application_settings_title">外側の画面のアプリ</string>
@@ -4804,6 +4860,8 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="font_preview_text_content">"例文:
 
 Xiaomi は、革新的なテクノロジーを通じて世界中のすべての人がより良い生活を送れるように、誠実な価格の素晴らしい製品を絶えず作り続けています。"</string>
+    <string name="font_preview_text_content_new">"例文:
+Xiaomi は、革新的なテクノロジーを通じて世界中のすべての人がより良い生活を送れるように、誠実な価格の素晴らしい製品を絶えず作り続けています。"</string>
     <string name="font_scale_percentage">%1$d%%</string>
     <string name="font_setting_weight_toast">現在のフォントはフォントの太さの調整をサポートしていません</string>
     <string name="font_settings_jump">アクセシビリティ > 表示サイズ</string>
@@ -4823,12 +4881,14 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
 "</string>
     <string name="font_size_summary1">"システムの文字がまだ小さい場合は、こちらをお試しください "</string>
     <string name="font_size_summary2">シンプルモード</string>
+    <string name="fonts_management_installed_app">アプリで使用するフォントのインストールと管理</string>
+    <string name="fonts_manager">フォントを管理</string>
     <string name="footer_description_full_screen_intent">デバイスのロック時に、このアプリが画面全体に通知を表示することを許可します。アプリは全画面通知を使用して、アラーム、着信、その他の緊急通知を表示できます。この設定は、バックグラウンドでの実行中に新しいウィンドウを開く権限に依存しており、この権限が付与されている場合にのみ使用できます。</string>
     <string name="footer_learn_more_content_description">「%1$s」の詳細</string>
     <string name="footer_time_zone_offset_change_next_change">次の変更</string>
     <string name="footer_time_zone_offset_change_no_next_change">予定されている変更はありません</string>
     <string name="forbidden_network">（禁止）</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">修復モードがオンです。現在、パスワードの設定や変更はできません。</string>
     <string name="forbidden_switch_apn_string">選択した APN 設定は現在のネットワークタイプに一致しません</string>
     <string name="force_allow_on_external">外部ストレージへのアプリの書き込みを許可</string>
     <string name="force_allow_on_external_summary">マニフェストの値に関係なく、すべてのアプリを外部ストレージに書き込めるようになります</string>
@@ -4844,8 +4904,8 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="force_immersive_compatibility_hint_message">画面ボタンを隠すと、一部のアプリが正常に動作しない可能性があります。</string>
     <string name="force_immersive_compatibility_hint_title">互換性の問題</string>
     <string name="force_msaa">4x MSAA を適用</string>
-    <string name="force_msaa_new">4x MSAAを強制する</string>
-    <string name="force_msaa_prefrence_summary_new">OpenGL ES %1$.1f アプリで4x MSAAを有効にする</string>
+    <string name="force_msaa_new">4x MSAA を強制する</string>
+    <string name="force_msaa_prefrence_summary_new">OpenGL ES %1$.1f アプリで 4x MSAA を有効にする</string>
     <string name="force_msaa_summary">OpenGL ES 2.0 アプリで 4x MSAA を有効にします</string>
     <string name="force_resizable_activities">アクティビティをサイズ変更可能にする</string>
     <string name="force_resizable_activities_summary">マニフェストの値に関係なく、マルチウィンドウですべてのアクティビティのサイズを変更できるようにします。</string>
@@ -4893,7 +4953,7 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="free_wifi_connect_summary">%1$s と Xiaomi によって提供されています。タップして接続します。</string>
     <string name="free_wifi_connect_title">Wi-Fi が利用可能です</string>
     <string name="free_wifi_connected">無料 Wi-Fi に接続しました</string>
-    <string name="free_wifi_connected_time">接続時間: %1$s</string>
+    <string name="free_wifi_connected_time">接続時間：%1$s</string>
     <string name="free_wifi_connecting">接続中…</string>
     <string name="free_wifi_login_again">もう一度サインイン</string>
     <string name="free_wifi_manage_summary">%1$s と Xiaomi によって提供されています。タップすると詳細が表示されます。</string>
@@ -4949,6 +5009,7 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="friday_first_day_of_week">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
+    <string name="frp_status_activated">ファクトリーリセットの保護がオンです</string>
     <string name="fsg_mistake_touch_summary">全画面表示でのゲームプレイ時や動画再生時といった一部の状況においては、ジェスチャーを有効にするには2回スワイプする必要があります。</string>
     <string name="fsg_mistake_touch_title">ジェスチャーの再確認</string>
     <string name="full_screen_display">全画面表示モード</string>
@@ -4969,6 +5030,7 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="game_app_title">ゲームライト効果</string>
     <string name="game_booster">ゲーム;ゲーム;ターボ;ゲーム中;ゲームモード</string>
     <string name="game_booster_title">ゲームターボ</string>
+    <string name="game_call_of_duty_title">Call of Duty</string>
     <string name="game_controller_button_a">A ボタン</string>
     <string name="game_controller_button_b">B ボタン</string>
     <string name="game_controller_button_l1">L1 ボタン</string>
@@ -4992,8 +5054,13 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="game_controller_stick_remapping_category">方向</string>
     <string name="game_controller_stick_right">右スティック</string>
     <string name="game_delta_action_moments">物資の略奪と避難の成功</string>
+    <string name="game_delta_action_title">三角洲行动</string>
+    <string name="game_eyecare_empty_list_tip">まだ何もありません</string>
     <string name="game_king_of_glory_moments">キル、勝利、その他の重要な瞬間</string>
+    <string name="game_king_of_glory_title">王者荣耀</string>
     <string name="game_peacekeeper_elites_moments">スカイダイビングとコンバット</string>
+    <string name="game_peacekeeper_elites_title">和平精英</string>
+    <string name="game_pubg_mobile_title">PUBG MOBILE</string>
     <string name="game_storage_settings">ゲーム</string>
     <string name="gaze_lock_screen_summary">画面を見ている間はデバイスのロックが解除されたままになり、目を離すとプライバシーを保護するためにロックがかかり、自動ロック時間の設定が上書きされます。</string>
     <string name="gaze_lock_screen_title">存在を検出</string>
@@ -5171,6 +5238,7 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="gxzw_anim_rhythm">リズム</string>
     <string name="gxzw_anim_star">スターライト</string>
     <string name="gxzw_anim_switch">指紋アニメーション</string>
+    <string name="gxzw_anim_switch_new">指紋アニメーション</string>
     <string name="gxzw_anim_title">指紋認識</string>
     <string name="gxzw_aod_show_summary">デバイスを持ち上げるか、画面をタップすると、指紋アイコンが表示されます。この機能により、システムの消費電力は増加しますが、より速くロックを解除することができます。</string>
     <string name="gxzw_aod_show_tittle">画面オフ時に指紋アイコンを表示</string>
@@ -5190,6 +5258,7 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="gxzw_quick_open_show_summary">· ロック解除後、指紋アイコンに指を置いたままにすると、ショートカットメニューが表示されます。</string>
     <string name="gxzw_quick_open_slow_summary">指紋アイコンを長押ししてショートカットメニューを開きます。スワイプしてショートカットを使用します。</string>
     <string name="gxzw_quick_open_slow_title">長押し</string>
+    <string name="gxzw_quick_open_summary">ロックを解除した後、指紋アイコンを長押ししてショートカットメニューを開き、目的のショートカットまでスライドして選択してください。</string>
     <string name="gxzw_quick_open_title">ショートカット</string>
     <string name="gxzw_recognizing_anim_a">リップル</string>
     <string name="gxzw_recognizing_anim_b">スパイラル</string>
@@ -5282,8 +5351,14 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="headset_aac">AAC</string>
     <string name="headset_adaptive_hearing_summary">耳の形状や環境に応じてサウンドを自動的に調整します</string>
     <string name="headset_adaptive_hearing_title">アダプティブサウンド</string>
+    <string name="headset_adaptive_volume_summary_gaia">周囲の環境に応じて音量を自動的に調整する</string>
+    <string name="headset_airpods_rename_summary">新しい名前はこのデバイスにのみ表示されます</string>
+    <string name="headset_airpods_ring_find">音を再生して位置を特定する</string>
+    <string name="headset_airpods_ring_find_summary">このデバイスとペアリングされたイヤホンで大音量を再生し、位置を特定する</string>
+    <string name="headset_airpods_spatial_audio_summary">対応オーディオとビデオでイマーシブサウンドをお楽しみください</string>
     <string name="headset_ambient_sound">環境音</string>
     <string name="headset_aptx_adapter">Qualcomm® aptX™ Adaptive</string>
+    <string name="headset_autoswitch_switched">切り替え済み</string>
     <string name="headset_connectiong">接続中…</string>
     <string name="headset_find_both">両方</string>
     <string name="headset_find_cancel">キャンセル</string>
@@ -5294,6 +5369,7 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="headset_find_notify_connected">接続されました</string>
     <string name="headset_find_notify_disconnect">切断されました。接続してからもう一度お試しください。</string>
     <string name="headset_find_play_warning">イヤホンが耳に入っている状態のようです。このままアラームを再生すると、聴覚を損なう恐れがあります。イヤホンを外してから再生してください。</string>
+    <string name="headset_find_play_warning_no_wear">大音量で再生されます。聴覚に障害をきたす恐れがあります。再生前にイヤホンを外してください。</string>
     <string name="headset_find_playing">再生中…</string>
     <string name="headset_find_query_play">再生</string>
     <string name="headset_find_right">右側のみ</string>
@@ -5316,6 +5392,7 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="headset_notification_switch_summary">イヤホン接続時に通知シェードウィジェットにステータスを表示する</string>
     <string name="headset_notification_switch_title">通知シェードウィジェット</string>
     <string name="headset_paired_other_device_need_reset">このイヤホンは別のデバイスとペア設定されています。リセットすると接続できるようになります。</string>
+    <string name="headset_profile_hfp">通話オーディオ</string>
     <string name="headset_remove_message">デバイスのペア設定を解除しますか？</string>
     <string name="headset_remove_message_indicate">%1$sは、この Xiaomi アカウントに関連付けられたすべてのデバイスからペア設定を解除されます。</string>
     <string name="headset_sbc">SBC</string>
@@ -5326,6 +5403,7 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="headset_silent_upgrade_switch_summary">必要な条件をすべて満たした場合、イヤホンのファームウェアを自動的にアップデートする</string>
     <string name="headset_silent_upgrade_switch_title">自動アップデート</string>
     <string name="headset_spatial_audio">3D オーディオ</string>
+    <string name="headset_toast_tip_disconnect_others">イヤホンが別のデバイスに接続されているようです</string>
     <string name="headset_unsaved_devices">他のデバイスで使用されています</string>
     <string name="headset_voice_control_assistant_summary">オンにすると、Mi AI の起動、音量の調整、音楽の再生および一時停止、音声での前の曲または次の曲への切り替えが可能です</string>
     <string name="headset_voice_control_assistant_summary_fixed">オンにすると、Mi AI の起動、音量の調整、音楽の再生および一時停止、ノイズキャンセリングモードの切り替え、音声での前の曲または次の曲への切り替えが可能です</string>
@@ -5480,6 +5558,7 @@ Xiaomi Cloud を開き、そこからアイテムを復元します。"</string>
     <string name="immediately_destroy_activities">アクティビティを保持しない</string>
     <string name="immediately_destroy_activities_summary">ユーザーが離れたアクティビティを直ちに破棄する</string>
     <string name="immersive_audio_sources">イマーシブサウンド</string>
+    <string name="import_manager_font_summary">アプリ用フォントのインポートと管理</string>
     <string name="importance_default">デフォルト</string>
     <string name="importance_high">高</string>
     <string name="importance_low">低</string>
@@ -5553,7 +5632,7 @@ Xiaomi Cloud を開き、そこからアイテムを復元します。"</string>
     <string name="input_method_selector_visibility_default_value">0</string>
     <string name="input_method_settings_button">設定</string>
     <string name="input_method_settings_text">設定</string>
-    <string name="input_pattern_hint_text">ロック解除パターンを入力してください</string>
+    <string name="input_pattern_hint_text">ロック解除パターンを描いてください</string>
     <string name="input_setting_bounce_keys_seekbar_desc">バウンスキーのしきい値の時間</string>
     <string name="input_setting_keys_custom_title">カスタム</string>
     <string name="input_setting_keys_custom_value">カスタム値</string>
@@ -5979,6 +6058,67 @@ Xiaomi Cloud を開き、そこからアイテムを復元します。"</string>
     <string name="layout_size_normal_text">小</string>
     <string name="layout_size_small">XS</string>
     <string name="layout_size_small_text">極小</string>
+    <string name="ldp_checker_action">設定</string>
+    <string name="ldp_checker_desc">重要なセキュリティ設定の本人確認用に指紋を追加し、デバイスを探すをオンにしてください。サインインしたデバイスを紛失または盗難に遭った場合、デバイスを探す機能で位置を特定し、データを保護できます。</string>
+    <string name="ldp_checker_find_device_desc">Xiaomi アカウントにサインインしていない場合、まずサインインするよう案内されます。</string>
+    <string name="ldp_checker_find_device_title">「デバイスを探す」をオンにする</string>
+    <string name="ldp_checker_fingerprint_enroll_desc">まだ画面ロックを設定していない場合は、まず設定するよう案内されます。</string>
+    <string name="ldp_checker_fingerprint_enroll_title">少なくとも1つの指紋を追加してください</string>
+    <string name="ldp_checker_title">指紋認証とデバイスを探すをオンにする必要があります</string>
+    <string name="ldp_closed_dialog_button_know">了解</string>
+    <string name="ldp_closed_dialog_reason_by_xiaomi_account">Xiaomi アカウントで「紛失時の保護」機能をオフにしました。これにより、お使いのデバイスのセキュリティ機能による追加の保護は適用されなくなりました。</string>
+    <string name="ldp_closed_dialog_reason_no_account">Xiaomi アカウントにサインインしていないため、紛失デバイス保護は現在オフになっています。</string>
+    <string name="ldp_closed_dialog_reason_no_device_find">リモートでデバイスを探す機能をオフにしたため、紛失デバイス保護は現在オフになっています。</string>
+    <string name="ldp_closed_dialog_reason_no_fingerprint">指紋が登録されていないため、紛失デバイス保護は現在オフになっています。</string>
+    <string name="ldp_closed_dialog_reason_no_lock_password">画面ロックが設定されていないため、紛失デバイス保護は現在オフになっています。</string>
+    <string name="ldp_closed_dialog_sync_title">紛失したデバイスの保護はオフです</string>
+    <string name="ldp_closed_dialog_title">紛失したデバイスの保護はオフです</string>
+    <string name="ldp_detail_introduction">この機能が、デバイスを紛失した場合にどのように保護に役立つかご確認ください。</string>
+    <string name="ldp_detail_title">紛失したデバイスの保護について</string>
+    <string name="ldp_dual_auth">2 ファクタ認証</string>
+    <string name="ldp_dual_auth_desc">紛失したSIMカードが第三者に悪用され、Xiaomi アカウントが不正操作されるのを防ぎます</string>
+    <string name="ldp_extra_fingerprint_item1">•画面ロックのオフまたは変更</string>
+    <string name="ldp_extra_fingerprint_item2">•指紋または顔データを追加中</string>
+    <string name="ldp_extra_fingerprint_item3">•指紋または顔データを削除中</string>
+    <string name="ldp_extra_fingerprint_item4">•Xiaomi アカウントからサインアウトしています</string>
+    <string name="ldp_extra_fingerprint_title">以下の操作には追加の指紋確認が必要です</string>
+    <string name="ldp_fingerprint_fault_desc">この機能は指紋認証でオフにできます。指紋認証が確認できない場合、紛失デバイス保護機能により Xiaomi アカウントで認証することでオフにできます。他者がこの方法で保護を即座に回避するのを防ぐため、紛失デバイス保護機能は%1$d時間のセキュリティ遅延を開始します。これにより、本物の所有者がデバイスを遠隔消去したり SIM カードを停止したりするなどの対応を取る時間が確保されます。遅延期間終了後、%2$d時間以内に Xiaomi アカウントで認証することで、この機能をオフにできます。</string>
+    <string name="ldp_fingerprint_fault_title">指紋認証が利用できない場合</string>
+    <string name="ldp_forbidden_actions_item1">•「デバイスを探す」をオフにする</string>
+    <string name="ldp_forbidden_actions_item2">•オフライン位置情報をオフにする</string>
+    <string name="ldp_forbidden_actions_item3">•「最終位置情報を送信」をオフにする</string>
+    <string name="ldp_forbidden_actions_title">以下の操作はブロックされます</string>
+    <string name="ldp_function_home_introduction_des">デバイスを紛失した場合、画面ロックや顔データ、ペアリング済みのBluetoothデバイスを第三者が入手しても、この機能によりデバイスへの重大な悪意のある変更を防ぐことができます。&lt;a href=app://learn_more>もっと詳しく知る&lt;/a></string>
+    <string name="ldp_function_home_suggestion_title">おすすめの機能</string>
+    <string name="ldp_guide_account_protection_desc">このデバイスでは、Xiaomi アカウントの機密性の高い操作を行う前に、指紋認証が必要です。</string>
+    <string name="ldp_guide_account_protection_title">Xiaomi アカウントに追加の保護を追加</string>
+    <string name="ldp_guide_action">次へ</string>
+    <string name="ldp_guide_desc">デバイスを紛失した場合、画面ロックや顔認証データ、ペアリング済みのBluetoothデバイスを第三者が入手しても、この機能によりデバイスへの重大な悪意のある変更を防ぐことができます。</string>
+    <string name="ldp_guide_identity_verification_desc">セキュリティ設定の変更や一部の機密機能へのアクセスには指紋認証が必要となります。これにより、これらの機能はご本人様のみがご利用いただけます。</string>
+    <string name="ldp_guide_identity_verification_title">機密性の高い操作が実際にあなた自身によって実行されていることを確認してください</string>
+    <string name="ldp_how_to_protect_desc">紛失時保護機能は追加のセキュリティ層を提供します。セキュリティレベルの低い方法でデバイスのロックが解除された場合、重要な操作には別の認証方法が要求されます。これにより、不要な重複認証なしに追加の本人確認が実施されます。デバイスを紛失した場合でも、この追加認証により、詐欺やフィッシングで画面ロックや Xiaomi アカウント情報が漏洩した際でも、第三者が重要なセキュリティ設定を変更するのを防ぐことができます。</string>
+    <string name="ldp_how_to_protect_title">仕組み</string>
+    <string name="ldp_recommend_action_button_text">オンにする</string>
+    <string name="ldp_recommend_desc">これにより、他人があなたのSIMカードを使用して Xiaomi アカウントをリセットし、紛失時保護やデバイスを探すなどのセキュリティ機能を無効化することを防ぐことができます。</string>
+    <string name="ldp_recommend_later_button_text">今はしない</string>
+    <string name="ldp_recommend_title">アカウントの 2 ファクタ認証をオンにしてください</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item1">•Bluetooth デバイスによるロックを解除をオフにする</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item2">•USIMカードの設定を表示または変更</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item3">•パスワードアプリを開く</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item4">•パスワードを使用してパスワードを自動入力する</string>
+    <string name="ldp_replace_pwd_with_fingerprint_title">以下の操作では、画面ロック認証が指紋認証に置き換えられます</string>
+    <string name="ldp_summary">このデバイスおよびサインイン済みの Xiaomi アカウントに対して、他者が重要な変更を加えることを防止します</string>
+    <string name="ldp_title">紛失したデバイスの保護</string>
+    <string name="ldp_trigger_occasion_desc">デバイスが顔データ、画面ロック、またはペアリング済みのBluetoothデバイスでロックを解除された場合、一部の機密性の高い操作には追加の指紋認証、または指紋確認のみが必要となります。同時に、「デバイスを探す」機能はオフにできません。</string>
+    <string name="ldp_trigger_occasion_title">保護が作動したとき</string>
+    <string name="ldp_uni_auth_add_face_title">指紋認証を行って、顔データを追加してください</string>
+    <string name="ldp_uni_auth_add_fingerprint_title">指紋認証を行って、新しい指紋を追加してください</string>
+    <string name="ldp_uni_auth_change_password_title">指紋認証を行って、画面ロックを変更してください</string>
+    <string name="ldp_uni_auth_disable_ldp_title">指紋認証を行って、紛失時の保護機能をオフにしてください</string>
+    <string name="ldp_uni_auth_enable_ldp_subtitle">「紛失時の保護」機能を有効にするには、本人認証を行い、指紋センサーが正常に動作していることを確認してください。</string>
+    <string name="ldp_uni_auth_remove_face_title">指紋認証を行って、顔データを削除してください</string>
+    <string name="ldp_uni_auth_remove_fingerprint_title">指紋認証を行って、1つ削除してください</string>
+    <string name="ldp_uni_auth_remove_password_title">指紋認証を行って、画面ロックを解除してください</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_about_security_chip">専用のセキュリティチップがデバイスを保護する方法について知る</string>
     <string name="learn_more">詳細</string>
@@ -6009,6 +6149,7 @@ Xiaomi Cloud を開き、そこからアイテムを復元します。"</string>
     <string name="license_title">ライセンス</string>
     <string name="lift_to_wake_title">指を離してスリープ状態から復帰</string>
     <string name="light_camera_state_summary">タイマー撮影または連写時にバックライトを点灯する</string>
+    <string name="light_camera_state_summary_new">タイマー撮影または連写時にLEDライトを点灯する</string>
     <string name="light_camera_state_title">カメラステータスインジケーター</string>
     <string name="light_color_mode">ライトモード</string>
     <string name="lights_title">LEDライト</string>
@@ -6125,7 +6266,7 @@ Xiaomi Cloud を開き、そこからアイテムを復元します。"</string>
     <string name="location_settings_footer_location_off_no_telephony">アプリとサービスの位置情報へのアクセスは OFF になっています。</string>
     <string name="location_settings_footer_location_off_with_telephony">アプリとサービスの位置情報へのアクセスは OFF になっています。緊急通報番号に電話をかけた場合は、デバイスの位置情報が緊急サービスに送信されることがあります。</string>
     <string name="location_settings_loading_app_permission_stats">読み込んでいます…</string>
-    <string name="location_settings_primary_switch_title">位置情報を使用</string>
+    <string name="location_settings_primary_switch_title">位置情報サービスを使用</string>
     <string name="location_settings_subtitle">位置情報にアクセスできるアプリとサービスを確認</string>
     <string name="location_settings_summary_location_off">OFF</string>
     <string name="location_settings_summary_location_on">{count,plural, =1{ON / # 個のアプリに位置情報へのアクセスを許可}other{ON / # 個のアプリに位置情報へのアクセスを許可}}</string>
@@ -6205,7 +6346,7 @@ Xiaomi Cloud を開き、そこからアイテムを復元します。"</string>
     <string name="lock_screen_notifs_show_full_list">一覧</string>
     <string name="lock_screen_notifs_show_none">通知を表示しない</string>
     <string name="lock_screen_notifs_title">ロック画面上の通知</string>
-    <string name="lock_screen_now">画面をロックする</string>
+    <string name="lock_screen_now">画面をロック</string>
     <string name="lock_screen_password">画面ロック</string>
     <string name="lock_screen_password_protection">画面ロックの保護</string>
     <string name="lock_screen_password_skip_biometrics_message">"指紋認証と顔認証を設定するにはパスワードが必要です。
@@ -6473,7 +6614,7 @@ PINを設定してください。
     <string name="long_background_tasks_switch_title">長時間実行のバックグラウンド タスクを許可</string>
     <string name="long_background_tasks_title">長いバックグラウンド タスク</string>
     <string name="long_press_back_key">戻るボタンを長押し</string>
-    <string name="long_press_buttom_key">ロック画面でホームボタンを長押し</string>
+    <string name="long_press_buttom_key">ロック画面でホームを長押し</string>
     <string name="long_press_editor_style_summary">ロック画面を長押しして時計と壁紙を編集します</string>
     <string name="long_press_editor_style_title">長押しして編集</string>
     <string name="long_press_home_key">ホームボタンを長押し</string>
@@ -6695,6 +6836,7 @@ PINを設定してください。
 この操作を元に戻すことはできません。"</string>
     <string name="master_clear_title">すべてのデータを消去 (ファクトリーリセット)</string>
     <string name="master_clear_title_new">ファクトリーリセット</string>
+    <string name="material_classic_title">曇りガラス</string>
     <string name="material_clock_toggle_content_description">午前または午後を選択</string>
     <string name="material_hour_24h_suffix">%1$s時</string>
     <string name="material_hour_selection">時を選択</string>
@@ -6711,6 +6853,7 @@ PINを設定してください。
     <string name="material_timepicker_pm">午後</string>
     <string name="material_timepicker_select_time">時刻を選択</string>
     <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
+    <string name="material_transparent_title">ソフトガラス</string>
     <string name="max_aspect_settings_all_app_display_loading">お待ちください…</string>
     <string name="max_cpu10_info">"デカコア最大 "</string>
     <string name="max_cpu2_info">"デュアルコア最大 "</string>
@@ -6787,7 +6930,7 @@ PINを設定してください。
     <string name="memory_details">詳細</string>
     <string name="memory_maximum_usage">最大使用量</string>
     <string name="memory_performance">パフォーマンス</string>
-    <string name="memory_rightvalue">合計: %s</string>
+    <string name="memory_rightvalue">合計：%s</string>
     <string name="memory_settings_title">メモリ</string>
     <string name="memory_summary">%2$s のうち平均で %1$s を使用</string>
     <string name="memory_system_rom">システム</string>
@@ -6852,6 +6995,8 @@ PINを設定してください。
     <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
     <string name="mi_smart_play_entry_title">Mi Smart Play</string>
     <string name="mi_transfer">Mi Mover</string>
+    <string name="mi_transfer_banner_summary">複数のデバイスブランドがサポートされています</string>
+    <string name="mi_transfer_banner_title">古いデバイスからアイテムを転送する</string>
     <string name="mi_upi_settings">Mi Pay アカウント</string>
     <string name="mi_wallet">Mi ウォレット</string>
     <string name="mi_wallet_desc">Mi ウォレット</string>
@@ -6883,6 +7028,8 @@ PINを設定してください。
     <string name="miheadset_RightEar">右</string>
     <string name="miheadset_active">エネルギッシュ</string>
     <string name="miheadset_adaptive">アダプティブ</string>
+    <string name="miheadset_air_anc_no_wear_indicate">この機能を使用するには、イヤホンを装着してください</string>
+    <string name="miheadset_air_anc_wear_indicate">この機能を使用するには、両方のイヤホンを装着してください</string>
     <string name="miheadset_ancClosed">オフ</string>
     <string name="miheadset_ancDepth">ディープ</string>
     <string name="miheadset_ancEquilibrium">バランス</string>
@@ -6892,6 +7039,7 @@ PINを設定してください。
     <string name="miheadset_ancMild">ライト</string>
     <string name="miheadset_anc_indicate">イヤホンを接続してペア設定してください</string>
     <string name="miheadset_anc_manual">手動</string>
+    <string name="miheadset_atuo_download_new_title">イヤホンの自動アップデート</string>
     <string name="miheadset_audio_mode">オーディオ品質</string>
     <string name="miheadset_audio_mode_high">高</string>
     <string name="miheadset_audio_mode_listen">低</string>
@@ -6903,6 +7051,7 @@ PINを設定してください。
     <string name="miheadset_auto_ack_mode">イヤホンを装着しているときは着信に自動的に応答します</string>
     <string name="miheadset_auto_ack_mode_summary">着信に自動的に応答</string>
     <string name="miheadset_auto_answer_call">着信に自動的に応答</string>
+    <string name="miheadset_auto_download_new_summary">WLAN に接続しており、使用していない時にイヤホンのファームウェアを自動的にアップデートします</string>
     <string name="miheadset_bluetooth_audio_title">LC3plus Bluetooth オーディオサンプルレート</string>
     <string name="miheadset_bright">ブライト</string>
     <string name="miheadset_call_assist">Mi AI</string>
@@ -6921,6 +7070,7 @@ PINを設定してください。
     <string name="miheadset_disconnect">切断</string>
     <string name="miheadset_disconnect_ble">Bluetooth から切断</string>
     <string name="miheadset_disconnect_device">このデバイスを切断しますか？</string>
+    <string name="miheadset_dolby_space_audio">ドルビーオーディオ</string>
     <string name="miheadset_double_MFB">MFB を 2 回タップ</string>
     <string name="miheadset_double_click_key_mode">2 回タップ</string>
     <string name="miheadset_double_click_left">左側のイヤホンを 2 回タップ</string>
@@ -6970,6 +7120,10 @@ PINを設定してください。
     <string name="miheadset_head_tracking_summary">対応する音声や映像の強化された空間感や方向性を体験できます</string>
     <string name="miheadset_high_quality">高音質</string>
     <string name="miheadset_ignore">ペアを解除</string>
+    <string name="miheadset_immersion">没入型の通勤体験</string>
+    <string name="miheadset_immersion_airplane_mode">機内モード</string>
+    <string name="miheadset_immersion_high_speed_rail_mode">列車</string>
+    <string name="miheadset_immersion_subway_mode">公共交通機関</string>
     <string name="miheadset_in_ear_check">装着検出</string>
     <string name="miheadset_in_ear_check_summary">イヤホンを外すと音声が一時停止し、装着すると自動的に再開します</string>
     <string name="miheadset_key_config_ANC_list_title">ノイズコントロール</string>
@@ -7003,13 +7157,14 @@ PINを設定してください。
     <string name="miheadset_longpress_temple_when_idle">非通話時に長押し</string>
     <string name="miheadset_low_latency">低レイテンシー</string>
     <string name="miheadset_manual">デバイス情報</string>
+    <string name="miheadset_mi_space_audio">Xiaomi 3D オーディオ</string>
     <string name="miheadset_mihc">Xiaomi の高品質 ( CD レベルのサウンド)</string>
     <string name="miheadset_minus">音量ダウン</string>
     <string name="miheadset_moreSettingsInAi">追加設定</string>
     <string name="miheadset_multi_connect_mode">マルチポイント</string>
     <string name="miheadset_multi_connect_mode_summary">複数のデバイスに同時に接続する</string>
     <string name="miheadset_network_not_available">ネットワーク設定を確認して、もう一度お試しください</string>
-    <string name="miheadset_next">次の曲</string>
+    <string name="miheadset_next">次のトラック</string>
     <string name="miheadset_notification_summary">イヤホン接続時に通知シェードウィジェットを表示する</string>
     <string name="miheadset_notification_title">通知シェードに表示</string>
     <string name="miheadset_offhook">通話を拒否</string>
@@ -7023,6 +7178,7 @@ PINを設定してください。
     <string name="miheadset_plus">音量アップ</string>
     <string name="miheadset_plus_and_minus">「+」ボタンと「-」ボタンを %d 秒間長押し</string>
     <string name="miheadset_preferences">基本設定</string>
+    <string name="miheadset_recording_translation">録音/通訳</string>
     <string name="miheadset_rename">名前の変更</string>
     <string name="miheadset_rename_device">名前の変更</string>
     <string name="miheadset_same_account_incall">すべての同期済みデバイスへの着信に応答</string>
@@ -7045,6 +7201,7 @@ PINを設定してください。
     <string name="miheadset_spatial_audio_on">オン</string>
     <string name="miheadset_spatial_audio_summary">対応する音声や映像の没入感や空間感を体験できます</string>
     <string name="miheadset_support">ヘルプ</string>
+    <string name="miheadset_switch_play_mode">再生モードを切り替える</string>
     <string name="miheadset_switch_play_mode_summary">1. 再生モードを切り替える: Bluetooth 経由で再生するか、ヘッドホンに保存されている音楽を再生します。</string>
     <string name="miheadset_switch_play_oder_summary">2. 再生順序を切り替える: 1 曲またはプレイリスト全体のリピート再生やシャッフル再生を選択できます。この機能はヘッドホンに保存されている音楽にのみ適用されます。</string>
     <string name="miheadset_switch_play_order">再生順序を切り替える</string>
@@ -7098,33 +7255,14 @@ PINを設定してください。
     <string name="miui_face_unlock_open_toast_for_sensor_light_virtual">画面の明るさは自動的に調整されません</string>
     <string name="miui_input_method_attention">注意</string>
     <string name="miui_input_method_settings">入力方式の設定</string>
-    <string name="miui_lab_ai_cloud_closed">AI プリロードはまだ利用できません。</string>
-    <string name="miui_lab_ai_preload_desc">AI プリロードはアプリの起動速度を向上させます</string>
-    <string name="miui_lab_ai_preload_title">AI プリロード</string>
-    <string name="miui_lab_aiasst_call_screen_desc">AI を使用して通話に応答する</string>
-    <string name="miui_lab_aiasst_call_screen_title">AI 通話アシスタント</string>
-    <string name="miui_lab_drive_mode_desc">音声コントロールと WeChat メッセージの再生に対応</string>
-    <string name="miui_lab_drive_mode_title">ドライブモード</string>
-    <string name="miui_lab_feature_applied">申請済み</string>
-    <string name="miui_lab_feature_off">オフ</string>
-    <string name="miui_lab_feature_on">オン</string>
-    <string name="miui_lab_features">MIUI ラボの機能</string>
-    <string name="miui_lab_gallery_search_desc">改良された画像検索</string>
-    <string name="miui_lab_gallery_search_title">ギャラリー内の写真を検索</string>
-    <string name="miui_lab_gesture_desc">ナビゲーションにボタンの代わりにジェスチャーを使用する</string>
-    <string name="miui_lab_gesture_title">フルスクリーンジェスチャー</string>
-    <string name="miui_lab_install_drive_mode_error">インストールできませんでした。もう一度お試しください。</string>
-    <string name="miui_lab_install_drive_mode_summary">ドライブモードはシステムアプリです。インストールにはインターネット接続は必要ありません。</string>
-    <string name="miui_lab_install_drive_mode_title">ドライブモードをインストール</string>
-    <string name="miui_lab_settings">ラボ</string>
-    <string name="miui_lab_slogan">学ぶ。探索する。発見する。</string>
     <string name="miui_master_clear_prompt_battery_low">バッテリー残量が %1$s 未満の場合、ファクトリーリセットを実行できません。続ける前にデバイスを充電してください。</string>
     <string name="miui_master_clear_summary">このデバイスのすべてのデータを消去する</string>
     <string name="miui_more_special_feature">新しい機能を見る</string>
     <string name="miui_nfc_dialog_message">NFC をオフにすると、Mi Pay、交通カード、キーカードなどを含む NFC 機能を使用できなくなります。オフにしてもよろしいですか？</string>
+    <string name="miui_nfc_dialog_message_gl">NFCをオフにすると、NFCタグの読み取りや書き込み、アクセスカードの使用など、NFC機能を利用できなくなります。それでもオフにしますか？</string>
     <string name="miui_nfc_dialog_negative">オフにする</string>
     <string name="miui_nfc_dialog_positive">キャンセル</string>
-    <string name="miui_nfc_dialog_title">Wi-Fi をオフにする</string>
+    <string name="miui_nfc_dialog_title">NFC をオフにする</string>
     <string name="miui_nfc_mi_pay_summary">Mi Pay、交通カード、キーカード</string>
     <string name="miui_optimization_disabled">システムの最適化をオフにする</string>
     <string name="miui_sos_around_photo_summary">緊急連絡先に送信するテキストメッセージに、フロントカメラとリアカメラで撮影した写真を各%d枚添付する</string>
@@ -7248,6 +7386,7 @@ PINを設定してください。
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">半画面に切り替える</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">最大化</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">最小化</string>
+    <string name="miuix_popup_show_description">ポップアップウィンドウ</string>
     <string name="miuix_popup_window_default_title">ポップアップウィンドウ</string>
     <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
@@ -7582,6 +7721,7 @@ PINを設定してください。
     <string name="musical_rhythm_app_title">リズミカルなライト効果</string>
     <string name="must_match_initial_password_length">ファースト・スペースのパスワード長と一致する必要があります</string>
     <string name="mute">サイレントモード</string>
+    <string name="mute_during_update">インストールを成功させるには、アップデート中に再生を一時停止してください</string>
     <string name="mute_media_sound_summary">ゲーム、音楽、ビデオ、その他のアプリ</string>
     <string name="mute_media_sound_title">サイレントモード時にメディア音をオフにする</string>
     <string name="mute_music_stream">メディア音をミュート</string>
@@ -7732,6 +7872,12 @@ PINを設定してください。
     <string name="next_button_label">次へ</string>
     <string name="next_label">次へ</string>
     <string name="next_page_content_description">次へ</string>
+    <string name="nfc_ac_btn_no">キャンセル</string>
+    <string name="nfc_ac_btn_yes">設定</string>
+    <string name="nfc_ac_confirm_ask">アクセスカードをデフォルトカードに設定しますか？</string>
+    <string name="nfc_ac_confirm_desc">ドアをタップしてロックを解除ロックを解除するには、アクセスカードをデフォルトのタップカードに設定してください。</string>
+    <string name="nfc_ac_summary">スマートフォンをアクセスカードとして使用し、対応ドアをタップするだけでロックを解除できます</string>
+    <string name="nfc_ac_title">アクセスカード</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">使用するには、まずお支払いアプリをインストールしてください</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">NFC が OFF のため使用できません</string>
     <string name="nfc_category_title">NFC</string>
@@ -7756,10 +7902,10 @@ PINを設定してください。
     <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">デフォルトに設定</string>
     <string name="nfc_payment_btn_text_update">更新</string>
-    <string name="nfc_payment_default">デフォルトのお支払いアプリ</string>
+    <string name="nfc_payment_default">デフォルトカードを選択</string>
     <string name="nfc_payment_default_not_set">未設定</string>
     <string name="nfc_payment_favor_default">常にデフォルトのアプリを使用する</string>
-    <string name="nfc_payment_favor_open">別の決済アプリが起動しているときは、起動中のアプリを使用する</string>
+    <string name="nfc_payment_favor_open">別の支払いアプリが起動しているときは、起動中のアプリを使用する</string>
     <string name="nfc_payment_how_it_works">仕組み</string>
     <string name="nfc_payment_no_apps">店舗でスマートフォンを使用して決済</string>
     <string name="nfc_payment_pay_with">非接触型決済端末で使用するアプリ:</string>
@@ -7825,7 +7971,10 @@ PINを設定してください。
     <string name="night_display_temperature_title">黄味の強さ</string>
     <string name="night_display_text">夜間モードを利用すると画面が黄味がかった色になります。薄明かりの下でも画面が見やすくなり、寝付きを良くする効果も期待できます。</string>
     <string name="night_display_title">夜間モード</string>
+    <string name="night_eye_protection_summary">就寝後に自動的に明るさを抑え、夜間にデバイスを確認する際の快適さを保ちます</string>
+    <string name="night_eye_protection_title">夜間の視力保護</string>
     <string name="night_light_main_switch_title">夜間モードを使用</string>
+    <string name="night_vision_adapted_game_title">@string/adapted_game_title</string>
     <string name="nls_feature_modes_settings_summary">モードの管理や有効化、関連する設定の変更を行えます。</string>
     <string name="nls_feature_read_summary">通知を読み取ることができます。通知には、連絡先、メッセージ、写真などの個人情報も含まれます。</string>
     <string name="nls_feature_read_title">通知の読み取り</string>
@@ -7942,7 +8091,7 @@ PINを設定してください。
     <string name="notification_assistant_title">拡張通知</string>
     <string name="notification_badge_title">通知ドットを許可</string>
     <string name="notification_badging_title">アプリアイコン上の通知ドット</string>
-    <string name="notification_breathing_light_color_title">通知のライトの色</string>
+    <string name="notification_breathing_light_color_title">通知ライトの色</string>
     <string name="notification_breathing_light_freq_title">通知の点滅頻度</string>
     <string name="notification_bubbles_title">バブル</string>
     <string name="notification_bundle_description">"作業の妨げにならないよう、ミュートする通知の種類を選択してまとめます。
@@ -8123,15 +8272,15 @@ PINを設定してください。
     <string name="off">オフ</string>
     <string name="ok_rules">完了</string>
     <string name="okay">OK</string>
-    <string name="oldman_app_label">シンプルモード</string>
+    <string name="oldman_app_label">ライトモード</string>
     <string name="oldman_installed_current_btn">元のホーム画面に戻す</string>
-    <string name="oldman_installed_current_des">シンプルモードをデフォルトのホーム画面に設定しました。下のボタンをタップすると元のホーム画面に戻ります。</string>
+    <string name="oldman_installed_current_des">ライトモードをデフォルトのホーム画面に設定しました。下のボタンをタップすると元のホーム画面に戻ります。</string>
     <string name="oldman_installed_not_current_btn">デフォルトのホーム画面に設定</string>
-    <string name="oldman_installed_not_current_des">シンプルモードがデバイスにインストールされています。これをデフォルトのホーム画面として使用できます。</string>
-    <string name="oldman_mode_entry_name">シンプルモード</string>
-    <string name="oldman_mode_settings">シンプルモード</string>
+    <string name="oldman_installed_not_current_des">ライトモードがデバイスにインストールされています。これをデフォルトのホーム画面として使用できます。</string>
+    <string name="oldman_mode_entry_name">ライトモード</string>
+    <string name="oldman_mode_settings">ライトモード</string>
     <string name="oldman_uninstalled_btn">インストール</string>
-    <string name="oldman_uninstalled_des">シンプルモードは視覚的な混乱を取り除き、ホーム画面をシンプルかつミニマムに保ちます。</string>
+    <string name="oldman_uninstalled_des">ライトモードは視覚的な混乱を取り除き、ホーム画面をシンプルかつミニマムに保ちます。</string>
     <string name="on">オン</string>
     <string name="on_device_recognition_settings">デバイス上の認識の設定</string>
     <string name="on_device_recognition_settings_summary">デバイスによる音声認識</string>
@@ -8227,9 +8376,24 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="owner_info_settings_summary">なし</string>
     <string name="owner_info_settings_title">ロック画面署名</string>
     <string name="owner_space">ファースト・スペース</string>
-    <string name="p8g_new_product_name">Retro Handheld Console Case</string>
+    <string name="p75_earphone_not_in_box">ケースを開けて、両方のイヤホンを中に入れてください</string>
+    <string name="p8g_battery_status_toast_one">このデバイスを充電器に接続して、もう一度お試しください</string>
+    <string name="p8g_battery_status_toast_three">レトロ調携帯型コンソールケースを充電して、もう一度お試しください</string>
+    <string name="p8g_battery_status_toast_two">このデバイスとレトロ調携帯型コンソールケースを充電して、もう一度お試しください</string>
+    <string name="p8g_new_product_name">レトロ調携帯型コンソールケース</string>
+    <string name="p8g_ota_dialog_text">アップデート中です。レトロ調携帯型コンソールケースを外さないでください。</string>
     <string name="p8g_ota_summary">アップデート中はケースを外さないでください</string>
     <string name="p8g_product_name">ゲーミングケース</string>
+    <string name="package_msg_check_title">以下の機能項目とパスが、パッケージに記載されている内容と一致していることを確認してください:</string>
+    <string name="package_msg_search_button">確認</string>
+    <string name="package_msg_search_loading">確認中…</string>
+    <string name="package_msg_search_result_title">現在のデバイス状況:</string>
+    <string name="package_track_check_title">パッケージ情報を確認してください</string>
+    <string name="package_track_item">"[設定] > [デバイス情報] > [詳細情報と仕様] > [ステータス] > [IMEI]
+[設定] > [デバイス情報] > [ファクトリーリセット]
+[設定] > [デバイス情報] > [認証情報]
+[設定] > [デバイス情報] > [ストレージ]
+[設定] > [安全と緊急] > [無線緊急警報]"</string>
     <string name="packages_subtitle">含まれているパッケージ</string>
     <string name="pad_add_fingerprint_finish_message">続けると、追加設定にアクセスします。</string>
     <string name="pad_add_fingerprint_message">電源ボタンに指を置いてください</string>
@@ -8242,6 +8406,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="page_agnostic_4k_pages_title">4 KB のページ非依存モードを使用中</string>
     <string name="page_agnostic_notification_action">詳細</string>
     <string name="page_agnostic_notification_channel_name">16 KB のページ非依存モード</string>
+    <string name="page_description">ページ %1$d / %2$d</string>
     <string name="page_layout_1">8月16日 日曜日</string>
     <string name="page_layout_10">設定</string>
     <string name="page_layout_11">天気</string>
@@ -8302,13 +8467,18 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="palm_circle_summary">タブレットに転送された通話の応答または終了</string>
     <string name="palm_circle_title">円を描く</string>
     <string name="paper_color_title">色彩</string>
+    <string name="paper_color_title_new">@string/paper_color_title</string>
     <string name="paper_colors_active_apps">アプリの範囲</string>
     <string name="paper_mode_auto_twilight_summary">日没後、自動的に読書モードに切り替える</string>
     <string name="paper_mode_auto_twilight_title">おやすみタイムの読書</string>
+    <string name="paper_mode_auto_twilight_title_new">@string/paper_mode_auto_twilight_title</string>
     <string name="paper_mode_customize_time_summary">読書モードの開始時刻と終了時刻を設定する</string>
     <string name="paper_mode_customize_time_title">読書モードの時間設定</string>
+    <string name="paper_mode_customize_time_title_new">@string/paper_mode_customize_time_title</string>
     <string name="paper_mode_enable_description">画面に暖色系のトーンを加えてブルーライトを軽減します</string>
+    <string name="paper_mode_enable_title">@string/screen_paper_mode_title</string>
     <string name="paper_mode_end_time_title">終了時刻</string>
+    <string name="paper_mode_end_time_title_new">@string/paper_mode_end_time_title</string>
     <string name="paper_mode_get_location_dlg_msg">日の入りや日の出の時間を計算するには、位置情報へのアクセスが必要です</string>
     <string name="paper_mode_get_location_dlg_negative_btn_text">キャンセル</string>
     <string name="paper_mode_get_location_dlg_positive_btn_text">設定</string>
@@ -8316,6 +8486,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="paper_mode_reset">デフォルトに戻す</string>
     <string name="paper_mode_side_effect_hint">強度が高いと、コンテンツの表示方法に影響を与える可能性があります</string>
     <string name="paper_mode_start_time_title">開始時刻</string>
+    <string name="paper_mode_start_time_title_new">@string/paper_mode_start_time_title</string>
     <string name="paper_mode_summary">暖色系に切り替え、背景に紙のテクスチャを追加して目の疲れを軽減する</string>
     <string name="paper_mode_title">ペーパー</string>
     <string name="papger_effect_category">モード</string>
@@ -8341,6 +8512,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="password_save_success">正常に保存されました</string>
     <string name="password_saving">パスワードを保存中…</string>
     <string name="password_security_settings_title">画面ロックとセキュリティ</string>
+    <string name="password_set_success_hint">新しい画面ロックでデバイスのロックを解除できるようになりました</string>
     <string name="password_setup_complete">パスワードが正常に設定されました</string>
     <string name="password_toggle_content_description">パスワードを表示</string>
     <string name="password_turned_off_text">パスワードはオフです</string>
@@ -8370,7 +8542,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="permission_mgr">アクセス許可</string>
     <string name="permission_records">権限の使用状況</string>
     <string name="permission_records_summary">アプリに付与されている権限の概要</string>
-    <string name="permission_settings_summary">位置情報、ストレージ、電話、メッセージ、連絡先に関連するアクセス許可を管理します。</string>
+    <string name="permission_settings_summary">場所、ストレージ、電話、メッセージ、連絡先に関連するアクセス許可を管理します。</string>
     <string name="permission_settings_title">アプリのアクセス許可</string>
     <string name="permissions_label">権限</string>
     <string name="permissions_usage_summary">権限を最近使用したアプリを表示する</string>
@@ -8468,6 +8640,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="photography_handle_launch_camera">カメラを開く</string>
     <string name="photography_handle_launch_camera_doc_mode">ドキュメント</string>
     <string name="photography_handle_launch_camera_fastshot_mode">ファストショット</string>
+    <string name="photography_handle_launch_camera_legend_mode">AA</string>
     <string name="photography_handle_launch_camera_modes">カメラモード</string>
     <string name="photography_handle_launch_camera_photo_mode">写真</string>
     <string name="photography_handle_launch_camera_portrait_mode">ポートレート</string>
@@ -8506,7 +8679,18 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="please_stop_broadcast_audio">まずオーディオのブロードキャストを停止してください</string>
     <string name="please_stop_listen_broadcast_audio">まずブロードキャストを聴くのをやめてください</string>
     <string name="please_type_passphrase">パスワード</string>
+    <string name="pluto_close_immersion_toast">ノイズキャンセリングモードが変更されました。イマーシブ通勤モードがオフです。</string>
+    <string name="pluto_miheadset_immersion_summary">ノイズキャンセリングと心地よい音で、より穏やかな通勤を実現</string>
+    <string name="pluto_one_ear_toast">まず両方のイヤホンを装着してください</string>
+    <string name="pluto_open_immersion_toast">音楽を再生すると没入型の通勤体験が一時停止します。音楽の再生を停止すると再開します。</string>
     <string name="pm">午後</string>
+    <string name="pocket_musician">Xiaomi ポケットギター</string>
+    <string name="pocket_musician_battery_toast_both">ファームウェアをアップデートする前に、このデバイスと Xiaomi ポケットギターを充電してください</string>
+    <string name="pocket_musician_battery_toast_device">ファームウェアをアップデートする前に、Xiaomi ポケットギターを充電してください</string>
+    <string name="pocket_musician_battery_toast_phone">充電器をこのデバイスに接続し、ファームウェアを再度アップデートしてみてください</string>
+    <string name="pocket_musician_ota_connect_first">アップデート情報を取得するには Xiaomi ポケットギターを接続してください</string>
+    <string name="pocket_musician_ota_dialog_text">アップデート中…</string>
+    <string name="pocket_musician_ota_summary">アップデート後にこのアクセサリーを手動で再起動してください</string>
     <string name="poco_launcher_privacy_policy">POCO Launcher プライバシーポリシー</string>
     <string name="poco_launcher_user_agreement">POCO Launcher 利用規約</string>
     <string name="pointer_fill_style">カーソルの色</string>
@@ -8531,6 +8715,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="popup_window">フローティング通知を制限する</string>
     <string name="post_dsds_reboot_notification_text">SIM の設定を更新するにはタップしてください</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">%1$s の SIM は有効です</string>
+    <string name="post_reset_google_verification">ファクトリーリセットした後、このデバイスで以前使用していた Google アカウントでサインインし、パスワードを設定してください。</string>
     <string name="power_autorun_apps_empty">ここにアプリはありません</string>
     <string name="power_autorun_empty">利用可能なアプリはありません</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -8610,7 +8795,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="power_usage_level_and_status">%1$s - %2$s</string>
     <string name="power_usage_summary">電池の使用状況</string>
     <string name="power_usage_summary_title">バッテリーとパフォーマンス</string>
-    <string name="power_usage_summary_title_new">バッテリー</string>
+    <string name="power_usage_summary_title_new">バッテリーとパフォーマンス</string>
     <string name="power_usage_time_less_than_one_minute">1 分未満</string>
     <string name="power_wifi">Wi-Fi</string>
     <string name="pre_installed_application">プリインストールアプリ</string>
@@ -9083,7 +9268,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="provision_activation">アクティブ化</string>
     <string name="provision_back">戻る</string>
     <string name="provision_complete_text">準備完了</string>
-    <string name="provision_flip_page_hint">開いてデバイスをアクティブ化</string>
+    <string name="provision_flip_page_hint">デバイスを開いて、アクティブ化してください</string>
     <string name="provision_next">次へ</string>
     <string name="provision_page_layout_confirm_message">これらの変更を適用するには、デバイスの再起動が必要です。これには約 1 分かかります。</string>
     <string name="provision_skip">スキップ</string>
@@ -9107,7 +9292,29 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="proxy_url_title">"PAC URL: "</string>
     <string name="proxy_warning_limited_support">HTTP プロキシはブラウザで使用されますが、他のアプリでの対応は限定的です。</string>
     <string name="pss_profiling_disabled">メモリのプロファイリングは無効です</string>
+    <string name="qingcai_eye_care_summery">画面上のコンテンツを自動検知し、有害なブルーライトをカットしながらゲームの色鮮やかさを維持</string>
+    <string name="qingcai_eye_care_title">目の快適さ（鮮明）</string>
     <string name="qr_code_content_description">QR コード</string>
+    <string name="quick_button_check_app_activity_title">クイック起動用のアプリを選択</string>
+    <string name="quick_button_check_app_not_found_txt">該当結果が見つかりませんでした</string>
+    <string name="quick_button_check_app_search_edit_hint">アプリを検索</string>
+    <string name="quick_button_check_app_search_text_cancel_txt">キャンセル</string>
+    <string name="quick_button_check_app_search_text_submit_txt">完了</string>
+    <string name="quick_button_eyecare_mode_summery">ブルーライトを軽減するには読書モードをオンにしてください</string>
+    <string name="quick_button_eyecare_mode_tile">読書モード</string>
+    <string name="quick_button_furious_mode_summery">タブレットを最大限に活用するには、究極モードに切り替えてください</string>
+    <string name="quick_button_furious_mode_title">究極モード</string>
+    <string name="quick_button_inspiration_summery">アイデアが浮かんだら、スタイラスで書き留めよう</string>
+    <string name="quick_button_inspiration_title">書き込み</string>
+    <string name="quick_button_none_title">何もしない</string>
+    <string name="quick_button_preference_title">ショートカットボタン</string>
+    <string name="quick_button_screenshot_summery">必要な時にいつでもスクリーンショットを撮ってください</string>
+    <string name="quick_button_screenshot_title">スクリーンショット</string>
+    <string name="quick_button_start_button_txt">アプリを選択</string>
+    <string name="quick_button_start_summery">よく使うアプリをすばやく開きます</string>
+    <string name="quick_button_start_title">クイック起動</string>
+    <string name="quick_button_super_ai_summery">画面の内容を瞬時に記憶する</string>
+    <string name="quick_button_super_ai_title">Xiaomi Hyper XiaoAi メモリ</string>
     <string name="quick_function">アシスト機能</string>
     <string name="quick_reply_title">クイック返信</string>
     <string name="quick_settings_developer_tiles">開発者用のクイック設定タイル</string>
@@ -9220,6 +9427,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="remove_guest_on_exit_keywords">削除, ゲスト, アクティビティ, 消す, データ, ビジター, 消去</string>
     <string name="remove_guest_on_exit_summary">ゲストモードの終了時にゲストのすべてのアプリとデータを削除します</string>
     <string name="remove_managed_profile_label">仕事用プロファイルを削除</string>
+    <string name="rename_times_reached_limit">今日はこれ以上名前を変更できません</string>
     <string name="rename_words_reached_limit">新しい名前はこれより長くできません</string>
     <string name="repeat">繰り返す</string>
     <string name="repeat_call">繰り返しの着信を通知する</string>
@@ -9352,6 +9560,10 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="right_function_key">右ショートカット</string>
     <string name="right_hearing_aid">右の補聴器</string>
     <string name="right_shoulder_key">右</string>
+    <string name="ring_remote_battery_status_toast_one">充電器をこのデバイスに接続し、ファームウェアを再度アップデートしてみてください</string>
+    <string name="ring_remote_battery_status_toast_three">ファームウェアをアップデートする前に、磁気ホルダーのバッテリーを交換してください</string>
+    <string name="ring_remote_battery_status_toast_two">充電器をこのデバイスに接続し、磁気ホルダーバッテリーを交換してから、ファームウェアを再度アップデートしてみてください</string>
+    <string name="ring_remote_ota_summary">アップデートしています。接続を切らないでください。</string>
     <string name="ring_to_you">カスタム呼出音</string>
     <string name="ring_to_you_info">相手に聞こえるカスタム呼出音を設定する</string>
     <string name="ring_volume_option_title">着信音</string>
@@ -9372,6 +9584,26 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="roaming_warning">ローミング料金が発生する場合があります。</string>
     <string name="rom_total_size">合計ROMサイズ</string>
     <string name="root">ルートアクセス</string>
+    <string name="rp_clone_space_password_same_tip">新しい画面ロックはセカンド・スペースのパスワードとは異なる必要があります</string>
+    <string name="rp_forget_password_dialog_button_know">了解</string>
+    <string name="rp_forget_password_dialog_desc">最近画面ロックを変更し、ロックを解除の試行回数が上限を超えてデバイスがロックされた場合、過去%1$d時間以内に変更された画面ロックと指紋を認証することで、現在の画面ロックをリセットできます。</string>
+    <string name="rp_forget_password_dialog_note">ロック画面で何度もロックの解除に失敗した場合は、「パスワードを忘れた場合」をタップして、画面ロックのリセットを開始してください。</string>
+    <string name="rp_forget_password_dialog_title">デバイスがロックされたときに画面ロックをリセットする</string>
+    <string name="rp_old_password_retention_hint">以前の画面ロックはしばらく保持されます。新しい画面ロックを忘れた場合は、前の画面ロックを使用してリセットできます。</string>
+    <string name="rp_password_no_match">PIN が一致しません。もう一度お試しください。</string>
+    <string name="rp_remove_old_password">前の画面ロックを消去</string>
+    <string name="rp_reset_dialog_button_cancel">キャンセル</string>
+    <string name="rp_reset_dialog_button_confirm">消去</string>
+    <string name="rp_reset_dialog_message">最近、画面ロックを変更しました。以前の画面ロックと指紋を使用すれば、現在の画面ロックをリセットすることができます。このバックアップ機能が必要ない場合は、今すぐ以前の画面ロックを消去することができます。</string>
+    <string name="rp_reset_dialog_title">前の画面ロックを消去</string>
+    <string name="rp_reset_old_password_now_desc">以前の画面ロックと指紋認証を確認した後、新しい画面ロックの設定画面が表示されます。</string>
+    <string name="rp_reset_old_password_now_title">画面ロックのリセット中…</string>
+    <string name="rp_reset_password_hint">今後 %1$s %2$s の間、前回の画面ロックと指紋を認証することで、現在の画面ロックをリセットできます。</string>
+    <string name="rp_set_new_password">新しい画面ロックを設定する</string>
+    <string name="rp_set_new_password_desc">新しい画面ロックを忘れてしまった場合は、以前の画面ロックと指紋を使ってリセットできます。</string>
+    <string name="rp_set_new_password_finish_desc">設定し忘れた画面ロックは、以前の画面ロックとして保存されません。元の画面ロックのタイマーはリセットされます。</string>
+    <string name="rp_set_new_password_finish_title">正常に設定されました</string>
+    <string name="rp_set_new_pattern">新しいパターンを入力</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
     <string name="rtt_settings_summary">通話中にテキストを使用して会話できます</string>
@@ -9514,7 +9746,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="scanning_status_text_wifi_off_ble_on">Bluetooth スキャンはオン、Wi-Fi スキャンはオフです</string>
     <string name="scanning_status_text_wifi_on_ble_off">Wi-Fi スキャンはオン、Bluetooth スキャンはオフです</string>
     <string name="scanning_status_text_wifi_on_ble_on">Wi-Fi スキャンと Bluetooth スキャンの両方がオンです</string>
-    <string name="screen">画面</string>
+    <string name="screen">ディスプレイ</string>
     <string name="screen_brightness">画面の明るさ</string>
     <string name="screen_cancel">キャンセル</string>
     <string name="screen_color_and_optimize">色とコントラスト</string>
@@ -9535,6 +9767,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="screen_effect_adapt_color_title">ビビッド</string>
     <string name="screen_effect_origin_color_summary">色調整でリアルな色を再現します</string>
     <string name="screen_effect_origin_color_title">原色 Pro</string>
+    <string name="screen_effect_tip">最も適切な色空間が自動的にコンテンツにマッチングされます。sRGB、P3、BT.2020 をサポートしています。</string>
     <string name="screen_enhance_engine_ai_note">%d. この機能により、消費電力がわずかに増加します。</string>
     <string name="screen_enhance_engine_ai_note_2">%d. ギャラリーアプリの画像のみ補正できます。</string>
     <string name="screen_enhance_engine_ai_note_3">%d. この機能は、オリジナルカラーの表示を選択した場合や高度な調整を適用した場合には動作しません。</string>
@@ -9626,7 +9859,9 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="screen_paper_mode_summary">ディスプレイの色を暖色系にすることで目をリラックスさせることができます</string>
     <string name="screen_paper_mode_time_summary">読書モードの時間設定</string>
     <string name="screen_paper_mode_time_title">時間設定</string>
+    <string name="screen_paper_mode_time_title_new">@string/screen_paper_mode_time_title</string>
     <string name="screen_paper_mode_title">読書モード</string>
+    <string name="screen_paper_mode_title_new">@string/screen_paper_mode_title</string>
     <string name="screen_paper_mode_turn_off">オフ</string>
     <string name="screen_paper_mode_turn_on">オン</string>
     <string name="screen_paper_mode_update_white_pkg_list_privacy_again">今後表示しない</string>
@@ -9636,6 +9871,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="screen_paper_mode_update_white_pkg_list_summary">読書モードを自動的に使用するアプリのリストをアップデートする</string>
     <string name="screen_paper_mode_update_white_pkg_list_title">自動アップデート</string>
     <string name="screen_paper_texture">テクスチャ</string>
+    <string name="screen_paper_texture_new">@string/screen_paper_texture</string>
     <string name="screen_pinning_description">ピン留めされたアプリは他のアプリを開いて個人情報にアクセスできます</string>
     <string name="screen_pinning_dialog_message">"ピン留めされたアプリでできることは以下の通りです:
 
@@ -9757,7 +9993,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="se_route_ese">埋め込みセキュアエレメント</string>
     <string name="se_route_uicc">SIM カード内のセキュアエレメント</string>
     <string name="se_wallet_ese">Mi ウォレット</string>
-    <string name="se_wallet_hce">HCE ウォレット</string>
+    <string name="se_wallet_hce">HCEウォレット</string>
     <string name="se_wallet_uicc">SIM %1$s ウォレット</string>
     <string name="se_wallet_uicc_jp">SIM %1$s ウォレット (自動選択非対応)</string>
     <string name="search_about_settings">デバイス情報;モデル番号;Android バージョン;MIUI バージョン;CPU;RAM;内部メモリ;メモリ;ストレージ;内部ストレージ;ベースバンドバージョン;カーネルバージョン;ビルド番号;マイ デバイス;スマートフォン;デバイス</string>
@@ -9766,12 +10002,13 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="search_accessibility_captioning_title">キャプション</string>
     <string name="search_accessibility_display_daltonizer_preference_title">色補正;色;色</string>
     <string name="search_accessibility_global_gesture_preference_title">アクセシビリティショートカット;アクセシビリティ</string>
-    <string name="search_accessibility_long_press_timeout_preference_title">タッチアンドホールドの遅延;タッチアンドホールドの遅延;タッチアンドホールド;遅延</string>
+    <string name="search_accessibility_long_press_timeout_preference_title">タッチとホールドの遅延;タッチとホールドの遅延;タッチとホールド;遅延</string>
     <string name="search_accessibility_screen_magnification_title">拡大ジェスチャー;倍率</string>
     <string name="search_accessibility_settings">アクセシビリティ</string>
-    <string name="search_account_list">その他のアカウント;アカウント;アカウント</string>
+    <string name="search_account_list">他のアカウント;アカウント;アカウント</string>
     <string name="search_add_facerecoginition_text">顔認証;顔認識</string>
     <string name="search_advanced_settings">高度な設定;Wifi;Wifi設定;WLAN設定</string>
+    <string name="search_ai_companion_title">クリップボードショートカット;コピー;インスタントアクセス;アクセス</string>
     <string name="search_airplane_mode">機内モード;飛行機モード;フライトモード;飛行機;機内;フライト</string>
     <string name="search_alarm_sound_title">アラーム音;アラーム音;アラーム</string>
     <string name="search_ambient_display_screen_title">アンビエント表示;常時オンディスプレイ;常時オンディスプレイ</string>
@@ -9783,6 +10020,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="search_application_lock_name">アプリロック</string>
     <string name="search_applications_settings">インストールしたアプリ</string>
     <string name="search_back_key">戻る;戻るボタン;戻るキー</string>
+    <string name="search_background_blur_mode">曇りガラス;ソフトガラス;ビジュアルスタイル</string>
     <string name="search_battery_indicator">バッテリー残量表示</string>
     <string name="search_bluetooth_device_searchable">検出可能;表示;Bluetooth 名</string>
     <string name="search_bluetooth_enable">Bluetooth;Bluetooth をオンにする;Bluetooth オン</string>
@@ -9800,7 +10038,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="search_connection_and_sharing">その他;ワイヤレス</string>
     <string name="search_copyright_title">著作権</string>
     <string name="search_credentials_install">ストレージからインストール;直接インストール;APK をインストール</string>
-    <string name="search_date_and_time_settings_title">日付 &amp; 時刻;日付と時刻;日付;時刻</string>
+    <string name="search_date_and_time_settings_title">日付と時刻;日付と時刻;日付;時刻</string>
     <string name="search_description">設定を検索する</string>
     <string name="search_development_settings_title">"開発者
 向けオプション;アシスト;開発者;開発者;開発中;開発;トラブルシューティング;デバッグ;デバッグ;USBデバッグ;USB デバッグ"</string>
@@ -9817,6 +10055,11 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="search_do_not_disturb_mode">Do Not Disturb モード</string>
     <string name="search_doze_always_on_title">常時オン</string>
     <string name="search_dtmf_tone_enable_title">ダイヤルパッドのタッチ操作音をオンにする;ダイヤルパッドのタッチ操作音;タッチ操作音;タッチ音;ダイヤラー操作音;ダイヤラー音</string>
+    <string name="search_elder_care_block_advertising_promotions_calls_title">ブロックリスト</string>
+    <string name="search_elder_care_block_estate_agency_calls_title">ブロックリスト</string>
+    <string name="search_elder_care_block_scam_calls_title">ブロックリスト</string>
+    <string name="search_elder_care_font_size_title">フォント</string>
+    <string name="search_elder_care_title">シニア</string>
     <string name="search_empty">該当結果が見つかりませんでした</string>
     <string name="search_enable_adb">USB デバッグ</string>
     <string name="search_fluency_mode">システムアニメーション</string>
@@ -9838,7 +10081,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="search_lab_functions_title">ベータ機能;ラボ機能</string>
     <string name="search_label">設定</string>
     <string name="search_language_hint">言語を検索</string>
-    <string name="search_language_settings">言語 &amp; 入力;言語;言語と入力;入力;キーボード</string>
+    <string name="search_language_settings">言語と入力;言語;言語と入力;入力;キーボード</string>
     <string name="search_led_settings">LED;通知ライト;LED ライト</string>
     <string name="search_legal_information">法的情報</string>
     <string name="search_local_auto_backup_section_title">自動バックアップ;自動バックアップ;自動的にバックアップ</string>
@@ -9857,7 +10100,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="search_music_equalizer">イコライザー</string>
     <string name="search_music_headset_calibrate">ボタンを割り当てる;ボタン</string>
     <string name="search_music_headset_mode_settings">ヘッドホンリモートボタン;リモコン</string>
-    <string name="search_music_headset_settings">ヘッドホン &amp; オーディオエフェクト;ヘッドホンとオーディオエフェクト;ヘッドホン;イヤホン;オーディオエフェクト</string>
+    <string name="search_music_headset_settings">ヘッドホンとオーディオエフェクト;ヘッドホンとオーディオエフェクト;ヘッドホン;イヤホン;オーディオエフェクト</string>
     <string name="search_music_mi_effect_title">Mi サウンドエンハンサー;サウンドを向上させる</string>
     <string name="search_my_device">スマートフォン情報;デバイス情報;マイ スマートフォン;マイ デバイス;スマートフォン;デバイス</string>
     <string name="search_networks_title">モバイルネットワーク;通信事業者;携帯キャリア</string>
@@ -9882,20 +10125,20 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="search_power_hide_mode_title">アプリのバッテリー使用量を管理;アプリのバッテリー使用量;バッテリー使用量;バッテリー統計</string>
     <string name="search_power_mode">電源設定;電源</string>
     <string name="search_power_optimize">バッテリーセーバー;バッテリーを節約</string>
-    <string name="search_power_usage_summary_title">バッテリー &amp; パフォーマンス;バッテリーとパフォーマンス;バッテリー;パフォーマンス;バッテリーセーバー;バッテリーを節約</string>
+    <string name="search_power_usage_summary_title">バッテリーとパフォーマンス;バッテリーとパフォーマンス;バッテリー;パフォーマンス;バッテリーセーバー;バッテリーを節約</string>
     <string name="search_pref_edge_handgrip">エッジコントロール</string>
     <string name="search_pref_volume_launch_camera_title" />
     <string name="search_pref_volume_wake_title">音量ボタンでスリープ解除;音量ボタン</string>
     <string name="search_preferred_network_type_title">優先ネットワークタイプ;優先ネットワーク;ネットワークタイプ</string>
     <string name="search_privacy_policy">プライバシーポリシー</string>
     <string name="search_privacy_protection">アクセス許可</string>
-    <string name="search_privacy_settings">バックアップ &amp; リセット;バックアップとリセット;バックアップ;リセット;バックアップ</string>
+    <string name="search_privacy_settings">バックアップとリセット;バックアップとリセット;バックアップ;リセット;バックアップ</string>
     <string name="search_region_hint">地域を検索できます</string>
     <string name="search_result_feedback_text">必要なものが見つかりませんでしたか？タップして報告します。</string>
     <string name="search_ring_volume_option_title">音量;音量;着信音と通知;着信音;着信音;アラーム;音楽</string>
     <string name="search_ringtone_title">電話の着信音;着信音;着信音</string>
     <string name="search_screen_effect">色と彩度;色とコントラスト;色;彩度;コントラスト</string>
-    <string name="search_screen_key_long_press_timeout">長押しの時間を設定する;長押しする;押す;長押し</string>
+    <string name="search_screen_key_long_press_timeout">長押しの時間を設定する;長押しする;押す;タッチとホールド</string>
     <string name="search_screen_on_proximity_sensor_title">ポケットダイヤルを防止;ポケット;ポケットダイヤル;ポケットダイヤル</string>
     <string name="search_screen_paper_mode_title">読書モード;読書モード;読む;ブルーライト;イエローライト;夜間モード;flux;Night Shift;NightShift;夜</string>
     <string name="search_screen_saver_settings">スクリーンセーバー</string>
@@ -9929,6 +10172,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="search_status_bar_settings_toggle_position">トグルの位置;トグル;トグル;トグルを変更</string>
     <string name="search_storage_settings">ストレージ;メモリ</string>
     <string name="search_subscreen_aod">常時オンディスプレイ;AOD;背面ディスプレイ AOD</string>
+    <string name="search_subscreen_personality">壁紙;背面ディスプレイ;壁紙</string>
     <string name="search_subscreen_title">背面ディスプレイ;背面スクリーン;背面スクリーン</string>
     <string name="search_sync_settings">同期;自動;Wi-Fi のみ</string>
     <string name="search_system_app_settings">システムアプリ</string>
@@ -9990,10 +10234,18 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="security_advanced_settings_work_profile_settings_summary">仕事用プロファイルのロック、暗号化など</string>
     <string name="security_center_title">セキュリティ</string>
     <string name="security_check_progress_dialog_message">セキュリティの問題を確認中…</string>
+    <string name="security_chip">セキュリティチップ</string>
     <string name="security_chip_active">パスワードと指紋データは専用のセキュリティチップによって保護されています。<Data>&lt;br/>&lt;a href=security_chip_bottomsheet>もっと詳しく知る&lt;/a></Data></string>
+    <string name="security_chip_data_protection">専用のセキュリティチップがデータの保護をサポートします</string>
     <string name="security_chip_description">専用のセキュリティチップは、Xiaomi が機密のデバイスデータを保護するために設計したハードウェアセキュリティモジュールです。</string>
     <string name="security_chip_details">NFC セキュリティチップとは異なり、専用のセキュリティチップは画面ロック、暗号化された機密データ、指紋情報を保護します。NFC チップから物理的に分離されているため、より強力な保護、より優れた安定性、干渉に対する耐性の強化を実現しています。</string>
+    <string name="security_chip_dialog_confirm">了解</string>
+    <string name="security_chip_dual_certification">Common Criteria (CC) および中国の商用暗号認証要件の両方を満たすセキュリティチップは、物理的攻撃やブルートフォース攻撃からの防御に役立ちます</string>
+    <string name="security_chip_fingerprint_encrypt">指紋は暗号化され、セキュリティチップによって保護されています</string>
+    <string name="security_chip_hardware_encryption">ハードウェアレベルの暗号化</string>
+    <string name="security_chip_hardware_vault">セキュアハードウェアモジュール</string>
     <string name="security_chip_password_protection">チップが備えた Weaver メカニズムにより、パスワードはハードウェアレベルで保護されます:</string>
+    <string name="security_chip_root_key_protection">ルートキーは専用のセキュリティチップによって保護されているため、システムやサードパーティ製アプリからはアクセスできません</string>
     <string name="security_dashboard_summary">画面ロック、デバイスを探す、アプリのセキュリティ</string>
     <string name="security_encryption_alert_dialog_info_first">この機能をオンにするには、画面ロックを設定してください。暗号化を解除してデバイスを正常に使用するには、再起動するたびに画面ロックを入力する必要があります。</string>
     <string name="security_encryption_alert_dialog_title_first">まず、画面ロックを設定してください</string>
@@ -10411,6 +10663,8 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="set_jeejen_prompt_message">シンプルモードはデフォルトのランチャーに設定されます。デフォルトのランチャーを変更するには、[設定] > [システム設定] > [ホーム画面と最近のタスク] > [デフォルトのランチャー] に移動してください。</string>
     <string name="set_jeejen_prompt_title">変更を確認</string>
     <string name="set_lock_screen_password">画面ロックを設定する</string>
+    <string name="set_new_password_hint">新しい画面ロックを入力して覚えておいてください</string>
+    <string name="set_new_password_hint_new">新しい画面ロックを入力して覚えておいてください</string>
     <string name="set_pad_clone_password">タブレットのセカンド・スペースのパスワードを設定してください</string>
     <string name="set_password">画面ロックを設定する</string>
     <string name="set_password_before_face">顔データを追加する前に画面ロックを設定してください</string>
@@ -10662,7 +10916,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="sim_action_turn_off">OFF にする</string>
     <string name="sim_action_yes">はい</string>
     <string name="sim_auto_pin_management_toggle">PIN の自動管理</string>
-    <string name="sim_bad_pin">PIN は %1$d～%2$d 桁の数字で入力してください</string>
+    <string name="sim_bad_pin">PIN は%1$d～%2$d桁の数字で入力してください</string>
     <string name="sim_calls_always_use">このSIMを常に通話に使用する</string>
     <string name="sim_calls_ask_first_prefs_title">毎回確認</string>
     <string name="sim_card">SIM</string>
@@ -10826,6 +11080,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="smart_battery_manager_title">バッテリー マネージャ</string>
     <string name="smart_battery_summary">使用頻度の低いアプリによる電池の使用を制限します</string>
     <string name="smart_battery_title">アプリを自動的に管理</string>
+    <string name="smart_clipboard_title">クリップボードショートカット</string>
     <string name="smart_dual_sim_title">スマートデュアル SIM</string>
     <string name="smart_forwarding_failed_not_activated_text">SIM が無効です。</string>
     <string name="smart_forwarding_failed_text">ネットワークまたは SIM のエラーです。</string>
@@ -10844,9 +11099,9 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="smart_home_value_none">なし</string>
     <string name="smart_home_value_unknown">不明</string>
     <string name="smart_rotate_text_headline">顔検出は、前面カメラを使用して自動回転の精度を高めます。画像が保存されたり Google に送信されたりすることはありません。</string>
-    <string name="smart_storage_backup_title">Xiaomi スマートストレージ</string>
-    <string name="smart_storage_summary">スマートストレージでデバイスをバックアップ、またはデータを復元しましょう</string>
-    <string name="smart_storage_title">スマートストレージ</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">SmartStorageでデバイスをバックアップ、またはデータを復元しましょう</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">スマートカバーモード</string>
     <string name="smartcover_sensitive_summary">スマートカバーを使用してデバイスを自動的にロックまたはロック解除する</string>
     <string name="smartcover_sensitive_title">スマートカバー</string>
@@ -11223,9 +11478,9 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="strict_mode">厳格モードを有効にする</string>
     <string name="strict_mode_summary">メインスレッドの処理が長引く場合は画面を点滅させます</string>
     <string name="string_KB">%d KB</string>
-    <string name="string_KB_per_log_buffer">ログバッファ当たり%dKB</string>
+    <string name="string_KB_per_log_buffer">ログバッファ当たり %d KB</string>
     <string name="string_MB">%d MB</string>
-    <string name="string_MB_per_log_buffer">ログバッファ当たり%dMB</string>
+    <string name="string_MB_per_log_buffer">ログバッファ当たり %d MB</string>
     <string name="string_after_int_seconds">%d 秒後</string>
     <string name="string_always">常時</string>
     <string name="string_bluetooth_a2dp_codec_lhdc_latency_titles_1">短レイテンシー (%1$d〜%2$dms)</string>
@@ -11242,6 +11497,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="string_kHz_2">%.1f kHz</string>
     <string name="string_kHz_3">%.1f kHz</string>
     <string name="string_kHz_4">%.1f kHz</string>
+    <string name="string_kHz_5">%.1f kHz</string>
     <string name="string_never">しない</string>
     <string name="string_off">オフ</string>
     <string name="string_offed">オフ</string>
@@ -11410,6 +11666,8 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="sunlight_mode">日光モード</string>
     <string name="sunlight_mode_boost_summary">明るさの範囲を拡大し、明るい状況下で自動的に明るさを調整します。この機能により、デバイスが発熱し、より多くの電力が消費されます。</string>
     <string name="sunlight_mode_summary">周囲の光が強い場合に画面の明るさを調整して暗くなりすぎないようにする</string>
+    <string name="super_sensory_night_vision_summery">低光量環境でのコントラストを向上させ、細部までくっきり見えるようにし、より良い夜間ゲーム体験を実現します</string>
+    <string name="super_sensory_night_vision_title">強化された暗視機能</string>
     <string name="super_voice_assist">スーパー Mi AI</string>
     <string name="super_volume_tip">最大音量 %s</string>
     <string name="supervision_add_forgot_pin_preference_title">PIN を忘れた場合</string>
@@ -11512,6 +11770,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="swipe_add_fingerprint_dirty_title">指が清潔で乾いていることを確認してください</string>
     <string name="swipe_add_fingerprint_finish_text">より正確にロックを解除するために、様々な角度から指紋を記録してください</string>
     <string name="swipe_add_fingerprint_insufficient_title">指紋を認識できませんでした。もう一度お試しください。</string>
+    <string name="swipe_add_fingerprint_message">電源ボタン上で指をゆっくりスライドさせ、指の角度を変えてください</string>
     <string name="swipe_add_fingerprint_move_text">様々な角度や位置を試してください</string>
     <string name="swipe_add_fingerprint_move_title">指の角度を調整</string>
     <string name="swipe_add_fingerprint_need_up_text">指紋の取得に問題があります</string>
@@ -11523,6 +11782,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="swipe_add_fingerprint_swipe_fast_title">指をゆっくり動かしてください</string>
     <string name="swipe_add_fingerprint_swipe_slow_title">指を素早く動かしてください</string>
     <string name="swipe_add_fingerprint_text">端の指紋を記録するために指の角度を調整してください</string>
+    <string name="swipe_add_fingerprint_title">指を左右に動かしてください</string>
     <string name="swipe_add_fingerprint_up_text">指を押しつけて軽く回す</string>
     <string name="swipe_add_fingerprint_up_title">指紋エリアの中央を押してください</string>
     <string name="swipe_direction_ltr">右にスワイプで通知を閉じ、左にスワイプでメニューを表示</string>
@@ -12435,7 +12695,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="user_exit_guest_confirm_message">このセッションでのアプリとデータはすべて削除されます。</string>
     <string name="user_exit_guest_dialog_remove">削除</string>
     <string name="user_experience_open_url">ユーザーエクスペリエンスプログラムについてもっと知る</string>
-    <string name="user_experience_program">ユーザーエクスペリエンスプログラム</string>
+    <string name="user_experience_program">ユーザー エクスペリエンス プログラム</string>
     <string name="user_experience_program_summary">製品やサービスを改善するために、Xiaomi がユーザーデータを収集して分析することを許可します。詳細については、ユーザーエクスペリエンスプログラムの使用条件をお読みください。</string>
     <string name="user_experience_program_title">ユーザーエクスペリエンスプログラムに登録</string>
     <string name="user_grant_admin">このユーザーを管理者にする</string>
@@ -12654,7 +12914,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="vpn_insecure_dialog_subtitle">安全ではありません。IKEv2 VPN に更新してください</string>
     <string name="vpn_insecure_summary">安全ではない</string>
     <string name="vpn_ipsec_ca_cert">IPSec CA 証明書</string>
-    <string name="vpn_ipsec_identifier">IPSec ID</string>
+    <string name="vpn_ipsec_identifier">IPSec 識別子</string>
     <string name="vpn_ipsec_secret">IPSec 事前共有キー</string>
     <string name="vpn_ipsec_server_cert">IPSecサーバー証明書</string>
     <string name="vpn_ipsec_user_cert">IPSecユーザー証明書</string>
@@ -12691,7 +12951,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="vpn_save">保存</string>
     <string name="vpn_save_login">アカウント情報を保存する</string>
     <string name="vpn_search_domains">DNS 検索ドメイン</string>
-    <string name="vpn_server">サーバー アドレス</string>
+    <string name="vpn_server">サーバーアドレス</string>
     <string name="vpn_set_screen_lock_content">画面ロックを設定して VPN 設定を保存する</string>
     <string name="vpn_set_screen_lock_title">画面ロックを設定</string>
     <string name="vpn_set_vpn_title">常時接続 VPN を設定しますか？</string>
@@ -12884,7 +13144,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="wifi_assistant_summary">現在の Wi-Fi ネットワークがインターネットに接続できない場合、他の利用可能な Wi-Fi ネットワークに接続するか、モバイルデータを使用します</string>
     <string name="wifi_assistant_switch_data">モバイルデータを使用</string>
     <string name="wifi_assistant_switch_wifi">切り替える</string>
-    <string name="wifi_auto_connect">自動接続</string>
+    <string name="wifi_auto_connect">自動的に選択</string>
     <string name="wifi_auto_connect_summary">このネットワークの圏内に入ると自動的に接続します</string>
     <string name="wifi_auto_connect_title">自動接続</string>
     <string name="wifi_autojoin_disabled_body">デバイスを保護するため、高度な保護機能では、このような保護されていないネットワークへの自動接続は推奨されません。</string>
@@ -12949,7 +13209,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="wifi_context_menu_forget">削除</string>
     <string name="wifi_data_template">^1（Wi-Fi データ）</string>
     <string name="wifi_data_usage">Wi-Fi データ使用量</string>
-    <string name="wifi_datanetwork_switch_not_remind">今後表示しない</string>
+    <string name="wifi_datanetwork_switch_not_remind">再度表示しない</string>
     <string name="wifi_details_dns">DNS</string>
     <string name="wifi_details_ipv6_address_header">IPv6 アドレス</string>
     <string name="wifi_details_subnet_mask">サブネット マスク</string>
@@ -13290,7 +13550,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
 "<b>[戻る]</b> をタップすると別の Wi-Fi ネットワークに接続できます。</string>
     <string name="wifi_setup_detail">ネットワークの詳細</string>
     <string name="wifi_setup_eap_not_supported">設定中に EAP Wi-Fi 接続を構成することはできません。設定後、[設定] > [ワイヤレスとネットワーク] に移動してください。</string>
-    <string name="wifi_setup_title">Wi-Fi 設定</string>
+    <string name="wifi_setup_title">Wi-Fi設定</string>
     <string name="wifi_setup_title_connected_network">%s に接続済み</string>
     <string name="wifi_setup_title_connecting_network">%s に接続中…</string>
     <string name="wifi_setup_title_editing_network">%s に接続</string>
@@ -13302,6 +13562,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="wifi_share_add">保存した公共のネットワークを共有</string>
     <string name="wifi_share_add_summary">"保存した公共のネットワークの共有時
 他のユーザーが共有しているネットワークも利用できます。"</string>
+    <string name="wifi_share_close_button_description">閉じる</string>
     <string name="wifi_share_conflict_dialog_message">「%1$s」という名前の共有ネットワークはすでに存在します。共有ネットワークに切り替えるとプライベート ネットワークから切断され、一時的にインターネットに接続できなくなる可能性があります。</string>
     <string name="wifi_share_conflict_dialog_title">共有ネットワークに切り替えますか？</string>
     <string name="wifi_share_connect">接続</string>
@@ -13316,6 +13577,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="wifi_share_plain_password_text">パスワード: %s</string>
     <string name="wifi_share_preference_summary">このデバイスの他のユーザーもこのネットワークにアクセスできます</string>
     <string name="wifi_share_preference_title">ネットワークを共有</string>
+    <string name="wifi_share_qr_code_description">QR コード</string>
     <string name="wifi_share_qrcode_finish">完了</string>
     <string name="wifi_share_qrcode_summary">共有するには、上の QR コードをスキャンしてください。</string>
     <string name="wifi_share_qrcode_title">Wi-Fi ネットワークを共有</string>
@@ -13399,6 +13661,10 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="wifi_wakeup_location_summary">この機能を使用するには、位置情報サービスをオンにしてください。</string>
     <string name="wifi_wakeup_negative_button">キャンセル</string>
     <string name="wifi_wakeup_positive_button">オンにする</string>
+    <string name="wifi_wakeup_privacy_agree">同意する</string>
+    <string name="wifi_wakeup_privacy_content">「自動的に Wi-Fi をオンにする」(「本サービス」) は、Xiaomi Inc. (「当社」または「Xiaomi」) が提供する機能です。 ご自宅のネットワークなどの高品質 Wi-Fi ネットワークを保存し、近くにいる場合は自動的に Wi-Fi をオンにして、モバイルデータの使用量を減らせます。当社はお客様の個人情報とプライバシーの保護を重視しております。当社は、関連する法的要件および業界標準に従って、お客様の個人情報に対応するセキュリティ対策を提供いたします。&lt;br>本サービスを有効にすると、セルタワー ID に基づいて、近くの高品質 Wi-Fi ネットワークに合わせておおよその位置情報を収集します。&lt;br>この情報はお使いのデバイスでのみ処理され、クラウドにはアップロードされません。&lt;br>この情報を提供しないことを選択した場合、本サービスを使用することはできません。&lt;br>当社は、このプライバシーに関する声明に記載されている収集目的を達成するため、または適用される法的要件を遵守するために必要な期間のみ、お客様の個人情報を保存します。&lt;br>当社は個人情報保護のための専任部署を設置いたしました。このプライバシーに関する声明についてご意見やご質問がある場合、または個人情報の収集、使用、開示についてご質問がある場合、 &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>までお問い合わせください。通常、15 営業日以内に対応いたします。&lt;br>このプライバシーに関する声明を読み、同意したことを示すには、「Agree」をタップしてください。</string>
+    <string name="wifi_wakeup_privacy_disagree">キャンセル</string>
+    <string name="wifi_wakeup_privacy_title">プライバシーに関する声明</string>
     <string name="wifi_wakeup_scan_summary">アプリとサービスに Wi-Fi ネットワークの検索を許可して、Wi-Fi を自動的にオンにできるようにします。この機能をオンにすると、デバイスが付近の保存済みネットワークに自動的に接続できるようになります。</string>
     <string name="wifi_wakeup_summary">ホーム ネットワークなどの高品質の保存済みネットワークの検出時に Wi‑Fi を ON にする</string>
     <string name="wifi_wakeup_summary_no_location">位置情報が OFF のため使用できません。<annotation id="link">位置情報</annotation>を ON にしてください。</string>
@@ -13416,9 +13682,9 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="wifi_wapi_cert_mgmt_subdir_exist">この名前のフォルダーはすでに存在します。</string>
     <string name="wifi_wapi_cert_mgmt_subdir_name_is_empty">フォルダー名を入力してください</string>
     <string name="wifi_wapi_cert_mgmt_titlebar">WAPI 証明書</string>
-    <string name="wifi_wapi_cert_mgmt_user_dont_exist">ユーザー証明書名を入力してください</string>
+    <string name="wifi_wapi_cert_mgmt_user_dont_exist">ユーザー証明書の名称を入力してください</string>
     <string name="wifi_wapi_cert_mgmt_user_format_is_wrong">ユーザー証明書の形式が正しくありません。</string>
-    <string name="wifi_wapi_cert_mgmt_user_name_is_empty">ユーザー証明書名を入力してください</string>
+    <string name="wifi_wapi_cert_mgmt_user_name_is_empty">ユーザー証明書の名称を入力してください</string>
     <string name="wifi_wapi_cert_uninstall">WAPI 証明書をアンインストール</string>
     <string name="wifi_wapi_cert_uninstall_button">アンインストール</string>
     <string name="wifi_wapi_certification_dont_exist">入力したネットワークパスワードが正しくありません。</string>
@@ -13589,10 +13855,21 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="xiaomi_cloud_service_description_without_contacts">Xiaomi Cloud では、写真を同期し、アプリや設定をバックアップし、「デバイスを探す」を使用してスマートフォンの位置を特定できます。</string>
     <string name="xiaomi_cloud_service_disabled">オフ</string>
     <string name="xiaomi_cloud_service_unknown">不明</string>
+    <string name="xiaomi_confirm_enable_16k_erase_checkbox_text">リスクを理解し、起こりうる結果を受け入れます</string>
+    <string name="xiaomi_confirm_enable_16k_pages_text">このモードではソフトウェアの統合性は保証できません。この操作を行うとデバイスが再起動します。</string>
+    <string name="xiaomi_confirm_enable_16k_pages_update_wipe">「16 KB ページサイズで起動する」は、開発者テストのみを目的とした非常に慎重な操作を要する機能です。オンにすると、写真、動画、文書、すべてのアプリデータを含むデバイスのすべてのデータが消去されます。ソフトウェアの統合性は保証できません。このモードでは一部の機能が利用できず、一部のアプリが正常に動作しない可能性があります。</string>
+    <string name="xiaomi_confirm_enable_4k_pages_text">この操作を行うとデバイスが再起動します。</string>
+    <string name="xiaomi_confirm_reboot_button_text">再起動</string>
+    <string name="xiaomi_confirm_reboot_title_text">リスクが検出されました</string>
     <string name="xiaomi_custom_input_method">Xiaomi のカスタム入力方式</string>
+    <string name="xiaomi_erase_confirm_countdown_format">OK (%1$d)</string>
     <string name="xiaomi_hp_location">正確な位置情報へのアクセス</string>
     <string name="xiaomi_hp_location_description">正確な位置情報で正確なナビゲーションを実現</string>
     <string name="xiaomi_money_service">Mi コイン</string>
+    <string name="xiaomi_page_agnostic_16k_pages_text">このデバイスは現在、ext4 ファイルシステムで16 KB ページサイズを使用しています。F2FS ファイルシステムに戻すには、4 KB ページサイズに切り替え、ファクトリーリセットを実行してください。</string>
+    <string name="xiaomi_page_agnostic_16k_pages_title">16 KB ページサイズの使用</string>
+    <string name="xiaomi_page_agnostic_4k_pages_text">このデバイスは現在、ext4 ファイルシステムで4 KB ページサイズを使用しています。F2FS ファイルシステムに戻すには、ファクトリーリセットを実行してください。</string>
+    <string name="xiaomi_page_agnostic_4k_pages_title">4 KB ページサイズの使用</string>
     <string name="xiaomi_router_available_notif_summary">タップして詳細情報を表示します。</string>
     <string name="xiaomi_router_available_notif_title">Mi ルーターが利用可能です</string>
     <string name="xiaomi_router_notif_summary">Mi ルーターが利用可能になったときに通知する</string>

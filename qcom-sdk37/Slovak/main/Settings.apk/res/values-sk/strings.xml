@@ -372,7 +372,7 @@ Nemôžete priblížiť klávesnicu ani navigačný panel."</string>
     <string name="accessibility_service_screen_control_description">Môže čítať všetok obsah na obrazovke a zobrazovať obsah cez ďalšie aplikácie.</string>
     <string name="accessibility_service_screen_control_title">Zobrazenie a ovládanie obrazovky</string>
     <string name="accessibility_service_warning_description">Úplná kontrola je vhodná pre aplikácie, ktoré vám pomáhajú s dostupnosťou, ale nie pre väčšinu aplikácií.</string>
-    <string name="accessibility_setting_item_control_timeout_title">Čas na reakciu (časový limit dostupnosti)</string>
+    <string name="accessibility_setting_item_control_timeout_title">Je čas konať</string>
     <string name="accessibility_settings">Dostupnosť</string>
     <string name="accessibility_settings_summary">Zobrazenie, interakcia, zvuk</string>
     <string name="accessibility_settings_tabs_general">Všeobecné</string>
@@ -609,6 +609,7 @@ Funkcie prepnete potiahnutím troma prstami smerom nahor a pridržaním."</stri
     <string name="activity_title_root_note">O prístupe k root</string>
     <string name="ad_service">Reklamné služby</string>
     <string name="adapt_embedded">K dispozícii sú paralelné okná</string>
+    <string name="adapted_game_title">Podporované hry</string>
     <string name="adaptive_brightness_main_switch_title">Používať adaptáciu jasu</string>
     <string name="adaptive_connectivity_main_switch_title">Používať adaptívne pripojenie</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Automaticky vyberá najlepšie pripojenie k sieti, aby sa predĺžila výdrž batérie</string>
@@ -684,7 +685,7 @@ Funkcie prepnete potiahnutím troma prstami smerom nahor a pridržaním."</stri
     <string name="add_fingerprint_move_fast">Ponechajte prst na obrazovke trochu dlhšie</string>
     <string name="add_fingerprint_name_suggest_text">Názov odtlačku prsta</string>
     <string name="add_fingerprint_put_finger_edge_msg">Mierne zmeňte pozíciu prsta a znova ho umiestnite na snímač, aby ste zaznamenali všetky možné časti prsta.</string>
-    <string name="add_fingerprint_put_finger_msg">Priložte prst na snímač a zodvihnite ho, keď pocítite vibrovanie.</string>
+    <string name="add_fingerprint_put_finger_msg">Priložte prst na snímač, potom ho zdvihnite a postup zopakujte.</string>
     <string name="add_fingerprint_put_finger_title">Pridať odtlačok prsta</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Mierne posuňte prstom</string>
     <string name="add_fingerprint_success_msg">Úspešne pridané</string>
@@ -724,7 +725,10 @@ Správca môže sledovať a spravovať nastavenia, prístup, aplikácie a úda
     <string name="advanced_battery_title">Spotreba batérie</string>
     <string name="advanced_gesture">Prispôsobené gestá</string>
     <string name="advanced_screen_paper_mode_title">Režim čítania</string>
+    <string name="advanced_screen_paper_mode_title_eye_comfort">Pohodlie očí</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Pohodlie očí</string>
+    <string name="advanced_screen_paper_mode_title_vision_care">Xiaomi Vision Care</string>
     <string name="advanced_section_header">Všeobecné</string>
     <string name="advanced_security_title">Rozšírené</string>
     <string name="advanced_settings">Ďalšie nastavenia</string>
@@ -901,8 +905,8 @@ Miniaplikácia: %2$s
     <string name="aon_gesture_up_down_waving_summary">Funguje s vertikálnymi zdrojmi obsahu</string>
     <string name="aon_gesture_up_down_waving_switch">Vertikálne mávnite pre posúvanie nahor a nadol</string>
     <string name="aon_gesture_up_down_waving_title">Potiahnite prstom zvisle</string>
-    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Uistite sa, že ste v dobre osvetlenom priestore, potom zdvihnite ruku %d–%d cm pred kamerou s dlaňou smerujúcou nadol. Keď bude rozpoznávanie úspešné, mávnite rukou nahor. Následne môžete toto gesto používať na posúvanie nahor po obrazovke.</string>
-    <string name="aon_gesture_up_waving_diagram_title">Mávnuť nahor pred obrazovkou</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Uistite sa, že ste v dobre osvetlenom priestore a potom držte ruku vo vzdialenosti %d-%d cm pred kamerou s dlaňou otočenou nahor alebo nadol. Po úspešnom rozpoznaní mávnite rukou pre vykonanie gesta potiahnutia. Pokračujte v mávaní, aby ste pokračovali v prechádzaní. Ak chcete zmeniť smer prechádzania, otočte ruku na druhú stranu a na chvíľu ju podržte v kľude. Akonáhle sa ruka rozpozná, znovu ňou zamávajte.</string>
+    <string name="aon_gesture_up_waving_diagram_title">Mávnite pred obrazovkou pre potiahnutie</string>
     <string name="aon_scanner_default_payment_method_title">Predvolený spôsob platby</string>
     <string name="aon_scanner_dialog_message">Keď zapnete funkciu Quick scanner, naskenované kódy QR sa budú zdieľať so službou Mi AI Scanner. Pred pokračovaním sa uistite, že tomu rozumiete a súhlasíte s tým. Naskenované kódy QR sa nebudú ukladať lokálne ani odosielať do cloudu. Upozorňujeme, že používanie tejto funkcie môže mierne zvýšiť celkovú spotrebu energie.</string>
     <string name="aon_scanner_dialog_message_new">Keď použijete funkciu Rýchly skener, načítané QR kódy budú zdieľané s aplikáciou Skener AI. Tieto informácie sa nebudú ukladať vo vašom zariadení ani odosielať do cloudu. Zapnutím tejto funkcie sa mierne zvýši spotreba energie.</string>
@@ -1406,6 +1410,7 @@ Naposledy spustené: %2$s"</string>
     <string name="back_strap_status_close">Vyp.</string>
     <string name="back_strap_status_open">Zap.</string>
     <string name="back_strap_title">Efekty zadného osvetlenia</string>
+    <string name="back_strap_title_tip">Zapnite túto funkciu, ak si prajete dostávať personalizované upozornenia v rôznych situáciách</string>
     <string name="back_tap">Ťuknutie späť</string>
     <string name="back_triple_tap">Trojité ťuknutie na Späť</string>
     <string name="background_activity_disabled_dialog_text">"Aplikácia nemá nastavenú optimalizáciu batérie, preto ju nemôžete obmedziť.
@@ -1417,6 +1422,7 @@ Ak ju chcete obmedziť, zapnite optimalizáciu."</string>
     <string name="background_blur_enable">Pokročilé textúry</string>
     <string name="background_blur_enable_summary">Pridáva efekty vykresľovania, ako je rozmazanie naprieč systémom, čím poskytuje zvýšený vizuálny zážitok</string>
     <string name="background_blur_message">Zapnutie tejto funkcie môže spotrebovať viac energie a spôsobiť prehriatie zariadenia. Napriek tomu zapnúť?</string>
+    <string name="background_blur_mode_title">Vizuálny štýl</string>
     <string name="background_blur_title">Zapnúť pokročilé textúry</string>
     <string name="background_check_pref">Kontrola na pozadí</string>
     <string name="background_data">Dátové prenosy na pozadí</string>
@@ -1983,7 +1989,8 @@ K telefónu %2$s ste sa ešte nikdy nepripojili."</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">Reštartovať</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">Reštartovať Bluetooth</string>
     <string name="bluetooth_enable_opp_high_speed_summary">Použite vysokorýchlostné P2P Bluetooth protokoly na prenos</string>
-    <string name="bluetooth_enable_page_scan_summary">Zakázať/povoliť skenovanie stránky pre testovanie Bluetooth</string>
+    <string name="bluetooth_enable_page_scan">Skenovanie stránky pomocou Bluetooth</string>
+    <string name="bluetooth_enable_page_scan_summary">Na testovanie zapnite alebo vypnite skenovanie stránky cez Bluetooth</string>
     <string name="bluetooth_enter_passkey_msg">Zadajte párovací kód a potom stlačte tlačidlo Return alebo Enter</string>
     <string name="bluetooth_enter_passkey_other_device">Tento prístupový kľúč možno bude potrebné zadať aj v druhom zariadení.</string>
     <string name="bluetooth_enter_pin_other_device">Tento kód PIN bude možno treba zadať aj na druhom zariadení.</string>
@@ -2291,9 +2298,11 @@ Počas pripojenia bude zariadenie %2$s prijímať všetky hovory smerujúce na �
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Zabudnúť zariadenie</string>
     <string name="bluetooth_unpair_dialog_title">Chcete zariadenie zabudnúť?</string>
     <string name="bluetooth_unpair_dialog_with_associations_body">Váš telefón už nebude spárovaný so zariadením %1$s. %2$s už nebude spravovať zariadenie.</string>
+    <string name="bluetooth_unpairing">Rušenie párovania…</string>
     <string name="bluetooth_version">Verzia Bluetooth</string>
     <string name="bluetooth_version_message">Aktualizácia</string>
     <string name="bluetooth_wake">Prebudiť pomocou Bluetooth zvuku</string>
+    <string name="bluetooth_watch_not_synced_unpair_manually">Hodinky nie sú synchronizované. Zrušte párovanie manuálne.</string>
     <string name="blur_switch">Znížiť efekty rozmazania</string>
     <string name="blur_switch_disabled_summary">Dočasne vypnuté šetričom batérie</string>
     <string name="blur_switch_summary">Zlepšiť viditeľnosť pozadí a panelov</string>
@@ -2617,6 +2626,7 @@ Ak si nainštalujete certifikát CA, vlastník certifikátu by mohol získať pr
     <string name="camera_key_action_title">Mi Tlačidlo</string>
     <string name="camera_key_action_toggle_title">Vyvolať prepínač</string>
     <string name="camera_laser_sensor_switch">Laserový snímač fotoaparátu</string>
+    <string name="camera_mr_settings">Prstenec fotoaparátu</string>
     <string name="camera_rear">Zadný %s</string>
     <string name="camera_toggle_label_qs">Prístup ku kamere</string>
     <string name="camera_toggle_title">Prístup ku kamere</string>
@@ -2747,6 +2757,16 @@ Keď je toto povolenie zapnuté, aplikácia bude k dispozícii ako možnosť pr
     <string name="checked_app_title">Svetelné efekty sú zap.</string>
     <string name="checking_find_device_status">Kontrola stavu funkcie Vyhľadať zariadenie…</string>
     <string name="checking_for_updates">Kontrola aktualizácií…</string>
+    <string name="child_face_number_reach_limit">Môžete pridať údaje o tvári až troch osôb</string>
+    <string name="child_face_unlock_download_education_center_button">Inštalovať</string>
+    <string name="child_face_unlock_download_education_center_content">Ak chcete používať túto funkciu, najprv si nainštalujte Centrum vzdelávania.</string>
+    <string name="child_face_unlock_download_education_center_title">Upozornenie</string>
+    <string name="child_face_unlock_first_close_child_unlock">Najprv vypnite možnosť „Otvoriť Centrum vzdelávania po odomknutí\".</string>
+    <string name="child_face_unlock_first_close_stay_keyguard">Najprv vypnite funkciu „Zostať na Zamknutej obrazovke po odomknutí“.</string>
+    <string name="child_face_unlock_no_use">Vyp.</string>
+    <string name="child_face_unlock_open_education_center">Otvoriť Centrum vzdelávania po odomknutí</string>
+    <string name="child_face_unlock_open_education_center_summary">Vyberte údaje o tvári konkrétnej osoby, ktorá bude túto funkciu používať</string>
+    <string name="child_face_unlock_use">Použiť</string>
     <string name="chip_add_title">Pridať frekvenciu</string>
     <string name="chip_change_error_toast">Nebolo možné nastaviť parametre</string>
     <string name="chip_change_toast">Frekvencia sa zmenila. Reštartujte zariadenie, aby došlo k uplatneniu zmien.</string>
@@ -3684,6 +3704,7 @@ Toto nastavenie ovplyvní všetkých používateľov tohto zariadenia."</string>
     <string name="device_screen_size">Veľkosť obrazovky</string>
     <string name="device_screen_usage">Využitie obrazovky od úplného nabitia</string>
     <string name="device_sd_memory">SD karta</string>
+    <string name="device_security_chip">Špecializovaný bezpečnostný čip</string>
     <string name="device_share_loading">Vytvára sa obrázok</string>
     <string name="device_status">Stav</string>
     <string name="device_status_activity_title">Stav</string>
@@ -3740,6 +3761,7 @@ Toto nastavenie ovplyvní všetkých používateľov tohto zariadenia."</string>
     <string name="disable_overlays">Zakázať hardvérové prekrytia</string>
     <string name="disable_overlays_summary">Vždy skladať obrazovku grafickým procesorom</string>
     <string name="disable_password_warning">Po vypnutí zámku obrazovky sa zaznamenané odtlačky prstov a údaje o tvári vymažú. Nebudete môcť odomknúť zariadenie pomocou tváre alebo odtlačkov prstov ani ich používať v aplikáciách Poznámky alebo Galéria.</string>
+    <string name="disable_permission_text_by_hyper">Toto povolenie neprešlo kontrolou a teraz je zakázané</string>
     <string name="disable_phantom_process_monitor_summary">Vypnúť obmedzenia podradených procesov na používanie zdroja systému</string>
     <string name="disable_phantom_process_monitor_title">Vypnúť obmedzenia podradených procesov</string>
     <string name="disable_power_key_long_press_under_keyguard">Deaktivovať menu tlačidla Napájania</string>
@@ -3991,6 +4013,7 @@ Toto nastavenie ovplyvní všetkých používateľov tohto zariadenia."</string>
     <string name="dump_log_summary">"Táto funkcia je určená na generovanie %s záznamu v Beta verzii systému. Pri jej používaní buďte opatrný(á).
 Vygenerované záznamy si môžete pozrieť v Správcovi súborov."</string>
     <string name="dump_log_title">O tejto funkcii</string>
+    <string name="dynamic_island_title">Xiaomi HyperIsland</string>
     <string name="early_morning">Ráno</string>
     <string name="easy_mode_font_settings_toast">V Zjednodušenom režime nie je možné upraviť písmo</string>
     <string name="easymode_hint">Ťuknutím vypnúť Zjednodušený režim</string>
@@ -4020,6 +4043,7 @@ Vygenerované záznamy si môžete pozrieť v Správcovi súborov."</string>
     <string name="eid_multi_sim">E​ID %1$d</string>
     <string name="eighthours">8 hodín</string>
     <string name="elastic_text">Výzvy a rozbaľovacie ponuky sa zobrazujú s elastickým vyskočením, ktorý sa viac zameriava na tieto objekty</string>
+    <string name="elder_care_ai_anti_fraud">Detekcia podvodov počas konverzácií a dostávanie upozornení</string>
     <string name="elder_care_block_advertising_promotions_calls_title">Blokovať marketingové hovory</string>
     <string name="elder_care_block_estate_agency_calls_title">Blokovať hovory realitnej kancelárie</string>
     <string name="elder_care_block_risky_app_title">Blokovať rizikové aplikácie</string>
@@ -4388,6 +4412,11 @@ Začnite pripojením externej obrazovky, prípadne skúste použiť iný kábel.
     <string name="external_source_untrusted">Nie je povolené</string>
     <string name="extreme_threats_summary">Prijímať upozornenia na extrémne ohrozenie života a majetku</string>
     <string name="extreme_threats_title">Extrémne hrozby</string>
+    <string name="eye_care_adjust_mode">Štýl nastavenia</string>
+    <string name="eye_care_classic_mode">Klasický</string>
+    <string name="eye_care_learn_more">Zistiť viac o pohodlí pre oči</string>
+    <string name="eye_care_mode_description">Štýl „Rytmus“ automaticky prispôsobuje teplotu farieb podľa času a scenára použitia. Tá počas dňa zostáva prirodzenejšia a v noci teplejšia. „Klasický“ štýl používa pevnú teplotu farieb a nastavuje sa manuálne.</string>
+    <string name="eye_care_rhythmic_mode">Rytmus</string>
     <string name="eye_gaze_dialog_message">Keď je táto funkcia zapnutá, systém zistí, či sa pozeráte na obrazovku, no črty vašej tváre sa nebudú analyzovať a tieto údaje sa nebudú ukladať do zariadenia ani sa nebudú odosielať do cloudu. Zapnúť teraz?</string>
     <string name="eye_gaze_dialog_title">Bezpečnostné oznámenie</string>
     <string name="eye_gaze_summary">Zariadenie sa nezamkne, keď zistí, že sa práve pozeráte na obrazovku</string>
@@ -4396,6 +4425,7 @@ Začnite pripojením externej obrazovky, prípadne skúste použiť iný kábel.
     <string name="eye_habit_prompt_summary">Dostávajte upozornenia, keď zariadenie zistí podmienky, ktoré by mohli spôsobiť namáhanie očí</string>
     <string name="eye_habit_prompt_title">Oznámenia týkajúce sa zdravia očí</string>
     <string name="eye_paper_protection">Nastavenia režimu čítania</string>
+    <string name="eye_protection_technology">Technológia</string>
     <string name="eyes_protect_certification">Technológie a certifikácia</string>
     <string name="eyes_protect_certification_summary_1">Certifikácia S++ pre vizuálnu zdravotnú nezávadnosť</string>
     <string name="eyes_protect_certification_summary_2">Certifikácia nízkeho modrého svetla (hardvérové riešenie), cirkadiánna kompatibilita a bez blikania</string>
@@ -4407,6 +4437,7 @@ Začnite pripojením externej obrazovky, prípadne skúste použiť iný kábel.
     <string name="eyes_protect_certification_title_3">Prirodzenejšia kruhová polarizácia</string>
     <string name="eyes_protect_certification_title_4">Stmievanie DC bez blikania</string>
     <string name="eyes_protect_certification_title_5">PWM stmievanie pri frekvencii 3 840 Hz</string>
+    <string name="eyes_protect_game_title">Pohodlie očí pri hraní hier</string>
     <string name="face_data_apply_for_category_title">Odomknúť pomocou tváre</string>
     <string name="face_data_apply_for_keyguard_title">Zamknutá obrazovka</string>
     <string name="face_data_input_camera_fail">Fotoaparát sa nepodarilo spustiť</string>
@@ -4437,6 +4468,7 @@ Pred pridaním údajov o vašej tvári pridajte zámok obrazovky."</string>
     <string name="face_data_suggesstion_first_cn_highlight">Odomknutie pomocou tváre je menej bezpečné ako PIN kód, heslo alebo odtlačok prsta. Váš telefón môže byť odomknutý napríklad pomocou vašej fotografie alebo ľuďmi s podobnými črtami.</string>
     <string name="face_data_suggesstion_second">Uistite sa, že žiadna časť vašej tváre nie je zakrytá a že je vaša tvár jasne viditeľná. Vaša tvár by mala byť taktiež dobre osvetlená.</string>
     <string name="face_enroll_when_slt_on_toast">Pri používaní satelitnej komunikácie Tiantong nie je možné pridať tvár pre funkciu Odomknutie pomocou tváre</string>
+    <string name="face_enrollment_fold_warning">Zmena stavu obrazovky preruší zaznamenávanie údajov o tvári</string>
     <string name="face_enrollment_tips">Uistite sa, že všetky časti vašej tváre sú jasne viditeľné. Nemajte nasadené klobúky, masky, slnečné okuliare ani iné doplnky.</string>
     <string name="face_finger_add">Pridať</string>
     <string name="face_finger_delete">Vymazať</string>
@@ -4460,6 +4492,9 @@ Pred pridaním údajov o vašej tvári pridajte zámok obrazovky."</string>
     <string name="face_unlock_disable">Odomykanie pomocou tváre vypnuté</string>
     <string name="face_unlock_down">Zdvihnite hlavu</string>
     <string name="face_unlock_enable">Odomykanie pomocou tváre zapnuté</string>
+    <string name="face_unlock_in_low_light_msg">Zvýšiť jas obrazovky pri slabom osvetlení, aby bolo rozpoznávanie tváre lepšie</string>
+    <string name="face_unlock_in_low_light_tip">Ak je zapnutá funkcia „Nočné pohodlie očí“, funkcia „Optimalizovať rozpoznávanie pri slabom osvetlení“ nezvýši jas obrazovky</string>
+    <string name="face_unlock_in_low_light_title">Optimalizovať rozpoznávanie pri slabom osvetlení</string>
     <string name="face_unlock_not_found">Vaša tvár nebola rozpoznaná</string>
     <string name="face_unlock_offset_bottom">Umiestnite telefón o niečo nižšie</string>
     <string name="face_unlock_offset_left">Posuňte sa doprava</string>
@@ -4513,6 +4548,11 @@ na vonkajšiu obrazovku"</string>
     <string name="fan_mode_partial_scene_usage">Vybraté</string>
     <string name="fan_mode_range_title">Scenáre používania</string>
     <string name="fan_mode_usage_scenes">Scenáre používania</string>
+    <string name="fan_other_features">Ďalšie funkcie</string>
+    <string name="fan_self_clean">Samočistenie ventilátora</string>
+    <string name="fan_self_clean_summary">Ak ventilátor nebol v prevádzke dlhšie ako %d dní, zariadenie automaticky spustí samočistenie, keď bude obrazovka vypnutá a zariadenie sa bude nabíjať</string>
+    <string name="fan_smart_stop_on_recording">Pozastaviť počas zachytenia zvuku</string>
+    <string name="fan_smart_stop_on_recording_summary">Zníži hluk ventilátora počas hovorov, nahrávania zvuku a nahrávania videa. Nevzťahuje sa na hry.</string>
     <string name="fcc_equipment_id">ID zariadenia</string>
     <string name="feature_flags_dashboard_title">Experimentálne funkcie</string>
     <string name="feedback">Spätná väzba</string>
@@ -4592,6 +4632,7 @@ Viac sa dozviete od svojho poskytovateľa úveru."</string>
     <string name="fingerprint_enroll_button_add">Pridať ďalší</string>
     <string name="fingerprint_enroll_button_next">Ďalej</string>
     <string name="fingerprint_enrollment_desc">Po zaznamenaní odtlačku prsta ho môžete použiť na odomknutie zariadenia a overenie svojej identity.</string>
+    <string name="fingerprint_enrollment_fold_warning">Zmena stavu obrazovky preruší zaznamenávanie odtlačku prsta</string>
     <string name="fingerprint_enrollment_title">Zaznamenať odtlačok prsta</string>
     <string name="fingerprint_face_password">Odtlačky prstov, údaje o rozpoznaní tváre a zámok obrazovky</string>
     <string name="fingerprint_face_password_unlock">Odtlačky prstov, údaje o rozpoznaní tváre a zámok obrazovky</string>
@@ -4619,6 +4660,7 @@ Viac sa dozviete od svojho poskytovateľa úveru."</string>
     <string name="fingerprint_password_unlock">Odtlačky prstov a zámok obrazovky</string>
     <string name="fingerprint_payment">Platby pomocou odtlačku prsta</string>
     <string name="fingerprint_privacy_desc">Svoj odtlačok prsta môžete použiť na prístup k súkromným albumom, správam, poznámkam, súborom, pamäti Xiaomi Hyper XiaoAi, zámku aplikácií a nástrojom na správu hesiel.</string>
+    <string name="fingerprint_privacy_policy"><Data>Pred pokračovaním si prečítajte a vyjadrite svoj súhlas s Vyhlásením o ochrane súkromia pre &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">„Odtlačky prstov a zámok obrazovky”&lt;/a>.&lt;/font></Data></string>
     <string name="fingerprint_protection">Ochrana odtlačkov prstov</string>
     <string name="fingerprint_record_input">Zaznamenať</string>
     <string name="fingerprint_removal_failed">Odtlačok prsta sa nepodarilo odstrániť, skúste to znovu</string>
@@ -4690,21 +4732,6 @@ Viac sa dozviete od svojho poskytovateľa úveru."</string>
     <string name="flash_notifications_summary_off">Vypnuté / Nechajte si oznamovať upozornenia a budíky blikaním svetla kamery alebo obrazovky</string>
     <string name="flash_notifications_summary_on">Zapnuté / Nechajte si oznamovať upozornenia a budíky blikaním svetla kamery alebo obrazovky</string>
     <string name="flash_notifications_title">Beam pre upozornenia</string>
-    <string name="flashback_background_start_switch_summary">Generovať kartičky s kľúčovými informáciami automaticky, keď aplikácie bežia na pozadí</string>
-    <string name="flashback_background_start_switch_title">Generovať kartičky automaticky</string>
-    <string name="flashback_baidu_map_summary">Zobraziť cestu</string>
-    <string name="flashback_didi_summary">Zobraziť informácie o jazde</string>
-    <string name="flashback_meituan_summary">Zobraziť informácie o objednávke</string>
-    <string name="flashback_meituan_waimai_summary">Zobraziť informácie o objednávke</string>
-    <string name="flashback_open_switch_summary">Zobraziť kľúčové informácie, keď sa aplikácie zobrazujú v plávajúcich oknách</string>
-    <string name="flashback_open_switch_title">Aplikácia kartičiek</string>
-    <string name="flashback_shansong_summary">Zobraziť priebeh objednávky</string>
-    <string name="flashback_status_close">Vyp.</string>
-    <string name="flashback_status_open">Zap.</string>
-    <string name="flashback_summary">Zobraziť kľúčové informácie, keď sa aplikácie zobrazujú v plávajúcich oknách</string>
-    <string name="flashback_support_apps_title">Dostupné aplikácie</string>
-    <string name="flashback_title">Aplikácia kartičiek</string>
-    <string name="flashback_wangzhe_summary">Zobraziť časovač obnovenia</string>
     <string name="flip_aod_settings_title">Zamknutá obrazovka (vonkajšia)</string>
     <string name="flip_aod_settings_title_new">Zamknutá obrazovka (vonkajšia)</string>
     <string name="flip_application_settings_title">Aplikácie na vonkajšiu obrazovku</string>
@@ -4800,6 +4827,8 @@ Viac sa dozviete od svojho poskytovateľa úveru."</string>
     <string name="font_preview_text_content">"Príklad textu:
 
 Spoločnosť Xiaomi neúnavne vytvára úžasné produkty za poctivé ceny, aby si každý na svete mohol užívať lepší život vďaka inovatívnym technológiám."</string>
+    <string name="font_preview_text_content_new">"Príklad textu:
+Spoločnosť Xiaomi neúnavne vytvára úžasné produkty za poctivé ceny, aby si každý na svete mohol užívať lepší život vďaka inovatívnym technológiám."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Aktuálny font nepodporuje upravovanie hrúbky písma</string>
     <string name="font_settings_jump">Zjednodušenie prístupu > Veľkosť displeja</string>
@@ -4819,12 +4848,14 @@ Spoločnosť Xiaomi neúnavne vytvára úžasné produkty za poctivé ceny, aby 
 "</string>
     <string name="font_size_summary1">"Ak je text vášho systému stále príliš malý, skúste "</string>
     <string name="font_size_summary2">Zjednodušený režim</string>
+    <string name="fonts_management_installed_app">Inštalácia a správa písem pre použitie v aplikáciách</string>
+    <string name="fonts_manager">Správa písem</string>
     <string name="footer_description_full_screen_intent">Povoliť tejto aplikácii zobrazovať upozornenia na celú obrazovku, keď je zariadenie uzamknuté. Aplikácia môže používať upozornenia na celú obrazovku na zobrazenie budíkov, prichádzajúcich hovorov alebo iných naliehavých upozornení. Toto nastavenie závisí od povolenia otvárať nové okná pri spustení na pozadí a možno ho použiť iba vtedy, keď je toto povolenie udelené.</string>
     <string name="footer_learn_more_content_description">Ďalšie informácie o funkcii %1$s</string>
     <string name="footer_time_zone_offset_change_next_change">Ďalšia zmena</string>
     <string name="footer_time_zone_offset_change_no_next_change">Žiadne naplánované zmeny</string>
     <string name="forbidden_network">(zakázané)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Je spustený režim opravy. Momentálne nie je možné nastavovať ani meniť heslá.</string>
     <string name="forbidden_switch_apn_string">Vybrané nastavenie APN sa nezhoduje so súčasným typom siete</string>
     <string name="force_allow_on_external">Vynucovať povolenie aplikácií na externom úložisku</string>
     <string name="force_allow_on_external_summary">Umožniť zapísať akúkoľvek aplikáciu do externého úložiska bez ohľadu na hodnoty v manifeste</string>
@@ -4944,6 +4975,7 @@ Táto funkcia funguje, iba ak je systémová navigácia nastavená na gestá."</
     <string name="friday_first_day_of_week">Piatok</string>
     <string name="friday_short">Pia</string>
     <string name="friday_shortest">Pia</string>
+    <string name="frp_status_activated">Je zapnutá ochrana proti obnoveniu továrenských nastavení</string>
     <string name="fsg_mistake_touch_summary">V niektorých prípadoch, ako sú hry alebo videá zobrazené na celú obrazovku, je potrebné na vykonanie gest zdvojené potiahnutie</string>
     <string name="fsg_mistake_touch_title">Dvojitá kontrola gest</string>
     <string name="full_screen_display">Režim na celú obrazovku</string>
@@ -4987,6 +5019,7 @@ Keď zapnete automatické zálohovanie, údaje zariadenia a aplikácií sa budú
     <string name="game_controller_stick_remapping_category">Smer</string>
     <string name="game_controller_stick_right">Pravá páčka</string>
     <string name="game_delta_action_moments">Rabovanie zásob a úspešná evakuácia</string>
+    <string name="game_eyecare_empty_list_tip">Zatiaľ tu nič nie je</string>
     <string name="game_king_of_glory_moments">Zabitia, víťazstvá a ďalšie kľúčové momenty</string>
     <string name="game_peacekeeper_elites_moments">Zoskoky s padákom a boj</string>
     <string name="game_storage_settings">Hry</string>
@@ -5154,6 +5187,7 @@ Oblasť, kde môžete potvrdiť zámku obrazovky, sa presunie doprava."</string>
     <string name="gxzw_anim_rhythm">Rytmus</string>
     <string name="gxzw_anim_star">Hviezdna žiara</string>
     <string name="gxzw_anim_switch">Animácia odtlačku prsta</string>
+    <string name="gxzw_anim_switch_new">Animácia odtlačku prsta</string>
     <string name="gxzw_anim_title">Rozpoznávanie odtlačkov prstov</string>
     <string name="gxzw_aod_show_summary">Zdvihnite zariadenie alebo ťuknite na obrazovku, aby sa zobrazila ikona odtlačku prsta. Táto funkcia zvyšuje spotrebu energie systému, ale umožňuje rýchlejšie odomknúť zariadenie.</string>
     <string name="gxzw_aod_show_tittle">Zobraziť ikonu odtlačku prsta na vypnutej obrazovke</string>
@@ -5172,6 +5206,7 @@ Oblasť, kde môžete potvrdiť zámku obrazovky, sa presunie doprava."</string>
     <string name="gxzw_quick_open_show_summary">· Po odomknutí zariadenia podržte prst na ikone odtlačku prsta, pre otvorenie ponuky odkazov.</string>
     <string name="gxzw_quick_open_slow_summary">Stlačte a podržte ikonu odtlačku prsta a otvorte ponuku s odkazom. Potiahnite prstom pre použitie odkazu.</string>
     <string name="gxzw_quick_open_slow_title">Stlačte a podržte</string>
+    <string name="gxzw_quick_open_summary">Po odomknutí opakovane stláčajte na ikonu odtlačku prsta, aby sa otvorilo kontextové menu a potom potiahnite prstom na požadovaný odkaz a vykonajte výber.</string>
     <string name="gxzw_quick_open_title">Odkazy</string>
     <string name="gxzw_recognizing_anim_a">Ripple</string>
     <string name="gxzw_recognizing_anim_b">Špirála</string>
@@ -5462,6 +5497,7 @@ Otvorte Xiaomi Cloud a obnovte položky odtiaľ."</string>
     <string name="immediately_destroy_activities">Neuchovávať aktivity</string>
     <string name="immediately_destroy_activities_summary">Zničiť každú aktivitu, hneď ako ju používateľ ukončí</string>
     <string name="immersive_audio_sources">Pohlcujúci zvuk</string>
+    <string name="import_manager_font_summary">Import a správa písem pre aplikácie</string>
     <string name="importance_default">Predvolená</string>
     <string name="importance_high">Vysoká</string>
     <string name="importance_low">Nízka</string>
@@ -5961,6 +5997,69 @@ Dôležité: Hovory cez satelit nie sú k dispozícii, ale tiesňové volanie b
     <string name="layout_size_normal_text">Malé</string>
     <string name="layout_size_small">XS</string>
     <string name="layout_size_small_text">Extra malé</string>
+    <string name="ldp_checker_action">Nastavenia</string>
+    <string name="ldp_checker_desc">Pridajte odtlačok prsta na potvrdenie vašej identity pri dôležitých nastaveniach zabezpečenia a zapnite funkciu „Vyhľadať zariadenie“. Ak dôjde k strate alebo krádeži vášho prihláseného zariadenia, funkcia „Vyhľadať zariadenie“ vám pomôže zariadenie lokalizovať a ochrániť vaše údaje.</string>
+    <string name="ldp_checker_find_device_desc">Ak nie ste prihlásený/á do svojho Xiaomi konta, systém vás najskôr vyzve, aby ste sa prihlásili.</string>
+    <string name="ldp_checker_find_device_title">Zapnite funkciu „Vyhľadať zariadenie”</string>
+    <string name="ldp_checker_fingerprint_enroll_desc">Ak ste ešte nenastavili zámok obrazovky, systém vás najprv vyzve, aby ste tak urobili.</string>
+    <string name="ldp_checker_fingerprint_enroll_title">Pridajte aspoň jeden odtlačok prsta</string>
+    <string name="ldp_checker_title">Funkcie „Odtlačok prsta” a „Vyhľadať zariadenie” musia byť zapnuté</string>
+    <string name="ldp_closed_dialog_button_know">Rozumiem</string>
+    <string name="ldp_closed_dialog_reason_by_xiaomi_account">V Xiaomi konte ste vypli ochranu proti strate zariadenia. Bezpečnostné funkcie vášho zariadenia už nemajú žiadnu dodatočnú ochranu.</string>
+    <string name="ldp_closed_dialog_reason_no_account">Ochrana proti strate zariadenia je momentálne vypnutá, pretože nie ste prihlásený/á do Xiaomi konta.</string>
+    <string name="ldp_closed_dialog_reason_no_device_find">Na diaľku ste zrušili funkciu „Vyhľadať zariadenie“, takže ochrana proti strate zariadenia je vypnutá.</string>
+    <string name="ldp_closed_dialog_reason_no_fingerprint">Ochrana proti strate zariadenia je teraz vypnutá, pretože nie je nastavený žiadny odtlačok prsta.</string>
+    <string name="ldp_closed_dialog_reason_no_lock_password">Ochrana proti strate zariadenia je teraz vypnutá, pretože nie je nastavený žiadny zámok obrazovky.</string>
+    <string name="ldp_closed_dialog_sync_title">Ochrana proti strate zariadenia je vypnutá</string>
+    <string name="ldp_closed_dialog_title">Ochrana proti strate zariadenia je vypnutá</string>
+    <string name="ldp_detail_introduction">Zistite, ako vám táto funkcia pomôže chrániť vaše zariadenie v prípade straty.</string>
+    <string name="ldp_detail_title">O ochrane strateného zariadenia</string>
+    <string name="ldp_dual_auth">Dvojfaktorové overovanie</string>
+    <string name="ldp_dual_auth_desc">Zabráňte ostatným používať vašu stratenú SIM kartu na neoprávnené zásahy do vášho Xiaomi konta</string>
+    <string name="ldp_extra_fingerprint_item1">•Vypnutie alebo zmena zámku obrazovky</string>
+    <string name="ldp_extra_fingerprint_item2">•Pridávanie odtlačkov prstov alebo údajov o tvári</string>
+    <string name="ldp_extra_fingerprint_item3">•Vymazávanie odtlačkov prstov alebo údajov o tvári</string>
+    <string name="ldp_extra_fingerprint_item4">•Odhlásenie z vášho Xiaomi konta</string>
+    <string name="ldp_extra_fingerprint_title">Nasledujúce úkony si vyžadujú dodatočnú kontrolu odtlačku prsta</string>
+    <string name="ldp_fingerprint_fault_desc">"Túto funkciu môžete vypnúť pomocou overenia odtlačkom prsta. Ak váš odtlačok prsta nie je možné overiť, funkcia ochrany strateného zariadenia vám umožňuje túto funkciu vypnúť pomocou overenia vášho Xiaomi konta.
+Aby sa zabránilo tomu, aby iné osoby mohli túto metódu ihneď použiť na obídenie ochrany, funkcia ochrany strateného zariadenia aktivuje zabezpečenie s oneskorením %1$d hodín. To umožňuje skutočnému majiteľovi podniknúť potrebné kroky, napríklad na diaľku vymazať zariadenie alebo zablokovať SIM kartu. Po uplynutí tejto lehoty môžete túto funkciu vypnúť overením svojho Xiaomi konta v priebehu nasledujúcich %2$d hodín."</string>
+    <string name="ldp_fingerprint_fault_title">Ak nie je k dispozícii overenie odtlačkom prsta</string>
+    <string name="ldp_forbidden_actions_item1">•Vypínanie služby „Vyhľadať zariadenie“</string>
+    <string name="ldp_forbidden_actions_item2">•Vypínanie služby určovania polohy v režime offline</string>
+    <string name="ldp_forbidden_actions_item3">•Vypínanie funkcie „Odoslanie poslednej polohy“</string>
+    <string name="ldp_forbidden_actions_title">Nasledujúce operácie budú blokované</string>
+    <string name="ldp_function_home_introduction_des">Ak ste stratili zariadenie a niekto má prístup k vášmu zámku obrazovky, údajom o tvári alebo spárovanému Bluetooth zariadeniu, táto funkcia môže zabrániť tomu, aby na vašom zariadení vykonal dôležité škodlivé zmeny.&lt;a href=app://learn_more>Zistite viac&lt;/a></string>
+    <string name="ldp_function_home_suggestion_title">Odporúčané funkcie</string>
+    <string name="ldp_guide_account_protection_desc">Pred vykonaním citlivých operácií v Xiaomi konte je na tomto zariadení potrebné najprv overiť odtlačok prsta.</string>
+    <string name="ldp_guide_account_protection_title">Zabezpečte si svoje Xiaomi konto extra ochranou</string>
+    <string name="ldp_guide_action">Ďalej</string>
+    <string name="ldp_guide_desc">Ak ste stratili zariadenie a niekto má prístup k vášmu zámku obrazovky, údajom o tvári alebo spárovanému Bluetooth zariadeniu, táto funkcia môže zabrániť tomu, aby na vašom zariadení vykonal dôležité škodlivé zmeny.</string>
+    <string name="ldp_guide_identity_verification_desc">Zmeny v nastaveniach zabezpečenia a prístup k niektorým citlivým funkciám vyžadujú overenie odtlačkom prsta, aby ste ich mohli používať len vy.</string>
+    <string name="ldp_guide_identity_verification_title">Uistite sa, že citlivé operácie skutočne vykonávate vy sami</string>
+    <string name="ldp_how_to_protect_desc">"Funkcia „Ochrana strateného zariadenia“ pridáva ďalšiu úroveň zabezpečenia. Ak je zariadenie odomknuté metódou s nižšou úrovňou zabezpečenia, systém bude pri citlivých akciách vyžadovať iný spôsob overenia. Tým sa pridá ďalšia kontrola identity bez zbytočného opakovania.
+V prípade straty zariadenia môže toto dodatočné overenie stále zabrániť ostatným v zmene dôležitých bezpečnostných nastavení, aj keby podvodom alebo phishingom získali údaje o uzamknutí obrazovky alebo o vašom Xiaomi konte."</string>
+    <string name="ldp_how_to_protect_title">Ako to funguje</string>
+    <string name="ldp_recommend_action_button_text">Zapnúť</string>
+    <string name="ldp_recommend_desc">To zabraňuje tomu, aby iní ľudia použili vašu SIM kartu na obnovu vášho Xiaomi konta a následne vypli bezpečnostné funkcie, ako sú „Stratené zariadenie” a „Vyhľadať zariadenie“.</string>
+    <string name="ldp_recommend_later_button_text">Teraz nie</string>
+    <string name="ldp_recommend_title">Zapnite dvojfaktorové overenie pre vaše konto</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item1">•Vypínanie odomknutia pomocou Bluetooth zariadení</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item2">•Zobrazenie alebo zmena nastavení SIM karty</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item3">•Otváranie aplikácie Heslá</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item4">•Používanie aplikácie „Heslá“ na automatické vypĺňanie hesiel</string>
+    <string name="ldp_replace_pwd_with_fingerprint_title">Pri ďalších operáciách bude overenie zámku obrazovky nahradené overením odtlačkom prsta</string>
+    <string name="ldp_summary">Zabráňte ostatným vykonávať dôležité zmeny na tomto zariadení a vo vašom Xiaomi konte, do ktorého ste prihlásený/á</string>
+    <string name="ldp_title">Ochrana v prípade straty zariadenia</string>
+    <string name="ldp_trigger_occasion_desc">Ak je zariadenie odomknuté pomocou rozpoznania tváre, obrazovky alebo spárovaného zariadenia Bluetooth, niektoré citlivé operácie si budú vyžadovať dodatočné overenie odtlačkom prsta alebo výhradne odtlačkom prsta. Zároveň nie je možné vypnúť funkciu „Vyhľadať zariadenie“.</string>
+    <string name="ldp_trigger_occasion_title">Keď sa spustí ochrana</string>
+    <string name="ldp_uni_auth_add_face_title">Overte svoje odtlačky prstov, aby ste pridali údaje o tvári</string>
+    <string name="ldp_uni_auth_add_fingerprint_title">Overte svoje odtlačky prstov, aby ste mohli pridať nové</string>
+    <string name="ldp_uni_auth_change_password_title">Overte svoje odtlačky prstov, aby ste zmenili zámok obrazovky</string>
+    <string name="ldp_uni_auth_disable_ldp_title">Overte svoje odtlačky prstov, aby ste vypli ochranu proti strate zariadenia</string>
+    <string name="ldp_uni_auth_enable_ldp_subtitle">Ak chcete aktivovať ochranu proti strate zariadenia, overte svoju totožnosť a skontrolujte, či snímač odtlačkov prstov funguje správne.</string>
+    <string name="ldp_uni_auth_remove_face_title">Overte svoje odtlačky prstov, aby ste vymazali údaje o tvári</string>
+    <string name="ldp_uni_auth_remove_fingerprint_title">Overte svoje odtlačky prstov, aby ste ich mohli zmazať</string>
+    <string name="ldp_uni_auth_remove_password_title">Overte svoje odtlačky prstov, aby ste vypli zámok obrazovky</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_about_security_chip">Zistite, ako špecializovaný bezpečnostný čip chráni vaše zariadenie</string>
     <string name="learn_more">Ďalšie informácie</string>
@@ -5991,6 +6090,7 @@ Dôležité: Hovory cez satelit nie sú k dispozícii, ale tiesňové volanie b
     <string name="license_title">Licencia</string>
     <string name="lift_to_wake_title">Prebudiť zdvihnutím</string>
     <string name="light_camera_state_summary">Zapnúť zadné svetlo pri snímaní časovaných alebo dávkových záberov</string>
+    <string name="light_camera_state_summary_new">Zapnúť LED svetlo pri snímaní časovaných alebo dávkových záberov</string>
     <string name="light_camera_state_title">Indikátor stavu fotoaparátu</string>
     <string name="light_color_mode">Svetlý režim</string>
     <string name="lights_title">LED kontrolky</string>
@@ -6677,6 +6777,7 @@ Túto operáciu už nie je možné vrátiť späť."</string>
 Túto akciu nebude možné vrátiť späť."</string>
     <string name="master_clear_title">Vymazať všetky údaje (obnovenie do výrobných nastavení)</string>
     <string name="master_clear_title_new">Obnovenie do továrenských nastavení</string>
+    <string name="material_classic_title">Matné sklo</string>
     <string name="material_clock_toggle_content_description">Vyberte AM alebo PM</string>
     <string name="material_hour_24h_suffix">%1$s hodín</string>
     <string name="material_hour_selection">Vybrať hodinu</string>
@@ -6693,6 +6794,7 @@ Túto akciu nebude možné vrátiť späť."</string>
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Vyberte čas</string>
     <string name="material_timepicker_text_input_mode_description">Ak chcete zadať čas, prepnite na textový režim vstupu</string>
+    <string name="material_transparent_title">Jemné sklo</string>
     <string name="max_aspect_settings_all_app_display_loading">Malý moment…</string>
     <string name="max_cpu10_info">"Deca-core Max "</string>
     <string name="max_cpu2_info">"Dual-core Max "</string>
@@ -6834,6 +6936,8 @@ Túto akciu nebude možné vrátiť späť."</string>
     <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
     <string name="mi_smart_play_entry_title">Mi Smart Play</string>
     <string name="mi_transfer">Mi Mover</string>
+    <string name="mi_transfer_banner_summary">Sú podporované viaceré značky zariadení</string>
+    <string name="mi_transfer_banner_title">Preneste položky z vášho starého zariadenia</string>
     <string name="mi_upi_settings">Konto Mi Pay</string>
     <string name="mi_wallet">Mi Peňaženka</string>
     <string name="mi_wallet_desc">Mi Peňaženka</string>
@@ -7080,30 +7184,11 @@ Pokračujte pre prístup k ďalším nastaveniam."</string>
     <string name="miui_face_unlock_open_toast_for_sensor_light_virtual">Jas obrazovky nebude upravený automaticky</string>
     <string name="miui_input_method_attention">Upozornenie</string>
     <string name="miui_input_method_settings">Nastavenia metódy vstupu</string>
-    <string name="miui_lab_ai_cloud_closed">Prednačítavanie AI zatiaľ nie je dostupné.</string>
-    <string name="miui_lab_ai_preload_desc">Prednačítavanie AI zvyšuje rýchlosť spustenia aplikácie</string>
-    <string name="miui_lab_ai_preload_title">Prednačítavanie AI</string>
-    <string name="miui_lab_aiasst_call_screen_desc">Odpovedať na hovory pomocou AI</string>
-    <string name="miui_lab_aiasst_call_screen_title">AI asistent hovorov</string>
-    <string name="miui_lab_drive_mode_desc">Použiť hlasové ovládanie a vypočuť WeChat odkazy</string>
-    <string name="miui_lab_drive_mode_title">Režim auto</string>
-    <string name="miui_lab_feature_applied">Použité</string>
-    <string name="miui_lab_feature_off">Vyp.</string>
-    <string name="miui_lab_feature_on">Zap.</string>
-    <string name="miui_lab_features">MIUI Lab funkcie</string>
-    <string name="miui_lab_gallery_search_desc">Vylepšené vyhľadávanie obrázkov</string>
-    <string name="miui_lab_gallery_search_title">Vyhľadať fotografie v Galérii</string>
-    <string name="miui_lab_gesture_desc">Pre navigáciu použiť gestá namiesto tlačidiel</string>
-    <string name="miui_lab_gesture_title">Gestá celej obrazovky</string>
-    <string name="miui_lab_install_drive_mode_error">Nepodarilo sa nainštalovať. Skúste to znova.</string>
-    <string name="miui_lab_install_drive_mode_summary">Režim auto je systémová aplikácia. Inštalácia si nevyžaduje internetové pripojenie.</string>
-    <string name="miui_lab_install_drive_mode_title">Inštalovať Režim auto</string>
-    <string name="miui_lab_settings">Laborka</string>
-    <string name="miui_lab_slogan">Uč sa. Skúmaj. Objavuj.</string>
     <string name="miui_master_clear_prompt_battery_low">Obnovenie do továrenských nastavení nie je možné vykonať, keď batérii ostáva menej ako %1$s energie. Pred pokračovaním nabite svoje zariadenie.</string>
     <string name="miui_master_clear_summary">Vymaže všetky dáta na tomto zariadení</string>
     <string name="miui_more_special_feature">Objavte nové funkcie</string>
     <string name="miui_nfc_dialog_message">Ak vypnete NFC, nebudete môcť používať funkcie NFC, vrátane Mi Pay, dopravných kariet, prístupových kariet a podobne. Napriek tomu vypnúť?</string>
+    <string name="miui_nfc_dialog_message_gl">Ak vypnete funkciu NFC, nebudete môcť používať funkcie NFC vrátane čítania a zápisu značiek NFC, používania prístupových kariet a ďalších funkcií. Napriek tomu vypnúť?</string>
     <string name="miui_nfc_dialog_negative">Vypnúť</string>
     <string name="miui_nfc_dialog_positive">Zrušiť</string>
     <string name="miui_nfc_dialog_title">Vypína sa NFC</string>
@@ -7230,6 +7315,7 @@ Každý používateľ môže priradiť povolenia v mene všetkých používateľ
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Prepnúť na polovičnú obrazovku</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizovať</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizovať</string>
+    <string name="miuix_popup_show_description">Vyskakovacie okno</string>
     <string name="miuix_popup_window_default_title">Vyskakovacie okno</string>
     <string name="miuix_progressbar_loading">Načítanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potiahnite pre obnovenie</string>
@@ -7714,6 +7800,12 @@ Vyberte váš operačný systém:"</string>
     <string name="next_button_label">Ďalej</string>
     <string name="next_label">Ďalej</string>
     <string name="next_page_content_description">Ďalej</string>
+    <string name="nfc_ac_btn_no">Zrušiť</string>
+    <string name="nfc_ac_btn_yes">Nastaviť</string>
+    <string name="nfc_ac_confirm_ask">Nastaviť prístupovú kartu ako predvolenú?</string>
+    <string name="nfc_ac_confirm_desc">Ak chcete odomykať dvere priložením telefónu, nastavte prístupovú kartu ako predvolenú kartu na priloženie.</string>
+    <string name="nfc_ac_summary">Použite telefón ako prístupovú kartu a odomykajte podporované dvere priložením telefónu</string>
+    <string name="nfc_ac_title">Prístupová karta</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Pred použitím nainštalujte platobnú aplikáciu</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Nedostupné, pretože technológia NFC je vypnutá</string>
     <string name="nfc_category_title">NFC</string>
@@ -7738,7 +7830,7 @@ Vyberte váš operačný systém:"</string>
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Nastaviť ako predvolené</string>
     <string name="nfc_payment_btn_text_update">Aktualizovať</string>
-    <string name="nfc_payment_default">Predvolená platobná aplikácia</string>
+    <string name="nfc_payment_default">Vyberte predvolenú kartu</string>
     <string name="nfc_payment_default_not_set">Nenastavené</string>
     <string name="nfc_payment_favor_default">Vždy použiť predvolenú aplikáciu</string>
     <string name="nfc_payment_favor_open">Zmeniť predvolenú aplikáciu, ak je otvorená iná aplikácia na platenie</string>
@@ -7807,7 +7899,10 @@ Nahradí sa tým vaša predvolená platobná aplikácia %2$s."</string>
     <string name="night_display_temperature_title">Intenzita</string>
     <string name="night_display_text">Nočný režim zafarbí obrazovku do žltohneda. Obrazovka bude pri tlmenom osvetlení menej rušivá, bude sa vám lepšie čítať a budete lepšie zaspávať.</string>
     <string name="night_display_title">Nočný režim</string>
+    <string name="night_eye_protection_summary">Automaticky znižuje jas po zaspávaní, aby ste sa cítili pohodlne, keď sa v noci prebudíte a pozriete sa na svoje zariadenie</string>
+    <string name="night_eye_protection_title">Nočné pohodlie očí</string>
     <string name="night_light_main_switch_title">Používať nočný režim</string>
+    <string name="night_vision_adapted_game_title">@string/adapted_game_title</string>
     <string name="nls_feature_modes_settings_summary">Umožňuje spravovať a aktivovať režimy a meniť súvisiace nastavenia.</string>
     <string name="nls_feature_read_summary">Môže čítať vaše upozornenia vrátane osobných údajov, ako sú kontakty, správy a fotky.</string>
     <string name="nls_feature_read_title">Čítať vaše upozornenia</string>
@@ -8290,6 +8385,7 @@ OTG sa automaticky vypne po 10 minútach nečinnosti."</string>
     <string name="paper_mode_customize_time_summary">Povoliť Režim čítania na určitú dobu</string>
     <string name="paper_mode_customize_time_title">Prispôsobiť čas</string>
     <string name="paper_mode_enable_description">Znížte množstvo modrého svetla pridaním teplejšieho odtieňa na obrazovku</string>
+    <string name="paper_mode_enable_title">@string/screen_paper_mode_title</string>
     <string name="paper_mode_end_time_title">Vypnúť</string>
     <string name="paper_mode_get_location_dlg_msg">Pre výpočet času východu a západu slnka je potrebný prístup k vašej polohe</string>
     <string name="paper_mode_get_location_dlg_negative_btn_text">Zrušiť</string>
@@ -8323,6 +8419,7 @@ Pred použitím tejto služby si prečítajte a vyjadrite súhlas s dokumentom %
     <string name="password_save_success">Úspešne uložené</string>
     <string name="password_saving">Ukladanie hesla…</string>
     <string name="password_security_settings_title">Heslá a zabezpečenie</string>
+    <string name="password_set_success_hint">Teraz môžete svoje zariadenie odomknúť pomocou zámku obrazovky</string>
     <string name="password_setup_complete">Heslo úspešne nastavené</string>
     <string name="password_toggle_content_description">Zobraziť heslo</string>
     <string name="password_turned_off_text">Heslo bolo vypnuté</string>
@@ -8489,6 +8586,13 @@ Pred použitím tejto služby si prečítajte a vyjadrite súhlas s dokumentom %
     <string name="please_stop_listen_broadcast_audio">Najskôr ukončite počúvanie vysielania</string>
     <string name="please_type_passphrase">Heslo</string>
     <string name="pm">pop.</string>
+    <string name="pocket_musician">Vrecková gitara Xiaomi</string>
+    <string name="pocket_musician_battery_toast_both">Pred aktualizáciou firmvéru najprv nabite toto zariadenie a Vreckovú gitaru Xiaomi</string>
+    <string name="pocket_musician_battery_toast_device">Pred aktualizáciou firmvéru najprv nabite svoju Vreckovú gitaru Xiaomi</string>
+    <string name="pocket_musician_battery_toast_phone">Pripojte nabíjačku k tomuto zariadeniu a skúste znova aktualizovať firmvér</string>
+    <string name="pocket_musician_ota_connect_first">Pripojte Vreckovú gitaru Xiaomi a získajte informácie o aktualizáciách</string>
+    <string name="pocket_musician_ota_dialog_text">Aktualizácia…</string>
+    <string name="pocket_musician_ota_summary">Po aktualizácii manuálne reštartujte toto príslušenstvo</string>
     <string name="poco_launcher_privacy_policy">Zásady ochrany osobných údajov aplikácie POCO launcher</string>
     <string name="poco_launcher_user_agreement">Podmienky používania aplikácie POCO Launcher</string>
     <string name="pointer_fill_style">Farba kurzora</string>
@@ -8513,6 +8617,7 @@ Pred použitím tejto služby si prečítajte a vyjadrite súhlas s dokumentom %
     <string name="popup_window">Zakázať plávajúce upozornenia</string>
     <string name="post_dsds_reboot_notification_text">Klepnutím aktualizujete nastavenia SIM karty</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">SIM karta operátora %1$s je aktívna</string>
+    <string name="post_reset_google_verification">Po obnovení továrenských nastavení sa prihláste pomocou Google konta, ktoré ste predtým používali na tomto zariadení a nastavte heslo.</string>
     <string name="power_autorun_apps_empty">Žiadne aplikácie</string>
     <string name="power_autorun_empty">Žiadne dostupné aplikácie</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -9087,7 +9192,29 @@ K vášmu súkromnému priestoru môže získať prístup ktokoľvek, kto pripo
     <string name="proxy_url_title">"Webová adresa PAC: "</string>
     <string name="proxy_warning_limited_support">Prehliadač používa proxy server protokolu HTTP, ale ostatné aplikácie ho používať nemusia.</string>
     <string name="pss_profiling_disabled">Profilovanie využitia pamäte je vypnuté</string>
+    <string name="qingcai_eye_care_summery">Automatická detekcia obsahu na obrazovke a filtrovanie škodlivého modrého svetla pri zachovaní živých farieb hry</string>
+    <string name="qingcai_eye_care_title">Pohodlie očí (živé)</string>
     <string name="qr_code_content_description">QR kód</string>
+    <string name="quick_button_check_app_activity_title">Vyberte aplikáciu pre rýchle spustenie</string>
+    <string name="quick_button_check_app_not_found_txt">Nenašli sa žiadne výsledky</string>
+    <string name="quick_button_check_app_search_edit_hint">Vyhľadať aplikácie</string>
+    <string name="quick_button_check_app_search_text_cancel_txt">Zrušiť</string>
+    <string name="quick_button_check_app_search_text_submit_txt">Hotovo</string>
+    <string name="quick_button_eyecare_mode_summery">Zapnite Režim čítania na zníženie modrého svetla</string>
+    <string name="quick_button_eyecare_mode_tile">Režim čítania</string>
+    <string name="quick_button_furious_mode_summery">Prepnite sa na Ultimátny režim a využite svoj tablet naplno</string>
+    <string name="quick_button_furious_mode_title">Ultimátny režim</string>
+    <string name="quick_button_inspiration_summery">Píšte stylusom a zachytávajte nápady, kedykoľvek sa objavia</string>
+    <string name="quick_button_inspiration_title">Písanie</string>
+    <string name="quick_button_none_title">Žiadna akcia</string>
+    <string name="quick_button_preference_title">Tlačidlo odkazu</string>
+    <string name="quick_button_screenshot_summery">Vytvorte si snímku obrazovky, kedykoľvek budete potrebovať</string>
+    <string name="quick_button_screenshot_title">Snímka obrazovky</string>
+    <string name="quick_button_start_button_txt">Vyberte aplikáciu</string>
+    <string name="quick_button_start_summery">Otvárajte často používané aplikácie rýchlejšie</string>
+    <string name="quick_button_start_title">Rýchle spustenie</string>
+    <string name="quick_button_super_ai_summery">Majte obsah obrazovky v pamäti v okamihu</string>
+    <string name="quick_button_super_ai_title">Pamäť Xiaomi Hyper XiaoAi</string>
     <string name="quick_function">Pomocné funkcie</string>
     <string name="quick_reply_title">Rýchle odpovede</string>
     <string name="quick_settings_developer_tiles">Dlaždice rýchlych nastavení pre vývojárov</string>
@@ -9331,6 +9458,10 @@ Okrem toho budú z "<b>interného úložiska</b> telefónu natrvalo odstránen�
     <string name="right_function_key">Pravý odkaz</string>
     <string name="right_hearing_aid">Pravé naslúchadlo</string>
     <string name="right_shoulder_key">Pravé</string>
+    <string name="ring_remote_battery_status_toast_one">Pripojte nabíjačku k tomuto zariadeniu a skúste znova aktualizovať firmvér</string>
+    <string name="ring_remote_battery_status_toast_three">Pred aktualizáciou firmvéru vymeňte batériu v magnetickom držiaku</string>
+    <string name="ring_remote_battery_status_toast_two">Pripojte nabíjačku k tomuto zariadeniu, vymeňte batériu magnetického držiaka a skúste aktualizovať firmvér znova</string>
+    <string name="ring_remote_ota_summary">Prebieha aktualizácia, neodpájajte.</string>
     <string name="ring_to_you">Predvolený tón zvonenia</string>
     <string name="ring_to_you_info">Nastavte si vlastný tón, ktorý budú ostatní počuť predtým ako zdvihnete</string>
     <string name="ring_volume_option_title">Tón zvonenia</string>
@@ -9351,6 +9482,26 @@ Okrem toho budú z "<b>interného úložiska</b> telefónu natrvalo odstránen�
     <string name="roaming_warning">Môžu sa účtovať poplatky za roaming.</string>
     <string name="rom_total_size">Celková veľkosť ROM</string>
     <string name="root">Root práva</string>
+    <string name="rp_clone_space_password_same_tip">Nový zámok obrazovky musí byť iný ako heslo Druhého priestoru</string>
+    <string name="rp_forget_password_dialog_button_know">Rozumiem</string>
+    <string name="rp_forget_password_dialog_desc">Ak ste nedávno zmenili váš zámok obrazovky a vaše zariadenie sa zablokovalo po niekoľkých neúspešných pokusoch o odomknutie, môžete aktuálny zámok obrazovky vynulovať tak, že potvrdíte zmenu zámku obrazovky vykonanú v priebehu posledných %1$d hodín a zároveň overíte svoj odtlačok prsta.</string>
+    <string name="rp_forget_password_dialog_note">Po viacerých neúspešných pokusoch o odomknutie na zamknutej obrazovke ťuknite na položku „Zabudol som heslo“ a začnite s obnovením zámku obrazovky.</string>
+    <string name="rp_forget_password_dialog_title">Obnoviť zamknutú obrazovku, keď je zariadenie uzamknuté</string>
+    <string name="rp_old_password_retention_hint">Váš pôvodný zámok obrazovky bude ešte nejaký čas zachovaný. Ak zabudnete nový zámok obrazovky, môžete použiť ten predchádzajúci na jeho obnovenie.</string>
+    <string name="rp_password_no_match">PIN kódy sa nezhodujú. Skúste to znova.</string>
+    <string name="rp_remove_old_password">Vymazať predchádzajúci zámok obrazovky</string>
+    <string name="rp_reset_dialog_button_cancel">Zrušiť</string>
+    <string name="rp_reset_dialog_button_confirm">Vymazať</string>
+    <string name="rp_reset_dialog_message">Nedávno ste zmenili zámok obrazovky. Aktuálny zámok obrazovky môžete aj naďalej obnoviť s použitím predchádzajúceho zámku a odtlačku prsta. Ak túto záložnú možnosť nepotrebujete, môžete predchádzajúci zámok obrazovky teraz vymazať.</string>
+    <string name="rp_reset_dialog_title">Vymazať predchádzajúci zámok obrazovky</string>
+    <string name="rp_reset_old_password_now_desc">Po overení vášho doterajšieho zámku obrazovky a odtlačku prsta budete vyzvaný/á na nastavenie nového zámku obrazovky.</string>
+    <string name="rp_reset_old_password_now_title">Obnovenie zámku obrazovky…</string>
+    <string name="rp_reset_password_hint">Pre nasledujúce %1$s %2$s môžete obnoviť aktuálne nastavenie zámku obrazovky overením predchádzajúceho zámku obrazovky a odtlačku prsta.</string>
+    <string name="rp_set_new_password">Nastaviť nový zámok obrazovky</string>
+    <string name="rp_set_new_password_desc">Ak zabudnete nové heslo zamknutej obrazovky, môžete ho obnoviť tým, že ho použijete spolu s predchádzajúcim heslom a odtlačkom prsta.</string>
+    <string name="rp_set_new_password_finish_desc">Zabudnutý zámok obrazovky sa neuloží ako váš predchádzajúci zámok obrazovky. Časovač vášho pôvodného predchádzajúceho zámku obrazovky sa vynuluje.</string>
+    <string name="rp_set_new_password_finish_title">Úspešne nastavené</string>
+    <string name="rp_set_new_pattern">Nakreslite nový vzor</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
     <string name="rtt_settings_summary">Komunikujte počas hovoru textovými správami</string>
@@ -9514,6 +9665,7 @@ Okrem toho budú z "<b>interného úložiska</b> telefónu natrvalo odstránen�
     <string name="screen_effect_adapt_color_title">Živé</string>
     <string name="screen_effect_origin_color_summary">Reprodukovať realistické farby pomocou kalibrácie farieb</string>
     <string name="screen_effect_origin_color_title">Pôvodné farby PRO</string>
+    <string name="screen_effect_tip">Obsahu sa automaticky priradí najvhodnejší farebný priestor. Podporuje sRGB, P3 a BT.2020.</string>
     <string name="screen_enhance_engine_ai_note">%d. Táto funkcia mierne zvyšuje spotrebu energie.</string>
     <string name="screen_enhance_engine_ai_note_2">%d. Je možné vylepšiť iba obrázky z aplikácie Galéria.</string>
     <string name="screen_enhance_engine_ai_note_3">%d. Táto funkcia nebude fungovať, ak sa rozhodnete zobraziť pôvodné farby alebo použiť rozšírené úpravy.</string>
@@ -9751,6 +9903,7 @@ Ak chcete použiť pripnutie aplikácie: \t
     <string name="search_account_list">Ostatné kontá;Konto;Kontá</string>
     <string name="search_add_facerecoginition_text">Odomknutie pomocou tváre;Rozpoznanie tváre</string>
     <string name="search_advanced_settings">Rozšírené nastavenia;Wifi;nastavenia Wi-Fi;Nastavenia WLAN</string>
+    <string name="search_ai_companion_title">Odkaz na schránku;Kopírovať;Rýchly prístup;Prístup</string>
     <string name="search_airplane_mode">Režim lietadlo;Režim Lietadlo;Letový režim;Lietadlo;Lietadlo;Let</string>
     <string name="search_alarm_sound_title">Tón budíka;vyzváňací tón budíka;budík</string>
     <string name="search_ambient_display_screen_title">Ambientný displej;Aktívny displej;Aktívny displej</string>
@@ -9762,6 +9915,7 @@ Ak chcete použiť pripnutie aplikácie: \t
     <string name="search_application_lock_name">Zámok aplikácií</string>
     <string name="search_applications_settings">Nainštalované aplikácie</string>
     <string name="search_back_key">Späť; Tlačidlo Späť;Tlačidlo Späť</string>
+    <string name="search_background_blur_mode">Matné sklo;Jemné sklo;Vizuálny štýl</string>
     <string name="search_battery_indicator">Indikátor batérie</string>
     <string name="search_bluetooth_device_searchable">Zistiteľné;Viditeľné;Názov Bluetooth</string>
     <string name="search_bluetooth_enable">Bluetooth;Zapnúť Bluetooth;Bluetooth zapnutý</string>
@@ -9968,10 +10122,18 @@ Ak chcete použiť pripnutie aplikácie: \t
     <string name="security_advanced_settings_work_profile_settings_summary">Zámka pracovného profilu, šifrovanie a ďalšie</string>
     <string name="security_center_title">Zabezpečenie</string>
     <string name="security_check_progress_dialog_message">Kontrolujú sa problémy so zabezpečením…</string>
+    <string name="security_chip">Bezpečnostný čip</string>
     <string name="security_chip_active">Vaše heslá a údaje o odtlačkoch prstov sú chránené špeciálnym bezpečnostným čipom. <Data>&lt;br/>&lt;a href=security_chip_bottomsheet>Zistite viac&lt;/a></Data></string>
+    <string name="security_chip_data_protection">Špeciálny bezpečnostný čip pomáha chrániť vaše údaje</string>
     <string name="security_chip_description">Špecializovaný bezpečnostný čip je hardvérový bezpečnostný modul navrhnutý spoločnosťou Xiaomi na ochranu citlivých údajov zariadenia.</string>
     <string name="security_chip_details">Na rozdiel od bezpečnostného čipu NFC, špecializovaný bezpečnostný čip chráni zámok obrazovky, šifrované citlivé údaje a informácie o odtlačkoch prstov. Je fyzicky izolovaný od čipu NFC, čím zabezpečuje silnejšiu ochranu, lepšiu stabilitu a zvýšenú odolnosť proti rušeniu.</string>
+    <string name="security_chip_dialog_confirm">Rozumiem</string>
+    <string name="security_chip_dual_certification">Bezpečnostný čip, ktorý spĺňa požiadavky Common Criteria (CC) aj čínske certifikačné požiadavky na komerčnú kryptografiu, pomáha chrániť pred fyzickými útokmi a prelomením hesla metódou hrubej sily</string>
+    <string name="security_chip_fingerprint_encrypt">Vaše odtlačky prstov sú šifrované a chránené bezpečnostným čipom</string>
+    <string name="security_chip_hardware_encryption">Šifrovanie na úrovni hardvéru</string>
+    <string name="security_chip_hardware_vault">Bezpečný hardvérový modul</string>
     <string name="security_chip_password_protection">Vďaka mechanizmu Weaver v čipe sú vaše heslá chránené na hardvérovej úrovni:</string>
+    <string name="security_chip_root_key_protection">Root kľúč je chránený špeciálnym bezpečnostným čipom, takže k nemu nemá prístup ani systém, ani aplikácie tretích strán</string>
     <string name="security_dashboard_summary">Zámka obrazovky, Nájdi moje zariadenie, zabezpečenie aplikácie</string>
     <string name="security_encryption_alert_dialog_info_first">Túto funkciu zapnete nastavením zámku obrazovky. Po každom reštarte budete musieť vstúpiť do zámku obrazovky, aby ste zariadenie dešifrovali a mohli ho normálne používať.</string>
     <string name="security_encryption_alert_dialog_title_first">Najskôr nastavte heslo zámku obrazovky</string>
@@ -10389,6 +10551,8 @@ Prstom zakaždým mierne pohýbte. Takto sa nasníma väčšia časť odtlačku 
     <string name="set_jeejen_prompt_message">Zjednodušený režim bude nastavený ako predvolený launcher. Predvolený launcher môžete zmeniť v Nastaveniach > Nastavenia systému > Domovská obrazovka a Nedávne > Predvolený launcher.</string>
     <string name="set_jeejen_prompt_title">Potvrdiť zmeny</string>
     <string name="set_lock_screen_password">Nastaviť zámok obrazovky</string>
+    <string name="set_new_password_hint">Zadajte nový zámok obrazovky a dobre si ho zapamätajte</string>
+    <string name="set_new_password_hint_new">Zadajte nový zámok obrazovky a dobre si ho zapamätajte</string>
     <string name="set_pad_clone_password">Nastavte heslo vášho tabletu pre Druhý priestor</string>
     <string name="set_password">Nastaviť zámok obrazovky</string>
     <string name="set_password_before_face">Pred pridaním údajov o tvári nastavte zámok obrazovky</string>
@@ -11396,6 +11560,8 @@ Zvážte použitie rýchlejšieho úložiska ^3 alebo využite namiesto toho jed
     <string name="sunlight_mode">Režim slnečného svetla</string>
     <string name="sunlight_mode_boost_summary">Rozšírte rozsah jasu a upravte jas automaticky za jasných podmienok. Táto funkcia spôsobí, že sa zariadenie zahreje a spotrebuje viac energie.</string>
     <string name="sunlight_mode_summary">Upravte jas podľa silného okolitého svetla, aby ste zabránili prílišnému stmavnutiu obrazovky</string>
+    <string name="super_sensory_night_vision_summery">Zlepšenie kontrastu pri slabom osvetlení, takže detaily zostanú jasné pre lepší zážitok z nočného hrania</string>
+    <string name="super_sensory_night_vision_title">Vylepšené nočné videnie</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Maximálna hlasitosť %s</string>
     <string name="supervision_add_forgot_pin_preference_title">Zabudnutý kód PIN</string>
@@ -11498,6 +11664,7 @@ PIN môžete upraviť alebo odstrániť v sekcii Nastavenia Androidu > Rodičov
     <string name="swipe_add_fingerprint_dirty_title">Uistite sa, že je váš prst čistý a suchý</string>
     <string name="swipe_add_fingerprint_finish_text">Skúste nahrať odtlačok prsta z viacerých uhlov pre ľahšie odomykanie</string>
     <string name="swipe_add_fingerprint_insufficient_title">Váš odtlačok nebolo možné rozpoznať. Skúste to znova.</string>
+    <string name="swipe_add_fingerprint_message">Pomaly potiahnite prstom po tlačidle napájania a postupne meňte uhol.</string>
     <string name="swipe_add_fingerprint_move_text">Vyskúšajte rôzne uhly a polohy</string>
     <string name="swipe_add_fingerprint_move_title">Upravte vašu mriežku</string>
     <string name="swipe_add_fingerprint_need_up_text">Problémy so snímaním odtlačku prsta</string>
@@ -11509,6 +11676,7 @@ PIN môžete upraviť alebo odstrániť v sekcii Nastavenia Androidu > Rodičov
     <string name="swipe_add_fingerprint_swipe_fast_title">Pohybujte prstom pomalšie</string>
     <string name="swipe_add_fingerprint_swipe_slow_title">Pohybujte prstom rýchlejšie</string>
     <string name="swipe_add_fingerprint_text">Upravte dotyk tak, aby ste zachytili okraje odtlačku prsta</string>
+    <string name="swipe_add_fingerprint_title">Pohybujte prstom doľava a doprava</string>
     <string name="swipe_add_fingerprint_up_text">Stlačte a mierne otáčajte prstom</string>
     <string name="swipe_add_fingerprint_up_title">Stlačte stred oblasti odtlačkov prstov</string>
     <string name="swipe_direction_ltr">Doprava: zavrieť, doľava: zobraziť ponuku</string>
@@ -13288,6 +13456,7 @@ Chcete túto možnosť povoliť všetkým aplikáciám, ktoré chcú vyhľadáva
     <string name="wifi_share_add">Zdieľať moje verejné siete</string>
     <string name="wifi_share_add_summary">"Pri zdieľaní vašej verejnej siete,
 môžete tiež využiť siete iných používateľov."</string>
+    <string name="wifi_share_close_button_description">Zatvoriť</string>
     <string name="wifi_share_conflict_dialog_message">Zdieľaná sieť „%1$s“ už existuje. Ak prepnete na zdieľanú sieť, odpojíte sa zo súkromnej siete a môžete dočasne stratiť prístup k internetu.</string>
     <string name="wifi_share_conflict_dialog_title">Chcete prepnúť na zdieľanú sieť?</string>
     <string name="wifi_share_connect">Pripojiť</string>
@@ -13302,6 +13471,7 @@ môžete tiež využiť siete iných používateľov."</string>
     <string name="wifi_share_plain_password_text">Heslo: %s</string>
     <string name="wifi_share_preference_summary">Túto sieť môžu používať aj ostatní používatelia tohto zariadenia</string>
     <string name="wifi_share_preference_title">Zdieľať sieť</string>
+    <string name="wifi_share_qr_code_description">QR kód</string>
     <string name="wifi_share_qrcode_finish">Hotovo</string>
     <string name="wifi_share_qrcode_summary">Pre zdieľanie naskenujte QR kód vyššie.</string>
     <string name="wifi_share_qrcode_title">Zdieľať Wi-Fi sieť</string>
@@ -13385,6 +13555,10 @@ môžete tiež využiť siete iných používateľov."</string>
     <string name="wifi_wakeup_location_summary">Povoliť lokalizačné služby pre správne použitie tejto funkcie.</string>
     <string name="wifi_wakeup_negative_button">Zrušiť</string>
     <string name="wifi_wakeup_positive_button">Povoliť</string>
+    <string name="wifi_wakeup_privacy_agree">Súhlasím</string>
+    <string name="wifi_wakeup_privacy_content">„Automatické zapnutie Wi-Fi“ („táto služba“) je funkcia poskytovaná spoločnosťou Xiaomi Inc. („my“ alebo „Xiaomi“). Ukladá si vysokokvalitné Wi-Fi siete, ako je napríklad vaša domáca sieť, a automaticky zapína Wi-Fi, keď sa nachádzate v ich blízkosti, čím pomáha znižovať spotrebu mobilných dát. Prikladáme veľký význam ochrane vašich osobných údajov a súkromia. V súlade s príslušnými právnymi požiadavkami a odvetvovými štandardmi zabezpečíme primerané bezpečnostné opatrenia na ochranu vašich osobných údajov.&lt;br>Keď túto službu zapnete, budeme zbierať informácie o vašej približnej polohe na základe identifikátorov mobilných vysielačov, aby sme vám mohli ponúknuť kvalitné Wi-Fi siete v okolí.&lt;br>Tieto informácie sa spracúvajú výlučne vo vašom zariadení a nebudú odoslané do cloudu.&lt;br>Ak sa rozhodnete tieto informácie neposkytnúť, nebudete môcť túto službu používať.&lt;br>Vaše osobné údaje budeme uchovávať len po dobu potrebnú na dosiahnutie účelov zberu uvedených v tomto vyhlásení o ochrane osobných údajov alebo na splnenie príslušných zákonných požiadaviek.&lt;br>Zriadili sme špecializované oddelenie pre ochranu osobných údajov. Ak máte akékoľvek pripomienky alebo otázky týkajúce sa tohto vyhlásenia o ochrane osobných údajov, alebo ak máte akékoľvek otázky týkajúce sa zhromažďovania, používania alebo zverejňovania vašich osobných údajov, kontaktujte nás na adrese &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>. Zvyčajne odpovieme do pätnástich pracovných dní.&lt;br>Ťuknutím na „Súhlasím“ vyjadrujete súhlas s týmto vyhlásením o ochrane osobných údajov.</string>
+    <string name="wifi_wakeup_privacy_disagree">Zrušiť</string>
+    <string name="wifi_wakeup_privacy_title">Prehlásenie o ochrane súkromia</string>
     <string name="wifi_wakeup_scan_summary">Umožniť aplikáciám a službám vyhľadávať siete Wi-Fi, aby mohli automaticky spustiť Wi-Fi. Povolenie tejto funkcie umožní vášmu zariadeniu sa automaticky pripojiť k uloženým sieťam v okolí.</string>
     <string name="wifi_wakeup_summary">Zapnúť Wi-Fi v dosahu kvalitných uložených sietí, napríklad vašej domácej siete</string>
     <string name="wifi_wakeup_summary_no_location">Nedostupné, pretože funkcia polohy je vypnutá. Zapnúť funkciu <annotation id="link">polohy</annotation>.</string>
@@ -13575,10 +13749,21 @@ môžete tiež využiť siete iných používateľov."</string>
     <string name="xiaomi_cloud_service_description_without_contacts">Služba Xiaomi Cloud synchr. vaše fotografie, zálohuje vaše aplikácie a nastavenia a pomocou funkcie Vyhľadať zariadenie pomáha nájsť vaše zariadenie v prípade straty.</string>
     <string name="xiaomi_cloud_service_disabled">Vyp.</string>
     <string name="xiaomi_cloud_service_unknown">Neznáme</string>
+    <string name="xiaomi_confirm_enable_16k_erase_checkbox_text">Rozumiem rizikám a akceptujem prípadné dôsledky</string>
+    <string name="xiaomi_confirm_enable_16k_pages_text">V tomto režime nie je možné zaručiť integritu softvéru. Vaše zariadenie sa reštartuje.</string>
+    <string name="xiaomi_confirm_enable_16k_pages_update_wipe">„Spúšťanie stránky o veľkosti 16 KB“ je veľmi citlivá funkcia určená výlučne na vývojárske testovanie. Jej aktiváciou sa vymažú všetky údaje v tomto zariadení, vrátane fotografií, videí, dokumentov a všetkých údajov aplikácií. Nie je možné zaručiť integritu softvéru. V tomto režime nebudú dostupné niektoré funkcie a niektoré aplikácie nemusia fungovať správne.</string>
+    <string name="xiaomi_confirm_enable_4k_pages_text">Týmto sa reštartuje vaše zariadenie.</string>
+    <string name="xiaomi_confirm_reboot_button_text">Reštartovať</string>
+    <string name="xiaomi_confirm_reboot_title_text">Nájdená hrozba</string>
     <string name="xiaomi_custom_input_method">Prispôsobené pre Xiaomi</string>
+    <string name="xiaomi_erase_confirm_countdown_format">OK (%1$d)</string>
     <string name="xiaomi_hp_location">Presný prístup k polohe</string>
     <string name="xiaomi_hp_location_description">Presné informácie o polohe umožňujú presnejšiu navigáciu</string>
     <string name="xiaomi_money_service">Mi Coins</string>
+    <string name="xiaomi_page_agnostic_16k_pages_text">Vaše zariadenie používa stránku s veľkosťou 16 KB a súborový systém ext4. Ak chcete obnoviť súborový systém F2FS, musíte sa vrátiť k stránke s veľkosťou 4 KB a vykonať obnovu továrenských nastavení.</string>
+    <string name="xiaomi_page_agnostic_16k_pages_title">Použitie stránky s veľkosťou 16 KB</string>
+    <string name="xiaomi_page_agnostic_4k_pages_text">Vaše zariadenie používa stránku s veľkosťou 4 KB a súborový systém ext4. Ak chcete obnoviť súborový systém F2FS, vykonajte obnovenie továrenských nastavení.</string>
+    <string name="xiaomi_page_agnostic_4k_pages_title">Použitie stránky s veľkosťou 4 KB</string>
     <string name="xiaomi_router_available_notif_summary">Dotykom zobraziť viac informácií.</string>
     <string name="xiaomi_router_available_notif_title">Je dostupný Mi Router</string>
     <string name="xiaomi_router_notif_summary">Upozorniť ma na dostupnosť Mi Routera</string>

@@ -163,7 +163,7 @@
     <string name="add_done">Pomyślnie dodano</string>
     <string name="add_game">Dodaj grę</string>
     <string name="add_game_notification_summary">Dotknij, aby uruchomić i przyspieszyć prędkość</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">Dodano „%s” do Game Space</string>
     <string name="add_miservice_dialog_content">%s wymaga dodania Struktury usług Xiaomi do listy wyjątków. Możesz otrzymywać powiadomienia od naszych wbudowanych aplikacji lub aplikacji podmiotów zewnętrznych.</string>
     <string name="add_miservice_dialog_title">Struktura usług Xiaomi</string>
     <string name="add_to_whitelist_button">Wyjątki danych w roamingu</string>
@@ -200,6 +200,47 @@
     <string name="anitispam_intercept_record">Historia listy blokowanych</string>
     <string name="anti_disturb_msg_detail">Wyłącz wszystkie powiadomienia z wyjątkiem połączeń przychodzących</string>
     <string name="anti_disturb_msg_title">Nie przeszkadzać</string>
+    <string name="anti_peeping">Wykryj spojrzenie innej osoby</string>
+    <string name="anti_peeping_apps_disable_header_title">Aplikacje, które nie zostały wybrane</string>
+    <string name="anti_peeping_apps_enable_header_title">Wybrane aplikacje</string>
+    <string name="anti_peeping_apps_notify_description">Gdy wybrana aplikacja jest wyświetlana w trybie pełnoekranowym, funkcja ta będzie stale sprawdzać, czy ktoś patrzy na Twój ekran i powiadomi Cię o tym</string>
+    <string name="anti_peeping_apps_notify_title">Powiadom, gdy inna osoba patrzy na ekran</string>
+    <string name="anti_peeping_apps_notify_type">Powiadomienia</string>
+    <string name="anti_peeping_apps_privacy_tip">Funkcja wykorzystuje dane twarzy do wykrywania spojrzenia. Wszystkie dane są przetwarzane na Twoim urządzeniu i nie będą udostępniane.</string>
+    <string name="anti_peeping_face_need_input">Wymagane są dane twarzy</string>
+    <string name="anti_peeping_face_need_input_confirm">Ustawienia</string>
+    <string name="anti_peeping_face_need_input_subtitle">Dodaj dane swojej twarzy, aby móc korzystać z tej funkcji. Dodać?</string>
+    <string name="anti_peeping_focus_not_enabled"><Data>Oświetlenie powiadomień jest niedostępne. Powiadomienia będą wykorzystywać wibracje. &lt;font color=#3482FF>Włącz&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback"><Data>Oświetlenie powiadomień jest wyłączone. Alerty nie są dostępne. &lt;font color=#3482FF>Włącz&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback_v2"><Data>Xiaomi HyperIsland jest wyłączone. Alerty nie są dostępne. &lt;font color=#3482FF>Włącz&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_v2"><Data>Xiaomi HyperIsland jest wyłączone. Powiadomienia będą wykorzystywać wibracje. &lt;font color=#3482FF>Włącz&lt;/font></Data></string>
+    <string name="anti_peeping_notification_channel_name">Wykryj spojrzenie innej osoby</string>
+    <string name="anti_peeping_notification_got_it">Rozumiem</string>
+    <string name="anti_peeping_notification_protect_content">Nie przypominaj ponownie</string>
+    <string name="anti_peeping_notification_title">Chroń swoją prywatność</string>
+    <string name="anti_peeping_privacy_auto_close_des">Funkcja może nieznacznie zwiększyć zużycie energii i zostanie wyłączona podczas korzystania z trybu oszczędzania baterii</string>
+    <string name="anti_peeping_privacy_auto_close_title">Wyłącza się automatycznie podczas korzystania z trybu oszczędzania baterii</string>
+    <string name="anti_peeping_privacy_statement_des">"Po włączeniu tej funkcji urządzenie będzie korzystać z przedniego aparatu aby sprawdzić, czy ktoś inny niż Ty patrzy na Twój ekran, gdy wybrane aplikacje są wyświetlane w trybie pełnoekranowym. Jeśli zostanie to wykryte, otrzymasz przypomnienie o prywatności.
+Wszystkie procesy przetwarzania danych odbywają się na Twoim urządzeniu i nie zostaną przesłane do chmury."</string>
+    <string name="anti_peeping_privacy_statement_title">Oświadczenie o ochronie prywatności</string>
+    <string name="anti_peeping_privacy_understand_des">Ta funkcja wykorzystuje przedni apratat do rejestrowania obrazów i analizowania, czy ktoś inny niż Ty patrzy na Twój ekran. Jeśli taka aktywność zostanie wykryta, otrzymasz przypomnienie, aby chronić swoją prywatność. Możesz wybrać aplikacje, które chcesz chronić. Funkcja „Wykryj spojrzenie innej osoby” zostanie włączona automatycznie, gdy te aplikacje będą wyświetlane na pełnym ekranie.</string>
+    <string name="anti_peeping_privacy_understand_title">O funkcji „Wykryj spojrzenie innej osoby”</string>
+    <string name="anti_peeping_recommend_apps_button_open">Włącz</string>
+    <string name="anti_peeping_recommend_tips">%s użytkowników wybrało następujące aplikacje</string>
+    <string name="anti_peeping_recommend_title">Polecane aplikacje</string>
+    <string name="anti_peeping_search_key">Wykryj spojrzenie innej osoby</string>
+    <string name="anti_peeping_search_keywords">Wykryj spojrzenie innej osoby;spojrzenie innej osoby;prywatne wyświetlanie;prywatny wyświetlacz;Prywatne wyświetlanie</string>
+    <string name="anti_peeping_splash_confirm">Dalej</string>
+    <string name="anti_peeping_splash_custom_des">Funkcja zostanie włączona, gdy wybrane aplikacje zostaną wyświetlone w trybie pełnoekranowym</string>
+    <string name="anti_peeping_splash_custom_title">Wybierz aplikacje do ochrony</string>
+    <string name="anti_peeping_splash_dialog_des"><Data>Urządzenie będzie bez przerwy sprawdzać, czy ktoś patrzy na Twój ekran i powiadomi Cię, jeśli wykryje taką osobę. &lt;font color=#3482FF>Dowiedz się więcej&lt;/font></Data></string>
+    <string name="anti_peeping_splash_identify_des">Wykryj, czy inne osoby patrzą na Twój ekran</string>
+    <string name="anti_peeping_splash_identify_title">Wykryj spojrzenia innych osób</string>
+    <string name="anti_peeping_splash_notify_des">Obsługuje Xiaomi HyperIsland oraz alerty z wibracjami</string>
+    <string name="anti_peeping_splash_notify_title">Otrzymuj przypomnienia o prywatności</string>
+    <string name="anti_peeping_vibrate_demo_toast">Powiadomimy Cię, gdy zostanie wykryte spojrzenie innej osoby</string>
+    <string name="anti_peeping_vibration_not_enabled"><Data>Haptyczna informacja zwrotna jest wyłączona. Alerty będą wyświetlane za pomocą Xiaomi HyperIsland. &lt;font color=#3482FF>Włącz&lt;/font></Data></string>
+    <string name="anti_peeping_vibration_not_enabled_no_fallback"><Data>Haptyczna informacja zwrotna jest wyłączona. Alerty nie są dostępne. &lt;font color=#3482FF>Włącz&lt;/font></Data></string>
     <string name="antispam_add_black_number_message">Wprowadzono krótki numer. Zablokować wszystkie numery zaczynające się od tych cyfr?</string>
     <string name="antispam_add_black_number_negative">Nie</string>
     <string name="antispam_add_black_number_positive">Tak</string>
@@ -623,6 +664,12 @@ Jeśli kod blokady ekranu nie został jeszcze ustawiony, postępuj zgodnie z ins
     <string name="apps_item_virus_ignore_text">Ignoruj</string>
     <string name="apps_item_virus_summary_installed">Zainstalowana aplikacja</string>
     <string name="apps_item_virus_summary_uninstalled">APK</string>
+    <string name="apps_layout_all_apps">Wszystkie aplikacje</string>
+    <string name="apps_layout_all_freeform_apps">Dostępne aplikacje</string>
+    <string name="apps_layout_recommend_apps">Polecane aplikacje</string>
+    <string name="apps_layout_search_app">Wyszukaj aplikacje</string>
+    <string name="apps_layout_search_app_no_result">Brak wyników wyszukiwania</string>
+    <string name="apps_layout_shortcut">Skróty</string>
     <string name="apps_list_header_title_sms">Sprawdź aplikację wiadomości</string>
     <string name="apps_list_header_title_sms_access">Ogranicz dostęp do kodów weryfikacyjnych</string>
     <string name="ask_create_shortcut">Utworzyć skrót na Ekranie głównym?</string>
@@ -719,6 +766,9 @@ Jeśli kod blokady ekranu nie został jeszcze ustawiony, postępuj zgodnie z ins
     <string name="back_sound_support_china">Najpierw wyłącz WLAN</string>
     <string name="background_restrict_app_dialog_message">Ograniczenie dostępu do sieci w tle dla tej aplikacji może spowodować, że aplikacja nie będzie działać poprawnie, odbierać wiadomości, pobierać zawartości, itp. Ograniczyć mimo to?</string>
     <string name="background_traffic">W tle: %s</string>
+    <string name="background_virus_scan_notification_summary">Wiele aplikacji (w tym %s). Dotknij, aby wyświetlić.</string>
+    <string name="background_virus_scan_notification_summary_one">Dotknij, aby wyświetlić</string>
+    <string name="background_virus_scan_notification_title_one">Wykryto złośliwą aplikację: %s</string>
     <string name="backsound_set_hint">Ustawić wiadomość zwrotną na %s?</string>
     <string name="banner_optimizemanage_summary">Zwolnij miejsce w pamięci</string>
     <string name="banner_red_money_assist_button">Włącz</string>
@@ -979,7 +1029,9 @@ Jednakże niektóre z Twoich transakcji nie zostały zakończone. Aby móc wycof
     <string name="bubble_notification_switch">Wyświetl dymki konwersacji</string>
     <string name="bubble_notification_switch_desc">Pokazuj przychodzące powiadomienia w dymkach, gdy komunikator jest uruchomiony w pływającym oknie ukrytym na krawędzi ekranu</string>
     <string name="bubble_pickup_voice_print_auto">Nagrywanie próbki głosu…</string>
+    <string name="bubble_pickup_voice_print_auto_v2">Nagrywanie próbki głosu i rejestrowanie danych twarzy…</string>
     <string name="bubble_pickup_voice_print_success">Zarejestrowano próbkę głosu</string>
+    <string name="bubble_pickup_voice_print_success_v2">Zarejestrowano próbkę głosu i dane twarzy</string>
     <string name="button_background_connection">Zezwól</string>
     <string name="button_block_calls_from_cantacts">Odblokuj</string>
     <string name="button_block_calls_from_strangers">Odblokuj</string>
@@ -1025,6 +1077,13 @@ Jednakże niektóre z Twoich transakcji nie zostały zakończone. Aby móc wycof
     <string name="call_delete_hint">Usunąć wszystkie zablokowane połączenia z tego numeru?</string>
     <string name="call_delete_title">Usuń historię połączeń</string>
     <string name="call_empty_number">Puste numery</string>
+    <string name="call_filter_ad_promotion">Reklamy</string>
+    <string name="call_filter_education_training">Edukacja</string>
+    <string name="call_filter_high_risk">Wysokie ryzyko</string>
+    <string name="call_filter_insurance_finance">Ubezpieczenie</string>
+    <string name="call_filter_loan_promotion">Pożyczki</string>
+    <string name="call_filter_real_estate">Nieruchomości</string>
+    <string name="call_filter_renovation_repair">Remont domu</string>
     <string name="call_forwarding_block">Przekierowane połączenia</string>
     <string name="call_intercept_settings">Ustawienia listy blokowanych połączeń</string>
     <string name="call_notification_answer_action">Odbierz</string>
@@ -1038,6 +1097,19 @@ Jednakże niektóre z Twoich transakcji nie zostały zakończone. Aby móc wycof
     <string name="call_overseas_block">Połączenia międzynarodowe</string>
     <string name="call_prefix">Lista blokowanych prefiksów</string>
     <string name="call_private">Blokuj połączenia od ukrytych numerów</string>
+    <string name="call_reason_ad_promotion_mark">Reklamy</string>
+    <string name="call_reason_ad_promotion_mark_large">Reklamy</string>
+    <string name="call_reason_education_training_mark">Edukacja</string>
+    <string name="call_reason_education_training_mark_large">Edukacja</string>
+    <string name="call_reason_high_risk_mark">Wysokie ryzyko</string>
+    <string name="call_reason_insurance_finance_mark">Ubezpieczenie</string>
+    <string name="call_reason_insurance_finance_mark_large">Ubezpieczenie</string>
+    <string name="call_reason_loan_promotion_mark">Pożyczki</string>
+    <string name="call_reason_loan_promotion_mark_large">Pożyczki</string>
+    <string name="call_reason_real_estate_mark">Nieruchomości</string>
+    <string name="call_reason_real_estate_mark_large">Nieruchomości</string>
+    <string name="call_reason_renovation_repair_mark">Remont domu</string>
+    <string name="call_reason_renovation_repair_mark_large">Remont domu</string>
     <string name="call_stranger_block">Blokuj połączenia od nieznajomych</string>
     <string name="call_transfer_block">Blokuj przekierowane połączenia</string>
     <string name="call_transfer_info">Blokuj połączenia przekierowane od nieznanych numerów</string>
@@ -1110,6 +1182,10 @@ Możesz włączyć lub wyłączyć tę funkcję w Centrum kontroli."</string>
     <string name="cetus_invisible_mode">Incognito</string>
     <string name="cetus_invisible_mode_description_card">Zawieś uprawnienia</string>
     <string name="cetus_invisible_mode_description_switch">Włącz, aby zawiesić uprawnienia związane z używaniem mikrofonu, aparatu i lokalizacją dla wszystkich aplikacji</string>
+    <string name="cetus_invisible_mode_notice_audio">Jesteś w trybie incognito. Nie możesz teraz użyć mikrofonu.</string>
+    <string name="cetus_invisible_mode_notice_camera">Jesteś w trybie incognito. Nie możesz teraz użyć aparatu.</string>
+    <string name="cetus_invisible_mode_notice_location">Jesteś w trybie incognito. Nie możesz teraz użyć usług lokalizacyjnych.</string>
+    <string name="cetus_invisible_mode_notice_tip">Dotknij, aby wyłączyć tryb incognito w Ustawieniach</string>
     <string name="cetus_invisible_mode_warn_all">Jesteś w trybie incognito. Uprawnienia mikrofonu, aparatu i usług lokalizacyjnych są wyłączone.</string>
     <string name="cetus_invisible_mode_warn_camera">Jesteś w trybie incognito. Uprawnienia aparatu są zawieszone.</string>
     <string name="cetus_invisible_mode_warn_location">Jesteś w trybie incognito. Uprawnienia usług lokalizacyjnych są wyłączone.</string>
@@ -1155,6 +1231,8 @@ Możesz włączyć lub wyłączyć tę funkcję w Centrum kontroli."</string>
     <string name="click_to_set_carrier">Dotknij, aby ustawić</string>
     <string name="click_to_set_personalized_reminder">Ustaw ostrzeżenia</string>
     <string name="click_to_set_traffic">Dotknij, aby ustawić</string>
+    <string name="clip_notification_close_summary">Wyłączyć powiadomienia o uzyskiwaniu dostępu do schowka przez aplikację?</string>
+    <string name="clip_notification_close_title">Wyłącz powiadomienia o uzyskiwaniu dostępu do schowka</string>
     <string name="clipboard_ai_allow">Inteligentne zarządzanie</string>
     <string name="clipboard_ai_allow_summary">Pozwala systemowi określić, czy aplikacja może uzyskać dostęp do zawartości schowka i przypomina, gdy to nastąpi</string>
     <string name="close">Zamknij</string>
@@ -1237,14 +1315,14 @@ Możesz włączyć lub wyłączyć tę funkcję w Centrum kontroli."</string>
     <string name="connected_devices_for_record_desc">Do wykonywania połączeń audio i wideo</string>
     <string name="connected_devices_for_screen">Zezwolić %1$s na przeglądanie zawartości ekranu tego urządzenia i interakcję z nim?</string>
     <string name="connected_devices_for_screen_desc">Do wyświetlania i interakcji z zawartością ekranu</string>
-    <string name="connected_devices_header_title">Połączone urządzenia</string>
+    <string name="connected_devices_header_title">Podłączone urządzenia</string>
     <string name="connected_devices_notification">Powiadomienia</string>
     <string name="connected_devices_notification_desc">Wyświetlaj powiadomienia z tego urządzenia na urządzeniach w pobliżu zalogowanych na to samo konto</string>
     <string name="connected_devices_notification_title">Zezwolić urządzeniu powyżej na wyświetlanie powiadomień z tego urządzenia?</string>
     <string name="connected_devices_permission">Łączność i uprawnienia</string>
     <string name="connected_devices_permission_settings">Łączność i uprawnienia</string>
     <string name="connected_devices_permission_summary">Zarządzaj dostępem do tego urządzenia</string>
-    <string name="connected_devices_record">Nagraj</string>
+    <string name="connected_devices_record">Zarejestruj</string>
     <string name="connected_devices_record_desc">Zezwól urządzeniom w pobliżu zalogowanym na to samo konto na nagrywanie dźwięku na tym urządzeniu</string>
     <string name="connected_devices_record_title">Zezwolić powyższemu urządzeniu na nagrywanie dźwięku na tym urządzeniu?</string>
     <string name="connected_devices_screen">Ekran</string>
@@ -1252,6 +1330,7 @@ Możesz włączyć lub wyłączyć tę funkcję w Centrum kontroli."</string>
     <string name="connected_devices_screen_title">Zezwolić urządzeniu powyżej na przeglądanie zawartości ekranu tego urządzenia i interakcję z nim?</string>
     <string name="connected_interconnection">Łączność</string>
     <string name="connecting">Łączenie…</string>
+    <string name="contacts_will_also_be_blocked">Również kontakty</string>
     <string name="continue_install">Zainstaluj</string>
     <string name="continue_set">Kontynuuj</string>
     <string name="convenient_mode">Odblokuj wszystkie aplikacje jednocześnie</string>
@@ -1302,32 +1381,40 @@ Możesz włączyć lub wyłączyć tę funkcję w Centrum kontroli."</string>
     <string name="cs_pickup_vioce_print_guide_dialog_desc">Zakończ połączenie i postępuj zgodnie z instrukcjami, aby rozpocząć.</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">Aby odebrać dźwięk tylko od jednej osoby, najpierw nagraj jej głos.</string>
     <string name="cs_pickup_vioce_print_in_private_tips">Nagraj próbkę głosu, aby zyskać możliwość ustawienia trybu prywatnego redukcji szumów.</string>
+    <string name="cs_pickup_vioce_print_in_private_tips_v2">Nagraj próbkę głosu oraz zarejestruj dane twarzy, aby zyskać możliwość ustawienia trybu prywatnego redukcji szumów.</string>
     <string name="cs_pickup_vioce_print_private_dialog_title">Nagraj próbkę głosu</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title_v2">Nagraj próbkę głosu oraz zarejestruj dane twarzy</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Nagraj zapis głosowy przed wybraniem opcji „Pojedynczy uczestnik”</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Odłącz urządzenia zewnętrzne i spróbuj ponownie</string>
     <string name="cs_pickup_voice_print_auto_dialog_tips">"Głos będzie nagrywany i przetwarzany wyłącznie na tym urządzeniu.
 Aby uzyskać jak najlepszy efekt, nagrywaj w samotności i w cichym miejscu."</string>
     <string name="cs_pickup_voice_print_auto_dialog_title">Próbka głosu jest wymagana do spersonalizowanej redukcji szumów</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title_v2">Próbka głosu i dane twarzy są wymagane do spersonalizowanej redukcji szumów</string>
     <string name="cs_pickup_voice_print_desc">Odbieraj dźwięk tylko od jednej osoby</string>
     <string name="cs_privacy_camera_global_settings_title">Prywatność połączeń</string>
     <string name="cs_record_voice_title">Nagraj</string>
     <string name="cs_screen_translation_title">Tłumaczenie ekranu</string>
     <string name="cs_simultaneous_interpretation_title">Tłumacz</string>
+    <string name="cs_simultaneous_interpretation_title_2">Tłumaczenie</string>
     <string name="cs_title_pickup">Redukcja szumów</string>
     <string name="cs_title_smart_subtitle">Transkrypcja napisów</string>
     <string name="cs_title_ultraclear">Tryb Ultra HD</string>
     <string name="cs_tool_box_max_screen_guide_case_1">Wypróbuj tłumaczenie symultaniczne oraz pozostałe narzędzia konferencyjne w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_max_screen_guide_case_1_new">Wypróbuj tłumaczenie symultaniczne, upiększanie oraz pozostałe narzędzia konferencyjne w nowych narzędziach połączeń</string>
+    <string name="cs_tool_box_max_screen_guide_case_1_new_v2">Wypróbuj Tłumaczenie, Upiększanie oraz pozostałe funkcje dostępne w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_max_screen_guide_case_2">Wypróbuj całą gamę funkcji związanych z połączeniami konferencyjnymi dostępnych w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_max_screen_guide_case_2_new">Wypróbuj upiększanie i pozostałe narzędzia konferencyjne dostępne w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_max_screen_guide_case_3_new">Wypróbuj całą gamę funkcji związanych z połączeniami konferencyjnymi dostępnych w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_max_screen_guide_case_4_new">Wypróbuj tłumaczenie symultaniczne oraz pozostałe narzędzia konferencyjne w nowych narzędziach połączeń</string>
+    <string name="cs_tool_box_max_screen_guide_case_4_new_v2">Wypróbuj Tłumaczenie oraz pozostałe funkcje dostępne w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_phone_guide_case_1">Wypróbuj tłumaczenie symultaniczne oraz pozostałe funkcje dostępne w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_phone_guide_case_1_new">Wypróbuj tłumaczenie symultaniczne, upiększanie oraz pozostałe funkcje dostępne w nowych narzędziach połączeń</string>
+    <string name="cs_tool_box_phone_guide_case_1_new_v2">Wypróbuj Tłumaczenie, Upiększanie oraz pozostałe funkcje dostępne w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_phone_guide_case_2">Wypróbuj całą gamę funkcji dostępnych w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_phone_guide_case_2_new">Wypróbuj upiększanie i pozostałe funkcje dostępne w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_phone_guide_case_3_new">Wypróbuj całą gamę doskonałych funkcji dostępnych w nowych narzędziach połączeń</string>
     <string name="cs_tool_box_phone_guide_case_4_new">Wypróbuj tłumaczenie symultaniczne oraz pozostałe funkcje dostępne w nowych narzędziach połączeń</string>
+    <string name="cs_tool_box_phone_guide_case_4_new_v2">Wypróbuj Tłumaczenie oraz pozostałe funkcje dostępne w nowych narzędziach połączeń</string>
     <string name="cs_voice_print">Nagraj próbkę głosu</string>
     <string name="cs_voice_search">Próbka głosu</string>
     <string name="cs_vt_camera_title">Aparat na różnych urządzeniach</string>
@@ -1906,6 +1993,7 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="gallery_confirm_start_activity">%s nie ma dostępu do Galerii i aplikacji społecznościowych. Ta aplikacja chce uzyskać dostęp do obrazów zapisanych na tym urządzeniu, aby udostępniać elementy. Zezwolić?</string>
     <string name="game_ad_recommendation">Wszyscy grają</string>
     <string name="game_anti_disturb_msg">Tryb Nie przeszkadzać podczas grania</string>
+    <string name="game_audio_label_international">Dźwięk w grze</string>
     <string name="game_balance_gpu_enhance_title">Optymalizacja dedykowanego GPU</string>
     <string name="game_balance_more_setting_title">Dodatkowe ustawienia</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Ulepszona jakość grafiki</string>
@@ -1935,7 +2023,7 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="game_perf_config_motion_desc">Dostosowanie czułości dotyku w grach</string>
     <string name="game_perf_config_network_desc">Ograniczenie opóźnień i zakłóceń sieci</string>
     <string name="game_perf_config_network_title">Przyspieszanie prędkości sieci</string>
-    <string name="game_perf_config_strategy_diy">Personalizuj</string>
+    <string name="game_perf_config_strategy_diy">Niestandardowy</string>
     <string name="game_perf_config_strategy_fps_first">Pierwszeństwo częstotliwości wyświetlania klatek</string>
     <string name="game_perf_config_strategy_picture_first">Pierwszeństwo obrazu</string>
     <string name="game_perf_config_strategy_title">Profil regulacji wydajności</string>
@@ -1949,7 +2037,7 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="game_toolbox_ai_service_title">Usługi gamingowe SI</string>
     <string name="game_toolbox_ai_upgrade_dialog_btn">Zaktualizuj</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">Dostępna jest aktualizacja usług gamingowych SI. Zaktualizuj, zanim skorzystasz z powiązanych funkcji.</string>
-    <string name="game_toolbox_ai_upgrade_dialog_title">Sprawdź aktualizacje</string>
+    <string name="game_toolbox_ai_upgrade_dialog_title">Sprawdź dostępność aktualizacji</string>
     <string name="game_toolbox_auto_brightness_talkback">Automatyczna jasność</string>
     <string name="game_toolbox_btn_back_talkback">Wstecz</string>
     <string name="game_toolbox_cellular_network">Zwiększenie szybkości sieci mobilnej</string>
@@ -2090,12 +2178,14 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="gamebox_func_antimsg_open">Pływające powiadomienia są teraz ograniczone</string>
     <string name="gamebox_func_immersion_close">Tryb odizolowania jest teraz wyłączony</string>
     <string name="gamebox_func_immersion_open">Tryb odizolowania jest teraz włączony</string>
+    <string name="gamebox_func_start_gyroscope_international">Włącz żyroskop w ustawieniach gry, aby móc skorzystać z tej funkcji</string>
     <string name="gamebox_func_switch_simcard">Przełączono na kartę SIM %1$d dla danych</string>
     <string name="gamebox_func_switch_simcard_immersion">Nie można przełączyć kart SIM w Trybie odizolowania</string>
     <string name="gamebox_func_wlan_close">Wi-Fi jest teraz wyłączone</string>
     <string name="gamebox_func_wlan_open">Wi-Fi jest teraz włączone</string>
     <string name="gamebox_game_center_app_not_find">Najpierw zainstaluj Gry</string>
     <string name="gamebox_gift_pack">Prezenty</string>
+    <string name="gamebox_gyroscope_acceleration_international">Przyspieszenie żyroskopu</string>
     <string name="gamebox_hangup">Wyłącz ekran</string>
     <string name="gamebox_hangup_new">Wyłącz ekran</string>
     <string name="gamebox_hangup_tips_content">Funkcja zezwala na wyłączenie ekranu, ale zachowuje grę uruchomioną w tle. Wyłącza się automatycznie po odblokowaniu urządzenia.</string>
@@ -2276,6 +2366,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_game_macro_toast_tips">"Wypróbuj kombinacje!
 Nagraj sekwencję i użyj jej w dowolnym momencie!"</string>
     <string name="gb_game_mode_change_btn_right">Uruchom ponownie</string>
+    <string name="gb_game_mode_change_failed_toast">Nie udało się zapisać</string>
     <string name="gb_game_mode_change_message">Uruchomić ponownie grę, aby zastosować zmiany?</string>
     <string name="gb_game_mode_change_new">Przełączaj pomiędzy układami</string>
     <string name="gb_game_mode_change_title">Uruchom ponownie grę</string>
@@ -2318,6 +2409,9 @@ Nagraj sekwencję i użyj jej w dowolnym momencie!"</string>
     <string name="gb_gpu_driver_update_app_tips">Korzystasz z najnowszej wersji</string>
     <string name="gb_have_signed">Zameldowano dzisiaj</string>
     <string name="gb_hot_area_seekbar">Zakres obszaru funkcjonalnego</string>
+    <string name="gb_launch_mute_start">Wycisz</string>
+    <string name="gb_launch_mute_start_enbaled_toast">Włączono tryb cichy. (click)Wyłącz(/click)</string>
+    <string name="gb_launch_mute_start_unmuted_toast">Przywrócono dźwięk</string>
     <string name="gb_manual_record_dialog_del_video_message">Usunąć trwale zaznaczone pliki wideo?</string>
     <string name="gb_manual_video_record_title">Nagrania</string>
     <string name="gb_margin_restrain">Zignoruj przypadkowe dotknięcia krawędzi</string>
@@ -2506,8 +2600,17 @@ swoich gier"</string>
     <string name="gd_app_edit_title_new">Edytuj skróty pływającego okna</string>
     <string name="gd_beauty_manage_summary">Funkcję można włączyć, korzystając z bocznego przybornika w trakcie wideorozmowy</string>
     <string name="gd_beauty_manage_title">Upiększanie dla rozmów wideo</string>
+    <string name="gd_dock_preview_section_title">Jak otworzyć</string>
+    <string name="gd_dock_preview_sidebar_title">Przeciągnij uchwyt do wewnątrz</string>
+    <string name="gd_dock_preview_swipe_title">Przeciągnij i przytrzymaj</string>
     <string name="gd_dock_shortcut_fullscreen">Pełny ekran</string>
+    <string name="gd_dock_shortcut_multisplitscreen">Wielokrotny podział ekranu</string>
     <string name="gd_dock_shortcut_splitescreen">Podział ekranu</string>
+    <string name="gd_dock_swipe_launcher_upgrade_hint">Obecna wersja menedżera pulpitu nie obsługuje funkcji „Przeciągnij i przytrzymaj”</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_cancel">Anuluj</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_confirm">Przełącz</string>
+    <string name="gd_dock_xiaoai_ball_dialog_content">Przeciągnij i przytrzymaj, aby otworzyć dymek akcji Xiaomi Hyper XiaoAi. Włączenie bocznego paska narzędzi spowoduje wyłączenie dymku Xiaomi Hyper XiaoAi. Przełączyć?</string>
+    <string name="gd_dock_xiaoai_ball_dialog_title">Przełączyć metodę aktywacji?</string>
     <string name="gd_setting_conversation">Narzędzia konferencyjne</string>
     <string name="gd_setting_conversation_desc">Zapewnia różnorodne funkcje do wykorzystania w pełnoekranowych rozmowach audio i wideo</string>
     <string name="gd_setting_dock_activity_title">Boczny pasek narzędzi</string>
@@ -2561,6 +2664,7 @@ Naciśnij i przytrzymaj wskaźnik, aby przesunąć okno."</string>
 · Naciśnij i przytrzymaj wskaźnik, aby przesunąć okno."</string>
     <string name="global_dock_guide_desc_without_split_screen_new">"Przesuń palcem, by wyświetlić panel boczny i stuknij aplikację, aby otworzyć ją w pływającym oknie.
 Naciśnij i przytrzymaj wskaźnik, aby przesunąć okno."</string>
+    <string name="global_dock_recommend_switch_title">Wyświetlaj polecane aplikacje na panelu bocznym</string>
     <string name="global_satisfaction_notification_button">Oceń</string>
     <string name="global_satisfaction_notification_channel">Badanie satysfakcji użytkowników</string>
     <string name="global_satisfaction_notification_subhead">Podziel się z nami swoimi wrażeniami</string>
@@ -2802,6 +2906,9 @@ by dołączyć do polowania na jajka!"</string>
     <string name="install_title">Zainstaluj przez USB</string>
     <string name="install_type_instant">Błyskawiczna aplikacja</string>
     <string name="installing">Instalowanie</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Wiele aplikacji (w tym %s) nadużywa uprawnień dostępności</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Aplikacja nadużywa uprawnień dostępności. Dotknij, aby wyświetlić.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Zablokowano złośliwą aplikację %s</string>
     <string name="intercept_all_mark_calls">Zablokować wszystkie numery z etykietą „%s”?</string>
     <string name="intercept_calls_nofify_hide_text">Dotknij tutaj, aby ustawić reguły blokowania dla innych oznaczonych numerów</string>
     <string name="intercept_calls_notify_title">Połączenia oznaczone tą etykietą zostaną odrzucone automatycznie. Zablokować?</string>
@@ -3193,6 +3300,7 @@ Twoje urządzenie jest teraz %s szybsze."</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Przełącz na połowę ekranu</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Zmaksymalizuj</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Zminimalizuj</string>
+    <string name="miuix_popup_show_description">Wyskakujące okno</string>
     <string name="miuix_popup_window_default_title">Wyskakujące okno</string>
     <string name="miuix_progressbar_loading">Wczytywanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Przeciągnij w dół, aby odświeżyć</string>
@@ -3434,6 +3542,8 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="notification_abnormal_check_now_button">Zobacz</string>
     <string name="notification_abnormal_consume_app_title">%s wyczerpuje baterię</string>
     <string name="notification_abnormal_consume_cpu">W tle wykorzystywane są zasoby procesora</string>
+    <string name="notification_abnormal_consume_high_drain_app_title">Aplikacja %s wyczerpuje baterię</string>
+    <string name="notification_abnormal_consume_high_drain_subtitle">Wysokie zużycie baterii w tle</string>
     <string name="notification_abnormal_consume_wakelock">System działa w tle</string>
     <string name="notification_antivirus_button_text">Skanuj</string>
     <string name="notification_antivirus_message">Skanuj teraz, aby zneutralizować ryzyko</string>
@@ -3521,7 +3631,10 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="notify_weekly_traffic_title_for_slotnum">W tym tygodniu wykorzystano %2$s danych (dla %1$s)</string>
     <string name="now_inquiry">Szczegóły</string>
     <string name="number_address">Lokalizacja</string>
+    <string name="number_locked_v2">{count, plural, =0 {0 zablokowanych aplikacji} one {# zablokowana aplikacja} few {# zablokowane aplikacje} many {# zablokowanych aplikacji} other {# zablokowanej aplikacji} }</string>
+    <string name="number_masked_v2">{count, plural, =0 {0 aplikacji} one {# aplikacja} few {# aplikacje} many {# aplikacji} other {# aplikacji} }</string>
     <string name="number_of_lucky_money">Czerwone koperty, o których Cię powiadomiono</string>
+    <string name="number_to_lock_v2">{count, plural, =0 {0 niezablokowanych aplikacji} one {# niezablokowana aplikacja} few {# niezablokowane aplikacje} many {# niezablokowanych aplikacji} other {# niezablokowanej aplikacji} }</string>
     <string name="numeric_need_to_confirm">Wprowadź ponownie, aby potwierdzić</string>
     <string name="numeric_password_confirmed_header_confirm">Pomyślnie ustawiono. Dotknij, aby potwierdzić.</string>
     <string name="numeric_password_confirmed_header_continue">Pomyślnie ustawiono. Dotknij \"Dalej\".</string>
@@ -3570,7 +3683,15 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="open_activity_err">Aplikacja nie została znaleziona</string>
     <string name="open_app">Otwórz</string>
     <string name="open_applock">Włącz Blokowanie aplikacji</string>
+    <string name="open_applock_calling_tips">Blokuj aplikacje i weryfikuj swoją tożsamość, gdy będziesz je otwierać. Blokowanie aplikacji zapewnia dwa typy haseł oraz obsługuje weryfikację biometryczną.</string>
+    <string name="open_applock_calling_title">Blokowanie aplikacji</string>
     <string name="open_applock_password_type">Typ hasła</string>
+    <string name="open_applock_tip_item1_sub_title">Skorzystaj z Hasła ochrony prywatności lub hasła Ekranu blokady</string>
+    <string name="open_applock_tip_item1_title">Dwa rodzaje haseł</string>
+    <string name="open_applock_tip_item2_sub_title">Odblokuj aplikacje za pomocą odcisku palca lub danych twarzy</string>
+    <string name="open_applock_tip_item2_title">Weryfikacja biometryczna</string>
+    <string name="open_applock_tip_item3_sub_title">Wybierz, kiedy ma być wymagana weryfikacja – po zablokowaniu ekranu, po określonym czasie czy po wyjściu z aplikacji.</string>
+    <string name="open_applock_tip_item3_title">Niestandardowy czas weryfikacji</string>
     <string name="open_applock_tips">Blokuj aplikacje i weryfikuj swoją tożsamość, gdy będziesz je otwierać. Blokowanie aplikacji zapewnia dwa typy haseł oraz obsługuje weryfikację biometryczną.</string>
     <string name="open_callwait">Wł.</string>
     <string name="open_dnd_mode">Tryb Nie przeszkadzać</string>
@@ -3598,8 +3719,6 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Korzystanie ze złośliwych aplikacji stwarza zagrożenie dla bezpieczeństwa</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s może być złośliwą aplikacją</string>
     <string name="optimize_manage_title">Przyspieszenie prędkości</string>
     <string name="optimize_result_available_memory_info">Dostępna pamięć</string>
     <string name="optimize_result_button_cloudspace">Uzyskaj więcej miejsca w chmurze</string>
@@ -3652,6 +3771,7 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="overlay_permission_dialog_message_security_service">Bezpieczeństwo wymaga pewnych uprawnień do poprawnego działania.</string>
     <string name="overlay_permission_dialog_open">Ustawienia</string>
     <string name="overlay_permission_dialog_title">Wymagane uprawnienia</string>
+    <string name="overlay_read_clip_toast">„%1$s” uzyskuje dostęp do schowka</string>
     <string name="package_change_notification_summary">Dotknij, aby dowiedzieć się więcej.</string>
     <string name="package_change_notification_title">Automatycznie dostosuj limit danych</string>
     <string name="package_setted_error_notification_summary">Kliknij, aby zobaczyć szczegóły użycia danych.</string>
@@ -3683,6 +3803,7 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="pb_abnormal_header_time">Data i godzina</string>
     <string name="pb_abnormal_header_type">Typ</string>
     <string name="pb_abnormal_header_value">Wartość</string>
+    <string name="pb_abnormal_idle_high_temp">Przegrzewanie w trybie czuwania</string>
     <string name="pb_abnormal_loading">Chwileczkę…</string>
     <string name="pb_abnormal_record">Historia</string>
     <string name="pb_activity_title">Szczegóły power banku</string>
@@ -3694,6 +3815,7 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="pb_data_fetch_all_error">Nie udało się odczytać danych. Power bank może być odłączony lub nieobsługiwany.</string>
     <string name="pb_data_fetch_all_error_new">Nie udało się odczytać danych. Power bank może być odłączony lub nieobsługiwany. Jeśli power bank został odłączony, ponownie podłącz kabel lądujący i spróbuj jeszcze raz.</string>
     <string name="pb_data_fetch_partial_error">Niektóre produkty nie są dostępne z powodu opóźnień lub nieobsługiwanego power banku</string>
+    <string name="pb_data_fetch_partial_error_new">Niektóre produkty nie są dostępne z powodu opóźnień lub nieobsługiwanego power banku</string>
     <string name="pb_manufacturer">Producent</string>
     <string name="pb_measure_point">Sensor %1$d</string>
     <string name="pb_production_date">Data produkcji</string>
@@ -4011,6 +4133,210 @@ Ultra oszczędzanie baterii"</string>
     <string name="pc_work_in_super_save_mode">Ultra oszczędzanie baterii</string>
     <string name="pc_xiaoai_create_auto_task">Nowe zadanie dla Mi SI</string>
     <string name="pc_xiaoai_voice_control_close">Wyłącz opcję „Wybudzanie głosem” Mi SI</string>
+    <string name="peep_protection_ai_key_disabled">Wyłączono prywatne wyświetlanie</string>
+    <string name="peep_protection_ai_key_enabled">Włączono prywatne wyświetlanie</string>
+    <string name="peep_protection_v2_app_notification_protection">Powiadomienia</string>
+    <string name="peep_protection_v2_app_notification_protection_desc">Powiadomienia z wybranych aplikacji spowodują włączenie prywatnego wyświetlania</string>
+    <string name="peep_protection_v2_app_protection_desc">Włącz prywatne wyświetlanie w wybranych aplikacjach</string>
+    <string name="peep_protection_v2_banner_summary">Wypróbuj funkcje prywatnego wyświetlania dostępne wyłącznie na tym modelu urządzenia</string>
+    <string name="peep_protection_v2_banner_title">Prywatne wyświetlanie Xiaomi</string>
+    <string name="peep_protection_v2_batch_disable">Wyłączony</string>
+    <string name="peep_protection_v2_batch_enable">Włącz</string>
+    <string name="peep_protection_v2_category_capability">Możliwości funkcji</string>
+    <string name="peep_protection_v2_category_capability_v2">Wykrywanie spojrzenia</string>
+    <string name="peep_protection_v2_category_finance">Finanse</string>
+    <string name="peep_protection_v2_category_group_title_v2">%1$s (%2$d)</string>
+    <string name="peep_protection_v2_category_other">Pozostałe uprawnienia</string>
+    <string name="peep_protection_v2_category_recommend">Polecane</string>
+    <string name="peep_protection_v2_category_scene">Tryby</string>
+    <string name="peep_protection_v2_category_scene_v2">Ekran</string>
+    <string name="peep_protection_v2_category_smart">Inteligentne</string>
+    <string name="peep_protection_v2_category_social">Sieci społecznościowe</string>
+    <string name="peep_protection_v2_category_suggest">Polecane</string>
+    <string name="peep_protection_v2_category_tip_dismiss">Nie, dziękuję</string>
+    <string name="peep_protection_v2_category_tip_message">Pozwól Xiaomi Hyper XiaoAi pomóc Ci tworzyć spersonalizowane grupy aplikacji. Możesz dodać aplikacje takie jak Galeria, Hasła i Notatki do grupy prywatnego wyświetlania o nazwie „Metro”. Możesz również powiedzieć Xiaomi Hyper XiaoAi w jaki sposób grupować aplikacje, a także dodać inne zasady inteligentnej aktywacji.</string>
+    <string name="peep_protection_v2_category_tip_prompt">Utwórz grupę aplikacji do prywatnego wyświetlania. Dodaj aplikację %1$s do niej, nazwij ją „Prywatne” i włącz prywatne wyświetlanie dla tych aplikacji.</string>
+    <string name="peep_protection_v2_category_tip_title">Stwórz własną grupę</string>
+    <string name="peep_protection_v2_color_inversion_closed_msg">Ta funkcja nie działa w trybie odwróconych kolorów. Prywatne wyświetlanie Xiaomi jest wyłączone.</string>
+    <string name="peep_protection_v2_color_inversion_closed_reopen">Włącz</string>
+    <string name="peep_protection_v2_color_inversion_closed_title">Prywatne wyświetlanie Xiaomi zostało wyłączone</string>
+    <string name="peep_protection_v2_color_inversion_conflict_msg">Ta funkcja nie działa w trybie odwróconych kolorów. Najpierw wyłącz odwrócenie kolorów.</string>
+    <string name="peep_protection_v2_color_inversion_conflict_title">Wyłącz odwrócenie kolorów</string>
+    <string name="peep_protection_v2_cue_byapp_reason">Włącz prywatne wyświetlanie dla tej aplikacji</string>
+    <string name="peep_protection_v2_cue_byapp_title">Włącz prywatne wyświetlanie dla aplikacji %s</string>
+    <string name="peep_protection_v2_cue_global_reason">Wypróbuj funkcje prywatności dostępne wyłącznie na tym modelu urządzenia</string>
+    <string name="peep_protection_v2_cue_global_title">Włącz Prywatne wyświetlanie Xiaomi</string>
+    <string name="peep_protection_v2_cue_summary">Funkcja jest dostępna wyłącznie na tym modelu urządzenia</string>
+    <string name="peep_protection_v2_deep_mode">Zwiększona prywatność</string>
+    <string name="peep_protection_v2_deep_mode_desc">Utrudnij innym podglądanie Twojego ekranu</string>
+    <string name="peep_protection_v2_expert_mode_hint">* Wymaga przełączenia asystenta Xiaomi Hyper XiaoAi w tryb Pro</string>
+    <string name="peep_protection_v2_face_need_input_hint">Wymagane są dane twarzy</string>
+    <string name="peep_protection_v2_first_close_message">DodajPrywatne wyświetlanie Xiaomi w: Centrum kontroli > Edytuj > Przełączniki systemowe, aby sprawnie włączać lub wyłączać funkcję.</string>
+    <string name="peep_protection_v2_first_close_title">Szybko uruchamiaj Prywatne wyświetlanie Xiaomi</string>
+    <string name="peep_protection_v2_first_close_title_v2">Przełączniki</string>
+    <string name="peep_protection_v2_global_first_open_msg">Dodaj Prywatne wyświetlanie w trybie pełnoekranowym w: Centrum kontroli > Edytuj > Przełączniki systemowe, aby sprawnie włączać lub wyłączać funkcję.</string>
+    <string name="peep_protection_v2_global_first_open_title">Szybko uruchamiaj Prywatne wyświetlanie w trybie pełnoekranowym</string>
+    <string name="peep_protection_v2_global_hint">Spojrzenia innych osób nie mogą zostać wykryte, gdy Prywatne wyświetlanie w trybie pełnoekranowym jest włączone</string>
+    <string name="peep_protection_v2_global_no_aon_hint">Aby zmniejszyć zużycie baterii, spojrzenia innych osób nie będą wykrywane po aktywacji funkcji „Prywatne wyświetlanie w trybie pełnoekranowym”</string>
+    <string name="peep_protection_v2_global_protection">Prywatne wyświetlanie w trybie pełnoekranowym</string>
+    <string name="peep_protection_v2_global_protection_desc">Skorzystaj z prywatnego wyświetlania w wielu trybach na swoim urządzeniu</string>
+    <string name="peep_protection_v2_global_protection_desc_v2">Prywatne wyświetlanie pozostanie włączone na całym urządzeniu</string>
+    <string name="peep_protection_v2_go_miclaw">Otwórz Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_header_desc_v2">Widoczność ekranu z bocznych kątów zostanie zmniejszona. Urządzenie ostrzeże Cię, gdy wykryje spojrzenie innej osoby. (click)Dowiedz się więcej(/click)</string>
+    <string name="peep_protection_v2_intro_detection_desc">Skonfiguruj inteligentne zasady dla tej funkcji przy pomocy Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_intro_enable">Włącz</string>
+    <string name="peep_protection_v2_intro_pixel_desc">Ogranicz widoczność ekranu z boku i wykrywaj spojrzenia innych osób</string>
+    <string name="peep_protection_v2_intro_pixel_title">Prywatność na poziomie sprzętowym</string>
+    <string name="peep_protection_v2_intro_privacy_tip">Funkcja utrudnia podglądanie ekranu z boku, stale wykrywa spojrzenia innych osób oraz ostrzega w razie ich wykrycia</string>
+    <string name="peep_protection_v2_intro_scope_desc_global">Wybierz konkretne aplikacje i powiadomienia lub korzystaj z tej funkcji na całym urządzeniu</string>
+    <string name="peep_protection_v2_intro_smart_page_desc">Wybierz konkretne aplikacje, strony i powiadomienia lub korzystaj z tej funkcji na całym urządzeniu</string>
+    <string name="peep_protection_v2_intro_smart_page_title">Wiele trybów</string>
+    <string name="peep_protection_v2_learn_more">Dowiedz się więcej</string>
+    <string name="peep_protection_v2_learn_more_limits_desc">"Funkcja może nieznacznie zwiększyć zużycie energii i zostanie wyłączona podczas korzystania z trybu oszczędzania baterii.
+Podczas podglądu treści HDR Prywatne wyświetlanie zostaje wstrzymane, aby zapewnić odpowiednią jakość obrazu.
+Prywatne wyświetlanie zostanie wstrzymane w orientacji poziomej i automatycznie wznowione po powrocie do orientacji pionowej.
+Niektóre motywy zewnętrznych dostawców nie obsługują jeszcze prywatnego wyświetlania powiadomień na Ekranie blokady.
+Mogą wystąpić opóźnienia w wykrywaniu przybycia do poszczególnych lokalizacji lub ich opuszczenia."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global">"Funkcja może nieznacznie zwiększyć zużycie energii i zostanie wyłączona podczas korzystania z trybu oszczędzania baterii.
+Podczas podglądu treści HDR Prywatne wyświetlanie zostaje wstrzymane, aby zapewnić odpowiednią jakość obrazu.
+Prywatne wyświetlanie zostanie wstrzymane w orientacji poziomej i automatycznie wznowione po powrocie do orientacji pionowej.
+Niektóre motywy zewnętrznych dostawców nie obsługują jeszcze prywatnego wyświetlania powiadomień na Ekranie blokady."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global_hdr">"Funkcja może nieznacznie zwiększyć zużycie energii i zostanie wyłączona podczas korzystania z trybu oszczędzania baterii.
+Podczas podglądu treści HDR Prywatne wyświetlanie zostaje wstrzymane, aby zapewnić odpowiednią jakość obrazu.
+Prywatne wyświetlanie zostanie wstrzymane w orientacji poziomej i automatycznie wznowione po powrocie do orientacji pionowej.
+Niektóre motywy zewnętrznych dostawców nie obsługują jeszcze prywatnego wyświetlania powiadomień na Ekranie blokady."</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_hdr">"Funkcja może nieznacznie zwiększyć zużycie energii i zostanie wyłączona podczas korzystania z trybu oszczędzania baterii.
+Podczas podglądu treści HDR Prywatne wyświetlanie zostaje wstrzymane, aby zapewnić odpowiednią jakość obrazu.
+Prywatne wyświetlanie zostanie wstrzymane w orientacji poziomej i automatycznie wznowione po powrocie do orientacji pionowej.
+Niektóre motywy zewnętrznych dostawców nie obsługują jeszcze prywatnego wyświetlania powiadomień na Ekranie blokady.
+Mogą wystąpić opóźnienia w wykrywaniu przybycia do poszczególnych lokalizacji lub ich opuszczenia."</string>
+    <string name="peep_protection_v2_learn_more_limits_title">Ograniczenia i przypadki szczególne</string>
+    <string name="peep_protection_v2_learn_more_privacy_desc">"Po włączeniu tej funkcji urządzenie może używać przedniego aparatu do rejestrowania obrazów i lokalnego wykrywania twarzy lub kierunku spojrzenia, gdy wykrywanie spojrzenia innych osób jest aktywne. Funkcja rozpoznaje, czy ktoś inny patrzy na ekran i powiadamiania Cię o tym.
+Wszystkie dane są przetwarzane na Twoim urządzeniu i nie będą przesyłane do Chmury Xiaomi ani żadnej innej usługi w chmurze zewnętrznych dostawców."</string>
+    <string name="peep_protection_v2_learn_more_privacy_title">Oświadczenie o ochronie prywatności</string>
+    <string name="peep_protection_v2_learn_more_scope_desc">"Możesz wybrać sposób działania Prywatnego wyświetlania Xiaomi: na całym urządzeniu, w wybranych aplikacjach, na wrażliwych stronach lub dla powiadomień.
+
+Prywatne wyświetlanie w trybie pełnoekranowym:
+Funkcja działa na całym urządzeniu, chroniąc wszystko, co przeglądasz. Gdy jest włączona, nie wykrywa spojrzenia innych osób.
+
+Prywatne wyświetlanie w aplikacjach:
+Wybierz aplikacje, które chcesz chronić. Gdy są one uruchomione, Inteligentne prywatne wyświetlanie ogranicza widoczność z boku i wykrywa, czy ktoś inny patrzy na ekran.
+
+Prywatne wyświetlanie stron:
+Nawet jeśli niektóre aplikacje nie zostały dodane do listy, funkcja może włączyć się automatycznie na wrażliwych stronac, np. przy wprowadzaniu hasła, płatności, przelewach lub wiadomościach.
+
+Prywatne wyświetlanie powiadomień:
+Powiadomienia z wybranych aplikacji są wyświetlane z częściową ochroną, aby uniemożliwić osobom postronnym odczytanie wrażliwych treści."</string>
+    <string name="peep_protection_v2_learn_more_scope_desc_global">"Możesz wybrać sposób działania Prywatnego wyświetlania Xiaomi: na całym urządzeniu, w wybranych aplikacjach lub dla powiadomień.
+
+Prywatne wyświetlanie w trybie pełnoekranowym:
+Funkcja działa na całym urządzeniu, chroniąc wszystko, co przeglądasz. Gdy jest włączona, nie wykrywa spojrzenia innych osób.
+
+Prywatne wyświetlanie w aplikacjach:
+Wybierz aplikacje, które chcesz chronić. Gdy są one uruchomione, Inteligentne prywatne wyświetlanie ogranicza widoczność z boku i wykrywa, czy ktoś inny patrzy na ekran.
+
+Prywatne wyświetlanie powiadomień:
+Powiadomienia z wybranych aplikacji są wyświetlane z częściową ochroną, aby uniemożliwić osobom postronnym odczytanie wrażliwych treści."</string>
+    <string name="peep_protection_v2_learn_more_scope_title">Zakres prywatnego wyświetlania</string>
+    <string name="peep_protection_v2_learn_more_smart_desc">Z pomocą Asystenta SI możesz tworzyć i zarządzać grupami aplikacji chronionych przez prywatne wyświetlanie, automatycznie włączać prywatne wyświetlanie w trybie pełnoekranowym w miejscach publicznych lub aktywować określone grupy. Możesz też dostosować zakres działania i reguły aktywacji, aby lepiej dopasować funkcję do swoich nawyków.</string>
+    <string name="peep_protection_v2_learn_more_smart_title">Własne reguły</string>
+    <string name="peep_protection_v2_learn_more_understand_desc">"Prywatne wyświetlanie Xiaomi łączy ograniczoną widoczność z boku z powiadomieniami o prywatności, chroniąc przed podglądaniem zarówno pod szerokim, jak i wąskim kątem, zapewniając pełniejszą ochronę prywatności.
+
+Ograniczony kąt widzenia:
+Dzięki kontroli jasności na poziomie pojedynczych pikseli, zawartość ekranu staje się trudniej widoczna wraz ze wzrostem kąta patrzenia. Zmniejsza to ryzyko, że ktoś niepowołany odczyta Twoje dane.
+
+Powiadomienia o prywatności:
+Oprócz ograniczonej widoczności z boku, system ostrzeże Cię gdy wykryje, że ktoś inny patrzy na ekran od tyłu lub z wąskiego kąta."</string>
+    <string name="peep_protection_v2_learn_more_understand_title">O Prywatnym wyświetlaniu Xiaomi</string>
+    <string name="peep_protection_v2_main_body">Widoczność ekranu z bocznych kątów zostanie zmniejszona. Twoje urządzenie będzie również sprawdzać, czy ktoś patrzy na Twój ekran, i ostrzeże Cię, gdy wykryje spojrzenie innej osoby. (click)Dowiedz się więcej(/click)</string>
+    <string name="peep_protection_v2_main_desc">Chroń swój ekran przed spojrzeniami innych osób</string>
+    <string name="peep_protection_v2_main_switch">Prywatne wyświetlanie Xiaomi</string>
+    <string name="peep_protection_v2_main_switch_desc">Skorzystaj z prywatnego wyświetlania i wykrywaj spojrzenia innych osób</string>
+    <string name="peep_protection_v2_main_switch_desc_v2">Zezwól urządzeniu na włączenie trybu prywatności w określonych sytuacjach</string>
+    <string name="peep_protection_v2_main_switch_title_v2">Prywatne wyświetlanie Xiaomi</string>
+    <string name="peep_protection_v2_main_tile_label">Prywatne wyświetlanie Xiaomi</string>
+    <string name="peep_protection_v2_move_app_title_v2">Przenieś aplikację %s do</string>
+    <string name="peep_protection_v2_move_app_to_category">Przenieś aplikację %s do grupy</string>
+    <string name="peep_protection_v2_notification_protection">Prywatne wyświetlanie powiadomień</string>
+    <string name="peep_protection_v2_notification_protection_desc">Powiadomienia z wybranych aplikacji spowodują włączenie prywatnego wyświetlania</string>
+    <string name="peep_protection_v2_notification_protection_desc_v2">Powiadomienia z wybranych aplikacji będą wyświetlane z częściową ochroną prywatności</string>
+    <string name="peep_protection_v2_notify_type_desc">Ostrzeżemy Cię, gdy zostanie wykryte spojrzenie innej osoby</string>
+    <string name="peep_protection_v2_notify_type_title">Powiadomienie o prywatności</string>
+    <string name="peep_protection_v2_page_detail_category_title">Poniższe strony w tej aplikacji są chronione prywatnym wyświetlaniem</string>
+    <string name="peep_protection_v2_page_protection_desc">Włącz prywatne wyświetlanie na wybranych stronach</string>
+    <string name="peep_protection_v2_peep_detection_desc_v2">Wykrywa spojrzenie i wysyła powiadomienie</string>
+    <string name="peep_protection_v2_peep_island_action_dismiss_v2">Ignoruj</string>
+    <string name="peep_protection_v2_peep_island_subtitle_v2">Nie przypominaj ponownie</string>
+    <string name="peep_protection_v2_privacy_statement">Funkcja wykorzystuje dane twarzy do wykrywania spojrzenia. Wszystkie dane są przetwarzane na Twoim urządzeniu i nie będą udostępniane.</string>
+    <string name="peep_protection_v2_recommend_title">Polecane aplikacje</string>
+    <string name="peep_protection_v2_search_app">Prywatne wyświetlanie aplikacji;prywatne wyświetlanie w aplikacjach;Wybrane aplikacje</string>
+    <string name="peep_protection_v2_search_empty_hint">Wyniki wyszukiwania pojawią się tutaj</string>
+    <string name="peep_protection_v2_search_global">Prywatne wyświetlanie w trybie pełnoekranowym;Pełny ekran</string>
+    <string name="peep_protection_v2_search_hint">Wyszukaj aplikacje</string>
+    <string name="peep_protection_v2_search_keywords_1">Prywatne wyświetlanie</string>
+    <string name="peep_protection_v2_search_keywords_2">Piksel</string>
+    <string name="peep_protection_v2_search_keywords_3">Spojrzenie</string>
+    <string name="peep_protection_v2_search_no_result">Brak wyników wyszukiwania</string>
+    <string name="peep_protection_v2_search_notification">Prywatne wyświetlanie powiadomień;prywatne wyświetlanie dla powiadomień;Powiadomienia aplikacji</string>
+    <string name="peep_protection_v2_search_notify_type">Powiadomienie o prywatności;Wykryj spojrzenie;ochrona prywatności;alert o spojrzeniu</string>
+    <string name="peep_protection_v2_search_page">Prywatne wyświetlanie stron;prywatne wyświetlanie dla stron</string>
+    <string name="peep_protection_v2_search_smart_enable">Inteligentna aktywacja;automatyczne wyświetlanie prywatne</string>
+    <string name="peep_protection_v2_select_apps">Wybrane aplikacje</string>
+    <string name="peep_protection_v2_select_apps_category_tip">Możesz tworzyć, zarządzać, usuwać lub zmieniać nazwy grup aplikacji w prywatnym wyświetlaniu w (click)Xiaomi Hyper XiaoAi(/click)</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">W trybie Pro aystenta Xiaomi Hyper XiaoAi możesz tworzyć, usuwać kategorie aplikacji do prywatnego wyświetlania, zarządzać nimi lub zmieniać ich nazwy</string>
+    <string name="peep_protection_v2_smart_enable">Inteligentna aktywacja</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_desc">W Xiaomi Hyper XiaoAi możesz tworzyć reguły prywatnego wyświetlania na podstawie miejsc, które często odwiedzasz. Po dotarciu do wskazanej lokalizacji prywatne wyświetlanie włączy lub wyłączy się automatycznie.</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_title">Stwórz inteligentną zasadę</string>
+    <string name="peep_protection_v2_smart_enable_desc_v2">Utwórz reguły prywatnego wyświetlania w zależności od lokalizacji</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint">Brak zasad. Utwórz zasady inteligentnej aktywacji oparte na lokalizacji w Xiaomi Hyper XiaoAi.</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Brak zasad. Utwórz zasady inteligentnej aktywacji oparte na lokalizacji w (click)Xiaomi Hyper XiaoAi(/click).</string>
+    <string name="peep_protection_v2_smart_enable_page_desc">W (click)Xiaomi Hyper XiaoAi(/click) możesz skonfigurować inteligentne zasady oparte na lokalizacji, takie jak automatyczne włączanie prywatnego wyświetlania w trybie pełnoekranowym, gdy znajdujesz się w metrze. Po dotarciu do wskazanej lokalizacji prywatne wyświetlanie włączy się zgodnie z wybraną zasadą.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">W trybie Pro asystenta Xiaomi Hyper XiaoAi możesz ustawić inteligentne zasady aktywacji bazujące na lokalizacji, takie jak „Automatycznie włączaj prywatne wyświetlanie w trybie pełnoekranowym, kiedy jestem w metrze”. Gdy dotrzesz do wskazanego miejsca, prywatne wyświetlanie zostanie automatycznie włączone zgodnie z Twoimi zasadami.</string>
+    <string name="peep_protection_v2_smart_enable_prompt">Pomóż mi stworzyć zasadę dotyczącą prywatnego wyświetlania: Często korzystam z telefonu w metrze i kawiarniach. Stwórz zasady dla tych scenariuszy użytkowania i automatycznie włączaj prywatne wyświetlanie dla sieci społecznościowych i grup finansowych, gdy znajduję się w tych miejscach.</string>
+    <string name="peep_protection_v2_smart_enable_prompt_copied">Skopiowano pomyślnie</string>
+    <string name="peep_protection_v2_smart_enable_sio_unavailable">Zezwól na dostęp, aby móc korzystać z tej funkcji</string>
+    <string name="peep_protection_v2_smart_enable_switch_desc">Rozpoznaj scenariusze i automatycznie włączaj lub wyłączaj prywatne wyświetlanie</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip">Pozostaw włączoną sieć Wi-Fi, aby zwiększyć dokładność inteligentnych zasad. Niektóre miejsca mogą zostać rozpoznane z opóźnieniem lub w ogóle nie zostać rozpoznane, gdy sieć Wi-Fi jest wyłączona.</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip_china">Pozostaw włączoną sieć WLAN, aby zwiększyć dokładność inteligentnych zasad. Niektóre miejsca mogą zostać rozpoznane z opóźnieniem lub w ogóle nie zostać rozpoznane, gdy sieć WLAN jest wyłączona.</string>
+    <string name="peep_protection_v2_smart_page_active_list">Wybrane strony w poniższych aplikacjach są chronione</string>
+    <string name="peep_protection_v2_smart_page_header_title">Automatycznie włączanie na wybranych stronach o podwyższonej poufności</string>
+    <string name="peep_protection_v2_smart_page_intro">Nawet jeśli zapomnisz dodać niektóre aplikacje, prywatne wyświetlanie zostanie włączone automatycznie po otwarciu poufnych stron, takich jak strony umożliwiające wprowadzanie hasła, dokonywanie płatności, przelewów i wysyłanie wiadomości.</string>
+    <string name="peep_protection_v2_smart_page_switch_title">Prywatne wyświetlanie stron</string>
+    <string name="peep_protection_v2_status_off">Wył.</string>
+    <string name="peep_protection_v2_status_on">Wł.</string>
+    <string name="peep_protection_v2_strategy_action_disable_category">Wyłącz prywatne wyświetlanie dla kategorii „%s”</string>
+    <string name="peep_protection_v2_strategy_action_disable_deep">Wyłącz Zwiększoną prywatność</string>
+    <string name="peep_protection_v2_strategy_action_disable_default">Wyłącz prywatne wyświetlanie</string>
+    <string name="peep_protection_v2_strategy_action_disable_global">Wyłącz Prywatne wyświetlanie w trybie pełnoekranowym</string>
+    <string name="peep_protection_v2_strategy_action_disable_target">Wyłącz prywatne wyświetlanie dla aplikacji %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_category">Włącz prywatne wyświetlanie dla kategorii „%s”</string>
+    <string name="peep_protection_v2_strategy_action_enable_deep">Włącz Zwiększoną prywatność</string>
+    <string name="peep_protection_v2_strategy_action_enable_default">Włącz prywatne wyświetlanie</string>
+    <string name="peep_protection_v2_strategy_action_enable_global">Włącz Prywatne wyświetlanie w trybie pełnoekranowym</string>
+    <string name="peep_protection_v2_strategy_action_enable_target">Włącz prywatne wyświetlanie dla aplikacji %s</string>
+    <string name="peep_protection_v2_strategy_action_fallback">Peep protection</string>
+    <string name="peep_protection_v2_strategy_action_separator_leave">; on leave</string>
+    <string name="peep_protection_v2_strategy_arrive_condition">Po przybyciu do lokalizacji „%1$s”</string>
+    <string name="peep_protection_v2_strategy_auto_desc">Arrive at %1$s, auto %2$s</string>
+    <string name="peep_protection_v2_strategy_auto_title">%1$s: %2$s</string>
+    <string name="peep_protection_v2_strategy_delete">Usuń</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_msg">Usunąć trwale tę zasadę?</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_title">Usunąć regułę?</string>
+    <string name="peep_protection_v2_strategy_detail_title">Inteligentne zasady</string>
+    <string name="peep_protection_v2_strategy_edit_desc_hint">Opis</string>
+    <string name="peep_protection_v2_strategy_edit_main_title_hint">Tytuł</string>
+    <string name="peep_protection_v2_strategy_edit_title">Edytuj</string>
+    <string name="peep_protection_v2_strategy_edit_title_hint">Enter new strategy name</string>
+    <string name="peep_protection_v2_strategy_edit_title_v2">Edytuj nazwę</string>
+    <string name="peep_protection_v2_strategy_go_miclaw">Dostosuj zasady</string>
+    <string name="peep_protection_v2_strategy_leave_condition">Podczas opuszczania lokalizacji „%1$s”</string>
+    <string name="peep_protection_v2_strategy_notify_on_trigger">Powiadom mnie, gdy zostanie włączone prywatne wyświetlanie</string>
+    <string name="peep_protection_v2_strategy_prompt_copied">Pomyślnie skopiowano</string>
+    <string name="peep_protection_v2_strategy_prompt_template">Pomóż mi zmodyfikować zasadę prywatnego wyświetlania „%1$s” i dostosować jej ustawienia.</string>
+    <string name="peep_protection_v2_strategy_unknown_location">Unknown location</string>
+    <string name="peep_protection_v2_thermal_paused_toast">Powiadomienia o prywatności zostaną wznowione, gdy urządzenie ostygnie</string>
+    <string name="peep_protection_v2_tile_label">Prywatne wyświetlanie w trybie pełnoekranowym</string>
+    <string name="peep_protection_v2_title">Prywatne wyświetlanie Xiaomi</string>
     <string name="per_month_pkg_traffic_settings">Ustaw limit danych</string>
     <string name="percent_formatted_text">%s%%</string>
     <string name="percent_text_formatted">%s%%</string>
@@ -4053,6 +4379,7 @@ Ultra oszczędzanie baterii"</string>
     <string name="permgroupdesc_storage">Dostęp do zdjęć lub plików na urządzeniu</string>
     <string name="permission_action_accept">Zezwól</string>
     <string name="permission_action_ai_prompt">Zdecyduj za mnie</string>
+    <string name="permission_action_allow_for_compatibility">Tylko lokalna sieć</string>
     <string name="permission_action_always">Zawsze zezwalaj</string>
     <string name="permission_action_desc">Nadaj uprawnienia, ale zwracaj puste wiadomości do aplikacji w celu ochrony prywatności</string>
     <string name="permission_action_desc_always">Z tego uprawnienia można korzystać w dowolnym momencie</string>
@@ -4066,8 +4393,14 @@ Ultra oszczędzanie baterii"</string>
     <string name="permission_action_virtual">Zwracaj puste wiadomości</string>
     <string name="permission_action_virtual_common_summary">Nadaj aplikacjom niezbędne uprawnienia, ale zwracaj puste wiadomości, aby chronić swoją prywatność</string>
     <string name="permission_action_virtual_phone_summary">Nadaj aplikacjom odpowiednie uprawnienia, ale nie zezwalah im na dostęp do prawdziwego numeru telefonu karty SIM</string>
+    <string name="permission_allow_for_compatibility_note">Zezwala aplikacji na komunikowanie się jedynie z urządzeniami połączonymi z tą samą lokalną siecią. Bluetooth i inne metody połączeń nie są obsługiwane.</string>
+    <string name="permission_changed_retry">Zmieniono uprawnienia. Uruchom ponownie aplikacje.</string>
     <string name="permission_close_permission_control_dialog_msg">Kiedy \"Zarządzanie uprawnieniami\" jest wyłączone aplikacje nie będą prosić o pozwolenie na czytanie kontaktów, wyświetlanie historii połączeń, zmianę ustawień systemowych, dostęp do aparatu czy innych zasobów systemowych.</string>
     <string name="permission_close_permission_control_dialog_title">Wyłączyć?</string>
+    <string name="permission_compatibility_dialog_message">Ta aplikacja została stworzona do starszej wersji systemu Android. Odmowa przyznania uprawnień może sprawić, że aplikacja nie będzie już działała w przewidziany sposób.</string>
+    <string name="permission_compatibility_dialog_negative_btn">Anuluj</string>
+    <string name="permission_compatibility_dialog_positive_btn">Odmów</string>
+    <string name="permission_compatibility_dialog_title">Ta aplikacja może nie działać prawidłowo</string>
     <string name="permission_exception_title">Ograniczone połączenie dla aplikacji</string>
     <string name="permission_group_audio">To uprawnienie umożliwia aplikacjom dostęp do muzyki i innych plików audio przechowywanych na tym urządzeniu.</string>
     <string name="permission_group_calendar">To uprawnienie umożliwia aplikacjom dostęp do wydarzeń w kalendarzu, dodawanie, usuwanie i edytowanie.</string>
@@ -4175,6 +4508,7 @@ Ultra oszczędzanie baterii"</string>
     <string name="permission_with_SMS_and_MMS">Uprawnienia powiązane z SMS/MMS</string>
     <string name="permission_with_call_and_contact">Uprawnienia powiązane z połączeniami, historią połączeń i kontaktami.</string>
     <string name="permission_with_read_write_clipboard">Zezwól aplikacjom na dostęp i zapisywanie elementów w schowku</string>
+    <string name="permisson_reject_notice_toast_text2">nie ma uprawnień do %1$s.</string>
     <string name="permit_running_network">Dane w tle</string>
     <string name="person_have_hongbao">Otrzymano czerwoną kopertę od %1$s!</string>
     <string name="person_hotpot">Przenośny hotspot</string>
@@ -4243,6 +4577,7 @@ Ultra oszczędzanie baterii"</string>
     <string name="power_center_battery_detail">Szczegóły</string>
     <string name="power_center_battery_duration">Pozostały czas</string>
     <string name="power_center_battery_duration_format">%1$s %2$s</string>
+    <string name="power_center_battery_duration_new">Pozostało czasu na ekranie</string>
     <string name="power_center_battery_duration_screen_on">Pozostało czasu na ekranie</string>
     <string name="power_center_battery_hardware">Sprzęt %s</string>
     <string name="power_center_battery_health_poor_tip">Wygląda na to, że stan baterii jest niski. Sprawdź baterię w autoryzowanym centrum serwisowym.</string>
@@ -4384,6 +4719,7 @@ Ultra oszczędzanie baterii"</string>
     <string name="power_idle">Telefon w gotowości</string>
     <string name="power_main_battery_last_day_hour">Pozostało %1$s dni %2$s godz.</string>
     <string name="power_main_battery_last_hour_minute">Pozostało %1$s godz. %2$s min</string>
+    <string name="power_main_battery_last_hour_minute_new">Szacowany czas spędzony przed ekranem: %1$s %2$s</string>
     <string name="power_main_battery_last_hour_minute_screen_on">Pozostało czasu na ekranie: %1$s %2$s</string>
     <string name="power_main_open_last_hour_minute_screen_on">Włącz, aby do czasu na ekranie dodać %1$s %2$s</string>
     <string name="power_ntc_dialog_btn_finish">Rozumiem</string>
@@ -4533,6 +4869,12 @@ Ultra oszczędzanie baterii"</string>
     <string name="pp_app_warning_permission_tips_detail">Wyświetlaj przypomnienie, gdy aplikacja żąda uprawnień do lokalizacji, aparatu lub mikrofonu</string>
     <string name="pp_clipboard">Schowek</string>
     <string name="pp_none_read_clipboard_item">Nie powiadamiaj</string>
+    <string name="pp_privacy_call_entry">Ochrona prywatności połączeń</string>
+    <string name="pp_privacy_call_entry_demo_desc">Zmniejsz wyciek dźwięku ze słuchawek, aby chronić prywatność połączeń</string>
+    <string name="pp_privacy_call_entry_switch_desc">Działa podczas połączeń prowadzonych przez słuchawki. Funkcja nie przechowuje treści ani danych Twoich połączeń.</string>
+    <string name="pp_privacy_call_protect">Ochrona połączeń</string>
+    <string name="pp_privacy_call_switch_off">Ochrona prywatności połączeń jest wyłączona</string>
+    <string name="pp_privacy_call_switch_on">Ochrona prywatności połączeń jest włączona</string>
     <string name="pp_privacy_lab_clipboard_summary">Pozwól urządzeniu decydować, czy aplikacja może uzyskać dostęp do schowka i otrzymywać powiadomienia, gdy to nastąpi</string>
     <string name="pp_privacy_lab_operator_get_number_summary">Wymagaj, aby aplikacje pytały o pozwolenie, gdy chcą uzyskać dostęp do Twojego numeru telefonu w celu zalogowania się</string>
     <string name="pp_privacy_protection">Ochrona</string>
@@ -4667,6 +5009,7 @@ Ultra oszczędzanie baterii"</string>
     <string name="privacy_description_camera">%1s używa aparatu w tle. Możesz ograniczyć tę aktywność za pomocą poniższego przełącznika.</string>
     <string name="privacy_description_camera_mic">%1s używa aparatu i mikrofonu w tle. Możesz ograniczyć tę aktywność za pomocą poniższego przełącznika.</string>
     <string name="privacy_description_mic">%1s używa mikrofonu w tle. Możesz ograniczyć tę aktywność za pomocą poniższego przełącznika.</string>
+    <string name="privacy_device_unique_feature">Funkcja dostępna wyłącznie na tym urządzeniu</string>
     <string name="privacy_dialog_call_item_1">Dostęp do informacji o urządzeniu</string>
     <string name="privacy_dialog_call_item_2">Wykonywanie połączeń</string>
     <string name="privacy_dialog_call_item_3">Dostęp do statusu urządzenia</string>
@@ -4716,6 +5059,10 @@ Ultra oszczędzanie baterii"</string>
     <string name="privacy_flares_recent_detail_more">Aplikacja korzystała z poufnych uprawnień</string>
     <string name="privacy_global_guide_permission_guide_text">Otrzymasz powiadomienie na pasku statusu, gdy aplikacje nagrywają dźwięk lub używają aparatu. Aby dowiedzieć się, która aplikacja to robi, dotknij powiadomienie.</string>
     <string name="privacy_guide_permission_guide_text">Możesz otrzymać powiadomienia na pasku statusu, gdy aplikacje uzyskują dostęp do Twojej lokalizacji, nagrywają dźwięk lub robią zdjęcia.</string>
+    <string name="privacy_hide_app_notify_auto_close_desc">Ta funkcja uniemożliwia ukrytym aplikacjom wysyłanie powiadomień. Jeśli chcesz je otrzymywać, wyłącz opcję „Ukryj powiadomienia” lub odkryj aplikację.</string>
+    <string name="privacy_hide_app_notify_auto_close_title">Wyłącz powiadomienia</string>
+    <string name="privacy_hide_app_notify_auto_revoke_summary">Automatycznie wyłączaj powiadomienia z ukrytych aplikacji</string>
+    <string name="privacy_hide_app_notify_dialog_confirm">Rozumiem</string>
     <string name="privacy_hide_other_permissions">Ukryj inne uprawnienia</string>
     <string name="privacy_hybrid_password_long">Wprowadź tekst. Maksymalna liczba znaków: %d.</string>
     <string name="privacy_hybrid_password_too_short">Wprowadź tekst. Minimalna liczba znaków: %d.</string>
@@ -4880,6 +5227,10 @@ Wycofać zgodę?"</string>
     <string name="privacy_screen_share_notification_title">Projekcja treści ekranu</string>
     <string name="privacy_screen_share_protect_tip">Chronione</string>
     <string name="privacy_screen_share_tip">Wyświetlanie</string>
+    <string name="privacy_screen_share_v2_land_subtitle">Aplikacja „%s” ma dostęp do zawartości ekranu</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Treść ekranu jest chroniona</string>
+    <string name="privacy_screen_share_v2_notification_title">Projekcja treści ekranu</string>
+    <string name="privacy_screen_share_v2_small_island_title">Udostępnianie ekranu</string>
     <string name="privacy_search_key_1">Prywatność</string>
     <string name="privacy_search_key_10">ID urządzenia</string>
     <string name="privacy_search_key_2">Przechwytywanie sieci</string>
@@ -5005,6 +5356,7 @@ Wycofać zgodę?"</string>
     <string name="repeat_type">Powtórz</string>
     <string name="repeated_marked_number_summary">Nie blokuj drugiego połączenia z tego samego zgłoszonego numeru w ciągu %d minut</string>
     <string name="repeated_marked_number_title">Nie blokuj powtarzających się połączeń od zgłoszonych numerów</string>
+    <string name="repeated_stranger_number_summary">Nie blokuj drugiego połączenia z tego samego nieznanego numeru w ciągu %d minut</string>
     <string name="repeated_unknown_number_summary">Nie blokuj drugiego połączenia z tego samego nieznanego numeru w ciągu %d minut</string>
     <string name="replace_dns">Zmień automatycznie DNS</string>
     <string name="report">Zgłoś</string>
@@ -5090,10 +5442,12 @@ Wycofać zgodę?"</string>
     <string name="safe_result_item_info_system_version">System jest aktualny</string>
     <string name="safepay_alert_dialog_button_continue">Kontynuuj</string>
     <string name="safepay_alert_dialog_button_fix">Dowiedz się więcej</string>
+    <string name="safety">Bezpieczeństwo</string>
     <string name="saturday">Sobota</string>
     <string name="saturday_short">Sob.</string>
     <string name="saturday_shortest">Sob.</string>
     <string name="save_mode_btn_ok">Rozumiem</string>
+    <string name="save_privacy_pwd_fail_toast">Nie udało się zapisać. Spróbuj ponownie.</string>
     <string name="sc_allow_network_dialog_message">Ograniczyłeś połączenie sieciowe i dostęp do swojej lokalizacji dla Panelu sterowania. Nadaj Panelowi sterowania wymagane uprawnienia, aby korzystać z tej funkcji.</string>
     <string name="sc_allow_network_dialog_tiltle">Nie można użyć tej funkcji</string>
     <string name="sc_system_risk_fix_info_xspace">Nie można tego rozwiązać w Drugiej przestrzeni. Spróbuj ponownie w Pierwszej przestrzeni.</string>
@@ -5104,6 +5458,11 @@ Wycofać zgodę?"</string>
     <string name="scan_status_risk">Zagrożony</string>
     <string name="scan_status_safe">Bezpieczny</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Ochrona przed oszustwami</string>
+    <string name="screen_share_search_keyword_1">Udostępnianie ekranu</string>
+    <string name="screen_share_search_keyword_2">Udostępnianie ekranu</string>
+    <string name="screen_share_search_title">Ochrona podczas udostępniania ekranu</string>
+    <string name="screen_share_warning_positive_button">Stop</string>
     <string name="screenrecord_not_find">Zainstaluj najnowszą wersję Nagrywania ekranu i spróbuj ponownie.</string>
     <string name="sd_eject">Odłącz kartę SD</string>
     <string name="sd_eject_summary">Odłącz kartę SD, aby bezpiecznie ją usunąć</string>
@@ -5489,13 +5848,17 @@ Wycofać zgodę?"</string>
     <string name="st_message_phone_AntiSpam">Blokuj połączenia</string>
     <string name="st_message_phonepass">Zezwalaj na połączenia</string>
     <string name="st_msg_keyword_black">Lista blokowanych słów kluczowych</string>
+    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
     <string name="st_msg_keyword_group">Słowa kluczowe</string>
     <string name="st_msg_keyword_white">Wyjątki dla słów kluczowych</string>
+    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
     <string name="st_msg_other_group">Inne</string>
     <string name="st_msg_settings">Lista blokowanych SMS</string>
     <string name="st_msg_stranger_group">Blokuj wiadomości od nieznajomych</string>
     <string name="st_settings_name">Ustawienia listy blokowanych</string>
     <string name="st_share_settings">Użyj ustawień SIM %d</string>
+    <string name="st_show_num_keyword_v2">{count, plural, =0 {0 słów kluczowych } one {# słowo kluczowe } few {# słowa kluczowe } many {# słów kluczowych } other {# słowa kluczowego } }</string>
+    <string name="st_show_num_number_v2">{count, plural, =0 {0 numerów } one {# numer } few {# numery } many {# numerów } other {# numeru } }</string>
     <string name="st_smg_intercept_all">Zablokuj wszystkie wiadomości</string>
     <string name="st_smg_intercept_confirm_dialog_summary_all">SMS-y i MMS-y od numerów lub regionów nieznajdujących się w wyjątkach zostaną zablokowane. Zablokować?</string>
     <string name="st_smg_intercept_confirm_dialog_summary_stranger">SMS-y i MMS-y od numerów lub regionów nieznajdujących się w wyjątkach lub kontaktach zostaną zablokowane. Zablokować?</string>
@@ -5569,6 +5932,7 @@ Wycofać zgodę?"</string>
     <string name="status_bar_network_flow_purchase">"   Zakup >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Skonfiguruj plan danych >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Zablokuj</string>
     <string name="still_retain_btn">Zachowaj</string>
     <string name="stop_milink_connect">Zatrzymano projekcję</string>
     <string name="storage_activity_title">Ilość pamięci</string>
@@ -5679,7 +6043,7 @@ Aby użyć ^1 na tym urządzeniu, musisz je najpierw skonfigurować."</string>
     <string name="storage_system_log_tip">Logi systemowe zostaną automatycznie wyczyszczone w razie potrzeby</string>
     <string name="storage_system_memory_expansion">Rozszerzenie pamięci</string>
     <string name="storage_system_memory_expansion_tip">Rozszerz pamięć RAM, zajmując miejsce w pamięci</string>
-    <string name="storage_system_other_tip">Niezbędne dane, aby system mógł działać prawidłowo (rozmiar pliku może się zmienić z czasem)</string>
+    <string name="storage_system_other_tip">Dane niezbędne do prawidłowego działania systemu (rozmiar pliku może się z czasem zmienić)</string>
     <string name="storage_system_other_tip_new">Obejmuje przestrzeń dyskową niezbędną do działania systemu i aktualizacji. Rozmiar tej partii będzie się zmieniał w zależności od stanu systemu.</string>
     <string name="storage_ufs_msg">Możesz dodać do %1$s pamięci do tego urządzenia, korzystając z naszej technologii rozszerzeania pamięci UFS i algorytmów optymalizacji pamięci.</string>
     <string name="storage_ufs_tip">Dodatkowa pamięć</string>
@@ -5765,6 +6129,7 @@ Formatowanie spowoduje usunięcie istniejącej zawartości w ^2. Aby uniknąć u
     <string name="superpower_progress_low_temp_content">Włączanie trybu wytrzymałości na zimno…</string>
     <string name="superpower_progress_switch_home">Włączanie Ciemnego motywu</string>
     <string name="superpower_progress_title">Pozostały czas</string>
+    <string name="superpower_progress_title_new">Pozostało czasu na ekranie</string>
     <string name="superpower_progress_turndown_brightness">Obniżanie jasności ekranu</string>
     <string name="superpower_progress_turnoff_fan">Wyłącz chłodzenie</string>
     <string name="superpower_progress_turnoff_items">Ograniczanie energożernych aktywności</string>
@@ -5808,9 +6173,10 @@ Formatowanie spowoduje usunięcie istniejącej zawartości w ^2. Aby uniknąć u
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Przeczytaj i zaakceptuj naszą &lt;a href=\"%1$s\">Umowę Użytkownika&lt;/a> zanim przejdziesz dalej.</Data></string>
     <string name="system_permission_declare_no_say_no">Jeśli nie nadasz wymaganych uprawnień lub nie pozwolisz nam na gromadzenie i używanie Twoich danych, ta aplikacja nie będzie mogła działać normalnie.</string>
     <string name="system_permission_declare_no_say_no_analytics">Jeśli nie chcesz nadawać tych uprawnień, możesz je odznaczyć w Ustawienia > Dodatkowe ustawienia > Prywatność > Program zadowolenia użytkownika.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Jeśli nie nadasz wymaganych uprawnień lub nie pozwolisz nam na gromadzenie i używanie Twoich danych, aplikacja będzie mogła działać tylko częściowo.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Jeśli nie zdecydujesz się na przyznanie wymaganych uprawnień lub nie zezwolisz nam na gromadzenie i wykorzystywanie Twoich danych, nie będziesz w stanie używać powiązanych funkcji.</string>
     <string name="system_permission_declare_optional">Aby zapewnić Ci dodatkowe usługi podczas korzystania z aplikacji, będziemy potrzebowali następujących uprawnień: %s. Możesz w każdej chwili dostosować swoje preferencje w Ustawieniach.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Aplikacja potrzebuje następujących dodatkowych uprawnień, by zapewnić większą wygodę obsługi: %1s. Więcej informacji na temat przetwarzania danych osobowych znajdziesz &lt;a href=\"test\">tutaj&lt;/a>. W każdej chwili możesz dostosować udzielone uprawnienia w Ustawieniach.</Data></string>
+    <string name="system_permission_declare_perm_separator">", "</string>
     <string name="system_permission_declare_privacy_declare">Ta aplikacja musi połączyć się z internetem i wymaga następujących uprawnień, aby działać normalnie:</string>
     <string name="system_permission_declare_privacy_no_network">Aplikacja potrzebuje następujących uprawnień, aby móc normalnie działać:</string>
     <string name="system_permission_declare_privacy_no_permission">Aplikacja musi łączyć się z internetem i zbierać wymagane dane osobowe, aby móc normalnie działać.</string>
@@ -5971,8 +6337,8 @@ Formatowanie spowoduje usunięcie istniejącej zawartości w ^2. Aby uniknąć u
     <string name="title_auto_update">Aktualizuj automatycznie</string>
     <string name="title_background_connection">Nie można użyć %s w tle</string>
     <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Nie odebrałeś połączeń od swoich kontaktów</string>
-    <string name="title_block_calls_from_strangers">Nie odebrałeś ważnych połączeń</string>
+    <string name="title_block_calls_from_cantacts">Masz nieodebrane połączenia od swoich kontaktów?</string>
+    <string name="title_block_calls_from_strangers">Masz nieodebrane ważne połączenia?</string>
     <string name="title_chain_start">Ogranicz uruchamianie łańcuchowe</string>
     <string name="title_cleaner_cloudscan">Skanowanie śmieci w Chmurze</string>
     <string name="title_cloud_account">Konto Xiaomi</string>
@@ -6026,6 +6392,8 @@ Formatowanie spowoduje usunięcie istniejącej zawartości w ^2. Aby uniknąć u
     <string name="title_realname_verify">Weryfikacja ID</string>
     <string name="title_reply">Komentarz</string>
     <string name="title_restrict_data_usage">%s nie może połączyć się z internetem</string>
+    <string name="title_risky_app_scan_no">Wykrywanie potencjalnie niebezpiecznych aplikacji jest wyłączone</string>
+    <string name="title_risky_app_scan_yes">Wykrywanie potencjalnie niebezpiecznych aplikacji jest włączone</string>
     <string name="title_safe_mode">Włącz Tryb bezpieczny</string>
     <string name="title_show_notification">Widżet Panelu powiadomień</string>
     <string name="title_system_auto_download">Automatyczne pobieranie aktualizacji</string>
@@ -6066,6 +6434,14 @@ Formatowanie spowoduje usunięcie istniejącej zawartości w ^2. Aby uniknąć u
     <string name="toast_update_success">Pomyślnie zaktualizowano</string>
     <string name="today">Dzisiaj</string>
     <string name="tomorrow">Jutro</string>
+    <string name="toolbox_invocation_guide_cancel">Nie teraz</string>
+    <string name="toolbox_invocation_guide_caption">Przesuń i przytrzymaj, aby otworzyć</string>
+    <string name="toolbox_invocation_guide_caption_upgrade">Otwórz z dowolnego miejsca</string>
+    <string name="toolbox_invocation_guide_confirm">Skorzystaj</string>
+    <string name="toolbox_invocation_guide_confirm_upgrade">Wypróbuj teraz</string>
+    <string name="toolbox_invocation_guide_message">Przesuń palcem do wewnątrz od krawędzi ekranu i przytrzymaj, a następnie puść, aby otworzyć</string>
+    <string name="toolbox_invocation_guide_title">Skorzystaj z panelu bocznego</string>
+    <string name="toolbox_invocation_guide_title_upgrade">Nowy sposób na otworzenie paska bocznego</string>
     <string name="top_game">Najlepsze gry</string>
     <string name="top_load_fail_detail">Nie udało się załadować, dotknij i spróbuj ponownie</string>
     <string name="top_no_network_detial">Nie udało się załadować, sprawdź połączenie z siecią i spróbuj ponownie</string>
@@ -6159,6 +6535,45 @@ Pozostałe dane zawierają dane, które zostały przeniesione z poprzedniego mie
     <string name="txv_lucky_money_group_text">Tylko powiadomienia grupowe</string>
     <string name="ufs_size_suffix">%1$s+%2$s</string>
     <string name="unable_connect_internet">Brak połączenia z internetem</string>
+    <string name="uni_auth_security_delay_tips">Wymagane jest odliczanie bezpieczeństwa</string>
+    <string name="uniauth_close_bt_text">Wyłącz</string>
+    <string name="uniauth_close_lock_sim_bind_local_phone_fp_title">Zweryfikuj odcisk palca, aby odblokować kartę USIM i powiązać ją z tym urządzeniem</string>
+    <string name="uniauth_close_lock_sim_fp_title">Zweryfikuj odcisk palca, aby odblokować kartę USIM</string>
+    <string name="uniauth_close_lost_device_prot_bt">Wyłącz Ochronę zagubionego urządzenia</string>
+    <string name="uniauth_close_lost_device_prot_tips_bt">Rozumiem</string>
+    <string name="uniauth_close_lost_device_prot_tips_message">Ochrona zagubionego urządzenia została wyłączona za pomocą Twojego konta Xiaomi. Funkcje tego urządzenia nie będą już objęte dodatkową ochroną.</string>
+    <string name="uniauth_close_lost_device_prot_tips_title">Ochrona zagubionego urządzenia jest wyłączona</string>
+    <string name="uniauth_common_fp_title">Zweryfikuj swój odcisk palca</string>
+    <string name="uniauth_common_tips">Nie udało się zweryfikować. Spróbuj ponownie.</string>
+    <string name="uniauth_fp_disabled_sub_title">Zbyt wiele nieudanych prób</string>
+    <string name="uniauth_fp_disabled_title">Odciski palców nie są teraz dostępne</string>
+    <string name="uniauth_fp_enter_lockscreen_text">Skorzystaj z blokady ekranu</string>
+    <string name="uniauth_fp_recover_by_lockscreen_bt_text">Przywróć dostęp za pomocą odcisku palca</string>
+    <string name="uniauth_fp_temp_disabled_sub_title">Odciski palców nie są teraz dostępne z powodu zbyt wielu nieudanych prób</string>
+    <string name="uniauth_lockscreen_default_title">Zweryfikuj blokadę ekranu</string>
+    <string name="uniauth_lockscreen_disabled_sub_title">Nie można skorzystać z blokady ekranu z powodu zbyt wielu nieudanych prób</string>
+    <string name="uniauth_lockscreen_mix_do_next">Dalej</string>
+    <string name="uniauth_lockscreen_mix_hint">Wprowadź tutaj</string>
+    <string name="uniauth_lockscreen_sub_title">Do przywracania dostępu za pomocą odcisku palca</string>
+    <string name="uniauth_logout_xiaomi_acount_fp_title">Zweryfikuj odcisk palca, aby wylogować się z konta Xiaomi</string>
+    <string name="uniauth_lp_fp_sub_title">Ochrona zagubionego urządzenia jest włączona. Zweryfikuj odcisk palca, aby potwierdzić, że czynność jest wykonywana przez właściciela urządzenia.</string>
+    <string name="uniauth_lp_lockscreen_and_fp_sub_title">Skorzystaj z uwierzytelniania dwuskładnikowego, aby zweryfikować swoją tożsamość</string>
+    <string name="uniauth_no_acount_login_tips">Zaloguj się na swoje konto Xiaomi</string>
+    <string name="uniauth_open_lock_sim_bind_local_phone_fp_title">Zweryfikuj odcisk palca, aby zablokować kartę USIM i powiązać ją z tym urządzeniem</string>
+    <string name="uniauth_open_lock_sim_fp_title">Zweryfikuj odcisk palca, aby zablokować kartę USIM</string>
+    <string name="uniauth_reset_lockscreen_default_title">Zweryfikuj poprzednią blokadę ekranu</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_sub_title">Skorzystaj z uwierzytelniania dwuskładnikowego, aby ustawić nową blokadę ekranu</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_title">Zweryfikuj swój odcisk palca</string>
+    <string name="uniauth_reset_lockscreen_title">Zweryfikuj poprzednią blokadę ekranu</string>
+    <string name="uniauth_resetlockscreen_error_sub_title">Nie można zresetować</string>
+    <string name="uniauth_resetlockscreen_error_title">Zbyt wiele nieudanych prób weryfikacji blokady ekranu</string>
+    <string name="uniauth_security_delay_end_notification_msg">Przez następne %1$d godzin możesz zweryfikować swoje konto Xiaomi, aby wyłączyć Ochronę zagubionego urządzenia</string>
+    <string name="uniauth_security_delay_end_notification_title">Odliczanie bezpieczeństwa zostało zakończone</string>
+    <string name="uniauth_security_delay_msg">Po %1$d godzinach możesz zweryfikować swoje konto Xiaomi, aby wyłączyć Ochronę zagubionego urządzenia. Otrzymasz powiadomienie po zakończeniu odliczania.</string>
+    <string name="uniauth_security_delay_next_more">Dowiedz się więcej</string>
+    <string name="uniauth_temp_disabled_title">Spróbuj ponownie później</string>
+    <string name="uniauth_uqery_pin_fp_title">Zweryfikuj odcisk palca, aby wyświetlić kod PIN</string>
+    <string name="uniauth_xiaomi_acount_title">Zweryfikuj swoje konto Xiaomi</string>
     <string name="uninstall_app_dialog_msg">Odinstalowanie usunie wszystkie dane aplikacji.</string>
     <string name="uninstall_app_dialog_title">Odinstalować teraz?</string>
     <string name="uninstall_app_done">Pomyślnie odinstalowano</string>
@@ -6220,7 +6635,9 @@ Pozostałe dane zawierają dane, które zostały przeniesione z poprzedniego mie
     <string name="usbsharenet_pc_exception_summary">Nie można połączyć się z internetem przez udostępnianie połączenia USB. Sprawdź połączenie internetowe w komputerze.</string>
     <string name="use_for_open_applock">Do otwierania aplikacji „Blokowanie aplikacji”</string>
     <string name="use_immediately">Użyj</string>
+    <string name="use_lock_screen_password_type">Hasło Ekranu blokady</string>
     <string name="use_other_ime_warn">Klawiatury innych firm mogą rejestrować wszystko, co wpisujesz, w tym hasła i inne poufne informacje</string>
+    <string name="use_private_password_type">Hasło ochrony prywatności</string>
     <string name="user_define_title">Dodaj regułę</string>
     <string name="user_guide">Przesuń w górę, aby odkryć więcej nowych gier</string>
     <string name="v7_preference_off">WYŁ.</string>
@@ -6309,6 +6726,7 @@ Włączenie efektu poskutkuje wyłączeniem funkcji."</string>
     <string name="vb_video_super_division_desc">"Korzystanie z tej funkcji zwiększa zużycie energii.
 Ta funkcja nie działa w przypadku wygładzania ruchu.
 Włączenie jednej funkcji spowoduje wyłączenie drugiej."</string>
+    <string name="vb_video_super_division_subdesc">Zwiększ rozdzielczość automatycznie, gdy jest ≤ 720p.</string>
     <string name="vb_video_super_division_tips">"Niewystarczająco przejrzysty?
 Spróbuj zwiększyć rozdzielczość!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Ulepszone animacje są wyłączone</string>
@@ -6338,6 +6756,12 @@ Ta funkcja nie będzie działać, gdy włączone jest Oszczędzanie baterii lub 
     <string name="view_package_info">Sprawdź szczegóły planu</string>
     <string name="view_traffic_detail">Zobacz szczegóły</string>
     <string name="view_traffic_details">Sprawdź statystyki zużycia danych</string>
+    <string name="virtual_reject_notice_content">Do aplikacji wysłano pustą odpowiedź w celu ochrony danych osobowych</string>
+    <string name="virtual_reject_notice_title_calendar">Uzyskiwanie dostępu do kalendarza przez %1$s</string>
+    <string name="virtual_reject_notice_title_calllog">Uzyskiwanie dostępu do historii połączeń przez %1$s</string>
+    <string name="virtual_reject_notice_title_contacts">Uzyskiwanie dostępu do kontaktów przez %1$s</string>
+    <string name="virtual_reject_notice_title_phonestate">Uzyskiwanie dostępu do informacji o urządzeniu przez %1$s</string>
+    <string name="virtual_reject_notice_title_sms">Uzyskiwanie dostępu do wiadomości przez %1$s</string>
     <string name="virus_app_delete_installed">Odinstaluj</string>
     <string name="virus_app_delete_uninstalled">Usuń</string>
     <string name="virus_app_ignore">Ignoruj</string>

@@ -163,7 +163,7 @@
     <string name="add_done">เพิ่มเรียบร้อย</string>
     <string name="add_game">เพิ่มเกม</string>
     <string name="add_game_notification_summary">แตะเพื่อเปิดใช้และเพิ่มความเร็ว</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">เพิ่ม \"%s\" ลงในพื้นที่เกม</string>
     <string name="add_miservice_dialog_content">%s ต้องการให้คุณเพิ่มกรอบงานบริการ Xiaomi ให้กับข้อยกเว้น คุณอาจได้รับการแจ้งเตือนจากแอปในตัวของเราและแอปของบุคคลที่สามอื่นๆ</string>
     <string name="add_miservice_dialog_title">กรอบการให้บริการของ Xiaomi</string>
     <string name="add_to_whitelist_button">รายการยกเว้นการโรมมิ่งข้อมูล</string>
@@ -200,6 +200,48 @@
     <string name="anitispam_intercept_record">ประวัติรายการบล็อก</string>
     <string name="anti_disturb_msg_detail">ปิดใช้งานการแจ้งเตือนทั้งหมดยกเว้นสายเรียกเข้า</string>
     <string name="anti_disturb_msg_title">DND</string>
+    <string name="anti_peeping">ตรวจจับการจ้องมองของผู้อื่น</string>
+    <string name="anti_peeping_apps_disable_header_title">แอปที่ไม่ได้เลือก</string>
+    <string name="anti_peeping_apps_enable_header_title">แอปที่เลือก</string>
+    <string name="anti_peeping_apps_notify_description">เมื่อแอปที่เลือกแสดงผลแบบเต็มหน้าจอ ฟีเจอร์นี้จะตรวจสอบอย่างต่อเนื่องว่ามีใครกำลังดูหน้าจอของคุณอยู่หรือไม่ และจะแจ้งเตือนคุณ</string>
+    <string name="anti_peeping_apps_notify_title">แจ้งเตือนเมื่อมีคนกำลังมองอยู่</string>
+    <string name="anti_peeping_apps_notify_type">การแจ้งเตือน</string>
+    <string name="anti_peeping_apps_privacy_tip">ฟีเจอร์นี้ใช้ข้อมูลใบหน้าในการตรวจจับการมอง การประมวลผลข้อมูลทั้งหมดจะทำบนอุปกรณ์ของคุณและจะไม่ถูกแชร์</string>
+    <string name="anti_peeping_face_need_input">ต้องระบุข้อมูลใบหน้า</string>
+    <string name="anti_peeping_face_need_input_confirm">การตั้งค่า</string>
+    <string name="anti_peeping_face_need_input_subtitle">เพิ่มข้อมูลใบหน้าของคุณเพื่อใช้งานฟีเจอร์นี้ เพิ่มข้อมูลเลยหรือไม่?</string>
+    <string name="anti_peeping_focus_not_enabled"><Data>สปอตไลท์การแจ้งเตือนปิดอยู่ การแจ้งเตือนจะใช้การสั่นแทน &lt;font color=#3482FF>เปิดใช้งาน&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback"><Data>สปอตไลท์การแจ้งเตือนปิดอยู่ ไม่สามารถใช้งานการแจ้งเตือนได้ &lt;font color=#3482FF>เปิดใช้งาน&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_no_fallback_v2"><Data>Xiaomi HyperIsland ปิดอยู่ การแจ้งเตือนไม่พร้อมใช้งาน &lt;font color=#3482FF>เปิดใช้งาน&lt;/font></Data></string>
+    <string name="anti_peeping_focus_not_enabled_v2"><Data>Xiaomi HyperIsland ปิดอยู่ การแจ้งเตือนจะใช้การสั่นแทน &lt;font color=#3482FF>เปิดใช้งาน&lt;/font></Data></string>
+    <string name="anti_peeping_notification_channel_name">ตรวจจับการจ้องมองของผู้อื่น</string>
+    <string name="anti_peeping_notification_got_it">รับทราบ</string>
+    <string name="anti_peeping_notification_protect_content">ไม่ต้องเตือนอีก</string>
+    <string name="anti_peeping_notification_title">ป้องกันความเป็นส่วนตัวของคุณ</string>
+    <string name="anti_peeping_privacy_auto_close_des">ฟังก์ชันนี้อาจทำให้การใช้พลังงานเพิ่มขึ้นเล็กน้อย และจะปิดใช้งานเมื่อเปิดใช้งานโหมดประหยัดแบตเตอรี่</string>
+    <string name="anti_peeping_privacy_auto_close_title">ปิดเครื่องอัตโนมัติเมื่อเปิดโหมดประหยัดแบตเตอรี่</string>
+    <string name="anti_peeping_privacy_statement_des">"หลังจากเปิดใช้งานฟีเจอร์นี้ อุปกรณ์นี้จะใช้กล้องหน้าเพื่อตรวจสอบว่ามีบุคคลอื่นที่ไม่ใช่คุณกำลังดูหน้าจอของคุณหรือไม่ เมื่อแอปที่คุณเลือกแสดงผลแบบเต็มหน้าจอ หากตรวจพบ คุณจะได้รับการแจ้งเตือนเรื่องความเป็นส่วนตัว
+การประมวลผลทั้งหมดจะดำเนินการบนอุปกรณ์ของคุณและจะไม่ถูกอัปโหลดไปยังคลาวด์"</string>
+    <string name="anti_peeping_privacy_statement_title">คำชี้แจงความเป็นส่วนตัว</string>
+    <string name="anti_peeping_privacy_understand_des">"คุณสมบัตินี้ใช้กล้องหน้าในการจับภาพและวิเคราะห์ว่ามีบุคคลอื่นที่ไม่ใช่คุณกำลังมองหน้าจอของคุณหรือไม่ หากตรวจพบกิจกรรมดังกล่าว คุณจะได้รับการแจ้งเตือนเพื่อช่วยปกป้องความเป็นส่วนตัวของคุณ
+คุณสามารถเลือกแอปที่ต้องการปกป้องได้ \"ตรวจจับการมองของบุคคลอื่น\" จะเปิดใช้งานโดยอัตโนมัติเมื่อแอปเหล่านั้นแสดงผลแบบเต็มหน้าจอ"</string>
+    <string name="anti_peeping_privacy_understand_title">เกี่ยวกับ \"การตรวจจับการจ้องมองของผู้อื่น\"</string>
+    <string name="anti_peeping_recommend_apps_button_open">เปิดใช้งาน</string>
+    <string name="anti_peeping_recommend_tips">%s ผู้ใช้เลือกแอปต่อไปนี้</string>
+    <string name="anti_peeping_recommend_title">แอปแนะนำ</string>
+    <string name="anti_peeping_search_key">ตรวจจับการจ้องมองของผู้อื่น</string>
+    <string name="anti_peeping_search_keywords">ตรวจจับการจ้องมองของผู้อื่น;การจ้องมองของผู้อื่น;การแสดงผลแบบส่วนตัว;การแสดงผลแบบส่วนตัว;การแสดงผลแบบส่วนตัว</string>
+    <string name="anti_peeping_splash_confirm">ต่อไป</string>
+    <string name="anti_peeping_splash_custom_des">ฟังก์ชันนี้จะเปิดใช้งานเมื่อแอปที่คุณเลือกแสดงผลแบบเต็มหน้าจอ</string>
+    <string name="anti_peeping_splash_custom_title">เลือกแอปที่ต้องการปกป้อง</string>
+    <string name="anti_peeping_splash_dialog_des"><Data>อุปกรณ์ของคุณจะตรวจสอบอย่างต่อเนื่องว่ามีผู้ใดกำลังดูหน้าจอของคุณอยู่หรือไม่ และจะแจ้งเตือนคุณหากตรวจพบ &lt;font color=#3482FF>เรียนรู้เพิ่มเติม&lt;/font></Data></string>
+    <string name="anti_peeping_splash_identify_des">ตรวจจับว่ามีคนอื่นกำลังดูหน้าจอของคุณอยู่หรือไม่</string>
+    <string name="anti_peeping_splash_identify_title">ตรวจจับผู้อื่นที่กำลังดูอยู่</string>
+    <string name="anti_peeping_splash_notify_des">รองรับ Xiaomi HyperIsland และการแจ้งเตือนแบบสั่น</string>
+    <string name="anti_peeping_splash_notify_title">รับการแจ้งเตือนเกี่ยวกับความเป็นส่วนตัว</string>
+    <string name="anti_peeping_vibrate_demo_toast">คุณจะได้รับการแจ้งเตือนเมื่อตรวจพบการจ้องมองของบุคคลอื่น</string>
+    <string name="anti_peeping_vibration_not_enabled"><Data>การตอบสนองการสัมผัสปิดอยู่ การแจ้งเตือนจะแสดงผ่าน Xiaomi HyperIsland &lt;font color=#3482FF>เปิดใช้งาน&lt;/font></Data></string>
+    <string name="anti_peeping_vibration_not_enabled_no_fallback"><Data>การตอบสนองการสัมผัสปิดอยู่ การแจ้งเตือนไม่พร้อมใช้งาน &lt;font color=#3482FF>เปิดใช้งาน&lt;/font></Data></string>
     <string name="antispam_add_black_number_message">หมายเลขที่คุณป้อนสั้นเกินไป ต้องการบล็อกหมายเลขทั้งหมดที่ขึ้นต้นด้วยตัวเลขเหล่านี้หรือไม่?</string>
     <string name="antispam_add_black_number_negative">ไม่ใช่</string>
     <string name="antispam_add_black_number_positive">ใช่</string>
@@ -288,7 +330,7 @@
     <string name="app_behavior_key_location">ตำแหน่งพิกัด</string>
     <string name="app_behavior_link_start">เริ่มต้นแบบพ่วง</string>
     <string name="app_behavior_list_load_more">กำลังโหลด…</string>
-    <string name="app_behavior_menu_about">เกี่ยวกับบันทึกพฤติกรรมแอป</string>
+    <string name="app_behavior_menu_about">บันทึกเกี่ยวกับพฤติกรรมแอป</string>
     <string name="app_behavior_no_recorder">ยังไม่มีอะไรในนี้</string>
     <string name="app_behavior_now_running">กำลังทำงาน</string>
     <string name="app_behavior_perm_allow_always_danger_tip">แอปอาจมีการดำเนินการที่ละเอียดอ่อนเมื่อได้รับอนุญาต</string>
@@ -623,6 +665,12 @@
     <string name="apps_item_virus_ignore_text">เพิกเฉย</string>
     <string name="apps_item_virus_summary_installed">ติดตั้งแอปแล้ว</string>
     <string name="apps_item_virus_summary_uninstalled">APK</string>
+    <string name="apps_layout_all_apps">แอปทั้งหมด</string>
+    <string name="apps_layout_all_freeform_apps">แอปที่ใช้งานได้</string>
+    <string name="apps_layout_recommend_apps">แอปแนะนำ</string>
+    <string name="apps_layout_search_app">ค้นหาแอป</string>
+    <string name="apps_layout_search_app_no_result">ไม่พบผลลัพธ์</string>
+    <string name="apps_layout_shortcut">ปุ่มลัด</string>
     <string name="apps_list_header_title_sms">ตรวจสอบแอปข้อความ</string>
     <string name="apps_list_header_title_sms_access">จำกัดการเข้าถึงรหัสยืนยัน</string>
     <string name="ask_create_shortcut">สร้างปุ่มลัดหน้าจอหลักหรือไม่?</string>
@@ -719,6 +767,9 @@
     <string name="back_sound_support_china">ปิด WLAN ก่อน</string>
     <string name="background_restrict_app_dialog_message">การจำกัดการเข้าถึงเครือข่ายในพื้นหลังสำหรับแอปนี้อาจทำให้แอปไม่สามารถทำงานได้ตามปกติ รับข้อความ ดาวน์โหลดเนื้อหา ฯลฯ จำกัดหรือไม่?</string>
     <string name="background_traffic">พื้นหลัง %s</string>
+    <string name="background_virus_scan_notification_summary">มีแอปหลายรายการรวมถึง %s แตะเพื่อดู</string>
+    <string name="background_virus_scan_notification_summary_one">แตะเพื่อดู</string>
+    <string name="background_virus_scan_notification_title_one">ตรวจพบ %s แอปพลิเคชันที่เป็นอันตราย</string>
     <string name="backsound_set_hint">ตั้งเสียงปฏิเสธสายสำหรับ %s?</string>
     <string name="banner_optimizemanage_summary">เพิ่มพื้นที่หน่วยความจำ</string>
     <string name="banner_red_money_assist_button">เปิดใช้งาน</string>
@@ -979,7 +1030,9 @@
     <string name="bubble_notification_switch">แสดงบทสนทนาแบบฟองสบู่</string>
     <string name="bubble_notification_switch_desc">เมื่อแอป Messenger ในหน้าต่างลอยถูกซ่อนไว้ที่ขอบหน้าจอ ให้แสดงข้อความเข้าแบบฟองสบู่</string>
     <string name="bubble_pickup_voice_print_auto">กำลังบันทึกพิมพ์เสียง…</string>
+    <string name="bubble_pickup_voice_print_auto_v2">กำลังบันทึกข้อมูลเสียงและใบหน้า…</string>
     <string name="bubble_pickup_voice_print_success">บันทึกพิมพ์เสียงแล้ว</string>
+    <string name="bubble_pickup_voice_print_success_v2">บันทึกข้อมูลเสียงและใบหน้าแล้ว</string>
     <string name="button_background_connection">อนุญาต</string>
     <string name="button_block_calls_from_cantacts">ปลดบล็อก</string>
     <string name="button_block_calls_from_strangers">ปลดบล็อก</string>
@@ -1025,6 +1078,13 @@
     <string name="call_delete_hint">ลบสายเรียกเข้าที่ถูกบล็อกทั้งหมดจากเลขหมายนี้?</string>
     <string name="call_delete_title">ลบประวัติการโทร</string>
     <string name="call_empty_number">หมายเลขว่างเปล่า</string>
+    <string name="call_filter_ad_promotion">โฆษณา</string>
+    <string name="call_filter_education_training">การศึกษา</string>
+    <string name="call_filter_high_risk">ความเสี่ยงสูง</string>
+    <string name="call_filter_insurance_finance">ประกันภัย</string>
+    <string name="call_filter_loan_promotion">เงินกู้</string>
+    <string name="call_filter_real_estate">อสังหาริมทรัพย์</string>
+    <string name="call_filter_renovation_repair">ซ่อมแซมบ้าน</string>
     <string name="call_forwarding_block">สายที่ถูกโอน</string>
     <string name="call_intercept_settings">การตั้งค่ารายการบล็อกการโทร</string>
     <string name="call_notification_answer_action">รับสาย</string>
@@ -1038,6 +1098,19 @@
     <string name="call_overseas_block">การโทรระหว่างประเทศ</string>
     <string name="call_prefix">รายการบล็อกตามเลขหมายนำหน้า</string>
     <string name="call_private">บล็อกการโทรจากไม่มีเบอร์</string>
+    <string name="call_reason_ad_promotion_mark">โฆษณา</string>
+    <string name="call_reason_ad_promotion_mark_large">โฆษณา</string>
+    <string name="call_reason_education_training_mark">การศึกษา</string>
+    <string name="call_reason_education_training_mark_large">การศึกษา</string>
+    <string name="call_reason_high_risk_mark">ความเสี่ยงสูง</string>
+    <string name="call_reason_insurance_finance_mark">ประกันภัย</string>
+    <string name="call_reason_insurance_finance_mark_large">ประกันภัย</string>
+    <string name="call_reason_loan_promotion_mark">เงินกู้</string>
+    <string name="call_reason_loan_promotion_mark_large">เงินกู้</string>
+    <string name="call_reason_real_estate_mark">อสังหาริมทรัพย์</string>
+    <string name="call_reason_real_estate_mark_large">อสังหาริมทรัพย์</string>
+    <string name="call_reason_renovation_repair_mark">ซ่อมแซมบ้าน</string>
+    <string name="call_reason_renovation_repair_mark_large">ซ่อมแซมบ้าน</string>
     <string name="call_stranger_block">บล็อกการโทรจากสายแปลกหน้า</string>
     <string name="call_transfer_block">บล็อคสายที่ถูกโอนมา</string>
     <string name="call_transfer_info">บล็อกสายที่ถูกโอนมาจากเลขหมายที่ไม่รู้จัก</string>
@@ -1110,6 +1183,10 @@
     <string name="cetus_invisible_mode">โหมดไม่ระบุตัวตน</string>
     <string name="cetus_invisible_mode_description_card">ระงับการอนุญาต</string>
     <string name="cetus_invisible_mode_description_switch">เปิดเพื่อระงับไมโครโฟน กล้องและสิทธิ์ที่เกี่ยวข้องกับตำแหน่งสำหรับแอปทั้งหมด</string>
+    <string name="cetus_invisible_mode_notice_audio">คุณอยู่ในโหมดไม่ระบุตัวตน ไม่สามารถใช้ไมโครโฟนได้ในขณะนี้</string>
+    <string name="cetus_invisible_mode_notice_camera">คุณอยู่ในโหมดไม่ระบุตัวตน ไม่สามารถใช้กล้องถ่ายรูปได้ในขณะนี้</string>
+    <string name="cetus_invisible_mode_notice_location">คุณอยู่ในโหมดไม่ระบุตัวตน ไม่สามารถใช้บริการระบุตำแหน่งได้ในขณะนี้</string>
+    <string name="cetus_invisible_mode_notice_tip">แตะเพื่อปิดโหมดไม่ระบุตัวตนในการตั้งค่า</string>
     <string name="cetus_invisible_mode_warn_all">คุณไม่ระบุตัวตน สิทธิ์เข้าถึงไมโครโฟน กล้อง และบริการตำแหน่งปิดอยู่</string>
     <string name="cetus_invisible_mode_warn_camera">คุณอยู่ในโหมดไม่ระบุตัวตน การอนุญาตของกล้องถูกระงับ</string>
     <string name="cetus_invisible_mode_warn_location">คุณไม่ระบุตัวตน สิทธิ์บริการตำแหน่งปิดอยู่</string>
@@ -1155,6 +1232,8 @@
     <string name="click_to_set_carrier">แตะเพื่อตั้งค่า</string>
     <string name="click_to_set_personalized_reminder">ตั้งการเตือน</string>
     <string name="click_to_set_traffic">แตะเพื่อตั้งค่า</string>
+    <string name="clip_notification_close_summary">หยุดรับคำเตือนเมื่อแอปเข้าถึงคลิปบอร์ดหรือไม่?</string>
+    <string name="clip_notification_close_title">ปิดการแจ้งเตือนการเข้าถึงคลิปบอร์ด</string>
     <string name="clipboard_ai_allow">การจัดการที่ชาญฉลาด</string>
     <string name="clipboard_ai_allow_summary">ให้ระบบพิจารณาว่าแอปสามารถเข้าถึงเนื้อหาคลิปบอร์ดได้หรือไม่ และแจ้งเตือนคุณเมื่อเข้าถึงได้</string>
     <string name="close">ปิด</string>
@@ -1221,7 +1300,7 @@
     <string name="connected_device_notification_permission">การอนุญาตการแจ้งเตือน</string>
     <string name="connected_device_screen_permission">การอนุญาตหน้าจอ</string>
     <string name="connected_device_share_desktop_permission">การอนุญาตหน้าจอหลัก+</string>
-    <string name="connected_devices_camera">กล้อง</string>
+    <string name="connected_devices_camera">กล้องถ่ายรูป</string>
     <string name="connected_devices_camera_desc">อนุญาตให้อุปกรณ์ใกล้เคียงที่ลงชื่อเข้าใช้บัญชีเดียวกันถ่ายภาพและบันทึกวิดีโอบนอุปกรณ์นี้</string>
     <string name="connected_devices_camera_title">อนุญาตให้อุปกรณ์ด้านบนถ่ายภาพและบันทึกวิดีโอบนอุปกรณ์นี้ไหม</string>
     <string name="connected_devices_files">ไฟล์</string>
@@ -1244,7 +1323,7 @@
     <string name="connected_devices_permission">การเชื่อมต่อระหว่างกันและการอนุญาต</string>
     <string name="connected_devices_permission_settings">การเชื่อมต่อระหว่างกันและการอนุญาต</string>
     <string name="connected_devices_permission_summary">จัดการการเข้าถึงอุปกรณ์นี้</string>
-    <string name="connected_devices_record">บันทึก</string>
+    <string name="connected_devices_record">บันทึกเสียง</string>
     <string name="connected_devices_record_desc">อนุญาตให้อุปกรณ์ใกล้เคียงที่ลงชื่อเข้าใช้บัญชีเดียวกันบันทึกเสียงบนอุปกรณ์นี้</string>
     <string name="connected_devices_record_title">อนุญาตให้อุปกรณ์ด้านบนบันทึกเสียงบนอุปกรณ์นี้ไหม?</string>
     <string name="connected_devices_screen">หน้าจอ</string>
@@ -1252,6 +1331,7 @@
     <string name="connected_devices_screen_title">อนุญาตให้อุปกรณ์ด้านบนดูและโต้ตอบกับเนื้อหาบนหน้าจอของอุปกรณ์นี้ไหม?</string>
     <string name="connected_interconnection">การเชื่อมต่อระหว่างกัน</string>
     <string name="connecting">กำลังเชื่อมต่อ…</string>
+    <string name="contacts_will_also_be_blocked">รวมถึงรายชื่อผู้ติดต่อ</string>
     <string name="continue_install">ติดตั้ง</string>
     <string name="continue_set">ดำเนินการต่อ</string>
     <string name="convenient_mode">ปลดล็อกแอปทั้งหมดในครั้งเดียว</string>
@@ -1302,32 +1382,40 @@
     <string name="cs_pickup_vioce_print_guide_dialog_desc">วางสายและทำตามคำแนะนำเพื่อเริ่มต้น</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">หากต้องการรับเสียงจากบุคคลเพียงคนเดียว ให้บันทึกเสียงพูดก่อน</string>
     <string name="cs_pickup_vioce_print_in_private_tips">บันทึกลายเสียงของคุณเพื่อให้สามารถตั้งค่าการลดเสียงรบกวนเป็นแบบส่วนตัวได้</string>
+    <string name="cs_pickup_vioce_print_in_private_tips_v2">บันทึกข้อมูลเสียงและใบหน้าของคุณเพื่อตั้งค่าการลดเสียงรบกวนเป็นโหมดส่วนตัว</string>
     <string name="cs_pickup_vioce_print_private_dialog_title">บันทึกพิมพ์เสียง</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title_v2">บันทึกข้อมูลเสียงและใบหน้า</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">บันทึกเสียงพิมพ์ก่อนเลือก \"ผู้เข้าร่วมคนเดียว\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">ตัดการเชื่อมต่ออุปกรณ์ภายนอกแล้วลองอีกครั้ง</string>
     <string name="cs_pickup_voice_print_auto_dialog_tips">"เสียงของคุณจะถูกบันทึกและประมวลผลบนอุปกรณ์นี้เท่านั้น
 สำหรับผลลัพธ์ที่ดีที่สุด ควรบันทึกเพียงลำพังในสถานที่เงียบสงบ"</string>
     <string name="cs_pickup_voice_print_auto_dialog_title">ต้องใช้พิมพ์เสียงเพื่อลดเสียงรบกวนส่วนบุคคล</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title_v2">จำเป็นต้องใช้ข้อมูลลายนิ้วมือเสียงและใบหน้าสำหรับการลดเสียงรบกวนแบบเฉพาะบุคคล</string>
     <string name="cs_pickup_voice_print_desc">รับเสียงจากบุคคลเดียวเท่านั้น</string>
     <string name="cs_privacy_camera_global_settings_title">ความเป็นส่วนตัวในการโทร</string>
     <string name="cs_record_voice_title">บันทึก</string>
     <string name="cs_screen_translation_title">การแปลภาษาจากหน้าจอ</string>
     <string name="cs_simultaneous_interpretation_title">ตีความ</string>
+    <string name="cs_simultaneous_interpretation_title_2">แปล</string>
     <string name="cs_title_pickup">ลดเสียงรบกวน</string>
     <string name="cs_title_smart_subtitle">การถอดคำบรรยาย</string>
     <string name="cs_title_ultraclear">โหมด Ultra HD</string>
     <string name="cs_tool_box_max_screen_guide_case_1">ลองใช้การตีความพร้อมกันและเครื่องมือการประชุมทางโทรศัพท์อื่นๆ ในกล่องเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_max_screen_guide_case_1_new">ลองใช้การตีความพร้อมกัน, ฟรุ๊งฟริ๊ง, และเครื่องมือการประชุมทางโทรศัพท์อื่นๆ ในกล่องเครื่องมือการโทรใหม่</string>
+    <string name="cs_tool_box_max_screen_guide_case_1_new_v2">ลองใช้ฟังก์ชันแปลภาษา จัดรูปแบบข้อความให้สวยงาม และอื่นๆ อีกมากมายในชุดเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_max_screen_guide_case_2">ลองใช้คุณสมบัติการประชุมทางโทรศัพท์ที่หลากหลายในกล่องเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_max_screen_guide_case_2_new">ทดลองใช้ ฟรุ๊งฟริ๊ง และเครื่องมือการประชุมทางโทรศัพท์อื่นๆ ในกล่องเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_max_screen_guide_case_3_new">ลองใช้คุณสมบัติการประชุมทางโทรศัพท์ที่หลากหลายในกล่องเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_max_screen_guide_case_4_new">ลองใช้การตีความพร้อมกันและเครื่องมือการประชุมทางโทรศัพท์อื่นๆ ในกล่องเครื่องมือการโทรใหม่</string>
+    <string name="cs_tool_box_max_screen_guide_case_4_new_v2">ลองใช้ฟังก์ชันแปลภาษาและฟังก์ชันอื่นๆ ในชุดเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_phone_guide_case_1">ลองใช้การตีความพร้อมกันและคุณสมบัติอื่นๆ ในกล่องเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_phone_guide_case_1_new">ทดลองใช้การตีความพร้อมกัน การปรับปรุงความสวยงาม และอื่นๆ อีกมากมายในกล่องเครื่องมือการโทรใหม่</string>
+    <string name="cs_tool_box_phone_guide_case_1_new_v2">ลองใช้ฟังก์ชันแปลภาษา จัดรูปแบบข้อความให้สวยงาม และอื่นๆ อีกมากมายในชุดเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_phone_guide_case_2">ลองใช้คุณสมบัติต่างๆ ในกล่องเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_phone_guide_case_2_new">ลองใช้ ฟรุ๊งฟริ๊ง และฟีเจอร์อื่นๆ ในกล่องเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_phone_guide_case_3_new">ลองใช้งานฟีเจอร์ที่ยอดเยี่ยมมากมายในกล่องเครื่องมือการโทรใหม่</string>
     <string name="cs_tool_box_phone_guide_case_4_new">ลองใช้การตีความพร้อมกันและคุณสมบัติอื่นๆ ในกล่องเครื่องมือการโทรใหม่</string>
+    <string name="cs_tool_box_phone_guide_case_4_new_v2">ลองใช้ฟังก์ชันแปลภาษาและฟังก์ชันอื่นๆ ในชุดเครื่องมือการโทรใหม่</string>
     <string name="cs_voice_print">บันทึกพิมพ์เสียง</string>
     <string name="cs_voice_search">พิมพ์เสียง</string>
     <string name="cs_vt_camera_title">กล้องข้ามอุปกรณ์</string>
@@ -1927,7 +2015,7 @@ Xiaomi ไม่สัญญาหรือรับประกันควา�
     <string name="firewall_restrict_data">จำกัดการใช้ข้อมูลมือถือ</string>
     <string name="firewall_restrict_notify_title">%s ไม่สามารถใช้เครือข่ายได้</string>
     <string name="firewall_restrict_wlan">จำกัดการใช้การเชื่อมต่อ Wi-Fi</string>
-    <string name="firewall_statement_msg">เนื่องจากข้อจำกัดของระบบและข้อกำหนดด้านคุณภาพของผู้ให้บริการ แอปจำนวนไม่มากอาจใช้ข้อมูลมือถือต่อไปได้แม้ว่าจะปิดอยู่ก็ตาม หากคุณพบสถานการณ์นี้ โปรดแจ้งให้เราทราบใน บริการและข้อเสนอแนะ</string>
+    <string name="firewall_statement_msg">เนื่องจากข้อจำกัดของระบบและข้อกำหนดด้านคุณภาพของผู้ให้บริการ แอปบางแอปอาจยังคงใช้ข้อมูลมือถืออยู่แม้จะถูกปิดอยู่ก็ตาม หากคุณพบสถานการณ์นี้ โปรดแจ้งให้เราทราบใน บริการและข้อเสนอแนะ</string>
     <string name="firewall_statement_no_more">อย่าเตือนฉันอีก</string>
     <string name="firewall_statement_ok">รับทราบ</string>
     <string name="firewall_statement_title">โปรดทราบ</string>
@@ -2106,13 +2194,14 @@ Xiaomi ไม่สัญญาหรือรับประกันควา�
     <string name="function_shield_title">ปรับปรุงประสบการณ์</string>
     <string name="function_shield_voice_trigger">อย่าปลุก Mi AI ด้วยเสียง</string>
     <string name="fw_blocked">รายการบล็อก</string>
-    <string name="fw_blocked_count">"บล็อคแล้ว "</string>
+    <string name="fw_blocked_count">"บล็อกแล้ว "</string>
     <string name="fw_blocked_join">" และ "</string>
     <string name="fw_oversea">บล็อกการโทรจากผู้ติดต่อต่างประเทศ</string>
     <string name="fw_oversea_content">บล็อกสายเรียกเข้าจากหมายเลขโทรศัพท์ต่างประเทศ</string>
     <string name="gallery_confirm_start_activity">%s ไม่ได้รับอนุญาตให้เข้าถึงแอปแกลเลอรีและโซเชียลมีเดียของคุณ แอปนี้ต้องการเข้าถึงรูปภาพที่เก็บไว้ในอุปกรณ์นี้เพื่อแชร์รายการ อนุญาต?</string>
     <string name="game_ad_recommendation">ทุกคนกำลังเล่น</string>
     <string name="game_anti_disturb_msg">เกมส์ DND</string>
+    <string name="game_audio_label_international">เสียงเกม</string>
     <string name="game_balance_gpu_enhance_title">การปรับปรุง GPU แบบแยกส่วน</string>
     <string name="game_balance_more_setting_title">การตั้งค่าเพิ่มเติม</string>
     <string name="game_balance_none_gpu_enhance_subtitle">ประสิทธิภาพการปรับปรุงภาพ</string>
@@ -2142,7 +2231,7 @@ Xiaomi ไม่สัญญาหรือรับประกันควา�
     <string name="game_perf_config_motion_desc">ปรับความไวสัมผัสในการเล่นเกม</string>
     <string name="game_perf_config_network_desc">ลดความล่าช้าและความสั่นไหวของเครือข่าย</string>
     <string name="game_perf_config_network_title">เร่งความเร็วเครือข่าย</string>
-    <string name="game_perf_config_strategy_diy">กำหนดเอง</string>
+    <string name="game_perf_config_strategy_diy">ปรับแต่ง</string>
     <string name="game_perf_config_strategy_fps_first">ให้ความมสำคัญกับอัตราเฟรม</string>
     <string name="game_perf_config_strategy_picture_first">ให้ความมสำคัญกับรูปภาพ</string>
     <string name="game_perf_config_strategy_title">กลยุทธ์การดำเนินงาน</string>
@@ -2156,7 +2245,7 @@ Xiaomi ไม่สัญญาหรือรับประกันควา�
     <string name="game_toolbox_ai_service_title">บริการเกมเอไอ</string>
     <string name="game_toolbox_ai_upgrade_dialog_btn">อัปเดต</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">มีการอัปเดตสำหรับบริการเกม AI แล้ว โปรดอัปเดตก่อนใช้งานฟีเจอร์ที่เกี่ยวข้อง</string>
-    <string name="game_toolbox_ai_upgrade_dialog_title">ตรวจหาการอัปเดต</string>
+    <string name="game_toolbox_ai_upgrade_dialog_title">ตรวจสอบการอัปเดต</string>
     <string name="game_toolbox_auto_brightness_talkback">ความสว่างอัตโนมัติ</string>
     <string name="game_toolbox_btn_back_talkback">ย้อนกลับ</string>
     <string name="game_toolbox_cellular_network">เพิ่มความเร็วเครือข่ายมือถือ</string>
@@ -2230,7 +2319,7 @@ Xiaomi ไม่สัญญาหรือรับประกันควา�
     <string name="game_toolbox_slow_charge_negative_btn">ยกเลิก </string>
     <string name="game_toolbox_slow_charge_notification_msg">คุณสมบัตินี้ปรับปรุงประสบการณ์การเล่นเกมขณะชาร์จโดยการลดความเร็วในการชาร์จ ซึ่งจะช่วยป้องกันไม่ให้อุปกรณ์ของคุณร้อนเกินไป</string>
     <string name="game_toolbox_slow_charge_notification_title">กำลังชาร์จช้า</string>
-    <string name="game_toolbox_slow_charge_positive_btn">เปิดใช้งาน</string>
+    <string name="game_toolbox_slow_charge_positive_btn">เปิด</string>
     <string name="game_toolbox_slow_charge_title">ชาร์จช้า</string>
     <string name="game_toolbox_slow_charge_toast">ชาร์จช้าเปิดอยู่</string>
     <string name="game_toolbox_smart_charge_title">การชาร์จอัจฉริยะ</string>
@@ -2243,7 +2332,7 @@ Xiaomi ไม่สัญญาหรือรับประกันควา�
     <string name="game_toolbox_super_shake_msg">ลดการสั่นสะเทือนจากการแตะและปัด ช่วยเพิ่มเสถียรภาพในการควบคุม</string>
     <string name="game_toolbox_super_shake_msg_4.5">ปรับความไวในการควบคุม: ตั้งค่าสูงเพื่อการตอบสนองที่รวดเร็วขึ้น ตั้งค่าต่ำเพื่อความเสถียรที่มากขึ้น</string>
     <string name="game_toolbox_title">เครื่องมือการเล่นเกม</string>
-    <string name="game_toolbox_title_game_center">เกม</string>
+    <string name="game_toolbox_title_game_center">เกมส์</string>
     <string name="game_toolbox_title_wild">โหมดสุดยอด</string>
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost เปิดอยู่</string>
     <string name="game_toolbox_wild_mode_toast_tip">ประสิทธิภาพของอุปกรณ์ได้รับการปรับปรุงอย่างมีนัยสำคัญ</string>
@@ -2297,12 +2386,14 @@ Xiaomi ไม่สัญญาหรือรับประกันควา�
     <string name="gamebox_func_antimsg_open">การแจ้งเตือนแบบลอยถูกจำกัดขณะนี้</string>
     <string name="gamebox_func_immersion_close">โหมด Immersive ปิดอยู่</string>
     <string name="gamebox_func_immersion_open">โหมด Immersive เปิดอยู่</string>
+    <string name="gamebox_func_start_gyroscope_international">เปิดใช้งานเซ็นเซอร์ไจโรสโคปในการตั้งค่าเกมเพื่อใช้คุณสมบัตินี้</string>
     <string name="gamebox_func_switch_simcard">สลับเป็นซิม %1$d สำหรับข้อมูล</string>
     <string name="gamebox_func_switch_simcard_immersion">ไม่สามารถสลับซิมในโหมด Immersive</string>
     <string name="gamebox_func_wlan_close">Wi-Fi ปิดอยู่ขณะนี้</string>
     <string name="gamebox_func_wlan_open">Wi-Fi เปิดอยู่ขณะนี้</string>
     <string name="gamebox_game_center_app_not_find">ติดตั้ง เกม ก่อน</string>
     <string name="gamebox_gift_pack">ของขวัญ</string>
+    <string name="gamebox_gyroscope_acceleration_international">ไจโรบูสต์</string>
     <string name="gamebox_hangup">ปิดใช้งานหน้าจอ</string>
     <string name="gamebox_hangup_new">ปิดใช้งานหน้าจอ</string>
     <string name="gamebox_hangup_tips_content">คุณลักษณะนี้ช่วยให้คุณปิดหน้าจอได้ แต่เกมยังคงทำงานในพื้นหลัง มันจะปิดโดยอัตโนมัติเมื่อคุณปลดล็อคอุปกรณ์ของคุณ</string>
@@ -2483,6 +2574,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_game_macro_toast_tips">"ลองใช้คอมโบ!
 บันทึกลำดับและใช้ได้ทุกเมื่อ!"</string>
     <string name="gb_game_mode_change_btn_right">รีสตาร์ท</string>
+    <string name="gb_game_mode_change_failed_toast">ไม่สามารถบันทึกได้</string>
     <string name="gb_game_mode_change_message">เริ่มเกมใหม่เพื่อใช้การเปลี่ยนแปลงตอนนี้?</string>
     <string name="gb_game_mode_change_new">สลับระหว่างเค้าโครงที่นี่</string>
     <string name="gb_game_mode_change_title">เริ่มเกมใหม่</string>
@@ -2525,6 +2617,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_gpu_driver_update_app_tips">เวอร์ชั่นปัจจุบันเป็นเวอร์ชันล่าสุดแล้ว</string>
     <string name="gb_have_signed">วันนี้เช็คอินแล้ว</string>
     <string name="gb_hot_area_seekbar">ช่วงฮอตโซน</string>
+    <string name="gb_launch_mute_start">ปิดเสียง</string>
+    <string name="gb_launch_mute_start_enbaled_toast">โหมดปิดเสียงเปิดอยู่ (click)ปิดใช้งาน(/click)</string>
+    <string name="gb_launch_mute_start_unmuted_toast">คืนค่าเสียงแล้ว</string>
     <string name="gb_manual_record_dialog_del_video_message">ลบไฟล์ที่เลือกไว้อย่างถาวร?</string>
     <string name="gb_manual_video_record_title">กำลังบันทึกเสียง</string>
     <string name="gb_margin_restrain">ละเว้นการสัมผัสที่ขอบโดยไม่ตั้งใจ</string>
@@ -2713,8 +2808,17 @@ Xiaomi Gaming Cooler"</string>
     <string name="gd_app_edit_title_new">แก้ไขปุ่มลัดหน้าต่างลอย</string>
     <string name="gd_beauty_manage_summary">เปิดจากกล่องเครื่องมือด้านข้างระหว่างการโทรวิดีโอเพื่อใช้ฟีเจอร์นี้</string>
     <string name="gd_beauty_manage_title">ฟรุ๊งฟริ๊งสำหรับวิดีโอคอล</string>
+    <string name="gd_dock_preview_section_title">วิธีการเปิด</string>
+    <string name="gd_dock_preview_sidebar_title">ลากตัวบ่งชี้เข้าด้านใน</string>
+    <string name="gd_dock_preview_swipe_title">ลากค้างไว้</string>
     <string name="gd_dock_shortcut_fullscreen">เต็มหน้าจอ</string>
+    <string name="gd_dock_shortcut_multisplitscreen">หน้าจอแยก MultiSplit</string>
     <string name="gd_dock_shortcut_splitescreen">แบ่งหน้าจอ</string>
+    <string name="gd_dock_swipe_launcher_upgrade_hint">เวอร์ชันตัวเรียกใช้งานปัจจุบันไม่รองรับการลากและกดค้าง</string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_cancel">ยกเลิก </string>
+    <string name="gd_dock_xiaoai_ball_dialog_btn_confirm">สลับ</string>
+    <string name="gd_dock_xiaoai_ball_dialog_content">คุณสามารถลากค้างไว้เพื่อเปิดไอคอนแจ้งเตือน Xiaomi Hyper XiaoAi ได้ หากคุณสลับไปยังแถบเครื่องมือด้านข้าง ไอคอนแจ้งเตือน Xiaomi Hyper XiaoAi จะปิดลง สลับเลยไหม?</string>
+    <string name="gd_dock_xiaoai_ball_dialog_title">สลับวิธีการเปิดใช้งาน?</string>
     <string name="gd_setting_conversation">เครื่องมือการประชุม</string>
     <string name="gd_setting_conversation_desc">มีคุณสมบัติที่หลากหลายสำหรับใช้ในการสนทนาทางเสียงและวิดีโอแบบเต็มหน้าจอ</string>
     <string name="gd_setting_dock_activity_title">กล่องเครื่องมือด้านข้าง</string>
@@ -2768,6 +2872,7 @@ Xiaomi Gaming Cooler"</string>
 · กดตัวบ่งชี้ค้างไว้เพื่อเลื่อนหน้าต่างไปรอบๆ"</string>
     <string name="global_dock_guide_desc_without_split_screen_new">"ปัดเพื่อเปิดแถบด้านข้างแล้วแตะแอปเพื่อเปิดในหน้าต่างลอย
 กดตัวบ่งชี้ค้างไว้เพื่อย้ายหน้าต่างไปรอบๆ"</string>
+    <string name="global_dock_recommend_switch_title">แสดงแอปที่แนะนำในแถบด้านข้าง</string>
     <string name="global_satisfaction_notification_button">ให้คะแนน</string>
     <string name="global_satisfaction_notification_channel">แบบสำรวจความพึงพอใจของผู้ใช้</string>
     <string name="global_satisfaction_notification_subhead">เล่าประสบการณ์ของคุณให้ฟังหน่อย</string>
@@ -3009,6 +3114,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="install_title">ติดตั้งผ่าน USB</string>
     <string name="install_type_instant">Instant app</string>
     <string name="installing">กำลังติดตั้ง</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">หลายแอปรวมถึง %s กำลังละเมิดสิทธิ์การเข้าถึง</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">แอปนี้กำลังละเมิดสิทธิ์การเข้าถึง แตะเพื่อดูข้อมูลเพิ่มเติม</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">แอปที่เป็นอันตรายถูกบล็อก %s</string>
     <string name="intercept_all_mark_calls">บล็อกสายเรียกเข้าทั้งหมดที่มีป้ายกำกับว่า \"%s\" หรือไม่?</string>
     <string name="intercept_calls_nofify_hide_text">หากต้องการตั้งค่ากฎการบล็อกสำหรับหมายเลขอื่นๆ ที่มีป้ายกำกับ ให้แตะที่นี่</string>
     <string name="intercept_calls_notify_title">สายเรียกเข้าที่มีป้ายกำกับนี้จะถูกตัดโดยอัตโนมัติ ต้องการบล็อกเลยหรือไม่?</string>
@@ -3420,6 +3528,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">สลับไปยังครึ่งหน้าจอ</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">ขยายใหญ่สุด</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">ย่อเล็กสุด</string>
+    <string name="miuix_popup_show_description">หน้าต่างป๊อปอัป</string>
     <string name="miuix_popup_window_default_title">หน้าต่างป๊อปอัป</string>
     <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
@@ -3661,6 +3770,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="notification_abnormal_check_now_button">เรียกดู</string>
     <string name="notification_abnormal_consume_app_title">%s สูบพลังงานจากแบตเตอรี่</string>
     <string name="notification_abnormal_consume_cpu">ทรัพยากรของ CPU ถูกใช้อย่างไม่เหมาะสมในพื้นหลัง</string>
+    <string name="notification_abnormal_consume_high_drain_app_title">%s กำลังทำให้แบตเตอรี่หมดเร็ว</string>
+    <string name="notification_abnormal_consume_high_drain_subtitle">มีการใช้แบตเตอรี่สูงในพื้นหลัง</string>
     <string name="notification_abnormal_consume_wakelock">ระบบจะตื่นตัวอยู่เบื้องหลัง</string>
     <string name="notification_antivirus_button_text">สแกน</string>
     <string name="notification_antivirus_message">สแกนเดี๋ยวนี้เพื่อลดความเสี่ยง</string>
@@ -3748,7 +3859,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s ใช้ไป %2$s ในสัปดาห์นี้</string>
     <string name="now_inquiry">รายละเอียด</string>
     <string name="number_address">ตำแหน่งพิกัด</string>
+    <string name="number_locked_v2">{count, plural, =0 {0 แอปถูกล็อก} other {# แอปถูกล็อก} }</string>
+    <string name="number_masked_v2">{count, plural, =0 {0 แอป} other {# แอป} }</string>
     <string name="number_of_lucky_money">อั่งเปาที่คุณได้รับแจ้งเตือน</string>
+    <string name="number_to_lock_v2">{count, plural, =0 {0 แอปไม่ถูกล็อก} other {# แอปไม่ถูกล็อก} }</string>
     <string name="numeric_need_to_confirm">ป้อนอีกครั้งเพื่อยืนยัน</string>
     <string name="numeric_password_confirmed_header_confirm">ตั้งค่าเรียบร้อยแล้ว แตะยืนยัน</string>
     <string name="numeric_password_confirmed_header_continue">ตั้งค่าเรียบร้อยแล้ว แตะ \"ถัดไป\"</string>
@@ -3797,7 +3911,15 @@ Xiaomi Gaming Cooler"</string>
     <string name="open_activity_err">ไม่พบแอ็พพลิเคชัน</string>
     <string name="open_app">เปิด</string>
     <string name="open_applock">เปิดใช้งานล็อกแอป</string>
+    <string name="open_applock_calling_tips">ล็อกแอปและยืนยันตัวตนของคุณเมื่อเปิดแอป ล็อกแอปมีรหัสผ่านสองแบบและรองรับการยืนยันตัวตนแบบไบโอเมตริกซ์</string>
+    <string name="open_applock_calling_title">ล็อกแอป</string>
     <string name="open_applock_password_type">ประเภทรหัสผ่าน</string>
+    <string name="open_applock_tip_item1_sub_title">ใช้รหัสผ่านป้องกันความเป็นส่วนตัวหรือรหัสผ่านล็อกหน้าจอของคุณ</string>
+    <string name="open_applock_tip_item1_title">รหัสผ่านสองประเภท</string>
+    <string name="open_applock_tip_item2_sub_title">ปลดล็อกแอปด้วยลายนิ้วมือหรือข้อมูลใบหน้า</string>
+    <string name="open_applock_tip_item2_title">การตรวจสอบด้วยระบบไบโอเมตริก</string>
+    <string name="open_applock_tip_item3_sub_title">เลือกกำหนดให้มีการยืนยันตัวตนหลังจากล็อกหน้าจอ หลังจากเวลาที่กำหนด หรือหลังจากออกจากแอป</string>
+    <string name="open_applock_tip_item3_title">การกำหนดเวลาการตรวจสอบแบบกำหนดเอง</string>
     <string name="open_applock_tips">ล็อกแอปและยืนยันตัวตนของคุณเมื่อเปิดแอป ล็อกแอปมีรหัสผ่านสองแบบและรองรับการยืนยันตัวตนแบบไบโอเมตริกซ์</string>
     <string name="open_callwait">เปิด</string>
     <string name="open_dnd_mode">โหมดห้ามรบกวน</string>
@@ -3825,8 +3947,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">การใช้แอปที่เป็นอันตรายทำให้เกิดความเสี่ยงด้านความปลอดภัย</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s อาจเป็นแอปที่เป็นอันตราย</string>
     <string name="optimize_manage_title">เพิ่มความเร็ว</string>
     <string name="optimize_result_available_memory_info">หน่วยความจำพร้อมใช้งาน</string>
     <string name="optimize_result_button_cloudspace">ขอรับพื้นที่จัดเก็บข้อมูลคลาวด์เพิ่ม</string>
@@ -3879,6 +3999,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="overlay_permission_dialog_message_security_service">การรักษาความปลอดภัยต้องการการอนุญาตบางอย่างเพื่อให้ทำงานได้ตามปกติ</string>
     <string name="overlay_permission_dialog_open">การตั้งค่า</string>
     <string name="overlay_permission_dialog_title">ต้องการการอนุญาต</string>
+    <string name="overlay_read_clip_toast">\"%1$s\" เข้าถึงคลิปบอร์ดแล้ว</string>
     <string name="package_change_notification_summary">แตะเพื่อเรียนรู้เพิ่มเติม</string>
     <string name="package_change_notification_title">ปรับแก้การจำกัดข้อมูลโดยอัตโนมัติ</string>
     <string name="package_setted_error_notification_summary">แตะเพื่อเรียกดูรายละเอียดการใช้ข้อมูล</string>
@@ -3910,6 +4031,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_abnormal_header_time">เวลา</string>
     <string name="pb_abnormal_header_type">ประเภท</string>
     <string name="pb_abnormal_header_value">ค่า</string>
+    <string name="pb_abnormal_idle_high_temp">เครื่องยนต์ร้อนจัดขณะไม่ได้ใช้งาน</string>
     <string name="pb_abnormal_loading">รอสักครู่…</string>
     <string name="pb_abnormal_record">ประวัติ</string>
     <string name="pb_activity_title">รายละเอียดของพาวเวอร์แบงค์</string>
@@ -3921,6 +4043,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_data_fetch_all_error">ไม่สามารถอ่านข้อมูลได้ อาจเป็นเพราะพาวเวอร์แบงค์ไม่ได้เชื่อมต่อหรือไม่รองรับ</string>
     <string name="pb_data_fetch_all_error_new">ไม่สามารถอ่านข้อมูลได้ อาจเป็นเพราะพาวเวอร์แบงค์ไม่ได้เชื่อมต่อหรือไม่รองรับ หากไม่ได้เชื่อมต่อ โปรดเชื่อมต่อสายชาร์จแล้วลองใหม่อีกครั้ง</string>
     <string name="pb_data_fetch_partial_error">สินค้าบางรายการอาจไม่พร้อมจำหน่ายเนื่องจากความล่าช้าหรือพาวเวอร์แบงค์ไม่รองรับ</string>
+    <string name="pb_data_fetch_partial_error_new">สินค้าบางรายการอาจไม่พร้อมจำหน่ายเนื่องจากความล่าช้าหรือพาวเวอร์แบงค์ไม่รองรับ</string>
     <string name="pb_manufacturer">ผู้ผลิต</string>
     <string name="pb_measure_point">เซ็นเซอร์ %1$d</string>
     <string name="pb_production_date">วันที่ผลิต</string>
@@ -4238,6 +4361,210 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_work_in_super_save_mode">ตัวประหยัดแบตเตอรี่อัลตร้า</string>
     <string name="pc_xiaoai_create_auto_task">งานใหม่จาก Mi AI</string>
     <string name="pc_xiaoai_voice_control_close">ปิด \"ปลุกด้วยเสียง\" ของ Mi AI</string>
+    <string name="peep_protection_ai_key_disabled">การแสดงผลความเป็นส่วนตัวปิดอยู่</string>
+    <string name="peep_protection_ai_key_enabled">การแสดงผลความเป็นส่วนตัวเปิดอยู่</string>
+    <string name="peep_protection_v2_app_notification_protection">การแจ้งเตือน</string>
+    <string name="peep_protection_v2_app_notification_protection_desc">การแจ้งเตือนจากแอปที่เลือกจะเปิดใช้งานการแสดงผลแบบส่วนตัว</string>
+    <string name="peep_protection_v2_app_protection_desc">เปิดใช้งานการแสดงผลแบบความเป็นส่วนตัวสำหรับแอปที่เลือก</string>
+    <string name="peep_protection_v2_banner_summary">ลองใช้คุณสมบัติความเป็นส่วนตัวในการแสดงผลที่มีเฉพาะในรุ่นนี้</string>
+    <string name="peep_protection_v2_banner_title">จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi</string>
+    <string name="peep_protection_v2_batch_disable">ปิดใช้งาน</string>
+    <string name="peep_protection_v2_batch_enable">เปิดใช้งาน</string>
+    <string name="peep_protection_v2_category_capability">คุณสมบัติเด่น</string>
+    <string name="peep_protection_v2_category_capability_v2">การตรวจจับการจ้องมอง</string>
+    <string name="peep_protection_v2_category_finance">การเงิน</string>
+    <string name="peep_protection_v2_category_group_title_v2">%1$s (%2$d)</string>
+    <string name="peep_protection_v2_category_other">อื่นๆ</string>
+    <string name="peep_protection_v2_category_recommend">แนะนำ</string>
+    <string name="peep_protection_v2_category_scene">สถานการณ์</string>
+    <string name="peep_protection_v2_category_scene_v2">หน้าจอ</string>
+    <string name="peep_protection_v2_category_smart">สมาร์ท</string>
+    <string name="peep_protection_v2_category_social">โซเชียลเน็ตเวิร์ค</string>
+    <string name="peep_protection_v2_category_suggest">แนะนำ</string>
+    <string name="peep_protection_v2_category_tip_dismiss">ไม่ ขอบคุณ</string>
+    <string name="peep_protection_v2_category_tip_message">ให้ Xiaomi Hyper XiaoAi ช่วยคุณสร้างกลุ่มแอปส่วนตัว ตัวอย่างเช่น คุณสามารถเพิ่มแกลเลอรี รหัสผ่าน และบันทึกย่อลงในกลุ่มแสดงผลเพื่อความเป็นส่วนตัวที่ชื่อว่า \"Subway\" นอกจากนี้ คุณยังสามารถบอก Xiaomi Hyper XiaoAi ว่าคุณต้องการจัดกลุ่มแอปอย่างไร และเพิ่มกฎการเปิดใช้งานอัจฉริยะอื่นๆ ได้อีกด้วย</string>
+    <string name="peep_protection_v2_category_tip_prompt">สร้างกลุ่มแอปสำหรับการแสดงผลแบบส่วนตัว เพิ่ม %1$s ลงในกลุ่มนี้ ตั้งชื่อกลุ่มว่า \"ส่วนตัว\" และเปิดใช้งานการแสดงผลแบบส่วนตัวสำหรับแอปเหล่านี้</string>
+    <string name="peep_protection_v2_category_tip_title">สร้างกลุ่มของคุณเอง</string>
+    <string name="peep_protection_v2_color_inversion_closed_msg">ฟังก์ชันนี้ใช้ไม่ได้กับการกลับสี Xiaomi Privacy Display ปิดอยู่</string>
+    <string name="peep_protection_v2_color_inversion_closed_reopen">เปิดใช้งาน</string>
+    <string name="peep_protection_v2_color_inversion_closed_title">Xiaomi Privacy Display ถูกปิดใช้งาน</string>
+    <string name="peep_protection_v2_color_inversion_conflict_msg">คุณสมบัตินี้ใช้ไม่ได้กับการกลับสี ปิดการกลับสีก่อน</string>
+    <string name="peep_protection_v2_color_inversion_conflict_title">ปิดใช้งานการกลับสี</string>
+    <string name="peep_protection_v2_cue_byapp_reason">เปิดใช้งานจอแสดงผลส่วนตัวสำหรับแอปนี้</string>
+    <string name="peep_protection_v2_cue_byapp_title">เปิดใช้งานจอแสดงผลส่วนตัวสำหรับ %s</string>
+    <string name="peep_protection_v2_cue_global_reason">ลองใช้คุณสมบัติความเป็นส่วนตัวที่มีเฉพาะในอุปกรณ์รุ่นนี้</string>
+    <string name="peep_protection_v2_cue_global_title">เปิดใช้งานจอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi</string>
+    <string name="peep_protection_v2_cue_summary">คุณสมบัตินี้มีเฉพาะในอุปกรณ์รุ่นนี้เท่านั้น</string>
+    <string name="peep_protection_v2_deep_mode">ความเป็นส่วนตัวที่ได้รับการปรับปรุง</string>
+    <string name="peep_protection_v2_deep_mode_desc">ทำให้หน้าจอของคุณยากต่อการมองเห็นสำหรับผู้อื่น</string>
+    <string name="peep_protection_v2_expert_mode_hint">*ต้องเปลี่ยน Xiaomi Hyper XiaoAi เป็นโหมดโปรก่อน</string>
+    <string name="peep_protection_v2_face_need_input_hint">ต้องระบุข้อมูลใบหน้า</string>
+    <string name="peep_protection_v2_first_close_message">เพิ่มจอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi ใน ศูนย์ควบคุม > แก้ไข > ตัวเลือกการตั้งค่าระบบ เพื่อเปิดหรือปิดใช้งานได้อย่างรวดเร็ว</string>
+    <string name="peep_protection_v2_first_close_title">เปิดใช้งาน จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi อย่างรวดเร็ว</string>
+    <string name="peep_protection_v2_first_close_title_v2">สวิทช์</string>
+    <string name="peep_protection_v2_global_first_open_msg">เพิ่มการตั้งค่าความเป็นส่วนตัวแบบเต็มหน้าจอใน ศูนย์ควบคุม > แก้ไข > ตัวเลือกการตั้งค่าระบบ เพื่อเปิดหรือปิดใช้งานได้อย่างรวดเร็ว</string>
+    <string name="peep_protection_v2_global_first_open_title">เปิดใช้งานโหมดความเป็นส่วนตัวแบบเต็มหน้าจออย่างรวดเร็ว</string>
+    <string name="peep_protection_v2_global_hint">ไม่สามารถตรวจจับสายตาของผู้อื่นได้ขณะเปิดใช้งานโหมดความเป็นส่วนตัวแบบเต็มหน้าจอ</string>
+    <string name="peep_protection_v2_global_no_aon_hint">เพื่อประหยัดพลังงาน ระบบจะตรวจจับการจ้องมองของผู้อื่นขณะเปิดใช้งานโหมดความเป็นส่วนตัวแบบเต็มหน้าจอ</string>
+    <string name="peep_protection_v2_global_protection">ความเป็นส่วนตัวแบบเต็มหน้าจอ</string>
+    <string name="peep_protection_v2_global_protection_desc">ใช้โหมดแสดงผลเพื่อความเป็นส่วนตัวในสถานการณ์ต่างๆ บนอุปกรณ์ของคุณ</string>
+    <string name="peep_protection_v2_global_protection_desc_v2">หน้าจอแสดงผลเพื่อความเป็นส่วนตัวจะเปิดใช้งานอยู่ตลอดเวลาบนอุปกรณ์ของคุณ</string>
+    <string name="peep_protection_v2_go_miclaw">เปิด Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_header_desc_v2">การมองเห็นหน้าจอจากมุมด้านข้างจะลดลง อุปกรณ์ของคุณจะแจ้งเตือนเมื่อตรวจพบการจ้องมองของบุคคลอื่น (click)เรียนรู้เพิ่มเติม(/click)</string>
+    <string name="peep_protection_v2_intro_detection_desc">ตั้งค่ากฎอัจฉริยะสำหรับฟีเจอร์นี้ด้วย Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_intro_enable">เปิดใช้งาน</string>
+    <string name="peep_protection_v2_intro_pixel_desc">ลดมุมมองของหน้าจอและตรวจจับเมื่อมีคนอื่นกำลังมองอยู่</string>
+    <string name="peep_protection_v2_intro_pixel_title">ความเป็นส่วนตัวในระดับฮาร์ดแวร์</string>
+    <string name="peep_protection_v2_intro_privacy_tip">ทำให้หน้าจอของคุณมองเห็นได้ยากขึ้นจากด้านข้าง ด้วยระบบตรวจจับและแจ้งเตือนอย่างต่อเนื่องเมื่อมีคนอื่นกำลังมองอยู่</string>
+    <string name="peep_protection_v2_intro_scope_desc_global">เลือกแอปและการแจ้งเตือนที่ต้องการ หรือใช้คุณสมบัตินี้กับอุปกรณ์ทั้งหมด</string>
+    <string name="peep_protection_v2_intro_smart_page_desc">เลือกแอป เพจ และการแจ้งเตือนที่ต้องการ หรือใช้คุณสมบัตินี้กับอุปกรณ์ทั้งหมด</string>
+    <string name="peep_protection_v2_intro_smart_page_title">สถานการณ์ต่างๆ</string>
+    <string name="peep_protection_v2_learn_more">เรียนรู้เพิ่มเติม</string>
+    <string name="peep_protection_v2_learn_more_limits_desc">"คุณสมบัตินี้อาจทำให้การใช้พลังงานเพิ่มขึ้นเล็กน้อย โดยจะปิดใช้งานชั่วคราวเพื่อประหยัดแบตเตอรี่เมื่อเปิดใช้งานโหมดประหยัดแบตเตอรี่
+เมื่อดูตัวอย่างเนื้อหา HDR การแสดงผลแบบส่วนตัวจะหยุดชั่วคราวเพื่อให้แน่ใจว่าคุณภาพการแสดงผลดี
+การแสดงผลแบบส่วนตัวจะหยุดชั่วคราวในโหมดแนวนอนและจะเริ่มใหม่โดยอัตโนมัติหลังจากที่คุณกลับไปที่โหมดแนวตั้ง
+ธีมของบุคคลที่สามบางธีมยังไม่รองรับการแสดงผลแบบส่วนตัวสำหรับการแจ้งเตือนบนหน้าจอล็อก
+อาจมีความล่าช้าในการตรวจจับการมาถึงหรือการออกจากสถานที่ต่างๆ"</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global">"คุณสมบัตินี้อาจทำให้การใช้พลังงานเพิ่มขึ้นเล็กน้อย โดยจะปิดใช้งานชั่วคราวเพื่อประหยัดแบตเตอรี่เมื่อเปิดใช้งานโหมดประหยัดแบตเตอรี่
+เมื่อดูตัวอย่างเนื้อหา HDR การแสดงผลแบบส่วนตัวจะหยุดชั่วคราวเพื่อให้แน่ใจว่าคุณภาพการแสดงผลดี
+การแสดงผลแบบส่วนตัวจะหยุดชั่วคราวในโหมดแนวนอนและจะเริ่มต้นใหม่โดยอัตโนมัติหลังจากที่คุณกลับไปที่โหมดแนวตั้ง
+ธีมของบุคคลที่สามบางธีมยังไม่รองรับการแสดงผลแบบส่วนตัวสำหรับการแจ้งเตือนบนหน้าจอล็อก"</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_global_hdr">"คุณสมบัตินี้อาจทำให้การใช้พลังงานเพิ่มขึ้นเล็กน้อย โดยจะปิดใช้งานชั่วคราวเพื่อประหยัดแบตเตอรี่เมื่อเปิดใช้งานโหมดประหยัดแบตเตอรี่
+เมื่อดูตัวอย่างเนื้อหา HDR การแสดงผลแบบส่วนตัวจะหยุดชั่วคราวเพื่อให้แน่ใจว่าคุณภาพการแสดงผลดี
+การแสดงผลแบบส่วนตัวจะหยุดชั่วคราวในโหมดแนวนอนและจะเริ่มต้นใหม่โดยอัตโนมัติหลังจากที่คุณกลับไปที่โหมดแนวตั้ง
+ธีมของบุคคลที่สามบางธีมยังไม่รองรับการแสดงผลแบบส่วนตัวสำหรับการแจ้งเตือนบนหน้าจอล็อก"</string>
+    <string name="peep_protection_v2_learn_more_limits_desc_hdr">"คุณสมบัตินี้อาจทำให้การใช้พลังงานเพิ่มขึ้นเล็กน้อย โดยจะปิดใช้งานชั่วคราวเพื่อประหยัดแบตเตอรี่เมื่อเปิดใช้งานโหมดประหยัดแบตเตอรี่
+เมื่อดูตัวอย่างเนื้อหา HDR การแสดงผลแบบส่วนตัวจะหยุดชั่วคราวเพื่อให้แน่ใจว่าคุณภาพการแสดงผลดี
+การแสดงผลแบบส่วนตัวจะหยุดชั่วคราวในโหมดแนวนอนและจะเริ่มใหม่โดยอัตโนมัติหลังจากที่คุณกลับไปที่โหมดแนวตั้ง
+ธีมของบุคคลที่สามบางธีมยังไม่รองรับการแสดงผลแบบส่วนตัวสำหรับการแจ้งเตือนบนหน้าจอล็อก
+อาจมีความล่าช้าในการตรวจจับการมาถึงหรือการออกจากสถานที่ต่างๆ"</string>
+    <string name="peep_protection_v2_learn_more_limits_title">ข้อจำกัดและกรณีพิเศษ</string>
+    <string name="peep_protection_v2_learn_more_privacy_desc">"หลังจากเปิดใช้งานฟีเจอร์นี้แล้ว อุปกรณ์อาจใช้กล้องหน้าในการถ่ายภาพและตรวจจับใบหน้าหรือทิศทางการมองในเครื่องเมื่อเปิดใช้งานการตรวจจับการมอง เพื่อระบุว่ามีบุคคลอื่นที่ไม่ใช่คุณกำลังมองหน้าจออยู่หรือไม่ และจะแจ้งเตือนคุณ
+ข้อมูลทั้งหมดจะถูกประมวลผลบนอุปกรณ์ของคุณและจะไม่ถูกอัปโหลดไปยัง Xiaomi คลาวด์ หรือบริการคลาวด์ของบุคคลที่สามใดๆ"</string>
+    <string name="peep_protection_v2_learn_more_privacy_title">คำชี้แจงสิทธิส่วนบุคคล</string>
+    <string name="peep_protection_v2_learn_more_scope_desc">"คุณสามารถเลือกวิธีการทำงานของ จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi ได้: ทั่วทั้งอุปกรณ์ ในแอปที่เลือก ในหน้าเว็บที่มีข้อมูลสำคัญ หรือสำหรับการแจ้งเตือน
+
+ความเป็นส่วนตัวแบบเต็มหน้าจอ:
+จอแสดงผลเพื่อความเป็นส่วนตัว จะเปิดใช้งานอยู่ทั่วทั้งอุปกรณ์ของคุณเพื่อช่วยปกป้องทุกสิ่งที่คุณดู การมองของผู้อื่นจะไม่ถูกตรวจจับในขณะที่ฟีเจอร์นี้เปิดอยู่
+
+แอปที่เลือก:
+เลือกแอปที่คุณต้องการปกป้อง เมื่อแอปเหล่านี้แสดงบนหน้าจอ จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi จะลดการมองเห็นจากมุมด้านข้างและตรวจจับว่ามีคนอื่นกำลังมองอยู่หรือไม่
+
+หน้าเว็บที่มีข้อมูลสำคัญ:
+แม้ว่าบางแอปจะยังไม่ได้เพิ่มลงในรายการ จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi ก็สามารถเปิดใช้งานโดยอัตโนมัติสำหรับหน้าเว็บที่มีข้อมูลสำคัญ เช่น การป้อนรหัสผ่าน การชำระเงิน การโอนเงิน และการส่งข้อความ
+
+การแจ้งเตือนจากแอป:
+การแจ้งเตือนจากแอปที่คุณเลือกจะแสดงพร้อมการปกป้องความเป็นส่วนตัวบางส่วนเพื่อช่วยป้องกันไม่ให้ผู้อื่นเห็นข้อมูลสำคัญ"</string>
+    <string name="peep_protection_v2_learn_more_scope_desc_global">"คุณสามารถเลือกวิธีการทำงานของ จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi ได้: ทั่วทั้งอุปกรณ์ ในแอปที่เลือก หรือสำหรับการแจ้งเตือน
+
+ความเป็นส่วนตัวแบบเต็มหน้าจอ:
+จอแสดงผลเพื่อความเป็นส่วนตัว จะเปิดอยู่ทั่วทั้งอุปกรณ์ของคุณเพื่อช่วยปกป้องทุกสิ่งที่คุณดู การมองของผู้อื่นจะไม่ถูกตรวจจับในขณะที่ฟีเจอร์นี้เปิดอยู่
+
+แอปที่เลือก:
+เลือกแอปที่คุณต้องการปกป้อง เมื่อแอปเหล่านี้แสดงบนหน้าจอ จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi จะลดการมองเห็นจากมุมด้านข้างและตรวจจับว่ามีคนอื่นกำลังมองอยู่หรือไม่
+
+การแจ้งเตือนจากแอป:
+การแจ้งเตือนจากแอปที่คุณเลือกจะแสดงด้วยการปกป้องความเป็นส่วนตัวบางส่วนเพื่อช่วยป้องกันไม่ให้ผู้อื่นเห็นข้อมูลที่ละเอียดอ่อน"</string>
+    <string name="peep_protection_v2_learn_more_scope_title">ขอบเขตการแสดงความเป็นส่วนตัว</string>
+    <string name="peep_protection_v2_learn_more_smart_desc">คุณสามารถใช้ผู้ช่วย AI ของคุณในการสร้างและจัดการกลุ่มแอปแสดงผลแบบส่วนตัว เปิดใช้งานโหมดความเป็นส่วนตัวแบบเต็มหน้าจอโดยอัตโนมัติในที่สาธารณะ หรือเปิดใช้งานกลุ่มที่กำหนดไว้โดยอัตโนมัติ นอกจากนี้ คุณยังสามารถปรับขอบเขตการแสดงผลแบบส่วนตัวและกฎการทำงานเพื่อให้เหมาะสมกับพฤติกรรมของคุณได้ดียิ่งขึ้น</string>
+    <string name="peep_protection_v2_learn_more_smart_title">กฎการบล็อกแบบปรับแต่งเอง</string>
+    <string name="peep_protection_v2_learn_more_understand_desc">"จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi ผสานการลดการมองเห็นจากด้านข้างเข้ากับการแจ้งเตือนความเป็นส่วนตัว เพื่อช่วยปกป้องทั้งการมองจากมุมกว้างและการมองจากมุมแคบในระยะใกล้ ทำให้คุณได้รับการปกป้องความเป็นส่วนตัวที่สมบูรณ์ยิ่งขึ้น
+
+การลดการมองเห็นจากด้านข้าง:
+ด้วยการควบคุมแสงหน้าจอในระดับพิกเซล เนื้อหาบนหน้าจอจะมองเห็นได้ยากขึ้นอย่างรวดเร็วเมื่อมุมมองเพิ่มขึ้น ซึ่งช่วยลดโอกาสที่ผู้อื่นจะเห็นข้อมูลส่วนตัวของคุณ
+
+การแจ้งเตือนความเป็นส่วนตัว:
+เพื่อเสริมการลดการมองเห็นจากด้านข้าง ระบบสามารถแจ้งเตือนคุณเมื่อตรวจพบว่ามีบุคคลอื่นที่ไม่ใช่คุณกำลังมองหน้าจอจากด้านหลังหรือจากมุมแคบอื่นๆ"</string>
+    <string name="peep_protection_v2_learn_more_understand_title">เกี่ยวกับจอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi</string>
+    <string name="peep_protection_v2_main_body">การมองเห็นหน้าจอจากมุมด้านข้างจะลดลง อุปกรณ์ของคุณจะตรวจสอบอยู่เสมอว่ามีใครกำลังมองหน้าจออยู่หรือไม่ และจะแจ้งเตือนคุณเมื่อตรวจพบการจ้องมองของบุคคลอื่น (คลิก)เรียนรู้เพิ่มเติม(/คลิก)</string>
+    <string name="peep_protection_v2_main_desc">ปกป้องหน้าจอของคุณจากการจ้องมองของผู้อื่น</string>
+    <string name="peep_protection_v2_main_switch">จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi</string>
+    <string name="peep_protection_v2_main_switch_desc">ใช้โหมดความเป็นส่วนตัวและตรวจจับการจ้องมองของผู้อื่น</string>
+    <string name="peep_protection_v2_main_switch_desc_v2">อนุญาตให้อุปกรณ์เปิดใช้งานโหมดความเป็นส่วนตัวตามสถานการณ์ที่เลือกไว้</string>
+    <string name="peep_protection_v2_main_switch_title_v2">จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi</string>
+    <string name="peep_protection_v2_main_tile_label">จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi</string>
+    <string name="peep_protection_v2_move_app_title_v2">ย้าย %s ไปยัง</string>
+    <string name="peep_protection_v2_move_app_to_category">ย้าย %s ไปยังกลุ่ม</string>
+    <string name="peep_protection_v2_notification_protection">จอแสดงผลส่วนตัวการแจ้งเตือน</string>
+    <string name="peep_protection_v2_notification_protection_desc">การแจ้งเตือนจากแอปที่เลือกจะเปิดใช้งานการแสดงผลแบบส่วนตัว</string>
+    <string name="peep_protection_v2_notification_protection_desc_v2">การแจ้งเตือนจากแอปที่คุณเลือกจะแสดงขึ้นโดยมีการปกป้องความเป็นส่วนตัวบางส่วน</string>
+    <string name="peep_protection_v2_notify_type_desc">คุณจะได้รับการแจ้งเตือนเมื่อตรวจพบการจ้องมองของบุคคลอื่น</string>
+    <string name="peep_protection_v2_notify_type_title">แจ้งเตือนความเป็นส่วนตัว</string>
+    <string name="peep_protection_v2_page_detail_category_title">หน้าต่อไปนี้ในแอปนี้ได้รับการปกป้องด้วยนโยบายความเป็นส่วนตัว</string>
+    <string name="peep_protection_v2_page_protection_desc">เปิดใช้งานการแสดงผลแบบความเป็นส่วนตัวสำหรับบางหน้าเว็บ</string>
+    <string name="peep_protection_v2_peep_detection_desc_v2">ตรวจจับการจ้องมองและแจ้งเตือนคุณ</string>
+    <string name="peep_protection_v2_peep_island_action_dismiss_v2">ไม่สนใจ</string>
+    <string name="peep_protection_v2_peep_island_subtitle_v2">ไม่ต้องเตือนอีก</string>
+    <string name="peep_protection_v2_privacy_statement">ฟีเจอร์นี้ใช้ข้อมูลใบหน้าในการตรวจจับการมอง การประมวลผลข้อมูลทั้งหมดจะทำบนอุปกรณ์ของคุณและจะไม่ถูกแชร์</string>
+    <string name="peep_protection_v2_recommend_title">แอปแนะนำ</string>
+    <string name="peep_protection_v2_search_app">การแสดงความเป็นส่วนตัวของแอป;การแสดงความเป็นส่วนตัวสำหรับแอป;แอปที่เลือก</string>
+    <string name="peep_protection_v2_search_empty_hint">ผลการค้นหาจะปรากฏที่นี่</string>
+    <string name="peep_protection_v2_search_global">ความเป็นส่วนตัวแบบเต็มหน้าจอ;เต็มหน้าจอ</string>
+    <string name="peep_protection_v2_search_hint">ค้นหาแอป</string>
+    <string name="peep_protection_v2_search_keywords_1">การแสดงความเป็นส่วนตัว</string>
+    <string name="peep_protection_v2_search_keywords_2">พิกเซล</string>
+    <string name="peep_protection_v2_search_keywords_3">การจ้องมอง</string>
+    <string name="peep_protection_v2_search_no_result">ไม่พบผลลัพธ์</string>
+    <string name="peep_protection_v2_search_notification">การแสดงความเป็นส่วนตัวของการแจ้งเตือน;การแสดงความเป็นส่วนตัวสำหรับการแจ้งเตือน;การแจ้งเตือนแอป</string>
+    <string name="peep_protection_v2_search_notify_type">แจ้งเตือนความเป็นส่วนตัว;ตรวจจับการมอง;ปกป้องความเป็นส่วนตัว;การแจ้งเตือนการมอง</string>
+    <string name="peep_protection_v2_search_page">การแสดงความเป็นส่วนตัวของหน้าเว็บ;การแสดงความเป็นส่วนตัวสำหรับหน้าเว็บ</string>
+    <string name="peep_protection_v2_search_smart_enable">ระบบเปิดใช้งานอัจฉริยะ;การแสดงผลความเป็นส่วนตัวอัตโนมัติ</string>
+    <string name="peep_protection_v2_select_apps">แอปที่เลือก</string>
+    <string name="peep_protection_v2_select_apps_category_tip">คุณสามารถสร้าง จัดการ ลบ หรือเปลี่ยนชื่อกลุ่มแอปแสดงผลความเป็นส่วนตัวได้ใน (คลิก)Xiaomi Hyper XiaoAi(/คลิก)</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">ในโหมดโปร Xiaomi Hyper XiaoAi คุณสามารถสร้าง จัดการ ลบ หรือเปลี่ยนชื่อหมวดหมู่แอปแสดงผลความเป็นส่วนตัวได้</string>
+    <string name="peep_protection_v2_smart_enable">การเปิดใช้งานอัจฉริยะ</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_desc">ใน Xiaomi Hyper XiaoAi คุณสามารถสร้างกฎการแสดงผลเพื่อความเป็นส่วนตัวโดยอิงจากสถานที่ที่คุณไปบ่อยๆ เมื่อคุณไปถึงสถานที่ที่กำหนดไว้ การแสดงผลเพื่อความเป็นส่วนตัวจะเปิดหรือปิดโดยอัตโนมัติ</string>
+    <string name="peep_protection_v2_smart_enable_create_strategy_title">สร้างกฎอัจฉริยะ</string>
+    <string name="peep_protection_v2_smart_enable_desc_v2">สร้างกฎการแสดงผลความเป็นส่วนตัวตามตำแหน่งที่ตั้ง</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint">ยังไม่มีกฎใดๆ สร้างกฎการเปิดใช้งานอัจฉริยะตามตำแหน่งที่ตั้งใน Xiaomi Hyper XiaoAi</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">ยังไม่มีกฎใดๆ คุณสามารถสร้างกฎการเปิดใช้งานอัจฉริยะตามตำแหน่งได้ใน (คลิก)Xiaomi Hyper XiaoAi(คลิก)</string>
+    <string name="peep_protection_v2_smart_enable_page_desc">ใน (click)Xiaomi Hyper XiaoAi(/click) คุณสามารถตั้งค่ากฎอัจฉริยะตามตำแหน่งได้ เช่น เปิดใช้งานโหมดความเป็นส่วนตัวแบบเต็มหน้าจอโดยอัตโนมัติเมื่อคุณอยู่บนรถไฟใต้ดิน เมื่อคุณมาถึงสถานที่ที่กำหนด โหมดความเป็นส่วนตัวจะเปิดใช้งานตามกฎของคุณ</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">ในโหมดโปร ของ Xiaomi Hyper XiaoAi คุณสามารถตั้งค่ากฎการเปิดใช้งานอัจฉริยะตามตำแหน่งได้ เช่น \"เปิดใช้งานโหมดความเป็นส่วนตัวแบบเต็มหน้าจอโดยอัตโนมัติเมื่อฉันอยู่บนรถไฟใต้ดิน\" เมื่อคุณมาถึงสถานที่ที่กำหนด หน้าจอแสดงผลเพื่อความเป็นส่วนตัวจะเปิดใช้งานโดยอัตโนมัติตามกฎที่คุณตั้งไว้</string>
+    <string name="peep_protection_v2_smart_enable_prompt">ช่วยสร้างกฎการตั้งค่าความเป็นส่วนตัวสำหรับหน้าจอหน่อยค่ะ: ฉันมักใช้โทรศัพท์บนรถไฟใต้ดินและในร้านกาแฟ ช่วยสร้างกฎสำหรับสถานการณ์เหล่านี้และตั้งค่าให้เปิดใช้งานการตั้งค่าความเป็นส่วนตัวสำหรับเครือข่ายสังคมออนไลน์และกลุ่มทางการเงินโดยอัตโนมัติเมื่อฉันไปถึงสถานที่เหล่านั้นด้วยค่ะ</string>
+    <string name="peep_protection_v2_smart_enable_prompt_copied">คัดลอกเรียบร้อยแล้ว</string>
+    <string name="peep_protection_v2_smart_enable_sio_unavailable">อนุญาตให้เข้าถึงเพื่อใช้งานฟีเจอร์นี้</string>
+    <string name="peep_protection_v2_smart_enable_switch_desc">ระบุสถานการณ์และเปิดหรือปิดการแสดงผลความเป็นส่วนตัวโดยอัตโนมัติ</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip">เปิดใช้งาน Wi-Fi ไว้เพื่อช่วยให้การทำงานของกฎอัจฉริยะแม่นยำยิ่งขึ้น บางสถานที่อาจตรวจจับได้ช้าหรืออาจตรวจจับไม่ได้เลยหากปิด Wi-Fi</string>
+    <string name="peep_protection_v2_smart_enable_wifi_tip_china">เปิดใช้งาน WLAN ไว้เพื่อช่วยให้การทำงานของกฎอัจฉริยะแม่นยำยิ่งขึ้น บางสถานที่อาจตรวจจับได้ช้าหรืออาจตรวจจับไม่ได้เลยหากปิด WLAN</string>
+    <string name="peep_protection_v2_smart_page_active_list">หน้าเว็บเฉพาะในแอปพลิเคชันต่อไปนี้ได้รับการปกป้อง</string>
+    <string name="peep_protection_v2_smart_page_header_title">เปิดใช้งานโดยอัตโนมัติสำหรับหน้าเว็บที่มีข้อมูลอ่อนไหวบางหน้า</string>
+    <string name="peep_protection_v2_smart_page_intro">แม้ว่าคุณจะลืมเพิ่มแอปบางแอป การแสดงผลแบบรักษาความเป็นส่วนตัวก็จะเปิดใช้งานโดยอัตโนมัติเมื่อคุณเปิดหน้าเว็บที่มีข้อมูลสำคัญ เช่น การป้อนรหัสผ่าน การชำระเงิน การโอนเงิน และการส่งข้อความ</string>
+    <string name="peep_protection_v2_smart_page_switch_title">การแสดงความเป็นส่วนตัวของหน้าเว็บ</string>
+    <string name="peep_protection_v2_status_off">ปิด</string>
+    <string name="peep_protection_v2_status_on">เปิด</string>
+    <string name="peep_protection_v2_strategy_action_disable_category">ปิดใช้งานจอแสดงผลส่วนตัวสำหรับ %s</string>
+    <string name="peep_protection_v2_strategy_action_disable_deep">ปิดใช้งานความเป็นส่วนตัวขั้นสูง</string>
+    <string name="peep_protection_v2_strategy_action_disable_default">ปิดใช้งานจอแสดงผลส่วนตัว</string>
+    <string name="peep_protection_v2_strategy_action_disable_global">ปิดใช้งานโหมดความเป็นส่วนตัวแบบเต็มหน้าจอ</string>
+    <string name="peep_protection_v2_strategy_action_disable_target">ปิดใช้งานจอแสดงผลส่วนตัวสำหรับ %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_category">เปิดใช้งานจอแสดงผลส่วนตัวสำหรับ %s</string>
+    <string name="peep_protection_v2_strategy_action_enable_deep">เปิดใช้งานความเป็นส่วนตัวขั้นสูง</string>
+    <string name="peep_protection_v2_strategy_action_enable_default">เปิดใช้งานจอแสดงผลส่วนตัว</string>
+    <string name="peep_protection_v2_strategy_action_enable_global">เปิดใช้งานโหมดความเป็นส่วนตัวแบบเต็มหน้าจอ</string>
+    <string name="peep_protection_v2_strategy_action_enable_target">เปิดใช้งานจอแสดงผลส่วนตัวสำหรับ %s</string>
+    <string name="peep_protection_v2_strategy_action_fallback">Peep protection</string>
+    <string name="peep_protection_v2_strategy_action_separator_leave">; on leave</string>
+    <string name="peep_protection_v2_strategy_arrive_condition">เมื่อมาถึง %1$s</string>
+    <string name="peep_protection_v2_strategy_auto_desc">Arrive at %1$s, auto %2$s</string>
+    <string name="peep_protection_v2_strategy_auto_title">%1$s: %2$s</string>
+    <string name="peep_protection_v2_strategy_delete">Delete</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_msg">ต้องการลบกฎนี้อย่างถาวรหรือไม่?</string>
+    <string name="peep_protection_v2_strategy_delete_confirm_title">ลบกฎนี้?</string>
+    <string name="peep_protection_v2_strategy_detail_title">กฎอัจฉริยะ</string>
+    <string name="peep_protection_v2_strategy_edit_desc_hint">คำอธิบาย</string>
+    <string name="peep_protection_v2_strategy_edit_main_title_hint">ชื่อเรื่อง</string>
+    <string name="peep_protection_v2_strategy_edit_title">แก้ไข</string>
+    <string name="peep_protection_v2_strategy_edit_title_hint">Enter new strategy name</string>
+    <string name="peep_protection_v2_strategy_edit_title_v2">แก้ไขชื่อ</string>
+    <string name="peep_protection_v2_strategy_go_miclaw">ปรับเปลี่ยนกฎ</string>
+    <string name="peep_protection_v2_strategy_leave_condition">เมื่อออกจาก %1$s</string>
+    <string name="peep_protection_v2_strategy_notify_on_trigger">แจ้งเตือนเมื่อเปิดใช้งานการแสดงผลแบบความเป็นส่วนตัว</string>
+    <string name="peep_protection_v2_strategy_prompt_copied">คัดลอกเรียบร้อยแล้ว</string>
+    <string name="peep_protection_v2_strategy_prompt_template">ช่วยแก้ไขกฎจอแสดงผลส่วนตัว \"%1$s\" และปรับการตั้งค่าให้เหมาะสมด้วยครับ</string>
+    <string name="peep_protection_v2_strategy_unknown_location">Unknown location</string>
+    <string name="peep_protection_v2_thermal_paused_toast">ข้อความแจ้งเตือนความเป็นส่วนตัวจะกลับมาแสดงอีกครั้งหลังจากอุปกรณ์เย็นลงแล้ว</string>
+    <string name="peep_protection_v2_tile_label">ความเป็นส่วนตัวแบบเต็มหน้าจอ</string>
+    <string name="peep_protection_v2_title">จอแสดงผลเพื่อความเป็นส่วนตัวของ Xiaomi</string>
     <string name="per_month_pkg_traffic_settings">ตั้งเพดานข้อมูล</string>
     <string name="percent_formatted_text">%s%%</string>
     <string name="percent_text_formatted">%s%%</string>
@@ -4280,6 +4607,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permgroupdesc_storage">เข้าถึงรูปภาพหรือไฟล์บนอุปกรณ์</string>
     <string name="permission_action_accept">ยอมรับ</string>
     <string name="permission_action_ai_prompt">ตัดสินใจแทนฉัน</string>
+    <string name="permission_action_allow_for_compatibility">เฉพาะเครือข่ายท้องถิ่นเท่านั้น</string>
     <string name="permission_action_always">อนุญาตตลอด</string>
     <string name="permission_action_desc">ให้สิทธิ์ แต่ส่งกลับข้อความเปล่าให้แอปเพื่อปกป้องความเป็นส่วนตัว</string>
     <string name="permission_action_desc_always">การอนุญาตนี้สามารถใช้ได้ทุกเวลา</string>
@@ -4293,8 +4621,14 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_action_virtual">ส่งกลับข้อความเปล่า</string>
     <string name="permission_action_virtual_common_summary">ให้สิทธิ์ที่จำเป็นแก่แอป แต่ส่งคืนข้อความเปล่าเพื่อปกป้องความเป็นส่วนตัวของคุณ</string>
     <string name="permission_action_virtual_phone_summary">ให้สิทธิ์ที่เกี่ยวข้องแก่แอป แต่ไม่อนุญาตให้แอปเข้าถึงหมายเลขโทรศัพท์จริงของซิมการ์ด</string>
+    <string name="permission_allow_for_compatibility_note">อนุญาตให้แอปสื่อสารได้เฉพาะกับอุปกรณ์ที่อยู่ในเครือข่ายท้องถิ่นเดียวกันเท่านั้น ไม่รองรับการเชื่อมต่อผ่านบลูทูธและวิธีการเชื่อมต่ออื่นๆ</string>
+    <string name="permission_changed_retry">เปลี่ยนสิทธิ์การเข้าถึงแล้ว โปรดรีสตาร์ทแอป</string>
     <string name="permission_close_permission_control_dialog_msg">เมื่อปิดใช้ตัวจัดการสิทธิ์ แอปต่างๆในเครื่องของคุณจะไม่ต้องร้องขอการอนุญาตคุณก่อนที่จะเข้าถึงรายชื่อผู้ติดต่อ รายการโทรเข้าออก การตั้งค่าระบบหรือใช้งานกล้องและส่วนอื่นๆในระบบ</string>
     <string name="permission_close_permission_control_dialog_title">ปิดใช้งาน?</string>
+    <string name="permission_compatibility_dialog_message">แอปนี้ได้รับการออกแบบมาสำหรับ Android เวอร์ชันเก่า การปฏิเสธการอนุญาตอาจทำให้แอปทำงานไม่ถูกต้องตามที่ตั้งใจไว้</string>
+    <string name="permission_compatibility_dialog_negative_btn">ยกเลิก </string>
+    <string name="permission_compatibility_dialog_positive_btn">ปฎิเสธ</string>
+    <string name="permission_compatibility_dialog_title">แอปนี้อาจทำงานไม่ถูกต้อง</string>
     <string name="permission_exception_title">จำกัดการเชื่อมต่อที่สำหรับแอป</string>
     <string name="permission_group_audio">การอนุญาตนี้ทำให้แอปสามารถเข้าถึงเพลงและไฟล์เสียงอื่นๆ ที่จัดเก็บไว้ในอุปกรณ์นี้</string>
     <string name="permission_group_calendar">การอนุญาตนี้ทำให้แอปสามารถเข้าถึง เพิ่ม ลบ และแก้ไขกิจกรรมในปฏิทิน</string>
@@ -4402,6 +4736,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_with_SMS_and_MMS">อนุญาตเกี่ยวกับข้อความและ MMS</string>
     <string name="permission_with_call_and_contact">การอนุญาตเกี่ยวกับการโทรเข้าออก ข้อมูลผู้ติดต่อ และประวัติการใช้โทรศัพท์</string>
     <string name="permission_with_read_write_clipboard">อนุญาตแอปให้เข้าถึงและบันทึกรายการไปที่คลิปบอร์ด</string>
+    <string name="permisson_reject_notice_toast_text2">ไม่ได้รับอนุญาตให้ใช้งาน %1$s</string>
     <string name="permit_running_network">ข้อมูลพื้นหลัง</string>
     <string name="person_have_hongbao">%1$s ส่งอั่งเปามาให้คุณ!</string>
     <string name="person_hotpot">ฮอตสปอตเคลื่อนที่</string>
@@ -4470,6 +4805,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_center_battery_detail">รายละเอียด</string>
     <string name="power_center_battery_duration">เวลาที่เหลือ</string>
     <string name="power_center_battery_duration_format">%1$s %2$s</string>
+    <string name="power_center_battery_duration_new">เวลาหน้าจอที่เหลืออยู่</string>
     <string name="power_center_battery_duration_screen_on">เวลาหน้าจอที่เหลืออยู่</string>
     <string name="power_center_battery_hardware">ฮาร์ดแวร์ %s</string>
     <string name="power_center_battery_health_poor_tip">ดูเหมือนว่าสุขภาพแบตเตอรี่จะต่ำ ตรวจสอบแบตเตอรี่ของคุณในศูนย์บริการที่ได้รับอนุญาต</string>
@@ -4611,6 +4947,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_idle">โทรศัพท์ไม่ได้ใช้งาน</string>
     <string name="power_main_battery_last_day_hour">ใช้ได้อีก %1$s วัน %2$s ชม.</string>
     <string name="power_main_battery_last_hour_minute">ใช้ได้อีก %1$s ชม. %2$s น.</string>
+    <string name="power_main_battery_last_hour_minute_new">เวลาใช้งานหน้าจอโดยประมาณ: %1$s %2$s</string>
     <string name="power_main_battery_last_hour_minute_screen_on">เวลาอยู่หน้าจอเหลืออยู่ %1$s %2$s</string>
     <string name="power_main_open_last_hour_minute_screen_on">เปิดเพื่อเพิ่ม %1$s %2$s ของเวลาหน้าจอ</string>
     <string name="power_ntc_dialog_btn_finish">รับทราบ</string>
@@ -4760,6 +5097,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="pp_app_warning_permission_tips_detail">แสดงการเตือนเมื่อแอปขอสิทธิ์เข้าถึงตำแหน่ง กล้อง หรือไมโครโฟน</string>
     <string name="pp_clipboard">คลิปบอร์ด</string>
     <string name="pp_none_read_clipboard_item">ไม่แจ้งเตือน</string>
+    <string name="pp_privacy_call_entry">การโทรส่วนบุคคล</string>
+    <string name="pp_privacy_call_entry_demo_desc">ลดการรั่วไหลของเสียงจากหูฟังเพื่อปกป้องความเป็นส่วนตัวในการสนทนา</string>
+    <string name="pp_privacy_call_entry_switch_desc">ใช้งานได้ระหว่างการโทรผ่านหูฟัง คุณสมบัตินี้จะไม่เก็บรวบรวมเนื้อหาการโทรหรือข้อมูลของคุณ</string>
+    <string name="pp_privacy_call_protect">การป้องกันการโทร</string>
+    <string name="pp_privacy_call_switch_off">การโทรส่วนตัวปิดใช้งานอยู่</string>
+    <string name="pp_privacy_call_switch_on">การโทรส่วนตัวเปิดใช้งานอยู่</string>
     <string name="pp_privacy_lab_clipboard_summary">อนุญาตให้อุปกรณ์ของคุณตัดสินใจว่าแอปจะสามารถเข้าถึงคลิปบอร์ดและรับการแจ้งเตือนได้หรือไม่</string>
     <string name="pp_privacy_lab_operator_get_number_summary">กำหนดให้แอปต้องขออนุญาตจากคุณเมื่อต้องการเข้าถึงหมายเลขโทรศัพท์ของคุณเพื่อลงชื่อเข้าใช้</string>
     <string name="pp_privacy_protection">การป้องกัน</string>
@@ -4894,6 +5237,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_description_camera">%1s กำลังใช้กล้องถ่ายรูปในพื้นหลัง คุณสามารถสับสวิทช์ด้านล่างเพื่อจำกัดกิจกรรมนี้</string>
     <string name="privacy_description_camera_mic">%1s กำลังใช้กล้องถ่ายรูปและไมโครโฟนในพื้นหลัง คุณสามารถสับสวิทช์ด้านล่างเพื่อจำกัดกิจกรรมนี้</string>
     <string name="privacy_description_mic">%1s กำลังใช้ไมโครโฟนในพื้นหลัง คุณสามารถสับสวิทช์ด้านล่างเพื่อจำกัดกิจกรรมนี้</string>
+    <string name="privacy_device_unique_feature">คุณสมบัติเฉพาะของอุปกรณ์</string>
     <string name="privacy_dialog_call_item_1">เข้าถึงข้อมูลอุปกรณ์</string>
     <string name="privacy_dialog_call_item_2">โทรออก</string>
     <string name="privacy_dialog_call_item_3">เข้าถึงสถานะอุปกรณ์</string>
@@ -4943,6 +5287,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_flares_recent_detail_more">แอปนี้ได้ใช้การอนุญาตที่ละเอียดอ่อน</string>
     <string name="privacy_global_guide_permission_guide_text">คุณจะได้รับการแจ้งเตือนแถบสถานะเมื่อแอปบันทึกเสียงหรือใช้กล้องถ่ายรูป หากต้องการเรียนรู้ว่าแอปใดทำเช่นนั้นให้แตะการแจ้งเตือน</string>
     <string name="privacy_guide_permission_guide_text">คุณสามารถรับการแจ้งเตือนในแถบสถานะเมื่อแอปเข้าถึง ตำแหน่งของคุณ บันทึกเสียง หรือถ่ายภาพ</string>
+    <string name="privacy_hide_app_notify_auto_close_desc">คุณสมบัตินี้จะป้องกันไม่ให้แอปที่ซ่อนไว้ส่งการแจ้งเตือน หากต้องการรับการแจ้งเตือน ให้ปิด \"ซ่อนการแจ้งเตือน\" หรือยกเลิกการซ่อนแอป</string>
+    <string name="privacy_hide_app_notify_auto_close_title">ปิดการแจ้งเตือน</string>
+    <string name="privacy_hide_app_notify_auto_revoke_summary">ปิดการแจ้งเตือนจากแอปที่ซ่อนไว้โดยอัตโนมัติ</string>
+    <string name="privacy_hide_app_notify_dialog_confirm">รับทราบ</string>
     <string name="privacy_hide_other_permissions">ซ่อนการอนุญาตอื่นๆ</string>
     <string name="privacy_hybrid_password_long">ป้อนไม่เกิน %d ตัวอักษร</string>
     <string name="privacy_hybrid_password_too_short">ป้อนอย่างน้อย %d ตัวอักษร</string>
@@ -5107,6 +5455,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_screen_share_notification_title">ฉายภาพเนื้อหาหน้าจอ</string>
     <string name="privacy_screen_share_protect_tip">ป้องกัน</string>
     <string name="privacy_screen_share_tip">กำลังฉายภาพ</string>
+    <string name="privacy_screen_share_v2_land_subtitle">“%s” กำลังเข้าถึงเนื้อหาหน้าจอ</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">เนื้อหาบนหน้าจอได้รับการคุ้มครอง</string>
+    <string name="privacy_screen_share_v2_notification_title">ฉายภาพเนื้อหาหน้าจอ</string>
+    <string name="privacy_screen_share_v2_small_island_title">แชร์หน้าจอ</string>
     <string name="privacy_search_key_1">ความเป็นส่วนตัว</string>
     <string name="privacy_search_key_10">ID อุปกรณ์</string>
     <string name="privacy_search_key_2">การสกัดกั้นเครือข่าย</string>
@@ -5232,6 +5584,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="repeat_type">วนซ้ำ</string>
     <string name="repeated_marked_number_summary">อย่าบล็อกสายที่สองจากหมายเลขที่รายงานเดียวกันภายใน %d นาที</string>
     <string name="repeated_marked_number_title">ไม่ต้องบล็อกสายเรียกซ้ำจากเลขหมายที่ถูกรายงาน</string>
+    <string name="repeated_stranger_number_summary">อย่าบล็อกสายเรียกเข้าครั้งที่สองจากหมายเลขที่ไม่รู้จักเดียวกันภายใน %d นาที</string>
     <string name="repeated_unknown_number_summary">อย่าบล็อกสายเรียกเข้าครั้งที่สองจากหมายเลขที่ไม่รู้จักเดียวกันภายใน %d นาที</string>
     <string name="replace_dns">แทนที่ค่า DNS โดยอัตโนมัติ</string>
     <string name="report">รายงาน</string>
@@ -5317,10 +5670,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="safe_result_item_info_system_version">ระบบอัปเดตล่าสุดอยู่แล้ว</string>
     <string name="safepay_alert_dialog_button_continue">ดำเนินการต่อ</string>
     <string name="safepay_alert_dialog_button_fix">เรียนรู้เพิ่มเติม</string>
+    <string name="safety">ความปลอดภัย</string>
     <string name="saturday">วันเสาร์</string>
     <string name="saturday_short">เสาร์</string>
     <string name="saturday_shortest">เสาร์</string>
     <string name="save_mode_btn_ok">รับทราบ</string>
+    <string name="save_privacy_pwd_fail_toast">ไม่สามารถบันทึกได้ โปรดลองอีกครั้ง</string>
     <string name="sc_allow_network_dialog_message">คุณจำกัดการเชื่อมต่อเครือข่ายและการเข้าถึงตำแหน่งของคุณเพื่อความปลอดภัย ให้สิทธิ์การรักษาความปลอดภัยที่จำเป็นในการใช้คุณลักษณะนี้</string>
     <string name="sc_allow_network_dialog_tiltle">ไม่สามารถใช้งานคุณลักษณะนี้ได้</string>
     <string name="sc_system_risk_fix_info_xspace">ไม่สามารถแก้ปัญหานี้ได้ในพื้นที่ทับซ้อนได้ ลองอีกครั้งในพื้นที่ปกติ</string>
@@ -5331,6 +5686,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="scan_status_risk">มีความเสี่ยง</string>
     <string name="scan_status_safe">ปลอดภัย</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">การป้องกันการฉ้อโกง</string>
+    <string name="screen_share_search_keyword_1">การแชร์หน้าจอ</string>
+    <string name="screen_share_search_keyword_2">แชร์หน้าจอ</string>
+    <string name="screen_share_search_title">การป้องกันการแชร์หน้าจอ</string>
+    <string name="screen_share_warning_positive_button">หยุด</string>
     <string name="screenrecord_not_find">ติดตั้งตัวบันทึกหน้าจอให้เป็นเวอร์ชันล่าสุดและลองอีกครั้ง</string>
     <string name="sd_eject">ตัดการเชื่อมต่อ SD การ์ด</string>
     <string name="sd_eject_summary">ถอนติดตั้งการ์ด SD เพื่อนำออกอย่างปลอดภัย</string>
@@ -5675,7 +6035,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_call_intercept_oversea">บล็อกการโทรจากผู้ติดต่อต่างประเทศ</string>
     <string name="st_call_intercept_reported">ต้องการบล็อกสายเรียกเข้าที่มีผู้รายงานไว้</string>
     <string name="st_call_intercept_stranger">บล็อกการโทรจากสายแปลกหน้า</string>
-    <string name="st_call_intercept_unknown">บล็อกการโทรจากไม่มีเบอร์</string>
+    <string name="st_call_intercept_unknown">บล็อกสายที่ไม่แสดงเบอร์</string>
     <string name="st_call_mark_agent">อสังหาริมทรัพย์</string>
     <string name="st_call_mark_agent_intercept">อสังหาริมทรัพย์</string>
     <string name="st_call_mark_decoration">การปรับปรุงบ้าน</string>
@@ -5717,13 +6077,17 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_message_phone_AntiSpam">บล็อกการโทร</string>
     <string name="st_message_phonepass">อนุญาตการโทร</string>
     <string name="st_msg_keyword_black">รายการบล็อกคีย์เวิร์ด</string>
+    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
     <string name="st_msg_keyword_group">คีย์เวิร์ด</string>
     <string name="st_msg_keyword_white">คีย์เวิร์ดรายการยกเว้น</string>
+    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
     <string name="st_msg_other_group">อื่นๆ</string>
     <string name="st_msg_settings">รายการบล็อกข้อความ</string>
     <string name="st_msg_stranger_group">บล็อกข้อความจากบุคคลแปลกหน้า</string>
     <string name="st_settings_name">การตั้งค่ารายการบล็อก</string>
     <string name="st_share_settings">ใช้การตั้งค่าซิม %d</string>
+    <string name="st_show_num_keyword_v2">{count, plural, =0 {0 คีย์เวิร์ด } other {# คีย์เวิร์ด } }</string>
+    <string name="st_show_num_number_v2">{count, plural, =0 {0 หมายเลข } other {# หมายเลข } }</string>
     <string name="st_smg_intercept_all">บล็อกข้อความทั้งหมด</string>
     <string name="st_smg_intercept_confirm_dialog_summary_all">ข้อความ SMS และ MMS จากหมายเลขหรือภูมิภาคใดๆ ที่ไม่ได้อยู่ในรายการยกเว้นของคุณจะถูกบล็อก ต้องการบล็อกตอนนี้หรือไม่?</string>
     <string name="st_smg_intercept_confirm_dialog_summary_stranger">ข้อความ SMS และ MMS จากหมายเลขหรือภูมิภาคใดๆ ที่ไม่ได้อยู่ในรายการยกเว้นหรือรายชื่อติดต่อของคุณจะถูกบล็อก ต้องการบล็อกตอนนี้หรือไม่?</string>
@@ -5797,6 +6161,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="status_bar_network_flow_purchase">"   ซื้อเพิ่ม >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   ติดตั้งแผนข้อมูล >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">บล็อก</string>
     <string name="still_retain_btn">เก็บไว้</string>
     <string name="stop_milink_connect">หยุดการฉายภาพหน้าจอ</string>
     <string name="storage_activity_title">พื้นที่จัดเก็บข้อมูล</string>
@@ -5993,6 +6358,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="superpower_progress_low_temp_content">กำลังเปิดโหมดทนความเย็น…</string>
     <string name="superpower_progress_switch_home">เปลี่ยนเป็นธีมมืด</string>
     <string name="superpower_progress_title">เวลาที่เหลือ</string>
+    <string name="superpower_progress_title_new">เวลาหน้าจอที่เหลืออยู่</string>
     <string name="superpower_progress_turndown_brightness">ลดความสว่างของหน้าจอ</string>
     <string name="superpower_progress_turnoff_fan">การปิดพัดลมระบายความร้อน</string>
     <string name="superpower_progress_turnoff_items">กำลังจำกัดกิจกรรมที่สิ้นเปลืองพลังงาน</string>
@@ -6036,9 +6402,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>อ่านและยอมรับ &lt;a href=\"%1$s\">ข้อตกลงการใช้งาน&lt;/a> ก่อนดำเนินการต่อ</Data></string>
     <string name="system_permission_declare_no_say_no">หากคุณเลือกที่จะไม่ให้สิทธิ์ที่จำเป็นหรือไม่อนุญาตให้เรารวบรวมและใช้ข้อมูลของคุณแอปนี้จะไม่สามารถทำงานได้ตามปกติ</string>
     <string name="system_permission_declare_no_say_no_analytics">หากคุณไม่ต้องการให้สิทธิ์เหล่านี้คุณสามารถยกเลิกการลงทะเบียนในการตั้งค่า > การตั้งค่าเพิ่มเติม > ความเป็นส่วนตัว > โปรแกรมประสบการณ์ผู้ใช้</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">หากคุณเลือกที่จะไม่ให้สิทธิ์ที่จำเป็นหรือไม่อนุญาตให้เรารวบรวมและใช้ข้อมูลของคุณแอปนี้จะไม่สามารถทำงานได้บางส่วน</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">หากคุณเลือกที่จะไม่ให้สิทธิ์ที่จำเป็น หรือไม่อนุญาตให้เรารวบรวมและใช้ข้อมูลของคุณ คุณจะไม่สามารถใช้คุณสมบัติที่เกี่ยวข้องได้</string>
     <string name="system_permission_declare_optional">เพื่อให้บริการเพิ่มเติมแก่คุณในขณะที่คุณกำลังใช้แอป เราอาจต้องการการอนุญาตต่อไปนี้: %s คุณสามารถปรับการตั้งค่าการอนุญาตของคุณได้เสมอในการตั้งค่า</string>
     <string name="system_permission_declare_optional_default_grant"><Data>เพื่อให้ผู้ใช้ได้รับประสบการณ์ที่ดีขึ้น แอปนี้จำเป็นต้องได้รับสิทธิ์เพิ่มเติมดังต่อไปนี้: %1s สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการที่เราประมวลผลข้อมูลส่วนบุคคลของคุณ ให้แตะ &lt;a href=\"test\">ที่นี่&lt;/a> คุณสามารถจัดการสิทธิ์ของคุณได้ตลอดเวลาในการตั้งค่า</Data></string>
+    <string name="system_permission_declare_perm_separator">", "</string>
     <string name="system_permission_declare_privacy_declare">แอปนี้ต้องเชื่อมต่อกับอินเทอร์เน็ตและต้องได้รับการอนุญาตต่อไปนี้เพื่อให้สามารถทำงานได้ตามปกติ:</string>
     <string name="system_permission_declare_privacy_no_network">แอปนี้ต้องการการอนุญาตต่อไปนี้เพื่อให้สามารถทำงานได้ตามปกติ:</string>
     <string name="system_permission_declare_privacy_no_permission">แอปนี้ต้องเชื่อมต่ออินเทอร์เน็ตและรวบรวมข้อมูลส่วนบุคคลที่จำเป็นเพื่อให้สามารถทำงานได้ตามปกติ</string>
@@ -6199,8 +6566,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="title_auto_update">อัปเดตโดยอัตโนมัติ</string>
     <string name="title_background_connection">ไม่สามารถใช้ %s ในพื้นหลังได้</string>
     <string name="title_bill_balance_inquiry">ยอดเงินคงเหลือ (ซิม %1$s)</string>
-    <string name="title_block_calls_from_cantacts">สายที่ไม่ได้รับจากรายชื่อของคุณ</string>
-    <string name="title_block_calls_from_strangers">สายที่ไม่ได้รับสำคัญ</string>
+    <string name="title_block_calls_from_cantacts">สายที่ไม่ได้รับจากรายชื่อของคุณ?</string>
+    <string name="title_block_calls_from_strangers">สายที่ไม่ได้รับสำคัญ?</string>
     <string name="title_chain_start">จำกัดโปรแกรมเริ่มต้น</string>
     <string name="title_cleaner_cloudscan">สแกนขยะคลาวด์</string>
     <string name="title_cloud_account">บัญชี Xiaomi</string>
@@ -6254,6 +6621,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="title_realname_verify">การยืนยันตัวตน</string>
     <string name="title_reply">ความคิดเห็น</string>
     <string name="title_restrict_data_usage">%s ไม่สามารถเชื่อมต่ออินเตอร์เน็ตได้</string>
+    <string name="title_risky_app_scan_no">การตรวจจับแอปที่มีความเสี่ยงปิดใช้งาน</string>
+    <string name="title_risky_app_scan_yes">การตรวจจับแอปที่มีความเสี่ยงเปิดใช้งาน</string>
     <string name="title_safe_mode">เปิดใช้งานโหมดปลอดภัย</string>
     <string name="title_show_notification">วิดเจ็ตแถบการแจ้งเตือน</string>
     <string name="title_system_auto_download">การอัปเดตจะถูกดาวน์โหลดโดยอัตโนมัติ</string>
@@ -6294,6 +6663,14 @@ Xiaomi Gaming Cooler"</string>
     <string name="toast_update_success">อัปเดตเสร็จสิ้น</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>
+    <string name="toolbox_invocation_guide_cancel">ไม่ใช่ตอนนี้</string>
+    <string name="toolbox_invocation_guide_caption">ปัดค้างไว้เพื่อเปิด</string>
+    <string name="toolbox_invocation_guide_caption_upgrade">เปิดได้จากทุกที่</string>
+    <string name="toolbox_invocation_guide_confirm">ใช้</string>
+    <string name="toolbox_invocation_guide_confirm_upgrade">ลองใช้เลย</string>
+    <string name="toolbox_invocation_guide_message">ปัดนิ้วจากขอบหน้าจอเข้ามาด้านในค้างไว้ แล้วปล่อยเพื่อเปิด</string>
+    <string name="toolbox_invocation_guide_title">ใช้แถบด้านข้าง</string>
+    <string name="toolbox_invocation_guide_title_upgrade">วิธีใหม่ในการเปิดแถบด้านข้าง</string>
     <string name="top_game">เกมส์ยอดนิยม</string>
     <string name="top_load_fail_detail">ไม่สามารถดาวน์โหลดได้ แตะเพื่อลองอีกครั้ง</string>
     <string name="top_no_network_detial">ไม่สามารถโหลดได้ ตรวจสอบการเชื่อมต่อเครือข่าย แล้วลองอีกครั้ง</string>
@@ -6388,6 +6765,45 @@ Xiaomi Gaming Cooler"</string>
     <string name="txv_lucky_money_group_text">จัดกลุ่มการแจ้งเตือนเท่านั้น</string>
     <string name="ufs_size_suffix">%1$s+%2$s</string>
     <string name="unable_connect_internet">ไม่มีการเชื่อมกับต่ออินเตอร์เน็ต</string>
+    <string name="uni_auth_security_delay_tips">จำเป็นต้องมีการหน่วงเวลาด้านความปลอดภัย</string>
+    <string name="uniauth_close_bt_text">ปิดใช้งาน</string>
+    <string name="uniauth_close_lock_sim_bind_local_phone_fp_title">ยืนยันลายนิ้วมือของคุณเพื่อปลดล็อก USIM และเชื่อมโยงกับอุปกรณ์นี้</string>
+    <string name="uniauth_close_lock_sim_fp_title">ยืนยันลายนิ้วมือของคุณเพื่อปลดล็อก USIM</string>
+    <string name="uniauth_close_lost_device_prot_bt">ปิดใช้งานการป้องกันอุปกรณ์สูญหาย</string>
+    <string name="uniauth_close_lost_device_prot_tips_bt">รับทราบ</string>
+    <string name="uniauth_close_lost_device_prot_tips_message">ระบบป้องกันอุปกรณ์สูญหายถูกปิดใช้งานแล้วโดยใช้บัญชี Xiaomi ของคุณ ฟีเจอร์ต่างๆ บนอุปกรณ์นี้จะไม่ได้รับการปกป้องเพิ่มเติมอีกต่อไป</string>
+    <string name="uniauth_close_lost_device_prot_tips_title">การป้องกันอุปกรณ์สูญหายปิดอยู่</string>
+    <string name="uniauth_common_fp_title">ยืนยันลายนิ้วมือของคุณ</string>
+    <string name="uniauth_common_tips">ไม่สามารถยืนยันได้ ลองอีกครั้ง</string>
+    <string name="uniauth_fp_disabled_sub_title">มีการพยายามมากครั้งเกินที่ระบบกำหนด</string>
+    <string name="uniauth_fp_disabled_title">ขณะนี้ยังไม่สามารถสแกนลายนิ้วมือได้</string>
+    <string name="uniauth_fp_enter_lockscreen_text">ใช้การล็อกหน้าจอ</string>
+    <string name="uniauth_fp_recover_by_lockscreen_bt_text">กู้คืนการเข้าถึงด้วยลายนิ้วมือ</string>
+    <string name="uniauth_fp_temp_disabled_sub_title">ขณะนี้ไม่สามารถให้บริการสแกนลายนิ้วมือได้เนื่องจากมีการพยายามสแกนไม่สำเร็จหลายครั้งเกินไป</string>
+    <string name="uniauth_lockscreen_default_title">ตรวจสอบการล็อกหน้าจอของคุณ</string>
+    <string name="uniauth_lockscreen_disabled_sub_title">ไม่สามารถใช้ฟังก์ชันล็อกหน้าจอได้เนื่องจากป้อนรหัสผิดหลายครั้งเกินไป</string>
+    <string name="uniauth_lockscreen_mix_do_next">ถัดไป</string>
+    <string name="uniauth_lockscreen_mix_hint">ป้อนที่นี่</string>
+    <string name="uniauth_lockscreen_sub_title">เพื่อกู้คืนการเข้าถึงด้วยลายนิ้วมือ</string>
+    <string name="uniauth_logout_xiaomi_acount_fp_title">ยืนยันลายนิ้วมือของคุณเพื่อออกจากระบบบัญชี Xiaomi ของคุณ</string>
+    <string name="uniauth_lp_fp_sub_title">ระบบป้องกันอุปกรณ์สูญหายเปิดใช้งานอยู่ โปรดยืนยันลายนิ้วมือของคุณเพื่อยืนยันว่าการกระทำนี้เป็นการกระทำโดยเจ้าของอุปกรณ์</string>
+    <string name="uniauth_lp_lockscreen_and_fp_sub_title">ใช้การยืนยันตัวตนแบบสองขั้นตอนเพื่อยืนยันตัวตนของคุณ</string>
+    <string name="uniauth_no_acount_login_tips">ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณก่อน</string>
+    <string name="uniauth_open_lock_sim_bind_local_phone_fp_title">ยืนยันลายนิ้วมือของคุณเพื่อล็อก USIM และเชื่อมโยงกับอุปกรณ์นี้</string>
+    <string name="uniauth_open_lock_sim_fp_title">ยืนยันลายนิ้วมือของคุณเพื่อล็อก USIM</string>
+    <string name="uniauth_reset_lockscreen_default_title">ตรวจสอบการล็อกหน้าจอครั้งก่อนหน้าของคุณ</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_sub_title">ใช้การยืนยันตัวตนสองขั้นตอนเพื่อตั้งค่าการล็อกหน้าจอใหม่</string>
+    <string name="uniauth_reset_lockscreen_pwd_fp_title">ยืนยันลายนิ้วมือของคุณ</string>
+    <string name="uniauth_reset_lockscreen_title">ตรวจสอบการล็อกหน้าจอครั้งก่อนหน้าของคุณ</string>
+    <string name="uniauth_resetlockscreen_error_sub_title">ไม่สามารถรีเซ็ตได้</string>
+    <string name="uniauth_resetlockscreen_error_title">พยายามยืนยันการล็อกหน้าจอไม่สำเร็จหลายครั้งเกินไป</string>
+    <string name="uniauth_security_delay_end_notification_msg">ในอีก %1$d ชั่วโมง คุณสามารถยืนยันบัญชี Xiaomi ของคุณเพื่อปิดการป้องกันอุปกรณ์สูญหายได้</string>
+    <string name="uniauth_security_delay_end_notification_title">Security delay ended</string>
+    <string name="uniauth_security_delay_msg">หลังจากผ่านไป %1$d ชั่วโมง คุณสามารถยืนยันบัญชี Xiaomi ของคุณเพื่อปิดการป้องกันอุปกรณ์สูญหายได้ คุณจะได้รับการแจ้งเตือนเมื่อเวลาหน่วงสิ้นสุดลง</string>
+    <string name="uniauth_security_delay_next_more">เรียนรู้เพิ่มเติม</string>
+    <string name="uniauth_temp_disabled_title">ลองอีกครั้งในภายหลัง</string>
+    <string name="uniauth_uqery_pin_fp_title">ยืนยันลายนิ้วมือของคุณเพื่อดูรหัส PIN</string>
+    <string name="uniauth_xiaomi_acount_title">ตรวจสอบบัญชี Xiaomi ของคุณ</string>
     <string name="uninstall_app_dialog_msg">เมื่อถอนการติดตั้งแล้วข้อมูลในแอปทั้งหมดจะถูกลบออก</string>
     <string name="uninstall_app_dialog_title">ถอนการติดตั้งตอนนี้?</string>
     <string name="uninstall_app_done">ถอนการติดตั้งเรียบร้อยแล้ว</string>
@@ -6449,7 +6865,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="usbsharenet_pc_exception_summary">ไม่สามารถเชื่อมกับต่ออินเตอร์เน็ตผ่านพอร์ต USB ได้ กรุณาตรวจสอบการเชื่อมกับต่ออินเตอร์เน็ตของเครื่องคอมพิวเตอร์</string>
     <string name="use_for_open_applock">สำหรับการเปิดล็อกแอป</string>
     <string name="use_immediately">ใช้</string>
+    <string name="use_lock_screen_password_type">รหัสปลดล็อกหน้าจอ</string>
     <string name="use_other_ime_warn">แป้นพิมพ์ของบุคคลที่สามอาจบันทึกทุกสิ่งที่คุณพิมพ์รวมถึงรหัสผ่านและข้อมูลที่ละเอียดอ่อนอื่นๆ</string>
+    <string name="use_private_password_type">รหัสผ่านการปกป้องความเป็นส่วนตัว</string>
     <string name="user_define_title">เพิ่มกฎ</string>
     <string name="user_guide">เลื่อนขึ้นเพื่อค้นหาเกมใหม่เพิ่มเติม</string>
     <string name="v7_preference_off">ปิด</string>
@@ -6538,11 +6956,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="vb_video_super_division_desc">"การใช้คุณสมบัตินี้จะเพิ่มการใช้พลังงาน
 คุณสมบัตินี้ใช้ไม่ได้กับการเคลื่อนไหวที่ราบรื่น
 การเปิดคุณสมบัติอย่างใดอย่างหนึ่งจะเป็นการปิดคุณสมบัติอื่นๆ"</string>
+    <string name="vb_video_super_division_subdesc">ปรับความละเอียดภาพขึ้นโดยอัตโนมัติเมื่อความละเอียด ≤720P</string>
     <string name="vb_video_super_division_tips">"ยังไม่ชัดพอ?
 ลองอัปสเกลความละเอียด!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">ภาพเคลื่อนไหวขั้นสูงปิดอยู่</string>
     <string name="vb_voice_adjust">เสียงโรงละคร</string>
-    <string name="verify_shut_down_password_content">จำเป็นต้องยืนยันการล็อกหน้าจอหากอุปกรณ์ของคุณปิดเครื่องในขณะที่ล็อกอยู่</string>
+    <string name="verify_shut_down_password_content">หากอุปกรณ์ของคุณปิดเครื่องขณะล็อกอยู่ จะต้องยืนยันการล็อกหน้าจออีกครั้ง</string>
     <string name="verify_shut_down_password_title">การยืนยันการปิดเครื่อง</string>
     <string name="video_repeat">เล่นอีกครั้ง</string>
     <string name="videobox_double_core_visual">ภาพแบบดูอัลคอร์</string>
@@ -6567,6 +6986,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="view_package_info">ดูรายละเอียดแผน</string>
     <string name="view_traffic_detail">ดูรายละเอียด</string>
     <string name="view_traffic_details">ดูสถิติการใช้ข้อมูล</string>
+    <string name="virtual_reject_notice_content">ส่งการตอบกลับว่างเปล่าไปยังแอปเพื่อปกป้องข้อมูลส่วนบุคคลของคุณ</string>
+    <string name="virtual_reject_notice_title_calendar">เข้าถึงปฏิทินโดย %1$s</string>
+    <string name="virtual_reject_notice_title_calllog">เข้าถึงประวัติการโทรโดย %1$s</string>
+    <string name="virtual_reject_notice_title_contacts">เข้าถึงรายชื่อโดย %1$s</string>
+    <string name="virtual_reject_notice_title_phonestate">เข้าถึงข้อมูลอุปกรณ์โดย %1$s</string>
+    <string name="virtual_reject_notice_title_sms">เข้าถึงข้อความโดย %1$s</string>
     <string name="virus_app_delete_installed">ถอนการติดตั้ง</string>
     <string name="virus_app_delete_uninstalled">ลบ</string>
     <string name="virus_app_ignore">เพิกเฉย</string>
@@ -6673,6 +7098,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="warningcenter_disaster_level_4">ระดับ Ⅳ (เล็กน้อย)</string>
     <string name="warningcenter_disaster_level_all">ทุกระดับ</string>
     <string name="warningcenter_disaster_level_info">ระดับเตือนภัย</string>
+    <string name="warningcenter_disaster_level_separator">", "</string>
     <string name="warningcenter_disaster_level_title">ระดับเตือนภัย</string>
     <string name="warningcenter_disaster_list_title">คำเตือนภัยพิบัติ</string>
     <string name="warningcenter_disaster_local">ระบุตำแหน่ง</string>

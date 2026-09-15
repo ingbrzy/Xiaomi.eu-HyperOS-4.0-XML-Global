@@ -372,7 +372,7 @@ No es pot ampliar el zoom al teclat ni a la barra de navegació."</string>
     <string name="accessibility_service_screen_control_description">"Pot llegir tot el contingut de la pantalla i mostrar contingut per sobre d'altres aplicacions."</string>
     <string name="accessibility_service_screen_control_title">Veure i controlar la pantalla</string>
     <string name="accessibility_service_warning_description">"El control total és adequat per a les aplicacions que t'ajuden amb l'accessibilitat, però no per a la majoria de les aplicacions."</string>
-    <string name="accessibility_setting_item_control_timeout_title">"Temps per fer l'acció (temps d'espera)"</string>
+    <string name="accessibility_setting_item_control_timeout_title">"És hora d'actuar"</string>
     <string name="accessibility_settings">Accessibilitat</string>
     <string name="accessibility_settings_summary">Pantalla, interacció, àudio</string>
     <string name="accessibility_settings_tabs_general">General</string>
@@ -609,6 +609,7 @@ Per canviar d'una funció a una altra, llisca cap amunt amb 3 dits i mantén pr
     <string name="activity_title_root_note">"Quant a l'accés arrel"</string>
     <string name="ad_service">Serveis de publicitat</string>
     <string name="adapt_embedded">Hi ha finestres paral·leles disponibles</string>
+    <string name="adapted_game_title">Jocs compatibles</string>
     <string name="adaptive_brightness_main_switch_title">Utilitza la brillantor adaptativa</string>
     <string name="adaptive_connectivity_main_switch_title">Utilitza la connectivitat adaptativa</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Selecciona automàticament la millor connexió de xarxa per allargar la durada de la bateria</string>
@@ -684,7 +685,7 @@ Per canviar d'una funció a una altra, llisca cap amunt amb 3 dits i mantén pr
     <string name="add_fingerprint_move_fast">Mantingueu una mica més el dit a la pantalla</string>
     <string name="add_fingerprint_name_suggest_text">"Nom de l'empremta digital"</string>
     <string name="add_fingerprint_put_finger_edge_msg">Moveu el dit una mica i torneu a col·locar-lo en el sensor per afegir totes les parts de la vostra empremta digital.</string>
-    <string name="add_fingerprint_put_finger_msg">Poseu el dit en el lector fins que noteu una vibració.</string>
+    <string name="add_fingerprint_put_finger_msg">Col·loqueu el dit al sensor, després aixequeu-lo i repetiu.</string>
     <string name="add_fingerprint_put_finger_title">Afegeix empremta digital</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Moveu el dit una mica</string>
     <string name="add_fingerprint_success_msg">"S'ha afegit amb èxit"</string>
@@ -724,7 +725,10 @@ L'administrador pot supervisar i gestionar la configuració, l'accés, les aplic
     <string name="advanced_battery_title">Ús de la bateria</string>
     <string name="advanced_gesture">Gestos personalitzats</string>
     <string name="advanced_screen_paper_mode_title">Mode lectura</string>
+    <string name="advanced_screen_paper_mode_title_eye_comfort">Confort ocular</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Confort ocular</string>
+    <string name="advanced_screen_paper_mode_title_vision_care">Xiaomi Vision Care</string>
     <string name="advanced_section_header">General</string>
     <string name="advanced_security_title">Configuració avançada</string>
     <string name="advanced_settings">Configuració addicional</string>
@@ -901,8 +905,8 @@ Widget: %2$s
     <string name="aon_gesture_up_down_waving_summary">Funciona amb nous continguts vertical</string>
     <string name="aon_gesture_up_down_waving_switch">Moveu el dit verticalment per lliscar amunt i avall</string>
     <string name="aon_gesture_up_down_waving_title">Llisqueu verticalment</string>
-    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">"Assegureu-vos que esteu en un indret ben il·luminat, mantingueu la mà a una distància entre %d i %d cm davant de la càmera, amb la palma cap avall. Tan bon punt el reconeixement s'hagi produit, gireu la mà cap amunt. Ara podreu fer servir aquest gest per a lliscar la pantalla cap amunt."</string>
-    <string name="aon_gesture_up_waving_diagram_title">Saluda davant de la pantalla</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">"Assegureu-vos que sou en un espai ben il·luminat i, a continuació, manteniu la mà a %d– %d cm davant de la càmera amb el palmell cap amunt o cap avall. Un cop el reconeixement s'hagi realitzat correctament, moveu la mà per lliscar. Continueu movent el moviment per continuar lliscar. Per canviar la direcció del lliscament, gireu la mà cap a l'altra banda i manteniu-la quieta durant un moment. Un cop s'hagi reconegut, torneu a moure la mà."</string>
+    <string name="aon_gesture_up_waving_diagram_title">Moveu la mà davant de la pantalla per lliscar</string>
     <string name="aon_scanner_default_payment_method_title">Mètode de pagament predeterminat</string>
     <string name="aon_scanner_dialog_message">"Quan activeu l'escàner ràpid, els codis QR que escanegeu es compartiran amb Mi AI Scanner. Assegureu-vos d'entendre i acceptar això abans de continuar. Els codis QR que escaneges no s'emmagatzemaran localment ni es penjaran al núvol. Tingueu en compte que l'ús d'aquesta funció pot augmentar lleugerament el consum total d'energia."</string>
     <string name="aon_scanner_dialog_message_new">"Quan utilitzeu l'escàner ràpid, els codis QR que escanegeu es compartiran amb l'Escàner amb IA. Aquesta informació no s'emmagatzemarà al vostre dispositiu ni es penjarà al núvol. Activar aquesta funció augmentarà lleugerament el consum d'energia."</string>
@@ -1406,6 +1410,7 @@ Executat per últim cop el dia %2$s"</string>
     <string name="back_strap_status_close">Desactivat</string>
     <string name="back_strap_status_open">Activat</string>
     <string name="back_strap_title">Efectes de llum de fons</string>
+    <string name="back_strap_title_tip">Activa-ho per rebre alertes personalitzades en diferents situacions</string>
     <string name="back_tap">Toc posterior</string>
     <string name="back_triple_tap">Triple toc posterior</string>
     <string name="background_activity_disabled_dialog_text">"Com que aquesta aplicació no s'ha configurat per optimitzar la bateria, no pots restringir-la.
@@ -1417,6 +1422,7 @@ Per restringir l'aplicació, activa l'optimització de la bateria."</string>
     <string name="background_blur_enable">Textures avançades</string>
     <string name="background_blur_enable_summary">Afegeix efectes de renderització com ara desenfocament a tot el sistema per oferir una experiència visual millorada</string>
     <string name="background_blur_message">"En activar aquesta funció, és possible que consumeixi més energia i que el dispositiu s'escalfi. Voleu activar-la de totes maneres?"</string>
+    <string name="background_blur_mode_title">Estil visual</string>
     <string name="background_blur_title">Activa les textures avançades</string>
     <string name="background_check_pref">Comprovació en segon pla</string>
     <string name="background_data">Dades en segon pla</string>
@@ -1983,7 +1989,8 @@ No t'has connectat a %2$s abans."</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">Reinicia</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">Reinicia el Bluetooth</string>
     <string name="bluetooth_enable_opp_high_speed_summary">"Utilitzeu protocols Bluetooth P2P d'alta velocitat per a les transferències"</string>
-    <string name="bluetooth_enable_page_scan_summary">"Desactiva/habilita l'escaneig de pàgines per a la prova de Bluetooth"</string>
+    <string name="bluetooth_enable_page_scan">Escaneig de pàgines per Bluetooth</string>
+    <string name="bluetooth_enable_page_scan_summary">"Activa o desactiva l'escaneig de pàgines per Bluetooth per a proves"</string>
     <string name="bluetooth_enter_passkey_msg">Escriu el codi de vinculació i prem Retorn</string>
     <string name="bluetooth_enter_passkey_other_device">"Pot ser que també hagis d'introduir aquesta clau d'accés a l'altre dispositiu."</string>
     <string name="bluetooth_enter_pin_other_device">"Pot ser que també hagis d'introduir aquest PIN a l'altre dispositiu."</string>
@@ -2291,9 +2298,11 @@ Mentre estigui connectat, %2$s rebrà totes les trucades que es facin a %3$s."</
     <string name="bluetooth_unpair_dialog_forget_confirm_button">Oblida el dispositiu</string>
     <string name="bluetooth_unpair_dialog_title">"Vols que s'oblidi el dispositiu?"</string>
     <string name="bluetooth_unpair_dialog_with_associations_body">El telèfon es desvincularà de %1$s. %2$s deixarà de gestionar el dispositiu</string>
+    <string name="bluetooth_unpairing">"S'està desvinculant…"</string>
     <string name="bluetooth_version">Versió de Bluetooth</string>
     <string name="bluetooth_version_message">Actualitza</string>
     <string name="bluetooth_wake">Desperta amb àudio Bluetooth</string>
+    <string name="bluetooth_watch_not_synced_unpair_manually">El rellotge no està sincronitzat. Desvinculeu-lo manualment.</string>
     <string name="blur_switch">Redueix els efectes de desenfocament</string>
     <string name="blur_switch_disabled_summary">Desactivat temporalment per Estalvi de bateria</string>
     <string name="blur_switch_summary">Fes que els fons i els taulers siguin més fàcils de veure</string>
@@ -2617,6 +2626,7 @@ Si instal·les un certificat de CA, el propietari del certificat pot accedir a l
     <string name="camera_key_action_title">Botó Mi</string>
     <string name="camera_key_action_toggle_title">Acciona el commutador</string>
     <string name="camera_laser_sensor_switch">Sensor làser de la càmera</string>
+    <string name="camera_mr_settings">Anell de la càmera</string>
     <string name="camera_rear">Posterior %s</string>
     <string name="camera_toggle_label_qs">Accés a la càmera</string>
     <string name="camera_toggle_title">Accés a la càmera</string>
@@ -2747,6 +2757,16 @@ Si aquest permís està activat, l'aplicació estarà disponible com una opció 
     <string name="checked_app_title">Efectes de llum activats</string>
     <string name="checking_find_device_status">"S'està comprovant l'estat de Troba dispositiu…"</string>
     <string name="checking_for_updates">"S'estan cercant actualitzacions…"</string>
+    <string name="child_face_number_reach_limit">Podeu afegir dades facials per a un màxim de tres persones</string>
+    <string name="child_face_unlock_download_education_center_button">Instal·la</string>
+    <string name="child_face_unlock_download_education_center_content">Per poder utilitzar aquesta funció, primer instal·leu el Centre educatiu.</string>
+    <string name="child_face_unlock_download_education_center_title">Atenció</string>
+    <string name="child_face_unlock_first_close_child_unlock">"Primer desactiveu l'opció \"Obrir el Centre educatiu després de desbloquejar\""</string>
+    <string name="child_face_unlock_first_close_stay_keyguard">Primer desactiveu \"Mantenir-se a la Pantalla de bloqueig després de desbloquejar\"</string>
+    <string name="child_face_unlock_no_use">Desactivat</string>
+    <string name="child_face_unlock_open_education_center">Obriu el Centre educatiu després del desbloqueig</string>
+    <string name="child_face_unlock_open_education_center_summary">"Seleccioneu les dades facials d'una persona específica que utilitzarà aquesta funció"</string>
+    <string name="child_face_unlock_use">Utilitza</string>
     <string name="chip_add_title">Afegeix freqüència</string>
     <string name="chip_change_error_toast">"No s'han pogut ajustar els paràmetres"</string>
     <string name="chip_change_toast">La freqüència ha canviat. Reinicieu el dispositiu per aplicar els canvis.</string>
@@ -3684,6 +3704,7 @@ Aquesta configuració afecta a tots els usuaris del telèfon."</string>
     <string name="device_screen_size">Mida de la pantalla</string>
     <string name="device_screen_usage">Ús de la pantalla des de la càrrega completa</string>
     <string name="device_sd_memory">Targeta SD</string>
+    <string name="device_security_chip">Xip de seguretat dedicat</string>
     <string name="device_share_loading">"S'està creant la imatge"</string>
     <string name="device_status">Estat</string>
     <string name="device_status_activity_title">Estat</string>
@@ -3740,6 +3761,7 @@ Aquesta configuració afecta a tots els usuaris del telèfon."</string>
     <string name="disable_overlays">Desactiva superposicions de maquinari</string>
     <string name="disable_overlays_summary">Utilitza sempre GPU per a la composició de pantalles</string>
     <string name="disable_password_warning">"Després de desactivar el bloqueig de pantalla, s'eliminaran les empremtes dactilars i les dades de la cara. No podreu desbloquejar el dispositiu amb la vostra cara o feu-les servir a Notes o a la Galeria."</string>
+    <string name="disable_permission_text_by_hyper">Aquest permís no ha superat la revisió i ara està restringit</string>
     <string name="disable_phantom_process_monitor_summary">"Desactiva les restriccions de l'ús dels recursos del sistema dels processos secundaris de les aplicacions"</string>
     <string name="disable_phantom_process_monitor_title">Desactiva les restriccions dels processos secundaris</string>
     <string name="disable_power_key_long_press_under_keyguard">"Desactiva el menú del botó d'encesa"</string>
@@ -3991,6 +4013,7 @@ Aquesta configuració afecta a tots els usuaris del telèfon."</string>
     <string name="dump_log_summary">"Aquesta funció està dissenyada per a generar els %s registres en la versió Beta del sistema. Feu-lo servir amb precaució.
 Podeu veure els registres generats al Gestor de fitxers."</string>
     <string name="dump_log_title">Quant a aquesta funció</string>
+    <string name="dynamic_island_title">Xiaomi HyperIsland</string>
     <string name="early_morning">Matí</string>
     <string name="easy_mode_font_settings_toast">No es pot ajustar la font en el Mode simplificat</string>
     <string name="easymode_hint">Prem per a desactivar el Mode simplificat</string>
@@ -4020,6 +4043,7 @@ Podeu veure els registres generats al Gestor de fitxers."</string>
     <string name="eid_multi_sim">EID %1$d</string>
     <string name="eighthours">8 hores</string>
     <string name="elastic_text">Els avisos i els menús desplegables apareixen amb un pop elàstic que posa més atenció en aquests objectes</string>
+    <string name="elder_care_ai_anti_fraud">Detecta fraus durant les converses i rep alertes</string>
     <string name="elder_care_block_advertising_promotions_calls_title">Bloqueja les trucades de màrqueting</string>
     <string name="elder_care_block_estate_agency_calls_title">"Bloqueja les trucades d'agències immobiliàries"</string>
     <string name="elder_care_block_risky_app_title">Bloqueja les aplicacions de risc</string>
@@ -4388,6 +4412,11 @@ Connecta una pantalla externa per començar o prova d'utilitzar un altre cable"<
     <string name="external_source_untrusted">Sense permís</string>
     <string name="extreme_threats_summary">"Rep alertes d'amenaces extremes per a la vida i la propietat."</string>
     <string name="extreme_threats_title">Amenaces extremes</string>
+    <string name="eye_care_adjust_mode">"Estil d'ajust"</string>
+    <string name="eye_care_classic_mode">Clàssic</string>
+    <string name="eye_care_learn_more">Aprèn sobre el confort ocular</string>
+    <string name="eye_care_mode_description">"\"Ritme\" ajusta automàticament la temperatura del color en funció del temps i l'escenari d'ús. Es manté més natural durant el dia i més càlid a la nit. \"Clàssic\" utilitza una temperatura de color fixa i s'ha d'ajustar manualment."</string>
+    <string name="eye_care_rhythmic_mode">Ritme</string>
     <string name="eye_gaze_dialog_message">"Quan aquesta funció està activada, el sistema detectarà si esteu mirant la pantalla, però les vostres característiques facials no s'analitzaran i aquestes dades no s'emmagatzemaran al vostre dispositiu ni es penjaran al núvol. Voleu activar-la ara?"</string>
     <string name="eye_gaze_dialog_title">Avís de seguretat</string>
     <string name="eye_gaze_summary">El dispositiu no es bloquejarà quan detecti que està mirant la pantalla</string>
@@ -4396,6 +4425,7 @@ Connecta una pantalla externa per començar o prova d'utilitzar un altre cable"<
     <string name="eye_habit_prompt_summary">Rebeu notificacions quan el vostre dispositiu detecti condicions que poden causar fatiga ocular</string>
     <string name="eye_habit_prompt_title">Notificacions de salut ocular</string>
     <string name="eye_paper_protection">Configuració del Mode lectura</string>
+    <string name="eye_protection_technology">Tecnologia</string>
     <string name="eyes_protect_certification">Tecnologia i certificació</string>
     <string name="eyes_protect_certification_summary_1">Certificació de salut visual S++</string>
     <string name="eyes_protect_certification_summary_2">Llum blava baixa (solució de maquinari), compatible amb el corrent circadià i certificat sense parpelleig</string>
@@ -4407,6 +4437,7 @@ Connecta una pantalla externa per començar o prova d'utilitzar un altre cable"<
     <string name="eyes_protect_certification_title_3">Polarització circular més natural</string>
     <string name="eyes_protect_certification_title_4">Atenuació de CC sense parpellejos</string>
     <string name="eyes_protect_certification_title_5">Regulació PWM de 3840 Hz</string>
+    <string name="eyes_protect_game_title">Comoditat ocular per a jocs</string>
     <string name="face_data_apply_for_category_title">Desbloqueja amb dades facials</string>
     <string name="face_data_apply_for_keyguard_title">Pantalla de desbloqueig</string>
     <string name="face_data_input_camera_fail">"No s'ha pogut carregar la càmera"</string>
@@ -4437,6 +4468,7 @@ Afegiu un bloqueig de pantalla abans d'afegir les dades facials."</string>
     <string name="face_data_suggesstion_first_cn_highlight">El desbloqueig facial és menys segur que un PIN, un patró o una empremta digital. És possible que el vostre dispositiu es desbloquegi amb la vostra foto, així com amb persones o objectes amb aspecte similar.</string>
     <string name="face_data_suggesstion_second">"Assegureu-vos que totes les parts de la cara estan descobertes i són clarament visibles. La vostra cara també hauria d'estar ben il·luminada."</string>
     <string name="face_enroll_when_slt_on_toast">"No es pot afegir una cara al Desbloqueig facial quan s'utilitzen comunicacions per satèl·lit de Tiantong"</string>
+    <string name="face_enrollment_fold_warning">"Si canvieu l'estat de la pantalla, s'interromprà l'enregistrament de dades facials"</string>
     <string name="face_enrollment_tips">Assegureu-vos que totes les parts de la cara siguin clarament visibles. No porteu barrets, màscares, ulleres de sol ni altres accessoris.</string>
     <string name="face_finger_add">Afegiu</string>
     <string name="face_finger_delete">Elimina</string>
@@ -4460,6 +4492,9 @@ Afegiu un bloqueig de pantalla abans d'afegir les dades facials."</string>
     <string name="face_unlock_disable">El Desbloqueig facial està desactivat</string>
     <string name="face_unlock_down">Aixequeu el cap</string>
     <string name="face_unlock_enable">El Desbloqueig facial està activat</string>
+    <string name="face_unlock_in_low_light_msg">Augmenta la brillantor de la pantalla amb poca llum per millorar el reconeixement facial</string>
+    <string name="face_unlock_in_low_light_tip">Quan el confort ocular nocturn està activat, \"Optimitzar el reconeixement amb poca llum\" no il·luminarà la pantalla</string>
+    <string name="face_unlock_in_low_light_title">Optimitza el reconeixement amb poca llum</string>
     <string name="face_unlock_not_found">No se us ha pogut reconèixer</string>
     <string name="face_unlock_offset_bottom">Baixeu una mica el telèfon</string>
     <string name="face_unlock_offset_left">Moveu-vos a la dreta</string>
@@ -4513,6 +4548,11 @@ de cara a la pantalla exterior"</string>
     <string name="fan_mode_partial_scene_usage">Seleccionat</string>
     <string name="fan_mode_range_title">"Escenaris d'ús"</string>
     <string name="fan_mode_usage_scenes">"Escenaris d'ús"</string>
+    <string name="fan_other_features">Altres funcions</string>
+    <string name="fan_self_clean">Ventilador autonetejable</string>
+    <string name="fan_self_clean_summary">"Si el ventilador no ha funcionat durant més de %d dies, es netejarà automàticament mentre la pantalla està apagada i el dispositiu s'està carregant"</string>
+    <string name="fan_smart_stop_on_recording">"Pausa durant la captura d'àudio"</string>
+    <string name="fan_smart_stop_on_recording_summary">"Redueix el soroll del ventilador durant les trucades, l'enregistrament d'àudio i l'enregistrament de vídeo. No s'aplica als jocs."</string>
     <string name="fcc_equipment_id">"Id. de l'equip"</string>
     <string name="feature_flags_dashboard_title">Marques de funcions</string>
     <string name="feedback">Comentaris</string>
@@ -4592,6 +4632,7 @@ Per obtenir més informació, contacta amb l'entitat de crèdit."</string>
     <string name="fingerprint_enroll_button_add">Afegeix-ne una altra</string>
     <string name="fingerprint_enroll_button_next">Següent</string>
     <string name="fingerprint_enrollment_desc">Després de registrar una empremta, la podeu utilitzar per desbloquejar el dispositiu i verificar la vostra identitat.</string>
+    <string name="fingerprint_enrollment_fold_warning">"Si canvieu l'estat de la pantalla, s'interromprà l'enregistrament de l'empremta"</string>
     <string name="fingerprint_enrollment_title">"Enregistreu l'empremta"</string>
     <string name="fingerprint_face_password">Empremta, dades facials i bloqueig de pantalla</string>
     <string name="fingerprint_face_password_unlock">Empremta, dades facials i bloqueig de pantalla</string>
@@ -4619,6 +4660,7 @@ Per obtenir més informació, contacta amb l'entitat de crèdit."</string>
     <string name="fingerprint_password_unlock">Empremtes i Bloqueig de pantalla</string>
     <string name="fingerprint_payment">"Pagaments amb l'empremta digital"</string>
     <string name="fingerprint_privacy_desc">"Podeu utilitzar la vostra empremta per accedir a àlbums privats, missatges, notes, fitxers, memòria Xiaomi Hyper XiaoAi, bloqueig d'aplicacions i eines de gestió de contrasenyes."</string>
+    <string name="fingerprint_privacy_policy"><Data>Llegiu i accepteu la&lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">Declaració de privadesa d\"Empremtes dactilars i bloqueig de pantalla\"&lt;/a> abans de continuar.&lt;/font></Data></string>
     <string name="fingerprint_protection">"Protecció d'empremtes"</string>
     <string name="fingerprint_record_input">Grava</string>
     <string name="fingerprint_removal_failed">"No s'ha pogut suprimir l'empremta digital, proveu-ho de nou més tard"</string>
@@ -4690,21 +4732,6 @@ Per obtenir més informació, contacta amb l'entitat de crèdit."</string>
     <string name="flash_notifications_summary_off">Desactivat / Rep alertes amb el flaix de la càmera o de la pantalla per a les notificacions i les alarmes</string>
     <string name="flash_notifications_summary_on">Activat / Rep alertes amb el flaix de la càmera o de la pantalla per a les notificacions i les alarmes</string>
     <string name="flash_notifications_title">Enlluernar amb notificacions</string>
-    <string name="flashback_background_start_switch_summary">Genereu targetes flash amb informació clau automàticament quan les aplicacions s’executin en segon pla</string>
-    <string name="flashback_background_start_switch_title">Genereu targetes flash automàticament</string>
-    <string name="flashback_baidu_map_summary">Mostra la ruta</string>
-    <string name="flashback_didi_summary">Mostra informació del viatge</string>
-    <string name="flashback_meituan_summary">Mostra la informació de lliurament</string>
-    <string name="flashback_meituan_waimai_summary">Mostra la informació de lliurament</string>
-    <string name="flashback_open_switch_summary">Mostra la informació clau quan les aplicacions es mostren com a finestres flotants</string>
-    <string name="flashback_open_switch_title">"Targetes de l'aplicació"</string>
-    <string name="flashback_shansong_summary">Mostra el progrés del lliurament</string>
-    <string name="flashback_status_close">Desactivada</string>
-    <string name="flashback_status_open">Activada</string>
-    <string name="flashback_summary">Mostra la informació clau quan les aplicacions es mostren com a finestres flotants</string>
-    <string name="flashback_support_apps_title">Aplicacions disponibles</string>
-    <string name="flashback_title">"Targetes de l'aplicació"</string>
-    <string name="flashback_wangzhe_summary">Mostra el compte enrere de la resurrecció</string>
     <string name="flip_aod_settings_title">Pantalla de bloqueig (exterior)</string>
     <string name="flip_aod_settings_title_new">Pantalla de bloqueig (exterior)</string>
     <string name="flip_application_settings_title">Aplicacions de la pantalla exterior</string>
@@ -4800,6 +4827,8 @@ Per obtenir més informació, contacta amb l'entitat de crèdit."</string>
     <string name="font_preview_text_content">"Exemple de text:
 
 Xiaomi crea sense parar productes increïbles amb preus honestos per permetre que tothom del món gaudeixi d'una vida millor gràcies a una tecnologia innovadora."</string>
+    <string name="font_preview_text_content_new">"Exemple de text:
+Xiaomi crea sense parar productes increïbles amb preus honestos per permetre que tothom gaudeixi d'una vida millor gràcies a una tecnologia innovadora."</string>
     <string name="font_scale_percentage">%1$d%%</string>
     <string name="font_setting_weight_toast">"El tipus de lletra actual no admet l'ajustament de la densitat de la font"</string>
     <string name="font_settings_jump">Accessibilitat > Mida de la pantalla</string>
@@ -4819,12 +4848,14 @@ Xiaomi crea sense parar productes increïbles amb preus honestos per permetre qu
 "</string>
     <string name="font_size_summary1">"Si la mida de la lletra encara és massa petita, proveu de "</string>
     <string name="font_size_summary2">Mode simplificat</string>
+    <string name="fonts_management_installed_app">Instal·la i gestiona els tipus de lletra per utilitzar a les aplicacions</string>
+    <string name="fonts_manager">Gestiona els tipus de lletra</string>
     <string name="footer_description_full_screen_intent">"Permet que aquesta aplicació mostri notificacions que ocupen tota la pantalla quan el dispositiu està bloquejat. L'aplicació pot utilitzar notificacions de pantalla completa per mostrar alarmes, trucades entrants o altres notificacions urgents. Aquesta configuració es basa en el permís per obrir finestres noves mentre s'executa en segon pla i només es pot utilitzar quan es concedeix aquest permís."</string>
     <string name="footer_learn_more_content_description">Més informació sobre %1$s</string>
     <string name="footer_time_zone_offset_change_next_change">Canvi següent</string>
     <string name="footer_time_zone_offset_change_no_next_change">No hi ha cap canvi programat</string>
     <string name="forbidden_network">(prohibida)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">El mode de reparació està activat. No es poden definir ni canviar les contrasenyes ara.</string>
     <string name="forbidden_switch_apn_string">"La configuració de l'APN seleccionada no coincideix amb el tipus de xarxa actual"</string>
     <string name="force_allow_on_external">Força permetre aplicacions de manera externa</string>
     <string name="force_allow_on_external_summary">Permet que qualsevol aplicació es pugui escriure en un dispositiu d’emmagatzematge extern, independentment dels valors del manifest</string>
@@ -4944,6 +4975,7 @@ Aquesta funció només funciona quan el sistema de navegació està configurat e
     <string name="friday_first_day_of_week">Divendres</string>
     <string name="friday_short">Dv</string>
     <string name="friday_shortest">Dv</string>
+    <string name="frp_status_activated">La protecció de restabliment de fàbrica està activada</string>
     <string name="fsg_mistake_touch_summary">En algunes ocasions, com videojocs o vídeos a pantalla completa, els gestos es necessitan realitzar dues vegades per que surgeixin efecte</string>
     <string name="fsg_mistake_touch_title">Comproveu dues vegades els gestos</string>
     <string name="full_screen_display">Mode de pantalla completa</string>
@@ -4987,6 +5019,7 @@ Quan activis les còpies de seguretat automàtiques, les dades dels dispositius 
     <string name="game_controller_stick_remapping_category">Indicacions</string>
     <string name="game_controller_stick_right">Palanca dreta</string>
     <string name="game_delta_action_moments">Saqueig de subministraments i evacuació reeixida</string>
+    <string name="game_eyecare_empty_list_tip">Encara no hi ha res</string>
     <string name="game_king_of_glory_moments">Assalts, victòries i altres moments clau</string>
     <string name="game_peacekeeper_elites_moments">Paracaigudisme i combat</string>
     <string name="game_storage_settings">Jocs</string>
@@ -5154,6 +5187,7 @@ L'àrea on pots confirmar el bloqueig de la pantalla es mourà cap a la dreta."<
     <string name="gxzw_anim_rhythm">Ritme</string>
     <string name="gxzw_anim_star">Llum de les estrelles</string>
     <string name="gxzw_anim_switch">"Animació d'empremtes digitals"</string>
+    <string name="gxzw_anim_switch_new">"Animació d'empremtes digitals"</string>
     <string name="gxzw_anim_title">"Reconeixement d'empremta"</string>
     <string name="gxzw_aod_show_summary">"Aixequeu el dispositiu o toqueu la pantalla per fer que aparegui la icona d'empremta digital. Aquesta funció augmenta el consum d'energia del sistema, però us permet desbloquejar el dispositiu més ràpidament."</string>
     <string name="gxzw_aod_show_tittle">"Mostreu la icona de l'empremta digital quan la pantalla està apagada"</string>
@@ -5172,6 +5206,7 @@ L'àrea on pots confirmar el bloqueig de la pantalla es mourà cap a la dreta."<
     <string name="gxzw_quick_open_show_summary">"· Mantingueu el dit a la icona de l'empremta després que el dispositiu es desbloquegi per obrir el menú de drecera."</string>
     <string name="gxzw_quick_open_slow_summary">Premeu prolongadament la icona de les empremtes digitals per obrir el menú contextual. Feu lliscar el dit per fer servir una drecera.</string>
     <string name="gxzw_quick_open_slow_title">Mantén premut</string>
+    <string name="gxzw_quick_open_summary">"Després de desbloquejar, premeu prolongadament la icona de l'empremta per obrir el menú contextual i, a continuació, llisqueu el dit fins a una drecera per seleccionar-la."</string>
     <string name="gxzw_quick_open_title">Dreceres</string>
     <string name="gxzw_recognizing_anim_a">Onda</string>
     <string name="gxzw_recognizing_anim_b">Espiral</string>
@@ -5462,6 +5497,7 @@ Obriu el núvol de Xiaomi i restaureu els elements des d'allà."</string>
     <string name="immediately_destroy_activities">No desis les activitats</string>
     <string name="immediately_destroy_activities_summary">"Destrueix activitats quan l'usuari deixi d'utilitzar-les"</string>
     <string name="immersive_audio_sources">So immersiu</string>
+    <string name="import_manager_font_summary">Importa i gestiona fonts per a aplicacions</string>
     <string name="importance_default">Per defecte</string>
     <string name="importance_high">Alta</string>
     <string name="importance_low">Baixa</string>
@@ -5961,6 +5997,69 @@ Important: les trucades per satèl·lit no estan disponibles. Tanmateix, és pos
     <string name="layout_size_normal_text">Petita</string>
     <string name="layout_size_small">Extra petit</string>
     <string name="layout_size_small_text">Extra petita</string>
+    <string name="ldp_checker_action">Configuració</string>
+    <string name="ldp_checker_desc">Afegiu una empremta per confirmar la vostra identitat per a configuracions de seguretat importants i activeu Troba dispositiu. Si perdeu o us roben el dispositiu en què heu iniciat la sessió, Troba dispositiu us pot ajudar a localitzar-lo i protegir les vostres dades</string>
+    <string name="ldp_checker_find_device_desc">Si no heu iniciat la sessió al vostre Compte Xiaomi, primer se us guiarà perquè ho feu.</string>
+    <string name="ldp_checker_find_device_title">Activa Troba dispositiu</string>
+    <string name="ldp_checker_fingerprint_enroll_desc">Si encara no heu definit un bloqueig de pantalla, se us guiarà perquè en configureu un primer.</string>
+    <string name="ldp_checker_fingerprint_enroll_title">Afegiu com a mínim una empremta</string>
+    <string name="ldp_checker_title">"L'empremta digital i Troba dispositiu han d'estar activats"</string>
+    <string name="ldp_closed_dialog_button_know">Entesos</string>
+    <string name="ldp_closed_dialog_reason_by_xiaomi_account">Heu desactivat la protecció de dispositius perduts a través del vostre Compte Xiaomi. Les funcions de seguretat del vostre dispositiu ja no tenen protecció addicional.</string>
+    <string name="ldp_closed_dialog_reason_no_account">La protecció de dispositius perduts ara està desactivada perquè no heu iniciat la sessió al Compte Xiaomi.</string>
+    <string name="ldp_closed_dialog_reason_no_device_find">Heu desactivat Troba dispositiu de manera remota, de manera que la protecció de dispositius perduts està desactivada.</string>
+    <string name="ldp_closed_dialog_reason_no_fingerprint">La protecció contra dispositius perduts ara està desactivada perquè no hi ha cap empremta definida.</string>
+    <string name="ldp_closed_dialog_reason_no_lock_password">La protecció de dispositius perduts ara està desactivada perquè no hi ha cap bloqueig de pantalla configurat.</string>
+    <string name="ldp_closed_dialog_sync_title">Protecció de dispositius perduts desactivada</string>
+    <string name="ldp_closed_dialog_title">Protecció de dispositius perduts desactivada</string>
+    <string name="ldp_detail_introduction">Descobriu com aquesta funció us pot ajudar a protegir-vos si perdeu el dispositiu.</string>
+    <string name="ldp_detail_title">Quant a la protecció de dispositius perduts</string>
+    <string name="ldp_dual_auth">Autenticació de dos factors</string>
+    <string name="ldp_dual_auth_desc">Eviteu que altres persones utilitzin la vostra targeta SIM perduda per manipular el vostre Compte Xiaomi</string>
+    <string name="ldp_extra_fingerprint_item1">•Desactivant o canviant el bloqueig de pantalla</string>
+    <string name="ldp_extra_fingerprint_item2">•Afegint empremtes o dades facials</string>
+    <string name="ldp_extra_fingerprint_item3">•Eliminant empremtes o dades facials</string>
+    <string name="ldp_extra_fingerprint_item4">•Tancant sessió del vostre Compte Xiaomi</string>
+    <string name="ldp_extra_fingerprint_title">"Les accions següents requereixen una comprovació addicional d'empremtes"</string>
+    <string name="ldp_fingerprint_fault_desc">"Podeu desactivar aquesta funció amb la verificació d'empremta. Si no es pot verificar la vostra empremta, la protecció de dispositius perduts us permet desactivar-la verificant el vostre Compte Xiaomi.
+Per evitar que altres persones utilitzin aquest mètode per eludir la protecció immediatament, la protecció de dispositius perduts iniciarà un retard de seguretat de %1$d hores. Això dóna temps al propietari real per prendre mesures, com ara esborrar el dispositiu de forma remota o suspendre la targeta SIM. Un cop finalitzat el retard, podeu desactivar aquesta funció verificant el vostre Compte Xiaomi durant les properes %2$d hores."</string>
+    <string name="ldp_fingerprint_fault_title">"Si la verificació d'empremtes no està disponible"</string>
+    <string name="ldp_forbidden_actions_item1">•Desactivant Troba dispositiu</string>
+    <string name="ldp_forbidden_actions_item2">•Desactivant la Ubicació fora de línia</string>
+    <string name="ldp_forbidden_actions_item3">"•Desactivant \"Envia l'última ubicació\""</string>
+    <string name="ldp_forbidden_actions_title">Les accions següents seran bloquejades</string>
+    <string name="ldp_function_home_introduction_des">Si perdeu el dispositiu i algú té el bloqueig de pantalla, les dades facials o un dispositiu Bluetooth emparellat, aquesta funció pot ajudar a evitar que faci canvis maliciosos importants al dispositiu. &lt;a href=app://learn_more>Aprèn més&lt;/a></string>
+    <string name="ldp_function_home_suggestion_title">Funcions recomanades</string>
+    <string name="ldp_guide_account_protection_desc">"Les accions sensibles del Compte Xiaomi requereixen primer la verificació de l'empremta digital en aquest dispositiu."</string>
+    <string name="ldp_guide_account_protection_title">Afegiu protecció addicional al vostre Compte Xiaomi</string>
+    <string name="ldp_guide_action">Següent</string>
+    <string name="ldp_guide_desc">Si perdeu el dispositiu i algú té el bloqueig de pantalla, les dades facials o un dispositiu Bluetooth emparellat, aquesta funció pot ajudar a evitar que faci canvis maliciosos importants al dispositiu.</string>
+    <string name="ldp_guide_identity_verification_desc">"Els canvis a la configuració de seguretat i l'accés a algunes funcions sensibles requereixen la verificació d'empremtes digitals, de manera que només vosaltres podeu utilitzar-los."</string>
+    <string name="ldp_guide_identity_verification_title">Assegureu-vos que realment feu vosaltres les accions sensibles</string>
+    <string name="ldp_how_to_protect_desc">"La protecció contra dispositius perduts afegeix una capa addicional de seguretat. Si el dispositiu es desbloqueja amb un mètode de seguretat inferior, el sistema requerirà un mètode de verificació diferent per a accions sensibles. Això afegeix una altra comprovació d'identitat sense verificacions repetides innecessàries.
+Si perdeu el dispositiu, aquesta comprovació addicional encara pot ajudar a evitar que altres persones canviïn la configuració de seguretat important, fins i tot si les dades del bloqueig de pantalla o del Compte Xiaomi s'han filtrat a través d'estafes o phishing."</string>
+    <string name="ldp_how_to_protect_title">Com funciona</string>
+    <string name="ldp_recommend_action_button_text">Activa</string>
+    <string name="ldp_recommend_desc">Això ajuda a evitar que altres persones utilitzin la vostra targeta SIM per restablir el vostre Compte Xiaomi i després desactivin les funcions de seguretat com ara la protecció de dispositius perduts i Troba dispositiu.</string>
+    <string name="ldp_recommend_later_button_text">Ara no</string>
+    <string name="ldp_recommend_title">"Activeu l'autenticació de dos factors per al vostre compte"</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item1">•Desactivant el desbloqueig amb dispositius Bluetooth</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item2">•Visualitzant o canviant la configuració de la targeta USIM</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item3">"•Obrint l'aplicació Contrasenyes"</string>
+    <string name="ldp_replace_pwd_with_fingerprint_item4">•Utilitzant Contrasenyes per omplir automàticament les contrasenyes</string>
+    <string name="ldp_replace_pwd_with_fingerprint_title">"Per a les accions següents, la verificació del bloqueig de pantalla se substituirà per la verificació de l'empremta"</string>
+    <string name="ldp_summary">Impediu que altres persones facin canvis importants en aquest dispositiu i al vostre Compte Xiaomi amb la sessió iniciada</string>
+    <string name="ldp_title">Protecció de dispositius perduts</string>
+    <string name="ldp_trigger_occasion_desc">"Si el dispositiu està desbloquejat amb dades facials, bloqueig de pantalla o un dispositiu Bluetooth emparellat, algunes accions sensibles requeriran una comprovació addicional d'empremta o només una empremta. Alhora, no es pot desactivar Troba dispositiu."</string>
+    <string name="ldp_trigger_occasion_title">"Quan s'activa la protecció"</string>
+    <string name="ldp_uni_auth_add_face_title">Verifiqueu la vostra empremta per afegir dades de la cara</string>
+    <string name="ldp_uni_auth_add_fingerprint_title">Verifiqueu la vostra empremta per afegir una nova</string>
+    <string name="ldp_uni_auth_change_password_title">Verifiqueu la vostra empremta per canviar el bloqueig de pantalla</string>
+    <string name="ldp_uni_auth_disable_ldp_title">Verifiqueu la vostra empremta per desactivar la protecció contra dispositius perduts</string>
+    <string name="ldp_uni_auth_enable_ldp_subtitle">"Per activar la protecció de dispositius perduts, verifiqueu la vostra identitat i assegureu-vos que el sensor d'empremtes funcioni correctament."</string>
+    <string name="ldp_uni_auth_remove_face_title">Verifiqueu la vostra empremta per eliminar dades de la cara</string>
+    <string name="ldp_uni_auth_remove_fingerprint_title">Verifiqueu la vostra empremta per eliminar-ne una</string>
+    <string name="ldp_uni_auth_remove_password_title">Verifiqueu la vostra empremta per desactivar el bloqueig de pantalla</string>
     <string name="le_audio_title">LE Àudio</string>
     <string name="learn_about_security_chip">Descobriu com el xip de seguretat dedicat protegeix el vostre dispositiu</string>
     <string name="learn_more">Més informació</string>
@@ -5991,6 +6090,7 @@ Important: les trucades per satèl·lit no estan disponibles. Tanmateix, és pos
     <string name="license_title">Llicència</string>
     <string name="lift_to_wake_title">Aixeca el dispositiu per activar-lo</string>
     <string name="light_camera_state_summary">Activeu la llum de la part posterior quan feu fotos amb temporitzador o ràfegues</string>
+    <string name="light_camera_state_summary_new">Activeu la llum LED quan feu fotos amb temporitzador o ràfegues</string>
     <string name="light_camera_state_title">"Indicador d'estat de la càmera"</string>
     <string name="light_color_mode">Mode clar</string>
     <string name="lights_title">Llum LED</string>
@@ -6677,6 +6777,7 @@ No podreu recuperar-ho."</string>
 No podreu invertir aquesta acció."</string>
     <string name="master_clear_title">Elimina totes les dades (restabliment de fàbrica)</string>
     <string name="master_clear_title_new">Restabliment de fàbrica</string>
+    <string name="material_classic_title">Vidre glaçat</string>
     <string name="material_clock_toggle_content_description">Selecciona a. m. o p. m.</string>
     <string name="material_hour_24h_suffix">%1$s hores</string>
     <string name="material_hour_selection">"Seleccioneu l'hora"</string>
@@ -6693,6 +6794,7 @@ No podreu invertir aquesta acció."</string>
     <string name="material_timepicker_pm">p. m.</string>
     <string name="material_timepicker_select_time">"Selecció de l'hora"</string>
     <string name="material_timepicker_text_input_mode_description">"Canvia al mode d'introducció de text per introduir l'hora."</string>
+    <string name="material_transparent_title">Vidre suau</string>
     <string name="max_aspect_settings_all_app_display_loading">Un moment…</string>
     <string name="max_cpu10_info">"Deca-core Max "</string>
     <string name="max_cpu2_info">"Dual-core Max "</string>
@@ -6834,6 +6936,8 @@ No podreu invertir aquesta acció."</string>
     <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
     <string name="mi_smart_play_entry_title">Mi Smart Play</string>
     <string name="mi_transfer">Mi Mover</string>
+    <string name="mi_transfer_banner_summary">"S'admeten diverses marques de dispositius"</string>
+    <string name="mi_transfer_banner_title">Transfereix elements des del teu dispositiu antic</string>
     <string name="mi_upi_settings">Compte Mi Paga</string>
     <string name="mi_wallet">Moneder Mi</string>
     <string name="mi_wallet_desc">Moneder Mi</string>
@@ -7080,30 +7184,11 @@ Continua per a accedir als ajustaments addicionals."</string>
     <string name="miui_face_unlock_open_toast_for_sensor_light_virtual">"La brillantor de la pantalla no s'ajustarà automàticament"</string>
     <string name="miui_input_method_attention">Atenció</string>
     <string name="miui_input_method_settings">"Configuració del mètode d'entrada"</string>
-    <string name="miui_lab_ai_cloud_closed">Precarregant IA encara no està disponible.</string>
-    <string name="miui_lab_ai_preload_desc">"Precarregant IA incrementa la velocitat de llançament de l'aplicació"</string>
-    <string name="miui_lab_ai_preload_title">Precarregant IA</string>
-    <string name="miui_lab_aiasst_call_screen_desc">Respondre trucades mitjançant IA</string>
-    <string name="miui_lab_aiasst_call_screen_title">Assistent de trucada IA</string>
-    <string name="miui_lab_drive_mode_desc">Utilitzeu controls de veu i escolteu missatges de WeChat</string>
-    <string name="miui_lab_drive_mode_title">Mode cotxe</string>
-    <string name="miui_lab_feature_applied">"S'ha aplicat"</string>
-    <string name="miui_lab_feature_off">Desactivat</string>
-    <string name="miui_lab_feature_on">Activat</string>
-    <string name="miui_lab_features">Funcions del laboratori MIUI</string>
-    <string name="miui_lab_gallery_search_desc">"Cerca d'imatges millorada"</string>
-    <string name="miui_lab_gallery_search_title">Troba fotos a la Galeria</string>
-    <string name="miui_lab_gesture_desc">Utilitzeu gestos en comptes de botons per a la navegació</string>
-    <string name="miui_lab_gesture_title">Gestos de pantalla completa</string>
-    <string name="miui_lab_install_drive_mode_error">"No s'ha pogut instal·lar. Proveu-ho de nou."</string>
-    <string name="miui_lab_install_drive_mode_summary">El Mode cotxe és una aplicació del sistema. La instal·lació no requereix connexió a internet.</string>
-    <string name="miui_lab_install_drive_mode_title">Instal·la el mode Cotxe</string>
-    <string name="miui_lab_settings">Laboratori</string>
-    <string name="miui_lab_slogan">Aprèn. Explora. Descobreix.</string>
     <string name="miui_master_clear_prompt_battery_low">No es pot fer un restabliment de fàbrica quan quedi menys del %1$s de bateria. Carregueu el dispositiu abans de continuar.</string>
     <string name="miui_master_clear_summary">"Elimina totes les dades d'aquest dispositiu"</string>
     <string name="miui_more_special_feature">Exploreu noves característiques</string>
     <string name="miui_nfc_dialog_message">No podreu utilitzar les funcions NFC que inclouen Mi Paga, targetes de transport, targetes clau i més si desactiveu NFC. Voleu desactivar-lo de totes maneres?</string>
+    <string name="miui_nfc_dialog_message_gl">"No podreu utilitzar les funcions NFC, com ara la lectura i l'escriptura d'etiquetes NFC, l'ús de targetes d'accés i molt més, si desactiveu l'NFC. Voleu desactivar-lo igualment?"</string>
     <string name="miui_nfc_dialog_negative">Desactiva</string>
     <string name="miui_nfc_dialog_positive">Cancel·la</string>
     <string name="miui_nfc_dialog_title">"S'està desactivant el NFC"</string>
@@ -7230,6 +7315,7 @@ Qualsevol usuari pot concedir permisos en nom de tots els perfils d'usuari que e
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Canvia a mitja pantalla</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximitza</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimitza</string>
+    <string name="miuix_popup_show_description">Finestra emergent</string>
     <string name="miuix_popup_window_default_title">Finestra emergent</string>
     <string name="miuix_progressbar_loading">Carregant</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tira cap avall per a refrescar</string>
@@ -7714,6 +7800,12 @@ Seleccioneu el sistema operatiu:"</string>
     <string name="next_button_label">Següent</string>
     <string name="next_label">Següent</string>
     <string name="next_page_content_description">Següent</string>
+    <string name="nfc_ac_btn_no">Cancel·la</string>
+    <string name="nfc_ac_btn_yes">Estableix</string>
+    <string name="nfc_ac_confirm_ask">"Voleu definir la targeta d'accés com a targeta predeterminada?"</string>
+    <string name="nfc_ac_confirm_desc">"Per desbloquejar portes tocant el telèfon, definiu la targeta d'accés com a targeta predeterminada."</string>
+    <string name="nfc_ac_summary">"Feu servir el telèfon com a targeta d'accés i desbloquegeu les portes compatibles amb un toc"</string>
+    <string name="nfc_ac_title">"Targeta d'accés"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Per utilitzar aquesta funció, primer instal·la una aplicació de pagaments</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">"No disponible perquè l'NFC està desactivada"</string>
     <string name="nfc_category_title">NFC</string>
@@ -7738,7 +7830,7 @@ Seleccioneu el sistema operatiu:"</string>
     <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Defineix com a predeterminada</string>
     <string name="nfc_payment_btn_text_update">Actualitza</string>
-    <string name="nfc_payment_default">Aplicació per pagar predeterminada</string>
+    <string name="nfc_payment_default">Seleccioneu la targeta predeterminada</string>
     <string name="nfc_payment_default_not_set">No definida</string>
     <string name="nfc_payment_favor_default">"Sempre utilitzar l'aplicació per defecte"</string>
     <string name="nfc_payment_favor_open">"Substituïu l'aplicació per defecte quan un altre mètode de pagament estigui oberta"</string>
@@ -7807,7 +7899,10 @@ Això substitueix %2$s com a aplicació de pagaments predeterminada."</string>
     <string name="night_display_temperature_title">Intensitat</string>
     <string name="night_display_text">"La funció Llum nocturna dona un to ambre a la pantalla. D'aquesta manera, costa menys mirar-la o llegir-hi amb poca llum i és més fàcil adormir-se."</string>
     <string name="night_display_title">Llum nocturna</string>
+    <string name="night_eye_protection_summary">"Reduïu automàticament la brillantor després d'adormir-vos per a la vostra comoditat quan us desperteu per mirar el dispositiu a la nit"</string>
+    <string name="night_eye_protection_title">Confort ocular nocturn</string>
     <string name="night_light_main_switch_title">Utilitza la funció Llum nocturna</string>
+    <string name="night_vision_adapted_game_title">@string/adapted_game_title</string>
     <string name="nls_feature_modes_settings_summary">Pot gestionar i activar els modes, i canviar la configuració que hi estigui relacionada.</string>
     <string name="nls_feature_read_summary">Pot llegir les notificacions, inclosa la informació personal com ara els contactes, els missatges i les fotos.</string>
     <string name="nls_feature_read_title">Llegir les notificacions</string>
@@ -8290,6 +8385,7 @@ OTG s'apaga automàticament després de 10 minuts d'inactivitat."</string>
     <string name="paper_mode_customize_time_summary">Planifica el Mode lectura per a un temps personalitzat</string>
     <string name="paper_mode_customize_time_title">Personalitza el temps</string>
     <string name="paper_mode_enable_description">Redueix la llum blava afegint un to més càlid a la pantalla</string>
+    <string name="paper_mode_enable_title">@string/screen_paper_mode_title</string>
     <string name="paper_mode_end_time_title">Apaga</string>
     <string name="paper_mode_get_location_dlg_msg">"És necessari l'accés a la vostra ubicació per calcular l'hora de les sortides i postes de sol"</string>
     <string name="paper_mode_get_location_dlg_negative_btn_text">Cancel·la</string>
@@ -8323,6 +8419,7 @@ Llegiu i accepteu %s abans d'utilitzar aquest servei."</string>
     <string name="password_save_success">"S'ha desat amb èxit"</string>
     <string name="password_saving">"S'està desant la contrasenya…"</string>
     <string name="password_security_settings_title">Contrasenyes i seguretat</string>
+    <string name="password_set_success_hint">Ara podeu desbloquejar el dispositiu amb el nou bloqueig de pantalla</string>
     <string name="password_setup_complete">"S'ha establert la contrasenya amb èxit"</string>
     <string name="password_toggle_content_description">Mostra la contrasenya</string>
     <string name="password_turned_off_text">"La contrasenya s'ha desactivat"</string>
@@ -8489,6 +8586,13 @@ Llegiu i accepteu %s abans d'utilitzar aquest servei."</string>
     <string name="please_stop_listen_broadcast_audio">"Deixeu d'escoltar l'emissió primer"</string>
     <string name="please_type_passphrase">Contrasenya</string>
     <string name="pm">PM</string>
+    <string name="pocket_musician">Guitarra de butxaca Xiaomi</string>
+    <string name="pocket_musician_battery_toast_both">"Carregueu aquest dispositiu i la guitarra de butxaca Xiaomi abans d'actualitzar el microprogramari"</string>
+    <string name="pocket_musician_battery_toast_device">"Carregueu la vostra guitarra de butxaca Xiaomi abans d'actualitzar el microprogramari"</string>
+    <string name="pocket_musician_battery_toast_phone">"Connecteu el carregador a aquest dispositiu i torneu a provar d'actualitzar el microprogramari"</string>
+    <string name="pocket_musician_ota_connect_first">Connecteu la guitarra de butxaca Xiaomi per obtenir informació actualitzada</string>
+    <string name="pocket_musician_ota_dialog_text">"S'està actualitzant…"</string>
+    <string name="pocket_musician_ota_summary">"Reinicieu aquest accessori manualment després de l'actualització"</string>
     <string name="poco_launcher_privacy_policy">Política de privadesa del Llançador POCO</string>
     <string name="poco_launcher_user_agreement">"Acord d'usuari del Llançador POCO"</string>
     <string name="pointer_fill_style">Color del cursor</string>
@@ -8513,6 +8617,7 @@ Llegiu i accepteu %s abans d'utilitzar aquest servei."</string>
     <string name="popup_window">Restringeix les notificacions flotants</string>
     <string name="post_dsds_reboot_notification_text">Toca per actualitzar la configuració de la targeta SIM</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">La SIM de %1$s està activa</string>
+    <string name="post_reset_google_verification">"Després d'un restabliment de fàbrica, inicia la sessió amb el compte de Google que feies servir anteriorment en aquest dispositiu per definir una contrasenya."</string>
     <string name="power_autorun_apps_empty">No hi ha aplicacions</string>
     <string name="power_autorun_empty">No hi ha aplicacions disponibles</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -9087,7 +9192,29 @@ Qualsevol persona que connecti el teu dispositiu a un ordinador o instal·li apl
     <string name="proxy_url_title">"URL de PAC "</string>
     <string name="proxy_warning_limited_support">"El navegador utilitza un servidor intermediari HTTP, però pot ser que la resta d'aplicacions no."</string>
     <string name="pss_profiling_disabled">Elaboració de perfils de memòria desactivada</string>
+    <string name="qingcai_eye_care_summery">Detecta automàticament el contingut en pantalla i filtra la llum blava nociva mentre manté els colors del joc vius</string>
+    <string name="qingcai_eye_care_title">Confort ocular (vívid)</string>
     <string name="qr_code_content_description">Codi QR</string>
+    <string name="quick_button_check_app_activity_title">"Seleccioneu l'aplicació per al llançament ràpid"</string>
+    <string name="quick_button_check_app_not_found_txt">"No s'han pogut trobar resultats"</string>
+    <string name="quick_button_check_app_search_edit_hint">Cerca aplicacions</string>
+    <string name="quick_button_check_app_search_text_cancel_txt">Cancel·la</string>
+    <string name="quick_button_check_app_search_text_submit_txt">Fet</string>
+    <string name="quick_button_eyecare_mode_summery">Activa el Mode lectura per reduir la llum blava</string>
+    <string name="quick_button_eyecare_mode_tile">Mode lectura</string>
+    <string name="quick_button_furious_mode_summery">Canvia al Mode últim per treure el màxim profit de la vostra tauleta</string>
+    <string name="quick_button_furious_mode_title">Mode últim</string>
+    <string name="quick_button_inspiration_summery">Escriu amb el llapis òptic per capturar idees sempre que apareguin</string>
+    <string name="quick_button_inspiration_title">Escriptura</string>
+    <string name="quick_button_none_title">No faceu res</string>
+    <string name="quick_button_preference_title">Botó de drecera</string>
+    <string name="quick_button_screenshot_summery">Feu una captura de pantalla sempre que ho necessiteu</string>
+    <string name="quick_button_screenshot_title">Captura de pantalla</string>
+    <string name="quick_button_start_button_txt">Seleccioneu aplicació</string>
+    <string name="quick_button_start_summery">Obriu les aplicacions que feu servir més ràpidament</string>
+    <string name="quick_button_start_title">Llançament ràpid</string>
+    <string name="quick_button_super_ai_summery">Memoritzeu el que apareix a la pantalla en un tres i no res</string>
+    <string name="quick_button_super_ai_title">Memòria Xiaomi Hyper XiaoAi</string>
     <string name="quick_function">"Funcions d'assistència"</string>
     <string name="quick_reply_title">Respostes ràpides</string>
     <string name="quick_settings_developer_tiles">Icones de configuració ràpida per a desenvolupadors</string>
@@ -9331,6 +9458,10 @@ Totes les aplicacions de l'espai i les seves dades també se suprimiran permanen
     <string name="right_function_key">Drecera dreta</string>
     <string name="right_hearing_aid">Audiòfon dret</string>
     <string name="right_shoulder_key">Dreta</string>
+    <string name="ring_remote_battery_status_toast_one">"Connecteu el carregador a aquest dispositiu i torneu a provar d'actualitzar el microprogramari"</string>
+    <string name="ring_remote_battery_status_toast_three">"Substituïu la bateria del suport magnètic abans d'actualitzar el microprogramari"</string>
+    <string name="ring_remote_battery_status_toast_two">Connecteu el carregador a aquest dispositiu i substituïu la bateria del suport magnètic i, a continuació, torneu a intentar actualitzar el microprogramari.</string>
+    <string name="ring_remote_ota_summary">"S'està actualitzant. No desconnecteu."</string>
     <string name="ring_to_you">To de trucada personalitzat</string>
     <string name="ring_to_you_info">Establiu un to personalitzat que escoltaran altres persones fins que agafis a trucada</string>
     <string name="ring_volume_option_title">To de trucada</string>
@@ -9351,6 +9482,26 @@ Totes les aplicacions de l'espai i les seves dades també se suprimiran permanen
     <string name="roaming_warning">Es poden aplicar càrrecs per itinerància.</string>
     <string name="rom_total_size">Mida total de la ROM</string>
     <string name="root">Accés de superusuari</string>
+    <string name="rp_clone_space_password_same_tip">El nou bloqueig de pantalla hauria de ser diferent de la contrasenya del Segon espai</string>
+    <string name="rp_forget_password_dialog_button_know">Entesos</string>
+    <string name="rp_forget_password_dialog_desc">"Si heu canviat recentment el bloqueig de pantalla i el dispositiu es bloqueja després de massa intents de desbloqueig fallits, podeu restablir el bloqueig de pantalla actual verificant un bloqueig de pantalla que s'hagi canviat en les últimes %1$d hores, juntament amb la vostra empremta."</string>
+    <string name="rp_forget_password_dialog_note">Després de diversos intents fallits de desbloqueig a la Pantalla de bloqueig, toqueu \"Contrasenya oblidada\" per començar a restablir el bloqueig de pantalla.</string>
+    <string name="rp_forget_password_dialog_title">Restableix el bloqueig de pantalla quan el dispositiu està bloquejat</string>
+    <string name="rp_old_password_retention_hint">"El bloqueig de pantalla anterior es conservarà durant un temps. Si oblides el nou bloqueig de pantalla, pots utilitzar l'anterior per restablir-lo."</string>
+    <string name="rp_password_no_match">Els PINs no coincideixen. Proveu-ho de nou.</string>
+    <string name="rp_remove_old_password">Esborra el bloqueig de pantalla anterior</string>
+    <string name="rp_reset_dialog_button_cancel">Cancel·la</string>
+    <string name="rp_reset_dialog_button_confirm">Esborra</string>
+    <string name="rp_reset_dialog_message">"Recentment heu canviat el bloqueig de pantalla. Encara podeu restablir el bloqueig de pantalla actual amb el bloqueig de pantalla i l'empremta anteriors. Si no necessiteu aquesta opció de còpia de seguretat, podeu esborrar el bloqueig de pantalla anterior ara."</string>
+    <string name="rp_reset_dialog_title">Esborra el bloqueig de pantalla anterior</string>
+    <string name="rp_reset_old_password_now_desc">"Després de verificar el bloqueig de pantalla i l'empremta anteriors, se us guiarà per definir un nou bloqueig de pantalla."</string>
+    <string name="rp_reset_old_password_now_title">"S'està restablint el bloqueig de pantalla…"</string>
+    <string name="rp_reset_password_hint">"Durant els propers %1$s %2$s, podeu restablir el bloqueig de pantalla actual verificant el bloqueig de pantalla anterior i l'empremta."</string>
+    <string name="rp_set_new_password">Estableix un bloqueig de pantalla nou</string>
+    <string name="rp_set_new_password_desc">"Si oblideu el nou bloqueig de pantalla, el podeu restablir amb el bloqueig de pantalla i l'empremta anteriors."</string>
+    <string name="rp_set_new_password_finish_desc">El bloqueig de pantalla oblidat no es desarà com a bloqueig de pantalla anterior. El temporitzador del bloqueig de pantalla anterior original es reiniciarà.</string>
+    <string name="rp_set_new_password_finish_title">"S'ha establert amb èxit"</string>
+    <string name="rp_set_new_pattern">Dibuixeu un patró nou</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
     <string name="rtt_settings_summary">Utilitza text per comunicar-te durant una trucada</string>
@@ -9514,6 +9665,7 @@ Totes les aplicacions de l'espai i les seves dades també se suprimiran permanen
     <string name="screen_effect_adapt_color_title">Vívid</string>
     <string name="screen_effect_origin_color_summary">Reprodueix colors realistes mitjançant la calibració del color</string>
     <string name="screen_effect_origin_color_title">Color original PRO</string>
+    <string name="screen_effect_tip">"L'espai de color més adequat s'adaptarà automàticament al contingut. Admet sRGB, P3 i BT.2020."</string>
     <string name="screen_enhance_engine_ai_note">"%d. Aquesta característica augmenta lleugerament el consum d'energia."</string>
     <string name="screen_enhance_engine_ai_note_2">"%d. Només es poden millorar les imatges de l'aplicació Galeria."</string>
     <string name="screen_enhance_engine_ai_note_3">%d. Aquesta funció no funcionarà si decidiu mostrar colors originals o aplicar-hi ajustos avançats.</string>
@@ -9751,6 +9903,7 @@ Per utilitzar la fixació d'aplicacions: \t
     <string name="search_account_list">Altres comptes;Comptes;Comptes</string>
     <string name="search_add_facerecoginition_text">Desbloqueig facial;Reconeixement facial</string>
     <string name="search_advanced_settings">Configuració avançada;Wifi;Wi-Fi;Configuració Wi-Fi;Configuració WLAN</string>
+    <string name="search_ai_companion_title">Drecera del porta-retalls; Copia; Accés instantani; Accés</string>
     <string name="search_airplane_mode">Mode avió;Mode avió;Mode de vol;Avió;Avió;Vol</string>
     <string name="search_alarm_sound_title">"So de l'alarma;to d'alarma;alarma"</string>
     <string name="search_ambient_display_screen_title">Pantalla ambiental;Pantalla sempre encesa;Pantalla sempre encesa</string>
@@ -9762,6 +9915,7 @@ Per utilitzar la fixació d'aplicacions: \t
     <string name="search_application_lock_name">"Bloqueig d'aplicacions"</string>
     <string name="search_applications_settings">Aplicacions instal·lades</string>
     <string name="search_back_key">Enrera;Botó Enrere;Tecla per tornar</string>
+    <string name="search_background_blur_mode">Vidre glaçat;Vidre suau;Estil visual</string>
     <string name="search_battery_indicator">Indicador de bateria</string>
     <string name="search_bluetooth_device_searchable">Detectable;Visible;Nom del Bluetooth</string>
     <string name="search_bluetooth_enable">Bluetooth;Activeu Bluetooth;Bluetooth activat</string>
@@ -9968,10 +10122,18 @@ Per utilitzar la fixació d'aplicacions: \t
     <string name="security_advanced_settings_work_profile_settings_summary">Bloqueig del perfil de treball, encriptació i més</string>
     <string name="security_center_title">Seguretat</string>
     <string name="security_check_progress_dialog_message">Comprovació de problemes de seguretat…</string>
+    <string name="security_chip">Xip de seguretat</string>
     <string name="security_chip_active">"Les vostres contrasenyes i dades d'empremtes estan protegides pel xip de seguretat dedicat. "<Data>&lt;br/>&lt;a href=security_chip_bottomsheet>Aprèn més&lt;/a></Data></string>
+    <string name="security_chip_data_protection">Un xip de seguretat dedicat ajuda a protegir les vostres dades</string>
     <string name="security_chip_description">El xip de seguretat dedicat és un mòdul de seguretat de maquinari dissenyat per Xiaomi per protegir les dades sensibles dels dispositius.</string>
     <string name="security_chip_details">A diferència del xip de seguretat NFC, el xip de seguretat dedicat protegeix el bloqueig de pantalla, les dades sensibles xifrades i la informació de les empremtes dactilars. Està aïllat físicament del xip NFC, cosa que garanteix una protecció més forta, una millor estabilitat i una resistència millorada contra les interferències.</string>
+    <string name="security_chip_dialog_confirm">Entesos</string>
+    <string name="security_chip_dual_certification">El xip de seguretat que compleix els requisits de certificació de criptografia comercial xinesa i els criteris comuns (CC) ajuda a defensar-se contra atacs físics i cracking per força bruta</string>
+    <string name="security_chip_fingerprint_encrypt">Les vostres empremtes estan xifrades i protegides pel xip de seguretat</string>
+    <string name="security_chip_hardware_encryption">Xifratge a nivell de maquinari</string>
+    <string name="security_chip_hardware_vault">Mòdul de maquinari segur</string>
     <string name="security_chip_password_protection">Amb el mecanisme Weaver del xip, les vostres contrasenyes estan protegides a nivell de maquinari:</string>
+    <string name="security_chip_root_key_protection">La clau arrel està protegida per un xip de seguretat dedicat, de manera que el sistema ni les aplicacions de tercers no hi poden accedir</string>
     <string name="security_dashboard_summary">Bloqueig de pantalla, Troba el meu dispositiu, seguretat per a aplicacions</string>
     <string name="security_encryption_alert_dialog_info_first">Per activar aquesta funció cal establir el bloqueig de pantalla. Haureu de desbloquejar el bloqueig de pantalla després de cada reinici per desxifrar i utilitzar el dispositiu amb normalitat.</string>
     <string name="security_encryption_alert_dialog_title_first">Abans configureu el bloqueig de pantalla</string>
@@ -10389,6 +10551,8 @@ Mou el dit lleugerament cada vegada. Això ajuda a capturar una part més gran d
     <string name="set_jeejen_prompt_message">"El Mode simplificat s'establirà com a llançador per defecte. Podeu canviar-ho a Configuració > Configuració del sistema > Pantalla d'inici i Recents > Llançador per defecte."</string>
     <string name="set_jeejen_prompt_title">Confirma els canvis</string>
     <string name="set_lock_screen_password">Estableix un bloqueig de pantalla</string>
+    <string name="set_new_password_hint">Introduïu el vostre nou bloqueig de pantalla i recordeu-lo</string>
+    <string name="set_new_password_hint_new">Introduïu el vostre nou bloqueig de pantalla i recordeu-lo</string>
     <string name="set_pad_clone_password">Establiu la contrasenya del Segon espai de la tauleta</string>
     <string name="set_password">Estableix un bloqueig de pantalla</string>
     <string name="set_password_before_face">"Establiu un bloqueig de pantalla abans d'afegir les dades facials"</string>
@@ -11388,6 +11552,8 @@ Prova un altre suport (^3) més ràpid o fes servir aquest (^4) com a emmagatzem
     <string name="sunlight_mode">Mode diürn</string>
     <string name="sunlight_mode_boost_summary">"Amplieu el rang de brillantor i ajusteu la brillantor automàticament en condicions de brillantor. Aquesta funció farà que el vostre dispositiu s'escalfi i consumeixi més energia."</string>
     <string name="sunlight_mode_summary">Ajusteu la brillantor a una llum ambient forta per evitar que la pantalla es torni massa fosca</string>
+    <string name="super_sensory_night_vision_summery">Milloreu el contrast amb poca llum perquè els detalls es mantinguin nítids i tingueu una millor experiència de joc nocturn</string>
+    <string name="super_sensory_night_vision_title">Visió nocturna millorada</string>
     <string name="super_voice_assist">Super Mi IA</string>
     <string name="super_volume_tip">Volum màxim %s</string>
     <string name="supervision_add_forgot_pin_preference_title">He oblidat el PIN</string>
@@ -11490,6 +11656,7 @@ Pots editar o suprimir el PIN des de Configuració d'Android > Controls parental
     <string name="swipe_add_fingerprint_dirty_title">Assegureu-vos que el dit estigui net i sec</string>
     <string name="swipe_add_fingerprint_finish_text">"Proveu d'enregistrar la vostra empremta des de més angles per a un millor desbloqueig"</string>
     <string name="swipe_add_fingerprint_insufficient_title">"No s'ha pogut reconèixer la vostra empremta. Torneu-ho a provar."</string>
+    <string name="swipe_add_fingerprint_message">"Llisqueu lentament el Botó d'encesa i canvieu l'angle a mesura que aneu"</string>
     <string name="swipe_add_fingerprint_move_text">Prova diferents angles i posicions</string>
     <string name="swipe_add_fingerprint_move_title">Ajusteu la vostra pressió</string>
     <string name="swipe_add_fingerprint_need_up_text">Problemes per capturar la vostra empremta</string>
@@ -11501,6 +11668,7 @@ Pots editar o suprimir el PIN des de Configuració d'Android > Controls parental
     <string name="swipe_add_fingerprint_swipe_fast_title">Moveu el dit més lentament</string>
     <string name="swipe_add_fingerprint_swipe_slow_title">Moveu el dit més ràpid</string>
     <string name="swipe_add_fingerprint_text">"Ajusteu l'adherència per capturar les vores de la vostra empremta digital"</string>
+    <string name="swipe_add_fingerprint_title">"Moveu el dit cap a l'esquerra i la dreta"</string>
     <string name="swipe_add_fingerprint_up_text">Premeu i gireu lleugerament el dit</string>
     <string name="swipe_add_fingerprint_up_title">"Premeu el centre de la zona de l'empremta"</string>
     <string name="swipe_direction_ltr">"Llisca cap a la dreta per ignorar o cap a l'esquerra per mostrar el menú"</string>
@@ -13280,6 +13448,7 @@ Toqueu "<b>Enrere</b> per connectar a una altra xarxa Wi-Fi.</string>
     <string name="wifi_share_add">Comparteix el Wi-Fi públic</string>
     <string name="wifi_share_add_summary">"Si compartiu les xarxes públiques,
 podreu utilitzar les dels altres usuaris."</string>
+    <string name="wifi_share_close_button_description">Tanca</string>
     <string name="wifi_share_conflict_dialog_message">Ja existeix una xarxa compartida amb el nom \"%1$s\". Si hi canvies, sortiràs de la xarxa privada i és possible que no tinguis Internet temporalment.</string>
     <string name="wifi_share_conflict_dialog_title">Vols canviar a una xarxa compartida?</string>
     <string name="wifi_share_connect">Connecta</string>
@@ -13294,6 +13463,7 @@ podreu utilitzar les dels altres usuaris."</string>
     <string name="wifi_share_plain_password_text">Contrasenya: %s</string>
     <string name="wifi_share_preference_summary">"Els altres usuaris d'aquest dispositiu poden accedir a aquesta xarxa"</string>
     <string name="wifi_share_preference_title">Comparteix la xarxa</string>
+    <string name="wifi_share_qr_code_description">Codi QR</string>
     <string name="wifi_share_qrcode_finish">Fet</string>
     <string name="wifi_share_qrcode_summary">Escaneja el codi QR i comparteix el Wi-Fi.</string>
     <string name="wifi_share_qrcode_title">Comparteix una xarxa Wi-Fi</string>
@@ -13377,6 +13547,10 @@ podreu utilitzar les dels altres usuaris."</string>
     <string name="wifi_wakeup_location_summary">Activa els serveis de localització per poder utilitzar aquesta funció.</string>
     <string name="wifi_wakeup_negative_button">Cancel·la</string>
     <string name="wifi_wakeup_positive_button">Activa</string>
+    <string name="wifi_wakeup_privacy_agree">Acceptar</string>
+    <string name="wifi_wakeup_privacy_content">"La funció Activa Wi-Fi automàticament (aquest servei) és una característica proporcionada per Xiaomi Inc. (nosaltres o Xiaomi). Guardeu les xarxes Wi-Fi d'alta qualitat, com la de casa vostra, i activeu automàticament el Wi-Fi quan esteu a prop per ajudar-vos a reduir el consum de dades mòbils. Donem gran importància a la protecció de la vostra informació personal i la vostra privadesa. Proporcionarem les mesures de seguretat corresponents per a la seva informació personal d'acord amb els requisits legals pertinents i els estàndards de la indústria.&lt;br>Quan activeu aquest servei, recopilarem la vostra informació d'ubicació aproximada, basada en els identificadors de les torres de telefonia cel·lular, per connectar-vos amb xarxes Wi-Fi properes d'alta qualitat.&lt;br>Aquesta informació només es processa al vostre dispositiu i no es penjarà al núvol.&lt;br>Si decidiu no proporcionar aquesta informació, no podreu utilitzar aquest servei.&lt;br>Conservarem la vostra informació personal només durant el període necessari per aconseguir els fins de recopilació descrits en aquesta declaració de privadesa o per complir amb els requisits legals aplicables.&lt;br>Hem establert un departament dedicat a la protecció de la informació personal. Si teniu algun comentari o pregunta sobre aquesta declaració de privadesa, o si teniu alguna pregunta sobre la nostra recopilació, ús o divulgació de la vostra informació personal, contacteu-nos a &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>. En general, respondrem en un termini de quinze dies hàbils.&lt;br>Pulseu Accepto per indicar que heu llegit i accepteu aquesta declaració de privadesa."</string>
+    <string name="wifi_wakeup_privacy_disagree">Cancel·lar</string>
+    <string name="wifi_wakeup_privacy_title">Declaració de privacitat</string>
     <string name="wifi_wakeup_scan_summary">Permeteu que les aplicacions i els serveis cerquin xarxes Wi-Fi per poder activar-la automàticament. Si activeu aquesta funció, el dispositiu es podrà connectar automàticament a les xarxes desades properes.</string>
     <string name="wifi_wakeup_summary">"La Wi-Fi es tornarà a activar prop de xarxes d'alta qualitat desades, com la de casa teva"</string>
     <string name="wifi_wakeup_summary_no_location">No disponible perquè la ubicació està desactivada. Activa la <annotation id="link">ubicació</annotation>.</string>
@@ -13567,10 +13741,21 @@ podreu utilitzar les dels altres usuaris."</string>
     <string name="xiaomi_cloud_service_description_without_contacts">El Núvol Xiaomi sincronitza fotos, fa còpies de seguretat de les aplicacions i de les configuracions i us ajuda a trobar el telèfon mitjançant Troba dispositiu.</string>
     <string name="xiaomi_cloud_service_disabled">Desactivat</string>
     <string name="xiaomi_cloud_service_unknown">Desconegut</string>
+    <string name="xiaomi_confirm_enable_16k_erase_checkbox_text">Entenc els riscos i accepto les possibles conseqüències</string>
+    <string name="xiaomi_confirm_enable_16k_pages_text">La integritat del programari no es pot garantir en aquest mode. Això reiniciarà el dispositiu.</string>
+    <string name="xiaomi_confirm_enable_16k_pages_update_wipe">"\"Arrencar amb una mida de pàgina de 16 KB\" és una funció altament sensible pensada només per a proves de desenvolupadors. Si l'activeu, s'esborraran totes les dades del dispositiu, incloses les fotos, els vídeos, els documents i totes les dades de les aplicacions. No es pot garantir la integritat del programari. En aquest mode, algunes funcions no estaran disponibles i és possible que algunes aplicacions no funcionin correctament."</string>
+    <string name="xiaomi_confirm_enable_4k_pages_text">Això reiniciarà el dispositiu.</string>
+    <string name="xiaomi_confirm_reboot_button_text">Reinicia</string>
+    <string name="xiaomi_confirm_reboot_title_text">"S'ha detectat un risc"</string>
     <string name="xiaomi_custom_input_method">Personalitzat per a Xiaomi</string>
+    <string name="xiaomi_erase_confirm_countdown_format">"D'acord (%1$d)"</string>
     <string name="xiaomi_hp_location">Accés precís a la ubicació</string>
     <string name="xiaomi_hp_location_description">La informació precisa de la ubicació permet una navegació precisa</string>
     <string name="xiaomi_money_service">Crèdits Mi</string>
+    <string name="xiaomi_page_agnostic_16k_pages_text">El dispositiu utilitza una mida de pàgina de 16 KB amb el sistema de fitxers ext4. Per restaurar el sistema de fitxers F2FS, heu de tornar a una mida de pàgina de 4 KB i dur a terme un restabliment de fàbrica.</string>
+    <string name="xiaomi_page_agnostic_16k_pages_title">Utilitzant una mida de pàgina de 16 KB</string>
+    <string name="xiaomi_page_agnostic_4k_pages_text">El dispositiu utilitza una mida de pàgina de 4 KB amb el sistema de fitxers ext4. Per restaurar el sistema de fitxers F2FS, heu de dur a terme un restabliment de fàbrica.</string>
+    <string name="xiaomi_page_agnostic_4k_pages_title">Utilitzant una mida de pàgina de 4 KB</string>
     <string name="xiaomi_router_available_notif_summary">Premeu per veure més informació.</string>
     <string name="xiaomi_router_available_notif_title">Mi Router disponible</string>
     <string name="xiaomi_router_notif_summary">"Avisa'm quan un Mi Router estigui disponible"</string>
