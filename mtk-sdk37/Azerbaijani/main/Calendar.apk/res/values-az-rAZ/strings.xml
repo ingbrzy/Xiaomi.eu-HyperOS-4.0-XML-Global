@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accessibility_add_attendee">İştirakçı əlavə et</string>
-    <string name="accessibility_alarm_remind">Zəngli saat xatırladıcıları</string>
+    <string name="accessibility_alarm_remind">Zəngli saat xatırlatmaları</string>
     <string name="accessibility_all_day">Bütün gün tədbiri</string>
     <string name="accessibility_change_view_tab">Seçildi: %s</string>
     <string name="accessibility_day_page_selected">Hal-hazırda gündəlik görünüşdədir, %2$s %3$d, %1$d</string>
@@ -50,7 +50,19 @@
     <string name="agenda_not_today_empty_hint">Burada hələ tədbir yoxdur. Yaratmaq üçün toxunun.</string>
     <string name="agenda_tomorrow">SABAH, %1$s</string>
     <string name="agenda_view">Tədbirlər</string>
+    <string name="ai_card_amount">Ödəniş məbləği</string>
+    <string name="ai_card_arrival_time">Gəliş vaxtı</string>
+    <string name="ai_card_card_no">Kart nömrəsi</string>
+    <string name="ai_card_check_in_date">Giriş tarixi</string>
+    <string name="ai_card_check_out_date">Çıxış tarixi</string>
+    <string name="ai_card_hall">Teatr</string>
+    <string name="ai_card_room_type">Otaq növü</string>
+    <string name="ai_card_seat">Oturacaqlar</string>
+    <string name="ai_card_source">%s-dan</string>
+    <string name="ai_card_table_info">Cədvəl detalları</string>
     <string name="ai_introduce_card_sub_title">Sİ avtomatik olaraq təqviminə səyahətlər, biletlər və digər iventlər əlavə etməsinə icazə ver</string>
+    <string name="ai_location_navigate">Naviqasiya</string>
+    <string name="ai_location_taxi">Taksi</string>
     <string name="alarm_close_reminder">Siqnal xatırladıcısı söndürülür</string>
     <string name="alarm_label">Başa düşdüm</string>
     <string name="alarm_open_reminder">Zəngli saat təyin et</string>
@@ -152,6 +164,7 @@
     <string name="date_interval_tab">İnterval</string>
     <string name="date_interval_text_to">%1$s tarixinə</string>
     <string name="date_jump_title">Tarixə keç</string>
+    <string name="date_of_birth">%s-in ad günü</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -161,6 +174,7 @@
     <string name="date_today">" (bu gün)"</string>
     <string name="date_view">Tarix</string>
     <string name="day_view_new_event_hint">Yeni tədbir</string>
+    <string name="days_left">Qalan</string>
     <string name="default_reminder_labels_day">%d gün əvvəl</string>
     <string name="default_reminder_labels_days">%d gün əvvəl</string>
     <string name="default_reminder_labels_hour">%d saat əvvəl</string>
@@ -212,6 +226,8 @@
     <string name="edit_event_birthday_name_hint">Ad</string>
     <string name="edit_event_calendar_label">Təqvim</string>
     <string name="edit_event_choose_date">Tarix seçin</string>
+    <string name="edit_event_confirm_continue">Redaktəni davam et</string>
+    <string name="edit_event_confirm_discard">İmtina et</string>
     <string name="edit_event_confirm_message">Dəyişikliklərdən imtina edilsin?</string>
     <string name="edit_event_countdown_name_empty_hint">Tədbir adını daxil edin</string>
     <string name="edit_event_countdown_name_hint">Tədbir</string>
@@ -235,7 +251,7 @@
     <string name="edit_event_title_create_anniversary">Yubiley əlavə edin</string>
     <string name="edit_event_title_create_birthday">Ad günü əlavə edin</string>
     <string name="edit_event_title_create_countdown">Geri sayım əlavə et</string>
-    <string name="edit_event_title_edit_agenda">Tədbirə düzəliş et</string>
+    <string name="edit_event_title_edit_agenda">Tədbiri redaktə et</string>
     <string name="edit_event_title_edit_anniversary">İl dönümünə düzəliş et</string>
     <string name="edit_event_title_edit_birthday">Doğum gününə düzəliş et</string>
     <string name="edit_event_title_edit_countdown">Geri sayıma düzəliş et</string>
@@ -244,6 +260,7 @@
     <string name="email_picker_label">Bununla e-poçt göndər</string>
     <string name="empty" />
     <string name="empty_event">Boş tədbir yaradıla bilmir</string>
+    <string name="end_at">Son: %s</string>
     <string name="eras_ad">B.E</string>
     <string name="eras_bc">E.ə.</string>
     <string name="evening">Günortadan sonra</string>
@@ -254,7 +271,7 @@
     <string name="event_all_selected">Hamısı seçildi</string>
     <string name="event_create">Yeni tədbir</string>
     <string name="event_delete">Tədbiri sil</string>
-    <string name="event_edit">Tədbirə düzəliş et</string>
+    <string name="event_edit">Tədbiri redaktə et</string>
     <string name="event_import">Tədbir idxal edin</string>
     <string name="event_info_descrip">Açıqlama</string>
     <string name="event_info_end">Son</string>
@@ -269,6 +286,7 @@
     <string name="event_info_where">Harada</string>
     <string name="event_none_selected">Bütün seçimlər ləğv edildi</string>
     <string name="event_reminder_allday_day_zero">Eyni gün %2$s saatında</string>
+    <string name="event_reminder_allday_day_zero_annver">Həmin gün</string>
     <string name="event_reminder_custom">Fərdi</string>
     <string name="event_reminder_value_zero">Tədbir başlayanda</string>
     <string name="event_title">Başlıq</string>
@@ -366,7 +384,6 @@
     <string name="hint_what_smart_input_12">h:mm aa</string>
     <string name="hint_what_smart_input_24">HH:mm</string>
     <string name="hint_what_v1">Tədbir başlığını daxil edin</string>
-    <string name="hint_where">Məkan</string>
     <string name="holiday_detail_read_more">Daha çox</string>
     <string name="horoscope_select_activity_label">Bürc işarəsini seçin</string>
     <string name="hotel_detail_title">Otel detalları</string>
@@ -413,6 +430,7 @@
     <string name="login_caldav">Əlavə et</string>
     <string name="login_failed_toast">Daxil ola bilmədi, yeniləyin və yenidən cəhd edin</string>
     <string name="logining_caldav_account">Əlavə edilir…</string>
+    <string name="lunar_birthday_desc">Ənənəvi Çin təqvimi</string>
     <string name="lunar_date">Ay təqvimi</string>
     <string name="lunar_date_content_desc">Ənənəvi Çin təqviminə görə tarix</string>
     <string name="lunar_to_solar_chinese_calendar">Çindən Qriqoriana</string>
@@ -459,6 +477,7 @@
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Yarım ekrana keç</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Böyüt</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Kiçilt</string>
+    <string name="miuix_popup_show_description">Açılan pəncərə</string>
     <string name="miuix_popup_window_default_title">Açılan pəncərə</string>
     <string name="miuix_progressbar_loading">Yüklənir</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yeniləmək üşün aşağıya çəkin</string>
@@ -470,8 +489,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Bir saniyə…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Eementlər yüklənə bilmədi</string>
     <string name="miuix_search_action_mode_cancel">Ləğv et</string>
-    <string name="miuix_search_back_button_description">Geri</string>
-    <string name="miuix_search_end_view_text_search">Axtar</string>
+    <string name="miuix_search_back_button_description">Geri düyməsi</string>
+    <string name="miuix_search_end_view_text_search">Axtarış</string>
     <string name="miuix_search_history_clear">Axtarış tarixçəsini təmizlə</string>
     <string name="miuix_search_history_default_title">Axtarış tarixçəsi</string>
     <string name="miuix_search_recommendation_default_title">Bunlarla maraqlana bilərsiniz</string>
@@ -492,6 +511,7 @@
     <string name="month_august_short">Avq</string>
     <string name="month_august_shortest">Avq</string>
     <string name="month_calendar_view">Ay görünüşü</string>
+    <string name="month_day_title_format">dd.MM</string>
     <string name="month_december">Dekabr</string>
     <string name="month_december_short">Dek</string>
     <string name="month_december_shortest">Dek</string>
@@ -551,12 +571,14 @@
     <string name="no_data">Burada hələ heç nə yoxdur</string>
     <string name="no_events_hint">Tədbir yoxdur</string>
     <string name="no_locale_list_text">Məkanların siyahısını əldə etmək mümkün olmadı. Yenidən cəhd edin.</string>
+    <string name="no_location_hint">Nəticələr tapılmadı</string>
+    <string name="no_location_network">Şəbəkəyə qoşula bilmir</string>
     <string name="no_more_events">Göstərmək üçün başqa tədbir yoxdur</string>
     <string name="no_network">"Şəbəkəyə qoşula bilmədi.
 Şəbəkə tənzimləmələrini yoxlayın və yenidən cəhd edin."</string>
     <string name="no_network_btn">Yenidən cəhd et</string>
     <string name="no_schedule_today">Bugün tədbir yoxdur</string>
-    <string name="no_title_label">(Başlıq yoxdur)</string>
+    <string name="no_title">Başlıq yoxdur</string>
     <string name="no_visiable_calendar_message">"Təqvim hesabı əlavə etməlisiniz. Davam etmək üçün ''Hesab əlavə et'' seçiminə toxunun."</string>
     <string name="no_visiable_calendar_message_only_for_xiaomi_account">"Təqvim hesabı əlavə etməlisiniz. Davam etmək üçün ''Hesab əlavə et'' seçiminə toxunun."</string>
     <string name="no_visiable_calendar_select_account">Hesab əlavə et</string>
@@ -571,7 +593,10 @@
     <string name="notification_open_setting_button_ok">İcazə ver</string>
     <string name="notification_open_setting_message">Təqvimə sizə bildiriş göndərməyə icazə verməyincə, tədbirlər haqqında bildirişlər ala bilməyəcəksiniz.</string>
     <string name="notification_open_setting_title">Təqvim bildirişlərinə icazə verilsin?</string>
+    <string name="panel_title_end">Son</string>
+    <string name="panel_title_start">Başlanğıc</string>
     <string name="pasport_register_dialog_message">Telefon nömrən %s vasitəsilə Xiaomi Hesabı indi yaradılsın?</string>
+    <string name="pass_day">Keçdi</string>
     <string name="passenger">Sərnişin</string>
     <string name="passport_access_denied">Müraciət rədd edildi</string>
     <string name="passport_account_crop_user_avatar">Şəkili kəs</string>
@@ -748,21 +773,21 @@
     <string name="pm">GS</string>
     <string name="portrait_week_view">Portret oriyentasiyasında həftəlik gündəm</string>
     <string name="pref_reminder_time">Xatırladıcı vaxtı</string>
-    <string name="pref_title_alarm_remind">Zəngli saat xatırladıcıları</string>
+    <string name="pref_title_alarm_remind">Zəngli saat xatırlatmaları</string>
     <string name="pref_title_countdown_remind">Geri sayım xatırlatması</string>
     <string name="pref_title_no_remind">Xatırladıcı yoxdur</string>
-    <string name="preferences_alarms_category_title">Zəngli saat xatırladıcıları</string>
+    <string name="preferences_alarms_category_title">Zəngli saat xatırlatmaları</string>
     <string name="preferences_alarms_sound">Səs</string>
     <string name="preferences_alarms_vibrateWhen">Titrət</string>
     <string name="preferences_alerts_vibrateWhen_title">Titrəyiş</string>
-    <string name="preferences_alerts_vibrate_title">Standart xatırladıcı</string>
-    <string name="preferences_allow_remind">Xatırladıcılara icazə ver</string>
+    <string name="preferences_alerts_vibrate_title">Standart xatırlatma</string>
+    <string name="preferences_allow_remind">Xatırlatmalara icazə ver</string>
     <string name="preferences_default_allday_reminder_title">İlkin təyin olunan bütün gün xatırladıcı vaxtı</string>
     <string name="preferences_default_reminder_title">İlkin təyin olunan xatırladıcı vaxtı</string>
     <string name="preferences_home_tz_title">Ev saat qurşağı</string>
     <string name="preferences_notification_ringtone_title">Səs</string>
     <string name="preferences_popup_alert_smart_summary_new">Zamana həssas tədbirlər dəqiq vaxtı olan tədbirlərdir</string>
-    <string name="preferences_popup_alert_title">Pop-up xəbərdarlıqları</string>
+    <string name="preferences_popup_alert_title">Açılan xəbərdarlıqlar</string>
     <string name="preferences_title">Təqvim</string>
     <string name="preferences_use_home_tz_descrip">Səyahət edərkən təqvim və tədbir vaxtlarını ev saat qurşağında göstər</string>
     <string name="preferences_use_home_tz_title">Ev saat qurşağını istifadə et</string>
@@ -790,6 +815,10 @@
     <string name="premission_read_write_storage">Yaddaş</string>
     <string name="premission_read_write_storage_new">Yaddaşa müraciət et</string>
     <string name="privacy_and_permissions">Gizlilik &amp; icazələr</string>
+    <string name="privacy_update_message">"\"Qəbul et\" düyməsinə toxunmaqla, (click)Təqvimin Gizlilik Siyasətini(/click) qəbul edirsiniz :
+
+Sizə daha yaxşı təcrübə təmin etmək üçün artıq tədbir yaradarkən məkan seçə bilərsiniz. Məkan axtarışı və tövsiyələr üçüncü tərəf xəritə xidmətləri vasitəsilə təmin edilir."</string>
+    <string name="privacy_update_title">Yenilənmiş Gizlilik Siyasəti</string>
     <string name="productivity_add_event">Tədbir yarat</string>
     <string name="productivity_no_event">Burada hələ tədbir yoxdur</string>
     <string name="pull_refresh_events">%d tədbirə bax</string>
@@ -857,7 +886,7 @@
     <string name="search_calendar_settings">Təqvim;Gündəlik;Xatırladıcı</string>
     <string name="search_events">Tədbir axtar</string>
     <string name="search_history">Axtarış tarixçəsi</string>
-    <string name="search_location_hint">Ünvanı daxil edin</string>
+    <string name="search_location_hint">Məkan daxil edin</string>
     <string name="search_timezone">Vaxt zonasını axtar</string>
     <string name="select_date">Tarixə keç</string>
     <string name="select_today_tip">Bugün</string>
@@ -903,11 +932,13 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="solar_birthday_desc">Qriqorian təqvimi</string>
     <string name="solar_date_content_desc">Qriqorian təqviminə görə tarix</string>
     <string name="solar_lunar_convert_tab">Çevirilir</string>
     <string name="solar_to_lunar_chinese_calendar">Qriqoriandan Çinə</string>
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Tədbirlər</string>
+    <string name="start_at">Başlanğıc: %s</string>
     <string name="start_date_calculate">Hesabla</string>
     <string name="start_string">%s-da başlayır</string>
     <string name="still_num">%s başlayır</string>
@@ -1107,6 +1138,10 @@
     <string name="widget_normal_weekN">Həftə %d</string>
     <string name="widget_select_style">Üslub seçin</string>
     <string name="widget_spec_agenda_birth_today">Bugün</string>
+    <string name="withdraw_consent_button_withdraw">Geri çək</string>
+    <string name="withdraw_consent_message">Davam etsəniz, Təqvimin Gizlilik Siyasətinə verdiyiniz razılığı geri çəkəcəksiniz. Biz sizin şəxsi məlumatlarınızı toplamağı dayandıracağıq. Artıq toplanmış və saxlanılan şəxsi məlumatlar, başqa hal tələb olunmadığı təqdirdə, müvafiq qanun və qaydalara uyğun olaraq müəyyən müddət ərzində silinəcəkdir. Təqvim lazımi şəxsi məlumatların toplanması əsasında öz xidmətlərini təqdim etdiyinə görə, razılığınızın geri çəkilməsi Təqvim xidmətlərini qəbul etməkdən imtina kimi qəbul ediləcək. Razılıq indi geri çəkilsin?</string>
+    <string name="withdraw_consent_preference_title">Razılığın geri çəkilməsi</string>
+    <string name="withdraw_consent_title">Razılığın geri çəkilməsi</string>
     <string name="work_day_default_banner_title">İşinizdə məhsuldar bir gün keçirin!</string>
     <string name="xiaomi_account">Xiaomi Hesabı</string>
     <string name="xiaomi_calendar_display_name">Xiaomi Hesab Təqvimi</string>

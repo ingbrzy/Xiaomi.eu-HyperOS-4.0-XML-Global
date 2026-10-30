@@ -59,7 +59,6 @@
     <string name="bluetooth_enabled_apm_title">Bluetooth włączony w trybie samolotowym</string>
     <string name="bluetooth_enabled_auto_on_message">Możesz to zmienić w dowolnym momencie w ustawieniach</string>
     <string name="bluetooth_enabled_auto_on_title">Ponownie włączono Bluetooth</string>
-    <string name="bluetooth_map_settings_app_icon">Ikona aplikacji</string>
     <string name="bluetooth_media_audio_app_name">Dźwięk Bluetooth</string>
     <string name="bluetooth_media_audio_queue_name">Co jest grane</string>
     <string name="bluetooth_notification_group">Automatyczna zmiana stanu Bluetooth</string>
@@ -84,7 +83,6 @@
     <string name="bt_enable_line1">Aby korzystać z usług Bluetooth, trzeba najpierw włączyć moduł Bluetooth.</string>
     <string name="bt_enable_line2">Czy włączyć teraz moduł Bluetooth?</string>
     <string name="bt_enable_ok">Włącz</string>
-    <string name="bt_enable_title" />
     <string name="bt_error_btn_ok">OK</string>
     <string name="bt_share_picker_label">Bluetooth</string>
     <string name="bt_sm_2_1_default">Za mało miejsca na karcie SD, by zapisać plik.</string>
@@ -95,6 +93,8 @@
     <string name="bt_toast_4">Wysyłanie pliku do urządzenia „%1$s”</string>
     <string name="bt_toast_5">Wysyłanie %1$s plików do urządzenia „%2$s”</string>
     <string name="bt_toast_6">Zatrzymano wysyłanie pliku do urządzenia „%1$s”</string>
+    <string name="calendar_date_picker_a11y_next_month">Zmień na następny miesiąc</string>
+    <string name="calendar_date_picker_a11y_prev_month">Zmień na poprzedni miesiąc</string>
     <string name="call_notification_answer_action">Odbierz</string>
     <string name="call_notification_answer_video_action">Wideo</string>
     <string name="call_notification_decline_action">Odrzuć</string>
@@ -140,7 +140,7 @@
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">d MMMM yyyy</string>
+    <string name="fmt_date_long_year_month_day">d MMMM, yyyy</string>
     <string name="fmt_date_numeric_day">d</string>
     <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d.MM</string>
@@ -150,7 +150,7 @@
     <string name="fmt_date_short_month">MMM</string>
     <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
+    <string name="fmt_date_short_year_month_day">d MMM, yyyy</string>
     <string name="fmt_date_time">D T</string>
     <string name="fmt_date_time_timezone">D T z</string>
     <string name="fmt_date_timezone">D z</string>
@@ -216,6 +216,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">Odznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_select_all">Zaznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_title_empty">Zaznacz elementy</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Wybierz</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Więcej</string>
     <string name="miuix_appcompat_cancel_description">Anuluj</string>
     <string name="miuix_appcompat_confirm_description">Potwierdź</string>
@@ -229,6 +230,7 @@
     <string name="miuix_appcompat_select_all_description">Wybierz wszystko</string>
     <string name="miuix_appcompat_select_item">Wybierz elementy</string>
     <string name="miuix_appcompat_show_dialog_description">Wyskakujące okno</string>
+    <string name="miuix_popup_show_description">Wyskakujące okno</string>
     <string name="miuix_progressbar_loading">Wczytywanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Przeciągnij w dół, aby odświeżyć</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Pomyślnie odświeżono</string>
@@ -344,20 +346,6 @@
     <string name="sunday">Niedziela</string>
     <string name="sunday_short">Niedz.</string>
     <string name="sunday_shortest">Niedz.</string>
-    <string name="switch_audio_device_bt_a2dp">Bluetooth (dźwięk multimedialny)</string>
-    <string name="switch_audio_device_bt_a2dp_summary">Odtwarzaj dźwięk multimedialny na podłączonym urządzeniu</string>
-    <string name="switch_audio_device_bt_hfp">Bluetooth (Połączenia)</string>
-    <string name="switch_audio_device_bt_hfp_summary">Odtwórz dźwięk rozmowy na podłączonym urządzeniu. Tę funkcję należy wyłączyć ręcznie.</string>
-    <string name="switch_audio_device_default">Domyślne</string>
-    <string name="switch_audio_device_default_summary">Aktualnie używane urządzenie</string>
-    <string name="switch_audio_device_hfp_hint">Powrót do wyjścia domyślnego</string>
-    <string name="switch_audio_device_hfp_toast_hint">Wybierz domyślne wyjście audio, aby ponownie rozpocząć odtwarzanie dźwięku na tym urządzeniu.</string>
-    <string name="switch_audio_device_phone">To urządzenie</string>
-    <string name="switch_audio_device_phone_summary">Odtwórz dźwięk na tym urządzeniu</string>
-    <string name="switch_audio_device_switch_hint">Możesz wyłączyć powiadomienia o podłączonych urządzeniach w Ustawieniach > Bluetooth > Dodatkowe ustawienia.</string>
-    <string name="switch_audio_dialog_title">Wybierz wyjście audio</string>
-    <string name="switch_audio_notification_content">"Bieżące urządzenie audio: "</string>
-    <string name="switch_audio_notification_title">Łączność urządzenia</string>
     <string name="the_anniversary_of_lifting_martial_law">Rocznica zniesienia stanu wojennego</string>
     <string name="the_anti_aggression_day">Dzień antyagresji</string>
     <string name="the_arbor_day">Dzień Altany</string>

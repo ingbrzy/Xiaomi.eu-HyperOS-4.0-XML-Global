@@ -2,10 +2,7 @@
 <resources>
     <string name="abc_action_bar_home_description">Eve gidiş yolunu göster</string>
     <string name="abc_action_bar_up_description">Yukarı git</string>
-    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
     <string name="abc_action_mode_done">Bitti</string>
-    <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
-    <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
     <string name="abc_capital_off">KAPAT</string>
     <string name="abc_capital_on">AÇ</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
@@ -20,12 +17,9 @@
     <string name="abc_prepend_shortcut_label">Menü+</string>
     <string name="abc_search_hint">Ara…</string>
     <string name="abc_searchview_description_clear">Sorguyu temizle</string>
-    <string name="abc_searchview_description_query">Arama sorgusu</string>
     <string name="abc_searchview_description_search">Ara</string>
     <string name="abc_searchview_description_submit">Sorguyu gönder</string>
     <string name="abc_searchview_description_voice">Sesli arama</string>
-    <string name="abc_shareactionprovider_share_with">Şununla paylaş:</string>
-    <string name="abc_shareactionprovider_share_with_application">%s ile paylaş</string>
     <string name="abc_toolbar_collapse_description">Daralt</string>
     <string name="accept_all_permission_content">"Cihazı bul, izinler olmadan düzgün çalışmayabilir. Cihazı bul'un tüm özelliklerini kullanabilmek için listelenen tüm izinleri seçin."</string>
     <string name="accept_all_permission_title">İzin gerekli</string>
@@ -48,7 +42,6 @@
     <string name="alert_sync_merge_dialog_confirm">Aç</string>
     <string name="am">ÖÖ</string>
     <string name="app_name">Xiaomi Cloud</string>
-    <string name="bad_authentication">Geçersiz hesap veya şifre</string>
     <string name="browser_sync_settings_preference">Otomatik olarak senkronize et</string>
     <string name="btn_return">Geri</string>
     <string name="btn_revoke_permission">İzni geri çek</string>
@@ -56,6 +49,8 @@
     <string name="button_cancel">İptal</string>
     <string name="button_quit">Çıkış</string>
     <string name="button_revoke">Geri çek</string>
+    <string name="calendar_date_picker_a11y_next_month">Sonraki aya değiştir</string>
+    <string name="calendar_date_picker_a11y_prev_month">Önceki aya değiştir</string>
     <string name="calendar_sync_item_permission">takvim</string>
     <string name="call_log_sync_item_permission">arama geçmişi</string>
     <string name="call_notification_answer_action">Yanıtla</string>
@@ -118,8 +113,6 @@
     <string name="creation_dialog_title">Uyarı</string>
     <string name="creation_sync_settings_only_in_wifi">Yalnızca WLAN üzerinden senkronize et</string>
     <string name="creation_sync_settings_only_in_wifi_summary">Mobil veriden tasarruf edilmesi önerilir</string>
-    <string name="creation_sync_settings_preference">Kanvasları senkronize et</string>
-    <string name="creation_sync_settings_summary">Kanvaslar oluşturuldu</string>
     <string name="cta_notification_content_text">Ögeleri geri yüklemek için %s uygulamasının internete bağlanmasına izin verin</string>
     <string name="cta_notification_content_title">%s ögesinden ögeler geri yüklenemiyor</string>
     <string name="customize_notification_btn_text">Yükselt</string>
@@ -143,15 +136,16 @@
     <string name="detect_sim_card">SIM kartı ara</string>
     <string name="device_activation_card_cannot_get_yet">Bilgi alınamadı. 3-5 gün içinde tekrar deneyin.</string>
     <string name="device_activation_card_cannot_get_yet_new">Bilgi alınamadı. Bir iki dakika bekleyin ve tekrar deneyin.</string>
-    <string name="device_activation_card_description">"İlk aktivasyon bir cihazın ilk kez bir ağa (Wi-Fi ve mobil ağlar dahil ancak bunlarla sınırlı olmamak üzere) bağlanmasıyla kaydedilir. İlk aktivasyonun kaydedilmesi normalde biraz zaman alır, bu yüzden aktivasyon durumunu kontrol etmeden önce ağa bağlandıktan sonra 3-5 gün beklemek daha iyidir.&lt;br>&lt;br>Cihaz aktivasyonu uzatılmış garantimizin geçerlilik süresini belirleyen en önemli faktördür. Daha fazla ayrıntı için &lt;a href=%1$s>İade, Değişim ve Onarım Politikası'nı&lt;/a> kontrol edin.&lt;br>&lt;br>Herhangi bir sorunuz varsa müşteri destek hattımızı arayın: 400-100-5678."</string>
-    <string name="device_activation_card_description_china">"İlk aktivasyon, bir cihazın ilk kez bir ağa (WLAN ve mobil ağlar dahil ancak bunlarla sınırlı olmamak üzere) bağlanmasıyla kaydedilir. İlk aktivasyonun kaydedilmesi normalde biraz zaman alır, bu yüzden aktivasyon durumunu kontrol etmeden önce ağa bağlandıktan sonra 3-5 gün beklemek daha iyidir.&lt;br>&lt;br>Cihaz aktivasyonu, uzatılmış garantimizin geçerlilik süresini belirleyen en önemli faktördür. Daha fazla ayrıntı için &lt;a href=%1$s>İade, Değişim ve Onarım Politikamız'ı&lt;/a> kontrol edin.&lt;br>&lt;br>Herhangi bir sorunuz varsa müşteri destek hattımızı arayın: 400-100-5678."</string>
-    <string name="device_activation_card_description_china_new">"İlk aktivasyon bir cihazın ilk kez bir ağa (WLAN ve mobil ağlar dahil ancak bunlarla sınırlı olmamak üzere) bağlanmasıyla kaydedilir. İlk aktivasyonun kaydedilmesi normalde biraz zaman alır, bu yüzden aktivasyon durumunu kontrol etmeden önce ağa bağlandıktan sonra &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> gün beklemek daha iyidir.&lt;br>&lt;br>Cihaz aktivasyonu uzatılmış garantimizin geçerlilik süresini belirleyen en önemli faktördür. Daha fazla ayrıntı için &lt;a href=%3$s>İade, Değişim ve Onarım Politikası'nı&lt;/a> kontrol edin.&lt;br>&lt;br>Herhangi bir sorunuz varsa müşteri destek hattımızı arayın: 400-100-5678."</string>
-    <string name="device_activation_card_description_new">"İlk aktivasyon bir cihazın ilk kez bir ağa (Wi-Fi ve mobil ağlar dahil ancak bunlarla sınırlı olmamak üzere) bağlanmasıyla kaydedilir. İlk aktivasyonun kaydedilmesi normalde biraz zaman alır, bu yüzden aktivasyon durumunu kontrol etmeden önce ağa bağlandıktan sonra &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> gün beklemek daha iyidir.&lt;br>&lt;br>Cihaz aktivasyonu uzatılmış garantimizin geçerlilik süresini belirleyen en önemli faktördür. Daha fazla ayrıntı için &lt;a href=%3$s>İade, Değişim ve Onarım Politikası'nı&lt;/a> kontrol edin.&lt;br>&lt;br>Herhangi bir sorunuz varsa müşteri destek hattımızı arayın: 400-100-5678."</string>
+    <string name="device_activation_card_description">"İlk aktivasyon bir cihazın ilk kez bir ağa (Wi-Fi ve mobil ağlar dahil ancak bunlarla sınırlı olmamak üzere) bağlanmasıyla kaydedilir. İlk aktivasyonun kaydedilmesi normalde biraz zaman alır, bu yüzden aktivasyon durumunu kontrol etmeden önce ağa bağlandıktan sonra &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> gün beklemek daha iyidir.&lt;br>&lt;br>Cihaz aktivasyonu uzatılmış garantimizin geçerlilik süresini belirleyen en önemli faktördür. Daha fazla ayrıntı için &lt;a href=%3$s>İade, Değişim ve Onarım Politikası'nı&lt;/a> kontrol edin.&lt;br>&lt;br>Herhangi bir sorunuz varsa müşteri destek hattımızı arayın: 950816."</string>
+    <string name="device_activation_card_description_china">"İlk aktivasyon bir cihazın ilk kez bir ağa (WLAN ve mobil ağlar dahil ancak bunlarla sınırlı olmamak üzere) bağlanmasıyla kaydedilir. İlk aktivasyonun kaydedilmesi normalde biraz zaman alır, bu yüzden aktivasyon durumunu kontrol etmeden önce ağa bağlandıktan sonra &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> gün beklemek daha iyidir.&lt;br>&lt;br>Cihaz aktivasyonu uzatılmış garantimizin geçerlilik süresini belirleyen en önemli faktördür. Daha fazla ayrıntı için &lt;a href=%3$s>İade, Değişim ve Onarım Politikası'nı&lt;/a> kontrol edin.&lt;br>&lt;br>Herhangi bir sorunuz varsa müşteri destek hattımızı arayın: 950816."</string>
+    <string name="device_activation_card_description_china_new">"İlk aktivasyon bir cihazın ilk kez bir ağa (WLAN ve mobil ağlar dahil ancak bunlarla sınırlı olmamak üzere) bağlanmasıyla kaydedilir. İlk aktivasyonun kaydedilmesi normalde biraz zaman alır, bu yüzden aktivasyon durumunu kontrol etmeden önce ağa bağlandıktan sonra &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> gün beklemek daha iyidir.&lt;br>&lt;br>Cihaz aktivasyonu uzatılmış garantimizin geçerlilik süresini belirleyen en önemli faktördür. Daha fazla ayrıntı için &lt;a href=%3$s>İade, Değişim ve Onarım Politikası'nı&lt;/a> kontrol edin.&lt;br>&lt;br>Herhangi bir sorunuz varsa müşteri destek hattımızı arayın: 950816."</string>
+    <string name="device_activation_card_description_new">"İlk aktivasyon bir cihazın ilk kez bir ağa (Wi-Fi ve mobil ağlar dahil ancak bunlarla sınırlı olmamak üzere) bağlanmasıyla kaydedilir. İlk aktivasyonun kaydedilmesi normalde biraz zaman alır, bu yüzden aktivasyon durumunu kontrol etmeden önce ağa bağlandıktan sonra &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g>–&lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> gün beklemek daha iyidir.&lt;br>&lt;br>Cihaz aktivasyonu uzatılmış garantimizin geçerlilik süresini belirleyen en önemli faktördür. Daha fazla ayrıntı için &lt;a href=%3$s>İade, Değişim ve Onarım Politikası'nı&lt;/a> kontrol edin.&lt;br>&lt;br>Herhangi bir sorunuz varsa müşteri destek hattımızı arayın: 950816."</string>
     <string name="device_activation_card_device_not_support">Bu cihazda desteklenmiyor</string>
     <string name="device_activation_card_local_service_error">Bilgi alınamadı. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="device_activation_card_no_network_error">Ağa bağlanılamadı. Ağ ayarlarını kontrol edip tekrar deneyin.</string>
     <string name="device_activation_card_title">İlk aktivasyon</string>
     <string name="device_activation_page_title">Cihaz aktivasyonu</string>
+    <string name="device_location_tip">"*Gösterilen konum ağ tarafından belirlenmiş olup kesin değildir. Bu oturum açma talebini siz yaptıysanız doğrulama kodunu görüntülemek için ''İzin ver''e dokunun."</string>
     <string name="dialog_btn_yes_install_icon">Yükle</string>
     <string name="dialog_msg_install_manager_content">Cihazı bul tekrar yüklensin mi?</string>
     <string name="dialog_storage_full_title">Cloud depolama alanı dolu</string>
@@ -168,7 +162,6 @@
     <string name="e2ee_button_next">İleri</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Güvenlik şifrenizi güncellemek için bu cihazın ekran kilidini açın.</string>
     <string name="e2ee_data_protection_close_button">Kapat</string>
-    <string name="e2ee_data_protection_label_auto_fill">Şifre yöneticisi</string>
     <string name="e2ee_data_protection_label_auto_fill_new">Şifreler</string>
     <string name="e2ee_data_protection_label_browser">Tarayıcı yer imleri</string>
     <string name="e2ee_data_protection_label_call_log">Arama geçmişi</string>
@@ -190,27 +183,19 @@
     <string name="e2ee_data_protection_update_security_key_title">Güvenlik şifresini güncelle</string>
     <string name="e2ee_device_delete">Cihazı kaldır</string>
     <string name="e2ee_device_delete_tip">Bu cihazı Xiaomi Hesabınızdan kaldırdıktan sonra oturum kapatılacak ve tekrar oturum açana kadar cihazdaki Xiaomi Cloud hizmetlerini, aramayı ve hesapla ilgili diğer özellikleri kullanamayacaksınız.</string>
-    <string name="e2ee_device_delete_warning_dialog_content">"Bu cihaz Gelişmiş veri korumasını desteklemiyor, bu yüzden bu özelliği açarsanız hesabınızda oturum açamazsınız. Hesabınızda oturum açabilmek için bu cihazı Xiaomi HyperOS 2'ye güncelleyin."</string>
-    <string name="e2ee_device_delete_warning_dialog_title">Oturum açılamıyor</string>
     <string name="e2ee_device_exit_failed_tip">Oturum kapatılamadı. Bir iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="e2ee_device_exit_failed_toast">Oturum kapatılamadı. Bir iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="e2ee_device_exit_tip">%s oturumu kapalı</string>
     <string name="e2ee_device_management_subtitle">"Bu cihazlar henüz güvenilir cihaz olarak doğrulanmadı. Gelişmiş veri korumasını açmadan önce bu cihazlardaki Xiaomi Hesabınızda oturumu kapatın. "</string>
     <string name="e2ee_device_management_title">Cihazları yönet</string>
     <string name="e2ee_device_name">Cihaz adı</string>
-    <string name="e2ee_device_sim">SIM kart</string>
-    <string name="e2ee_device_sim_default_tip">SIM etkin değil</string>
     <string name="e2ee_device_system_version">Sistem sürümü</string>
     <string name="e2ee_device_tip">Gelişmiş veri korumasını açmadan önce hesabınızdan bu cihazı kaldırın</string>
-    <string name="e2ee_device_verification">Cihazınızı doğrulayın</string>
-    <string name="e2ee_device_verification_os_tip">Xiaomi HyperOS 2 veya sonrasına güncelleyin</string>
     <string name="e2ee_device_verification_result_subtitle">"Xiaomi Hesabınızda oturumu kapatılan cihazlar, tekrar oturum açana kadar Xiaomi Cloud'u ve diğer ilgili hizmetleri kullanamayacaktır."</string>
     <string name="e2ee_device_verification_result_title">Tüm cihazların oturumu kapalı</string>
     <string name="e2ee_device_verification_tip">Bu cihazı kaldırmak için buraya dokunun</string>
     <string name="e2ee_dialog_close_subtitle">Bu özellik tarafından korunan veriler artık uçtan uca şifrelemeyi desteklemeyecek ve Gelişmiş veri koruma tüm cihazlarda kapatılacak.</string>
     <string name="e2ee_dialog_close_title">Gelişmiş veri korumayı kapat</string>
-    <string name="e2ee_dialog_exit_account_subtitle">Bir cihazda oturum kapatıldığında Gelişmiş veri koruması otomatik olarak kapatılır. Bu, diğer cihazları etkilemez. Tekrar oturum açtığınızda bu özelliği tekrar açmanız gerekecektir.</string>
-    <string name="e2ee_dialog_exit_account_title">Gelişmiş veri koruması kapatılsın mı?</string>
     <string name="e2ee_error_device">Bu özellik bu cihazda desteklenmiyor.</string>
     <string name="e2ee_error_global_account">Bu özellik bölgenizde desteklenmiyor.</string>
     <string name="e2ee_error_init">Başlatılamadı. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
@@ -221,7 +206,6 @@
     <string name="e2ee_exit_account_subtitle">"Xiaomi Hesabınızla ilişkili, şu anda bağlı olan son cihazdan çıkış yapmak üzeresiniz. Tekrar oturum açmak ve cloud'ta depolanan verilerinize erişmek için bir ekran kilidi veya güvvenlik şifresi kullanmanız gerekecektir. Alternatif olarak Gelişmiş veri korumasını kapatmak için aşağıdaki ''Kapat'' seçeneğine dokunun."</string>
     <string name="e2ee_exit_account_title">Oturum kapatılıyor</string>
     <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
-    <string name="e2ee_load_failed">Sunucu meşgul. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="e2ee_loading">Yalnızca bir sn.…</string>
     <string name="e2ee_loading_close">Kapatılıyor…</string>
     <string name="e2ee_loading_open">Açılıyor…</string>
@@ -246,7 +230,6 @@
     <string name="e2ee_set_recovery_method">Kurtarma yöntemleri</string>
     <string name="e2ee_set_recovery_method_code">Doğrulama kodu</string>
     <string name="e2ee_set_recovery_method_lockscreen">Ekran kilidi</string>
-    <string name="e2ee_set_recovery_method_security_key">Güvenlik şifresi (Ayarlı değil)</string>
     <string name="e2ee_set_recovery_method_tip">Cloud verilerinize cihazınızın ekran kilidini kullanarak veya doğrulama kodu göndererek erişebilirsiniz. Bir güvenlik şifresi ayarlayarak ek bir kurtarma yöntemi ekleyebilirsiniz.</string>
     <string name="e2ee_set_recovery_method_title">Kullanılabilir kurtarma yöntemleri</string>
     <string name="e2ee_tip_forget_securityKey_button">Doğrulamayı atla</string>
@@ -458,10 +441,8 @@ Ayrıca anonim olarak başkalarının Xiaomi cihazlarını bulmalarına da yard�
     <string name="lockscreen_positive_btn">İleri</string>
     <string name="low_battery_locate_summary">Pil düşük olduğundan otomatik olarak konum bilgisini bildir</string>
     <string name="low_battery_locate_title">Pil düşük olduğunda konumu bildir</string>
-    <string name="manual_activation">Yeniden etkinleştir</string>
     <string name="master_alert_notif_content">Önemli hiçbir şeyi kaybetmemek için ögelerinizi düzenli olarak yedekleyin.</string>
     <string name="master_alert_notif_title">"Xiaomi Cloud'u etkinleştir"</string>
-    <string name="member_menu_vip_expire_time">%s tarihinde sona eriyor</string>
     <string name="member_menu_vipname_free">Ücretsiz</string>
     <string name="member_menu_vipname_mega">Mega</string>
     <string name="member_menu_vipname_premium">Premium</string>
@@ -709,7 +690,7 @@ Ayrıca anonim olarak başkalarının Xiaomi cihazlarını bulmalarına da yard�
     <string name="micloud_preference_syncitem_title">Cloud senkronizasyonu</string>
     <string name="micloud_preference_up_cloud_membership">Xiaomi Cloud üyeliğini yükselt</string>
     <string name="micloud_preference_upgrade_membership_warning">Cloud depolama alanı neredeyse dolu. Daha fazla depolama alanı almak ve ögelerinizin senkronize edilebildiğinden emin olmak için Xiaomi Cloud üyeliğinizi yükseltin.</string>
-    <string name="micloud_preference_view_all">Tümünü görüntüle</string>
+    <string name="micloud_preference_view_all">Daha</string>
     <string name="micloud_preference_view_cloud_notes">Cloud notlarını görüntüle</string>
     <string name="micloud_preference_view_cloud_recordings">Cloud kayıtlarını görüntüle</string>
     <string name="micloud_preference_view_cloud_shared_family">Aile ile paylaşılan Cloud üyelikleri</string>
@@ -758,7 +739,7 @@ Sistem hesabınızla ilişkili Xiaomi Hesabınızı kullandığınızdan emin ol
     <string name="micloud_sync_result_sim_activated_error">SIM kart etkinleştirilemedi</string>
     <string name="micloud_sync_result_wifi_only">Bu öge çok büyük. Bunu Wi-Fi bağlantısı kurduğunuzda senkronize edin.</string>
     <string name="micloud_sync_result_wifi_only_china">"Bu öge çok büyük. WLAN'a bağlanınca senkronize edin."</string>
-    <string name="micloud_wipe_data_confirm_label">Senkronize edilen ögeler bu cihazdan silinsin mi?</string>
+    <string name="micloud_wipe_data_confirm_label">Senkronize edilen ögeleri sil</string>
     <string name="micloud_wipe_data_confirm_title">"Aşağıdaki uygulamalardan bazı ögeler Xiaomi Cloud ile senkronize ediliyor. Ögeleri cihazdan silebilir, cloud'da tutmaya devam edebilirsiniz."</string>
     <string name="micloud_wipe_data_remove">Kaldır</string>
     <string name="micloud_wipe_data_retain">Sakla</string>
@@ -796,6 +777,7 @@ Sistem hesabınızla ilişkili Xiaomi Hesabınızı kullandığınızdan emin ol
     <string name="miuix_appcompat_select_all_description">Tümünü seç</string>
     <string name="miuix_appcompat_select_item">Ögeleri seç</string>
     <string name="miuix_appcompat_show_dialog_description">Açılır pencere</string>
+    <string name="miuix_popup_show_description">Açılır pencere</string>
     <string name="miuix_progressbar_loading">Yükleniyor</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yenilemek için aşağı çekin</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Başarıyla yenilendi</string>
@@ -856,14 +838,8 @@ Sistem hesabınızla ilişkili Xiaomi Hesabınızı kullandığınızdan emin ol
     <string name="not_set">Ayarlanmadı</string>
     <string name="noti_quota_button_text">Yükselt</string>
     <string name="noti_quota_full_sum">Ögeleri senkronize etmeye devam etmek için depolama alanı planınızı yükseltin.</string>
-    <string name="noti_quota_full_sum_without_button">Ögeleri senkronize etmeye devam etmek için daha fazla depolama alanı alın.</string>
-    <string name="noti_quota_full_title">Cloud depolama alanı &lt;font color=#F22424>dolu&lt;/font></string>
-    <string name="noti_quota_full_title_without_button">Cloud depolama alanı dolu</string>
     <string name="noti_quota_low_sum">Ögeleri senkronize etmeye devam etmek için depolama alanı planınızı yükseltin.</string>
-    <string name="noti_quota_low_sum_without_button">Ögeleri senkronize etmeye devam etmek için daha fazla depolama alanı alın.</string>
     <string name="noti_quota_low_title">Yeterli cloud depolama alanı yok</string>
-    <string name="noti_quota_low_title_with_storage">"&lt;font color=#F22424>Kalan cloud depolama alanı &lt;xliff:g id=remaining_storage_space example=0.5>%s&lt;/xliff:g>GB'den&lt;/font> az"</string>
-    <string name="noti_quota_low_title_without_button">Yeterli cloud depolama alanı yok</string>
     <string name="notification_sync_fail_title">Şifreler senkronize edilemedi</string>
     <string name="notification_update_key_text">Şifre yöneticisi şifresi değişti. Yeni şifreyi doğrulayın.</string>
     <string name="offline_find_action_open">Aç</string>
@@ -897,6 +873,10 @@ Sistem hesabınızla ilişkili Xiaomi Hesabınızı kullandığınızdan emin ol
     <string name="passkeeper_install_keybag_title">Şifre yöneticisi için şifrenizi girin</string>
     <string name="passkeeper_sync_off_confirm_content">Bu özelliği kapatırsanız yeni şifrelerinizi cloud ile senkronize edemezsiniz.</string>
     <string name="passkeeper_sync_on">Açılıyor…</string>
+    <string name="passport_two_factor_change_password_dialog_message">Bu talep sizin tarafınızdan yapılmadıysa şifrenizi değiştirmenizi öneririz.</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">İptal</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">Değiştir</string>
+    <string name="passport_two_factor_change_password_dialog_title">Şifre değiştirilsin mi?</string>
     <string name="pay_info_dialog_confirm_to_pay">%s öde</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Kalan Mi Paraları kullanın: %s</string>
     <string name="pay_info_dialog_title">Ödeme yöntemini seçin</string>
@@ -919,10 +899,6 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="pref_title_sync_display_photo_on_wifi_only_china">"Fotoğraf senkronizasyonu için yalnızca WLAN'ı kullan"</string>
     <string name="preference_copied">\"%1$s\" panoya kopyalandı.</string>
     <string name="privacy_and_agreement">Şartlar ve koşullar</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad">"Cihazı bul'a hoş geldiniz! Cihazınız kayıpken bu uygulamayı cihazınızı bulmak, takip etmek ve kilitlemek için kullanabilirsiniz. Ayrıca anonim olarak başkalarının Xiaomi cihazlarını bulmalarına da yardımcı olabilirsiniz."</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">"Kaybolması durumunda cihazınızı bulmak, kilitlemek veya cihazınızdaki verileri silmek için Cihazı bul'u kullanabilirsiniz."</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone">"Cihazı bul'a hoş geldiniz! Cihazınız kayıpken bu uygulamayı cihazınızı bulmak, takip etmek ve kilitlemek için kullanabilirsiniz. Ayrıca anonim olarak başkalarının Xiaomi cihazlarını bulmalarına da yardımcı olabilirsiniz."</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">"Kaybolması durumunda cihazınızı bulmak, kilitlemek veya cihazınızdaki verileri silmek için Cihazı bul'u kullanabilirsiniz."</string>
     <string name="privacy_dialog_sync_all_purpose_china">"Xioami Cloud hizmetlerine hoş geldiniz! Xiaomi Cloud'u tüm bağlı cihazlarınızda mesajlarınızı, kişilerinizi, notlarınızı, tarayıcı ayarlarınızı, fotoğraf ve videolarınızı, WLAN ayarlarını, ses kayıtlarınızı, ana ekran düzenini, uygulamalarınızı, takvim etkinliklerinizi, Engellenenler ögelerini, arama geçmişini ve Uygulama kasasını senkronize etmek için kullanabilirsiniz."</string>
     <string name="privacy_dialog_sync_all_purpose_china_v2">"Xioami Cloud hizmetlerine hoş geldiniz! Xiaomi Cloud'u tüm bağlı cihazlarınızda mesajlarınızı, kişilerinizi, notlarınızı, tarayıcı ayarlarınızı, fotoğraf ve videolarınızı, WLAN ayarlarını, ses kayıtlarınızı, ana ekran düzenini, uygulamalarınızı, takvim etkinliklerinizi, Engellenenler ögelerini, arama geçmişini ve Uygulama kasasını senkronize etmek için kullanabilirsiniz."</string>
     <string name="privacy_dialog_sync_all_purpose_pad">Xiaomi Cloud hizmetlerine hoş geldiniz! Bu uygulamayı mesajlarınızı, kişilerinizi, notlarınızı, tarayıcı ögelerini, cloud albümlerini, müziği, takvimi, engellenenler listesini ve arama geçmişini cloud ile senkronize etmek için kullanabilirsiniz.</string>
@@ -931,7 +907,6 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="privacy_dialog_sync_all_purpose_pad_without_sim_or_contact">"Xioami Cloud hizmetlerine hoş geldiniz! Xiaomi Cloud'u tüm bağlı cihazlarınızda notlarınızı, tarayıcı ayarlarınızı, fotoğraf ve videolarınızı, kayıtlarınızı, takvim etkinliklerinizi ve Engellenenler ögelerini senkronize etmek için kullanabilirsiniz."</string>
     <string name="privacy_doc_cloudservice_china_v2_with_charge_hint_new">"Xiaomi Cloud hizmetleri'ne hoş geldiniz! Mesajları, arama geçmişini, kişileri, notları, Tarayıcı ayarlarını, fotoğrafları ve videoları, WLAN ayarlarını, kayıtları, Ana ekran düzenini, uygulamaları, takvim etkinliklerini, engellenenler listesi ögelerini ve Uygulama kasasını tüm bağlı cihazlarda senkronize etmek için Xiaomi Cloud'u kullanabilirsiniz. &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> adresinde herhangi bir tarayıcıdan senkronize ettiğiniz ögelere erişin.&lt;br />&lt;br />Bu hizmetleri etkinleştirmek için &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> yurt içi ücretli SMS&lt;/b>&lt;/font> gönderilecektir. SIM kartı değiştirdiğinizde tekrar etkinleştirmek için &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> yurt içi ücretli SMS&lt;/b>&lt;/font> gönderilecektir.&lt;br/>Bahsedilen eylemler için oluşturulan tüm SMS ücretleri operatörünüz tarafından toplanacaktır. Xiaomi, bu mesajlar için sizden ücret talep etmeyecektir.&lt;br />&lt;br />Kişisel bilgilerinizi ilgili yasa, yönetmelikler ve gizlilik politikalarına göre koruyacağız.&lt;br />Normal çalışabilmesi için bu hizmetlerin internete bağlanması gerekir ve kişisel bilgilerinizi toplamak için aşağıdaki izinlere ihtiyacı vardır:&lt;br />• Takvim:&lt;br />Etkinlikleri senkronize etmek için&lt;br />• SMS'e eriş:&lt;br />Mesajları senkronize etmek için&lt;br />• MMS'e eriş:&lt;br />Mesajları senkronize etmek için&lt;br />• Kişilere eriş:&lt;br />Kişileri senkronize etmek için&lt;br />• Kişileri düzenle:&lt;br />Kişileri senkronize etmek için&lt;br />• Depolama:&lt;br />Ögeleri cihazınıza kaydetmek için (ör. görüntüler ve videolar)&lt;br />Bu izinleri vermeyi veya kişisel bilgilerinizi paylaşmayı ve yüklemeyi kabul etmezseniz bu hizmetleri kullanamazsınız. Bu durumlarda bu uygulamayı kaldırmayı, oturumu kapatmayı veya Ayarlar'da izinleri kısıtlamayı seçebilirsiniz.&lt;br />Hizmetlerimizi kullanmadan önce &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/u>&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/u>&lt;/a> okuyun ve kabul edin.&lt;br />"</string>
     <string name="privacy_doc_cloudservice_china_with_charge_hint_new">"Xiaomi Cloud hizmetleri'ne hoş geldiniz! Mesajları, arama geçmişini, kişileri, notları, Tarayıcı ayarlarını, fotoğrafları ve videoları, WLAN ayarlarını, kayıtları, Ana ekran düzenini, uygulamaları, takvim etkinliklerini, engellenenler listesi ögelerini ve Uygulama kasasını tüm bağlı cihazlarda senkronize etmek için Xiaomi Cloud'u kullanabilirsiniz. &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> adresinde herhangi bir tarayıcıdan senkronize ettiğiniz ögelere erişin.&lt;br />&lt;br />Bu hizmetleri etkinleştirmek için &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> yurt içi ücretli SMS&lt;/b>&lt;/font> gönderilecektir. SIM kartı değiştirdiğinizde tekrar etkinleştirmek için &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> yurt içi ücretli SMS&lt;/b>&lt;/font> gönderilecektir.&lt;br/>Bahsedilen eylemler için oluşturulan tüm SMS ücretleri operatörünüz tarafından toplanacaktır. Xiaomi, bu mesajlar için sizden ücret talep etmeyecektir.&lt;br />&lt;br />Kişisel bilgilerinizi ilgili yasa, yönetmelikler ve gizlilik politikalarına göre koruyacağız.&lt;br />Normal çalışabilmesi için bu hizmetlerin internete bağlanması gerekir ve kişisel bilgilerinizi toplamak için aşağıdaki izinlere ihtiyacı vardır:&lt;br />• Takvim:&lt;br />Etkinlikleri senkronize etmek için&lt;br />• SMS'e eriş:&lt;br />Mesajları senkronize etmek için&lt;br />• MMS'e eriş:&lt;br />Mesajları senkronize etmek için&lt;br />• Kişilere eriş:&lt;br />Kişileri senkronize etmek için&lt;br />• Kişileri düzenle:&lt;br />Kişileri senkronize etmek için&lt;br />• Depolama:&lt;br />Ögeleri cihazınıza kaydetmek için (ör. görüntüler ve videolar)&lt;br />Bu izinleri vermeyi veya kişisel bilgilerinizi paylaşmayı ve yüklemeyi kabul etmezseniz bu hizmetleri kullanamazsınız. Bu durumlarda bu uygulamayı kaldırmayı, oturumu kapatmayı veya Ayarlar'da izinleri kısıtlamayı seçebilirsiniz.&lt;br />Hizmetlerimizi kullanmadan önce &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/u>&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/u>&lt;/a> okuyun ve kabul edin.&lt;br />"</string>
-    <string name="privacy_doc_cloudservice_global">"Xiaomi Cloud'un normal çalışabilmek için internete bağlanması gerekir. Verileri senkronize etmek mobil veri kullanmayı ve Wi-Fi açmayı gerektirebilir. Xiaomi Cloud hizmetlerini kullanmadan önce &lt;a href=%1$s>&lt;u>Kullanıcı Sözleşmemizi&lt;/u>&lt;/a> ve &lt;a href=%2$s>&lt;u>Gizlilik Politikamızı&lt;/u>&lt;/a> okuyun ve kabul edin."</string>
     <string name="privacy_doc_cloudservice_pad_new">"Xiaomi Cloud hizmetleri'ne hoş geldiniz! Mesajları, kişileri, notları, Tarayıcı ayarlarını, fotoğrafları ve videoları, kayıtları, uygulamaları, takvim etkinliklerini ve engellenenler listesi ögelerini tüm bağlı cihazlarda senkronize etmek için Xiaomi Cloud'u kullanabilirsiniz. &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> adresinde herhangi bir tarayıcıdan senkronize ettiğiniz ögelere erişin.&lt;br />&lt;br />Bu hizmetleri etkinleştirmek için &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> yurt içi ücretli SMS&lt;/b>&lt;/font> gönderilecektir. SIM kartı değiştirdiğinizde tekrar etkinleştirmek için &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> yurt içi ücretli SMS&lt;/b>&lt;/font> gönderilecektir.&lt;br/>Bahsedilen eylemler için oluşturulan tüm SMS ücretleri operatörünüz tarafından toplanacaktır. Xiaomi, bu mesajlar için sizden ücret talep etmeyecektir.&lt;br />&lt;br />Kişisel bilgilerinizi ilgili yasa, yönetmelikler ve gizlilik politikalarına göre koruyacağız.&lt;br />Normal çalışabilmesi için bu hizmetlerin internete bağlanması gerekir ve kişisel bilgilerinizi toplamak için aşağıdaki izinlere ihtiyacı vardır:&lt;br />• Takvim:&lt;br />Etkinlikleri senkronize etmek için&lt;br />• SMS'e eriş:&lt;br />Mesajları senkronize etmek için&lt;br />• MMS'e eriş:&lt;br />Mesajları senkronize etmek için&lt;br />• Kişilere eriş:&lt;br />Kişileri senkronize etmek için&lt;br />• Kişileri düzenle:&lt;br />Kişileri senkronize etmek için&lt;br />• Depolama:&lt;br />Ögeleri cihazınıza kaydetmek için (ör. görüntüler ve videolar)&lt;br />Bu izinleri vermeyi veya kişisel bilgilerinizi paylaşmayı ve yüklemeyi kabul etmezseniz bu hizmetleri kullanamazsınız. Bu durumlarda bu uygulamayı kaldırmayı, oturumu kapatmayı veya Ayarlar'da izinleri kısıtlamayı seçebilirsiniz.&lt;br />Hizmetlerimizi kullanmadan önce &lt;a href=%3$s>&lt;u>Kullanıcı Sözleşmesi'ni&lt;/u>&lt;/a> ve &lt;a href=%4$s>&lt;u>Gizlilik Politikası'nı&lt;/u>&lt;/a> okuyun ve kabul edin.&lt;br />"</string>
     <string name="privacy_doc_cloudservice_pad_without_contact_but_sim_new">"Xiaomi Cloud hizmetleri'ne hoş geldiniz! Mesajları, notları, Tarayıcı ayarlarını, fotoğrafları ve videoları, kayıtları, uygulamaları, takvim etkinliklerini ve engellenenler listesi ögelerini tüm bağlı cihazlarda senkronize etmek için Xiaomi Cloud'u kullanabilirsiniz. &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> adresinde herhangi bir tarayıcıdan senkronize ettiğiniz ögelere erişin.&lt;br />&lt;br />Bu hizmetleri etkinleştirmek için &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> yurt içi ücretli SMS&lt;/b>&lt;/font> gönderilecektir. SIM kartı değiştirdiğinizde tekrar etkinleştirmek için &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> yurt içi ücretli SMS&lt;/b>&lt;/font> gönderilecektir.&lt;br/>Bahsedilen eylemler için oluşturulan tüm SMS ücretleri operatörünüz tarafından toplanacaktır. Xiaomi, bu mesajlar için sizden ücret talep etmeyecektir.&lt;br />&lt;br />Kişisel bilgilerinizi ilgili yasa, yönetmelikler ve gizlilik politikalarına göre koruyacağız.&lt;br />Normal çalışabilmesi için bu hizmetlerin internete bağlanması gerekir ve kişisel bilgilerinizi toplamak için aşağıdaki izinlere ihtiyacı vardır:&lt;br />• Takvim:&lt;br />Etkinlikleri senkronize etmek için&lt;br />• SMS'e eriş:&lt;br />Mesajları senkronize etmek için&lt;br />• MMS'e eriş:&lt;br />Mesajları senkronize etmek için&lt;br />• Depolama:&lt;br />Ögeleri cihazınıza kaydetmek için (ör. görüntüler ve videolar)&lt;br />Bu izinleri vermeyi veya kişisel bilgilerinizi paylaşmayı ve yüklemeyi kabul etmezseniz bu hizmetleri kullanamazsınız. Bu durumlarda bu uygulamayı kaldırmayı, oturumu kapatmayı veya Ayarlar'da izinleri kısıtlamayı seçebilirsiniz.&lt;br />Hizmetlerimizi kullanmadan önce &lt;a href=%3$s>&lt;u>Kullanıcı Sözleşmesi'ni&lt;/u>&lt;/a> ve &lt;a href=%4$s>&lt;u>Gizlilik Politikası'nı&lt;/u>&lt;/a> okuyun ve kabul edin.&lt;br />"</string>
     <string name="privacy_doc_cloudservice_pad_without_sim_but_contact_new">"Xiaomi Cloud hizmetleri'ne hoş geldiniz! Xiaomi Cloud'u tüm bağlı cihazlarınızda kişileri, notları, tarayıcı ayarlarını, fotoğrafları ve videoları, kayıtları, uygulamaları, takvim etkinliklerini ve engellenenler ögelerini senkronize etmek için kullanabilirsiniz. Senkronize ettiğiniz ögelere &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> adresinde istediğiniz tarayıcıdan erişin.&lt;br />&lt;br />Kişisel bilgilerinizi ilgili yasa, yönetmelikler ve gizlilik politikalarına göre koruyacağız.&lt;br />Normal çalışabilmesi için bu hizmetin internete bağlanması gerekir ve kişisel bilgilerinizi toplayabilmesi için aşağıdaki izinlere ihtiyacı vardır:&lt;br />• Takvim:&lt;br />Etkinliklerinizi senkronize etmek için&lt;br />• Kişilere erişim:&lt;br />Kişileri senkronize etmek için&lt;br />• Kişileri düzenleme:&lt;br />Kişileri senkronize etmek için&lt;br />• Depolama:&lt;br />Cihazınızdaki ögeleri kaydetmek için (ör. görüntüler, videolar)&lt;br />Bu izinleri vermeyi veya kişisel bilgilerinizi paylaşmayı ve yüklemeyi kabul etmezseniz, bu hizmeti kullanamayacaksınız. Böyle durumlarda bu uygulamayı kaldırmayı, oturumu kapatmayı veya Ayarlar menüsünden izinleri kısıtlamayı seçebilirsiniz.&lt;br />Hizmetlerimizi kullanmadan önce &lt;a href=%3$s>&lt;u>Kullanıcı Sözleşmesi&lt;/u>&lt;/a> ve &lt;a href=%4$s>&lt;u>Gizlilik Politikası'nı&lt;/u>&lt;/a> okuyun ve kabul edin.&lt;br />"</string>
@@ -1006,8 +981,6 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="saturday">Cumartesi</string>
     <string name="saturday_short">Cts</string>
     <string name="saturday_shortest">Cts</string>
-    <string name="search_menu_title">Ara</string>
-    <string name="send">Gönder</string>
     <string name="share_cancel">Paylaşım iptal edildi</string>
     <string name="share_failed">Paylaşılamadı</string>
     <string name="share_location_app_name">Cihazı bul</string>
@@ -1167,46 +1140,6 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="system_busy_or_network_error">Bir hata oluştu. Bir veya iki dakika bekleyin ve ardından tekrar deneyin.</string>
     <string name="talkback_hide_passcode">Şifreyi gizle</string>
     <string name="talkback_show_passcode">Şifreyi göster</string>
-    <string name="the_anniversary_of_lifting_martial_law">Sıkıyönetim Kanunun Yıldönümü</string>
-    <string name="the_anti_aggression_day">Saldırganlık Karşıtı Günü</string>
-    <string name="the_arbor_day">Ağaç Dikme Günü</string>
-    <string name="the_armed_forces_day">Silahlı Kuvvetler Günü</string>
-    <string name="the_armys_day">PLA Günü</string>
-    <string name="the_childrens_day">Çocuk Bayramı</string>
-    <string name="the_chinese_youth_day">Gençlik Günü</string>
-    <string name="the_christmas_day">Noel</string>
-    <string name="the_double_ninth_festival">Çift Dokuzuncu Festivali</string>
-    <string name="the_dragon_boat_festival">Ejderha Botu Festivali</string>
-    <string name="the_easter_day">Paskalya</string>
-    <string name="the_eve_of_the_spring_festival">Çin Yeni Yılı Arifesi</string>
-    <string name="the_fifth_day">Çin Yeni Yılının Beşinci Günü</string>
-    <string name="the_fools_day">1 Nisan Şaka Günü</string>
-    <string name="the_forth_day">Çin Yeni Yılının Dördüncü Günü</string>
-    <string name="the_hksar_establishment_day">Hong Kong SAR Kuruluş Günü</string>
-    <string name="the_international_womens_day">Kadınlar Günü</string>
-    <string name="the_laba_festival">Laba Festivali</string>
-    <string name="the_labour_day">İşçi Bayramı</string>
-    <string name="the_lantern_festival">Fener Festivali</string>
-    <string name="the_mid_autumn_festival">Ay Festivali</string>
-    <string name="the_national_day">Ulusal Gün</string>
-    <string name="the_national_father_day">"Sun Yat-sen'in Doğum Günü"</string>
-    <string name="the_new_years_day">Yeni Yıl</string>
-    <string name="the_night_of_sevens">Qixi Festivali</string>
-    <string name="the_partys_day">TBM Günü</string>
-    <string name="the_peace_day">Anma Günü</string>
-    <string name="the_retrocession_day">Gerileme Günü</string>
-    <string name="the_second_day">Çin Yeni Yılının İkinci Günü</string>
-    <string name="the_seventh_day">Çin Yeni Yılının Yedinci Günü</string>
-    <string name="the_sixth_day">Çin Yeni Yılının Altıncı Günü</string>
-    <string name="the_spirit_festival">Hayalet Festivali</string>
-    <string name="the_spring_festival">Çin Yeni Yılı</string>
-    <string name="the_teachers_day">Öğretmenler Günü</string>
-    <string name="the_third_day">Çin Yeni Yılının Üçüncü Günü</string>
-    <string name="the_tw_childrens_day">Çocuk Bayramı</string>
-    <string name="the_tw_youth_day">Gençlik Günü</string>
-    <string name="the_united_nations_day">Birleşmiş Milletler günü</string>
-    <string name="the_valentines_day">Sevgililer Günü</string>
-    <string name="the_water_lantern_festival">Su Feneri Festivali</string>
     <string name="thursday">Perşembe</string>
     <string name="thursday_short">Prş</string>
     <string name="thursday_shortest">Prş</string>
@@ -1245,11 +1178,18 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="verify_camera_permission_title">İzin gerekli</string>
     <string name="verify_code_btn_negative">İptal</string>
     <string name="verify_code_btn_positive">İleri</string>
+    <string name="verify_code_device_list_title">Kod bu cihazlara gönderildi</string>
     <string name="verify_code_dialog_message_default">Yeni cihazınızda bu kodu girin</string>
     <string name="verify_code_dialog_title_default">Cihaz doğrulama kodu</string>
     <string name="verify_code_error_textView">Yanlış şifre. Tekrar deneyin.</string>
     <string name="verify_code_error_view">Yanlış kod. Tekrar deneyin.</string>
+    <string name="verify_code_send_desc_1">Devam etmek için %1$s cihazına gönderilen doğrulama kodunu girin</string>
+    <string name="verify_code_send_desc_2">Devam etmek için %1$s ve %2$s cihazına gönderilen doğrulama kodunu girin</string>
+    <string name="verify_code_send_desc_3">Devam etmek için %1$s, %2$s ve %3$s cihazına gönderilen doğrulama kodunu girin</string>
+    <string name="verify_code_send_desc_4">Devam etmek için %1$s, %2$s, %3$s ve %4$s cihazına gönderilen doğrulama kodunu girin</string>
+    <string name="verify_code_send_desc_5">Devam etmek için %1$s, %2$s, %3$s, %4$s ve %5$s cihazına gönderilen doğrulama kodunu girin</string>
     <string name="verify_code_success_textView">Güvenlik şifresini güncelle</string>
+    <string name="verify_code_view_all_devices">Tüm cihazları görüntüle</string>
     <string name="verify_code_warning_dialog_message_default">Yeni cihazınızın şifrelenmiş verilere erişmesine izin verilsin mi?</string>
     <string name="verify_code_warning_dialog_title">Doğrulama kodu</string>
     <string name="verify_code_warning_dialog_title_default">Yeni cihaz erişim istiyor</string>
@@ -1313,6 +1253,7 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="verify_warning_dialog_message_pc">Gelişmiş veri koruma açık. Şifrelenmiş verilere erişmek için bilgisayarınızda gerekli izinleri verin.</string>
     <string name="verify_warning_dialog_message_web">"Gelişmiş veri koruma açık. Şifrelenmiş verilere erişmek için i.mi.com'da gerekli izinleri verin."</string>
     <string name="verify_warning_dialog_negative_btn">İzin verme</string>
+    <string name="verify_warning_dialog_negative_btn_new">İzin verme</string>
     <string name="verify_warning_dialog_positive_btn">İzin ver</string>
     <string name="verify_warning_dialog_title">Başka bir cihaz uçtan uca şifrelemeyi etkinleştirdi</string>
     <string name="verify_warning_dialog_title_find_device">"''Çevrim dışı konum'' başka bir cihaz için açık"</string>
@@ -1323,10 +1264,7 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="waiting_for_sync">Bekleniyor…</string>
     <string name="web_view_auto_login_fail">Oturum açılamadı. Tekrar deneyin.</string>
     <string name="web_view_login_text">Oturum açılıyor…</string>
-    <string name="web_view_reload_btn_text">Tekrar dene</string>
     <string name="web_view_reload_btn_text_new">Tekrar dene</string>
-    <string name="web_view_reload_description_text">"Ağa bağlanılamadı.
-Ağ ayarlarınızı kontrol edin ve tekrar deneyin."</string>
     <string name="web_view_reload_description_text_new">Ağ ayarlarınızı kontrol edin ve tekrar deneyin.</string>
     <string name="wednesday">Çarşamba</string>
     <string name="wednesday_short">Çrş</string>
@@ -1339,5 +1277,4 @@ Ağ ayarlarınızı kontrol edin ve tekrar deneyin."</string>
     <string name="wipe_data_query_progress_title">Kontrol ediliyor…</string>
     <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="xiaomi_cloud_service_subtitle">Önemli ögelerinizin tamamı tek bir yerde</string>
-    <string name="yesterday">Dün</string>
 </resources>

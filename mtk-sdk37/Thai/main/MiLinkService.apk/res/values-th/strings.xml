@@ -49,11 +49,13 @@
     <string name="app_casting">ฉายภาพแอป</string>
     <string name="app_name">ฉายภาพ</string>
     <string name="app_name_call">โทรศัพท์</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">ข้อความ</string>
     <string name="app_name_vtcamera">กล้องข้ามอุปกรณ์</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -97,6 +99,8 @@
     <string name="appcirculate_toast_success_1">สลับเรียบร้อยแล้ว</string>
     <string name="appcirculate_toast_success_2">กำลังฉายภาพในโหมดส่วนตัว…</string>
     <string name="appcirculate_toast_success_3">กำลังฉายภาพ…</string>
+    <string name="apple_watch_cross_device_notification">การแจ้งเตือน</string>
+    <string name="apple_watch_health_data">ข้อมูลสุขภาพ</string>
     <string name="application_extension">ส่วนขยายแอป</string>
     <string name="application_extension_content_pad">ใช้ \"%1$s\" เป็นจอแสดงผลภายนอก คุณสามารถแสดงแอปในหน้าต่างแยกนี้ได้</string>
     <string name="application_extension_content_phone">แอปนี้จะแสดงบน \"%1$s\" เท่านั้น</string>
@@ -115,6 +119,8 @@
     <string name="bottomsheet_drag_handle_content_description">แฮนเดิลการลาก</string>
     <string name="button_cancel">ยกเลิก </string>
     <string name="button_confirm">เลือก</string>
+    <string name="calendar_date_picker_a11y_next_month">เปลี่ยนไปที่เดือนถัดไป</string>
+    <string name="calendar_date_picker_a11y_prev_month">เปลี่ยนไปที่เดือนก่อนหน้า</string>
     <string name="call_notification_answer_action">รับสาย</string>
     <string name="call_notification_answer_video_action">วิดีโอ</string>
     <string name="call_notification_decline_action">ปฏิเสธ</string>
@@ -122,14 +128,20 @@
     <string name="call_notification_incoming_text">สายเรียกเข้า</string>
     <string name="call_notification_ongoing_text">สายที่สนทนาอยู่</string>
     <string name="call_notification_screening_text">กำลังสกรีนสายเรียกเข้า</string>
+    <string name="camera_a11y_action_enter">Enter camera</string>
+    <string name="camera_a11y_action_fullscreen">Full screen</string>
+    <string name="camera_a11y_action_play_pause">Pause or play</string>
+    <string name="camera_a11y_action_switch_lens">Switch lens</string>
     <string name="camera_associate_failed">ไม่สามารถเชื่อมต่อกับกล้องได้</string>
     <string name="camera_associate_success">เชื่อมต่อกล้องแล้ว</string>
+    <string name="camera_category_name">กล้อง</string>
     <string name="camera_composed_button">รวม</string>
     <string name="camera_composed_button_description">รวม แตะเพื่อถ่ายภาพพร้อมกันด้วยกล้องจากสองอุปกรณ์</string>
     <string name="camera_composed_no_device">ดูเหมือนว่าอุปกรณ์ไม่ได้อยู่ใกล้ๆ</string>
     <string name="camera_composed_title">รวมกับกล้องของอุปกรณ์นี้</string>
     <string name="camera_composed_using_title">กล้องที่รวม</string>
     <string name="camera_connecting_description">กำลังเชื่อมต่อ…</string>
+    <string name="camera_count_tip">กล้องทั้งหมด</string>
     <string name="camera_disassociate">ตัดการเชื่อมต่อจากกล้อง</string>
     <string name="camera_discompose_button_description">แตะเพื่อหยุดการถ่ายแบบรวมและสลับกลับไปที่กล้องของอุปกรณ์นี้</string>
     <string name="camera_glasses_content_description">แว่นตาเชื่อมต่อกับอุปกรณ์นี้แล้ว กดสองครั้งเพื่อเปิดใช้งาน กดด้วยสองนิ้วแล้วลากเพื่อถ่ายโอน</string>
@@ -181,6 +193,7 @@
     <string name="car_card_seat_main_seat">คนขับ</string>
     <string name="car_card_seat_second_seat">ผู้โดยสารด้านหน้า</string>
     <string name="car_card_seat_warm">อุ่นที่นั่ง</string>
+    <string name="car_card_tv_control_text">รีโมทควบคุมหน้าจอความบันเทิงด้านหลัง</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">AC</string>
     <string name="car_device_camera_name">%1$s กล้องหน้า</string>
@@ -189,11 +202,9 @@
     <string name="cast_auth_count_down">ป้อนโค้ดจาก \"%1$s\" เพื่อเริ่มฉายภาพ (%2$dวิ)</string>
     <string name="cast_auth_title">ป้อนรหัส</string>
     <string name="cast_casting_to_device">กำลังแคสต์ไปยัง %1$s</string>
-    <string name="cast_closed_captions">คำอธิบายภาพ</string>
-    <string name="cast_closed_captions_unavailable">คำบรรยายไม่พร้อมใช้งาน</string>
+    <string name="cast_closed_captions">คำบรรยายแทนเสียง</string>
+    <string name="cast_closed_captions_unavailable">คำบรรยายแทนเสียงไม่พร้อมใช้งาน</string>
     <string name="cast_connecting_to_device">กำลังเชื่อมต่อ %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">กำลังค้นหาอุปกรณ์</string>
-    <string name="cast_device_chooser_title">แคสต์ไปยัง</string>
     <string name="cast_disconnect">ยกเลิกการเชื่อมต่อ</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">ภาพที่แสดงขณะที่เครื่องรับการแคสต์กำลังเล่นโฆษณา</string>
@@ -228,18 +239,16 @@
     <string name="cast_stop_live_stream">หยุดการสตรีมแบบสด</string>
     <string name="cast_tracks_chooser_dialog_audio">เสียง</string>
     <string name="cast_tracks_chooser_dialog_cancel">ยกเลิก</string>
-    <string name="cast_tracks_chooser_dialog_closed_captions">คำอธิบายภาพ</string>
+    <string name="cast_tracks_chooser_dialog_closed_captions">คำบรรยายแทนเสียง</string>
     <string name="cast_tracks_chooser_dialog_default_track_name">ติดตาม %1$d</string>
     <string name="cast_tracks_chooser_dialog_none">ไม่มี</string>
     <string name="cast_tracks_chooser_dialog_ok">ตกลง</string>
     <string name="cast_tracks_chooser_dialog_subtitles">คำบรรยาย</string>
     <string name="cast_unmute">เปิดเสียง</string>
-    <string name="cast_zero_devices_found">"ไม่พบอุปกรณ์
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">ดูข้อมูลเพิ่มเติม</a>เกี่ยวกับวิธีแคสต์เนื้อหาไปยังอุปกรณ์อื่นๆ</string>
     <string name="casting_tips">กำลังฉายภาพ…</string>
     <string name="character_counter_content_description">ป้อนอักขระแล้ว %1$d จาก %2$d ตัว</string>
     <string name="character_counter_overflowed_content_description">เกินจำนวนอักขระสูงสุด %1$d จาก %2$d</string>
+    <string name="check_device_list">ดูอุปกรณ์ที่รองรับ</string>
     <string name="circulate_add_another_device_control_app">เพิ่มแอป</string>
     <string name="circulate_audio_group_title">กำลังเล่น…</string>
     <string name="circulate_back_button_content_description">ย้อนกลับ</string>
@@ -258,6 +267,7 @@
     <string name="circulate_camera_glasses_error_device_not_support">เนื้อหาของแว่นตาไม่สามารถถ่ายโอนไปยังอุปกรณ์นี้ได้</string>
     <string name="circulate_car_card_use_camera">ใช้กล้องหน้าของ EV</string>
     <string name="circulate_car_card_using_camera">กำลังใช้กล้องหน้าของ EV</string>
+    <string name="circulate_car_card_using_pad_camera">การใช้กล้องแท็บเล็ตในรถยนต์</string>
     <string name="circulate_card_audio_change_pad_title">สลับไปที่เสียงแท็บเล็ต</string>
     <string name="circulate_card_audio_change_phone_title">สลับไปที่เสียงโทรศัพท์</string>
     <string name="circulate_card_audio_playing_pad_title">การใช้เสียงแท็บเล็ต</string>
@@ -396,6 +406,7 @@
     <string name="circulate_glasses_duplicate_headset_dialog_message_pad">แท็บเล็ตของคุณเชื่อมต่อกับหูฟังแล้ว หากคุณเชื่อมต่อกับแว่นตาเหล่านี้ หูฟังจะถูกตัดการเชื่อมต่อ เชื่อมต่อเลยตอนนี้หรือไม่?</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_phone">โทรศัพท์ของคุณเชื่อมต่อกับหูฟังแล้ว หากคุณเชื่อมต่อกับแว่นตาเหล่านี้ หูฟังจะถูกตัดการเชื่อมต่อ เชื่อมต่อเลยตอนนี้หรือไม่?</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_tv">ทีวีของคุณเชื่อมต่อกับหูฟังแล้ว หากคุณเชื่อมต่อกับแว่นตาเหล่านี้ หูฟังจะถูกตัดการเชื่อมต่อ เชื่อมต่อเลยตอนนี้หรือไม่?</string>
+    <string name="circulate_header_mijia">อุปกรณ์สมาร์ท</string>
     <string name="circulate_headset_back_to_box_desc">"1. ใส่หูฟังทั้งสองข้างในกล่องชาร์จ
 2. กดปุ่มบนเคสค้างไว้
 3. เสร็จสิ้นการจับคู่บนอุปกรณ์เป้าหมาย"</string>
@@ -511,6 +522,7 @@
     <string name="circulate_pad_card_use_desktop">แชร์หน้าจอหลัก+ กับแท็บเล็ต</string>
     <string name="circulate_pad_card_using_camera">กำลังใช้กล้องของแท็บเล็ต</string>
     <string name="circulate_pad_card_using_desktop">การแชร์หน้าจอหลัก+ กับแท็บเล็ต</string>
+    <string name="circulate_pad_synergy_subtitle">เชื่อมต่อแล้ว</string>
     <string name="circulate_pc_card_use_desktop">แชร์หน้าจอหลัก+ กับคอมพิวเตอร์</string>
     <string name="circulate_pc_card_use_km">แชร์เมาส์กับคอมพิวเตอร์</string>
     <string name="circulate_pc_card_using_camera">คอมพิวเตอร์กำลังใช้กล้อง</string>
@@ -544,6 +556,17 @@
     <string name="circulate_sport_device_find_stop">หยุด</string>
     <string name="circulate_sport_device_find_stop_failed">ไม่สามารถหยุดการค้นหาอุปกรณ์นี้ได้ ลองอีกครั้ง</string>
     <string name="circulate_sport_device_find_watch">ค้นหานาฬิกาเรือนนี้</string>
+    <string name="circulate_synergy_camera_car">การใช้กล้องของรถยนต์</string>
+    <string name="circulate_synergy_camera_pad">แท็บเล็ตกำลังใช้กล้องของโทรศัพท์</string>
+    <string name="circulate_synergy_camera_pc">คอมพิวเตอร์กำลังใช้กล้องของโทรศัพท์</string>
+    <string name="circulate_synergy_camera_phone">กำลังใช้กล้องของโทรศัพท์</string>
+    <string name="circulate_synergy_cast_tv">ฉายภาพ</string>
+    <string name="circulate_synergy_cellular_car">การใช้ฮอตสปอตของรถยนต์</string>
+    <string name="circulate_synergy_cellular_phone">การใช้ข้อมูลมือถือของโทรศัพท์</string>
+    <string name="circulate_synergy_desktop">ใช้หน้าจอหลัก+</string>
+    <string name="circulate_synergy_km_pc">แชร์เมาส์และคีย์บอร์ดกับคอมพิวเตอร์</string>
+    <string name="circulate_synergy_music_playing">กำลังเล่น</string>
+    <string name="circulate_synergy_telephone">รับโทรศัพท์</string>
     <string name="circulate_taking_photo">กำลังใช้กล้องของโทรศัพท์…</string>
     <string name="circulate_title">Xiaomi Smart Hub</string>
     <string name="circulate_to_mijia">อุปกรณ์สมาร์ทโฮม</string>
@@ -611,10 +634,15 @@
     <string name="connect_settings_connection_service">การเชื่อมต่อระหว่างกัน</string>
     <string name="connect_settings_corp_network">ความช่วยเหลือเครือข่าย</string>
     <string name="connect_settings_corp_phone">การซิงค์การโทร</string>
+    <string name="connect_settings_corp_phone_close_toast">ไม่สามารถปิดเครื่องได้ โปรดลองอีกครั้งหลังจากวางสายแล้ว</string>
+    <string name="connect_settings_corp_phone_device_category">อุปกรณ์ทีพบ</string>
+    <string name="connect_settings_corp_phone_not_found_summary">โปรดตรวจสอบให้แน่ใจว่าแท็บเล็ตหรือคอมพิวเตอร์ของคุณอยู่ใกล้ๆ ลงชื่อเข้าใช้ด้วยบัญชี Xiaomi เดียวกัน และเชื่อมต่อกับเครือข่ายเดียวกัน แตะ \"รีเฟรช\" เพื่อลองอีกครั้ง</string>
+    <string name="connect_settings_corp_phone_searching_summary">โปรดตรวจสอบให้แน่ใจว่าแท็บเล็ตหรือคอมพิวเตอร์ของคุณอยู่ใกล้ๆ ลงชื่อเข้าใช้ด้วยบัญชี Xiaomi เดียวกัน และเชื่อมต่อกับเครือข่ายเดียวกัน</string>
     <string name="connect_settings_general_category_share_camera">อนุญาตให้ใช้กล้องข้ามอุปกรณ์บนอุปกรณ์เหล่านี้</string>
     <string name="connect_settings_general_category_share_launcher">อนุญาตให้หน้าจอหลัก+ บนอุปกรณ์เหล่านี้</string>
     <string name="connect_settings_general_summary_corp_phone_pad">รับสายจากโทรศัพท์ใกล้เคียงบนแท็บเล็ตที่ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณ</string>
     <string name="connect_settings_general_summary_corp_phone_phone">รับสายบนแท็บเล็ตหรือคอมพิวเตอร์ใกล้เคียงที่ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณ</string>
+    <string name="connect_settings_general_summary_corp_phone_phone_v2">รับสายเรียกเข้าอุปกรณ์นี้บนแท็บเล็ตหรือคอมพิวเตอร์ของคุณที่ลงชื่อเข้าใช้ด้วยบัญชี Xiaomi เดียวกัน</string>
     <string name="connect_settings_general_summary_relay_app">"ใช้แอปเดียวกันบนอุปกรณ์ต่างๆ ที่ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณ
 รองรับสำหรับโทรศัพท์ แท็บเล็ต และคอมพิวเตอร์"</string>
     <string name="connect_settings_general_summary_share_camera">ใช้กล้องโทรศัพท์ของคุณเพื่อปรับมุมการถ่ายภาพระหว่างการโทรวิดีโอหรือการสตรีมสดบนแท็บเล็ตและคอมพิวเตอร์ใกล้เคียงที่ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณ</string>
@@ -623,12 +651,15 @@
     <string name="connect_settings_general_summary_share_launcher_phone">ดูและควบคุมโทรศัพท์ของคุณ และเข้าถึงแอปต่างๆ จากแท็บเล็ต คอมพิวเตอร์ และยานพาหนะใกล้เคียงที่ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณ</string>
     <string name="connect_settings_general_summary_share_launcher_phone_v2">ดูและควบคุมอุปกรณ์นี้และใช้แอปจากโทรศัพท์ แท็บเล็ต คอมพิวเตอร์ หรือยานพาหนะใกล้เคียงที่ลงชื่อเข้าใช้ด้วยบัญชีเดียวกัน</string>
     <string name="connect_settings_general_summary_share_notification_pad">แสดงการแจ้งเตือนแบตเตอรี่ต่ำจากโทรศัพท์ใกล้เคียงบนแท็บเล็ตที่ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณ</string>
+    <string name="connect_settings_general_summary_share_notification_pad_v2">เมื่อแท็บเล็ตและโทรศัพท์ของคุณลงชื่อเข้าใช้บัญชี Xiaomi เดียวกันและเชื่อมต่อกับเครือข่ายเดียวกัน การแจ้งเตือนจากโทรศัพท์ที่อยู่ใกล้เคียงจะแสดงบนแท็บเล็ตได้</string>
     <string name="connect_settings_general_summary_share_notification_phone">"แสดงการแจ้งเตือนโทรศัพท์ที่สำคัญบนทีวี แท็บเล็ต และคอมพิวเตอร์ใกล้เคียงที่ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณ
 ใช้งานได้กับแอปส่งอาหารและเรียกรถบนทีวี รวมถึงการแจ้งเตือนแบตเตอรี่ต่ำบนแท็บเล็ตและคอมพิวเตอร์"</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">แสดงการแจ้งเตือนแบตเตอรี่ต่ำของโทรศัพท์ของคุณบนแท็บเล็ตใกล้เคียงที่ลงชื่อเข้าใช้บัญชีเดียวกัน</string>
     <string name="connect_settings_known_button">รับทราบ</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
+    <string name="connect_settings_mi_share_tap_share">แตะเพื่อแชร์</string>
     <string name="connect_settings_nfc_share">ถ่ายโอนรายการผ่าน NFC</string>
+    <string name="connect_settings_not_found_device_title">ไม่พบอุปกรณ์ที่พร้อมใช้งาน</string>
     <string name="connect_settings_not_opened">ปิด</string>
     <string name="connect_settings_opened">เปิด</string>
     <string name="connect_settings_presentation_password_error">รหัสผ่านไม่ถูกต้อง</string>
@@ -638,6 +669,7 @@
     <string name="connect_settings_relay_app">แอป</string>
     <string name="connect_settings_same_account">จากบัญชีนี้</string>
     <string name="connect_settings_screen_cast">ฉายภาพ</string>
+    <string name="connect_settings_searching_device_title">การค้นพบอุปกรณ์ของคุณ</string>
     <string name="connect_settings_share_camera">กล้องข้ามอุปกรณ์</string>
     <string name="connect_settings_share_clipboard">คลิปบอร์ด</string>
     <string name="connect_settings_share_file">ไฟล์ข้ามอุปกรณ์</string>
@@ -649,6 +681,7 @@
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">ปลดล็อคด้วยใบหน้าหรือรหัสผ่าน</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">ใช้ลายนิ้วมือหรือรหัสผ่านบนแท็บเล็ต Mac ของคุณเพื่อปลดล็อคโทรศัพท์และแอปของคุณ</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock">ปลดล็อคโทรศัพท์และแอปของคุณโดยใช้ระบบจดจำใบหน้าผ่านกล้อง Xiaomi EV ของคุณ</string>
+    <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock_v2">ใช้กล้อง Xiaomi EV เพื่อจดจำใบหน้าของคุณและปลดล็อกโทรศัพท์ Xiaomi ของคุณ</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">ปลดล็อกด้วยใบหน้า</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">เปิดแอปอย่างรวดเร็วหลังจากปลดล็อค</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">ใช้ลายนิ้วมือหรือรหัสผ่านบนแท็บเล็ต Xiaomi ของคุณเพื่อปลดล็อคโทรศัพท์และแอปของคุณ</string>
@@ -656,20 +689,31 @@
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">เพิ่มแอพโทรศัพท์ลงในหน้าจอหลักของแท็บเล็ตของคุณ เมื่อปลดล็อคโทรศัพท์แล้ว ให้เปิดใช้งานโดยตรงจากแท็บเล็ต</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">ใช้ลายนิ้วมือของคุณหรือป้อนรหัสผ่านเพื่อปลดล็อก</string>
     <string name="connect_settings_share_notification">การแจ้งเตือน</string>
+    <string name="connect_settings_share_notification_apple_watch">แสดงการแจ้งเตือนจากอุปกรณ์นี้บน Apple Watch</string>
+    <string name="connect_settings_share_notification_apple_watch_category">ซิงค์การแจ้งเตือนไปยังนาฬิกา</string>
     <string name="connect_settings_share_notification_help">ช่วยเหลือ</string>
     <string name="connect_settings_share_notification_iphone_device">แสดงการแจ้งเตือนจากอุปกรณ์นี้บน iPhone</string>
     <string name="connect_settings_share_notification_local_device">แสดงการแจ้งเตือน iPhone บนอุปกรณ์นี้</string>
     <string name="connect_settings_share_notification_local_device_summary">หากต้องการรับสาย รับข้อความ และแจ้งเตือนแอปบนอุปกรณ์นี้ ให้เปิดใช้งานการซิงค์การแจ้งเตือนไปยังโทรศัพท์ Xiaomi ของคุณใน การเชื่อมต่อโครงข่าย Xiaomi > ซิงค์การแจ้งเตือน > ซิงค์กับ Xiaomi บน iPhone ของคุณ</string>
     <string name="connect_settings_share_notification_local_device_summary_v2">เพื่อให้สามารถรับสาย รับข้อความ และการแจ้งเตือนจากแอปบนอุปกรณ์ Xiaomi ของคุณได้ ให้เชื่อมต่ออุปกรณ์ Xiaomi กับ iPhone ของคุณโดยใช้ การเชื่อมต่อโครงข่าย Xiaomi > ซิงค์การแจ้งเตือน > ซิงค์กับ Xiaomi</string>
     <string name="connect_settings_share_notification_local_device_title">รับการแจ้งเตือนจาก %1$s</string>
+    <string name="connect_settings_share_notification_local_low_battery_summary">แสดงการแจ้งเตือนแบตเตอรี่เหลือน้อยจากโทรศัพท์ Xiaomi ของคุณบนอุปกรณ์นี้</string>
+    <string name="connect_settings_share_notification_local_low_battery_title">การแจ้งเตือนแบตเตอรี่ต่ำ</string>
     <string name="connect_settings_share_notification_local_other_mi_device">การดูการแจ้งเตือนจากอุปกรณ์ Xiaomi อื่นๆ บนอุปกรณ์นี้</string>
     <string name="connect_settings_share_notification_mi_device">แสดงการแจ้งเตือนจากอุปกรณ์นี้บนอุปกรณ์ Xiaomi</string>
     <string name="connect_settings_share_notification_mi_device_category">ซิงค์กับอุปกรณ์ใกล้เคียง</string>
     <string name="connect_settings_share_notification_mi_device_category_v2">อุปกรณ์ใกล้เคียง</string>
+    <string name="connect_settings_share_notification_mi_device_category_v3">ซิงค์การแจ้งเตือนไปยังอุปกรณ์ใกล้เคียง</string>
     <string name="connect_settings_share_notification_mi_device_v2">แท็บเล็ตหรือทีวี Xiaomi</string>
     <string name="connect_settings_share_notification_mi_device_v3">แท็บเล็ต คอมพิวเตอร์ และทีวี Xiaomi</string>
     <string name="connect_settings_share_notification_more_feature">คุณลักษณะเพิ่มเติม</string>
+    <string name="connect_settings_share_notification_other_important">ตัวเลือกการซิงค์เพิ่มเติม</string>
+    <string name="connect_settings_share_notification_other_important_summary">แสดงการแจ้งเตือนแบตเตอรี่เหลือน้อยจากโทรศัพท์ Xiaomi ของคุณบนแท็บเล็ตและคอมพิวเตอร์ Xiaomi และแสดงการแจ้งเตือนการส่งอาหารและการเรียกรถบนทีวี Xiaomi</string>
+    <string name="connect_settings_share_notification_other_important_title">ซิงค์กับ แท็บเล็ต คอมพิวเตอร์ และทีวี Xiaomi</string>
     <string name="connect_settings_share_notification_other_mi_local_device">การดูการแจ้งเตือนจากอุปกรณ์นี้บนอุปกรณ์ Xiaomi อื่นๆ</string>
+    <string name="connect_settings_share_notification_pad_local">แสดงการแจ้งเตือนจากอุปกรณ์นี้บนแท็บเล็ต Xiaomi</string>
+    <string name="connect_settings_share_notification_pad_mi_device_summary">แสดงการแจ้งเตือนแอปจากโทรศัพท์ Xiaomi ของคุณบนอุปกรณ์นี้ เลือกการแจ้งเตือนที่จะซิงค์บนโทรศัพท์ของคุณได้ใน การตั้งค่า > การเชื่อมต่อระหว่างกัน > การแจ้งเตือนข้ามอุปกรณ์</string>
+    <string name="connect_settings_share_notification_pad_mi_device_title">การแจ้งเตือนแอป</string>
     <string name="connect_settings_share_notification_receive_tab">รับ</string>
     <string name="connect_settings_share_notification_receive_tab_device_category">อุปกรณ์ทีพบ</string>
     <string name="connect_settings_share_notification_receive_tab_device_category_v2">อุปกรณ์ทีพบ</string>
@@ -693,10 +737,17 @@
     <string name="connect_settings_share_notification_send_tab">ซิงค์</string>
     <string name="connect_settings_share_notification_send_tab_device_category">ซิงค์กับโทรศัพท์</string>
     <string name="connect_settings_share_notification_send_tab_device_category_v2">โทรศัพท์ของฉัน</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v3">อุปกรณ์ทีพบ</string>
+    <string name="connect_settings_share_notification_send_tab_not_found_device_summary">โปรดตรวจสอบให้แน่ใจว่าคุณได้ทำตามคำแนะนำข้างต้นแล้ว แตะ \"รีเฟรช\" เพื่อลองอีกครั้ง</string>
     <string name="connect_settings_share_notification_send_tab_summary">"แสดงการแจ้งเตือนจากอุปกรณ์นี้บนโทรศัพท์ แท็บเล็ต หรือทีวีที่ลงชื่อเข้าใช้บัญชีเดียวกัน
 *คุณสมบัติที่รองรับ: โทรศัพท์สามารถแสดงการโทร ข้อความ และการแจ้งเตือนแอป ทีวีสามารถแสดงการแจ้งเตือนการจัดส่งและการเรียกรถ แท็บเล็ตและคอมพิวเตอร์สามารถแสดงการแจ้งเตือนแบตเตอรี่ต่ำจากโทรศัพท์ของคุณได้"</string>
     <string name="connect_settings_share_notification_send_tab_summary_v2">"•เมื่ออุปกรณ์นี้ถูกล็อก คุณสามารถดูการแจ้งเตือนจากอุปกรณ์นี้ได้บนโทรศัพท์ แท็บเล็ต คอมพิวเตอร์ หรือทีวีที่ลงชื่อเข้าใช้ด้วยบัญชีเดียวกัน
 •คุณสามารถดูการโทร ข้อความ หรือการแจ้งเตือนแอปบนโทรศัพท์ การแจ้งเตือนการส่งอาหารและการเรียกรถบนทีวี และการแจ้งเตือนแบตเตอรี่เหลือน้อยบนแท็บเล็ตและคอมพิวเตอร์"</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v3">"การแจ้งเตือนที่ได้รับบนอุปกรณ์นี้สามารถซิงค์และแสดงบนอุปกรณ์อื่นๆ ที่ลงชื่อเข้าใช้บัญชี Xiaomi เดียวกันได้
+• ซิงค์กับโทรศัพท์: อุปกรณ์ทั้งสองต้องลงชื่อเข้าใช้บัญชี Xiaomi เดียวกันและเชื่อมต่อกับเครือข่าย
+• ซิงค์กับแท็บเล็ต: แท็บเล็ตของคุณควรอยู่ใกล้ๆ ลงชื่อเข้าใช้บัญชี Xiaomi เดียวกัน และเชื่อมต่อกับเครือข่ายเดียวกัน หรือใช้ หน้าจอหลัก+"</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v4">"•เมื่ออุปกรณ์นี้ถูกล็อก คุณสามารถดูการแจ้งเตือนจากอุปกรณ์นี้ได้บนโทรศัพท์ แท็บเล็ต คอมพิวเตอร์ โทรทัศน์ หรือนาฬิกาที่ลงชื่อเข้าใช้ด้วยบัญชีเดียวกัน
+•คุณสามารถดูการโทร ข้อความ หรือการแจ้งเตือนแอปบนโทรศัพท์ การแจ้งเตือนการส่งอาหารและการเรียกรถบนโทรทัศน์ และการแจ้งเตือนแบตเตอรี่เหลือน้อยบนแท็บเล็ตและคอมพิวเตอร์"</string>
     <string name="connect_settings_share_notification_send_tab_v2">ซิงค์</string>
     <string name="connect_settings_summary"><Data>ค้นพบอุปกรณ์ใกล้เคียงที่ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณและเพิ่มอุปกรณ์เหล่านั้นลงใน Xiaomi Smart Hub &lt;a href=%1$s>เรียนรู้เพิ่มเติม&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">อนุญาตให้อุปกรณ์ของคุณโต้ตอบกันแบบไร้สาย</string>
@@ -728,6 +779,7 @@
     <string name="console_guide_subtitle_small_window">ย่อหน้าต่างที่กำลังใช้งานเพื่อให้สามารถใช้คุณสมบัติอื่นๆ ของโทรศัพท์ของคุณได้</string>
     <string name="copy">คัดลอก</string>
     <string name="copy_toast_msg">คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว</string>
+    <string name="copy_verification_code_tip">คัดลอกรหัสยืนยัน</string>
     <string name="current_wifi_tv">เครือข่ายปัจจุบัน</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -784,20 +836,18 @@
     <string name="dialog_nfc_cast_wifi_off">เปิด WLAN เพื่อให้สามารถฉายภาพโดยใช้ NFC ได้ เปิดใช้ตอนนี้หรือไม่?</string>
     <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g> เชื่อมต่อทั้งอุปกรณ์เคลื่อนที่และทีวีกับเครือข่าย Wi-Fi เดียวกัน&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. ในทีวีบางรุ่น คุณสมบัตินี้จะใช้ได้เฉพาะเมื่อเปิดการสะท้อนหน้าจอ ดู &lt;a href=milink://com.milink.service/specification>\"ความช่วยเหลือ\"&lt;/a> เพื่อเรียนรู้เพิ่มเติม</Data></string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g> เชื่อมต่อทั้งอุปกรณ์เคลื่อนที่และทีวีกับเครือข่าย WLAN เดียวกัน&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. ในทีวีบางรุ่น คุณสมบัตินี้จะใช้ได้เฉพาะเมื่อเปิดการสะท้อนหน้าจอ ดู &lt;a href=milink://com.milink.service/specification>\"ความช่วยเหลือ\"&lt;/a> เพื่อเรียนรู้เพิ่มเติม</Data></string>
+    <string name="dialog_no_device_message_new"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. เชื่อมต่อทีวีและโทรศัพท์ของคุณเข้ากับเครือข่าย Wi-Fi เดียวกัน&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. ทีวีบางรุ่นจำเป็นต้องเปิดใช้งานการสะท้อนหน้าจอเพื่อให้สามารถค้นพบได้ &lt;a href=milink://com.milink.service/specification>ดูความช่วยเหลือ&lt;/a> สำหรับรายละเอียดเพิ่มเติม</Data></string>
+    <string name="dialog_no_device_message_new_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. เชื่อมต่อทีวีและโทรศัพท์ของคุณเข้ากับเครือข่าย WLAN เดียวกัน&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. ทีวีบางรุ่นจำเป็นต้องเปิดใช้งานการสะท้อนหน้าจอเพื่อให้สามารถค้นพบได้ &lt;a href=milink://com.milink.service/specification>ดูความช่วยเหลือ&lt;/a> สำหรับรายละเอียดเพิ่มเติม</Data></string>
     <string name="dialog_ok">ตกลง</string>
     <string name="dialog_only_suport_content">สตรีมรูปภาพ วิดีโอ หรือเพลง</string>
     <string name="dialog_open_remote_switch_content">ไม่สามารถใช้การตั้งค่าได้ โปรดตรวจสอบให้แน่ใจว่า %1$s ของคุณลงชื่อเข้าใช้ด้วยบัญชีเดียวกันและเชื่อมต่อกับเครือข่ายเดียวกันกับอุปกรณ์นี้</string>
+    <string name="dialog_open_remote_switch_content_corp_phone">เปิดเครื่องไม่ได้ โปรดตรวจสอบให้แน่ใจว่า %1$s ได้ลงชื่อเข้าใช้บัญชี Xiaomi เดียวกันและเชื่อมต่อกับเครือข่ายเดียวกันกับอุปกรณ์นี้แล้ว</string>
     <string name="dialog_open_wifi_bt">เปิดใช้งาน</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"ตรวจสอบให้แน่ใจว่าคุณสมบัติการส่งสัญญาณไร้สายเปิดอยู่บนอุปกรณ์เป้าหมาย
 ดูความช่วยเหลือหากคุณมีปัญหาในการเชื่อมต่อ"</string>
     <string name="dialog_recent_connected">ล่าสุด</string>
-    <string name="dialog_remote_authorization">ให้สิทธิ์บน %1$s</string>
-    <string name="dialog_remote_authorization_content">ให้สิทธิ์การแจ้งเตือนแก่ การเชื่อมต่อระหว่างกัน บน %1$s ของคุณ</string>
-    <string name="dialog_reset_app_subscribe">อนุญาตการแจ้งเตือนจาก %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s ถูกถอนการติดตั้งออกจาก %1$s ของคุณแล้ว ไม่สามารถรับการแจ้งเตือนจากแอปบนอุปกรณ์นี้ได้ โปรดเปลี่ยนการตั้งค่าแล้วลองใหม่อีกครั้ง</string>
+    <string name="dialog_reset_app_subscribe_content_v2">แอปบางแอปถูกถอนการติดตั้งไปก่อนหน้านี้จาก %1$s ของคุณแล้ว และคุณจะไม่ได้รับการแจ้งเตือนจากแอปเหล่านั้นบนอุปกรณ์นี้ โปรดตั้งค่าการซิงค์การแจ้งเตือนอีกครั้ง</string>
     <string name="dialog_reset_app_subscribe_multi">เปลี่ยนการตั้งค่าการแจ้งเตือน</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s และ %3$s ถูกถอนการติดตั้งออกจาก %1$s ของคุณก่อนหน้านี้แล้ว ไม่สามารถรับการแจ้งเตือนจากแอปบนอุปกรณ์นี้ได้ โปรดเปลี่ยนการตั้งค่าแล้วลองใหม่อีกครั้ง</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s และ %4$s ถูกถอนการติดตั้งออกจาก %1$s ของคุณก่อนหน้านี้แล้ว ไม่สามารถรับการแจ้งเตือนจากแอปบนอุปกรณ์นี้ได้ โปรดเปลี่ยนการตั้งค่าแล้วลองใหม่อีกครั้ง</string>
     <string name="dialog_retry">ลองอีกครั้ง</string>
     <string name="dialog_scan_message">"%1$d เชื่อมต่อทั้งอุปกรณ์เคลื่อนที่และทีวีกับเครือข่าย Wi-Fi เดียวกัน
 
@@ -805,17 +855,46 @@
     <string name="dialog_scan_message_china">"%1$d เชื่อมต่อทั้งอุปกรณ์เคลื่อนที่และทีวีกับเครือข่าย WLAN เดียวกัน
 
 %2$d ดู \"ความช่วยเหลือ\" เพื่อเรียนรู้เพิ่มเติม"</string>
+    <string name="dialog_scan_message_new">"%1$d. เชื่อมต่อทีวีและโทรศัพท์ของคุณเข้ากับเครือข่าย Wi-Fi เดียวกัน
+
+%2$d. ทีวีบางรุ่นจำเป็นต้องเปิดใช้งานการสะท้อนหน้าจอเพื่อให้สามารถค้นพบได้ แตะ \"ดูความช่วยเหลือ\" สำหรับรายละเอียดเพิ่มเติม"</string>
+    <string name="dialog_scan_message_new_china">"%1$d. เชื่อมต่อทีวีและโทรศัพท์ของคุณเข้ากับเครือข่าย WLAN เดียวกัน
+
+%2$d. ทีวีบางรุ่นจำเป็นต้องเปิดใช้งานการสะท้อนหน้าจอเพื่อให้สามารถค้นพบได้ แตะ \"ดูความช่วยเหลือ\" สำหรับรายละเอียดเพิ่มเติม"</string>
     <string name="dialog_scanning_close_dual_wifi_china">ปิด \"เพิ่มความเร็ว WLAN แบบย่านความถี่คู่\" เพื่อให้สามารถส่งได้ ปิดฟีเจอร์นี้ตอนนี้เลยไหม?</string>
     <string name="dialog_scanning_close_dual_wifi_global">ปิด \"เพิ่มความเร็ว Wi-Fi แบบย่านความถี่คู่\" เพื่อให้สามารถส่งได้ ปิดฟีเจอร์นี้ตอนนี้เลยไหม?</string>
     <string name="dialog_scanning_close_tethering">ปิดฮอตสปอตเพื่อให้สามารถฉายภาพได้ ปิดฮอตสปอตตอนนี้เลยไหม?</string>
     <string name="dialog_scanning_device">กำลังค้นหาอุปกรณ์ใกล้เคียง…</string>
     <string name="dialog_scanning_precondition">เปิด Wi-Fi และบลูทูธบนโทรศัพท์ของคุณเพื่อใช้จอแสดงผลแบบไร้สาย</string>
+    <string name="dialog_scanning_precondition_new_1">การส่งภาพหน้าจอต้องใช้ Wi-Fi และบริการตำแหน่งพิกัด เปิดใช้งานแล้วหรือยัง?</string>
+    <string name="dialog_scanning_precondition_new_1_china">การส่งภาพหน้าจอต้องใช้ WLAN, บลูทูธ และบริการตำแหน่งพิกัด เปิดใช้งานแล้วหรือยัง?</string>
     <string name="dialog_scanning_precondition_new_china">เปิด WLAN บลูทูธ และบริการตำแหน่งพิกัด เพื่อใช้ฉายภาพ เปิดเลยไหม?</string>
     <string name="dialog_scanning_precondition_new_global">เปิด Wi-Fi และบริการตำแหน่งพิกัด เพื่อใช้ฉายภาพ เปิดเลยไหม?</string>
     <string name="dialog_select_tv">เลือกอุปกรณ์ (%1$d)</string>
     <string name="dialog_show_help">ความช่วยเหลือ</string>
+    <string name="dialog_show_help_v1">เรียกดูความช่วยเหลือ</string>
     <string name="disconnect">หยุดการฉายภาพหน้าจอ</string>
+    <string name="dist_camera_pad_switch_off_toast_button_text">รับทราบ</string>
+    <string name="dist_camera_pad_switch_off_toast_subtitle">เปิดใช้งานกล้องข้ามอุปกรณ์บนแท็บเล็ตของคุณใน การตั้งค่า > การเชื่อมต่อระหว่างกัน</string>
+    <string name="dist_camera_pad_switch_off_toast_title">เปิดใช้งานกล้องข้ามอุปกรณ์</string>
+    <string name="dist_camera_phone_switch_off_toast_button_text">รับทราบ</string>
+    <string name="dist_camera_phone_switch_off_toast_subtitle">เปิดใช้งานกล้องข้ามอุปกรณ์บนโทรศัพท์ของคุณใน การตั้งค่า > การเชื่อมต่อระหว่างกัน</string>
+    <string name="dist_camera_phone_switch_off_toast_title">เปิดใช้งานกล้องข้ามอุปกรณ์</string>
     <string name="dp_casting_start_hint">เชื่อมต่อผ่านสายเคเบิล การฉายภาพสิ้นสุดลงแล้ว</string>
+    <string name="dp_in_dialog_cancel">ยกเลิก </string>
+    <string name="dp_in_dialog_enter">เปิดใช้งาน</string>
+    <string name="dp_in_dialog_message">ในโหมดนี้ แท็บเล็ตจะทำหน้าที่เป็นเพียงจอแสดงผลเท่านั้น เสียงของแท็บเล็ตจะถูกปิดเสียง และจะมีเพียงเสียงจากอุปกรณ์ภายนอกเท่านั้นที่เล่น การแจ้งเตือนของระบบจะไม่ปรากฏขึ้น โปรดใช้โหมดแนวนอนเพื่อประสบการณ์การใช้งานที่ดีที่สุด</string>
+    <string name="dp_in_dialog_title">เปิดใช้งานส่วนขยายหน้าจอโปร</string>
+    <string name="dp_in_exit_dialog_exit">ปิดใช้งาน</string>
+    <string name="dp_in_exit_dialog_message">หน้าจอจะถูกตัดการเชื่อมต่อ และคุณจะกลับไปยังหน้าจอหลักของแท็บเล็ต</string>
+    <string name="dp_in_exit_dialog_title">ปิดใช้งานส่วนขยายหน้าจอโปร?</string>
+    <string name="dp_in_low_battery_confirm">รับทราบ</string>
+    <string name="dp_in_low_battery_message">ระดับแบตเตอรี่ต่ำกว่า %s โปรดชาร์จโดยเร็ว</string>
+    <string name="dp_in_no_signal_exit">ปิดใช้งานส่วนขยายหน้าจอโปร</string>
+    <string name="dp_in_no_signal_subtitle">ตรวจสอบให้แน่ใจว่าอุปกรณ์เชื่อมต่ออยู่</string>
+    <string name="dp_in_no_signal_title">ไม่สามารถตรวจจับสัญญาณของอุปกรณ์ได้</string>
+    <string name="dp_in_notification_subtitle">ในโหมดนี้ แท็บเล็ตจะทำหน้าที่เป็นเพียงจอแสดงผลเท่านั้น</string>
+    <string name="dp_in_notification_title">เปิดใช้งานส่วนขยายหน้าจอโปร</string>
     <string name="dual_wifi_warning_china">ปิดใช้งาน WLAN คู่ แล้วลองอีกครั้ง</string>
     <string name="dual_wifi_warning_global">ปิดใช้งาน Wi-Fi คู่ แล้วลองอีกครั้ง</string>
     <string name="early_morning">เช้า</string>
@@ -835,6 +914,7 @@
     <string name="err_toast_msg_not_support_audio_protocol">ไม่สามารถโอนการเล่นเสียงไปยังอุปกรณ์นี้ได้</string>
     <string name="err_toast_msg_retry_later">ไม่สามารถดำเนินการนี้ได้ รอสักครู่แล้วลองอีกครั้ง</string>
     <string name="err_toast_msg_state_not_support">ไม่รองรับการลาก</string>
+    <string name="err_toast_msg_state_not_support_circulate">ตอนนี้เปลี่ยนไม่ได้</string>
     <string name="err_toast_msg_try_switch_network">เชื่อมต่อทั้งอุปกรณ์มือถือและคอมพิวเตอร์ของคุณเข้ากับเครือข่าย WLAN เดียวกัน</string>
     <string name="error_a11y_label">ข้อผิดพลาด: ไม่ถูกต้อง</string>
     <string name="error_icon_content_description">ข้อผิดพลาด</string>
@@ -915,6 +995,7 @@
     <string name="friday">วันศุกร์</string>
     <string name="friday_short">ศุกร์</string>
     <string name="friday_shortest">ศุกร์</string>
+    <string name="fusion_device_nearby">บริเวณใกล้เคียง</string>
     <string name="global_dialog_cancle">ยกเลิก </string>
     <string name="global_dialog_miplay_permission_positive">การตั้งค่า</string>
     <string name="global_dialog_nearbydevice_permission_message">การเชื่อมต่อระหว่างกันต้องได้รับอนุญาตในการเชื่อมต่อกับอุปกรณ์ใกล้เคียงเพื่อค้นหาอุปกรณ์เหล่านั้น ให้สิทธิ์นี้ในการตั้งค่าเพื่อสามารถใช้การเชื่อมต่อระหว่างกันตามปกติ</string>
@@ -928,6 +1009,9 @@
     <string name="global_privacy_positive">ยอมรับ</string>
     <string name="global_privacy_screencast">ขณะบันทึกหรือฉายภาพ บริการที่มีฟีเจอร์นี้สามารถบันทึกข้อมูลสำคัญใดๆ ที่แสดงบนหน้าจอหรือเล่นจากอุปกรณ์ของคุณ รวมถึงข้อมูลที่ละเอียดอ่อน เช่น เสียง รหัสผ่าน ข้อมูลการชำระเงิน รูปภาพ และข้อความ.</string>
     <string name="global_privacy_tip"><Data>เราจำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นเพื่อให้บริการขั้นพื้นฐานแก่คุณและเพิ่มประสิทธิภาพกระบวนการฉายภาพ คุณสามารถเรียนรู้วิธีที่เราจัดการกับข้อมูลที่เรารวบรวมได้ใน &lt;a href=%1$s>นโยบายความเป็นส่วนตัว&lt;/a> ของเรา คุณสามารถเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวในการตั้งค่าได้ทุกเมื่อ</Data></string>
+    <string name="guide_mask_btn">เริ่มต้นใช้งาน</string>
+    <string name="guide_mask_desc">กดค้างที่บัตร แล้วปักหมุดเพื่อเก็บบัตรนั้นไว้ด้านบนสุดในศูนย์ควบคุมและ Xiaomi Smart Hub</string>
+    <string name="guide_mask_title">Xiaomi Smart Hub รุ่นใหม่ล่าสุด</string>
     <string name="hang_up">ปิดฉายภาพด้วยหน้าจอ</string>
     <string name="hang_up_alert_dialog_content">ส่งต่อเมื่อหน้าจออุปกรณ์ของคุณปิดอยู่ คุณสมบัตินี้ลดการใช้พลังงาน กดปุ่มเปิด/ปิดเพื่อเปิดหน้าจออีกครั้ง</string>
     <string name="hang_up_alert_dialog_neg">ยกเลิก </string>
@@ -936,6 +1020,8 @@
     <string name="head_toast_connecting">กำลังเชื่อมต่อ…</string>
     <string name="head_toast_fail">ไม่สามารถเชื่อมต่อได้</string>
     <string name="head_toast_success">เชื่อมต่อเรียบร้อย</string>
+    <string name="headset_circulate_card_default_title">หูฟังเชื่อมต่อแล้ว</string>
+    <string name="headset_circulate_card_glasses_title">แว่นตาเชื่อมต่อแล้ว</string>
     <string name="headset_content_description">หูฟังเชื่อมต่อกับอุปกรณ์นี้อยู่ กดสองครั้งเพื่อเปิดใช้งาน กดด้วยสองนิ้วแล้วลากเพื่อถ่ายโอนการเล่น</string>
     <string name="headset_content_description_global">หูฟังเชื่อมต่อกับอุปกรณ์นี้แล้ว กดสองครั้งเพื่อเปิดใช้งาน</string>
     <string name="help_page_question_1st_01_international">"%1$d เมื่ออุปกรณ์ที่คุณกำลังแคสต์ไปคือ Xiaomi TV ให้เปิด Miracast
@@ -961,10 +1047,14 @@
     <string name="help_page_text_06_new_1">ทีวี Xiaomi กล่องรับสัญญาณ และโปรเจคเตอร์:</string>
     <string name="help_page_text_06_new_2">"%1$d ตรวจสอบให้แน่ใจว่าอุปกรณ์เคลื่อนที่และจอภาพภายนอกของคุณเชื่อมต่อกับเครือข่าย Wi-Fi เดียวกัน
 %2$d ในทีวี Xiaomi บางรุ่น คุณสามารถตั้งค่าการแคสต์จากทีวี รวมถึงปรับแต่งการค้นหาอุปกรณ์และวิธีการยืนยันได้"</string>
+    <string name="help_page_text_06_new_2_china">"%1$d. ตรวจสอบให้แน่ใจว่าทีวีและโทรศัพท์ของคุณเชื่อมต่อกับเครือข่าย WLAN เดียวกัน
+%2$d. ทีวี Xiaomi บางรุ่นอนุญาตให้คุณปรับแต่งการค้นหาและการตรวจสอบอุปกรณ์ในการตั้งค่าการส่งสัญญาณไร้สายได้"</string>
     <string name="help_page_text_06_new_3">*คุณสามารถตั้งค่ากำหนดแคสต์สำหรับทีวีของคุณได้ในการตั้งค่าการฉายภาพ</string>
     <string name="help_page_text_06_new_4">ทีวีที่ไม่ใช่ Xiaomi กล่องรับสัญญาณ และโปรเจคเตอร์:</string>
     <string name="help_page_text_06_new_5">"%1$d ตรวจสอบให้แน่ใจว่าอุปกรณ์เคลื่อนที่และจอภาพภายนอกของคุณเชื่อมต่อกับเครือข่าย Wi-Fi เดียวกัน
 %2$d ในทีวีบางยี่ห้อ คุณจะต้องเปิด Miracast ก่อนจึงจะแคสต์ได้"</string>
+    <string name="help_page_text_06_new_5_china">"%1$d. ตรวจสอบให้แน่ใจว่าทีวีและโทรศัพท์ของคุณเชื่อมต่อกับเครือข่าย WLAN เดียวกัน
+%2$d. ทีวีบางยี่ห้อจำเป็นต้องเปิดใช้งาน \"Miracast\""</string>
     <string name="help_page_text_06_new_6">เรียนรู้เพิ่มเติม</string>
     <string name="help_page_text_08">ขั้นตอนที่ %1$d: เปิดการฉายภาพ</string>
     <string name="help_page_text_08_new">ขั้นตอนที่ %1$d: เปิดการฉายภาพ</string>
@@ -982,6 +1072,12 @@
 %2$d ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมเครือข่ายมีเสถียรภาพ หากไม่เป็นเช่นนั้น ให้ลองรีสตาร์ทเราเตอร์ของคุณหรือเปลี่ยนไปใช้แบนด์เครือข่าย %3$d GHz
 %4$d เมื่อทำการแคสต์ไปยังทีวี Xiaomi ให้เปิดคุณสมบัติการแคสต์แบบไร้สายบนทีวี อยู่ในหน้าแคสต์ขณะเชื่อมต่อ
 %5$d LAN สาธารณะขนาดใหญ่บางแห่ง เช่น บริษัทและโรงเรียนไม่รองรับความสามารถในการค้นหาอุปกรณ์บน LAN เดียวกัน"</string>
+    <string name="help_page_text_13_desc_1_new">"%1$d. หากคุณกำลังแคสต์ไปยังทีวี Xiaomi โปรดเปิดใช้งาน \"Miracast\" บนทีวี
+%2$d. หากคุณกำลังแคสต์ไปยังทีวีที่ไม่ใช่ Xiaomi โปรดตรวจสอบให้แน่ใจว่าทีวีนั้นรองรับ \"Miracast\" (หรือที่เรียกว่า \"จอแสดงผลไร้สาย\", \"การสะท้อนหน้าจอ\" หรือ \"การทำงานร่วมกันบนหลายหน้าจอ\" ในบางอุปกรณ์) และเปิดใช้งานอยู่"</string>
+    <string name="help_page_text_13_desc_1_new_china">"%1$d. ตรวจสอบให้แน่ใจว่าโทรศัพท์และทีวีของคุณเชื่อมต่อกับเครือข่าย WLAN เดียวกัน หรือเชื่อมต่อทีวีกับฮอตสปอตมือถือเดียวกัน
+%2$d ตรวจสอบให้แน่ใจว่าเครือข่ายของคุณเสถียร ลองรีสตาร์ทเราเตอร์หรือเปลี่ยนไปใช้เราเตอร์ 5 GHz
+%4$d หากคุณกำลังแคสต์ไปยังทีวี Xiaomi ลองเปิด \"การแสดงผลแบบไร้สาย\" บนทีวีและอยู่ที่หน้าแรก
+%5$d เครือข่ายสาธารณะขนาดใหญ่ (สำนักงาน โรงเรียน ฯลฯ) อาจบล็อกการค้นหาอุปกรณ์เนื่องจากการแยกมัลติแคสต์"</string>
     <string name="help_page_text_13_desc_2">ทีวีบางรุ่นใช้การเชื่อมต่อที่ไม่ใช่ LAN ขณะแคสต์ เป็นเรื่องปกติที่อุปกรณ์เหล่านี้จะถูกตัดการเชื่อมต่อจากเครือข่าย โดยปกติจะเชื่อมต่อใหม่ภายใน %1$d-%2$d วินาทีหลังจากสิ้นสุดการฉายภาพ</string>
     <string name="help_page_text_13_summary_1">ไม่สามารถเชื่อมต่อกับอุปกรณ์ภายนอกได้</string>
     <string name="help_page_text_13_summary_2">เครือข่ายหยุดชะงักขณะฉายภาพ</string>
@@ -1042,13 +1138,19 @@
     <string name="help_page_text_55_global">"หากคุณไม่สามารถเชื่อมต่อกับเครือข่ายได้ ตรวจสอบให้แน่ใจว่าจอภาพภายนอกของคุณรองรับฟังก์ชั่น Miracast และเปิดอยู่ ในบางรุ่นคุณสมบัตินี้เรียกว่า จอแสดงผลแบบไร้สาย, Screen Mirroring หรือหลายหน้าจอ
 %1$d. หากคุณพบปัญหาใดๆ คุณสามารถรายงานปัญหาโดยใช้แอป \"บริการและข้อเสนอแนะ\" ของเรา"</string>
     <string name="help_page_text_end">หากแบรนด์ของอุปกรณ์ของคุณไม่อยู่ในรายการที่นี่ ติดต่อผู้ผลิตเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชั่นการส่งสัญญาณ</string>
+    <string name="hint_deivce">ดูอุปกรณ์ที่รองรับและคุณสมบัติ</string>
+    <string name="hint_text">คุณสามารถจัดการอุปกรณ์ Human × Car × Home ของคุณผ่านทาง Xiaomi Smart Hub ได้</string>
+    <string name="home_curtain_card_close_button">ปิด</string>
+    <string name="home_curtain_card_open_button">เปิด</string>
+    <string name="home_curtain_card_pause_button">หยุดชั่วคราว</string>
+    <string name="homemodule_camera__physical_mask">กล้องถูกบัง</string>
+    <string name="homemodule_curtain_AllDevice_none">ไม่มีม่าน</string>
+    <string name="homemodule_light_AllDevice_none">ไม่มีอุปกรณ์ไฟ</string>
     <string name="i_see">รับทราบ</string>
+    <string name="ic_media_route_learn_more_accessibility">ดูวิธีแคสต์</string>
     <string name="icon_content_description">ไอคอนกล่องโต้ตอบ</string>
     <string name="image_transfer_failed">ไม่สามารถถ่ายโอนรูปภาพได้</string>
     <string name="install">ติดตั้ง</string>
-    <string name="inter_connect_setting_unavailable_dialog_message">เปิดการตั้งค่า > การเชื่อมต่อระหว่างกัน เพื่อเปิดกล้องข้ามอุปกรณ์</string>
-    <string name="inter_connect_setting_unavailable_dialog_positive_button">รับทราบ</string>
-    <string name="inter_connect_setting_unavailable_dialog_title">กล้องข้ามอุปกรณ์</string>
     <string name="introduction_to_accessibility_message">"การเชื่อมต่อระหว่างกันช่วยให้คุณควบคุมและถ่ายโอนข้อมูลระหว่างอุปกรณ์ได้
 
 เปิดใช้คุณสมบัติการเข้าถึงเพื่อป้องกันไม่ให้แอปอื่นใช้ไมโครโฟนขณะใช้งานการเชื่อมต่อระหว่างกัน
@@ -1063,6 +1165,7 @@
     <string name="local_camera_device">อุปกรณ์นี้</string>
     <string name="local_device_camera">อุปกรณ์นี้</string>
     <string name="local_hotspot_opening">ปิดฮอตสปอตของอุปกรณ์นี้แล้วลองอีกครั้ง</string>
+    <string name="login_hint">ลงชื่อเข้าใช้บัญชี Xiaomi ของคุณ</string>
     <string name="material_clock_toggle_content_description">เลือก AM หรือ PM</string>
     <string name="material_hour_24h_suffix">%1$s ชั่วโมง</string>
     <string name="material_hour_selection">เลือกชั่วโมง</string>
@@ -1081,7 +1184,7 @@
     <string name="message_install">ติดตั้ง Mi Canvas เพื่อให้สามารถสเก็ตช์ภาพบนอุปกรณ์ต่างๆ ได้</string>
     <string name="message_update">อัปเดต Mi Canvas เพื่อให้สามารถสเก็ตช์ภาพบนอุปกรณ์ต่างๆ ได้</string>
     <string name="midnight">กลางคืน</string>
-    <string name="mihome_camera_device_during_calll">กล้องกำลังถูกใช้สำหรับการโทรแล้ว</string>
+    <string name="mihome_camera_device_during_call_normal">กล้องกำลังใช้งานอยู่ โปรดรอสักครู่แล้วลองใหม่อีกครั้ง</string>
     <string name="mihome_camera_device_not_available">ไม่สามารถเชื่อมต่ออุปกรณ์เพิ่มเติมได้</string>
     <string name="mihome_camera_device_offline">ไม่สามารถเชื่อมต่อได้ กล้องออฟไลน์</string>
     <string name="mihome_camera_device_sleep">ออกจากโหมดพักหน้าจอแล้วลองอีกครั้ง</string>
@@ -1124,6 +1227,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_title_empty">เลือกรายการ</string>
+    <string name="miuix_appcompat_action_sheet_default_message">เลือก</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">เพิ่มเติม</string>
     <string name="miuix_appcompat_cancel_description">ยกเลิก </string>
     <string name="miuix_appcompat_confirm_description">ยืนยัน</string>
@@ -1137,6 +1241,19 @@
     <string name="miuix_appcompat_select_all_description">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_item">เลือกรายการ</string>
     <string name="miuix_appcompat_show_dialog_description">หน้าต่างป๊อปอัป</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">ปัดลงเพื่อปิด</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">ปัดลงเพื่อสลับไปยังครึ่งหน้าจอ</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">ปัดลงเพื่อย่อเล็กสุด</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">ปัดขึ้นเพื่อสลับไปยังครึ่งหน้าจอ</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">ปัดขึ้นเพื่อขยายใหญ่สุด</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">ครึ่งหน้าจอ</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">ขยายใหญ่สุด</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">ย่อเล็กสุด</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">สลับไปยังครึ่งหน้าจอ</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">ขยายใหญ่สุด</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">ย่อเล็กสุด</string>
+    <string name="miuix_popup_show_description">หน้าต่างป๊อปอัป</string>
+    <string name="miuix_popup_window_default_title">หน้าต่างป๊อปอัป</string>
     <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">รีเฟรชสำเร็จแล้ว</string>
@@ -1149,6 +1266,13 @@
     <string name="miuix_show_password">แสดงรหัสผ่าน</string>
     <string name="miuix_stretchablewidget_collapsed">หุบ</string>
     <string name="miuix_stretchablewidget_expanded">ขยาย</string>
+    <string name="mj_home_device_empty">ไม่มีอุปกรณ์</string>
+    <string name="mj_module_card_name_curtain">ม่าน</string>
+    <string name="mj_module_card_name_env">สภาพแวดล้อม</string>
+    <string name="mj_module_card_name_light">แสงสว่าง</string>
+    <string name="mj_room_curtain_device_none">ม่านทั้งหมดปิดอยู่</string>
+    <string name="mj_room_light_device_none">ไฟทั้งหมดปิดอยู่</string>
+    <string name="mj_talkback_device_main_need_psd">ต้องใช้รหัสผ่าน</string>
     <string name="monday">วันจันทร์</string>
     <string name="monday_short">จันทร์</string>
     <string name="monday_shortest">จันทร์</string>
@@ -1195,8 +1319,17 @@
     <string name="mr_cast_button_connecting">แคสต์ กำลังเชื่อมต่อ</string>
     <string name="mr_cast_button_disconnected">แคสต์ เลิกเชื่อมต่อแล้ว</string>
     <string name="mr_cast_dialog_title_view_placeholder">ไม่มีข้อมูล</string>
+    <string name="mr_chooser_looking_for_devices">กำลังค้นหาอุปกรณ์...</string>
     <string name="mr_chooser_searching">กำลังค้นหาอุปกรณ์</string>
     <string name="mr_chooser_title">แคสต์ไปยัง</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">ดูข้อมูลเพิ่มเติม</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับรถคันนี้</string>
+    <string name="mr_chooser_wifi_warning_description_phone">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับโทรศัพท์เครื่องนี้</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับแท็บเล็ตเครื่องนี้</string>
+    <string name="mr_chooser_wifi_warning_description_tv">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับทีวีเครื่องนี้</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับอุปกรณ์เครื่องนี้</string>
+    <string name="mr_chooser_wifi_warning_description_watch">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับนาฬิกาเรือนนี้</string>
+    <string name="mr_chooser_zero_routes_found_title">ไม่มีอุปกรณ์ที่ใช้ได้</string>
     <string name="mr_controller_album_art">ปกอัลบั้ม</string>
     <string name="mr_controller_casting_screen">กำลังแคสต์หน้าจอ</string>
     <string name="mr_controller_close_description">ปิด</string>
@@ -1261,8 +1394,11 @@
     <string name="mtrl_picker_toggle_to_year_selection">แตะเพื่อเปลี่ยนเป็นมุมมองปี</string>
     <string name="mtrl_timepicker_cancel">ยกเลิก</string>
     <string name="mtrl_timepicker_confirm">ตกลง</string>
+    <string name="nearby_device">อุปกรณ์ทีพบ</string>
     <string name="nfc_connect_failed_toast">ไม่สามารถฉายภาพได้ โปรดลองอีกครั้ง</string>
     <string name="night">เย็น</string>
+    <string name="no_device">ยังไม่มีอะไรที่นี่</string>
+    <string name="no_device_enable_hint">ค้นหาอุปกรณ์ใกล้เคียงโดยอัตโนมัติและเชื่อมต่ออุปกรณ์เหล่านั้นเพื่อดำเนินการต่างๆ บนอุปกรณ์หลายเครื่อง</string>
     <string name="noon">เที่ยงวัน</string>
     <string name="normal_device_desc">อุปกรณ์ที่คุณเชื่อมต่อ แต่ไม่ได้ทำเครื่องหมายว่าเชื่อถือได้</string>
     <string name="normal_device_desc_limit">อุปกรณ์ที่คุณเชื่อมต่อ แต่ไม่ได้ทำเครื่องหมายว่าเชื่อถือได้</string>
@@ -1272,25 +1408,44 @@
     <string name="not_support_from_blacklist_toast">โหมดนี้ไม่รองรับการฉายภาพแอป</string>
     <string name="not_support_from_whitelist_toast">เปิดแอปเพื่อฉายภาพ</string>
     <string name="not_support_toast">แอปนี้ไม่รองรับการฉายภาพแอป</string>
+    <string name="not_support_toast_split_screen">การส่งภาพไปยังแอปอื่นไม่ได้รับการสนับสนุนในหน้าจอแยก</string>
     <string name="nothing_to_play">ไม่ได้เล่นอยู่</string>
+    <string name="noti_device_off">ปิด</string>
+    <string name="noti_device_on">เปิด</string>
     <string name="notification_cast_desc">กำลังฉายภาพ…</string>
     <string name="notification_channel_description">เลือกประเภทการแจ้งเตือนที่จะซิงค์จากอุปกรณ์อื่นไปยังอุปกรณ์ Xiaomi ของคุณ</string>
+    <string name="notification_channel_description_2">จัดการการตั้งค่าการแจ้งเตือน</string>
     <string name="notification_channel_subtitle_ref_call">โทรจาก iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">โทรจาก %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">ข้อความ Lark จาก %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">สายเรียกเข้าบน %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">การแจ้งเตือน DingTalk บน %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">การแจ้งเตือน Lark บน %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">ข้อความ QQ จาก iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">ข้อความ QQ จาก %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">การแจ้งเตือน QQ บน %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">ข้อความจาก iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">ข้อความจาก %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS บน %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">การแจ้งเตือน WeCom บน %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">ข้อความ WeChat จาก iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">ข้อความ WeChat จาก %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">การแจ้งเตือน WeChat บน %1$s</string>
     <string name="notification_channel_title_name">การแจ้งเตือนที่ซิงค์กับอุปกรณ์ Xiaomi</string>
+    <string name="notification_channel_title_name_2">การแจ้งเตือนจากอุปกรณ์อื่นๆ</string>
+    <string name="notification_copy">คัดลอก</string>
     <string name="notification_desc_scanning">กำลังค้นหาอุปกรณ์ใกล้เคียง…</string>
     <string name="notification_incoming_call_to_reply">สายเรียกเข้า รับสายบน %1$s</string>
+    <string name="notification_permission_accept">อนุญาต</string>
+    <string name="notification_permission_client_content">อนุญาตให้อุปกรณ์นี้ได้รับสิทธิ์การแจ้งเตือนบน %1$s ของคุณ</string>
+    <string name="notification_permission_client_title">ให้สิทธิ์บน %1$s</string>
     <string name="notification_permission_content">อนุญาตให้มีการแจ้งเตือนอุปกรณ์นี้บน iPhone ทุกเครื่องที่มี การเชื่อมต่อระหว่างกัน ติดตั้งอยู่และลงชื่อเข้าใช้บัญชีของคุณ</string>
+    <string name="notification_permission_content_v2">อนุญาตให้แสดงการโทร ข้อความ SMS และการแจ้งเตือนแอปของอุปกรณ์นี้บน %1$s ของคุณหรือไม่?</string>
+    <string name="notification_permission_deny">ไม่อนุญาต</string>
     <string name="notification_permission_new_content">อนุญาตให้การโทร ข้อความ และการแจ้งเตือนแอปจากอุปกรณ์นี้แสดงบน iPhone ที่เปิดการแจ้งเตือนการซิงค์ หรืออุปกรณ์ Xiaomi ที่เปิดการแจ้งเตือนข้ามอุปกรณ์</string>
+    <string name="notification_permission_request_content">ปลดล็อกเพื่ออนุญาตการเข้าถึง</string>
+    <string name="notification_permission_request_title">อนุญาตการเข้าถึงการแจ้งเตือนสำหรับ %1$s</string>
+    <string name="notification_permission_title">อนุญาตสิทธิ์การแจ้งเตือนไปยัง %1$s</string>
     <string name="notification_rc_title">ผู้ช่วย XiaoMi TV</string>
     <string name="notification_revice_phone">การแจ้งเตือนจาก %1$s</string>
+    <string name="notification_send_page_pad_disabled">อนุญาตการแจ้งเตือนแอปบนอุปกรณ์ %1$s ของคุณใน การตั้งค่า > การเชื่อมต่อระหว่างกัน > การแจ้งเตือนข้ามอุปกรณ์</string>
+    <string name="notification_send_page_pad_offline">ตรวจสอบให้แน่ใจว่า %1$s ได้ลงชื่อเข้าใช้บัญชี Xiaomi เดียวกันและเชื่อมต่อกับเครือข่ายเดียวกันกับอุปกรณ์นี้แล้ว และอนุญาตการแจ้งเตือนแอปใน การตั้งค่า > การเชื่อมต่อระหว่างกัน > การแจ้งเตือนข้ามอุปกรณ์</string>
+    <string name="notification_send_page_title">ซิงค์การแจ้งเตือนของอุปกรณ์นี้กับ %1$s</string>
     <string name="notification_show_more">แตะเพื่อดูคุณสมบัติเพิ่มเติม</string>
     <string name="notification_support_applist">แอปที่รองรับ</string>
     <string name="notify_wifiap_dialog_msg">หากต้องการสแกนโค้ดและกำหนดค่าเครือข่าย ให้ปิดฮอตสปอตแบบพกพาก่อน</string>
@@ -1313,6 +1468,7 @@
     <string name="open_wlan_self_china">เปิด WLAN เพื่อให้สามารถใช้คุณสมบัติการเชื่อมต่อระหว่างกัน เปิดตอนนี้?</string>
     <string name="open_wlan_self_toast">เปิด Wi-Fi และลองอีกครั้ง</string>
     <string name="open_wlan_self_toast_china">เปิด WLAN และลองอีกครั้ง</string>
+    <string name="operation_open_close">เปิด/ปิด</string>
     <string name="paipai_connect_btn_text">เสร็จสิ้น</string>
     <string name="paipai_connect_tv1_text">เชื่อมต่ออุปกรณ์</string>
     <string name="paipai_connect_tv2_text">ถ่ายโอนข้อมูล</string>
@@ -1376,7 +1532,7 @@
     <string name="passport_error_length_limit">ข้อความที่คุณป้อนยาวเกินไป</string>
     <string name="passport_error_network">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
     <string name="passport_error_no_password_user">คุณยังไม่ได้ตั้งรหัสผ่าน ลงชื่อเข้าใช้ด้วย SMS</string>
-    <string name="passport_error_phone">หมายเลขโทรศัพท์ไม่ถูกต้อง</string>
+    <string name="passport_error_phone">ป้อนหมายเลขโทรศัพท์ที่ถูกต้อง</string>
     <string name="passport_error_server">เซิร์ฟเวอร์ขัดข้อง</string>
     <string name="passport_error_sms_limit">มีการส่งรหัสยืนยันไปยังหมายเลขนี้มากเกินไป ลองอีกครั้งในภายหลัง</string>
     <string name="passport_error_ticket_invalid">รหัสนี้ไม่ถูกต้อง</string>
@@ -1490,9 +1646,12 @@
     <string name="path_setting_cast_feature">ตัวเลือกการเชื่อมต่อเพิ่มเติม/ฉายภาพ/คุณสมบัติพิเศษ</string>
     <string name="path_setting_cast_help">ตัวเลือกการเชื่อมต่อเพิ่มเติม/ฉายภาพ/ช่วยเหลือ</string>
     <string name="permission_allowed">ยินยอมแล้ว</string>
+    <string name="permission_label_access_app_meta">เข้าถึงข้อมูลแอปเมื่อใช้งานแอปบนอุปกรณ์ต่างๆ</string>
     <string name="permission_uballowed">ไม่ได้รับการยินยอม</string>
     <string name="picker_view_description">กล้องข้ามอุปกรณ์ คุณสามารถแตะภายในการ์ดเพื่อเลือกกล้องบนอุปกรณ์ใกล้เคียง</string>
     <string name="picker_view_outside_description">แตะเพื่อปิดการ์ดนี้</string>
+    <string name="pin_device_header">อุปกรณ์ที่ปักหมุดไว้</string>
+    <string name="pin_hint">PIN</string>
     <string name="pm">PM</string>
     <string name="pre_privacy_setting_title">ความเป็นส่วนตัว</string>
     <string name="preference_copied">คัดลอก \"%1$s\" ไปยังคลิปบอร์ดแล้ว</string>
@@ -1604,6 +1763,7 @@
     <string name="screen_projection">ฉายภาพ</string>
     <string name="screen_projection_characteristics">คุณลักษณะพิเศษ</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">คุณสามารถสลับไปใช้การส่งแอปใน Xiaomi HyperIsland เพื่อส่งแอปปัจจุบันไปยังจอภาพภายนอกในขณะที่ใช้แอปอื่นบนโทรศัพท์ของคุณได้</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">คุณสามารถสลับไปใช้การส่งแอปใน Xiaomi HyperIsland เพื่อส่งแอปปัจจุบันไปยังจอภาพภายนอกในขณะที่ใช้แอปอื่นบนแท็บเล็ตของคุณได้</string>
     <string name="screen_projection_characteristics_cast_summary">ส่งเนื้อหาหน้าจอไปยังทีวีใกล้เคียง</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">ปิดหน้าจออุปกรณ์เคลื่อนที่ขณะฉายภาพเพื่อประหยัดแบตเตอรี่และหลีกเลี่ยงความร้อนสูงเกินไป</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">ปิดหน้าจอขณะแคสต์เพื่อลดการใช้พลังงานและความร้อนสูงเกินไป</string>
@@ -1675,6 +1835,7 @@
     <string name="small_window_not_supported">ไม่สามารถย่อขนาดแอปนี้ได้ในขณะที่กำลังฉายภาพ</string>
     <string name="sound_card_circulatable_control_text">การควบคุมการเล่น</string>
     <string name="sound_card_circulatable_source_text">แหล่งที่มาของเสียง</string>
+    <string name="start_btn">เปิดใช้งาน</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">ระบบใช้งานกล้องแว่นตาอยู่ กรุณาลองใหม่ภายหลัง</string>
     <string name="start_forbidden_by_glasses_in_audio_record">กำลังบันทึกเสียง เปิดกล้องไม่ได้</string>
     <string name="start_forbidden_by_glasses_in_translation">กำลังแปล เปิดกล้องไม่ได้</string>
@@ -1781,21 +1942,25 @@
     <string name="title_connection_interrupted">ถูกตัดการเชื่อมต่อ</string>
     <string name="title_install">ติดตั้ง Mi Canvas</string>
     <string name="title_update">อัปเดต Mi Canvas</string>
+    <string name="to_login">ลงชื่อเข้าใช้</string>
     <string name="toast_confirm_network">ไม่สามารถตั้งค่าให้เสร็จสมบูรณ์ได้ โปรดตรวจสอบให้แน่ใจว่าอุปกรณ์นี้เชื่อมต่อกับเครือข่ายแล้ว</string>
     <string name="toast_copy_auth_message_finish">คัดลอกสำเร็จ</string>
     <string name="toast_guide_show_more">เรียนรู้เพิ่มเติม</string>
     <string name="toast_guide_title">สำรวจคุณสมบัติใหม่ของเราที่นี่</string>
     <string name="toast_invisible_mode">คุณอยู่ในโหมดไม่ระบุตัวตน ไม่สามารถฉายภาพได้ในขณะนี้</string>
     <string name="toast_invisible_mode1">การฉายภาพจะไม่ทำงานเมื่อคุณไม่ระบุตัวตน</string>
+    <string name="toast_local_not_install">ไม่ได้ติดตั้งแอปนี้</string>
     <string name="toast_msg_for_multi_window">ไม่สามารถใช้คุณลักษณะนี้กับหน้าจอแยก</string>
     <string name="toast_msg_for_small_window">คุณสามารถย่อขนาดหน้าต่างที่กำลังฉายภาพเพื่อให้สามารถใช้คุณสมบัติอื่นๆ ของโทรศัพท์ของคุณได้โดยไม่รบกวนกระบวนการส่งสัญญาณ</string>
     <string name="toast_nfc_dont_move">ห้ามขยับโทรศัพท์ออก</string>
     <string name="toast_nfc_same_wifi">เชื่อมต่อทั้งทีวีและอุปกรณ์นี้เข้ากับเครือข่ายเดียวกัน</string>
+    <string name="toast_notification_device_not_found">ตรวจสอบให้แน่ใจว่า %1$s ได้ลงชื่อเข้าใช้บัญชี Xiaomi เดียวกันกับอุปกรณ์นี้แล้ว</string>
     <string name="toast_remote_not_install">แอปนี้ไม่ได้ติดตั้งบน %1$s ของคุณ</string>
     <string name="toast_retry">รอจนกว่าการตั้งค่าจะถูกนำไปใช้ แล้วลองใหม่อีกครั้ง</string>
     <string name="toast_synchronization">กำลังตรวจสอบสถานะอุปกรณ์ โปรดลองอีกครั้งภายหลัง</string>
     <string name="toast_title_for_small_window">เลือก \"ย่อขนาดหน้าต่าง\" ในแอป</string>
     <string name="toast_turn_off_hotspot_before_cast">ปิดฮอตสปอตแบบพกพาก่อนที่จะฉายภาพ</string>
+    <string name="toast_watch_app_not_install">ติดตั้งแอปนี้แล้วลองใหม่อีกครั้ง</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>
     <string name="trust_device_desc">อุปกรณ์เหล่านี้จะปรากฏที่นี่ก่อนเมื่ออยู่ใกล้ๆ</string>
@@ -1810,6 +1975,7 @@
     <string name="tuesday_shortest">อังคาร</string>
     <string name="unlock_screen_to_authorize_camera">%s ต้องการใช้กล้องของอุปกรณ์นี้</string>
     <string name="unlock_screen_to_authorize_camera_car">%s กำลังเข้าถึงกล้องของอุปกรณ์นี้</string>
+    <string name="unpin_hint">เลิกปักหมุด</string>
     <string name="update">อัปเดต</string>
     <string name="upgrade_accessibility_cancel_download">ยกเลิกการดาวน์โหลดแล้ว</string>
     <string name="upgrade_accessibility_finish_all_upgrade">อัปเดตเรียบร้อยแล้ว เวอร์ชันปัจจุบันเป็นเวอร์ชันล่าสุด</string>
@@ -1860,12 +2026,43 @@
     <string name="using_camera_of_device_description">ใช้กล้องของ %1$s</string>
     <string name="v7_preference_off">ปิด</string>
     <string name="v7_preference_on">เปิด</string>
+    <string name="verification_code_flow_title">รหัสยืนยัน %1$s</string>
+    <string name="verification_code_list_title">รหัส</string>
+    <string name="watch_app_12306">ทางรถไฟ 12306</string>
+    <string name="watch_app_amap">Amap</string>
+    <string name="watch_app_baidu_map">แผนที่ Baidu</string>
+    <string name="watch_app_category_title">แอปที่รองรับ</string>
+    <string name="watch_app_didi">DiDi</string>
+    <string name="watch_app_hanglv">Umetrip</string>
+    <string name="watch_app_jd">JD</string>
+    <string name="watch_app_meituan">Meituan</string>
+    <string name="watch_app_meituan_waimai">Meituan Delivery</string>
+    <string name="watch_app_taobao">Taobao</string>
+    <string name="watch_app_taobao_flash">Taobao Shangou</string>
+    <string name="watch_call_sync_desc">รับสายที่โอนมาจากอุปกรณ์นี้</string>
+    <string name="watch_call_sync_title">การโทร</string>
+    <string name="watch_dynamic_island_desc">ซิงค์ข้อมูลแบบเรียลไทม์สำหรับการเดินทาง การนำทาง การสั่งอาหาร และอื่นๆ</string>
+    <string name="watch_dynamic_island_page_title">ซิงค์การแจ้งเตือนจาก Xiaomi HyperIsland ไปยัง Apple Watch</string>
+    <string name="watch_dynamic_island_title">Xiaomi HyperIsland</string>
+    <string name="watch_header_title">Apple Watch</string>
+    <string name="watch_health_data_desc">ซิงค์ข้อมูลการออกกำลังกายและสุขภาพจาก Apple Watch ไปยัง Mi Fitness</string>
+    <string name="watch_health_data_title">ข้อมูลสุขภาพ</string>
     <string name="watch_more_setting">ตัวเลือกเพิ่มเติม</string>
+    <string name="watch_notification_sync_desc">ซิงค์การแจ้งเตือนจากอุปกรณ์นี้</string>
+    <string name="watch_notification_sync_page_title">ซิงค์การแจ้งเตือนของอุปกรณ์นี้กับ Apple Watch</string>
+    <string name="watch_notification_sync_title">การแจ้งเตือน</string>
+    <string name="watch_page_description">"รับสาย ข้อความ การแจ้งเตือน และข้อมูลแบบเรียลไทม์จาก Xiaomi HyperIsland บน Apple Watch นอกจากนี้ยังสามารถซิงค์ข้อมูลการออกกำลังกายและสุขภาพจาก Apple Watch ไปยัง Mi Fitness ได้อีกด้วย
+* โปรดเปิดใช้งานสิทธิ์ที่จำเป็นเพื่อใช้คุณสมบัติการเชื่อมต่อระหว่างกันอย่างเต็มรูปแบบ"</string>
+    <string name="watch_page_description_global">"รับสาย ข้อความ และการแจ้งเตือนจากอุปกรณ์นี้บน Apple Watch
+* เปิดใช้งานสิทธิ์ที่จำเป็นเพื่อใช้คุณสมบัติการการเชื่อมต่อระหว่างกันทั้งหมด"</string>
+    <string name="watch_status_enabled">เปิด</string>
+    <string name="watch_status_not_enabled">ปิด</string>
     <string name="wednesday">วันพุธ</string>
     <string name="wednesday_short">พุธ</string>
     <string name="wednesday_shortest">พุธ</string>
     <string name="wifi_connect_btn_text">กำหนดค่า</string>
-    <string name="wifi_disabled_dialog_message">เปิด WLAN บนอุปกรณ์ของคุณเพื่อให้สามารถใช้กล้องข้ามอุปกรณ์ได้</string>
+    <string name="wifi_disabled_dialog_message_china">เปิดใช้งาน WLAN เพื่อให้สามารถใช้งานกล้องข้ามอุปกรณ์ได้</string>
+    <string name="wifi_disabled_dialog_message_gl">เปิดใช้งาน Wi-Fi เพื่อให้สามารถใช้กล้องข้ามอุปกรณ์ได้</string>
     <string name="wifi_disabled_dialog_positive_button">รับทราบ</string>
     <string name="wifi_disabled_dialog_title">กล้องข้ามอุปกรณ์</string>
     <string name="wifi_other">เครือข่ายอื่น</string>
@@ -1875,5 +2072,23 @@
     <string name="wifi_username_et_hint">รหัสบัญชี</string>
     <string name="window_card_ml_find_null">อุปกรณ์นี้อาจไม่ได้อยู่ใกล้ๆ</string>
     <string name="window_card_ml_find_null_camera">ไม่พบกล้องหรืออุปกรณ์ที่ใช้งานได้ในบริเวณใกล้เคียง</string>
+    <string name="window_card_pin_device_offline_group_cancel">การเล่นเพลงทั่วทั้งบ้านถูกยกเลิก</string>
+    <string name="window_card_pin_device_offline_no_connection">ถอดอุปกรณ์ออกแล้ว</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_car">โปรดตรวจสอบให้แน่ใจว่ายานพาหนะของคุณเชื่อมต่อกับอุปกรณ์นี้ผ่านบลูทูธแล้วและกำลังใช้งานอยู่</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_device">โปรดตรวจสอบให้แน่ใจว่าอุปกรณ์บลูทูธของคุณเชื่อมต่อกับอุปกรณ์นี้แล้วและกำลังใช้งานอยู่</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_glasses">โปรดตรวจสอบให้แน่ใจว่าแว่นตาของคุณเชื่อมต่อกับอุปกรณ์นี้ผ่านบลูทูธแล้วและกำลังใช้งานอยู่</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_headset">โปรดตรวจสอบให้แน่ใจว่าหูฟังของคุณเชื่อมต่อกับอุปกรณ์นี้ผ่านบลูทูธแล้วและกำลังใช้งานอยู่</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_sound">โปรดตรวจสอบให้แน่ใจว่าลำโพงของคุณเชื่อมต่อกับอุปกรณ์นี้ผ่านบลูทูธแล้วและกำลังใช้งานอยู่</string>
+    <string name="window_card_pin_device_offline_subtitle_car">"1. ตรวจสอบให้แน่ใจว่าอุปกรณ์นี้เชื่อมต่อกับฮอตสปอตของรถยนต์แล้ว
+2. คุณสามารถลงชื่อเข้าใช้บัญชี Xiaomi เดียวกันบนอุปกรณ์ทั้งสองได้ คุณสามารถเชื่อมต่ออุปกรณ์ทั้งสองได้ใน การตั้งค่า > การเชื่อมต่อ > การเชื่อมต่อระหว่างกัน ในรถยนต์ของคุณ"</string>
+    <string name="window_card_pin_device_offline_subtitle_group">ตรวจสอบให้แน่ใจว่าได้เลือกอุปกรณ์หลายเครื่องใน Xiaomi Smart Play แล้ว</string>
+    <string name="window_card_pin_device_offline_subtitle_pad">ตรวจสอบให้แน่ใจว่าอุปกรณ์ทั้งสองอยู่ใกล้กันและเปิดใช้งานบลูทูธแล้ว</string>
+    <string name="window_card_pin_device_offline_subtitle_pad_car">โปรดตรวจสอบให้แน่ใจว่าอุปกรณ์นี้เชื่อมต่อกับฮอตสปอตของรถยนต์แล้ว</string>
+    <string name="window_card_pin_device_offline_subtitle_pc">ตรวจสอบให้แน่ใจว่าอุปกรณ์ทั้งสองอยู่ใกล้กันและเปิดใช้งานบลูทูธแล้ว</string>
+    <string name="window_card_pin_device_offline_subtitle_phone">ตรวจสอบให้แน่ใจว่าอุปกรณ์ทั้งสองอยู่ใกล้กัน ลงชื่อเข้าใช้บัญชี Xiaomi เดียวกัน และเปิด บลูทูธ ไว้</string>
+    <string name="window_card_pin_device_offline_subtitle_sound">ตรวจสอบให้แน่ใจว่าอุปกรณ์ทั้งสองเชื่อมต่ออยู่กับเครือข่าย LAN เดียวกัน</string>
+    <string name="window_card_pin_device_offline_subtitle_third_tv">ตรวจสอบให้แน่ใจว่าอุปกรณ์นี้เชื่อมต่ออยู่กับทีวีของคุณแล้ว</string>
+    <string name="window_card_pin_device_offline_subtitle_tv">ตรวจสอบให้แน่ใจว่าอุปกรณ์ทั้งสองเชื่อมต่ออยู่กับเครือข่าย LAN เดียวกัน</string>
+    <string name="window_card_pin_device_offline_subtitle_watch">ตรวจสอบให้แน่ใจว่านาฬิกาหรือสายรัดข้อมือเชื่อมต่อกับแอป Mi Fitness แล้ว</string>
     <string name="yesterday">เมื่อวาน</string>
 </resources>

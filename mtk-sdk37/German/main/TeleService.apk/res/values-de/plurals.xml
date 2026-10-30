@@ -40,6 +40,14 @@
         <item quantity="one">Verzögerung: %d Sekunde</item>
         <item quantity="other">Verzögerung: %d Sekunden</item>
     </plurals>
+    <plurals name="beidou_receiving">
+        <item quantity="one">Empfangen (%d Sek.)</item>
+        <item quantity="other">Empfangen (%d Sek.)</item>
+    </plurals>
+    <plurals name="beidou_sending">
+        <item quantity="one">Senden (%d Sek.)</item>
+        <item quantity="other">Senden (%d Sek.)</item>
+    </plurals>
     <plurals name="call_record_add_white_list_over_reminder">
         <item quantity="one">Es kann %s Person hinzugefügt werden, erneut auswählen.</item>
         <item quantity="other">Es können bis zu %s Personen hinzugefügt werden, erneut auswählen.</item>
@@ -84,10 +92,6 @@
         <item quantity="one">Gerade eben</item>
         <item quantity="other">Gerade eben</item>
     </plurals>
-    <plurals name="miuix_appcompat_items_selected">
-        <item quantity="one">%d ausgesuchtes Element</item>
-        <item quantity="other">%d ausgesuchte Elemente</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="one">Vor 1 Minute</item>
         <item quantity="other">Vor %d Minuten</item>
@@ -97,5 +101,21 @@
 %d verbleibender Versuch."</item>
         <item quantity="other">"
 %d verbleibende Versuche."</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">%d ausgesuchtes Element</item>
+        <item quantity="other">%d ausgesuchte Elemente</item>
+    </plurals>
+    <plurals name="satellite_low_battery_turn_off_message">
+        <item quantity="one">Akku ist schwach. Die Tiantong-Satellitenkommunikation wird in %d Sek. ausgeschaltet.</item>
+        <item quantity="other">Akku ist schwach. Die Tiantong-Satellitenkommunikation wird in %d Sek. ausgeschaltet.</item>
+    </plurals>
+    <plurals name="satellite_pa_megathermal_turn_off_message">
+        <item quantity="one">Das Gerät ist überhitzt. Die Satellitenkommunikation wird in %d Sekunde abgeschaltet.</item>
+        <item quantity="other">Das Gerät ist überhitzt. Die Satellitenkommunikation wird in %d Sekunden abgeschaltet.</item>
+    </plurals>
+    <plurals name="satellite_privacy_withdrawal_dialog_disable_negative">
+        <item quantity="one">Dienste kündigen (%ds)</item>
+        <item quantity="other">Dienste kündigen (%ds)</item>
     </plurals>
 </resources>

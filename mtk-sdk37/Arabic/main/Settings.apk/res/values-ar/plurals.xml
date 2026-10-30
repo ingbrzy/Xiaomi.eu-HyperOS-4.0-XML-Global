@@ -99,7 +99,7 @@
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="zero">عدم التعطيل ابداً لـ %d تطبيق</item>
         <item quantity="one">عدم التعطيل ابدا لـ %d تطبيق</item>
-        <item quantity="two">عدم التعطيل ابدا لـ %d تطبيقات</item>
+        <item quantity="two">عدم التعطيل ابداً لـ %d تطبيقات</item>
         <item quantity="few">عدم التعطيل ابداً لـ %d تطبيقات</item>
         <item quantity="many">عدم التعطيل ابداً لـ %d تطبيق</item>
         <item quantity="other">عدم التعطيل ابداً لـ %d تطبيق</item>
@@ -157,8 +157,8 @@
         <item quantity="one">%d جهاز</item>
         <item quantity="two">%d أجهزة</item>
         <item quantity="few">%d أجهزة</item>
-        <item quantity="many">%d أجهزة</item>
-        <item quantity="other">%d أجهزة</item>
+        <item quantity="many">%d جهاز</item>
+        <item quantity="other">%d جهاز</item>
     </plurals>
     <plurals name="enter_digit_password_max_length">
         <item quantity="zero">يمكنك إدخال ما يصل إلى %1$d رقم</item>
@@ -171,8 +171,8 @@
     <plurals name="enter_digit_password_min_length">
         <item quantity="zero">أدخل على الأقل %1$d رقم</item>
         <item quantity="one">أدخل %1$d رقم على الأقل</item>
-        <item quantity="two">أدخل على الأقل %1$d رقم</item>
-        <item quantity="few">أدخل على الأقل %1$d رقم</item>
+        <item quantity="two">أدخل على الأقل %1$d أرقام</item>
+        <item quantity="few">أدخل على الأقل %1$d أرقام</item>
         <item quantity="many">أدخل على الأقل %1$d رقم</item>
         <item quantity="other">أدخل على الأقل %1$d رقم</item>
     </plurals>
@@ -187,8 +187,8 @@
     <plurals name="enter_mix_password_min_chars">
         <item quantity="zero">أدخل %1$d حرف على الأقل</item>
         <item quantity="one">أدخل %1$d حرف على الأقل</item>
-        <item quantity="two">أدخل %1$d حرف على الأقل</item>
-        <item quantity="few">أدخل %1$d حرف على الأقل</item>
+        <item quantity="two">أدخل %1$d أحرف على الأقل</item>
+        <item quantity="few">أدخل %1$d أحرف على الأقل</item>
         <item quantity="many">أدخل %1$d حرف على الأقل</item>
         <item quantity="other">أدخل %1$d حرف على الأقل</item>
     </plurals>
@@ -214,7 +214,7 @@
         <item quantity="two">%1$d أشخاص متصلين</item>
         <item quantity="few">%1$d أشخاص متصلين</item>
         <item quantity="many">%1$d شخص متصل</item>
-        <item quantity="other">%1$d شخص منصل</item>
+        <item quantity="other">%1$d شخص متصل</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="zero">منذ نصف ساعة</item>
@@ -283,8 +283,8 @@
     <plurals name="lockpassword_password_too_short">
         <item quantity="zero">أدخل %d حرف على الأقل</item>
         <item quantity="one">أدخل %d حرف على الأقل</item>
-        <item quantity="two">أدخل %d حرفين على الأقل</item>
-        <item quantity="few">أدخل %d حروف على الأقل</item>
+        <item quantity="two">أدخل %d أحرف على الأقل</item>
+        <item quantity="few">أدخل %d أحرف على الأقل</item>
         <item quantity="many">أدخل %d حرف على الأقل</item>
         <item quantity="other">أدخل %d حرف على الأقل</item>
     </plurals>
@@ -315,7 +315,7 @@
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="zero">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
         <item quantity="one">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
-        <item quantity="two">قم بتوصيل %d نقطتين على الاقل. حاول مجدداً.</item>
+        <item quantity="two">قم بتوصيل %d نقاط على الاقل. حاول مجدداً.</item>
         <item quantity="few">قم بتوصيل %d نقاط على الاقل. حاول مجدداً.</item>
         <item quantity="many">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
         <item quantity="other">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
@@ -345,12 +345,12 @@
         <item quantity="other">\"%1$s\" و\"%2$s\"</item>
     </plurals>
     <plurals name="max_number_of_processes">
-        <item quantity="zero">%d عمليات كحد أقصى</item>
+        <item quantity="zero">%d عملية كحد أقصى</item>
         <item quantity="one">%d عملية كحد أقصى</item>
         <item quantity="two">%d عمليات كحد أقصى</item>
         <item quantity="few">%d عمليات كحد أقصى</item>
-        <item quantity="many">%d عمليات كحد أقصى</item>
-        <item quantity="other">%d عمليات كحد أقصى</item>
+        <item quantity="many">%d عملية كحد أقصى</item>
+        <item quantity="other">%d عملية كحد أقصى</item>
     </plurals>
     <plurals name="miui_sos_emergency_contacts_quantity">
         <item quantity="zero">%d مضاف</item>
@@ -416,6 +416,14 @@
         <item quantity="many">منذ %d دق</item>
         <item quantity="other">منذ %d دق</item>
     </plurals>
+    <plurals name="pluto_switch_headset_anti_lost_with_fall_summary">
+        <item quantity="zero">احصل على تذكير إذا سقطت سماعات الأذن الخاصة بك، أو إذا لم تكن ترتديها وكانت خارج العلبة لأكثر من %d دقيقة</item>
+        <item quantity="one">احصل على تذكير إذا سقطت سماعات الأذن الخاصة بك، أو إذا لم تكن ترتديها وكانت خارج العلبة لأكثر من %d دقيقة</item>
+        <item quantity="two">احصل على تذكير إذا سقطت سماعات الأذن الخاصة بك، أو إذا لم تكن ترتديها وكانت خارج العلبة لأكثر من %d دقائق</item>
+        <item quantity="few">احصل على تذكير إذا سقطت سماعات الأذن الخاصة بك، أو إذا لم تكن ترتديها وكانت خارج العلبة لأكثر من %d دقائق</item>
+        <item quantity="many">احصل على تذكير إذا سقطت سماعات الأذن الخاصة بك، أو إذا لم تكن ترتديها وكانت خارج العلبة لأكثر من %d دقيقة</item>
+        <item quantity="other">احصل على تذكير إذا سقطت سماعات الأذن الخاصة بك، أو إذا لم تكن ترتديها وكانت خارج العلبة لأكثر من %d دقيقة</item>
+    </plurals>
     <plurals name="remaining_attempts_message">
         <item quantity="zero">%1$d محاولة متبقية</item>
         <item quantity="one">%1$d محاولة متبقية</item>
@@ -423,6 +431,22 @@
         <item quantity="few">%1$d محاولات متبقية</item>
         <item quantity="many">%1$d محاولة متبقية</item>
         <item quantity="other">%1$d محاولة متبقية</item>
+    </plurals>
+    <plurals name="rp_time_hours">
+        <item quantity="zero">%d س</item>
+        <item quantity="one">%d س</item>
+        <item quantity="two">%d س</item>
+        <item quantity="few">%d س</item>
+        <item quantity="many">%d س</item>
+        <item quantity="other">%d س</item>
+    </plurals>
+    <plurals name="rp_time_minutes">
+        <item quantity="zero">%d دق</item>
+        <item quantity="one">%d دق</item>
+        <item quantity="two">%d دق</item>
+        <item quantity="few">%d دق</item>
+        <item quantity="many">%d دق</item>
+        <item quantity="other">%d دق</item>
     </plurals>
     <plurals name="saved_network_checked_num">
         <item quantity="zero">تم تحديد %d عنصر</item>

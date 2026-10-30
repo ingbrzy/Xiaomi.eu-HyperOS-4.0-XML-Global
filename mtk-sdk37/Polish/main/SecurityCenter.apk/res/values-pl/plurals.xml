@@ -60,6 +60,12 @@
         <item quantity="many">Dodano %d aplikacji</item>
         <item quantity="other">Dodano %d aplikacji</item>
     </plurals>
+    <plurals name="anti_peeping_recommend_selected_tips">
+        <item quantity="one">Szybko włącz prywatne wyświetlanie dla %1$d aplikacji</item>
+        <item quantity="few">Szybko włącz prywatne wyświetlanie dla %1$d aplikacji</item>
+        <item quantity="many">Szybko włącz prywatne wyświetlanie dla %1$d aplikacji</item>
+        <item quantity="other">Szybko włącz prywatne wyświetlanie dla %1$d aplikacji</item>
+    </plurals>
     <plurals name="app_behavior_dashboard_title_desc">
         <item quantity="one">%d aplikacja</item>
         <item quantity="few">%d aplikacje</item>
@@ -92,8 +98,8 @@
     </plurals>
     <plurals name="app_behavior_record_close_content_text">
         <item quantity="one">Zapisy o zachowaniu aplikacji będą przechowywane na Tym urządzeniu przez %d dzień. Wyłączenie tej funkcji spowoduje usunięcię wszystkich zapisów i nie jest rekomendowane.</item>
-        <item quantity="few">Zapisy o zachowaniu aplikacji będą przechowywane na Tym urządzeniu przez %d dni. Wyłączenie tej funkcji spowoduje usunięcię wszystkich zapisów i nie jest rekomendowane.</item>
-        <item quantity="many">Zapisy o zachowaniu aplikacji będą przechowywane na Tym urządzeniu przez %d dni. Wyłączenie tej funkcji spowoduje usunięcię wszystkich zapisów i nie jest rekomendowane.</item>
+        <item quantity="few">Zapisy o zachowaniu aplikacji będą przechowywane na Tym urządzeniu przez %d dnia. Wyłączenie tej funkcji spowoduje usunięcię wszystkich zapisów i nie jest rekomendowane.</item>
+        <item quantity="many">Zapisy o zachowaniu aplikacji będą przechowywane na Tym urządzeniu przez %d dnia. Wyłączenie tej funkcji spowoduje usunięcię wszystkich zapisów i nie jest rekomendowane.</item>
         <item quantity="other">Zapisy o zachowaniu aplikacji będą przechowywane na Tym urządzeniu przez %d dnia. Wyłączenie tej funkcji spowoduje usunięcię wszystkich zapisów i nie jest rekomendowane.</item>
     </plurals>
     <plurals name="app_manager_permission_summary_accept">
@@ -161,6 +167,12 @@
         <item quantity="few">%s aplikacje będą chronione przez Blokowanie aplikacji</item>
         <item quantity="many">%s aplikacji będzie chronionych przez Blokowanie aplikacji</item>
         <item quantity="other">%s aplikacji będzie chronionych przez Blokowanie aplikacji</item>
+    </plurals>
+    <plurals name="background_virus_scan_notification_title">
+        <item quantity="one">Wykryto %d złośliwą aplikację</item>
+        <item quantity="few">Wykryto %d złośliwe aplikacje</item>
+        <item quantity="many">Wykryto %d złośliwych aplikacji</item>
+        <item quantity="other">Wykryto %d złośliwej aplikacji</item>
     </plurals>
     <plurals name="behavior_widget_app_text">
         <item quantity="one">%2$d aplikacja, w tym %1$s</item>
@@ -656,6 +668,12 @@ Możesz teraz uzyskać %d-dniowy bezpłatny okres próbny!"</item>
         <item quantity="many">Dodano %d gier</item>
         <item quantity="other">Dodano %d gier</item>
     </plurals>
+    <plurals name="intercept_accessibility_virus_notifiction_title">
+        <item quantity="one">Zablokowano %d złośliwą aplikację</item>
+        <item quantity="few">Zablokowano %d złośliwe aplikacje</item>
+        <item quantity="many">Zablokowano %d złośliwych aplikacji</item>
+        <item quantity="other">Zablokowano %d złośliwej aplikacji</item>
+    </plurals>
     <plurals name="intl_perm_privacy_control_message_count">
         <item quantity="one">Możesz chronić %d element</item>
         <item quantity="few">Możesz chronić %d elementy</item>
@@ -884,12 +902,6 @@ Możesz teraz uzyskać %d-dniowy bezpłatny okres próbny!"</item>
         <item quantity="many">%d aplikacji</item>
         <item quantity="other">%d aplikacji</item>
     </plurals>
-    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
-        <item quantity="one">%2$d aplikacja w tym %1$s może być złośliwa</item>
-        <item quantity="few">%2$d aplikacje w tym %1$s mogą być złośliwe</item>
-        <item quantity="many">%2$d aplikacji w tym %1$s może być złośliwych</item>
-        <item quantity="other">%2$d aplikacji w tym %1$s może być złośliwych</item>
-    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="one">+%d</item>
         <item quantity="few">+%d</item>
@@ -931,6 +943,18 @@ Możesz teraz uzyskać %d-dniowy bezpłatny okres próbny!"</item>
         <item quantity="few">%d-dniową</item>
         <item quantity="many">%d-dniową</item>
         <item quantity="other">%d-dniową</item>
+    </plurals>
+    <plurals name="pc_battery_text_hour">
+        <item quantity="one">%d godz.</item>
+        <item quantity="few">%d godz.</item>
+        <item quantity="many">%d godz.</item>
+        <item quantity="other">%d godz.</item>
+    </plurals>
+    <plurals name="pc_battery_text_minute">
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+        <item quantity="other">%d min</item>
     </plurals>
     <plurals name="pc_can_be_optimize_numbers">
         <item quantity="one">%d element</item>
@@ -1004,6 +1028,12 @@ Możesz teraz uzyskać %d-dniowy bezpłatny okres próbny!"</item>
         <item quantity="many">Pozostało %s minut</item>
         <item quantity="other">Pozostało %s minut</item>
     </plurals>
+    <plurals name="pc_smart_charge_notify_summary_long_time_charge">
+        <item quantity="one">W ciągu ostatniego %1$d dnia sesje ładowania były długie. Ładowanie zostanie wstrzymane na poziomie %2$s.</item>
+        <item quantity="few">W ciągu ostatnich %1$d dni sesje ładowania były długie. Ładowanie zostanie wstrzymane na poziomie %2$s.</item>
+        <item quantity="many">W ciągu ostatnich %1$d dni sesje ładowania były długie. Ładowanie zostanie wstrzymane na poziomie %2$s.</item>
+        <item quantity="other">W ciągu ostatniego %1$d dnia sesje ładowania były długie. Ładowanie zostanie wstrzymane na poziomie %2$s.</item>
+    </plurals>
     <plurals name="pc_statistics_battery_last_hour">
         <item quantity="one">Pozostała %d godzina</item>
         <item quantity="few">Pozostały %d godziny</item>
@@ -1027,6 +1057,30 @@ Możesz teraz uzyskać %d-dniowy bezpłatny okres próbny!"</item>
         <item quantity="few">%d sekundy od ostatniego naładowania</item>
         <item quantity="many">%d sekund od ostatniego naładowania</item>
         <item quantity="other">%d sekund od ostatniego naładowania</item>
+    </plurals>
+    <plurals name="peep_protection_v2_category_group_title">
+        <item quantity="one">%1$s (%2$d)</item>
+        <item quantity="few">%1$s (%2$d)</item>
+        <item quantity="many">%1$s (%2$d)</item>
+        <item quantity="other">%1$s (%2$d)</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_apps">
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_strategies">
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_page_count">
+        <item quantity="one">%d strona</item>
+        <item quantity="few">%d strony</item>
+        <item quantity="many">%d stron</item>
+        <item quantity="other">%d strony</item>
     </plurals>
     <plurals name="people">
         <item quantity="one">Pobrane przez %1$d osobę</item>
@@ -1525,6 +1579,12 @@ Możesz teraz uzyskać %d-dniowy bezpłatny okres próbny!"</item>
         <item quantity="few">%d aplikacje</item>
         <item quantity="many">%d aplikacji</item>
         <item quantity="other">%d aplikacji</item>
+    </plurals>
+    <plurals name="uniauth_reset_lockscreen_sub_title">
+        <item quantity="one">Pozostała %1$d próba</item>
+        <item quantity="few">Pozostały %1$d próby</item>
+        <item quantity="many">Pozostało %1$d prób</item>
+        <item quantity="other">Pozostało %1$d próby</item>
     </plurals>
     <plurals name="uninstall_game_count_title">
         <item quantity="one">Nie dodano %d gry</item>

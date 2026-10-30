@@ -1,59 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Godzinę temu</item>
-        <item quantity="few">Godzinę temu</item>
-        <item quantity="many">Godzinę temu</item>
-        <item quantity="other">Godzinę temu</item>
-    </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">%d godz. temu</item>
-        <item quantity="few">%d godz. temu</item>
-        <item quantity="many">%d godz. temu</item>
-        <item quantity="other">%d godz. temu</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Pół godziny temu</item>
-        <item quantity="few">Pół godziny temu</item>
-        <item quantity="many">Pół godziny temu</item>
-        <item quantity="other">Pół godziny temu</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="one">Za %d godz.</item>
-        <item quantity="few">Za %d godz.</item>
-        <item quantity="many">Za %d godz.</item>
-        <item quantity="other">Za %d godz.</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="one">Za pół godziny</item>
-        <item quantity="few">Za pół godziny</item>
-        <item quantity="many">Za pół godziny</item>
-        <item quantity="other">Za pół godziny</item>
-    </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Natychmiast</item>
-        <item quantity="few">Natychmiast</item>
-        <item quantity="many">Natychmiast</item>
-        <item quantity="other">Natychmiast</item>
-    </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="one">Za %d min</item>
-        <item quantity="few">Za %d min</item>
-        <item quantity="many">Za %d min</item>
-        <item quantity="other">Za %d min</item>
-    </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Teraz</item>
-        <item quantity="few">Teraz</item>
-        <item quantity="many">Teraz</item>
-        <item quantity="other">Teraz</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="one">%d min temu</item>
-        <item quantity="few">%d min temu</item>
-        <item quantity="many">%d min temu</item>
-        <item quantity="other">%d min temu</item>
-    </plurals>
     <plurals name="cloud_storage_full_upgrade_text">
         <item quantity="one">Za mało miejsca. Nie udało się zsynchronizować %d zdjęcia.</item>
         <item quantity="few">Za mało miejsca. Nie udało się zsynchronizować %d zdjęć.</item>
@@ -186,12 +132,6 @@
         <item quantity="many">Nie udało się zsynchronizować %s elementów</item>
         <item quantity="other">Nie udało się zsynchronizować %s elementów</item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Pół godziny temu</item>
-        <item quantity="few">Pół godziny temu</item>
-        <item quantity="many">Pół godziny temu</item>
-        <item quantity="other">Pół godziny temu</item>
-    </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">Za godzinę</item>
         <item quantity="few">Za godzinę</item>
@@ -233,12 +173,6 @@
         <item quantity="few">%s min temu</item>
         <item quantity="many">%s min temu</item>
         <item quantity="other">%s min temu</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Teraz</item>
-        <item quantity="few">Teraz</item>
-        <item quantity="many">Teraz</item>
-        <item quantity="other">Teraz</item>
     </plurals>
     <plurals name="local_lockscreen_error_hint_retry">
         <item quantity="one">Zbyt wiele prób. Spróbuj ponownie za %s sekundę.</item>
@@ -354,18 +288,6 @@
         <item quantity="many">Masz łącznie %s niezaufanych urządzeń.</item>
         <item quantity="other">Masz łącznie %s niezaufanego urządzenie.</item>
     </plurals>
-    <plurals name="noti_quota_full_title_with_icon_text">
-        <item quantity="one">Brak miejsca w pamięci. Nie udało się zsynchronizować &lt;font color=#F22424>%d aplikacji&lt;/font>.</item>
-        <item quantity="few">Brak miejsca w pamięci. Nie udało się zsynchronizować &lt;font color=#F22424>%d aplikacji&lt;/font>.</item>
-        <item quantity="many">Brak miejsca w pamięci. Nie udało się zsynchronizować &lt;font color=#F22424>%d aplikacji&lt;/font>.</item>
-        <item quantity="other">Brak miejsca w pamięci. Nie udało się zsynchronizować &lt;font color=#F22424>%d aplikacji&lt;/font>.</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">1 minutę temu</item>
-        <item quantity="few">%d minuty temu</item>
-        <item quantity="many">%d minut temu</item>
-        <item quantity="other">%d minut temu</item>
-    </plurals>
     <plurals name="other_lockscreen_error_hint_retry">
         <item quantity="one">Zbyt wiele prób. Spróbuj ponownie za %d dzień.</item>
         <item quantity="few">Zbyt wiele prób. Spróbuj ponownie za %d dni.</item>
@@ -413,6 +335,12 @@
         <item quantity="few">%1$s min</item>
         <item quantity="many">%1$s min</item>
         <item quantity="other">%1$s min</item>
+    </plurals>
+    <plurals name="verify_code_send_desc_more">
+        <item quantity="one">Wprowadź kod weryfikacyjny wysłany na %6$d urządzenie, w tym %1$s, %2$s, %3$s, %4$s oraz %5$s, aby kontynować.</item>
+        <item quantity="few">Wprowadź kod weryfikacyjny wysłany na %6$d urządzenia, w tym %1$s, %2$s, %3$s, %4$s oraz %5$s, aby kontynuować.</item>
+        <item quantity="many">Wprowadź kod weryfikacyjny wysłany na %6$d urządzeń, w tym %1$s, %2$s, %3$s, %4$s oraz %5$s, aby kontynuować.</item>
+        <item quantity="other">Wprowadź kod weryfikacyjny wysłany na %6$d urządzenia, w tym %1$s, %2$s, %3$s, %4$s oraz %5$s, aby kontynuować.</item>
     </plurals>
     <plurals name="verify_open_SMS_dialog_positive_btn_timer">
         <item quantity="one">Wyślij nowy kod (%s sek.)</item>

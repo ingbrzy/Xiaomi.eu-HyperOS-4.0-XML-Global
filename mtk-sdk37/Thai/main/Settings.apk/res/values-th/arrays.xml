@@ -312,8 +312,8 @@
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
         <item>เพิ่มประสิทธิภาพสำหรับความหน่วงต่ำ (256kbps)</item>
         <item>เพิ่มประสิทธิภาพคุณภาพการเชื่อมต่อ (400kbps)</item>
-        <item>คุณภาพเสียงและการเชื่อมต่อที่สมดุล (500/560kbps)</item>
-        <item>ปรับให้เหมาะสมสำหรับคุณภาพเสียง (900kbps)</item>
+        <item>สมดุลคุณภาพเสียงและการเชื่อมต่อ (500/560kbps)</item>
+        <item>เพิ่มประสิทธิภาพคุณภาพเสียง (900kbps)</item>
         <item>ความพยายามที่ดีที่สุด (อัตราบิตอัตโนมัติ)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
@@ -364,11 +364,17 @@
         <item>เปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
         <item>ปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
     </string-array>
+    <string-array name="bluetooth_audio_active_device_array">
+        <item></item>
+        <item>ใช้งานอยู่ (สื่อและการโทร)</item>
+        <item>ใช้งานอยู่ (สื่อ)</item>
+        <item>ใช้งานอยู่ (การโทร)</item>
+    </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
         <item>" | ใช้งานได้"</item>
         <item>" | ใช้งานได้ (สื่อมีเดีย)"</item>
-        <item>" | ใช้งานได้ (โทรศัพท์)"</item>
+        <item>" | ใช้งานได้ (เสียงโทร)"</item>
     </string-array>
     <string-array name="bluetooth_audio_routing_titles">
         <item>ใช้ค่าเริ่มต้นของแอป</item>
@@ -423,9 +429,9 @@
         <item>half_close</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
-        <item>ปิดใช้อยู่</item>
-        <item>เปิดใช้รายการที่กรอง</item>
-        <item>เปิดใช้</item>
+        <item>ปิดใช้งานแล้ว</item>
+        <item>เปิดใช้งานตัวกรอง</item>
+        <item>เปิดใช้งานแล้ว</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_filters_entries">
         <item>ออกจากส่วนหัว ACL เท่านั้น</item>

@@ -50,6 +50,16 @@
         <item quantity="few">kašnjenje: %d sekunde</item>
         <item quantity="other">kašnjenje: %d sekundi</item>
     </plurals>
+    <plurals name="beidou_receiving">
+        <item quantity="one">Primanje (%ds)</item>
+        <item quantity="few">Primanje (%ds)</item>
+        <item quantity="other">Primanje (%ds)</item>
+    </plurals>
+    <plurals name="beidou_sending">
+        <item quantity="one">Slanje (%ds)</item>
+        <item quantity="few">Slanje (%ds)</item>
+        <item quantity="other">Slanje (%ds)</item>
+    </plurals>
     <plurals name="call_record_add_white_list_over_reminder">
         <item quantity="one">Možete dodati %s osobu, odaberite ponovno.</item>
         <item quantity="few">Možete dodati do %s osoba, odaberite ponovno.</item>
@@ -105,11 +115,6 @@
         <item quantity="few">Upravo sada</item>
         <item quantity="other">Upravo sada</item>
     </plurals>
-    <plurals name="miuix_appcompat_items_selected">
-        <item quantity="one">%d odabrana stavka</item>
-        <item quantity="few">%d odabrane stavke</item>
-        <item quantity="other">%d odabranih stavki</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="one">Prije 1 minute</item>
         <item quantity="few">prije %d min</item>
@@ -122,5 +127,25 @@ Preostao vam je još %d pokušaj."</item>
 Preostalo vam je još %d pokušaja."</item>
         <item quantity="other">"
 Preostalo vam je još %d pokušaja."</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">%d odabrana stavka</item>
+        <item quantity="few">%d odabrane stavke</item>
+        <item quantity="other">%d odabranih stavki</item>
+    </plurals>
+    <plurals name="satellite_low_battery_turn_off_message">
+        <item quantity="one">Baterija je slaba. Tiantong Satelit komunikacije će se isključiti za %ds.</item>
+        <item quantity="few">Baterija je slaba. Tiantong Satelit komunikacije će se isključiti za %ds.</item>
+        <item quantity="other">Baterija je slaba. Tiantong Satelit komunikacije će se isključiti za %ds.</item>
+    </plurals>
+    <plurals name="satellite_pa_megathermal_turn_off_message">
+        <item quantity="one">Uređaj je pregrijan. Satelitska komunikacija isključit će se za %d sekundu.</item>
+        <item quantity="few">Uređaj je pregrijan. Satelitska komunikacija isključit će se za %d sekunde.</item>
+        <item quantity="other">Uređaj je pregrijan. Satelitska komunikacija isključit će se za %d sekundi.</item>
+    </plurals>
+    <plurals name="satellite_privacy_withdrawal_dialog_disable_negative">
+        <item quantity="one">Otkaži usluge (%ds)</item>
+        <item quantity="few">Otkaži usluge (%ds)</item>
+        <item quantity="other">Otkaži usluge (%ds)</item>
     </plurals>
 </resources>

@@ -49,11 +49,13 @@
     <string name="app_casting">アプリのキャスト</string>
     <string name="app_name">キャスト</string>
     <string name="app_name_call">電話</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">メッセージ</string>
     <string name="app_name_vtcamera">デバイス間カメラ</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -78,7 +80,7 @@
     <string name="appcirculate_fragment_circulate_device_list_button_cancel">キャンセル</string>
     <string name="appcirculate_fragment_circulate_device_list_button_confirm">もう一度検索</string>
     <string name="appcirculate_fragment_circulate_device_list_text_none"><u>デバイスが見つかりませんか？</u></string>
-    <string name="appcirculate_fragment_circulate_device_list_text_searching">付近のデバイスを検索中…</string>
+    <string name="appcirculate_fragment_circulate_device_list_text_searching">近くにあるデバイスを検索中…</string>
     <string name="appcirculate_toast_app_max_screen_count">これ以上ウィンドウを開けません</string>
     <string name="appcirculate_toast_app_notstall">転送できませんでした。このアプリはスマートフォンにインストールされていません。</string>
     <string name="appcirculate_toast_busy">他のデバイスがファイルを転送しているようです。転送が完了するまで待ってから、もう一度お試しください。</string>
@@ -97,6 +99,8 @@
     <string name="appcirculate_toast_success_1">正常に切り替わりました</string>
     <string name="appcirculate_toast_success_2">プライベートモードでキャスト中…</string>
     <string name="appcirculate_toast_success_3">キャスト中…</string>
+    <string name="apple_watch_cross_device_notification">通知</string>
+    <string name="apple_watch_health_data">健康データ</string>
     <string name="application_extension">アプリの拡張機能</string>
     <string name="application_extension_content_pad">外部ディスプレイとして「%1$s」を使用します。この別ウィンドウにアプリを表示できます。</string>
     <string name="application_extension_content_phone">このアプリは「%1$s」にのみ表示されます</string>
@@ -115,6 +119,8 @@
     <string name="bottomsheet_drag_handle_content_description">ドラッグ ハンドル</string>
     <string name="button_cancel">キャンセル</string>
     <string name="button_confirm">選択</string>
+    <string name="calendar_date_picker_a11y_next_month">翌月に変更</string>
+    <string name="calendar_date_picker_a11y_prev_month">前月に変更</string>
     <string name="call_notification_answer_action">応答</string>
     <string name="call_notification_answer_video_action">ビデオ</string>
     <string name="call_notification_decline_action">拒否</string>
@@ -122,14 +128,20 @@
     <string name="call_notification_incoming_text">着信</string>
     <string name="call_notification_ongoing_text">通話中</string>
     <string name="call_notification_screening_text">着信をスクリーニング中</string>
+    <string name="camera_a11y_action_enter">Enter camera</string>
+    <string name="camera_a11y_action_fullscreen">Full screen</string>
+    <string name="camera_a11y_action_play_pause">Pause or play</string>
+    <string name="camera_a11y_action_switch_lens">Switch lens</string>
     <string name="camera_associate_failed">カメラに接続できませんでした</string>
     <string name="camera_associate_success">カメラが接続されました</string>
+    <string name="camera_category_name">カメラ</string>
     <string name="camera_composed_button">組み合わせる</string>
     <string name="camera_composed_button_description">組み合わせる。タップすると、2 つのデバイスのカメラで同時に撮影できます。</string>
     <string name="camera_composed_no_device">デバイスが付近にないようです</string>
     <string name="camera_composed_title">このデバイスのカメラと組み合わせる</string>
     <string name="camera_composed_using_title">組み合わされたカメラ</string>
     <string name="camera_connecting_description">接続中…</string>
+    <string name="camera_count_tip">すべてのカメラ</string>
     <string name="camera_disassociate">カメラから切断されました</string>
     <string name="camera_discompose_button_description">タップすると組み合わせでの撮影が停止し、このデバイスのカメラに切り替わります。</string>
     <string name="camera_glasses_content_description">メガネはこのデバイスに接続されています。2 回押すとアクティブ化します。2 本の指で押してドラッグすると転送されます。</string>
@@ -181,6 +193,7 @@
     <string name="car_card_seat_main_seat">運転者</string>
     <string name="car_card_seat_second_seat">助手席乗員</string>
     <string name="car_card_seat_warm">シートヒーター</string>
+    <string name="car_card_tv_control_text">後部座席エンタメ画面リモコン</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">AC</string>
     <string name="car_device_camera_name">%1$s のフロントカメラ</string>
@@ -192,8 +205,6 @@
     <string name="cast_closed_captions">クローズド キャプション</string>
     <string name="cast_closed_captions_unavailable">クローズド キャプションを使用できません</string>
     <string name="cast_connecting_to_device">「%1$s」に接続しています</string>
-    <string name="cast_device_chooser_searching_for_devices">デバイスを検出しています</string>
-    <string name="cast_device_chooser_title">キャスト先</string>
     <string name="cast_disconnect">接続を解除</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Cast レシーバーが広告を再生している間に表示された画像</string>
@@ -234,12 +245,10 @@
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">字幕</string>
     <string name="cast_unmute">ミュートを解除</string>
-    <string name="cast_zero_devices_found">"デバイスが見つかりませんでした。
-"</string>
-    <string name="cast_zero_devices_learn_more_description">コンテンツを他のデバイスにキャストする方法について、<a href="https://support.google.com/chromecastbuiltin/answer/3006709">詳細</a>をご確認ください。</string>
     <string name="casting_tips">キャスト中…</string>
     <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
+    <string name="check_device_list">サポートされているデバイスを表示</string>
     <string name="circulate_add_another_device_control_app">アプリを追加</string>
     <string name="circulate_audio_group_title">再生中…</string>
     <string name="circulate_back_button_content_description">戻る</string>
@@ -258,6 +267,7 @@
     <string name="circulate_camera_glasses_error_device_not_support">メガネのコンテンツはこのデバイスに転送できません</string>
     <string name="circulate_car_card_use_camera">EV のフロントカメラを使用</string>
     <string name="circulate_car_card_using_camera">EV のフロントカメラを使用中</string>
+    <string name="circulate_car_card_using_pad_camera">タブレットのカメラを車両で使用する</string>
     <string name="circulate_card_audio_change_pad_title">タブレットオーディオに切り替える</string>
     <string name="circulate_card_audio_change_phone_title">スマートフォンオーディオに切り替える</string>
     <string name="circulate_card_audio_playing_pad_title">タブレットオーディオを使用</string>
@@ -396,6 +406,7 @@
     <string name="circulate_glasses_duplicate_headset_dialog_message_pad">タブレットはすでにイヤホンに接続されています。このメガネに接続すると、イヤホンは切断されます。今すぐ接続しますか？</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_phone">スマートフォンはすでにイヤホンに接続されています。このメガネに接続すると、イヤホンは切断されます。今すぐ接続しますか？</string>
     <string name="circulate_glasses_duplicate_headset_dialog_message_tv">テレビはすでにイヤホンに接続されています。このメガネに接続すると、イヤホンは切断されます。今すぐ接続しますか？</string>
+    <string name="circulate_header_mijia">スマートデバイス</string>
     <string name="circulate_headset_back_to_box_desc">"1. 両方のイヤホンを充電ケースに入れます。
 2. ケースのボタンを長押しします。
 3. ターゲットデバイスでペア設定を終了します。"</string>
@@ -511,6 +522,7 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="circulate_pad_card_use_desktop">ホーム画面+をタブレットと共有</string>
     <string name="circulate_pad_card_using_camera">タブレットのカメラを使用中</string>
     <string name="circulate_pad_card_using_desktop">ホーム画面+をタブレットと共有中</string>
+    <string name="circulate_pad_synergy_subtitle">接続済み</string>
     <string name="circulate_pc_card_use_desktop">ホーム画面+をパソコンと共有</string>
     <string name="circulate_pc_card_use_km">パソコンとマウスを共有</string>
     <string name="circulate_pc_card_using_camera">パソコンはカメラを使用しています</string>
@@ -544,6 +556,17 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="circulate_sport_device_find_stop">停止</string>
     <string name="circulate_sport_device_find_stop_failed">このデバイスの検索を停止できませんでした。もう一度お試しください。</string>
     <string name="circulate_sport_device_find_watch">この腕時計を探す</string>
+    <string name="circulate_synergy_camera_car">車両のカメラを使用中</string>
+    <string name="circulate_synergy_camera_pad">タブレットはスマホのカメラを使用しています</string>
+    <string name="circulate_synergy_camera_pc">パソコンはスマホのカメラを使用しています</string>
+    <string name="circulate_synergy_camera_phone">スマートフォンのカメラを使用中</string>
+    <string name="circulate_synergy_cast_tv">キャスト中</string>
+    <string name="circulate_synergy_cellular_car">車両のホットスポットを使用中</string>
+    <string name="circulate_synergy_cellular_phone">スマートフォンのモバイルデータを使用中</string>
+    <string name="circulate_synergy_desktop">ホーム画面+を使用中</string>
+    <string name="circulate_synergy_km_pc">マウスとキーボードをパソコンと共有中</string>
+    <string name="circulate_synergy_music_playing">再生中</string>
+    <string name="circulate_synergy_telephone">電話に応答中</string>
     <string name="circulate_taking_photo">スマートフォンのカメラを使用中…</string>
     <string name="circulate_title">Xiaomi Smart Hub</string>
     <string name="circulate_to_mijia">スマートホームデバイス</string>
@@ -611,10 +634,15 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="connect_settings_connection_service">相互接続性</string>
     <string name="connect_settings_corp_network">ネットワーク補助</string>
     <string name="connect_settings_corp_phone">通話の同期</string>
+    <string name="connect_settings_corp_phone_close_toast">オフにできませんでした。通話終了後にもう一度お試しください。</string>
+    <string name="connect_settings_corp_phone_device_category">利用可能なデバイス</string>
+    <string name="connect_settings_corp_phone_not_found_summary">タブレットまたはパソコンが近くにあり、同じ Xiaomi アカウントでサインインし、同じネットワークに接続されていることを確認してください。「更新」をタップしてもう一度試してください。</string>
+    <string name="connect_settings_corp_phone_searching_summary">タブレットまたはパソコンが近くにあり、同じ Xiaomi アカウントでサインインし、同じネットワークに接続されていることを確認してください</string>
     <string name="connect_settings_general_category_share_camera">これらのデバイスでクロスデバイスカメラの使用を許可する</string>
     <string name="connect_settings_general_category_share_launcher">これらのデバイスでホーム画面+ の使用を許可する</string>
     <string name="connect_settings_general_summary_corp_phone_pad">同じ Xiaomi アカウントにサインインしているタブレットで付近のスマートフォンへの通話に応答する</string>
     <string name="connect_settings_general_summary_corp_phone_phone">同じ Xiaomi アカウントにサインインしている付近のタブレットやパソコンで通話に応答する</string>
+    <string name="connect_settings_general_summary_corp_phone_phone_v2">同じ Xiaomi アカウントでサインインしたタブレットまたはパソコンで、このデバイスにかかってきた着信に応答できます</string>
     <string name="connect_settings_general_summary_relay_app">"同じ Xiaomi アカウントにサインインしているデバイス間で同じアプリを使用できます。
 スマートフォン、タブレット、パソコンでサポートされています。"</string>
     <string name="connect_settings_general_summary_share_camera">同じ Xiaomi アカウントにサインインしている付近のタブレットやパソコンでのビデオ通話中やライブストリーミング中に、スマートフォンのカメラを使用して撮影角度を調整できます</string>
@@ -623,12 +651,15 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="connect_settings_general_summary_share_launcher_phone">同じ Xiaomi アカウントにサインインしている付近のタブレット、パソコン、車からスマートフォンを表示および制御し、スマートフォン上のアプリにアクセスできます</string>
     <string name="connect_settings_general_summary_share_launcher_phone_v2">同じアカウントでサインインしている近くのスマートフォン、タブレット、、または車両から、このデバイスを表示および制御し、そのアプリを利用できます</string>
     <string name="connect_settings_general_summary_share_notification_pad">同じ Xiaomi アカウントにサインインしているタブレットに付近のスマートフォンの低バッテリーアラートを表示する</string>
+    <string name="connect_settings_general_summary_share_notification_pad_v2">タブレットとスマートフォンが同じ Xiaomi アカウントでサインインし、同じネットワークに接続されている場合、近くにあるスマートフォンの通知をタブレットに表示できます</string>
     <string name="connect_settings_general_summary_share_notification_phone">"同じ Xiaomi アカウントにサインインしている付近のテレビ、タブレット、パソコンにスマートフォンの重要な通知を表示します。
 テレビにフードデリバリーアプリや配車アプリを表示したり、タブレットやパソコンに低バッテリーアラートを表示できます。"</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">同じアカウントにサインインしている近くのタブレットに、スマートフォンのバッテリー残量低下の通知を表示します</string>
     <string name="connect_settings_known_button">了解</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
+    <string name="connect_settings_mi_share_tap_share">タッチして共有</string>
     <string name="connect_settings_nfc_share">NFCでアイテムを転送する</string>
+    <string name="connect_settings_not_found_device_title">利用可能なデバイスが見つかりませんでした</string>
     <string name="connect_settings_not_opened">オフ</string>
     <string name="connect_settings_opened">オン</string>
     <string name="connect_settings_presentation_password_error">パスワードが正しくありません</string>
@@ -638,6 +669,7 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="connect_settings_relay_app">アプリ</string>
     <string name="connect_settings_same_account">このアカウントから</string>
     <string name="connect_settings_screen_cast">キャスト</string>
+    <string name="connect_settings_searching_device_title">お使いのデバイスの検出</string>
     <string name="connect_settings_share_camera">クロスデバイスカメラ</string>
     <string name="connect_settings_share_clipboard">クリップボード</string>
     <string name="connect_settings_share_file">クロスデバイスファイル</string>
@@ -649,6 +681,7 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">顔認証またはパスワード認証</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Mac 上で指紋またはパスワードを使用して、スマートフォンとアプリのロックを解除します</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock">Xiaomi EV のカメラでの顔認識でスマートフォンとアプリのロックを解除します</string>
+    <string name="connect_settings_share_launcher_sub_feature_micar_summary_unlock_v2">Xiaomi EV カメラで顔を認識し、Xiaomi スマートフォンのロックを解除します</string>
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">顔認証</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">ロック解除後のアプリのクイック起動</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Xiaomi タブレットの指紋またはパスワードを使用して、スマートフォンとアプリのロックを解除します</string>
@@ -656,20 +689,31 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">スマートフォンのアプリをタブレットのホーム画面に追加します。スマートフォンのロックを解除したら、タブレットから直接起動できます。</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">指紋認証を使用するかパスワードを入力してロックを解除してください</string>
     <string name="connect_settings_share_notification">通知</string>
+    <string name="connect_settings_share_notification_apple_watch">このデバイスからの通知を Apple Watch に表示</string>
+    <string name="connect_settings_share_notification_apple_watch_category">通知をスマートウォッチに同期</string>
     <string name="connect_settings_share_notification_help">ヘルプ</string>
     <string name="connect_settings_share_notification_iphone_device">iPhone にこのデバイスの通知を表示する</string>
     <string name="connect_settings_share_notification_local_device">このデバイスで iPhone の通知を表示する</string>
     <string name="connect_settings_share_notification_local_device_summary">このデバイスで通話に応答したり、メッセージやアプリの通知を受け取るには、iPhoneの[Xiaomi 相互接続] > [通知を同期] > [Xiaomiに同期]で通知の同期を許可してください。</string>
     <string name="connect_settings_share_notification_local_device_summary_v2">Xiaomi デバイスで通話に応答したり、メッセージやアプリの通知を受け取るには、iPhoneで[Xiaomi 相互接続] > [通知の同期] > [Xiaomiに同期]を選択し、デバイスを接続してください。</string>
     <string name="connect_settings_share_notification_local_device_title">%1$sからの通知を受信する</string>
+    <string name="connect_settings_share_notification_local_low_battery_summary">このデバイス でXiaomi スマートフォンのバッテリー残量が少ない警告を表示する</string>
+    <string name="connect_settings_share_notification_local_low_battery_title">低バッテリー警告</string>
     <string name="connect_settings_share_notification_local_other_mi_device">このデバイスで他の Xiaomi デバイスからの通知を表示する</string>
     <string name="connect_settings_share_notification_mi_device">Xiaomi デバイスにこのデバイスの通知を表示する</string>
     <string name="connect_settings_share_notification_mi_device_category">付近のデバイスと同期する</string>
     <string name="connect_settings_share_notification_mi_device_category_v2">付近のデバイス</string>
+    <string name="connect_settings_share_notification_mi_device_category_v3">通知を付近のデバイスと同期</string>
     <string name="connect_settings_share_notification_mi_device_v2">Xiaomiのタブレットまたはテレビ</string>
     <string name="connect_settings_share_notification_mi_device_v3">Xiaomi タブレット、パソコン、テレビ</string>
     <string name="connect_settings_share_notification_more_feature">その他の機能</string>
+    <string name="connect_settings_share_notification_other_important">追加の同期オプション</string>
+    <string name="connect_settings_share_notification_other_important_summary">Xiaomi スマートフォンからのバッテリー残量低下の通知を Xiaomi タブレットやパソコンに表示し、フードデリバリーや配車サービスの通知を Xiaomi TV に表示します。</string>
+    <string name="connect_settings_share_notification_other_important_title">Xiaomi タブレット、パソコン、テレビと同期する</string>
     <string name="connect_settings_share_notification_other_mi_local_device">このデバイスからの通知を他の Xiaomi デバイスで表示する</string>
+    <string name="connect_settings_share_notification_pad_local">Xiaomi タブレットにこのデバイスの通知を表示する</string>
+    <string name="connect_settings_share_notification_pad_mi_device_summary">このデバイスで Xiaomi スマートフォンのアプリ通知を表示します。スマートフォンで同期する通知を選択するには、[設定] > [相互接続性} > [クロスデバイス通知] で設定してください。</string>
+    <string name="connect_settings_share_notification_pad_mi_device_title">アプリの通知</string>
     <string name="connect_settings_share_notification_receive_tab">受信</string>
     <string name="connect_settings_share_notification_receive_tab_device_category">利用可能なデバイス</string>
     <string name="connect_settings_share_notification_receive_tab_device_category_v2">利用可能なデバイス</string>
@@ -693,9 +737,16 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="connect_settings_share_notification_send_tab">同期</string>
     <string name="connect_settings_share_notification_send_tab_device_category">スマートフォンに同期する</string>
     <string name="connect_settings_share_notification_send_tab_device_category_v2">マイ フォン</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v3">利用可能なデバイス</string>
+    <string name="connect_settings_share_notification_send_tab_not_found_device_summary">上記の手順を確実に実行してください。「更新」をタップしてもう一度お試しください。</string>
     <string name="connect_settings_share_notification_send_tab_summary">"同じアカウントでサインインしているスマートフォン、タブレット、テレビでこのデバイスの通知を表示します。
 *対応機能: スマートフォンでは通話、メッセージ、アプリの通知を表示可能。テレビでは配達や配車サービスの通知を表示可能。タブレットとコンピューターではスマートフォンのバッテリー残量が少ない警告を表示可能。"</string>
     <string name="connect_settings_share_notification_send_tab_summary_v2">•このデバイスがロックされている場合、同じアカウントでサインインしているスマートフォン、タブレット、コンピューター、またはテレビでこのデバイスからの通知を確認できます。•スマートフォンでは通話、メッセージ、アプリの通知を確認可能、テレビではフードデリバリーや配車サービスの通知を確認可能、タブレットやコンピューターではバッテリー残量が少ない通知を確認可能です。</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v3">"このデバイスで受信した通知は、同じ Xiaomi アカウントにサインインしている他のデバイスと同期して表示できます。
+•スマートフォンへの同期: 両デバイスが同じ Xiaomi アカウントにサインインし、ネットワークに接続されている必要があります。
+•タブレットへの同期: タブレットが近くにあること、同じ Xiaomi アカウントにサインインしていること、同じネットワークに接続されていること、またはホーム画面+を使用していることが必要です。"</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v4">"•このデバイスがロックされている場合、同じアカウントでサインインしているスマートフォン、タブレット、コンピューター、テレビ、スマートウォッチでこのデバイスからの通知を確認できます。
+•スマートフォンでは通話、メッセージ、アプリの通知、テレビではフードデリバリーや配車サービスの通知、タブレットやコンピューターではバッテリー残量低下の通知を確認可能です。"</string>
     <string name="connect_settings_share_notification_send_tab_v2">同期</string>
     <string name="connect_settings_summary"><Data>同じ Xiaomi アカウントにサインインしている付近のデバイスを検出し、Xiaomi Smart Hub に追加します。&lt;a href=%1$s>詳細はこちら&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">デバイスがワイヤレスで相互に通信できるようにします</string>
@@ -727,6 +778,7 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="console_guide_subtitle_small_window">キャストされるウィンドウを最小化して、スマートフォンの他の機能を使用できるようにします</string>
     <string name="copy">コピー</string>
     <string name="copy_toast_msg">リンクをクリップボードにコピーしました</string>
+    <string name="copy_verification_code_tip">認証コードをコピーしました</string>
     <string name="current_wifi_tv">現在のネットワーク</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -783,20 +835,18 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="dialog_nfc_cast_wifi_off">NFC を使用してキャストするには、WLAN をオンにしてください。今すぐオンにしますか？</string>
     <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. モバイルデバイスとテレビの両方を同じWi-Fiネットワークに接続します。&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 一部のテレビモデルでは、この機能はスクリーンミラーリングがオンの場合にのみ使用できます。詳細は &lt;a href=milink://com.milink.service/specification>\"ヘルプ\"&lt;/a> をご覧ください。</Data></string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. モバイルデバイスとテレビの両方を同じ WLAN ネットワークに接続します。&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 一部のテレビモデルでは、この機能はスクリーンミラーリングがオンの場合にのみ使用できます。詳細は&lt;a href=milink://com.milink.service/specification>ヘルプ&lt;/a>をご覧ください。</Data></string>
+    <string name="dialog_no_device_message_new"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>。テレビとスマートフォンを同じWi-Fiネットワークに接続してください。&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>。一部のテレビでは、検出可能にするためにスクリーンミラーリングをオンにする必要があります。詳細については&lt;a href=milink://com.milink.service/specification>ヘルプを表示&lt;/a>をタップしてください。</Data></string>
+    <string name="dialog_no_device_message_new_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>。テレビとスマートフォンを同じWLANネットワークに接続してください。&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>。一部のテレビでは、検出可能にするためにスクリーンミラーリングをオンにする必要があります。詳細については&lt;a href=milink://com.milink.service/specification>ヘルプを表示&lt;/a>をタップしてください。</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">写真、ビデオ、または音楽のストリーミング</string>
     <string name="dialog_open_remote_switch_content">設定を適用できませんでした。お使いの%1$sがこのデバイスと同じアカウントでサインインし、同じネットワークに接続されていることを確認してください。</string>
+    <string name="dialog_open_remote_switch_content_corp_phone">オンにできませんでした。%1$sが、このデバイスと同じ Xiaomi アカウントにログインし、同じネットワークに接続されていることを確認してください。</string>
     <string name="dialog_open_wifi_bt">オンにする</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"ターゲットデバイスでワイヤレスキャスト機能がオンになっていることを確認してください。
 接続に問題がある場合はヘルプを確認してください。"</string>
     <string name="dialog_recent_connected">最近</string>
-    <string name="dialog_remote_authorization">%1$s で権限を付与してください</string>
-    <string name="dialog_remote_authorization_content">%1$sで、相互接続性に通知の権限を付与してください。</string>
-    <string name="dialog_reset_app_subscribe">%1$sからの通知を許可する</string>
-    <string name="dialog_reset_app_subscribe_content">%2$sは、お使いの%1$sから以前アンインストールされています。このデバイスではアプリの通知を受信できません。設定を変更してもう一度お試しください。</string>
+    <string name="dialog_reset_app_subscribe_content_v2">一部のアプリが以前%1$sからアンインストールされており、このデバイスではそれらの通知を受け取れません。通知の同期を再度設定してください。</string>
     <string name="dialog_reset_app_subscribe_multi">通知設定を変更</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$sと%3$sは、お使いの%1$sから以前アンインストールされています。このデバイスではアプリの通知を受信できません。設定を変更してもう一度お試しください。</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$sと%3$s、%4$sは、お使いの%1$sから以前アンインストールされています。このデバイスではアプリの通知を受信できません。設定を変更してもう一度お試しください。</string>
     <string name="dialog_retry">再試行</string>
     <string name="dialog_scan_message">"%1$d. モバイルデバイスとテレビを同じWi-Fiネットワークに接続します。
 
@@ -804,17 +854,46 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="dialog_scan_message_china">"%1$d. モバイルデバイスとテレビを同じ WLAN ネットワークに接続します。
 
 %2$d. 詳細については、ヘルプをご覧ください。"</string>
+    <string name="dialog_scan_message_new">"%1$d。テレビとスマートフォンを同じWi-Fiネットワークに接続してください。
+
+%2$d。一部のテレビでは、検出できるようスクリーンミラーリングをオンにする必要があります。詳しくは「ヘルプを表示」をタップしてください。"</string>
+    <string name="dialog_scan_message_new_china">"%1$d。テレビとスマートフォンを同じWLANネットワークに接続してください。
+
+%2$d。一部のテレビでは、検出できるようスクリーンミラーリングをオンにする必要があります。詳しくは「ヘルプを表示」をタップしてください。"</string>
     <string name="dialog_scanning_close_dual_wifi_china">キャストするには、デュアルバンド WLAN パフォーマンスブーストをオフにしてください。この機能を今すぐオフにしますか？</string>
     <string name="dialog_scanning_close_dual_wifi_global">キャストするには、\"デュアルバンドWi-Fiパフォーマンスブースト\"をオフにしてください。この機能を今すぐオフにしますか？</string>
     <string name="dialog_scanning_close_tethering">キャストするには、ホットスポットをオフにしてください。今すぐホットスポットをオフにしますか？</string>
-    <string name="dialog_scanning_device">付近のデバイスを検索中…</string>
+    <string name="dialog_scanning_device">近くにあるデバイスを検索中…</string>
     <string name="dialog_scanning_precondition">ワイヤレスディスプレイを使用するには、スマートフォンでWi-FiとBluetoothをオンにします。</string>
+    <string name="dialog_scanning_precondition_new_1">スクリーンキャストにはWi-Fiと位置情報サービスが必要です。これらをオンにしますか？</string>
+    <string name="dialog_scanning_precondition_new_1_china">スクリーンキャストには、WLAN、Bluetooth、位置情報サービスが必要です。これらをオンにしますか？</string>
     <string name="dialog_scanning_precondition_new_china">キャストを使用できるようにするには、WLAN、Bluetooth、位置情報サービスをオンにします。今すぐオンにしますか？</string>
     <string name="dialog_scanning_precondition_new_global">キャストを使用するには、Wi-Fiと位置情報サービスをオンにする必要があります。今すぐオンにしますか？</string>
     <string name="dialog_select_tv">デバイスを選択 (%1$d)</string>
     <string name="dialog_show_help">ヘルプ</string>
+    <string name="dialog_show_help_v1">ヘルプを表示</string>
     <string name="disconnect">キャストを停止</string>
+    <string name="dist_camera_pad_switch_off_toast_button_text">了解</string>
+    <string name="dist_camera_pad_switch_off_toast_subtitle">[設定] > [相互接続性]で、タブレットのクロスデバイスカメラをオンにしてください。</string>
+    <string name="dist_camera_pad_switch_off_toast_title">クロスデバイスカメラをオンにする</string>
+    <string name="dist_camera_phone_switch_off_toast_button_text">了解</string>
+    <string name="dist_camera_phone_switch_off_toast_subtitle">[設定] > [相互接続性]で、スマートフォンのクロスデバイスカメラをオンにしてください。</string>
+    <string name="dist_camera_phone_switch_off_toast_title">クロスデバイスカメラをオンにする</string>
     <string name="dp_casting_start_hint">ケーブルで接続されています。キャストは終了しました。</string>
+    <string name="dp_in_dialog_cancel">キャンセル</string>
+    <string name="dp_in_dialog_enter">オンにする</string>
+    <string name="dp_in_dialog_message">このモードでは、タブレットはディスプレイとしてのみ機能します。タブレットの音声はミュートされます。外付けデバイスのみが音声を再生します。システム通知は表示されません。横向きでの使用をおすすめします。</string>
+    <string name="dp_in_dialog_title">画面拡張 Pro をオンにする</string>
+    <string name="dp_in_exit_dialog_exit">オフにする</string>
+    <string name="dp_in_exit_dialog_message">画面が切断され、タブレットのホーム画面に戻ります。</string>
+    <string name="dp_in_exit_dialog_title">画面拡張 Pro をオフにしますか？</string>
+    <string name="dp_in_low_battery_confirm">了解</string>
+    <string name="dp_in_low_battery_message">バッテリー残量が %s 未満です。充電してください。</string>
+    <string name="dp_in_no_signal_exit">画面拡張 Pro をオフにする</string>
+    <string name="dp_in_no_signal_subtitle">デバイスが接続されていることを確認してください</string>
+    <string name="dp_in_no_signal_title">デバイスの信号を検出できませんでした</string>
+    <string name="dp_in_notification_subtitle">このモードでは、タブレットはディスプレイとしてのみ機能します</string>
+    <string name="dp_in_notification_title">画面拡張 Pro をオンにする</string>
     <string name="dual_wifi_warning_china">デュアル WLAN をオフにして、もう一度お試しください</string>
     <string name="dual_wifi_warning_global">デュアルWi-Fiをオフにして、もう一度お試しください</string>
     <string name="early_morning">早朝</string>
@@ -834,6 +913,7 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="err_toast_msg_not_support_audio_protocol">このデバイスにオーディオ再生を転送できません</string>
     <string name="err_toast_msg_retry_later">操作を実行できませんでした。数分待ってからもう一度お試しください。</string>
     <string name="err_toast_msg_state_not_support">ドラッグはサポートされていません</string>
+    <string name="err_toast_msg_state_not_support_circulate">現在、切り替えることはできません</string>
     <string name="err_toast_msg_try_switch_network">モバイルデバイスとパソコンの両方を同じWLANネットワークに接続してください</string>
     <string name="error_a11y_label">エラー: 無効</string>
     <string name="error_icon_content_description">エラー</string>
@@ -914,11 +994,12 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="friday">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
+    <string name="fusion_device_nearby">近く</string>
     <string name="global_dialog_cancle">キャンセル</string>
     <string name="global_dialog_miplay_permission_positive">設定</string>
     <string name="global_dialog_nearbydevice_permission_message">相互接続性では、付近のデバイスを検出するために、それらに接続する権限が必要です。相互接続性を正常に使用するには、設定でこの権限を付与してください。</string>
     <string name="global_dialog_nearbydevice_permission_title">アクセス許可が必要です</string>
-    <string name="global_privacy">使用条件</string>
+    <string name="global_privacy">利用規約</string>
     <string name="global_privacy_detail"><Data>このアプリの利用を開始する前に、&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;br>前述のサービスの利用に同意しない場合、このアプリの一部機能を使用できなくなります。ただし、基本的な機能は引き続き利用できます。</Data></string>
     <string name="global_privacy_explain">キャストへようこそ！このアプリは、次のサービスを提供します。</string>
     <string name="global_privacy_feature">最小化ウィンドウを使用し、画面をオフにしてキャストし、プライベートアイテムを非表示にします。</string>
@@ -927,6 +1008,9 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="global_privacy_positive">同意</string>
     <string name="global_privacy_screencast">この機能を提供するサービスは、録音またはキャスト中に、画面に表示されるかデバイスから再生されるセンシティブな情報をキャプチャする可能性があります。センシティブな情報には、オーディオ、パスワード、支払い情報、写真、メッセージなどが含まれます。</string>
     <string name="global_privacy_tip"><Data>基本的なサービスをユーザーに提供し、キャストプロセスの最適化を行うためには、必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=%1$s>プライバシーポリシー&lt;/a>を参照してください。プライバシーポリシーへの同意は、いつでも設定で撤回することができます。</Data></string>
+    <string name="guide_mask_btn">はじめに</string>
+    <string name="guide_mask_desc">カードを長押ししてピン留めすると、常にコントロールセンターと Xiaomi Smart Hub の一番上に表示されます。</string>
+    <string name="guide_mask_title">新しい Xiaomi Smart Hub</string>
     <string name="hang_up">画面オフの状態でキャスト</string>
     <string name="hang_up_alert_dialog_content">デバイスの画面がオフになってもキャストを続けます。この機能により、消費電力が削減されます。電源ボタンを押すと画面がオンに戻ります。</string>
     <string name="hang_up_alert_dialog_neg">キャンセル</string>
@@ -935,6 +1019,8 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="head_toast_connecting">接続中…</string>
     <string name="head_toast_fail">接続できませんでした</string>
     <string name="head_toast_success">正常に接続されました</string>
+    <string name="headset_circulate_card_default_title">イヤホンが接続されています</string>
+    <string name="headset_circulate_card_glasses_title">メガネが接続されています</string>
     <string name="headset_content_description">イヤホンがこのデバイスに接続されました。2回押してアクティブ化します。2本指で押しながらドラッグし、再生を転送します。</string>
     <string name="headset_content_description_global">イヤホンはこのデバイスに接続されています。2 回押すとアクティブ化されます。</string>
     <string name="help_page_question_1st_01_international">"%1$d. キャスト先のデバイスが Xiaomi TV の場合は、Miracast をオンにします。
@@ -960,10 +1046,14 @@ Xiaomi アカウントにサインインしてください"</string>
     <string name="help_page_text_06_new_1">Xiaomi TV、セットトップボックス、プロジェクター:</string>
     <string name="help_page_text_06_new_2">"%1$d. モバイルデバイスと外部モニターが同じ Wi-Fi ネットワークに接続されていることを確認してください。
 %2$d. 一部の Xiaomi TV では、テレビからのキャストを設定したり、デバイスの検索および認証方法をカスタマイズしたりできます。"</string>
+    <string name="help_page_text_06_new_2_china">"%1$d。テレビとスマートフォンが同じWLANネットワークに接続されていることを確認してください。
+%2$d。一部の Xiaomi TV では、ワイヤレスキャスト設定でデバイスの検出と検証をカスタマイズできます。"</string>
     <string name="help_page_text_06_new_3">*キャスト設定でテレビのキャストの環境設定を行うことができます。</string>
     <string name="help_page_text_06_new_4">Xiaomi 以外のテレビ、セットトップボックス、プロジェクター:</string>
     <string name="help_page_text_06_new_5">"%1$d. モバイルデバイスと外部モニターが同じ Wi-Fi ネットワークに接続されていることを確認してください。
 %2$d. 一部のブランドのテレビでは、キャストするには Miracast をオンにする必要があります。"</string>
+    <string name="help_page_text_06_new_5_china">"%1$d。テレビとスマートフォンが同じWLANネットワークに接続されていることを確認してください。
+%2$d。一部のテレビメーカーでは「Miracast」をオンにする必要があります。"</string>
     <string name="help_page_text_06_new_6">もっと詳しく知る</string>
     <string name="help_page_text_08">ステップ%1$d：キャストをオンにする</string>
     <string name="help_page_text_08_new">ステップ%1$d：キャストをオンにする</string>
@@ -981,6 +1071,12 @@ Xiaomi アカウントにサインインしてください"</string>
 %2$d. ネットワーク環境が安定していることを確認してください。安定していない場合は、ルーターを再起動するか、%3$d GHz ネットワーク帯域に切り替えてください。
 %4$d. Xiaomi TV にキャストする場合は、テレビのワイヤレスキャスト機能をオンにします。接続中はキャストページに留まってください。
 %5$d. 企業や学校などの大規模な公共 LAN の中には、同じ LAN 上のデバイスを検出する機能をサポートしていないものもあります。"</string>
+    <string name="help_page_text_13_desc_1_new">"%1$d。Xiaomi TV にキャストする場合は、テレビで「Miracast」をオンにしてください。
+%2$d。Xiaomi TV 以外のテレビにキャストする場合は、そのテレビが「Miracast」（一部のデバイスでは「ワイヤレスディスプレイ」、「スクリーンミラーリング」、「マルチスクリーンインタラクション」などとも呼ばれます）をサポートし、オンになっていることを確認してください。"</string>
+    <string name="help_page_text_13_desc_1_new_china">"%1$d。スマートフォンとテレビが同じWLANネットワークに接続されているか、テレビが同じモバイルホットスポットに接続されていることを確認してください。
+%2$d。ネットワークが安定していることを確認してください。ルーターを再起動するか、5 GHzルーターに切り替えてみてください。
+%4$d。Xiaomi TV にキャストする場合は、テレビで「ワイヤレスディスプレイ」をオンにし、ホーム画面を表示したままにします。
+%5$d。大規模な公共ネットワーク（オフィスや学校など）では、マルチキャストの分離設定により、デバイスの検出がブロックされる場合があります。"</string>
     <string name="help_page_text_13_desc_2">一部のテレビでは、キャスト時に非 LAN 接続を使用します。これらのデバイスがネットワークから切断されるのは正常です。通常は、キャスト終了後%1$d〜%2$d以内に再接続されます。</string>
     <string name="help_page_text_13_summary_1">外部デバイスに接続できません</string>
     <string name="help_page_text_13_summary_2">キャスト中にネットワークが中断される</string>
@@ -1041,13 +1137,19 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="help_page_text_55_global">"ネットワークに接続できない場合は、外部ディスプレイがMiracast機能に対応しており、それがオンになっていることを確認してください。一部のモデルでは、この機能は「ワイヤレスディスプレイ」、「スクリーンミラーリング」、「マルチスクリーン」と呼ばれています。
 %1$d. 問題が発生した場合は、\"トラブル時の対処や報告\"アプリを使用して問題を報告できます。"</string>
     <string name="help_page_text_end">お使いのデバイスのメーカーがここに表示されていない場合、メーカーに連絡してキャスト機能の詳細を確認してください。</string>
+    <string name="hint_deivce">サポートされているデバイスと機能を表示</string>
+    <string name="hint_text">Human × Car × Home デバイスを Xiaomi Smart Hub で管理できます</string>
+    <string name="home_curtain_card_close_button">閉</string>
+    <string name="home_curtain_card_open_button">開</string>
+    <string name="home_curtain_card_pause_button">一時停止</string>
+    <string name="homemodule_camera__physical_mask">カメラが遮蔽されています</string>
+    <string name="homemodule_curtain_AllDevice_none">カーテンデバイスなし</string>
+    <string name="homemodule_light_AllDevice_none">照明デバイスなし</string>
     <string name="i_see">了解</string>
+    <string name="ic_media_route_learn_more_accessibility">キャスト方法</string>
     <string name="icon_content_description">ダイアログ アイコン</string>
     <string name="image_transfer_failed">画像を転送できませんでした</string>
     <string name="install">インストール</string>
-    <string name="inter_connect_setting_unavailable_dialog_message">[設定] > [相互接続性] を開き、クロスデバイスカメラをオンにしてください。</string>
-    <string name="inter_connect_setting_unavailable_dialog_positive_button">了解</string>
-    <string name="inter_connect_setting_unavailable_dialog_title">クロスデバイスカメラ</string>
     <string name="introduction_to_accessibility_message">"相互接続性により、デバイス間でデータを制御および転送できます。
 
 相互接続性を使用する際に他のアプリがマイクを使用しないようにするには、アクセシビリティ機能をオンにします。
@@ -1062,6 +1164,7 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="local_camera_device">このデバイス</string>
     <string name="local_device_camera">このデバイス</string>
     <string name="local_hotspot_opening">このデバイスのホットスポットをオフにして、もう一度お試しください</string>
+    <string name="login_hint">Xiaomi アカウントにサインイン</string>
     <string name="material_clock_toggle_content_description">午前または午後を選択</string>
     <string name="material_hour_24h_suffix">%1$s 時間</string>
     <string name="material_hour_selection">時刻を選択してください</string>
@@ -1080,7 +1183,7 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="message_install">Mi キャンバスをインストールすると、デバイス間でスケッチできるようになります。</string>
     <string name="message_update">Mi キャンバスをアップデートすると、デバイス間でスケッチできるようになります。</string>
     <string name="midnight">真夜中</string>
-    <string name="mihome_camera_device_during_calll">カメラはすでに通話に使用されています</string>
+    <string name="mihome_camera_device_during_call_normal">カメラは使用中です。数分待ってからもう一度お試しください。</string>
     <string name="mihome_camera_device_not_available">これ以上デバイスを接続できません</string>
     <string name="mihome_camera_device_offline">接続できませんでした。カメラはオフラインです。</string>
     <string name="mihome_camera_device_sleep">スリープモードを終了し、もう一度お試しください</string>
@@ -1123,6 +1226,7 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
+    <string name="miuix_appcompat_action_sheet_default_message">選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
@@ -1136,6 +1240,19 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="miuix_appcompat_select_all_description">すべて選択</string>
     <string name="miuix_appcompat_select_item">アイテムを選択</string>
     <string name="miuix_appcompat_show_dialog_description">ポップアップウィンドウ</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">下にスワイプして閉じる</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">下にスワイプして半画面に切り替える</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">下にスワイプして最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">上にスワイプして半画面に切り替える</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">上にスワイプして最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">半画面</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">半画面に切り替える</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">最小化</string>
+    <string name="miuix_popup_show_description">ポップアップウィンドウ</string>
+    <string name="miuix_popup_window_default_title">ポップアップウィンドウ</string>
     <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">正常に更新されました</string>
@@ -1148,6 +1265,13 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="miuix_show_password">パスワードを表示</string>
     <string name="miuix_stretchablewidget_collapsed">折りたたみました</string>
     <string name="miuix_stretchablewidget_expanded">展開しました</string>
+    <string name="mj_home_device_empty">デバイスがありません</string>
+    <string name="mj_module_card_name_curtain">カーテン</string>
+    <string name="mj_module_card_name_env">環境</string>
+    <string name="mj_module_card_name_light">照明</string>
+    <string name="mj_room_curtain_device_none">すべてのカーテンが閉まっています</string>
+    <string name="mj_room_light_device_none">すべての照明がオフです</string>
+    <string name="mj_talkback_device_main_need_psd">パスワードが必要です</string>
     <string name="monday">月曜日</string>
     <string name="monday_short">月</string>
     <string name="monday_shortest">月</string>
@@ -1194,8 +1318,17 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="mr_cast_button_connecting">キャスト。接続中</string>
     <string name="mr_cast_button_disconnected">キャスト。未接続</string>
     <string name="mr_cast_dialog_title_view_placeholder">情報がありません</string>
+    <string name="mr_chooser_looking_for_devices">デバイスの検出中...</string>
     <string name="mr_chooser_searching">デバイスを検出しています</string>
     <string name="mr_chooser_title">キャスト先</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">詳細</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">他のデバイスがこの車と同じ Wi-Fi ネットワークに接続していることを確認してください</string>
+    <string name="mr_chooser_wifi_warning_description_phone">他のデバイスがこのスマートフォンと同じ Wi-Fi ネットワークに接続していることを確認してください</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">他のデバイスがこのタブレットと同じ Wi-Fi ネットワークに接続していることを確認してください</string>
+    <string name="mr_chooser_wifi_warning_description_tv">他のデバイスがこのテレビと同じ Wi-Fi ネットワークに接続していることを確認してください</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">他のデバイスがこのデバイスと同じ Wi-Fi ネットワークに接続していることを確認してください</string>
+    <string name="mr_chooser_wifi_warning_description_watch">他のデバイスがこのスマートウォッチと同じ Wi-Fi ネットワークに接続していることを確認してください</string>
+    <string name="mr_chooser_zero_routes_found_title">利用可能なデバイスがありません</string>
     <string name="mr_controller_album_art">アルバムアート</string>
     <string name="mr_controller_casting_screen">画面をキャストしています</string>
     <string name="mr_controller_close_description">閉じる</string>
@@ -1260,8 +1393,11 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="mtrl_picker_toggle_to_year_selection">タップすると年表示に切り替わります</string>
     <string name="mtrl_timepicker_cancel">キャンセル</string>
     <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="nearby_device">利用可能なデバイス</string>
     <string name="nfc_connect_failed_toast">キャストできませんでした。もう一度お試しください。</string>
     <string name="night">夜</string>
+    <string name="no_device">まだ何もありません</string>
+    <string name="no_device_enable_hint">付近のデバイスを自動的に検出・接続して、複数のデバイス間でさまざまなタスクを実行します。</string>
     <string name="noon">正午</string>
     <string name="normal_device_desc">接続したが信頼できるとマークされていないデバイス</string>
     <string name="normal_device_desc_limit">接続したが信頼できるとマークされていないデバイス</string>
@@ -1271,25 +1407,44 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="not_support_from_blacklist_toast">このモードではアプリのキャストはサポートされていません</string>
     <string name="not_support_from_whitelist_toast">キャストするにはアプリを開いてください</string>
     <string name="not_support_toast">このアプリではアプリのキャストはサポートされていません</string>
+    <string name="not_support_toast_split_screen">画面分割ではアプリのキャストはサポートされていません</string>
     <string name="nothing_to_play">再生されていません</string>
+    <string name="noti_device_off">オフ</string>
+    <string name="noti_device_on">オン</string>
     <string name="notification_cast_desc">キャスト中…</string>
     <string name="notification_channel_description">別のデバイスから Xiaomi デバイスに同期する通知タイプを選択</string>
+    <string name="notification_channel_description_2">通知設定を管理する</string>
     <string name="notification_channel_subtitle_ref_call">iPhone からの通話</string>
-    <string name="notification_channel_subtitle_ref_call_1">%1$sからの着信</string>
-    <string name="notification_channel_subtitle_ref_lary_1">%1$sからのLarkメッセージ</string>
+    <string name="notification_channel_subtitle_ref_call_2">%1$sに着信</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">%1$sにDingTalk通知</string>
+    <string name="notification_channel_subtitle_ref_lary_2">%1$sにLark通知</string>
     <string name="notification_channel_subtitle_ref_mqq">iPhone からの QQ メッセージ</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">%1$sからの QQ メッセージ</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">%1$sにQQ通知</string>
     <string name="notification_channel_subtitle_ref_sms">iPhone からのメッセージ</string>
-    <string name="notification_channel_subtitle_ref_sms_1">%1$sからのメッセージ</string>
+    <string name="notification_channel_subtitle_ref_sms_2">%1$sにSMS</string>
+    <string name="notification_channel_subtitle_ref_wework_2">%1$sにWeCom通知</string>
     <string name="notification_channel_subtitle_ref_xin">iPhone からの WeChat メッセージ</string>
-    <string name="notification_channel_subtitle_ref_xin_1">%1$sからの WeChat メッセージ</string>
+    <string name="notification_channel_subtitle_ref_xin_2">%1$sにWeChat通知</string>
     <string name="notification_channel_title_name">Xiaomi デバイスに通知を同期</string>
+    <string name="notification_channel_title_name_2">他のデバイスからの通知</string>
+    <string name="notification_copy">コピー</string>
     <string name="notification_desc_scanning">付近のデバイスを検索しています…</string>
     <string name="notification_incoming_call_to_reply">着信。%1$sで受話</string>
+    <string name="notification_permission_accept">許可</string>
+    <string name="notification_permission_client_content">このデバイスの通知権限を%1$sで付与してください。</string>
+    <string name="notification_permission_client_title">%1$s で権限を付与してください</string>
     <string name="notification_permission_content">相互接続性がインストールされ、同じアカウントにサインインしている iPhone にこのデバイスの通知を表示することを許可します。</string>
+    <string name="notification_permission_content_v2">このデバイスの通話、SMS、アプリ通知を%1$sに表示することを許可しますか？</string>
+    <string name="notification_permission_deny">許可しない</string>
     <string name="notification_permission_new_content">このデバイスからの通話、メッセージ、アプリ通知を、通知同期がオンになっているiPhoneまたはクロスデバイス通知がオンになっている Xiaomi デバイスに表示することを許可します。</string>
+    <string name="notification_permission_request_content">ロックを解除してアクセスを許可する</string>
+    <string name="notification_permission_request_title">%1$sからの通知を許可する</string>
+    <string name="notification_permission_title">%1$s に通知権限を付与してください</string>
     <string name="notification_rc_title">XiaoMi テレビアシスタント</string>
     <string name="notification_revice_phone">%1$sからの通知</string>
+    <string name="notification_send_page_pad_disabled">[設定] > [相互接続性] > [クロスデバイス通知] で、%1$s のアプリ通知を許可してください</string>
+    <string name="notification_send_page_pad_offline">%1$sが、このデバイスと同じ Xiaomi アカウントでサインインし、同じネットワークに接続されていることを確認してください。また、[設定] > [相互接続性] > [クロスデバイス通知] でアプリ通知を許可してください。</string>
+    <string name="notification_send_page_title">このデバイスの通知を%1$sに同期</string>
     <string name="notification_show_more">タップしてその他の機能を表示</string>
     <string name="notification_support_applist">対応アプリ</string>
     <string name="notify_wifiap_dialog_msg">コードをスキャンしてネットワークを構成するには、まずポータブルホットスポットをオフにしてください。</string>
@@ -1312,6 +1467,7 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="open_wlan_self_china">相互接続機能を使用するには、WLAN をオンにしてください。今すぐオンにしますか？</string>
     <string name="open_wlan_self_toast">Wi-Fi をオンにして、もう一度お試しください</string>
     <string name="open_wlan_self_toast_china">WLAN をオンにして、もう一度お試しください</string>
+    <string name="operation_open_close">オン/オフ</string>
     <string name="paipai_connect_btn_text">完了</string>
     <string name="paipai_connect_tv1_text">デバイスに接続されました</string>
     <string name="paipai_connect_tv2_text">データが転送されました</string>
@@ -1375,7 +1531,7 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="passport_error_length_limit">入力したテキストが長すぎます</string>
     <string name="passport_error_network">ネットワークに接続できません</string>
     <string name="passport_error_no_password_user">パスワードをまだ設定していません。SMSでサインインしてください。</string>
-    <string name="passport_error_phone">電話番号が無効です</string>
+    <string name="passport_error_phone">有効な電話番号を入力してください</string>
     <string name="passport_error_server">サーバーエラー</string>
     <string name="passport_error_sms_limit">この番号に送信された認証コードが多すぎます。後でもう一度お試しください。</string>
     <string name="passport_error_ticket_invalid">このコードは正しくありません</string>
@@ -1484,14 +1640,17 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="path_setting_cast">その他の接続オプション/キャスト</string>
     <string name="path_setting_cast_demo">その他の接続オプション/キャスト/デモ</string>
     <string name="path_setting_cast_demo_document">その他の接続オプション/キャスト/デモ/ドキュメント</string>
-    <string name="path_setting_cast_demo_gallery">その他の接続オプション/キャスト/デモ/写真とビデオ</string>
+    <string name="path_setting_cast_demo_gallery">その他の接続オプション/キャスト/デモ/写真と動画</string>
     <string name="path_setting_cast_demo_game">その他の接続オプション/キャスト/デモ/ゲーム</string>
     <string name="path_setting_cast_feature">その他の接続オプション/キャスト/特別な機能</string>
     <string name="path_setting_cast_help">その他の接続オプション/キャスト/ヘルプ</string>
     <string name="permission_allowed">許可済み</string>
+    <string name="permission_label_access_app_meta">デバイス間でアプリを使用する際のアプリ情報へのアクセス</string>
     <string name="permission_uballowed">未付与</string>
     <string name="picker_view_description">クロスデバイスカメラ。カード内をタップすると、付近のデバイスのカメラを選択できます。</string>
     <string name="picker_view_outside_description">タップしてこのカードを閉じます。</string>
+    <string name="pin_device_header">ピン留めされたデバイス</string>
+    <string name="pin_hint">ピン留め</string>
     <string name="pm">午後</string>
     <string name="pre_privacy_setting_title">プライバシー</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
@@ -1526,13 +1685,13 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="privacy_permission_wlan_desc_china">付近の利用可能なデバイスを探すため</string>
     <string name="privacy_phone_read_theme_privacy_policy"><Data>\"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">相互接続性 プライバシーポリシーへの同意の撤回に関する声明&lt;/a>&lt;/font>\"を読んで同意しました。</Data></string>
     <string name="privacy_positive">同意</string>
-    <string name="privacy_read_statement">まず、使用条件に同意してください</string>
+    <string name="privacy_read_statement">まず、利用規約に同意してください</string>
     <string name="privacy_revoke_agree_detail_content">"%1$d. 続ける前に、同意を撤回する権利があることを確認してください。
-%2$d. 同意を撤回した後、すでに収集および保持されている個人情報は、別段の要求がない限り、適用される法令に従って特定の期間内に削除されます。相互接続サービスは必要な個人情報の収集に基づいて提供されるため、同意の撤回は相互接続サービスの受け入れを拒否したものとみなされます。同意を撤回しても、他の機能やサービスの通常の使用には影響しません。
+%2$d. 同意を撤回した後、すでに収集および保持されている個人情報は、別段の定めがある場合を除き、適用される法令に従って特定の期間内に削除されます。相互接続サービスは必要な個人情報の収集に基づいて提供されるため、同意の撤回は相互接続サービスの受け入れを拒否したものとみなされます。同意を撤回しても、他の機能やサービスの通常の使用には影響しません。
 %3$d. 同意の撤回は不可逆的な行為です。同意が撤回されると、その決定を再考することはできなくなることを忘れないでください。"</string>
     <string name="privacy_revoke_agree_detail_prompt">相互接続性 プライバシーポリシーへの同意の撤回に関する声明</string>
     <string name="privacy_revoke_agree_detail_title">同意を撤回する前に、「相互接続性 プライバシーポリシーへの同意の撤回に関する声明」を読んで同意してください。</string>
-    <string name="privacy_revoke_agree_introduce">続けると、相互接続性 プライバシーポリシーへの同意を撤回することになります。すでに収集され保持されている個人情報は、別段の要求がない限り、適用される法令に基づいて特定の期間内に削除されます。相互接続性サービスは必要な個人情報の収集に基づいて提供されるため、同意の撤回は相互接続性サービスの受け入れを拒否したものとみなされます。 同意を撤回しても、他の機能やサービスの通常の使用には影響しません。</string>
+    <string name="privacy_revoke_agree_introduce">続けると、相互接続性 プライバシーポリシーへの同意を撤回することになります。すでに収集され保持されている個人情報は、別段の定めがある場合を除き、適用される法令に基づいて特定の期間内に削除されます。相互接続性サービスは必要な個人情報の収集に基づいて提供されるため、同意の撤回は相互接続性サービスの受け入れを拒否したものとみなされます。 同意を撤回しても、他の機能やサービスの通常の使用には影響しません。</string>
     <string name="privacy_revoke_agree_warning_map_text">注意</string>
     <string name="privacy_revoke_confirm_cancel">キャンセル</string>
     <string name="privacy_revoke_confirm_message">必要な個人情報の収集に基づくサービスの提供を許可しない限り、キャスト機能の利用を継続することはできません。HappyCastのプライバシーポリシーへの同意を撤回しますか？</string>
@@ -1603,6 +1762,7 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="screen_projection">キャスト</string>
     <string name="screen_projection_characteristics">特別な機能</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Xiaomi HyperIslandでアプリキャストに切り替えると、スマートフォンで他のアプリを使用しながら、現在のアプリを外部モニターにキャストできます</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Xiaomi HyperIslandでアプリキャストに切り替えると、タブレットで他のアプリを使用しながら、現在のアプリを外部モニターにキャストできます</string>
     <string name="screen_projection_characteristics_cast_summary">画面のコンテンツを付近のテレビにキャストする</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">バッテリーを節約し発熱を避けるため、キャスト中はモバイルデバイスの画面をオフにしてください</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">キャスト中は画面をオフにして、電力消費と発熱を抑えます</string>
@@ -1626,7 +1786,7 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="screen_projection_example_gallery_hint_new"><Data>*この機能を使用するには、ギャラリーに移動して写真を選択し、下部バーの \"送信\" をタップして、&lt;img src=../drawable/ic_cast_icon_photo.png/> アイコンをタップします。</Data></string>
     <string name="screen_projection_example_gallery_summary">ギャラリーアプリ内のアイテムの下にある共有ボタンをタップすると、そのアイテムが外部モニターに表示されます。</string>
     <string name="screen_projection_example_gallery_summary_miui15">写真やビデオをテレビ画面に表示する</string>
-    <string name="screen_projection_example_gallery_title">写真とビデオ</string>
+    <string name="screen_projection_example_gallery_title">写真と動画</string>
     <string name="screen_projection_example_game_hint_miui15">"* ゲームをキャストするには、プレイ中にゲームターボの [キャスト] をタップしてください。
 ゲームをキャストする前に、ゲームターボがオンになっていることを確認してください。"</string>
     <string name="screen_projection_example_game_summary">ゲームターボを使用すると、ゲームを外部モニターにキャストできます。この機能をオンにするには、 ゲームターボのツールボックスにあるショートカットを使用します。</string>
@@ -1674,6 +1834,7 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="small_window_not_supported">このアプリはキャスト中に最小化できません</string>
     <string name="sound_card_circulatable_control_text">再生コントロール</string>
     <string name="sound_card_circulatable_source_text">オーディオソース</string>
+    <string name="start_btn">オンにする</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">メガネカメラは使用中です。しばらくしてからもう一度お試しください。</string>
     <string name="start_forbidden_by_glasses_in_audio_record">録音中です。カメラを開けません。</string>
     <string name="start_forbidden_by_glasses_in_translation">翻訳中です。カメラを開けません。</string>
@@ -1780,21 +1941,25 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="title_connection_interrupted">接続が中断されました</string>
     <string name="title_install">Mi キャンバスをインストール</string>
     <string name="title_update">Mi キャンバスをアップデート</string>
+    <string name="to_login">サインイン</string>
     <string name="toast_confirm_network">セットアップを完了できませんでした。このデバイスがネットワークに接続されていることを確認してください。</string>
     <string name="toast_copy_auth_message_finish">正常にコピーされました</string>
     <string name="toast_guide_show_more">もっと詳しく知る</string>
     <string name="toast_guide_title">新機能についてはこちらをご覧ください</string>
     <string name="toast_invisible_mode">シークレットモードになっています。キャストは使用できません。</string>
     <string name="toast_invisible_mode1">シークレットモード時にキャストは機能しません</string>
+    <string name="toast_local_not_install">このアプリはインストールされていません</string>
     <string name="toast_msg_for_multi_window">分割画面ではこの機能を使用できません</string>
     <string name="toast_msg_for_small_window">キャスト中のウィンドウを最小化して、キャストプロセスを中断せずにスマートフォンの他の機能を使用できます。</string>
     <string name="toast_nfc_dont_move">スマートフォンを動かさないでください</string>
     <string name="toast_nfc_same_wifi">テレビとこのデバイスの両方を同じネットワークに接続してください</string>
+    <string name="toast_notification_device_not_found">%1$sが、このデバイスと同じ Xiaomi アカウントにサインインしていることを確認してください</string>
     <string name="toast_remote_not_install">このアプリは、お使いの%1$sにインストールされていません。</string>
     <string name="toast_retry">設定が適用されるまで待ち、もう一度お試しください</string>
     <string name="toast_synchronization">デバイスの状態を確認中です。後でもう一度お試しください。</string>
     <string name="toast_title_for_small_window">アプリで \"ウィンドウを最小化\" を選択します</string>
     <string name="toast_turn_off_hotspot_before_cast">キャストする前にポータブルホットスポットをオフにしてください</string>
+    <string name="toast_watch_app_not_install">このアプリをインストールして、もう一度お試しください</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
     <string name="trust_device_desc">これらのデバイスが付近にある場合、最初にここに表示されます</string>
@@ -1809,6 +1974,7 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="tuesday_shortest">火</string>
     <string name="unlock_screen_to_authorize_camera">%sはこのデバイスのカメラの使用を希望しています</string>
     <string name="unlock_screen_to_authorize_camera_car">%s がこのデバイスのカメラにアクセスしています</string>
+    <string name="unpin_hint">ピン留めを解除</string>
     <string name="update">アップデート</string>
     <string name="upgrade_accessibility_cancel_download">ダウンロードをキャンセルしました</string>
     <string name="upgrade_accessibility_finish_all_upgrade">正常にアップデートされました。現在のバージョンは最新です。</string>
@@ -1859,12 +2025,43 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="using_camera_of_device_description">%1$s のカメラを使用しています。</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
+    <string name="verification_code_flow_title">%1$sの認証コード</string>
+    <string name="verification_code_list_title">コード</string>
+    <string name="watch_app_12306">Railway 12306</string>
+    <string name="watch_app_amap">Amap</string>
+    <string name="watch_app_baidu_map">Baidu Maps</string>
+    <string name="watch_app_category_title">対応アプリ</string>
+    <string name="watch_app_didi">DiDi</string>
+    <string name="watch_app_hanglv">Umetrip</string>
+    <string name="watch_app_jd">JD</string>
+    <string name="watch_app_meituan">Meituan</string>
+    <string name="watch_app_meituan_waimai">Meituan Delivery</string>
+    <string name="watch_app_taobao">Taobao</string>
+    <string name="watch_app_taobao_flash">Taobao Shangou</string>
+    <string name="watch_call_sync_desc">このデバイスから転送された通話に応答</string>
+    <string name="watch_call_sync_title">通話</string>
+    <string name="watch_dynamic_island_desc">旅行、ナビゲーション、食品配達などのリアルタイム情報を同期</string>
+    <string name="watch_dynamic_island_page_title">Xiaomi HyperIsland からの通知を Apple Watch に同期する</string>
+    <string name="watch_dynamic_island_title">Xiaomi HyperIsland</string>
+    <string name="watch_header_title">Apple Watch</string>
+    <string name="watch_health_data_desc">Apple Watch から のフィットネスおよび健康データを Mi Fitness に同期する</string>
+    <string name="watch_health_data_title">健康データ</string>
     <string name="watch_more_setting">その他のオプション</string>
+    <string name="watch_notification_sync_desc">このデバイスからの通知を同期</string>
+    <string name="watch_notification_sync_page_title">このデバイスの通知をApple Watchに同期</string>
+    <string name="watch_notification_sync_title">通知</string>
+    <string name="watch_page_description">"このデバイスからの通話、メッセージ、通知、Xiaomi HyperIsland のリアルタイム情報を Apple Watch で受信します。Apple Watch のフィットネスと健康データを Mi Fitness と同期することもできます。
+* 相互接続性機能をすべて使用するには、必要な権限を付与してください。"</string>
+    <string name="watch_page_description_global">"このデバイスからの通話、メッセージ、通知をApple Watchで受信します。
+*すべての相互接続性機能を使用するには、必要な権限をオンにしてください。"</string>
+    <string name="watch_status_enabled">オン</string>
+    <string name="watch_status_not_enabled">オフ</string>
     <string name="wednesday">水曜日</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>
     <string name="wifi_connect_btn_text">設定</string>
-    <string name="wifi_disabled_dialog_message">クロスデバイスカメラを使用するには、デバイスの WLAN をオンにしてください。</string>
+    <string name="wifi_disabled_dialog_message_china">クロスデバイスカメラを使用するには、WLAN をオンにしてください。</string>
+    <string name="wifi_disabled_dialog_message_gl">クロスデバイスカメラを使用するには、Wi-Fi をオンにしてください。</string>
     <string name="wifi_disabled_dialog_positive_button">了解</string>
     <string name="wifi_disabled_dialog_title">クロスデバイスカメラ</string>
     <string name="wifi_other">その他のネットワーク</string>
@@ -1874,5 +2071,23 @@ Miracast をオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="wifi_username_et_hint">アカウントID</string>
     <string name="window_card_ml_find_null">このデバイスは付近にない可能性があります</string>
     <string name="window_card_ml_find_null_camera">付近にカメラまたは利用可能なデバイスが見つかりませんでした</string>
+    <string name="window_card_pin_device_offline_group_cancel">家全体での再生がキャンセルされました</string>
+    <string name="window_card_pin_device_offline_no_connection">デバイスが切断されました</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_car">車両がこのデバイスに Bluetooth で接続されており、使用中であることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_device">Bluetooth デバイスがこのデバイスに接続され、使用中であることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_glasses">メガネがこのデバイスにBluetoothで接続され、使用中であることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_headset">イヤホンがこのデバイスにBluetoothで接続され、使用中であることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_bluetooth_sound">スピーカーがこのデバイスにBluetoothで接続されており、使用中であることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_car">"1. 本デバイスが車両のホットスポットに接続されていることを確認してください。
+2. 両方のデバイスで同じ Xiaomi アカウントにサインインすることも可能です。車両側の [設定] > [接続] > [相互接続性] から、両デバイスを接続できます。"</string>
+    <string name="window_card_pin_device_offline_subtitle_group">Xiaomi Smart Play で複数のデバイスが選択されていることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_pad">両方のデバイスが互いに近くにあることを確認し、Bluetoothがオンになっていることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_pad_car">このデバイスが車両のホットスポットに接続されていることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_pc">両方のデバイスが互いに近くにあることを確認し、Bluetoothがオンになっていることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_phone">両方のデバイスが互いに近くにあること、同じ Xiaomi アカウントにサインインしていること、そしてBluetoothがオンになっていることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_sound">両方のデバイスが同じLANに接続されていることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_third_tv">このデバイスがテレビにキャストされていることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_tv">両方のデバイスが同じLANに接続されていることを確認してください</string>
+    <string name="window_card_pin_device_offline_subtitle_watch">Mi Fitnessで、時計またはバンドが接続されていることを確認してください</string>
     <string name="yesterday">昨日</string>
 </resources>

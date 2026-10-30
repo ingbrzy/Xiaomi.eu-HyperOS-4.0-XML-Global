@@ -288,6 +288,7 @@
     <string name="copy_verification_code_tip">คัดลอกเรียบร้อยแล้ว</string>
     <string name="current_data_version">เวอร์ชั่น ข้อความ Mi</string>
     <string name="date">วันที่</string>
+    <string name="date_and_time">วันที่และเวลา</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -360,6 +361,7 @@
     <string name="edit_phrase">แก้ไขการตอบกลับด่วน</string>
     <string name="edit_slide_activity">แก้ไขสไลด์</string>
     <string name="edit_slideshow_activity">แก้ไขการแสดงสไลด์</string>
+    <string name="emergency_alert_history_records">ประวัติการแจ้งเตือนฉุกเฉิน</string>
     <string name="emergency_label">รายชื่อติดต่อฉุกเฉิน</string>
     <string name="empty" />
     <string name="enable_classify_tip_dialog_content">วิธีนี้จะเปิดใช้งานแอปข้อความใหม่ ดำเนินการต่อ?</string>
@@ -625,7 +627,7 @@
     <string name="message_rejected">ปฏิเสธ</string>
     <string name="message_saved_as_draft">บันทึกข้อความเป็นฉบับร่างแล้ว</string>
     <string name="message_send_failed">ไม่สามารถส่งข้อความได้</string>
-    <string name="message_send_failed_title">ไม่ได้ส่งข้อความ</string>
+    <string name="message_send_failed_title">ข้อความไม่ถูกส่ง</string>
     <string name="message_send_read_report">ส่งรายงานแล้ว</string>
     <string name="message_send_status">สถานะการส่ง</string>
     <string name="message_sent">ส่งเรียบร้อยแล้ว</string>
@@ -683,6 +685,7 @@
     <string name="miuix_navigator_multiple_choice">เลือก</string>
     <string name="miuix_navigator_navigator_switch_description">ซ่อนแถบด้านข้าง</string>
     <string name="miuix_navigator_toolbar_screen_bottom">แถบเครื่องมือที่ด้านล่างของหน้าจอ</string>
+    <string name="miuix_popup_show_description">หน้าต่างป๊อปอัป</string>
     <string name="miuix_popup_window_default_title">หน้าต่างป๊อปอัป</string>
     <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
@@ -1012,10 +1015,11 @@
     <string name="pref_title_privacy_policy_detail">นโยบายความเป็นส่วนตัว</string>
     <string name="pref_title_send_delivery_reports">ส่งข้อความตอบรับ</string>
     <string name="pref_title_smart_msg_privacy_policy">นโยบายความเป็นส่วนตัว Smart Messaging</string>
+    <string name="pref_title_sms_block_setting">การตั้งค่ารายการบล็อก</string>
     <string name="pref_title_sms_delete">จำกัดจำนวนข้อความตัวอักษรที่ส่งได้</string>
     <string name="pref_title_sms_validity_period">ระยะเวลารอส่ง SMS</string>
     <string name="pref_title_storage_status">สถานะการจัดเก็บข้อความ</string>
-    <string name="pref_title_switch_aim_card">แปลงข้อความเป็นบัตร</string>
+    <string name="pref_title_switch_aim_card">แปลงข้อความเป็นการ์ด</string>
     <string name="pref_title_system_mms_priority">ตั้งเป็นค่าเริ่มต้น</string>
     <string name="pref_title_vcard">ส่งทาง vCard</string>
     <string name="pref_title_voice_report">อ่านข้อความออกมาดังๆ</string>
@@ -1170,7 +1174,7 @@
     <string name="rcs_list_bottom_search">กำลังค้นหา…</string>
     <string name="rcs_locaiton_failed">ไม่สามารถเข้าถึงตำแหน่งพิกัดได้</string>
     <string name="rcs_locaiton_hint_text">กำลังค้นหา…</string>
-    <string name="rcs_main_purpose">คุณสามารถใช้บริการนี้เพื่อส่งและรับรูปภาพ ข้อความเสียง วิดีโอ และอื่นๆ บริการนี้จำเป็นต้องมีการเข้าถึงตำแหน่งที่ตั้ง</string>
+    <string name="rcs_main_purpose">คุณสามารถใช้บริการนี้เพื่อส่งและรับรูปภาพ ข้อความเสียง วิดีโอ และอื่นๆ บริการนี้ต้องการการเข้าถึงตำแหน่งที่ตั้ง ข้อมูล WLAN และที่อยู่ MAC ของอุปกรณ์เพื่อยืนยันตัวตนของคุณ</string>
     <string name="rcs_message">ข้อความ 5G</string>
     <string name="rcs_message_disable">ไม่สามารถเรียกดูข้อความนี้ในพื้นที่ทับซ้อน</string>
     <string name="rcs_message_title">การส่งข้อความ 5G</string>
@@ -1556,7 +1560,7 @@
     <string name="toast_not_show_calendar_perm_req">อนุญาตให้ ข้อความ เข้าถึง ปฏิทิน เพื่อใช้คุณสมบัตินี้</string>
     <string name="toast_not_show_call_log_perm_req">อนุญาตให้ ข้อความ เข้าถึงประวัติการโทรของคุณเพื่อใช้คุณสมบัตินี้</string>
     <string name="toast_not_show_call_perm_req">อนุญาตให้ ข้อความ โทรออก เพื่อใช้คุณสมบัตินี้</string>
-    <string name="toast_not_show_camera_perm_req">อนุญาตให้ส่งข้อความเพื่อใช้กล้องเพื่อให้สามารถใช้คุณสมบัตินี้</string>
+    <string name="toast_not_show_camera_perm_req">อนุญาตให้แอปส่งข้อความใช้กล้องเพื่อใช้งานฟีเจอร์นี้</string>
     <string name="toast_not_show_location_perm_req">อนุญาตให้ ข้อความ เข้าถึงตำแหน่งของคุณเพื่อใช้คุณสมบัตินี้</string>
     <string name="toast_not_show_read_mms_perm_req">หากต้องการดูข้อความที่ได้รับ คุณต้องให้สิทธิ์การรับส่งข้อความเพื่ออ่าน SMS และ MMS คุณสามารถให้สิทธิ์นี้ในการตั้งค่า</string>
     <string name="toast_not_show_send_sms_perm_req">เพื่อให้สามารถใช้คุณลักษณะนี้ได้ ให้อนุญาตให้แอปนี้ส่งข้อความก่อน</string>
@@ -1589,6 +1593,7 @@
     <string name="unknown">ไม่มี</string>
     <string name="unknown_num">เลขหมายที่ไม่รู้จัก</string>
     <string name="unknown_sender">ไม่ทราบผู้ส่ง</string>
+    <string name="unselected_message">ไม่ได้เลือกข้อความใดๆ</string>
     <string name="unstick">เลิกปักหมุด</string>
     <string name="unsticked">เลิกปักหมุดเรียบร้อยแล้ว</string>
     <string name="unsubscribe">ยกเลิกการสมัคร</string>

@@ -60,6 +60,12 @@
         <item quantity="many">Pridėta %d programėlių</item>
         <item quantity="other">Pridėtos %d programėlės</item>
     </plurals>
+    <plurals name="anti_peeping_recommend_selected_tips">
+        <item quantity="one">Greitai įjungti rodymą %1$d programai</item>
+        <item quantity="few">Greitai įjungti rodymą %1$d programoms</item>
+        <item quantity="many">Greitai įjungti rodymą %1$d programų</item>
+        <item quantity="other">Greitai įjungti rodymą %1$d programoms</item>
+    </plurals>
     <plurals name="app_behavior_dashboard_title_desc">
         <item quantity="one">%d programa</item>
         <item quantity="few">%d programos</item>
@@ -92,7 +98,7 @@
     </plurals>
     <plurals name="app_behavior_record_close_content_text">
         <item quantity="one">Programos elgsenos įrašai šiame įrenginyje bus saugomi %d dieną. Šios funkcijos išjungti nerekomenduojama, o tai padarius visi programos elgsenos įrašai bus ištrinti.</item>
-        <item quantity="few">Programos elgsenos įrašai šiame įrenginyje bus saugomi %d dienas. Šios funkcijos išjungti nerekomenduojama, o tai padarius visi programos elgsenos įrašai bus ištrinti.</item>
+        <item quantity="few">Programos elgsenos įrašai šiame įrenginyje bus saugomi %d dienų. Šios funkcijos išjungti nerekomenduojama, o tai padarius visi programos elgsenos įrašai bus ištrinti.</item>
         <item quantity="many">Programos elgsenos įrašai šiame įrenginyje bus saugomi %d dienų. Šios funkcijos išjungti nerekomenduojama, o tai padarius visi programos elgsenos įrašai bus ištrinti.</item>
         <item quantity="other">Programos elgsenos įrašai šiame įrenginyje bus saugomi %d dienų. Šios funkcijos išjungti nerekomenduojama, o tai padarius visi programos elgsenos įrašai bus ištrinti.</item>
     </plurals>
@@ -161,6 +167,12 @@
         <item quantity="few">%s programos bus apsaugotos programų užraktu</item>
         <item quantity="many">%s programos bus apsaugotos programų užraktu</item>
         <item quantity="other">%s programų bus apsaugota programų užraktu</item>
+    </plurals>
+    <plurals name="background_virus_scan_notification_title">
+        <item quantity="one">Aptikta %d kenkėjiška programa</item>
+        <item quantity="few">Aptiktos %d kenkėjiškos programos</item>
+        <item quantity="many">Aptikta %d kenkėjiškų programų</item>
+        <item quantity="other">Aptikta %d kenkėjiškų programų</item>
     </plurals>
     <plurals name="behavior_widget_app_text">
         <item quantity="one">%2$d programėlė, įskaitant %1$s</item>
@@ -656,6 +668,12 @@ Išbandykite nemokamą %d-os dienų bandomąją versiją!"</item>
         <item quantity="many">Pridėti %d žaidimai</item>
         <item quantity="other">Pridėta %d žaidimų</item>
     </plurals>
+    <plurals name="intercept_accessibility_virus_notifiction_title">
+        <item quantity="one">Užblokuota %d kenkėjiška programa</item>
+        <item quantity="few">Užblokuotos %d kenkėjiškos programos</item>
+        <item quantity="many">Užblokuota %d kenkėjiškų programų</item>
+        <item quantity="other">Užblokuota %d kenkėjiškų programų</item>
+    </plurals>
     <plurals name="intl_perm_privacy_control_message_count">
         <item quantity="one">Galite apsaugoti %d elementą</item>
         <item quantity="few">Galite apsaugoti %d elementus</item>
@@ -884,12 +902,6 @@ Išbandykite nemokamą %d-os dienų bandomąją versiją!"</item>
         <item quantity="many">%d programos</item>
         <item quantity="other">%d programų</item>
     </plurals>
-    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
-        <item quantity="one">%2$d programėlė, įskaitant %1$s, gali būti kenksminga</item>
-        <item quantity="few">%2$d programėlės, įskaitant %1$s, gali būti kenksmingos</item>
-        <item quantity="many">%2$d programėlės, įskaitant %1$s, gali būti kenksmingos</item>
-        <item quantity="other">%2$d programėlių, įskaitant %1$s, gali būti kenksmingos</item>
-    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="one">+%d</item>
         <item quantity="few">+%d</item>
@@ -931,6 +943,18 @@ Išbandykite nemokamą %d-os dienų bandomąją versiją!"</item>
         <item quantity="few">%d dienos</item>
         <item quantity="many">%d dienų</item>
         <item quantity="other">%d dienos</item>
+    </plurals>
+    <plurals name="pc_battery_text_hour">
+        <item quantity="one">%d valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandų</item>
+        <item quantity="other">%d valandų</item>
+    </plurals>
+    <plurals name="pc_battery_text_minute">
+        <item quantity="one">%d minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minučių</item>
+        <item quantity="other">%d minučių</item>
     </plurals>
     <plurals name="pc_can_be_optimize_numbers">
         <item quantity="one">%d elementas</item>
@@ -1004,6 +1028,12 @@ Išbandykite nemokamą %d-os dienų bandomąją versiją!"</item>
         <item quantity="many">Liko %s minutės</item>
         <item quantity="other">Liko %s minučių</item>
     </plurals>
+    <plurals name="pc_smart_charge_notify_summary_long_time_charge">
+        <item quantity="one">Pastarąją %1$d dieną įkrovimo seansai buvo ilgi. Įkrovimas bus pristabdytas %2$s.</item>
+        <item quantity="few">Pastarąsias %1$d dienas įkrovimo seansai buvo ilgi. Įkrovimas bus pristabdytas %2$s.</item>
+        <item quantity="many">Pastarųjų %1$d dienų įkrovimo seansai buvo ilgi. Įkrovimas bus pristabdytas %2$s.</item>
+        <item quantity="other">Pastarųjų %1$d dienų įkrovimo seansai buvo ilgi. Įkrovimas bus pristabdytas %2$s.</item>
+    </plurals>
     <plurals name="pc_statistics_battery_last_hour">
         <item quantity="one">Liko %d valanda</item>
         <item quantity="few">Liko %d valandos</item>
@@ -1027,6 +1057,30 @@ Išbandykite nemokamą %d-os dienų bandomąją versiją!"</item>
         <item quantity="few">%d sekundės nuo paskutinės įkrovos</item>
         <item quantity="many">%d sekundės nuo paskutinės įkrovos</item>
         <item quantity="other">%d sekundžių nuo paskutinės įkrovos</item>
+    </plurals>
+    <plurals name="peep_protection_v2_category_group_title">
+        <item quantity="one">%1$s (%2$d)</item>
+        <item quantity="few">%1$s (%2$d)</item>
+        <item quantity="many">%1$s (%2$d)</item>
+        <item quantity="other">%1$s (%2$d)</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_apps">
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_strategies">
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_page_count">
+        <item quantity="one">%d puslapis</item>
+        <item quantity="few">%d puslapiai</item>
+        <item quantity="many">%d puslapių</item>
+        <item quantity="other">%d puslapiai</item>
     </plurals>
     <plurals name="people">
         <item quantity="one">Parsisiuntė %1$d asmuo</item>
@@ -1525,6 +1579,12 @@ Išbandykite nemokamą %d-os dienų bandomąją versiją!"</item>
         <item quantity="few">%d programos</item>
         <item quantity="many">%d programos</item>
         <item quantity="other">%d programų</item>
+    </plurals>
+    <plurals name="uniauth_reset_lockscreen_sub_title">
+        <item quantity="one">Liko %1$d bandymas</item>
+        <item quantity="few">Liko %1$d bandymai</item>
+        <item quantity="many">Liko %1$d daug bandymų</item>
+        <item quantity="other">Liko %1$d bandymai</item>
     </plurals>
     <plurals name="uninstall_game_count_title">
         <item quantity="one">Nebuvo pridėtas %d žaidimas</item>

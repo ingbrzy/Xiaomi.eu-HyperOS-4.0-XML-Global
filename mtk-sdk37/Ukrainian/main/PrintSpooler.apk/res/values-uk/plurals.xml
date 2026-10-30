@@ -43,16 +43,22 @@
         <item quantity="other">Через %d хв</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Тільки що</item>
-        <item quantity="few">Тільки що</item>
-        <item quantity="many">Тільки що</item>
-        <item quantity="other">Тільки що</item>
+        <item quantity="one">Щойно</item>
+        <item quantity="few">Щойно</item>
+        <item quantity="many">Щойно</item>
+        <item quantity="other">Щойно</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="one">%d хв назад</item>
         <item quantity="few">%d хв назад</item>
         <item quantity="many">%d хв назад</item>
         <item quantity="other">%d хв назад</item>
+    </plurals>
+    <plurals name="delete_selected_printers_content">
+        <item quantity="one">"Видалити %1$d вибраний об'єкт?"</item>
+        <item quantity="few">"Видалити %1$d вибраних об'єкта?"</item>
+        <item quantity="many">"Видалити %1$d вибраних об'єктів?"</item>
+        <item quantity="other">"Видалити %1$d вибраних об'єктів?"</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">Півгодини тому</item>
@@ -102,6 +108,24 @@
         <item quantity="many">%d хв тому</item>
         <item quantity="other">%d хв тому</item>
     </plurals>
+    <plurals name="page_details_total_pages_format">
+        <item quantity="one">(Всього %1$d сторінка)</item>
+        <item quantity="few">(Всього %1$d сторінки)</item>
+        <item quantity="many">(Всього %1$d сторінок)</item>
+        <item quantity="other">(Всього %1$d сторінок)</item>
+    </plurals>
+    <plurals name="page_range_format">
+        <item quantity="one">%1$d–%2$d (Всього %3$d сторінка)</item>
+        <item quantity="few">%1$d–%2$d (Всього %3$d сторінки)</item>
+        <item quantity="many">%1$d–%2$d (Всього %3$d сторінок)</item>
+        <item quantity="other">%1$d–%2$d (Всього %3$d сторінок)</item>
+    </plurals>
+    <plurals name="pint_job_number_text">
+        <item quantity="one">Всього %1$d файл</item>
+        <item quantity="few">Всього %1$d файла</item>
+        <item quantity="many">Всього %1$d файлів</item>
+        <item quantity="other">Всього %1$d файлів</item>
+    </plurals>
     <plurals name="print_search_result_count_utterance">
         <item quantity="one">Знайдено %1$s принтер</item>
         <item quantity="few">Знайдено %1$s принтери</item>
@@ -113,5 +137,11 @@
         <item quantity="few">Установіть, щоб знайти %1$s принтери</item>
         <item quantity="many">Установіть, щоб знайти %1$s принтерів</item>
         <item quantity="other">Установіть, щоб знайти %1$s принтера</item>
+    </plurals>
+    <plurals name="selected_count_title">
+        <item quantity="one">"Вибрано об'єктів: %1$d"</item>
+        <item quantity="few">"Вибрано об'єктів: %1$d"</item>
+        <item quantity="many">"Вибрано об'єктів: %1$d"</item>
+        <item quantity="other">"Вибрано об'єктів: %1$d"</item>
     </plurals>
 </resources>

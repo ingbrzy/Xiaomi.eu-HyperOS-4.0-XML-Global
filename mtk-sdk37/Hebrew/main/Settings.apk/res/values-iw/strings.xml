@@ -1033,7 +1033,7 @@
     <string name="autofill_reset_developer_options">איפוס לערכי ברירת המחדל</string>
     <string name="autofill_reset_developer_options_complete">האפשרויות למפתחים למילוי האוטומטי אופסו</string>
     <string name="automatic_keyboard_layout_label">אוטומטי: %s</string>
-    <string name="automatic_sim_lock_protection">‏הגנה אוטומטית באמצעות נעילת כרטיס ה-SIM</string>
+    <string name="automatic_sim_lock_protection">‏נעילת כרטיס ה-SIM להגנה</string>
     <string name="automatic_sim_lock_settings_title">‏הגנה על כרטיס ה-SIM</string>
     <string name="automatic_storage_manager_activation_warning">האחסון שלך מנוהל כעת על ידי מנהל האחסון</string>
     <string name="automatic_storage_manager_days_title">הסרת תמונות וסרטונים</string>
@@ -1877,6 +1877,7 @@
     <string name="choose_profile">בחירת פרופיל</string>
     <string name="choose_sim_activating">מתבצעת הפעלה…</string>
     <string name="choose_sim_could_not_activate">‏לא ניתן להפעיל את כרטיס ה-SIM כרגע</string>
+    <string name="choose_sim_pin_protection_mode">‏בחירת מצב ההגנה של כרטיס ה-SIM</string>
     <string name="choose_sim_text">{count,plural, =1{‏יש כרטיס SIM אחד זמין במכשיר הזה, אבל ניתן להשתמש רק באחד בכל פעם}=2{‏יש שני כרטיסי SIM זמינים במכשיר הזה, אבל ניתן להשתמש רק באחד בכל פעם}one{‏יש # כרטיסי SIM זמינים במכשיר הזה, אבל ניתן להשתמש רק באחד בכל פעם}other{‏יש # כרטיסי SIM זמינים במכשיר הזה, אבל ניתן להשתמש רק באחד בכל פעם}}</string>
     <string name="choose_sim_title">‏בוחרים כרטיס SIM לשימוש</string>
     <string name="choose_spell_checker">בחירת בודק איות</string>
@@ -1988,6 +1989,8 @@
     <string name="confirm_enable_oem_unlock_title">‏האם לאפשר ביטול נעילה של OEM (יצרן ציוד מקורי)?</string>
     <string name="confirm_ext4_button_text">מחיקת כל הנתונים ועדכון</string>
     <string name="confirm_new_backup_pw_prompt">יש להקליד מחדש את הסיסמה החדשה שלך לגיבוי מלא כאן</string>
+    <string name="confirm_new_sim_pin_after_mismatch">‏הקודים הסודיים לא תואמים. צריך לאשר את הקוד הסודי החדש של כרטיס ה-SIM.</string>
+    <string name="confirm_new_sim_pin_title">‏אישור הקוד הסודי החדש לכרטיס ה-SIM</string>
     <string name="confirm_oem_unlock_for_16k_text">‏לפני שמשתמשים באפשרות למפתחים של מצב 16KB, צריך לבטל את הנעילה של תוכנת האתחול במכשיר הזה. לא בטוח שהתוכנה תעבוד באופן תקין במצב הזה. הנתונים שמאוחסנים בטלפון נמצאים בסיכון כשתוכנת האתחול לא נעולה. כשמצב 16KB יופעל, כל נתוני המשתמש וההגדרות יאופסו. אחרי שמבטלים את הנעילה של תוכנת האתחול, צריך להפעיל מחדש את המכשיר פעמיים כדי שאפשרות 16KB תפעל. כשנמצאים במצב הזה, אפשר לעבור בין מצב 4KB לבין מצב 16KB בהפעלה אחת מחדש. חלק מהתכונות יושבתו במצבים האלה, לכן חלק מהאפליקציות לא יפעלו. כדי להחזיר את המכשיר למצב ייצור, צריך לחזור למצב 4KB ולנעול את המכשיר באמצעות תוכנת האתחול או OEM. הנעילה תאפס את המכשיר להגדרות המקוריות. צריך לבטל את הנעילה של תוכנת האתחול ולנסות שוב. הוראות לביצוע הפעולה זמינות בכתובת &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a>.</string>
     <string name="confirm_oem_unlock_for_16k_title">צריך לבטל את הנעילה של תוכנת האתחול</string>
     <string name="confirm_sim_deletion_description">‏עליך לאמת את זהותך לפני מחיקה של eSIM</string>
@@ -2088,7 +2091,7 @@
     <string name="credential_using_for_wifi">משמשים ל-%s</string>
     <string name="credentials_erased">פרטי הכניסה המאוחסנים נמחקו.</string>
     <string name="credentials_install">התקנת אישור</string>
-    <string name="credentials_install_summary">‏התקנת אישורים מכרטיס SD</string>
+    <string name="credentials_install_summary">התקנת אישורים מאמצעי אחסון</string>
     <string name="credentials_not_erased">לא ניתן למחוק את האמצעי לאחסון אישורים.</string>
     <string name="credentials_reset">ניקוי פרטי כניסה</string>
     <string name="credentials_reset_hint">להסיר את כל התוכן?</string>
@@ -2634,6 +2637,8 @@
     <string name="enhanced_4g_lte_mode_title_4g_calling">‏שיחות 4G</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling">שיחות טלפון מתקדמות</string>
     <string name="enhanced_connectivity_summary">הפעלה של תכונת הקישוריות המשופרת.</string>
+    <string name="enter_current_sim_pin_after_mismatch">הקוד הסודי שגוי. מספר הניסיונות שנשארו: %1$d</string>
+    <string name="enter_current_sim_pin_hint">‏צריך להקליד את הקוד הסודי הנוכחי של כרטיס ה-SIM</string>
     <string name="enterprise_privacy_always_on_vpn_device">"‏האפשרות 'חיבור תמידי ל-VPN' פועלת"</string>
     <string name="enterprise_privacy_always_on_vpn_personal">"‏האפשרות 'חיבור תמידי ל-VPN' פועלת בפרופיל האישי שלך"</string>
     <string name="enterprise_privacy_always_on_vpn_work">"‏האפשרות 'חיבור תמידי ל-VPN' פועלת בפרופיל העבודה שלך"</string>
@@ -2673,8 +2678,8 @@
     <string name="enterprise_privacy_settings_summary_with_name">הגדרות ושינויים המנוהלים על ידי %s</string>
     <string name="enterprise_privacy_usage_stats">כמות הזמן והנתונים שכל אפליקציה ניצלה</string>
     <string name="enterprise_privacy_wipe_device">מנהל המערכת יכול למחוק את כל הנתונים מהמכשיר</string>
-    <string name="erase_external_storage">‏מחיקת כרטיס SD</string>
-    <string name="erase_external_storage_description">‏מחיקת כל הנתונים שבכרטיס ה-SD, כגון מוזיקה או תמונות</string>
+    <string name="erase_external_storage">‏מחיקת אחסון USB</string>
+    <string name="erase_external_storage_description">‏מחיקת כל הנתונים באחסון ה-USB הפנימי, כגון פריטי מוזיקה או תמונות</string>
     <string name="erase_sim_confirm_button">מחיקה</string>
     <string name="erase_sim_dialog_text">‏אם ה-eSIM הזה יימחק, שירות %1$s יוסר מהמכשיר הזה. שירות %1$s לא יבוטל. כדי לבקש eSIM חדש, צריך יהיה לפנות לספק.</string>
     <string name="erase_sim_dialog_title">‏למחוק את ה-eSIM הזה?</string>
@@ -2854,6 +2859,7 @@
     <string name="fingerprint_v2_delete_message">הפעולה הזו מוחקת את התבנית והתמונות של טביעת האצבע המשויכות אל %1$s, שמאוחסנות בטלפון שלך</string>
     <string name="firmware_version">‏גרסת Android</string>
     <string name="first_day_of_week_preferences_title">היום הראשון של השבוע</string>
+    <string name="first_sim_card_slot_title">‏החריץ של כרטיס ה-SIM הראשון</string>
     <string name="fix_connectivity">תיקון קישוריות</string>
     <string name="flash_notifications_about_title">מידע על הבהוב על התראות</string>
     <string name="flash_notifications_intro">המסך או הפלאש יהבהבו כשיתקבלו התראות או יצלצלו שעונים מעוררים</string>
@@ -3836,7 +3842,7 @@
 "<li>נתוני משתמש אחרים</li></string>
     <string name="main_clear_desc_erase_external_storage">"‏
 
-כדי למחוק פריטי מוזיקה, תמונות ונתוני משתמש אחרים, יש למחוק את "<b>כרטיס ה-SD</b>.</string>
+כדי למחוק פריטי מוזיקה, תמונות ונתוני משתמש אחרים, יש למחוק את "<b>אחסון ה-USB</b>.</string>
     <string name="main_clear_desc_no_cancel_mobile_plan">"
 
 מחיקת הנתונים לא תבטל את תוכנית השירות הסלולרי שלך."</string>
@@ -5019,6 +5025,7 @@
     <string name="promote_conversation_title">זו שיחה</string>
     <string name="provide_current_sim_pin">‏צריך להקליד את הקוד הסודי הנוכחי של כרטיס ה-SIM</string>
     <string name="provide_current_sim_pin_title">‏צריך להקליד את הקוד הסודי הנוכחי של כרטיס ה-SIM</string>
+    <string name="provide_new_sim_pin_title">‏קוד סודי חדש לכרטיס SIM</string>
     <string name="provider_internet_settings">אינטרנט</string>
     <string name="provider_network_settings_title">‏כרטיסי SIM</string>
     <string name="proxy_action_text">סיום</string>
@@ -5425,6 +5432,7 @@
     <string name="search_settings">חיפוש</string>
     <string name="searchview_clear_text_content_description">מחיקת הטקסט</string>
     <string name="searchview_navigation_content_description">חזרה</string>
+    <string name="second_sim_card_slot_title">‏החריץ של כרטיס ה-SIM השני</string>
     <string name="security_advanced_settings">הגדרות אבטחה נוספות</string>
     <string name="security_advanced_settings_keywords">אבטחה, הגדרות אבטחה נוספות, הגדרות נוספות, הגדרות אבטחה מתקדמות</string>
     <string name="security_advanced_settings_no_work_profile_settings_summary">הצפנה, פרטי כניסה ועוד</string>
@@ -5928,7 +5936,7 @@
     <string name="sim_action_switch_sub_dialog_title">לעבור אל %1$s?</string>
     <string name="sim_action_turn_off">השבתה</string>
     <string name="sim_action_yes">כן</string>
-    <string name="sim_auto_pin_management_toggle">ניהול אוטומטי של הקוד הסודי</string>
+    <string name="sim_auto_pin_management_toggle">‏נעילת כרטיס ה-SIM</string>
     <string name="sim_calls_always_use">שימוש תמיד עבור שיחות</string>
     <string name="sim_calls_ask_first_prefs_title">אני רוצה לבחור בכל פעם</string>
     <string name="sim_card">SIM</string>
@@ -5945,7 +5953,7 @@
     <string name="sim_change_data_title">להשתמש ב-%1$s בשביל חבילת גלישה?</string>
     <string name="sim_change_pin">‏קוד הגישה ל-SIM</string>
     <string name="sim_change_succeeded">‏קוד הגישה של ה-SIM השתנה בהצלחה</string>
-    <string name="sim_choose_protection_mode_title">‏הגנה על כרטיס ה-SIM מפני גניבה</string>
+    <string name="sim_choose_protection_mode_title">דרישה להקליד קוד סודי כדי להשתמש בטלפון</string>
     <string name="sim_combination_warning_notification_title">‏יש בעיה בשילוב כרטיסי ה-SIM</string>
     <string name="sim_disable_sim_lock">‏ביטול נעילת SIM</string>
     <string name="sim_display_platform_managed_pin">‏קוד סודי שמנוהל על ידי Android</string>
@@ -5984,16 +5992,18 @@
     <string name="sim_onboarding_setup">שנתחיל?</string>
     <string name="sim_pin_auto_management_off">‏לא מנוהל על ידי Android</string>
     <string name="sim_pin_auto_management_on">‏מנוהל על ידי Android</string>
-    <string name="sim_pin_change">‏שינוי קוד האימות של ה-SIM</string>
+    <string name="sim_pin_change">‏שינוי הקוד הסודי של ה-SIM</string>
     <string name="sim_pin_disable_failed">לא ניתן להשבית את קוד האימות.</string>
     <string name="sim_pin_enable_failed">לא ניתן להפעיל את קוד האימות.</string>
+    <string name="sim_pin_protection_mode_automatic">‏אוטומטי (מנוהל על ידי Android)</string>
+    <string name="sim_pin_protection_mode_manual">ידני</string>
     <string name="sim_pin_toggle">‏נעילת כרטיס ה-SIM</string>
     <string name="sim_pins_dont_match">קודי האימות לא זהים</string>
     <string name="sim_platform_managed_pin_failure">הקוד הסודי לא התקבל</string>
     <string name="sim_platform_managed_pin_value">‏הערך של הקוד הסודי שמנוהל על ידי Android:</string>
     <string name="sim_preferred_message">‏כרטיס ה-SIM הראשי שלך הוא עכשיו %1$s</string>
-    <string name="sim_protection_mode_lskf_required">‏כדי להפעיל את ההגנה על כרטיס ה-SIM, צריך להגדיר נעילת מסך</string>
-    <string name="sim_protection_mode_manually_managed">‏הקוד הסודי של כרטיס ה-SIM מנוהל באופן ידני</string>
+    <string name="sim_protection_mode_lskf_required">‏כדי להשתמש בהגנה אוטומטית על כרטיס ה-SIM, צריך להגדיר נעילת מסך. כרגע אפשר להשתמש רק בהגנה ידנית</string>
+    <string name="sim_protection_mode_manually_managed">נדרש קוד סודי כדי להשתמש בטלפון</string>
     <string name="sim_protection_mode_protected_by_platform">‏הקוד הסודי של כרטיס ה-SIM מנוהל על ידי Android</string>
     <string name="sim_reenter_new">יש להקליד שוב את קוד הגישה החדש</string>
     <string name="sim_selection_channel_title">‏בחירת SIM</string>

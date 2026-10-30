@@ -36,6 +36,10 @@
         <item quantity="one">%d min siden</item>
         <item quantity="other">%d min siden</item>
     </plurals>
+    <plurals name="delete_selected_printers_content">
+        <item quantity="one">Slette %1$d valgt element?</item>
+        <item quantity="other">Slette %1$d valgte elementer?</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">En halvtime siden</item>
         <item quantity="other">En halvtime siden</item>
@@ -68,6 +72,18 @@
         <item quantity="one">1 minutt siden</item>
         <item quantity="other">%d minutter siden</item>
     </plurals>
+    <plurals name="page_details_total_pages_format">
+        <item quantity="one">(Totalt %1$d side)</item>
+        <item quantity="other">(Totalt %1$d sider)</item>
+    </plurals>
+    <plurals name="page_range_format">
+        <item quantity="one">%1$d–%2$d (Totalt %3$d side)</item>
+        <item quantity="other">%1$d–%2$d (Totalt %3$d sider)</item>
+    </plurals>
+    <plurals name="pint_job_number_text">
+        <item quantity="one">%1$d fil totalt</item>
+        <item quantity="other">%1$d filer totalt</item>
+    </plurals>
     <plurals name="print_search_result_count_utterance">
         <item quantity="one">%1$s skriver ble funnet</item>
         <item quantity="other">%1$s skrivere ble funnet</item>
@@ -75,5 +91,9 @@
     <plurals name="print_services_recommendation_subtitle">
         <item quantity="one">Installer for å finne %1$s printer</item>
         <item quantity="other">Installer for å finne %1$s printere</item>
+    </plurals>
+    <plurals name="selected_count_title">
+        <item quantity="one">%1$d element valgt</item>
+        <item quantity="other">%1$d elementer valgt</item>
     </plurals>
 </resources>

@@ -50,6 +50,16 @@
         <item quantity="few">întârziere: %d secunde</item>
         <item quantity="other">întârziere: %d secunde</item>
     </plurals>
+    <plurals name="beidou_receiving">
+        <item quantity="one">Se primește (%d s)</item>
+        <item quantity="few">Se primește (%d s)</item>
+        <item quantity="other">Se primește (%d s)</item>
+    </plurals>
+    <plurals name="beidou_sending">
+        <item quantity="one">Se trimite (%d s)</item>
+        <item quantity="few">Se trimite (%d s)</item>
+        <item quantity="other">Se trimite (%d s)</item>
+    </plurals>
     <plurals name="call_record_add_white_list_over_reminder">
         <item quantity="one">Puteţi adăuga până la %s persoană, selectați din nou.</item>
         <item quantity="few">Puteţi adăuga până la %s persoane, selectați din nou.</item>
@@ -105,11 +115,6 @@
         <item quantity="few">Chiar acum</item>
         <item quantity="other">Chiar acum</item>
     </plurals>
-    <plurals name="miuix_appcompat_items_selected">
-        <item quantity="one">%d element selectat</item>
-        <item quantity="few">%d elemente selectate</item>
-        <item quantity="other">%d elemente selectate</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="one">Un 1 în urmă</item>
         <item quantity="few">%d min în urmă</item>
@@ -122,5 +127,25 @@
 %d încercări rămase."</item>
         <item quantity="other">"
 %d încercări rămase."</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">%d element selectat</item>
+        <item quantity="few">%d elemente selectate</item>
+        <item quantity="other">%d elemente selectate</item>
+    </plurals>
+    <plurals name="satellite_low_battery_turn_off_message">
+        <item quantity="one">Bateria este descărcată. Comunicațiile prin Satelit Tiantong se vor dezactiva în %d s.</item>
+        <item quantity="few">Bateria este descărcată. Comunicațiile prin Satelit Tiantong se vor dezactiva în %d s.</item>
+        <item quantity="other">Bateria este descărcată. Comunicațiile prin Satelit Tiantong se vor dezactiva în %d s.</item>
+    </plurals>
+    <plurals name="satellite_pa_megathermal_turn_off_message">
+        <item quantity="one">Dispozitivul este supraîncălzit. Comunicațiile prin satelit se vor opri în %d secundă.</item>
+        <item quantity="few">Dispozitivul este supraîncălzit. Comunicațiile prin satelit se vor opri în %d secunde.</item>
+        <item quantity="other">Dispozitivul este supraîncălzit. Comunicațiile prin satelit se vor opri în %d secunde.</item>
+    </plurals>
+    <plurals name="satellite_privacy_withdrawal_dialog_disable_negative">
+        <item quantity="one">Anulează serviciile (%d s)</item>
+        <item quantity="few">Anulează serviciile (%d s)</item>
+        <item quantity="other">Anulează serviciile (%d s)</item>
     </plurals>
 </resources>

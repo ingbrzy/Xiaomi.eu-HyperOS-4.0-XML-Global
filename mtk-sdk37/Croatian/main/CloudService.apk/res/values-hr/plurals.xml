@@ -1,50 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">prije 1 sat</item>
-        <item quantity="few">prije 1 sat</item>
-        <item quantity="other">prije 1 sat</item>
-    </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="one">Pred %d sat</item>
-        <item quantity="few">Pred %d sata</item>
-        <item quantity="other">Pred %d sati</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Prije pola sata</item>
-        <item quantity="few">Prije pola sata</item>
-        <item quantity="other">Prije pola sata</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="one">Za %d sat</item>
-        <item quantity="few">Za %d sata</item>
-        <item quantity="other">Za %d sati</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="one">Za pola sata</item>
-        <item quantity="few">Za pola sata</item>
-        <item quantity="other">Za pola sata</item>
-    </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="one">Odmah</item>
-        <item quantity="few">Odmah</item>
-        <item quantity="other">Odmah</item>
-    </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="one">Za %d min</item>
-        <item quantity="few">Za %d min</item>
-        <item quantity="other">Za %d min</item>
-    </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">Upravo sada</item>
-        <item quantity="few">Upravo sada</item>
-        <item quantity="other">Upravo sad</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="one">Prije %d min</item>
-        <item quantity="few">Prije %d min</item>
-        <item quantity="other">Prije %d min</item>
-    </plurals>
     <plurals name="cloud_storage_full_upgrade_text">
         <item quantity="one">Nedovoljno prostora za pohranu. Nije moguće sinkronizirati %d fotografiju.</item>
         <item quantity="few">Nedovoljno prostora za pohranu. Nije moguće sinkronizirati %d fotografije.</item>
@@ -155,11 +110,6 @@
         <item quantity="few">Sinkronizacija %s stavki nije moguća</item>
         <item quantity="other">Sinkronizacija %s stavki nije moguća</item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Prije pola sata</item>
-        <item quantity="few">Prije pola sata</item>
-        <item quantity="other">Prije pola sata</item>
-    </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">Za 1 sat</item>
         <item quantity="few">Za 1 sat</item>
@@ -194,11 +144,6 @@
         <item quantity="one">prije %s minutu</item>
         <item quantity="few">prije %s minuta</item>
         <item quantity="other">prije %s minute</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Upravo sada</item>
-        <item quantity="few">Upravo sada</item>
-        <item quantity="other">Upravo sada</item>
     </plurals>
     <plurals name="local_lockscreen_error_hint_retry">
         <item quantity="one">Previše pokušaja. Pokušajte ponovno za %s sekundu.</item>
@@ -295,16 +240,6 @@
         <item quantity="few">Ukupno imate %s nepouzdana uređaja.</item>
         <item quantity="other">Ukupno imate %s nepouzdanih uređaja.</item>
     </plurals>
-    <plurals name="noti_quota_full_title_with_icon_text">
-        <item quantity="one">Pohrana je puna. Sinkronizacija &lt;font color=#F22424>%d aplikacije nije moguća&lt;/font>.</item>
-        <item quantity="few">Pohrana je puna. Sinkronizacija &lt;font color=#F22424>%d aplikacije nije moguća&lt;/font>.</item>
-        <item quantity="other">Pohrana je puna. Sinkronizacija &lt;font color=#F22424>%d aplikacija nije moguća&lt;/font>.</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">Prije 1 minute</item>
-        <item quantity="few">prije %d min</item>
-        <item quantity="other">prije %d min</item>
-    </plurals>
     <plurals name="other_lockscreen_error_hint_retry">
         <item quantity="one">Previše pokušaja. Pokušajte ponovno za %d dan.</item>
         <item quantity="few">Previše pokušaja. Pokušajte ponovno za %d dana.</item>
@@ -344,6 +279,11 @@
         <item quantity="one">%1$s min</item>
         <item quantity="few">%1$s min</item>
         <item quantity="other">%1$s min</item>
+    </plurals>
+    <plurals name="verify_code_send_desc_more">
+        <item quantity="one">Unesite kod provjere poslan na %6$d uređaj, uključujući %1$s, %2$s, %3$s, %4$s i %5$s za nastavak.</item>
+        <item quantity="few">Unesite kod provjere poslan na %6$d uređaja, uključujući %1$s, %2$s, %3$s, %4$s i %5$s za nastavak.</item>
+        <item quantity="other">Unesite kod provjere poslan na %6$d uređaja, uključujući %1$s, %2$s, %3$s, %4$s i %5$s za nastavak.</item>
     </plurals>
     <plurals name="verify_open_SMS_dialog_positive_btn_timer">
         <item quantity="one">Pošalji novi kod (%ss)</item>

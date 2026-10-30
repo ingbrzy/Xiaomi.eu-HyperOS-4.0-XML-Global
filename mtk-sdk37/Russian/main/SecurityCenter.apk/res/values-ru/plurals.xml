@@ -60,6 +60,12 @@
         <item quantity="many">Добавлено %d приложений</item>
         <item quantity="other">Добавлено %d приложений</item>
     </plurals>
+    <plurals name="anti_peeping_recommend_selected_tips">
+        <item quantity="one">Быстро включите конфиденциальный экран для %1$d приложения</item>
+        <item quantity="few">Быстро включите конфиденциальный экран для %1$d приложений</item>
+        <item quantity="many">Быстро включите конфиденциальный экран для %1$d приложений</item>
+        <item quantity="other">Быстро включите конфиденциальный экран для %1$d приложений</item>
+    </plurals>
     <plurals name="app_behavior_dashboard_title_desc">
         <item quantity="one">%d приложение</item>
         <item quantity="few">%d приложения</item>
@@ -161,6 +167,12 @@
         <item quantity="few">%s приложения будут защищены паролем</item>
         <item quantity="many">%s приложений будут защищены паролем</item>
         <item quantity="other">%s приложений будут защищены паролем</item>
+    </plurals>
+    <plurals name="background_virus_scan_notification_title">
+        <item quantity="one">Обнаружено %d вредоносное приложение</item>
+        <item quantity="few">Обнаружено %d вредоносных приложения</item>
+        <item quantity="many">Обнаружено %d вредоносных приложений</item>
+        <item quantity="other">Обнаружено %d вредоносных приложений</item>
     </plurals>
     <plurals name="behavior_widget_app_text">
         <item quantity="one">%2$d приложение, включая %1$s</item>
@@ -656,6 +668,12 @@
         <item quantity="many">Добавлено %d игр</item>
         <item quantity="other">Добавлено %d игр</item>
     </plurals>
+    <plurals name="intercept_accessibility_virus_notifiction_title">
+        <item quantity="one">Заблокировано %d вредоносное приложение</item>
+        <item quantity="few">Заблокировано %d вредоносных приложения</item>
+        <item quantity="many">Заблокировано %d вредоносных приложений</item>
+        <item quantity="other">Заблокировано %d вредоносных приложений</item>
+    </plurals>
     <plurals name="intl_perm_privacy_control_message_count">
         <item quantity="one">Вы можете защитить %d элемент</item>
         <item quantity="few">Вы можете защитить %d элемента</item>
@@ -884,12 +902,6 @@
         <item quantity="many">%d приложений</item>
         <item quantity="other">%d приложений</item>
     </plurals>
-    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
-        <item quantity="one">%2$d приложение, включая \"%1$s\", может являться вредоносным</item>
-        <item quantity="few">%2$d приложения, включая \"%1$s\", могут являться вредоносными</item>
-        <item quantity="many">%2$d приложений, включая \"%1$s\", могут являться вредоносными</item>
-        <item quantity="other">%2$d приложений, включая \"%1$s\", могут являться вредоносными</item>
-    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="one">+%d</item>
         <item quantity="few">+%d</item>
@@ -931,6 +943,18 @@
         <item quantity="few">%d дня</item>
         <item quantity="many">%d дней</item>
         <item quantity="other">%d дней</item>
+    </plurals>
+    <plurals name="pc_battery_text_hour">
+        <item quantity="one">%d ч</item>
+        <item quantity="few">%d ч</item>
+        <item quantity="many">%d ч</item>
+        <item quantity="other">%d ч</item>
+    </plurals>
+    <plurals name="pc_battery_text_minute">
+        <item quantity="one">%d мин.</item>
+        <item quantity="few">%d мин.</item>
+        <item quantity="many">%d мин.</item>
+        <item quantity="other">%d мин.</item>
     </plurals>
     <plurals name="pc_can_be_optimize_numbers">
         <item quantity="one">%d объект</item>
@@ -1004,6 +1028,12 @@
         <item quantity="many">Заряда хватит на %s минут</item>
         <item quantity="other">Заряда хватит на %s минут</item>
     </plurals>
+    <plurals name="pc_smart_charge_notify_summary_long_time_charge">
+        <item quantity="one">За последний %1$d день сеансы зарядки были длительными. Зарядка будет приостановлена на %2$s.</item>
+        <item quantity="few">За последние %1$d дня сеансы зарядки были длительными. Зарядка будет приостановлена на %2$s.</item>
+        <item quantity="many">За последние %1$d дней сеансы зарядки были длительными. Зарядка будет приостановлена на %2$s.</item>
+        <item quantity="other">За последние %1$d дней сеансы зарядки были длительными. Зарядка будет приостановлена на %2$s.</item>
+    </plurals>
     <plurals name="pc_statistics_battery_last_hour">
         <item quantity="one">Заряда хватит на %d час</item>
         <item quantity="few">Заряда хватит на %d часа</item>
@@ -1027,6 +1057,30 @@
         <item quantity="few">%d секунды без подзарядки</item>
         <item quantity="many">%d секунд без подзарядки</item>
         <item quantity="other">%d секунд без подзарядки</item>
+    </plurals>
+    <plurals name="peep_protection_v2_category_group_title">
+        <item quantity="one">%1$s (%2$d)</item>
+        <item quantity="few">%1$s (%2$d)</item>
+        <item quantity="many">%1$s (%2$d)</item>
+        <item quantity="other">%1$s (%2$d)</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_apps">
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_count_strategies">
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="peep_protection_v2_page_count">
+        <item quantity="one">%d страница</item>
+        <item quantity="few">%d страницы</item>
+        <item quantity="many">%d страниц</item>
+        <item quantity="other">%d страницы</item>
     </plurals>
     <plurals name="people">
         <item quantity="one">Загрузок: %1$d</item>
@@ -1525,6 +1579,12 @@
         <item quantity="few">%d</item>
         <item quantity="many">%d</item>
         <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="uniauth_reset_lockscreen_sub_title">
+        <item quantity="one">Остаётся %1$d попытка</item>
+        <item quantity="few">Остаются %1$d попытки</item>
+        <item quantity="many">Остаются %1$d попыток</item>
+        <item quantity="other">Остаются %1$d попыток</item>
     </plurals>
     <plurals name="uninstall_game_count_title">
         <item quantity="one">Не добавлена %d игра</item>

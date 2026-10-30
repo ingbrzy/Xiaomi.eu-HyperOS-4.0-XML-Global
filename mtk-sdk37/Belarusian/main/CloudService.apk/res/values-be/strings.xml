@@ -2,10 +2,7 @@
 <resources>
     <string name="abc_action_bar_home_description">Перайсці на галоўную старонку</string>
     <string name="abc_action_bar_up_description">Перайсці ўверх</string>
-    <string name="abc_action_menu_overflow_description">Дадатковыя параметры</string>
     <string name="abc_action_mode_done">Гатова</string>
-    <string name="abc_activity_chooser_view_see_all">Паказаць усе</string>
-    <string name="abc_activitychooserview_choose_application">Выберыце праграму</string>
     <string name="abc_capital_off">ВЫКЛ.</string>
     <string name="abc_capital_on">УКЛ.</string>
     <string name="abc_menu_alt_shortcut_label">Alt +</string>
@@ -20,12 +17,9 @@
     <string name="abc_prepend_shortcut_label">Меню +</string>
     <string name="abc_search_hint">Пошук…</string>
     <string name="abc_searchview_description_clear">Выдаліць запыт</string>
-    <string name="abc_searchview_description_query">Пошукавы запыт</string>
     <string name="abc_searchview_description_search">Пошук</string>
     <string name="abc_searchview_description_submit">Адправіць запыт</string>
     <string name="abc_searchview_description_voice">Галасавы пошук</string>
-    <string name="abc_shareactionprovider_share_with">Абагуліць праз</string>
-    <string name="abc_shareactionprovider_share_with_application">Абагуліць праз праграму \"%s\"</string>
     <string name="abc_toolbar_collapse_description">Згарнуць</string>
     <string name="accept_all_permission_content">Праграма «Пошук прылады» можа не працаваць належным чынам без дазволаў. Выберыце ўсе пералічаныя дазволы, каб выкарыстоўваць усе функцыі праграмы.</string>
     <string name="accept_all_permission_title">Патрабуюцца дазволы</string>
@@ -48,7 +42,6 @@
     <string name="alert_sync_merge_dialog_confirm">Уключыць</string>
     <string name="am">AM</string>
     <string name="app_name">Xiaomi Cloud</string>
-    <string name="bad_authentication">Няправільнае імя або пароль</string>
     <string name="browser_sync_settings_preference">Сінхранізаваць аўтаматычна</string>
     <string name="btn_return">Назад</string>
     <string name="btn_revoke_permission">Адклікаць згоду</string>
@@ -56,6 +49,8 @@
     <string name="button_cancel">Скасаваць</string>
     <string name="button_quit">Выйсці</string>
     <string name="button_revoke">Адклікаць</string>
+    <string name="calendar_date_picker_a11y_next_month">Перайсці да наступнага месяца</string>
+    <string name="calendar_date_picker_a11y_prev_month">Перайсці да папярэдняга месяца</string>
     <string name="calendar_sync_item_permission">каляндар</string>
     <string name="call_log_sync_item_permission">гісторыя выклікаў</string>
     <string name="call_notification_answer_action">Адказаць</string>
@@ -118,8 +113,6 @@
     <string name="creation_dialog_title">Увага</string>
     <string name="creation_sync_settings_only_in_wifi">Сінхранізаваць толькі па WLAN</string>
     <string name="creation_sync_settings_only_in_wifi_summary">Рэкамендуецца эканоміць мабільныя дадзеныя</string>
-    <string name="creation_sync_settings_preference">Сінхранізаваць палотны</string>
-    <string name="creation_sync_settings_summary">Створаныя палотны</string>
     <string name="cta_notification_content_text">"Дазвольце %s падлучацца да Інтэрнэту, каб атрымаць магчымасць аднавіць аб'екты"</string>
     <string name="cta_notification_content_title">"Не ўдаецца аднавіць аб'екты з %s"</string>
     <string name="customize_notification_btn_text">Абнавіць</string>
@@ -143,15 +136,16 @@
     <string name="detect_sim_card">Пошук SIM-карты</string>
     <string name="device_activation_card_cannot_get_yet">Не ўдалося атрымаць інфармацыю. Паўтарыце спробу праз 3-5 дзён.</string>
     <string name="device_activation_card_cannot_get_yet_new">Немагчыма атрымаць дадзеныя. Пачакайце хвіліну ці дзве і паўтарыце спробу.</string>
-    <string name="device_activation_card_description">"Першая актывацыя рэгіструецца, калі прылада ўпершыню падключаецца да сеткі (уключаючы, апроч іншага, сеткі Wi-Fi і мабільныя сеткі). Звычайна рэгістрацыя першай актывацыі займае некаторы час, таму рэкамендуецца пачакаць ад 3 да 5 дзён з моманту першага падлучэння да сеткі, перш чым правяраць стан актывацыі. &lt;br> &lt;br> Актывацыя прылады з'яўляецца асноўным фактарам пры вызначэнні тэрміну дзеяння пашыранай гарантыі. Азнаёмцеся з нашай &lt;a href=%1$s> Палітыкай вяртання, абмену і рамонту &lt;/a>, каб атрымаць больш падрабязную інфармацыю.&lt;br>&lt;br> Калі ў вас засталіся якія-небудзь пытанні, звярніцеся на гарачую лінію службы тэхнічнай падтрымкі кліентаў па тэлефоне 400-100-5678."</string>
-    <string name="device_activation_card_description_china">"Першая актывацыя рэгіструецца, калі прылада ўпершыню падключаецца да сеткі (уключаючы, апроч іншага, сеткі Wi-Fi і мабільныя сеткі). Звычайна рэгістрацыя першай актывацыі займае некаторы час, таму рэкамендуецца пачакаць ад 3 да 5 дзён з моманту першага падлучэння да сеткі, перш чым правяраць стан актывацыі. &lt;br> &lt;br> Актывацыя прылады з'яўляецца асноўным фактарам пры вызначэнні тэрміну дзеяння пашыранай гарантыі. Азнаёмцеся з нашай &lt;a href=%1$s> Палітыкай вяртання, абмену і рамонту &lt;/a>, каб атрымаць больш падрабязную інфармацыю.&lt;br>&lt;br> Калі ў вас засталіся якія-небудзь пытанні, звярніцеся на гарачую лінію службы тэхнічнай падтрымкі кліентаў па тэлефоне 400-100-5678."</string>
-    <string name="device_activation_card_description_china_new">"Першая актывацыя рэгіструецца, калі прылада ўпершыню падключаецца да сеткі (уключаючы, апроч іншага, сеткі WLAN і мабільныя сеткі). Звычайна рэгістрацыя першай актывацыі займае некаторы час, таму рэкамендуецца пачакаць ад &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g> да &lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> дзён з моманту першага падлучэння да сеткі, перш чым правяраць стан актывацыі. &lt;br> &lt;br> Актывацыя прылады з'яўляецца асноўным фактарам пры вызначэнні тэрміну дзеяння пашыранай гарантыі. Азнаёмцеся з нашай &lt;a href=%3$s> Палітыкай вяртання, абмену і рамонту &lt;/a>, каб атрымаць больш падрабязную інфармацыю.&lt;br>&lt;br> Калі ў вас засталіся якія-небудзь пытанні, звярніцеся на гарачую лінію службы тэхнічнай падтрымкі кліентаў па тэлефоне 400-100-5678."</string>
-    <string name="device_activation_card_description_new">"Першая актывацыя рэгіструецца, калі прылада ўпершыню падключаецца да сеткі (уключаючы, апроч іншага, сеткі Wi-Fi і мабільныя сеткі). Звычайна рэгістрацыя першай актывацыі займае некаторы час, таму рэкамендуецца пачакаць ад &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g> да &lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> дзён з моманту першага падлучэння да сеткі, перш чым правяраць стан актывацыі. &lt;br> &lt;br> Актывацыя прылады з'яўляецца асноўным фактарам пры вызначэнні тэрміну дзеяння пашыранай гарантыі. Азнаёмцеся з нашай &lt;a href=%3$s> Палітыкай вяртання, абмену і рамонту &lt;/a>, каб атрымаць больш падрабязную інфармацыю.&lt;br>&lt;br> Калі ў вас засталіся якія-небудзь пытанні, звярніцеся на гарачую лінію службы тэхнічнай падтрымкі кліентаў па тэлефоне 400-100-5678."</string>
+    <string name="device_activation_card_description">"Першая актывацыя рэгіструецца, калі прылада ўпершыню падключаецца да сеткі (уключаючы, апроч іншага, сеткі Wi-Fi і мабільныя сеткі). Звычайна рэгістрацыя першай актывацыі займае некаторы час, таму рэкамендуецца пачакаць ад &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g> да &lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> дзён з моманту першага падлучэння да сеткі, перш чым правяраць стан актывацыі. &lt;br> &lt;br> Актывацыя прылады з'яўляецца асноўным фактарам пры вызначэнні тэрміну дзеяння пашыранай гарантыі. Азнаёмцеся з нашай &lt;a href=%3$s> Палітыкай вяртання, абмену і рамонту &lt;/a>, каб атрымаць больш падрабязную інфармацыю.&lt;br>&lt;br> Калі ў вас засталіся якія-небудзь пытанні, звярніцеся на гарачую лінію службы тэхнічнай падтрымкі кліентаў па тэлефоне 950816."</string>
+    <string name="device_activation_card_description_china">"Першая актывацыя рэгіструецца, калі прылада ўпершыню падключаецца да сеткі (уключаючы, апроч іншага, сеткі WLAN і мабільныя сеткі). Звычайна рэгістрацыя першай актывацыі займае некаторы час, таму рэкамендуецца пачакаць ад &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g> да &lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> дзён з моманту першага падлучэння да сеткі, перш чым правяраць стан актывацыі. &lt;br> &lt;br> Актывацыя прылады з'яўляецца асноўным фактарам пры вызначэнні тэрміну дзеяння пашыранай гарантыі. Азнаёмцеся з нашай &lt;a href=%3$s> Палітыкай вяртання, абмену і рамонту &lt;/a>, каб атрымаць больш падрабязную інфармацыю.&lt;br>&lt;br> Калі ў вас засталіся якія-небудзь пытанні, звярніцеся на гарачую лінію службы тэхнічнай падтрымкі кліентаў па тэлефоне 950816."</string>
+    <string name="device_activation_card_description_china_new">"Першая актывацыя рэгіструецца, калі прылада ўпершыню падключаецца да сеткі (уключаючы, апроч іншага, сеткі WLAN і мабільныя сеткі). Звычайна рэгістрацыя першай актывацыі займае некаторы час, таму рэкамендуецца пачакаць ад &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g> да &lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> дзён з моманту першага падлучэння да сеткі, перш чым правяраць стан актывацыі. &lt;br> &lt;br> Актывацыя прылады з'яўляецца асноўным фактарам пры вызначэнні тэрміну дзеяння пашыранай гарантыі. Азнаёмцеся з нашай &lt;a href=%3$s> Палітыкай вяртання, абмену і рамонту &lt;/a>, каб атрымаць больш падрабязную інфармацыю.&lt;br>&lt;br> Калі ў вас засталіся якія-небудзь пытанні, звярніцеся на гарачую лінію службы тэхнічнай падтрымкі кліентаў па тэлефоне 950816."</string>
+    <string name="device_activation_card_description_new">"Першая актывацыя рэгіструецца, калі прылада ўпершыню падключаецца да сеткі (уключаючы, апроч іншага, сеткі Wi-Fi і мабільныя сеткі). Звычайна рэгістрацыя першай актывацыі займае некаторы час, таму рэкамендуецца пачакаць ад &lt;xliff:g id=days refersto=3>%1$d&lt;/xliff:g> да &lt;xliff:g id=days refersto=5>%2$d&lt;/xliff:g> дзён з моманту першага падлучэння да сеткі, перш чым правяраць стан актывацыі. &lt;br> &lt;br> Актывацыя прылады з'яўляецца асноўным фактарам пры вызначэнні тэрміну дзеяння пашыранай гарантыі. Азнаёмцеся з нашай &lt;a href=%3$s> Палітыкай вяртання, абмену і рамонту &lt;/a>, каб атрымаць больш падрабязную інфармацыю.&lt;br>&lt;br> Калі ў вас засталіся якія-небудзь пытанні, звярніцеся на гарачую лінію службы тэхнічнай падтрымкі кліентаў па тэлефоне 950816."</string>
     <string name="device_activation_card_device_not_support">Не падтрымліваецца на гэтай прыладзе</string>
     <string name="device_activation_card_local_service_error">Немагчыма атрымаць дадзеныя. Пачакайце хвіліну ці дзве і паўтарыце спробу.</string>
     <string name="device_activation_card_no_network_error">Не атрымалася падлучыцца да сеткі. Праверце налады сеткі і паспрабуйце зноў.</string>
     <string name="device_activation_card_title">Першая актывацыя</string>
     <string name="device_activation_page_title">Актывацыя прылады</string>
+    <string name="device_location_tip">"*Паказанае месцазнаходжанне вызначаецца сеткай і не з'яўляецца дакладным. Калі вы зрабілі гэты запыт на ўваход, націсніце «Дазволіць», каб праглядзець код пацверджання."</string>
     <string name="dialog_btn_yes_install_icon">Усталяваць</string>
     <string name="dialog_msg_install_manager_content">Усталяваць \"Пошук прылады\" зноў?</string>
     <string name="dialog_storage_full_title">Воблачнае сховішча запоўнена</string>
@@ -168,7 +162,6 @@
     <string name="e2ee_button_next">Далей</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Уключыце блакаванне экрана гэтай прылады, каб абнавіць код доступу.</string>
     <string name="e2ee_data_protection_close_button">Выключыць</string>
-    <string name="e2ee_data_protection_label_auto_fill">Менеджэр пароляў</string>
     <string name="e2ee_data_protection_label_auto_fill_new">Паролі</string>
     <string name="e2ee_data_protection_label_browser">Закладкі браўзера</string>
     <string name="e2ee_data_protection_label_call_log">Гісторыя выклікаў</string>
@@ -190,27 +183,19 @@
     <string name="e2ee_data_protection_update_security_key_title">Абнавіць код доступу</string>
     <string name="e2ee_device_delete">Выдаліць прыладу</string>
     <string name="e2ee_device_delete_tip">Як толькі вы выдаліце ​​гэтую прыладу са свайго Xiaomi акаўнта, на ёй будзе выкананы выхад з акаўнта і вы не зможаце выкарыстоўваць на ёй службы Xiaomi Cloud, пошук і іншыя функцыі, звязаныя з акаўнтам, пакуль зноў не ўвойдзеце ў акаўнт.</string>
-    <string name="e2ee_device_delete_warning_dialog_content">Гэтая прылада не падтрымлівае Пашыраную абарону дадзеных, таму вы не зможаце ўвайсці ў свой акаўнт, калі ўключыце гэтую функцыю. Абнавіце АС гэтай прылады да Xiaomi HyperOS 2, каб увайсці ў акаўнт.</string>
-    <string name="e2ee_device_delete_warning_dialog_title">Не ўдаецца ўвайсці</string>
     <string name="e2ee_device_exit_failed_tip">Не атрымалася выйсці. Пачакайце хвіліну ці дзве і паўтарыце спробу.</string>
     <string name="e2ee_device_exit_failed_toast">Не атрымалася выйсці. Пачакайце хвіліну ці дзве і паўтарыце спробу.</string>
     <string name="e2ee_device_exit_tip">На %s выкананы выхад</string>
     <string name="e2ee_device_management_subtitle">"Гэтыя прылады яшчэ не правераны на надзейнасць. Перш чым уключаць Пашыраную абарону дадзеных, выйдзіце са свайго акаўнта Xiaomi на іх. "</string>
     <string name="e2ee_device_management_title">Кіраванне прыладамі</string>
     <string name="e2ee_device_name">Імя прылады</string>
-    <string name="e2ee_device_sim">SIM-карта</string>
-    <string name="e2ee_device_sim_default_tip">Няма актываванай SIM-карты</string>
     <string name="e2ee_device_system_version">Версія сістэмы</string>
     <string name="e2ee_device_tip">Выдаліце ​​прыладу з вашага акаўнта, перш чым уключаць Пашыраную абарону дадзеных</string>
-    <string name="e2ee_device_verification">Пацвердзіце, што гэта ваша прылада</string>
-    <string name="e2ee_device_verification_os_tip">Абнавіце да Xiaomi HyperOS 2 ці больш новай версіі</string>
     <string name="e2ee_device_verification_result_subtitle">Прылады, якія выйшлі з вашага Xiaomi Акаўнта, не змогуць выкарыстоўваць Xiaomi Cloud і іншыя злучаныя сэрвісы, пакуль зноў не ўвойдуць у гэты акаўнт.</string>
     <string name="e2ee_device_verification_result_title">На ўсіх прыладах выкананы выхад з акаўнта</string>
     <string name="e2ee_device_verification_tip">Націсніце тут, каб выдаліць гэту прыладу</string>
     <string name="e2ee_dialog_close_subtitle">Дадзеныя, абароненыя гэтай функцыяй, больш не будуць падтрымліваць скразное шыфраванне, а Пашыраная абарона дадзеных будзе выключана на ўсіх прыладах.</string>
     <string name="e2ee_dialog_close_title">Выключыць Пашыраную абарону дадзеных</string>
-    <string name="e2ee_dialog_exit_account_subtitle">Калі на прыладзе выконваецца выхад з акаўнта, Пашыраная абарона дадзеных аўтаматычна адключаецца. Гэта не паўплывае на іншыя прылады. Калі вы зноў увойдзеце ў акаўнт, вам трэба будзе зноў уключыць гэтую функцыю.</string>
-    <string name="e2ee_dialog_exit_account_title">Выключыць Пашыраную абарону дадзеных?</string>
     <string name="e2ee_error_device">Гэтая функцыя не падтрымліваецца на гэтай прыладзе.</string>
     <string name="e2ee_error_global_account">Функцыя не падтрымліваецца ў вашым рэгіёне.</string>
     <string name="e2ee_error_init">Не атрымалася ініцыялізаваць. Пачакайце хвіліну ці дзве і паўтарыце спробу.</string>
@@ -221,7 +206,6 @@
     <string name="e2ee_exit_account_subtitle">Вы збіраецеся выканаць выхад са свайго Xiaomi Акаўнта на апошняй падключанай у дадзены момант прыладзе, злучанай з гэтым акаўнтам. Вам спатрэбіцца выкарыстаць пароль блакавання экрана экрана або код доступу, каб зноў увайсці ў акаўнт і атрымаць доступ да сваіх дадзеных, якія захоўваюцца ў воблаку. Або вы можаце націснуць «Выключыць» ніжэй, каб адключыць Пашыраную абарону дадзеных.</string>
     <string name="e2ee_exit_account_title">Выконваецца выхад</string>
     <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
-    <string name="e2ee_load_failed">Сервер заняты. Пачакайце хвіліну ці дзве і паўтарыце спробу.</string>
     <string name="e2ee_loading">Хвілінку…</string>
     <string name="e2ee_loading_close">Выключэнне…</string>
     <string name="e2ee_loading_open">Уключэнне…</string>
@@ -246,7 +230,6 @@
     <string name="e2ee_set_recovery_method">Спосабы аднаўлення</string>
     <string name="e2ee_set_recovery_method_code">Праверачны код</string>
     <string name="e2ee_set_recovery_method_lockscreen">Блакаванне экрана</string>
-    <string name="e2ee_set_recovery_method_security_key">Код доступу (не ўсталяваны)</string>
     <string name="e2ee_set_recovery_method_tip">Вы можаце атрымаць доступ да сваіх воблачных дадзеных з дапамогай пароля блакавання экрана вашай прылады або адпраўкі праверачнага кода. Можна дадаць іншы спосаб аднаўлення, усталяваўшы код доступу.</string>
     <string name="e2ee_set_recovery_method_title">Даступныя спосабы аднаўлення</string>
     <string name="e2ee_tip_forget_securityKey_button">Прапусціць праверку</string>
@@ -458,10 +441,8 @@
     <string name="lockscreen_positive_btn">Далей</string>
     <string name="low_battery_locate_summary">Аўтаматычна адпраўляць дадзеныя аб месцазнаходжанні пры нізкім зарадзе батарэі.</string>
     <string name="low_battery_locate_title">Адпраўляць дадзеныя аб месцазнаходжанні пры нізкім зарадзе батарэі</string>
-    <string name="manual_activation">Актываваць зноў</string>
     <string name="master_alert_notif_content">Рэгулярна стварайце рэзервовыя копіі, каб пазбегнуць страты важных дадзеных.</string>
     <string name="master_alert_notif_title">Уключыць Xiaomi Cloud</string>
-    <string name="member_menu_vip_expire_time">Тэрмін заканчваецца %s</string>
     <string name="member_menu_vipname_free">Бясплатна</string>
     <string name="member_menu_vipname_mega">Ультра</string>
     <string name="member_menu_vipname_premium">Прэміум</string>
@@ -627,12 +608,12 @@
     <string name="micloud_member_net_error_alert_title">Немагчыма злучыцца з сеткай</string>
     <string name="micloud_member_pay_miid_error_toast">Памылка акаўнта</string>
     <string name="micloud_member_pay_order_error_toast">Памылка дадзеных</string>
-    <string name="micloud_membership_benefit_recycle_bin">Restore deleted items for an extended period</string>
-    <string name="micloud_membership_benefit_storage">Save photos and videos with expanded storage space</string>
-    <string name="micloud_membership_detail">Details</string>
-    <string name="micloud_membership_level_diamond">Ultra membership</string>
-    <string name="micloud_membership_level_gold">Premium membership</string>
-    <string name="micloud_membership_level_platinum">Mega membership</string>
+    <string name="micloud_membership_benefit_recycle_bin">Аднаўленне выдаленых элементаў на працяглы перыяд</string>
+    <string name="micloud_membership_benefit_storage">Захоўвайце фота і відэа з пашыранай прасторай для захоўвання</string>
+    <string name="micloud_membership_detail">Падрабязнасці</string>
+    <string name="micloud_membership_level_diamond">Ультра-падпіска</string>
+    <string name="micloud_membership_level_gold">Падпіска Прэміум</string>
+    <string name="micloud_membership_level_platinum">Мега-падпіска</string>
     <string name="micloud_notif_content_battery_low">Нізкі ўзровень зараду батарэі.</string>
     <string name="micloud_notif_content_depend_wifi">Падключыцеся да Wi-Fi для сінхранізацыі.</string>
     <string name="micloud_notif_content_depend_wifi_china">Падключыцеся да Wi-Fi для сінхранізацыі.</string>
@@ -709,7 +690,7 @@
     <string name="micloud_preference_syncitem_title">Сінхранізацыя з воблакам</string>
     <string name="micloud_preference_up_cloud_membership">Павысіць узровень падпіскі Xiaomi Cloud</string>
     <string name="micloud_preference_upgrade_membership_warning">"Воблачнае сховішча амаль запоўнена. Палепшыце падпіску на Xiaomi Cloud, каб атрымаць больш месца для захоўвання і забяспечыць сінхранізацыю сваіх аб'ектаў."</string>
-    <string name="micloud_preference_view_all">Паказаць усё</string>
+    <string name="micloud_preference_view_all">Больш</string>
     <string name="micloud_preference_view_cloud_notes">Прагляд нататак у воблаку</string>
     <string name="micloud_preference_view_cloud_recordings">Прагляд запісаў з воблака</string>
     <string name="micloud_preference_view_cloud_shared_family">"Падпіскі на воблака, якія выкарыстоўваюцца з сям'ёй"</string>
@@ -758,7 +739,7 @@
     <string name="micloud_sync_result_sim_activated_error">Немагчыма актываваць SIM-карту</string>
     <string name="micloud_sync_result_wifi_only">"Аб'ект занадта вялікі. Сінхранізуйце яго пасля падлучэння да Wi-Fi."</string>
     <string name="micloud_sync_result_wifi_only_china">"Аб'ект занадта вялікі. Сінхранізуйце яго пасля падлучэння да Wi-Fi."</string>
-    <string name="micloud_wipe_data_confirm_label">"Выдаліць з гэтай прылады сінхранізаваныя аб'екты?"</string>
+    <string name="micloud_wipe_data_confirm_label">"Выдаліць сінхранізаваныя аб'екты"</string>
     <string name="micloud_wipe_data_confirm_title">"Некаторыя аб'екты наступных праграмы былі сінхранізаваныя з Xiaomi Cloud. Вы можаце выдаліць сінхранізаваныя аб'екты з гэтай прылады, пакінуўшы іх копію ў воблаку."</string>
     <string name="micloud_wipe_data_remove">Выдаліць</string>
     <string name="micloud_wipe_data_retain">Пакінуць</string>
@@ -796,6 +777,7 @@
     <string name="miuix_appcompat_select_all_description">Выбраць усё</string>
     <string name="miuix_appcompat_select_item">"Выберыце аб'екты"</string>
     <string name="miuix_appcompat_show_dialog_description">Усплывальнае акно</string>
+    <string name="miuix_popup_show_description">Усплывальнае акно</string>
     <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Пацягніце ўніз для абнаўлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Абноўлена</string>
@@ -856,14 +838,8 @@
     <string name="not_set">Не зададзена</string>
     <string name="noti_quota_button_text">Павысіць</string>
     <string name="noti_quota_full_sum">"Павысьце ўзровень плана свайго сховішча, каб працягнуць сінхранізацыю аб'ектаў."</string>
-    <string name="noti_quota_full_sum_without_button">"Набудзьце больш месца ў сховішчы, каб працягнуць сінхранізацыю аб'ектаў."</string>
-    <string name="noti_quota_full_title">Воблачнае сховішча &lt;font color=#F22424>запоўнена&lt;/font></string>
-    <string name="noti_quota_full_title_without_button">Воблачнае сховішча запоўнена</string>
     <string name="noti_quota_low_sum">"Павысьце ўзровень плана свайго сховішча, каб працягнуць сінхранізацыю аб'ектаў."</string>
-    <string name="noti_quota_low_sum_without_button">"Набудзьце больш месца ў сховішчы, каб працягнуць сінхранізацыю аб'ектаў."</string>
     <string name="noti_quota_low_title">Недастаткова месца ў воблачным сховішчы</string>
-    <string name="noti_quota_low_title_with_storage">У воблачным сховішчы застаецца &lt;font color=#F22424>менш за &lt;xliff:g id=remaining_storage_space example=0.5>%s&lt;/xliff:g> ГБ&lt;/font></string>
-    <string name="noti_quota_low_title_without_button">Недастаткова месца ў воблачным сховішчы</string>
     <string name="notification_sync_fail_title">Не атрымалася сінхранізаваць паролі</string>
     <string name="notification_update_key_text">Сакрэтны код Мэнэджара пароляў змяніўся. Пацвердзіце новы сакрэтны код.</string>
     <string name="offline_find_action_open">Уключыць</string>
@@ -897,6 +873,10 @@
     <string name="passkeeper_install_keybag_title">Увядзіце свой пароль для Менеджара пароляў</string>
     <string name="passkeeper_sync_off_confirm_content">Вы не зможаце сінхранізаваць свае новыя паролі з воблакам, калі адключыце гэту функцыю.</string>
     <string name="passkeeper_sync_on">Уключэнне…</string>
+    <string name="passport_two_factor_change_password_dialog_message">Калі гэты запыт быў зроблены не вамі, мы рэкамендуем змяніць пароль.</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">Скасаваць</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">Змяніць</string>
+    <string name="passport_two_factor_change_password_dialog_title">Змяніць пароль?</string>
     <string name="pay_info_dialog_confirm_to_pay">Аплаціць %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Выкарыстаць астатнія %s Mi Coins</string>
     <string name="pay_info_dialog_title">Выберыце спосаб аплаты</string>
@@ -919,10 +899,6 @@
     <string name="pref_title_sync_display_photo_on_wifi_only_china">Для сінхранізацыі фота выкарыстоўвайце толькі WLAN</string>
     <string name="preference_copied">\"%1$s\": скапіравана ў буфер абмену.</string>
     <string name="privacy_and_agreement">Умовы выкарыстання</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad">Вітаем у Пошуку прылады! Вы можаце выкарыстоўваць гэту праграму для пошуку, адсочвання і блакіроўкі вашай прылады пасля яе страты. Вы таксама можаце ананімна дапамагчы іншым людзям знайсці іх прылады Xiaomi.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">Калі вы страціце сваю прыладу, вы можаце скарыстацца функцыяй «Пошук прылады» для пошуку і блакавання прылады і выдалення дадзеных з яе.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone">Вітаем у Пошуку прылады! Вы можаце выкарыстоўваць гэту праграму для пошуку, адсочвання і блакіроўкі вашай прылады пасля яе страты. Вы таксама можаце ананімна дапамагчы іншым людзям знайсці іх прылады Xiaomi.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">Калі вы страціце сваю прыладу, вы можаце скарыстацца функцыяй «Пошук прылады» для пошуку і блакавання прылады і выдалення дадзеных з яе.</string>
     <string name="privacy_dialog_sync_all_purpose_china">"Вітаем у сэрвісах Xiaomi Cloud! Вы можаце выкарыстоўваць Xiaomi Cloud для сінхранізацыі паведамленняў, кантактаў, нататак, налад Браўзера, фота і відэа, налад WLAN, аўдыёзапісаў, выгляда Галоўнага экрана, праграм, падзей у календары, аб'ектаў Чорнага спіса, гісторыі выклікаў і Стужкі віджэтаў паміж усімі падлучанымі прыладамі."</string>
     <string name="privacy_dialog_sync_all_purpose_china_v2">"Вітаем у сэрвісах Xiaomi Cloud! Вы можаце выкарыстоўваць Xiaomi Cloud для сінхранізацыі паведамленняў, кантактаў, нататак, налад Браўзера, фота і відэа, налад WLAN, аўдыёзапісаў, выгляда Галоўнага экрана, праграм, падзей у календары, аб'ектаў Чорнага спіса, гісторыі выклікаў і Стужкі віджэтаў паміж усімі падлучанымі прыладамі."</string>
     <string name="privacy_dialog_sync_all_purpose_pad">"Вітаем у сэрвісах Xiaomi Cloud! Вы можаце выкарыстоўваць гэтую праграму для сінхранізацыі паведамленняў, кантактаў, нататак, аб'ектаў Браўзера, альбомаў у воблаку, музыкі, календара, чорнага спісу і гісторыі выклікаў з воблакам."</string>
@@ -931,7 +907,6 @@
     <string name="privacy_dialog_sync_all_purpose_pad_without_sim_or_contact">"Сардэчна запрашаем у Xiaomi Cloud! Выкарыстоўвайце Xiaomi Cloud для сінхранізацыі сваіх нататак, налад Браўзера, фота і відэа, запісаў, падзей календара і аб'ектаў Чорнага спісу паміж усімі падлучанымі прыладамі."</string>
     <string name="privacy_doc_cloudservice_china_v2_with_charge_hint_new">"Сардэчна запрашаем у Сэрвісы Xiaomi Cloud! Вы можаце выкарыстоўваць Xiaomi Cloud для сінхранізацыі паведамленняў, гісторыі выклікаў, кантактаў, нататак, налад браўзэра, фота і відэа, налад WLAN, запісаў, выгляда Галоўнага экрана, праграм, падзей календара, аб'ектаў у чорным спісе і Стужкі віджэтаў на ўсіх падлучаных прыладах. Атрымлівайце доступ да таго, што вы сінхранізавалі, з любога браўзэра на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br /> Каб актываваць гэтыя паслугі, будзе адпраўлена &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> мясцовае платнае SMS&lt;/b>&lt;/font>. Калі вы змяняеце SIM-карты, для паўторнай актывацыі таксама будзе адпраўлена &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> мясцовае платнае SMS&lt;/b>&lt;/font>.&lt;br/> Усе зборы за SMS-паведамленні налічаны аператарам. Xiaomi не будзе спаганяць з вас плату за іх.&lt;br />&lt;br />Мы будзем абараняць вашу асабістую інфармацыю ў адпаведнасці з дзеючымі законамі, правіламі і палітыкай прыватнасці.&lt;br />Для нармальнай працы гэтым службам неабходна падлучэнне да Інтэрнэту і наступныя дазволы для збору вашай асабістай інфармацыі:&lt;br />• Каляндар:&lt;br />Для сінхранізацыі падзей&lt;br />• Доступ да SMS:&lt;br />Для сінхранізацыі паведамленняў&lt;br />• Доступ да MMS:&lt;br />Для сінхранізацыі паведамленняў&lt;br />• Доступ да кантактаў:&lt;br />Для сінхранізацыі кантактаў&lt;br />• Рэдагаванне кантактаў:&lt;br />Для сінхранізацыі кантактаў&lt;br />• Сховішча:&lt;br />Для захавання аб'ектаў на вашай прыладзе (напрыклад, выяў і відэа)&lt;br />Калі вы не згодны прадастаўляць такія дазволы, або дзяліцца сваёй асабістай інфармацыяй, або загружаць яе, вы не зможаце выкарыстоўваць гэтыя паслугі. У такіх выпадках вы можаце выдаліць гэтую праграму, выйсці з сістэмы або абмежаваць дазволы ў Наладах.&lt;br />Прачытайце нашы &lt;a href=%3$s>&lt;u>Карыстальніцкае пагадненне&lt;/u>&lt;/a> і &lt;a href=%4$s>&lt;u>Палітыку прыватнасці&lt;/u>&lt;/a> і пагадзіцеся з імі перад выкарыстаннем нашых паслуг.&lt;br />"</string>
     <string name="privacy_doc_cloudservice_china_with_charge_hint_new">"Сардэчна запрашаем у Сэрвісы Xiaomi Cloud! Вы можаце выкарыстоўваць Xiaomi Cloud для сінхранізацыі паведамленняў, гісторыі выклікаў, кантактаў, нататак, налад браўзэра, фота і відэа, налад WLAN, запісаў, выгляда Галоўнага экрана, праграм, падзей календара, аб'ектаў у чорным спісе і Стужкі віджэтаў на ўсіх падлучаных прыладах. Атрымлівайце доступ да таго, што вы сінхранізавалі, з любога браўзэра на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br /> Каб актываваць гэтыя паслугі, будзе адпраўлена &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> мясцовае платнае SMS&lt;/b>&lt;/font>. Калі вы змяняеце SIM-карты, для паўторнай актывацыі таксама будзе адпраўлена &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> мясцовае платнае SMS&lt;/b>&lt;/font>.&lt;br/> Усе зборы за SMS-паведамленні налічаны аператарам. Xiaomi не будзе спаганяць з вас плату за іх.&lt;br />&lt;br />Мы будзем абараняць вашу асабістую інфармацыю ў адпаведнасці з дзеючымі законамі, правіламі і палітыкай прыватнасці.&lt;br />Для нармальнай працы гэтым службам неабходна падлучэнне да Інтэрнэту і наступныя дазволы для збору вашай асабістай інфармацыі:&lt;br />• Каляндар:&lt;br />Для сінхранізацыі падзей&lt;br />• Доступ да SMS:&lt;br />Для сінхранізацыі паведамленняў&lt;br />• Доступ да MMS:&lt;br />Для сінхранізацыі паведамленняў&lt;br />• Доступ да кантактаў:&lt;br />Для сінхранізацыі кантактаў&lt;br />• Рэдагаванне кантактаў:&lt;br />Для сінхранізацыі кантактаў&lt;br />• Сховішча:&lt;br />Для захавання аб'ектаў на вашай прыладзе (напрыклад, выяў і відэа)&lt;br />Калі вы не згодны прадастаўляць такія дазволы, або дзяліцца сваёй асабістай інфармацыяй, або загружаць яе, вы не зможаце выкарыстоўваць гэтыя паслугі. У такіх выпадках вы можаце выдаліць гэтую праграму, выйсці з сістэмы або абмежаваць дазволы ў Наладах.&lt;br />Прачытайце нашы &lt;a href=%3$s>&lt;u>Карыстальніцкае пагадненне&lt;/u>&lt;/a> і &lt;a href=%4$s>&lt;u>Палітыку прыватнасці&lt;/u>&lt;/a> і пагадзіцеся з імі перад выкарыстаннем нашых паслуг.&lt;br />"</string>
-    <string name="privacy_doc_cloudservice_global">Для правільнай працы Xiaomi Cloud патрабуецца падлучэнне да інтэрнэту. Для сінхранізацыі дадзеных можа спатрэбіцца выкарыстанне мабільных дадзеных і ўключэнне Wi-Fi. Перад выкарыстаннем службаў Xiaomi Cloud азнаёмцеся і пагадзіцеся з нашымі &lt;a href=%1$s>&lt;u>Карыстальніцкім пагадненнем&lt;/u>&lt;/a> і &lt;a href=%2$s>&lt;u>Палітыкай прыватнасці&lt;/u>&lt;/a>.</string>
     <string name="privacy_doc_cloudservice_pad_new">"Сардэчна запрашаем у сэрвісы Xiaomi Cloud! Выкарыстоўвайце Xiaomi Cloud для сінхранізацыі паведамленняў, кантактаў, нататак, налад браўзера, фота і відэа, аўдыязапісаў, праграм, падзей календара і аб'ектаў чорнага спісу паміж усімі падлучанымі прыладамі. Вы можаце атрымаць доступ да сінхранізаваных аб’ектаў з любога браўзера па адрасе &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Для актывацыі гэтых сэрвісаў будзе адпраўлена &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> мясцовае платнае SMS&lt;/b>&lt;/font>. Пры змене SIM-карты для паўторнай актывацыі аўтаматычна будзе адпраўлена &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> мясцовае платнае SMS&lt;/b>&lt;/font>.&lt;br/>Усе зборы за адпраўку SMS, звязаныя з гэтымі дзеяннямі, будуць спаганяцца вашым аператарам сувязі. Xiaomi не будзе спаганяць плату за гэтыя паведамленні.&lt;br />&lt;br />Мы будзем абараняць вашу асабістую інфармацыю ў адпаведнасці з дзеючым заканадаўствам, правіламі і палітыкай прыватнасці.&lt;br />Для нармальнай працы сэрвісам патрабуецца падключэнне да інтэрнэту і наступныя дазволы для збору вашай асабістай інфармацыі:&lt;br />• Календар:&lt;br />Для сінхранізацыі падзей&lt;br />• Доступ да SMS:&lt;br />Для сінхранізацыі паведамленняў&lt;br />• Доступ да MMS:&lt;br />Для сінхранізацыі паведамленняў&lt;br />• Доступ да кантактаў:&lt;br />Для сінхранізацыі кантактаў&lt;br />• Рэдагаванне кантактаў:&lt;br />Для сінхранізацыі кантактаў&lt;br />• Сховішча:&lt;br />Для захавання аб’ектаў на прыладзе (напрыклад, фота і відэа)&lt;br />Калі вы не згодныя прадастаўляць такія дазволы або дзяліцца сваёй асабістай інфармацыяй і загружаць яе, вы не зможаце выкарыстоўваць гэтыя сэрвісы. У такім выпадку вы можаце выдаліць праграму, выйсці з сістэмы або абмежаваць дазволы ў Наладах.&lt;br />Перад выкарыстаннем нашых сэрвісаў прачытайце і пагадзіцеся з &lt;a href=%3$s>&lt;u>Карыстальніцкім пагадненнем&lt;/u>&lt;/a> і &lt;a href=%4$s>&lt;u>Палітыкай прыватнасці&lt;/u>&lt;/a>.&lt;br />"</string>
     <string name="privacy_doc_cloudservice_pad_without_contact_but_sim_new">"Сардэчна запрашаем у сэрвісы Xiaomi Cloud! Выкарыстоўвайце Xiaomi Cloud для сінхранізацыі паведамленняў, нататак, налад браўзера, фота і відэа, запісаў, падзей календара і аб'ектаў Чорнага спісу паміж усімі падлучанымі прыладамі. Вы можаце атрымаць доступ до аб'ектаў і сінхранізаваць іх у любым браўзеры, перайшоўшы на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Для актывацыі гэтых сэрвісаў будзе адпраўлена &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>мясцовае SMS&lt;/b>&lt;/font>. Пры змене SIM-карты &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>мясцовае платнае SMS&lt;/b>&lt;/font> будзе адпраўлена аўтаматычна для паўторнай актывацыі гэтых сэрвісаў.&lt;br/>Усе зборы за адпраўку SMS, звязаныя з вышэйзгаданымі дзеяннямі, будуць спаганяцца вашым аператарам сувязі. Xiaomi не спаганяе плату за такія паведамленні.&lt;br />&lt;br />Мы будзем абараняць вашу асабістую інфармацыю ў адпаведнасці з адпаведным заканадаўствам, правіламі і палітыкамі прыватнасці.&lt;br />Для правільнай працы гэтым сэрвісам неабходна падлучэнне да Інтэрнэту і наступныя дазволы для збору вашай асабістай інфармацыі:&lt;br />• Доступ да календара:&lt;br />для сінхранізацыі падзей&lt;br />• Доступ да SMS:&lt;br />для сінхранізацыі паведамленняў&lt;br />• Доступ да MMS:&lt;br />для сінхранізацыі паведамленняў&lt;br />• Доступ да сховішча:&lt;br />для захавання аб'ектаў на прыладзе (напрыклад, выявы і музыка)&lt;br />Калі вы не згодныя прадастаўляць дазволы або дзяліцца асабістай інфармацыяй і загружаць яе, вы не зможаце выкарыстоўваць гэтыя сэрвісы. Вы можаце выдаліць гэтую праграму, выйсці з сістэмы або абмежаваць дазволы ў Наладах.&lt;br />Перад выкарыстаннем нашых сэрвісаў азнаёмціся і пагадзіцеся з нашым&lt;a href=%3$s> &lt;u>Карыстальніцкім пагадненнем&lt;/u>&lt;/a> і &lt;a href=%4$s>&lt;u>Палітыкай прыватнасці&lt;/u>&lt;/a>.&lt;br />"</string>
     <string name="privacy_doc_cloudservice_pad_without_sim_but_contact_new">"Сардэчна запрашаем у сэрвісы Xiaomi Cloud! Выкарыстоўвайце Xiaomi Cloud для сінхранізацыі кантактаў, нататак, налад браўзера, фота і відэа, запісаў, падзей календара і аб'ектаў чорнага спісу паміж усімі падлучанымі прыладамі. Вы можаце атрымаць доступ да аб'ектаў і сінхранізаваць іх у любым браўзеры, перайшоўшы на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Мы будзем абараняць вашу асабістую інфармацыю ў адпаведнасці з дзеючым заканадаўствам, правіламі і палітыкай прыватнасці.&lt;br />Для правільнай працы гэтым сэрвісам неабходна падключэнне да Інтэрнэту і наступныя дазволы для збору вашай асабістай інфармацыі:&lt;br />• Доступ да календара:&lt;br />для сінхранізацыі падзей&lt;br />• Доступ да кантактаў:&lt;br />для сінхранізацыі кантактаў&lt;br />• Рэдагаванне кантактаў:&lt;br />для сінхранізацыі кантактаў&lt;br />• Доступ да сховішча:&lt;br />для захавання аб'ектаў на прыладзе (напрыклад, фота і відэа)&lt;br />Калі вы не згодныя прадастаўляць дазволы або дзяліцца асабістай інфармацыяй і загружаць яе, вы не зможаце выкарыстоўваць гэтыя сэрвісы. Вы можаце выдаліць гэтую праграму, выйсці з сістэмы або абмежаваць дазволы ў Наладах.&lt;br />Перад выкарыстаннем нашых сэрвісаў прачытайце і пагадзіцеся з &lt;a href=%3$s>&lt;u>Карыстальніцкім пагадненнем&lt;/u>&lt;/a> і &lt;a href=%4$s>&lt;u>Палітыкай прыватнасці&lt;/u>&lt;/a>.&lt;br />"</string>
@@ -1006,8 +981,6 @@
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
-    <string name="search_menu_title">Пошук</string>
-    <string name="send">Даслаць</string>
     <string name="share_cancel">Адпраўка скасавана</string>
     <string name="share_failed">Не атрымалася адправіць</string>
     <string name="share_location_app_name">Пошук прылады</string>
@@ -1167,46 +1140,6 @@
     <string name="system_busy_or_network_error">Адбылася памылка, пачакайце хвіліну ці дзве, і паспрабуйце ізноў.</string>
     <string name="talkback_hide_passcode">Схаваць сакрэтны код</string>
     <string name="talkback_show_passcode">Паказаць сакрэтны код</string>
-    <string name="the_anniversary_of_lifting_martial_law">Гадавіна адмены ваеннага становішча</string>
-    <string name="the_anti_aggression_day">Дзень барацьбы з агрэсіяй</string>
-    <string name="the_arbor_day">Дзень пасадкі дрэў</string>
-    <string name="the_armed_forces_day">Дзень узброеных сілаў</string>
-    <string name="the_armys_day">Дзень заснавання НВАК</string>
-    <string name="the_childrens_day">Дзень абароны дзяцей</string>
-    <string name="the_chinese_youth_day">Дзень моладзі</string>
-    <string name="the_christmas_day">Каляды</string>
-    <string name="the_double_ninth_festival">Свята двайной дзявяткі</string>
-    <string name="the_dragon_boat_festival">Свята лодак-драконаў</string>
-    <string name="the_easter_day">Вялікдзень</string>
-    <string name="the_eve_of_the_spring_festival">Напярэдадні кітайскага новага года</string>
-    <string name="the_fifth_day">Пяты дзень кітайскага Новага года</string>
-    <string name="the_fools_day">Дзень дурня</string>
-    <string name="the_forth_day">Чацвёрты дзень кітайскага Новага года</string>
-    <string name="the_hksar_establishment_day">Дзень утварэння САР Ганконг</string>
-    <string name="the_international_womens_day">Жаночы дзень</string>
-    <string name="the_laba_festival">Свята Лаба</string>
-    <string name="the_labour_day">Дзень працы</string>
-    <string name="the_lantern_festival">Свята ліхтароў</string>
-    <string name="the_mid_autumn_festival">Свята сярэдзіны восені</string>
-    <string name="the_national_day">Нацыянальны дзень</string>
-    <string name="the_national_father_day">Дзень нараджэння Сунь Ятсена</string>
-    <string name="the_new_years_day">Новы год</string>
-    <string name="the_night_of_sevens">Cвята Цісі</string>
-    <string name="the_partys_day">Дзень заснавання ККП</string>
-    <string name="the_peace_day">Дзень памяці</string>
-    <string name="the_retrocession_day">Дзень рэтрвцэсіі Тайваня</string>
-    <string name="the_second_day">Другі дзень кітайскага Новага года</string>
-    <string name="the_seventh_day">Сёмы дзень кітайскага Новага года</string>
-    <string name="the_sixth_day">Шосты дзень кітайскага Новага года</string>
-    <string name="the_spirit_festival">Фестываль духаў</string>
-    <string name="the_spring_festival">Кітайскі Новы год</string>
-    <string name="the_teachers_day">Дзень настаўнікаў</string>
-    <string name="the_third_day">Трэці дзень кітайскага Новага года</string>
-    <string name="the_tw_childrens_day">Дзень абароны дзяцей</string>
-    <string name="the_tw_youth_day">Дзень моладзі</string>
-    <string name="the_united_nations_day">"Дзень Арганізацыі Аб'яднаных Нацый"</string>
-    <string name="the_valentines_day">Дзень святого Валянціна</string>
-    <string name="the_water_lantern_festival">Свята водных ліхтароў</string>
     <string name="thursday">Чацвер</string>
     <string name="thursday_short">Чац</string>
     <string name="thursday_shortest">Чац</string>
@@ -1245,11 +1178,18 @@
     <string name="verify_camera_permission_title">Патрабуюцца дазволы</string>
     <string name="verify_code_btn_negative">Адмена</string>
     <string name="verify_code_btn_positive">Далей</string>
+    <string name="verify_code_device_list_title">Код адпраўлены на гэтыя прылады</string>
     <string name="verify_code_dialog_message_default">Увядзіце гэты код на новай прыладзе</string>
     <string name="verify_code_dialog_title_default">Код праверкі прылады</string>
     <string name="verify_code_error_textView">Няправільны код доступу. Паўтарыце спробу.</string>
     <string name="verify_code_error_view">Няправільны код. Паўтарыце спробу.</string>
+    <string name="verify_code_send_desc_1">Увядзіце код пацверджання, адпраўлены на %1$s, каб працягнуць</string>
+    <string name="verify_code_send_desc_2">Увядзіце код пацверджання, адпраўлены на %1$s і %2$s, каб працягнуць</string>
+    <string name="verify_code_send_desc_3">Увядзіце код пацверджання, адпраўлены на %1$s, %2$s і %3$s, каб працягнуць.</string>
+    <string name="verify_code_send_desc_4">Увядзіце код пацверджання, адпраўлены на %1$s, %2$s, %3$s і %4$s, каб працягнуць.</string>
+    <string name="verify_code_send_desc_5">Каб працягнуць, увядзіце код пацверджання, адпраўлены на %1$s, %2$s, %3$s, %4$s і %5$s</string>
     <string name="verify_code_success_textView">Абнавіць код доступу</string>
+    <string name="verify_code_view_all_devices">Паказаць усе прылады</string>
     <string name="verify_code_warning_dialog_message_default">Дазволіць вашай новай прыладзе доступ да зашыфраваных дадзеных?</string>
     <string name="verify_code_warning_dialog_title">Праверачны код</string>
     <string name="verify_code_warning_dialog_title_default">Новая прылада запытвае доступ</string>
@@ -1313,6 +1253,7 @@
     <string name="verify_warning_dialog_message_pc">Уключана Пашыраная абарона дадзеных. Дайце неабходныя дазволы на вашым кампутары, каб атрымаць доступ да зашыфраваных дадзеных.</string>
     <string name="verify_warning_dialog_message_web">Уключана Пашыраная абарона дадзеных. Дайце неабходныя дазволы на i.mi.com, каб атрымаць доступ да зашыфраваных дадзеных.</string>
     <string name="verify_warning_dialog_negative_btn">Забараніць</string>
+    <string name="verify_warning_dialog_negative_btn_new">Не дазваляць</string>
     <string name="verify_warning_dialog_positive_btn">Дазволіць</string>
     <string name="verify_warning_dialog_title">На іншай прыладзе ўключана скразное шыфраванне</string>
     <string name="verify_warning_dialog_title_find_device">Функцыя «Аўтаномнае месцазнаходжанне» ўключана на іншай прыладзе</string>
@@ -1323,10 +1264,7 @@
     <string name="waiting_for_sync">Чаканне…</string>
     <string name="web_view_auto_login_fail">Не атрымалася ўвайсці. Паспрабуйце яшчэ раз.</string>
     <string name="web_view_login_text">Уваход…</string>
-    <string name="web_view_reload_btn_text">Паўтарыць</string>
     <string name="web_view_reload_btn_text_new">Паўтарыць</string>
-    <string name="web_view_reload_description_text">"Не атрымалася падключыцца да сеткі.
-Праверце свае налады і паспрабуйце ізноў."</string>
     <string name="web_view_reload_description_text_new">Праверце налады сеткі і паспрабуйце зноў.</string>
     <string name="wednesday">Серада</string>
     <string name="wednesday_short">Сер</string>
@@ -1339,5 +1277,4 @@
     <string name="wipe_data_query_progress_title">Праверка…</string>
     <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="xiaomi_cloud_service_subtitle">"Усе важныя аб'екты ў адным месцы"</string>
-    <string name="yesterday">Учора</string>
 </resources>

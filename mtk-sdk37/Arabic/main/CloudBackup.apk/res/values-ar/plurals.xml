@@ -80,6 +80,38 @@
         <item quantity="many">يبدو أنك لم تنسخ بياناتك احتياطيًا لمدة %s أسبوع. قم بعمل نسخة احتياطية من البيانات الهامة لتجنب فقدانها.</item>
         <item quantity="other">يبدو أنك لم تنسخ بياناتك احتياطيًا لمدة %s أسبوع. قم بعمل نسخة احتياطية من البيانات الهامة لتجنب فقدانها.</item>
     </plurals>
+    <plurals name="backup_frequence_days">
+        <item quantity="zero">كل %d يوم</item>
+        <item quantity="one">كل %d يوم</item>
+        <item quantity="two">كل %d أيام</item>
+        <item quantity="few">كل %d أيام</item>
+        <item quantity="many">كل %d يوم</item>
+        <item quantity="other">كل %d يوم</item>
+    </plurals>
+    <plurals name="backup_options_summary_format">
+        <item quantity="zero">%1$d/%2$d عنصر</item>
+        <item quantity="one">%1$d/%2$d عنصر</item>
+        <item quantity="two">%1$d/%2$d عناصر</item>
+        <item quantity="few">%1$d/%2$d عناصر</item>
+        <item quantity="many">%1$d/%2$d عنصر</item>
+        <item quantity="other">%1$d/%2$d عنصر</item>
+    </plurals>
+    <plurals name="backup_unselected_items_dialog_message">
+        <item quantity="zero">تم إيقاف النسخ الاحتياطي ل %2$d عنصر بما في ذلك %1$s. لإنشاء نسخة احتياطية، حددها من \"العناصر التي تم نسخها احتياطيًا\".</item>
+        <item quantity="one">تم إيقاف النسخ الاحتياطي ل %2$d عنصر بما في ذلك %1$s. لإنشاء نسخة احتياطية، حددها من \"العناصر التي تم نسخها احتياطيًا\".</item>
+        <item quantity="two">تم إيقاف النسخ الاحتياطي ل %2$d عناصر بما في ذلك %1$s. لإنشاء نسخة احتياطية، حددها من \"العناصر التي تم نسخها احتياطيًا\".</item>
+        <item quantity="few">تم إيقاف النسخ الاحتياطي ل %2$d عناصر بما في ذلك %1$s. لإنشاء نسخة احتياطية، حددها من \"العناصر التي تم نسخها احتياطيًا\".</item>
+        <item quantity="many">تم إيقاف النسخ الاحتياطي ل %2$d عنصر بما في ذلك %1$s. لإنشاء نسخة احتياطية، حددها من \"العناصر التي تم نسخها احتياطيًا\".</item>
+        <item quantity="other">تم إيقاف النسخ الاحتياطي ل %2$d عنصر بما في ذلك %1$s. لإنشاء نسخة احتياطية، حددها من \"العناصر التي تم نسخها احتياطيًا\".</item>
+    </plurals>
+    <plurals name="backup_unselected_items_dialog_title">
+        <item quantity="zero">لم يتم نسخ عدد %d من التطبيق احتياطياً</item>
+        <item quantity="one">لم يتم نسخ عدد %d من التطبيق احتياطياً</item>
+        <item quantity="two">لم يتم نسخ عدد %d من التطبيقات احتياطياً</item>
+        <item quantity="few">لم يتم نسخ عدد %d من التطبيقات احتياطياً</item>
+        <item quantity="many">لم يتم نسخ عدد %d من التطبيق احتياطياً</item>
+        <item quantity="other">لم يتم نسخ عدد %d من التطبيق احتياطياً</item>
+    </plurals>
     <plurals name="cloud_backup_detail_manage_summary">
         <item quantity="zero">%1$s نسخة احتياطية (%2$s)</item>
         <item quantity="one">%1$s نسخة احتياطية (%2$s)</item>
@@ -167,6 +199,38 @@
         <item quantity="few">منذ %d دق</item>
         <item quantity="many">منذ %d دق</item>
         <item quantity="other">منذ %d دق</item>
+    </plurals>
+    <plurals name="restore_notification_partial_result_1">
+        <item quantity="zero">تم استعادة %d عنصر</item>
+        <item quantity="one">تم استعادة %d عنصر</item>
+        <item quantity="two">تم استعادة %d عناصر</item>
+        <item quantity="few">تم استعادة %d عناصر</item>
+        <item quantity="many">تم استعادة %d عنصر</item>
+        <item quantity="other">تم استعادة %d عنصر</item>
+    </plurals>
+    <plurals name="restore_notification_partial_result_2">
+        <item quantity="zero">تعذر استعادة %d عنصر</item>
+        <item quantity="one">تعذر استعادة %d عنصر</item>
+        <item quantity="two">تعذر استعادة %d عناصر</item>
+        <item quantity="few">تعذر استعادة %d عناصر</item>
+        <item quantity="many">تعذر استعادة %d عنصر</item>
+        <item quantity="other">تعذر استعادة %d عنصر</item>
+    </plurals>
+    <plurals name="restore_progress_partial_hint_1">
+        <item quantity="zero">تم استعادة %d عنصر</item>
+        <item quantity="one">تم استعادة %d عنصر</item>
+        <item quantity="two">تم استعادة %d عناصر</item>
+        <item quantity="few">تم استعادة %d عناصر</item>
+        <item quantity="many">تم استعادة %d عنصر</item>
+        <item quantity="other">تم استعادة %d عنصر</item>
+    </plurals>
+    <plurals name="restore_progress_partial_hint_2">
+        <item quantity="zero">تعذر استعادة %d عنصر</item>
+        <item quantity="one">تعذر استعادة %d عنصر</item>
+        <item quantity="two">تعذر استعادة %d عناصر</item>
+        <item quantity="few">تعذر استعادة %d عناصر</item>
+        <item quantity="many">تعذر استعادة %d عنصر</item>
+        <item quantity="other">تعذر استعادة %d عنصر</item>
     </plurals>
     <plurals name="session_starting_app_count_backup_text">
         <item quantity="zero">تم نسخ %d تطبيق</item>

@@ -32,6 +32,8 @@
     <string name="bottomsheet_action_expand_halfway">گسترده کردن تا نیمه</string>
     <string name="bottomsheet_drag_handle_clicked">روی دستگیره کشاندن دوضربه زده شد</string>
     <string name="bottomsheet_drag_handle_content_description">دستگیره کشاندن</string>
+    <string name="calendar_date_picker_a11y_next_month">تغییر به ماه بعدی</string>
+    <string name="calendar_date_picker_a11y_prev_month">تغییر به ماه قبلی</string>
     <string name="call_notification_answer_action">پاسخ دادن</string>
     <string name="call_notification_answer_video_action">ویدیو</string>
     <string name="call_notification_decline_action">رد کردن</string>
@@ -44,8 +46,6 @@
     <string name="cast_closed_captions">زیرنویس ناشنوایان</string>
     <string name="cast_closed_captions_unavailable">زیرنویس ناشنوانایان دردسترس نیست</string>
     <string name="cast_connecting_to_device">درحال اتصال به %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">درحال پیدا کردن دستگاه‌ها</string>
-    <string name="cast_device_chooser_title">پخش محتوا در</string>
     <string name="cast_disconnect">قطع ارتباط</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">تصویری که هنگام نمایش آگهی در گیرنده محتوی نشان داده می‌شود</string>
@@ -84,9 +84,6 @@
     <string name="cast_tracks_chooser_dialog_ok">تأیید</string>
     <string name="cast_tracks_chooser_dialog_subtitles">زیرنویس‌ها</string>
     <string name="cast_unmute">باصدا</string>
-    <string name="cast_zero_devices_found">"‏دستگاهی پیدا نشد.
-"</string>
-    <string name="cast_zero_devices_learn_more_description">درباره نحوه پخش محتوا در دستگاه‌های دیگر <a href="https://support.google.com/chromecastbuiltin/answer/3006709">بیشتر بدانید</a>.</string>
     <string name="character_counter_content_description">نویسه‌های واردشده %1$d از %2$d</string>
     <string name="character_counter_overflowed_content_description">محدودیت نویسه از حد مجاز %1$d از %2$d بیشتر شده است</string>
     <string name="clear_text_end_icon_content_description">پاک کردن نوشتار</string>
@@ -117,6 +114,7 @@
     <string name="fallback_menu_item_copy_link">کپی پیوند</string>
     <string name="fallback_menu_item_open_in_browser">بازکردن در مرورگر</string>
     <string name="fallback_menu_item_share_link">هم‌رسانی پیوند</string>
+    <string name="ic_media_route_learn_more_accessibility">آشنایی با نحوه پخش محتوا</string>
     <string name="icon_content_description">نماد کادر گفتگو</string>
     <string name="item_view_role_description">برگه</string>
     <string name="material_clock_toggle_content_description">انتخاب .ق.ظ. یا ب.ظ.</string>
@@ -138,8 +136,17 @@
     <string name="mr_cast_button_connecting">پخش محتوا. درحال متصل شدن</string>
     <string name="mr_cast_button_disconnected">پخش محتوا. متصل نیست</string>
     <string name="mr_cast_dialog_title_view_placeholder">اطلاعاتی در دسترس نیست</string>
+    <string name="mr_chooser_looking_for_devices">درحال جستجوی دستگاه‌ها…</string>
     <string name="mr_chooser_searching">درحال پیدا کردن دستگاه‌ها</string>
     <string name="mr_chooser_title">پخش محتوا به</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">بیشتر بدانید</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">‏مطمئن شوید این خودرو و دستگاه دیگر به شبکه Wi-Fi یکسانی متصل باشند</string>
+    <string name="mr_chooser_wifi_warning_description_phone">‏مطمئن شوید این تلفن و دستگاه دیگر به شبکه Wi-Fi یکسانی متصل باشند</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">‏مطمئن شوید این رایانه لوحی و دستگاه دیگر به شبکه Wi-Fi یکسانی متصل باشند</string>
+    <string name="mr_chooser_wifi_warning_description_tv">‏مطمئن شوید این تلویزیون و دستگاه دیگر به شبکه Wi-Fi یکسانی متصل باشند</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">‏مطمئن شوید این دستگاه و دستگاه دیگر به شبکه Wi-Fi یکسانی متصل باشند</string>
+    <string name="mr_chooser_wifi_warning_description_watch">‏مطمئن شوید این ساعت و دستگاه دیگر به شبکه Wi-Fi یکسانی متصل باشند</string>
+    <string name="mr_chooser_zero_routes_found_title">دستگاهی موجود نیست</string>
     <string name="mr_controller_album_art">عکس روی جلد آلبوم</string>
     <string name="mr_controller_casting_screen">درحال پخش محتوای صفحه‌نمایش</string>
     <string name="mr_controller_close_description">بستن</string>
