@@ -184,6 +184,7 @@ Try again."</string>
     <string name="callFailed_wfc_service_not_available_in_this_location">Wi-Fi calling is not available in this location.</string>
     <string name="callFailed_wifi_lost">Wi-Fi connection lost. Call ended.</string>
     <string name="call_advanced_setting_title">Advanced settings</string>
+    <string name="call_antispam_setting">Call blocklist settings</string>
     <string name="call_barring_baic">All incoming</string>
     <string name="call_barring_baic_disabled">Block all incoming calls?</string>
     <string name="call_barring_baic_enabled">Disable blocking of all incoming calls?</string>
@@ -475,6 +476,8 @@ Try again."</string>
     <string name="emm_cause_7_8_12_13_15_16_17_22">"You can't use roaming now. Turn your device off, then turn it back on and try again. If you still encounter this problem after that, contact carrier customer support (SKT: +%1$d-%2$d-%3$d-%4$d)."</string>
     <string name="empty_networks_list">No networks found.</string>
     <string name="enable">Turn on</string>
+    <string name="enable_2g_protection_summary">Avoids 2G networks, which are less secure. This may limit connectivity in some places. Emergency calling is always allowed.</string>
+    <string name="enable_2g_protection_title">2G network protection</string>
     <string name="enable_2g_summary">2G networks are less secure, but may improve connection quality in some locations</string>
     <string name="enable_2g_summary_eu">Use 2G cellular connections. For emergency calls, 2G is always turned on.</string>
     <string name="enable_2g_title">Allow use of 2G</string>
@@ -520,9 +523,9 @@ Try again."</string>
     <string name="esim_inactive_notification_title_global">Dual SIM &amp; mobile networks</string>
     <string name="esim_is_activating_notification_message_for_o2">Activating mobile plan…</string>
     <string name="esim_roaming_dialog_msg">"Looks like you're in a new location. Activate eSIM for roaming?"</string>
+    <string name="expand_button_title">Advanced</string>
     <string name="esim_roaming_dialog_title">Activate eSIM</string>
     <string name="esim_setting_title">eSIM settings</string>
-    <string name="expand_button_title">Advanced</string>
     <string name="esos_satellite_label">Test real satellite eSOS mode</string>
     <string name="euicc_binding_error_alert_message">A security issue was detected with the current eSIM. Contact customer support for assistance.</string>
     <string name="euicc_binding_error_alert_title">"Couldn't verify eSIM"</string>
@@ -558,7 +561,6 @@ Try again."</string>
     <string name="fiveg_network_title">5G networks</string>
     <string name="fiveg_sa_switch_summary">Allow connecting to 5G networks in standalone mode</string>
     <string name="fiveg_sa_switch_title">SA mode</string>
-    <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -611,6 +613,7 @@ Try again."</string>
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="fiveg_switch_title">5G network</string>
     <string name="flash_when_ring_summary">Use flash to notify about incoming calls</string>
     <string name="flash_when_ring_title">Flash when ringing</string>
@@ -813,8 +816,6 @@ You can still make emergency calls."</string>
     <string name="missed_call_notify_thrice">%d times</string>
     <string name="missed_call_notify_times_summary">Reminders are separated by %d minute intervals</string>
     <string name="missed_call_notify_times_title">Missed call reminders</string>
-    <string name="missed_call_notify_twice">%d times</string>
-    <string name="miui_network_selection_reset_text">Reset</string>
     <string name="miuix_access_state_desc">Selected</string>
     <string name="miuix_appcompat_accessibility_collapse_state">Collapsed</string>
     <string name="miuix_appcompat_accessibility_expand_state">Expanded</string>
@@ -827,6 +828,8 @@ You can still make emergency calls."</string>
     <string name="miuix_popup_show_description">Pop-up window</string>
     <string name="miuix_progressbar_loading">Loading</string>
     <string name="miuix_show_password">Show password</string>
+    <string name="missed_call_notify_twice">%d times</string>
+    <string name="miui_network_selection_reset_text">Reset</string>
     <string name="miui_notification_network_selection_title">SIM: No service</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: No service</string>
     <string name="mmiStarted">MMI code started</string>
@@ -1411,9 +1414,9 @@ Cancel services now?"</string>
     <string name="sum_call_barring_disabled">Off</string>
     <string name="sum_call_barring_enabled">On</string>
     <string name="sum_cdma_call_settings">Additional CDMA-only call settings</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sum_cfb_disabled">Off</string>
     <string name="sum_cfb_enabled">Forwarding to {0}</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sum_cfnrc_disabled">Off</string>
     <string name="sum_cfnrc_enabled">Forwarding to {0}</string>
     <string name="sum_cfnry_disabled">Off</string>
@@ -1511,9 +1514,9 @@ Cancel services now?"</string>
     <string name="turn_off_dual_4g_failed">"Couldn't turn off Dual 4G."</string>
     <string name="turn_on_dual_4g_failed">"Couldn't turn on Dual 4G."</string>
     <string name="turnover_mute_summary">When phone is on a horizontal surface with screen facing up, flip it over to silence ringer, turn off vibration, and stop flashing notification light.</string>
-    <string name="turnover_mute_title">Flip to silence ringer</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
+    <string name="turnover_mute_title">Flip to silence ringer</string>
     <string name="undefined">None</string>
     <string name="unfold_show_bublle_pref_summary">Unfold the device during calls to show them in floating windows</string>
     <string name="unfold_show_bublle_pref_title">Unfold to minimise calls</string>

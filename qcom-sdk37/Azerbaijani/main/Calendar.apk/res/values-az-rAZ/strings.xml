@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accessibility_add_attendee">İştirakçı əlavə et</string>
-    <string name="accessibility_alarm_remind">Zəngli saat xatırladıcıları</string>
+    <string name="accessibility_alarm_remind">Zəngli saat xatırlatmaları</string>
     <string name="accessibility_all_day">Bütün gün tədbiri</string>
     <string name="accessibility_change_view_tab">Seçildi: %s</string>
     <string name="accessibility_day_page_selected">Hal-hazırda gündəlik görünüşdədir, %2$s %3$d, %1$d</string>
@@ -251,7 +251,7 @@
     <string name="edit_event_title_create_anniversary">Yubiley əlavə edin</string>
     <string name="edit_event_title_create_birthday">Ad günü əlavə edin</string>
     <string name="edit_event_title_create_countdown">Geri sayım əlavə et</string>
-    <string name="edit_event_title_edit_agenda">Tədbirə düzəliş et</string>
+    <string name="edit_event_title_edit_agenda">Tədbiri redaktə et</string>
     <string name="edit_event_title_edit_anniversary">İl dönümünə düzəliş et</string>
     <string name="edit_event_title_edit_birthday">Doğum gününə düzəliş et</string>
     <string name="edit_event_title_edit_countdown">Geri sayıma düzəliş et</string>
@@ -271,7 +271,7 @@
     <string name="event_all_selected">Hamısı seçildi</string>
     <string name="event_create">Yeni tədbir</string>
     <string name="event_delete">Tədbiri sil</string>
-    <string name="event_edit">Tədbirə düzəliş et</string>
+    <string name="event_edit">Tədbiri redaktə et</string>
     <string name="event_import">Tədbir idxal edin</string>
     <string name="event_info_descrip">Açıqlama</string>
     <string name="event_info_end">Son</string>
@@ -511,6 +511,7 @@
     <string name="month_august_short">Avq</string>
     <string name="month_august_shortest">Avq</string>
     <string name="month_calendar_view">Ay görünüşü</string>
+    <string name="month_day_title_format">dd.MM</string>
     <string name="month_december">Dekabr</string>
     <string name="month_december_short">Dek</string>
     <string name="month_december_shortest">Dek</string>
@@ -577,7 +578,7 @@
 Şəbəkə tənzimləmələrini yoxlayın və yenidən cəhd edin."</string>
     <string name="no_network_btn">Yenidən cəhd et</string>
     <string name="no_schedule_today">Bugün tədbir yoxdur</string>
-    <string name="no_title_label">(Başlıq yoxdur)</string>
+    <string name="no_title">Başlıq yoxdur</string>
     <string name="no_visiable_calendar_message">"Təqvim hesabı əlavə etməlisiniz. Davam etmək üçün ''Hesab əlavə et'' seçiminə toxunun."</string>
     <string name="no_visiable_calendar_message_only_for_xiaomi_account">"Təqvim hesabı əlavə etməlisiniz. Davam etmək üçün ''Hesab əlavə et'' seçiminə toxunun."</string>
     <string name="no_visiable_calendar_select_account">Hesab əlavə et</string>
@@ -772,21 +773,21 @@
     <string name="pm">GS</string>
     <string name="portrait_week_view">Portret oriyentasiyasında həftəlik gündəm</string>
     <string name="pref_reminder_time">Xatırladıcı vaxtı</string>
-    <string name="pref_title_alarm_remind">Zəngli saat xatırladıcıları</string>
+    <string name="pref_title_alarm_remind">Zəngli saat xatırlatmaları</string>
     <string name="pref_title_countdown_remind">Geri sayım xatırlatması</string>
     <string name="pref_title_no_remind">Xatırladıcı yoxdur</string>
-    <string name="preferences_alarms_category_title">Zəngli saat xatırladıcıları</string>
+    <string name="preferences_alarms_category_title">Zəngli saat xatırlatmaları</string>
     <string name="preferences_alarms_sound">Səs</string>
     <string name="preferences_alarms_vibrateWhen">Titrət</string>
     <string name="preferences_alerts_vibrateWhen_title">Titrəyiş</string>
-    <string name="preferences_alerts_vibrate_title">Standart xatırladıcı</string>
-    <string name="preferences_allow_remind">Xatırladıcılara icazə ver</string>
+    <string name="preferences_alerts_vibrate_title">Standart xatırlatma</string>
+    <string name="preferences_allow_remind">Xatırlatmalara icazə ver</string>
     <string name="preferences_default_allday_reminder_title">İlkin təyin olunan bütün gün xatırladıcı vaxtı</string>
     <string name="preferences_default_reminder_title">İlkin təyin olunan xatırladıcı vaxtı</string>
     <string name="preferences_home_tz_title">Ev saat qurşağı</string>
     <string name="preferences_notification_ringtone_title">Səs</string>
     <string name="preferences_popup_alert_smart_summary_new">Zamana həssas tədbirlər dəqiq vaxtı olan tədbirlərdir</string>
-    <string name="preferences_popup_alert_title">Pop-up xəbərdarlıqları</string>
+    <string name="preferences_popup_alert_title">Açılan xəbərdarlıqlar</string>
     <string name="preferences_title">Təqvim</string>
     <string name="preferences_use_home_tz_descrip">Səyahət edərkən təqvim və tədbir vaxtlarını ev saat qurşağında göstər</string>
     <string name="preferences_use_home_tz_title">Ev saat qurşağını istifadə et</string>
@@ -814,7 +815,7 @@
     <string name="premission_read_write_storage">Yaddaş</string>
     <string name="premission_read_write_storage_new">Yaddaşa müraciət et</string>
     <string name="privacy_and_permissions">Gizlilik &amp; icazələr</string>
-    <string name="privacy_update_message">"\"Qəbul et\" düyməsinə toxunmaqla, (click)Təqvimin Gizlilik Siyasətini(click) qəbul edirsiniz :
+    <string name="privacy_update_message">"\"Qəbul et\" düyməsinə toxunmaqla, (click)Təqvimin Gizlilik Siyasətini(/click) qəbul edirsiniz :
 
 Sizə daha yaxşı təcrübə təmin etmək üçün artıq tədbir yaradarkən məkan seçə bilərsiniz. Məkan axtarışı və tövsiyələr üçüncü tərəf xəritə xidmətləri vasitəsilə təmin edilir."</string>
     <string name="privacy_update_title">Yenilənmiş Gizlilik Siyasəti</string>

@@ -1386,7 +1386,7 @@ Ligações, mensagens e tráfego de rede podem estar visíveis para sua organiza
     <string name="automatic_brightness">Brilho automático</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Para ajustar o brilho automaticamente, desative o Desbloqueio facial primeiro</string>
     <string name="automatic_keyboard_layout_label">Automático: %s</string>
-    <string name="automatic_sim_lock_protection">Proteção automática do bloqueio do chip</string>
+    <string name="automatic_sim_lock_protection">Modo de proteção do bloqueio do chip</string>
     <string name="automatic_sim_lock_settings_title">Proteção do chip</string>
     <string name="automatic_storage_manager_activation_warning">Seu armazenamento está sendo controlado pelo gerenciador de armazenamento</string>
     <string name="automatic_storage_manager_days_title">Remover fotos e vídeos</string>
@@ -2771,6 +2771,8 @@ Se esta permissão estiver ativada, o app vai ficar disponível como opção sem
     <string name="character_counter_content_description">Caracteres inseridos: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">Limite de %2$d caracteres excedido em %1$d</string>
     <string name="charge_length_format">%1$s atrás</string>
+    <string name="charge_light_state_summary">Acender a luz traseira durante o carregamento</string>
+    <string name="charge_light_state_title">Efeitos luminosos de carregamento</string>
     <string name="charging_sounds_title">Sons e vibração ao carregar</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Procurar atualizações</string>
@@ -2845,6 +2847,7 @@ Painel de desempenho do chip"</string>
     <string name="choose_profile">Escolher perfil</string>
     <string name="choose_sim_activating">Ativando…</string>
     <string name="choose_sim_could_not_activate">Não foi possível ativar o chip no momento</string>
+    <string name="choose_sim_pin_protection_mode">Escolha o modo de proteção do chip</string>
     <string name="choose_sim_text">{count,plural, =1{Há 1 chip disponível neste dispositivo. É possível usar apenas um por vez}=2{Há 2 chips disponíveis neste dispositivo, mas é possível usar apenas um por vez}one{Há # chip disponível neste dispositivo. É possível usar apenas um por vez}other{Há # chips disponíveis neste dispositivo, mas é possível usar apenas um por vez}}</string>
     <string name="choose_sim_title">Escolha um chip para usar</string>
     <string name="choose_smartcover_type">Selecionar tipo de capa</string>
@@ -2981,6 +2984,7 @@ Painel de desempenho do chip"</string>
     <string name="color_led_summary">Não funciona no Não perturbe</string>
     <string name="color_led_title">Luz de LED</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Cor misturada %d</string>
     <string name="color_mode_all_apps">Todos os apps</string>
     <string name="color_mode_option_automatic">Adaptáveis</string>
     <string name="color_mode_option_boosted">Realçadas</string>
@@ -3075,6 +3079,8 @@ Painel de desempenho do chip"</string>
     <string name="confirm_frp_credential_title">Desbloqueio ao Redefinir dados de fábrica</string>
     <string name="confirm_lock_pattern_header_text">Desenhe o seu padrão</string>
     <string name="confirm_new_backup_pw_prompt">Digite mais uma vez a nova senha de backup completo aqui</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Os PINs não correspondem. Confirme o novo PIN do chip.</string>
+    <string name="confirm_new_sim_pin_title">Confirmar novo PIN do chip</string>
     <string name="confirm_oem_unlock_for_16k_text">O carregador de inicialização precisa ser desbloqueado neste dispositivo antes de usar a opção para desenvolvedores de 16 KB. A integridade do software não é garantida nesse modo, e todos os dados armazenados no smartphone enquanto o carregador de inicialização está desbloqueado podem ser expostos a riscos. Todos os dados do usuário e configurações serão apagados permanentemente durante a ativação do modo 16 KB. Após o desbloqueio do carregador de inicialização, a ativação da opção de 16 KB vai exigir duas reinicializações. Nesse modo, você poderá alternar entre os modos 4 KB e 16 KB com uma única reinicialização. Como alguns recursos serão desativados nesses modos, alguns aplicativos podem não funcionar. Para voltar o dispositivo ao modo de produção, será necessário voltar para o modo 4 KB e, depois, bloquear o carregador de inicialização/OEM, o que redefine o dispositivo para os padrões de fábrica. Desbloqueie o carregador de inicialização e tente de novo. Para conferir instruções de como fazer isso, acesse &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">É necessário desbloquear o carregador de inicialização</string>
     <string name="confirm_pad_clone_password">Confirme a senha do Segundo Espaço do seu tablet</string>
@@ -4258,6 +4264,8 @@ Isso ajuda a proteger os dados em dispositivos perdidos ou roubados. Exigir um P
     <string name="enroll_fingerprint">Registrar impressão digital</string>
     <string name="enrollment_completed">Concluído</string>
     <string name="enter_current_lock_screen_password">Insira seu bloqueio de tela</string>
+    <string name="enter_current_sim_pin_after_mismatch">PIN incorreto. Tentativas restantes: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Insira o código PIN atual do chip</string>
     <string name="enterprise_mode">Modo empresarial</string>
     <string name="enterprise_privacy_always_on_vpn_device">\"VPN sempre ativa\" ativada</string>
     <string name="enterprise_privacy_always_on_vpn_personal">\"VPN sempre ativa\" ativada no seu perfil pessoal</string>
@@ -4439,7 +4447,7 @@ Conecte uma tela externa para começar ou use um cabo diferente"</string>
     <string name="extreme_threats_title">Alertas extremos</string>
     <string name="eye_care_adjust_mode">Estilo de ajuste</string>
     <string name="eye_care_classic_mode">Clássico</string>
-    <string name="eye_care_learn_more">Learn about eye comfort</string>
+    <string name="eye_care_learn_more">Saiba mais sobre conforto ocular</string>
     <string name="eye_care_mode_description">\"Ritmo\" ajusta automaticamente a temperatura da cor de acordo com a hora e o contexto de uso. Ele mantém uma tonalidade mais natural durante o dia e mais quente à noite. \"Clássico\" utiliza uma temperatura de cor fixa e precisa ser ajustado manualmente.</string>
     <string name="eye_care_rhythmic_mode">Ritmo</string>
     <string name="eye_gaze_dialog_message">Quando esse recurso estiver ativado, o sistema detectará se você está olhando para a tela, mas suas características faciais não serão analisadas e esses dados não serão armazenados no seu dispositivo nem carregados na nuvem. Ativar agora?</string>
@@ -4735,6 +4743,7 @@ Para saber mais, entre em contato com a provedora de crédito."</string>
     <string name="firewall_wifi_dialog_message">O app instalado não poderá coenctar-se à internet através do Wi-Fi enquanto esta opção estiver desativada.</string>
     <string name="firmware_version">Versão do Android</string>
     <string name="first_day_of_week_preferences_title">Primeiro dia da semana</string>
+    <string name="first_sim_card_slot_title">Primeiro slot do chip</string>
     <string name="fiveg_nrca_switch_summary">Otimizar conexão 5G para ambientes de teste</string>
     <string name="fiveg_nrca_switch_title">Agregação de operadora 5G</string>
     <string name="fiveg_sa_switch_summary">Usar rede SA no SIM secundário (apenas para testes)</string>
@@ -7784,7 +7793,7 @@ Selecione seu sistema operacional:"</string>
     <string name="network_and_internet_preferences_title">Preferências de rede</string>
     <string name="network_assistant">Uso de dados</string>
     <string name="network_auto_switch">Alternar entre redes</string>
-    <string name="network_auto_switch_summery">When Wi-Fi quality is poor, switch to another available Wi-Fi network or use mobile data. Using mobile data may generate additional fees.</string>
+    <string name="network_auto_switch_summery">Quando a qualidade do Wi-Fi for ruim, mude para outra rede Wi-Fi disponível ou use dados móveis. O uso de dados móveis pode gerar cobranças adicionais.</string>
     <string name="network_changed_noti_summary">Usando os dados móveis</string>
     <string name="network_changed_noti_title">Desconectado do Wi-Fi</string>
     <string name="network_changed_notification_text">Sua rede móvel foi alterada</string>
@@ -8513,6 +8522,8 @@ Leia e aceite a %s antes de utilizar este serviço."</string>
     <string name="peak_refresh_rate_summary">Para alguns conteúdos, aumenta automaticamente a taxa de atualização para %1$d Hz. Usa mais bateria.</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Mostrar ícones para notificações recebidas</string>
+    <string name="peep_protection_v2_banner_summary">Experimente os recursos de Tela de privacidade exclusivos deste modelo de dispositivo</string>
+    <string name="peep_protection_v2_main_tile_label">Tela de privacidade inteligente</string>
     <string name="performance_category">Desempenho</string>
     <string name="perm_toggle_description">Para apps e serviços</string>
     <string name="permission_action_prompt">Perguntar</string>
@@ -8641,6 +8652,7 @@ Leia e aceite a %s antes de utilizar este serviço."</string>
     <string name="photography_handle_update_and_maintain">Atualizações</string>
     <string name="physical_keyboard_layout_picker_title">Seletor de layout do teclado físico</string>
     <string name="physical_keyboard_title">Teclado físico</string>
+    <string name="pick_up_gesture_wakeup_not_effect_summary">Não funciona quando a tela traseira está ligada</string>
     <string name="pick_up_gesture_wakeup_title">Levantar para ligar tela</string>
     <string name="picker_text">Seletor de hora</string>
     <string name="picture_color_mode">Modo de cor da imagem</string>
@@ -9246,6 +9258,7 @@ Caso alguém conecte seu dispositivo a um computador ou instale apps maliciosos 
     <string name="protect_eyes_mode">Modo de leitura</string>
     <string name="provide_current_sim_pin">Insira o PIN atual do chip</string>
     <string name="provide_current_sim_pin_title">Insira o PIN atual do chip</string>
+    <string name="provide_new_sim_pin_title">Novo PIN do chip</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">Chips</string>
     <string name="provision_activation">Ativado</string>
@@ -10201,6 +10214,7 @@ Para usar a fixação de apps: \t
     <string name="search_xspace">Dual app;Dual apps;App duplo;Apps duplos;Clonar app;Clonar apps;Clone de app;Apps clonados;Duas contas;2 contas</string>
     <string name="searchview_clear_text_content_description">Limpar texto</string>
     <string name="searchview_navigation_content_description">Voltar</string>
+    <string name="second_sim_card_slot_title">Segundo slot do chip</string>
     <string name="second_space">Segundo Espaço</string>
     <string name="secondspace_category">Segundo Espaço</string>
     <string name="secondspace_delete_space_title">Excluir Segundo Espaço</string>
@@ -10898,7 +10912,7 @@ Mudar o chip não cancela o serviço da operadora %1$s."</string>
     <string name="sim_action_switch_sub_dialog_title">Mudar para a %1$s?</string>
     <string name="sim_action_turn_off">Desativar</string>
     <string name="sim_action_yes">Sim</string>
-    <string name="sim_auto_pin_management_toggle">Gerenciamento automático do PIN</string>
+    <string name="sim_auto_pin_management_toggle">Bloquear chip</string>
     <string name="sim_bad_pin">O PIN deve conter %1$d-%2$d dígitos</string>
     <string name="sim_calls_always_use">Sempre usar esta opção para chamadas</string>
     <string name="sim_calls_ask_first_prefs_title">Perguntar sempre</string>
@@ -10917,7 +10931,7 @@ Mudar o chip não cancela o serviço da operadora %1$s."</string>
     <string name="sim_change_failed_enable_sim_lock">Não foi possível alterar o PIN. Ative o bloqueio do cartão SIM agora.</string>
     <string name="sim_change_pin">PIN do chip</string>
     <string name="sim_change_succeeded">PIN do chip alterado</string>
-    <string name="sim_choose_protection_mode_title">Proteja o chip contra roubo</string>
+    <string name="sim_choose_protection_mode_title">Exigir PIN para usar o telefone</string>
     <string name="sim_combination_warning_notification_title">Problema com a combinação de chips</string>
     <string name="sim_disable_sim_lock">Desbloquear chip</string>
     <string name="sim_display_platform_managed_pin">PIN gerenciado pelo Android</string>
@@ -10965,13 +10979,15 @@ Mudar o chip não cancela o serviço da operadora %1$s."</string>
     <string name="sim_pin_change">Alterar PIN do chip</string>
     <string name="sim_pin_disable_failed">Não é possível desativar o PIN.</string>
     <string name="sim_pin_enable_failed">Não é possível ativar o PIN.</string>
+    <string name="sim_pin_protection_mode_automatic">Automático (gerenciado pelo Android)</string>
+    <string name="sim_pin_protection_mode_manual">Manual</string>
     <string name="sim_pin_toggle">Bloquear chip</string>
     <string name="sim_pins_dont_match">Os PINs não correspondem</string>
     <string name="sim_platform_managed_pin_failure">Falha ao receber o PIN</string>
     <string name="sim_platform_managed_pin_value">Valor do PIN gerenciado pelo Android:</string>
     <string name="sim_preferred_message">%1$s agora é seu chip principal</string>
-    <string name="sim_protection_mode_lskf_required">A tela de bloqueio precisa ser configurada para ativar a proteção do chip</string>
-    <string name="sim_protection_mode_manually_managed">PIN do chip gerenciado manualmente</string>
+    <string name="sim_protection_mode_lskf_required">A tela de bloqueio é necessária para a proteção automática do chip. No momento, só é possível usar a manual</string>
+    <string name="sim_protection_mode_manually_managed">PIN necessário para usar o telefone</string>
     <string name="sim_protection_mode_protected_by_platform">PIN do chip gerenciado pelo Android</string>
     <string name="sim_radio_off">Desativado</string>
     <string name="sim_reenter_new">Digitar novo PIN novamente</string>
@@ -13109,6 +13125,7 @@ Ao abrir um app usando um widget, você precisará confirmar sua identidade. Al�
     <string name="wifi_assistant_auto_confirm_data_message">Usar redes de dados móveis quando o seu dispositivo não conseguir se conectar à internet via Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Não perguntar novamente</string>
     <string name="wifi_assistant_confirm_connection_title">Não é possível conectar-se à internet</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Conexão Wi-Fi fraca</string>
     <string name="wifi_assistant_data_prompt">Atenção</string>
     <string name="wifi_assistant_data_prompt_summary">Mostrar aviso sobre o uso de dados ao mudar para os dados móveis</string>
     <string name="wifi_assistant_description">"Este recurso funciona da seguinte forma:

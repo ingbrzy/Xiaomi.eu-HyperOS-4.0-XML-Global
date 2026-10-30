@@ -24,7 +24,7 @@
     <string name="accessbility_suggestion_dropdown_closed">Nejsou k dispozici žádné návrhy</string>
     <string name="accessbility_suggestion_dropdown_opened">Otevřené návrhy kontaktů</string>
     <string name="accessibility_add_attendee">Přidat účastníka</string>
-    <string name="accessibility_alarm_remind">Zvukové upozornění</string>
+    <string name="accessibility_alarm_remind">Připomenutí alarmem</string>
     <string name="accessibility_all_day">Celodenní událost</string>
     <string name="accessibility_change_view_tab">Vybráno: %s</string>
     <string name="accessibility_day_page_selected">Aktuálně jste v denním náhledu, %3$d. %2$s %1$d</string>
@@ -298,7 +298,7 @@
     <string name="eras_bc">př.n.l.</string>
     <string name="evening">Odpoledne</string>
     <string name="event_account">Účet</string>
-    <string name="event_action_delete">Vymazat</string>
+    <string name="event_action_delete">Odstranit</string>
     <string name="event_action_edit">Upravit</string>
     <string name="event_all_day_label">Celý den</string>
     <string name="event_all_selected">Vybráno vše</string>
@@ -545,6 +545,7 @@
     <string name="month_august_short">srp</string>
     <string name="month_august_shortest">srp</string>
     <string name="month_calendar_view">Měsíční zobrazení</string>
+    <string name="month_day_title_format">d.M.</string>
     <string name="month_december">prosinec</string>
     <string name="month_december_short">pro</string>
     <string name="month_december_shortest">pro</string>
@@ -572,7 +573,7 @@
     <string name="month_medium_february">úno</string>
     <string name="month_medium_january">led</string>
     <string name="month_medium_july">čvc</string>
-    <string name="month_medium_june">čer</string>
+    <string name="month_medium_june">čvn</string>
     <string name="month_medium_march">bře</string>
     <string name="month_medium_may">kvě</string>
     <string name="month_medium_november">lis</string>
@@ -612,7 +613,7 @@
 Zkontrolujte nastavení sítě a zkuste to znovu."</string>
     <string name="no_network_btn">Zkuste to znovu</string>
     <string name="no_schedule_today">Žádné události pro dnešní den</string>
-    <string name="no_title_label">(Bez názvu)</string>
+    <string name="no_title">Bez názvu</string>
     <string name="no_visiable_calendar_message">Nejprve přidejte účet kalendáře. Pokračujte klepnutím na \"Přidat účet\".</string>
     <string name="no_visiable_calendar_message_only_for_xiaomi_account">Nejprve přidejte účet kalendáře. Pokračujte klepnutím na „Přidat účet“.</string>
     <string name="no_visiable_calendar_select_account">Přidat účet</string>
@@ -808,17 +809,17 @@ Zkontrolujte nastavení sítě a zkuste to znovu."</string>
     <string name="pm">odp.</string>
     <string name="portrait_week_view">Program týdne v orientaci na výšku</string>
     <string name="pref_reminder_time">Čas připomenutí</string>
-    <string name="pref_title_alarm_remind">Zvukové upozornění</string>
+    <string name="pref_title_alarm_remind">Připomenutí alarmem</string>
     <string name="pref_title_countdown_remind">Připomenutí odpočtu</string>
     <string name="pref_title_no_remind">Žádné upozornění</string>
     <string name="preference_copied">Položka %1$s byla zkopírována do schránky.</string>
-    <string name="preferences_alarms_category_title">Zvukové upozornění</string>
+    <string name="preferences_alarms_category_title">Připomenutí alarmem</string>
     <string name="preferences_alarms_sound">Zvuk</string>
     <string name="preferences_alarms_vibrateWhen">Vibrovat</string>
     <string name="preferences_alerts_vibrateWhen_title">Vibrace</string>
     <string name="preferences_alerts_vibrate_title">Výchozí připomínka</string>
     <string name="preferences_allow_remind">Povolit připomenutí</string>
-    <string name="preferences_default_allday_reminder_title">Výchozí čas připomenutí pro všechny dny</string>
+    <string name="preferences_default_allday_reminder_title">Výchozí čas připomenutí pro celodenní události</string>
     <string name="preferences_default_reminder_title">Výchozí čas připomenutí</string>
     <string name="preferences_home_tz_title">Domácí časové pásmo</string>
     <string name="preferences_notification_ringtone_title">Zvuk</string>
@@ -876,8 +877,8 @@ Abyste získali lepší zážitek, nyní můžete při vytváření události vy
     <string name="repeat_alarm_changed_movie_event">Vždy připomínat filmy</string>
     <string name="repeat_alarm_changed_ony_selected">Jen tentokrát</string>
     <string name="repeat_alarm_changed_train_event">Vždy připomínat vlaky</string>
-    <string name="repeat_alarm_close_title">Toto je opakovaná událost. Vypnout zvukové upozornění?</string>
-    <string name="repeat_alarm_open_title">Toto je opakovaná událost. Nastavit zvukové upozornění?</string>
+    <string name="repeat_alarm_close_title">Toto je opakovaná událost. Vypnout připomenutí alarmem?</string>
+    <string name="repeat_alarm_open_title">Toto je opakovaná událost. Nastavit připomenutí alarmem?</string>
     <string name="repeat_count_down_close_title">Toto je opakovaná událost. Chcete přesto vypnout připomenutí odpočtů?</string>
     <string name="repeat_count_down_open_title">Toto je opakovaná událost. Chcete přesto zapnout připomenutí odpočtů?</string>
     <string name="repeat_custom_activity_label">Vlastní</string>
@@ -920,7 +921,7 @@ Abyste získali lepší zážitek, nyní můžete při vytváření události vy
     <string name="search_calendar">Data;Sluneční Podmínky;Lunární;Ročenka;Štěstí;Denní program;Schůzka;Upomínka;Dovolená;Prázdniny;Narozeniny;2016;2017;Čínský nový rok;Nový rok;Svátek práce;Svátek středu podzimu</string>
     <string name="search_calendar_edit_event">Schůzka;Připomenutí;Denní program</string>
     <string name="search_calendar_settings">Kalendář;Denní program;Připomenutí</string>
-    <string name="search_events">Hledat události</string>
+    <string name="search_events">Hledání událostí</string>
     <string name="search_history">Historie vyhledávání</string>
     <string name="search_location_hint">Zadejte polohu</string>
     <string name="search_menu_title">Hledat</string>
@@ -933,7 +934,7 @@ Abyste získali lepší zážitek, nyní můžete při vytváření události vy
     <string name="setting_about_calendar_version">Verze kalendáře: %1$s-%2$s</string>
     <string name="setting_about_summary">Verze:</string>
     <string name="setting_accounts">Účty kalendáře</string>
-    <string name="setting_almanac_yiji">Čínská almanachová tabu</string>
+    <string name="setting_almanac_yiji">Tabu podle čínského almanachu</string>
     <string name="setting_auto_insert_v1">Automaticky importovat události</string>
     <string name="setting_constellation_title">Horoskop</string>
     <string name="setting_daysoff_no_update">Informace o státních svátcích jsou aktuální.</string>

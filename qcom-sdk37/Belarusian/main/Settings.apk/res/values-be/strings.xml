@@ -1367,7 +1367,7 @@
     <string name="automatic_brightness">Аўтаматычная яркасць</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Каб аўтаматычна рэгуляваць яркасць, спачатку выключыце Распазнаванне твару</string>
     <string name="automatic_keyboard_layout_label">Аўтаматычна: %s</string>
-    <string name="automatic_sim_lock_protection">Аўтаматычная абарона з блакіроўкай SIM</string>
+    <string name="automatic_sim_lock_protection">Рэжым абароны з прывязкай да аператара</string>
     <string name="automatic_sim_lock_settings_title">Абараніць SIM-карту</string>
     <string name="automatic_storage_manager_activation_warning">Ваша сховішча зараз знаходзіцца пад кіраваннем менеджара сховішча</string>
     <string name="automatic_storage_manager_days_title">Выдаліць фота і відэа</string>
@@ -2750,6 +2750,8 @@
     <string name="character_counter_content_description">Уведзена сімвалаў: %1$d з %2$d</string>
     <string name="character_counter_overflowed_content_description">Абмежаванне колькасці сімвалаў перавышана: %1$d з %2$d</string>
     <string name="charge_length_format">%1$s таму</string>
+    <string name="charge_light_state_summary">Уключэнне падсветкі падчас зарадкі</string>
+    <string name="charge_light_state_title">Светлавыя эфекты зарадкі</string>
     <string name="charging_sounds_title">Гукі і вібрацыя пры зарадцы</string>
     <string name="check_find_device_status_failure_confirm">ОК</string>
     <string name="check_update">Праверыць абнаўленні</string>
@@ -2821,6 +2823,7 @@
     <string name="choose_profile">Выбраць профіль</string>
     <string name="choose_sim_activating">Уключаецца…</string>
     <string name="choose_sim_could_not_activate">Уключыць гэту SIM-карту цяпер не ўдалося</string>
+    <string name="choose_sim_pin_protection_mode">Выберыце рэжым абароны SIM-карты</string>
     <string name="choose_sim_text">{count,plural, =1{На гэтай прыладзе даступная 1 SIM-карта (выкарыстоўваць некалькі карт адначасова нельга)}=2{На гэтай прыладзе даступныя 2 SIM-карты, але выкарыстоўваць некалькі карт адначасова нельга}one{На гэтай прыладзе даступная # SIM-карта, але выкарыстоўваць некалькі карт адначасова нельга}few{На гэтай прыладзе даступныя # SIM-карты, але выкарыстоўваць некалькі карт адначасова нельга}many{На гэтай прыладзе даступныя # SIM-карт, але выкарыстоўваць некалькі карт адначасова нельга}other{На гэтай прыладзе даступныя # SIM-карты, але выкарыстоўваць некалькі карт адначасова нельга}}</string>
     <string name="choose_sim_title">Выберыце SIM-карту</string>
     <string name="choose_smartcover_type">Выберыце тып чахла</string>
@@ -2957,6 +2960,7 @@
     <string name="color_led_summary">Не працуе ў рэжыме «Не турбаваць»</string>
     <string name="color_led_title">Святлодыёдны індыкатар</string>
     <string name="color_magenta">Пурпурны</string>
+    <string name="color_mixed_light">Змешаны колер %d</string>
     <string name="color_mode_all_apps">Усе праграмы</string>
     <string name="color_mode_option_automatic">Адаптыўныя</string>
     <string name="color_mode_option_boosted">Яркія</string>
@@ -3051,6 +3055,8 @@
     <string name="confirm_frp_credential_title">Разблакаванне пасля сістэмнага скіду</string>
     <string name="confirm_lock_pattern_header_text">Намалюйце графічны ключ</string>
     <string name="confirm_new_backup_pw_prompt">Пацвердзіце пароль</string>
+    <string name="confirm_new_sim_pin_after_mismatch">PIN-коды не супадаюць. Пацвердзіце новы PIN-код SIM-карты.</string>
+    <string name="confirm_new_sim_pin_title">Пацвердзіце новы PIN-код SIM-карты</string>
     <string name="confirm_oem_unlock_for_16k_text">Каб выкарыстоўваць рэжым 16 КБ у параметрах распрацоўшчыка, трэба разблакіраваць загрузчык на прыладзе. У гэтым рэжыме цэласнасць праграмнага забеспячэння не гарантуецца і ёсць рызыка страціць даныя, якія захоўваюцца на тэлефоне пры разблакіраваным загрузчыку. Калі рэжым 16 КБ уключыцца, усе даныя і налады карыстальніка будуць выдалены. Калі загрузчык будзе разблакіраваны, для ўключэння параметра 16 КБ спатрэбяцца дзве перазагрузкі. Пасля таго як вы ўключыце гэты рэжым, пераключэнне паміж рэжымамі 4 КБ і 16 КБ будзе суправаджацца толькі адной перазагрузкай. Асобныя функцыі будуць адключаны ў гэтых рэжымах, з-за чаго некаторыя праграмы могуць не працаваць. Каб вярнуць прыладу ў эксплуатацыйны рэжым, вам трэба пераключыцца ў рэжым 4 КБ і заблакіраваць OEM ці загрузчык (што прывядзе да скіду прылады да заводскіх налад). Разблакіруйце загрузчык і паўтарыце спробу. Інструкцыі, як гэта зрабіць, глядзіце на старонцы &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a>.</string>
     <string name="confirm_oem_unlock_for_16k_title">Патрабуецца разблакіроўка загрузчыка</string>
     <string name="confirm_pad_clone_password">Пацвердзіце пароль Другой прасторы вашага планшэта</string>
@@ -4233,6 +4239,8 @@
     <string name="enroll_fingerprint">Запісаць адбітак пальца</string>
     <string name="enrollment_completed">Гатова</string>
     <string name="enter_current_lock_screen_password">Увядзіце ваш пароль блакавання экрана</string>
+    <string name="enter_current_sim_pin_after_mismatch">Няправільны PIN-код. Засталося спроб: %1$d.</string>
+    <string name="enter_current_sim_pin_hint">Увядзіце бягучы PIN-код SIM-карты</string>
     <string name="enterprise_mode">Рэжым прадпрыемства</string>
     <string name="enterprise_privacy_always_on_vpn_device">Заўсёды ўключаны VPN уключаны</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Заўсёды ўключаны VPN уключаны ў вашым асабістым профілі</string>
@@ -4705,6 +4713,7 @@
     <string name="firewall_wifi_dialog_message">Усталяваная праграма не зможа падключыцца да інтэрнэту з дапамогай Wi-Fi, калі гэты перамыкач выключаны.</string>
     <string name="firmware_version">Версія Android</string>
     <string name="first_day_of_week_preferences_title">Першы дзень тыдня</string>
+    <string name="first_sim_card_slot_title">Першы слот для SIM-карты</string>
     <string name="fiveg_nrca_switch_summary">Палепшыць якасць 5G-злучэння ў тэставых асяроддзях</string>
     <string name="fiveg_nrca_switch_title">Агрэгацыя аператараў сувязі 5G</string>
     <string name="fiveg_sa_switch_summary">Выкарыстоўвайце сетку SA для другаснай SIM-карты (толькі праверка)</string>
@@ -7727,7 +7736,7 @@ PIN-код абараняе тэлефон у выпадку страты ці �
     <string name="network_and_internet_preferences_title">Параметры сеткі</string>
     <string name="network_assistant">Выкарыстанне дадзеных</string>
     <string name="network_auto_switch">Пераключацца паміж сеткамі</string>
-    <string name="network_auto_switch_summery">Пераключацца на мабільны інтэрнэт, калі сігнал Wi-Fi слабы ці сетка недаступная</string>
+    <string name="network_auto_switch_summery">Калі якасць Wi-Fi нізкая, пераключыцеся на іншую даступную сетку Wi-Fi або скарыстайцеся мабільнымі дадзенымі. Выкарыстанне мабільных дадзеных можа прывесці да дадатковай платы.</string>
     <string name="network_changed_noti_summary">Выкарыстоўваецца мабільны інтэрнэт</string>
     <string name="network_changed_noti_title">Сетка Wi-Fi адлучана</string>
     <string name="network_changed_notification_text">Мабільная сетка змянілася</string>
@@ -8435,6 +8444,8 @@ nOTG аўтаматычна адключаецца праз 10 хвілін бя
     <string name="peak_refresh_rate_summary">Аўтаматычна павялічвае частату абнаўлення пэўнага змесціва да %1$d Гц. Павышае выкарыстанне зараду акумулятара.</string>
     <string name="peak_refresh_rate_title">Плаўны паказ</string>
     <string name="peek_notification_icon_title">Паказваць значкі ўваходных апавяшчэнняў</string>
+    <string name="peep_protection_v2_banner_summary">Паспрабуйце функцыі экрана прыватнасці, эксклюзіўныя для гэтай мадэлі прылады</string>
+    <string name="peep_protection_v2_main_tile_label">Разумнае схаванне экрана</string>
     <string name="performance_category">Прадукцыйнасць</string>
     <string name="perm_toggle_description">Для праграм і сэрвісаў</string>
     <string name="permission_action_prompt">Запыт</string>
@@ -9163,6 +9174,7 @@ nOTG аўтаматычна адключаецца праз 10 хвілін бя
     <string name="protect_eyes_mode">Рэжым Чытанне</string>
     <string name="provide_current_sim_pin">Увядзіце дзеючы PIN-код SIM-карты</string>
     <string name="provide_current_sim_pin_title">Увядзіце дзеючы PIN-код SIM-карты</string>
+    <string name="provide_new_sim_pin_title">Новы PIN-код SIM-карты</string>
     <string name="provider_internet_settings">Інтэрнэт</string>
     <string name="provider_network_settings_title">SIM-карты</string>
     <string name="provision_activation">Актываваць</string>
@@ -10106,6 +10118,7 @@ nOTG аўтаматычна адключаецца праз 10 хвілін бя
     <string name="search_xspace">Клон праграмы;Клоны праграмы;Клон праграмы;Клоны праграмы;Кланаваць праграму;Кланаваць праграму;Клон праграмы;Клоны праграм;Два акаўнта;2 акаўнта</string>
     <string name="searchview_clear_text_content_description">Ачысціць тэкст</string>
     <string name="searchview_navigation_content_description">Назад</string>
+    <string name="second_sim_card_slot_title">Другі слот для SIM-карты</string>
     <string name="second_space">Другая прастора</string>
     <string name="secondspace_category">Другая прастора</string>
     <string name="secondspace_delete_space_title">Выдаліць Другую прастору</string>
@@ -10803,7 +10816,7 @@ nOTG аўтаматычна адключаецца праз 10 хвілін бя
     <string name="sim_action_switch_sub_dialog_title">Пераключыцца на аператара \"%1$s\"?</string>
     <string name="sim_action_turn_off">Выключыць</string>
     <string name="sim_action_yes">Так</string>
-    <string name="sim_auto_pin_management_toggle">Аўтаматычнае кіраванне PIN-кодам</string>
+    <string name="sim_auto_pin_management_toggle">Заблакіраваць SIM-карту</string>
     <string name="sim_bad_pin">PIN-код мусіць змяшчаць %1$d-%2$d лічбы(-аў)</string>
     <string name="sim_calls_always_use">Заўсёды выкарыстоўваць гэта для выклікаў</string>
     <string name="sim_calls_ask_first_prefs_title">Заўсёды пытацца</string>
@@ -10822,7 +10835,7 @@ nOTG аўтаматычна адключаецца праз 10 хвілін бя
     <string name="sim_change_failed_enable_sim_lock">Не атрымалася змяніць PIN-код. Уключыце блакаванне SIM-карты.</string>
     <string name="sim_change_pin">PIN-код SIM-карты</string>
     <string name="sim_change_succeeded">PIN-код SIM-карты паспяхова зменены</string>
-    <string name="sim_choose_protection_mode_title">Абараніце SIM-карту ад крадзяжу</string>
+    <string name="sim_choose_protection_mode_title">Запытваць PIN-код для выкарыстання тэлефона</string>
     <string name="sim_combination_warning_notification_title">Праблема з камбінацыяй SIM-карт</string>
     <string name="sim_disable_sim_lock">Разблакіруйце SIM-карту</string>
     <string name="sim_display_platform_managed_pin">PIN-код пад кіраваннем Android</string>
@@ -10870,13 +10883,15 @@ nOTG аўтаматычна адключаецца праз 10 хвілін бя
     <string name="sim_pin_change">Змена PIN-кода SIM-карты</string>
     <string name="sim_pin_disable_failed">Не ўдалося выключыць PIN.</string>
     <string name="sim_pin_enable_failed">Не ўдалося ўключыць PIN.</string>
+    <string name="sim_pin_protection_mode_automatic">Аўтаматычна (пад кіраваннем Android)</string>
+    <string name="sim_pin_protection_mode_manual">Уручную</string>
     <string name="sim_pin_toggle">Заблакіраваць SIM-карту</string>
     <string name="sim_pins_dont_match">PIN-коды не супадаюць</string>
     <string name="sim_platform_managed_pin_failure">Не ўдалося атрымаць PIN-код</string>
     <string name="sim_platform_managed_pin_value">Значэнне PIN-кода пад кіраваннем Android</string>
     <string name="sim_preferred_message">Цяпер ваша асноўная SIM-карта – %1$s</string>
-    <string name="sim_protection_mode_lskf_required">Каб уключыць абарону SIM-карты, трэба наладзіць экран блакіроўкі</string>
-    <string name="sim_protection_mode_manually_managed">Ручное кіраванне PIN-кодам SIM-карты</string>
+    <string name="sim_protection_mode_lskf_required">Для аўтаматычнай абароны SIM-карты патрабуецца экран блакіроўкі, таму пакуль што даступны толькі ручны рэжым абароны</string>
+    <string name="sim_protection_mode_manually_managed">Каб выкарыстоўваць тэлефон, трэба ўвесці PIN-код</string>
     <string name="sim_protection_mode_protected_by_platform">PIN-кодам SIM-карты кіруе Android</string>
     <string name="sim_radio_off">Адкл</string>
     <string name="sim_reenter_new">Увядзіце новы PIN-код яшчэ раз</string>
@@ -13019,6 +13034,7 @@ nOTG аўтаматычна адключаецца праз 10 хвілін бя
     <string name="wifi_assistant_auto_confirm_data_message">Выкарыстоўваць мабільныя сеткі перадачы дадзеных, калі прылада не можа падлучыцца да Інтэрнэту праз Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Не пытаць зноў</string>
     <string name="wifi_assistant_confirm_connection_title">Немагчыма падлучыцца да інтэрнету</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Дрэннае злучэнне Wi-Fi</string>
     <string name="wifi_assistant_data_prompt">Папярэджваць</string>
     <string name="wifi_assistant_data_prompt_summary">Паказаць папярэджанне аб трафіку пры пераключэнні на мабільны інтэрнэт</string>
     <string name="wifi_assistant_description">"Прынцып працы гэтай функцыі:

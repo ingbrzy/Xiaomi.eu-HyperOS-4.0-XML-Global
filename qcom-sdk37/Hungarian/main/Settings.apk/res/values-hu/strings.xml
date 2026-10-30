@@ -1367,7 +1367,7 @@ A hívások, az üzenetek és a hálózati forgalom láthatók lehetnek a szerve
     <string name="automatic_brightness">Automatikus fényerő</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">A fényerő automatikus beállításához először kapcsolja ki az Arcalapú feloldást</string>
     <string name="automatic_keyboard_layout_label">Automatikus: %s</string>
-    <string name="automatic_sim_lock_protection">Eszköz szolgáltatófüggése – automatikus védelem</string>
+    <string name="automatic_sim_lock_protection">Eszköz szolgáltatófüggése – védelmi mód</string>
     <string name="automatic_sim_lock_settings_title">SIM-kártya védelme</string>
     <string name="automatic_storage_manager_activation_warning">Tárhelyét mostantól a tárhelykezelő kezeli</string>
     <string name="automatic_storage_manager_days_title">Fotók és videók eltávolítása</string>
@@ -2750,6 +2750,8 @@ Ha ez az engedély be van kapcsolva, az alkalmazást ki lehet választani címke
     <string name="character_counter_content_description">Begépelt karakterszám: %2$d/%1$d</string>
     <string name="character_counter_overflowed_content_description">Maximális karakterszám túllépve: %2$d/%1$d</string>
     <string name="charge_length_format">Ennyi ideje: %1$s</string>
+    <string name="charge_light_state_summary">A háttérvilágítás bekapcsolása töltés közben</string>
+    <string name="charge_light_state_title">Fényeffektusok töltése</string>
     <string name="charging_sounds_title">Töltési hangok és rezgés</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Frissítések keresése</string>
@@ -2821,6 +2823,7 @@ Chip teljesítmény műszerfalban"</string>
     <string name="choose_profile">Profil kiválasztása</string>
     <string name="choose_sim_activating">Bekapcsolás…</string>
     <string name="choose_sim_could_not_activate">Nem sikerült a SIM bekapcsolása</string>
+    <string name="choose_sim_pin_protection_mode">SIM-védelem módjának kiválasztása</string>
     <string name="choose_sim_text">{count,plural, =1{1 SIM áll rendelkezésre ezen az eszközön, és egyszerre csak egyet használhat}=2{2 SIM áll rendelkezésre ezen az eszközön, azonban egyszerre csak egyet használhat}other{# SIM áll rendelkezésre ezen az eszközön, azonban egyszerre csak egyet használhat}}</string>
     <string name="choose_sim_title">Válassza ki a használni kívánt SIM-et</string>
     <string name="choose_smartcover_type">Toktípus kiválasztása</string>
@@ -2957,6 +2960,7 @@ Chip teljesítmény műszerfalban"</string>
     <string name="color_led_summary">Ne zavarjanak (DND) módban nem működik</string>
     <string name="color_led_title">LED-fény</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Vegyes szín %d</string>
     <string name="color_mode_all_apps">Minden alkalmazás</string>
     <string name="color_mode_option_automatic">Adaptív</string>
     <string name="color_mode_option_boosted">Élénk</string>
@@ -3051,6 +3055,8 @@ Chip teljesítmény műszerfalban"</string>
     <string name="confirm_frp_credential_title">Feloldás Gyári adatok visszaállítása után</string>
     <string name="confirm_lock_pattern_header_text">Rajzolja le a feloldómintát</string>
     <string name="confirm_new_backup_pw_prompt">Még egyszer írja be a teljes mentés új jelszavát</string>
+    <string name="confirm_new_sim_pin_after_mismatch">A megadott PIN-kódok nem egyeznek. Erősítse meg a SIM új PIN-kódját.</string>
+    <string name="confirm_new_sim_pin_title">A SIM új PIN-kódjának megerősítése</string>
     <string name="confirm_oem_unlock_for_16k_text">A 16 kB-os fejlesztői opció használata előtt fel kell oldani ezen az eszközön a rendszerindító zárolását. A szoftverek integritása nem garantálható ebben a módban, és a telefonon tárolt összes adat veszélyben lehet, amíg a rendszerindító zárolása fel van oldva. A 16 kB-os mód aktiválásakor a rendszer minden felhasználói adatot és beállítást töröl. A rendszerindító zárolásának feloldása után két újraindítás szükséges a 16 kB-os opció aktiválásához. Ebben a módban egyetlen újraindítással válthat oda és vissza a 4 kB-os és a 16 kB-os mód között. Egyes funkciók le lesznek tiltva ezekben a módokban, ezért előfordulhat, hogy néhány alkalmazás nem működik. Ha szeretné az eszközt éles üzemmódba visszaállítani, akkor annyit kellene tennie, hogy visszavált 4 kB-os módra, majd zárolja az eszközön az OEM-et/rendszerindítót (ezzel visszaállítja az eszközt a gyári beállításokra). Oldja fel a rendszerindító zárolását, majd próbálkozzon újra. A művelettel kapcsolatos utasításokat itt találja: &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Fel kell oldani a rendszerindítót</string>
     <string name="confirm_pad_clone_password">Erősítse meg tabletjének második asztal jelszavát</string>
@@ -4233,6 +4239,8 @@ Ez segít megvédeni az elveszett vagy ellopott készülékek adatait. Kérjen P
     <string name="enroll_fingerprint">Ujjlenyomat rögzítése</string>
     <string name="enrollment_completed">Kész</string>
     <string name="enter_current_lock_screen_password">Adja meg a képernyőzárát</string>
+    <string name="enter_current_sim_pin_after_mismatch">Helytelen PIN-kód. %1$d próbálkozás maradt.</string>
+    <string name="enter_current_sim_pin_hint">Adja meg a SIM-kártya jelenlegi PIN-kódját</string>
     <string name="enterprise_mode">Vállalati mód</string>
     <string name="enterprise_privacy_always_on_vpn_device">A „mindig bekapcsolt VPN” lehetőség be van kapcsolva</string>
     <string name="enterprise_privacy_always_on_vpn_personal">A „mindig bekapcsolt VPN” lehetőség be van kapcsolva az Ön személyes profiljában</string>
@@ -4705,6 +4713,7 @@ További információért forduljon a hitelezőhöz."</string>
     <string name="firewall_wifi_dialog_message">Ha ezt kikapcsolja, a telepített alkalmazás nem lesz képes Wi-Fi-n keresztül az internetre kapcsolódni.</string>
     <string name="firmware_version">Android-verzió</string>
     <string name="first_day_of_week_preferences_title">A hét első napja</string>
+    <string name="first_sim_card_slot_title">Első SIM-kártya-nyílás</string>
     <string name="fiveg_nrca_switch_summary">5G kapcsolat javítása tesztelési környezetekben</string>
     <string name="fiveg_nrca_switch_title">5G szolgáltatói aggregáció</string>
     <string name="fiveg_sa_switch_summary">SA-hálózat használata a másodlagos SIM-kártyán (csak tesztelés céljából)</string>
@@ -7727,7 +7736,7 @@ Válassza ki a PC operációs rendszerét:"</string>
     <string name="network_and_internet_preferences_title">Hálózati beállítások</string>
     <string name="network_assistant">Adatforgalom</string>
     <string name="network_auto_switch">Hálózatok közti váltás</string>
-    <string name="network_auto_switch_summery">Váltás mobiladatra, ha a Wi-Fi-jel gyenge vagy a hálózat nem elérhető</string>
+    <string name="network_auto_switch_summery">Ha a Wi-Fi-kapcsolat minősége gyenge, váltson át egy másik elérhető Wi-Fi-hálózatra, vagy használjon mobiladat-kapcsolatot. A mobiladat-kapcsolat használata további díjakat vonhat maga után.</string>
     <string name="network_changed_noti_summary">Mobiladat-kapcsolat használata</string>
     <string name="network_changed_noti_title">Lecsatlakoztatva a Wi-Fi-ről</string>
     <string name="network_changed_notification_text">Mobilhálózat módosítva</string>
@@ -8435,6 +8444,8 @@ A szolgáltatás használata előtt olvassa el és fogadja el a következőt: %s
     <string name="peak_refresh_rate_summary">Néhány tartalomnál automatikusan megemeli a frissítési gyakoriságot %1$d Hz-re. Növeli az akkumulátorhasználatot.</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">A bejövő értesítések ikonjainak megjelenítése</string>
+    <string name="peep_protection_v2_banner_summary">Próbálja ki a kizárólag ehhez a készülékmodellhez tartozó adatvédelmi kijelzőfunkciókat</string>
+    <string name="peep_protection_v2_main_tile_label">Intelligens adatvédelmi kijelző</string>
     <string name="performance_category">Teljesítmény mód</string>
     <string name="perm_toggle_description">Alkalmazásoknál és szolgáltatásoknál</string>
     <string name="permission_action_prompt">Rákerdez</string>
@@ -9163,6 +9174,7 @@ Bárki, aki az Ön eszközét számítógéphez csatlakoztatja, vagy rosszindula
     <string name="protect_eyes_mode">Olvasómód</string>
     <string name="provide_current_sim_pin">Adja meg a SIM-kártya jelenlegi PIN-kódját</string>
     <string name="provide_current_sim_pin_title">Adja meg a jelenlegi SIM PIN-kódját</string>
+    <string name="provide_new_sim_pin_title">Új PIN-kód a SIM-hez</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIM-kártyák</string>
     <string name="provision_activation">Aktív</string>
@@ -10106,6 +10118,7 @@ Az alkalmazásokat a következőképpen tűzheti ki: \t
     <string name="search_xspace">Klónozott alkalmazás;Klónozott alkalmazások;Kettős alkalmazás;Kettős alkalmazások;Alkalmazásklón;Alkalmazásklónok;Két fiók;2 fiók</string>
     <string name="searchview_clear_text_content_description">Szöveg törlése</string>
     <string name="searchview_navigation_content_description">Vissza</string>
+    <string name="second_sim_card_slot_title">Második SIM-kártya-nyílás</string>
     <string name="second_space">Második asztal</string>
     <string name="secondspace_category">Második asztal</string>
     <string name="secondspace_delete_space_title">A Második asztal törlése</string>
@@ -10803,7 +10816,7 @@ A váltással nem mondja le a(z) %1$s szolgáltatását."</string>
     <string name="sim_action_switch_sub_dialog_title">Vált a(z) %1$s szolgáltatóra?</string>
     <string name="sim_action_turn_off">Kikapcsolás</string>
     <string name="sim_action_yes">Igen</string>
-    <string name="sim_auto_pin_management_toggle">Automatikus PIN-kód-kezelés</string>
+    <string name="sim_auto_pin_management_toggle">SIM zárolása</string>
     <string name="sim_bad_pin">A PIN-kódnak %1$d-%2$d számjegyből kell állnia</string>
     <string name="sim_calls_always_use">Mindig ezt használja hívásokhoz</string>
     <string name="sim_calls_ask_first_prefs_title">Mindig kérdezzen rá</string>
@@ -10822,7 +10835,7 @@ A váltással nem mondja le a(z) %1$s szolgáltatását."</string>
     <string name="sim_change_failed_enable_sim_lock">PIN-kód módosítása sikertelen. Kapcsolja be a SIM-kártyazárat most.</string>
     <string name="sim_change_pin">SIM-kártya PIN-kódja</string>
     <string name="sim_change_succeeded">A SIM-kártya PIN-kódja sikeresen módosításra került</string>
-    <string name="sim_choose_protection_mode_title">A SIM-kártya védelme lopás ellen</string>
+    <string name="sim_choose_protection_mode_title">PIN-kód kérése a telefon használatához</string>
     <string name="sim_combination_warning_notification_title">SIM-kombinációs probléma</string>
     <string name="sim_disable_sim_lock">SIM feloldása</string>
     <string name="sim_display_platform_managed_pin">Android által kezelt PIN-kód</string>
@@ -10870,13 +10883,15 @@ A váltással nem mondja le a(z) %1$s szolgáltatását."</string>
     <string name="sim_pin_change">SIM-kártya PIN-kódjának módosítása</string>
     <string name="sim_pin_disable_failed">Nem sikerült letiltani a PIN-kódot.</string>
     <string name="sim_pin_enable_failed">Nem sikerült engedélyezni a PIN-kódot.</string>
+    <string name="sim_pin_protection_mode_automatic">Automatikus (Android által kezelt)</string>
+    <string name="sim_pin_protection_mode_manual">Kézi</string>
     <string name="sim_pin_toggle">SIM zárolása</string>
     <string name="sim_pins_dont_match">A PIN-kódok nem egyeznek</string>
     <string name="sim_platform_managed_pin_failure">Nem sikerült lekérni a PIN-kódot</string>
     <string name="sim_platform_managed_pin_value">Az Android által kezelt PIN-kód értéke:</string>
     <string name="sim_preferred_message">Mostantól a(z) %1$s az elsődleges SIM-kártyája</string>
-    <string name="sim_protection_mode_lskf_required">A SIM-védelem bekapcsolásához be kell állítani a lezárási képernyőt</string>
-    <string name="sim_protection_mode_manually_managed">A SIM PIN-kódja manuálisan kezelt</string>
+    <string name="sim_protection_mode_lskf_required">Az automatikus SIM-védelemhez lezárási képernyő szükséges. Jelenleg csak a manuális védelem áll rendelkezésre.</string>
+    <string name="sim_protection_mode_manually_managed">A telefon használatához PIN-kód szükséges</string>
     <string name="sim_protection_mode_protected_by_platform">A SIM PIN-kódja az Android által kezelt</string>
     <string name="sim_radio_off">Ki</string>
     <string name="sim_reenter_new">Írja be ismét az új PIN-kódot</string>
@@ -13008,6 +13023,7 @@ Amikor modul használatával szeretne megnyitni egy alkalmazást, igazolnia kell
     <string name="wifi_assistant_auto_confirm_data_message">Használjon mobiladat-forgalmat, amikor készüléke nem tud csatlakozni az internetre Wi-Fi-n keresztül.</string>
     <string name="wifi_assistant_confirm_always">Ne kérdezze újra</string>
     <string name="wifi_assistant_confirm_connection_title">Nem tud az internetre kapcsolódni</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Gyenge Wi-Fi-kapcsolat</string>
     <string name="wifi_assistant_data_prompt">Figyelem</string>
     <string name="wifi_assistant_data_prompt_summary">Adathasználati figyelmeztetés megjelenítése mobiladat-kapcsolatra váltáskor</string>
     <string name="wifi_assistant_description">"Így működik ez a funkció:

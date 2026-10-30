@@ -1367,7 +1367,7 @@
     <string name="automatic_brightness">Автоматична яркост</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">За да можете автоматично да настройвате яркостта, първо изключете Отключване с разпознаване на лице</string>
     <string name="automatic_keyboard_layout_label">Автоматично: %s</string>
-    <string name="automatic_sim_lock_protection">Авт. защита чрез заключв. на SIM картата</string>
+    <string name="automatic_sim_lock_protection">Режим на защита чрез закл. на SIM карт.</string>
     <string name="automatic_sim_lock_settings_title">Защита на SIM картата</string>
     <string name="automatic_storage_manager_activation_warning">Хранилището ви вече се управлява от съответния мениджър</string>
     <string name="automatic_storage_manager_days_title">Премахване на снимките и видеоклиповете</string>
@@ -2749,6 +2749,8 @@ aptX адаптивен: режим Кодек"</string>
     <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
     <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
     <string name="charge_length_format">Преди %1$s</string>
+    <string name="charge_light_state_summary">Включване на задната подсветка по време на зареждане</string>
+    <string name="charge_light_state_title">Светлинни ефекти при зареждане</string>
     <string name="charging_sounds_title">Звуци при зарежд. и вибриране</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Проверка за обновления</string>
@@ -2820,6 +2822,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="choose_profile">Избор на потребителски профил</string>
     <string name="choose_sim_activating">Включва се…</string>
     <string name="choose_sim_could_not_activate">SIM картата не бе включена в момента</string>
+    <string name="choose_sim_pin_protection_mode">Изберете режим на защита на SIM картата</string>
     <string name="choose_sim_text">{count,plural, =1{1 SIM карта е налична на това устройство, но в даден момент може да бъде използвана само една SIM карта}=2{2 SIM карти са налични на това устройство, но в даден момент може да бъде използвана само една от тях}other{# SIM карти са налични на това устройство, но в даден момент може да бъде използвана само една от тях}}</string>
     <string name="choose_sim_title">Изберете SIM карта, която да използвате</string>
     <string name="choose_smartcover_type">Избор на тип кейс</string>
@@ -2956,6 +2959,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="color_led_summary">Не работи в режим Не безпокойте</string>
     <string name="color_led_title">LED светлина</string>
     <string name="color_magenta">Пурпурен</string>
+    <string name="color_mixed_light">Смесен цвят %d</string>
     <string name="color_mode_all_apps">Всички приложения</string>
     <string name="color_mode_option_automatic">Адаптивни</string>
     <string name="color_mode_option_boosted">Подсилени</string>
@@ -3050,6 +3054,8 @@ aptX адаптивен: режим Кодек"</string>
     <string name="confirm_frp_credential_title">Отключване след Връщане на заводските настройки</string>
     <string name="confirm_lock_pattern_header_text">Начертайте Вашия шаблон</string>
     <string name="confirm_new_backup_pw_prompt">Повторно въведете новата си парола за пълно резервно копие тук</string>
+    <string name="confirm_new_sim_pin_after_mismatch">ПИН кодовете не съвпадат. Потвърдете новия ПИН код за SIM картата.</string>
+    <string name="confirm_new_sim_pin_title">Потвърждаване на новия ПИН код за SIM картата</string>
     <string name="confirm_oem_unlock_for_16k_text">Програмата за първоначално зареждане на това устройство трябва да е отключена, преди да се използва опцията за програмисти за 16 KB размер на страницата. Целостта на софтуера не може да се гарантира в този режим. Също така данните, съхранявани на телефона, може да са изложени на риск, докато програмата за първоначално зареждане е отключена. Всички потребителски данни и настройки ще бъдат изчистени при активирането на режима 16 KB. След като програмата за първоначално зареждане бъде отключена, за активирането на опцията за 16 KB ще са необходими две рестартирания. Когато сте в този режим, можете да превключвате между режимите 4 KB и 16 KB с едно рестартиране. Определени функции ще бъдат деактивирани в тези режими, така че някои приложения може да не работят. За да върнете устройството в производствен режим, ще трябва да превключите обратно към режима 4 KB и след това да възстановите заключването чрез OEM или да заключите програмата за първоначално зареждане на устройството, което ще възстанови фабричните настройки. Моля, отключете програмата за първоначално зареждане и опитайте отново. За инструкции как да направите това, вижте &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Изисква се отключване на програмата за първоначално зареждане</string>
     <string name="confirm_pad_clone_password">Потвърдете паролата за Второ пространство на своя таблет</string>
@@ -4233,6 +4239,8 @@ aptX адаптивен: режим Кодек"</string>
     <string name="enroll_fingerprint">Запишете пръстов отпечатък</string>
     <string name="enrollment_completed">Готово</string>
     <string name="enter_current_lock_screen_password">Въведете Вашия код за отключване на екрана</string>
+    <string name="enter_current_sim_pin_after_mismatch">Грешен ПИН код. Оставащи опити: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Въведете текущия ПИН код за SIM картата</string>
     <string name="enterprise_mode">Режим предприятия</string>
     <string name="enterprise_privacy_always_on_vpn_device">Режимът за винаги включена виртуална частна мрежа (VPN) е активиран</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Режимът за винаги включена виртуална частна мрежа (VPN) е активиран в личния ви потребителски профил</string>
@@ -4705,6 +4713,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="firewall_wifi_dialog_message">Инсталираното приложение няма да може да се свърже с интернет чрез Wi-Fi, когато този тип връзка е изключена.</string>
     <string name="firmware_version">Версия на Android</string>
     <string name="first_day_of_week_preferences_title">Първи ден от седмицата</string>
+    <string name="first_sim_card_slot_title">Първи слот за SIM карта</string>
     <string name="fiveg_nrca_switch_summary">Подобрете 5G връзката за тестови среди</string>
     <string name="fiveg_nrca_switch_title">Агрегация на Оператор на 5G</string>
     <string name="fiveg_sa_switch_summary">Използване на SA мрежа във второстепенната SIM карта (само за тестване)</string>
@@ -7727,7 +7736,7 @@ Xiaomi Cloud
     <string name="network_and_internet_preferences_title">Предпочитания за мрежата</string>
     <string name="network_assistant">Потребление на данни</string>
     <string name="network_auto_switch">Превключване между мрежи</string>
-    <string name="network_auto_switch_summery">Превключете към мобилни данни, когато Wi-Fi сигналът е слаб или мрежата не е налична</string>
+    <string name="network_auto_switch_summery">Когато качеството на Wi-Fi е лошо, превключи на друга налична Wi-Fi мрежа или използвай мобилни данни. Използването на мобилни данни може да генерира допълнителни такси.</string>
     <string name="network_changed_noti_summary">Използване на мобилни данни</string>
     <string name="network_changed_noti_title">Прекъсната връзка с Wi-Fi</string>
     <string name="network_changed_notification_text">Мобилната ви мрежа е променена</string>
@@ -8435,6 +8444,8 @@ OTG се изключва автоматично след 10 минути неа
     <string name="peak_refresh_rate_summary">Автоматично увеличава честотата на опресняване до %1$d Hz за част от съдържанието. По-интензивно използване на батерията.</string>
     <string name="peak_refresh_rate_title">Плавно показване</string>
     <string name="peek_notification_icon_title">Покажи иконките за входящи известия</string>
+    <string name="peep_protection_v2_banner_summary">Пробвай функциите за поверителен дисплей само за този модел устройство</string>
+    <string name="peep_protection_v2_main_tile_label">Смарт поверителен екран</string>
     <string name="performance_category">Производителност</string>
     <string name="perm_toggle_description">За приложения и услуги</string>
     <string name="permission_action_prompt">Питане</string>
@@ -9163,6 +9174,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="protect_eyes_mode">Режим „Четене“</string>
     <string name="provide_current_sim_pin">Въведете текущия ПИН код за SIM картата</string>
     <string name="provide_current_sim_pin_title">Въведете текущия ПИН код за SIM картата</string>
+    <string name="provide_new_sim_pin_title">Нов ПИН код за SIM картата</string>
     <string name="provider_internet_settings">Интернет</string>
     <string name="provider_network_settings_title">SIM карти</string>
     <string name="provision_activation">Активно</string>
@@ -10110,6 +10122,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="search_xspace">Клонирано приложение;Клонирани приложения;Дублирано приложение;Дублирани приложения;Клониране приложение;Клониране приложения;Приложение клонирано;Приложения клонирани;Два профила;2 профила</string>
     <string name="searchview_clear_text_content_description">Изчистване на текста</string>
     <string name="searchview_navigation_content_description">Назад</string>
+    <string name="second_sim_card_slot_title">Втори слот за SIM карта</string>
     <string name="second_space">Второ пространство</string>
     <string name="secondspace_category">Второ пространство</string>
     <string name="secondspace_delete_space_title">Изтриване на Второ пространство</string>
@@ -10807,7 +10820,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="sim_action_switch_sub_dialog_title">Да се превключи ли към %1$s?</string>
     <string name="sim_action_turn_off">Изключване</string>
     <string name="sim_action_yes">Да</string>
-    <string name="sim_auto_pin_management_toggle">Автоматично управление на ПИН кодовете</string>
+    <string name="sim_auto_pin_management_toggle">Заключване на SIM картата</string>
     <string name="sim_bad_pin">PIN кода трябва да съдържа %1$d-%2$d цифри</string>
     <string name="sim_calls_always_use">Използване винаги за обаждания</string>
     <string name="sim_calls_ask_first_prefs_title">Извеждане на запитване всеки път</string>
@@ -10826,7 +10839,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="sim_change_failed_enable_sim_lock">Неуспешна промяна на PIN код. Активиране на заключване на SIM карта.</string>
     <string name="sim_change_pin">ПИН код за SIM карта</string>
     <string name="sim_change_succeeded">Успешна промяна на PIN за SIM карта</string>
-    <string name="sim_choose_protection_mode_title">Защита на SIM картата от кражба</string>
+    <string name="sim_choose_protection_mode_title">Изискване на ПИН код за използване на телефона</string>
     <string name="sim_combination_warning_notification_title">Проблем с комбинацията на SIM картите</string>
     <string name="sim_disable_sim_lock">Отключване на SIM картата</string>
     <string name="sim_display_platform_managed_pin">ПИН код, управляван от Android</string>
@@ -10874,13 +10887,15 @@ OTG се изключва автоматично след 10 минути неа
     <string name="sim_pin_change">Промяна на ПИН за SIM карта</string>
     <string name="sim_pin_disable_failed">ПИН кодът не може да бъде деактивиран.</string>
     <string name="sim_pin_enable_failed">ПИН кодът не може да бъде активиран.</string>
+    <string name="sim_pin_protection_mode_automatic">Автоматично (управлява се от Android)</string>
+    <string name="sim_pin_protection_mode_manual">Ръчно</string>
     <string name="sim_pin_toggle">Заключване на SIM картата</string>
     <string name="sim_pins_dont_match">PIN кодовете не съвпадат</string>
     <string name="sim_platform_managed_pin_failure">Извличането на ПИН кода не бе успешно</string>
     <string name="sim_platform_managed_pin_value">Стойност на управлявания от Android ПИН код:</string>
     <string name="sim_preferred_message">%1$s вече е основната ви SIM карта</string>
-    <string name="sim_protection_mode_lskf_required">За да включите защитата на SIM картата, трябва да настроите опция за заключване на екрана</string>
-    <string name="sim_protection_mode_manually_managed">ПИН кодът за SIM картата се управлява ръчно</string>
+    <string name="sim_protection_mode_lskf_required">За автоматичната защита на SIM картата се изисква опция за заключване на екрана. В момента е налице само ръчната защита</string>
+    <string name="sim_protection_mode_manually_managed">За използването на телефона се изисква ПИН код</string>
     <string name="sim_protection_mode_protected_by_platform">ПИН кодът за SIM картата се управлява от Android</string>
     <string name="sim_radio_off">Изкл</string>
     <string name="sim_reenter_new">Въведете пак новия ПИН код</string>
@@ -13010,6 +13025,7 @@ Wallet, плащането и други приложения, за които �
     <string name="wifi_assistant_auto_confirm_data_message">Използване на мобилни данни когато устройството не може да се свърже с интернет чрез Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Не питай повече</string>
     <string name="wifi_assistant_confirm_connection_title">Неуспешно свързване с интернет</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Лоша Wi-Fi връзка</string>
     <string name="wifi_assistant_data_prompt">Предупреждаване</string>
     <string name="wifi_assistant_data_prompt_summary">Покажи предупреждение за използване на мобилни данни, когато се превключва към тях</string>
     <string name="wifi_assistant_description">"Ето как работи тази функция:

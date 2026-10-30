@@ -1367,7 +1367,7 @@ Klici, sporočila in omrežni promet so lahko vidni vaši organizaciji."</string
     <string name="automatic_brightness">Samodejna svetlost</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Za samodejno prilaganje svetlobe, najprej izklopite Odklepanje z obrazom</string>
     <string name="automatic_keyboard_layout_label">Samodejno: %s</string>
-    <string name="automatic_sim_lock_protection">Samodejna zaščita zaklepanja kartice SIM</string>
+    <string name="automatic_sim_lock_protection">Način zaščite zaklepanja kartice SIM</string>
     <string name="automatic_sim_lock_settings_title">Zaščita kartice SIM</string>
     <string name="automatic_storage_manager_activation_warning">Shrambo zdaj upravlja upravitelj shrambe</string>
     <string name="automatic_storage_manager_days_title">Odstranjevanje fotografij in videoposnetkov</string>
@@ -2750,6 +2750,8 @@ To vpliva na druge aplikacije ali pogovore, v katerih je prikaz v oblačkih že 
     <string name="character_counter_content_description">Število vnesenih znakov je %1$d od %2$d</string>
     <string name="character_counter_overflowed_content_description">Omejitev števila znakov je presegla %1$d od %2$d</string>
     <string name="charge_length_format">Pred %1$s</string>
+    <string name="charge_light_state_summary">Med polnjenjem zasveti luč na zadnji strani</string>
+    <string name="charge_light_state_title">Svetlobni učinki polnjenja</string>
     <string name="charging_sounds_title">Zvoki in vibriranje ob polnjenju</string>
     <string name="check_find_device_status_failure_confirm">V redu</string>
     <string name="check_update">Preveri za posodobitve</string>
@@ -2821,6 +2823,7 @@ Nadzorno ploščo delovanja čipov"</string>
     <string name="choose_profile">Izbira profila</string>
     <string name="choose_sim_activating">Vklapljanje …</string>
     <string name="choose_sim_could_not_activate">Te kartice SIM trenutno ni bilo mogoče vklopiti</string>
+    <string name="choose_sim_pin_protection_mode">Izbira načina zaščite kartice SIM</string>
     <string name="choose_sim_text">{count,plural, =1{V tej napravi je na voljo 1 kartica SIM, vendar je mogoče uporabljati samo eno hkrati.}=2{V tej napravi sta na voljo 2 kartici SIM, vendar je mogoče uporabljati samo eno hkrati.}one{V tej napravi je na voljo # kartica SIM, vendar je mogoče uporabljati samo eno hkrati.}two{V tej napravi sta na voljo # kartici SIM, vendar je mogoče uporabljati samo eno hkrati.}few{V tej napravi so na voljo # kartice SIM, vendar je mogoče uporabljati samo eno hkrati.}other{V tej napravi je na voljo # kartic SIM, vendar je mogoče uporabljati samo eno hkrati.}}</string>
     <string name="choose_sim_title">Izbira kartice SIM za uporabo</string>
     <string name="choose_smartcover_type">Izberite tip ovitka</string>
@@ -2957,6 +2960,7 @@ Nadzorno ploščo delovanja čipov"</string>
     <string name="color_led_summary">Ne deluje v Načinu Ne moti</string>
     <string name="color_led_title">LED lučka</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Mešana barva %d</string>
     <string name="color_mode_all_apps">Vse aplikacije</string>
     <string name="color_mode_option_automatic">Prilagodljive</string>
     <string name="color_mode_option_boosted">Poudarjene</string>
@@ -3051,6 +3055,8 @@ Nadzorno ploščo delovanja čipov"</string>
     <string name="confirm_frp_credential_title">Odkleni po tovarniški ponastavitvi</string>
     <string name="confirm_lock_pattern_header_text">Narišite vaš vzorec</string>
     <string name="confirm_new_backup_pw_prompt">Znova vnesite novo geslo za popolno varnostno kopiranje</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Kodi PIN se ne ujemata. Potrdite novo kodo PIN za kartico SIM.</string>
+    <string name="confirm_new_sim_pin_title">Potrdite novo kodo PIN za kartico SIM</string>
     <string name="confirm_oem_unlock_for_16k_text">Preden začnete uporabljati 16-kilobajtno možnost za razvijalce, morate v tej napravi odkleniti zagonski nalagalnik. Celovitosti programske opreme v tem načinu ni mogoče zajamčiti in vsi podatki, shranjeni v telefonu, medtem ko je zagonski nalagalnik odklenjen, so morda ogroženi. Vsi podatki uporabnika in nastavitve bodo pri aktiviranju 16-kilobajtnega načina izbrisani. Ko je zagonski nalagalnik odklenjen, aktiviranje 16-kilobajtne možnosti terja dva vnovična zagona. Ko ste v tem načinu, lahko preklapljate med 4-kilobajtnim in 16-kilobajtnim načinom z enim vnovičnim zagonom. V teh načinih bodo nekatere funkcije onemogočene, zato nekatere aplikacije morda ne bodo delovale. Če želite napravo povrniti v način za splošno razpoložljivost, morate preklopiti nazaj na 4-kilobajtni način in nato napravo zakleniti z zaklepanjem OEM oziroma v napravi zakleniti zagonski nalagalnik (s čimer se sproži ponastavitev na tovarniške nastavitve). Odklenite zagonski nalagalnik in poskusite znova. Navodila za ta postopek so na voljo na &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Potrebno je odklepanje zagonskega nalagalnika</string>
     <string name="confirm_pad_clone_password">Potrdite geslo Drugega prostora svoje tablice</string>
@@ -4233,6 +4239,8 @@ To pomaga zaščititi podatke v izgubljenih ali ukradenih napravah. Ali naj napr
     <string name="enroll_fingerprint">Posnemi prstni odtis</string>
     <string name="enrollment_completed">Zapri</string>
     <string name="enter_current_lock_screen_password">Vnesite zaklepanje zaslona</string>
+    <string name="enter_current_sim_pin_after_mismatch">Napačna koda PIN. Število preostalih poskusov: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Vnesite trenutno kodo PIN za kartico SIM</string>
     <string name="enterprise_mode">Poslovni način</string>
     <string name="enterprise_privacy_always_on_vpn_device">Stalno vklopljen VPN je vklopljen</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Stalno vklopljen VPN je vklopljen v vašem osebnem profilu</string>
@@ -4705,6 +4713,7 @@ Za več informacij se obrnite na ponudnika obročnega odplačila."</string>
     <string name="firewall_wifi_dialog_message">Nameščene aplikacije ne bodo dostopale do interneta preko WiFi, če bo stikalo izključeno.</string>
     <string name="firmware_version">Android različica</string>
     <string name="first_day_of_week_preferences_title">Prvi dan v tednu</string>
+    <string name="first_sim_card_slot_title">Prva reža za kartico SIM</string>
     <string name="fiveg_nrca_switch_summary">Izboljša 5G povezavo za testna okolja</string>
     <string name="fiveg_nrca_switch_title">Združevanje 5G operaterjev</string>
     <string name="fiveg_sa_switch_summary">Uporabi SA omrežje s sekundarno SIM kartico (samo za testiranje)</string>
@@ -7729,7 +7738,7 @@ Izberite vaš operacijski sistem:"</string>
     <string name="network_and_internet_preferences_title">Omrežne nastavitve</string>
     <string name="network_assistant">Uporaba podatkov</string>
     <string name="network_auto_switch">Preklopi med omrežji</string>
-    <string name="network_auto_switch_summery">Preklopite na mobilne podatke, ko je signal Wi-Fi omrežja šibek ali omrežje ni na voljo</string>
+    <string name="network_auto_switch_summery">Če je kakovost povezave Wi-Fi slaba, preklopite na drugo razpoložljivo omrežje Wi-Fi ali uporabite mobilne podatke. Uporaba mobilnih podatkov lahko povzroči dodatne stroške.</string>
     <string name="network_changed_noti_summary">Uporabi mobilne podatke</string>
     <string name="network_changed_noti_title">Prekini povezavo z WiFi</string>
     <string name="network_changed_notification_text">Mobilno omrežje je spremenjeno.</string>
@@ -8437,6 +8446,8 @@ Pred uporabo te storitve preberite %s in potrdite, da se strinjate."</string>
     <string name="peak_refresh_rate_summary">Samodejno poveča hitrost osveževanja do največ %1$d Hz za nekatere vsebine. Poveča porabo energije baterije.</string>
     <string name="peak_refresh_rate_title">Tekoč prikaz</string>
     <string name="peek_notification_icon_title">Prikaži ikone za prihajajoča obvestila</string>
+    <string name="peep_protection_v2_banner_summary">Preizkusite funkcije zasebnega prikaza, ki so na voljo samo za ta model naprave</string>
+    <string name="peep_protection_v2_main_tile_label">Pametna zasebnost zaslona</string>
     <string name="performance_category">Učinkovitost delovanja</string>
     <string name="perm_toggle_description">Za aplikacije in storitve.</string>
     <string name="permission_action_prompt">Vprašaj</string>
@@ -9165,6 +9176,7 @@ Vsakdo, ki vašo napravo poveže z računalnikom ali v napravo namesti zlonamern
     <string name="protect_eyes_mode">Način za branje</string>
     <string name="provide_current_sim_pin">Vnesite trenutno kodo PIN za kartico SIM</string>
     <string name="provide_current_sim_pin_title">Vnos trenutne kode PIN za kartico SIM</string>
+    <string name="provide_new_sim_pin_title">Nova koda PIN za kartico SIM</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">Kartice SIM</string>
     <string name="provision_activation">Aktivno</string>
@@ -10108,6 +10120,7 @@ To funkcijo uporabljajte previdno, ko napravo delite z drugimi."</string>
     <string name="search_xspace">Dvojna aplikacija;Dvojne aplikacije;Podvojena aplikacija;Podvojene aplikacije;Klonirana aplikacija;Klonirane aplikacije;Kopija aplikacije;Kopije aplikacij;Dva računa;2 računa</string>
     <string name="searchview_clear_text_content_description">Počisti besedilo</string>
     <string name="searchview_navigation_content_description">Nazaj</string>
+    <string name="second_sim_card_slot_title">Druga reža za kartico SIM</string>
     <string name="second_space">Drugi prostor</string>
     <string name="secondspace_category">Drugi prostor</string>
     <string name="secondspace_delete_space_title">Izbriši Drugi prostor</string>
@@ -10805,7 +10818,7 @@ S preklopom še ne boste preklicali storitve operaterja %1$s."</string>
     <string name="sim_action_switch_sub_dialog_title">Želite preklopiti na operaterja %1$s?</string>
     <string name="sim_action_turn_off">Izklopi</string>
     <string name="sim_action_yes">Da</string>
-    <string name="sim_auto_pin_management_toggle">Samodejno upravljanje kode PIN</string>
+    <string name="sim_auto_pin_management_toggle">Zakleni kartico SIM</string>
     <string name="sim_bad_pin">PIN mora vsebovati %1$d-%2$d številk</string>
     <string name="sim_calls_always_use">Vedno uporabi to možnost za klice</string>
     <string name="sim_calls_ask_first_prefs_title">Vedno vprašaj</string>
@@ -10824,7 +10837,7 @@ S preklopom še ne boste preklicali storitve operaterja %1$s."</string>
     <string name="sim_change_failed_enable_sim_lock">Ni mogoče spremeniti PIN kode. Vklopite zaklepanje SIM kartice.</string>
     <string name="sim_change_pin">Koda PIN za kartico SIM</string>
     <string name="sim_change_succeeded">Sprememba kode PIN za kartico SIM je uspela</string>
-    <string name="sim_choose_protection_mode_title">Zaščita kartice SIM ob kraji naprave</string>
+    <string name="sim_choose_protection_mode_title">Zahtevaj kodo PIN za uporabo telefona</string>
     <string name="sim_combination_warning_notification_title">Težava s kombinacijo kartic SIM</string>
     <string name="sim_disable_sim_lock">Odklenite kartico SIM</string>
     <string name="sim_display_platform_managed_pin">Koda PIN, ki jo upravlja Android</string>
@@ -10872,13 +10885,15 @@ S preklopom še ne boste preklicali storitve operaterja %1$s."</string>
     <string name="sim_pin_change">Spremeni kodo PIN kartice SIM</string>
     <string name="sim_pin_disable_failed">Kode PIN ni mogoče onemogočiti.</string>
     <string name="sim_pin_enable_failed">Kode PIN ni mogoče omogočiti.</string>
+    <string name="sim_pin_protection_mode_automatic">Samodejno (upravlja Android)</string>
+    <string name="sim_pin_protection_mode_manual">Ročno</string>
     <string name="sim_pin_toggle">Zakleni kartico SIM</string>
     <string name="sim_pins_dont_match">PIN kodi se ne ujemata</string>
     <string name="sim_platform_managed_pin_failure">Pridobivanje kode PIN ni uspelo</string>
     <string name="sim_platform_managed_pin_value">Vrednost kode PIN, ki jo upravlja Android:</string>
     <string name="sim_preferred_message">%1$s je zdaj vaša glavna kartica SIM</string>
-    <string name="sim_protection_mode_lskf_required">Če želite vklopiti zaščito kartice SIM, morate nastaviti zaklepanje zaslona</string>
-    <string name="sim_protection_mode_manually_managed">Koda PIN za kartico SIM se upravlja ročno</string>
+    <string name="sim_protection_mode_lskf_required">Za samodejno zaščito kartice SIM je potrebno zaklepanje zaslona, zato je zdaj na voljo samo ročna zaščita</string>
+    <string name="sim_protection_mode_manually_managed">Za uporabo telefona je potrebna koda PIN</string>
     <string name="sim_protection_mode_protected_by_platform">Kodo PIN za kartico SIM upravlja Android</string>
     <string name="sim_radio_off">Izklopljeno</string>
     <string name="sim_reenter_new">Znova vnesite novi PIN</string>
@@ -13022,6 +13037,7 @@ Ko aplikacijo odprete s pripomočkom, morate potrditi, da ste to vi. Upoštevajt
     <string name="wifi_assistant_auto_confirm_data_message">Uporabi mobilne podatke, ko vaša naprava ni povezana na splet preko Wi-Fi omrežja.</string>
     <string name="wifi_assistant_confirm_always">Ne vprašaj ponovno</string>
     <string name="wifi_assistant_confirm_connection_title">Ni se mogoče povezati na omrežje</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Slaba WiFi povezava</string>
     <string name="wifi_assistant_data_prompt">Toplo</string>
     <string name="wifi_assistant_data_prompt_summary">Prikaže opozorilo porabe podatkov med preklopom na mobilne prenosne podatke</string>
     <string name="wifi_assistant_description">"Funkcija deluje na naslednji način:

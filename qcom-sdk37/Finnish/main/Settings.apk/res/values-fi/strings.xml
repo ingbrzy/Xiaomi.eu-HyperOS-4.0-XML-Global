@@ -1367,7 +1367,7 @@ Puhelut, viestit ja verkkoliikenne voivat näkyä organisaatiolle."</string>
     <string name="automatic_brightness">Automaattinen kirkkaus</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Jos haluat säätää kirkkautta automaattisesti, poista ensin kasvojentunnistus käytöstä</string>
     <string name="automatic_keyboard_layout_label">Automaattinen: %s</string>
-    <string name="automatic_sim_lock_protection">Automaattinen SIM-lukitussuojaus</string>
+    <string name="automatic_sim_lock_protection">SIM-lukitussuojaustila</string>
     <string name="automatic_sim_lock_settings_title">Suojaa SIM-kortti</string>
     <string name="automatic_storage_manager_activation_warning">Tallennustilan hallinta hallitsee nyt tallennustilaasi.</string>
     <string name="automatic_storage_manager_days_title">Poista kuvia ja videoita</string>
@@ -2750,6 +2750,8 @@ Jos tämä lupa myönnetään, sovellus on saatavilla vaihtoehtona aina, kun tag
     <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
     <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
     <string name="charge_length_format">%1$s sitten</string>
+    <string name="charge_light_state_summary">Sytytä taustavalo latauksen aikana</string>
+    <string name="charge_light_state_title">Latauksen valotehosteet</string>
     <string name="charging_sounds_title">Latausäänet ja ‑värinä</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Tarkista päivitykset</string>
@@ -2821,6 +2823,7 @@ Sirun suorituskyvyn hallintapaneeliin"</string>
     <string name="choose_profile">Valitse profiili</string>
     <string name="choose_sim_activating">Laitetaan päälle…</string>
     <string name="choose_sim_could_not_activate">Tätä SIM-korttia ei voi juuri nyt laittaa päälle</string>
+    <string name="choose_sim_pin_protection_mode">Valitse SIM-kortin suojaustila</string>
     <string name="choose_sim_text">{count,plural, =1{Laitteella on saatavilla 1 SIM-kortti, mutta vain yhtä voidaan käyttää kerrallaan}=2{Laitteella on saatavilla 2 SIM-korttia, mutta vain yhtä voidaan käyttää kerrallaan}other{Laitteella on saatavilla # SIM-korttia, mutta vain yhtä voidaan käyttää kerrallaan}}</string>
     <string name="choose_sim_title">Valitse käytettävä SIM-kortti</string>
     <string name="choose_smartcover_type">Valitse kotelotyyppi</string>
@@ -2957,6 +2960,7 @@ Sirun suorituskyvyn hallintapaneeliin"</string>
     <string name="color_led_summary">Ei toimi Älä häiritse -tilassa</string>
     <string name="color_led_title">LED-valo</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Sekaväri %d</string>
     <string name="color_mode_all_apps">Kaikki sovellukset</string>
     <string name="color_mode_option_automatic">Mukautuva</string>
     <string name="color_mode_option_boosted">Tehostettu</string>
@@ -3051,6 +3055,8 @@ Sirun suorituskyvyn hallintapaneeliin"</string>
     <string name="confirm_frp_credential_title">Avaa tehdasasetusten palauttamisen jälkeen</string>
     <string name="confirm_lock_pattern_header_text">Piirrä kuviosi</string>
     <string name="confirm_new_backup_pw_prompt">Anna uusi varmuuskopioinnin salasana uudelleen</string>
+    <string name="confirm_new_sim_pin_after_mismatch">PIN-koodit eivät täsmää. Vahvista uusi SIM-kortin PIN-koodi.</string>
+    <string name="confirm_new_sim_pin_title">Vahvista uusi SIM-kortin PIN-koodi</string>
     <string name="confirm_oem_unlock_for_16k_text">Tämän laitteen käynnistysohjelma on avattava ennen 16 kt:n kehittäjäasetuksen käyttämistä. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelmaa ei ole lukittu. Kaikki käyttäjädata ja asetukset pyyhitään, kun 16 kt:n tila aktivoidaan. Kun käynnistysohjelman lukitus on avattu, 16 kt:n tilan aktivointi edellyttää kahta uudelleenkäynnistystä. Kun olet tässä tilassa, voit vaihtaa 4 kt:n ja 16 kt:n tilan välillä yhdellä uudelleenkäynnistyksellä. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat palauttaa laitteen tuotantotilaan, sinun on vaihdettava takaisin 4 kt:n tilaan ja tehtävä käynnistysohjelman tai OEM:n lukitus. Tämä palauttaa laitteen tehdasasetukset. Avaa käynnistysohjelman lukitus ja yritä uudelleen. Voit katsoa ohjeet tämän tekemiseen osoitteesta &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Edellyttää käynnistysohjelman avaamista</string>
     <string name="confirm_pad_clone_password">Vahvista tabletin toisen tilan salasana</string>
@@ -4233,6 +4239,8 @@ Tämä auttaa suojaamaan kadonneiden tai varastettujen laitteiden tietoja. Vaadi
     <string name="enroll_fingerprint">Tallenna sormenjälki</string>
     <string name="enrollment_completed">Valmis</string>
     <string name="enter_current_lock_screen_password">Syötä näytön lukitus</string>
+    <string name="enter_current_sim_pin_after_mismatch">Virheellinen PIN-koodi. Jäljellä olevat yritykset: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Lisää SIM-kortin nykyinen PIN-koodi</string>
     <string name="enterprise_mode">Yritystila</string>
     <string name="enterprise_privacy_always_on_vpn_device">Aina käytössä oleva VPN päällä</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Aina käytössä oleva VPN päällä henkilökohtaisessa profiilissa</string>
@@ -4705,6 +4713,7 @@ Pyydä lisätietoja luoton myöntäjältä."</string>
     <string name="firewall_wifi_dialog_message">Asennettu sovellus ei pysty muodostamaan yhteyttä Internetiin Wi-Fi:n avulla, kun tämä kytkin on pois päältä.</string>
     <string name="firmware_version">Android-versio</string>
     <string name="first_day_of_week_preferences_title">Viikon ensimmäinen päivä</string>
+    <string name="first_sim_card_slot_title">Ensimmäinen SIM-korttipaikka</string>
     <string name="fiveg_nrca_switch_summary">Paranna 5G-yhteyttä testausympäristöjä varten</string>
     <string name="fiveg_nrca_switch_title">5G-operaattorien yhdistäminen</string>
     <string name="fiveg_sa_switch_summary">Käytä SA-verkkoa toissijaisella SIM-kortilla (vain testaukseen)</string>
@@ -7727,7 +7736,7 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="network_and_internet_preferences_title">Verkkoasetukset</string>
     <string name="network_assistant">Datan käyttö</string>
     <string name="network_auto_switch">Vaihda verkkojen välillä</string>
-    <string name="network_auto_switch_summery">Vaihda mobiilidataan, kun Wi-Fi-signaali on heikko tai verkko ei ole käytettävissä</string>
+    <string name="network_auto_switch_summery">Jos Wi-Fi-yhteyden laatu on huono, vaihda toiseen käytettävissä olevaan Wi-Fi-verkkoon tai käytä mobiilidataa. Mobiilidatan käyttö voi aiheuttaa lisämaksuja.</string>
     <string name="network_changed_noti_summary">Käytetään mobiilidataa</string>
     <string name="network_changed_noti_title">Wi-Fi-verkkoyhteys katkaistu</string>
     <string name="network_changed_notification_text">Mobiiliverkkosi on vaihdettu</string>
@@ -8435,6 +8444,8 @@ Lue ja hyväksy %s ennen kuin käytät tätä palvelua."</string>
     <string name="peak_refresh_rate_summary">Nostaa tietyn sisällön päivittymistiheyden automaattisesti %1$d hertsiin. Lisää akkuvirran kulutusta.</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Näytä kuvakkeet saapuville ilmoituksille</string>
+    <string name="peep_protection_v2_banner_summary">Kokeile tämän laitemallin yksinomaisia yksityisyysnäyttöominaisuuksia</string>
+    <string name="peep_protection_v2_main_tile_label">Älykäs yksityisyysnäyttö</string>
     <string name="performance_category">Suorituskyky</string>
     <string name="perm_toggle_description">Sovellukset ja palvelut</string>
     <string name="permission_action_prompt">Kysy</string>
@@ -9163,6 +9174,7 @@ Kuka tahansa, joka yhdistää laitteesi tietokoneeseen tai asentaa laitteelle ha
     <string name="protect_eyes_mode">Lukutila</string>
     <string name="provide_current_sim_pin">Lisää SIM-kortin nykyinen PIN-koodi</string>
     <string name="provide_current_sim_pin_title">Lisää nykyinen SIM-kortin PIN-koodi</string>
+    <string name="provide_new_sim_pin_title">Uusi SIM-kortin PIN-koodi</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIM-kortit</string>
     <string name="provision_activation">Aktiivinen</string>
@@ -10106,6 +10118,7 @@ Näin voit kiinnittää sovelluksen: \t
     <string name="search_xspace">Kaksoissovellus;Kaksoissovellukset;Kaksoissovellus;Kaksoissovellukset;Kloonisovellus;Kloonisovellukset;Sovelluksen klooni;Sovelluksen kloonit;Kaksi tiliä;2 tiliä</string>
     <string name="searchview_clear_text_content_description">Tyhjennä teksti</string>
     <string name="searchview_navigation_content_description">Takaisin</string>
+    <string name="second_sim_card_slot_title">Toinen SIM-korttipaikka</string>
     <string name="second_space">Toinen tila</string>
     <string name="secondspace_category">Toinen tila</string>
     <string name="secondspace_delete_space_title">Poista toinen tila</string>
@@ -10803,7 +10816,7 @@ Siirrä sormea hieman joka kerta. Tämä auttaa tallentamaan suuremman osan sorm
     <string name="sim_action_switch_sub_dialog_title">Vaihdetaanko %1$s käyttöön?</string>
     <string name="sim_action_turn_off">Laita pois päältä</string>
     <string name="sim_action_yes">Kyllä</string>
-    <string name="sim_auto_pin_management_toggle">Automaattinen PIN-koodin hallinta</string>
+    <string name="sim_auto_pin_management_toggle">Lukitse SIM-kortti</string>
     <string name="sim_bad_pin">PIN-koodissa on oltava %1$d-%2$d numeroa</string>
     <string name="sim_calls_always_use">Käytä kaikille puheluille</string>
     <string name="sim_calls_ask_first_prefs_title">Kysy aina</string>
@@ -10822,7 +10835,7 @@ Siirrä sormea hieman joka kerta. Tämä auttaa tallentamaan suuremman osan sorm
     <string name="sim_change_failed_enable_sim_lock">PIN-koodia ei voitu vaihtaa. Kytke SIM-lukko päälle nyt.</string>
     <string name="sim_change_pin">SIM-kortin PIN-koodi</string>
     <string name="sim_change_succeeded">SIM-kortin PIN-koodin vaihtaminen onnistui</string>
-    <string name="sim_choose_protection_mode_title">Suojaa SIM-kortti varkauksilta</string>
+    <string name="sim_choose_protection_mode_title">Puhelin avautuu PIN-koodilla</string>
     <string name="sim_combination_warning_notification_title">SIM-yhdistelmässä on ongelma</string>
     <string name="sim_disable_sim_lock">Avaa SIM-kortin lukitus</string>
     <string name="sim_display_platform_managed_pin">Androidin hallinnoima PIN-koodi</string>
@@ -10870,13 +10883,15 @@ Siirrä sormea hieman joka kerta. Tämä auttaa tallentamaan suuremman osan sorm
     <string name="sim_pin_change">Vaihda SIM-kortin PIN-koodi</string>
     <string name="sim_pin_disable_failed">PIN-koodin käytöstä poistaminen epäonnistui.</string>
     <string name="sim_pin_enable_failed">PIN-koodin käyttöönotto epäonnistui.</string>
+    <string name="sim_pin_protection_mode_automatic">Automaattinen (Androidin hallinnoima)</string>
+    <string name="sim_pin_protection_mode_manual">Manuaalinen</string>
     <string name="sim_pin_toggle">Lukitse SIM-kortti</string>
     <string name="sim_pins_dont_match">PIN-koodit eivät täsmää</string>
     <string name="sim_platform_managed_pin_failure">PIN-koodin hakeminen ei onnistunut</string>
     <string name="sim_platform_managed_pin_value">Androidin hallinnoiman PIN-koodin arvo:</string>
     <string name="sim_preferred_message">%1$s on nyt ensisijainen SIM-kortti</string>
-    <string name="sim_protection_mode_lskf_required">SIM-suojauksen laittaminen päälle edellyttää lukitusnäytön käyttöönottoa</string>
-    <string name="sim_protection_mode_manually_managed">SIM-kortin PIN-koodia hallinnoidaan manuaalisesti</string>
+    <string name="sim_protection_mode_lskf_required">Automaattinen SIM-suojaus edellyttää lukitusnäyttöä, nyt saatavilla vain manuaalinen suojaus</string>
+    <string name="sim_protection_mode_manually_managed">Puhelin avautuu PIN-koodilla</string>
     <string name="sim_protection_mode_protected_by_platform">SIM-kortin PIN-koodia hallinnoi Android</string>
     <string name="sim_radio_off">Pois</string>
     <string name="sim_reenter_new">Kirjoita uusi PIN-koodi uudelleen</string>
@@ -13008,6 +13023,7 @@ Kun avaat sovelluksen widgetin avulla, sinun täytyy vahvistaa henkilöllisyytes
     <string name="wifi_assistant_auto_confirm_data_message">Käytä mobiilidataverkkoja, kun laite ei voi muodostaa yhteyttä Internetiin Wi-Fi:n kautta.</string>
     <string name="wifi_assistant_confirm_always">Älä kysy uudestaan</string>
     <string name="wifi_assistant_confirm_connection_title">Ei voi yhdistää verkkoon</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Heikko Wi-Fi-yhteys</string>
     <string name="wifi_assistant_data_prompt">Varoita</string>
     <string name="wifi_assistant_data_prompt_summary">Näytä datankäyttövaroitus, kun vaihdetaan mobiilidataan</string>
     <string name="wifi_assistant_description">"Tämä ominaisuus toimii seuraavasti:

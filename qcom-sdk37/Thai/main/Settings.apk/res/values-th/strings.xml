@@ -1386,7 +1386,7 @@
     <string name="automatic_brightness">ความสว่างอัตโนมัติ</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">หากต้องการปรับความสว่างอัตโนมัติ ให้ปิดการปลดล็อกด้วยใบหน้าก่อน</string>
     <string name="automatic_keyboard_layout_label">อัตโนมัติ: %s</string>
-    <string name="automatic_sim_lock_protection">การป้องกันการล็อกซิมอัตโนมัติ</string>
+    <string name="automatic_sim_lock_protection">โหมดการป้องกันการล็อกซิม</string>
     <string name="automatic_sim_lock_settings_title">ปกป้องซิมการ์ด</string>
     <string name="automatic_storage_manager_activation_warning">ตัวจัดการพื้นที่เก็บข้อมูลกำลังจัดการพื้นที่เก็บข้อมูลของคุณ</string>
     <string name="automatic_storage_manager_days_title">นำรูปภาพและวิดีโอออก</string>
@@ -1955,7 +1955,7 @@
     <string name="bluetooth_device_game_controller_settings_preference_title">การตั้งค่าเกมคอนโทรลเลอร์</string>
     <string name="bluetooth_device_keyboard_settings_preference_title">การตั้งค่าแป้นพิมพ์</string>
     <string name="bluetooth_device_mac_address">ที่อยู่บลูทูธของอุปกรณ์: %1$s</string>
-    <string name="bluetooth_device_misc_title">อุปกรณ์ที่ใช้น้อย</string>
+    <string name="bluetooth_device_misc_title">อุปกรณ์ที่ใช้งานไม่บ่อย</string>
     <string name="bluetooth_device_more_settings_preference_summary">การอัปเดตเฟิร์มแวร์ เกี่ยวกับ และอื่นๆ</string>
     <string name="bluetooth_device_more_settings_preference_title">การตั้งค่าเพิ่มเติม</string>
     <string name="bluetooth_device_name">"ชื่อ: "</string>
@@ -2502,7 +2502,7 @@ aptX Adaptive: โหมด Codec"</string>
     <string name="bt_plugin_set_net_dialog_retry">ลองอีกครั้ง</string>
     <string name="bt_plugin_set_net_dialog_title">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="bt_pre_summary">ให้ประสบการณ์ด้านเสียงคุณภาพสูง</string>
-    <string name="bt_rarely_used_device_title">ใช้อุปกรณ์น้อยมาก (%d)</string>
+    <string name="bt_rarely_used_device_title">อุปกรณ์ที่ใช้งานไม่บ่อย (%d)</string>
     <string name="bt_show_notification_summary">แสดงการแจ้งเตือนถาวรในหน้าต่างแจ้งเตือน</string>
     <string name="bt_show_notification_title">แจ้งเกี่ยวกับการเชื่อมต่อบลูทูธ</string>
     <string name="bt_stack_log_level">เปิดใช้บันทึกสแต็กบลูทูธ</string>
@@ -2771,6 +2771,8 @@ aptX Adaptive: โหมด Codec"</string>
     <string name="character_counter_content_description">ป้อนอักขระแล้ว %1$d จาก %2$d ตัว</string>
     <string name="character_counter_overflowed_content_description">เกินจำนวนอักขระสูงสุด %1$d จาก %2$d</string>
     <string name="charge_length_format">%1$sที่ผ่านมา</string>
+    <string name="charge_light_state_summary">ไฟแบ็คไลท์จะสว่างขึ้นขณะชาร์จ</string>
+    <string name="charge_light_state_title">เอฟเฟกต์แสงขณะชาร์จ</string>
     <string name="charging_sounds_title">เสียงชาร์จและการสั่น</string>
     <string name="check_find_device_status_failure_confirm">ตกลง</string>
     <string name="check_update">ตรวจสอบหาอัปเดต</string>
@@ -2845,6 +2847,7 @@ aptX Adaptive: โหมด Codec"</string>
     <string name="choose_profile">เลือกโปรไฟล์</string>
     <string name="choose_sim_activating">กำลังเปิด…</string>
     <string name="choose_sim_could_not_activate">เปิดซิมนี้ไม่ได้ในขณะนี้</string>
+    <string name="choose_sim_pin_protection_mode">เลือกโหมดการปกป้องซิม</string>
     <string name="choose_sim_text">{count,plural, =1{มี 1 ซิมที่พร้อมใช้งานในอุปกรณ์นี้ แต่จะใช้ได้ครั้งละ 1 ซิมเท่านั้น}=2{มี 2 ซิมที่พร้อมใช้งานในอุปกรณ์นี้ แต่จะใช้ได้ครั้งละ 1 ซิมเท่านั้น}other{มี # ซิมที่พร้อมใช้งานในอุปกรณ์นี้ แต่จะใช้ได้ครั้งละ 1 ซิมเท่านั้น}}</string>
     <string name="choose_sim_title">เลือกซิมที่จะใช้</string>
     <string name="choose_smartcover_type">เลือกประเภทเคส</string>
@@ -2981,6 +2984,7 @@ aptX Adaptive: โหมด Codec"</string>
     <string name="color_led_summary">ไม่สามารถใช้ได้ในโหมด DND</string>
     <string name="color_led_title">ไฟ LED</string>
     <string name="color_magenta">ม่วงแดง</string>
+    <string name="color_mixed_light">สีผสม %d</string>
     <string name="color_mode_all_apps">แอปทั้งหมด</string>
     <string name="color_mode_option_automatic">ปรับอัตโนมัติ</string>
     <string name="color_mode_option_boosted">บูสต์</string>
@@ -3075,6 +3079,8 @@ aptX Adaptive: โหมด Codec"</string>
     <string name="confirm_frp_credential_title">ปลดล็อกหลังจากรีเซ็ตค่าจากโรงงาน</string>
     <string name="confirm_lock_pattern_header_text">วาดรูปแบบของคุณ</string>
     <string name="confirm_new_backup_pw_prompt">พิมพ์รหัสผ่านใหม่สำหรับการสำรองข้อมูลแบบเต็มรูปแบบอีกครั้งที่นี่</string>
+    <string name="confirm_new_sim_pin_after_mismatch">PIN ไม่ตรงกัน ยืนยัน PIN ใหม่ของซิม</string>
+    <string name="confirm_new_sim_pin_title">ยืนยัน PIN ใหม่ของซิม</string>
     <string name="confirm_oem_unlock_for_16k_text">อุปกรณ์นี้ต้องมีการปลดล็อก Bootloader ก่อนที่จะใช้ตัวเลือกสำหรับนักพัฒนาแอปแบบ 16 KB ไม่รับประกันความสมบูรณ์ของซอฟต์แวร์ในโหมดนี้ และข้อมูลใดๆ ที่จัดเก็บในโทรศัพท์ในขณะที่ Bootloader ไม่ได้ล็อกอยู่อาจมีความเสี่ยง ข้อมูลผู้ใช้และการตั้งค่าทั้งหมดจะถูกล้างเมื่อเปิดใช้งานโหมด 16 KB เมื่อปลดล็อก Bootloader แล้ว การเปิดใช้งานตัวเลือก 16 KB จะต้องมีการรีบูต 2 ครั้ง เมื่ออยู่ในโหมดนี้แล้ว คุณจะเปลี่ยนไปมาระหว่างโหมด 4 KB กับ 16 KB ได้โดยมีการรีบูตครั้งเดียว ฟีเจอร์บางอย่างจะถูกปิดใช้ในโหมดเหล่านี้ ดังนั้นบางแอปพลิเคชันจึงอาจไม่ทำงาน หากต้องการให้อุปกรณ์กลับสู่โหมดโปรดักชัน คุณจะต้องเปลี่ยนกลับไปใช้โหมด 4 KB จากนั้นล็อก OEM/Bootloader (ซึ่งจะรีเซ็ตอุปกรณ์เป็นค่าเริ่มต้น) โปรดปลดล็อก Bootloader แล้วลองอีกครั้ง ดูวิธีการได้ที่ &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">ต้องปลดล็อก Bootloader</string>
     <string name="confirm_pad_clone_password">ยืนยันรหัสผ่านพื้นที่ทับซ้อนของแท็บเล็ตของคุณ</string>
@@ -4259,6 +4265,8 @@ aptX Adaptive: โหมด Codec"</string>
     <string name="enroll_fingerprint">บันทึกลายนิ้วมือ</string>
     <string name="enrollment_completed">เสร็จสิ้น</string>
     <string name="enter_current_lock_screen_password">เข้าสู่การล็อกหน้าจอของคุณ</string>
+    <string name="enter_current_sim_pin_after_mismatch">PIN ไม่ถูกต้อง ลองได้อีก %1$d ครั้ง</string>
+    <string name="enter_current_sim_pin_hint">ป้อนรหัส PIN ปัจจุบันของซิมการ์ด</string>
     <string name="enterprise_mode">โหมดบริษัท</string>
     <string name="enterprise_privacy_always_on_vpn_device">การเชื่อมต่อ VPN ตลอดเวลาเปิดอยู่</string>
     <string name="enterprise_privacy_always_on_vpn_personal">การเชื่อมต่อ VPN ตลอดเวลาเปิดอยู่ในโปรไฟล์ส่วนตัวของคุณ</string>
@@ -4736,6 +4744,7 @@ aptX Adaptive: โหมด Codec"</string>
     <string name="firewall_wifi_dialog_message">แอปที่ติดตั้งจะไม่สามารถเชื่อมต่อและใช้อินเตอร์เน็ตได้ หากคุณปิดสวิตช์นี้</string>
     <string name="firmware_version">เวอร์ชัน Android</string>
     <string name="first_day_of_week_preferences_title">วันแรกของสัปดาห์</string>
+    <string name="first_sim_card_slot_title">ช่องซิมการ์ดแรก</string>
     <string name="fiveg_nrca_switch_summary">ปรับปรุงการเชื่อมต่อ 5G สำหรับสภาพแวดล้อมการทดสอบ</string>
     <string name="fiveg_nrca_switch_title">การรวมตัวของผู้ให้บริการ 5G</string>
     <string name="fiveg_sa_switch_summary">ใช้เครือข่าย SA ในซิมรอง (สำหรับการทดสอบเท่านั้น)</string>
@@ -7786,7 +7795,7 @@ PIN จะช่วยปกป้องโทรศัพท์ในกรณ�
     <string name="network_and_internet_preferences_title">ค่ากำหนดเครือข่าย</string>
     <string name="network_assistant">การใช้งานข้อมูล</string>
     <string name="network_auto_switch">สลับระหว่างเครือข่าย</string>
-    <string name="network_auto_switch_summery">เปลี่ยนไปใช้ข้อมูลมือถือเมื่อสัญญาณ Wi-Fi อ่อนหรือเครือข่ายไม่พร้อมใช้งาน</string>
+    <string name="network_auto_switch_summery">หากคุณภาพสัญญาณ Wi-Fi ไม่ดี ให้เปลี่ยนไปใช้เครือข่าย Wi-Fi อื่นที่ใช้งานได้ หรือใช้ข้อมูลมือถือ การใช้ข้อมูลมือถืออาจมีค่าใช้จ่ายเพิ่มเติม</string>
     <string name="network_changed_noti_summary">ใช้ข้อมูลมือถือ</string>
     <string name="network_changed_noti_title">ตัดการเชื่อมต่อ Wi-Fi</string>
     <string name="network_changed_notification_text">เปลี่ยนเครือข่ายมือถือแล้ว</string>
@@ -8515,6 +8524,8 @@ OTG จะปิดโดยอัตโนมัติหลังจากท�
     <string name="peak_refresh_rate_summary">เพิ่มอัตราการรีเฟรชไปจนถึง %1$d Hz โดยอัตโนมัติสำหรับเนื้อหาบางรายการ เพิ่มการใช้งานแบตเตอรี่</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">แสดงไอคอนสำหรับการแจ้งเตือนโทรเข้า</string>
+    <string name="peep_protection_v2_banner_summary">ลองใช้คุณสมบัติความเป็นส่วนตัวในการแสดงผลที่มีเฉพาะในรุ่นนี้</string>
+    <string name="peep_protection_v2_main_tile_label">จอแสดงผลส่วนตัวอัจฉริยะ</string>
     <string name="performance_category">โหมดประสิทธิภาพสูง</string>
     <string name="perm_toggle_description">สำหรับแอปและบริการ</string>
     <string name="permission_action_prompt">สอบถาม</string>
@@ -8643,6 +8654,7 @@ OTG จะปิดโดยอัตโนมัติหลังจากท�
     <string name="photography_handle_update_and_maintain">อัปเดต</string>
     <string name="physical_keyboard_layout_picker_title">เครื่องมือเลือกรูปแบบแป้นพิมพ์จริง</string>
     <string name="physical_keyboard_title">แป้นพิมพ์จริง</string>
+    <string name="pick_up_gesture_wakeup_not_effect_summary">ใช้งานไม่ได้เมื่อจอแสดงผลด้านหลังเปิดอยู่</string>
     <string name="pick_up_gesture_wakeup_title">ยกขึ้นเพื่อปลุก</string>
     <string name="picker_text">ตัวเลือกเวลา</string>
     <string name="picture_color_mode">โหมดสีของรูปภาพ</string>
@@ -9248,6 +9260,7 @@ OTG จะปิดโดยอัตโนมัติหลังจากท�
     <string name="protect_eyes_mode">โหมดการอ่าน</string>
     <string name="provide_current_sim_pin">ป้อน PIN ปัจจุบันของซิมการ์ด</string>
     <string name="provide_current_sim_pin_title">ป้อน PIN ปัจจุบันของซิม</string>
+    <string name="provide_new_sim_pin_title">PIN ใหม่ของซิม</string>
     <string name="provider_internet_settings">อินเทอร์เน็ต</string>
     <string name="provider_network_settings_title">ซิม</string>
     <string name="provision_activation">ใช้งาน</string>
@@ -10203,6 +10216,7 @@ OTG จะปิดโดยอัตโนมัติหลังจากท�
     <string name="search_xspace">แอปโคลน;แอปโคลน;สองแอป;สองแอป;โคลนแอป;โคลนแอป;แอปโคลน;แอปโคลน;สองบัญชี;2 บัญชี</string>
     <string name="searchview_clear_text_content_description">ล้างข้อความ</string>
     <string name="searchview_navigation_content_description">กลับ</string>
+    <string name="second_sim_card_slot_title">ช่องใส่ซิมการ์ดที่ 2</string>
     <string name="second_space">พื้นที่ทับซ้อน</string>
     <string name="secondspace_category">พื้นที่ทับซ้อน</string>
     <string name="secondspace_delete_space_title">ลบพื้นที่ทับซ้อน</string>
@@ -10900,7 +10914,7 @@ OTG จะปิดโดยอัตโนมัติหลังจากท�
     <string name="sim_action_switch_sub_dialog_title">เปลี่ยนเป็น %1$s ใช่ไหม</string>
     <string name="sim_action_turn_off">ปิด</string>
     <string name="sim_action_yes">ใช่</string>
-    <string name="sim_auto_pin_management_toggle">การจัดการ PIN อัตโนมัติ</string>
+    <string name="sim_auto_pin_management_toggle">ล็อกซิม</string>
     <string name="sim_bad_pin">PIN จะต้องมี %1$d-%2$d หลัก</string>
     <string name="sim_calls_always_use">ใช้ในการโทรทุกครั้ง</string>
     <string name="sim_calls_ask_first_prefs_title">ถามทุกครั้ง</string>
@@ -10919,7 +10933,7 @@ OTG จะปิดโดยอัตโนมัติหลังจากท�
     <string name="sim_change_failed_enable_sim_lock">ไม่สามารถเปลี่ยน PIN เปิดล็อกซิมทันที</string>
     <string name="sim_change_pin">PIN ของซิม</string>
     <string name="sim_change_succeeded">เปลี่ยน PIN ของซิมสำเร็จแล้ว</string>
-    <string name="sim_choose_protection_mode_title">ปกป้องซิมการ์ดจากการขโมย</string>
+    <string name="sim_choose_protection_mode_title">ต้องมี PIN เพื่อใช้โทรศัพท์</string>
     <string name="sim_combination_warning_notification_title">ปัญหาเกี่ยวกับการรวมซิม</string>
     <string name="sim_disable_sim_lock">ปลดล็อกซิม</string>
     <string name="sim_display_platform_managed_pin">PIN ที่จัดการโดย Android</string>
@@ -10967,13 +10981,15 @@ OTG จะปิดโดยอัตโนมัติหลังจากท�
     <string name="sim_pin_change">เปลี่ยน PIN ของซิม</string>
     <string name="sim_pin_disable_failed">ปิดใช้ PIN ไม่ได้</string>
     <string name="sim_pin_enable_failed">เปิดใช้ PIN ไม่ได้</string>
+    <string name="sim_pin_protection_mode_automatic">อัตโนมัติ (จัดการโดย Android)</string>
+    <string name="sim_pin_protection_mode_manual">ด้วยตนเอง</string>
     <string name="sim_pin_toggle">ล็อกซิม</string>
     <string name="sim_pins_dont_match">PIN ไม่ตรงกัน</string>
     <string name="sim_platform_managed_pin_failure">รับ PIN ไม่สำเร็จ</string>
     <string name="sim_platform_managed_pin_value">ค่า PIN ที่จัดการโดย Android:</string>
     <string name="sim_preferred_message">%1$s เป็นซิมหลักของคุณแล้วตอนนี้</string>
-    <string name="sim_protection_mode_lskf_required">ต้องตั้งค่าล็อกหน้าจอเพื่อเปิดการปกป้องซิม</string>
-    <string name="sim_protection_mode_manually_managed">จัดการ PIN ของซิมด้วยตนเอง</string>
+    <string name="sim_protection_mode_lskf_required">การปกป้องซิมอัตโนมัติต้องใช้การล็อกหน้าจอ ตอนนี้ใช้ได้เฉพาะการปกป้องด้วยตนเอง</string>
+    <string name="sim_protection_mode_manually_managed">ต้องมี PIN เพื่อใช้โทรศัพท์</string>
     <string name="sim_protection_mode_protected_by_platform">Android จัดการ PIN ของซิม</string>
     <string name="sim_radio_off">ปิด</string>
     <string name="sim_reenter_new">พิมพ์ PIN อีกครั้ง</string>
@@ -13107,6 +13123,7 @@ Wallet, การชำระเงิน และแอปอื่นๆ ท�
     <string name="wifi_assistant_auto_confirm_data_message">ใช้เครือข่ายข้อมูลมือถือเมื่ออุปกรณ์ของคุณไม่สามารถเชื่อมต่ออินเทอร์เน็ตผ่าน Wi-Fi ได้</string>
     <string name="wifi_assistant_confirm_always">ไม่ต้องถามอีก</string>
     <string name="wifi_assistant_confirm_connection_title">ไม่สามารถเชื่อมต่ออินเตอร์เน็ตได้</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">การเชื่อมต่อ Wi-Fi ไม่ดี</string>
     <string name="wifi_assistant_data_prompt">คำเตือน</string>
     <string name="wifi_assistant_data_prompt_summary">แสดงคำเตือนการใช้ข้อมูลเมื่อเปลี่ยนเป็นข้อมูลมือถือ</string>
     <string name="wifi_assistant_description">"นี่คือการทำงานของคุณสมบัตินี้:

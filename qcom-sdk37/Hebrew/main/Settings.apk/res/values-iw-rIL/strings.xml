@@ -669,7 +669,7 @@
     <string name="bluetooth_device_button_replace_current_device">החלף מכשיר</string>
     <string name="bluetooth_device_context_connect_advanced">אפשרויות</string>
     <string name="bluetooth_device_context_disconnect_unpair">לנתק ולבטל את הצימוד</string>
-    <string name="bluetooth_device_context_unpair">לבטל צימוד</string>
+    <string name="bluetooth_device_context_unpair">לבטל קישור</string>
     <string name="bluetooth_device_details">הגדרות המכשיר</string>
     <string name="bluetooth_device_misc_title">התקנים בשימוש נדיר</string>
     <string name="bluetooth_device_name">"שם: "</string>
@@ -1143,6 +1143,8 @@ ApatX–Adaptive: מצב קודק"</string>
     <string name="change_password">שנה את שיטת נעילת המסך</string>
     <string name="change_security_lock">נסה דרכים אחרות לביטול הנעילה</string>
     <string name="charge_length_format">לפני %1$s</string>
+    <string name="charge_light_state_summary">הפעלת תאורה אחורית בזמן טעינה</string>
+    <string name="charge_light_state_title">אפקטים של תאורה בטעינה</string>
     <string name="check_find_device_status_failure_confirm">אישור</string>
     <string name="check_update">בדוק זמינות עדכונים</string>
     <string name="checkbox_text">מתג</string>
@@ -1304,6 +1306,7 @@ ApatX–Adaptive: מצב קודק"</string>
     <string name="color_led_start_time">שעת התחלה</string>
     <string name="color_led_summary">לא עובד במצב \"נא לא להפריע\"</string>
     <string name="color_led_title">תאורת לד</string>
+    <string name="color_mixed_light">צבע מעורב %d</string>
     <string name="color_mode_all_apps">כל היישומים</string>
     <string name="color_mode_read_apps">יישומי קריאה בלבד</string>
     <string name="common_issue">שאלות נפוצות</string>
@@ -2719,7 +2722,7 @@ Xiaomi מפתחת ללא הרף מוצרים מדהימים במחירים הו�
     <string name="headset_notification_switch_summary">תצוגת סטטוס ביישומון לוח ההתראות כאשר האוזניות מחוברות</string>
     <string name="headset_notification_switch_title">יישומון לוח ההתראות</string>
     <string name="headset_paired_other_device_need_reset">אוזניות אלה מצומדות למכשיר אחר. אפס אותן כדי שתוכל להתחבר.</string>
-    <string name="headset_remove_message">לבטל צימוד למכשיר?</string>
+    <string name="headset_remove_message">האם לבטל קישור למכשיר?</string>
     <string name="headset_remove_message_indicate">יבוטל הצימוד של %1$s לכל מכשירים המקושרים לחשבון Xiaomi זה.</string>
     <string name="headset_sbc">SBC</string>
     <string name="headset_settings_sound_bose_balance">מאוזן</string>
@@ -3555,7 +3558,7 @@ Xiaomi Cloud
     <string name="miheadset_head_tracking">ניטור תנועות ראש</string>
     <string name="miheadset_head_tracking_summary">חוויה של תחושת מרחב וכיוון משופרים עבור שמע ווידאו נתמכים</string>
     <string name="miheadset_high_quality">איכות גבוהה</string>
-    <string name="miheadset_ignore">הסר צימוד</string>
+    <string name="miheadset_ignore">לבטל קישור</string>
     <string name="miheadset_in_ear_check">זיהוי הכנסה לאוזן</string>
     <string name="miheadset_in_ear_check_summary">השהיית שמע לאחר הוצאת האוזניות מהאוזניים וחידוש ניגון אוטומטי לאחר החזרתן לאוזניים</string>
     <string name="miheadset_key_config_ANC_list_title">בקרת רעשים</string>
@@ -4021,7 +4024,7 @@ Xiaomi Cloud
     <string name="network_alarm_support_apps">יישומים נתמכים</string>
     <string name="network_assistant">שימוש בנתונים</string>
     <string name="network_auto_switch">מעבר בין רשתות</string>
-    <string name="network_auto_switch_summery">מעבר לגלישה סלולרית כאשר אות רשת ה-Wi-Fi חלש או הרשת אינה זמינה</string>
+    <string name="network_auto_switch_summery">כאשר איכות ה-Wi-Fi גרועה, יש לעבור לרשת Wi-Fi זמינה אחרת או להשתמש בגלישה סלולרית. שימוש בגלישה סלולרית עלול לגרום לחיובים נוספים.</string>
     <string name="network_changed_noti_summary">שימוש בחיבור נתונים סלולרי</string>
     <string name="network_changed_noti_title">מנותק מהרשת האלחוטית</string>
     <string name="network_connection_error">שגיאה בחיבור לרשת</string>
@@ -4361,6 +4364,8 @@ Xiaomi Cloud
     <string name="pc_install_manager">התקן באמצעות USB</string>
     <string name="pc_power_mode_has_performance_chip">הביצועים משופרים (המהרה)</string>
     <string name="peek_notification_icon_title">הצג צלמיות עבור התראות נכנסות</string>
+    <string name="peep_protection_v2_banner_summary">נסו מאפייני תצוגת פרטיות שבלעדיים לדגם מכשיר זה</string>
+    <string name="peep_protection_v2_main_tile_label">תצוגת פרטיות חכמה</string>
     <string name="performance_category">ביצועים</string>
     <string name="permission_action_prompt">לשאול</string>
     <string name="permission_control">הרשאות</string>
@@ -6668,6 +6673,7 @@ SMSלשליחת הודעות טקסט לאנשי קשר לשעת חירום
     <string name="wifi_assistant_auto_confirm_data_message">השתמש ברשתות נתונים סלולריות כאשר המכשיר שלך אינו יכול להתחבר לאינטרנט באמצעות Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">לא לשאול שוב</string>
     <string name="wifi_assistant_confirm_connection_title">לא ניתן להתחבר לאינטרנט</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">חיבור Wi-Fi גרוע</string>
     <string name="wifi_assistant_data_prompt">הצג אזהרה</string>
     <string name="wifi_assistant_data_prompt_summary">הצג התראה על ניצול גלישה סלולרית במעבר לשימוש בחיבור סלולרי</string>
     <string name="wifi_assistant_description">"תכונה זו פועלת באופן הבא:

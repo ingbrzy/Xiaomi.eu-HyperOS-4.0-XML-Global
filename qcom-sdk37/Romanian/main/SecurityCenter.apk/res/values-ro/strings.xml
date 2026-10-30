@@ -131,7 +131,7 @@
     <string name="activity_title_apps_settings">Aplicații</string>
     <string name="activity_title_auto_start_manager">Pornire automată</string>
     <string name="activity_title_auto_start_manager_global">Pornire automată în fundal</string>
-    <string name="activity_title_garbage_cleanup">Cleaner</string>
+    <string name="activity_title_garbage_cleanup">Curățare</string>
     <string name="activity_title_license_manager">Permisiuni</string>
     <string name="activity_title_networkassistants">Trafic internet</string>
     <string name="activity_title_other_permission_manager">Alte permisiuni</string>
@@ -224,7 +224,7 @@
 Toate procesările sunt efectuate pe dispozitivul tău și nu vor fi încărcate în cloud."</string>
     <string name="anti_peeping_privacy_statement_title">Declarație de confidențialitate</string>
     <string name="anti_peeping_privacy_understand_des">"Această funcție folosește camera frontală pentru a captura imagini și a analiza dacă altcineva se uită la ecranul tău. Dacă se detectează o astfel de activitate, vei primi o reamintire pentru a-ți proteja confidențialitatea.
-Poți selecta aplicațiile pe care să le protejezi. \"Detectează privirea celeilalte persoane\" va fi activată automat atunci când aplicațiile respective sunt afișate pe ecran complet."</string>
+Poți selecta aplicațiile pe care să le protejezi. \"Detectarea privirii celeilalte persoane\" va fi activată automat atunci când aplicațiile respective sunt afișate pe ecran complet."</string>
     <string name="anti_peeping_privacy_understand_title">Despre \"Detectarea privirii celeilalte persoane\"</string>
     <string name="anti_peeping_recommend_apps_button_open">Activează</string>
     <string name="anti_peeping_recommend_tips">%s dintre utilizatori au selectat următoarele aplicații</string>
@@ -615,6 +615,7 @@ Acceptat atât pentru chat-uri de grup, cât și pentru chat-uri individuale"</s
     <string name="applock_lock_mode_locked_or_exit_summary">Blocați aplicațiile de fiecare dată când părăsiți, ieșiți sau schimbați la o altă aplicație</string>
     <string name="applock_lock_mode_locked_summary">Nu este necesară verificarea până când dispozitivul nu este blocat</string>
     <string name="applock_login_and_add_account">Conectați-vă și adăugați</string>
+    <string name="applock_mirroring_biometric_paused">Ecran oglindă activ, autentificarea biometrică a fost întreruptă</string>
     <string name="applock_mixed_input_password_hint_text">Introduceți parolă</string>
     <string name="applock_mixtype_hidepwd_icon">Ascunde parola</string>
     <string name="applock_mixtype_showpwd_icon">Afișează parola</string>
@@ -1749,6 +1750,7 @@ Va fi adăugat la excepții, dar elementele blocate anterior nu vor apărea în 
     <string name="extreme_power_save_mode_title">Economizator baterie extrem</string>
     <string name="face_too_many_filed_locked">Prea multe încercări. Blocat temporar.</string>
     <string name="face_unlock">Deblocați prin datele faciale</string>
+    <string name="face_unlock_bad_lighting">Mută-te într-o zonă bine luminată</string>
     <string name="face_unlock_be_on_the_screen">Țineți dispozitivul în fața feței dumneavoastră</string>
     <string name="face_unlock_check_failed">Nu te-am putut recunoaște</string>
     <string name="face_unlock_face_auth_failed_title">Nu s-a putut verifica datele faciale. Comutează la alte metode de deblocare…</string>
@@ -2014,6 +2016,11 @@ Va fi adăugat la excepții, dar elementele blocate anterior nu vor apărea în 
     <string name="game_center_network_setting_tip_pad">Permiteți ca Securitate să se conecteze la internet în Setări</string>
     <string name="game_center_recommend">Recomandate</string>
     <string name="game_else_function">Altele</string>
+    <string name="game_island_channel_name">Notificări de joc</string>
+    <string name="game_island_click_enter_game">Apasă pentru a deschide jocul</string>
+    <string name="game_island_enter_game">Deschide</string>
+    <string name="game_island_revived">A reapărut</string>
+    <string name="game_island_reviving">Reapariție</string>
     <string name="game_manual_record_setting_setting">Setări</string>
     <string name="game_manual_record_setting_title">Momente cheie</string>
     <string name="game_more_improve">Restricționați activitățile de fundal și viteza de descărcare pentru a economisi baterie și lățime de bandă pentru jocuri</string>
@@ -2049,6 +2056,8 @@ Va fi adăugat la excepții, dar elementele blocate anterior nu vor apărea în 
     <string name="game_toolbox_cooling_fan_settings_guide_message">Activează \"Jocuri\" în Setări > Ventilator de răcire sau setează scenariile de utilizare la \"Toate\" pentru a utiliza ventilatorul de răcire în timp ce te joci.</string>
     <string name="game_toolbox_cooling_fan_settings_guide_title">Atenție</string>
     <string name="game_toolbox_cooling_fan_title">Ventilator de răcire</string>
+    <string name="game_toolbox_d2_185hz_conflict_disabled">Rata de cadru și rezoluția actuală sunt prea mari. GPU-ul discret este oprit.</string>
+    <string name="game_toolbox_d2_185hz_conflict_reject">Rata de cadru și rezoluția actuală sunt prea mari pentru a activa GPU discret.</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">dd.MM.yyyy</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Anulează</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">O conexiune VPN va fi creată automat pe baza latenței în timp real pentru a îmbunătăți stabilitatea rețelei. După revendicare, veți primi %d ani de acces gratuit.</string>
@@ -2355,7 +2364,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_first_window_antimsg_summary_transparent_show">Vizualizați textul pe fundal transparent</string>
     <string name="gb_first_window_antimsg_title">Notificări convenabile</string>
     <string name="gb_first_window_gamebox_summary_four">Ștergeți memoria cache, faceți înregistrări pe ecran și capturi de ecran</string>
-    <string name="gb_first_window_gamebox_summary_six">Utilizați răspunsuri rapide, faceți înregistrări ecran și capturi de ecran</string>
+    <string name="gb_first_window_gamebox_summary_six">Utilizați răspunsuri rapide, faceți înregistrări de ecran și capturi de ecran</string>
     <string name="gb_first_window_handsfree_summary">Activați automat difuzorul</string>
     <string name="gb_first_window_handsfree_title">Apeluri mâini libere</string>
     <string name="gb_first_window_start">Începeți să redați</string>
@@ -4168,6 +4177,8 @@ Economizator baterie ultra"</string>
     <string name="peep_protection_v2_cue_summary">Această funcție este exclusivă pentru acest model de dispozitiv</string>
     <string name="peep_protection_v2_deep_mode">Confidențialitate îmbunătățită</string>
     <string name="peep_protection_v2_deep_mode_desc">Îngreunează vizualizarea ecranului pentru ceilalți</string>
+    <string name="peep_protection_v2_enhanced_effect_summary">Reduceți luminozitatea ecranului pentru a face ecranul mai greu de văzut de către alte persoane</string>
+    <string name="peep_protection_v2_enhanced_effect_title">Confidențialitate îmbunătățită</string>
     <string name="peep_protection_v2_expert_mode_hint">*Necesită schimbarea Xiaomi Hyper XiaoAi în Mod Pro</string>
     <string name="peep_protection_v2_face_need_input_hint">Date faciale necesare</string>
     <string name="peep_protection_v2_first_close_message">Adaugă Afișaj de confidențialitate Xiaomi în Centru de control > Editare > Comutatoare de sistem pentru a activa sau dezactiva rapid.</string>
@@ -4282,15 +4293,15 @@ Pe lângă vizibilitatea redusă din unghiuri laterale, sistemul te poate averti
     <string name="peep_protection_v2_search_smart_enable">Activare inteligentă;afișaj de confidențialitate automat</string>
     <string name="peep_protection_v2_select_apps">Aplicații selectate</string>
     <string name="peep_protection_v2_select_apps_category_tip">Puteți crea, gestiona, elimina sau redenumi grupuri de aplicații pentru afișarea confidențialității în (click) Xiaomi Hyper XiaoAi (/click)</string>
-    <string name="peep_protection_v2_select_apps_category_tip_v2">În Mod Pro al Xiaomi Hyper XiaoAi, puteți crea, gestiona, elimina sau redenumi categorii de aplicații pentru afișarea confidențialității.</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">În Mod Pro al (click)Xiaomi Hyper XiaoAi(/click), puteți crea, gestiona, elimina sau redenumi categorii de aplicații pentru afișarea confidențialității</string>
     <string name="peep_protection_v2_smart_enable">Activare inteligentă</string>
     <string name="peep_protection_v2_smart_enable_create_strategy_desc">În Xiaomi Hyper XiaoAi, poți crea reguli de afișare a confidențialității în funcție de locurile pe care le vizitezi des. Când ajungi într-o anumită locație, afișarea confidențialității se va activa sau dezactiva automat.</string>
     <string name="peep_protection_v2_smart_enable_create_strategy_title">Creați o regulă inteligentă</string>
     <string name="peep_protection_v2_smart_enable_desc_v2">Creați reguli de afișare a confidențialității bazate pe locație</string>
     <string name="peep_protection_v2_smart_enable_no_strategy_hint">Încă nu există reguli. Creați reguli de activare inteligentă bazate pe locație în Xiaomi Hyper XiaoAi.</string>
-    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Încă nu există reguli. Puteți crea reguli de activare inteligente bazate pe locație în (click) Xiaomi Hyper XiaoAi (click).</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Încă nu există reguli. Puteți crea reguli de activare inteligente bazate pe locație în (click) Xiaomi Hyper XiaoAi (/click).</string>
     <string name="peep_protection_v2_smart_enable_page_desc">În (click)Xiaomi Hyper XiaoAi(/click), puteți configura reguli inteligente bazate pe locație, cum ar fi activarea automată a funcției Confidențialitate pe ecran complet atunci când te afli în metrou. Când ajungi în locația specificată, afișajul de confidențialitate se va activa conform regulii configurate.</string>
-    <string name="peep_protection_v2_smart_enable_page_desc_v2">În Modul Pro al funcției Xiaomi Hyper XiaoAi, puteți configura reguli inteligente de activare bazate pe locație, cum ar fi \"Activează automat Confidențialitate pe ecran complet atunci când sunt în metrou\". Când ajungi într-o locație specificată, Afișajul de confidențialitate se va activa automat conform regulilor configurate.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">În Modul Pro al (click)Xiaomi Hyper XiaoAi(/click), puteți configura reguli inteligente de activare bazate pe locație, cum ar fi \"Activează automat Confidențialitate pe ecran complet atunci când sunt în metrou\". Când ajungi într-o locație specificată, Afișajul de confidențialitate se va activa automat conform regulilor configurate.</string>
     <string name="peep_protection_v2_smart_enable_prompt">Ajutați-mă să creez o regulă de afișare a confidențialității: Îmi folosesc adesea telefonul în metrou și în cafenele. Creați reguli pentru aceste scenarii și activați automat afișarea confidențialității pentru rețelele sociale și grupurile financiare când ajung în aceste locații.</string>
     <string name="peep_protection_v2_smart_enable_prompt_copied">Copiat cu succes</string>
     <string name="peep_protection_v2_smart_enable_sio_unavailable">Permiteți accesul pentru a putea utiliza această funcție</string>
@@ -5825,11 +5836,16 @@ Vă retrageți consimțământul acum?"</string>
     <string name="st_call_stranger_group">Blocați apelurile de la străini</string>
     <string name="st_call_stranger_inercept_local">Blocați numerele necunoscute</string>
     <string name="st_confirm_call_all_dialog_all_open_summary">Apelurile de la orice număr care nu se află în excepțiile dvs. vor fi blocate. Blochezi acum?</string>
+    <string name="st_confirm_call_all_dialog_message_all_open_summary">Apelurile de la orice număr care nu se află în lista numerelor și regiunilor exceptate vor fi încheiate automat. Aceasta include și apelurile de la contactele dvs. Blocați acum?</string>
+    <string name="st_confirm_call_all_dialog_message_strange_open_summary">Apelurile de la orice număr care nu se află în lista numerelor și regiunilor exceptate sau în contacte vor fi încheiate automat. Blocați oricum?</string>
     <string name="st_confirm_call_all_dialog_strange_open_summary">Apelurile de la orice număr care nu se află în excepțiile sau contactele dvs. vor fi blocate. Blochezi acum?</string>
     <string name="st_confirm_call_all_dialog_summary">Apelurile de la orice număr care nu face parte din excepțiile dvs. vor fi blocate. Activați acum?</string>
     <string name="st_confirm_dialog_btn_open">Blochează</string>
+    <string name="st_confirm_dialog_btn_positive">Blochează</string>
+    <string name="st_confirm_dialog_summary_message_oversea_call">Apelurile de la toate numerele internaționale vor fi încheiate automat. Blocați oricum?</string>
     <string name="st_confirm_dialog_summary_oversea_call">Toate apelurile de la numerele de telefon străine vor fi blocate.</string>
     <string name="st_confirm_dialog_summary_stranger_call">Apelurile de la orice număr care nu se află în excepțiile dvs. sau în agenda dvs. vor fi blocate. Activați acum?</string>
+    <string name="st_confirm_dialog_title_oversea_call">Blocați apelurile internaționale?</string>
     <string name="st_filter_keywords_setting_summary1">Mesajele de la numere necunoscute care conțin cuvintele din această listă vor fi blocate.</string>
     <string name="st_filter_keywords_setting_summary2">(Utilizați o virgulă pentru a separa mai multe cuvinte cheie)</string>
     <string name="st_filter_keywords_setting_summary3">Mesajele de la numere necunoscute care conțin cuvintele din această listă nu vor fi blocate.</string>
@@ -5837,6 +5853,8 @@ Vă retrageți consimțământul acum?"</string>
     <string name="st_hint_add_head_number">Introduceți prefix</string>
     <string name="st_hint_add_phonenumber">Introduceți numărul de telefon</string>
     <string name="st_hint_operatelist">Se pare că această regulă există deja</string>
+    <string name="st_intercept_all_dialog_title">Blocați toate apelurile?</string>
+    <string name="st_intercept_dialog_strange_title">Blocați apelurile de la străini?</string>
     <string name="st_intercept_dialog_title">Atenție</string>
     <string name="st_mark_call_intercept_threshold_summary">Blocați automat numerele care au fost raportate de un anumit număr de ori</string>
     <string name="st_mark_call_intercept_threshold_title">Pragul de blocare</string>
@@ -5847,10 +5865,10 @@ Vă retrageți consimțământul acum?"</string>
     <string name="st_message_phone_AntiSpam">Blochează apeluri</string>
     <string name="st_message_phonepass">Permiteți apeluri</string>
     <string name="st_msg_keyword_black">Lista neagră cuvinte cheie</string>
-    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
+    <string name="st_msg_keyword_black_summary">Blocați mesajele de la străini care conțin anumite cuvinte cheie</string>
     <string name="st_msg_keyword_group">Cuvinte cheie</string>
     <string name="st_msg_keyword_white">Excepții cuvinte cheie</string>
-    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
+    <string name="st_msg_keyword_white_summary">Nu blocați mesajele de la străini care conțin anumite cuvinte cheie</string>
     <string name="st_msg_other_group">Altele</string>
     <string name="st_msg_settings">Lista neagră SMS</string>
     <string name="st_msg_stranger_group">Blocați mesajele de la străini</string>

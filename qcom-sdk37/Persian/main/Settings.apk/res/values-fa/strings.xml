@@ -1031,7 +1031,7 @@
     <string name="autofill_reset_developer_options">بازنشانی به مقادیر پیش‌فرض</string>
     <string name="autofill_reset_developer_options_complete">گزینه‌های توسعه‌دهندگان تکمیل خودکار بازنشانی شد</string>
     <string name="automatic_keyboard_layout_label">خودکار: %s</string>
-    <string name="automatic_sim_lock_protection">محافظت خودکار قفل سیم‌کارت</string>
+    <string name="automatic_sim_lock_protection">حالت حفاظ قفل سیم‌کارت</string>
     <string name="automatic_sim_lock_settings_title">محافظت از سیم‌کارت</string>
     <string name="automatic_storage_manager_activation_warning">مدیر فضای ذخیره‌سازی اکنون فضای ذخیره‌سازی شما را مدیریت می‌کند</string>
     <string name="automatic_storage_manager_days_title">پاک کردن عکس‌ها و ویدئوها</string>
@@ -1875,6 +1875,7 @@
     <string name="choose_profile">انتخاب نمایه</string>
     <string name="choose_sim_activating">درحال روشن کردن…</string>
     <string name="choose_sim_could_not_activate">فعلاً نمی‌توان این سیم‌کارت را روشن کرد</string>
+    <string name="choose_sim_pin_protection_mode">انتخاب حالت محافظت از سیم‌کارت</string>
     <string name="choose_sim_text">{count,plural, =1{‫۱ سیم‌کارت در این دستگاه دردسترس است، اما هربار فقط از یکی از آن‌ها می‌توان استفاده کرد}=2{‫۲ سیم‌کارت در این دستگاه دردسترس است، اما هربار فقط از یکی از آن‌ها می‌توان استفاده کرد}one{‫# سیم‌کارت در این دستگاه دردسترس است، اما هربار فقط از یکی از آن‌ها می‌توان استفاده کرد}other{‫# سیم‌کارت در این دستگاه دردسترس است، اما هربار فقط از یکی از آن‌ها می‌توان استفاده کرد}}</string>
     <string name="choose_sim_title">سیم‌کارتی برای استفاده انتخاب کنید</string>
     <string name="choose_spell_checker">انتخاب غلط‌یاب املا</string>
@@ -1986,6 +1987,8 @@
     <string name="confirm_enable_oem_unlock_title">‏بازکردن سازنده تجهیزات اصلی مجاز (OEM) است؟</string>
     <string name="confirm_ext4_button_text">پاک کردن همه داده‌ها و به‌روز کردن</string>
     <string name="confirm_new_backup_pw_prompt">گذرواژه جدید پشتیبان‌گیری‌تان را به‌طور کامل اینجا دوباره تایپ کنید</string>
+    <string name="confirm_new_sim_pin_after_mismatch">کدهای پین با هم مطابقت ندارند. پین سیم‌کارت جدید را تأیید کنید.</string>
+    <string name="confirm_new_sim_pin_title">تأیید پین سیم‌کارت جدید</string>
     <string name="confirm_oem_unlock_for_16k_text">‏پیش‌از استفاده از گزینه توسعه‌دهنده ۱۶ کیلوبایتی، قفل bootloader باید در این دستگاه باز شود. نمی‌توان تمامیت نرم‌افزار را در این حالت تضمین کرد و هرگونه داده‌ای که در مدت باز بودن قفل bootloader در تلفن ذخیره می‌شود می‌تواند درمعرض خطر باشد. با فعال کردن حالت ۱۶ کیلوبایتی، همه تنظیمات و داده‌های کاربر محو خواهند شد. بعداز باز کردن قفل bootloader، گزینه ۱۶ کیلوبایتی به انجام دو بازراه‌اندازی نیاز خواهد داشت. بعداز رفتن به این حالت، می‌توانید با یک‌بار بازراه‌اندازی بین حالت‌های ۴ کیلوبایتی و ۱۶ کیلوبایتی جابه‌جا شوید. برخی‌از ویژگی‌ها در این حالت‌ها غیرفعال می‌شوند بنابراین ممکن است بعضی‌از برنامه‌ها کار نکنند. برای برگرداندن دستگاه به حالت تولید، باید به حالت ۴ کیلوبایتی برگردید و سپس سازنده اصلی محصول/ bootloader دستگاه را قفل کنید (که با این کار،‌ دستگاه بازنشانی کارخانه‌ای می‌شود). لطفاً قفل bootloader را باز کنید و دوباره امتحان کنید. می‌توانید دستورالعمل‌های نحوه انجام این کار را از اینجا دریافت کنید: &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">‏قفل Bootloader باید باز شود</string>
     <string name="confirm_sim_deletion_description">به‌تأیید رساندن هویت پیش‌از پاک کردن سیم‌کارت داخلی</string>
@@ -2632,6 +2635,8 @@
     <string name="enhanced_4g_lte_mode_title_4g_calling">‏تماس 4G</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling">تماس پیشرفته</string>
     <string name="enhanced_connectivity_summary">ویژگی «اتصال بهبودیافته» را فعال می‌کند.</string>
+    <string name="enter_current_sim_pin_after_mismatch">پین اشتباه است. %1$d تلاش باقی مانده است</string>
+    <string name="enter_current_sim_pin_hint">پین کد فعلی سیم‌کارت را وارد کنید</string>
     <string name="enterprise_privacy_always_on_vpn_device">‏«VPN همیشه روشن» روشن شد</string>
     <string name="enterprise_privacy_always_on_vpn_personal">‏«VPN همیشه روشن» در نمایه شخصی شما روشن شد</string>
     <string name="enterprise_privacy_always_on_vpn_work">‏«VPN همیشه روشن» در نمایه کاری شما روشن شد</string>
@@ -2852,6 +2857,7 @@
     <string name="fingerprint_v2_delete_message">با این کار مدل و تصاویر اثر انگشت مرتبط با «%1$s» که در تلفنتان ذخیره شده حذف می‌شوند</string>
     <string name="firmware_version">‏نسخهٔ Android</string>
     <string name="first_day_of_week_preferences_title">اولین روز هفته</string>
+    <string name="first_sim_card_slot_title">جای سیم‌کارت اول</string>
     <string name="fix_connectivity">رفع مشکل اتصال</string>
     <string name="flash_notifications_about_title">درباره اعلان‌های چشمک‌زن</string>
     <string name="flash_notifications_intro">وقتی اعلان دریافت کنید یا زنگ ساعت به‌صدا درآید، چراغ دوربین یا صفحه‌نمایش چشمک می‌زند</string>
@@ -5017,6 +5023,7 @@
     <string name="promote_conversation_title">این مکالمه است</string>
     <string name="provide_current_sim_pin">پین فعلی سیم‌کارت را وارد کنید</string>
     <string name="provide_current_sim_pin_title">پین سیم‌کارت فعلی را وارد کنید</string>
+    <string name="provide_new_sim_pin_title">پین سیم کارت جدید</string>
     <string name="provider_internet_settings">اینترنت</string>
     <string name="provider_network_settings_title">سیم‌کارت‌ها</string>
     <string name="proxy_action_text">تمام</string>
@@ -5423,6 +5430,7 @@
     <string name="search_settings">جستجو</string>
     <string name="searchview_clear_text_content_description">پاک کردن نوشتار</string>
     <string name="searchview_navigation_content_description">برگشتن</string>
+    <string name="second_sim_card_slot_title">جای سیم‌کارت دوم</string>
     <string name="security_advanced_settings">تنظیمات ایمنی بیشتر</string>
     <string name="security_advanced_settings_keywords">ایمنی، تنظیمات ایمنی بیشتر، تنظیمات بیشتر، تنظیمات ایمنی پیشرفته</string>
     <string name="security_advanced_settings_no_work_profile_settings_summary">رمزگذاری، اطلاعات اعتباری، و غیره</string>
@@ -5926,7 +5934,7 @@
     <string name="sim_action_switch_sub_dialog_title">به %1$s می‌روید؟</string>
     <string name="sim_action_turn_off">خاموش کردن</string>
     <string name="sim_action_yes">بله</string>
-    <string name="sim_auto_pin_management_toggle">مدیریت خودکار پی</string>
+    <string name="sim_auto_pin_management_toggle">قفل کردن سیم‌کارت</string>
     <string name="sim_calls_always_use">همیشه این سیم برای تماس‌‌ها استفاده شود</string>
     <string name="sim_calls_ask_first_prefs_title">هر بار پرسیده شود</string>
     <string name="sim_card">سیم‌کارت</string>
@@ -5943,7 +5951,7 @@
     <string name="sim_change_data_title">استفاده از %1$s برای داده همراه؟</string>
     <string name="sim_change_pin">پین سیم کارت</string>
     <string name="sim_change_succeeded">پین سیم کارت با موفقیت تغییر کرد</string>
-    <string name="sim_choose_protection_mode_title">محافظت از سیم‌کارت دربرابر سرق</string>
+    <string name="sim_choose_protection_mode_title">درخواست کردن پین برای استفاده از تلفن</string>
     <string name="sim_combination_warning_notification_title">مشکلی در ترکیب سیم‌کارت وجود دارد</string>
     <string name="sim_disable_sim_lock">باز کردن قفل سیم‌کارت</string>
     <string name="sim_display_platform_managed_pin">‏پین مدیریت‌شده Android</string>
@@ -5985,13 +5993,15 @@
     <string name="sim_pin_change">تغییر پین سیم کارت</string>
     <string name="sim_pin_disable_failed">پین غیرفعال نشد.</string>
     <string name="sim_pin_enable_failed">پین فعال نشد.</string>
+    <string name="sim_pin_protection_mode_automatic">‏خودکار (مدیریت‌شده توسط Android)</string>
+    <string name="sim_pin_protection_mode_manual">دستی</string>
     <string name="sim_pin_toggle">قفل کردن سیم‌کارت</string>
     <string name="sim_pins_dont_match">پین‌ها مطابقت ندارند</string>
     <string name="sim_platform_managed_pin_failure">پین دریافت نشد</string>
     <string name="sim_platform_managed_pin_value">‏مقدار پین مدیریت‌شده Android:</string>
     <string name="sim_preferred_message">اکنون %1$s سیم‌کارت اصلی شما است</string>
-    <string name="sim_protection_mode_lskf_required">برای روشن کردن «محافظت از سیم‌کارت»، باید صفحه قفل راه‌اندازی شود</string>
-    <string name="sim_protection_mode_manually_managed">پین سیم‌کارت به‌صورت دستی مدیریت می‌شو</string>
+    <string name="sim_protection_mode_lskf_required">برای محافظت خودکار از سیم‌کارت، صفحه قفل لازم است، اکنون فقط محافظت دستی دردسترس است</string>
+    <string name="sim_protection_mode_manually_managed">برای استفاده از تلفن، پین لازم است</string>
     <string name="sim_protection_mode_protected_by_platform">‏پین سیم‌کارت مدیریت‌شده توسط Android</string>
     <string name="sim_reenter_new">پین جدید را دوباره تایپ کنید</string>
     <string name="sim_selection_channel_title">انتخاب سیم‌کارت</string>

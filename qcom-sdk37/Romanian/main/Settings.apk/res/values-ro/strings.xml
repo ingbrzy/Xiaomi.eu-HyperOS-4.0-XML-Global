@@ -1367,7 +1367,7 @@ Apelurile, mesajele și traficul de rețea pot fi vizibile pentru organizația t
     <string name="automatic_brightness">Luminozitate automată</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Pentru a putea regla automat luminozitatea, mai întâi dezactivați Deblocarea facială</string>
     <string name="automatic_keyboard_layout_label">Automat: %s</string>
-    <string name="automatic_sim_lock_protection">Protecție prin blocarea automată a SIM</string>
+    <string name="automatic_sim_lock_protection">Mod de protecție prin blocarea SIM-ului</string>
     <string name="automatic_sim_lock_settings_title">Protejează cardul SIM</string>
     <string name="automatic_storage_manager_activation_warning">Spațiul de stocare este acum gestionat de managerul spațiului de stocare</string>
     <string name="automatic_storage_manager_days_title">Elimină fotografii și videoclipuri</string>
@@ -2750,6 +2750,8 @@ Dacă permisiunea este activată, aplicația va fi disponibilă ca opțiune oric
     <string name="character_counter_content_description">Caractere introduse: %1$d din %2$d</string>
     <string name="character_counter_overflowed_content_description">Limita de caractere a depășit %1$d din %2$d</string>
     <string name="charge_length_format">Acum %1$s</string>
+    <string name="charge_light_state_summary">Aprinde iluminarea din spate în timpul încărcării</string>
+    <string name="charge_light_state_title">Efecte luminoase la încărcare</string>
     <string name="charging_sounds_title">Sunete și vibrații pentru încărcare</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Verificați pentru actualizări</string>
@@ -2821,6 +2823,7 @@ Panoul de bord pentru performanța cipului"</string>
     <string name="choose_profile">Alege un profil</string>
     <string name="choose_sim_activating">Se activează…</string>
     <string name="choose_sim_could_not_activate">Momentan, nu se poate activa cardul SIM</string>
+    <string name="choose_sim_pin_protection_mode">Alege modul de protecție a cardului SIM</string>
     <string name="choose_sim_text">{count,plural, =1{Pe dispozitiv este disponibil un card SIM, însă numai unul poate fi folosit la un moment dat}=2{Pe dispozitiv sunt disponibile două carduri SIM, însă numai unul poate fi folosit la un moment dat}few{Pe dispozitiv sunt disponibile # carduri SIM, însă numai unul poate fi folosit la un moment dat}other{Pe dispozitiv sunt disponibile # de carduri SIM, însă numai unul poate fi folosit la un moment dat}}</string>
     <string name="choose_sim_title">Alege un card SIM pe care să-l folosești</string>
     <string name="choose_smartcover_type">Selectează tipul de carcasă</string>
@@ -2957,6 +2960,7 @@ Panoul de bord pentru performanța cipului"</string>
     <string name="color_led_summary">Nu funcționează în Modul DND</string>
     <string name="color_led_title">Lumină LED</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Culoare mixtă %d</string>
     <string name="color_mode_all_apps">Toate aplicațiile</string>
     <string name="color_mode_option_automatic">Adaptive</string>
     <string name="color_mode_option_boosted">Intensificate</string>
@@ -3051,6 +3055,8 @@ Panoul de bord pentru performanța cipului"</string>
     <string name="confirm_frp_credential_title">Deblocați după resetarea din fabrică</string>
     <string name="confirm_lock_pattern_header_text">Desenați modelul</string>
     <string name="confirm_new_backup_pw_prompt">Reintrodu aici noua parolă pentru backupul complet</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Codurile PIN nu corespund. Confirmă noul PIN al cardului SIM.</string>
+    <string name="confirm_new_sim_pin_title">Confirmă noul PIN al cardului SIM</string>
     <string name="confirm_oem_unlock_for_16k_text">Bootloaderul dispozitivului trebuie deblocat înainte de a folosi opțiunea pentru dezvoltatori pe 16 KB. Integritatea software-ului nu poate fi garantată în acest mod și toate datele stocate pe telefon cât timp bootloaderul este deblocat pot fi în pericol. Toate datele și setările utilizatorului vor fi șterse la activarea modului pe 16 KB. După deblocarea bootloaderului, activarea opțiunii pe 16 KB va necesita două reporniri. Când te afli în acest mod, poți să comuți între modul de 4 KB și cel de 16 KB printr-o repornire. Unele funcții vor fi dezactivate în aceste moduri, prin urmare este posibil ca unele aplicații să nu funcționeze. Pentru a readuce dispozitivul în modul de producție, trebuie să revii la modul pe 4 KB, apoi să blochezi OEM / bootloaderul dispozitivului (acțiune care aduce dispozitivul la setările din fabrică). Deblochează bootloaderul și încearcă din nou. Găsești instrucțiuni pentru acest proces la &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Este necesară deblocarea bootloaderului</string>
     <string name="confirm_pad_clone_password">Confirmați parola pentru Al doilea spațiu al tabletei</string>
@@ -4233,6 +4239,8 @@ Acest lucru ajută la protejarea datelor de pe dispozitivele pierdute sau furate
     <string name="enroll_fingerprint">Înregistrați amprenta</string>
     <string name="enrollment_completed">Efectuat</string>
     <string name="enter_current_lock_screen_password">Introduceți blocarea ecranului</string>
+    <string name="enter_current_sim_pin_after_mismatch">Codul PIN este greșit. Încercări rămase: %1$d.</string>
+    <string name="enter_current_sim_pin_hint">Introdu codul PIN actual al cardului SIM</string>
     <string name="enterprise_mode">Mod Companie</string>
     <string name="enterprise_privacy_always_on_vpn_device">Rețeaua VPN activată permanent a fost activată</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Rețeaua VPN activată permanent a fost activată în profilul tău personal</string>
@@ -4705,6 +4713,7 @@ Pentru a afla mai multe, contactează creditorul."</string>
     <string name="firewall_wifi_dialog_message">Aplicaţia instalată nu va fi capabilă să se conecteze la internet folosind Wi-Fi atunci când acest parametru este oprit.</string>
     <string name="firmware_version">Versiune Android</string>
     <string name="first_day_of_week_preferences_title">Prima zi a săptămânii</string>
+    <string name="first_sim_card_slot_title">Primul slot pentru cardul SIM</string>
     <string name="fiveg_nrca_switch_summary">Îmbunătățiți conexiunea 5G pentru mediile de testare</string>
     <string name="fiveg_nrca_switch_title">Agregare operator 5G</string>
     <string name="fiveg_sa_switch_summary">Utilizați rețeaua SA pe cartela SIM secundară (numai pentru testare)</string>
@@ -7728,7 +7737,7 @@ Selectați sistemul de operare:"</string>
     <string name="network_and_internet_preferences_title">Preferințe privind rețeaua</string>
     <string name="network_assistant">Trafic internet</string>
     <string name="network_auto_switch">Comutați între rețele</string>
-    <string name="network_auto_switch_summery">Treceți la date mobile când semnalul Wi-Fi este slab sau rețeaua nu este disponibilă</string>
+    <string name="network_auto_switch_summery">Când calitatea conexiunii Wi-Fi este slabă, schimbați la o altă rețea Wi-Fi disponibilă sau utilizați datele mobile. Utilizarea datelor mobile poate genera costuri adiționale.</string>
     <string name="network_changed_noti_summary">Folosind date mobile</string>
     <string name="network_changed_noti_title">Deconectat de la Wi-Fi</string>
     <string name="network_changed_notification_text">Rețeaua ta mobilă s-a modificat</string>
@@ -8436,6 +8445,8 @@ Citiți și acceptați %s înainte de a utiliza acest serviciu."</string>
     <string name="peak_refresh_rate_summary">Crește automat rata de actualizare până la %1$d Hz pentru anumite tipuri de conținut. Utilizarea bateriei crește.</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Afișați pictogramele pentru notificările primite</string>
+    <string name="peep_protection_v2_banner_summary">Încercați funcțiile de afișare a confidențialității exclusive pentru acest model de dispozitiv</string>
+    <string name="peep_protection_v2_main_tile_label">Afișaj inteligent pentru confidențialitate</string>
     <string name="performance_category">Performanță</string>
     <string name="perm_toggle_description">Pentru aplicații și servicii</string>
     <string name="permission_action_prompt">Întreabă</string>
@@ -9164,6 +9175,7 @@ Oricine îți conectează dispozitivul la un computer sau instalează aplicații
     <string name="protect_eyes_mode">Modul citire</string>
     <string name="provide_current_sim_pin">Introdu codul PIN actual al cardului SIM</string>
     <string name="provide_current_sim_pin_title">Introdu codul PIN actual al SIM</string>
+    <string name="provide_new_sim_pin_title">Noul cod PIN pentru SIM</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">Carduri SIM</string>
     <string name="provision_activation">Activ</string>
@@ -10107,6 +10119,7 @@ Pentru a folosi fixarea aplicației: \t
     <string name="search_xspace">Aplicație duală;Aplicații duale;Aplicație dublă;Aplicații duble;Aplicație clonată;Aplicații clonate;Aplicații clonate;Două conturi;2 conturi</string>
     <string name="searchview_clear_text_content_description">Ștergeți textul</string>
     <string name="searchview_navigation_content_description">Înapoi</string>
+    <string name="second_sim_card_slot_title">Al doilea slot pentru cardul SIM</string>
     <string name="second_space">Al doilea spațiu</string>
     <string name="secondspace_category">Al doilea spațiu</string>
     <string name="secondspace_delete_space_title">Șterge Al doilea spațiu</string>
@@ -10804,7 +10817,7 @@ Trecerea la un alt operator nu va anula serviciul %1$s."</string>
     <string name="sim_action_switch_sub_dialog_title">Treci la %1$s?</string>
     <string name="sim_action_turn_off">Dezactivează</string>
     <string name="sim_action_yes">Da</string>
-    <string name="sim_auto_pin_management_toggle">Gestionarea automată a codului PIN</string>
+    <string name="sim_auto_pin_management_toggle">Blochează cardul SIM</string>
     <string name="sim_bad_pin">PIN-ul trebuie să conțină %1$d-%2$d cifre</string>
     <string name="sim_calls_always_use">Folosește întotdeauna pentru apeluri</string>
     <string name="sim_calls_ask_first_prefs_title">Întreabă de fiecare dată</string>
@@ -10823,7 +10836,7 @@ Trecerea la un alt operator nu va anula serviciul %1$s."</string>
     <string name="sim_change_failed_enable_sim_lock">Nu s-a putut schimba PIN-ul. Activează blocare SIM acum.</string>
     <string name="sim_change_pin">PIN SIM</string>
     <string name="sim_change_succeeded">Codul PIN pentru SIM a fost modificat</string>
-    <string name="sim_choose_protection_mode_title">Protejează cardul SIM împotriva furtului</string>
+    <string name="sim_choose_protection_mode_title">Necesită un cod PIN pentru a folosi telefonul.</string>
     <string name="sim_combination_warning_notification_title">Problemă cu combinația de SIM</string>
     <string name="sim_disable_sim_lock">Deblochează cartela SIM</string>
     <string name="sim_display_platform_managed_pin">PIN gestionat de Android</string>
@@ -10871,13 +10884,15 @@ Trecerea la un alt operator nu va anula serviciul %1$s."</string>
     <string name="sim_pin_change">Schimbă codul PIN pentru SIM</string>
     <string name="sim_pin_disable_failed">Nu se poate dezactiva codul PIN.</string>
     <string name="sim_pin_enable_failed">Nu se poate activa codul PIN.</string>
+    <string name="sim_pin_protection_mode_automatic">Automat (gestionat de Android)</string>
+    <string name="sim_pin_protection_mode_manual">Manual</string>
     <string name="sim_pin_toggle">Blochează cartela SIM</string>
     <string name="sim_pins_dont_match">PIN-urile nu se potrivesc</string>
     <string name="sim_platform_managed_pin_failure">Nu s-a putut prelua codul PIN</string>
     <string name="sim_platform_managed_pin_value">Valoarea PIN-ului gestionat de Android:</string>
     <string name="sim_preferred_message">%1$s este acum cardul SIM principal</string>
-    <string name="sim_protection_mode_lskf_required">Ecranul de blocare trebuie să fie configurat pentru a activa protecția SIM-ului</string>
-    <string name="sim_protection_mode_manually_managed">Codul PIN pentru SIM este gestionat manual</string>
+    <string name="sim_protection_mode_lskf_required">Pentru protecția automată a cardului SIM, este necesar un ecran de blocare. Momentan, este disponibilă doar protecția manuală.</string>
+    <string name="sim_protection_mode_manually_managed">Este necesar un cod PIN pentru a folosi telefonul.</string>
     <string name="sim_protection_mode_protected_by_platform">PIN-ul SIM-ului este gestionat de Android</string>
     <string name="sim_radio_off">Oprit</string>
     <string name="sim_reenter_new">Reintrodu noul PIN</string>
@@ -13011,6 +13026,7 @@ Când deschizi o aplicație folosind un widget, va trebui să-ți confirmi ident
     <string name="wifi_assistant_auto_confirm_data_message">Utilizați rețele de date mobile atunci când dispozitivul nu se poate conecta la internet prin Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Nu mai întreba din nou</string>
     <string name="wifi_assistant_confirm_connection_title">Nu se poate conecta la internet</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Conexiune Wi-Fi slabă</string>
     <string name="wifi_assistant_data_prompt">Avertizează</string>
     <string name="wifi_assistant_data_prompt_summary">Afișați avertismentul de utilizare a datelor când treceți la date mobile</string>
     <string name="wifi_assistant_description">"Iată cum funcționează această funcție:

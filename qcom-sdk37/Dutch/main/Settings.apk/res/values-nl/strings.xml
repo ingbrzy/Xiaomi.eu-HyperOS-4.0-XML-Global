@@ -1367,7 +1367,7 @@ Gesprekken, berichten en netwerkverkeer kunnen zichtbaar zijn voor je organisati
     <string name="automatic_brightness">Automatische helderheid</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Als u de helderheid automatisch wilt aanpassen, schakelt u eerst Gezichtsontgrendeling uit</string>
     <string name="automatic_keyboard_layout_label">Automatisch: %s</string>
-    <string name="automatic_sim_lock_protection">Bescherming via automatische simkaartvergrendeling</string>
+    <string name="automatic_sim_lock_protection">Bescherming voor simlock</string>
     <string name="automatic_sim_lock_settings_title">Simkaart beschermen</string>
     <string name="automatic_storage_manager_activation_warning">Je opslag wordt nu beheerd door de opslagbeheerder</string>
     <string name="automatic_storage_manager_days_title">"Foto's en video's verwijderen"</string>
@@ -2750,6 +2750,8 @@ Als dit recht aanstaat, is de app beschikbaar als optie wanneer er een tag wordt
     <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
     <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
     <string name="charge_length_format">%1$s geleden</string>
+    <string name="charge_light_state_summary">Achterverlichting wordt ingeschakeld tijdens het opladen</string>
+    <string name="charge_light_state_title">Lichteffecten voor opladen</string>
     <string name="charging_sounds_title">Oplaadgeluiden en -trillingen</string>
     <string name="check_find_device_status_failure_confirm">OК</string>
     <string name="check_update">Controleren op updates</string>
@@ -2821,6 +2823,7 @@ Chipprestatiedashboard"</string>
     <string name="choose_profile">Profiel kiezen</string>
     <string name="choose_sim_activating">Aanzetten…</string>
     <string name="choose_sim_could_not_activate">Kan deze sim nu niet aanzetten</string>
+    <string name="choose_sim_pin_protection_mode">Simkaartbeveiligingsmodus kiezen</string>
     <string name="choose_sim_text">"{count,plural, =1{Er is 1 sim beschikbaar op dit apparaat, maar er kan er maar 1 tegelijk worden gebruikt}=2{Er zijn 2 sim's beschikbaar op dit apparaat, maar er kan maar 1 tegelijk worden gebruikt}other{Er zijn # sim's beschikbaar op dit apparaat, maar er kan maar 1 tegelijk worden gebruikt}}"</string>
     <string name="choose_sim_title">Een sim kiezen om te gebruiken</string>
     <string name="choose_smartcover_type">Type hoesje selecteren</string>
@@ -2957,6 +2960,7 @@ Chipprestatiedashboard"</string>
     <string name="color_led_summary">Werkt niet in Niet storen modus</string>
     <string name="color_led_title">LED-licht</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Gemengde kleur %d</string>
     <string name="color_mode_all_apps">Alle apps</string>
     <string name="color_mode_option_automatic">Adaptief</string>
     <string name="color_mode_option_boosted">Versterkt</string>
@@ -3051,6 +3055,8 @@ Chipprestatiedashboard"</string>
     <string name="confirm_frp_credential_title">Ontgrendel na het herstellen van de fabrieksinstellingen</string>
     <string name="confirm_lock_pattern_header_text">Teken een patroon</string>
     <string name="confirm_new_backup_pw_prompt">Typ hier nogmaals je nieuwe wachtwoord voor volledige back-up</string>
+    <string name="confirm_new_sim_pin_after_mismatch">De pincodes komen niet overeen. Bevestig de nieuwe pincode voor de simkaart.</string>
+    <string name="confirm_new_sim_pin_title">Nieuwe pincode voor simkaart bevestigen</string>
     <string name="confirm_oem_unlock_for_16k_text">De bootloader moet op dit apparaat ontgrendeld zijn voordat je de 16 KB-ontwikkelaarsoptie kunt gebruiken. In deze modus kan de software-integriteit niet worden gegarandeerd en kunnen alle gegevens die op de telefoon zijn opgeslagen, terwijl de bootloader is ontgrendeld, gevaar lopen. Alle gebruikersgegevens en instellingen worden gewist als de 16 KB-modus wordt geactiveerd. Na het ontgrendelen van de bootloader moet je voor het activeren van de 16 KB-optie het apparaat 2 keer opnieuw opstarten. Zodra je in deze modus zit, kun met één keer opnieuw opstarten wisselen tussen de 4 KB- en 16 KB-modus. Sommige functies worden in deze modi uitgezet, dus sommige apps werken misschien niet. Als je het apparaat wilt terugzetten naar de productiemodus, moet je teruggaan naar de 4 KB-modus en daarna OEM en de bootloader vergrendelen. Hierdoor worden de fabrieksinstellingen teruggezet op het apparaat. Ontgrendel de bootloader en probeer het opnieuw. Instructies hiervoor vind je op &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Ontgrendeling van bootloader vereist</string>
     <string name="confirm_pad_clone_password">Bevestig de Tweede ruimte-wachtwoord van uw tablet</string>
@@ -4234,6 +4240,8 @@ Dit helpt gegevens op verloren of gestolen apparaten te beschermen. PIN nodig om
     <string name="enroll_fingerprint">Vingerafdruk opnemen</string>
     <string name="enrollment_completed">Voltooid</string>
     <string name="enter_current_lock_screen_password">Voer uw schermvergrendeling in</string>
+    <string name="enter_current_sim_pin_after_mismatch">Onjuiste pincode. Resterende pogingen: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Voer de huidige pincode van de simkaart in</string>
     <string name="enterprise_mode">Bedrijfsmodus</string>
     <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN staat aan</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Always-on VPN staat aan in je persoonlijke profiel</string>
@@ -4706,6 +4714,7 @@ Neem contact op met je kredietverstrekker voor meer informatie."</string>
     <string name="firewall_wifi_dialog_message">De geïnstalleerde app kan geen verbinding maken met internet via wifi wanneer deze schakelaar is uitgeschakeld.</string>
     <string name="firmware_version">Android-versie</string>
     <string name="first_day_of_week_preferences_title">Eerste dag van de week</string>
+    <string name="first_sim_card_slot_title">Eerste simkaartsleuf</string>
     <string name="fiveg_nrca_switch_summary">Verbeter de 5G-verbinding voor testomgevingen</string>
     <string name="fiveg_nrca_switch_title">Aggregatie van 5G-operators</string>
     <string name="fiveg_sa_switch_summary">SA-netwerk gebruiken op secundaire SIM (alleen voor testen)</string>
@@ -7728,7 +7737,7 @@ Selecteer uw besturingssysteem:"</string>
     <string name="network_and_internet_preferences_title">Netwerkvoorkeuren</string>
     <string name="network_assistant">Datagebruik</string>
     <string name="network_auto_switch">Schakelen tussen netwerken</string>
-    <string name="network_auto_switch_summery">Schakel over naar mobiele data wanneer het wifi-signaal zwak is of het netwerk niet beschikbaar is</string>
+    <string name="network_auto_switch_summery">Als de wifi-verbinding slecht is, schakel dan over naar een ander beschikbaar wifi-netwerk of gebruik mobiele data. Het gebruik van mobiele data kan extra kosten met zich meebrengen.</string>
     <string name="network_changed_noti_summary">Mobiele gegevens gebruiken</string>
     <string name="network_changed_noti_title">Verbinding met wifi verbroken</string>
     <string name="network_changed_notification_text">Je mobiele netwerk is gewijzigd</string>
@@ -8436,6 +8445,8 @@ Lees en ga akkoord met %s voordat u deze service gebruikt."</string>
     <string name="peak_refresh_rate_summary">Verhoogt de vernieuwingssnelheid automatisch naar %1$d Hz voor bepaalde content. Het batterijgebruik neemt toe.</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Toon icoontjes voor binnenkomende meldingen</string>
+    <string name="peep_protection_v2_banner_summary">Probeer de functies voor het privacyscherm die exclusief voor dit apparaatmodel zijn</string>
+    <string name="peep_protection_v2_main_tile_label">Slim privacyscherm</string>
     <string name="performance_category">Prestatie</string>
     <string name="perm_toggle_description">Voor apps en services</string>
     <string name="permission_action_prompt">Vragen</string>
@@ -9164,6 +9175,7 @@ Iemand die je apparaat aan een computer koppelt of schadelijke apps op je appara
     <string name="protect_eyes_mode">Leesmodus</string>
     <string name="provide_current_sim_pin">Voer de huidige pincode van de simkaart in</string>
     <string name="provide_current_sim_pin_title">Voer huidige pincode van simkaart in</string>
+    <string name="provide_new_sim_pin_title">Nieuwe pincode voor simkaart</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">Simkaarten</string>
     <string name="provision_activation">Actief</string>
@@ -10109,6 +10121,7 @@ Zo zet je apps vast: \t
     <string name="search_xspace">Dubbele app;Dubbele apps;Dubbele app;Dubbele apps;App klonen;Apps klonen;App kloon;App klonen;Twee accounts;2 accounts</string>
     <string name="searchview_clear_text_content_description">Tekst wissen</string>
     <string name="searchview_navigation_content_description">Terug</string>
+    <string name="second_sim_card_slot_title">Tweede simkaartsleuf</string>
     <string name="second_space">Tweede ruimte</string>
     <string name="secondspace_category">Tweede ruimte</string>
     <string name="secondspace_delete_space_title">Tweede ruimte verwijderen</string>
@@ -10806,7 +10819,7 @@ Als je overschakelt, wordt de service van %1$s niet opgezegd."</string>
     <string name="sim_action_switch_sub_dialog_title">Overschakelen naar %1$s?</string>
     <string name="sim_action_turn_off">Uitzetten</string>
     <string name="sim_action_yes">Ja</string>
-    <string name="sim_auto_pin_management_toggle">Automatisch pincodebeheer</string>
+    <string name="sim_auto_pin_management_toggle">Simkaart vergrendelen</string>
     <string name="sim_bad_pin">PIN moet %1$d-%2$d cijfers bevatten</string>
     <string name="sim_calls_always_use">Altijd gebruiken voor gesprekken</string>
     <string name="sim_calls_ask_first_prefs_title">Elke keer vragen</string>
@@ -10825,7 +10838,7 @@ Als je overschakelt, wordt de service van %1$s niet opgezegd."</string>
     <string name="sim_change_failed_enable_sim_lock">Kon PIN niet wijzigen. Schakel SIM-kaartvergrendeling nu in.</string>
     <string name="sim_change_pin">Pincode van simkaart</string>
     <string name="sim_change_succeeded">Pincode van simkaart gewijzigd</string>
-    <string name="sim_choose_protection_mode_title">Simkaart beschermen tegen diefstal</string>
+    <string name="sim_choose_protection_mode_title">Pincode vereisen voor gebruik van telefoon</string>
     <string name="sim_combination_warning_notification_title">Problemen met sim-combinatie</string>
     <string name="sim_disable_sim_lock">Simkaart ontgrendelen</string>
     <string name="sim_display_platform_managed_pin">Door Android beheerde pincode</string>
@@ -10873,13 +10886,15 @@ Als je overschakelt, wordt de service van %1$s niet opgezegd."</string>
     <string name="sim_pin_change">Pincode van simkaart wijzigen</string>
     <string name="sim_pin_disable_failed">Kan pincode niet uitzetten.</string>
     <string name="sim_pin_enable_failed">Kan pincode niet aanzetten.</string>
+    <string name="sim_pin_protection_mode_automatic">Automatisch (beheerd door Android)</string>
+    <string name="sim_pin_protection_mode_manual">Handmatig</string>
     <string name="sim_pin_toggle">Simkaart vergrendelen</string>
     <string name="sim_pins_dont_match">Pincodes komen niet overeen</string>
     <string name="sim_platform_managed_pin_failure">Kan pincode niet ophalen</string>
     <string name="sim_platform_managed_pin_value">Waarde van de door Android beheerde pincode:</string>
     <string name="sim_preferred_message">%1$s is nu je primaire sim</string>
-    <string name="sim_protection_mode_lskf_required">Het vergrendelscherm moet zijn ingesteld om simkaartbeveiliging aan te zetten</string>
-    <string name="sim_protection_mode_manually_managed">Pincode voor simkaart handmatig beheerd</string>
+    <string name="sim_protection_mode_lskf_required">Vergrendelscherm vereist voor automatische simkaartbeveiliging, nu alleen handmatig beschikbaar</string>
+    <string name="sim_protection_mode_manually_managed">Pincode vereist voor gebruik van telefoon</string>
     <string name="sim_protection_mode_protected_by_platform">Pincode voor simkaart beheerd door Android</string>
     <string name="sim_radio_off">Uit</string>
     <string name="sim_reenter_new">Typ nieuwe pincode opnieuw</string>
@@ -13011,6 +13026,7 @@ Als je een app opent met een widget, moet je bevestigen dat jij het bent. Houd e
     <string name="wifi_assistant_auto_confirm_data_message">Gebruik mobiele datanetwerken wanneer uw apparaat geen verbinding met internet kan maken via wifi.</string>
     <string name="wifi_assistant_confirm_always">Niet meer vragen</string>
     <string name="wifi_assistant_confirm_connection_title">Kan geen verbinding maken met het internet</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Slechte wifiverbinding</string>
     <string name="wifi_assistant_data_prompt">Waarschuwen</string>
     <string name="wifi_assistant_data_prompt_summary">Toon waarschuwing datagebruik bij het overschakelen naar mobiele data</string>
     <string name="wifi_assistant_description">"Zo werkt deze functie:

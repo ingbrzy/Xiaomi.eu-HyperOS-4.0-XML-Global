@@ -1387,7 +1387,7 @@
     <string name="automatic_brightness">자동 밝기</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">자동으로 밝기를 조절하시려면 먼저 안면 인식 잠금해제를 끄세요</string>
     <string name="automatic_keyboard_layout_label">자동: %s</string>
-    <string name="automatic_sim_lock_protection">자동 SIM 잠금 보호</string>
+    <string name="automatic_sim_lock_protection">SIM 잠금 보호 모드</string>
     <string name="automatic_sim_lock_settings_title">SIM 카드 보호</string>
     <string name="automatic_storage_manager_activation_warning">현재 저장용량 관리자가 저장용량을 관리하고 있습니다.</string>
     <string name="automatic_storage_manager_days_title">사진 및 동영상 삭제</string>
@@ -2773,6 +2773,8 @@ CA 인증서를 설치하면 인증서 소유자가 내가 이용하는 웹사�
     <string name="character_counter_content_description">입력된 글자 %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>
     <string name="charge_length_format">%1$s 전</string>
+    <string name="charge_light_state_summary">충전 중 후면 조명 켜기</string>
+    <string name="charge_light_state_title">충전 조명 효과</string>
     <string name="charging_sounds_title">충전 소리 및 진동</string>
     <string name="check_find_device_status_failure_confirm">확인</string>
     <string name="check_update">업데이트 확인</string>
@@ -2847,6 +2849,7 @@ CA 인증서를 설치하면 인증서 소유자가 내가 이용하는 웹사�
     <string name="choose_profile">프로필 선택</string>
     <string name="choose_sim_activating">사용 설정 중…</string>
     <string name="choose_sim_could_not_activate">현재 이 SIM을 사용 설정할 수 없음</string>
+    <string name="choose_sim_pin_protection_mode">SIM 보호 모드 선택</string>
     <string name="choose_sim_text">{count,plural, =1{이 기기에서 SIM 1개를 사용할 수 있으며 한 번에 하나만 사용할 수 있습니다.}=2{이 기기에서 SIM 2개를 사용할 수 있지만 한 번에 하나만 사용할 수 있습니다.}other{이 기기에서 SIM #개를 사용할 수 있지만 한 번에 하나만 사용할 수 있습니다.}}</string>
     <string name="choose_sim_title">사용할 SIM 선택</string>
     <string name="choose_smartcover_type">케이스 유형 선택</string>
@@ -2983,6 +2986,7 @@ CA 인증서를 설치하면 인증서 소유자가 내가 이용하는 웹사�
     <string name="color_led_summary">방해금지 모드에서는 작동하지 않음</string>
     <string name="color_led_title">LED 라이트</string>
     <string name="color_magenta">자홍색</string>
+    <string name="color_mixed_light">혼합 색상 %d</string>
     <string name="color_mode_all_apps">모든 앱</string>
     <string name="color_mode_option_automatic">색상 자동 조절</string>
     <string name="color_mode_option_boosted">생생하게</string>
@@ -3077,6 +3081,8 @@ CA 인증서를 설치하면 인증서 소유자가 내가 이용하는 웹사�
     <string name="confirm_frp_credential_title">공장초기화 후 잠금해제</string>
     <string name="confirm_lock_pattern_header_text">패턴을 그리십시오</string>
     <string name="confirm_new_backup_pw_prompt">전체 백업에 대한 새 비밀번호를 다시 입력하세요.</string>
+    <string name="confirm_new_sim_pin_after_mismatch">PIN이 일치하지 않습니다. 새 SIM PIN을 확인하세요.</string>
+    <string name="confirm_new_sim_pin_title">새 SIM PIN 확인</string>
     <string name="confirm_oem_unlock_for_16k_text">16KB 개발자 옵션을 사용하기 전에 이 기기의 부트로더가 잠금 해제되어 있어야 합니다. 이 모드에서는 소프트웨어 무결성이 보장되지 않기 때문에 부트로더가 잠금 해제된 상태에서는 휴대전화에 저장된 모든 데이터가 위험에 노출될 수 있습니다. 16KB 모드를 활성화하면 모든 사용자 데이터와 설정이 완전 삭제됩니다. 부트로더가 잠금 해제되고 나서 16KB 옵션을 활성화하려면 두 번 재부팅해야 합니다. 이 모드에서는 한 번의 재부팅으로 4KB와 16KB 모드 사이를 오가며 전환할 수 있습니다. 이 모드에서는 일부 기능이 사용 중지되므로 일부 애플리케이션이 작동하지 않을 수 있습니다. 기기를 프로덕션 모드로 되돌리려면 4KB 모드로 다시 전환한 후 OEM/부트로더로 기기를 잠가 초기화해야 합니다. 부트로더를 잠금 해제한 후 다시 시도해 주세요. &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a>에서 방법에 대한 안내를 참고하세요.</string>
     <string name="confirm_oem_unlock_for_16k_title">부트로더를 잠금 해제해야 합니다</string>
     <string name="confirm_pad_clone_password">태블릿의 보조 공간 비밀번호 확인﻿</string>
@@ -4261,6 +4267,8 @@ CA 인증서를 설치하면 인증서 소유자가 내가 이용하는 웹사�
     <string name="enroll_fingerprint">지문 등록</string>
     <string name="enrollment_completed">완료</string>
     <string name="enter_current_lock_screen_password">화면 잠금 입력</string>
+    <string name="enter_current_sim_pin_after_mismatch">잘못된 PIN입니다. 남은 시도 횟수: %1$d회</string>
+    <string name="enter_current_sim_pin_hint">SIM 카드의 현재 PIN 코드 입력</string>
     <string name="enterprise_mode">기업 모드</string>
     <string name="enterprise_privacy_always_on_vpn_device">연결 유지 VPN 사용 설정됨</string>
     <string name="enterprise_privacy_always_on_vpn_personal">개인 프로필에 연결 유지 VPN 사용 설정됨</string>
@@ -4738,6 +4746,7 @@ CA 인증서를 설치하면 인증서 소유자가 내가 이용하는 웹사�
     <string name="firewall_wifi_dialog_message">스위치가 꺼져있을 때는 설치된 앱은 Wi-Fi를 사용하여 인터넷에 연결할 수 없습니다.</string>
     <string name="firmware_version">Android 버전</string>
     <string name="first_day_of_week_preferences_title">일주일의 첫날</string>
+    <string name="first_sim_card_slot_title">첫 번째 SIM 카드 슬롯</string>
     <string name="fiveg_nrca_switch_summary">테스트 환경을 위한 5G 연결 개선</string>
     <string name="fiveg_nrca_switch_title">5G 캐리어 어그리게이션</string>
     <string name="fiveg_sa_switch_summary">보조 SIM에서 SA 네트워크 사용 (테스트 전용)</string>
@@ -7800,7 +7809,7 @@ PIN을 설정하십시오.
     <string name="network_and_internet_preferences_title">네트워크 환경설정</string>
     <string name="network_assistant">데이터 사용량</string>
     <string name="network_auto_switch">네트워크 간 전환</string>
-    <string name="network_auto_switch_summery">When Wi-Fi quality is poor, switch to another available Wi-Fi network or use mobile data. Using mobile data may generate additional fees.</string>
+    <string name="network_auto_switch_summery">Wi-Fi 연결 상태가 불안정할 경우, 다른 Wi-Fi 네트워크로 전환하거나 모바일 데이터를 사용하세요. 모바일 데이터 사용 시 추가 요금이 발생할 수 있습니다.</string>
     <string name="network_changed_noti_summary">모바일 데이터 사용</string>
     <string name="network_changed_noti_title">Wi-Fi와 연결해제됨</string>
     <string name="network_changed_notification_text">모바일 네트워크가 변경됨</string>
@@ -8529,6 +8538,8 @@ OTG는 10분 동안 미사용 시 자동으로 꺼집니다."</string>
     <string name="peak_refresh_rate_summary">일부 콘텐츠의 화면 재생 빈도를 자동으로 최대 %1$dHz까지 늘립니다. 배터리 사용량이 증가합니다.</string>
     <string name="peak_refresh_rate_title">스무스 디스플레이</string>
     <string name="peek_notification_icon_title">수신 알림 아이콘 표시</string>
+    <string name="peep_protection_v2_banner_summary">이 기기 모델에서만 지원되는 프라이버시 디스플레이 기능을 사용해 보세요.</string>
+    <string name="peep_protection_v2_main_tile_label">스마트 프라이버시 디스플레이</string>
     <string name="performance_category">성능</string>
     <string name="perm_toggle_description">앱 및 서비스에 적용</string>
     <string name="permission_action_prompt">문의</string>
@@ -8657,6 +8668,7 @@ OTG는 10분 동안 미사용 시 자동으로 꺼집니다."</string>
     <string name="photography_handle_update_and_maintain">업데이트</string>
     <string name="physical_keyboard_layout_picker_title">물리적 키보드 레이아웃 선택 도구</string>
     <string name="physical_keyboard_title">물리적 키보드</string>
+    <string name="pick_up_gesture_wakeup_not_effect_summary">후면 디스플레이가 켜져 있을 때 작동하지 않음</string>
     <string name="pick_up_gesture_wakeup_title">들어올려 깨우기</string>
     <string name="picker_text">타임 피커</string>
     <string name="picture_color_mode">사진 색상 모드</string>
@@ -9264,6 +9276,7 @@ OTG는 10분 동안 미사용 시 자동으로 꺼집니다."</string>
     <string name="protect_eyes_mode">시력보호 모드</string>
     <string name="provide_current_sim_pin">SIM 카드의 현재 PIN을 입력하세요</string>
     <string name="provide_current_sim_pin_title">현재 SIM의 PIN 입력</string>
+    <string name="provide_new_sim_pin_title">새 SIM PIN</string>
     <string name="provider_internet_settings">인터넷</string>
     <string name="provider_network_settings_title">SIM</string>
     <string name="provision_activation">활성화</string>
@@ -10218,6 +10231,7 @@ OTG는 10분 동안 미사용 시 자동으로 꺼집니다."</string>
     <string name="search_xspace">듀얼 앱;듀얼앱;더블 앱;더블앱;복사 앱;복사앱;앱 복사;앱복사;두개의 계정;2개의 계정</string>
     <string name="searchview_clear_text_content_description">텍스트 삭제</string>
     <string name="searchview_navigation_content_description">뒤로</string>
+    <string name="second_sim_card_slot_title">두 번째 SIM 카드 슬롯</string>
     <string name="second_space">보조 공간</string>
     <string name="secondspace_category">보조 공간</string>
     <string name="secondspace_delete_space_title">보조 공간 삭제</string>
@@ -10915,7 +10929,7 @@ OTG는 10분 동안 미사용 시 자동으로 꺼집니다."</string>
     <string name="sim_action_switch_sub_dialog_title">%1$s 서비스로 전환하시겠습니까?</string>
     <string name="sim_action_turn_off">사용 중지</string>
     <string name="sim_action_yes">예</string>
-    <string name="sim_auto_pin_management_toggle">자동 PIN 관리</string>
+    <string name="sim_auto_pin_management_toggle">SIM 잠금</string>
     <string name="sim_bad_pin">PIN은 %1$d-%2$d자리 숫자여야 합니다</string>
     <string name="sim_calls_always_use">통화에 항상 사용</string>
     <string name="sim_calls_ask_first_prefs_title">항상 확인</string>
@@ -10934,7 +10948,7 @@ OTG는 10분 동안 미사용 시 자동으로 꺼집니다."</string>
     <string name="sim_change_failed_enable_sim_lock">PIN을 변경할 수 없음. 지금 SIM 잠금을 켜세요.</string>
     <string name="sim_change_pin">SIM PIN</string>
     <string name="sim_change_succeeded">SIM PIN이 변경되었습니다.</string>
-    <string name="sim_choose_protection_mode_title">SIM 카드 도난 방지</string>
+    <string name="sim_choose_protection_mode_title">휴대전화를 사용하려면 PIN 필요</string>
     <string name="sim_combination_warning_notification_title">SIM 조합 문제</string>
     <string name="sim_disable_sim_lock">SIM 잠금 해제</string>
     <string name="sim_display_platform_managed_pin">Android 관리 PIN</string>
@@ -10982,13 +10996,15 @@ OTG는 10분 동안 미사용 시 자동으로 꺼집니다."</string>
     <string name="sim_pin_change">SIM PIN 변경</string>
     <string name="sim_pin_disable_failed">PIN을 사용 중지할 수 없습니다.</string>
     <string name="sim_pin_enable_failed">PIN을 사용 설정할 수 없습니다.</string>
+    <string name="sim_pin_protection_mode_automatic">자동(Android 관리)</string>
+    <string name="sim_pin_protection_mode_manual">수동</string>
     <string name="sim_pin_toggle">SIM 잠금</string>
     <string name="sim_pins_dont_match">PIN이 일치하지 않음</string>
     <string name="sim_platform_managed_pin_failure">PIN을 가져올 수 없음</string>
     <string name="sim_platform_managed_pin_value">Android 관리 PIN 값:</string>
     <string name="sim_preferred_message">이제 %1$s SIM이 기본 SIM으로 설정됩니다</string>
-    <string name="sim_protection_mode_lskf_required">SIM 보호를 사용 설정하려면 잠금 화면을 설정해야 합니다</string>
-    <string name="sim_protection_mode_manually_managed">SIM PIN을 수동 관리함</string>
+    <string name="sim_protection_mode_lskf_required">자동 SIM 보호를 사용하려면 잠금 화면을 설정해야 하며, 현재는 수동으로만 설정할 수 있습니다.</string>
+    <string name="sim_protection_mode_manually_managed">휴대전화를 사용하려면 PIN이 필요합니다.</string>
     <string name="sim_protection_mode_protected_by_platform">SIM PIN을 Android에서 관리함</string>
     <string name="sim_radio_off">꺼짐</string>
     <string name="sim_reenter_new">새 PIN을 다시 입력하세요.</string>
@@ -13122,6 +13138,7 @@ Android 설정 > 자녀 보호 기능에서 PIN을 수정하거나 삭제할 수
     <string name="wifi_assistant_auto_confirm_data_message">기기가 Wi-Fi를 통해 인터넷에 연결할 수 없을 시, 모바일 데이터 네트워크를 사용합니다.</string>
     <string name="wifi_assistant_confirm_always">다시 묻지 않기</string>
     <string name="wifi_assistant_confirm_connection_title">인터넷 연결 실패</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Wi-Fi 연결 불량</string>
     <string name="wifi_assistant_data_prompt">경고</string>
     <string name="wifi_assistant_data_prompt_summary">모바일 데이터로 전환 시 데이터 사용량 경고 표시</string>
     <string name="wifi_assistant_description">"이 기능의 작동 방식:

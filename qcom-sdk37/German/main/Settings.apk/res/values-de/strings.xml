@@ -1386,7 +1386,7 @@ Eventuell sind Anrufe, Nachrichten und Netzwerkverkehr für deine Organisation s
     <string name="automatic_brightness">Automatische Helligkeit</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Schalte zuerst die Gesichtsentsperrung aus, um die Helligkeit automatisch anpassen zu können</string>
     <string name="automatic_keyboard_layout_label">Automatisch: %s</string>
-    <string name="automatic_sim_lock_protection">Schutz durch automatischen SIM-Lock</string>
+    <string name="automatic_sim_lock_protection">Sicherheitsmodus für SIM-Lock</string>
     <string name="automatic_sim_lock_settings_title">SIM-Karte schützen</string>
     <string name="automatic_storage_manager_activation_warning">Dein Speicher wird jetzt vom Speichermanager verwaltet</string>
     <string name="automatic_storage_manager_days_title">Fotos &amp; Videos entfernen</string>
@@ -2771,6 +2771,8 @@ Wenn Apps diese Berechtigung haben, stehen sie als Option zur Verfügung, wenn e
     <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
     <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
     <string name="charge_length_format">Vor %1$s</string>
+    <string name="charge_light_state_summary">Das Rücklicht leuchtet beim Aufladen auf</string>
+    <string name="charge_light_state_title">Lichteffekte beim Aufladen</string>
     <string name="charging_sounds_title">Töne und Vibration beim Aufladen</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Auf Updates prüfen</string>
@@ -2845,6 +2847,7 @@ Chip-Performance-Dashboard"</string>
     <string name="choose_profile">Profil auswählen</string>
     <string name="choose_sim_activating">Wird aktiviert…</string>
     <string name="choose_sim_could_not_activate">Diese SIM konnte momentan nicht aktiviert werden</string>
+    <string name="choose_sim_pin_protection_mode">SIM-Sicherheitsmodus auswählen</string>
     <string name="choose_sim_text">{count,plural, =1{Auf diesem Gerät ist 1 SIM verfügbar und es kann jeweils nur eine verwendet werden}=2{Auf diesem Gerät sind 2 SIMs verfügbar, es kann aber jeweils nur eine verwendet werden}other{Auf diesem Gerät sind # SIMs verfügbar, es kann aber jeweils nur eine verwendet werden}}</string>
     <string name="choose_sim_title">SIM für Verwendung auswählen</string>
     <string name="choose_smartcover_type">Falltyp auswählen</string>
@@ -2981,6 +2984,7 @@ Chip-Performance-Dashboard"</string>
     <string name="color_led_summary">Funktioniert nicht im DND-Modus</string>
     <string name="color_led_title">LED-Licht</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Gemischte Farbe %d</string>
     <string name="color_mode_all_apps">Alle Apps</string>
     <string name="color_mode_option_automatic">Adaptiv</string>
     <string name="color_mode_option_boosted">Verstärkt</string>
@@ -3075,6 +3079,8 @@ Chip-Performance-Dashboard"</string>
     <string name="confirm_frp_credential_title">Entsperren nach Werksreset</string>
     <string name="confirm_lock_pattern_header_text">Entsperrmuster zeichnen</string>
     <string name="confirm_new_backup_pw_prompt">Neues Passwort für vollständige Sicherungen erneut eingeben</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Die PINs stimmen nicht überein. Bestätige die neue PIN für die SIM-Karte.</string>
+    <string name="confirm_new_sim_pin_title">Neue PIN für SIM-Karte bestätigen</string>
     <string name="confirm_oem_unlock_for_16k_text">Bevor auf diesem Gerät die 16‑KB-Entwickleroption verwendet werden kann, muss der Bootloader entsperrt werden. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Durch Aktivieren des 16‑KB-Modus werden alle Nutzerdaten und ‑einstellungen gelöscht. Nachdem der Bootloader entsperrt wurde, sind zur Aktivierung des 16‑KB-Modus zwei Neustarts erforderlich. Wenn du dann in diesem Modus bist, reicht für den Wechsel zwischen dem 4‑KB-Modus und dem 16‑KB-Modus ein einmaliger Neustart aus. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du das Gerät in den Produktionsmodus zurückversetzen möchtest, musst du zurück in den 4‑KB-Modus wechseln und dann die OEM-/Bootloader-Sperre einrichten. Dadurch wird das Gerät auf die Werkseinstellungen zurückgesetzt. Bitte entsperre den Bootloader und versuch es noch einmal. Eine Anleitung hierzu findest du unter &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a>.</string>
     <string name="confirm_oem_unlock_for_16k_title">Entsperrren des Bootloaders erforderlich</string>
     <string name="confirm_pad_clone_password">Bestätige das Passwort des Zweitprofils deines Tablets</string>
@@ -4257,6 +4263,8 @@ Dies hilft, Daten auf verlorenen oder gestohlenen Geräten zu schützen. Benöti
     <string name="enroll_fingerprint">Fingerabdruck erfassen</string>
     <string name="enrollment_completed">Fertig</string>
     <string name="enter_current_lock_screen_password">Gib deine Bildschirmsperre ein</string>
+    <string name="enter_current_sim_pin_after_mismatch">Falsche PIN. Verbleibende Versuche: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Gib die aktuelle PIN der SIM-Karte ein</string>
     <string name="enterprise_mode">Enterprise-Modus</string>
     <string name="enterprise_privacy_always_on_vpn_device">Durchgehend aktives VPN wurde aktiviert</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Durchgehend aktives VPN wurde für dein persönliches Profil aktiviert</string>
@@ -4689,7 +4697,7 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="fingerprint_password_unlock">Fingerabdrücke und Bildschirmsperre</string>
     <string name="fingerprint_payment">Mit Fingerabdruck bezahlen</string>
     <string name="fingerprint_privacy_desc">Du kannst deinen Fingerabdruck für den Zugriff auf private Alben, Nachrichten, Notizen, Dateien, den Xiaomi-Hyper-XiaoAi-Speicher, die App-Sperre und Tools zur Passwortverwaltung verwenden.</string>
-    <string name="fingerprint_privacy_policy"><Data>Lies die &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"Fingerabdrücke und Bildschirmsperre\"-Datenschutzerklärung&lt;/a> durch und stimme ihr zu, bevor du fortfährst.&lt;/font></Data></string>
+    <string name="fingerprint_privacy_policy"><Data>Lies die Datenschutzerklärung für &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">\"Fingerabdrücke und Bildschirmsperre\"&lt;/a> durch und stimme ihr zu, bevor du fortfährst.&lt;/font></Data></string>
     <string name="fingerprint_protection">Fingerabdruck-Schutz</string>
     <string name="fingerprint_record_input">Aufnehmen</string>
     <string name="fingerprint_removal_failed">Konnte Fingerabdruck nicht entfernen, später erneut versuchen</string>
@@ -4734,6 +4742,7 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="firewall_wifi_dialog_message">Die installierte App kann nicht über WLAN auf das Internet zugreifen wenn diese deaktiviert sind.</string>
     <string name="firmware_version">Androidversion</string>
     <string name="first_day_of_week_preferences_title">Erster Tag der Woche</string>
+    <string name="first_sim_card_slot_title">Erster SIM-Kartensteckplatz</string>
     <string name="fiveg_nrca_switch_summary">Verbesserung der 5G-Verbindung für Testumgebungen</string>
     <string name="fiveg_nrca_switch_title">5G Betreiber-Aggregation</string>
     <string name="fiveg_sa_switch_summary">SA-Netzwerk auf sekundärer SIM verwenden (nur zum Testen)</string>
@@ -7783,7 +7792,7 @@ Betriebssystem auswählen:"</string>
     <string name="network_and_internet_preferences_title">Netzwerkeinstellungen</string>
     <string name="network_assistant">Datenverbrauch</string>
     <string name="network_auto_switch">Zwischen Netzwerken wechseln</string>
-    <string name="network_auto_switch_summery">Zu mobilen Daten wechseln, wenn das WLAN-Signal schwach ist oder das Netzwerk nicht verfügbar ist</string>
+    <string name="network_auto_switch_summery">Wenn die WLAN-Qualität schlecht ist, wechsle zu einem anderen verfügbaren WLAN-Netzwerk oder verwende mobile Daten. Die Nutzung von mobilen Daten kann zusätzliche Kosten verursachen.</string>
     <string name="network_changed_noti_summary">Mobile Daten verwenden</string>
     <string name="network_changed_noti_title">Vom WLAN getrennt</string>
     <string name="network_changed_notification_text">Dein Mobilfunknetz hat sich geändert</string>
@@ -8512,6 +8521,8 @@ Lies und stimme %s zu, bevor du diesen Dienst benutzt."</string>
     <string name="peak_refresh_rate_summary">Setzt die Aktualisierungsrate für einige Inhalte automatisch auf %1$d Hz herauf. Dadurch wird die Akkunutzung erhöht.</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Symbole für eingehende Benachrichtigungen anzeigen</string>
+    <string name="peep_protection_v2_banner_summary">Teste die für dieses Gerätemodell exklusiven Funktionen des Privatsphäre-Displays</string>
+    <string name="peep_protection_v2_main_tile_label">Smartes Privatsphäre-Display</string>
     <string name="performance_category">Leistung</string>
     <string name="perm_toggle_description">Für Apps und Dienste</string>
     <string name="permission_action_prompt">Frage</string>
@@ -8640,6 +8651,7 @@ Lies und stimme %s zu, bevor du diesen Dienst benutzt."</string>
     <string name="photography_handle_update_and_maintain">Updates</string>
     <string name="physical_keyboard_layout_picker_title">Layout für physische Tastatur</string>
     <string name="physical_keyboard_title">Physische Tastatur</string>
+    <string name="pick_up_gesture_wakeup_not_effect_summary">Funktioniert nicht, wenn das Rückseiten-Display an ist</string>
     <string name="pick_up_gesture_wakeup_title">Gerät anheben zum Aufwecken</string>
     <string name="picker_text">Zeit-Picker</string>
     <string name="picture_color_mode">Farbmodus für Bilder</string>
@@ -9245,6 +9257,7 @@ Personen, die dein Gerät mit einem Computer verbinden oder schädliche Apps auf
     <string name="protect_eyes_mode">Lesemodus</string>
     <string name="provide_current_sim_pin">Aktuelle PIN der SIM-Karte eingeben</string>
     <string name="provide_current_sim_pin_title">Aktuelle SIM-PIN eingeben</string>
+    <string name="provide_new_sim_pin_title">Neue PIN für SIM-Karte</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIM-Karten</string>
     <string name="provision_activation">Aktiv</string>
@@ -9571,7 +9584,7 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="rp_forget_password_dialog_note">Tippe nach mehreren erfolglosen Entsperrversuchen auf dem Sperrbildschirm auf „Passwort vergessen“ und beginne mit dem Zurücksetzen deiner Bildschirmsperre.</string>
     <string name="rp_forget_password_dialog_title">Bildschirmsperre zurücksetzen, wenn das Gerät gesperrt ist</string>
     <string name="rp_old_password_retention_hint">Deine vorherige Bildschirmsperre wird für eine Weile beibehalten. Wenn du deine neue Bildschirmsperre vergisst, kannst du die vorherige verwenden, um sie zurückzusetzen.</string>
-    <string name="rp_password_no_match">PINs stimmen nicht überein. Versuche es erneut.</string>
+    <string name="rp_password_no_match">Die PINs stimmen nicht überein. Versuche es erneut.</string>
     <string name="rp_remove_old_password">Vorherige Bildschirmsperre löschen</string>
     <string name="rp_reset_dialog_button_cancel">Abbrechen</string>
     <string name="rp_reset_dialog_button_confirm">Löschen</string>
@@ -10198,6 +10211,7 @@ So verwendest du die Funktion „Bildschirmfixierung“: \t
     <string name="search_xspace">Dual App;Dual Apps;Doppelapp;Doppelapps;Klon App;Klon Apps;App Klon;App Klone;Zwei Konten;2 Konten</string>
     <string name="searchview_clear_text_content_description">Text löschen</string>
     <string name="searchview_navigation_content_description">Zurück</string>
+    <string name="second_sim_card_slot_title">Zweiter SIM-Kartensteckplatz</string>
     <string name="second_space">Zweitprofil</string>
     <string name="secondspace_category">Zweitprofil</string>
     <string name="secondspace_delete_space_title">Zweitprofil löschen</string>
@@ -10895,7 +10909,7 @@ Durch einen Anbieterwechsel wird dein Mobilfunkvertrag bei %1$s nicht gekündigt
     <string name="sim_action_switch_sub_dialog_title">Zu %1$s wechseln?</string>
     <string name="sim_action_turn_off">Deaktivieren</string>
     <string name="sim_action_yes">Ja</string>
-    <string name="sim_auto_pin_management_toggle">Automatische PIN-Verwaltung</string>
+    <string name="sim_auto_pin_management_toggle">SIM sperren</string>
     <string name="sim_bad_pin">PIN muss aus %1$d-%2$d Ziffern bestehen</string>
     <string name="sim_calls_always_use">Diese SIM für alle Anrufe verwenden</string>
     <string name="sim_calls_ask_first_prefs_title">Jedes Mal fragen</string>
@@ -10914,7 +10928,7 @@ Durch einen Anbieterwechsel wird dein Mobilfunkvertrag bei %1$s nicht gekündigt
     <string name="sim_change_failed_enable_sim_lock">PIN konnte nicht geändert werden. Jetzt SIM-Lock einschalten.</string>
     <string name="sim_change_pin">PIN für SIM-Karte</string>
     <string name="sim_change_succeeded">SIM-PIN erfolgreich geändert</string>
-    <string name="sim_choose_protection_mode_title">SIM-Karte vor Diebstahl schützen</string>
+    <string name="sim_choose_protection_mode_title">Smartphone kann nur mit PIN genutzt werden</string>
     <string name="sim_combination_warning_notification_title">Problem mit der SIM-Kombination</string>
     <string name="sim_disable_sim_lock">SIM entsperren</string>
     <string name="sim_display_platform_managed_pin">Von Android verwaltete PIN</string>
@@ -10962,13 +10976,15 @@ Durch einen Anbieterwechsel wird dein Mobilfunkvertrag bei %1$s nicht gekündigt
     <string name="sim_pin_change">PIN für SIM-Karte ändern</string>
     <string name="sim_pin_disable_failed">PIN kann nicht deaktiviert werden.</string>
     <string name="sim_pin_enable_failed">PIN kann nicht aktiviert werden.</string>
+    <string name="sim_pin_protection_mode_automatic">Automatisch (von Android verwaltet)</string>
+    <string name="sim_pin_protection_mode_manual">Manuell</string>
     <string name="sim_pin_toggle">SIM sperren</string>
     <string name="sim_pins_dont_match">PINs stimmen nicht überein</string>
     <string name="sim_platform_managed_pin_failure">PIN konnte nicht abgerufen werden</string>
     <string name="sim_platform_managed_pin_value">Wert der von Android verwalteten PIN:</string>
     <string name="sim_preferred_message">%1$s ist jetzt deine primäre SIM</string>
-    <string name="sim_protection_mode_lskf_required">Der Sperrbildschirm muss eingerichtet sein, um den SIM-Schutz zu aktivieren</string>
-    <string name="sim_protection_mode_manually_managed">SIM-PIN manuell verwaltet</string>
+    <string name="sim_protection_mode_lskf_required">Für den automatischen SIM-Schutz ist ein Sperrbildschirm erforderlich; nur manueller SIM-Schutz verfügbar</string>
+    <string name="sim_protection_mode_manually_managed">PIN zur Nutzung des Smartphones erforderlich</string>
     <string name="sim_protection_mode_protected_by_platform">SIM-PIN von Android verwaltet</string>
     <string name="sim_radio_off">Aus</string>
     <string name="sim_reenter_new">Neue PIN erneut eingeben</string>
@@ -12762,6 +12778,7 @@ Tippe auf Plus um Wörter hinzufügen."</string>
     <string name="vibrate_when_ringing_title">Vibrieren bei Anrufen</string>
     <string name="video_calling_settings_title">Videoanrufe über Mobilfunkanbieter</string>
     <string name="video_tool_box_title">Video-Werkzeugkasten</string>
+    <string name="view_fingerprint_privacy_policy"><Data>Lies und akzeptiere die &lt;a href =https://privacy.mi.com/setting-fingerprint/%1$s/>\"Fingerabdrücke-&amp;#038;Bildschirmsperre\"-Datenschutzerklärung&lt;/a>, bevor du fortfährst.</Data></string>
     <string name="view_saved_network">Zum Ansehen gespeichertes Netzwerk auswählen</string>
     <string name="vip_list">Bei Anrufen benachrichtigen</string>
     <string name="vip_service_settings">Meine Dienste</string>
@@ -13102,6 +13119,7 @@ Wenn du eine App über ein Widget öffnest, musst du deine Identität bestätige
     <string name="wifi_assistant_auto_confirm_data_message">Mobile Datennetzwerke verwenden, wenn keine Wi-Fi-Verbindung möglich ist.</string>
     <string name="wifi_assistant_confirm_always">Nicht erneut fragen</string>
     <string name="wifi_assistant_confirm_connection_title">Keine Internetverbindung möglich</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Schlechte WLAN-Verbindung</string>
     <string name="wifi_assistant_data_prompt">Warnen</string>
     <string name="wifi_assistant_data_prompt_summary">Warnhinweis zur Datennutzung anzeigen, wenn zu mobilen Daten gewechselt wird</string>
     <string name="wifi_assistant_description">"So funktioniert diese Funktion:

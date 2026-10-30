@@ -615,6 +615,7 @@ Støttes for både gruppechat og individuelle chatter"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Lås apper når du avslutter, logger ut eller bytter til en annen app</string>
     <string name="applock_lock_mode_locked_summary">Ikke krev bekreftelse før enheten er låst</string>
     <string name="applock_login_and_add_account">Logg inn og legg til</string>
+    <string name="applock_mirroring_biometric_paused">Skjermspeiling aktiv, biometrisk autentisering satt på pause</string>
     <string name="applock_mixed_input_password_hint_text">Skriv inn passord</string>
     <string name="applock_mixtype_hidepwd_icon">Skjul passord</string>
     <string name="applock_mixtype_showpwd_icon">Vis passord</string>
@@ -1749,6 +1750,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="extreme_power_save_mode_title">Ekstrem batterisparer</string>
     <string name="face_too_many_filed_locked">For mange forsøk. Midlertidig låst.</string>
     <string name="face_unlock">Lås opp med ansiktsdata</string>
+    <string name="face_unlock_bad_lighting">Gå til et godt opplys område</string>
     <string name="face_unlock_be_on_the_screen">Hold enheten foran ansiktet ditt</string>
     <string name="face_unlock_check_failed">Kunne ikke gjenkjenne deg</string>
     <string name="face_unlock_face_auth_failed_title">Kunne ikke verifisere ansiktsdata. Bytter til andre opplåsingsmetoder…</string>
@@ -2014,6 +2016,11 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="game_center_network_setting_tip_pad">Tillat at Sikkerhet kobler til internett i Innstillinger</string>
     <string name="game_center_recommend">Anbefalt</string>
     <string name="game_else_function">Annet</string>
+    <string name="game_island_channel_name">Spillvarsler</string>
+    <string name="game_island_click_enter_game">Trykk for å åpne spillet</string>
+    <string name="game_island_enter_game">Åpne</string>
+    <string name="game_island_revived">Respawnet</string>
+    <string name="game_island_reviving">Respawner</string>
     <string name="game_manual_record_setting_setting">Innstillinger</string>
     <string name="game_manual_record_setting_title">Viktige øyeblikk</string>
     <string name="game_more_improve">Begrens bakgrunnsaktiviteter og nedlastingshastighet for å spare batteri og båndbredde for spilling</string>
@@ -2049,6 +2056,8 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="game_toolbox_cooling_fan_settings_guide_message">Aktiver \"Spilling\" i Innstillinger > Kjølevifte eller angi bruksscenariene som \"Alle# for å bruke kjøleviften under spilling.</string>
     <string name="game_toolbox_cooling_fan_settings_guide_title">Obs!</string>
     <string name="game_toolbox_cooling_fan_title">Kjølevifte</string>
+    <string name="game_toolbox_d2_185hz_conflict_disabled">Den aktuelle bildefrekvensen og oppløsningen er for høy. Discrete GPU er deaktivert.</string>
+    <string name="game_toolbox_d2_185hz_conflict_reject">Den aktuelle bildefrekvensen og oppløsningen er for høy til å aktivere Discrete GPU</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">dd.MM.yyyy</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Avbryt</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">En VPN-tilkobling opprettes automatisk basert på latens i sanntid for å gi bedre nettverksstabilitet. Etter innløsning vil du få %d års gratis tilgang.</string>
@@ -2089,7 +2098,7 @@ Når Smart bildefrekvens er aktivert, vil oppdagingsverktøyene for bildefrekven
     <string name="game_toolbox_gyro_boost_title">Gyro boost</string>
     <string name="game_toolbox_gyro_boost_toast">Aktiver gyroskopet i spillets innstillinger for å bruke denne funksjonen</string>
     <string name="game_toolbox_immersion_sound_desc">Når du bruker øretelefoner, kan du få nøyaktig gjengivelse av lydeffekter som f.eks. fotspor og stemmer, hvilket gir bedre fordypning i spillet</string>
-    <string name="game_toolbox_immersion_sound_title">Engasjerende lyd</string>
+    <string name="game_toolbox_immersion_sound_title">Oppslukende lyd</string>
     <string name="game_toolbox_item_joystick_key_mapping">Kontrollerknapp</string>
     <string name="game_toolbox_margin_restrain_description">Angi område for berøringsavvisning for å unngå utilsiktede berøringer</string>
     <string name="game_toolbox_mem_clean_desc">Tøm minneot og øk farten</string>
@@ -4170,6 +4179,8 @@ Ultrabatterisparer"</string>
     <string name="peep_protection_v2_cue_summary">Denne funksjonen finnes bare for denne enhetsmodellen</string>
     <string name="peep_protection_v2_deep_mode">Forbedret personvern</string>
     <string name="peep_protection_v2_deep_mode_desc">Gjør det vanskeligere for andre å se skjermen</string>
+    <string name="peep_protection_v2_enhanced_effect_summary">Reduser skjermens lysstyrke for å gjøre det vanskeligere for andre å se den</string>
+    <string name="peep_protection_v2_enhanced_effect_title">Forbedret personvern</string>
     <string name="peep_protection_v2_expert_mode_hint">*Krever at det byttes fra Xiaomi Hyper XiaoAi til Pro-modus</string>
     <string name="peep_protection_v2_face_need_input_hint">Ansiktsdata kreves</string>
     <string name="peep_protection_v2_first_close_message">Legg til Xiaomi personvernvisning fra Kontrollsenter > Rediger > Systembrytere for å aktivere og deaktivere raskt.</string>
@@ -4282,15 +4293,15 @@ I tillegg til til redusert sidevinkelsynlighet kan systemet varsle deg når det 
     <string name="peep_protection_v2_search_smart_enable">Smart aktivering;automatisk privatlivvisning</string>
     <string name="peep_protection_v2_select_apps">Valgte apper</string>
     <string name="peep_protection_v2_select_apps_category_tip">Du kan opprette, administrere, fjerne eller gi nytt navn til appgrupper for personvernvisning i (klikk)Xiaomi Hyper XiaoAi(/klikk)</string>
-    <string name="peep_protection_v2_select_apps_category_tip_v2">I Xiaomi Hyper XiaoAis Pro-modus kan du opprette, administrere, fjerne eller gi nytt navn til appkategorier for personvernvisning</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">I (click)Xiaomi Hyper XiaoAi(/click)s profesjonell modus kan du opprette, administrere, fjerne eller gi nytt navn til appkategorier for personvernvisning</string>
     <string name="peep_protection_v2_smart_enable">Smart aktivering</string>
     <string name="peep_protection_v2_smart_enable_create_strategy_desc">I Xiaomi Hyper XiaoAi kan du opprette regler for personvernvisning basert på steder du ofte besøker. Når du kommer til et angitt sted, aktiveres eller deaktiveres personvernvisningen automatisk.</string>
     <string name="peep_protection_v2_smart_enable_create_strategy_title">Opprett smart regel</string>
     <string name="peep_protection_v2_smart_enable_desc_v2">Opprett stedsbaserte regler for personvernvisning</string>
     <string name="peep_protection_v2_smart_enable_no_strategy_hint">Ingen regler enda. Opprett stedsbaserte smarte aktiveringsregler i Xiaomi Hyper XiaoAi.</string>
-    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Ingen regler enda. Du kan opprette stedsbaserte smarte aktiveringsregler i (klikk)Xiaomi Hyper XiaoAi(klikk).</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">Ingen regler enda. Du kan opprette stedsbaserte smarte aktiveringsregler i (click)Xiaomi Hyper XiaoAi(/click).</string>
     <string name="peep_protection_v2_smart_enable_page_desc">I (click)Xiaomi Hyper XiaoAi(/click) kan du konfigurere stedsbaserte smarte regler, for eksempel aktivering av personvernvisning i fullskjerm automatisk når du er på undegrunnsbanen. Når du kommer til det spesifiserte stedet, aktiveres personvernvisning basert på regelen din.</string>
-    <string name="peep_protection_v2_smart_enable_page_desc_v2">I Xiaomi Hyper XiaoAis Pro-modus kan du angi stedsbaserte smarte aktiveringsregler, for eksempel \"Aktiver personvernvisning i fullskjerm automatisk når jeg er på T-banen\". Når du kommer til et angitt sted, aktiveres personvernvisningen automatisk i henhold til de angitte reglene.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">I (click)Xiaomi Hyper XiaoAi(/click)s profesjonell modus kan du angi stedsbaserte smarte aktiveringsregler, for eksempel «Aktiver personvernvisning i fullskjerm automatisk når jeg er på T-banen». Når du kommer til et angitt sted, aktiveres personvernvisningen automatisk i henhold til de angitte reglene.</string>
     <string name="peep_protection_v2_smart_enable_prompt">Hjelp meg å opprette en regel for visning av personvern: Jeg bruker ofte telefonen på undergrunnsbanen og på kafeer. Lag regler for disse scenariene og aktiver personvernvisning automatisk for sosiale nettverk og finansgrupper når jeg ankommer disse stedene.</string>
     <string name="peep_protection_v2_smart_enable_prompt_copied">Kopiert</string>
     <string name="peep_protection_v2_smart_enable_sio_unavailable">Gi tilgang for å kunne bruke denne funksjonen</string>
@@ -4713,7 +4724,7 @@ I tillegg til til redusert sidevinkelsynlighet kan systemet varsle deg når det 
     <string name="power_dialog_super_save_msg">Ultrabatterisparer begrenser de fleste strømforbrukende funksjonene og reduserer ytelsen til enheten for at basisfunksjonene (f.eks. anrop, SMS og tilkobling til nettverk) skal være tilgjengelige så lenge som mulig. Aktivere ultrabatterisparer?</string>
     <string name="power_dialog_super_save_msg_5g">Ultrabatterisparer begrenser de fleste funksjoner som bruker strøm (f.eks. 5G-tilkobling), noe som senker ytelsen på enheten. Anrop, meldinger og nettverkstilkobling er alt som ikke blir påvirket. Aktivere Ultrabatterisparer?</string>
     <string name="power_dialog_super_save_msg_fan_enable">Ultrabatterisparer begrenser de fleste strømforbrukende funksjonene og reduserer enhetens ytelse slik at de grunnleggende funksjonene (f.eks. anrop, SMS og nettverkstilkobling) skal forbli tilgjengelige lengst mulig. Aktivere ultrabatterisparer?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultrabatterisparer slår av den bakre skjermen og begrenser de fleste strømforbrukende funksjonene slik at ytelsen til enheten reduseres for at basisfunksjonene (f.eks. anrop, SMS og tilkobling til nettverk) skal være tilgjengelige så lenge som mulig. Aktivere ultrabatterisparer?</string>
+    <string name="power_dialog_super_save_msg_p2">Ultrabatterisparer slår av bakskjermen og begrenser de fleste strømforbrukende funksjonene slik at ytelsen til enheten reduseres for at basisfunksjonene (f.eks. anrop, SMS og tilkobling til nettverk) skal være tilgjengelige så lenge som mulig. Aktivere ultrabatterisparer?</string>
     <string name="power_dialog_super_save_title">Ultrabatterisparer</string>
     <string name="power_idle">Telefon inaktiv</string>
     <string name="power_main_battery_last_day_hour">%1$sd %2$st gjenstår</string>
@@ -5543,7 +5554,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="settings_privacy_revoke_title">Tilbakekalling av samtykke</string>
     <string name="settings_privacy_settings_title">Personvern</string>
     <string name="settings_share_enable_summary">Elementene du deler på WeChat vises med et merke</string>
-    <string name="settings_share_info">Dette er de sikre alternativene for deling som er tilgjengelig for elementer delt fra Galleri og Filbehandler:</string>
+    <string name="settings_share_info">Dette er de sikre alternativene for deling som er tilgjengelige for elementer delt fra Galleri og Filbehandler:</string>
     <string name="settings_show_detail">Se detaljer</string>
     <string name="settings_tip">Gå til Galleri > Innstillinger for å se flere alternativer</string>
     <string name="settings_title">Sikker deling</string>
@@ -5825,11 +5836,16 @@ Trekke tilbake samtykket nå?"</string>
     <string name="st_call_stranger_group">Blokker anrop fra fremmede</string>
     <string name="st_call_stranger_inercept_local">Blokker ukjente numre</string>
     <string name="st_confirm_call_all_dialog_all_open_summary">Anrop fra alle numre som ikke er på unntakslisten din, blokkeres. Blokkere nå?</string>
+    <string name="st_confirm_call_all_dialog_message_all_open_summary">Anrop fra et nummer som ikke er blandt unntakene dine for nummer og område, vil bli avsluttet automatisk. Dette inkluderer anrop fra kontaktene dine. Blokkere nå?</string>
+    <string name="st_confirm_call_all_dialog_message_strange_open_summary">Anrop fra et nummer som ikke er blant unntakene dine for nummer og område, vil bli avsluttet automatisk. Blokkere likevel?</string>
     <string name="st_confirm_call_all_dialog_strange_open_summary">Anrop fra alle numre som ikke er på unntakslisten din eller i kontaktene dine, blokkeres. Blokkere nå?</string>
     <string name="st_confirm_call_all_dialog_summary">Anrop fra alle numre som ikke er på unntakslisten din, blokkeres. Aktivere nå?</string>
     <string name="st_confirm_dialog_btn_open">Blokkér</string>
+    <string name="st_confirm_dialog_btn_positive">Blokker</string>
+    <string name="st_confirm_dialog_summary_message_oversea_call">Anrop fra alle utenlandske numre avsluttes automatisk. Blokkere likevel?</string>
     <string name="st_confirm_dialog_summary_oversea_call">Alle samtaler fra utenlandske telefonnummer vil bli blokkert.</string>
     <string name="st_confirm_dialog_summary_stranger_call">Anrop fra numre som ikke finnes på unntakslisten eller i kontaktene dine, blokkeres. Aktivere nå?</string>
+    <string name="st_confirm_dialog_title_oversea_call">Blokkere anrop fra utlandet?</string>
     <string name="st_filter_keywords_setting_summary1">Meldinger fra ukjente numre som inneholder ordene på denne listen blir blokkert.</string>
     <string name="st_filter_keywords_setting_summary2">(Bruk komme for å skille flere nøkkelord)</string>
     <string name="st_filter_keywords_setting_summary3">Meldinger fra ukjente numre som inneholder ordene på denne listen blir tillatt.</string>
@@ -5837,6 +5853,8 @@ Trekke tilbake samtykket nå?"</string>
     <string name="st_hint_add_head_number">Angi prefiks</string>
     <string name="st_hint_add_phonenumber">Skriv inn telefonnummer</string>
     <string name="st_hint_operatelist">Ser ut som denne regelen allerede eksisterer</string>
+    <string name="st_intercept_all_dialog_title">Blokkere alle anrop?</string>
+    <string name="st_intercept_dialog_strange_title">Blokker anrop fra fremmede?</string>
     <string name="st_intercept_dialog_title">Obs!</string>
     <string name="st_mark_call_intercept_threshold_summary">Blokker numre som har blitt rapportert over et bestemt antall ganger automatisk</string>
     <string name="st_mark_call_intercept_threshold_title">Blokkeringsterskel</string>
@@ -5847,10 +5865,10 @@ Trekke tilbake samtykket nå?"</string>
     <string name="st_message_phone_AntiSpam">Blokker anrop</string>
     <string name="st_message_phonepass">Tillat anrop</string>
     <string name="st_msg_keyword_black">Nøkkelord-blokkeringsliste</string>
-    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
+    <string name="st_msg_keyword_black_summary">Blokker meldinger fra fremmede som inneholder bestemte nøkkelord</string>
     <string name="st_msg_keyword_group">Nøkkelord</string>
     <string name="st_msg_keyword_white">Nøkkelord-unntak</string>
-    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
+    <string name="st_msg_keyword_white_summary">Ikke blokker meldinger fra fremmede som inneholder bestemte nøkkelord</string>
     <string name="st_msg_other_group">Annet</string>
     <string name="st_msg_settings">SMS-blokkeringsliste</string>
     <string name="st_msg_stranger_group">Blokker meldinger fra fremmede</string>
@@ -6650,7 +6668,7 @@ Gjenstående data inkluderer data som har blitt videreført fra den forrige mån
     <string name="vb_dult_effect">3D LUT vision</string>
     <string name="vb_fps_settings">Frekvens for automatisk oppdatering</string>
     <string name="vb_fps_settings_tips">Denne funksjonen justerer skjermens oppdateringsfrekvens til videobildefrekvensen, noe som sparer batteri og gir en jevn avspilling. Aktivering av flytende kommentarer deaktiverer automatisk oppdateringsfrekvens.</string>
-    <string name="vb_immerse_voice">Engasjerende lyd</string>
+    <string name="vb_immerse_voice">Oppslukende lyd</string>
     <string name="vb_movie_mode">Teatermodus</string>
     <string name="vb_movie_power_hint">Med teatermodus får du en oppslukende visningsopplevelse.Enheten kan opphetes og bruke mer strøm.</string>
     <string name="vb_movie_power_hint_new">"Juster effekter for en enestående visningsopplevelse.
@@ -6692,8 +6710,8 @@ Når du aktiverer én, deaktiveres den andre."</string>
     <string name="vb_video_effects_dolby_headset">" (Bare hodetelefoner)"</string>
     <string name="vb_video_effects_dolby_open">Dolby Atmos er aktivert</string>
     <string name="vb_video_effects_dolby_stereo_expansion">Utvidet stereo</string>
-    <string name="vb_video_effects_dolby_tips">Forbedret dialog og utvidet stereo virker ikke når du bruker engasjerende lyd</string>
-    <string name="vb_video_effects_immersion_sound">Engasjerende lyd</string>
+    <string name="vb_video_effects_dolby_tips">Forbedret dialog og utvidet stereo virker ikke når du bruker oppslukende lyd</string>
+    <string name="vb_video_effects_immersion_sound">Oppslukende lyd</string>
     <string name="vb_video_effects_immersion_sound_summary">Opplev fordypende lyd og en romlig følelse når lyd spilles av gjennom støttede hodetelefoner</string>
     <string name="vb_video_effects_immersion_sound_summary_new">Opplev fordypende lyd og en romlig følelse når støttet lyd spilles av</string>
     <string name="vb_video_effects_liquid_summary">Forbedre klarheten i dialogen i videoer</string>
@@ -6717,7 +6735,7 @@ Når du aktiverer én, deaktiveres den andre."</string>
     <string name="vb_video_effects_settings_stereo">Volum</string>
     <string name="vb_video_effects_some_headphone">Støttes av utvalgte øretelefonmodeller</string>
     <string name="vb_video_effects_spatial">Spor hodebevegelse</string>
-    <string name="vb_video_effects_spatial_summary">"Juster engasjerende lyd basert på hodebevegelser
+    <string name="vb_video_effects_spatial_summary">"Juster oppslukende lyd basert på hodebevegelser
 *Støttes bare på hodetelefoner for spilling"</string>
     <string name="vb_video_effects_spatial_summary_new">Opplev en forbedret følelse av rom og retning for støttet lyd når du bruker hodetelefoner</string>
     <string name="vb_video_effects_srs_premium_sound">Lyd</string>

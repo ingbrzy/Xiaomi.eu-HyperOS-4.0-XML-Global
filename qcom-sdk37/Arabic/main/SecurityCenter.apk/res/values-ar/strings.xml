@@ -615,6 +615,7 @@
     <string name="applock_lock_mode_locked_or_exit_summary">قُم بقفل التطبيقات عند مغادرتها أو إغلاقها أو التبديل إلى تطبيق آخر</string>
     <string name="applock_lock_mode_locked_summary">لا تتطلب التحقق حتى يتم قفل الجهاز</string>
     <string name="applock_login_and_add_account">تسجيل الدخول وإضافة</string>
+    <string name="applock_mirroring_biometric_paused">خاصية عكس الشاشة نشطة، والتحقق البيومتري متوقف مؤقتًا</string>
     <string name="applock_mixed_input_password_hint_text">أدخل كلمة المرور</string>
     <string name="applock_mixtype_hidepwd_icon">إخفاء كلمة المرور</string>
     <string name="applock_mixtype_showpwd_icon">إظهار كلمة المرور</string>
@@ -1570,7 +1571,7 @@
     <string name="dialog_title_auto_start_declare_global">حول بدء التشغيل في الخلفية</string>
     <string name="dialog_title_stop_virus_scan">إيقاف فحص الحماية</string>
     <string name="disable_air_mode">قم بإيقاف وضع الطائرة أولاً</string>
-    <string name="disable_back_screen_display_touch_tip">أثناء اللعب، لن تتمكن من النقر مرتين لإيقاظ الشاشة الخلفية</string>
+    <string name="disable_back_screen_display_touch_tip">أثناء اللعب، لن تتمكن من النقر المزدوج لتنشيط الشاشة الخلفية.</string>
     <string name="dlg_add_blacklist">حظر هذا الرقم؟</string>
     <string name="dlg_add_blacklist_title">إضافة إلى قائمة الحظر</string>
     <string name="dlg_add_keyword">أضف كلمات مفتاحية</string>
@@ -1956,6 +1957,7 @@
     <string name="extreme_power_save_mode_title">موفر البطارية الأقصى</string>
     <string name="face_too_many_filed_locked">عدد كبير جدًا من المحاولات. تم القفل مؤقتًا.</string>
     <string name="face_unlock">فتح القفل باستخدام بيانات الوجه</string>
+    <string name="face_unlock_bad_lighting">انتقل إلى مكان جيد الإضاءة</string>
     <string name="face_unlock_be_on_the_screen">أمسك الجهاز أمام وجهك</string>
     <string name="face_unlock_check_failed">تعذر التعرف عليك</string>
     <string name="face_unlock_face_auth_failed_title">لا يمكن التحقق من بيانات الوجه. جارٍ التبديل إلى طرق إلغاء القفل الأخرى…</string>
@@ -2221,6 +2223,11 @@
     <string name="game_center_network_setting_tip_pad">السماح للأمان بالاتصال بالإنترنت في الإعدادات</string>
     <string name="game_center_recommend">موصى بها</string>
     <string name="game_else_function">أخرى</string>
+    <string name="game_island_channel_name">إشعارات اللعبة</string>
+    <string name="game_island_click_enter_game">اضغط لفتح اللعبة</string>
+    <string name="game_island_enter_game">فتح</string>
+    <string name="game_island_revived">أعيد ظهوره</string>
+    <string name="game_island_reviving">إعادة الظهور</string>
     <string name="game_manual_record_setting_setting">الإعدادات</string>
     <string name="game_manual_record_setting_title">اللحظات المميزة</string>
     <string name="game_more_improve">تقييد الأنشطة الخلفيه و سرعة التنزيل لتوفير البطارية و النطاق الترددي للألعاب</string>
@@ -2256,6 +2263,8 @@
     <string name="game_toolbox_cooling_fan_settings_guide_message">قم بتشغيل \"الألعاب\" في الإعدادات > مروحة التبريد أو اضبط سيناريوهات الاستخدام على \"الكل\" لاستخدام مروحة التبريد أثناء اللعب.</string>
     <string name="game_toolbox_cooling_fan_settings_guide_title">تنبية</string>
     <string name="game_toolbox_cooling_fan_title">مروحة تبريد</string>
+    <string name="game_toolbox_d2_185hz_conflict_disabled">معدل الإطارات والدقة الحاليان مرتفعان جدًا. تم إيقاف تشغيل وحدة معالجة الرسومات المنفصلة.</string>
+    <string name="game_toolbox_d2_185hz_conflict_reject">معدل الإطارات والدقة الحاليان مرتفعان جدًا بحيث يتعذر تشغيل وحدة معالجة الرسومات المنفصلة.</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">إلغاء</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">سيتم إنشاء اتصال VPN تلقائيًا بناءً على زمن الاستجابة في الوقت الفعلي لتحسين استقرار الشبكة. بعد المطالبة، ستحصل على %dسنة من الوصول المجاني.</string>
@@ -2618,7 +2627,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_have_signed">عدد تسجيلات الدخول لليوم</string>
     <string name="gb_hot_area_seekbar">النطاق الأساسي</string>
     <string name="gb_launch_mute_start">صامت</string>
-    <string name="gb_launch_mute_start_enbaled_toast">الوضع الصامت مفعل. (انقر)إيقاف التشغيل(/انقر)</string>
+    <string name="gb_launch_mute_start_enbaled_toast">الوضع الصامت مفعل. (click)إيقاف التشغيل(/click)</string>
     <string name="gb_launch_mute_start_unmuted_toast">تمت استعادة الصوت</string>
     <string name="gb_manual_record_dialog_del_video_message">حذف الفيديوهات المحددة بشكل دائم؟</string>
     <string name="gb_manual_video_record_title">التسجيلات</string>
@@ -4367,7 +4376,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="peep_protection_v2_app_notification_protection_desc">ستؤدي الإشعارات من التطبيقات المحددة إلى تفعيل عرض الخصوصية</string>
     <string name="peep_protection_v2_app_protection_desc">تفعيل شاشة الخصوصية للتطبيقات المحددة</string>
     <string name="peep_protection_v2_banner_summary">جرب ميزات عرض الخصوصية الحصرية لهذا الطراز من الجهاز</string>
-    <string name="peep_protection_v2_banner_title">عرض الخصوصية من Xiaomi</string>
+    <string name="peep_protection_v2_banner_title">حماية خصوصية الشاشة</string>
     <string name="peep_protection_v2_batch_disable">إيقاف التشغيل</string>
     <string name="peep_protection_v2_batch_enable">تشغيل</string>
     <string name="peep_protection_v2_category_capability">قدرات الميزة</string>
@@ -4385,28 +4394,30 @@ Xiaomi Gaming Cooler"</string>
     <string name="peep_protection_v2_category_tip_message">دع تطبيق Xiaomi Hyper XiaoAi يساعدك في إنشاء مجموعات تطبيقات مخصصة. على سبيل المثال، يمكنك إضافة المعرض وكلمات المرور والملاحظات إلى مجموعة عرض خاصة تسمى \"Subway\". كما يمكنك تحديد كيفية تجميع تطبيقاتك وإضافة قواعد تفعيل ذكية أخرى.</string>
     <string name="peep_protection_v2_category_tip_prompt">أنشئ مجموعة تطبيقات لعرض الخصوصية. أضف %1$s إلى هذه المجموعة، وسمها خاص، وفعل ميزة عرض الخصوصية لهذه التطبيقات.</string>
     <string name="peep_protection_v2_category_tip_title">قم بإنشاء مجموعتك الخاصة</string>
-    <string name="peep_protection_v2_color_inversion_closed_msg">هذه الميزة لا تعمل مع عكس الألوان. تم إيقاف تشغيل Xiaomi Privacy Display.</string>
+    <string name="peep_protection_v2_color_inversion_closed_msg">هذه الميزة لا تعمل مع عكس الألوان. تم إيقاف تشغيل حماية خصوصية الشاشة.</string>
     <string name="peep_protection_v2_color_inversion_closed_reopen">تشغيل الميزة</string>
-    <string name="peep_protection_v2_color_inversion_closed_title">تم إيقاف تشغيل Xiaomi Privacy Display</string>
+    <string name="peep_protection_v2_color_inversion_closed_title">تم إيقاف تشغيل حماية خصوصية الشاشة</string>
     <string name="peep_protection_v2_color_inversion_conflict_msg">لا تعمل هذه الميزة مع عكس الألوان. قم بإيقاف تشغيل عكس الألوان أولاً.</string>
     <string name="peep_protection_v2_color_inversion_conflict_title">قم بإيقاف تشغيل عكس الألوان</string>
     <string name="peep_protection_v2_cue_byapp_reason">قم بتفعيل وضع الخصوصية لهذا التطبيق</string>
     <string name="peep_protection_v2_cue_byapp_title">قم بتفعيل عرض الخصوصية لـ %s</string>
     <string name="peep_protection_v2_cue_global_reason">جرب ميزات الخصوصية الحصرية لهذا الطراز من الأجهزة</string>
-    <string name="peep_protection_v2_cue_global_title">تشغيل عرض الخصوصية من Xiaomi</string>
+    <string name="peep_protection_v2_cue_global_title">تشغيل حماية خصوصية الشاشة</string>
     <string name="peep_protection_v2_cue_summary">هذه الميزة حصرية لهذا الطراز من الجهاز</string>
     <string name="peep_protection_v2_deep_mode">خصوصية محسنة</string>
     <string name="peep_protection_v2_deep_mode_desc">اجعل شاشتك أكثر صعوبة على الآخرين رؤيتها</string>
+    <string name="peep_protection_v2_enhanced_effect_summary">قلل سطوع الشاشة لجعل رؤية شاشتك صعبة على الآخرين.</string>
+    <string name="peep_protection_v2_enhanced_effect_title">خصوصية محسنة</string>
     <string name="peep_protection_v2_expert_mode_hint">*يتطلب تحويل Xiaomi Hyper XiaoAi إلى وضع Pro</string>
     <string name="peep_protection_v2_face_need_input_hint">بيانات الوجه مطلوبة</string>
-    <string name="peep_protection_v2_first_close_message">أضف \"عرض الخصوصية من Xiaomi\" من \"مركز التحكم\" > \"تحرير\" > \"مفاتيح تبديل النظام\" لتشغيله أو إيقاف تشغيله بسرعة.</string>
-    <string name="peep_protection_v2_first_close_title">تشغيل عرض الخصوصية من Xiaomi بسرعة</string>
+    <string name="peep_protection_v2_first_close_message">أضف \"حماية خصوصية الشاشة\" من \"مركز التحكم\" > \"تعديل\" > \"مفاتيح تبديل النظام\" لتشغيله أو إيقاف تشغيله بسرعة.</string>
+    <string name="peep_protection_v2_first_close_title">تشغيل حماية خصوصية الشاشة بسرعة</string>
     <string name="peep_protection_v2_first_close_title_v2">مفاتيح التشغيل/الإيقاف</string>
-    <string name="peep_protection_v2_global_first_open_msg">أضف \"خصوصية ملء الشاشة\" من \"مركز التحكم\" > \"تحرير\" > \"مفاتيح تبديل النظام\" لتشغيلها أو إيقاف تشغيلها بسرعة.</string>
-    <string name="peep_protection_v2_global_first_open_title">تشغيل خصوصية ملء الشاشة بسرعة</string>
-    <string name="peep_protection_v2_global_hint">لا يمكن اكتشاف نظرات الأشخاص الآخرين أثناء تشغيل خصوصية ملء الشاشة.</string>
-    <string name="peep_protection_v2_global_no_aon_hint">لتوفير البطارية، لن يتم اكتشاف نظرات الأشخاص الآخرين أثناء تشغيل خصوصية ملء الشاشة.</string>
-    <string name="peep_protection_v2_global_protection">خصوصية ملء الشاشة</string>
+    <string name="peep_protection_v2_global_first_open_msg">قم بإضافة حماية خصوصية الشاشة بالكامل من مركز التحكم > تعديل > مفاتيح تبديل النظام لتشغيلها أو إيقاف تشغيلها بسرعة.</string>
+    <string name="peep_protection_v2_global_first_open_title">تشغيل حماية خصوصية الشاشة بالكامل بسرعة</string>
+    <string name="peep_protection_v2_global_hint">لا يمكن اكتشاف نظرات الأشخاص الآخرين أثناء تشغيل حماية خصوصية الشاشة بالكامل</string>
+    <string name="peep_protection_v2_global_no_aon_hint">لتوفير البطارية، لن يتم اكتشاف نظرات الأشخاص الآخرين أثناء تشغيل حماية خصوصية الشاشة بالكامل</string>
+    <string name="peep_protection_v2_global_protection">حماية خصوصية الشاشة بالكامل</string>
     <string name="peep_protection_v2_global_protection_desc">استخدم خاصية عرض الخصوصية في سيناريوهات متعددة على جهازك</string>
     <string name="peep_protection_v2_global_protection_desc_v2">تظل شاشة الخصوصية مفعلة في جميع أنحاء جهازك.</string>
     <string name="peep_protection_v2_go_miclaw">افتح تطبيق Xiaomi Hyper XiaoAi</string>
@@ -4442,47 +4453,47 @@ Xiaomi Gaming Cooler"</string>
     <string name="peep_protection_v2_learn_more_privacy_desc">"بعد تفعيل هذه الميزة، قد يستخدم الجهاز الكاميرا الأمامية لالتقاط الصور واكتشاف الوجوه أو اتجاه النظر محليًا عند تفعيل خاصية اكتشاف النظر. يستخدم هذا لتحديد ما إذا كان شخص آخر غيرك ينظر إلى الشاشة وتنبيهك.
 تتم معالجة جميع البيانات على جهازك ولن يتم تحميلها إلى سحابة Xiaomi أو أي خدمة سحابية تابعة لجهة خارجية."</string>
     <string name="peep_protection_v2_learn_more_privacy_title">بيان الخصوصية</string>
-    <string name="peep_protection_v2_learn_more_scope_desc">"يمكنك اختيار طريقة عمل \"عرض الخصوصية من Xiaomi\": على جهازك بالكامل، أو في التطبيقات المحددة، أو على الصفحات الحساسة، أو للإشعارات.
+    <string name="peep_protection_v2_learn_more_scope_desc">"يمكنك اختيار طريقة عمل حماية خصوصية الشاشة: على جهازك بالكامل، أو في التطبيقات المحددة، أو على الصفحات الحساسة، أو للإشعارات.
 
-خصوصية ملء الشاشة:
-يظل عرض الخصوصية قيد التشغيل على جهازك بالكامل للمساعدة في حماية كل ما تشاهده. لن يتم اكتشاف نظرات الأشخاص الآخرين أثناء تشغيل هذه الميزة.
+حماية خصوصية الشاشة بالكامل:
+تظل حماية خصوصية الشاشة قيد التشغيل على جهازك بالكامل للمساعدة في حماية كل ما تشاهده. لن يتم اكتشاف نظرات الأشخاص الآخرين أثناء تشغيل هذه الميزة.
 
 التطبيقات المحددة:
-حدد التطبيقات التي تريد حمايتها. عند عرض هذه التطبيقات على الشاشة، يقلل \"عرض الخصوصية من Xiaomi\" الرؤية من الزوايا الجانبية ويكتشف ما إذا كان شخص آخر ينظر إلى الشاشة.
+حدد التطبيقات التي تريد حمايتها. عند عرض هذه التطبيقات على الشاشة، تقلل حماية خصوصية الشاشة الرؤية من الزوايا الجانبية وتكتشف ما إذا كان شخص آخر ينظر إلى الشاشة.
 
 الصفحات الحساسة:
-حتى إذا لم تتم إضافة بعض التطبيقات إلى القائمة، يمكن تشغيل \"عرض الخصوصية من Xiaomi\" تلقائيًا على الصفحات الحساسة، مثل إدخال كلمات المرور وعمليات الدفع والتحويلات والمراسلة.
+حتى إذا لم تتم إضافة بعض التطبيقات إلى القائمة، يمكن تشغيل حماية خصوصية الشاشة تلقائيًا على الصفحات الحساسة، مثل إدخال كلمات المرور وعمليات الدفع والتحويلات والمراسلة.
 
 إشعارات التطبيقات:
 تعرض إشعارات التطبيقات التي حددتها مع حماية جزئية للخصوصية للمساعدة في منع الآخرين من رؤية المعلومات الحساسة."</string>
-    <string name="peep_protection_v2_learn_more_scope_desc_global">"يمكنك اختيار طريقة عمل \"عرض الخصوصية من Xiaomi\": على جهازك بالكامل، أو في التطبيقات المحددة، أو للإشعارات.
+    <string name="peep_protection_v2_learn_more_scope_desc_global">"يمكنك اختيار طريقة عمل حماية خصوصية الشاشة: على جهازك بالكامل، أو في التطبيقات المحددة، أو للإشعارات.
 
-خصوصية ملء الشاشة:
-يظل عرض الخصوصية قيد التشغيل على جهازك بالكامل للمساعدة في حماية كل ما تشاهده. لن يتم اكتشاف نظرات الأشخاص الآخرين أثناء تشغيل هذه الميزة.
+حماية خصوصية الشاشة بالكامل:
+تظل حماية خصوصية الشاشة قيد التشغيل على جهازك بالكامل للمساعدة في حماية كل ما تشاهده. لن يتم اكتشاف نظرات الأشخاص الآخرين أثناء تشغيل هذه الميزة.
 
 التطبيقات المحددة:
-حدد التطبيقات التي تريد حمايتها. عند عرض هذه التطبيقات على الشاشة، يقلل \"عرض الخصوصية من Xiaomi\" الرؤية من الزوايا الجانبية ويكتشف ما إذا كان شخص آخر ينظر إلى الشاشة.
+حدد التطبيقات التي تريد حمايتها. عند عرض هذه التطبيقات على الشاشة، تقلل حماية خصوصية الشاشة الرؤية من الزوايا الجانبية وتكتشف ما إذا كان شخص آخر ينظر إلى الشاشة.
 
 إشعارات التطبيقات:
 تعرض إشعارات التطبيقات التي حددتها مع حماية جزئية للخصوصية للمساعدة في منع الآخرين من رؤية المعلومات الحساسة."</string>
     <string name="peep_protection_v2_learn_more_scope_title">نطاق عرض الخصوصية</string>
-    <string name="peep_protection_v2_learn_more_smart_desc">يمكنك استخدام مساعد الذكاء الاصطناعي لإنشاء مجموعات تطبيقات عرض الخصوصية وإدارتها، وتشغيل خصوصية ملء الشاشة تلقائيًا في الأماكن العامة، أو تشغيل مجموعات محددة تلقائيًا. يمكنك أيضًا ضبط نطاق عرض الخصوصية وقواعد التشغيل ليتناسب بشكل أفضل مع عادات استخدامك.</string>
+    <string name="peep_protection_v2_learn_more_smart_desc">يمكنك استخدام مساعد الذكاء الاصطناعي لإنشاء مجموعات حماية خصوصية الشاشة وإدارتها، وتشغيل حماية خصوصية الشاشة بالكامل تلقائيًا في الأماكن العامة، أو تشغيل مجموعات محددة تلقائيًا. يمكنك أيضًا ضبط نطاق حماية خصوصية الشاشة وقواعد التشغيل لتتناسب بشكل أفضل مع عادات استخدامك.</string>
     <string name="peep_protection_v2_learn_more_smart_title">قواعد مخصصة</string>
-    <string name="peep_protection_v2_learn_more_understand_desc">"يجمع \"عرض الخصوصية من Xiaomi\" بين تقليل الرؤية من الزوايا الجانبية وإشعار الخصوصية للمساعدة في الحماية من المشاهدة من الزوايا الواسعة والمشاهدة عن قرب من الزوايا الضيقة، مما يوفر لك حماية أكثر شمولًا للخصوصية.
+    <string name="peep_protection_v2_learn_more_understand_desc">"تجمع حماية خصوصية الشاشة بين تقليل الرؤية من الزوايا الجانبية وإشعار الخصوصية للمساعدة في الحماية من المشاهدة من الزوايا الواسعة والمشاهدة عن قرب من الزوايا الضيقة، مما يوفر لك حماية أكثر شمولًا للخصوصية.
 
 تقليل الرؤية من الزوايا الجانبية:
 بفضل التحكم في إضاءة الشاشة على مستوى وحدات البكسل، يصبح محتوى الشاشة سريعًا أكثر صعوبة في الرؤية كلما زادت زاوية المشاهدة. يساعد ذلك في تقليل احتمال رؤية الآخرين لمعلوماتك الشخصية.
 
 إشعار الخصوصية:
 استكمالًا لميزة تقليل الرؤية من الزوايا الجانبية، يمكن للنظام تنبيهك عندما يكتشف أن شخصًا آخر غيرك ينظر إلى الشاشة من الخلف أو من زاوية ضيقة أخرى."</string>
-    <string name="peep_protection_v2_learn_more_understand_title">عن عرض الخصوصية من Xiaomi</string>
+    <string name="peep_protection_v2_learn_more_understand_title">حول حماية خصوصية الشاشة</string>
     <string name="peep_protection_v2_main_body">ستقل إمكانية رؤية الشاشة من الزوايا الجانبية. سيستمر جهازك أيضًا في التحقق مما إذا كان شخص ما ينظر إلى شاشتك، وسينبهك عند رصد نظرة شخص آخر. (انقر) اعرف المزيد (/انقر)</string>
     <string name="peep_protection_v2_main_desc">احمي شاشتك من أنظار الآخرين</string>
-    <string name="peep_protection_v2_main_switch">عرض الخصوصية من Xiaomi</string>
+    <string name="peep_protection_v2_main_switch">حماية خصوصية الشاشة</string>
     <string name="peep_protection_v2_main_switch_desc">استخدم خاصية عرض الخصوصية واكتشف نظرة الشخص الآخر</string>
     <string name="peep_protection_v2_main_switch_desc_v2">اسمح للجهاز بتفعيل وضع حماية الخصوصية في الشاشة بناءً على السيناريو المحدد.</string>
-    <string name="peep_protection_v2_main_switch_title_v2">عرض الخصوصية من Xiaomi</string>
-    <string name="peep_protection_v2_main_tile_label">عرض الخصوصية من Xiaomi</string>
+    <string name="peep_protection_v2_main_switch_title_v2">حماية خصوصية الشاشة</string>
+    <string name="peep_protection_v2_main_tile_label">حماية خصوصية الشاشة</string>
     <string name="peep_protection_v2_move_app_title_v2">انقل %s إلى</string>
     <string name="peep_protection_v2_move_app_to_category">انقل %s إلى المجموعة</string>
     <string name="peep_protection_v2_notification_protection">عرض خصوصية الإشعارات</string>
@@ -4499,7 +4510,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="peep_protection_v2_recommend_title">تطبيقات موصى بها</string>
     <string name="peep_protection_v2_search_app">عرض الخصوصية للتطبيقات؛عرض الخصوصية للتطبيقات؛التطبيقات المحددة</string>
     <string name="peep_protection_v2_search_empty_hint">ستظهر نتائج البحث هنا</string>
-    <string name="peep_protection_v2_search_global">خصوصية ملء الشاشة؛ملء الشاشة</string>
+    <string name="peep_protection_v2_search_global">حماية خصوصية الشاشة بالكامل؛ملء الشاشة</string>
     <string name="peep_protection_v2_search_hint">البحث عن تطبيقات</string>
     <string name="peep_protection_v2_search_keywords_1">عرض الخصوصية</string>
     <string name="peep_protection_v2_search_keywords_2">البكسل</string>
@@ -4511,15 +4522,15 @@ Xiaomi Gaming Cooler"</string>
     <string name="peep_protection_v2_search_smart_enable">تفعيل ذكي؛ عرض تلقائي للخصوصية</string>
     <string name="peep_protection_v2_select_apps">التطبيقات المختارة</string>
     <string name="peep_protection_v2_select_apps_category_tip">يمكنك إنشاء مجموعات تطبيقات عرض الخصوصية أو إدارتها أو إزالتها أو إعادة تسميتها في (انقر)Xiaomi Hyper XiaoAi(/انقر)</string>
-    <string name="peep_protection_v2_select_apps_category_tip_v2">في وضع \"Pro\" الخاص بـ Xiaomi Hyper XiaoAi، يمكنك إنشاء فئات تطبيقات \"عرض الخصوصية\" أو إدارتها أو إزالتها أو إعادة تسميتها.</string>
+    <string name="peep_protection_v2_select_apps_category_tip_v2">في وضع Pro الخاص بـ (click)Xiaomi Hyper XiaoAi(/click)، يمكنك إنشاء فئات تطبيقات العرض المتعلقة بالخصوصية، أو إدارتها، أو إزالتها، أو إعادة تسميتها.</string>
     <string name="peep_protection_v2_smart_enable">التنشيط الذكي</string>
     <string name="peep_protection_v2_smart_enable_create_strategy_desc">في تطبيق Xiaomi Hyper XiaoAi، يمكنك إنشاء قواعد لعرض الخصوصية بناءً على الأماكن التي تزورها بكثرة. عند وصولك إلى موقع محدد، سيتم تشغيل أو إيقاف عرض الخصوصية تلقائيًا.</string>
     <string name="peep_protection_v2_smart_enable_create_strategy_title">إنشاء قاعدة ذكية</string>
     <string name="peep_protection_v2_smart_enable_desc_v2">إنشاء قواعد عرض الخصوصية المستندة إلى الموقع</string>
     <string name="peep_protection_v2_smart_enable_no_strategy_hint">لا توجد قواعد حتى الآن. أنشئ قواعد تفعيل ذكية تعتمد على الموقع في تطبيق Xiaomi Hyper XiaoAi.</string>
-    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">لا توجد قواعد بعد. يمكنك إنشاء قواعد تفعيل ذكية تعتمد على الموقع في Xiaomi Hyper XiaoAi.</string>
-    <string name="peep_protection_v2_smart_enable_page_desc">في (click)Xiaomi Hyper XiaoAi(/click)، يمكنك إعداد قواعد ذكية تعتمد على الموقع، مثل تشغيل خصوصية ملء الشاشة تلقائيًا عندما تكون في مترو الأنفاق. وعند وصولك إلى الموقع المحدد، سيتم تشغيل عرض الخصوصية وفقًا للقاعدة التي أعددتها.</string>
-    <string name="peep_protection_v2_smart_enable_page_desc_v2">في الوضع الاحترافي في Xiaomi Hyper XiaoAi، يمكنك إعداد قواعد تفعيل ذكية تعتمد على الموقع، مثل \"تشغيل خصوصية ملء الشاشة تلقائيًا عندما أكون في مترو الأنفاق\". وعند وصولك إلى موقع محدد، سيتم تشغيل عرض الخصوصية تلقائيًا وفقًا للقواعد التي أعددتها.</string>
+    <string name="peep_protection_v2_smart_enable_no_strategy_hint_v2">لا توجد قواعد بعد. يمكنك إنشاء قواعد تفعيل ذكية تعتمد على الموقع في (click)Xiaomi Hyper XiaoAi(/click).</string>
+    <string name="peep_protection_v2_smart_enable_page_desc">في (click)Xiaomi Hyper XiaoAi(/click)، يمكنك إعداد قواعد ذكية تعتمد على الموقع، مثل تشغيل حماية خصوصية الشاشة بالكامل تلقائيًا عندما تكون في مترو الأنفاق. وعند وصولك إلى الموقع المحدد، سيتم تشغيل حماية خصوصية الشاشة وفقًا للقاعدة التي أعددتها.</string>
+    <string name="peep_protection_v2_smart_enable_page_desc_v2">في وضع \"Pro\" الخاص بـ (click)Xiaomi Hyper XiaoAi(/click)، يمكنك إعداد قواعد للتنشيط الذكي تعتمد على الموقع الجغرافي، مثل \"تفعيل ميزة خصوصية الشاشة الكاملة تلقائياً عند التواجد في مترو الأنفاق\". وعند وصولك إلى الموقع المحدد، سيتم تفعيل ميزة خصوصية الشاشة تلقائياً وفقاً للقواعد التي حددتها.</string>
     <string name="peep_protection_v2_smart_enable_prompt">ساعدني في إنشاء قاعدة لعرض الخصوصية: أستخدم هاتفي كثيرًا في المترو والمقاهي. أنشئ قواعد لهذه الحالات، وقم بتفعيل وضع عرض الخصوصية تلقائيًا لشبكات التواصل الاجتماعي والمجموعات المالية عند وصولي إلى هذه الأماكن.</string>
     <string name="peep_protection_v2_smart_enable_prompt_copied">تم النسخ بنجاح</string>
     <string name="peep_protection_v2_smart_enable_sio_unavailable">اسمح بالوصول لتتمكن من استخدام هذه الميزة</string>
@@ -4535,12 +4546,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="peep_protection_v2_strategy_action_disable_category">قم بإيقاف عرض الخصوصية لـ %s</string>
     <string name="peep_protection_v2_strategy_action_disable_deep">إيقاف تشغيل الخصوصية المحسنة</string>
     <string name="peep_protection_v2_strategy_action_disable_default">قم بإيقاف تشغيل عرض الخصوصية</string>
-    <string name="peep_protection_v2_strategy_action_disable_global">إيقاف تشغيل خصوصية ملء الشاشة</string>
+    <string name="peep_protection_v2_strategy_action_disable_global">إيقاف حماية خصوصية الشاشة بالكامل</string>
     <string name="peep_protection_v2_strategy_action_disable_target">قم بإيقاف عرض الخصوصية لـ %s</string>
     <string name="peep_protection_v2_strategy_action_enable_category">قم بتفعيل عرض الخصوصية لـ %s</string>
     <string name="peep_protection_v2_strategy_action_enable_deep">قم بتفعيل خاصية الخصوصية المحسّنة</string>
     <string name="peep_protection_v2_strategy_action_enable_default">قم بتفعيل وضع الخصوصية</string>
-    <string name="peep_protection_v2_strategy_action_enable_global">تشغيل خصوصية ملء الشاشة</string>
+    <string name="peep_protection_v2_strategy_action_enable_global">تشغيل حماية خصوصية الشاشة بالكامل</string>
     <string name="peep_protection_v2_strategy_action_enable_target">قم بتفعيل عرض الخصوصية لـ %s</string>
     <string name="peep_protection_v2_strategy_action_fallback">Peep protection</string>
     <string name="peep_protection_v2_strategy_action_separator_leave">; on leave</string>
@@ -4563,8 +4574,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="peep_protection_v2_strategy_prompt_template">ساعدني في تعديل قاعدة عرض الخصوصية \"%1$s\" وضبط إعداداتها.</string>
     <string name="peep_protection_v2_strategy_unknown_location">Unknown location</string>
     <string name="peep_protection_v2_thermal_paused_toast">سيستأنف إشعار الخصوصية بعد أن يبرد الجهاز.</string>
-    <string name="peep_protection_v2_tile_label">خصوصية ملء الشاشة</string>
-    <string name="peep_protection_v2_title">عرض الخصوصية من Xiaomi</string>
+    <string name="peep_protection_v2_tile_label">حماية خصوصية الشاشة بالكامل</string>
+    <string name="peep_protection_v2_title">حماية خصوصية الشاشة</string>
     <string name="per_month_pkg_traffic_settings">تعيين حد البيانات</string>
     <string name="percent_formatted_text">%s%%</string>
     <string name="percent_text_formatted">%s%%</string>
@@ -4942,7 +4953,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_super_save_msg">يعمل موفر البطارية الفائق على تقييد معظم الميزات التي تستهلك الطاقة وتقلل من أداء جهازك وذلك لترك الوظائف الأساسية تعمل (مثل المكالمات والرسائل النصية واتصال الشبكة) لأطول فترة ممكنة. تشغيله؟</string>
     <string name="power_dialog_super_save_msg_5g">يعمل موفر البطارية الفائق على تقييد معظم الميزات التي تستهلك الطاقة (مثل اتصال 5G) ويقلل من أداء جهازك. فقط المكالمات والرسائل النصية واتصال الشبكة الأساسية لن تتأثر. تشغيله؟</string>
     <string name="power_dialog_super_save_msg_fan_enable">يعمل وضع توفير الطاقة الفائق على تقييد معظم الميزات المستهلكة للطاقة، وإيقاف تشغيل مروحة التبريد، وتقليل أداء جهازك، وذلك لإبقاء الوظائف الأساسية (مثل المكالمات والرسائل النصية والاتصال بالشبكة) متاحة لأطول فترة ممكنة. هل تريد تفعيل وضع توفير الطاقة الفائق الآن؟</string>
-    <string name="power_dialog_super_save_msg_p2">يُوقف وضع موفر البطارية الفائق الشاشة الخلفية ويقيد معظم الميزات المستهلكة للطاقة، مما يُخفّض أداء جهازك ليُبقي الوظائف الأساسية (مثل المكالمات والرسائل النصية والاتصال بالشبكة) متاحة لأطول فترة ممكنة. هل ترغب في تفعيل وضع موفر البطارية الفائق؟</string>
+    <string name="power_dialog_super_save_msg_p2">يؤدي \"توفير البطارية الفائق\" إلى إيقاف تشغيل الشاشة الخلفية وتقييد معظم الميزات التي تستهلك قدرًا كبيرًا من الطاقة، مما يقلل من أداء جهازك لإتاحة الوظائف الأساسية (مثل المكالمات والرسائل النصية القصيرة والاتصال بالشبكة) لأطول فترة ممكنة. هل تريد تشغيل \"توفير البطارية الفائق\"؟</string>
     <string name="power_dialog_super_save_title">موفر البطارية الفائق</string>
     <string name="power_idle">سكون الهاتف</string>
     <string name="power_main_battery_last_day_hour">تبقى %1$s يوم و %2$s ساعة للاستخدام</string>
@@ -6055,11 +6066,16 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_call_stranger_group">حظر المكالمات من الغرباء</string>
     <string name="st_call_stranger_inercept_local">حظر الأرقام المجهولة</string>
     <string name="st_confirm_call_all_dialog_all_open_summary">سيتم حظر المكالمات الواردة من أي رقم غير مدرج في قائمة الاستثناءات. هل تريد الحظر الآن؟</string>
+    <string name="st_confirm_call_all_dialog_message_all_open_summary">سيتم إنهاء المكالمات الواردة من أي رقم غير مدرج ضمن استثناءات الأرقام والمناطق لديك تلقائياً. ويشمل ذلك المكالمات من جهات الاتصال الخاصة بك. هل ترغب في الحظر الآن؟</string>
+    <string name="st_confirm_call_all_dialog_message_strange_open_summary">سيتم إنهاء المكالمات الواردة من أي رقم غير مدرج ضمن استثناءات الأرقام والمناطق أو قائمة جهات الاتصال تلقائياً. هل ترغب في الحظر الآن؟</string>
     <string name="st_confirm_call_all_dialog_strange_open_summary">سيتم حظر المكالمات الواردة من أي رقم غير مدرج في قائمة الاستثناءات أو جهات الاتصال الخاصة بك. هل تريد الحظر الآن؟</string>
     <string name="st_confirm_call_all_dialog_summary">سيتم حظر جميع أرقام المكالمات الغير موجودة في الاستثناءات الخاصة بك. هل ترغب في تشغيل ذلك الآن؟</string>
     <string name="st_confirm_dialog_btn_open">حظر</string>
+    <string name="st_confirm_dialog_btn_positive">حظر</string>
+    <string name="st_confirm_dialog_summary_message_oversea_call">سيتم إنهاء المكالمات الواردة من جميع الأرقام الدولية تلقائياً. هل ترغب في حظرها الآن؟</string>
     <string name="st_confirm_dialog_summary_oversea_call">سيتم حظر جميع المكالمات من أرقام الهواتف غير محلية.</string>
     <string name="st_confirm_dialog_summary_stranger_call">سيتم حظر جميع أرقام المكالمات الغير موجودة في الاستثناءات أو جهات الاتصال الخاصة بك. هل ترغب في تشغيل ذلك الآن؟</string>
+    <string name="st_confirm_dialog_title_oversea_call">حظر المكالمات الدولية؟</string>
     <string name="st_filter_keywords_setting_summary1">سيتم حظر الرسائل الواردة من الأرقام المجهولة التي تحتوي على الكلمات الموجودة في هذه القائمة.</string>
     <string name="st_filter_keywords_setting_summary2">(استخدام فاصلة لفصل الكلمات المفتاحية المتعددة)</string>
     <string name="st_filter_keywords_setting_summary3">سيتم السماح بالرسائل الواردة من الأرقام المجهولة التي تحتوي على الكلمات الموجودة في هذه القائمة.</string>
@@ -6067,6 +6083,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_hint_add_head_number">أدخل بادئة للاسم</string>
     <string name="st_hint_add_phonenumber">أدخل رقم الهاتف</string>
     <string name="st_hint_operatelist">يبدو أن هذه القاعدة موجودة مسبقا</string>
+    <string name="st_intercept_all_dialog_title">حظر جميع المكالمات؟</string>
+    <string name="st_intercept_dialog_strange_title">حظر المكالمات من الغرباء؟</string>
     <string name="st_intercept_dialog_title">تنبيه</string>
     <string name="st_mark_call_intercept_threshold_summary">حظر الأرقام التي تم الإبلاغ عنها أكثر من عدد معين تلقائيًا</string>
     <string name="st_mark_call_intercept_threshold_title">حد الحظر</string>
@@ -6077,10 +6095,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_message_phone_AntiSpam">حظر المكالمات</string>
     <string name="st_message_phonepass">السماح بالمكالمات</string>
     <string name="st_msg_keyword_black">قائمة حظر الكلمات المفتاحية</string>
-    <string name="st_msg_keyword_black_summary">Block messages from strangers that contain keywords</string>
+    <string name="st_msg_keyword_black_summary">حظر الرسائل من الغرباء التي تحتوي على كلمات مفتاحية محددة</string>
     <string name="st_msg_keyword_group">الكلمات المفتاحية</string>
     <string name="st_msg_keyword_white">إستثناءات الكلمات المفتاحية</string>
-    <string name="st_msg_keyword_white_summary">Allow messages from strangers that contain keywords</string>
+    <string name="st_msg_keyword_white_summary">لا تحظر الرسائل الواردة من الغرباء والتي تحتوي على كلمات مفتاحية محددة.</string>
     <string name="st_msg_other_group">أخرى</string>
     <string name="st_msg_settings">قائمة حظر SMS</string>
     <string name="st_msg_stranger_group">حظر الرسائل من الغرباء</string>

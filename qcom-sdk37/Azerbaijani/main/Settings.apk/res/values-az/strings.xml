@@ -1033,7 +1033,7 @@ Zənglər, mesajlar və şəbəkə trafiki təşkilatınıza görünə bilər."<
     <string name="autofill_reset_developer_options">Sıfırlansın</string>
     <string name="autofill_reset_developer_options_complete">Avto doldurma developer seçimləri sıfırlanıb</string>
     <string name="automatic_keyboard_layout_label">Avtomatik: %s</string>
-    <string name="automatic_sim_lock_protection">Avtomatik SIM kilidi ilə qoruma</string>
+    <string name="automatic_sim_lock_protection">SIM kilidi ilə qoruma rejimi</string>
     <string name="automatic_sim_lock_settings_title">SIM kartı qoruyun</string>
     <string name="automatic_storage_manager_activation_warning">Yaddaşınız indi yaddaş meneceri tərəfindən idarə olunur</string>
     <string name="automatic_storage_manager_days_title">Foto və videoları silin</string>
@@ -1877,6 +1877,7 @@ Bu icazə aktivdirsə, teq aşkarlandıqda tətbiq seçim kimi əlçatan olacaq.
     <string name="choose_profile">Profil seçin</string>
     <string name="choose_sim_activating">Aktiv edilir…</string>
     <string name="choose_sim_could_not_activate">Bu SIM-i aktiv etmək olmadı</string>
+    <string name="choose_sim_pin_protection_mode">SIM qoruma rejimini seçin</string>
     <string name="choose_sim_text">{count,plural, =1{Bu cihazda 1 SIM var. Hər dəfə sadəcə birindən istifadə etmək mümkündür}=2{Bu cihazda 2 SIM var. Hər dəfə sadəcə birindən istifadə etmək mümkündür}other{Bu cihazda # SIM var. Hər dəfə sadəcə birindən istifadə etmək mümkündür}}</string>
     <string name="choose_sim_title">İstifadə etmək üçün SIM seçin</string>
     <string name="choose_spell_checker">Orfoqrafik yoxlama seçin</string>
@@ -1988,6 +1989,8 @@ Bu icazə aktivdirsə, teq aşkarlandıqda tətbiq seçim kimi əlçatan olacaq.
     <string name="confirm_enable_oem_unlock_title">OEM kilidinin açılmasına icazə verilsin?</string>
     <string name="confirm_ext4_button_text">Bütün datanı sil və yenilə</string>
     <string name="confirm_new_backup_pw_prompt">Tam yeni rezerv kopyası parolunuzu buraya yenidən yazın</string>
+    <string name="confirm_new_sim_pin_after_mismatch">PIN-lər eyni deyil. Yeni SIM PIN-ni təsdiq edin.</string>
+    <string name="confirm_new_sim_pin_title">Yeni SIM PIN-ni təsdiq edin</string>
     <string name="confirm_oem_unlock_for_16k_text">Bu cihaz 16 KB developer seçimindən istifadə etməzdən əvvəl yükləyicinin kilidini açmalıdır. Bu rejimdə proqram təminatının bütövlüyü təmin edilə bilməz və yükləyicinin kilidi açıq halda telefonda saxlanılan data risk altında ola bilər. 16 KB rejimi aktivləşdirildikdə bütün istifadəçi datası və ayarları silinəcək. Yükləyici kilidi açıldıqdan sonra 16 KB seçimini aktivləşdirmək üçün iki dəfə yenidən başlatma tələb olunacaq. Bu rejimdə bir dəfə yenidən başlatma ilə 4 KB və 16 KB rejimi arasında dəyişə bilərsiniz. Bu rejimlərdə bəzi funksiyalar deaktiv ediləcək, buna görə də bəzi tətbiqlər işləməyə bilər. Cihazı istehsal rejiminə qaytarmaq üçün yenidən 4 KB rejiminə keçməli və sonra cihazda OEM/yükləyici kilidləməsi (zavod ayarlarına sıfırlayır) icra etməlisiniz. Yükləyicini kiliddən çıxarın və yenidən cəhd edin. Təlimatlara burada baxa bilərsiniz: &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Yükləyici kilidaçması tələb edilir</string>
     <string name="confirm_sim_deletion_description">"eSIM'i silməzdən əvvəl kimliyinizi doğrulayın"</string>
@@ -2634,6 +2637,8 @@ Limit seçəndə operator statistikası ilə telefon statistikasının fərqlən
     <string name="enhanced_4g_lte_mode_title_4g_calling">4G Zəngi</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Qabaqcıl Zəng</string>
     <string name="enhanced_connectivity_summary">Qabaqcıl məlumat mübadiləsini aktiv edir.</string>
+    <string name="enter_current_sim_pin_after_mismatch">PIN səhvdir. Qalan cəhd sayı: %1$d</string>
+    <string name="enter_current_sim_pin_hint">SIM kartın cari PIN kodunu daxil edin</string>
     <string name="enterprise_privacy_always_on_vpn_device">Həmişə aktiv VPN yandırıldı</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Həmişə aktiv VPN şəxsi profilinizdə yandırıldı</string>
     <string name="enterprise_privacy_always_on_vpn_work">Həmişə aktiv VPN iş profilinizdə yandırıldı</string>
@@ -2854,6 +2859,7 @@ Başlamaq üçün xarici ekranı qoşun və ya başqa kabeldən istifadə etməy
     <string name="fingerprint_v2_delete_message">"Bu, telefonunuzda saxlanılan '%1$s' ilə əlaqəli barmaq izi şəkillərini və modelini silir"</string>
     <string name="firmware_version">Android versiyası</string>
     <string name="first_day_of_week_preferences_title">Həftənin ilk günü</string>
+    <string name="first_sim_card_slot_title">Birinci SIM kart yuvası</string>
     <string name="fix_connectivity">Bağlantını düzəldin</string>
     <string name="flash_notifications_about_title">İşıqlı bildirişlər haqqında</string>
     <string name="flash_notifications_intro">Bildirişlər aldıqda və ya zəngli saat səsləndikdə kamera işığı, yaxud ekran yanıb-sönsün</string>
@@ -5019,6 +5025,7 @@ Cihazı kompüterə qoşan və ya cihazınızda zərərli tətbiqlər quraşdır
     <string name="promote_conversation_title">Bu, söhbətdir</string>
     <string name="provide_current_sim_pin">SIM kartın cari PIN-ini daxil edin</string>
     <string name="provide_current_sim_pin_title">Cari SIM PIN-ini daxil edin</string>
+    <string name="provide_new_sim_pin_title">Yeni SIM PIN-i</string>
     <string name="provider_internet_settings">İnternet</string>
     <string name="provider_network_settings_title">SIM-lər</string>
     <string name="proxy_action_text">Tamam</string>
@@ -5425,6 +5432,7 @@ Tətbiq bərkidilməsindən istifadə üçün: \t
     <string name="search_settings">Axtarış</string>
     <string name="searchview_clear_text_content_description">Mətni təmizləyin</string>
     <string name="searchview_navigation_content_description">Geri</string>
+    <string name="second_sim_card_slot_title">İkinci SIM kart yuvası</string>
     <string name="security_advanced_settings">Digər güvənlik ayarları</string>
     <string name="security_advanced_settings_keywords">təhlükəsizlik, digər təhlükəsizlik ayarları, digər ayarlar, qabaqcıl təhlükəsizlik ayarları</string>
     <string name="security_advanced_settings_no_work_profile_settings_summary">Şifrələmə, giriş məlumatları və s.</string>
@@ -5928,7 +5936,7 @@ Dəyişdikdə %1$s xidməti ləğv edilməyəcək."</string>
     <string name="sim_action_switch_sub_dialog_title">%1$s operatoruna keçilsin?</string>
     <string name="sim_action_turn_off">Deaktiv edin</string>
     <string name="sim_action_yes">Bəli</string>
-    <string name="sim_auto_pin_management_toggle">Avtomatik PIN idarəetməsi</string>
+    <string name="sim_auto_pin_management_toggle">SIM-i kilidləyin</string>
     <string name="sim_calls_always_use">Həmişə bu zənglər üçün istifadə edin</string>
     <string name="sim_calls_ask_first_prefs_title">Həmişə soruşulsun</string>
     <string name="sim_card">SIM</string>
@@ -5945,7 +5953,7 @@ Dəyişdikdə %1$s xidməti ləğv edilməyəcək."</string>
     <string name="sim_change_data_title">Mobil data üçün %1$s istifadə edilsin?</string>
     <string name="sim_change_pin">SIM PIN</string>
     <string name="sim_change_succeeded">SIM PIN uğurla dəyişdirildi</string>
-    <string name="sim_choose_protection_mode_title">SIM kartı oğurluqdan qoruyun</string>
+    <string name="sim_choose_protection_mode_title">Telefondan istifadə etmək üçün PIN tələb olunsun</string>
     <string name="sim_combination_warning_notification_title">SIM kombinasiyası ilə bağlı problem</string>
     <string name="sim_disable_sim_lock">SIM kilidini açın</string>
     <string name="sim_display_platform_managed_pin">Android tərəfindən idarə olunan PIN</string>
@@ -5987,13 +5995,15 @@ Dəyişdikdə %1$s xidməti ləğv edilməyəcək."</string>
     <string name="sim_pin_change">SIM PIN dəyişin</string>
     <string name="sim_pin_disable_failed">PIN-i deaktiv etmək mümkün deyil.</string>
     <string name="sim_pin_enable_failed">PIN-i aktiv etmək mümkün deyil.</string>
+    <string name="sim_pin_protection_mode_automatic">Avtomatik (Android tərəfindən idarə olunur)</string>
+    <string name="sim_pin_protection_mode_manual">Manual</string>
     <string name="sim_pin_toggle">"SIM'i kilidləyin"</string>
     <string name="sim_pins_dont_match">PIN-lər eyni deyil</string>
     <string name="sim_platform_managed_pin_failure">PIN əldə edilmədi</string>
     <string name="sim_platform_managed_pin_value">Android tərəfindən idarə olunan PIN-in dəyəri:</string>
     <string name="sim_preferred_message">%1$s indi əsas SIM-dir</string>
-    <string name="sim_protection_mode_lskf_required">SIM qorumasını aktiv etmək üçün kilid ekranı ayarlanmalıdır</string>
-    <string name="sim_protection_mode_manually_managed">SIM PIN-i manual idarə olunur</string>
+    <string name="sim_protection_mode_lskf_required">Avtomatik SIM qoruması üçün kilid ekranı tələb olunur, hazırda yalnız manual forması əlçatandır</string>
+    <string name="sim_protection_mode_manually_managed">Telefondan istifadə etmək üçün PIN tələb olunur</string>
     <string name="sim_protection_mode_protected_by_platform">SIM PIN-i Android tərəfindən idarə olunur</string>
     <string name="sim_reenter_new">PIN-i yenidən yazın</string>
     <string name="sim_selection_channel_title">SIM seçimi</string>

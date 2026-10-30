@@ -1367,7 +1367,7 @@ Nom del flux: %1$s"</string>
     <string name="automatic_brightness">Lluminositat automàtica</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Per poder ajustar la brillantor automàticament, primer desactiveu el desbloqueig facial</string>
     <string name="automatic_keyboard_layout_label">Automàtic: %s</string>
-    <string name="automatic_sim_lock_protection">Protecció automàtica amb bloqueig de SIM</string>
+    <string name="automatic_sim_lock_protection">Mode de protecció amb bloqueig de SIM</string>
     <string name="automatic_sim_lock_settings_title">Protegeix la targeta SIM</string>
     <string name="automatic_storage_manager_activation_warning">"Ara mateix, el gestor d'emmagatzematge gestiona el teu emmagatzematge"</string>
     <string name="automatic_storage_manager_days_title">Suprimeix fotos i vídeos amb</string>
@@ -2750,6 +2750,8 @@ Si aquest permís està activat, l'aplicació estarà disponible com una opció 
     <string name="character_counter_content_description">Caràcters introduïts: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">"S'ha superat el límit de caràcters (%1$d de %2$d)"</string>
     <string name="charge_length_format">Fa %1$s</string>
+    <string name="charge_light_state_summary">Encén la llum posterior mentre es carrega</string>
+    <string name="charge_light_state_title">Efectes de llum de càrrega</string>
     <string name="charging_sounds_title">Sons i vibració de càrrega</string>
     <string name="check_find_device_status_failure_confirm">"D'acord"</string>
     <string name="check_update">Cerca actualitzacions</string>
@@ -2821,6 +2823,7 @@ tauler de rendiment del xip"</string>
     <string name="choose_profile">Tria un perfil</string>
     <string name="choose_sim_activating">"S'està activant…"</string>
     <string name="choose_sim_could_not_activate">"No s'ha pogut activar aquesta SIM ara mateix"</string>
+    <string name="choose_sim_pin_protection_mode">Tria el mode de protecció de la SIM</string>
     <string name="choose_sim_text">"{count,plural, =1{Hi ha 1 SIM disponible en aquest dispositiu, però no se'n pot utilitzar més d'1 alhora}=2{Hi ha 2 SIM disponibles en aquest dispositiu, però no se'n pot utilitzar més d'1 alhora}other{Hi ha # SIM disponibles en aquest dispositiu, però no se'n pot utilitzar més d'1 alhora}}"</string>
     <string name="choose_sim_title">Tria una SIM per utilitzar</string>
     <string name="choose_smartcover_type">Seleccioneu el tipus de coberta</string>
@@ -2957,6 +2960,7 @@ tauler de rendiment del xip"</string>
     <string name="color_led_summary">No funciona en Mode no molesteu</string>
     <string name="color_led_title">Llum LED</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Color mixt %d</string>
     <string name="color_mode_all_apps">Totes les aplicacions</string>
     <string name="color_mode_option_automatic">Adaptatius</string>
     <string name="color_mode_option_boosted">Millorats</string>
@@ -3051,6 +3055,8 @@ tauler de rendiment del xip"</string>
     <string name="confirm_frp_credential_title">Desbloqueja després de restablir-lo de fàbrica</string>
     <string name="confirm_lock_pattern_header_text">Dibuixa el teu patró</string>
     <string name="confirm_new_backup_pw_prompt">Torna a escriure aquí la contrasenya nova de còpia de seguretat completa</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Els PIN no coincideixen. Confirma el PIN de la SIM nou.</string>
+    <string name="confirm_new_sim_pin_title">Confirma el PIN de la SIM nou</string>
     <string name="confirm_oem_unlock_for_16k_text">"Aquest dispositiu ha de tenir el bootloader desbloquejat abans d'utilitzar l'opció per a desenvolupadors de 16 kB. No es pot garantir la integritat del programari en aquest mode, i les dades que estiguin emmagatzemades al dispositiu mentre el bootloader està desbloquejat poden estar en perill. En activar el mode de 16 kB, es netejaran totes les dades d'usuari i opcions de configuració. Quan s'hagi desbloquejat el bootloader, caldrà que el dispositiu es reiniciï dues vegades per activar l'opció de 16 kB. Quan estiguis en aquest mode, podràs alternar entre el mode de 4 kB i el mode de 16 kB amb un sol reinici. Com que es desactivaran algunes funcions en aquests modes, és possible que algunes aplicacions no funcionin. Per fer que el dispositiu torni al mode de producció, hauràs de tornar al mode de 4 kB i, a continuació, bloquejar l'OEM o el bootloader, que restablirà les dades de fàbrica del dispositiu. Desbloqueja el bootloader i torna-ho a provar. Pots consultar les instruccions per fer-ho a &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a>"</string>
     <string name="confirm_oem_unlock_for_16k_title">Es requereix el desbloqueig del bootloader</string>
     <string name="confirm_pad_clone_password">Confirmeu la contrasenya del Segon espai de la tauleta</string>
@@ -4233,6 +4239,8 @@ Això ajuda a protegir les dades dels dispositius perduts o robats. Necessiteu u
     <string name="enroll_fingerprint">"Enregistreu l'empremta"</string>
     <string name="enrollment_completed">Fet</string>
     <string name="enter_current_lock_screen_password">Introduïu el vostre bloqueig de pantalla</string>
+    <string name="enter_current_sim_pin_after_mismatch">El PIN no és correcte. Intents restants: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Introdueix el codi PIN actual de la targeta SIM</string>
     <string name="enterprise_mode">"Mode d'empresa"</string>
     <string name="enterprise_privacy_always_on_vpn_device">"S'ha activat l'opció VPN sempre activada"</string>
     <string name="enterprise_privacy_always_on_vpn_personal">"S'ha activat l'opció VPN sempre activada al teu perfil personal"</string>
@@ -4705,6 +4713,7 @@ Per obtenir més informació, contacta amb l'entitat de crèdit."</string>
     <string name="firewall_wifi_dialog_message">"L'aplicació instal·lada no podrà connectar-se a Internet utilitzant Wi-Fi quan aquest interruptor estigui desactivat."</string>
     <string name="firmware_version">"Versió d'Android"</string>
     <string name="first_day_of_week_preferences_title">Primer dia de la setmana</string>
+    <string name="first_sim_card_slot_title">Primera ranura de la targeta SIM</string>
     <string name="fiveg_nrca_switch_summary">Millora la connexió 5G per a entorns de prova</string>
     <string name="fiveg_nrca_switch_title">"Agregació d'operadors 5G"</string>
     <string name="fiveg_sa_switch_summary">Utilitzeu la xarxa SA a la SIM secundària (només per fer proves)</string>
@@ -7727,7 +7736,7 @@ Seleccioneu el sistema operatiu:"</string>
     <string name="network_and_internet_preferences_title">Preferències de xarxa</string>
     <string name="network_assistant">Ús de dades</string>
     <string name="network_auto_switch">Canvia entre xarxes</string>
-    <string name="network_auto_switch_summery">Canvia a dades mòbils quan el senyal Wi-Fi sigui feble o la xarxa no estigui disponible</string>
+    <string name="network_auto_switch_summery">"Quan la qualitat del Wi-Fi sigui deficient, canvieu a una altra xarxa Wi-Fi disponible o utilitzeu dades mòbils. L'ús de dades mòbils pot generar tarifes addicionals."</string>
     <string name="network_changed_noti_summary">"S'estàn utilitzant les dades mòbils"</string>
     <string name="network_changed_noti_title">Desconectat del Wi-Fi</string>
     <string name="network_changed_notification_text">La xarxa mòbil ha canviat</string>
@@ -8435,6 +8444,8 @@ Llegiu i accepteu %s abans d'utilitzar aquest servei."</string>
     <string name="peak_refresh_rate_summary">"Augmenta automàticament la freqüència d'actualització fins a %1$d Hz en alguns continguts. Augmenta l'ús de la bateria."</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Mostreu icones per a les notificacions entrants</string>
+    <string name="peep_protection_v2_banner_summary">"Prova les funcions de pantalla de privadesa exclusives d'aquest model de dispositiu"</string>
+    <string name="peep_protection_v2_main_tile_label">Pantalla de privadesa intel·ligent</string>
     <string name="performance_category">Rendiment</string>
     <string name="perm_toggle_description">Per a aplicacions i serveis</string>
     <string name="permission_action_prompt">Demana</string>
@@ -9163,6 +9174,7 @@ Qualsevol persona que connecti el teu dispositiu a un ordinador o instal·li apl
     <string name="protect_eyes_mode">Mode lectura</string>
     <string name="provide_current_sim_pin">Introdueix el PIN actual de la targeta SIM</string>
     <string name="provide_current_sim_pin_title">Introdueix el PIN actual de la SIM</string>
+    <string name="provide_new_sim_pin_title">PIN de la SIM nou</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">Targetes SIM</string>
     <string name="provision_activation">Actiu</string>
@@ -10106,6 +10118,7 @@ Per utilitzar la fixació d'aplicacions: \t
     <string name="search_xspace">"Aplicació dual;Aplicacions duals;Aplicació doble;Aplicacions Dobles;Clona l'aplicació;Clona aplicacions;Clon d'aplicació;Clons d'aplicacions;Dos comptes;2 comptes"</string>
     <string name="searchview_clear_text_content_description">Esborra el text</string>
     <string name="searchview_navigation_content_description">Enrere</string>
+    <string name="second_sim_card_slot_title">Segona ranura de la targeta SIM</string>
     <string name="second_space">Segon espai</string>
     <string name="secondspace_category">Segon espai</string>
     <string name="secondspace_delete_space_title">Suprimeix el Segon espai</string>
@@ -10803,7 +10816,7 @@ Encara que canviïs de SIM, el teu servei de %1$s no es cancel·larà."</string>
     <string name="sim_action_switch_sub_dialog_title">Vols canviar a %1$s?</string>
     <string name="sim_action_turn_off">Desactiva</string>
     <string name="sim_action_yes">Sí</string>
-    <string name="sim_auto_pin_management_toggle">Gestió automàtica del PIN</string>
+    <string name="sim_auto_pin_management_toggle">Bloqueja la SIM</string>
     <string name="sim_bad_pin">El PIN ha de contenir %1$d-%2$d dígits</string>
     <string name="sim_calls_always_use">Utilitza sempre per a les trucades</string>
     <string name="sim_calls_ask_first_prefs_title">Pregunta sempre</string>
@@ -10822,7 +10835,7 @@ Encara que canviïs de SIM, el teu servei de %1$s no es cancel·larà."</string>
     <string name="sim_change_failed_enable_sim_lock">"No s'ha pogut canviar el PIN. Activeu ara el bloqueig SIM."</string>
     <string name="sim_change_pin">PIN de la SIM</string>
     <string name="sim_change_succeeded">PIN de la SIM canviat correctament</string>
-    <string name="sim_choose_protection_mode_title">Protegeix la targeta SIM contra robatoris</string>
+    <string name="sim_choose_protection_mode_title">Sol·licita el PIN per utilitzar el telèfon</string>
     <string name="sim_combination_warning_notification_title">Hi ha un problema amb la combinació de les SIM</string>
     <string name="sim_disable_sim_lock">Desbloqueja la SIM</string>
     <string name="sim_display_platform_managed_pin">PIN gestionat per Android</string>
@@ -10870,13 +10883,15 @@ Encara que canviïs de SIM, el teu servei de %1$s no es cancel·larà."</string>
     <string name="sim_pin_change">Canvia el PIN de la SIM</string>
     <string name="sim_pin_disable_failed">No es pot desactivar el PIN.</string>
     <string name="sim_pin_enable_failed">No es pot activar el PIN.</string>
+    <string name="sim_pin_protection_mode_automatic">Automàtic (gestionat per Android)</string>
+    <string name="sim_pin_protection_mode_manual">Manual</string>
     <string name="sim_pin_toggle">Bloqueja la SIM</string>
     <string name="sim_pins_dont_match">Els PIN no coincideixen</string>
     <string name="sim_platform_managed_pin_failure">"No s'ha pogut obtenir el PIN"</string>
     <string name="sim_platform_managed_pin_value">Valor del PIN gestionat per Android:</string>
     <string name="sim_preferred_message">Ara %1$s és la teva SIM principal</string>
-    <string name="sim_protection_mode_lskf_required">"Per activar la protecció de la SIM, la pantalla de bloqueig ha d'estar configurada"</string>
-    <string name="sim_protection_mode_manually_managed">El PIN de la SIM es gestiona manualment</string>
+    <string name="sim_protection_mode_lskf_required">Cal una pantalla de bloqueig per a la protecció automàtica de la SIM; ara només està disponible el mode manual.</string>
+    <string name="sim_protection_mode_manually_managed">Cal el PIN per utilitzar el telèfon</string>
     <string name="sim_protection_mode_protected_by_platform">PIN de la SIM gestionat per Android</string>
     <string name="sim_radio_off">Desactivat</string>
     <string name="sim_reenter_new">Torna a escriure el PIN nou</string>
@@ -13008,6 +13023,7 @@ Quan obris una aplicació utilitzant un widget, hauràs de verificar la teva ide
     <string name="wifi_assistant_auto_confirm_data_message">Feu servir xarxes de dades mòbils quan el vostre dispositiu no es pugui connectar a internet per la Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">"No m'ho tornis a preguntar"</string>
     <string name="wifi_assistant_confirm_connection_title">No es pot connectar a Internet</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Connexió Wi-Fi pobre</string>
     <string name="wifi_assistant_data_prompt">Avís</string>
     <string name="wifi_assistant_data_prompt_summary">"Mostra alerta d'ús de dades en canviar a dades mòbils"</string>
     <string name="wifi_assistant_description">"A continuació, es mostra utilitzar aquesta funció:

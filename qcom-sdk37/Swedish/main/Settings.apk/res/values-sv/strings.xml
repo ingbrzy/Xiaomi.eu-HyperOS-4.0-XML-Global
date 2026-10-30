@@ -1367,7 +1367,7 @@ Samtal, meddelanden och nätverkstrafik kan vara synliga för organisationen."</
     <string name="automatic_brightness">Automatisk ljusstyrka</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Stäng av Ansiktsupplåsning först, för att kunna justera ljusstyrkan automatisk</string>
     <string name="automatic_keyboard_layout_label">Automatiskt: %s</string>
-    <string name="automatic_sim_lock_protection">Automatiskt SIM-låsskydd</string>
+    <string name="automatic_sim_lock_protection">Skyddsläge med SIM-lås</string>
     <string name="automatic_sim_lock_settings_title">Skydda SIM-kortet</string>
     <string name="automatic_storage_manager_activation_warning">Ditt lagringsutrymme hanteras nu av lagringshanteraren</string>
     <string name="automatic_storage_manager_days_title">Ta bort foton och videor</string>
@@ -2750,6 +2750,8 @@ Om den här behörigheten är aktiverad blir appen tillgänglig som alternativ n
     <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
     <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
     <string name="charge_length_format">för %1$s sedan</string>
+    <string name="charge_light_state_summary">Tänd baklyset medan du laddar</string>
+    <string name="charge_light_state_title">Laddningsljuseffekter</string>
     <string name="charging_sounds_title">Laddningsljud och -vibration</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Sök efter uppdateringar</string>
@@ -2821,6 +2823,7 @@ Prestandapanelen för chipp"</string>
     <string name="choose_profile">Välj profil</string>
     <string name="choose_sim_activating">Aktiverar …</string>
     <string name="choose_sim_could_not_activate">Det går inte att aktivera detta SIM just nu</string>
+    <string name="choose_sim_pin_protection_mode">Välj skyddsläge för SIM-kort</string>
     <string name="choose_sim_text">{count,plural, =1{1 SIM-kort har lagts till på den här enheten, men du kan bara använda ett i taget}=2{2 SIM-kort har lagts till på den här enheten, men du kan bara använda ett i taget}other{# SIM-kort har lagts till på den här enheten, men du kan bara använda ett i taget}}</string>
     <string name="choose_sim_title">Välj vilket SIM-kort du vill använda</string>
     <string name="choose_smartcover_type">Välj fodraltyp</string>
@@ -2957,6 +2960,7 @@ Prestandapanelen för chipp"</string>
     <string name="color_led_summary">Fungerar inte i DND-läge</string>
     <string name="color_led_title">LED-ljus</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Blandad färg %d</string>
     <string name="color_mode_all_apps">Alla appar</string>
     <string name="color_mode_option_automatic">Adaptiva</string>
     <string name="color_mode_option_boosted">Förstärkta</string>
@@ -3051,6 +3055,8 @@ Prestandapanelen för chipp"</string>
     <string name="confirm_frp_credential_title">Lås upp efter fabriksåterställning</string>
     <string name="confirm_lock_pattern_header_text">Rita ditt mönster</string>
     <string name="confirm_new_backup_pw_prompt">Upprepa det nya lösenordet för den fullständiga säkerhetskopian här</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Pinkoderna matchar inte. Bekräfta den nya pinkoden för SIM-kortet.</string>
+    <string name="confirm_new_sim_pin_title">Bekräfta ny pinkod för SIM-kortet</string>
     <string name="confirm_oem_unlock_for_16k_text">Starthanteraren måste vara upplåst på den här enheten innan du kan använda utvecklaralternativet för 16 kB. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. Alla användaruppgifter och inställningar rensas när 16 kB-läget aktiveras. När starthanteraren har låsts upp krävs två omstarter för att aktivera 16 kB-alternativet. När läget är aktiverat kan du byta fram och tillbaka mellan 4 kB och 16 kB genom att starta om. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återställa produktionsläget på enheten måste du byta tillbaka till 4 kB-läget och låsa OEM/starthanteraren. Enheten återställs då till standardinställningarna. Lås upp starthanteraren och försök igen. Du hittar anvisningar om hur du gör detta på &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Starthanteraren måste låsas upp</string>
     <string name="confirm_pad_clone_password">Bekräfta lösenordet för plattans sekundära utrymme</string>
@@ -4233,6 +4239,8 @@ Det här hjälper till att skydda data i förlorade eller stulna enheter. Kräv 
     <string name="enroll_fingerprint">Registrera fingeravtryck</string>
     <string name="enrollment_completed">Klart</string>
     <string name="enter_current_lock_screen_password">Ange ditt skärmlås</string>
+    <string name="enter_current_sim_pin_after_mismatch">Fel pinkod. %1$d försök återstår</string>
+    <string name="enter_current_sim_pin_hint">Ange den nuvarande pinkoden för SIM-kortet</string>
     <string name="enterprise_mode">Företagsläge</string>
     <string name="enterprise_privacy_always_on_vpn_device">Alltid på-VPN har aktiverats</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Alltid på-VPN har aktiverats i din personliga profil</string>
@@ -4705,6 +4713,7 @@ Kontakta långivaren om du vill veta mer."</string>
     <string name="firewall_wifi_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med Wi-Fi när denna funktion är av.</string>
     <string name="firmware_version">Androidversion</string>
     <string name="first_day_of_week_preferences_title">Första dagen i veckan</string>
+    <string name="first_sim_card_slot_title">Första SIM-kortplatsen</string>
     <string name="fiveg_nrca_switch_summary">Förbättra 5G-anslutningen för testmiljöer</string>
     <string name="fiveg_nrca_switch_title">5G operatörsaggregation</string>
     <string name="fiveg_sa_switch_summary">Använd SA-nätverk på sekundärt SIM (endast för test)</string>
@@ -7728,7 +7737,7 @@ Välj ditt operativsystem:"</string>
     <string name="network_and_internet_preferences_title">Nätverksinställningar</string>
     <string name="network_assistant">Dataanvändning</string>
     <string name="network_auto_switch">Växla mellan nätverk</string>
-    <string name="network_auto_switch_summery">Växla till mobildata när wi-fi-singalen är svag eller nätverket inte är tillgängligt</string>
+    <string name="network_auto_switch_summery">När wifi-kvaliteten är dålig växlar du till ett annat tillgängligt wifi-nätverk eller använder mobildata. Användning av mobildata kan ge upphov till ytterligare avgifter.</string>
     <string name="network_changed_noti_summary">Använder mobildata</string>
     <string name="network_changed_noti_title">Frånkopplad från Wi-Fi</string>
     <string name="network_changed_notification_text">Mobilnätverket har ändrats</string>
@@ -8436,6 +8445,8 @@ Läs och acceptera %s innan du använder den här tjänsten."</string>
     <string name="peak_refresh_rate_summary">Höjer automatiskt uppdateringsfrekvensen till %1$d Hz för visst innehåll. Ökar batteriförbrukningen.</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Visa ikoner för inkommande notifikationer</string>
+    <string name="peep_protection_v2_banner_summary">Prova sekretessvisningsfunktioner som är exklusiva för den här enhetsmodellen</string>
+    <string name="peep_protection_v2_main_tile_label">Smart sekretessvisning</string>
     <string name="performance_category">Prestanda</string>
     <string name="perm_toggle_description">För appar och tjänster</string>
     <string name="permission_action_prompt">Fråga</string>
@@ -9164,6 +9175,7 @@ Om någon ansluter din enhet till en dator eller installerar skadliga appar på 
     <string name="protect_eyes_mode">Läsläge</string>
     <string name="provide_current_sim_pin">Ange den nuvarande pinkoden för SIM-kortet</string>
     <string name="provide_current_sim_pin_title">Ange nuvarande pinkod för SIM-kortet</string>
+    <string name="provide_new_sim_pin_title">Ny pinkod för SIM-kort</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIM-kort</string>
     <string name="provision_activation">Aktiv</string>
@@ -10107,6 +10119,7 @@ Så här fäster du appar: \t
     <string name="search_xspace">Dubbel app;Dubbla app;Dubbel app;Dubbla appar;Klonapp;Klonappar;Appklon;Appkloner; Två konton;2 konton</string>
     <string name="searchview_clear_text_content_description">Rensa text</string>
     <string name="searchview_navigation_content_description">Tillbaka</string>
+    <string name="second_sim_card_slot_title">Andra SIM-kortplatsen</string>
     <string name="second_space">Sekundärt utrymme</string>
     <string name="secondspace_category">Sekundära utrymmet</string>
     <string name="secondspace_delete_space_title">Ta bort Sekundära utrymmet</string>
@@ -10804,7 +10817,7 @@ När du byter SIM-kort avslutas inte tjänsten från %1$s."</string>
     <string name="sim_action_switch_sub_dialog_title">Vill du byta till %1$s?</string>
     <string name="sim_action_turn_off">Inaktivera</string>
     <string name="sim_action_yes">Ja</string>
-    <string name="sim_auto_pin_management_toggle">Automatisk pinkodshantering</string>
+    <string name="sim_auto_pin_management_toggle">Lås SIM-kort</string>
     <string name="sim_bad_pin">PIN måste innehålla %1$d - %2$d siffror</string>
     <string name="sim_calls_always_use">Använd alltid för samtal</string>
     <string name="sim_calls_ask_first_prefs_title">Fråga varje gång</string>
@@ -10823,7 +10836,7 @@ När du byter SIM-kort avslutas inte tjänsten från %1$s."</string>
     <string name="sim_change_failed_enable_sim_lock">Kunde inte ändra PIN. Slå på SIM-lås nu.</string>
     <string name="sim_change_pin">Pinkod för SIM-kort</string>
     <string name="sim_change_succeeded">SIM-kortets PIN-kod har ändrats</string>
-    <string name="sim_choose_protection_mode_title">Skydda SIM-kortet mot stöld</string>
+    <string name="sim_choose_protection_mode_title">Pinkod krävs för att använda telefonen</string>
     <string name="sim_combination_warning_notification_title">Problem med SIM-kombination</string>
     <string name="sim_disable_sim_lock">Lås upp SIM-kortet</string>
     <string name="sim_display_platform_managed_pin">Pinkod som hanteras av Android</string>
@@ -10871,13 +10884,15 @@ När du byter SIM-kort avslutas inte tjänsten från %1$s."</string>
     <string name="sim_pin_change">Byt pinkod</string>
     <string name="sim_pin_disable_failed">Det gick inte att inaktivera pinkoden.</string>
     <string name="sim_pin_enable_failed">Det gick inte att aktivera pinkoden.</string>
+    <string name="sim_pin_protection_mode_automatic">Automatiskt (hanteras av Android)</string>
+    <string name="sim_pin_protection_mode_manual">Manuell</string>
     <string name="sim_pin_toggle">Lås SIM-kort</string>
     <string name="sim_pins_dont_match">PIN-koderna matchar inte</string>
     <string name="sim_platform_managed_pin_failure">Det gick inte att hämta pinkoden</string>
     <string name="sim_platform_managed_pin_value">Värde för pinkod som hanteras av Android:</string>
     <string name="sim_preferred_message">%1$s är nu ditt primära SIM-kort</string>
-    <string name="sim_protection_mode_lskf_required">Du måste ställa in skärmlås för att aktivera SIM-skydd</string>
-    <string name="sim_protection_mode_manually_managed">SIM-kortets pinkod hanteras manuellt</string>
+    <string name="sim_protection_mode_lskf_required">Skärmlås krävs för automatiskt SIM-skydd. Endast manuellt skydd är tillgängligt nu</string>
+    <string name="sim_protection_mode_manually_managed">Pinkod krävs för att använda telefonen</string>
     <string name="sim_protection_mode_protected_by_platform">SIM-kortets pinkod hanteras av Android</string>
     <string name="sim_radio_off">Av</string>
     <string name="sim_reenter_new">Skriv in ny pinkod igen</string>
@@ -13007,6 +13022,7 @@ Du måste verifiera din identitet innan du kan öppna en app med en widget. Tän
     <string name="wifi_assistant_auto_confirm_data_message">Använd mobildata-nätverk när din enhet inte kan ansluta till internet via Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Fråga inte igen</string>
     <string name="wifi_assistant_confirm_connection_title">Kan inte ansluta till Internet</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Dålig wifi-anslutning</string>
     <string name="wifi_assistant_data_prompt">Varna</string>
     <string name="wifi_assistant_data_prompt_summary">Visa varning för dataanvändning när du växlar till mobildata</string>
     <string name="wifi_assistant_description">"Så här fungerar denna funktion:

@@ -1387,7 +1387,7 @@ As chamadas, as mensagens e o tráfego de rede podem ser visíveis para a sua or
     <string name="automatic_brightness">Brilho automático</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Para ajustar o brilho automaticamente, desligue o Desbloqueio facial primeiro</string>
     <string name="automatic_keyboard_layout_label">Automático: %s</string>
-    <string name="automatic_sim_lock_protection">Proteção de bloqueio automático do SIM</string>
+    <string name="automatic_sim_lock_protection">Modo de proteção de bloqueio do SIM</string>
     <string name="automatic_sim_lock_settings_title">Proteger cartão SIM</string>
     <string name="automatic_storage_manager_activation_warning">O seu armazenamento está agora a ser gerido pelo gestor de armazenamento</string>
     <string name="automatic_storage_manager_days_title">Remover fotos e vídeos</string>
@@ -2777,6 +2777,8 @@ Se esta autorização for ativada, a app vai ficar disponível como opção semp
     <string name="character_counter_content_description">Carateres introduzidos: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">Limite de carateres excedido: %1$d de %2$d</string>
     <string name="charge_length_format">Há %1$s</string>
+    <string name="charge_light_state_summary">Acender a luz traseira durante o carregamento</string>
+    <string name="charge_light_state_title">Efeitos luminosos de carregamento</string>
     <string name="charging_sounds_title">Sons/vibração de carregamento</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Verificar por atualizações</string>
@@ -2851,6 +2853,7 @@ Painel de desempenho do circuito integrado"</string>
     <string name="choose_profile">Escolha o perfil</string>
     <string name="choose_sim_activating">A ativar…</string>
     <string name="choose_sim_could_not_activate">Não foi possível ativar este SIM neste momento</string>
+    <string name="choose_sim_pin_protection_mode">Escolha o modo de proteção do SIM</string>
     <string name="choose_sim_text">{count,plural, =1{Está disponível 1 SIM neste dispositivo, mas só pode usar um de cada vez}=2{Estão disponíveis 2 SIMs neste dispositivo, mas só pode usar um de cada vez}other{Estão disponíveis # SIMs neste dispositivo, mas só pode usar um de cada vez}}</string>
     <string name="choose_sim_title">Escolha um SIM para usar</string>
     <string name="choose_smartcover_type">Selecionar tipo de capa</string>
@@ -2987,6 +2990,7 @@ Painel de desempenho do circuito integrado"</string>
     <string name="color_led_summary">Não funciona no Não incomodar</string>
     <string name="color_led_title">Luz de LED</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Cor misturada %d</string>
     <string name="color_mode_all_apps">Todas as aplicações</string>
     <string name="color_mode_option_automatic">Adaptável</string>
     <string name="color_mode_option_boosted">Amplificadas</string>
@@ -3081,6 +3085,8 @@ Painel de desempenho do circuito integrado"</string>
     <string name="confirm_frp_credential_title">Desbloqueio após reposição de fábrica</string>
     <string name="confirm_lock_pattern_header_text">Desenhe o padrão</string>
     <string name="confirm_new_backup_pw_prompt">Reintroduza a nova palavra-passe da cópia de segurança completa aqui</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Os PINs não coincidem. Confirme o novo PIN do SIM.</string>
+    <string name="confirm_new_sim_pin_title">Confirme o novo PIN do SIM</string>
     <string name="confirm_oem_unlock_for_16k_text">Este dispositivo precisa de desbloquear o carregador de arranque antes de usar a opção de programador de 16 KB. A integridade do software não pode ser garantida neste modo e quaisquer dados armazenados no telemóvel enquanto o carregador de arranque estiver desbloqueado podem estar em risco. Todos os dados e definições do utilizador são limpos com a ativação do modo de 16 KB. Uma vez desbloqueado o carregador de arranque, a ativação da opção de 16 KB requer reiniciar 2 vezes. Quando este modo estiver ativado, pode alternar entre os modos de 4 KB e 16 KB depois de reiniciar uma vez. Algumas funcionalidades são desativadas nestes modos, por isso, algumas apps podem não funcionar. Para voltar a definir o modo de produção no dispositivo, precisa de voltar a ativar o modo de 4 KB e, de seguida, bloquear o OEM/carregador de arranque (o que repõe as definições de fábrica do dispositivo). Desbloqueie o carregador de arranque e tente novamente. Pode ver instruções sobre como o fazer em &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Desbloqueio do carregador de arranque necessário</string>
     <string name="confirm_pad_clone_password">Confirme a palavra-passe do Segundo Espaço do seu tablet</string>
@@ -3097,7 +3103,7 @@ Painel de desempenho do circuito integrado"</string>
     <string name="confirm_your_mixed_password">Confirmar palavra-passe</string>
     <string name="confirmation_turn_on">Ativar</string>
     <string name="connect_group">Grupo de conexão</string>
-    <string name="connect_min_dots">Ligue ao menos %1$d pontos</string>
+    <string name="connect_min_dots">Ligue pelo menos %1$d pontos</string>
     <string name="connect_mode">Tipo de ligação</string>
     <string name="connect_to_internet">Ligar à rede</string>
     <string name="connect_to_windows">Vincular ao Windows</string>
@@ -4270,7 +4276,9 @@ Isso ajuda a proteger os dados em dispositivos perdidos ou roubados. Exigir um P
     <string name="enroll_face">Adicionar dados faciais</string>
     <string name="enroll_fingerprint">Registar impressão digital</string>
     <string name="enrollment_completed">Concluído</string>
-    <string name="enter_current_lock_screen_password">Insira o seu bloqueio de ecrã</string>
+    <string name="enter_current_lock_screen_password">Introduza o seu bloqueio de ecrã</string>
+    <string name="enter_current_sim_pin_after_mismatch">PIN incorreto. Tentativas restantes: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Introduza o código PIN atual do cartão SIM</string>
     <string name="enterprise_mode">Modo Empresarial</string>
     <string name="enterprise_privacy_always_on_vpn_device">A opção VPN sempre ligada está ativada</string>
     <string name="enterprise_privacy_always_on_vpn_personal">A opção VPN sempre ligada está ativada no seu perfil pessoal</string>
@@ -4520,13 +4528,13 @@ Adicione um bloqueio de ecrã antes de adicionar os seus dados faciais."</string
     <string name="face_lock_feature_name">Bloqueio de aplicações</string>
     <string name="face_password_unlock">Dados faciais e bloqueio de ecrã</string>
     <string name="face_password_unlock_new">Dados faciais e bloqueio de ecrã</string>
-    <string name="face_recognition_2d">Reconhecimento 2D de dados faciais</string>
+    <string name="face_recognition_2d">Reconhecimento facial 2D</string>
     <string name="face_recognition_warning">O desbloqueio facial é menos seguro do que as palavras-passe e as impressões digitais. O seu dispositivo pode ser desbloqueado por uma fotografia, por uma pessoa parecida consigo ou por determinados objetos.</string>
     <string name="face_settings">Definições de dados faciais</string>
     <string name="face_unlock">Desbloqueio facial</string>
     <string name="face_unlock_app_lock_desc">Pode usar os seus dados faciais para desbloquear aplicações.</string>
     <string name="face_unlock_be_on_the_screen">Mantenha o dispositivo à frente do seu rosto</string>
-    <string name="face_unlock_by_notification_screen_on_msg">Pode desbloquear o dispositivo com os dados faciais quando o ecrã ligar a luz para mostrar as notificações. Isto pode drenar a sua bateria rapidamente.</string>
+    <string name="face_unlock_by_notification_screen_on_msg">Pode desbloquear o dispositivo com os dados faciais quando o ecrã se acender para mostrar as notificações. Isto pode consumir a sua bateria rapidamente.</string>
     <string name="face_unlock_by_notification_screen_on_title">Permitir Desbloqueio facial quando o ecrã ligar</string>
     <string name="face_unlock_category_title">Opções do Ecrã de bloqueio</string>
     <string name="face_unlock_check_failed">O reconhecimento não foi possível</string>
@@ -4655,7 +4663,7 @@ Para saber mais, contacte o seu fornecedor de crédito."</string>
     <string name="find_my_device_enable">Ligado</string>
     <string name="find_my_device_summary">Esta funcionalidade requer iniciar a sessão na Conta Xiaomi</string>
     <string name="finger_add_user_info_dialog_cancel">Cancelar</string>
-    <string name="finger_add_user_info_dialog_message">Para poder utilizar o Desbloqueio por impressão digital e fazer pagamentos com impressão digital, precisamos recolhê-la. A impressão digital será armazenada localmente neste dispositivo. Para a eliminar, procure por \"Desbloqueio por impressão digital\" nas Definições e então selecione Desbloqueio por impressão digital > Impressão digital. Não poderá utilizar esta funcionalidade caso não aceite a recolha.</string>
+    <string name="finger_add_user_info_dialog_message">Para poder utilizar o Desbloqueio por impressão digital e fazer pagamentos com impressão digital, precisamos recolhê-la. A impressão digital será armazenada localmente neste dispositivo. Para a eliminar, procure por \"Desbloqueio por impressão digital\" nas Definições e, em seguida, selecione Desbloqueio por impressão digital > Impressão digital. Não poderá utilizar esta funcionalidade caso não aceite a recolha.</string>
     <string name="finger_add_user_info_dialog_next">Aceitar</string>
     <string name="finger_add_user_info_dialog_title">Atenção</string>
     <string name="finger_detail_info_text">Renomear impressão digital</string>
@@ -4701,7 +4709,7 @@ Para saber mais, contacte o seu fornecedor de crédito."</string>
     <string name="fingerprint_not_recognized">Não reconhecido</string>
     <string name="fingerprint_others_title">Outros</string>
     <string name="fingerprint_password_unlock">Impressões digitais e bloqueio de ecrã</string>
-    <string name="fingerprint_payment">Pagamentos por Impressão digital</string>
+    <string name="fingerprint_payment">Pagamentos por impressão digital</string>
     <string name="fingerprint_privacy_desc">Pode usar a sua impressão digital para aceder a álbuns privados, mensagens, notas, ficheiros, memória do Xiaomi Hyper XiaoAi, Bloqueio de aplicações, e ferramentas de gestão de palavras-passe.</string>
     <string name="fingerprint_privacy_policy"><Data>Leia e aceite a &lt;font color=\"#2E2E2E\">&lt;a href=\"%1$s\">Declaração de Privacidade para \"Impressões digitais e Bloqueio de ecrã\"&lt;/a> antes de continuar.&lt;/font></Data></string>
     <string name="fingerprint_protection">Proteção de impressão digital</string>
@@ -4748,6 +4756,7 @@ Para saber mais, contacte o seu fornecedor de crédito."</string>
     <string name="firewall_wifi_dialog_message">A aplicação instalada não poderá ligar-se à Internet através de Wi-Fi enquanto esta opção estiver desligada.</string>
     <string name="firmware_version">Versão Android</string>
     <string name="first_day_of_week_preferences_title">Primeiro dia da semana</string>
+    <string name="first_sim_card_slot_title">Primeira ranhura para cartão SIM</string>
     <string name="fiveg_nrca_switch_summary">Otimizar a ligação 5G para ambientes de teste</string>
     <string name="fiveg_nrca_switch_title">Agregação de operador 5G</string>
     <string name="fiveg_sa_switch_summary">Utilizar rede SA no SIM secundário (apenas para testes)</string>
@@ -6135,7 +6144,7 @@ Se perder o seu dispositivo, esta verificação adicional pode ajudar a impedir 
     <string name="learn_more">Saber mais</string>
     <string name="leave_lockscreen_summary">O dispositivo bloqueará quando se afastar do ecrã</string>
     <string name="leave_loclscreen_summary">O ecrã bloqueará automaticamente quando ficar a uma certa distância do seu dispositivo</string>
-    <string name="leave_loclscreen_title">Bloquear ecrã ao sair</string>
+    <string name="leave_loclscreen_title">Bloquear ecrã ao afastar-se</string>
     <string name="led_colors_summary">Cor do LED das notificações</string>
     <string name="led_frequence_summary">Definir intervalo de pulso para a luz de LED</string>
     <string name="led_pulse_summary">Pulsar para notificações</string>
@@ -7810,7 +7819,7 @@ Selecione o seu sistema operativo:"</string>
     <string name="network_and_internet_preferences_title">Preferências de rede</string>
     <string name="network_assistant">Utilização de dados</string>
     <string name="network_auto_switch">Alternar entre redes</string>
-    <string name="network_auto_switch_summery">Alternar para dados móveis quando o sinal do Wi-Fi estiver fraco ou a rede estiver indisponível</string>
+    <string name="network_auto_switch_summery">Se a qualidade da rede Wi-Fi for fraca, mude para outra rede Wi-Fi disponível ou utilize dados móveis. A utilização de dados móveis pode implicar custos adicionais.</string>
     <string name="network_changed_noti_summary">A utilizar dados móveis</string>
     <string name="network_changed_noti_title">Desligado do Wi-Fi</string>
     <string name="network_changed_notification_text">A sua rede móvel foi alterada</string>
@@ -8539,6 +8548,8 @@ Leia e aceite a %s antes de utilizar este serviço."</string>
     <string name="peak_refresh_rate_summary">Aumenta automaticamente a taxa de atualização para %1$d Hz para algum conteúdo. Aumenta a utilização da bateria.</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Mostrar ícones para as notificações recebidas</string>
+    <string name="peep_protection_v2_banner_summary">Experimente as funcionalidades do ecrã de privacidade para este modelo de dispositivo</string>
+    <string name="peep_protection_v2_main_tile_label">Ecrã de privacidade inteligente</string>
     <string name="performance_category">Desempenho</string>
     <string name="perm_toggle_description">Para apps e serviços</string>
     <string name="permission_action_prompt">Perguntar</string>
@@ -8667,6 +8678,7 @@ Leia e aceite a %s antes de utilizar este serviço."</string>
     <string name="photography_handle_update_and_maintain">Atualizações</string>
     <string name="physical_keyboard_layout_picker_title">Seletor de esquema de tecl. físico</string>
     <string name="physical_keyboard_title">Teclado físico</string>
+    <string name="pick_up_gesture_wakeup_not_effect_summary">Não funciona quando o ecrã traseiro está ligado</string>
     <string name="pick_up_gesture_wakeup_title">Levantar para ligar o ecrã</string>
     <string name="picker_text">Seletor de hora</string>
     <string name="picture_color_mode">Modo de cor da imagem</string>
@@ -9273,6 +9285,7 @@ Qualquer pessoa que ligue o seu dispositivo a um computador ou instale apps mali
     <string name="protect_eyes_mode">Modo de leitura</string>
     <string name="provide_current_sim_pin">Introduza o PIN atual do cartão SIM</string>
     <string name="provide_current_sim_pin_title">Introduza o PIN atual do SIM</string>
+    <string name="provide_new_sim_pin_title">Novo PIN do SIM</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIMs</string>
     <string name="provision_activation">Ativo</string>
@@ -10229,6 +10242,7 @@ Para usar a fixação de apps: \t
     <string name="search_xspace">Aplicação clonada;Aplicações clonadas;Aplicação dupla;Aplicações duplas;Clonar aplicação;Clonar aplicações;Aplicação clonada;Aplicações clonadas;Duas contas;2 contas</string>
     <string name="searchview_clear_text_content_description">Limpar texto</string>
     <string name="searchview_navigation_content_description">Anterior</string>
+    <string name="second_sim_card_slot_title">Segunda ranhura para cartão SIM</string>
     <string name="second_space">Segundo Espaço</string>
     <string name="secondspace_category">Segundo Espaço</string>
     <string name="secondspace_delete_space_title">Eliminar Segundo Espaço</string>
@@ -10926,7 +10940,7 @@ Mudar não cancela o seu serviço da operadora %1$s."</string>
     <string name="sim_action_switch_sub_dialog_title">Mudar para %1$s?</string>
     <string name="sim_action_turn_off">Desativar</string>
     <string name="sim_action_yes">Sim</string>
-    <string name="sim_auto_pin_management_toggle">Gestão automática do PIN</string>
+    <string name="sim_auto_pin_management_toggle">Bloquear SIM</string>
     <string name="sim_bad_pin">O PIN deve conter %1$d-%2$d dígitos</string>
     <string name="sim_calls_always_use">Usar sempre este para chamadas</string>
     <string name="sim_calls_ask_first_prefs_title">Perguntar sempre</string>
@@ -10945,7 +10959,7 @@ Mudar não cancela o seu serviço da operadora %1$s."</string>
     <string name="sim_change_failed_enable_sim_lock">Não foi possível alterar o PIN. Ligue o bloqueio do cartão SIM agora.</string>
     <string name="sim_change_pin">PIN do SIM</string>
     <string name="sim_change_succeeded">PIN do SIM alterado com sucesso</string>
-    <string name="sim_choose_protection_mode_title">Proteger cartão SIM contra roubo</string>
+    <string name="sim_choose_protection_mode_title">Exigir o PIN para usar o telemóvel</string>
     <string name="sim_combination_warning_notification_title">Problema com a combinação de SIMs</string>
     <string name="sim_disable_sim_lock">Desbloqueie o SIM</string>
     <string name="sim_display_platform_managed_pin">PIN gerido pelo Android</string>
@@ -10990,16 +11004,18 @@ Mudar não cancela o seu serviço da operadora %1$s."</string>
     <string name="sim_onboarding_setup">Começar</string>
     <string name="sim_pin_auto_management_off">Não gerido pelo Android</string>
     <string name="sim_pin_auto_management_on">Gerido pelo Android</string>
-    <string name="sim_pin_change">Alterar o PIN do cartão SIM</string>
+    <string name="sim_pin_change">Alterar PIN do SIM</string>
     <string name="sim_pin_disable_failed">Não é possível desativar o PIN.</string>
     <string name="sim_pin_enable_failed">Não é possível ativar o PIN.</string>
+    <string name="sim_pin_protection_mode_automatic">Automático (gerido pelo Android)</string>
+    <string name="sim_pin_protection_mode_manual">Manual</string>
     <string name="sim_pin_toggle">Bloquear SIM</string>
     <string name="sim_pins_dont_match">Os PINs não coincidem</string>
     <string name="sim_platform_managed_pin_failure">Falha ao aceder ao PIN</string>
     <string name="sim_platform_managed_pin_value">Valor do PIN gerido pelo Android:</string>
     <string name="sim_preferred_message">%1$s é agora o seu SIM principal</string>
-    <string name="sim_protection_mode_lskf_required">Tem de configurar o ecrã de bloqueio para ativar a proteção do SIM</string>
-    <string name="sim_protection_mode_manually_managed">PIN do SIM gerido manualmente</string>
+    <string name="sim_protection_mode_lskf_required">O ecrã de bloqueio é necessário para a proteção automática do SIM. Atualmente, só está disponível a opção manual</string>
+    <string name="sim_protection_mode_manually_managed">É necessário o PIN para usar o telemóvel</string>
     <string name="sim_protection_mode_protected_by_platform">PIN do SIM gerido pelo Android</string>
     <string name="sim_radio_off">Desligado</string>
     <string name="sim_reenter_new">Reintroduza o novo PIN</string>
@@ -13133,6 +13149,7 @@ Quando abre uma app através de um widget, tem de validar a sua identidade. Alé
     <string name="wifi_assistant_auto_confirm_data_message">Utilizar redes de dados móveis quando o seu dispositivo não conseguir se ligar à Internet via Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Não perguntar novamente</string>
     <string name="wifi_assistant_confirm_connection_title">Não é possível ligar à Internet</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Ligação Wi-Fi fraca</string>
     <string name="wifi_assistant_data_prompt">Alerta</string>
     <string name="wifi_assistant_data_prompt_summary">Mostrar alerta da utilização de dados ao mudar para os dados móveis</string>
     <string name="wifi_assistant_description">"A funcionalidade trabalha da seguinte forma:

@@ -1367,7 +1367,7 @@ Skambučiai, pranešimai ir tinklo srautas gali būti rodomi jūsų organizacija
     <string name="automatic_brightness">Automatinis ryškumas</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Kad galėtumėte automatiškai reguliuoti ryškumą, pirmiausia išjunkite veido atpažinimą.</string>
     <string name="automatic_keyboard_layout_label">Automatinis: %s</string>
-    <string name="automatic_sim_lock_protection">Automatinė SIM kortelės užrakto apsauga</string>
+    <string name="automatic_sim_lock_protection">SIM kortelės užrakto apsaugos režimas</string>
     <string name="automatic_sim_lock_settings_title">Apsaugoti SIM kortelę</string>
     <string name="automatic_storage_manager_activation_warning">Saugyklą dabar tvarko saugyklos valdytojas</string>
     <string name="automatic_storage_manager_days_title">Pašalinti nuotraukas ir vaizdo įrašus</string>
@@ -2750,6 +2750,8 @@ Jei šis leidimas įjungtas, programa bus pasiekiama kaip parinktis, kai žyma b
     <string name="character_counter_content_description">Įvesta simbolių: %1$d iš %2$d</string>
     <string name="character_counter_overflowed_content_description">Viršytas simbolių skaičius: %1$d iš %2$d</string>
     <string name="charge_length_format">Prieš %1$s</string>
+    <string name="charge_light_state_summary">Įkraudami uždekite galinę šviesą</string>
+    <string name="charge_light_state_title">Įkrovimo šviesos efektai</string>
     <string name="charging_sounds_title">Įkrovimo garsai ir vibravimas</string>
     <string name="check_find_device_status_failure_confirm">Gerai</string>
     <string name="check_update">Tikrinti, ar yra atnaujinimų</string>
@@ -2821,6 +2823,7 @@ lustų našumo skydelio"</string>
     <string name="choose_profile">Profilio pasirinkimas</string>
     <string name="choose_sim_activating">Įjungiama…</string>
     <string name="choose_sim_could_not_activate">Šiuo metu nepavyko įjungti šios SIM kortelės</string>
+    <string name="choose_sim_pin_protection_mode">Pasirinkite SIM kortelės apsaugos režimą</string>
     <string name="choose_sim_text">{count,plural, =1{1 SIM kortelė pasiekiama šiame įrenginyje, bet vienu metu galima naudoti tik vieną}=2{2 SIM kortelės pasiekiamos šiame įrenginyje, bet vienu metu galima naudoti tik vieną}one{# SIM kortelė pasiekiama šiame įrenginyje, bet vienu metu galima naudoti tik vieną}few{# SIM kortelės pasiekiamos šiame įrenginyje, bet vienu metu galima naudoti tik vieną}many{# SIM kortelės pasiekiama šiame įrenginyje, bet vienu metu galima naudoti tik vieną}other{# SIM kortelių pasiekiama šiame įrenginyje, bet vienu metu galima naudoti tik vieną}}</string>
     <string name="choose_sim_title">Pasirinkite norimą naudoti SIM kortelę</string>
     <string name="choose_smartcover_type">Pasirinkite dėklo tipą</string>
@@ -2957,6 +2960,7 @@ lustų našumo skydelio"</string>
     <string name="color_led_summary">Neveikia „Netrukdyti“ režimo metu</string>
     <string name="color_led_title">LED šviesa</string>
     <string name="color_magenta">Purpurinė</string>
+    <string name="color_mixed_light">Mišri spalva %d</string>
     <string name="color_mode_all_apps">Visos programos</string>
     <string name="color_mode_option_automatic">Prisitaikanti</string>
     <string name="color_mode_option_boosted">Suintensyvinta</string>
@@ -3051,6 +3055,8 @@ lustų našumo skydelio"</string>
     <string name="confirm_frp_credential_title">Atrakinti po gamyklinio atstatymo</string>
     <string name="confirm_lock_pattern_header_text">Nubrėžkite raštą</string>
     <string name="confirm_new_backup_pw_prompt">Čia iš naujo įveskite visą atsarginės kopijos slaptažodį</string>
+    <string name="confirm_new_sim_pin_after_mismatch">PIN kodai nesutampa. Patvirtinkite naują SIM kortelės PIN kodą.</string>
+    <string name="confirm_new_sim_pin_title">Patvirtinkite naują SIM kortelės PIN kodą</string>
     <string name="confirm_oem_unlock_for_16k_text">Kad būtų galima naudoti 16 KB kūrėjo parinktį, turi būti panaikintas šio įrenginio paleidyklės operatoriaus pasirinkimo ribojimas. Šiuo režimu negalima garantuoti programinės įrangos vientisumo ir visiems telefone saugomiems duomenims, kai panaikintas paleidyklės operatoriaus pasirinkimo ribojimas, gali kilti pavojus. Suaktyvinus 16 KB režimą, visi naudotojo duomenys ir nustatymai bus panaikinti. Panaikinus paleidyklės operatoriaus pasirinkimo ribojimą, norint suaktyvinti 16 KB parinktį, reikės du kartus paleisti iš naujo. Dirbdami šiuo režimu galėsite perjungti 4 KB ir 16 KB režimus paleidę iš naujo vieną kartą. Kai kurios funkcijos gali būti išjungtos šiais režimais, todėl kai kurios programos gali neveikti. Jei norite vėl įjungti įrenginio generavimo režimą, turite vėl perjungti į 4 KB režimą ir taikyti įrenginio OĮG ir (arba) paleidyklės užrakinimą (tada bus atkurti gamykliniai nustatymai). Panaikinkite paleidyklės operatoriaus pasirinkimo ribojimą ir bandykite dar kartą. Instrukcijas, kaip tai atlikti, rasite adresu &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Reikia atrakinti paleidyklę</string>
     <string name="confirm_pad_clone_password">Patvirtinkite planšetinio kompiuterio „Antrosios erdvės“ slaptažodį</string>
@@ -4234,6 +4240,8 @@ Tai padeda apsaugoti duomenis, jei įrenginį pametate arba jį pavogia. Sukurti
     <string name="enroll_fingerprint">Įrašyti piršto atspaudą</string>
     <string name="enrollment_completed">Atlikta</string>
     <string name="enter_current_lock_screen_password">Įveskite ekrano užraktą</string>
+    <string name="enter_current_sim_pin_after_mismatch">Netinkamas PIN kodas. Liko bandymų: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Įveskite dabartinį SIM kortelės PIN kodą</string>
     <string name="enterprise_mode">Įmonės režimas</string>
     <string name="enterprise_privacy_always_on_vpn_device">Visada įjungto VPN funkcija įjungta</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Visada įjungto VPN funkcija įjungta jūsų asmeniniame profilyje</string>
@@ -4706,6 +4714,7 @@ Jei norite sužinoti daugiau, susisiekite su kredito teikėju."</string>
     <string name="firewall_wifi_dialog_message">Kai šis jungiklis išjungtas, įdiegta programa nebegalės prisijungti prie interneto per „Wi-Fi“.</string>
     <string name="firmware_version">„Android“ versija</string>
     <string name="first_day_of_week_preferences_title">Pirma savaitės diena</string>
+    <string name="first_sim_card_slot_title">Pirmas SIM kortelės lizdas</string>
     <string name="fiveg_nrca_switch_summary">Pagerinti 5G ryšį testavimo aplinkoms</string>
     <string name="fiveg_nrca_switch_title">5G dažnių agregavimas</string>
     <string name="fiveg_sa_switch_summary">Naudokite SA ryšį antrinėje SIM (tik testavimui)</string>
@@ -7728,7 +7737,7 @@ Pasirinkite operacinę sistemą:"</string>
     <string name="network_and_internet_preferences_title">Tinklo nuostatos</string>
     <string name="network_assistant">Duomenų naudojimas</string>
     <string name="network_auto_switch">Perjungti tinklus</string>
-    <string name="network_auto_switch_summery">Naudoti mobiliojo ryšio duomenis, kai „Wi-Fi“ signalas silpnas arba kai tinklas nepasiekiamas</string>
+    <string name="network_auto_switch_summery">Kai „Wi-Fi“ ryšio kokybė prasta, perjunkite į kitą pasiekiamą „Wi-Fi“ tinklą arba naudokite mobiliuosius duomenis. Naudojant mobiliuosius duomenis gali būti taikomi papildomi mokesčiai.</string>
     <string name="network_changed_noti_summary">Naudojami mobilieji duomenys</string>
     <string name="network_changed_noti_title">Atjungta nuo „Wi-Fi“</string>
     <string name="network_changed_notification_text">Mobiliojo ryšio tinklas pakeistas</string>
@@ -8436,6 +8445,8 @@ Prieš naudodami šią paslaugą perskaitykite ir sutikite su %s."</string>
     <string name="peak_refresh_rate_summary">Automatiškai padidinamas kai kurio turinio atnaujinimo dažnis iki %1$d Hz. Vartojama daugiau akumuliatoriaus energijos.</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Rodyti gaunamų pranešimų piktogramas</string>
+    <string name="peep_protection_v2_banner_summary">Išbandykite išskirtines šio įrenginio modelio privatumo ekrano funkcijas</string>
+    <string name="peep_protection_v2_main_tile_label">Išmanusis privatumo ekranas</string>
     <string name="performance_category">Efektyvumas</string>
     <string name="perm_toggle_description">Programos ir paslaugos</string>
     <string name="permission_action_prompt">Klausti</string>
@@ -9164,6 +9175,7 @@ Asmenys, prijungę jūsų įrenginį prie kompiuterio ar įrenginyje įdiegę ke
     <string name="protect_eyes_mode">Skaitymo režimas</string>
     <string name="provide_current_sim_pin">Įveskite dabartinį SIM kortelės PIN kodą</string>
     <string name="provide_current_sim_pin_title">Įveskite dabartinį SIM kortelės PIN kodą</string>
+    <string name="provide_new_sim_pin_title">Naujas SIM kortelės PIN kodas</string>
     <string name="provider_internet_settings">Internetas</string>
     <string name="provider_network_settings_title">SIM</string>
     <string name="provision_activation">Suaktyvinta</string>
@@ -9769,7 +9781,7 @@ Visos programos jūsų erdvėje ir jų duomenys taip pat bus visam laikui ištri
     <string name="screen_paper_mode_update_white_pkg_list_privacy_title">Nuostatos ir sąlygos</string>
     <string name="screen_paper_mode_update_white_pkg_list_summary">Automatiškai naujinti programų, naudojančių skaitymo režimą, sąrašą</string>
     <string name="screen_paper_mode_update_white_pkg_list_title">Naujinti automatiškai</string>
-    <string name="screen_paper_texture">Struktūra</string>
+    <string name="screen_paper_texture">Tekstūra</string>
     <string name="screen_pinning_description">Prisegtos programos gali atidaryti kitas programas ir pasiekti jūsų asmeninę informaciją</string>
     <string name="screen_pinning_dialog_message">"Štai ką gali atlikti prisegtos programos:
 
@@ -10109,6 +10121,7 @@ Jei norite naudoti programos prisegimą, atlikite toliau nurodytus veiksmus. \t
     <string name="search_xspace">Dviguba programa;Dvigubos programos;Dvigubo paleidimo programa;Dvigubo paleidimo programos;Klonuoti programą;Klonuoti programas;Programos klonas;Programos klonai;Dvi paskyros;2 paskyros</string>
     <string name="searchview_clear_text_content_description">Išvalyti tekstą</string>
     <string name="searchview_navigation_content_description">Atgal</string>
+    <string name="second_sim_card_slot_title">Antras SIM kortelės lizdas</string>
     <string name="second_space">Antroji erdvė</string>
     <string name="secondspace_category">Antroji erdvė</string>
     <string name="secondspace_delete_space_title">Trinti „Antrąją erdvę“</string>
@@ -10806,7 +10819,7 @@ Perjungus jums teikiamos „%1$s“ paslaugos nebus atšauktos."</string>
     <string name="sim_action_switch_sub_dialog_title">Perjungti į „%1$s“?</string>
     <string name="sim_action_turn_off">Išjungti</string>
     <string name="sim_action_yes">Taip</string>
-    <string name="sim_auto_pin_management_toggle">Automatinis PIN kodo tvarkymas</string>
+    <string name="sim_auto_pin_management_toggle">Užrakinti SIM kortelę</string>
     <string name="sim_bad_pin">PIN turi būti sudarytas iš %1$d %2$d skaitmenų</string>
     <string name="sim_calls_always_use">Visada naudoti tai skambučiams</string>
     <string name="sim_calls_ask_first_prefs_title">Klausti kaskart</string>
@@ -10825,7 +10838,7 @@ Perjungus jums teikiamos „%1$s“ paslaugos nebus atšauktos."</string>
     <string name="sim_change_failed_enable_sim_lock">Nepavyko pakeisti PIN. Įjunkite SIM užraktą dabar.</string>
     <string name="sim_change_pin">SIM kortelės PIN kodas</string>
     <string name="sim_change_succeeded">SIM kortelės PIN kodas sėkmingai pakeistas</string>
-    <string name="sim_choose_protection_mode_title">Apsaugokite SIM kortelę nuo vagystės</string>
+    <string name="sim_choose_protection_mode_title">Reikalauti PIN kodo, kad būtų galima naudoti telefoną</string>
     <string name="sim_combination_warning_notification_title">Problema dėl SIM kortelių derinio</string>
     <string name="sim_disable_sim_lock">Atrakinti SIM kortelę</string>
     <string name="sim_display_platform_managed_pin">„Android“ tvarkomas PIN kodas</string>
@@ -10873,13 +10886,15 @@ Perjungus jums teikiamos „%1$s“ paslaugos nebus atšauktos."</string>
     <string name="sim_pin_change">Pakeisti SIM kortelės PIN kodą</string>
     <string name="sim_pin_disable_failed">Nepavyksta išjungti PIN kodo.</string>
     <string name="sim_pin_enable_failed">Nepavyksta įjungti PIN kodo.</string>
+    <string name="sim_pin_protection_mode_automatic">Automatinis („Android“ tvarkomas)</string>
+    <string name="sim_pin_protection_mode_manual">Neautomatinis</string>
     <string name="sim_pin_toggle">Užrakinti SIM kortelę</string>
     <string name="sim_pins_dont_match">PIN kodai nesutampa</string>
     <string name="sim_platform_managed_pin_failure">Nepavyko gauti PIN kodo</string>
     <string name="sim_platform_managed_pin_value">„Android“ tvarkomo PIN kodo vertė:</string>
     <string name="sim_preferred_message">„%1$s“ dabar yra pagrindinė SIM kortelė</string>
-    <string name="sim_protection_mode_lskf_required">Norint įjungti SIM kortelės apsaugą, turi būti nustatytas užrakinimo ekranas</string>
-    <string name="sim_protection_mode_manually_managed">SIM kortelės PIN kodas tvarkomas neautomatiškai</string>
+    <string name="sim_protection_mode_lskf_required">Norint naudoti automatinę SIM kortelės apsaugą, reikalingas užrakinimo ekranas; dabar pasiekiama tik neautomatinė apsauga</string>
+    <string name="sim_protection_mode_manually_managed">Norint naudoti telefoną, reikia PIN kodo</string>
     <string name="sim_protection_mode_protected_by_platform">„Android“ tvarko SIM kortelės PIN kodą</string>
     <string name="sim_radio_off">Išj.</string>
     <string name="sim_reenter_new">Dar kartą įveskite naują PIN kodą</string>
@@ -13022,6 +13037,7 @@ Kai atidarysite programą naudodami valdiklį, turėsite patvirtinti savo tapaty
     <string name="wifi_assistant_auto_confirm_data_message">Naudoti mobiliųjų duomenų tinklus, kai įrenginiui nepavyksta prisijungti prie interneto naudojant „Wi-Fi“.</string>
     <string name="wifi_assistant_confirm_always">Nebeklausti</string>
     <string name="wifi_assistant_confirm_connection_title">Nepavyksta prisijungti prie interneto</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Prastas „Wi-Fi“ ryšys</string>
     <string name="wifi_assistant_data_prompt">Įspėti</string>
     <string name="wifi_assistant_data_prompt_summary">Rodyti duomenų naudojimo įspėjimą, kai perjungiama į mobiliuosius duomenis</string>
     <string name="wifi_assistant_description">"Štai kaip ši funkcija veikia:

@@ -1387,7 +1387,7 @@ Votre organisation est susceptible de voir les appels, les messages et le trafic
     <string name="automatic_brightness">Luminosité automatique</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">"Pour pouvoir ajuster la luminosité automatiquement, désactivez d'abord le Déverrouillage facial"</string>
     <string name="automatic_keyboard_layout_label">Automatique : %s</string>
-    <string name="automatic_sim_lock_protection">Protection auto par verrouillage de SIM</string>
+    <string name="automatic_sim_lock_protection">Protection par verrouillage de carte SIM</string>
     <string name="automatic_sim_lock_settings_title">Protéger la carte SIM</string>
     <string name="automatic_storage_manager_activation_warning">"Votre espace de stockage est désormais géré par le gestionnaire d'espace de stockage."</string>
     <string name="automatic_storage_manager_days_title">Supprimer des photos et des vidéos</string>
@@ -2773,6 +2773,8 @@ Si cette autorisation est activée, l'appli sera disponible comme option chaque 
     <string name="character_counter_content_description">Caractères saisis %1$d sur %2$d</string>
     <string name="character_counter_overflowed_content_description">Nombre maximal de caractères dépassé : %1$d sur %2$d</string>
     <string name="charge_length_format">Il y a %1$s</string>
+    <string name="charge_light_state_summary">"Le rétroéclairage s'allume pendant la charge"</string>
+    <string name="charge_light_state_title">Effets lumineux de charge</string>
     <string name="charging_sounds_title">Sons et vibreur pour la recharge</string>
     <string name="check_find_device_status_failure_confirm">OK </string>
     <string name="check_update">Vérifier les mises à jour</string>
@@ -2847,6 +2849,7 @@ tableau de bord du rendement des puces"</string>
     <string name="choose_profile">Choisissez un profil</string>
     <string name="choose_sim_activating">Activation…</string>
     <string name="choose_sim_could_not_activate">"Impossible d'activer cette carte SIM pour le moment"</string>
+    <string name="choose_sim_pin_protection_mode">Choisir le mode de protection de la carte SIM</string>
     <string name="choose_sim_text">"{count,plural, =1{1 carte SIM est disponible sur cet appareil, mais vous ne pouvez en utiliser qu'une à la fois}=2{2 cartes SIM sont disponibles sur cet appareil, mais vous ne pouvez en utiliser qu'une à la fois}one{# carte SIM est disponible sur cet appareil, mais vous ne pouvez en utiliser qu'une à la fois}other{# cartes SIM sont disponibles sur cet appareil, mais vous ne pouvez en utiliser qu'une à la fois}}"</string>
     <string name="choose_sim_title">Choisir la carte SIM à utiliser</string>
     <string name="choose_smartcover_type">Sélectionnez le type de cas</string>
@@ -2983,6 +2986,7 @@ tableau de bord du rendement des puces"</string>
     <string name="color_led_summary">Ne fonctionne pas en mode NPD</string>
     <string name="color_led_title">Lumière LED</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Couleur mixte %d</string>
     <string name="color_mode_all_apps">Toutes les applications</string>
     <string name="color_mode_option_automatic">Adaptatives</string>
     <string name="color_mode_option_boosted">Rehaussées</string>
@@ -3077,6 +3081,8 @@ tableau de bord du rendement des puces"</string>
     <string name="confirm_frp_credential_title">"Déverrouiller après réinitialisation aux paramètres d'usine"</string>
     <string name="confirm_lock_pattern_header_text">Dessiner votre schéma</string>
     <string name="confirm_new_backup_pw_prompt">Confirmez ici votre nouveau mot de passe de sauvegarde complète.</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Les codes PIN ne correspondent pas. Confirmez le nouveau code PIN de la carte SIM.</string>
+    <string name="confirm_new_sim_pin_title">Confirmer le nouveau code PIN de la carte SIM</string>
     <string name="confirm_oem_unlock_for_16k_text">"Le bootloader de cet appareil doit être déverrouillé pour pouvoir utiliser l'option 16 ko pour les développeurs. L'intégrité du logiciel ne peut pas être garantie dans ce mode, et toute donnée stockée sur le téléphone alors que le bootloader est déverrouillé peut être exposée à un risque. L'ensemble des données et paramètres de l'utilisateur seront effacés après l'activation du mode 16 ko. Une fois le bootloader déverrouillé, l'activation du mode 16 ko nécessitera deux redémarrages. Une fois que vous êtes dans ce mode, vous pouvez passer du mode 4 ko au mode 16 ko et inversement par le biais d'un seul redémarrage. Certaines fonctionnalités seront désactivées dans ces modes, et certaines applications sont susceptibles de ne pas fonctionner. Pour remettre l'appareil en mode Production, il vous faut repasser en mode 4 ko, puis verrouiller l'OEM/le bootloader (cela rétablit la configuration d'usine de l'appareil). Verrouillez le bootloader, puis réessayez. Vous trouverez des instructions pour vous aider à réaliser cette opération à l'adresse &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a>"</string>
     <string name="confirm_oem_unlock_for_16k_title">Nécessite le déverrouillage du bootloader</string>
     <string name="confirm_pad_clone_password">Confirmer le mot de passe du Second espace de votre tablette</string>
@@ -4261,6 +4267,8 @@ Ceci permet de protéger les données sur les appareils perdus ou volés. Exiger
     <string name="enroll_fingerprint">Enregistrer une empreinte digitale</string>
     <string name="enrollment_completed">Terminé</string>
     <string name="enter_current_lock_screen_password">"Saisir votre verrouillage d'écran"</string>
+    <string name="enter_current_sim_pin_after_mismatch">Code PIN incorrect. Tentatives restantes : %1$d</string>
+    <string name="enter_current_sim_pin_hint">Saisissez le code PIN actuel de la carte SIM</string>
     <string name="enterprise_mode">Mode Entreprise</string>
     <string name="enterprise_privacy_always_on_vpn_device">VPN permanent activé</string>
     <string name="enterprise_privacy_always_on_vpn_personal">VPN permanent activé dans votre profil personnel</string>
@@ -4738,6 +4746,7 @@ Pour en savoir plus, contactez votre société de crédit."</string>
     <string name="firewall_wifi_dialog_message">"L'application installée ne sera plus en mesure de se connecter à Internet via Wi-Fi lorsque cet interrupteur est désactivé."</string>
     <string name="firmware_version">Version Android</string>
     <string name="first_day_of_week_preferences_title">Premier jour de la semaine</string>
+    <string name="first_sim_card_slot_title">Emplacement de la première carte SIM</string>
     <string name="fiveg_nrca_switch_summary">"Améliorer la connexion 5G pour les environnements d'essais"</string>
     <string name="fiveg_nrca_switch_title">Agrégation des opérateurs 5G</string>
     <string name="fiveg_sa_switch_summary">Utiliser le réseau SA sur la SIM secondaire (uniquement pour les tests)</string>
@@ -7800,7 +7809,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="network_and_internet_preferences_title">Préférences réseau</string>
     <string name="network_assistant">Utilisation des données</string>
     <string name="network_auto_switch">Basculer entre les réseaux</string>
-    <string name="network_auto_switch_summery">"Passez aux données mobiles lorsque le signal Wi-Fi est faible ou que le réseau n'est pas disponible"</string>
+    <string name="network_auto_switch_summery">"Lorsque la qualité du Wi-Fi est mauvaise, connectez-vous à un autre réseau Wi-Fi disponible ou utilisez vos données mobiles. L'utilisation des données mobiles peut entraîner des frais supplémentaires."</string>
     <string name="network_changed_noti_summary">Avec les données mobiles</string>
     <string name="network_changed_noti_title">Déconnecté du Wi-Fi</string>
     <string name="network_changed_notification_text">Votre réseau mobile a été modifié</string>
@@ -8529,6 +8538,8 @@ Lisez et acceptez %s avant d'utiliser ce service."</string>
     <string name="peak_refresh_rate_summary">"Augmente automatiquement la fréquence d'actualisation jusqu'à %1$d Hz pour certains contenus. Sollicite davantage la batterie."</string>
     <string name="peak_refresh_rate_title">Affichage fluide</string>
     <string name="peek_notification_icon_title">Afficher les icônes pour les notifications entrantes</string>
+    <string name="peep_protection_v2_banner_summary">"Essayez les fonctionnalités d'affichage de confidentialité réservées à ce modèle d'appareil"</string>
+    <string name="peep_protection_v2_main_tile_label">Affichage de confidentialité intelligent</string>
     <string name="performance_category">Performance</string>
     <string name="perm_toggle_description">Pour les applis et services</string>
     <string name="permission_action_prompt">Demander</string>
@@ -8657,6 +8668,7 @@ Lisez et acceptez %s avant d'utiliser ce service."</string>
     <string name="photography_handle_update_and_maintain">Mises à jour</string>
     <string name="physical_keyboard_layout_picker_title">Disposition du clavier physique</string>
     <string name="physical_keyboard_title">Clavier physique</string>
+    <string name="pick_up_gesture_wakeup_not_effect_summary">"Ne fonctionnera pas lorsque l'affichage arrière est allumé"</string>
     <string name="pick_up_gesture_wakeup_title">Lever pour activer</string>
     <string name="picker_text">Sélecteur de temps</string>
     <string name="picture_color_mode">Mode de couleur des images</string>
@@ -9263,6 +9275,7 @@ Quiconque connecte votre appareil à un ordinateur ou y installe des applis malv
     <string name="protect_eyes_mode">Mode lecture</string>
     <string name="provide_current_sim_pin">Saisissez le code PIN actuel de la carte SIM</string>
     <string name="provide_current_sim_pin_title">Saisissez le code PIN actuel de la SIM</string>
+    <string name="provide_new_sim_pin_title">Nouveau code PIN de la carte SIM</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">Cartes SIM</string>
     <string name="provision_activation">Actif</string>
@@ -9406,7 +9419,7 @@ Quiconque connecte votre appareil à un ordinateur ou y installe des applis malv
     <string name="register_automatically">Enregistrement automatique…</string>
     <string name="regulatory_info_text" />
     <string name="regulatory_labels">Libellés réglementaires</string>
-    <string name="release_finger_when_done">Soulevez votre doigt lorsque terminé</string>
+    <string name="release_finger_when_done">Soulevez votre doigt lorsque vous avez terminé</string>
     <string name="remaining_length_format">Il reste %1$s</string>
     <string name="remember_password_hint">"Mémorisez votre verrouillage d'écran. Vous ne pourrez pas le restaurer si vous l'oubliez."</string>
     <string name="remote_media_volume_option_title">Volume Google Cast</string>
@@ -10217,6 +10230,7 @@ Pour utiliser l'épinglage d'application : \t
     <string name="search_xspace">"Application clonée;Applications clonées;Application double;Applications doubles; Cloner l'application; Application clone; Applications clones;Deux comptes;2 comptes"</string>
     <string name="searchview_clear_text_content_description">Effacer le texte</string>
     <string name="searchview_navigation_content_description">Retour</string>
+    <string name="second_sim_card_slot_title">Emplacement de la deuxième carte SIM</string>
     <string name="second_space">Second espace</string>
     <string name="secondspace_category">Second espace</string>
     <string name="secondspace_delete_space_title">Supprimer le Second espace</string>
@@ -10914,7 +10928,7 @@ Si vous en changez, votre service %1$s ne sera pas résilié."</string>
     <string name="sim_action_switch_sub_dialog_title">Passer à %1$s ?</string>
     <string name="sim_action_turn_off">Désactiver</string>
     <string name="sim_action_yes">Oui</string>
-    <string name="sim_auto_pin_management_toggle">Gestion automatique des codes PIN</string>
+    <string name="sim_auto_pin_management_toggle">Verrouiller la carte SIM</string>
     <string name="sim_bad_pin">Le code PIN doit contenir %1$d-%2$d chiffres</string>
     <string name="sim_calls_always_use">"Toujours l'utiliser pour les appels"</string>
     <string name="sim_calls_ask_first_prefs_title">Toujours demander</string>
@@ -10933,7 +10947,7 @@ Si vous en changez, votre service %1$s ne sera pas résilié."</string>
     <string name="sim_change_failed_enable_sim_lock">Impossible de modifier le code PIN. Activez le verrouillage SIM maintenant.</string>
     <string name="sim_change_pin">Code PIN de la carte SIM</string>
     <string name="sim_change_succeeded">Le code PIN de la carte SIM a été modifié.</string>
-    <string name="sim_choose_protection_mode_title">Protégez la carte SIM contre le vol</string>
+    <string name="sim_choose_protection_mode_title">Exiger le code PIN pour utiliser le téléphone</string>
     <string name="sim_combination_warning_notification_title">Problème avec la combinaison de cartes SIM</string>
     <string name="sim_disable_sim_lock">Déverrouiller la carte SIM</string>
     <string name="sim_display_platform_managed_pin">Code PIN géré par Android</string>
@@ -10981,13 +10995,15 @@ Si vous en changez, votre service %1$s ne sera pas résilié."</string>
     <string name="sim_pin_change">Modifier le code PIN de la carte SIM</string>
     <string name="sim_pin_disable_failed">Impossible de désactiver le code.</string>
     <string name="sim_pin_enable_failed">"Impossible d'activer le code."</string>
+    <string name="sim_pin_protection_mode_automatic">Automatique (géré par Android)</string>
+    <string name="sim_pin_protection_mode_manual">Manuelle</string>
     <string name="sim_pin_toggle">Verrouiller la carte SIM</string>
     <string name="sim_pins_dont_match">Les codes PIN ne correspondent pas</string>
     <string name="sim_platform_managed_pin_failure">"Échec de l'obtention du code PIN"</string>
     <string name="sim_platform_managed_pin_value">Valeur du code PIN géré par Android :</string>
     <string name="sim_preferred_message">%1$s est désormais votre SIM principale</string>
-    <string name="sim_protection_mode_lskf_required">"Vous devez configurer le verrouillage de l'écran pour activer la protection de la carte SIM"</string>
-    <string name="sim_protection_mode_manually_managed">Code PIN de la carte SIM géré manuellement</string>
+    <string name="sim_protection_mode_lskf_required">"Verrouillage de l'écran requis pour la protection automatique de la carte SIM. Seule la protection manuelle est disponible pour le moment."</string>
+    <string name="sim_protection_mode_manually_managed">Le code PIN est requis pour utiliser le téléphone</string>
     <string name="sim_protection_mode_protected_by_platform">Code PIN de la carte SIM géré par Android</string>
     <string name="sim_radio_off">Désactivé</string>
     <string name="sim_reenter_new">"Saisissez à nouveau le code d'accès."</string>
@@ -13125,6 +13141,7 @@ Lorsque vous ouvrez une appli à l'aide d'un widget, vous devez confirmer votre 
     <string name="wifi_assistant_auto_confirm_data_message">Utilisez les réseaux de données mobiles lorsque votre appareil ne peut pas se connecter à Internet via le Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Ne plus demander</string>
     <string name="wifi_assistant_confirm_connection_title">Impossible de se connecter à internet</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Faible connexion Wi-Fi</string>
     <string name="wifi_assistant_data_prompt">Avertir</string>
     <string name="wifi_assistant_data_prompt_summary">"Afficher un avertissement concernant l'utilisation des données lors du passage aux données mobiles"</string>
     <string name="wifi_assistant_description">"Voici comment cette fonctionnalité fonctionne:

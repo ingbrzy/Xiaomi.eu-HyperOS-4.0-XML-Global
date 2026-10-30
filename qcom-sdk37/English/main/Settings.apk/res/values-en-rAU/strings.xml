@@ -1358,7 +1358,7 @@ Calls, messages and network traffic may be visible to your organisation."</strin
     <string name="automatic_brightness">Automatic brightness</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">To be able to adjust brightness automatically, turn off Face unlock first</string>
     <string name="automatic_keyboard_layout_label">Automatic: %s</string>
-    <string name="automatic_sim_lock_protection">Automatic SIM lock protection</string>
+    <string name="automatic_sim_lock_protection">SIM lock protection mode</string>
     <string name="automatic_sim_lock_settings_title">Protect SIM card</string>
     <string name="automatic_storage_manager_activation_warning">Your storage is now being managed by the storage manager</string>
     <string name="automatic_storage_manager_days_title">Remove photos and videos</string>
@@ -2339,7 +2339,7 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="bt_accessibility_description_select">Selected</string>
     <string name="bt_accessibility_description_unselect">Not selected</string>
     <string name="bt_always_show_icon">Always show status bar icon</string>
-    <string name="bt_aptx_adaptive_open_dialog_summary">aptX Adaptive will provide high-quality playback and decrease audio latency for games and video while increasing power consumption. Playback may be stuttered due to Bluetooth hardware limitations and environmental interferance.</string>
+    <string name="bt_aptx_adaptive_open_dialog_summary">aptX Adaptive will provide high-quality playback and decrease audio latency for games and video while increasing power consumption. Playback may be stuttered due to Bluetooth hardware limitations and environmental interference.</string>
     <string name="bt_aptx_adaptive_open_dialog_title">Switch to aptX Adaptive?</string>
     <string name="bt_audio_repair_property">Fix audio issues</string>
     <string name="bt_audio_share_property">Sharing</string>
@@ -2358,7 +2358,7 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="bt_connect_help_car_first">%d. Open Bluetooth settings in your car system and set Bluetooth to discoverable mode.</string>
     <string name="bt_connect_help_car_second">"%d. Turn on Bluetooth on your phone or tablet, find your car's system, and then pair."</string>
     <string name="bt_connect_help_device">Phones, tablets, and computers</string>
-    <string name="bt_connect_help_device_first" formatted="false">"%d. Make sure Bluetooth is turned on for the device you want to connect to and that is's no farther than %d metres away."</string>
+    <string name="bt_connect_help_device_first" formatted="false">"%d. Make sure Bluetooth is turned on for the device you want to connect to and that it's no farther than %d metres away."</string>
     <string name="bt_connect_help_device_second">"%d. iOS devices don't currently support connectivity with other devices."</string>
     <string name="bt_connect_help_device_third">%d. When connecting to a computer, you might need to install a Bluetooth driver.</string>
     <string name="bt_connect_help_earphone">Earphones and speakers</string>
@@ -2385,7 +2385,7 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="bt_hci_snoop_log_filters_dashboard_title">Bluetooth HCI snoop log filtering</string>
     <string name="bt_hci_snoop_log_summary">Capture all Bluetooth HCI logs in a file</string>
     <string name="bt_headset_picture">Image</string>
-    <string name="bt_lc3plus_open_dialog_summary">LC3plus will provide high-quality playback and decrease audio latency for games and video while increasing power consumption. Playback may be stuttered due to Bluetooth hardware limitations and environmental interferance.</string>
+    <string name="bt_lc3plus_open_dialog_summary">LC3plus will provide high-quality playback and decrease audio latency for games and video while increasing power consumption. Playback may be stuttered due to Bluetooth hardware limitations and environmental interference.</string>
     <string name="bt_lc3plus_open_dialog_title">Switch to LC3plus?</string>
     <string name="bt_ldac_declaration">When a Bluetooth device supports LDAC, it will be connected by default. LDAC provides a high-quality audio experience, but also increases power consumption. Issues may occur during playback due to Bluetooth hardware limitations.</string>
     <string name="bt_ldac_dialog_summary">LDAC provides a high-quality audio experience, but also increases power consumption. This feature can be turned off in the Settings.</string>
@@ -2686,6 +2686,8 @@ If this permission is on, the app will be available as an option whenever a tag 
     <string name="channel_group_notifications_off_desc">At your request, Android is blocking this group of notifications from appearing on this device</string>
     <string name="channel_notifications_off_desc">At your request, Android is blocking this category of notifications from appearing on this device</string>
     <string name="charge_length_format">%1$s ago</string>
+    <string name="charge_light_state_summary">Light up back light while charging</string>
+    <string name="charge_light_state_title">Charging light effects</string>
     <string name="charging_sounds_title">Charging sounds and vibration</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Check for updates</string>
@@ -2757,6 +2759,7 @@ Chip performance dashboard"</string>
     <string name="choose_profile">Choose profile</string>
     <string name="choose_sim_activating">Turning on…</string>
     <string name="choose_sim_could_not_activate">"Couldn't turn on this SIM right now"</string>
+    <string name="choose_sim_pin_protection_mode">Choose SIM protection mode</string>
     <string name="choose_sim_text">{count,plural, =1{1 SIM is available on this device, but only one can be used at a time}=2{2 SIMs are available on this device, but only one can be used at a time}other{# SIMs are available on this device, but only one can be used at a time}}</string>
     <string name="choose_sim_title">Choose a SIM to use</string>
     <string name="choose_smartcover_type">Select case type</string>
@@ -2891,6 +2894,7 @@ Chip performance dashboard"</string>
     <string name="color_led_summary">"Doesn't work in DND mode"</string>
     <string name="color_led_title">LED light</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Mixed colour %d</string>
     <string name="color_mode_all_apps">All apps</string>
     <string name="color_mode_option_automatic">Adaptive</string>
     <string name="color_mode_option_boosted">Boosted</string>
@@ -2985,6 +2989,8 @@ Chip performance dashboard"</string>
     <string name="confirm_frp_credential_title">Unlock after Factory reset</string>
     <string name="confirm_lock_pattern_header_text">Draw your pattern</string>
     <string name="confirm_new_backup_pw_prompt">Retype your new full backup password here</string>
+    <string name="confirm_new_sim_pin_after_mismatch">PINs do not match. Confirm the new SIM PIN.</string>
+    <string name="confirm_new_sim_pin_title">Confirm new SIM PIN</string>
     <string name="confirm_oem_unlock_for_16k_text">This device needs to have the bootloader unlocked before using the 16 KB developer option. Software integrity cannot be guaranteed in this mode, and any data stored on the phone while the bootloader is unlocked may be at risk. All user data and settings will be wiped when activating 16 KB mode. Once the bootloader is unlocked, activating the 16 KB option will require two reboots. Once you are in this mode, you can switch back and forth between 4 KB and 16 KB mode with a single reboot. Some features will be disabled in these modes, so some applications may not work. To return the device to Production mode, you would need to switch back to 4 KB mode and then OEM/bootloader lock (which factory resets) the device. Please unlock the bootloader and try again. You can see instructions for how to do this at &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Bootloader unlock required</string>
     <string name="confirm_pad_clone_password">"Confirm your tablet's Second space password"</string>
@@ -4142,6 +4148,8 @@ This helps protect data on lost or stolen devices. Require PIN to start your dev
     <string name="enroll_fingerprint">Record fingerprint</string>
     <string name="enrollment_completed">Done</string>
     <string name="enter_current_lock_screen_password">Enter your screen lock</string>
+    <string name="enter_current_sim_pin_after_mismatch">Wrong PIN. Attempts remaining: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Enter the current PIN code of the SIM card</string>
     <string name="enterprise_mode">Enterprise mode</string>
     <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN turned on</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Always-on VPN turned on in your personal profile</string>
@@ -4586,6 +4594,7 @@ To learn more, contact your credit provider."</string>
     <string name="finish_button">Done</string>
     <string name="firmware_version">Android version</string>
     <string name="first_day_of_week_preferences_title">First day of week</string>
+    <string name="first_sim_card_slot_title">First SIM card slot</string>
     <string name="fiveg_nrca_switch_summary">Improve 5G connection for testing environments</string>
     <string name="fiveg_nrca_switch_title">5G carrier aggregation</string>
     <string name="fiveg_sa_switch_summary">Use SA network on secondary SIM (only for testing)</string>
@@ -7391,7 +7400,7 @@ Select your operating system:"</string>
     <string name="network_and_internet_preferences_title">Network preferences</string>
     <string name="network_assistant">Data usage</string>
     <string name="network_auto_switch">Switch between networks</string>
-    <string name="network_auto_switch_summery">"Switch to mobile data when Wi-Fi signal is weak or network isn't available"</string>
+    <string name="network_auto_switch_summery">When Wi-Fi quality is poor, switch to another available Wi-Fi network or use mobile data. Using mobile data may generate additional fees.</string>
     <string name="network_changed_notification_text">Your mobile network has changed</string>
     <string name="network_connected">Connected</string>
     <string name="network_connecting">Connecting…</string>
@@ -8085,6 +8094,8 @@ Read and agree to %s before using this service."</string>
     <string name="peak_refresh_rate_summary">Automatically raises the refresh rate up to %1$d Hz for some content. Increases battery usage.</string>
     <string name="peak_refresh_rate_title">Smooth display</string>
     <string name="peek_notification_icon_title">Show icons for incoming notifications</string>
+    <string name="peep_protection_v2_banner_summary">Try privacy display features exclusive to this device model</string>
+    <string name="peep_protection_v2_main_tile_label">Smart privacy display</string>
     <string name="performance_category">Performance</string>
     <string name="perm_toggle_description">For apps and services</string>
     <string name="permission_control">Permissions</string>
@@ -8787,6 +8798,7 @@ Anyone that connects your device to a computer or installs malicious apps on you
     <string name="protect_eyes_mode">Reading mode</string>
     <string name="provide_current_sim_pin">Enter the SIM card current PIN</string>
     <string name="provide_current_sim_pin_title">Enter current SIM PIN</string>
+    <string name="provide_new_sim_pin_title">New SIM PIN</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIMs</string>
     <string name="provision_activation">Active</string>
@@ -9712,6 +9724,7 @@ To use app pinning: \t
     <string name="search_wps_connect_title">WPS push button;Connect WPS;WPS</string>
     <string name="search_xiaomi_account">Xiaomi Account; Mi Account; Mi Account ID;Account;Account ID;Xiaomi Account;Account protection;Protect account;Account security;My account</string>
     <string name="search_xspace">Dual app;Dual apps;Double app;Double apps;Clone app;Clone apps;App clone;App clones;Two accounts;2 accounts</string>
+    <string name="second_sim_card_slot_title">Second SIM card slot</string>
     <string name="second_space">Second space</string>
     <string name="secondspace_category">Second space</string>
     <string name="secondspace_delete_space_title">Delete Second space</string>
@@ -10407,7 +10420,7 @@ Switching won’t cancel your %1$s service."</string>
     <string name="sim_action_switch_sub_dialog_title">Switch to %1$s?</string>
     <string name="sim_action_turn_off">Turn off</string>
     <string name="sim_action_yes">Yes</string>
-    <string name="sim_auto_pin_management_toggle">Automatic PIN management</string>
+    <string name="sim_auto_pin_management_toggle">Lock SIM</string>
     <string name="sim_bad_pin">PIN must contain %1$d-%2$d digits</string>
     <string name="sim_calls_always_use">Always use this for calls</string>
     <string name="sim_calls_ask_first_prefs_title">Ask every time</string>
@@ -10426,7 +10439,7 @@ Switching won’t cancel your %1$s service."</string>
     <string name="sim_change_failed_enable_sim_lock">"Couldn't change PIN. Turn SIM lock on now."</string>
     <string name="sim_change_pin">SIM PIN</string>
     <string name="sim_change_succeeded">SIM PIN changed successfully</string>
-    <string name="sim_choose_protection_mode_title">Protect SIM card from theft</string>
+    <string name="sim_choose_protection_mode_title">Require PIN to use phone</string>
     <string name="sim_combination_warning_notification_title">Problem with SIM combination</string>
     <string name="sim_disable_sim_lock">Unlock SIM</string>
     <string name="sim_display_platform_managed_pin">Android-managed PIN</string>
@@ -10474,13 +10487,15 @@ Switching won’t cancel your %1$s service."</string>
     <string name="sim_pin_change">Change SIM PIN</string>
     <string name="sim_pin_disable_failed">"Can't disable PIN."</string>
     <string name="sim_pin_enable_failed">"Can't enable PIN."</string>
+    <string name="sim_pin_protection_mode_automatic">Automatic (Android-managed)</string>
+    <string name="sim_pin_protection_mode_manual">Manual</string>
     <string name="sim_pin_toggle">Lock SIM</string>
     <string name="sim_pins_dont_match">"PINs don't match"</string>
     <string name="sim_platform_managed_pin_failure">Failed getting PIN</string>
     <string name="sim_platform_managed_pin_value">Value of the Android-managed PIN:</string>
     <string name="sim_preferred_message">%1$s is now your primary SIM</string>
-    <string name="sim_protection_mode_lskf_required">Lock screen must be set up to turn on SIM protection</string>
-    <string name="sim_protection_mode_manually_managed">SIM PIN manually managed</string>
+    <string name="sim_protection_mode_lskf_required">Lockscreen required for automatic SIM protection, manual only available now</string>
+    <string name="sim_protection_mode_manually_managed">PIN required to use phone</string>
     <string name="sim_protection_mode_protected_by_platform">SIM PIN managed by Android</string>
     <string name="sim_radio_off">Off</string>
     <string name="sim_reenter_new">Re‑type new PIN</string>
@@ -12500,6 +12515,7 @@ When you open an app using a widget, you'll need to verify that it's you. Also b
     <string name="wifi_assistant_auto_confirm_data_message">"Use mobile data networks when your device can't connect to the internet via Wi-Fi."</string>
     <string name="wifi_assistant_confirm_always">"Don't ask again"</string>
     <string name="wifi_assistant_confirm_connection_title">"Can't connect to the internet"</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Poor Wi-Fi connection</string>
     <string name="wifi_assistant_data_prompt">Warn</string>
     <string name="wifi_assistant_data_prompt_summary">Show data usage warning when switching to mobile data</string>
     <string name="wifi_assistant_description">"Here's how this feature works:

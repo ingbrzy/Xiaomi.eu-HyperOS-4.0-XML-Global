@@ -1367,7 +1367,7 @@ Chiamate, messaggi e traffico di rete potrebbero essere visibili alla tua organi
     <string name="automatic_brightness">Luminosità automatica</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Per poter regolare automaticamente la luminosità, disattiva prima il Riconoscimento facciale</string>
     <string name="automatic_keyboard_layout_label">Automatico: %s</string>
-    <string name="automatic_sim_lock_protection">Protezione automatica con blocco SIM</string>
+    <string name="automatic_sim_lock_protection">Modalità di protezione con blocco SIM</string>
     <string name="automatic_sim_lock_settings_title">Proteggi la scheda SIM</string>
     <string name="automatic_storage_manager_activation_warning">Il tuo spazio di archiviazione è ora gestito dalla Gestione memoria</string>
     <string name="automatic_storage_manager_days_title">Rimuovi foto e video</string>
@@ -2750,6 +2750,8 @@ Se questa autorizzazione viene attivata, l'app sarà disponibile sotto forma di 
     <string name="character_counter_content_description">%1$d caratteri inserirti su %2$d</string>
     <string name="character_counter_overflowed_content_description">Sono presenti %2$d caratteri in più rispetto al limite di %1$d</string>
     <string name="charge_length_format">%1$s fa</string>
+    <string name="charge_light_state_summary">Attiva la retroilluminazione durante la ricarica</string>
+    <string name="charge_light_state_title">Effetti luminosi di ricarica</string>
     <string name="charging_sounds_title">Suoni e vibrazione ricarica</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Verifica aggiornamenti</string>
@@ -2821,6 +2823,7 @@ Dashboard prestazioni chip"</string>
     <string name="choose_profile">Scegli profilo</string>
     <string name="choose_sim_activating">Attivazione in corso…</string>
     <string name="choose_sim_could_not_activate">Impossibile attivare questa SIM adesso</string>
+    <string name="choose_sim_pin_protection_mode">Scegli la modalità di protezione della SIM</string>
     <string name="choose_sim_text">{count,plural, =1{È disponibile 1 SIM su questo dispositivo, ma è possibile usarne solo una alla volta}=2{Sono disponibili 2 SIM su questo dispositivo, ma è possibile usarne solo una alla volta}other{Sono disponibili # SIM su questo dispositivo, ma è possibile usarne solo una alla volta}}</string>
     <string name="choose_sim_title">Scegli una SIM da usare</string>
     <string name="choose_smartcover_type">Scegli il tipo di custodia</string>
@@ -2957,6 +2960,7 @@ Dashboard prestazioni chip"</string>
     <string name="color_led_summary">Non funziona in modalità ND</string>
     <string name="color_led_title">Luce LED</string>
     <string name="color_magenta">Magenta</string>
+    <string name="color_mixed_light">Colori misti %d</string>
     <string name="color_mode_all_apps">Tutte le app</string>
     <string name="color_mode_option_automatic">Adattivi</string>
     <string name="color_mode_option_boosted">Migliorati</string>
@@ -3051,6 +3055,8 @@ Dashboard prestazioni chip"</string>
     <string name="confirm_frp_credential_title">Sblocca dopo il ripristino alle condizioni di fabbrica</string>
     <string name="confirm_lock_pattern_header_text">Disegna la tua sequenza</string>
     <string name="confirm_new_backup_pw_prompt">"Digita nuovamente  la nuova password di backup completo qui"</string>
+    <string name="confirm_new_sim_pin_after_mismatch">I PIN non corrispondono. Conferma il nuovo PIN della SIM.</string>
+    <string name="confirm_new_sim_pin_title">Conferma nuovo PIN della SIM</string>
     <string name="confirm_oem_unlock_for_16k_text">"È necessario sbloccare il bootloader del dispositivo prima di usare l'opzione sviluppatore a 16 kB. Non è possibile garantire l'integrità del software in questa modalità e i dati archiviati sullo smartphone potrebbero essere a rischio finché il bootloader è sbloccato. Tutti i dati utente e le impostazioni verranno cancellati quando attivi la modalità a 16 kB. Dopo aver sbloccato il bootloader, l'attivazione dell'opzione a 16 kB richiederà due riavvii. Una volta che sarà attiva questa modalità, potrai passare dalla modalità a 4 kB a quella a 16 kB con un solo riavvio. Alcune funzionalità verranno disattivate in queste modalità, pertanto alcune applicazioni potrebbero non funzionare. Per far tornare il dispositivo in modalità di produzione, dovrai tornare alla modalità a 4 kB e bloccare il bootloader del dispositivo, il che ripristina i dati di fabbrica del dispositivo. Sblocca il bootloader e riprova. Puoi consultare le istruzioni su come fare all'indirizzo &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a>"</string>
     <string name="confirm_oem_unlock_for_16k_title">Sblocco bootloader richiesto</string>
     <string name="confirm_pad_clone_password">Conferma la password del Secondo spazio del tablet</string>
@@ -4233,6 +4239,8 @@ Questo aiuta a proteggere i dati dei dispositivi smarriti o rubati. Richiedere i
     <string name="enroll_fingerprint">"Registra l'impronta digitale"</string>
     <string name="enrollment_completed">Fatto</string>
     <string name="enter_current_lock_screen_password">Inserisci il blocco schermo</string>
+    <string name="enter_current_sim_pin_after_mismatch">PIN errato. Tentativi rimanenti: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Inserisci il codice PIN attuale della scheda SIM</string>
     <string name="enterprise_mode">Modalità aziendale</string>
     <string name="enterprise_privacy_always_on_vpn_device">Opzione VPN sempre attiva attivata</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Opzione VPN sempre attiva attivata nel tuo profilo personale</string>
@@ -4705,6 +4713,7 @@ Per saperne di più, contatta il fornitore di credito."</string>
     <string name="firewall_wifi_dialog_message">"L'applicazione installata non sarà in grado di connettersi ad internet usando la rete Wi-Fi quando questo interruttore è spento."</string>
     <string name="firmware_version">Versione di Android</string>
     <string name="first_day_of_week_preferences_title">Primo giorno della settimana</string>
+    <string name="first_sim_card_slot_title">Primo slot per scheda SIM</string>
     <string name="fiveg_nrca_switch_summary">Migliora la connessione 5G per gli ambienti di test</string>
     <string name="fiveg_nrca_switch_title">Aggregazione degli operatori 5G</string>
     <string name="fiveg_sa_switch_summary">Usa la rete SA sulla SIM secondaria (solo per test)</string>
@@ -7727,7 +7736,7 @@ Seleziona il tuo sistema operativo:"</string>
     <string name="network_and_internet_preferences_title">Preferenze di rete</string>
     <string name="network_assistant">Utilizzo dei dati</string>
     <string name="network_auto_switch">"Passa da una rete all'altra"</string>
-    <string name="network_auto_switch_summery">Passa alla connessione dati quando il segnale Wi-Fi è debole o la rete non è disponibile</string>
+    <string name="network_auto_switch_summery">"Quando la qualità del Wi-Fi è scarsa, passare a un'altra rete Wi-Fi disponibile o utilizzare dati mobili. L'utilizzo di dati mobili può generare costi aggiuntivi."</string>
     <string name="network_changed_noti_summary">Uso della connessione dati mobile</string>
     <string name="network_changed_noti_title">Disconnesso da Wi-Fi</string>
     <string name="network_changed_notification_text">Rete mobile modificata</string>
@@ -8435,6 +8444,8 @@ Leggi e accetta l'%s prima di utilizzare questo servizio."</string>
     <string name="peak_refresh_rate_summary">Aumenta automaticamente la frequenza di aggiornamento fino a %1$d Hz per alcuni contenuti. Comporta un maggior utilizzo della batteria.</string>
     <string name="peak_refresh_rate_title">Display fluido</string>
     <string name="peek_notification_icon_title">Mostra le icone per le notifiche in arrivo</string>
+    <string name="peep_protection_v2_banner_summary">Prova le funzionalità del display privacy esclusive di questo modello di dispositivo</string>
+    <string name="peep_protection_v2_main_tile_label">Display riservato smart</string>
     <string name="performance_category">Prestazioni</string>
     <string name="perm_toggle_description">Per app e servizi</string>
     <string name="permission_action_prompt">Chiedi</string>
@@ -9163,6 +9174,7 @@ Chiunque colleghi il tuo dispositivo a un computer o installi app dannose sul tu
     <string name="protect_eyes_mode">Modalità lettura</string>
     <string name="provide_current_sim_pin">Inserisci il PIN attuale della scheda SIM</string>
     <string name="provide_current_sim_pin_title">Inserisci il PIN della SIM attuale</string>
+    <string name="provide_new_sim_pin_title">Nuovo PIN della SIM</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIM</string>
     <string name="provision_activation">Attivo</string>
@@ -10106,6 +10118,7 @@ Per usare la funzionalità di blocco app su schermo: \t
     <string name="search_xspace">App clonata;App clonate;App doppia;App doppie;Copia app;Copie app;Clone app;Cloni app;Due account;2 account</string>
     <string name="searchview_clear_text_content_description">Cancella testo</string>
     <string name="searchview_navigation_content_description">Indietro</string>
+    <string name="second_sim_card_slot_title">Secondo slot per la scheda SIM</string>
     <string name="second_space">Secondo spazio</string>
     <string name="secondspace_category">Secondo spazio</string>
     <string name="secondspace_delete_space_title">Elimina Secondo spazio</string>
@@ -10803,7 +10816,7 @@ Il passaggio non annullerà il servizio di %1$s."</string>
     <string name="sim_action_switch_sub_dialog_title">Vuoi passare a %1$s?</string>
     <string name="sim_action_turn_off">Disattiva</string>
     <string name="sim_action_yes">Sì</string>
-    <string name="sim_auto_pin_management_toggle">Gestione automatica del PIN</string>
+    <string name="sim_auto_pin_management_toggle">Blocca SIM</string>
     <string name="sim_bad_pin">Il PIN deve contenere %1$d-%2$d cifre</string>
     <string name="sim_calls_always_use">Usa sempre questa per chiamare</string>
     <string name="sim_calls_ask_first_prefs_title">Chiedi ogni volta</string>
@@ -10822,7 +10835,7 @@ Il passaggio non annullerà il servizio di %1$s."</string>
     <string name="sim_change_failed_enable_sim_lock">Impossibile modificare il PIN. Attiva il blocco SIM.</string>
     <string name="sim_change_pin">PIN della SIM</string>
     <string name="sim_change_succeeded">PIN della SIM modificato</string>
-    <string name="sim_choose_protection_mode_title">Proteggi la scheda SIM dal furto</string>
+    <string name="sim_choose_protection_mode_title">Richiedi il PIN per usare lo smartphone</string>
     <string name="sim_combination_warning_notification_title">Problema con la combinazione di SIM</string>
     <string name="sim_disable_sim_lock">Sblocca SIM</string>
     <string name="sim_display_platform_managed_pin">PIN gestito da Android</string>
@@ -10833,7 +10846,7 @@ Il passaggio non annullerà il servizio di %1$s."</string>
     <string name="sim_enrollment_succeeded">Registrazione riuscita</string>
     <string name="sim_enter_cancel">Annulla</string>
     <string name="sim_enter_new">Nuovo PIN della SIM</string>
-    <string name="sim_enter_ok">OK</string>
+    <string name="sim_enter_ok">Ok</string>
     <string name="sim_enter_old">PIN della SIM attuale</string>
     <string name="sim_enter_pin">PIN della SIM</string>
     <string name="sim_invalid_pin_hint">Digita un PIN di 4-8 numeri</string>
@@ -10870,13 +10883,15 @@ Il passaggio non annullerà il servizio di %1$s."</string>
     <string name="sim_pin_change">Cambia PIN della SIM</string>
     <string name="sim_pin_disable_failed">Impossibile disattivare PIN.</string>
     <string name="sim_pin_enable_failed">Impossibile attivare PIN.</string>
+    <string name="sim_pin_protection_mode_automatic">Automatico (gestito da Android)</string>
+    <string name="sim_pin_protection_mode_manual">Manuale</string>
     <string name="sim_pin_toggle">Blocca SIM</string>
     <string name="sim_pins_dont_match">I PIN non corrispondono</string>
     <string name="sim_platform_managed_pin_failure">Recupero del PIN non riuscito</string>
     <string name="sim_platform_managed_pin_value">Valore del PIN gestito da Android:</string>
     <string name="sim_preferred_message">%1$s è ora la tua SIM principale</string>
-    <string name="sim_protection_mode_lskf_required">Per attivare la protezione della SIM, è necessario configurare il blocco schermo</string>
-    <string name="sim_protection_mode_manually_managed">PIN della SIM gestito manualmente</string>
+    <string name="sim_protection_mode_lskf_required">Blocco schermo necessario per la protezione automatica della SIM. Al momento è disponibile solo la protezione manuale</string>
+    <string name="sim_protection_mode_manually_managed">PIN richiesto per usare lo smartphone</string>
     <string name="sim_protection_mode_protected_by_platform">PIN della SIM gestito da Android</string>
     <string name="sim_radio_off">Disattivata</string>
     <string name="sim_reenter_new">Digita ancora il nuovo PIN</string>
@@ -13008,6 +13023,7 @@ Quando apri un'app utilizzando un widget, dovrai verificare la tua identità. In
     <string name="wifi_assistant_auto_confirm_data_message">Usa la connessione dati quando il dispositivo non è in grado di connettersi a Internet tramite Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Non chiedere più</string>
     <string name="wifi_assistant_confirm_connection_title">Impossibile connettersi a Internet</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Connessione Wi-Fi debole</string>
     <string name="wifi_assistant_data_prompt">Avviso</string>
     <string name="wifi_assistant_data_prompt_summary">"Mostra un avviso sull'utilizzo dei dati quando passi alla connessione dati"</string>
     <string name="wifi_assistant_description">"Ecco come funziona questa funzionalità:

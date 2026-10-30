@@ -1387,7 +1387,7 @@
     <string name="automatic_brightness">自動明るさ調整</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">明るさを自動調整するには、まず顔認証をオフにしてください</string>
     <string name="automatic_keyboard_layout_label">自動: %s</string>
-    <string name="automatic_sim_lock_protection">SIM ロックの自動保護</string>
+    <string name="automatic_sim_lock_protection">SIM ロック保護モード</string>
     <string name="automatic_sim_lock_settings_title">SIM カードを保護する</string>
     <string name="automatic_storage_manager_activation_warning">お使いのストレージの管理はストレージ マネージャが行うようになりました</string>
     <string name="automatic_storage_manager_days_title">写真と動画を削除</string>
@@ -1935,7 +1935,7 @@
     <string name="bluetooth_device_advanced_online_mode_title">接続</string>
     <string name="bluetooth_device_advanced_profile_header_title">使用</string>
     <string name="bluetooth_device_advanced_rename_device">名前の変更</string>
-    <string name="bluetooth_device_advanced_title">ペア設定済みの Bluetooth デバイス</string>
+    <string name="bluetooth_device_advanced_title">ペアリング済みのBluetoothデバイス</string>
     <string name="bluetooth_device_audio_share_connecting">接続中…</string>
     <string name="bluetooth_device_audio_share_message">このデバイスのオーディオをこのイヤホンと共有します</string>
     <string name="bluetooth_device_blacklist_tital">Bluetooth ブロックリスト</string>
@@ -2773,6 +2773,8 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
     <string name="charge_length_format">%1$s前</string>
+    <string name="charge_light_state_summary">充電中にバックライトを点灯させます</string>
+    <string name="charge_light_state_title">充電ライト効果</string>
     <string name="charging_sounds_title">充電時の音とバイブレーション</string>
     <string name="check_find_device_status_failure_confirm">OК</string>
     <string name="check_update">アップデートを確認</string>
@@ -2847,6 +2849,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="choose_profile">プロファイルを選択</string>
     <string name="choose_sim_activating">ON にしています…</string>
     <string name="choose_sim_could_not_activate">この SIM は現在有効にできません</string>
+    <string name="choose_sim_pin_protection_mode">SIM 保護モードを選択</string>
     <string name="choose_sim_text">{count,plural, =1{このデバイスでは 1 個の SIM を使用できますが、一度に使用できるのは 1 個のみです}=2{このデバイスでは 2 個の SIM を使用できますが、一度に使用できるのは 2 個のみです}other{このデバイスでは # 個の SIM を使用できますが、一度に使用できるのは 1 個のみです}}</string>
     <string name="choose_sim_title">使用する SIM の選択</string>
     <string name="choose_smartcover_type">ケースの種類を選択</string>
@@ -2983,6 +2986,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="color_led_summary">DND モードでは動作しません</string>
     <string name="color_led_title">LED ライト</string>
     <string name="color_magenta">マゼンタ</string>
+    <string name="color_mixed_light">ミックスカラー %d</string>
     <string name="color_mode_all_apps">すべてのアプリ</string>
     <string name="color_mode_option_automatic">自動調整</string>
     <string name="color_mode_option_boosted">ブースト</string>
@@ -3077,6 +3081,8 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="confirm_frp_credential_title">ファクトリーリセット後のロック解除</string>
     <string name="confirm_lock_pattern_header_text">パターンを入力</string>
     <string name="confirm_new_backup_pw_prompt">新しいフルバックアップパスワードをここに再入力してください</string>
+    <string name="confirm_new_sim_pin_after_mismatch">PIN が一致しません。新しい SIM PIN を確認してください。</string>
+    <string name="confirm_new_sim_pin_title">新しい SIM PIN の確認</string>
     <string name="confirm_oem_unlock_for_16k_text">このデバイスで 16 KB デベロッパー オプションを使用するには、ブートローダーのロックを解除しておく必要があります。ソフトウェアの完全性はこのモードでは保証されないため、ブートローダーのロック解除中にスマートフォンに保存されているデータが失われる恐れがあります。16 KB モードの有効化中にユーザーデータと設定はすべてワイプされます。ブートローダーのロックが解除されたら、16 KB オプションを有効にするために再起動が 2 回必要です。このモードになったら、4 KB モードと 16 KB モードの間で切り替えることができます（切り替えのたびに 1 回再起動します）。これらのモードで無効になる機能があるため、一部のアプリが動作しないことがあります。デバイスを本番環境モードに戻すには、4 KB モードに戻してから、OEM / ブートローダーをロックする必要があります。この操作で、デバイスは出荷時の設定にリセットされます。ブートローダーのロックを解除してから、もう一度お試しください。この手順については、&lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a> をご覧ください。</string>
     <string name="confirm_oem_unlock_for_16k_title">ブートローダーのロック解除が必要です</string>
     <string name="confirm_pad_clone_password">タブレットのセカンド・スペースパスワードを確認してください</string>
@@ -4261,6 +4267,8 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="enroll_fingerprint">指紋を登録</string>
     <string name="enrollment_completed">完了</string>
     <string name="enter_current_lock_screen_password">画面ロックを入力してください</string>
+    <string name="enter_current_sim_pin_after_mismatch">PIN が正しくありません。残りの試行回数: %1$d 回</string>
+    <string name="enter_current_sim_pin_hint">SIM カードの現在の PIN コードを入力してください</string>
     <string name="enterprise_mode">企業モード</string>
     <string name="enterprise_privacy_always_on_vpn_device">常時接続 VPN は ON です</string>
     <string name="enterprise_privacy_always_on_vpn_personal">個人プロフィールで常時接続 VPN は ON です</string>
@@ -4738,6 +4746,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="firewall_wifi_dialog_message">このスイッチがオフになっていると、インストールしたアプリはWi-Fiを使用してインターネットに接続できなくなります。</string>
     <string name="firmware_version">Android バージョン</string>
     <string name="first_day_of_week_preferences_title">週最初の曜日</string>
+    <string name="first_sim_card_slot_title">1 番目の SIM カードスロット</string>
     <string name="fiveg_nrca_switch_summary">テスト環境の 5G 接続を改善する</string>
     <string name="fiveg_nrca_switch_title">5G キャリアアグリゲーション</string>
     <string name="fiveg_sa_switch_summary">2 枚目の SIM で SA ネットワークを使用する (テスト時のみ)</string>
@@ -7799,7 +7808,7 @@ PINを設定してください。
     <string name="network_and_internet_preferences_title">ネットワーク設定</string>
     <string name="network_assistant">データ使用量</string>
     <string name="network_auto_switch">ネットワーク間の切り替え</string>
-    <string name="network_auto_switch_summery">Wi-Fi の電波が弱い場合やネットワークが利用できない場合はモバイルデータに切り替える</string>
+    <string name="network_auto_switch_summery">Wi-Fiの接続状態が悪い場合は、利用可能な別のWi-Fiネットワークに切り替えるか、モバイルデータ通信をご利用ください。モバイルデータ通信を利用すると、追加料金が発生する場合があります。</string>
     <string name="network_changed_noti_summary">モバイルデータを使用します</string>
     <string name="network_changed_noti_title">Wi-Fiから切断されました</string>
     <string name="network_changed_notification_text">モバイル ネットワークが変更されました</string>
@@ -8528,6 +8537,8 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="peak_refresh_rate_summary">コンテンツに応じて、リフレッシュ レートを自動的に最大 %1$d Hz に変更します。バッテリー使用量が増えます。</string>
     <string name="peak_refresh_rate_title">スムーズ ディスプレイ</string>
     <string name="peek_notification_icon_title">通知受信時にアイコンを表示</string>
+    <string name="peep_protection_v2_banner_summary">このデバイスモデル専用のプライバシー表示機能をお試しください</string>
+    <string name="peep_protection_v2_main_tile_label">スマートプライバシー表示</string>
     <string name="performance_category">パフォーマンス</string>
     <string name="perm_toggle_description">対象: アプリとサービス</string>
     <string name="permission_action_prompt">確認</string>
@@ -8656,6 +8667,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="photography_handle_update_and_maintain">アップデート</string>
     <string name="physical_keyboard_layout_picker_title">物理キーボードのレイアウト選択</string>
     <string name="physical_keyboard_title">物理キーボード</string>
+    <string name="pick_up_gesture_wakeup_not_effect_summary">背面ディスプレイがオンの時は動作しません</string>
     <string name="pick_up_gesture_wakeup_title">持ち上げてスリープ解除</string>
     <string name="picker_text">タイムピッカー</string>
     <string name="picture_color_mode">画像の色モード</string>
@@ -9263,6 +9275,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="protect_eyes_mode">読書モード</string>
     <string name="provide_current_sim_pin">SIM カードの現在の PIN を入力します</string>
     <string name="provide_current_sim_pin_title">SIM の現在の PIN を入力</string>
+    <string name="provide_new_sim_pin_title">新しい SIM PIN</string>
     <string name="provider_internet_settings">インターネット</string>
     <string name="provider_network_settings_title">SIM</string>
     <string name="provision_activation">アクティブ化</string>
@@ -9561,9 +9574,9 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="right_hearing_aid">右の補聴器</string>
     <string name="right_shoulder_key">右</string>
     <string name="ring_remote_battery_status_toast_one">充電器をこのデバイスに接続し、ファームウェアを再度アップデートしてみてください</string>
-    <string name="ring_remote_battery_status_toast_three">ファームウェアをアップデートする前に、磁気ホルダーのバッテリーを交換してください</string>
+    <string name="ring_remote_battery_status_toast_three">ファームウェア更新前に、磁気ホルダバッテリを交換してください</string>
     <string name="ring_remote_battery_status_toast_two">充電器をこのデバイスに接続し、磁気ホルダーバッテリーを交換してから、ファームウェアを再度アップデートしてみてください</string>
-    <string name="ring_remote_ota_summary">アップデートしています。接続を切らないでください。</string>
+    <string name="ring_remote_ota_summary">アップデート中です。接続を切断しないでください。</string>
     <string name="ring_to_you">カスタム呼出音</string>
     <string name="ring_to_you_info">相手に聞こえるカスタム呼出音を設定する</string>
     <string name="ring_volume_option_title">着信音</string>
@@ -10218,6 +10231,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="search_xspace">デュアルアプリ;デュアルアプリ;ダブルアプリ;ダブルアプリ;クローンアプリ;クローンアプリ;アプリクローン;アプリクローン;二つのアカウント;2 つのアカウント</string>
     <string name="searchview_clear_text_content_description">テキストを消去</string>
     <string name="searchview_navigation_content_description">戻る</string>
+    <string name="second_sim_card_slot_title">2 番目の SIM カードスロット</string>
     <string name="second_space">セカンド・スペース</string>
     <string name="secondspace_category">セカンド・スペース</string>
     <string name="secondspace_delete_space_title">セカンド・スペースを削除</string>
@@ -10915,7 +10929,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="sim_action_switch_sub_dialog_title">%1$s に切り替えますか？</string>
     <string name="sim_action_turn_off">OFF にする</string>
     <string name="sim_action_yes">はい</string>
-    <string name="sim_auto_pin_management_toggle">PIN の自動管理</string>
+    <string name="sim_auto_pin_management_toggle">SIM をロックする</string>
     <string name="sim_bad_pin">PIN は%1$d～%2$d桁の数字で入力してください</string>
     <string name="sim_calls_always_use">このSIMを常に通話に使用する</string>
     <string name="sim_calls_ask_first_prefs_title">毎回確認</string>
@@ -10934,7 +10948,7 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="sim_change_failed_enable_sim_lock">PIN を変更できませんでした。今すぐ SIM ロックをオンにしてください。</string>
     <string name="sim_change_pin">SIM PIN</string>
     <string name="sim_change_succeeded">SIM PIN が変更されました</string>
-    <string name="sim_choose_protection_mode_title">SIM カードを盗難から保護できます</string>
+    <string name="sim_choose_protection_mode_title">スマートフォンの使用時に PIN が要求されます</string>
     <string name="sim_combination_warning_notification_title">SIM の組み合わせに関する問題</string>
     <string name="sim_disable_sim_lock">SIM のロックを解除する</string>
     <string name="sim_display_platform_managed_pin">Android 管理下の PIN</string>
@@ -10982,13 +10996,15 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="sim_pin_change">SIM PIN を変更</string>
     <string name="sim_pin_disable_failed">PIN を無効にできません。</string>
     <string name="sim_pin_enable_failed">PIN を有効にできません。</string>
+    <string name="sim_pin_protection_mode_automatic">自動（Android による管理）</string>
+    <string name="sim_pin_protection_mode_manual">手動</string>
     <string name="sim_pin_toggle">SIM をロックする</string>
     <string name="sim_pins_dont_match">PIN コードが一致しません</string>
     <string name="sim_platform_managed_pin_failure">PIN を取得できませんでした</string>
     <string name="sim_platform_managed_pin_value">Android 管理下の PIN の値:</string>
     <string name="sim_preferred_message">%1$s がプライマリ SIM になりました</string>
-    <string name="sim_protection_mode_lskf_required">SIM の保護を有効にするには、ロック画面を設定する必要があります</string>
-    <string name="sim_protection_mode_manually_managed">SIM の PIN は手動で管理されています</string>
+    <string name="sim_protection_mode_lskf_required">SIM を自動で保護するにはロック画面が必要です（現在は手動でのみ利用できます）</string>
+    <string name="sim_protection_mode_manually_managed">スマートフォンを使用するには PIN が必要です</string>
     <string name="sim_protection_mode_protected_by_platform">SIM の PIN は Android で管理されています</string>
     <string name="sim_radio_off">オフ</string>
     <string name="sim_reenter_new">新しい PIN を再入力</string>
@@ -13122,6 +13138,7 @@ PIN の編集や削除は [Android 設定] > [保護者による使用制限] �
     <string name="wifi_assistant_auto_confirm_data_message">デバイスが Wi-Fi でインターネットに接続できない場合は、モバイルデータネットワークを使用してください。</string>
     <string name="wifi_assistant_confirm_always">今後確認しない</string>
     <string name="wifi_assistant_confirm_connection_title">インターネットに接続できません</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Wi-Fi 接続状態が良くありません</string>
     <string name="wifi_assistant_data_prompt">警告</string>
     <string name="wifi_assistant_data_prompt_summary">モバイルデータへの切り替え時にデータ使用量の警告を表示する</string>
     <string name="wifi_assistant_description">"この機能をオンにした場合:

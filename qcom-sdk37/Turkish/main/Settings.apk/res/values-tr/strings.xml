@@ -1367,7 +1367,7 @@ Aramalar, mesajlar ve ağ trafiği kuruluşunuz tarafından görülebilir."</str
     <string name="automatic_brightness">Otomatik parlaklık</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Parlaklığı otomatik ayarlayabilmek için önce Yüz ile kilit açma özelliğini kapatın</string>
     <string name="automatic_keyboard_layout_label">Otomatik: %s</string>
-    <string name="automatic_sim_lock_protection">Otomatik SIM kilidi koruması</string>
+    <string name="automatic_sim_lock_protection">SIM kilidi koruma modu</string>
     <string name="automatic_sim_lock_settings_title">SIM kartı koru</string>
     <string name="automatic_storage_manager_activation_warning">Depolama alanınız artık depolama yöneticisi tarafından yönetiliyor</string>
     <string name="automatic_storage_manager_days_title">Fotoğrafları ve videoları kaldır</string>
@@ -2750,6 +2750,8 @@ Bu izin verilirse uygulama, bir etiket algılandığında kullanılabilir seçen
     <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
     <string name="charge_length_format">%1$s önce</string>
+    <string name="charge_light_state_summary">Şarj ederken arka ışığı yak</string>
+    <string name="charge_light_state_title">Şarj ışığı efektleri</string>
     <string name="charging_sounds_title">Şarj olma sesi ve titreşim</string>
     <string name="check_find_device_status_failure_confirm">Tamam</string>
     <string name="check_update">Güncellemeleri kontrol et</string>
@@ -2821,6 +2823,7 @@ hoş geldiniz"</string>
     <string name="choose_profile">Profil seçin</string>
     <string name="choose_sim_activating">Açılıyor…</string>
     <string name="choose_sim_could_not_activate">Bu SIM şu anda etkinleştirilemiyor</string>
+    <string name="choose_sim_pin_protection_mode">SIM koruma modunu seçin</string>
     <string name="choose_sim_text">{count,plural, =1{Bu cihazda 1 SIM var ancak tek seferde yalnızca bir 1 tane kullanılabilir}=2{Bu cihazda 2 SIM var ancak tek seferde yalnızca 1 tane kullanılabilir}other{Bu cihazda # SIM var ancak tek seferde yalnızca 1 tane kullanılabilir}}</string>
     <string name="choose_sim_title">"Kullanılacak SIM'i seçin"</string>
     <string name="choose_smartcover_type">Durum türünü seçin</string>
@@ -2957,6 +2960,7 @@ hoş geldiniz"</string>
     <string name="color_led_summary">Rahatsız Etme modunda çalışmaz</string>
     <string name="color_led_title">LED ışık</string>
     <string name="color_magenta">Macenta</string>
+    <string name="color_mixed_light">Karışık renk %d</string>
     <string name="color_mode_all_apps">Tüm uygulamalar</string>
     <string name="color_mode_option_automatic">Uyarlanabilir</string>
     <string name="color_mode_option_boosted">Zenginleştirilmiş</string>
@@ -3051,6 +3055,8 @@ hoş geldiniz"</string>
     <string name="confirm_frp_credential_title">Fabrika ayarlarına sıfırladıktan sonra kilit aç</string>
     <string name="confirm_lock_pattern_header_text">Deseninizi çizin</string>
     <string name="confirm_new_backup_pw_prompt">Buraya yeni tam yedekleme şifrenizi yeniden yazın</string>
+    <string name="confirm_new_sim_pin_after_mismatch">"PIN'ler eşleşmiyor. Yeni SIM PIN'ini onaylayın."</string>
+    <string name="confirm_new_sim_pin_title">"Yeni SIM PIN'ini onaylayın"</string>
     <string name="confirm_oem_unlock_for_16k_text">"16 KB geliştirici seçeneğini kullanmadan önce bu cihazın bootloader'ının kilidinin açılması gerekir. Bu modda yazılım doğruluğu garanti edilemez ve bootloader'ın kilidi açılmış telefonda saklanan veriler risk altında olabilir. 16 KB modu etkinleştirildiğinde tüm kullanıcı verileri ve ayarlar silinir. Bootloader'ın kilidi açıldıktan sonra 16 KB seçeneğinin etkinleştirilmesi için iki kez yeniden başlatma yapılması gerekir. Bu moddayken tek bir yeniden başlatma işlemiyle 4 KB ve 16 KB modları arasında geçiş yapabilirsiniz. Bu modlarda bazı özellikler devre dışı bırakılacağı için bir takım uygulamalar çalışmayabilir. Cihazı üretim moduna döndürmek için 4 KB moduna geri dönmeniz ve cihazda OEM/bootloader kilidini etkinleştirmeniz gerekir. Bu durumda cihaz fabrika ayarlarına sıfırlanır. Lütfen bootloader'ın kilidini açıp tekrar deneyin. Bu işlemle ilgili talimatları görmek için &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a> adresine gidin"</string>
     <string name="confirm_oem_unlock_for_16k_title">Bootloader Kilidinin Açılması Gerekiyor</string>
     <string name="confirm_pad_clone_password">Tabletin İkinci alan şifresini doğrulayın</string>
@@ -4233,6 +4239,8 @@ Bu, kaybolan veya çalınan cihazlardaki verileri korumaya yardımcı olur. Ciha
     <string name="enroll_fingerprint">Parmak izini kaydet</string>
     <string name="enrollment_completed">Bitti</string>
     <string name="enter_current_lock_screen_password">Ekran kilidinizi girin</string>
+    <string name="enter_current_sim_pin_after_mismatch">Yanlış PIN. %1$d deneme hakkınız kaldı</string>
+    <string name="enter_current_sim_pin_hint">SIM kartın mevcut PIN kodunu girin</string>
     <string name="enterprise_mode">İşletme modu</string>
     <string name="enterprise_privacy_always_on_vpn_device">Her zaman açık VPN açılmış</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Her zaman açık VPN kişisel profilinizde açılmış</string>
@@ -4705,6 +4713,7 @@ Daha fazla bilgi edinmek için sözleşmeli cihaz sağlayıcınızla iletişime 
     <string name="firewall_wifi_dialog_message">Yüklü uygulama, bu anahtar kapalı olduğunda Wi-Fi kullanarak internete bağlanamaz.</string>
     <string name="firmware_version">Android sürümü</string>
     <string name="first_day_of_week_preferences_title">Haftanın ilk günü</string>
+    <string name="first_sim_card_slot_title">Birinci SIM kart yuvası</string>
     <string name="fiveg_nrca_switch_summary">Test ortamları için 5G bağlantısını iyileştirin</string>
     <string name="fiveg_nrca_switch_title">5G operatör birleştirme</string>
     <string name="fiveg_sa_switch_summary">"İkinci SIM'de SA ağını kullanın (yalnızca test için)"</string>
@@ -7727,7 +7736,7 @@ Herhangi bir kullanıcı bu cihazda var olan tüm kullanıcı profilleri adına 
     <string name="network_and_internet_preferences_title">Ağ tercihleri</string>
     <string name="network_assistant">Veri kullanımı</string>
     <string name="network_auto_switch">Ağlar arasında geçiş yap</string>
-    <string name="network_auto_switch_summery">Wi-Fi sinyali zayıf olduğunda veya ağ kullanılamadığında mobil veriye geçiş yapın</string>
+    <string name="network_auto_switch_summery">Wi-Fi kalitesi kötü olduğunda başka bir kullanılabilir Wi-Fi ağına geçin veya mobil veriyi kullanın. Mobil veri kullanımı ek ücretler oluşturabilir.</string>
     <string name="network_changed_noti_summary">Mobil veri kullanılıyor</string>
     <string name="network_changed_noti_title">Wi-Fi bağlantısı kesildi</string>
     <string name="network_changed_notification_text">Mobil ağınız değişti</string>
@@ -8435,6 +8444,8 @@ Bu hizmeti kullanmadan önce %s sözleşmesini okuyun ve kabul edin."</string>
     <string name="peak_refresh_rate_summary">"Bazı içerikler için yenileme hızını otomatik olarak %1$d Hz'e yükseltir. Pil kullanımını artırır."</string>
     <string name="peak_refresh_rate_title">Smooth Display</string>
     <string name="peek_notification_icon_title">Gelen bildirimler için simgeleri göster</string>
+    <string name="peep_protection_v2_banner_summary">Bu cihaz modeline özel gizlilik ekranı özelliklerini deneyin</string>
+    <string name="peep_protection_v2_main_tile_label">Akıllı gizlilik ekranı</string>
     <string name="performance_category">Performans</string>
     <string name="perm_toggle_description">Uygulamalar ve hizmetler için</string>
     <string name="permission_action_prompt">Sor</string>
@@ -9163,6 +9174,7 @@ Cihazınızı bilgisayara bağlayan veya cihazınıza kötü amaçlı uygulamala
     <string name="protect_eyes_mode">Okuma modu</string>
     <string name="provide_current_sim_pin">"SIM kartın geçerli PIN'ini girin"</string>
     <string name="provide_current_sim_pin_title">"Geçerli SIM PIN'ini girin"</string>
+    <string name="provide_new_sim_pin_title">Yeni SIM PIN kodu</string>
     <string name="provider_internet_settings">İnternet</string>
     <string name="provider_network_settings_title">"SIM'ler"</string>
     <string name="provision_activation">Etkin</string>
@@ -10107,6 +10119,7 @@ seçenekleri;Yardım;Geliştirici;Geliştiriciler;Geliştirme;Gelişim;Sorun gid
     <string name="search_xspace">Çift uygulama;Çift uygulamalar;Çift uygulama;Çift uygulamalar;Klon uygulama;Klon uygulamalar;Uygulama klonu;Uygulama klonları;İki hesap;2 hesap</string>
     <string name="searchview_clear_text_content_description">Metni temizle</string>
     <string name="searchview_navigation_content_description">Geri</string>
+    <string name="second_sim_card_slot_title">İkinci SIM kart yuvası</string>
     <string name="second_space">İkinci alan</string>
     <string name="secondspace_category">İkinci alan</string>
     <string name="secondspace_delete_space_title">İkinci alanı sil</string>
@@ -10804,7 +10817,7 @@ Başka operatöre geçtiğinizde %1$s hizmetiniz iptal edilmez."</string>
     <string name="sim_action_switch_sub_dialog_title">%1$s operatörüne geçilsin mi?</string>
     <string name="sim_action_turn_off">Kapat</string>
     <string name="sim_action_yes">Evet</string>
-    <string name="sim_auto_pin_management_toggle">Otomatik PIN yönetimi</string>
+    <string name="sim_auto_pin_management_toggle">"SIM'i kilitle"</string>
     <string name="sim_bad_pin">PIN kodu %1$d-%2$d basamak içermelidir</string>
     <string name="sim_calls_always_use">Çağrılar için her zaman bunu kullan</string>
     <string name="sim_calls_ask_first_prefs_title">Her zaman sor</string>
@@ -10823,7 +10836,7 @@ Başka operatöre geçtiğinizde %1$s hizmetiniz iptal edilmez."</string>
     <string name="sim_change_failed_enable_sim_lock">PIN değiştirilemedi. Şimdi SIM kilidini açın.</string>
     <string name="sim_change_pin">SIM PIN kodu</string>
     <string name="sim_change_succeeded">SIM PIN kodu başarıyla değiştirildi</string>
-    <string name="sim_choose_protection_mode_title">SIM kartı hırsızlığa karşı koruyun</string>
+    <string name="sim_choose_protection_mode_title">Telefonu kullanmak için PIN iste</string>
     <string name="sim_combination_warning_notification_title">SIM kombinasyonuyla ilgili sorun</string>
     <string name="sim_disable_sim_lock">SIM kilidini aç</string>
     <string name="sim_display_platform_managed_pin">Android tarafından yönetilen PIN</string>
@@ -10871,13 +10884,15 @@ Başka operatöre geçtiğinizde %1$s hizmetiniz iptal edilmez."</string>
     <string name="sim_pin_change">SIM PIN kodunu değiştir</string>
     <string name="sim_pin_disable_failed">PIN devre dışı bırakılamıyor.</string>
     <string name="sim_pin_enable_failed">PIN etkinleştirilemiyor.</string>
+    <string name="sim_pin_protection_mode_automatic">Otomatik (Android tarafından yönetilen)</string>
+    <string name="sim_pin_protection_mode_manual">Manuel</string>
     <string name="sim_pin_toggle">"SIM'i kilitle"</string>
     <string name="sim_pins_dont_match">PIN kodları eşleşmiyor</string>
     <string name="sim_platform_managed_pin_failure">PIN alınamadı</string>
     <string name="sim_platform_managed_pin_value">"Android tarafından yönetilen PIN'in değeri:"</string>
     <string name="sim_preferred_message">"%1$s artık birincil SIM'iniz oldu"</string>
-    <string name="sim_protection_mode_lskf_required">SIM korumasını etkinleştirmek için kilit ekranı ayarlanmalıdır</string>
-    <string name="sim_protection_mode_manually_managed">"SIM PIN'i manuel olarak yönetiliyor"</string>
+    <string name="sim_protection_mode_lskf_required">Otomatik SIM koruması için kilit ekranı gerekiyor. Şu anda yalnızca manuel koruma kullanılabilir</string>
+    <string name="sim_protection_mode_manually_managed">Telefonu kullanmak için PIN gerekiyor</string>
     <string name="sim_protection_mode_protected_by_platform">"SIM PIN'i, Android tarafından yönetiliyor"</string>
     <string name="sim_radio_off">Kapalı</string>
     <string name="sim_reenter_new">"Yeni PIN'i yeniden yazın"</string>
@@ -13009,6 +13024,7 @@ Bir uygulamayı widget kullanarak açmak için kimliğinizi doğrulamanız gerek
     <string name="wifi_assistant_auto_confirm_data_message">Cihazınız Wi-Fi aracılığıyla internete bağlanamadığında mobil veri ağlarını kullanın.</string>
     <string name="wifi_assistant_confirm_always">Tekrar sorma</string>
     <string name="wifi_assistant_confirm_connection_title">İnternete bağlanılamıyor</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Zayıf Wi-Fi bağlantısı</string>
     <string name="wifi_assistant_data_prompt">Uyar</string>
     <string name="wifi_assistant_data_prompt_summary">Mobil veriye geçiyorken veri kullanımı uyarısını göster</string>
     <string name="wifi_assistant_description">"Bu özellik nasıl çalışır:

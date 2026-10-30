@@ -1367,7 +1367,7 @@ Tổ chức của bạn có thể nhìn thấy cuộc gọi, tin nhắn và lưu
     <string name="automatic_brightness">Độ sáng tự động</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Để có thể tự động điều chỉnh độ sáng, tắt Mở khóa bằng khuôn mặt trước</string>
     <string name="automatic_keyboard_layout_label">Tự động: %s</string>
-    <string name="automatic_sim_lock_protection">Tự động bảo vệ bằng tính năng khoá SIM</string>
+    <string name="automatic_sim_lock_protection">Chế độ bảo vệ bằng tính năng khoá SIM</string>
     <string name="automatic_sim_lock_settings_title">Bảo vệ thẻ SIM</string>
     <string name="automatic_storage_manager_activation_warning">Bộ nhớ của bạn hiện đang được quản lý bởi trình quản lý bộ nhớ</string>
     <string name="automatic_storage_manager_days_title">Xóa ảnh và video</string>
@@ -2750,6 +2750,8 @@ Nếu quyền này bật, ứng dụng sẽ xuất hiện dưới dạng lựa c
     <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
     <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
     <string name="charge_length_format">%1$s trước</string>
+    <string name="charge_light_state_summary">Đèn nền sáng lên khi đang sạc</string>
+    <string name="charge_light_state_title">Hiệu ứng đèn sạc</string>
     <string name="charging_sounds_title">Âm thanh và rung khi sạc</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Kiểm tra cập nhật</string>
@@ -2821,6 +2823,7 @@ Bảng điều khiển hiệu suất chip"</string>
     <string name="choose_profile">Chọn hồ sơ</string>
     <string name="choose_sim_activating">Đang bật…</string>
     <string name="choose_sim_could_not_activate">Hiện không thể bật SIM này</string>
+    <string name="choose_sim_pin_protection_mode">Chọn chế độ bảo vệ SIM</string>
     <string name="choose_sim_text">{count,plural, =1{Có 1 SIM trên thiết bị này, nhưng mỗi lần bạn chỉ dùng được một SIM}=2{Có 2 SIM trên thiết bị này, nhưng mỗi lần bạn chỉ dùng được một SIM}other{Có # SIM trên thiết bị này, nhưng mỗi lần bạn chỉ dùng được một SIM}}</string>
     <string name="choose_sim_title">Chọn một SIM để dùng</string>
     <string name="choose_smartcover_type">Chọn loại vỏ bảo vệ</string>
@@ -2957,6 +2960,7 @@ Bảng điều khiển hiệu suất chip"</string>
     <string name="color_led_summary">Không làm việc ở chế độ Không làm phiền</string>
     <string name="color_led_title">Đèn LED</string>
     <string name="color_magenta">Đỏ tươi</string>
+    <string name="color_mixed_light">Màu hỗn hợp %d</string>
     <string name="color_mode_all_apps">Tất cả ứng dụng</string>
     <string name="color_mode_option_automatic">Thích ứng</string>
     <string name="color_mode_option_boosted">Tăng độ nét</string>
@@ -3051,6 +3055,8 @@ Bảng điều khiển hiệu suất chip"</string>
     <string name="confirm_frp_credential_title">Mở khóa sau khi Đặt lại cài đặt gốc</string>
     <string name="confirm_lock_pattern_header_text">Vẽ hình mở khóa</string>
     <string name="confirm_new_backup_pw_prompt">Nhập lại mật khẩu mới cho sao lưu toàn bộ vào đây</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Mã PIN không khớp. Xác nhận mã PIN mới của SIM.</string>
+    <string name="confirm_new_sim_pin_title">Xác nhận mã PIN mới của SIM</string>
     <string name="confirm_oem_unlock_for_16k_text">Bạn cần phải mở khoá trình tải khởi động cho thiết bị này thì mới dùng được tuỳ chọn 16 KB cho nhà phát triển. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Tất cả dữ liệu người dùng và các chế độ cài đặt sẽ bị xoá sạch khi bạn kích hoạt chế độ 16 KB. Sau khi trình tải khởi động được mở khoá, bạn cần khởi động lại 2 lần thì mới kích hoạt được chế độ 16 KB. Khi đã ở chế độ này, bạn chỉ cần khởi động lại một lần là có thể chuyển qua lại giữa chế độ 4 KB và 16 KB. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần quay lại chế độ 4 KB, sau đó khoá OEM/trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Hãy mở khoá trình tải khởi động rồi thử lại. Bạn có thể xem hướng dẫn về cách thực hiện việc này tại &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Cần mở khoá trình tải khởi động</string>
     <string name="confirm_pad_clone_password">Xác nhận mật khẩu Không gian thứ hai của máy tính bảng</string>
@@ -4233,6 +4239,8 @@ Bạn có thể xem nhật ký được tạo trong Quản lý Tập tin."</stri
     <string name="enroll_fingerprint">Ghi vân tay</string>
     <string name="enrollment_completed">Hoàn tất</string>
     <string name="enter_current_lock_screen_password">Nhập khóa màn hình của bạn</string>
+    <string name="enter_current_sim_pin_after_mismatch">Mã PIN không đúng. Số lần thử còn lại: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Nhập mã PIN hiện tại của thẻ SIM</string>
     <string name="enterprise_mode">Chế độ doanh nghiệp</string>
     <string name="enterprise_privacy_always_on_vpn_device">Đã bật tùy chọn luôn bật VPN</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Đã bật tùy chọn luôn bật VPN trong hồ sơ cá nhân của bạn</string>
@@ -4705,6 +4713,7 @@ Nếu không thanh toán đúng hạn, tổ chức tín dụng có thể khoá t
     <string name="firewall_wifi_dialog_message">Ứng dụng đã cài đặt không thể kết nối internet bằng Wi-Fi khi tắt chuyển đổi này.</string>
     <string name="firmware_version">Phiên bản Android</string>
     <string name="first_day_of_week_preferences_title">Ngày đầu tiên trong tuần</string>
+    <string name="first_sim_card_slot_title">Khe cắm thẻ SIM thứ nhất</string>
     <string name="fiveg_nrca_switch_summary">Cải thiện kết nối 5G đối với môi trường thử nghiệm</string>
     <string name="fiveg_nrca_switch_title">Kết hợp sóng mang 5G</string>
     <string name="fiveg_sa_switch_summary">Sử dụng mạng SA trên SIM hai (chỉ để thử nghiệm)</string>
@@ -7727,7 +7736,7 @@ Hãy chọn hệ điều hành hệ thống:"</string>
     <string name="network_and_internet_preferences_title">Lựa chọn ưu tiên về mạng</string>
     <string name="network_assistant">Sử dụng dữ liệu</string>
     <string name="network_auto_switch">Chuyển đổi giữa các mạng</string>
-    <string name="network_auto_switch_summery">Chuyển sang dữ liệu di động khi tín hiệu Wi-Fi yếu hoặc mạng không khả dụng</string>
+    <string name="network_auto_switch_summery">Khi chất lượng Wi-Fi kém, hãy chuyển sang mạng Wi-Fi khả dụng khác hoặc sử dụng dữ liệu di động. Sử dụng dữ liệu di động có thể phát sinh thêm phí.</string>
     <string name="network_changed_noti_summary">Đang dùng dữ liệu di động</string>
     <string name="network_changed_noti_title">Đã ngắt kết nối Wi-Fi</string>
     <string name="network_changed_notification_text">Mạng di động của bạn đã thay đổi</string>
@@ -8435,6 +8444,8 @@ OTG tự động tắt sau 10 phút không hoạt động."</string>
     <string name="peak_refresh_rate_summary">Tự động tăng tốc độ làm mới từ 60 lên đến %1$d Hz đối với một số nội dung. Chế độ cài đặt này sẽ làm tăng mức sử dụng pin.</string>
     <string name="peak_refresh_rate_title">Hình ảnh mượt</string>
     <string name="peek_notification_icon_title">Hiển thị biểu tượng cho thông báo đến</string>
+    <string name="peep_protection_v2_banner_summary">Thử tính năng hiển thị riêng tư độc quyền cho mẫu thiết bị này</string>
+    <string name="peep_protection_v2_main_tile_label">Hiển thị riêng tư thông minh</string>
     <string name="performance_category">Hiệu suất</string>
     <string name="perm_toggle_description">Áp dụng cho các ứng dụng và dịch vụ</string>
     <string name="permission_action_prompt">Hỏi lại</string>
@@ -9163,6 +9174,7 @@ Bất cứ ai kết nối thiết bị của bạn với một máy tính hoặc
     <string name="protect_eyes_mode">Chế độ đọc sách</string>
     <string name="provide_current_sim_pin">Nhập mã PIN hiện tại của thẻ SIM</string>
     <string name="provide_current_sim_pin_title">Nhập mã PIN hiện tại của SIM</string>
+    <string name="provide_new_sim_pin_title">Mã PIN mới của SIM</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIM</string>
     <string name="provision_activation">Kích hoạt</string>
@@ -10107,6 +10119,7 @@ nhà phát triển;Trợ lý;Nhà phát triển;Các nhà phát triển;Đang ph
     <string name="search_xspace">Ứng dụng kép;Ứng dụng đôi;Ứng dụng nhân bản;Ứng dụng ảo;Hai tài khoản;2 tài khoản</string>
     <string name="searchview_clear_text_content_description">Xoá văn bản</string>
     <string name="searchview_navigation_content_description">Quay lại</string>
+    <string name="second_sim_card_slot_title">Khe cắm thẻ SIM thứ hai</string>
     <string name="second_space">Không gian thứ hai</string>
     <string name="secondspace_category">Không gian thứ hai</string>
     <string name="secondspace_delete_space_title">Xóa Không gian thứ hai</string>
@@ -10804,7 +10817,7 @@ Khi chuyển, dịch vụ %1$s của bạn sẽ không bị huỷ."</string>
     <string name="sim_action_switch_sub_dialog_title">Chuyển sang %1$s?</string>
     <string name="sim_action_turn_off">Tắt</string>
     <string name="sim_action_yes">Có</string>
-    <string name="sim_auto_pin_management_toggle">Tự động quản lý mã PIN</string>
+    <string name="sim_auto_pin_management_toggle">Khoá SIM</string>
     <string name="sim_bad_pin">Mã PIN phải chứa %1$d-%2$d chữ số</string>
     <string name="sim_calls_always_use">Luôn sử dụng SIM này để gọi</string>
     <string name="sim_calls_ask_first_prefs_title">Luôn hỏi</string>
@@ -10823,11 +10836,11 @@ Khi chuyển, dịch vụ %1$s của bạn sẽ không bị huỷ."</string>
     <string name="sim_change_failed_enable_sim_lock">Không thể thay đổi mã PIN. Bật khóa SIM ngay.</string>
     <string name="sim_change_pin">Mã PIN của SIM</string>
     <string name="sim_change_succeeded">Mã PIN của SIM đã được thay đổi thành công</string>
-    <string name="sim_choose_protection_mode_title">Bảo vệ thẻ SIM khỏi bị đánh cắp</string>
+    <string name="sim_choose_protection_mode_title">Cần có mã PIN để dùng điện thoại</string>
     <string name="sim_combination_warning_notification_title">Sự cố kết hợp SIM</string>
     <string name="sim_disable_sim_lock">Mở khoá SIM</string>
     <string name="sim_display_platform_managed_pin">Mã PIN do Android quản lý</string>
-    <string name="sim_display_platform_managed_pin_title">Hiển thị mã PIN do Android quản lý</string>
+    <string name="sim_display_platform_managed_pin_title">Hiện mã PIN do Android quản lý</string>
     <string name="sim_editor_title">Khe cắm thẻ SIM %1$d</string>
     <string name="sim_enable_sim_lock">Khoá SIM</string>
     <string name="sim_enrollment_failed">Không đăng ký được</string>
@@ -10871,13 +10884,15 @@ Khi chuyển, dịch vụ %1$s của bạn sẽ không bị huỷ."</string>
     <string name="sim_pin_change">Thay đổi mã PIN của SIM</string>
     <string name="sim_pin_disable_failed">Không thể tắt mã PIN.</string>
     <string name="sim_pin_enable_failed">Không thể bật mã PIN.</string>
+    <string name="sim_pin_protection_mode_automatic">Tự động (do Android quản lý)</string>
+    <string name="sim_pin_protection_mode_manual">Thủ công</string>
     <string name="sim_pin_toggle">Khoá SIM</string>
     <string name="sim_pins_dont_match">Mã PIN không khớp</string>
-    <string name="sim_platform_managed_pin_failure">Không nhận được mã PIN</string>
+    <string name="sim_platform_managed_pin_failure">Không lấy được mã PIN</string>
     <string name="sim_platform_managed_pin_value">Giá trị của mã PIN do Android quản lý:</string>
     <string name="sim_preferred_message">%1$s hiện là SIM chính của bạn</string>
-    <string name="sim_protection_mode_lskf_required">Bạn phải thiết lập màn hình khoá để bật tính năng bảo vệ SIM</string>
-    <string name="sim_protection_mode_manually_managed">Mã PIN của SIM được quản lý theo cách thủ công</string>
+    <string name="sim_protection_mode_lskf_required">Cần có màn hình khoá để tự động bảo vệ SIM, hiện chỉ có tính năng bảo vệ thủ công</string>
+    <string name="sim_protection_mode_manually_managed">Cần có mã PIN để dùng điện thoại</string>
     <string name="sim_protection_mode_protected_by_platform">Mã PIN của SIM do Android quản lý</string>
     <string name="sim_radio_off">Tắt</string>
     <string name="sim_reenter_new">Nhập lại mã PIN mới</string>
@@ -13009,6 +13024,7 @@ Khi dùng tiện ích để mở một ứng dụng, bạn cần xác minh danh 
     <string name="wifi_assistant_auto_confirm_data_message">Sử dụng mạng dữ liệu di động khi thiết bị không thể kết nối với internet qua Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Không hỏi lại</string>
     <string name="wifi_assistant_confirm_connection_title">Không thể kết nối internet</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Kết nối Wi-Fi kém</string>
     <string name="wifi_assistant_data_prompt">Cảnh báo</string>
     <string name="wifi_assistant_data_prompt_summary">Hiển thị cảnh báo sử dụng dữ liệu khi chuyển sang dữ liệu di động</string>
     <string name="wifi_assistant_description">"Đây là cách tính năng này hoạt động:

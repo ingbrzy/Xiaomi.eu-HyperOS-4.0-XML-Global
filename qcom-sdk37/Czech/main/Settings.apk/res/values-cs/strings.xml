@@ -1367,7 +1367,7 @@ Hovory, zprávy a síťový provoz mohou být viditelné pro vaši organizaci."
     <string name="automatic_brightness">Automatický jas</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Pro automatické upravení jasu nejprve vypněte Odemknutí pomocí tváře</string>
     <string name="automatic_keyboard_layout_label">Automatické: %s</string>
-    <string name="automatic_sim_lock_protection">Automatická ochrana zámkem SIM karty</string>
+    <string name="automatic_sim_lock_protection">Ochrana zámkem SIM karty</string>
     <string name="automatic_sim_lock_settings_title">Chránit SIM kartu</string>
     <string name="automatic_storage_manager_activation_warning">Úložiště je teď spravováno správcem úložiště.</string>
     <string name="automatic_storage_manager_days_title">Odstranit fotky a videa</string>
@@ -2750,6 +2750,8 @@ Pokud je toto oprávnění zapnuté, aplikace bude dostupná jako možnost při 
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
     <string name="character_counter_overflowed_content_description">Byl překročen povolený počet znaků (%1$d z %2$d)</string>
     <string name="charge_length_format">Před %1$s</string>
+    <string name="charge_light_state_summary">Rozsvítit během nabíjení podsvícení</string>
+    <string name="charge_light_state_title">Světelné efekty při nabíjení</string>
     <string name="charging_sounds_title">Zvuky a vibrace při nabíjení</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Zkontrolovat aktualizace</string>
@@ -2821,6 +2823,7 @@ Panelu výkonu čipu"</string>
     <string name="choose_profile">Vyberte profil</string>
     <string name="choose_sim_activating">Zapínání…</string>
     <string name="choose_sim_could_not_activate">Tuhle SIM kartu se teď nepodařilo zapnout</string>
+    <string name="choose_sim_pin_protection_mode">Vyberte režim ochrany SIM karty</string>
     <string name="choose_sim_text">{count,plural, =1{V zařízení je k dispozici 1 SIM karta, ale v jednu chvíli lze použít jen jedno}=2{V zařízení jsou k dispozici 2 SIM karty, ale v jednu chvíli lze použít jen jedno}few{V zařízení jsou k dispozici # SIM karty, ale v jednu chvíli lze použít jen jedno}many{V zařízení je k dispozici # SIM karty, ale v jednu chvíli lze použít jen jedno}other{V zařízení je k dispozici # SIM karet, ale v jednu chvíli lze použít jen jedno}}</string>
     <string name="choose_sim_title">Vyberte SIM kartu, která se použije</string>
     <string name="choose_smartcover_type">Zvolte typ pouzdra</string>
@@ -2957,6 +2960,7 @@ Panelu výkonu čipu"</string>
     <string name="color_led_summary">Funkce není dostupná v režimu Nerušit</string>
     <string name="color_led_title">Světelná kontrolka</string>
     <string name="color_magenta">Purpurová</string>
+    <string name="color_mixed_light">Smíšená barva %d</string>
     <string name="color_mode_all_apps">Všechny aplikace</string>
     <string name="color_mode_option_automatic">Adaptivní</string>
     <string name="color_mode_option_boosted">Zesílené</string>
@@ -3051,6 +3055,8 @@ Panelu výkonu čipu"</string>
     <string name="confirm_frp_credential_title">Odemknutí po obnovení továrního nastavení</string>
     <string name="confirm_lock_pattern_header_text">Nakreslete svůj vzor</string>
     <string name="confirm_new_backup_pw_prompt">Sem znovu zadejte nové heslo pro úplné zálohy.</string>
+    <string name="confirm_new_sim_pin_after_mismatch">Kódy PIN se neshodují. Potvrďte nový PIN SIM karty.</string>
+    <string name="confirm_new_sim_pin_title">Potvrďte nový PIN SIM karty</string>
     <string name="confirm_oem_unlock_for_16k_text">K použití možnosti 16kB režimu pro vývojáře musí mít zařízení odemknutý bootloader. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Při aktivaci 16kB režimu se vymažou všechna uživatelská data a nastavení. Po odemknutí bootloaderu bude aktivace 16kB režimu vyžadovat dva restarty. Po jeho aktivaci pak bude k přepnutí mezi 4kB a 16kB režimem stačit pouze jeden restart. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud budete chtít zařízení vrátit do produkčního režimu, budete systém muset přepnout zpět do 4kB režimu a pak v něm deaktivovat odemknutí OEM / uzamknout bootloader (čímž zařízení resetujete do továrního nastavení). Odemkněte bootloader a zkuste to znovu. Pokyny, jak to provést, najdete na stránce &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Je vyžadováno odemknutí bootloaderu</string>
     <string name="confirm_pad_clone_password">Potvrďte heslo Druhého prostoru pro svůj tablet</string>
@@ -4234,6 +4240,8 @@ To pomáhá chránit data na ztracených nebo odcizených zařízeních. Vyžado
     <string name="enroll_fingerprint">Zaznamenat otisk prstu</string>
     <string name="enrollment_completed">Hotovo</string>
     <string name="enter_current_lock_screen_password">Zadejte zámek obrazovky</string>
+    <string name="enter_current_sim_pin_after_mismatch">Chybný PIN. Zbývající počet pokusů: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Zadejte aktuální PIN kód SIM karty</string>
     <string name="enterprise_mode">Firemní režim</string>
     <string name="enterprise_privacy_always_on_vpn_device">Trvalá síť VPN je zapnutá</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Trvalá síť VPN je zapnutá v osobním profilu</string>
@@ -4706,6 +4714,7 @@ Další informace vám sdělí poskytovatel úvěru."</string>
     <string name="firewall_wifi_dialog_message">Pokud je tato funkce vypnuta, aplikace se nebude moci připojit k internetu pomocí sítě Wi-Fi.</string>
     <string name="firmware_version">Verze systému Android</string>
     <string name="first_day_of_week_preferences_title">První den týdne</string>
+    <string name="first_sim_card_slot_title">Slot pro první SIM kartu</string>
     <string name="fiveg_nrca_switch_summary">Vylepšení připojení 5G pro testovací prostředí</string>
     <string name="fiveg_nrca_switch_title">Agregace 5G operátorů</string>
     <string name="fiveg_sa_switch_summary">Použít SA síť pro sekundární SIM kartu (pouze pro testování)</string>
@@ -7728,7 +7737,7 @@ Zvolte váš operační systém:"</string>
     <string name="network_and_internet_preferences_title">Nastavení sítě</string>
     <string name="network_assistant">Využití dat</string>
     <string name="network_auto_switch">Přepnutí mezi sítěmi</string>
-    <string name="network_auto_switch_summery">Přepnout na mobilní datové připojení, pokud je signál Wi-Fi sítě příliš slabý nebo je síť nedostupná</string>
+    <string name="network_auto_switch_summery">Pokud je kvalita Wi-Fi špatná, přepněte na jinou dostupnou Wi-Fi síť nebo použijte mobilní data. Využití mobilních dat může navýšit poplatky.</string>
     <string name="network_changed_noti_summary">Používání mobilních dat</string>
     <string name="network_changed_noti_title">Odpojeno od sítě Wi-Fi</string>
     <string name="network_changed_notification_text">Mobilní síť se změnila</string>
@@ -8436,6 +8445,8 @@ Před použitím této služby si přečtěte a souhlaste se %s."</string>
     <string name="peak_refresh_rate_summary">U některého obsahu automaticky zvýší obnovovací frekvenci až na %1$d Hz. Zvyšuje využití baterie.</string>
     <string name="peak_refresh_rate_title">Plynulý obraz</string>
     <string name="peek_notification_icon_title">Zobrazit ikony pro nová oznámení</string>
+    <string name="peep_protection_v2_banner_summary">Vyzkoušejte funkce soukromého displeje vyhrazené pro tento model zařízení</string>
+    <string name="peep_protection_v2_main_tile_label">Chytrý soukromý displej</string>
     <string name="performance_category">Výkon</string>
     <string name="perm_toggle_description">Aplikace a služby</string>
     <string name="permission_action_prompt">Zeptat se</string>
@@ -9164,6 +9175,7 @@ Do soukromého prostoru se může dostat kdokoli, kdo zařízení připojí k p
     <string name="protect_eyes_mode">Režim pro čtení</string>
     <string name="provide_current_sim_pin">Zadejte aktuální PIN SIM karty</string>
     <string name="provide_current_sim_pin_title">Zadejte aktuální PIN SIM karty</string>
+    <string name="provide_new_sim_pin_title">Nový PIN SIM karty</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIM karty</string>
     <string name="provision_activation">Aktivní</string>
@@ -10109,6 +10121,7 @@ Použití připnutí aplikace: \t
     <string name="search_xspace">Duální aplikace;Duální aplikace;Dvojitá aplikace;Dvojité aplikace;Klonování aplikace;Klonování aplikací;Klon aplikace;Klony aplikací;Dva účty;2 účty</string>
     <string name="searchview_clear_text_content_description">Vymazat text</string>
     <string name="searchview_navigation_content_description">Zpět</string>
+    <string name="second_sim_card_slot_title">Slot pro druhou SIM kartu</string>
     <string name="second_space">Druhý prostor</string>
     <string name="secondspace_category">Druhý prostor</string>
     <string name="secondspace_delete_space_title">Odstranit Druhý prostor</string>
@@ -10806,7 +10819,7 @@ Přepnutím nezrušíte tarif u operátora %1$s."</string>
     <string name="sim_action_switch_sub_dialog_title">Přepnout na operátora %1$s?</string>
     <string name="sim_action_turn_off">Vypnout</string>
     <string name="sim_action_yes">Ano</string>
-    <string name="sim_auto_pin_management_toggle">Automatická správa PINu</string>
+    <string name="sim_auto_pin_management_toggle">Zamykat SIM kartu</string>
     <string name="sim_bad_pin">PIN musí obsahovat %1$d-%2$d číslic</string>
     <string name="sim_calls_always_use">Vždy používat pro hovory</string>
     <string name="sim_calls_ask_first_prefs_title">Pokaždé se zeptat</string>
@@ -10825,7 +10838,7 @@ Přepnutím nezrušíte tarif u operátora %1$s."</string>
     <string name="sim_change_failed_enable_sim_lock">Změna PIN kódu se nezdařila. Zapněte zámek SIM karty.</string>
     <string name="sim_change_pin">Kód PIN SIM karty</string>
     <string name="sim_change_succeeded">PIN SIM karty byl úspěšně změněn.</string>
-    <string name="sim_choose_protection_mode_title">Ochrana SIM karty před odcizením</string>
+    <string name="sim_choose_protection_mode_title">K použití telefonu vyžadovat PIN</string>
     <string name="sim_combination_warning_notification_title">Problém s kombinací SIM karet</string>
     <string name="sim_disable_sim_lock">Odemknout SIM kartu</string>
     <string name="sim_display_platform_managed_pin">PIN spravovaný systémem Android</string>
@@ -10873,13 +10886,15 @@ Přepnutím nezrušíte tarif u operátora %1$s."</string>
     <string name="sim_pin_change">Změnit PIN SIM karty</string>
     <string name="sim_pin_disable_failed">PIN nelze deaktivovat.</string>
     <string name="sim_pin_enable_failed">PIN nelze aktivovat.</string>
+    <string name="sim_pin_protection_mode_automatic">Automaticky (spravováno systémem Android)</string>
+    <string name="sim_pin_protection_mode_manual">Ručně</string>
     <string name="sim_pin_toggle">Zamykat SIM kartu</string>
     <string name="sim_pins_dont_match">PIN kódy se neshodují</string>
     <string name="sim_platform_managed_pin_failure">PIN se nepodařilo získat</string>
     <string name="sim_platform_managed_pin_value">Hodnota kódu PIN spravovaného systémem Android:</string>
     <string name="sim_preferred_message">%1$s je teď vaše primární SIM karta</string>
-    <string name="sim_protection_mode_lskf_required">Pokud chcete zapnout ochranu SIM karty, musíte nastavit zámek obrazovky</string>
-    <string name="sim_protection_mode_manually_managed">PIN SIM karty spravovaný ručně</string>
+    <string name="sim_protection_mode_lskf_required">Automatická ochrana SIM karty vyžaduje zámek obrazovky, teď je k dispozici pouze manuální</string>
+    <string name="sim_protection_mode_manually_managed">K použití telefonu je vyžadován PIN</string>
     <string name="sim_protection_mode_protected_by_platform">PIN SIM karty spravovaný systémem Android</string>
     <string name="sim_radio_off">Vyp.</string>
     <string name="sim_reenter_new">Potvrďte nový kód PIN</string>
@@ -13019,6 +13034,7 @@ K otevření aplikace pomocí widgetu budete muset ověřit svou totožnost. Ta
     <string name="wifi_assistant_auto_confirm_data_message">Využít mobilní datové připojení, pokud se zařízení nemůže připojit k internetu pomocí sítě Wi-Fi.</string>
     <string name="wifi_assistant_confirm_always">Znovu se neptat</string>
     <string name="wifi_assistant_confirm_connection_title">Nelze se připojit k internetu</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Slabé Wi-Fi připojení</string>
     <string name="wifi_assistant_data_prompt">Zobrazit upozornění</string>
     <string name="wifi_assistant_data_prompt_summary">Zobrazit upozornění na využití dat při přepnutí na mobilní data</string>
     <string name="wifi_assistant_description">"Jak tato funkce funguje:

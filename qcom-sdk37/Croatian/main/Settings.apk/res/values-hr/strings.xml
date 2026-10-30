@@ -1367,7 +1367,7 @@ Vašoj organizaciji mogu biti vidljivi pozivi, poruke i mrežni promet."</string
     <string name="automatic_brightness">Automatsko osvjetljenje</string>
     <string name="automatic_brightness_close_for_virtual_light_sensor">Da biste mogli automatski prilagoditi osvjetljenje, prvo isključite Otključavanje licem</string>
     <string name="automatic_keyboard_layout_label">Automatski: %s</string>
-    <string name="automatic_sim_lock_protection">Automatska zaštita zaključavanjem SIM-a</string>
+    <string name="automatic_sim_lock_protection">Zaštita zaključavanjem SIM-a</string>
     <string name="automatic_sim_lock_settings_title">Zaštita SIM kartice</string>
     <string name="automatic_storage_manager_activation_warning">Vašom pohranom sada upravlja upravitelj pohrane</string>
     <string name="automatic_storage_manager_days_title">Ukloni fotografije i videozapise</string>
@@ -2750,6 +2750,8 @@ Ako je to dopuštenje uključeno, aplikacija će biti dostupna kao opcija svaki 
     <string name="character_counter_content_description">Uneseno znakova: %1$d od %2$d</string>
     <string name="character_counter_overflowed_content_description">Premašeno je ograničenje broja znakova: %1$d od %2$d</string>
     <string name="charge_length_format">Prije %1$s</string>
+    <string name="charge_light_state_summary">Uključi pozadinsko osvjetljenje tijekom punjenja</string>
+    <string name="charge_light_state_title">Svjetlosni efekti tijekom punjenja</string>
     <string name="charging_sounds_title">Zvukovi i vibracija punjenja</string>
     <string name="check_find_device_status_failure_confirm">U redu</string>
     <string name="check_update">Provjeri za ažuriranja</string>
@@ -2821,6 +2823,7 @@ nadzornu ploču performansi čipa"</string>
     <string name="choose_profile">Odaberite profil</string>
     <string name="choose_sim_activating">Uključivanje profila…</string>
     <string name="choose_sim_could_not_activate">Trenutačno nije moguće uključiti SIM</string>
+    <string name="choose_sim_pin_protection_mode">Odaberite način zaštite SIM-a</string>
     <string name="choose_sim_text">{count,plural, =1{Na ovom je uređaju dostupan jedan SIM i istovremeno se može upotrebljavati samo jedan}=2{Na ovom su uređaju dostupna dva SIM-a, ali se istovremeno može upotrebljavati samo jedan}one{Na ovom je uređaju dostupan # SIM, ali se istovremeno može upotrebljavati samo jedan}few{Na ovom su uređaju dostupna # SIM-a, ali se istovremeno može upotrebljavati samo jedan}other{Na ovom je uređaju dostupno # SIM-ova, ali se istovremeno može upotrebljavati samo jedan}}</string>
     <string name="choose_sim_title">Odaberite SIM koji ćete upotrebljavati</string>
     <string name="choose_smartcover_type">Odaberite tip maske</string>
@@ -2957,6 +2960,7 @@ nadzornu ploču performansi čipa"</string>
     <string name="color_led_summary">Ne radi u Ne ometaj</string>
     <string name="color_led_title">LED svjetlo</string>
     <string name="color_magenta">Grimizna</string>
+    <string name="color_mixed_light">Mješovita boja %d</string>
     <string name="color_mode_all_apps">Sve aplikacije</string>
     <string name="color_mode_option_automatic">Prilagodljivo</string>
     <string name="color_mode_option_boosted">Pojačano</string>
@@ -3051,6 +3055,8 @@ nadzornu ploču performansi čipa"</string>
     <string name="confirm_frp_credential_title">Otključaj nakon vraćanja na tvorničke postavke</string>
     <string name="confirm_lock_pattern_header_text">Iscrtajte svoj uzorak</string>
     <string name="confirm_new_backup_pw_prompt">Ovdje ponovo unesite novu zaporku za potpunu sigurnosnu kopiju</string>
+    <string name="confirm_new_sim_pin_after_mismatch">PIN-ovi se ne podudaraju. Potvrdite novi PIN za SIM.</string>
+    <string name="confirm_new_sim_pin_title">Potvrdite novi PIN za SIM</string>
     <string name="confirm_oem_unlock_for_16k_text">Ovaj uređaj mora imati otključan pokretač operativnog sustava prije upotrebe opcije za razvojne programere od 16 KB. U ovom se načinu ne može zajamčiti integritet softvera, a svi podaci pohranjeni na telefonu mogu biti ugroženi dok je pokretač operativnog sustava otključan. Svi korisnički podaci i postavke izbrisat će se nakon aktiviranja načina od 16 KB. Nakon što se pokretač operativnog sustava otključa, za aktiviranje opcije od 16 KB potrebno je dvaput ponovno pokrenuti sustav. Nakon što prijeđete na ovaj način, možete se prebacivati između načina od 4 KB i 16 KB uz jedno ponovno pokretanje. Neke će značajke biti onemogućene u tim načinima, pa neke aplikacije možda neće funkcionirati. Da biste uređaj vratili na produkcijski način rada, trebat ćete se vratiti na način od 4 KB, a zatim zaključati OEM/pokretač operativnog sustava (čime će se uređaj vratiti na tvorničke postavke). Otključajte pokretač operativnog sustava i pokušajte ponovno. Upute kako to učiniti možete pronaći na web-lokaciji &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\">https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a></string>
     <string name="confirm_oem_unlock_for_16k_title">Potrebno je otključavanje pokretača operativnog sustava</string>
     <string name="confirm_pad_clone_password">Potvrdite zaporku za Drugi prostor tableta</string>
@@ -4233,6 +4239,8 @@ Ovo štiti podatke na izgubljenim ili ukradenim uređajima. Tražiti PIN za pokr
     <string name="enroll_fingerprint">Snimi otisak prsta</string>
     <string name="enrollment_completed">Dovršeno</string>
     <string name="enter_current_lock_screen_password">Unesite svoje Zaključavanje zaslona</string>
+    <string name="enter_current_sim_pin_after_mismatch">Pogrešan PIN. Preostali broj pokušaja: %1$d</string>
+    <string name="enter_current_sim_pin_hint">Unesite trenutačni PIN kôd SIM kartice</string>
     <string name="enterprise_mode">Poslovni način</string>
     <string name="enterprise_privacy_always_on_vpn_device">Aktiviran je uvijek uključeni VPN</string>
     <string name="enterprise_privacy_always_on_vpn_personal">Uvijek uključeni VPN aktiviran je u osobnom profilu</string>
@@ -4705,6 +4713,7 @@ Da biste saznali više, obratite se vjerovniku."</string>
     <string name="firewall_wifi_dialog_message">Instalirana aplikacija neće se moći povezati s internetom putem Wi-Fi veze kada je ova prekidač isključena.</string>
     <string name="firmware_version">Verzija sustava Android</string>
     <string name="first_day_of_week_preferences_title">Prvi dan u tjednu</string>
+    <string name="first_sim_card_slot_title">Prvi utor za SIM karticu</string>
     <string name="fiveg_nrca_switch_summary">Poboljšavanje 5G veze za testiranje okruženja</string>
     <string name="fiveg_nrca_switch_title">Agregacija 5G operatera</string>
     <string name="fiveg_sa_switch_summary">Koristi SA mrežu na sekundarnom SIM-u (samo za testiranje)</string>
@@ -7727,7 +7736,7 @@ Odaberite operativni sustav vašeg računala:"</string>
     <string name="network_and_internet_preferences_title">Postavke mreže</string>
     <string name="network_assistant">Uporaba podataka</string>
     <string name="network_auto_switch">Prebacujte se između mreža</string>
-    <string name="network_auto_switch_summery">Prebacite se na mobilne podatke kada je Wi-Fi signal slab ili mreža nije dostupna</string>
+    <string name="network_auto_switch_summery">Kada je kvaliteta Wi-Fi veze loša, prebacite se na drugu dostupnu Wi-Fi mrežu ili koristite mobilne podatke. Korištenje mobilnih podataka može dovesti do dodatnih naknada.</string>
     <string name="network_changed_noti_summary">Upotreba mobilnih podataka</string>
     <string name="network_changed_noti_title">Prekinuta je veza s Wi-Fi-om</string>
     <string name="network_changed_notification_text">Vaša se mobilna mreža promijenila</string>
@@ -8435,6 +8444,8 @@ Pročitajte i prihvatite %s prije korištenja ove usluge."</string>
     <string name="peak_refresh_rate_summary">Automatski povećava učestalost osvježavanja do %1$d Hz za određeni sadržaj. Povećava potrošnju baterije.</string>
     <string name="peak_refresh_rate_title">Glatki prikaz</string>
     <string name="peek_notification_icon_title">Prikaži ikone za nadolazeće obavijesti</string>
+    <string name="peep_protection_v2_banner_summary">Isprobajte značajke prikaza privatnosti ekskluzivne za ovaj model uređaja</string>
+    <string name="peep_protection_v2_main_tile_label">Pametni prikaz privatnosti</string>
     <string name="performance_category">Izvedba</string>
     <string name="perm_toggle_description">Za aplikacije i usluge</string>
     <string name="permission_action_prompt">Pitaj</string>
@@ -9163,6 +9174,7 @@ Svatko tko poveže vaš uređaj s računalom ili instalira zlonamjerne aplikacij
     <string name="protect_eyes_mode">Način čitanja</string>
     <string name="provide_current_sim_pin">Unesite trenutačni PIN SIM kartice</string>
     <string name="provide_current_sim_pin_title">Unesite trenutačni PIN za SIM</string>
+    <string name="provide_new_sim_pin_title">Novi PIN za SIM</string>
     <string name="provider_internet_settings">Internet</string>
     <string name="provider_network_settings_title">SIM-ovi</string>
     <string name="provision_activation">Aktivno</string>
@@ -10106,6 +10118,7 @@ Da biste koristili prikvačivanje aplikacije: \t
     <string name="search_xspace">Dvojna aplikacija;Dvojne aplikacije;Dvostruka aplikacija;Dvostruke aplikacije;Klonirana aplikacija;Klonirane aplikacije;Aplikacija klonirana;Aplikacije klonirane;Dva računa;2 računa</string>
     <string name="searchview_clear_text_content_description">Ukloni tekst</string>
     <string name="searchview_navigation_content_description">Natrag</string>
+    <string name="second_sim_card_slot_title">Drugi utor za SIM karticu</string>
     <string name="second_space">Drugi prostor</string>
     <string name="secondspace_category">Drugi prostor</string>
     <string name="secondspace_delete_space_title">Obriši Drugi prostor</string>
@@ -10803,7 +10816,7 @@ Prelaskom se neće otkazati vaša usluga pri mobilnom operateru %1$s."</string>
     <string name="sim_action_switch_sub_dialog_title">Želite li prijeći na mobilnog operatera %1$s?</string>
     <string name="sim_action_turn_off">Isključi</string>
     <string name="sim_action_yes">Da</string>
-    <string name="sim_auto_pin_management_toggle">Automatsko upravljanje PIN-om</string>
+    <string name="sim_auto_pin_management_toggle">Zaključaj SIM</string>
     <string name="sim_bad_pin">PIN mora sadržavati %1$d-%2$d znamenki</string>
     <string name="sim_calls_always_use">Uvijek upotrebljavaj za pozive</string>
     <string name="sim_calls_ask_first_prefs_title">Pitaj svaki put</string>
@@ -10822,7 +10835,7 @@ Prelaskom se neće otkazati vaša usluga pri mobilnom operateru %1$s."</string>
     <string name="sim_change_failed_enable_sim_lock">Nije moguće promijeniti PIN. Uključite zaključavanje SIM-a.</string>
     <string name="sim_change_pin">PIN za SIM karticu</string>
     <string name="sim_change_succeeded">Uspješno je promijenjen PIN SIM-a</string>
-    <string name="sim_choose_protection_mode_title">Zaštita SIM kartice od krađe</string>
+    <string name="sim_choose_protection_mode_title">Traži PIN za upotrebu telefona</string>
     <string name="sim_combination_warning_notification_title">Poteškoća s kombinacijom SIM-ova</string>
     <string name="sim_disable_sim_lock">Otključajte SIM</string>
     <string name="sim_display_platform_managed_pin">PIN kojim upravlja Android</string>
@@ -10870,13 +10883,15 @@ Prelaskom se neće otkazati vaša usluga pri mobilnom operateru %1$s."</string>
     <string name="sim_pin_change">Promijenite PIN za SIM</string>
     <string name="sim_pin_disable_failed">Onemogućivanje PIN-a nije uspjelo.</string>
     <string name="sim_pin_enable_failed">Omogućivanje PIN-a nije uspjelo.</string>
+    <string name="sim_pin_protection_mode_automatic">Automatski (upravlja Android)</string>
+    <string name="sim_pin_protection_mode_manual">Ručno</string>
     <string name="sim_pin_toggle">Zaključajte SIM</string>
     <string name="sim_pins_dont_match">PIN-ovi se ne podudaraju</string>
     <string name="sim_platform_managed_pin_failure">Dohvaćanje PIN-a nije uspjelo</string>
     <string name="sim_platform_managed_pin_value">Vrijednost PIN-a kojim upravlja Android:</string>
     <string name="sim_preferred_message">%1$s sada je vaš primarni SIM</string>
-    <string name="sim_protection_mode_lskf_required">Za uključivanje zaštite SIM-a potrebno je postaviti zaključani zaslon</string>
-    <string name="sim_protection_mode_manually_managed">PIN-om za SIM upravlja se ručno</string>
+    <string name="sim_protection_mode_lskf_required">Za automatsku zaštitu SIM-a potrebno je zaključavanje zaslona; trenutačno je dostupna samo ručna zaštita</string>
+    <string name="sim_protection_mode_manually_managed">Za upotrebu telefona potreban je PIN</string>
     <string name="sim_protection_mode_protected_by_platform">PIN-om za SIM upravlja Android</string>
     <string name="sim_radio_off">Isključeno</string>
     <string name="sim_reenter_new">Ponovo unesite novi PIN</string>
@@ -13016,6 +13031,7 @@ Kad aplikaciju otvorite pomoću widgeta, trebat ćete potvrditi svoj identitet. 
     <string name="wifi_assistant_auto_confirm_data_message">Koristite mobilne podatke kada se Vaš uređaj ne može povezati na internet putem Wi-Fija.</string>
     <string name="wifi_assistant_confirm_always">Ne pitaj ponovno</string>
     <string name="wifi_assistant_confirm_connection_title">Povezivanje na internet nije moguće</string>
+    <string name="wifi_assistant_confirm_connection_title_poor">Loša Wi-Fi veza</string>
     <string name="wifi_assistant_data_prompt">Upozori</string>
     <string name="wifi_assistant_data_prompt_summary">Prikaži upozorenje o korištenju prilikom prebacivanja na mobilne podatake</string>
     <string name="wifi_assistant_description">"Evo kako ova opcija radi:
